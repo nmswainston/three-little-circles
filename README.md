@@ -1,57 +1,52 @@
 # Three Little Circles
 
-A mobile app built with Expo and React Native.
+A cross-platform mobile app built with Expo and React Native.
 
-## Overview
+## Problem
 
-Three Little Circles is a cross-platform mobile application built with the Expo framework, targeting both iOS and Android from a single TypeScript codebase.
+Some user experiences are genuinely better on native mobile — touch gestures, offline access, and platform conventions that a mobile web app can't fully replicate.
+
+## Solution
+
+Built a cross-platform mobile app with Expo and React Native, targeting both iOS and Android from a single TypeScript codebase.
+
+## Screenshots
+
+> *Add 2–4 screenshots here*
 
 ## Tech Stack
 
 - TypeScript
-- Expo / React Native
-- Metro bundler
+- Expo
+- React Native
 
-## Getting Started
+## Features
 
-### Prerequisites
+- Cross-platform support for iOS and Android
+- Native touch interactions and gestures
+- TypeScript throughout for type safety
+- Expo managed workflow for streamlined builds
 
-- Node.js 18+
-- npm
-- Expo CLI (`npm install -g expo-cli`)
-- Expo Go app on your device (for development), or iOS/Android simulators
-
-### Installation
+## Installation
 
 ```bash
 npm install
-```
-
-### Development
-
-```bash
 npx expo start
 ```
 
-Then scan the QR code with Expo Go, or press `i` for iOS simulator / `a` for Android emulator.
+Scan the QR code with Expo Go, or press `i` for iOS simulator / `a` for Android.
 
-### Build
+## Lessons Learned
 
-```bash
-# iOS
-npx expo build:ios
+- Mobile UX requires rethinking navigation patterns from the ground up compared to web
+- Expo's managed workflow removes a lot of native configuration friction
+- TypeScript in a React Native project catches prop and navigation type errors early
 
-# Android
-npx expo build:android
-```
+## Future Improvements
 
-## Project Structure
-
-```
-src/         # Application source code and screens
-assets/      # Images, fonts, and other static assets
-App.tsx      # App entry point
-```
+- App Store and Google Play deployment
+- Push notifications
+- Offline-first data persistence
 
 ---
 
