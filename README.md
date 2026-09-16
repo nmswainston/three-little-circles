@@ -10,7 +10,7 @@ trademarked.
 
 ## Stack
 
-- Expo SDK 54, React Native 0.81, TypeScript
+- Expo SDK 57, React Native 0.86, TypeScript 6
 - React Navigation (native stack)
 - Zustand with AsyncStorage persistence for found state and achievements
 - react-native-maps on iOS and Android, list fallback on web

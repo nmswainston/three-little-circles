@@ -1,15 +1,8 @@
 module.exports = function (api) {
   api.cache(true);
   return {
-    presets: [
-      [
-        'babel-preset-expo',
-        {
-          // zustand's ESM middleware build uses `import.meta.env`, which
-          // Metro cannot run as-is on web or Hermes. This polyfills it.
-          unstable_transformImportMeta: true,
-        },
-      ],
-    ],
+    // babel-preset-expo 57 polyfills `import.meta` by default (transformImportMeta),
+    // which zustand's ESM middleware build needs on web and Hermes.
+    presets: ['babel-preset-expo'],
   };
 };
