@@ -1,22 +1,53 @@
 # Three Little Circles
 
 An unofficial field guide to Hidden Mickeys and other hidden details in theme
-parks and resorts. Browse by park, land, and attraction, read exactly where to
-look, mark what you have found, and watch your progress fill in.
+parks and resorts. A cross-platform mobile app built with Expo and React Native.
 
 This is a fan project. It is not affiliated with or endorsed by any theme park
 company. Park, land, and attraction names in the app are descriptive rather than
 trademarked.
 
-## Stack
+## Problem
 
-- Expo SDK 57, React Native 0.86, TypeScript 6
+Hunting for Hidden Mickeys is an on-your-feet activity. You are standing in a
+queue with poor signal, trying to work out which mural, which corner, and which
+angle. The apps people relied on for this have gone stale, and a list of vague
+one-line hints does not help when you are looking at the actual wall.
+
+## Solution
+
+Each entry is written as a structured field note: the scene to find first, the
+exact spot within it, the orientation, viewing conditions, a best tip, and how
+confident the sighting is. Entries are browsable by park, land, and attraction.
+Finds are marked with one tap, progress and achievements are computed from them,
+and everything persists on the device with no account. Content lives as one JSON
+file per entry with validation at build time, so growing the guide is a data
+change rather than a code change.
+
+## Screenshots
+
+> *Add 2 to 4 screenshots here*
+
+## Tech Stack
+
+- TypeScript 6
+- Expo SDK 57, React Native 0.86
 - React Navigation (native stack)
-- Zustand with AsyncStorage persistence for found state and achievements
+- Zustand with AsyncStorage persistence
 - react-native-maps on iOS and Android, list fallback on web
 - Jest with jest-expo
 
-## Getting started
+## Features
+
+- Browse by park, land, and attraction, filtered to Hidden Mickeys or easter eggs
+- Every entry spells out the scene, exact spot, orientation, viewing conditions, best tip, and confidence
+- Mark finds and track progress overall, by park, by land, and by attraction
+- Achievements for milestones such as the first find or completing an attraction
+- Progress persists on the device, no sign-in required
+- Map of pinned entries on mobile, with the same entries listed on web
+- One JSON file per entry, validated and compiled at build time
+
+## Installation
 
 ```bash
 npm install
@@ -30,7 +61,7 @@ the QR code with Expo Go.
 Copy `.env.example` to `.env` if you need Supabase or a Google Maps key. Neither
 is required for local development.
 
-## Project layout
+## Project Layout
 
 ```
 content/entries/        One JSON file per Hidden Mickey. This is the source of truth.
@@ -45,7 +76,7 @@ src/utils/progress.ts   Progress and completion math.
 __tests__/              Jest tests.
 ```
 
-## Adding content
+## Adding Content
 
 See [content/README.md](content/README.md). The short version:
 
@@ -63,7 +94,7 @@ That runs content validation, the TypeScript type check, and the Jest suite.
 Each is also available on its own: `npm run content:check`, `npm run typecheck`,
 `npm test`.
 
-## Building for devices
+## Building for Devices
 
 Builds use [EAS Build](https://docs.expo.dev/build/introduction/). One-time setup:
 
@@ -87,7 +118,7 @@ Then:
 Android standalone builds need `GOOGLE_MAPS_ANDROID_API_KEY` set in the EAS
 environment for the map to render. iOS uses Apple Maps and needs no key.
 
-## Data and persistence
+## Data and Persistence
 
 Found marks are stored on the device under the key `tlc.found.v1` and unlocked
 achievements under `tlc.achievements.v1`. Achievements are recalculated from the
@@ -98,12 +129,24 @@ The Supabase client in `src/lib/supabase.ts` is initialized when credentials are
 present but nothing calls it yet. It is there for future sync and community
 submissions.
 
-## Known gaps
+## Lessons Learned
 
-- Coordinates on the current entries are approximate to the attraction or
-  building and were placed by hand. Verify on site before relying on them.
-- Twelve entries ship today. The content pipeline is built so that adding more is
-  a JSON file, not a code change.
-- `App.tsx` suppresses several web-only console warnings from React Navigation
-  and third-party stylesheets. They are cosmetic, but the suppression is a
-  workaround rather than a fix.
+- Mobile UX requires rethinking navigation patterns from the ground up compared to web
+- Expo's managed workflow removes a lot of native configuration friction
+- TypeScript in a React Native project catches prop and navigation type errors early
+- Two parallel data models (one for browsing, one for the map and profile) drifted apart quickly. Unifying on a single entry type fixed a whole class of bugs at once.
+- Upgrade the Expo SDK with `npx expo install --fix`, never `npm audit fix --force`. The latter bumps packages partway and leaves node_modules inconsistent.
+- TypeScript 6 no longer includes `@types` packages automatically, so test globals need an explicit `types` list in tsconfig
+
+## Future Improvements
+
+- App Store and Google Play deployment (EAS build profiles are in place)
+- More content. Twelve entries ship today, and the pipeline makes each new one a JSON file.
+- Verify map coordinates on site. The current ones were placed by hand and are approximate to the building.
+- Supabase sync and community submissions
+- Push notifications
+- Replace the web console-warning suppression in `App.tsx` with real fixes
+
+---
+
+*Built by [nmswainston](https://github.com/nmswainston)*
