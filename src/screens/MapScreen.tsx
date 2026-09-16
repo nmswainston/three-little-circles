@@ -7,10 +7,11 @@ import { RootStackParamList } from "../navigation/types";
 import { getAllEntries, getParksSummary } from "../data/query";
 import { labelOrFallback } from "../data/labels";
 import { useFoundStore } from "../store/useFoundStore";
+import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
+import { spacing, radii, text } from "../theme/tokens";
+import PageHeader from "../components/layout/PageHeader";
 import ParkPicker from "../components/ParkPicker";
 import EntryCard from "../components/EntryCard";
-import AppShell from "../components/layout/AppShell";
-import { colors, spacing, typography } from "../theme/tokens";
 
 type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 
@@ -24,6 +25,8 @@ const FALLBACK_REGION: Region = {
 
 export default function MapScreen() {
   const navigation = useNavigation<NavigationProp>();
+  const t = useTheme();
+  const styles = useStyles(createStyles);
   const mapRef = useRef<MapView>(null);
   const parks = useMemo(() => getParksSummary(), []);
   const [selectedParkId, setSelectedParkId] = useState<string | undefined>(parks[0]?.parkId);
@@ -48,22 +51,18 @@ export default function MapScreen() {
   }, [pinned]);
 
   return (
-    <AppShell title="Map" subtitle="Sightlines and queues" contentStyle={styles.content}>
+    <View style={styles.screen}>
+      <PageHeader title="Map" subtitle="Sightlines and queues." />
       <ParkPicker parks={parks} selectedParkId={selectedParkId} onSelect={setSelectedParkId} />
       <View style={styles.mapContainer}>
-        <MapView
-          ref={mapRef}
-          style={styles.map}
-          initialRegion={FALLBACK_REGION}
-          showsUserLocation={false}
-        >
+        <MapView ref={mapRef} style={styles.map} initialRegion={FALLBACK_REGION} showsUserLocation={false}>
           {pinned.map((entry) => (
             <Marker
               key={entry.id}
               coordinate={entry.coordinates!}
               title={labelOrFallback(entry.display?.entryTitle, "Hidden Find")}
               description={entry.display?.attractionName}
-              pinColor={entry.id in found ? colors.success : colors.error}
+              pinColor={entry.id in found ? t.colors.success : t.colors.error}
               onCalloutPress={() => navigation.navigate("EntryDetail", { entryId: entry.id })}
             />
           ))}
@@ -73,35 +72,44 @@ export default function MapScreen() {
         {pinned.length} pinned{unpinned.length > 0 ? `, ${unpinned.length} without a location yet` : ""}. Tap a pin, then its label, for details.
       </Text>
       {unpinned.length > 0 && (
-        <ScrollView style={styles.unpinnedList} showsVerticalScrollIndicator={false}>
+        <ScrollView style={styles.unpinnedList} contentContainerStyle={styles.unpinnedContent} showsVerticalScrollIndicator={false}>
           {unpinned.map((entry) => (
             <EntryCard key={entry.id} entry={entry} showLocation />
           ))}
         </ScrollView>
       )}
-    </AppShell>
+    </View>
   );
 }
 
-const styles = StyleSheet.create({
-  content: {
-    paddingHorizontal: 0,
-  },
-  mapContainer: {
-    flex: 1,
-    backgroundColor: colors.background,
-  },
-  map: {
-    flex: 1,
-  },
-  summary: {
-    paddingHorizontal: spacing.xl,
-    paddingVertical: spacing.sm,
-    fontSize: typography.sizes.xs,
-    color: colors.textMuted,
-  },
-  unpinnedList: {
-    maxHeight: 220,
-    paddingHorizontal: spacing.xl,
-  },
-});
+const createStyles = (t: Theme) =>
+  StyleSheet.create({
+    screen: {
+      flex: 1,
+      backgroundColor: t.colors.background,
+    },
+    mapContainer: {
+      flex: 1,
+      marginHorizontal: spacing.lg,
+      borderRadius: radii.lg,
+      overflow: "hidden",
+      backgroundColor: t.colors.surface,
+    },
+    map: {
+      flex: 1,
+    },
+    summary: {
+      ...text.bodySmall,
+      color: t.colors.textMuted,
+      paddingHorizontal: spacing.lg,
+      paddingVertical: spacing.sm,
+    },
+    unpinnedList: {
+      maxHeight: 220,
+    },
+    unpinnedContent: {
+      paddingHorizontal: spacing.lg,
+      paddingBottom: spacing.md,
+      gap: spacing.sm + 2,
+    },
+  });

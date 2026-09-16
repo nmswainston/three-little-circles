@@ -69,7 +69,8 @@ content/TEMPLATE.json   Starting point for a new entry.
 scripts/build-entries.mjs
                         Validates content and writes src/data/entries.generated.ts.
 src/data/               Entry types, query helpers, generated entries.
-src/store/              Zustand stores (found state, achievements).
+src/store/              Zustand stores (found state, achievements, settings).
+src/theme/              Day and night color themes, per-park accents, useTheme and useStyles hooks.
 src/screens/            One file per screen. MapScreen.web.tsx replaces the map on web.
 src/components/         Shared UI.
 src/utils/progress.ts   Progress and completion math.
@@ -120,8 +121,9 @@ environment for the map to render. iOS uses Apple Maps and needs no key.
 
 ## Data and Persistence
 
-Found marks are stored on the device under the key `tlc.found.v1` and unlocked
-achievements under `tlc.achievements.v1`. Achievements are recalculated from the
+Found marks are stored on the device under the key `tlc.found.v1`, unlocked
+achievements under `tlc.achievements.v1`, and the appearance setting (system,
+day, or night) under `tlc.settings.v1`. Achievements are recalculated from the
 found map whenever it changes, and once earned they stay earned even if a find is
 un-marked. "Reset found progress" on the Profile screen clears the found map.
 

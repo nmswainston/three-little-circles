@@ -145,3 +145,26 @@ export function getEntriesByAttraction(
 export function formatSubtitle(entry: HiddenMickeyEntry): string {
   return `${entry.locationType} • ${entry.difficulty}`;
 }
+
+/**
+ * Case-insensitive search across an entry's title, attraction, land, park,
+ * and description. Every whitespace-separated term must match somewhere.
+ */
+export function searchEntries(query: string): HiddenMickeyEntry[] {
+  const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+  if (terms.length === 0) return [];
+
+  return entries.filter((entry) => {
+    const haystack = [
+      entry.display?.entryTitle,
+      entry.display?.attractionName,
+      entry.display?.landName,
+      entry.display?.parkName,
+      entry.description,
+    ]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+    return terms.every((term) => haystack.includes(term));
+  });
+}

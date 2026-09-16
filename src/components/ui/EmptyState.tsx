@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ViewStyle } from 'react-native';
-import { colors, spacing, radii, typography } from '../../theme/tokens';
+import { useTheme, useStyles, Theme } from '../../theme/ThemeProvider';
+import { spacing, radii, typography } from '../../theme/tokens';
 import ThreeCircles from './ThreeCircles';
 
 interface EmptyStateProps {
@@ -18,6 +19,7 @@ export default function EmptyState({
   onAction,
   style,
 }: EmptyStateProps) {
+  const styles = useStyles(createStyles);
   return (
     <View style={[styles.container, style]}>
       <View style={styles.content}>
@@ -34,7 +36,7 @@ export default function EmptyState({
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (t: Theme) => StyleSheet.create({
   container: {
     backgroundColor: 'transparent',
     padding: spacing.xxl,
@@ -46,21 +48,21 @@ const styles = StyleSheet.create({
   title: {
     fontSize: typography.sizes.md,
     fontWeight: typography.weights.medium,
-    color: colors.text,
+    color: t.colors.text,
     textAlign: 'center',
     letterSpacing: typography.letterSpacing.tight,
   },
   message: {
     fontSize: typography.sizes.base,
     lineHeight: typography.lineHeights.relaxed,
-    color: colors.textSecondary,
+    color: t.colors.textSecondary,
     textAlign: 'center',
     maxWidth: 280,
   },
   button: {
-    backgroundColor: colors.card,
+    backgroundColor: t.colors.card,
     borderWidth: 1,
-    borderColor: colors.border,
+    borderColor: t.colors.border,
     paddingHorizontal: spacing.xl,
     paddingVertical: spacing.md,
     borderRadius: radii.md,
@@ -69,7 +71,7 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: typography.sizes.base,
     fontWeight: typography.weights.medium,
-    color: colors.text,
+    color: t.colors.text,
     letterSpacing: typography.letterSpacing.tight,
   },
 });

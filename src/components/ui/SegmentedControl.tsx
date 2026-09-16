@@ -1,9 +1,16 @@
 import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { colors, spacing, radii, typography } from '../../theme/tokens';
+import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { EntryType } from '../../data/types';
+import { Theme, useStyles } from '../../theme/ThemeProvider';
+import { spacing, radii, text } from '../../theme/tokens';
 
 export type SegmentedControlOption = 'All' | EntryType;
+
+const LABELS: Record<SegmentedControlOption, string> = {
+  All: 'All',
+  FIND: 'Finds',
+  FACT: 'Facts',
+};
 
 interface SegmentedControlProps {
   options: SegmentedControlOption[];
@@ -11,79 +18,57 @@ interface SegmentedControlProps {
   onValueChange: (value: SegmentedControlOption) => void;
 }
 
-export default function SegmentedControl({
-  options,
-  selectedValue,
-  onValueChange,
-}: SegmentedControlProps) {
-  return (
-    <View style={styles.container}>
-      {options.map((option, index) => {
-        const isSelected = option === selectedValue;
-        const isFirst = index === 0;
-        const isLast = index === options.length - 1;
+/** Filter between everything, Hidden Mickey finds, and easter-egg facts. */
+export default function SegmentedControl({ options, selectedValue, onValueChange }: SegmentedControlProps) {
+  const styles = useStyles(createStyles);
 
+  return (
+    <View style={styles.container} accessibilityRole="tablist">
+      {options.map((option) => {
+        const selected = option === selectedValue;
         return (
-          <TouchableOpacity
+          <Pressable
             key={option}
-            style={[
-              styles.segment,
-              isFirst && styles.segmentFirst,
-              isLast && styles.segmentLast,
-              isSelected && styles.segmentSelected,
-            ]}
             onPress={() => onValueChange(option)}
-            activeOpacity={0.7}
+            accessibilityRole="tab"
+            accessibilityState={{ selected }}
+            style={[styles.segment, selected && styles.segmentSelected]}
           >
-            <Text
-              style={[
-                styles.segmentText,
-                isSelected && styles.segmentTextSelected,
-              ]}
-            >
-              {option}
-            </Text>
-          </TouchableOpacity>
+            <Text style={[styles.label, selected && styles.labelSelected]}>{LABELS[option]}</Text>
+          </Pressable>
         );
       })}
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flexDirection: 'row',
-    backgroundColor: colors.surface,
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderRadius: radii.md,
-    padding: spacing.xs,
-    gap: spacing.xs,
-  },
-  segment: {
-    flex: 1,
-    paddingVertical: spacing.sm,
-    paddingHorizontal: spacing.md,
-    borderRadius: radii.sm,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  segmentFirst: {
-    marginLeft: 0,
-  },
-  segmentLast: {
-    marginRight: 0,
-  },
-  segmentSelected: {
-    backgroundColor: colors.primary,
-  },
-  segmentText: {
-    fontSize: typography.sizes.sm,
-    fontWeight: typography.weights.medium,
-    color: colors.textSecondary,
-  },
-  segmentTextSelected: {
-    color: colors.text,
-    fontWeight: typography.weights.semibold,
-  },
-});
+const createStyles = (t: Theme) =>
+  StyleSheet.create({
+    container: {
+      flexDirection: 'row',
+      gap: spacing.xs,
+      padding: spacing.xs,
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.md,
+      borderWidth: 1,
+      borderColor: t.colors.border,
+    },
+    segment: {
+      flex: 1,
+      height: 36,
+      borderRadius: radii.sm,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    segmentSelected: {
+      backgroundColor: t.colors.ink,
+    },
+    label: {
+      ...text.meta,
+      color: t.colors.textSecondary,
+    },
+    labelSelected: {
+      ...text.chip,
+      color: t.colors.onInk,
+    },
+  });
