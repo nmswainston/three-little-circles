@@ -1,7 +1,8 @@
 import React from "react";
-import { ScrollView, Text, StyleSheet, Pressable } from "react-native";
+import { ScrollView, StyleSheet } from "react-native";
 import { ParkSummary } from "../data/query";
-import { colors, spacing, radii, typography } from "../theme/tokens";
+import { spacing } from "../theme/tokens";
+import Chip from "./ui/Chip";
 
 interface ParkPickerProps {
   parks: ParkSummary[];
@@ -18,25 +19,15 @@ export default function ParkPicker({ parks, selectedParkId, onSelect }: ParkPick
   ];
 
   return (
-    <ScrollView
-      horizontal
-      showsHorizontalScrollIndicator={false}
-      contentContainerStyle={styles.row}
-    >
-      {options.map((opt) => {
-        const selected = opt.id === selectedParkId;
-        return (
-          <Pressable
-            key={opt.id ?? "all"}
-            onPress={() => onSelect(opt.id)}
-            style={[styles.chip, selected && styles.chipSelected]}
-            accessibilityRole="button"
-            accessibilityState={{ selected }}
-          >
-            <Text style={[styles.chipText, selected && styles.chipTextSelected]}>{opt.label}</Text>
-          </Pressable>
-        );
-      })}
+    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.row}>
+      {options.map((opt) => (
+        <Chip
+          key={opt.id ?? "all"}
+          label={opt.label}
+          selected={opt.id === selectedParkId}
+          onPress={() => onSelect(opt.id)}
+        />
+      ))}
     </ScrollView>
   );
 }
@@ -46,26 +37,5 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.xl,
     paddingVertical: spacing.sm,
     gap: spacing.sm,
-  },
-  chip: {
-    paddingVertical: spacing.sm,
-    paddingHorizontal: spacing.md,
-    borderRadius: radii.full,
-    backgroundColor: colors.card,
-    borderWidth: 1,
-    borderColor: colors.border,
-  },
-  chipSelected: {
-    backgroundColor: colors.primary,
-    borderColor: colors.primary,
-  },
-  chipText: {
-    fontSize: typography.sizes.sm,
-    fontWeight: typography.weights.medium,
-    color: colors.textSecondary,
-  },
-  chipTextSelected: {
-    color: colors.text,
-    fontWeight: typography.weights.semibold,
   },
 });

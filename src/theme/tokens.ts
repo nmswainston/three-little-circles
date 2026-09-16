@@ -1,37 +1,9 @@
-import { Platform } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
 /**
- * Theme tokens for Three Little Circles app
- * Extracted from HomeScreen branding for consistency
+ * Scale tokens shared by every theme: spacing, radii, type, shadows.
+ * Colors live in themes.ts and are reached through useTheme().
  */
-
-// Color Palette - Archival Disney aesthetic
-export const colors = {
-  // Backgrounds – immersive, evening-sky feel
-  background: '#0B1D3A',            // deep twilight blue
-  backgroundSecondary: '#13294B',   // slightly lifted blue
-  surface: '#1A2F55',               // card/section surface
-  card: '#1A2F55',
-  overlay: 'rgba(0,0,0,0.6)',
-
-  // Text – warm, readable, never stark white
-  text: '#F5F3E7',                  // warm off-white
-  textSecondary: '#D1D5DB',
-  textMuted: '#9CA3AF',
-  textDark: '#F5F3E7',
-
-  // Brand accent – confident, not loud
-  primary: '#3B82F6',               // classic Disney-adjacent blue
-  primaryLight: 'rgba(59,130,246,0.15)',
-  border: 'rgba(245,243,231,0.12)',
-  borderLight: 'rgba(245,243,231,0.06)',
-
-  // Status
-  success: '#22C55E',
-  successLight: 'rgba(34,197,94,0.18)',
-  error: '#EF4444',
-  warning: '#F59E0B',
-} as const;
 
 // Spacing Scale - generous vertical rhythm
 export const spacing = {
@@ -65,6 +37,7 @@ export const typography = {
     xl: 24,
     xxl: 28, // Headers feel confident
     xxxl: 32,
+    display: 36,
   },
   weights: {
     normal: '400' as const,
@@ -83,8 +56,103 @@ export const typography = {
     tight: -0.3, // Tighter for headers
     normal: 0,
     wide: 0.3,
+    caps: 1.2, // Uppercase eyebrow labels
+  },
+  /**
+   * Font families loaded in App.tsx. Custom fonts carry their own weight,
+   * so pair these with fontWeight: 'normal' rather than a numeric weight.
+   */
+  fonts: {
+    display: 'LilitaOne_400Regular',
+    body: 'Nunito_400Regular',
+    bodySemibold: 'Nunito_600SemiBold',
+    bodyBold: 'Nunito_700Bold',
+    bodyExtrabold: 'Nunito_800ExtraBold',
   },
 } as const;
+
+/**
+ * Text presets: family, size, and line height only. Pair with a color from
+ * the theme. Custom fonts carry their own weight, so fontWeight stays normal.
+ */
+export const text = StyleSheet.create({
+  display: {
+    fontFamily: typography.fonts.display,
+    fontWeight: 'normal',
+    fontSize: typography.sizes.display,
+    lineHeight: 40,
+  },
+  title: {
+    fontFamily: typography.fonts.display,
+    fontWeight: 'normal',
+    fontSize: typography.sizes.xxl,
+    lineHeight: 32,
+  },
+  sectionTitle: {
+    fontFamily: typography.fonts.display,
+    fontWeight: 'normal',
+    fontSize: typography.sizes.lg,
+    lineHeight: 24,
+  },
+  cardTitle: {
+    fontFamily: typography.fonts.bodyExtrabold,
+    fontWeight: 'normal',
+    fontSize: typography.sizes.md,
+    lineHeight: 22,
+  },
+  itemTitle: {
+    fontFamily: typography.fonts.bodyBold,
+    fontWeight: 'normal',
+    fontSize: typography.sizes.base,
+    lineHeight: 20,
+  },
+  body: {
+    fontFamily: typography.fonts.body,
+    fontWeight: 'normal',
+    fontSize: typography.sizes.base,
+    lineHeight: 24,
+  },
+  bodySmall: {
+    fontFamily: typography.fonts.body,
+    fontWeight: 'normal',
+    fontSize: typography.sizes.sm,
+    lineHeight: 20,
+  },
+  meta: {
+    fontFamily: typography.fonts.bodyBold,
+    fontWeight: 'normal',
+    fontSize: typography.sizes.sm,
+    lineHeight: 18,
+  },
+  eyebrow: {
+    fontFamily: typography.fonts.bodyExtrabold,
+    fontWeight: 'normal',
+    fontSize: typography.sizes.sm,
+    lineHeight: 18,
+    letterSpacing: typography.letterSpacing.caps,
+    textTransform: 'uppercase',
+  },
+  labelCaps: {
+    fontFamily: typography.fonts.bodyExtrabold,
+    fontWeight: 'normal',
+    fontSize: typography.sizes.xs,
+    lineHeight: 14,
+    letterSpacing: 0.6,
+    textTransform: 'uppercase',
+  },
+  chip: {
+    fontFamily: typography.fonts.bodyExtrabold,
+    fontWeight: 'normal',
+    fontSize: typography.sizes.sm,
+    lineHeight: 16,
+  },
+  button: {
+    fontFamily: typography.fonts.bodyExtrabold,
+    fontWeight: 'normal',
+    fontSize: typography.sizes.md,
+    lineHeight: 22,
+  },
+});
 
 // Shadows (Platform-specific)
 export const shadows = {

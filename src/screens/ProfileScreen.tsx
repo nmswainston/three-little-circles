@@ -1,334 +1,371 @@
-import React, { useMemo } from "react";
-import { Text, StyleSheet, ScrollView, View, Pressable, Alert, Platform } from "react-native";
-import { getAllEntries } from "../data/query";
+import React, { ReactNode, useMemo } from "react";
+import { ScrollView, StyleSheet, View, Text, Pressable, Alert, Platform } from "react-native";
+import { Ionicons } from "@expo/vector-icons";
+import { getAllEntries, getEntryById } from "../data/query";
+import { getDestinationSummaries } from "../data/destinations";
 import { labelOrFallback } from "../data/labels";
 import { useFoundStore } from "../store/useFoundStore";
-import { useAchievementsStore, ACHIEVEMENTS } from "../store/useAchievementsStore";
-import { groupProgress, summarize, percent, ProgressGroup } from "../utils/progress";
-import AppShell from "../components/layout/AppShell";
-import Section from "../components/layout/Section";
-import { colors, spacing, radii, typography } from "../theme/tokens";
+import { useAchievementsStore, ACHIEVEMENTS, AchievementId } from "../store/useAchievementsStore";
+import { useSettingsStore, Appearance } from "../store/useSettingsStore";
+import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
+import { spacing, radii, text } from "../theme/tokens";
+import PageHeader from "../components/layout/PageHeader";
+import ProgressRing from "../components/ui/ProgressRing";
+import Chip from "../components/ui/Chip";
+import Disclaimer from "../components/Disclaimer";
 
-function byName(a: ProgressGroup, b: ProgressGroup) {
-  return a.name.localeCompare(b.name);
-}
+type IconName = keyof typeof Ionicons.glyphMap;
+
+const ACHIEVEMENT_ICONS: Record<AchievementId, IconName> = {
+  FIRST_FIND: "star",
+  TEN_FINDS: "map",
+  PARK_COMPLETE: "trophy",
+  LAND_COMPLETE: "leaf",
+  ATTRACTION_COMPLETE: "film",
+  RESORT_COMPLETE: "home",
+};
+
+const APPEARANCE_OPTIONS: { value: Appearance; label: string }[] = [
+  { value: "system", label: "System" },
+  { value: "day", label: "Day" },
+  { value: "night", label: "Night" },
+];
 
 export default function ProfileScreen() {
+  const t = useTheme();
+  const styles = useStyles(createStyles);
+
   const found = useFoundStore((s) => s.found);
   const clearAll = useFoundStore((s) => s.clearAll);
   const unlocked = useAchievementsStore((s) => s.unlocked);
+  const appearance = useSettingsStore((s) => s.appearance);
+  const setAppearance = useSettingsStore((s) => s.setAppearance);
 
   const entries = useMemo(() => getAllEntries(), []);
-  const isFound = useMemo(() => (id: string) => id in found, [found]);
+  const total = entries.length;
+  const foundCount = entries.filter((e) => e.id in found).length;
+  const progress = total > 0 ? foundCount / total : 0;
 
-  const overall = useMemo(() => summarize(entries, isFound), [entries, isFound]);
+  const latest = useMemo(() => {
+    let best: { id: string; at: number } | undefined;
+    for (const [id, at] of Object.entries(found)) {
+      if (getEntryById(id) && (!best || at > best.at)) best = { id, at };
+    }
+    return best ? getEntryById(best.id) : undefined;
+  }, [found]);
 
-  const parkProgress = useMemo(
-    () =>
-      groupProgress(entries, isFound, (e) => ({
-        key: e.parkId,
-        name: labelOrFallback(e.display?.parkName, e.parkId),
-      })).sort(byName),
-    [entries, isFound]
-  );
-
-  const landProgress = useMemo(
-    () =>
-      groupProgress(entries, isFound, (e) => ({
-        key: `${e.parkId}/${e.landId}`,
-        name: `${labelOrFallback(e.display?.landName, e.landId)} (${labelOrFallback(e.display?.parkName, e.parkId)})`,
-      })).sort(byName),
-    [entries, isFound]
-  );
-
-  const attractionProgress = useMemo(
-    () =>
-      groupProgress(entries, isFound, (e) => ({
-        key: `${e.parkId}/${e.landId}/${e.attractionId}`,
-        name: labelOrFallback(e.display?.attractionName, e.attractionId),
-      })).sort(byName),
-    [entries, isFound]
-  );
+  const parks = useMemo(() => getDestinationSummaries().filter((d) => d.count > 0), []);
+  const foundByPark = useMemo(() => {
+    const map = new Map<string, number>();
+    for (const entry of entries) {
+      if (entry.id in found) map.set(entry.parkId, (map.get(entry.parkId) ?? 0) + 1);
+    }
+    return map;
+  }, [entries, found]);
 
   const handleReset = () => {
-    const confirmAndClear = () => clearAll();
     if (Platform.OS === "web") {
       if (typeof window !== "undefined" && window.confirm("Clear all your found marks? This cannot be undone.")) {
-        confirmAndClear();
+        clearAll();
       }
       return;
     }
     Alert.alert("Reset progress", "Clear all your found marks? This cannot be undone.", [
       { text: "Cancel", style: "cancel" },
-      { text: "Clear", style: "destructive", onPress: confirmAndClear },
+      { text: "Clear", style: "destructive", onPress: clearAll },
     ]);
   };
 
   return (
-    <AppShell title="Profile" subtitle="What you've noticed">
-      <ScrollView showsVerticalScrollIndicator={false}>
-        <Section title="Progress" description={`${overall.found} of ${overall.total} documented`}>
-          <View style={styles.statsCard}>
-            <View style={styles.statsRow}>
-              <Stat value={overall.found} label="Found" />
-              <View style={styles.statDivider} />
-              <Stat value={overall.total} label="Total" />
-              <View style={styles.statDivider} />
-              <Stat value={`${Math.round(percent(overall))}%`} label="Complete" />
+    <View style={styles.screen}>
+      <ScrollView contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
+        <PageHeader title="Profile" subtitle="What you've noticed." />
+
+        <View style={styles.body}>
+          <View style={styles.hero}>
+            <View style={styles.ringWrap}>
+              <ProgressRing progress={progress} size={100} strokeWidth={10} />
+              <View style={styles.ringCenter}>
+                <Text style={styles.ringPct}>{Math.round(progress * 100)}%</Text>
+                <Text style={styles.ringLabel}>complete</Text>
+              </View>
             </View>
-            <ProgressBar pct={percent(overall)} />
+            <View style={styles.heroText}>
+              <Text style={styles.heroCount}>
+                {foundCount} of {total}
+              </Text>
+              <Text style={styles.heroCaption}>hidden details found</Text>
+              {latest && (
+                <View style={styles.latest}>
+                  <Text style={styles.latestLabel}>Latest find</Text>
+                  <Text style={styles.latestValue} numberOfLines={2}>
+                    {labelOrFallback(latest.display?.entryTitle, "Hidden Find")}
+                  </Text>
+                </View>
+              )}
+            </View>
           </View>
-        </Section>
 
-        <ProgressSection title="By Park" description="See how close you are in each park" groups={parkProgress} />
-        <ProgressSection title="By Land" description="Zoom in on specific areas" groups={landProgress} />
-        <ProgressSection title="By Attraction" description="Track progress by ride or attraction" groups={attractionProgress} />
+          <Section title="By park">
+            <View style={styles.listCard}>
+              {parks.map((park, index) => {
+                const palette = t.parks[park.parkKey];
+                const parkFound = foundByPark.get(park.parkId) ?? 0;
+                return (
+                  <React.Fragment key={park.parkId}>
+                    {index > 0 && <View style={styles.divider} />}
+                    <View style={styles.parkRow}>
+                      <View style={[styles.dot, { backgroundColor: palette.accent }]} />
+                      <Text style={styles.parkName} numberOfLines={1}>
+                        {park.name}
+                      </Text>
+                      <Text style={styles.parkMeta}>
+                        {parkFound} / {park.count}
+                      </Text>
+                      <ProgressRing progress={parkFound / park.count} size={24} strokeWidth={4} color={palette.accent} />
+                    </View>
+                  </React.Fragment>
+                );
+              })}
+            </View>
+          </Section>
 
-        <Section title="Achievements" description="Little milestones as you explore">
-          <View style={styles.listCard}>
-            {ACHIEVEMENTS.map((achievement) => {
-              const earned = unlocked.includes(achievement.id);
-              return (
-                <View key={achievement.id} style={styles.achievementItem}>
-                  <View style={styles.achievementText}>
-                    <Text style={[styles.achievementTitle, earned && styles.achievementTitleUnlocked]}>
+          <Section title="Achievements">
+            <View style={styles.grid}>
+              {ACHIEVEMENTS.map((achievement) => {
+                const earned = unlocked.includes(achievement.id);
+                return (
+                  <View
+                    key={achievement.id}
+                    style={styles.badge}
+                    accessibilityLabel={`${achievement.title}, ${earned ? "unlocked" : "locked"}. ${achievement.description}`}
+                  >
+                    <View style={[styles.badgeDisc, earned ? styles.badgeDiscEarned : styles.badgeDiscLocked]}>
+                      <Ionicons
+                        name={ACHIEVEMENT_ICONS[achievement.id]}
+                        size={20}
+                        color={earned ? t.colors.onPrimary : t.colors.textMuted}
+                      />
+                    </View>
+                    <Text style={[styles.badgeTitle, earned && styles.badgeTitleEarned]} numberOfLines={2}>
                       {achievement.title}
                     </Text>
-                    <Text style={styles.achievementDescription}>{achievement.description}</Text>
                   </View>
-                  <View style={[styles.badge, earned ? styles.badgeUnlocked : styles.badgeLocked]}>
-                    <Text style={[styles.badgeText, earned && styles.badgeTextUnlocked]}>
-                      {earned ? "Unlocked" : "Locked"}
-                    </Text>
-                  </View>
-                </View>
-              );
-            })}
-          </View>
-        </Section>
-
-        <Section title="About" description="">
-          <View style={styles.disclaimerCard}>
-            <Text style={styles.disclaimerText}>
-              Unofficial fan-created guide. Not affiliated with or endorsed by any theme park company.
-            </Text>
-          </View>
-          {overall.found > 0 && (
-            <Pressable onPress={handleReset} style={styles.resetButton} accessibilityRole="button">
-              <Text style={styles.resetText}>Reset found progress</Text>
-            </Pressable>
-          )}
-        </Section>
-
-        <View style={{ height: spacing.xl }} />
-      </ScrollView>
-    </AppShell>
-  );
-}
-
-function Stat({ value, label }: { value: number | string; label: string }) {
-  return (
-    <View style={styles.statItem}>
-      <Text style={styles.statValue}>{value}</Text>
-      <Text style={styles.statLabel}>{label}</Text>
-    </View>
-  );
-}
-
-function ProgressBar({ pct }: { pct: number }) {
-  return (
-    <View style={styles.progressBar}>
-      <View style={[styles.progressFill, { width: `${pct}%` }]} />
-    </View>
-  );
-}
-
-function ProgressSection({
-  title,
-  description,
-  groups,
-}: {
-  title: string;
-  description: string;
-  groups: ProgressGroup[];
-}) {
-  return (
-    <Section title={title} description={description}>
-      <View style={styles.listCard}>
-        {groups.length > 0 ? (
-          groups.map((g) => (
-            <View key={g.key} style={styles.listItem}>
-              <View style={styles.listItemHeader}>
-                <Text style={styles.listItemTitle} numberOfLines={1}>
-                  {g.name}
-                </Text>
-                <Text style={styles.listItemMeta}>
-                  {g.found} / {g.total}
-                </Text>
-              </View>
-              <ProgressBar pct={g.pct} />
+                );
+              })}
             </View>
-          ))
-        ) : (
-          <Text style={styles.emptyText}>Nothing documented yet</Text>
-        )}
-      </View>
-    </Section>
+          </Section>
+
+          <Section title="Appearance">
+            <View style={styles.chipRow}>
+              {APPEARANCE_OPTIONS.map((option) => (
+                <Chip
+                  key={option.value}
+                  label={option.label}
+                  selected={appearance === option.value}
+                  onPress={() => setAppearance(option.value)}
+                />
+              ))}
+            </View>
+            <Text style={styles.caption}>System follows your device setting.</Text>
+          </Section>
+
+          <Section title="About">
+            <View style={styles.aboutCard}>
+              <Disclaimer />
+            </View>
+            {foundCount > 0 && (
+              <Pressable onPress={handleReset} accessibilityRole="button" style={styles.resetButton}>
+                <Text style={styles.resetText}>Reset found progress</Text>
+              </Pressable>
+            )}
+          </Section>
+        </View>
+      </ScrollView>
+    </View>
   );
 }
 
-const styles = StyleSheet.create({
-  statsCard: {
-    backgroundColor: colors.surface,
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderRadius: radii.lg,
-    padding: spacing.xl,
-  },
-  statsRow: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-around",
-    marginBottom: spacing.lg,
-  },
-  statItem: {
-    alignItems: "center",
-    flex: 1,
-  },
-  statValue: {
-    fontSize: typography.sizes.xxxl,
-    fontWeight: typography.weights.extrabold,
-    color: colors.primary,
-    marginBottom: spacing.xs,
-  },
-  statLabel: {
-    fontSize: typography.sizes.sm,
-    color: colors.textSecondary,
-    textTransform: "uppercase",
-    letterSpacing: 0.5,
-  },
-  statDivider: {
-    width: 1,
-    height: 40,
-    backgroundColor: colors.border,
-  },
-  progressBar: {
-    height: 8,
-    backgroundColor: colors.border,
-    borderRadius: radii.full,
-    overflow: "hidden",
-  },
-  progressFill: {
-    height: "100%",
-    backgroundColor: colors.success,
-    borderRadius: radii.full,
-  },
-  listCard: {
-    backgroundColor: colors.surface,
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderRadius: radii.lg,
-    padding: spacing.lg,
-    gap: spacing.md,
-  },
-  listItem: {
-    gap: spacing.xs,
-  },
-  listItemHeader: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    marginBottom: spacing.xs,
-    gap: spacing.sm,
-  },
-  listItemTitle: {
-    flex: 1,
-    fontSize: typography.sizes.md,
-    fontWeight: typography.weights.semibold,
-    color: colors.text,
-  },
-  listItemMeta: {
-    fontSize: typography.sizes.sm,
-    color: colors.textSecondary,
-  },
-  achievementItem: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-between",
-    paddingVertical: spacing.xs,
-    gap: spacing.md,
-  },
-  achievementText: {
-    flex: 1,
-  },
-  achievementTitle: {
-    fontSize: typography.sizes.md,
-    fontWeight: typography.weights.semibold,
-    color: colors.textSecondary,
-  },
-  achievementTitleUnlocked: {
-    color: colors.success,
-  },
-  achievementDescription: {
-    fontSize: typography.sizes.sm,
-    color: colors.textSecondary,
-    marginTop: spacing.xs,
-  },
-  badge: {
-    borderRadius: radii.full,
-    paddingHorizontal: spacing.md,
-    paddingVertical: spacing.xs,
-    borderWidth: 1,
-  },
-  badgeUnlocked: {
-    backgroundColor: colors.successLight,
-    borderColor: colors.success,
-  },
-  badgeLocked: {
-    backgroundColor: colors.surface,
-    borderColor: colors.border,
-  },
-  badgeText: {
-    fontSize: typography.sizes.xs,
-    textTransform: "uppercase",
-    letterSpacing: 0.5,
-    color: colors.textSecondary,
-    fontWeight: typography.weights.medium,
-  },
-  badgeTextUnlocked: {
-    color: colors.success,
-  },
-  disclaimerCard: {
-    backgroundColor: colors.surface,
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderRadius: radii.lg,
-    padding: spacing.lg,
-  },
-  disclaimerText: {
-    fontSize: typography.sizes.sm,
-    lineHeight: typography.lineHeights.relaxed,
-    color: colors.textSecondary,
-  },
-  resetButton: {
-    marginTop: spacing.md,
-    alignSelf: "flex-start",
-    paddingVertical: spacing.sm,
-    paddingHorizontal: spacing.md,
-    borderRadius: radii.md,
-    borderWidth: 1,
-    borderColor: colors.error,
-  },
-  resetText: {
-    fontSize: typography.sizes.sm,
-    fontWeight: typography.weights.medium,
-    color: colors.error,
-  },
-  emptyText: {
-    fontSize: typography.sizes.sm,
-    color: colors.textSecondary,
-    fontStyle: "italic",
-    textAlign: "center",
-    padding: spacing.md,
-  },
-});
+function Section({ title, children }: { title: string; children: ReactNode }) {
+  const styles = useStyles(createStyles);
+  return (
+    <View style={styles.section}>
+      <Text style={styles.sectionTitle}>{title}</Text>
+      {children}
+    </View>
+  );
+}
+
+const createStyles = (t: Theme) =>
+  StyleSheet.create({
+    screen: {
+      flex: 1,
+      backgroundColor: t.colors.background,
+    },
+    scroll: {
+      paddingBottom: spacing.xl,
+    },
+    body: {
+      paddingHorizontal: spacing.lg,
+      paddingTop: spacing.xs,
+      gap: spacing.md,
+    },
+    hero: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.md,
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.lg,
+      padding: spacing.md,
+    },
+    ringWrap: {
+      width: 100,
+      height: 100,
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    ringCenter: {
+      position: "absolute",
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    ringPct: {
+      ...text.title,
+      color: t.colors.text,
+    },
+    ringLabel: {
+      ...text.labelCaps,
+      color: t.colors.textMuted,
+    },
+    heroText: {
+      flex: 1,
+      gap: spacing.sm,
+    },
+    heroCount: {
+      ...text.title,
+      color: t.colors.text,
+    },
+    heroCaption: {
+      ...text.bodySmall,
+      color: t.colors.textSecondary,
+      marginTop: -spacing.sm + 2,
+    },
+    latest: {
+      gap: 2,
+    },
+    latestLabel: {
+      ...text.labelCaps,
+      color: t.colors.textMuted,
+    },
+    latestValue: {
+      ...text.meta,
+      color: t.colors.text,
+    },
+    section: {
+      gap: spacing.sm,
+    },
+    sectionTitle: {
+      ...text.sectionTitle,
+      color: t.colors.text,
+    },
+    listCard: {
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.md,
+      paddingHorizontal: spacing.md - 2,
+    },
+    parkRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.md - 4,
+      height: 52,
+    },
+    divider: {
+      height: 1,
+      backgroundColor: t.colors.border,
+    },
+    dot: {
+      width: 10,
+      height: 10,
+      borderRadius: 5,
+    },
+    parkName: {
+      flex: 1,
+      ...text.itemTitle,
+      color: t.colors.text,
+    },
+    parkMeta: {
+      ...text.meta,
+      color: t.colors.textSecondary,
+    },
+    grid: {
+      flexDirection: "row",
+      flexWrap: "wrap",
+      gap: spacing.sm,
+    },
+    badge: {
+      width: "31%",
+      flexGrow: 1,
+      alignItems: "center",
+      gap: spacing.sm - 2,
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.md,
+      paddingVertical: spacing.sm + 2,
+      paddingHorizontal: spacing.xs + 2,
+    },
+    badgeDisc: {
+      width: 40,
+      height: 40,
+      borderRadius: 20,
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    badgeDiscEarned: {
+      backgroundColor: t.colors.primary,
+    },
+    badgeDiscLocked: {
+      backgroundColor: t.colors.track,
+    },
+    badgeTitle: {
+      ...text.labelCaps,
+      textTransform: "none",
+      letterSpacing: 0,
+      fontSize: 11,
+      lineHeight: 14,
+      color: t.colors.textMuted,
+      textAlign: "center",
+    },
+    badgeTitleEarned: {
+      color: t.colors.text,
+    },
+    chipRow: {
+      flexDirection: "row",
+      gap: spacing.sm,
+    },
+    caption: {
+      ...text.bodySmall,
+      color: t.colors.textMuted,
+    },
+    aboutCard: {
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.md,
+      padding: spacing.md,
+    },
+    resetButton: {
+      alignSelf: "flex-start",
+      height: 44,
+      paddingHorizontal: spacing.md + 4,
+      borderRadius: radii.full,
+      borderWidth: 2,
+      borderColor: t.colors.error,
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    resetText: {
+      ...text.chip,
+      color: t.colors.error,
+    },
+  });

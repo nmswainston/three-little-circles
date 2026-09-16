@@ -1,14 +1,15 @@
 import React from "react";
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import { View, Text, Pressable, StyleSheet } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { Ionicons } from "@expo/vector-icons";
 import { RootStackParamList } from "../navigation/types";
 import { HiddenMickeyEntry } from "../data/types";
-import { formatSubtitle } from "../data/query";
 import { labelOrFallback } from "../data/labels";
 import { useFoundStore } from "../store/useFoundStore";
-import { colors, spacing, radii, typography, shadows } from "../theme/tokens";
+import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
+import { spacing, radii, text, shadows } from "../theme/tokens";
+import DifficultyChip from "./ui/DifficultyChip";
 
 type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 
@@ -18,99 +19,120 @@ interface EntryCardProps {
   showLocation?: boolean;
 }
 
+/** Standalone entry card for search results and the map list. */
 export default function EntryCard({ entry, showLocation = false }: EntryCardProps) {
   const navigation = useNavigation<NavigationProp>();
+  const t = useTheme();
+  const styles = useStyles(createStyles);
   const found = useFoundStore((s) => entry.id in s.found);
   const title = labelOrFallback(entry.display?.entryTitle, "Hidden Find");
 
-  const locationLine = [
-    entry.display?.parkName,
-    entry.display?.landName,
-    entry.display?.attractionName,
-  ]
+  const locationLine = [entry.display?.parkName, entry.display?.landName, entry.display?.attractionName]
     .filter(Boolean)
-    .join(" • ");
+    .join(" · ");
 
   return (
-    <TouchableOpacity
-      style={[styles.card, found && styles.cardFound]}
+    <Pressable
+      style={({ pressed }) => [styles.card, found && styles.cardFound, pressed && styles.pressed]}
       onPress={() => navigation.navigate("EntryDetail", { entryId: entry.id })}
-      activeOpacity={0.7}
       accessibilityRole="button"
       accessibilityLabel={`${title}${found ? ", found" : ""}`}
     >
-      <View style={styles.cardContent}>
-        <View style={styles.header}>
-          <Text style={styles.cardTitle}>{title}</Text>
-          {found && (
-            <View style={styles.foundBadge}>
-              <Ionicons name="checkmark" size={14} color={colors.background} />
-            </View>
-          )}
-        </View>
-        {showLocation && locationLine.length > 0 && (
-          <Text style={styles.cardLocation}>{locationLine}</Text>
-        )}
-        <Text style={styles.cardSubtitle}>{formatSubtitle(entry)}</Text>
-        {entry.description && (
-          <Text style={styles.cardDescription} numberOfLines={2}>
-            {entry.description}
-          </Text>
+      <View style={styles.header}>
+        <Text style={styles.title}>{title}</Text>
+        {found && (
+          <View style={styles.foundDisc}>
+            <Ionicons name="checkmark" size={14} color={t.colors.onSuccess} />
+          </View>
         )}
       </View>
-    </TouchableOpacity>
+      {showLocation && locationLine.length > 0 && <Text style={styles.location}>{locationLine}</Text>}
+      <View style={styles.metaRow}>
+        <Text style={styles.meta}>{entry.locationType}</Text>
+        <DifficultyChip level={entry.difficulty} size="small" />
+        {entry.entryType === "FACT" && (
+          <View style={styles.factChip}>
+            <Text style={styles.factText}>Fact</Text>
+          </View>
+        )}
+      </View>
+      {entry.description ? (
+        <Text style={styles.description} numberOfLines={2}>
+          {entry.description}
+        </Text>
+      ) : null}
+    </Pressable>
   );
 }
 
-const styles = StyleSheet.create({
-  card: {
-    backgroundColor: colors.card,
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderRadius: radii.md,
-    marginBottom: spacing.md,
-    ...shadows.sm,
-  },
-  cardFound: {
-    borderColor: colors.success,
-  },
-  cardContent: {
-    padding: spacing.lg,
-  },
-  header: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-between",
-    marginBottom: spacing.xs,
-  },
-  cardTitle: {
-    flex: 1,
-    fontSize: typography.sizes.md,
-    fontWeight: typography.weights.semibold,
-    color: colors.text,
-  },
-  foundBadge: {
-    width: 20,
-    height: 20,
-    borderRadius: radii.full,
-    backgroundColor: colors.success,
-    alignItems: "center",
-    justifyContent: "center",
-    marginLeft: spacing.sm,
-  },
-  cardLocation: {
-    fontSize: typography.sizes.xs,
-    color: colors.textMuted,
-    marginBottom: spacing.xs,
-  },
-  cardSubtitle: {
-    fontSize: typography.sizes.sm,
-    color: colors.textSecondary,
-    marginBottom: spacing.xs,
-  },
-  cardDescription: {
-    fontSize: typography.sizes.base,
-    lineHeight: typography.lineHeights.relaxed,
-    color: colors.textSecondary,
-  },
-});
+const createStyles = (t: Theme) =>
+  StyleSheet.create({
+    card: {
+      gap: spacing.xs + 2,
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.md,
+      padding: spacing.md,
+      borderWidth: 1,
+      borderColor: t.colors.border,
+      ...shadows.sm,
+    },
+    cardFound: {
+      borderColor: t.colors.success,
+    },
+    pressed: {
+      opacity: 0.9,
+    },
+    header: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.sm,
+    },
+    title: {
+      flex: 1,
+      ...text.cardTitle,
+      color: t.colors.text,
+    },
+    foundDisc: {
+      width: 22,
+      height: 22,
+      borderRadius: 11,
+      backgroundColor: t.colors.success,
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    location: {
+      ...text.labelCaps,
+      textTransform: "none",
+      letterSpacing: 0,
+      color: t.colors.textMuted,
+    },
+    metaRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.sm - 2,
+    },
+    meta: {
+      ...text.bodySmall,
+      lineHeight: 18,
+      color: t.colors.textSecondary,
+    },
+    factChip: {
+      height: 20,
+      paddingHorizontal: spacing.sm,
+      borderRadius: radii.full,
+      borderWidth: 1,
+      borderColor: t.colors.borderStrong,
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    factText: {
+      ...text.labelCaps,
+      textTransform: "none",
+      letterSpacing: 0,
+      color: t.colors.textSecondary,
+    },
+    description: {
+      ...text.bodySmall,
+      color: t.colors.textSecondary,
+    },
+  });

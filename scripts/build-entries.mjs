@@ -224,9 +224,12 @@ if (errors.length > 0) {
 }
 
 const output = render(entries);
+// Git may check the generated file out with CRLF line endings on Windows;
+// compare content, not line terminators.
+const normalize = (s) => s.replace(/\r\n/g, "\n");
 if (checkOnly) {
   const current = existsSync(outFile) ? readFileSync(outFile, "utf8") : "";
-  if (current !== output) {
+  if (normalize(current) !== normalize(output)) {
     console.error("src/data/entries.generated.ts is out of date. Run `npm run content:build`.");
     process.exit(1);
   }

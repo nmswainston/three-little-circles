@@ -6,13 +6,22 @@ export default {
     description: 'An unofficial field guide to Hidden Mickeys and other hidden details.',
     orientation: 'portrait',
     icon: './assets/icon.png',
-    userInterfaceStyle: 'light',
+    userInterfaceStyle: 'automatic',
     newArchEnabled: true,
-    splash: {
-      image: './assets/splash-icon.png',
-      resizeMode: 'contain',
-      backgroundColor: '#0B1D3A',
-    },
+    plugins: [
+      [
+        'expo-splash-screen',
+        {
+          image: './assets/splash-icon.png',
+          imageWidth: 200,
+          resizeMode: 'contain',
+          backgroundColor: '#FFF4DC',
+          dark: {
+            backgroundColor: '#0B1D3A',
+          },
+        },
+      ],
+    ],
     ios: {
       supportsTablet: true,
       bundleIdentifier: 'com.nmswainston.threelittlecircles',
@@ -24,7 +33,7 @@ export default {
       package: 'com.nmswainston.threelittlecircles',
       adaptiveIcon: {
         foregroundImage: './assets/adaptive-icon.png',
-        backgroundColor: '#0B1D3A',
+        backgroundColor: '#FFF4DC',
       },
       edgeToEdgeEnabled: true,
       predictiveBackGestureEnabled: false,
