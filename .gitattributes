@@ -1,0 +1,18 @@
+# Store text files with LF line endings and check them out with LF on every
+# platform, so tooling that writes LF (Metro, the content build) never
+# disagrees with Git about what changed.
+* text=auto eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.jks binary
+*.p8 binary
+*.p12 binary
+*.mobileprovision binary
