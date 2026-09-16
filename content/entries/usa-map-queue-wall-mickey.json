@@ -1,0 +1,38 @@
+{
+  "id": "usa-map-queue-wall-mickey",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "midway_shooter",
+  "display": {
+    "entryTitle": "Queue Wall Mickey",
+    "parkName": "Studios Park",
+    "landName": "Toy Blocks Area",
+    "attractionName": "Midway Shooter"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "description": "A Hidden Mickey is tucked low on the wall just past the large U.S.A. map in the queue. It sits beneath a green dinosaur and a red fish, partially obscured by handrails on the left side, making it easy to miss unless you're looking near the floor.",
+  "whereToLook": {
+    "scene": "Wall display past the large U.S.A. map in the queue",
+    "exactSpot": "Below the green dinosaur and red fish, near the floor behind the handrails on the left side",
+    "orientation": "Upright"
+  },
+  "bestTip": "Scan low along the wall after passing the map. Most guests never look below handrail height.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Left",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "The handrails partially block the view. You may need to lean slightly or wait for space in the queue."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3553,
+    "longitude": -81.5613
+  },
+  "createdAtISO": "2026-01-12T00:00:00.000Z",
+  "updatedAtISO": "2026-09-16T00:00:00.000Z"
+}

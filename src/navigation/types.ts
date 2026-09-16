@@ -6,6 +6,5 @@ export type RootStackParamList = {
   Attraction: { parkId: string; landId: string; attractionId: string };
   EntryDetail: { entryId: string };
   Map: undefined;
-  LocationDetail: { locationId: string };
   Profile: undefined;
 };

@@ -26,9 +26,10 @@ export default function EntryDetailScreen() {
 
   const entry = getEntryById(entryId);
 
-  const isFound = useFoundStore((s) => s.isFound);
+  // Select the boolean, not the isFound function: the function reference is
+  // stable, so selecting it would never re-render this screen on toggle.
+  const found = useFoundStore((s) => entryId in s.found);
   const toggleFound = useFoundStore((s) => s.toggleFound);
-  const found = isFound(entryId);
 
   const fadeAnim = useRef(new Animated.Value(0)).current;
 

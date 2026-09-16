@@ -1,0 +1,39 @@
+{
+  "id": "art-animation-package-pickup-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "art_of_animation_resort",
+  "attractionId": "gift_shop_package_pickup",
+  "display": {
+    "entryTitle": "Package Pick-Up Mickey",
+    "parkName": "Resorts",
+    "landName": "Art of Animation Resort",
+    "attractionName": "Gift Shop Package Pick-Up Area"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Shop",
+  "description": "A small full-body Mickey figurine is hidden in the shadows behind the Package Pick-Up area inside the gift shop. The figure sits just below and slightly behind the round Package Pick-Up sign, making it difficult to notice unless you know to look into the darker area.",
+  "whereToLook": {
+    "scene": "Package Pick-Up area inside the gift shop near the food court",
+    "exactSpot": "In the shadows behind and just below the round Package Pick-Up sign",
+    "orientation": "Upright"
+  },
+  "bestTip": "Look just under the sign rather than at eye level. Most guests scan too high and miss it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "The figure blends into the dark background. Give your eyes a moment to adjust before scanning below the sign."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3491,
+    "longitude": -81.545
+  },
+  "createdAtISO": "2026-01-12T00:00:00.000Z",
+  "updatedAtISO": "2026-09-16T00:00:00.000Z"
+}

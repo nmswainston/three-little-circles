@@ -1,0 +1,38 @@
+{
+  "id": "riviera-mural-teddy-bear-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "riviera_resort",
+  "attractionId": "skyliner_arch_murals",
+  "display": {
+    "entryTitle": "Mural Teddy Bear Mickey",
+    "parkName": "Resorts",
+    "landName": "Riviera Resort",
+    "attractionName": "Skyliner Walkway Murals"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "description": "As you walk from the gondola station toward the resort, you pass under a series of colorful arch murals. In the first mural, a small teddy bear silhouette is shaped in a way that reads like the classic three-circle Mickey when you catch it at the right angle.",
+  "whereToLook": {
+    "scene": "First arch mural along the walkway from the gondola station toward the resort entrance",
+    "exactSpot": "In the sky portion of the mural, locate the small teddy bear. The bear's head-and-ears silhouette forms the classic three-circle shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Slow down before you walk directly under the first arch so you can scan the mural without neck-craning mid-stride.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "You'll spot it easiest by pausing briefly and looking upward before passing fully under the arch."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3633,
+    "longitude": -81.5459
+  },
+  "createdAtISO": "2026-01-12T00:00:00.000Z",
+  "updatedAtISO": "2026-09-16T00:00:00.000Z"
+}

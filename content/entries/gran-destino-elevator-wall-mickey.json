@@ -1,0 +1,38 @@
+{
+  "id": "gran-destino-elevator-wall-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "coronado_springs_gran_destino",
+  "attractionId": "top_floor_elevator_bank",
+  "display": {
+    "entryTitle": "Elevator Bank Wall Mickey",
+    "parkName": "Resorts",
+    "landName": "Gran Destino Tower",
+    "attractionName": "Top Floor Elevator Bank"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "description": "A classic three-circle Hidden Mickey appears within the ornate wall design above the elevator doors on the top floor. The shape blends into the decorative pattern and is easy to miss unless you look directly above the elevator bank.",
+  "whereToLook": {
+    "scene": "Top floor elevator bank inside Gran Destino Tower, accessed via the side elevators from the lobby",
+    "exactSpot": "Ornate wall design directly above the elevator doors on the top floor",
+    "orientation": "Upright"
+  },
+  "bestTip": "Ride to the top floor using the side elevators and scan above the doors before exiting the elevator area.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Medium",
+    "notes": "Step back slightly from the elevator doors to take in the full wall pattern."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3722,
+    "longitude": -81.5601
+  },
+  "createdAtISO": "2026-01-12T00:00:00.000Z",
+  "updatedAtISO": "2026-09-16T00:00:00.000Z"
+}

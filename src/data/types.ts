@@ -39,6 +39,12 @@ export type DisplayAliases = {
   entryTitle?: string;
 };
 
+/** Decimal degrees. Approximate to the attraction or building, not the exact spot. */
+export type Coordinates = {
+  latitude: number;
+  longitude: number;
+};
+
 export type WhereToLook = {
   scene: string;
   exactSpot: string;
@@ -67,6 +73,9 @@ export type HiddenMickeyEntry = {
   confidence?: Confidence;
   verification?: Verification;
   areaContext?: AreaContext;
+
+  /** Where to drop a map pin. Entries without coordinates are listed but not pinned. */
+  coordinates?: Coordinates;
 
   createdAtISO?: string;
   updatedAtISO?: string;

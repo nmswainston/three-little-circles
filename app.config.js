@@ -1,8 +1,9 @@
 export default {
   expo: {
-    name: 'three-little-circles',
+    name: 'Three Little Circles',
     slug: 'three-little-circles',
     version: '1.0.0',
+    description: 'An unofficial field guide to Hidden Mickeys and other hidden details.',
     orientation: 'portrait',
     icon: './assets/icon.png',
     userInterfaceStyle: 'light',
@@ -10,18 +11,28 @@ export default {
     splash: {
       image: './assets/splash-icon.png',
       resizeMode: 'contain',
-      backgroundColor: '#ffffff',
+      backgroundColor: '#0B1D3A',
     },
     ios: {
       supportsTablet: true,
+      bundleIdentifier: 'com.nmswainston.threelittlecircles',
+      infoPlist: {
+        ITSAppUsesNonExemptEncryption: false,
+      },
     },
     android: {
+      package: 'com.nmswainston.threelittlecircles',
       adaptiveIcon: {
         foregroundImage: './assets/adaptive-icon.png',
-        backgroundColor: '#ffffff',
+        backgroundColor: '#0B1D3A',
       },
       edgeToEdgeEnabled: true,
       predictiveBackGestureEnabled: false,
+      config: {
+        googleMaps: {
+          apiKey: process.env.GOOGLE_MAPS_ANDROID_API_KEY,
+        },
+      },
     },
     web: {
       favicon: './assets/favicon.png',
@@ -29,6 +40,8 @@ export default {
     extra: {
       SUPABASE_URL: process.env.SUPABASE_URL,
       SUPABASE_ANON_KEY: process.env.SUPABASE_ANON_KEY,
+      // Populated by `eas init`; see README.
+      eas: process.env.EAS_PROJECT_ID ? { projectId: process.env.EAS_PROJECT_ID } : undefined,
     },
   },
 };

@@ -1,0 +1,38 @@
+{
+  "id": "toy-story-release-date-box",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "backyard_coaster",
+  "display": {
+    "entryTitle": "Toy Story Release Date Easter Egg",
+    "parkName": "Studios Park",
+    "landName": "Toy Blocks Area",
+    "attractionName": "Backyard Coaster"
+  },
+  "entryType": "FACT",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "description": "A hidden numeric detail appears on a large toy box featuring a painted Tyrannosaurus Rex. The numbers look like a standard price label but actually form a hidden reference rather than a character shape.",
+  "whereToLook": {
+    "scene": "Large toy box with a painted Tyrannosaurus Rex",
+    "exactSpot": "Price label on the upper left of the front of the box, visible from the right side of the loading dock or shortly after launch"
+  },
+  "funFacts": [
+    "The numbers 11, 22, and 19.95 reference November 22, 1995, the release date of the first Toy Story film.",
+    "This detail is a hidden tribute rather than a Hidden Mickey, blending naturally into the toy-themed scenery."
+  ],
+  "viewing": {
+    "motion": "Fast",
+    "lighting": "Bright",
+    "angle": "Left",
+    "notes": "Easiest to see from the right side of the loading area or by glancing left as the coaster launches."
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5628
+  },
+  "createdAtISO": "2026-01-12T00:00:00.000Z",
+  "updatedAtISO": "2026-09-16T00:00:00.000Z"
+}

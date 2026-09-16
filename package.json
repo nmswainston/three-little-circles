@@ -3,13 +3,23 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
+    "prestart": "npm run content:build",
     "start": "expo start",
+    "preandroid": "npm run content:build",
     "android": "expo start --android",
+    "preios": "npm run content:build",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "preweb": "npm run content:build",
+    "web": "expo start --web",
+    "content:build": "node scripts/build-entries.mjs",
+    "content:check": "node scripts/build-entries.mjs --check",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "check": "npm run content:check && npm run typecheck && npm test"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",
+    "@react-native-async-storage/async-storage": "2.2.0",
     "@react-navigation/native": "^7.1.26",
     "@react-navigation/native-stack": "^7.9.0",
     "@supabase/supabase-js": "^2.90.1",
@@ -28,9 +38,22 @@
     "zustand": "^5.0.9"
   },
   "devDependencies": {
+    "@types/jest": "29.5.14",
     "@types/react": "~19.1.0",
     "babel-preset-expo": "^54.0.9",
+    "jest": "~29.7.0",
+    "jest-expo": "~54.0.18",
     "typescript": "~5.9.2"
   },
-  "private": true
+  "private": true,
+  "jest": {
+    "preset": "jest-expo",
+    "setupFiles": [
+      "<rootDir>/jest.setup.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/.expo/"
+    ]
+  }
 }
