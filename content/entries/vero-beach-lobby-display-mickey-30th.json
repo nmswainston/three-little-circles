@@ -1,0 +1,41 @@
+{
+  "id": "vero-beach-lobby-display-mickey-30th",
+  "parkId": "resorts_bucket",
+  "landId": "vero_beach_resort",
+  "attractionId": "lobby_anniversary_display",
+  "display": {
+    "entryTitle": "Lobby Display Mickey",
+    "parkName": "Resorts",
+    "landName": "Vero Beach Resort",
+    "attractionName": "Lobby Display"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "description": "A classic three-circle Hidden Mickey appears in a lobby anniversary display. The shape is located in the lower right portion of the display and is easiest to spot when you view the full arrangement from a step or two back.",
+  "whereToLook": {
+    "scene": "Lobby anniversary display area",
+    "exactSpot": "Lower right portion of the anniversary display (scan the bottom-right details rather than the main centerpiece).",
+    "orientation": "Upright"
+  },
+  "bestTip": "Stand back far enough to see the whole display, then scan the lower right area slowly for the three-circle shape.",
+  "funFacts": [
+    "This Hidden Mickey was reported as part of the resort's 30th Anniversary lobby display, which may be temporary or seasonal."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "Displays like this can change seasonally. If the anniversary display is removed, this find may no longer be present."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 27.6832,
+    "longitude": -80.362
+  },
+  "createdAtISO": "2026-01-12T00:00:00.000Z",
+  "updatedAtISO": "2026-09-16T00:00:00.000Z"
+}

@@ -1,43 +1,45 @@
-import { create } from 'zustand';
+import { create } from "zustand";
+import { persist, createJSONStorage } from "zustand/middleware";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 interface FoundState {
-  found: Record<string, number>; // locationId -> timestamp
-  toggleFound: (locationId: string) => void;
-  isFound: (locationId: string) => boolean;
+  /** entryId -> timestamp (ms since epoch) when it was marked found */
+  found: Record<string, number>;
+  toggleFound: (entryId: string) => void;
+  isFound: (entryId: string) => boolean;
+  getFoundAt: (entryId: string) => number | undefined;
   clearAll: () => void;
-  getFoundAt: (locationId: string) => number | undefined;
 }
 
-export const useFoundStore = create<FoundState>((set, get) => ({
-  found: {},
-  
-  toggleFound: (locationId: string) => {
-    set((state) => {
-      const newFound = { ...state.found };
-      if (newFound[locationId]) {
-        delete newFound[locationId];
-      } else {
-        newFound[locationId] = Date.now();
-      }
-      return { found: newFound };
-    });
-    // Check achievements after toggling (lazy import to avoid circular dependency)
-    const { useAchievementsStore } = require('./useAchievementsStore');
-    useAchievementsStore.getState().checkAchievements();
-  },
-  
-  isFound: (locationId: string) => {
-    return locationId in get().found;
-  },
-  
-  getFoundAt: (locationId: string) => {
-    return get().found[locationId];
-  },
-  
-  clearAll: () => {
-    set({ found: {} });
-    // Check achievements after clearing (lazy import to avoid circular dependency)
-    const { useAchievementsStore } = require('./useAchievementsStore');
-    useAchievementsStore.getState().checkAchievements();
-  },
-}));
+export const FOUND_STORAGE_KEY = "tlc.found.v1";
+
+export const useFoundStore = create<FoundState>()(
+  persist(
+    (set, get) => ({
+      found: {},
+
+      toggleFound: (entryId) => {
+        set((state) => {
+          const next = { ...state.found };
+          if (next[entryId]) {
+            delete next[entryId];
+          } else {
+            next[entryId] = Date.now();
+          }
+          return { found: next };
+        });
+      },
+
+      isFound: (entryId) => entryId in get().found,
+
+      getFoundAt: (entryId) => get().found[entryId],
+
+      clearAll: () => set({ found: {} }),
+    }),
+    {
+      name: FOUND_STORAGE_KEY,
+      storage: createJSONStorage(() => AsyncStorage),
+      partialize: (state) => ({ found: state.found }),
+    }
+  )
+);

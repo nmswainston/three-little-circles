@@ -1,0 +1,42 @@
+{
+  "id": "park-attraction-short-description",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "backyard_coaster",
+  "display": {
+    "parkName": "Studios Park",
+    "landName": "Toy Blocks Area",
+    "attractionName": "Backyard Coaster",
+    "entryTitle": "Short Title For The Find"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "Two or three sentences. What the shape is, what it is made of, and why people miss it.",
+  "whereToLook": {
+    "scene": "The larger scene or prop the guest should locate first",
+    "exactSpot": "The precise spot within that scene",
+    "orientation": "Upright"
+  },
+  "bestTip": "One sentence on timing or positioning that makes this easier to spot.",
+  "funFacts": [
+    "Optional. Trivia or history that makes the find more satisfying."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "Optional free-text on viewing conditions."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5628
+  },
+  "createdAtISO": "2026-09-16T00:00:00.000Z",
+  "updatedAtISO": "2026-09-16T00:00:00.000Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "space-panel-star-mickey",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "alien_spinner",
+  "display": {
+    "entryTitle": "Space Panel Star Mickey",
+    "parkName": "Studios Park",
+    "landName": "Toy Blocks Area",
+    "attractionName": "Alien Spinner"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "description": "A subtle Hidden Mickey appears as a three-circle star pattern on a space-themed control panel graphic during the ride. The shape is formed by a bright central star with two smaller light points positioned nearby, making it easy to miss during motion.",
+  "whereToLook": {
+    "scene": "Space-themed control panel mural visible during the ride",
+    "exactSpot": "Star cluster on the purple space background near the control panel edge",
+    "orientation": "Upright"
+  },
+  "bestTip": "Look for it when the ride briefly slows or pauses. The motion makes this one easy to miss on a first ride.",
+  "funFacts": [
+    "This Hidden Mickey relies on star placement rather than a drawn outline, blending naturally into the space scenery."
+  ],
+  "viewing": {
+    "motion": "Fast",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "notes": "Easiest to spot during a brief slow-down or pause."
+  },
+  "confidence": "Strong",
+  "verification": "Photo",
+  "coordinates": {
+    "latitude": 28.3568,
+    "longitude": -81.562
+  },
+  "createdAtISO": "2026-01-12T00:00:00.000Z",
+  "updatedAtISO": "2026-09-16T00:00:00.000Z"
+}

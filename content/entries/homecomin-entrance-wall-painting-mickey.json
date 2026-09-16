@@ -1,0 +1,38 @@
+{
+  "id": "homecomin-entrance-wall-painting-mickey",
+  "parkId": "springs_bucket",
+  "landId": "homecomin_restaurant",
+  "attractionId": "entrance_wall_painting",
+  "display": {
+    "entryTitle": "Entrance Wall Painting Mickey",
+    "parkName": "Springs",
+    "landName": "Homecomin' Restaurant",
+    "attractionName": "Main Entrance"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "description": "A small white classic Hidden Mickey is tucked into the lower portion of a large wall painting just inside the main entrance. The shape blends into the painted ground area and is easy to miss unless you know exactly where to look.",
+  "whereToLook": {
+    "scene": "Large wall painting inside the main entrance featuring the sun, orchards, and a stream",
+    "exactSpot": "In the dirt area at the lower left of the painting, behind and between the first and second wall lamps from the left",
+    "orientation": "Upright"
+  },
+  "bestTip": "Stand close to the wall and scan low between the first two lamps from the left before moving further inside.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Right",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "Wall lamps and foot traffic can block the view. Best spotted when the entry area briefly clears."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3712,
+    "longitude": -81.5177
+  },
+  "createdAtISO": "2026-01-12T00:00:00.000Z",
+  "updatedAtISO": "2026-09-16T00:00:00.000Z"
+}

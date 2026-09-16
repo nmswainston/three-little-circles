@@ -1,0 +1,39 @@
+{
+  "id": "pirates-exit-bells-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "pirate_port_area",
+  "attractionId": "exit_artifact_room",
+  "display": {
+    "entryTitle": "Exit Bells Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Pirate Port Area",
+    "attractionName": "Exit Artifact Room"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "A classic three-circle Hidden Mickey is formed by three small round bells mounted near the ceiling in a small artifact display room just outside the ride exit. Because the display is above eye level, most guests walk through without ever looking up.",
+  "whereToLook": {
+    "scene": "Small display room just outside the ride exit, filled with artifacts, urns, and candles",
+    "exactSpot": "Near the ceiling: three small round bells arranged in the classic shape. Enter the room and turn around to look upward.",
+    "orientation": "Upright"
+  },
+  "bestTip": "After exiting the ride and entering the display room, stop briefly and turn around before continuing toward the gift shop exit.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "The room lighting is low. Give your eyes a moment to adjust before scanning upward."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4181,
+    "longitude": -81.5843
+  },
+  "createdAtISO": "2026-01-12T00:00:00.000Z",
+  "updatedAtISO": "2026-09-16T00:00:00.000Z"
+}

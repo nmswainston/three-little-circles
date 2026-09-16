@@ -1,0 +1,30 @@
+{
+  "id": "backyard-coaster-queue-cloud-mickey",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "backyard_coaster",
+  "display": {
+    "parkName": "Studios Park",
+    "landName": "Toy Blocks Area",
+    "attractionName": "Backyard Coaster",
+    "entryTitle": "Queue Cloud Mickey"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "description": "A classic three-circle Hidden Mickey is drawn into a hand-painted cloud mural in the loading-area queue. It sits in the upper right of the mural and is easy to miss because it reads as just another cloud.",
+  "whereToLook": {
+    "scene": "Large hand-drawn mural of backyard coaster plans",
+    "exactSpot": "Upper right section of the painted clouds near the loading area"
+  },
+  "bestTip": "Most visible when the line slows and you can scan the mural",
+  "funFacts": [
+    "The cloud's position is a subtle nod to the former Earful Tower, the park's iconic water tower that once stood in this area."
+  ],
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5628
+  },
+  "createdAtISO": "2026-01-12T00:00:00.000Z",
+  "updatedAtISO": "2026-09-16T00:00:00.000Z"
+}

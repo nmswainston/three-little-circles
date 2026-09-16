@@ -1,24 +1,18 @@
 import React, { useEffect, useRef, useState } from "react";
-import { ScrollView, StyleSheet, View, Text, TouchableOpacity, Animated, Platform } from "react-native";
-import { useRoute, RouteProp, useNavigation } from "@react-navigation/native";
-import { NativeStackNavigationProp } from "@react-navigation/native-stack";
+import { ScrollView, StyleSheet, View, Animated, Platform } from "react-native";
+import { useRoute, RouteProp } from "@react-navigation/native";
 import { RootStackParamList } from "../navigation/types";
-import {
-  getEntriesByAttraction,
-  getAttractionsByLand,
-  formatSubtitle,
-} from "../data/query";
-import { labelOrFallback } from "../data/labels";
+import { getEntriesByAttraction, getAttractionsByLand } from "../data/query";
 import AppShell from "../components/layout/AppShell";
-import { colors, spacing, typography, radii, shadows } from "../theme/tokens";
+import EntryCard from "../components/EntryCard";
+import EmptyState from "../components/ui/EmptyState";
+import { spacing } from "../theme/tokens";
 import SegmentedControl, { SegmentedControlOption } from "../components/ui/SegmentedControl";
 
 type AttractionRouteProp = RouteProp<RootStackParamList, "Attraction">;
-type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 
 export default function AttractionScreen() {
   const route = useRoute<AttractionRouteProp>();
-  const navigation = useNavigation<NavigationProp>();
   const { parkId, landId, attractionId } = route.params;
   const [entryTypeFilter, setEntryTypeFilter] = useState<SegmentedControlOption>("All");
   const entries = getEntriesByAttraction(parkId, landId, attractionId, entryTypeFilter);
@@ -50,27 +44,11 @@ export default function AttractionScreen() {
           />
         </View>
         <ScrollView showsVerticalScrollIndicator={false}>
-          {entries.map((entry) => {
-            const title = labelOrFallback(entry.display?.entryTitle, "Hidden Find");
-            return (
-              <TouchableOpacity
-                key={entry.id}
-                style={styles.card}
-                onPress={() => navigation.navigate("EntryDetail", { entryId: entry.id })}
-                activeOpacity={0.7}
-              >
-                <View style={styles.cardContent}>
-                  <Text style={styles.cardTitle}>{title}</Text>
-                  <Text style={styles.cardSubtitle}>{formatSubtitle(entry)}</Text>
-                  {entry.description && (
-                    <Text style={styles.cardDescription} numberOfLines={2}>
-                      {entry.description}
-                    </Text>
-                  )}
-                </View>
-              </TouchableOpacity>
-            );
-          })}
+          {entries.length === 0 ? (
+            <EmptyState title="Nothing here yet" message="No entries match this filter." />
+          ) : (
+            entries.map((entry) => <EntryCard key={entry.id} entry={entry} />)
+          )}
         </ScrollView>
       </Animated.View>
     </AppShell>
@@ -84,32 +62,5 @@ const styles = StyleSheet.create({
   filterContainer: {
     paddingHorizontal: spacing.lg,
     paddingBottom: spacing.md,
-  },
-  card: {
-    backgroundColor: colors.card,
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderRadius: radii.md,
-    marginBottom: spacing.md,
-    ...shadows.sm,
-  },
-  cardContent: {
-    padding: spacing.lg,
-  },
-  cardTitle: {
-    fontSize: typography.sizes.md,
-    fontWeight: typography.weights.semibold,
-    color: colors.text,
-    marginBottom: spacing.xs,
-  },
-  cardSubtitle: {
-    fontSize: typography.sizes.sm,
-    color: colors.textSecondary,
-    marginBottom: spacing.xs,
-  },
-  cardDescription: {
-    fontSize: typography.sizes.base,
-    lineHeight: typography.lineHeights.relaxed,
-    color: colors.textSecondary,
   },
 });

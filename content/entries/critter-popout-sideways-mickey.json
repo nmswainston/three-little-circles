@@ -1,0 +1,41 @@
+{
+  "id": "critter-popout-sideways-mickey",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "midway_shooter",
+  "display": {
+    "entryTitle": "Critter Pop-Out Sideways Mickey",
+    "parkName": "Studios Park",
+    "landName": "Toy Blocks Area",
+    "attractionName": "Midway Shooter"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "description": "A classic three-circle Hidden Mickey appears sideways on a dark red fireball element behind one of the Critter Pop-Out animal cutouts in the entrance queue. The beaver figure partially blocks the shape, making this one especially easy to overlook.",
+  "whereToLook": {
+    "scene": "Standing Critter Pop-Out display board along the right side of the entrance queue",
+    "exactSpot": "Behind the beaver cutout on the board surface behind it",
+    "orientation": "Sideways"
+  },
+  "bestTip": "Shift your position slightly to the left of the board so you can see past the beaver cutout.",
+  "funFacts": [
+    "This Hidden Mickey is intentionally obscured, rewarding guests who slow down and scan the queue details rather than rushing toward the entrance."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Left",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "Beaver cutout blocks the shape unless you shift slightly left."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3553,
+    "longitude": -81.5613
+  },
+  "createdAtISO": "2026-01-12T00:00:00.000Z",
+  "updatedAtISO": "2026-09-16T00:00:00.000Z"
+}

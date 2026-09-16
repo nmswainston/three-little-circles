@@ -1,310 +1,104 @@
-import React, { useEffect, useMemo } from 'react';
-import { Text, StyleSheet, ScrollView, View } from 'react-native';
-import { parks, lands } from '../data/sampleData';
-import { useLocationsStore } from '../store/useLocationsStore';
-import { useFoundStore } from '../store/useFoundStore';
-import { useAchievementsStore, ACHIEVEMENTS } from '../store/useAchievementsStore';
-import { groupProgress } from '../utils/progress';
-import AppShell from '../components/layout/AppShell';
-import Section from '../components/layout/Section';
-import { colors, spacing, radii, typography } from '../theme/tokens';
-import { Location } from '../types/models';
+import React, { useMemo } from "react";
+import { Text, StyleSheet, ScrollView, View, Pressable, Alert, Platform } from "react-native";
+import { getAllEntries } from "../data/query";
+import { labelOrFallback } from "../data/labels";
+import { useFoundStore } from "../store/useFoundStore";
+import { useAchievementsStore, ACHIEVEMENTS } from "../store/useAchievementsStore";
+import { groupProgress, summarize, percent, ProgressGroup } from "../utils/progress";
+import AppShell from "../components/layout/AppShell";
+import Section from "../components/layout/Section";
+import { colors, spacing, radii, typography } from "../theme/tokens";
 
-// Pure function to build progress stats from locations
-function buildProgressStats(locations: Location[], isFound: (id: string) => boolean) {
-  const totalCount = locations.length;
-  const foundCount = locations.filter((loc) => isFound(loc.id)).length;
-  const progress = totalCount > 0 ? (foundCount / totalCount) * 100 : 0;
-  return { totalCount, foundCount, progress };
-}
-
-// Pure function to build park stats using stable parkId
-function buildParkStats(locations: Location[], isFound: (id: string) => boolean) {
-  const parksProgress = groupProgress(locations, isFound, (l) => l.parkId || undefined);
-  
-  return Array.from(parksProgress.entries())
-    .map(([parkId, stats]) => {
-      const park = parks.find((p) => p.id === parkId);
-      const pct = stats.total > 0 ? (stats.found / stats.total) * 100 : 0;
-      return {
-        id: parkId,
-        name: park?.name || parkId,
-        ...stats,
-        pct,
-      };
-    })
-    .sort((a, b) => a.name.localeCompare(b.name));
-}
-
-// Pure function to build land stats using composite key to prevent cross-park collisions
-function buildLandStats(locations: Location[], isFound: (id: string) => boolean) {
-  // Use composite key `${parkId}:${landId}` to prevent collisions
-  const landsProgress = groupProgress(
-    locations,
-    isFound,
-    (l) => {
-      if (!l.parkId || !l.landId) return undefined;
-      return `${l.parkId}:${l.landId}`;
-    }
-  );
-
-  return Array.from(landsProgress.entries())
-    .map(([compositeKey, stats]) => {
-      // Extract parkId and landId from composite key
-      const [parkId, landId] = compositeKey.split(':');
-      const land = lands.find((l) => l.id === landId && l.parkId === parkId);
-      const park = parks.find((p) => p.id === parkId);
-      const pct = stats.total > 0 ? (stats.found / stats.total) * 100 : 0;
-      
-      // Use composite key as id for React keys, but display the land name
-      return {
-        id: compositeKey,
-        parkId,
-        landId,
-        name: land?.name || landId,
-        parkName: park?.name,
-        ...stats,
-        pct,
-      };
-    })
-    .sort((a, b) => {
-      // Sort by park name first, then land name
-      const parkCompare = (a.parkName || '').localeCompare(b.parkName || '');
-      if (parkCompare !== 0) return parkCompare;
-      return a.name.localeCompare(b.name);
-    });
+function byName(a: ProgressGroup, b: ProgressGroup) {
+  return a.name.localeCompare(b.name);
 }
 
 export default function ProfileScreen() {
-  const locations = useLocationsStore((state) => state.locations);
-  const isFound = useFoundStore((state) => state.isFound);
-  const isUnlocked = useAchievementsStore((state) => state.isUnlocked);
-  const checkAchievements = useAchievementsStore((state) => state.checkAchievements);
+  const found = useFoundStore((s) => s.found);
+  const clearAll = useFoundStore((s) => s.clearAll);
+  const unlocked = useAchievementsStore((s) => s.unlocked);
 
-  // Build all stats from the same source of truth
-  const progressStats = useMemo(
-    () => buildProgressStats(locations, isFound),
-    [locations, isFound]
+  const entries = useMemo(() => getAllEntries(), []);
+  const isFound = useMemo(() => (id: string) => id in found, [found]);
+
+  const overall = useMemo(() => summarize(entries, isFound), [entries, isFound]);
+
+  const parkProgress = useMemo(
+    () =>
+      groupProgress(entries, isFound, (e) => ({
+        key: e.parkId,
+        name: labelOrFallback(e.display?.parkName, e.parkId),
+      })).sort(byName),
+    [entries, isFound]
   );
-  const parkProgressData = useMemo(
-    () => buildParkStats(locations, isFound),
-    [locations, isFound]
+
+  const landProgress = useMemo(
+    () =>
+      groupProgress(entries, isFound, (e) => ({
+        key: `${e.parkId}/${e.landId}`,
+        name: `${labelOrFallback(e.display?.landName, e.landId)} (${labelOrFallback(e.display?.parkName, e.parkId)})`,
+      })).sort(byName),
+    [entries, isFound]
   );
-  const landProgressData = useMemo(
-    () => buildLandStats(locations, isFound),
-    [locations, isFound]
+
+  const attractionProgress = useMemo(
+    () =>
+      groupProgress(entries, isFound, (e) => ({
+        key: `${e.parkId}/${e.landId}/${e.attractionId}`,
+        name: labelOrFallback(e.display?.attractionName, e.attractionId),
+      })).sort(byName),
+    [entries, isFound]
   );
 
-  // Check achievements on mount and when found count changes
-  useEffect(() => {
-    checkAchievements();
-  }, [progressStats.foundCount, checkAchievements]);
-
-  // Attraction and resort progress (for future use)
-  const attractionsProgress = groupProgress(locations, isFound, (l) => l.attractionId);
-  const resortsProgress = groupProgress(locations, isFound, (l) => l.resortId);
-
-  // Attraction and resort progress (for future use)
-  const attractionProgressData = Array.from(attractionsProgress.entries())
-    .map(([attractionId, stats]) => {
-      const pct = stats.total > 0 ? (stats.found / stats.total) * 100 : 0;
-      return {
-        id: attractionId,
-        name: attractionId,
-        ...stats,
-        pct,
-      };
-    })
-    .sort((a, b) => a.name.localeCompare(b.name));
-
-  const resortProgressData = Array.from(resortsProgress.entries())
-    .map(([resortId, stats]) => {
-      const pct = stats.total > 0 ? (stats.found / stats.total) * 100 : 0;
-      return {
-        id: resortId,
-        name: resortId,
-        ...stats,
-        pct,
-      };
-    })
-    .sort((a, b) => a.name.localeCompare(b.name));
+  const handleReset = () => {
+    const confirmAndClear = () => clearAll();
+    if (Platform.OS === "web") {
+      if (typeof window !== "undefined" && window.confirm("Clear all your found marks? This cannot be undone.")) {
+        confirmAndClear();
+      }
+      return;
+    }
+    Alert.alert("Reset progress", "Clear all your found marks? This cannot be undone.", [
+      { text: "Cancel", style: "cancel" },
+      { text: "Clear", style: "destructive", onPress: confirmAndClear },
+    ]);
+  };
 
   return (
     <AppShell title="Profile" subtitle="What you've noticed">
       <ScrollView showsVerticalScrollIndicator={false}>
-        <Section
-          title="Progress"
-          description={`${progressStats.foundCount} of ${progressStats.totalCount} documented`}
-        >
+        <Section title="Progress" description={`${overall.found} of ${overall.total} documented`}>
           <View style={styles.statsCard}>
             <View style={styles.statsRow}>
-              <View style={styles.statItem}>
-                <Text style={styles.statValue}>{progressStats.foundCount}</Text>
-                <Text style={styles.statLabel}>Found</Text>
-              </View>
+              <Stat value={overall.found} label="Found" />
               <View style={styles.statDivider} />
-              <View style={styles.statItem}>
-                <Text style={styles.statValue}>{progressStats.totalCount}</Text>
-                <Text style={styles.statLabel}>Total</Text>
-              </View>
+              <Stat value={overall.total} label="Total" />
               <View style={styles.statDivider} />
-              <View style={styles.statItem}>
-                <Text style={styles.statValue}>{Math.round(progressStats.progress)}%</Text>
-                <Text style={styles.statLabel}>Complete</Text>
-              </View>
+              <Stat value={`${Math.round(percent(overall))}%`} label="Complete" />
             </View>
-            <View style={styles.progressBar}>
-              <View style={[styles.progressFill, { width: `${progressStats.progress}%` }]} />
-            </View>
+            <ProgressBar pct={percent(overall)} />
           </View>
         </Section>
 
-        <Section
-          title="By Park"
-          description="See how close you are in each park"
-        >
-          <View style={styles.listCard}>
-            {parkProgressData.length > 0 ? (
-              parkProgressData.map((park) => (
-                <View key={park.id} style={styles.listItem}>
-                  <View style={styles.listItemHeader}>
-                    <Text style={styles.listItemTitle}>{park.name}</Text>
-                    <Text style={styles.listItemMeta}>
-                      {park.found} / {park.total}
-                    </Text>
-                  </View>
-                  <View style={styles.progressBar}>
-                    <View
-                      style={[styles.progressFill, { width: `${park.pct}%` }]}
-                    />
-                  </View>
-                </View>
-              ))
-            ) : (
-              <Text style={styles.emptyText}>No park data available</Text>
-            )}
-          </View>
-        </Section>
+        <ProgressSection title="By Park" description="See how close you are in each park" groups={parkProgress} />
+        <ProgressSection title="By Land" description="Zoom in on specific areas" groups={landProgress} />
+        <ProgressSection title="By Attraction" description="Track progress by ride or attraction" groups={attractionProgress} />
 
-        <Section
-          title="By Land"
-          description="Zoom in on specific areas"
-        >
-          <View style={styles.listCard}>
-            {landProgressData.length > 0 ? (
-              landProgressData.map((land) => (
-                <View key={land.id} style={styles.listItem}>
-                  <View style={styles.listItemHeader}>
-                    <Text style={styles.listItemTitle}>
-                      {land.parkName ? `${land.name} (${land.parkName})` : land.name}
-                    </Text>
-                    <Text style={styles.listItemMeta}>
-                      {land.found} / {land.total}
-                    </Text>
-                  </View>
-                  <View style={styles.progressBar}>
-                    <View
-                      style={[styles.progressFill, { width: `${land.pct}%` }]}
-                    />
-                  </View>
-                </View>
-              ))
-            ) : (
-              <Text style={styles.emptyText}>No land data available</Text>
-            )}
-          </View>
-        </Section>
-
-        {attractionProgressData.length > 0 && (
-          <Section
-            title="By Attraction"
-            description="Track progress by ride or attraction"
-          >
-            <View style={styles.listCard}>
-              {attractionProgressData.map((attraction) => (
-                <View key={attraction.id} style={styles.listItem}>
-                  <View style={styles.listItemHeader}>
-                    <Text style={styles.listItemTitle}>{attraction.name}</Text>
-                    <Text style={styles.listItemMeta}>
-                      {attraction.found} / {attraction.total}
-                    </Text>
-                  </View>
-                  <View style={styles.progressBar}>
-                    <View
-                      style={[
-                        styles.progressFill,
-                        { width: `${attraction.pct}%` },
-                      ]}
-                    />
-                  </View>
-                </View>
-              ))}
-            </View>
-          </Section>
-        )}
-
-        {resortProgressData.length > 0 && (
-          <Section
-            title="By Resort"
-            description="Track progress by resort"
-          >
-            <View style={styles.listCard}>
-              {resortProgressData.map((resort) => (
-                <View key={resort.id} style={styles.listItem}>
-                  <View style={styles.listItemHeader}>
-                    <Text style={styles.listItemTitle}>{resort.name}</Text>
-                    <Text style={styles.listItemMeta}>
-                      {resort.found} / {resort.total}
-                    </Text>
-                  </View>
-                  <View style={styles.progressBar}>
-                    <View
-                      style={[styles.progressFill, { width: `${resort.pct}%` }]}
-                    />
-                  </View>
-                </View>
-              ))}
-            </View>
-          </Section>
-        )}
-
-        <Section
-          title="Achievements"
-          description="Little milestones as you explore"
-        >
+        <Section title="Achievements" description="Little milestones as you explore">
           <View style={styles.listCard}>
             {ACHIEVEMENTS.map((achievement) => {
-              const unlocked = isUnlocked(achievement.id);
+              const earned = unlocked.includes(achievement.id);
               return (
                 <View key={achievement.id} style={styles.achievementItem}>
                   <View style={styles.achievementText}>
-                    <Text
-                      style={[
-                        styles.achievementTitle,
-                        unlocked && styles.achievementTitleUnlocked,
-                      ]}
-                    >
+                    <Text style={[styles.achievementTitle, earned && styles.achievementTitleUnlocked]}>
                       {achievement.title}
                     </Text>
-                    <Text style={styles.achievementDescription}>
-                      {achievement.description}
-                    </Text>
+                    <Text style={styles.achievementDescription}>{achievement.description}</Text>
                   </View>
-                  <View
-                    style={[
-                      styles.achievementBadge,
-                      unlocked
-                        ? styles.achievementBadgeUnlocked
-                        : styles.achievementBadgeLocked,
-                    ]}
-                  >
-                    <Text
-                      style={[
-                        styles.achievementBadgeText,
-                        unlocked && styles.achievementBadgeTextUnlocked,
-                      ]}
-                    >
-                      {unlocked ? 'Unlocked' : 'Locked'}
+                  <View style={[styles.badge, earned ? styles.badgeUnlocked : styles.badgeLocked]}>
+                    <Text style={[styles.badgeText, earned && styles.badgeTextUnlocked]}>
+                      {earned ? "Unlocked" : "Locked"}
                     </Text>
                   </View>
                 </View>
@@ -313,18 +107,73 @@ export default function ProfileScreen() {
           </View>
         </Section>
 
-        <Section
-          title="About"
-          description=""
-        >
+        <Section title="About" description="">
           <View style={styles.disclaimerCard}>
             <Text style={styles.disclaimerText}>
               Unofficial fan-created guide. Not affiliated with or endorsed by any theme park company.
             </Text>
           </View>
+          {overall.found > 0 && (
+            <Pressable onPress={handleReset} style={styles.resetButton} accessibilityRole="button">
+              <Text style={styles.resetText}>Reset found progress</Text>
+            </Pressable>
+          )}
         </Section>
+
+        <View style={{ height: spacing.xl }} />
       </ScrollView>
     </AppShell>
+  );
+}
+
+function Stat({ value, label }: { value: number | string; label: string }) {
+  return (
+    <View style={styles.statItem}>
+      <Text style={styles.statValue}>{value}</Text>
+      <Text style={styles.statLabel}>{label}</Text>
+    </View>
+  );
+}
+
+function ProgressBar({ pct }: { pct: number }) {
+  return (
+    <View style={styles.progressBar}>
+      <View style={[styles.progressFill, { width: `${pct}%` }]} />
+    </View>
+  );
+}
+
+function ProgressSection({
+  title,
+  description,
+  groups,
+}: {
+  title: string;
+  description: string;
+  groups: ProgressGroup[];
+}) {
+  return (
+    <Section title={title} description={description}>
+      <View style={styles.listCard}>
+        {groups.length > 0 ? (
+          groups.map((g) => (
+            <View key={g.key} style={styles.listItem}>
+              <View style={styles.listItemHeader}>
+                <Text style={styles.listItemTitle} numberOfLines={1}>
+                  {g.name}
+                </Text>
+                <Text style={styles.listItemMeta}>
+                  {g.found} / {g.total}
+                </Text>
+              </View>
+              <ProgressBar pct={g.pct} />
+            </View>
+          ))
+        ) : (
+          <Text style={styles.emptyText}>Nothing documented yet</Text>
+        )}
+      </View>
+    </Section>
   );
 }
 
@@ -337,13 +186,13 @@ const styles = StyleSheet.create({
     padding: spacing.xl,
   },
   statsRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-around',
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-around",
     marginBottom: spacing.lg,
   },
   statItem: {
-    alignItems: 'center',
+    alignItems: "center",
     flex: 1,
   },
   statValue: {
@@ -355,7 +204,7 @@ const styles = StyleSheet.create({
   statLabel: {
     fontSize: typography.sizes.sm,
     color: colors.textSecondary,
-    textTransform: 'uppercase',
+    textTransform: "uppercase",
     letterSpacing: 0.5,
   },
   statDivider: {
@@ -367,24 +216,12 @@ const styles = StyleSheet.create({
     height: 8,
     backgroundColor: colors.border,
     borderRadius: radii.full,
-    overflow: 'hidden',
+    overflow: "hidden",
   },
   progressFill: {
-    height: '100%',
+    height: "100%",
     backgroundColor: colors.success,
     borderRadius: radii.full,
-  },
-  disclaimerCard: {
-    backgroundColor: colors.surface,
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderRadius: radii.lg,
-    padding: spacing.lg,
-  },
-  disclaimerText: {
-    fontSize: typography.sizes.sm,
-    lineHeight: typography.lineHeights.relaxed,
-    color: colors.textSecondary,
   },
   listCard: {
     backgroundColor: colors.surface,
@@ -398,12 +235,14 @@ const styles = StyleSheet.create({
     gap: spacing.xs,
   },
   listItemHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
     marginBottom: spacing.xs,
+    gap: spacing.sm,
   },
   listItemTitle: {
+    flex: 1,
     fontSize: typography.sizes.md,
     fontWeight: typography.weights.semibold,
     color: colors.text,
@@ -413,9 +252,9 @@ const styles = StyleSheet.create({
     color: colors.textSecondary,
   },
   achievementItem: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
     paddingVertical: spacing.xs,
     gap: spacing.md,
   },
@@ -435,35 +274,61 @@ const styles = StyleSheet.create({
     color: colors.textSecondary,
     marginTop: spacing.xs,
   },
-  achievementBadge: {
+  badge: {
     borderRadius: radii.full,
     paddingHorizontal: spacing.md,
     paddingVertical: spacing.xs,
     borderWidth: 1,
   },
-  achievementBadgeUnlocked: {
-    backgroundColor: colors.successSoft,
+  badgeUnlocked: {
+    backgroundColor: colors.successLight,
     borderColor: colors.success,
   },
-  achievementBadgeLocked: {
+  badgeLocked: {
     backgroundColor: colors.surface,
     borderColor: colors.border,
   },
-  achievementBadgeText: {
+  badgeText: {
     fontSize: typography.sizes.xs,
-    textTransform: 'uppercase',
+    textTransform: "uppercase",
     letterSpacing: 0.5,
     color: colors.textSecondary,
     fontWeight: typography.weights.medium,
   },
-  achievementBadgeTextUnlocked: {
+  badgeTextUnlocked: {
     color: colors.success,
+  },
+  disclaimerCard: {
+    backgroundColor: colors.surface,
+    borderWidth: 1,
+    borderColor: colors.border,
+    borderRadius: radii.lg,
+    padding: spacing.lg,
+  },
+  disclaimerText: {
+    fontSize: typography.sizes.sm,
+    lineHeight: typography.lineHeights.relaxed,
+    color: colors.textSecondary,
+  },
+  resetButton: {
+    marginTop: spacing.md,
+    alignSelf: "flex-start",
+    paddingVertical: spacing.sm,
+    paddingHorizontal: spacing.md,
+    borderRadius: radii.md,
+    borderWidth: 1,
+    borderColor: colors.error,
+  },
+  resetText: {
+    fontSize: typography.sizes.sm,
+    fontWeight: typography.weights.medium,
+    color: colors.error,
   },
   emptyText: {
     fontSize: typography.sizes.sm,
     color: colors.textSecondary,
-    fontStyle: 'italic',
-    textAlign: 'center',
+    fontStyle: "italic",
+    textAlign: "center",
     padding: spacing.md,
   },
 });

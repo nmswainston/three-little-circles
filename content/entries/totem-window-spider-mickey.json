@@ -1,0 +1,38 @@
+{
+  "id": "totem-window-spider-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "wilderness_lodge_resort",
+  "attractionId": "lobby_window_displays",
+  "display": {
+    "entryTitle": "Totem Display Spider Mickey",
+    "parkName": "Resorts",
+    "landName": "Wilderness Lodge Resort",
+    "attractionName": "Lobby Window Displays"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "description": "A classic three-circle Hidden Mickey appears as three small depressions on a red spider ornament. The depressions align on the ornament's body in a way that reads as the classic shape once you spot it.",
+  "whereToLook": {
+    "scene": "Two window displays on the right side just outside the lobby exit doors leading toward the villa walkway",
+    "exactSpot": "Second display: tall totem pole with a colorful bird at the top. Look on the bird's chest area at the red spider ornament for three small depressions forming the shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Scan the second window display slowly and get close enough to see texture details. This one is more 'texture-based' than outline-based.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "Glass reflections can hide it. Move slightly left or right to reduce glare."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4127,
+    "longitude": -81.5668
+  },
+  "createdAtISO": "2026-01-12T00:00:00.000Z",
+  "updatedAtISO": "2026-09-16T00:00:00.000Z"
+}
