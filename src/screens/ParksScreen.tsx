@@ -31,15 +31,18 @@ export default function ParksScreen() {
 
   const destinations = useMemo(() => getDestinationSummaries(), []);
 
-  // One flat group for a chosen region; otherwise one group per region so
-  // the same park name in different places is never mistaken for a duplicate.
+  // A chosen region shows everything it has, including parks marked "Coming
+  // soon". The All view shows only parks with content, grouped under region
+  // headings so the same park name in different places never reads as a
+  // duplicate.
   const sections = useMemo(() => {
     if (region) {
       return [{ region, destinations: destinations.filter((d) => d.region === region) }];
     }
-    return REGIONS.map((r) => ({ region: r, destinations: destinations.filter((d) => d.region === r) })).filter(
-      (s) => s.destinations.length > 0
-    );
+    return REGIONS.map((r) => ({
+      region: r,
+      destinations: destinations.filter((d) => d.region === r && d.count > 0),
+    })).filter((s) => s.destinations.length > 0);
   }, [destinations, region]);
 
   const foundByPark = useMemo(() => {
