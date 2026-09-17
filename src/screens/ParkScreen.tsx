@@ -16,13 +16,14 @@ import { getDestination } from "../data/destinations";
 import { labelOrFallback } from "../data/labels";
 import { useFoundStore } from "../store/useFoundStore";
 import { Theme, useParkPalette, useStyles, useTheme } from "../theme/ThemeProvider";
-import { parkKeyFor } from "../theme/parks";
+import { parkKeyFor, PARK_ICONS } from "../theme/parks";
 import { spacing, radii, text } from "../theme/tokens";
 import Sunburst from "../components/ui/Sunburst";
 import SegmentedControl, { SegmentedControlOption } from "../components/ui/SegmentedControl";
 import EmptyState from "../components/ui/EmptyState";
 import EntryRow from "../components/EntryRow";
-import { PARK_ICONS } from "../components/ParkCard";
+
+type IconName = keyof typeof Ionicons.glyphMap;
 
 type ParkRouteProp = RouteProp<RootStackParamList, "Park">;
 type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
@@ -90,7 +91,7 @@ export default function ParkScreen() {
               <Ionicons name="arrow-back" size={24} color={headerText} />
             </Pressable>
             <View style={[styles.headerDisc, { backgroundColor: headerDisc }]}>
-              <Ionicons name={PARK_ICONS[parkKey]} size={22} color={headerText} />
+              <Ionicons name={PARK_ICONS[parkKey] as IconName} size={22} color={headerText} />
             </View>
           </View>
           {destination?.region && (

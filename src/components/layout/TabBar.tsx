@@ -5,6 +5,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { Theme, useStyles, useTheme } from '../../theme/ThemeProvider';
 import { spacing, radii, typography } from '../../theme/tokens';
+import { useAchievementsStore } from '../../store/useAchievementsStore';
 
 type IconName = keyof typeof Ionicons.glyphMap;
 
@@ -22,6 +23,9 @@ export default function TabBar({ state, descriptors, navigation }: BottomTabBarP
   const t = useTheme();
   const styles = useStyles(createStyles);
   const insets = useSafeAreaInsets();
+  const unlocked = useAchievementsStore((s) => s.unlocked);
+  const seen = useAchievementsStore((s) => s.seen);
+  const hasNewBadge = unlocked.some((id) => !seen.includes(id));
 
   return (
     <View style={[styles.bar, { paddingBottom: Math.max(insets.bottom, spacing.sm) }]}>
@@ -63,6 +67,7 @@ export default function TabBar({ state, descriptors, navigation }: BottomTabBarP
                 size={22}
                 color={focused ? t.colors.onPrimary : t.colors.textMuted}
               />
+              {route.name === 'ProfileTab' && hasNewBadge && <View style={styles.newDot} />}
             </View>
             <Text style={[styles.label, focused && styles.labelActive]}>{label}</Text>
           </Pressable>
@@ -99,6 +104,17 @@ const createStyles = (t: Theme) =>
     },
     pillActive: {
       backgroundColor: t.colors.primary,
+    },
+    newDot: {
+      position: 'absolute',
+      top: 2,
+      right: 8,
+      width: 10,
+      height: 10,
+      borderRadius: 5,
+      backgroundColor: t.colors.error,
+      borderWidth: 2,
+      borderColor: t.colors.tabBar,
     },
     label: {
       fontFamily: typography.fonts.bodyBold,

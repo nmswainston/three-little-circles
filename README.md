@@ -121,11 +121,17 @@ environment for the map to render. iOS uses Apple Maps and needs no key.
 
 ## Data and Persistence
 
-Found marks are stored on the device under the key `tlc.found.v1`, unlocked
-achievements under `tlc.achievements.v1`, and the appearance setting (system,
-day, or night) under `tlc.settings.v1`. Achievements are recalculated from the
-found map whenever it changes, and once earned they stay earned even if a find is
-un-marked. "Reset found progress" on the Profile screen clears the found map.
+Found marks are stored on the device under the key `tlc.found.v1`, badges under
+`tlc.achievements.v1`, and the appearance setting (system, day, or night) under
+`tlc.settings.v1`. Badges are recalculated from the found map whenever it
+changes, and once earned they stay earned even if a find is un-marked. "Reset
+found progress" on the Profile screen clears the found map.
+
+Badges come in two kinds, defined in `src/data/achievements.ts`: milestones
+(first find, 10, 25, and 50 finds, one complete land, one complete attraction)
+and one completion badge per destination that has content, which appears
+automatically as parks gain entries. Earning one shows a toast with confetti and
+a haptic tap, and marks the badge as new on the Profile tab until it is viewed.
 
 The Supabase client in `src/lib/supabase.ts` is initialized when credentials are
 present but nothing calls it yet. It is there for future sync and community
