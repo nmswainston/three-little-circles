@@ -116,8 +116,15 @@ Then:
 | Development client with hot reload | `eas build --profile development --platform ios` |
 | Store submission | `eas build --profile production --platform all` then `eas submit` |
 
-Android standalone builds need `GOOGLE_MAPS_ANDROID_API_KEY` set in the EAS
-environment for the map to render. iOS uses Apple Maps and needs no key.
+Android builds need `GOOGLE_MAPS_ANDROID_API_KEY` set in the EAS environment
+for the map to render; without it the Map tab is a grey box. Create the key in
+Google Cloud with "Maps SDK for Android" enabled, restricted to the package
+`com.nmswainston.threelittlecircles` and the signing fingerprint that
+`eas credentials` shows. iOS uses Apple Maps and needs no key.
+
+A development build (`eas build --profile development`) is the way to test the
+Android map with your own key while keeping hot reload: install the build, then
+`npm start` connects to it instead of Expo Go.
 
 ## Data and Persistence
 
