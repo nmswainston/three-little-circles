@@ -6,12 +6,14 @@ import TabBar from '../components/layout/TabBar';
 import ParksScreen from '../screens/ParksScreen';
 import ParkScreen from '../screens/ParkScreen';
 import EntryDetailScreen from '../screens/EntryDetailScreen';
+import SubmitSightingScreen from '../screens/SubmitSightingScreen';
 import MapScreen from '../screens/MapScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 
 const Tab = createBottomTabNavigator<RootTabParamList>();
 const ParksStack = createNativeStackNavigator<RootStackParamList>();
 const MapStack = createNativeStackNavigator<RootStackParamList>();
+const ProfileStack = createNativeStackNavigator<RootStackParamList>();
 
 function ParksStackNavigator() {
   return (
@@ -19,6 +21,7 @@ function ParksStackNavigator() {
       <ParksStack.Screen name="Parks" component={ParksScreen} options={{ title: 'Parks' }} />
       <ParksStack.Screen name="Park" component={ParkScreen} options={{ title: 'Park' }} />
       <ParksStack.Screen name="EntryDetail" component={EntryDetailScreen} options={{ title: 'Hidden find' }} />
+      <ParksStack.Screen name="SubmitSighting" component={SubmitSightingScreen} options={{ title: 'Suggest a find' }} />
     </ParksStack.Navigator>
   );
 }
@@ -32,6 +35,15 @@ function MapStackNavigator() {
   );
 }
 
+function ProfileStackNavigator() {
+  return (
+    <ProfileStack.Navigator initialRouteName="Profile" screenOptions={{ headerShown: false }}>
+      <ProfileStack.Screen name="Profile" component={ProfileScreen} options={{ title: 'Profile' }} />
+      <ProfileStack.Screen name="SubmitSighting" component={SubmitSightingScreen} options={{ title: 'Suggest a find' }} />
+    </ProfileStack.Navigator>
+  );
+}
+
 export default function AppNavigator() {
   return (
     <Tab.Navigator
@@ -41,7 +53,7 @@ export default function AppNavigator() {
     >
       <Tab.Screen name="ParksTab" component={ParksStackNavigator} options={{ title: 'Parks' }} />
       <Tab.Screen name="MapTab" component={MapStackNavigator} options={{ title: 'Map' }} />
-      <Tab.Screen name="ProfileTab" component={ProfileScreen} options={{ title: 'Profile' }} />
+      <Tab.Screen name="ProfileTab" component={ProfileStackNavigator} options={{ title: 'Profile' }} />
     </Tab.Navigator>
   );
 }

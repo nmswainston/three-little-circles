@@ -15,7 +15,8 @@
     "content:check": "node scripts/build-entries.mjs --check",
     "typecheck": "tsc --noEmit",
     "test": "jest",
-    "check": "npm run content:check && npm run typecheck && npm test"
+    "check": "npm run content:check && npm run typecheck && npm test",
+    "content:import": "node scripts/import-submissions.mjs"
   },
   "dependencies": {
     "@expo-google-fonts/lilita-one": "^0.4.1",
@@ -28,8 +29,11 @@
     "@supabase/supabase-js": "^2.90.1",
     "expo": "^57.0.23",
     "expo-constants": "~57.0.18",
+    "expo-crypto": "~57.0.3",
+    "expo-file-system": "~57.0.7",
     "expo-font": "~57.0.4",
     "expo-haptics": "~57.0.3",
+    "expo-image-picker": "~57.0.18",
     "expo-linear-gradient": "~57.0.2",
     "expo-location": "~57.0.18",
     "expo-splash-screen": "~57.0.9",

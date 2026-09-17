@@ -40,3 +40,6 @@ yarn-error.*
 /ios
 /android
 
+
+# drafts imported from community submissions (raw submitter text, review before publishing)
+content/inbox/
