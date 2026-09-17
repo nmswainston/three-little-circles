@@ -142,8 +142,15 @@ export default function SubmitSightingScreen() {
   };
 
   return (
-    <KeyboardAvoidingView style={styles.screen} behavior={Platform.OS === "ios" ? "padding" : undefined}>
-      <ScrollView contentContainerStyle={styles.scroll} keyboardShouldPersistTaps="handled" showsVerticalScrollIndicator={false}>
+    // "padding" on both platforms: with edge-to-edge on Android the window no
+    // longer resizes for the keyboard, so the view has to make room itself.
+    <KeyboardAvoidingView style={styles.screen} behavior="padding">
+      <ScrollView
+        contentContainerStyle={styles.scroll}
+        keyboardShouldPersistTaps="handled"
+        keyboardDismissMode="on-drag"
+        showsVerticalScrollIndicator={false}
+      >
         <View style={[styles.header, { paddingTop: insets.top + spacing.sm }]}>
           <Sunburst center={{ x: 195, y: -200 + insets.top }} />
           <Pressable onPress={() => navigation.goBack()} accessibilityRole="button" accessibilityLabel="Back" hitSlop={8} style={styles.backButton}>
@@ -360,7 +367,7 @@ const createStyles = (t: Theme) =>
       backgroundColor: t.colors.background,
     },
     scroll: {
-      paddingBottom: spacing.xxl,
+      paddingBottom: spacing.huge,
     },
     header: {
       position: "relative",
