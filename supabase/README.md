@@ -22,11 +22,15 @@ approved it, rewritten it if needed, and shipped it as content.
    The anon key is safe to ship in the app: the policies in `schema.sql` let it
    insert a pending submission and upload a photo, and nothing else.
 
-4. For device builds, add the same two variables to your EAS project
+4. Run `npm run supabase:check`. It confirms the table exists, that the anon key
+   cannot read the queue, and (if the service role key is set) that the photo
+   bucket is private. It sends and stores nothing.
+
+5. For device builds, add the same two variables to your EAS project
    environment (`eas env:create`, or the Environment variables page on
    expo.dev), otherwise the built app will say submissions aren't set up.
 
-5. For the import script only, also copy the **service role** key into `.env`
+6. For the import script only, also copy the **service role** key into `.env`
    as `SUPABASE_SERVICE_ROLE_KEY`. This key bypasses every policy. It is read by
    the script on your machine and never bundled into the app; `app.config.js`
    does not reference it.

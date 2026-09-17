@@ -16,7 +16,8 @@
     "typecheck": "tsc --noEmit",
     "test": "jest",
     "check": "npm run content:check && npm run typecheck && npm test",
-    "content:import": "node scripts/import-submissions.mjs"
+    "content:import": "node scripts/import-submissions.mjs",
+    "supabase:check": "node scripts/check-supabase.mjs"
   },
   "dependencies": {
     "@expo-google-fonts/lilita-one": "^0.4.1",
@@ -26,7 +27,8 @@
     "@react-navigation/bottom-tabs": "^7.19.1",
     "@react-navigation/native": "^7.1.26",
     "@react-navigation/native-stack": "^7.9.0",
-    "@supabase/supabase-js": "^2.90.1",
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.116.0",
     "expo": "^57.0.23",
     "expo-constants": "~57.0.18",
     "expo-crypto": "~57.0.3",
