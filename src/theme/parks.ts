@@ -1,6 +1,16 @@
 import { getDestination } from '../data/destinations';
 import { ParkKey } from './themes';
 
+/** Ionicons glyph for each park type. Cast to the glyph-map key type at the call site. */
+export const PARK_ICONS: Record<ParkKey, string> = {
+  kingdom: 'star',
+  studios: 'film',
+  showcase: 'globe',
+  adventure: 'leaf',
+  springs: 'water',
+  resorts: 'home',
+};
+
 /**
  * Maps a parkId from the content to one of the six park accent palettes.
  *

@@ -1,29 +1,20 @@
-import React, { ReactNode, useMemo } from "react";
+import React, { ReactNode, useCallback, useMemo, useState } from "react";
 import { ScrollView, StyleSheet, View, Text, Pressable, Alert, Platform } from "react-native";
-import { Ionicons } from "@expo/vector-icons";
+import { useFocusEffect } from "@react-navigation/native";
 import { getAllEntries, getEntryById } from "../data/query";
 import { getDestinationSummaries } from "../data/destinations";
 import { labelOrFallback } from "../data/labels";
 import { useFoundStore } from "../store/useFoundStore";
-import { useAchievementsStore, ACHIEVEMENTS, AchievementId } from "../store/useAchievementsStore";
+import { useAchievementsStore, getAchievements, Achievement } from "../store/useAchievementsStore";
 import { useSettingsStore, Appearance } from "../store/useSettingsStore";
 import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
 import { spacing, radii, text } from "../theme/tokens";
 import PageHeader from "../components/layout/PageHeader";
 import ProgressRing from "../components/ui/ProgressRing";
 import Chip from "../components/ui/Chip";
+import Badge from "../components/ui/Badge";
+import AchievementSheet from "../components/AchievementSheet";
 import Disclaimer from "../components/Disclaimer";
-
-type IconName = keyof typeof Ionicons.glyphMap;
-
-const ACHIEVEMENT_ICONS: Record<AchievementId, IconName> = {
-  FIRST_FIND: "star",
-  TEN_FINDS: "map",
-  PARK_COMPLETE: "trophy",
-  LAND_COMPLETE: "leaf",
-  ATTRACTION_COMPLETE: "film",
-  RESORT_COMPLETE: "home",
-};
 
 const APPEARANCE_OPTIONS: { value: Appearance; label: string }[] = [
   { value: "system", label: "System" },
@@ -38,7 +29,26 @@ export default function ProfileScreen() {
   const found = useFoundStore((s) => s.found);
   const clearAll = useFoundStore((s) => s.clearAll);
   const unlocked = useAchievementsStore((s) => s.unlocked);
+  const seen = useAchievementsStore((s) => s.seen);
+  const earnedAt = useAchievementsStore((s) => s.earnedAt);
+  const markSeen = useAchievementsStore((s) => s.markSeen);
   const appearance = useSettingsStore((s) => s.appearance);
+
+  const achievements = useMemo(() => getAchievements(), []);
+  const unseen = useMemo(() => new Set(unlocked.filter((id) => !seen.includes(id))), [unlocked, seen]);
+  const [selected, setSelected] = useState<Achievement | undefined>();
+
+  // "New" dots stay while you look; they clear once you leave the tab.
+  useFocusEffect(
+    useCallback(() => {
+      return () => markSeen();
+    }, [markSeen])
+  );
+
+  const openBadge = (achievement: Achievement) => {
+    setSelected(achievement);
+    if (unseen.has(achievement.id)) markSeen([achievement.id]);
+  };
   const setAppearance = useSettingsStore((s) => s.setAppearance);
 
   const entries = useMemo(() => getAllEntries(), []);
@@ -130,27 +140,23 @@ export default function ProfileScreen() {
             </View>
           </Section>
 
-          <Section title="Achievements">
+          <Section title="Badges">
             <View style={styles.grid}>
-              {ACHIEVEMENTS.map((achievement) => {
+              {achievements.map((achievement) => {
                 const earned = unlocked.includes(achievement.id);
                 return (
-                  <View
+                  <Pressable
                     key={achievement.id}
-                    style={styles.badge}
-                    accessibilityLabel={`${achievement.title}, ${earned ? "unlocked" : "locked"}. ${achievement.description}`}
+                    onPress={() => openBadge(achievement)}
+                    accessibilityRole="button"
+                    accessibilityLabel={`${achievement.title}, ${earned ? "unlocked" : "locked"}`}
+                    style={({ pressed }) => [styles.badge, pressed && styles.badgePressed]}
                   >
-                    <View style={[styles.badgeDisc, earned ? styles.badgeDiscEarned : styles.badgeDiscLocked]}>
-                      <Ionicons
-                        name={ACHIEVEMENT_ICONS[achievement.id]}
-                        size={20}
-                        color={earned ? t.colors.onPrimary : t.colors.textMuted}
-                      />
-                    </View>
+                    <Badge achievement={achievement} earned={earned} isNew={unseen.has(achievement.id)} />
                     <Text style={[styles.badgeTitle, earned && styles.badgeTitleEarned]} numberOfLines={2}>
                       {achievement.title}
                     </Text>
-                  </View>
+                  </Pressable>
                 );
               })}
             </View>
@@ -182,6 +188,12 @@ export default function ProfileScreen() {
           </Section>
         </View>
       </ScrollView>
+
+      <AchievementSheet
+        achievement={selected}
+        earnedAt={selected ? earnedAt[selected.id] : undefined}
+        onClose={() => setSelected(undefined)}
+      />
     </View>
   );
 }
@@ -316,18 +328,8 @@ const createStyles = (t: Theme) =>
       paddingVertical: spacing.sm + 2,
       paddingHorizontal: spacing.xs + 2,
     },
-    badgeDisc: {
-      width: 40,
-      height: 40,
-      borderRadius: 20,
-      alignItems: "center",
-      justifyContent: "center",
-    },
-    badgeDiscEarned: {
-      backgroundColor: t.colors.primary,
-    },
-    badgeDiscLocked: {
-      backgroundColor: t.colors.track,
+    badgePressed: {
+      opacity: 0.85,
     },
     badgeTitle: {
       ...text.labelCaps,

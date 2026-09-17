@@ -3,19 +3,11 @@ import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { Theme, useStyles, useTheme } from '../theme/ThemeProvider';
 import { ParkKey } from '../theme/themes';
+import { PARK_ICONS } from '../theme/parks';
 import { spacing, radii, text, shadows } from '../theme/tokens';
 import ProgressRing from './ui/ProgressRing';
 
 type IconName = keyof typeof Ionicons.glyphMap;
-
-export const PARK_ICONS: Record<ParkKey, IconName> = {
-  kingdom: 'star',
-  studios: 'film',
-  showcase: 'globe',
-  adventure: 'leaf',
-  springs: 'water',
-  resorts: 'home',
-};
 
 interface ParkCardProps {
   name: string;
@@ -46,7 +38,7 @@ export default function ParkCard({ name, parkKey, count, found, onPress }: ParkC
       style={({ pressed }) => [styles.card, pressed && styles.pressed]}
     >
       <View style={[styles.disc, { backgroundColor: palette.accent }, comingSoon && styles.discMuted]}>
-        <Ionicons name={PARK_ICONS[parkKey]} size={20} color={palette.onAccent} />
+        <Ionicons name={PARK_ICONS[parkKey] as IconName} size={20} color={palette.onAccent} />
       </View>
       <View style={styles.textColumn}>
         <Text style={styles.name} numberOfLines={1}>
