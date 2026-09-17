@@ -83,6 +83,11 @@ begin
 end;
 $$;
 
+-- The function runs with elevated rights so it can count rows the anon key
+-- cannot see. Nobody needs to call it directly (triggers fire without call
+-- permission), so keep it off the API.
+revoke execute on function public.enforce_submission_rate() from public, anon, authenticated;
+
 drop trigger if exists submissions_rate_limit on public.submissions;
 create trigger submissions_rate_limit
   before insert on public.submissions
