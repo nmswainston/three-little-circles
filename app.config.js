@@ -32,6 +32,7 @@ export default {
           resizeMode: 'contain',
           backgroundColor: '#FFF4DC',
           dark: {
+            image: './assets/splash-icon-dark.png',
             backgroundColor: '#0B1D3A',
           },
         },
@@ -48,7 +49,8 @@ export default {
       package: 'com.nmswainston.threelittlecircles',
       adaptiveIcon: {
         foregroundImage: './assets/adaptive-icon.png',
-        backgroundColor: '#FFF4DC',
+        monochromeImage: './assets/adaptive-icon-monochrome.png',
+        backgroundColor: '#E63946',
       },
       edgeToEdgeEnabled: true,
       predictiveBackGestureEnabled: false,
