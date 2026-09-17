@@ -1,6 +1,6 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
-import { View, Text, StyleSheet, ScrollView } from "react-native";
-import MapView, { Marker, Region } from "react-native-maps";
+import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { View, Text, StyleSheet, ScrollView, Platform } from "react-native";
+import MapView, { Marker, Region, PROVIDER_GOOGLE } from "react-native-maps";
 import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { RootStackParamList } from "../navigation/types";
@@ -38,8 +38,10 @@ export default function MapScreen() {
   );
   const pinned = useMemo(() => visible.filter((e) => e.coordinates), [visible]);
   const unpinned = useMemo(() => visible.filter((e) => !e.coordinates), [visible]);
+  const [mapReady, setMapReady] = useState(false);
 
-  useEffect(() => {
+  const fitToPins = useCallback(() => {
+    if (!mapReady) return;
     if (pinned.length === 0) {
       mapRef.current?.animateToRegion(FALLBACK_REGION, 300);
       return;
@@ -48,14 +50,28 @@ export default function MapScreen() {
       pinned.map((e) => e.coordinates!),
       { edgePadding: { top: 80, right: 60, bottom: 80, left: 60 }, animated: true }
     );
-  }, [pinned]);
+  }, [mapReady, pinned]);
+
+  // Zooming before the native map has loaded is silently ignored, so wait for
+  // onMapReady and re-run whenever the selection changes.
+  useEffect(() => {
+    fitToPins();
+  }, [fitToPins]);
 
   return (
     <View style={styles.screen}>
       <PageHeader title="Map" subtitle="Sightlines and queues." />
       <ParkPicker parks={parks} selectedParkId={selectedParkId} onSelect={setSelectedParkId} />
       <View style={styles.mapContainer}>
-        <MapView ref={mapRef} style={styles.map} initialRegion={FALLBACK_REGION} showsUserLocation={false}>
+        <MapView
+          ref={mapRef}
+          style={styles.map}
+          // Android only renders Google Maps; iOS keeps Apple Maps, which needs no key.
+          provider={Platform.OS === "android" ? PROVIDER_GOOGLE : undefined}
+          initialRegion={FALLBACK_REGION}
+          showsUserLocation={false}
+          onMapReady={() => setMapReady(true)}
+        >
           {pinned.map((entry) => (
             <Marker
               key={entry.id}

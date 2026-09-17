@@ -10,6 +10,14 @@ export default {
     newArchEnabled: true,
     plugins: [
       [
+        // Google Maps on Android needs a key in built apps (not in Expo Go).
+        // iOS uses Apple Maps and needs nothing.
+        'react-native-maps',
+        {
+          androidGoogleMapsApiKey: process.env.GOOGLE_MAPS_ANDROID_API_KEY,
+        },
+      ],
+      [
         'expo-image-picker',
         {
           photosPermission: 'Three Little Circles uses your photos so you can attach one to a suggested find.',
@@ -44,11 +52,6 @@ export default {
       },
       edgeToEdgeEnabled: true,
       predictiveBackGestureEnabled: false,
-      config: {
-        googleMaps: {
-          apiKey: process.env.GOOGLE_MAPS_ANDROID_API_KEY,
-        },
-      },
     },
     web: {
       favicon: './assets/favicon.png',
