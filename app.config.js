@@ -56,11 +56,13 @@ export default {
     web: {
       favicon: './assets/favicon.png',
     },
+    owner: 'nmswainston',
     extra: {
       SUPABASE_URL: process.env.SUPABASE_URL,
       SUPABASE_ANON_KEY: process.env.SUPABASE_ANON_KEY,
-      // Populated by `eas init`; see README.
-      eas: process.env.EAS_PROJECT_ID ? { projectId: process.env.EAS_PROJECT_ID } : undefined,
+      eas: {
+        projectId: '114958f9-aa23-493a-ac7e-72772c555b21',
+      },
     },
   },
 };

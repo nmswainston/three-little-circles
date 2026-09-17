@@ -105,8 +105,8 @@ eas login
 eas init
 ```
 
-`eas init` prints a project id. Put it in `.env` as `EAS_PROJECT_ID` so
-`app.config.js` can pick it up.
+The EAS project id is set in `app.config.js` under `extra.eas.projectId`, so
+`eas init` only needs to be run when linking a different Expo account.
 
 Then:
 
