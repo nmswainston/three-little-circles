@@ -19,7 +19,12 @@ export default function ParkPicker({ parks, selectedParkId, onSelect }: ParkPick
   ];
 
   return (
-    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.row}>
+    <ScrollView
+      horizontal
+      showsHorizontalScrollIndicator={false}
+      style={styles.scroll}
+      contentContainerStyle={styles.row}
+    >
       {options.map((opt) => (
         <Chip
           key={opt.id ?? "all"}
@@ -33,6 +38,12 @@ export default function ParkPicker({ parks, selectedParkId, onSelect }: ParkPick
 }
 
 const styles = StyleSheet.create({
+  // A horizontal ScrollView in a column will otherwise shrink to make room
+  // for a long sibling list, hiding the chips behind it.
+  scroll: {
+    flexGrow: 0,
+    flexShrink: 0,
+  },
   row: {
     paddingHorizontal: spacing.xl,
     paddingVertical: spacing.sm,

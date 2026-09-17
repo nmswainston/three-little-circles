@@ -158,6 +158,8 @@ const createStyles = (t: Theme) =>
     },
     chipRow: {
       marginHorizontal: -spacing.lg,
+      flexGrow: 0,
+      flexShrink: 0,
     },
     chips: {
       paddingHorizontal: spacing.lg,
