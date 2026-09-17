@@ -142,6 +142,19 @@ export default function ParkScreen() {
               ))}
             </View>
           ))}
+
+          <View style={styles.suggestCard}>
+            <Text style={styles.suggestTitle}>Know one we're missing?</Text>
+            <Text style={styles.suggestBody}>Send it in and we'll check it out before adding it.</Text>
+            <Pressable
+              onPress={() => navigation.navigate("SubmitSighting", { parkId })}
+              accessibilityRole="button"
+              style={({ pressed }) => [styles.suggestButton, pressed && styles.suggestButtonPressed]}
+            >
+              <Ionicons name="add-circle-outline" size={20} color={t.colors.onInk} />
+              <Text style={styles.suggestButtonText}>Suggest a find</Text>
+            </Pressable>
+          </View>
         </View>
       </ScrollView>
     </View>
@@ -264,5 +277,39 @@ const createStyles = (t: Theme) =>
       height: 1,
       marginHorizontal: spacing.md - 2,
       backgroundColor: t.colors.border,
+    },
+    suggestCard: {
+      alignItems: "flex-start",
+      gap: spacing.xs,
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.md,
+      padding: spacing.md,
+      marginTop: spacing.sm,
+    },
+    suggestTitle: {
+      ...text.cardTitle,
+      color: t.colors.text,
+    },
+    suggestBody: {
+      ...text.bodySmall,
+      color: t.colors.textSecondary,
+    },
+    suggestButton: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.sm - 2,
+      height: 44,
+      paddingHorizontal: spacing.md + 2,
+      borderRadius: radii.full,
+      backgroundColor: t.colors.ink,
+      marginTop: spacing.sm,
+    },
+    suggestButtonPressed: {
+      opacity: 0.85,
+    },
+    suggestButtonText: {
+      ...text.chip,
+      fontSize: 15,
+      color: t.colors.onInk,
     },
   });

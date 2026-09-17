@@ -133,9 +133,14 @@ and one completion badge per destination that has content, which appears
 automatically as parks gain entries. Earning one shows a toast with confetti and
 a haptic tap, and marks the badge as new on the Profile tab until it is viewed.
 
-The Supabase client in `src/lib/supabase.ts` is initialized when credentials are
-present but nothing calls it yet. It is there for future sync and community
-submissions.
+## Community sightings
+
+Users can suggest a find from the Profile tab or from any park screen. With
+`SUPABASE_URL` and `SUPABASE_ANON_KEY` set, suggestions go to a private review
+queue in Supabase; without them the form explains that suggestions aren't set
+up in this build. Nothing a user submits appears in the app until it has been
+reviewed and shipped as content. Setup, the review workflow, and
+`npm run content:import` are documented in [supabase/README.md](supabase/README.md).
 
 ## Lessons Learned
 
@@ -151,7 +156,7 @@ submissions.
 - App Store and Google Play deployment (EAS build profiles are in place)
 - More content. Twelve entries ship today, and the pipeline makes each new one a JSON file.
 - Verify map coordinates on site. The current ones were placed by hand and are approximate to the building.
-- Supabase sync and community submissions
+- Sync found progress across devices
 - Push notifications
 - Replace the web console-warning suppression in `App.tsx` with real fixes
 

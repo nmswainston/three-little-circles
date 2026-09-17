@@ -42,3 +42,6 @@ yarn-error.*
 
 # local editor / assistant configuration
 .claude/
+
+# drafts imported from community submissions (raw submitter text, review before publishing)
+content/inbox/

@@ -10,6 +10,13 @@ export default {
     newArchEnabled: true,
     plugins: [
       [
+        'expo-image-picker',
+        {
+          photosPermission: 'Three Little Circles uses your photos so you can attach one to a suggested find.',
+          cameraPermission: 'Three Little Circles uses the camera so you can photograph a suggested find.',
+        },
+      ],
+      [
         'expo-splash-screen',
         {
           image: './assets/splash-icon.png',

@@ -8,6 +8,7 @@ export type RootStackParamList = {
   Parks: undefined;
   Park: { parkId: string };
   EntryDetail: { entryId: string };
+  SubmitSighting: { parkId?: string } | undefined;
   Map: undefined;
   Profile: undefined;
 };

@@ -1,6 +1,9 @@
 import React, { ReactNode, useCallback, useMemo, useState } from "react";
 import { ScrollView, StyleSheet, View, Text, Pressable, Alert, Platform } from "react-native";
-import { useFocusEffect } from "@react-navigation/native";
+import { useFocusEffect, useNavigation } from "@react-navigation/native";
+import { NativeStackNavigationProp } from "@react-navigation/native-stack";
+import { Ionicons } from "@expo/vector-icons";
+import { RootStackParamList } from "../navigation/types";
 import { getAllEntries, getEntryById } from "../data/query";
 import { getDestinationSummaries } from "../data/destinations";
 import { labelOrFallback } from "../data/labels";
@@ -22,9 +25,12 @@ const APPEARANCE_OPTIONS: { value: Appearance; label: string }[] = [
   { value: "night", label: "Night" },
 ];
 
+type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
+
 export default function ProfileScreen() {
   const t = useTheme();
   const styles = useStyles(createStyles);
+  const navigation = useNavigation<NavigationProp>();
 
   const found = useFoundStore((s) => s.found);
   const clearAll = useFoundStore((s) => s.clearAll);
@@ -174,6 +180,22 @@ export default function ProfileScreen() {
               ))}
             </View>
             <Text style={styles.caption}>System follows your device setting.</Text>
+          </Section>
+
+          <Section title="Community">
+            <View style={styles.aboutCard}>
+              <Text style={styles.communityBody}>
+                Spotted a Hidden Mickey we don't have? Send it in and a person will check it before it's added.
+              </Text>
+              <Pressable
+                onPress={() => navigation.navigate("SubmitSighting", undefined)}
+                accessibilityRole="button"
+                style={({ pressed }) => [styles.suggestButton, pressed && styles.badgePressed]}
+              >
+                <Ionicons name="add-circle-outline" size={20} color={t.colors.onInk} />
+                <Text style={styles.suggestButtonText}>Suggest a find</Text>
+              </Pressable>
+            </View>
           </Section>
 
           <Section title="About">
@@ -355,6 +377,26 @@ const createStyles = (t: Theme) =>
       backgroundColor: t.colors.surface,
       borderRadius: radii.md,
       padding: spacing.md,
+      gap: spacing.sm + 2,
+    },
+    communityBody: {
+      ...text.bodySmall,
+      color: t.colors.textSecondary,
+    },
+    suggestButton: {
+      flexDirection: "row",
+      alignItems: "center",
+      alignSelf: "flex-start",
+      gap: spacing.sm - 2,
+      height: 44,
+      paddingHorizontal: spacing.md + 2,
+      borderRadius: radii.full,
+      backgroundColor: t.colors.ink,
+    },
+    suggestButtonText: {
+      ...text.chip,
+      fontSize: 15,
+      color: t.colors.onInk,
     },
     resetButton: {
       alignSelf: "flex-start",
