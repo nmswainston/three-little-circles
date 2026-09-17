@@ -30,10 +30,17 @@ export default function ParksScreen() {
   const [region, setRegion] = useState<Region | undefined>(DEFAULT_REGION);
 
   const destinations = useMemo(() => getDestinationSummaries(), []);
-  const visible = useMemo(
-    () => destinations.filter((d) => !region || d.region === region),
-    [destinations, region]
-  );
+
+  // One flat group for a chosen region; otherwise one group per region so
+  // the same park name in different places is never mistaken for a duplicate.
+  const sections = useMemo(() => {
+    if (region) {
+      return [{ region, destinations: destinations.filter((d) => d.region === region) }];
+    }
+    return REGIONS.map((r) => ({ region: r, destinations: destinations.filter((d) => d.region === r) })).filter(
+      (s) => s.destinations.length > 0
+    );
+  }, [destinations, region]);
 
   const foundByPark = useMemo(() => {
     const map = new Map<string, number>();
@@ -102,15 +109,20 @@ export default function ParksScreen() {
               </ScrollView>
 
               <View style={styles.list}>
-                {visible.map((d) => (
-                  <ParkCard
-                    key={d.parkId}
-                    name={d.name}
-                    parkKey={d.parkKey}
-                    count={d.count}
-                    found={foundByPark.get(d.parkId) ?? 0}
-                    onPress={() => navigation.navigate("Park", { parkId: d.parkId })}
-                  />
+                {sections.map((section) => (
+                  <View key={section.region} style={styles.regionGroup}>
+                    {region === undefined && <Text style={styles.regionTitle}>{section.region}</Text>}
+                    {section.destinations.map((d) => (
+                      <ParkCard
+                        key={d.parkId}
+                        name={d.name}
+                        parkKey={d.parkKey}
+                        count={d.count}
+                        found={foundByPark.get(d.parkId) ?? 0}
+                        onPress={() => navigation.navigate("Park", { parkId: d.parkId })}
+                      />
+                    ))}
+                  </View>
                 ))}
               </View>
             </>
@@ -166,8 +178,15 @@ const createStyles = (t: Theme) =>
       gap: spacing.sm,
     },
     list: {
-      gap: spacing.sm + 2,
+      gap: spacing.md,
       paddingTop: spacing.xs,
+    },
+    regionGroup: {
+      gap: spacing.sm + 2,
+    },
+    regionTitle: {
+      ...text.sectionTitle,
+      color: t.colors.text,
     },
     footer: {
       paddingTop: spacing.xl,
