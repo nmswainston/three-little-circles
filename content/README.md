@@ -15,6 +15,41 @@ and writes `src/data/entries.generated.ts`, which is what the app imports.
 `npm start`, `npm run ios`, `npm run android`, and `npm run web` all run the build
 automatically first, so a stale generated file will not sneak into a dev session.
 
+## Importing from a spreadsheet
+
+For many finds at once, keep them in a spreadsheet and import the CSV export:
+
+1. Use the columns in [`TEMPLATE.csv`](TEMPLATE.csv) as your header row, or keep
+   your own headers and map them in `content/import-map.json` like
+   `{"exactSpot": "Where exactly", "bestTip": "Tip"}` (entry field on the left,
+   your header on the right; headers are matched ignoring case).
+2. Export the sheet as CSV (File, Download or Save As, CSV).
+3. Preview, then import:
+
+   ```bash
+   npm run content:import-csv -- path/to/finds.csv --dry-run
+   npm run content:import-csv -- path/to/finds.csv
+   npm run content:build
+   ```
+
+Rows with problems are listed with their line number and skipped; fix them in
+the sheet and run again. Rows whose id already exists are skipped unless you
+pass `--overwrite`.
+
+What the importer does for you:
+
+- `park` accepts a name from `destinations.json` or a parkId. Names that exist
+  in several regions need a `region` column, or write `Kingdom Park (Paris)`.
+- Land and attraction ids are reused from entries already in that park when
+  the names match, so new finds group with existing ones. A `land id` or
+  `attraction id` column overrides that.
+- Values like `hard`, `pre show`, or `sideways` are normalized to the exact
+  enum spellings. Fun facts can be separated with `|` or line breaks.
+- Coordinates can be `latitude` and `longitude` columns or one `coordinates`
+  cell such as `28.35634, -81.56281`, which is the format the app's map copies.
+- The entry id is built from the attraction and title unless an `id` column
+  provides one.
+
 ## Field reference
 
 | Field | Required | Values |
