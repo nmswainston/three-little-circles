@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { ScrollView, StyleSheet, View, Text, Pressable } from "react-native";
 import { useRoute, RouteProp, useNavigation, CompositeNavigationProp } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
@@ -6,7 +6,7 @@ import { BottomTabNavigationProp } from "@react-navigation/bottom-tabs";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { RootStackParamList, RootTabParamList } from "../navigation/types";
-import { getEntryById } from "../data/query";
+import { getEntryById, getRelatedEntries } from "../data/query";
 import { labelOrFallback } from "../data/labels";
 import { openDirections } from "../lib/maps";
 import { useFoundStore } from "../store/useFoundStore";
@@ -16,6 +16,7 @@ import Sunburst from "../components/ui/Sunburst";
 import DifficultyChip from "../components/ui/DifficultyChip";
 import FoundButton from "../components/ui/FoundButton";
 import EmptyState from "../components/ui/EmptyState";
+import EntryRow from "../components/EntryRow";
 
 type EntryDetailRouteProp = RouteProp<RootStackParamList, "EntryDetail">;
 type NavigationProp = CompositeNavigationProp<
@@ -36,10 +37,16 @@ export default function EntryDetailScreen() {
   const insets = useSafeAreaInsets();
   const palette = useParkPalette(entry?.parkId);
 
-  // Select the boolean, not the isFound function: the function reference is
+  // Select the map, not the isFound function: the function reference is
   // stable, so selecting it would never re-render this screen on toggle.
-  const found = useFoundStore((s) => entryId in s.found);
+  const foundMap = useFoundStore((s) => s.found);
   const toggleFound = useFoundStore((s) => s.toggleFound);
+  const found = entryId in foundMap;
+
+  // Other entries at the same attraction, so sweeping one queue or lobby
+  // doesn't mean a trip back to the park screen between finds.
+  const related = useMemo(() => (entry ? getRelatedEntries(entry) : []), [entry]);
+  const foundHere = related.filter((e) => e.id in foundMap).length + (found ? 1 : 0);
 
   const backButton = (
     <Pressable
@@ -96,6 +103,9 @@ export default function EntryDetailScreen() {
           <View style={styles.chips}>
             <DifficultyChip level={entry.difficulty} />
             <OutlineChip label={entry.locationType} />
+            {entry.areaContext && entry.areaContext !== entry.locationType && (
+              <OutlineChip label={entry.areaContext} />
+            )}
             {entry.whereToLook.orientation && <OutlineChip label={entry.whereToLook.orientation} />}
             {entry.entryType === "FACT" && <OutlineChip label="Fact" />}
           </View>
@@ -188,6 +198,25 @@ export default function EntryDetailScreen() {
             <View style={styles.provenance}>
               <Ionicons name="checkmark" size={18} color={t.colors.success} />
               <Text style={styles.provenanceText}>{provenance}</Text>
+            </View>
+          )}
+
+          {related.length > 0 && (
+            <View style={styles.relatedCard}>
+              <View style={styles.relatedHeader}>
+                <Text style={styles.relatedTitle} numberOfLines={2}>
+                  More at {labelOrFallback(entry.display?.attractionName, "this attraction")}
+                </Text>
+                <Text style={styles.relatedMeta}>
+                  {foundHere} of {related.length + 1} found here
+                </Text>
+              </View>
+              {related.map((other, index) => (
+                <React.Fragment key={other.id}>
+                  {index > 0 && <View style={styles.divider} />}
+                  <EntryRow entry={other} onPress={() => navigation.push("EntryDetail", { entryId: other.id })} />
+                </React.Fragment>
+              ))}
             </View>
           )}
         </View>
@@ -430,5 +459,34 @@ const createStyles = (t: Theme) =>
     provenanceText: {
       ...text.meta,
       color: t.colors.textSecondary,
+    },
+    relatedCard: {
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.md,
+      overflow: "hidden",
+      paddingBottom: spacing.xs,
+    },
+    relatedHeader: {
+      flexDirection: "row",
+      alignItems: "baseline",
+      justifyContent: "space-between",
+      gap: spacing.sm,
+      paddingTop: spacing.md,
+      paddingHorizontal: spacing.md - 2,
+      paddingBottom: spacing.xs,
+    },
+    relatedTitle: {
+      ...text.sectionTitle,
+      color: t.colors.text,
+      flexShrink: 1,
+    },
+    relatedMeta: {
+      ...text.meta,
+      color: t.colors.textSecondary,
+    },
+    divider: {
+      height: 1,
+      marginHorizontal: spacing.md - 2,
+      backgroundColor: t.colors.border,
     },
   });
