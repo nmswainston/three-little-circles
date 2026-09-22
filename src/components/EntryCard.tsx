@@ -17,10 +17,12 @@ interface EntryCardProps {
   entry: HiddenMickeyEntry;
   /** Show the park/land/attraction line under the title. Useful outside the browse hierarchy. */
   showLocation?: boolean;
+  /** Short text at the end of the title row, such as a walking distance. */
+  trailingLabel?: string;
 }
 
 /** Standalone entry card for search results and the map list. */
-export default function EntryCard({ entry, showLocation = false }: EntryCardProps) {
+export default function EntryCard({ entry, showLocation = false, trailingLabel }: EntryCardProps) {
   const navigation = useNavigation<NavigationProp>();
   const t = useTheme();
   const styles = useStyles(createStyles);
@@ -36,10 +38,11 @@ export default function EntryCard({ entry, showLocation = false }: EntryCardProp
       style={({ pressed }) => [styles.card, found && styles.cardFound, pressed && styles.pressed]}
       onPress={() => navigation.navigate("EntryDetail", { entryId: entry.id })}
       accessibilityRole="button"
-      accessibilityLabel={`${title}${found ? ", found" : ""}`}
+      accessibilityLabel={`${title}${found ? ", found" : ""}${trailingLabel ? `, ${trailingLabel}` : ""}`}
     >
       <View style={styles.header}>
         <Text style={styles.title}>{title}</Text>
+        {trailingLabel && <Text style={styles.trailing}>{trailingLabel}</Text>}
         {found && (
           <View style={styles.foundDisc}>
             <Ionicons name="checkmark" size={14} color={t.colors.onSuccess} />
@@ -99,6 +102,11 @@ const createStyles = (t: Theme) =>
       backgroundColor: t.colors.success,
       alignItems: "center",
       justifyContent: "center",
+    },
+    trailing: {
+      ...text.meta,
+      color: t.colors.textSecondary,
+      flexShrink: 0,
     },
     location: {
       ...text.labelCaps,

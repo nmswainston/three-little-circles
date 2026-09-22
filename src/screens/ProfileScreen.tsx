@@ -1,5 +1,5 @@
 import React, { ReactNode, useCallback, useMemo, useState } from "react";
-import { ScrollView, StyleSheet, View, Text, Pressable, Alert, Platform } from "react-native";
+import { ScrollView, StyleSheet, View, Text, Pressable, Alert, Platform, Switch } from "react-native";
 import { useFocusEffect, useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { Ionicons } from "@expo/vector-icons";
@@ -39,6 +39,8 @@ export default function ProfileScreen() {
   const earnedAt = useAchievementsStore((s) => s.earnedAt);
   const markSeen = useAchievementsStore((s) => s.markSeen);
   const appearance = useSettingsStore((s) => s.appearance);
+  const hintMode = useSettingsStore((s) => s.hintMode);
+  const setHintMode = useSettingsStore((s) => s.setHintMode);
 
   const achievements = useMemo(() => getAchievements(), []);
   const unseen = useMemo(() => new Set(unlocked.filter((id) => !seen.includes(id))), [unlocked, seen]);
@@ -182,6 +184,25 @@ export default function ProfileScreen() {
             <Text style={styles.caption}>System follows your device setting.</Text>
           </Section>
 
+          <Section title="Hunting">
+            <View style={styles.settingRow}>
+              <View style={styles.settingText}>
+                <Text style={styles.settingTitle}>Hints one at a time</Text>
+                <Text style={styles.caption}>
+                  Where-to-look opens a step per tap and the full note waits for the last hint. Off shows everything at
+                  once.
+                </Text>
+              </View>
+              <Switch
+                value={hintMode}
+                onValueChange={setHintMode}
+                trackColor={{ false: t.colors.track, true: t.colors.primary }}
+                thumbColor={t.colors.surface}
+                accessibilityLabel="Hints one at a time"
+              />
+            </View>
+          </Section>
+
           <Section title="Community">
             <View style={styles.aboutCard}>
               <Text style={styles.communityBody}>
@@ -301,6 +322,22 @@ const createStyles = (t: Theme) =>
     },
     section: {
       gap: spacing.sm,
+    },
+    settingRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.md,
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.md,
+      padding: spacing.md,
+    },
+    settingText: {
+      flex: 1,
+      gap: 2,
+    },
+    settingTitle: {
+      ...text.itemTitle,
+      color: t.colors.text,
     },
     sectionTitle: {
       ...text.sectionTitle,
