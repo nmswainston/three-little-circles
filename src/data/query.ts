@@ -1,5 +1,5 @@
 import { entries } from "./entries";
-import { HiddenMickeyEntry, ParkId, LandId, AttractionId, EntryType } from "./types";
+import { HiddenMickeyEntry, ParkId, LandId, AttractionId } from "./types";
 import { labelOrFallback } from "./labels";
 import { SegmentedControlOption } from "../components/ui/SegmentedControl";
 
@@ -9,6 +9,12 @@ export function getAllEntries(): HiddenMickeyEntry[] {
 
 export function getEntryById(id: string): HiddenMickeyEntry | undefined {
   return entries.find((entry) => entry.id === id);
+}
+
+/** True when the entry passes the All / Finds / Facts filter. No filter means everything. */
+export function matchesEntryType(entry: HiddenMickeyEntry, filter?: SegmentedControlOption): boolean {
+  if (!filter || filter === "All") return true;
+  return entry.entryType === filter;
 }
 
 export type ParkSummary = {
@@ -21,10 +27,7 @@ export function getParksSummary(entryTypeFilter?: SegmentedControlOption): ParkS
   const parkMap = new Map<ParkId, { count: number; parkName: string }>();
 
   entries
-    .filter((entry) => {
-      if (!entryTypeFilter || entryTypeFilter === 'All') return true;
-      return entry.entryType === entryTypeFilter;
-    })
+    .filter((entry) => matchesEntryType(entry, entryTypeFilter))
     .forEach((entry) => {
       const existing = parkMap.get(entry.parkId);
       const parkName = labelOrFallback(entry.display?.parkName, "Park");
@@ -55,11 +58,7 @@ export function getLandsByPark(
   const landMap = new Map<LandId, { count: number; landName: string }>();
 
   entries
-    .filter((entry) => {
-      if (entry.parkId !== parkId) return false;
-      if (!entryTypeFilter || entryTypeFilter === 'All') return true;
-      return entry.entryType === entryTypeFilter;
-    })
+    .filter((entry) => entry.parkId === parkId && matchesEntryType(entry, entryTypeFilter))
     .forEach((entry) => {
       const existing = landMap.get(entry.landId);
       const landName = labelOrFallback(entry.display?.landName, "Land");
@@ -94,11 +93,10 @@ export function getAttractionsByLand(
   >();
 
   entries
-    .filter((entry) => {
-      if (entry.parkId !== parkId || entry.landId !== landId) return false;
-      if (!entryTypeFilter || entryTypeFilter === 'All') return true;
-      return entry.entryType === entryTypeFilter;
-    })
+    .filter(
+      (entry) =>
+        entry.parkId === parkId && entry.landId === landId && matchesEntryType(entry, entryTypeFilter)
+    )
     .forEach((entry) => {
       const existing = attractionMap.get(entry.attractionId);
       const attractionName = labelOrFallback(
@@ -128,17 +126,65 @@ export function getEntriesByAttraction(
   entryTypeFilter?: SegmentedControlOption
 ): HiddenMickeyEntry[] {
   return entries.filter(
-    (entry) => {
-      if (
-        entry.parkId !== parkId ||
-        entry.landId !== landId ||
-        entry.attractionId !== attractionId
-      ) {
-        return false;
-      }
-      if (!entryTypeFilter || entryTypeFilter === 'All') return true;
-      return entry.entryType === entryTypeFilter;
+    (entry) =>
+      entry.parkId === parkId &&
+      entry.landId === landId &&
+      entry.attractionId === attractionId &&
+      matchesEntryType(entry, entryTypeFilter)
+  );
+}
+
+export type AttractionGroup = AttractionSummary & { entries: HiddenMickeyEntry[] };
+export type LandGroup = LandSummary & { attractions: AttractionGroup[] };
+
+/**
+ * Groups a flat list of entries into lands, then attractions, in the order
+ * they first appear. Counts describe the list given, so a filtered list
+ * yields filtered counts and any land or attraction with nothing left simply
+ * isn't returned. Pass one park's entries; lands are keyed within a park.
+ */
+export function groupByLand(list: HiddenMickeyEntry[]): LandGroup[] {
+  const lands = new Map<string, LandGroup>();
+
+  for (const entry of list) {
+    const landKey = `${entry.parkId}/${entry.landId}`;
+    let land = lands.get(landKey);
+    if (!land) {
+      land = {
+        landId: entry.landId,
+        landName: labelOrFallback(entry.display?.landName, "Land"),
+        count: 0,
+        attractions: [],
+      };
+      lands.set(landKey, land);
     }
+    land.count++;
+
+    let attraction = land.attractions.find((a) => a.attractionId === entry.attractionId);
+    if (!attraction) {
+      attraction = {
+        attractionId: entry.attractionId,
+        attractionName: labelOrFallback(entry.display?.attractionName, "Attraction"),
+        count: 0,
+        entries: [],
+      };
+      land.attractions.push(attraction);
+    }
+    attraction.count++;
+    attraction.entries.push(entry);
+  }
+
+  return Array.from(lands.values());
+}
+
+/** The other entries at the same attraction as this one, in content order. */
+export function getRelatedEntries(entry: HiddenMickeyEntry): HiddenMickeyEntry[] {
+  return entries.filter(
+    (other) =>
+      other.id !== entry.id &&
+      other.parkId === entry.parkId &&
+      other.landId === entry.landId &&
+      other.attractionId === entry.attractionId
   );
 }
 
