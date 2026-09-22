@@ -18,7 +18,8 @@
     "check": "npm run content:check && npm run typecheck && npm test",
     "content:import": "node scripts/import-submissions.mjs",
     "confirmations:pull": "node scripts/pull-confirmations.mjs",
-    "supabase:check": "node scripts/check-supabase.mjs"
+    "supabase:check": "node scripts/check-supabase.mjs",
+    "content:import-csv": "node scripts/import-csv.mjs"
   },
   "dependencies": {
     "@expo-google-fonts/lilita-one": "^0.4.1",
