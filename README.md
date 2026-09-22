@@ -85,6 +85,20 @@ See [content/README.md](content/README.md). The short version:
 2. Fill it in.
 3. Run `npm run content:build` and commit both files.
 
+## Updating Expo packages
+
+Expo ships small patch releases often, and `npm start` will mention when the
+project is behind. Apply them with the local Expo binary rather than `npx`:
+
+```bash
+node node_modules/expo/bin/cli install --fix
+```
+
+Going through `npx expo install` can fail with `EALLOWSCRIPTS` on current npm:
+`npx` copies any `allow-scripts` setting from your user-level `.npmrc` into the
+environment, and Expo's nested `npm install` then rejects it as a command-line
+flag. Calling the binary directly avoids the wrapper.
+
 ## Checks
 
 ```bash
