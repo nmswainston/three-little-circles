@@ -4,7 +4,6 @@ import MapView, { Marker, Region, PROVIDER_GOOGLE } from "react-native-maps";
 import { useNavigation, useRoute, RouteProp } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { Ionicons } from "@expo/vector-icons";
-import * as Clipboard from "expo-clipboard";
 import * as Location from "expo-location";
 import { RootStackParamList } from "../navigation/types";
 import { getAllEntries, getEntryById, getParksSummary } from "../data/query";
@@ -93,13 +92,16 @@ export default function MapScreen() {
   };
 
   // Long-press copies the spot's coordinates, ready to paste into an entry file.
+  // The clipboard module is loaded on demand so a build made before it was
+  // added still runs; it just shows the numbers instead of copying them.
   const handleLongPress = async (coordinate: { latitude: number; longitude: number }) => {
     const text = formatCoordinates(coordinate);
     try {
+      const Clipboard: typeof import("expo-clipboard") = require("expo-clipboard");
       await Clipboard.setStringAsync(text);
       Alert.alert("Coordinates copied", `${text}\n\nPaste into the entry's coordinates field.`);
     } catch {
-      Alert.alert("Coordinates", text);
+      Alert.alert("Coordinates", `${text}\n\nCopying needs a newer build of the app; write these down for now.`);
     }
   };
 
