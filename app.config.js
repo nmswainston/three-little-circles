@@ -21,7 +21,7 @@ export default {
         'expo-location',
         {
           locationWhenInUsePermission:
-            'Three Little Circles uses your location to show where you are on the park map.',
+            'Three Little Circles uses your location to show where you are on the park map and which finds are closest.',
         },
       ],
       [

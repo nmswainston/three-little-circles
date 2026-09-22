@@ -147,3 +147,13 @@ describe('useSettingsStore', () => {
     expect(useSettingsStore.getState().hideFound).toBe(false);
   });
 });
+
+describe('useSettingsStore hints', () => {
+  it('starts with hints one at a time on, and can be turned off', () => {
+    expect(useSettingsStore.getState().hintMode).toBe(true);
+    useSettingsStore.getState().setHintMode(false);
+    expect(useSettingsStore.getState().hintMode).toBe(false);
+    useSettingsStore.getState().setHintMode(true);
+    expect(useSettingsStore.getState().hintMode).toBe(true);
+  });
+});

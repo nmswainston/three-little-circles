@@ -7,8 +7,11 @@ import { Ionicons } from "@expo/vector-icons";
 import * as Location from "expo-location";
 import { RootStackParamList } from "../navigation/types";
 import { getAllEntries, getEntryById, getParksSummary } from "../data/query";
+import { getDestination } from "../data/destinations";
 import { labelOrFallback } from "../data/labels";
+import { Coordinates } from "../data/types";
 import { formatCoordinates } from "../lib/maps";
+import { distanceLabel, nearest, sortByDistance, unitsForRegion, WALKING_RANGE_METERS } from "../lib/geo";
 import { useFoundStore } from "../store/useFoundStore";
 import { useSettingsStore } from "../store/useSettingsStore";
 import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
@@ -44,9 +47,20 @@ export default function MapScreen() {
   const setMapType = useSettingsStore((s) => s.setMapType);
   const [locationGranted, setLocationGranted] = useState(false);
   const [locating, setLocating] = useState(false);
+  const [position, setPosition] = useState<Coordinates | undefined>();
+
+  const handleSelectPark = (parkId: string | undefined) => {
+    setFocusId(undefined);
+    navigation.setParams({ focusEntryId: undefined });
+    setSelectedParkId(parkId);
+  };
 
   // Ask for location only when the user taps the locate button, then keep
-  // the dot on for the rest of the session.
+  // the dot on for the rest of the session. A fix also sorts the list under
+  // the map by distance, and if you're standing in a different park than
+  // the picker shows, switches to it. "All" is left alone. When the park
+  // switches, the fit-to-pins effect below takes over the zoom, so you see
+  // the whole park with your dot in it.
   const goToMyLocation = async () => {
     if (locating) return;
     setLocating(true);
@@ -57,17 +71,15 @@ export default function MapScreen() {
         return;
       }
       setLocationGranted(true);
-      const position = await Location.getCurrentPositionAsync({ accuracy: Location.Accuracy.Balanced });
+      const current = await Location.getCurrentPositionAsync({ accuracy: Location.Accuracy.Balanced });
+      const here = { latitude: current.coords.latitude, longitude: current.coords.longitude };
+      setPosition(here);
       setFocusId(undefined);
-      mapRef.current?.animateToRegion(
-        {
-          latitude: position.coords.latitude,
-          longitude: position.coords.longitude,
-          latitudeDelta: 0.004,
-          longitudeDelta: 0.004,
-        },
-        400
-      );
+      const closest = nearest(getAllEntries(), here);
+      if (selectedParkId && closest && closest.meters <= WALKING_RANGE_METERS && closest.item.parkId !== selectedParkId) {
+        handleSelectPark(closest.item.parkId);
+      }
+      mapRef.current?.animateToRegion({ ...here, latitudeDelta: 0.004, longitudeDelta: 0.004 }, 400);
     } catch {
       Alert.alert("Couldn't get your location", "Try again in a moment, or step somewhere with a clearer view of the sky.");
     } finally {
@@ -84,12 +96,6 @@ export default function MapScreen() {
     setSelectedParkId(entry.parkId);
     setFocusId(entry.id);
   }, [focusEntryId]);
-
-  const handleSelectPark = (parkId: string | undefined) => {
-    setFocusId(undefined);
-    navigation.setParams({ focusEntryId: undefined });
-    setSelectedParkId(parkId);
-  };
 
   // Long-press copies the spot's coordinates, ready to paste into an entry file.
   // The clipboard module is loaded on demand so a build made before it was
@@ -111,6 +117,9 @@ export default function MapScreen() {
   );
   const pinned = useMemo(() => visible.filter((e) => e.coordinates), [visible]);
   const unpinned = useMemo(() => visible.filter((e) => !e.coordinates), [visible]);
+  // Once we know where you are, the list under the map is closest first.
+  const nearby = useMemo(() => (position ? sortByDistance(pinned, position) : undefined), [pinned, position]);
+  const withinWalk = nearby ? nearby.filter((n) => n.meters <= WALKING_RANGE_METERS).length : 0;
   const [mapReady, setMapReady] = useState(false);
 
   const fitToPins = useCallback(() => {
@@ -195,15 +204,41 @@ export default function MapScreen() {
           </Pressable>
         </View>
       </View>
-      <Text style={styles.summary}>
-        {pinned.length} pinned{unpinned.length > 0 ? `, ${unpinned.length} without a location yet` : ""}. Tap a pin, then its label, for details. Long-press the map to copy a spot's coordinates.
-      </Text>
-      {unpinned.length > 0 && (
-        <ScrollView style={styles.unpinnedList} contentContainerStyle={styles.unpinnedContent} showsVerticalScrollIndicator={false}>
-          {unpinned.map((entry) => (
-            <EntryCard key={entry.id} entry={entry} showLocation />
-          ))}
-        </ScrollView>
+      {nearby ? (
+        <>
+          <View style={styles.listHeader}>
+            <Text style={styles.listTitle}>Closest to you</Text>
+            <Text style={styles.listMeta}>
+              {withinWalk === 0 ? "None within a walk" : `${withinWalk} within a walk`}
+            </Text>
+          </View>
+          <ScrollView style={styles.nearbyList} contentContainerStyle={styles.unpinnedContent} showsVerticalScrollIndicator={false}>
+            {nearby.map(({ item, meters }) => (
+              <EntryCard
+                key={item.id}
+                entry={item}
+                showLocation
+                trailingLabel={distanceLabel(meters, unitsForRegion(getDestination(item.parkId)?.region))}
+              />
+            ))}
+            {unpinned.map((entry) => (
+              <EntryCard key={entry.id} entry={entry} showLocation trailingLabel="No pin yet" />
+            ))}
+          </ScrollView>
+        </>
+      ) : (
+        <>
+          <Text style={styles.summary}>
+            {pinned.length} pinned{unpinned.length > 0 ? `, ${unpinned.length} without a location yet` : ""}. Tap a pin, then its label, for details. Tap the locate button to sort by distance. Long-press the map to copy a spot's coordinates.
+          </Text>
+          {unpinned.length > 0 && (
+            <ScrollView style={styles.unpinnedList} contentContainerStyle={styles.unpinnedContent} showsVerticalScrollIndicator={false}>
+              {unpinned.map((entry) => (
+                <EntryCard key={entry.id} entry={entry} showLocation />
+              ))}
+            </ScrollView>
+          )}
+        </>
       )}
     </View>
   );
@@ -257,6 +292,26 @@ const createStyles = (t: Theme) =>
     },
     unpinnedList: {
       maxHeight: 220,
+    },
+    nearbyList: {
+      maxHeight: 300,
+    },
+    listHeader: {
+      flexDirection: "row",
+      alignItems: "baseline",
+      justifyContent: "space-between",
+      gap: spacing.sm,
+      paddingHorizontal: spacing.lg,
+      paddingTop: spacing.md - 4,
+      paddingBottom: spacing.xs,
+    },
+    listTitle: {
+      ...text.sectionTitle,
+      color: t.colors.text,
+    },
+    listMeta: {
+      ...text.meta,
+      color: t.colors.textSecondary,
     },
     unpinnedContent: {
       paddingHorizontal: spacing.lg,
