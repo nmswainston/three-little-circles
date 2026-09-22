@@ -9,7 +9,8 @@ export type RootStackParamList = {
   Park: { parkId: string };
   EntryDetail: { entryId: string };
   SubmitSighting: { parkId?: string } | undefined;
-  Map: undefined;
+  /** focusEntryId zooms to that entry's pin and opens its label */
+  Map: { focusEntryId?: string } | undefined;
   Profile: undefined;
 };
 

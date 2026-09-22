@@ -1,11 +1,14 @@
 import React from "react";
 import { ScrollView, StyleSheet, View, Text, Pressable } from "react-native";
-import { useRoute, RouteProp, useNavigation } from "@react-navigation/native";
+import { useRoute, RouteProp, useNavigation, CompositeNavigationProp } from "@react-navigation/native";
+import { NativeStackNavigationProp } from "@react-navigation/native-stack";
+import { BottomTabNavigationProp } from "@react-navigation/bottom-tabs";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
-import { RootStackParamList } from "../navigation/types";
+import { RootStackParamList, RootTabParamList } from "../navigation/types";
 import { getEntryById } from "../data/query";
 import { labelOrFallback } from "../data/labels";
+import { openDirections } from "../lib/maps";
 import { useFoundStore } from "../store/useFoundStore";
 import { Theme, useParkPalette, useStyles, useTheme } from "../theme/ThemeProvider";
 import { spacing, radii, text } from "../theme/tokens";
@@ -15,12 +18,16 @@ import FoundButton from "../components/ui/FoundButton";
 import EmptyState from "../components/ui/EmptyState";
 
 type EntryDetailRouteProp = RouteProp<RootStackParamList, "EntryDetail">;
+type NavigationProp = CompositeNavigationProp<
+  NativeStackNavigationProp<RootStackParamList>,
+  BottomTabNavigationProp<RootTabParamList>
+>;
 
 const VIEWING_FIELDS = ["motion", "lighting", "angle", "crowding", "distance"] as const;
 
 export default function EntryDetailScreen() {
   const route = useRoute<EntryDetailRouteProp>();
-  const navigation = useNavigation();
+  const navigation = useNavigation<NavigationProp>();
   const { entryId } = route.params;
 
   const entry = getEntryById(entryId);
@@ -99,6 +106,27 @@ export default function EntryDetailScreen() {
           <Text style={styles.helper}>
             {found ? "Nice catch. This counts toward your progress." : "Mark it found to add it to your progress."}
           </Text>
+
+          {entry.coordinates && (
+            <View style={styles.mapRow}>
+              <Pressable
+                onPress={() => navigation.navigate("MapTab", { screen: "Map", params: { focusEntryId: entry.id } })}
+                accessibilityRole="button"
+                style={({ pressed }) => [styles.mapButton, pressed && styles.pressed]}
+              >
+                <Ionicons name="location" size={18} color={t.colors.onInk} />
+                <Text style={styles.mapButtonText}>See on map</Text>
+              </Pressable>
+              <Pressable
+                onPress={() => openDirections(entry.coordinates!, title).catch(() => {})}
+                accessibilityRole="button"
+                style={({ pressed }) => [styles.mapButtonSecondary, pressed && styles.pressed]}
+              >
+                <Ionicons name="navigate-outline" size={18} color={t.colors.text} />
+                <Text style={styles.mapButtonSecondaryText}>Directions</Text>
+              </Pressable>
+            </View>
+          )}
 
           <Text style={styles.description}>{entry.description}</Text>
 
@@ -244,6 +272,46 @@ const createStyles = (t: Theme) =>
     description: {
       ...text.body,
       color: t.colors.text,
+    },
+    mapRow: {
+      flexDirection: "row",
+      gap: spacing.sm + 2,
+      marginTop: -spacing.xs,
+    },
+    mapButton: {
+      flex: 1,
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: spacing.sm - 2,
+      height: 44,
+      borderRadius: radii.full,
+      backgroundColor: t.colors.ink,
+    },
+    mapButtonText: {
+      ...text.chip,
+      fontSize: 15,
+      color: t.colors.onInk,
+    },
+    mapButtonSecondary: {
+      flex: 1,
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: spacing.sm - 2,
+      height: 44,
+      borderRadius: radii.full,
+      backgroundColor: t.colors.surface,
+      borderWidth: 1,
+      borderColor: t.colors.borderStrong,
+    },
+    mapButtonSecondaryText: {
+      ...text.chip,
+      fontSize: 15,
+      color: t.colors.text,
+    },
+    pressed: {
+      opacity: 0.85,
     },
     card: {
       gap: spacing.md - 2,
