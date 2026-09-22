@@ -145,3 +145,76 @@ create policy "anon can upload submission photos"
 --
 -- Reject one with a note to yourself:
 --   update public.submissions set status = 'rejected', reviewed_at = now(), reviewer_notes = 'duplicate of exit-bells' where id = '<id>';
+
+-- ---------------------------------------------------------------------------
+-- Still there? One row per tap on an entry: "seen" today, or "missing".
+--
+-- The app only inserts. `npm run confirmations:pull` reads the last 90 days
+-- with the service role key, keeps one vote per device per entry (its
+-- latest), and bakes the summary into src/data/confirmations.generated.ts.
+-- ---------------------------------------------------------------------------
+create table if not exists public.confirmations (
+  id          uuid primary key default gen_random_uuid(),
+  created_at  timestamptz not null default now(),
+  entry_id    text not null,
+  status      text not null check (status in ('seen', 'missing')),
+  device_id   text not null,
+  app_version text,
+  platform    text,
+
+  constraint confirmations_entry_length  check (char_length(entry_id) between 1 and 120),
+  constraint confirmations_device_length check (char_length(device_id) between 8 and 64)
+);
+
+create index if not exists confirmations_entry_created_idx on public.confirmations (entry_id, created_at desc);
+create index if not exists confirmations_device_created_idx on public.confirmations (device_id, created_at desc);
+
+-- Rate limit: at most 30 reports per device per hour. Enough for a full day
+-- in a park, not enough to flood an entry.
+create or replace function public.enforce_confirmation_rate()
+returns trigger
+language plpgsql
+security definer
+set search_path = public
+as $$
+begin
+  if (
+    select count(*)
+    from public.confirmations
+    where device_id = new.device_id
+      and created_at > now() - interval '1 hour'
+  ) >= 30 then
+    raise exception 'Too many reports from this device. Please try again in an hour.'
+      using errcode = 'P0001';
+  end if;
+  return new;
+end;
+$$;
+
+revoke execute on function public.enforce_confirmation_rate() from public, anon, authenticated;
+
+drop trigger if exists confirmations_rate_limit on public.confirmations;
+create trigger confirmations_rate_limit
+  before insert on public.confirmations
+  for each row execute function public.enforce_confirmation_rate();
+
+alter table public.confirmations enable row level security;
+
+-- The app (anon key) may only add a row. No select, update, or delete.
+drop policy if exists "anon can report a sighting" on public.confirmations;
+create policy "anon can report a sighting"
+  on public.confirmations
+  for insert
+  to anon
+  with check (status in ('seen', 'missing'));
+
+-- By hand, the same summary the pull script computes (one vote per device):
+--   select entry_id, status, count(*) as votes, max(created_at) as latest
+--   from (
+--     select distinct on (entry_id, device_id) entry_id, device_id, status, created_at
+--     from public.confirmations
+--     where created_at > now() - interval '90 days'
+--     order by entry_id, device_id, created_at desc
+--   ) latest_per_device
+--   group by entry_id, status
+--   order by entry_id, status;

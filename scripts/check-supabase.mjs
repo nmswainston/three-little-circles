@@ -73,6 +73,24 @@ const anon = createClient(url, anonKey, { auth: { persistSession: false, autoRef
   else bad("anon key CAN read submissions. Row-level security is not applied; run schema.sql again.");
 }
 
+// "Still there?" reports live in their own insert-only table.
+{
+  const { error } = await anon.from("confirmations").select("id", { head: true, count: "exact" });
+  if (!error) ok("confirmations table exists and answers the anon key");
+  else if (/does not exist|schema cache|PGRST205|42P01/i.test(`${error.code} ${error.message}`)) {
+    bad("confirmations table not found. Run supabase/schema.sql in the SQL Editor.");
+  } else {
+    bad(`unexpected error from the confirmations table: ${error.message}`);
+  }
+}
+
+{
+  const { data, error } = await anon.from("confirmations").select("id").limit(1);
+  if (error) bad(`reading reports with the anon key errored instead of returning nothing: ${error.message}`);
+  else if (Array.isArray(data) && data.length === 0) ok("anon key cannot read reports (row-level security is on)");
+  else bad("anon key CAN read confirmations. Row-level security is not applied; run schema.sql again.");
+}
+
 if (serviceKey) {
   const service = createClient(url, serviceKey, { auth: { persistSession: false, autoRefreshToken: false } });
   const { data, error } = await service.storage.getBucket("submission-photos");
