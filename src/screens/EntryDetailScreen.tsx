@@ -7,8 +7,11 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { RootStackParamList, RootTabParamList } from "../navigation/types";
 import { getEntryById, getRelatedEntries } from "../data/query";
+import { getConfirmation } from "../data/confirmations";
 import { labelOrFallback } from "../data/labels";
 import { openDirections } from "../lib/maps";
+import { entryShareText, shareText } from "../lib/share";
+import { notify } from "../lib/notify";
 import { useFoundStore } from "../store/useFoundStore";
 import { useSettingsStore } from "../store/useSettingsStore";
 import { Theme, useParkPalette, useStyles, useTheme } from "../theme/ThemeProvider";
@@ -19,6 +22,7 @@ import FoundButton from "../components/ui/FoundButton";
 import EmptyState from "../components/ui/EmptyState";
 import EntryRow from "../components/EntryRow";
 import WhereToLook, { LookStep } from "../components/WhereToLook";
+import StillThereCard from "../components/StillThereCard";
 
 type EntryDetailRouteProp = RouteProp<RootStackParamList, "EntryDetail">;
 type NavigationProp = CompositeNavigationProp<
@@ -91,6 +95,12 @@ export default function EntryDetailScreen() {
   const shown = ladder ? Math.min(revealed, steps.length) : steps.length;
   const spoilersHidden = shown < steps.length;
 
+  const handleShare = async () => {
+    const outcome = await shareText(entryShareText(entry, found));
+    if (outcome === "copied") notify("Copied", "The text is on your clipboard.");
+    else if (outcome === "unavailable") notify("Couldn't share", "Sharing isn't available here.");
+  };
+
   const viewing = VIEWING_FIELDS.flatMap((key) => {
     const value = entry.viewing?.[key];
     return value ? [{ label: key, value }] : [];
@@ -108,7 +118,18 @@ export default function EntryDetailScreen() {
       <ScrollView contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
         <View style={[styles.header, { paddingTop: insets.top + spacing.sm }]}>
           <Sunburst color={palette.accent} opacity={t.dark ? 0.16 : 0.22} center={{ x: 195, y: -200 + insets.top }} />
-          {backButton}
+          <View style={styles.headerRow}>
+            {backButton}
+            <Pressable
+              onPress={() => handleShare().catch(() => {})}
+              accessibilityRole="button"
+              accessibilityLabel="Share this find"
+              hitSlop={8}
+              style={styles.shareButton}
+            >
+              <Ionicons name="share-outline" size={24} color={t.colors.text} />
+            </Pressable>
+          </View>
           {eyebrow.length > 0 && <Text style={[styles.eyebrow, { color: palette.text }]}>{eyebrow}</Text>}
           <Text style={styles.title}>{title}</Text>
           <View style={styles.chips}>
@@ -215,6 +236,8 @@ export default function EntryDetailScreen() {
             </View>
           )}
 
+          <StillThereCard entryId={entry.id} summary={getConfirmation(entry.id)} />
+
           {related.length > 0 && (
             <View style={styles.relatedCard}>
               <View style={styles.relatedHeader}>
@@ -263,10 +286,22 @@ const createStyles = (t: Theme) =>
       paddingHorizontal: spacing.lg,
       paddingBottom: spacing.sm,
     },
+    headerRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "space-between",
+    },
     backButton: {
       width: 44,
       height: 44,
       marginLeft: -12,
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    shareButton: {
+      width: 44,
+      height: 44,
+      marginRight: -12,
       alignItems: "center",
       justifyContent: "center",
     },

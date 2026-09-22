@@ -46,6 +46,8 @@ change rather than a code change.
 - Related finds on each entry, so one attraction can be swept without leaving the screen
 - Closest to you: tap locate on the Map tab and the list sorts by walking time, switching to the park you're standing in
 - Hints one at a time: where-to-look opens a step per tap and the full note waits for the last hint. Off in Profile shows everything
+- Share a find, a park, or your progress. Share text names the find and where it is, never where to look
+- Still there? Two taps on any entry report it seen or missing, and each entry shows when it was last seen
 - Achievements for milestones such as the first find or completing an attraction
 - Progress persists on the device, no sign-in required
 - Map of pinned entries on mobile, with the same entries listed on web
@@ -72,6 +74,8 @@ content/entries/        One JSON file per Hidden Mickey. This is the source of t
 content/TEMPLATE.json   Starting point for a new entry.
 scripts/build-entries.mjs
                         Validates content and writes src/data/entries.generated.ts.
+scripts/pull-confirmations.mjs
+                        Summarizes "Still there?" reports into src/data/confirmations.generated.ts.
 src/data/               Entry types, query helpers, generated entries.
 src/store/              Zustand stores (found state, achievements, settings).
 src/theme/              Day and night color themes, per-park accents, useTheme and useStyles hooks.
@@ -148,7 +152,8 @@ Android map with your own key while keeping hot reload: install the build, then
 
 Found marks are stored on the device under the key `tlc.found.v1`, badges under
 `tlc.achievements.v1`, and settings (appearance, map type, the Hide found
-toggle, and hints) under `tlc.settings.v1`. Badges are recalculated from the found map whenever it
+toggle, and hints) under `tlc.settings.v1`, and your own "Still there?" reports
+under `tlc.confirmations.v1`. Badges are recalculated from the found map whenever it
 changes, and once earned they stay earned even if a find is un-marked. "Reset
 found progress" on the Profile screen clears the found map.
 
@@ -166,6 +171,11 @@ queue in Supabase; without them the form explains that suggestions aren't set
 up in this build. Nothing a user submits appears in the app until it has been
 reviewed and shipped as content. Setup, the review workflow, and
 `npm run content:import` are documented in [supabase/README.md](supabase/README.md).
+
+"Still there?" on every entry sends a one-tap seen or missing report to the
+same project. The app never reads them back. `npm run confirmations:pull`
+summarizes the last 90 days into `src/data/confirmations.generated.ts`, which
+ships with the app and drives the "Last seen" line on each entry.
 
 ## Lessons Learned
 

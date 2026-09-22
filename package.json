@@ -17,6 +17,7 @@
     "test": "jest",
     "check": "npm run content:check && npm run typecheck && npm test",
     "content:import": "node scripts/import-submissions.mjs",
+    "confirmations:pull": "node scripts/pull-confirmations.mjs",
     "supabase:check": "node scripts/check-supabase.mjs"
   },
   "dependencies": {
