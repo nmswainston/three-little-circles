@@ -49,7 +49,8 @@ change rather than a code change.
 - Share a find, a park, or your progress. Share text names the find and where it is, never where to look
 - Still there? Two taps on any entry report it seen or missing, and each entry shows when it was last seen
 - Export and import progress: a backup message you send yourself, pasted on the new phone, with a preview before anything changes
-- Achievements for milestones such as the first find or completing an attraction
+- Badges for milestones, skills (hard finds, queues, an easter egg, a same-day streak, two regions), and each park. Badges the content can't reach yet stay hidden until it can
+- A three-page intro on first launch, and "Show the intro again" on Profile
 - Progress persists on the device, no sign-in required
 - Map of pinned entries on mobile, with the same entries listed on web
 - A "Did you know?" section on each park with history and trivia about the park itself
@@ -157,7 +158,7 @@ Android map with your own key while keeping hot reload: install the build, then
 
 Found marks are stored on the device under the key `tlc.found.v1`, badges under
 `tlc.achievements.v1`, and settings (appearance, map type, the Hide found
-toggle, and hints) under `tlc.settings.v1`, and your own "Still there?" reports
+toggle, hints, and whether the intro has been seen) under `tlc.settings.v1`, and your own "Still there?" reports
 under `tlc.confirmations.v1`. Badges are recalculated from the found map whenever it
 changes, and once earned they stay earned even if a find is un-marked. "Reset
 found progress" on the Profile screen clears the found map.
@@ -167,11 +168,15 @@ device id) as a text backup, and "Import progress" reads one back. Import
 shows what the backup holds first, then either merges it into the device,
 keeping the earlier date for anything both sides have, or replaces everything.
 
-Badges come in two kinds, defined in `src/data/achievements.ts`: milestones
-(first find, 10, 25, and 50 finds, one complete land, one complete attraction)
-and one completion badge per destination that has content, which appears
-automatically as parks gain entries. Earning one shows a toast with confetti and
-a haptic tap, and marks the badge as new on the Profile tab until it is viewed.
+Badges come in three kinds, defined in `src/data/achievements.ts`: milestones
+(first find, 10, 25, and 50 finds), skill badges (one complete land, one
+complete attraction, five Hard finds, three queue finds, an easter egg, three
+finds in one day, finds in two regions), and one completion badge per
+destination that has content, which appears automatically as parks gain
+entries. Each fixed badge knows whether the shipped content can satisfy it;
+the ones that can't stay out of the grid, and the Profile tab says how many
+are waiting on more content. Earning one shows a toast with confetti and a
+haptic tap, and marks the badge as new on the Profile tab until it is viewed.
 
 ## Community sightings
 

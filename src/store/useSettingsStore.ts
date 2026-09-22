@@ -26,6 +26,9 @@ interface SettingsState {
    */
   hintMode: boolean;
   setHintMode: (hintMode: boolean) => void;
+  /** True once the first-launch intro has been seen or skipped. */
+  onboarded: boolean;
+  setOnboarded: (onboarded: boolean) => void;
   /**
    * Random id generated once per install. Sent with sightings so the server
    * can rate-limit them. Not a hardware identifier and not tied to a person.
@@ -46,6 +49,8 @@ export const useSettingsStore = create<SettingsState>()(
       setHideFound: (hideFound) => set({ hideFound }),
       hintMode: true,
       setHintMode: (hintMode) => set({ hintMode }),
+      onboarded: false,
+      setOnboarded: (onboarded) => set({ onboarded }),
       deviceId: Crypto.randomUUID(),
     }),
     {
@@ -56,6 +61,7 @@ export const useSettingsStore = create<SettingsState>()(
         mapType: state.mapType,
         hideFound: state.hideFound,
         hintMode: state.hintMode,
+        onboarded: state.onboarded,
         deviceId: state.deviceId,
       }),
     }

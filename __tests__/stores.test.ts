@@ -1,7 +1,14 @@
 import { useFoundStore } from '../src/store/useFoundStore';
 import { useAchievementsStore } from '../src/store/useAchievementsStore';
 import { useSettingsStore } from '../src/store/useSettingsStore';
-import { computeUnlocked, getAchievements, parkAchievementId } from '../src/data/achievements';
+import {
+  computeUnlocked,
+  countUnreachableAchievements,
+  getAchievement,
+  getAchievements,
+  parkAchievementId,
+} from '../src/data/achievements';
+import { getDestination } from '../src/data/destinations';
 import { getAllEntries } from '../src/data/query';
 import { RESORTS_BUCKET_ID } from '../src/data/constants';
 
@@ -155,5 +162,77 @@ describe('useSettingsStore hints', () => {
     expect(useSettingsStore.getState().hintMode).toBe(false);
     useSettingsStore.getState().setHintMode(true);
     expect(useSettingsStore.getState().hintMode).toBe(true);
+  });
+});
+
+describe('badge catalog reachability', () => {
+  it('hides fixed badges the shipped content cannot satisfy, but can still resolve them by id', () => {
+    const shown = getAchievements().map((a) => a.id);
+    const all = getAchievements({ includeUnreachable: true }).map((a) => a.id);
+    expect(all.length).toBe(shown.length + countUnreachableAchievements());
+    for (const id of shown) expect(all).toContain(id);
+
+    if (entries.length < 25) {
+      expect(shown).not.toContain('TWENTY_FIVE_FINDS');
+      expect(getAchievement('TWENTY_FIVE_FINDS')?.title).toBe('Adventurer');
+    }
+    if (entries.length >= 10) expect(shown).toContain('TEN_FINDS');
+  });
+});
+
+describe('skill badges', () => {
+  const hard = entries.filter((e) => e.difficulty === 'Hard');
+  const queue = entries.filter((e) => e.locationType === 'Queue');
+  const facts = entries.filter((e) => e.entryType === 'FACT');
+  const asFound = (list: typeof entries, at = 1) => Object.fromEntries(list.map((e) => [e.id, at]));
+
+  it('EAGLE_EYE needs five Hard finds', () => {
+    if (hard.length < 5) return;
+    expect(computeUnlocked(asFound(hard.slice(0, 4)))).not.toContain('EAGLE_EYE');
+    expect(computeUnlocked(asFound(hard.slice(0, 5)))).toContain('EAGLE_EYE');
+  });
+
+  it('QUEUE_MASTER needs three finds in queues', () => {
+    if (queue.length < 3) return;
+    expect(computeUnlocked(asFound(queue.slice(0, 2)))).not.toContain('QUEUE_MASTER');
+    expect(computeUnlocked(asFound(queue.slice(0, 3)))).toContain('QUEUE_MASTER');
+  });
+
+  it('EASTER_EGG needs one Fact', () => {
+    if (facts.length === 0) return;
+    const finds = entries.filter((e) => e.entryType === 'FIND');
+    expect(computeUnlocked(asFound(finds))).not.toContain('EASTER_EGG');
+    expect(computeUnlocked(asFound(facts.slice(0, 1)))).toContain('EASTER_EGG');
+  });
+
+  it('HOT_STREAK needs three finds on the same calendar day', () => {
+    const noon = Date.parse('2026-09-20T12:00:00Z');
+    const minute = 60 * 1000;
+    const day = 24 * 60 * 60 * 1000;
+    const three = entries.slice(0, 3);
+    const sameDay = { [three[0].id]: noon, [three[1].id]: noon + 5 * minute, [three[2].id]: noon + 10 * minute };
+    const spread = { [three[0].id]: noon, [three[1].id]: noon + 2 * day, [three[2].id]: noon + 4 * day };
+    expect(computeUnlocked(sameDay)).toContain('HOT_STREAK');
+    expect(computeUnlocked(spread)).not.toContain('HOT_STREAK');
+  });
+
+  it('COAST_TO_COAST waits for content in a second region', () => {
+    const regions = new Set(entries.map((e) => getDestination(e.parkId)?.region ?? 'Florida'));
+    const everything = computeUnlocked(asFound(entries));
+    if (regions.size < 2) {
+      expect(getAchievements().map((a) => a.id)).not.toContain('COAST_TO_COAST');
+      expect(everything).not.toContain('COAST_TO_COAST');
+    } else {
+      expect(everything).toContain('COAST_TO_COAST');
+    }
+  });
+});
+
+describe('useSettingsStore onboarding', () => {
+  it('starts not onboarded and remembers when the intro was seen', () => {
+    expect(useSettingsStore.getState().onboarded).toBe(false);
+    useSettingsStore.getState().setOnboarded(true);
+    expect(useSettingsStore.getState().onboarded).toBe(true);
+    useSettingsStore.getState().setOnboarded(false);
   });
 });

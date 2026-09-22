@@ -13,6 +13,7 @@ import { exportBackup } from "../store/backup";
 import { confirm, notify } from "../lib/notify";
 import { useFoundStore } from "../store/useFoundStore";
 import { useAchievementsStore, getAchievements, Achievement } from "../store/useAchievementsStore";
+import { countUnreachableAchievements } from "../data/achievements";
 import { useSettingsStore, Appearance } from "../store/useSettingsStore";
 import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
 import { spacing, radii, text } from "../theme/tokens";
@@ -45,8 +46,10 @@ export default function ProfileScreen() {
   const appearance = useSettingsStore((s) => s.appearance);
   const hintMode = useSettingsStore((s) => s.hintMode);
   const setHintMode = useSettingsStore((s) => s.setHintMode);
+  const setOnboarded = useSettingsStore((s) => s.setOnboarded);
 
   const achievements = useMemo(() => getAchievements(), []);
+  const hiddenBadges = useMemo(() => countUnreachableAchievements(), []);
   const unseen = useMemo(() => new Set(unlocked.filter((id) => !seen.includes(id))), [unlocked, seen]);
   const [selected, setSelected] = useState<Achievement | undefined>();
 
@@ -185,6 +188,11 @@ export default function ProfileScreen() {
                 );
               })}
             </View>
+            {hiddenBadges > 0 && (
+              <Text style={styles.caption}>
+                {hiddenBadges} more badge{hiddenBadges === 1 ? "" : "s"} unlock as the guide grows.
+              </Text>
+            )}
           </Section>
 
           <Section title="Appearance">
@@ -267,6 +275,9 @@ export default function ProfileScreen() {
             <View style={styles.aboutCard}>
               <Disclaimer />
             </View>
+            <Pressable onPress={() => setOnboarded(false)} accessibilityRole="button" hitSlop={8} style={styles.introLink}>
+              <Text style={styles.introLinkText}>Show the intro again</Text>
+            </Pressable>
             {foundCount > 0 && (
               <Pressable onPress={handleReset} accessibilityRole="button" style={styles.resetButton}>
                 <Text style={styles.resetText}>Reset found progress</Text>
@@ -515,6 +526,16 @@ const createStyles = (t: Theme) =>
       ...text.chip,
       fontSize: 15,
       color: t.colors.onInk,
+    },
+    introLink: {
+      alignSelf: "flex-start",
+      height: 44,
+      justifyContent: "center",
+    },
+    introLinkText: {
+      ...text.meta,
+      color: t.colors.textSecondary,
+      textDecorationLine: "underline",
     },
     resetButton: {
       alignSelf: "flex-start",
