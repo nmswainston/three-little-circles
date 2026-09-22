@@ -9,6 +9,8 @@ import { getAllEntries, getParksSummary, groupByLand, matchesEntryType } from ".
 import { getDestination } from "../data/destinations";
 import { getFactsForPark } from "../data/facts";
 import { labelOrFallback } from "../data/labels";
+import { parkShareText, shareText } from "../lib/share";
+import { notify } from "../lib/notify";
 import { useFoundStore } from "../store/useFoundStore";
 import { useSettingsStore } from "../store/useSettingsStore";
 import { Theme, useParkPalette, useStyles, useTheme } from "../theme/ThemeProvider";
@@ -65,6 +67,12 @@ export default function ParkScreen() {
   // disappear when a filter empties the list above it.
   const parkFacts = useMemo(() => getFactsForPark(parkId), [parkId]);
 
+  const handleShare = async () => {
+    const outcome = await shareText(parkShareText({ name: parkName, found: foundCount, total: parkEntries.length }));
+    if (outcome === "copied") notify("Copied", "The text is on your clipboard.");
+    else if (outcome === "unavailable") notify("Couldn't share", "Sharing isn't available here.");
+  };
+
   // By day the header is the park's solid accent; by night it stays a dark
   // surface and the accent moves into the text so the screen is not blinding.
   const headerBg = t.dark ? t.colors.surface : palette.accent;
@@ -92,8 +100,19 @@ export default function ParkScreen() {
             >
               <Ionicons name="arrow-back" size={24} color={headerText} />
             </Pressable>
-            <View style={[styles.headerDisc, { backgroundColor: headerDisc }]}>
-              <Ionicons name={PARK_ICONS[parkKey] as IconName} size={22} color={headerText} />
+            <View style={styles.headerActions}>
+              <Pressable
+                onPress={() => handleShare().catch(() => {})}
+                accessibilityRole="button"
+                accessibilityLabel="Share park progress"
+                hitSlop={8}
+                style={styles.shareButton}
+              >
+                <Ionicons name="share-outline" size={22} color={headerText} />
+              </Pressable>
+              <View style={[styles.headerDisc, { backgroundColor: headerDisc }]}>
+                <Ionicons name={PARK_ICONS[parkKey] as IconName} size={22} color={headerText} />
+              </View>
             </View>
           </View>
           {destination?.region && (
@@ -245,6 +264,17 @@ const createStyles = (t: Theme) =>
       width: 44,
       height: 44,
       marginLeft: -12,
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    headerActions: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.xs,
+    },
+    shareButton: {
+      width: 44,
+      height: 44,
       alignItems: "center",
       justifyContent: "center",
     },

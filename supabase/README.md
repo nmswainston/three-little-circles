@@ -81,3 +81,27 @@ raw text and, if they opted in, their name.
 - Photos go to a private bucket that only your dashboard login and the service
   role key can read. They are never published.
 - Names are optional and only stored when the person ticks the credit box.
+
+## Still there? reports
+
+Every entry has two buttons, "Saw it today" and "Couldn't find it". A tap
+inserts one row into `public.confirmations` with the entry id, the status, and
+the same random device id used for submissions. The anon key can insert and
+nothing else, and the table allows at most 30 reports per device per hour.
+
+The app never reads the table. Instead:
+
+```bash
+npm run confirmations:pull
+```
+
+reads the last 90 days with the service role key, keeps one vote per device
+per entry (its latest, so a device that said "seen" and later "missing" counts
+once, as missing), and writes `src/data/confirmations.generated.ts`. Commit
+that file and ship it. The entry screen then shows "Last seen 3 weeks ago", or
+"Reported missing 2 days ago" when the most recent vote says it's gone, along
+with how many devices said each.
+
+Pull before each release, or whenever you want the freshness to move. Pass
+`--dry-run` to print the summary without writing. `npm run supabase:check`
+verifies the table exists and that the anon key cannot read it.

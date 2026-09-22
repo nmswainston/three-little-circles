@@ -7,6 +7,8 @@ import { RootStackParamList } from "../navigation/types";
 import { getAllEntries, getEntryById } from "../data/query";
 import { getDestinationSummaries } from "../data/destinations";
 import { labelOrFallback } from "../data/labels";
+import { progressShareText, shareText } from "../lib/share";
+import { notify } from "../lib/notify";
 import { useFoundStore } from "../store/useFoundStore";
 import { useAchievementsStore, getAchievements, Achievement } from "../store/useAchievementsStore";
 import { useSettingsStore, Appearance } from "../store/useSettingsStore";
@@ -81,6 +83,13 @@ export default function ProfileScreen() {
     return map;
   }, [entries, found]);
 
+  const handleShare = async () => {
+    const byPark = parks.map((p) => ({ name: p.name, found: foundByPark.get(p.parkId) ?? 0, total: p.count }));
+    const outcome = await shareText(progressShareText(foundCount, total, byPark, unlocked.length));
+    if (outcome === "copied") notify("Copied", "Your progress is on the clipboard.");
+    else if (outcome === "unavailable") notify("Couldn't share", "Sharing isn't available here.");
+  };
+
   const handleReset = () => {
     if (Platform.OS === "web") {
       if (typeof window !== "undefined" && window.confirm("Clear all your found marks? This cannot be undone.")) {
@@ -123,6 +132,15 @@ export default function ProfileScreen() {
               )}
             </View>
           </View>
+
+          <Pressable
+            onPress={() => handleShare().catch(() => {})}
+            accessibilityRole="button"
+            style={({ pressed }) => [styles.shareButton, pressed && styles.badgePressed]}
+          >
+            <Ionicons name="share-outline" size={20} color={t.colors.text} />
+            <Text style={styles.shareButtonText}>Share progress</Text>
+          </Pressable>
 
           <Section title="By park">
             <View style={styles.listCard}>
@@ -322,6 +340,22 @@ const createStyles = (t: Theme) =>
     },
     section: {
       gap: spacing.sm,
+    },
+    shareButton: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: spacing.sm - 2,
+      height: 44,
+      borderRadius: radii.full,
+      backgroundColor: t.colors.surface,
+      borderWidth: 1,
+      borderColor: t.colors.borderStrong,
+    },
+    shareButtonText: {
+      ...text.chip,
+      fontSize: 15,
+      color: t.colors.text,
     },
     settingRow: {
       flexDirection: "row",
