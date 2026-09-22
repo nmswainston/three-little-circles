@@ -5,17 +5,12 @@ import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { RootStackParamList } from "../navigation/types";
-import {
-  getAllEntries,
-  getAttractionsByLand,
-  getEntriesByAttraction,
-  getLandsByPark,
-  getParksSummary,
-} from "../data/query";
+import { getAllEntries, getParksSummary, groupByLand, matchesEntryType } from "../data/query";
 import { getDestination } from "../data/destinations";
 import { getFactsForPark } from "../data/facts";
 import { labelOrFallback } from "../data/labels";
 import { useFoundStore } from "../store/useFoundStore";
+import { useSettingsStore } from "../store/useSettingsStore";
 import { Theme, useParkPalette, useStyles, useTheme } from "../theme/ThemeProvider";
 import { parkKeyFor, PARK_ICONS } from "../theme/parks";
 import { spacing, radii, text } from "../theme/tokens";
@@ -23,6 +18,7 @@ import Sunburst from "../components/ui/Sunburst";
 import SegmentedControl, { SegmentedControlOption } from "../components/ui/SegmentedControl";
 import EmptyState from "../components/ui/EmptyState";
 import EntryRow from "../components/EntryRow";
+import Chip from "../components/ui/Chip";
 
 type IconName = keyof typeof Ionicons.glyphMap;
 
@@ -47,23 +43,23 @@ export default function ParkScreen() {
 
   const [filter, setFilter] = useState<SegmentedControlOption>("All");
   const found = useFoundStore((s) => s.found);
+  const hideFound = useSettingsStore((s) => s.hideFound);
+  const setHideFound = useSettingsStore((s) => s.setHideFound);
 
   const parkEntries = useMemo(() => getAllEntries().filter((e) => e.parkId === parkId), [parkId]);
   const hasFinds = parkEntries.length > 0;
   const foundCount = parkEntries.filter((e) => e.id in found).length;
   const pct = hasFinds ? (foundCount / parkEntries.length) * 100 : 0;
 
+  // The type filter narrows first; hunting mode then drops what's already
+  // found, so an attraction with nothing left to spot disappears entirely.
+  const typed = useMemo(() => parkEntries.filter((e) => matchesEntryType(e, filter)), [parkEntries, filter]);
+  const hiddenCount = hideFound ? typed.filter((e) => e.id in found).length : 0;
   const groups = useMemo(
-    () =>
-      getLandsByPark(parkId, filter).map((land) => ({
-        land,
-        attractions: getAttractionsByLand(parkId, land.landId, filter).map((attraction) => ({
-          attraction,
-          entries: getEntriesByAttraction(parkId, land.landId, attraction.attractionId, filter),
-        })),
-      })),
-    [parkId, filter]
+    () => groupByLand(hideFound ? typed.filter((e) => !(e.id in found)) : typed),
+    [typed, hideFound, found]
   );
+  const allFoundHere = hideFound && typed.length > 0 && hiddenCount === typed.length;
 
   // Park history and trivia. Independent of the finds filter so it does not
   // disappear when a filter empties the list above it.
@@ -119,31 +115,50 @@ export default function ParkScreen() {
             <SegmentedControl options={["All", "FIND", "FACT"]} selectedValue={filter} onValueChange={setFilter} />
           )}
 
+          {hasFinds && (
+            <View style={styles.huntRow}>
+              <Chip
+                label="Hide found"
+                icon={hideFound ? "eye-off" : "eye-off-outline"}
+                selected={hideFound}
+                onPress={() => setHideFound(!hideFound)}
+              />
+              {hiddenCount > 0 && <Text style={styles.huntMeta}>{hiddenCount} hidden</Text>}
+            </View>
+          )}
+
           {groups.length === 0 &&
-            (hasFinds ? (
-              <EmptyState title="Nothing here yet" message="No entries match this filter." />
-            ) : (
+            (!hasFinds ? (
               <EmptyState
                 title="No finds documented yet"
                 message="Read up on the park below, and send in anything you spot."
               />
+            ) : allFoundHere ? (
+              <EmptyState
+                title="All found here"
+                message={`You've spotted every documented ${filter === "All" ? "detail" : filter === "FIND" ? "find" : "fact"} here. Show them again to revisit.`}
+                actionLabel="Show found"
+                onAction={() => setHideFound(false)}
+              />
+            ) : (
+              <EmptyState title="Nothing here yet" message="No entries match this filter." />
             ))}
 
-          {groups.map(({ land, attractions }) => (
+          {groups.map((land) => (
             <View key={land.landId} style={styles.section}>
               <View style={styles.sectionHeader}>
                 <Text style={styles.sectionTitle}>{land.landName}</Text>
                 <Text style={styles.sectionMeta}>
-                  {attractions.length} {attractions.length === 1 ? "attraction" : "attractions"}
+                  {land.attractions.length} {land.attractions.length === 1 ? "attraction" : "attractions"}
                 </Text>
               </View>
-              {attractions.map(({ attraction, entries }) => (
+              {land.attractions.map((attraction) => (
                 <View key={attraction.attractionId} style={styles.groupCard}>
                   <View style={styles.groupHeader}>
                     <View style={[styles.dot, { backgroundColor: palette.accent }]} />
                     <Text style={[styles.groupTitle, { color: palette.text }]}>{attraction.attractionName}</Text>
                   </View>
-                  {entries.map((entry, index) => (
+                  {attraction.entries.map((entry, index) => (
                     <React.Fragment key={entry.id}>
                       {index > 0 && <View style={styles.divider} />}
                       <EntryRow
@@ -272,6 +287,15 @@ const createStyles = (t: Theme) =>
       paddingHorizontal: spacing.lg,
       paddingTop: spacing.md - 4,
       gap: spacing.md - 4,
+    },
+    huntRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.md - 4,
+    },
+    huntMeta: {
+      ...text.meta,
+      color: t.colors.textSecondary,
     },
     section: {
       gap: spacing.sm,

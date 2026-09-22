@@ -14,6 +14,12 @@ interface SettingsState {
   mapType: MapType;
   setMapType: (mapType: MapType) => void;
   /**
+   * Hunting mode: park screens leave out entries already marked found, so
+   * the list is only what's left to spot. Remembered across parks and launches.
+   */
+  hideFound: boolean;
+  setHideFound: (hideFound: boolean) => void;
+  /**
    * Random id generated once per install. Sent with sightings so the server
    * can rate-limit them. Not a hardware identifier and not tied to a person.
    */
@@ -29,12 +35,19 @@ export const useSettingsStore = create<SettingsState>()(
       setAppearance: (appearance) => set({ appearance }),
       mapType: 'standard',
       setMapType: (mapType) => set({ mapType }),
+      hideFound: false,
+      setHideFound: (hideFound) => set({ hideFound }),
       deviceId: Crypto.randomUUID(),
     }),
     {
       name: SETTINGS_STORAGE_KEY,
       storage: createJSONStorage(() => AsyncStorage),
-      partialize: (state) => ({ appearance: state.appearance, mapType: state.mapType, deviceId: state.deviceId }),
+      partialize: (state) => ({
+        appearance: state.appearance,
+        mapType: state.mapType,
+        hideFound: state.hideFound,
+        deviceId: state.deviceId,
+      }),
     }
   )
 );
