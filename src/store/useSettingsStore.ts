@@ -4,11 +4,15 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Crypto from 'expo-crypto';
 
 export type Appearance = 'system' | 'day' | 'night';
+export type MapType = 'standard' | 'hybrid';
 
 interface SettingsState {
   /** Which color theme to use. "system" follows the device setting. */
   appearance: Appearance;
   setAppearance: (appearance: Appearance) => void;
+  /** Map tiles: drawn map, or satellite imagery with labels. */
+  mapType: MapType;
+  setMapType: (mapType: MapType) => void;
   /**
    * Random id generated once per install. Sent with sightings so the server
    * can rate-limit them. Not a hardware identifier and not tied to a person.
@@ -23,12 +27,14 @@ export const useSettingsStore = create<SettingsState>()(
     (set) => ({
       appearance: 'system',
       setAppearance: (appearance) => set({ appearance }),
+      mapType: 'standard',
+      setMapType: (mapType) => set({ mapType }),
       deviceId: Crypto.randomUUID(),
     }),
     {
       name: SETTINGS_STORAGE_KEY,
       storage: createJSONStorage(() => AsyncStorage),
-      partialize: (state) => ({ appearance: state.appearance, deviceId: state.deviceId }),
+      partialize: (state) => ({ appearance: state.appearance, mapType: state.mapType, deviceId: state.deviceId }),
     }
   )
 );

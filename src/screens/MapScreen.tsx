@@ -1,16 +1,19 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { View, Text, StyleSheet, ScrollView, Platform, Alert } from "react-native";
+import { View, Text, StyleSheet, ScrollView, Platform, Alert, Pressable } from "react-native";
 import MapView, { Marker, Region, PROVIDER_GOOGLE } from "react-native-maps";
 import { useNavigation, useRoute, RouteProp } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
+import { Ionicons } from "@expo/vector-icons";
 import * as Clipboard from "expo-clipboard";
+import * as Location from "expo-location";
 import { RootStackParamList } from "../navigation/types";
 import { getAllEntries, getEntryById, getParksSummary } from "../data/query";
 import { labelOrFallback } from "../data/labels";
 import { formatCoordinates } from "../lib/maps";
 import { useFoundStore } from "../store/useFoundStore";
+import { useSettingsStore } from "../store/useSettingsStore";
 import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
-import { spacing, radii, text } from "../theme/tokens";
+import { spacing, radii, text, shadows } from "../theme/tokens";
 import PageHeader from "../components/layout/PageHeader";
 import ParkPicker from "../components/ParkPicker";
 import EntryCard from "../components/EntryCard";
@@ -38,6 +41,40 @@ export default function MapScreen() {
   const [selectedParkId, setSelectedParkId] = useState<string | undefined>(parks[0]?.parkId);
   const [focusId, setFocusId] = useState<string | undefined>();
   const found = useFoundStore((s) => s.found);
+  const mapType = useSettingsStore((s) => s.mapType);
+  const setMapType = useSettingsStore((s) => s.setMapType);
+  const [locationGranted, setLocationGranted] = useState(false);
+  const [locating, setLocating] = useState(false);
+
+  // Ask for location only when the user taps the locate button, then keep
+  // the dot on for the rest of the session.
+  const goToMyLocation = async () => {
+    if (locating) return;
+    setLocating(true);
+    try {
+      const permission = await Location.requestForegroundPermissionsAsync();
+      if (!permission.granted) {
+        Alert.alert("Location is off", "Allow location access for this app in your phone's settings to see where you are on the map.");
+        return;
+      }
+      setLocationGranted(true);
+      const position = await Location.getCurrentPositionAsync({ accuracy: Location.Accuracy.Balanced });
+      setFocusId(undefined);
+      mapRef.current?.animateToRegion(
+        {
+          latitude: position.coords.latitude,
+          longitude: position.coords.longitude,
+          latitudeDelta: 0.004,
+          longitudeDelta: 0.004,
+        },
+        400
+      );
+    } catch {
+      Alert.alert("Couldn't get your location", "Try again in a moment, or step somewhere with a clearer view of the sky.");
+    } finally {
+      setLocating(false);
+    }
+  };
 
   // "See on map" from an entry: select its park and remember it for the zoom below.
   const focusEntryId = route.params?.focusEntryId;
@@ -114,7 +151,9 @@ export default function MapScreen() {
           // Android only renders Google Maps; iOS keeps Apple Maps, which needs no key.
           provider={Platform.OS === "android" ? PROVIDER_GOOGLE : undefined}
           initialRegion={FALLBACK_REGION}
-          showsUserLocation={false}
+          mapType={mapType}
+          showsUserLocation={locationGranted}
+          showsMyLocationButton={false}
           onMapReady={() => setMapReady(true)}
           onLongPress={(event) => handleLongPress(event.nativeEvent.coordinate)}
         >
@@ -132,9 +171,30 @@ export default function MapScreen() {
             />
           ))}
         </MapView>
+
+        <View style={styles.controls}>
+          <Pressable
+            onPress={() => setMapType(mapType === "standard" ? "hybrid" : "standard")}
+            accessibilityRole="button"
+            accessibilityState={{ selected: mapType === "hybrid" }}
+            accessibilityLabel={mapType === "hybrid" ? "Switch to drawn map" : "Switch to satellite view"}
+            style={({ pressed }) => [styles.control, mapType === "hybrid" && styles.controlActive, pressed && styles.controlPressed]}
+          >
+            <Ionicons name="layers-outline" size={22} color={mapType === "hybrid" ? t.colors.onPrimary : t.colors.text} />
+          </Pressable>
+          <Pressable
+            onPress={goToMyLocation}
+            disabled={locating}
+            accessibilityRole="button"
+            accessibilityLabel="Show my location"
+            style={({ pressed }) => [styles.control, (pressed || locating) && styles.controlPressed]}
+          >
+            <Ionicons name={locationGranted ? "locate" : "locate-outline"} size={22} color={t.colors.text} />
+          </Pressable>
+        </View>
       </View>
       <Text style={styles.summary}>
-        {pinned.length} pinned{unpinned.length > 0 ? `, ${unpinned.length} without a location yet` : ""}. Tap a pin, then its label, for details. Long-press to copy a spot's coordinates.
+        {pinned.length} pinned{unpinned.length > 0 ? `, ${unpinned.length} without a location yet` : ""}. Tap a pin, then its label, for details. Long-press the map to copy a spot's coordinates.
       </Text>
       {unpinned.length > 0 && (
         <ScrollView style={styles.unpinnedList} contentContainerStyle={styles.unpinnedContent} showsVerticalScrollIndicator={false}>
@@ -162,6 +222,30 @@ const createStyles = (t: Theme) =>
     },
     map: {
       flex: 1,
+    },
+    controls: {
+      position: "absolute",
+      top: spacing.md - 4,
+      right: spacing.md - 4,
+      gap: spacing.sm + 2,
+    },
+    control: {
+      width: 44,
+      height: 44,
+      borderRadius: 22,
+      backgroundColor: t.colors.surface,
+      borderWidth: 1,
+      borderColor: t.colors.border,
+      alignItems: "center",
+      justifyContent: "center",
+      ...shadows.md,
+    },
+    controlActive: {
+      backgroundColor: t.colors.primary,
+      borderColor: t.colors.primary,
+    },
+    controlPressed: {
+      opacity: 0.8,
     },
     summary: {
       ...text.bodySmall,
