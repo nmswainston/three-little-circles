@@ -13,6 +13,7 @@ import {
 } from "@expo-google-fonts/nunito";
 import AppNavigator from "./src/navigation/AppNavigator";
 import AchievementToast from "./src/components/AchievementToast";
+import Onboarding from "./src/components/Onboarding";
 import { ThemeProvider, useTheme } from "./src/theme/ThemeProvider";
 
 // Keep the native splash up until fonts are ready so the first frame uses them.
@@ -154,6 +155,7 @@ function Root() {
         <AppNavigator />
       </NavigationContainer>
       <AchievementToast />
+      <Onboarding />
     </View>
   );
 }
