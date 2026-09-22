@@ -18,6 +18,13 @@ export default {
         },
       ],
       [
+        'expo-location',
+        {
+          locationWhenInUsePermission:
+            'Three Little Circles uses your location to show where you are on the park map.',
+        },
+      ],
+      [
         'expo-image-picker',
         {
           photosPermission: 'Three Little Circles uses your photos so you can attach one to a suggested find.',
