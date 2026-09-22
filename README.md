@@ -44,6 +44,8 @@ change rather than a code change.
 - Mark finds and track progress overall, by park, by land, and by attraction
 - Hide found: a hunting mode on every park screen that leaves only what's left to spot
 - Related finds on each entry, so one attraction can be swept without leaving the screen
+- Closest to you: tap locate on the Map tab and the list sorts by walking time, switching to the park you're standing in
+- Hints one at a time: where-to-look opens a step per tap and the full note waits for the last hint. Off in Profile shows everything
 - Achievements for milestones such as the first find or completing an attraction
 - Progress persists on the device, no sign-in required
 - Map of pinned entries on mobile, with the same entries listed on web
@@ -145,8 +147,8 @@ Android map with your own key while keeping hot reload: install the build, then
 ## Data and Persistence
 
 Found marks are stored on the device under the key `tlc.found.v1`, badges under
-`tlc.achievements.v1`, and settings (appearance, map type, and the Hide found
-toggle) under `tlc.settings.v1`. Badges are recalculated from the found map whenever it
+`tlc.achievements.v1`, and settings (appearance, map type, the Hide found
+toggle, and hints) under `tlc.settings.v1`. Badges are recalculated from the found map whenever it
 changes, and once earned they stay earned even if a find is un-marked. "Reset
 found progress" on the Profile screen clears the found map.
 

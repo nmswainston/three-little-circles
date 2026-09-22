@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState } from "react";
 import { ScrollView, StyleSheet, View, Text, Pressable } from "react-native";
 import { useRoute, RouteProp, useNavigation, CompositeNavigationProp } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
@@ -10,6 +10,7 @@ import { getEntryById, getRelatedEntries } from "../data/query";
 import { labelOrFallback } from "../data/labels";
 import { openDirections } from "../lib/maps";
 import { useFoundStore } from "../store/useFoundStore";
+import { useSettingsStore } from "../store/useSettingsStore";
 import { Theme, useParkPalette, useStyles, useTheme } from "../theme/ThemeProvider";
 import { spacing, radii, text } from "../theme/tokens";
 import Sunburst from "../components/ui/Sunburst";
@@ -17,6 +18,7 @@ import DifficultyChip from "../components/ui/DifficultyChip";
 import FoundButton from "../components/ui/FoundButton";
 import EmptyState from "../components/ui/EmptyState";
 import EntryRow from "../components/EntryRow";
+import WhereToLook, { LookStep } from "../components/WhereToLook";
 
 type EntryDetailRouteProp = RouteProp<RootStackParamList, "EntryDetail">;
 type NavigationProp = CompositeNavigationProp<
@@ -48,6 +50,12 @@ export default function EntryDetailScreen() {
   const related = useMemo(() => (entry ? getRelatedEntries(entry) : []), [entry]);
   const foundHere = related.filter((e) => e.id in foundMap).length + (found ? 1 : 0);
 
+  // Hint mode keeps the answer under wraps: where-to-look opens one step per
+  // tap, and the description, tip, and fun facts wait for the last step. A
+  // find already marked has nothing left to protect, so it shows in full.
+  const hintMode = useSettingsStore((s) => s.hintMode);
+  const [revealed, setRevealed] = useState(0);
+
   const backButton = (
     <Pressable
       onPress={() => navigation.goBack()}
@@ -74,11 +82,14 @@ export default function EntryDetailScreen() {
   const title = labelOrFallback(entry.display?.entryTitle, "Hidden Find");
   const eyebrow = [entry.display?.parkName, entry.display?.attractionName].filter(Boolean).join(" · ");
 
-  const steps = [
+  const steps: LookStep[] = [
     { label: "Scene", value: entry.whereToLook.scene },
     { label: "Exact spot", value: entry.whereToLook.exactSpot },
-    entry.whereToLook.orientation ? { label: "Orientation", value: entry.whereToLook.orientation } : null,
-  ].filter((s): s is { label: string; value: string } => s !== null);
+    ...(entry.whereToLook.orientation ? [{ label: "Orientation", value: entry.whereToLook.orientation }] : []),
+  ];
+  const ladder = hintMode && !found;
+  const shown = ladder ? Math.min(revealed, steps.length) : steps.length;
+  const spoilersHidden = shown < steps.length;
 
   const viewing = VIEWING_FIELDS.flatMap((key) => {
     const value = entry.viewing?.[key];
@@ -106,7 +117,9 @@ export default function EntryDetailScreen() {
             {entry.areaContext && entry.areaContext !== entry.locationType && (
               <OutlineChip label={entry.areaContext} />
             )}
-            {entry.whereToLook.orientation && <OutlineChip label={entry.whereToLook.orientation} />}
+            {entry.whereToLook.orientation && !spoilersHidden && (
+              <OutlineChip label={entry.whereToLook.orientation} />
+            )}
             {entry.entryType === "FACT" && <OutlineChip label="Fact" />}
           </View>
         </View>
@@ -138,24 +151,25 @@ export default function EntryDetailScreen() {
             </View>
           )}
 
-          <Text style={styles.description}>{entry.description}</Text>
+          {spoilersHidden ? (
+            <Text style={styles.hintNote}>
+              Hints are on. The full note appears after the last hint, or once you mark it found. Change this on the
+              Profile tab.
+            </Text>
+          ) : (
+            <Text style={styles.description}>{entry.description}</Text>
+          )}
 
-          <View style={styles.card}>
-            <Text style={styles.cardTitle}>Where to look</Text>
-            {steps.map((step, index) => (
-              <View key={step.label} style={styles.step}>
-                <View style={[styles.stepNumber, { backgroundColor: palette.accent }]}>
-                  <Text style={[styles.stepNumberText, { color: palette.onAccent }]}>{index + 1}</Text>
-                </View>
-                <View style={styles.stepText}>
-                  <Text style={styles.stepLabel}>{step.label}</Text>
-                  <Text style={styles.stepValue}>{step.value}</Text>
-                </View>
-              </View>
-            ))}
-          </View>
+          <WhereToLook
+            steps={steps}
+            revealed={shown}
+            onRevealNext={() => setRevealed(shown + 1)}
+            onRevealAll={() => setRevealed(steps.length)}
+            accent={palette.accent}
+            onAccent={palette.onAccent}
+          />
 
-          {entry.bestTip && (
+          {entry.bestTip && !spoilersHidden && (
             <View style={styles.tip}>
               <Ionicons name="bulb-outline" size={24} color={t.colors.tipText} />
               <View style={styles.tipText}>
@@ -165,7 +179,7 @@ export default function EntryDetailScreen() {
             </View>
           )}
 
-          {entry.funFacts && entry.funFacts.length > 0 && (
+          {entry.funFacts && entry.funFacts.length > 0 && !spoilersHidden && (
             <View style={styles.card}>
               <Text style={styles.cardTitle}>Fun facts</Text>
               {entry.funFacts.map((fact, index) => (
@@ -352,36 +366,9 @@ const createStyles = (t: Theme) =>
       ...text.sectionTitle,
       color: t.colors.text,
     },
-    step: {
-      flexDirection: "row",
-      alignItems: "flex-start",
-      gap: spacing.md - 4,
-    },
-    stepNumber: {
-      width: 28,
-      height: 28,
-      borderRadius: 14,
-      alignItems: "center",
-      justifyContent: "center",
-      flexShrink: 0,
-    },
-    stepNumberText: {
-      ...text.chip,
-    },
-    stepText: {
-      flex: 1,
-      gap: 2,
-    },
-    stepLabel: {
-      ...text.labelCaps,
-      fontSize: 13,
-      lineHeight: 18,
+    hintNote: {
+      ...text.bodySmall,
       color: t.colors.textSecondary,
-    },
-    stepValue: {
-      ...text.body,
-      lineHeight: 22,
-      color: t.colors.text,
     },
     tip: {
       flexDirection: "row",

@@ -20,6 +20,13 @@ interface SettingsState {
   hideFound: boolean;
   setHideFound: (hideFound: boolean) => void;
   /**
+   * Hints one at a time: an entry's where-to-look opens a step per tap, and
+   * the description, tip, and fun facts wait for the last step. Off shows
+   * every field note in full. A find already marked always shows in full.
+   */
+  hintMode: boolean;
+  setHintMode: (hintMode: boolean) => void;
+  /**
    * Random id generated once per install. Sent with sightings so the server
    * can rate-limit them. Not a hardware identifier and not tied to a person.
    */
@@ -37,6 +44,8 @@ export const useSettingsStore = create<SettingsState>()(
       setMapType: (mapType) => set({ mapType }),
       hideFound: false,
       setHideFound: (hideFound) => set({ hideFound }),
+      hintMode: true,
+      setHintMode: (hintMode) => set({ hintMode }),
       deviceId: Crypto.randomUUID(),
     }),
     {
@@ -46,6 +55,7 @@ export const useSettingsStore = create<SettingsState>()(
         appearance: state.appearance,
         mapType: state.mapType,
         hideFound: state.hideFound,
+        hintMode: state.hintMode,
         deviceId: state.deviceId,
       }),
     }
