@@ -1,5 +1,6 @@
 import { useFoundStore } from '../src/store/useFoundStore';
 import { useAchievementsStore } from '../src/store/useAchievementsStore';
+import { useSettingsStore } from '../src/store/useSettingsStore';
 import { computeUnlocked, getAchievements, parkAchievementId } from '../src/data/achievements';
 import { getAllEntries } from '../src/data/query';
 import { RESORTS_BUCKET_ID } from '../src/data/constants';
@@ -134,5 +135,15 @@ describe('achievements react to found changes', () => {
     useAchievementsStore.getState().checkAchievements({ silent: true });
     expect(useAchievementsStore.getState().isUnlocked('FIRST_FIND')).toBe(true);
     expect(useAchievementsStore.getState().pending).toEqual([]);
+  });
+});
+
+describe('useSettingsStore', () => {
+  it('starts with Hide found off and remembers the toggle', () => {
+    expect(useSettingsStore.getState().hideFound).toBe(false);
+    useSettingsStore.getState().setHideFound(true);
+    expect(useSettingsStore.getState().hideFound).toBe(true);
+    useSettingsStore.getState().setHideFound(false);
+    expect(useSettingsStore.getState().hideFound).toBe(false);
   });
 });
