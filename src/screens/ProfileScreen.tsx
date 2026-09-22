@@ -1,5 +1,5 @@
 import React, { ReactNode, useCallback, useMemo, useState } from "react";
-import { ScrollView, StyleSheet, View, Text, Pressable, Alert, Platform, Switch } from "react-native";
+import { ScrollView, StyleSheet, View, Text, Pressable, Switch } from "react-native";
 import { useFocusEffect, useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { Ionicons } from "@expo/vector-icons";
@@ -8,7 +8,9 @@ import { getAllEntries, getEntryById } from "../data/query";
 import { getDestinationSummaries } from "../data/destinations";
 import { labelOrFallback } from "../data/labels";
 import { progressShareText, shareText } from "../lib/share";
-import { notify } from "../lib/notify";
+import { backupToText } from "../lib/backup";
+import { exportBackup } from "../store/backup";
+import { confirm, notify } from "../lib/notify";
 import { useFoundStore } from "../store/useFoundStore";
 import { useAchievementsStore, getAchievements, Achievement } from "../store/useAchievementsStore";
 import { useSettingsStore, Appearance } from "../store/useSettingsStore";
@@ -90,17 +92,14 @@ export default function ProfileScreen() {
     else if (outcome === "unavailable") notify("Couldn't share", "Sharing isn't available here.");
   };
 
+  const handleExport = async () => {
+    const outcome = await shareText(backupToText(exportBackup()), "Three Little Circles backup");
+    if (outcome === "copied") notify("Copied", "Your backup is on the clipboard. Paste it somewhere you can reach from your other phone.");
+    else if (outcome === "unavailable") notify("Couldn't share", "Sharing isn't available here.");
+  };
+
   const handleReset = () => {
-    if (Platform.OS === "web") {
-      if (typeof window !== "undefined" && window.confirm("Clear all your found marks? This cannot be undone.")) {
-        clearAll();
-      }
-      return;
-    }
-    Alert.alert("Reset progress", "Clear all your found marks? This cannot be undone.", [
-      { text: "Cancel", style: "cancel" },
-      { text: "Clear", style: "destructive", onPress: clearAll },
-    ]);
+    confirm("Reset progress", "Clear all your found marks? This cannot be undone.", clearAll, "Clear");
   };
 
   return (
@@ -218,6 +217,33 @@ export default function ProfileScreen() {
                 thumbColor={t.colors.surface}
                 accessibilityLabel="Hints one at a time"
               />
+            </View>
+          </Section>
+
+          <Section title="Backup">
+            <View style={styles.aboutCard}>
+              <Text style={styles.communityBody}>
+                Moving to a new phone? Export makes a message to send yourself. Import reads it back, and shows what's in
+                it before anything changes.
+              </Text>
+              <View style={styles.backupRow}>
+                <Pressable
+                  onPress={() => handleExport().catch(() => {})}
+                  accessibilityRole="button"
+                  style={({ pressed }) => [styles.suggestButton, pressed && styles.badgePressed]}
+                >
+                  <Ionicons name="arrow-up-circle-outline" size={20} color={t.colors.onInk} />
+                  <Text style={styles.suggestButtonText}>Export</Text>
+                </Pressable>
+                <Pressable
+                  onPress={() => navigation.navigate("ImportProgress")}
+                  accessibilityRole="button"
+                  style={({ pressed }) => [styles.backupSecondary, pressed && styles.badgePressed]}
+                >
+                  <Ionicons name="arrow-down-circle-outline" size={20} color={t.colors.text} />
+                  <Text style={styles.backupSecondaryText}>Import</Text>
+                </Pressable>
+              </View>
             </View>
           </Section>
 
@@ -340,6 +366,27 @@ const createStyles = (t: Theme) =>
     },
     section: {
       gap: spacing.sm,
+    },
+    backupRow: {
+      flexDirection: "row",
+      gap: spacing.sm + 2,
+    },
+    backupSecondary: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.sm - 2,
+      height: 44,
+      paddingHorizontal: spacing.md + 2,
+      borderRadius: radii.full,
+      backgroundColor: t.colors.surface,
+      borderWidth: 1,
+      borderColor: t.colors.borderStrong,
+      marginTop: spacing.sm,
+    },
+    backupSecondaryText: {
+      ...text.chip,
+      fontSize: 15,
+      color: t.colors.text,
     },
     shareButton: {
       flexDirection: "row",

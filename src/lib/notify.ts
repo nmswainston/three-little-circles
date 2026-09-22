@@ -8,3 +8,15 @@ export function notify(title: string, message?: string): void {
   }
   Alert.alert(title, message);
 }
+
+/** A destructive yes/no. Runs onConfirm only when the person picks the confirming button. */
+export function confirm(title: string, message: string, onConfirm: () => void, confirmLabel: string = "OK"): void {
+  if (Platform.OS === "web") {
+    if (typeof window !== "undefined" && window.confirm(`${title}\n\n${message}`)) onConfirm();
+    return;
+  }
+  Alert.alert(title, message, [
+    { text: "Cancel", style: "cancel" },
+    { text: confirmLabel, style: "destructive", onPress: onConfirm },
+  ]);
+}

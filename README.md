@@ -48,6 +48,7 @@ change rather than a code change.
 - Hints one at a time: where-to-look opens a step per tap and the full note waits for the last hint. Off in Profile shows everything
 - Share a find, a park, or your progress. Share text names the find and where it is, never where to look
 - Still there? Two taps on any entry report it seen or missing, and each entry shows when it was last seen
+- Export and import progress: a backup message you send yourself, pasted on the new phone, with a preview before anything changes
 - Achievements for milestones such as the first find or completing an attraction
 - Progress persists on the device, no sign-in required
 - Map of pinned entries on mobile, with the same entries listed on web
@@ -156,6 +157,11 @@ toggle, and hints) under `tlc.settings.v1`, and your own "Still there?" reports
 under `tlc.confirmations.v1`. Badges are recalculated from the found map whenever it
 changes, and once earned they stay earned even if a find is un-marked. "Reset
 found progress" on the Profile screen clears the found map.
+
+"Export progress" on the Profile screen shares all of the above (minus the
+device id) as a text backup, and "Import progress" reads one back. Import
+shows what the backup holds first, then either merges it into the device,
+keeping the earlier date for anything both sides have, or replaces everything.
 
 Badges come in two kinds, defined in `src/data/achievements.ts`: milestones
 (first find, 10, 25, and 50 finds, one complete land, one complete attraction)
