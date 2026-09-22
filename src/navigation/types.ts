@@ -12,6 +12,7 @@ export type RootStackParamList = {
   /** focusEntryId zooms to that entry's pin and opens its label */
   Map: { focusEntryId?: string } | undefined;
   Profile: undefined;
+  ImportProgress: undefined;
 };
 
 export type RootTabParamList = {
