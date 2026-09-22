@@ -1,15 +1,16 @@
 import { entries } from "./entries";
-import { RESORTS_BUCKET_ID } from "./constants";
 import { labelOrFallback } from "./labels";
 import { ParkKey } from "../theme/themes";
+import destinationsJson from "../../content/destinations.json";
 
 /**
  * Destinations the app knows about, grouped by region, in display order.
  *
- * Entries reference a destination by parkId. This list adds the region, the
- * accent palette, and a stable display name, and lets the Parks screen show
- * destinations that have no entries yet as "Coming soon". Add a row here when
- * content for a new park starts landing.
+ * Entries reference a destination by parkId. The list lives in
+ * content/destinations.json so the app and the content scripts share it. It
+ * adds the region, the accent palette, and a stable display name, and lets
+ * the Parks screen show destinations that have no entries yet as "Coming
+ * soon". Add a row there when content for a new park starts landing.
  */
 export type Region = "Florida" | "California" | "Paris" | "Tokyo" | "Hong Kong" | "Shanghai";
 
@@ -22,27 +23,7 @@ export type Destination = {
   parkKey: ParkKey;
 };
 
-export const DESTINATIONS: Destination[] = [
-  { parkId: "magic_kingdom_park", name: "Kingdom Park", region: "Florida", parkKey: "kingdom" },
-  { parkId: "studios_park", name: "Studios Park", region: "Florida", parkKey: "studios" },
-  { parkId: "showcase_park", name: "Showcase Park", region: "Florida", parkKey: "showcase" },
-  { parkId: "adventure_park", name: "Adventure Park", region: "Florida", parkKey: "adventure" },
-  { parkId: "springs_bucket", name: "Springs", region: "Florida", parkKey: "springs" },
-  { parkId: RESORTS_BUCKET_ID, name: "Resorts", region: "Florida", parkKey: "resorts" },
-
-  { parkId: "california_kingdom_park", name: "Kingdom Park", region: "California", parkKey: "kingdom" },
-  { parkId: "california_pier_park", name: "Pier Park", region: "California", parkKey: "adventure" },
-
-  { parkId: "paris_kingdom_park", name: "Kingdom Park", region: "Paris", parkKey: "kingdom" },
-  { parkId: "paris_studios_park", name: "Studios Park", region: "Paris", parkKey: "studios" },
-
-  { parkId: "tokyo_kingdom_park", name: "Kingdom Park", region: "Tokyo", parkKey: "kingdom" },
-  { parkId: "tokyo_sea_park", name: "Sea Park", region: "Tokyo", parkKey: "springs" },
-
-  { parkId: "hong_kong_kingdom_park", name: "Kingdom Park", region: "Hong Kong", parkKey: "kingdom" },
-
-  { parkId: "shanghai_kingdom_park", name: "Kingdom Park", region: "Shanghai", parkKey: "kingdom" },
-];
+export const DESTINATIONS: Destination[] = destinationsJson as Destination[];
 
 const BY_ID: Record<string, Destination> = Object.fromEntries(DESTINATIONS.map((d) => [d.parkId, d]));
 
