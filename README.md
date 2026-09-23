@@ -121,7 +121,8 @@ npm run check
 
 That runs content validation, the TypeScript type check, and the Jest suite.
 Each is also available on its own: `npm run content:check`, `npm run typecheck`,
-`npm test`.
+`npm test`. The same command runs in GitHub Actions on every pull request and
+on every push to `main` (`.github/workflows/check.yml`).
 
 ## Building for Devices
 
