@@ -198,7 +198,7 @@ describe('skill badges', () => {
     expect(computeUnlocked(asFound(queue.slice(0, 3)))).toContain('QUEUE_MASTER');
   });
 
-  it('EASTER_EGG needs one Fact', () => {
+  it('EASTER_EGG needs one Hidden Surprise', () => {
     if (facts.length === 0) return;
     const finds = entries.filter((e) => e.entryType === 'FIND');
     expect(computeUnlocked(asFound(finds))).not.toContain('EASTER_EGG');

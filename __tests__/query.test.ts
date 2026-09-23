@@ -97,11 +97,22 @@ describe('groupByLand', () => {
     }
   });
 
-  it('keeps content order and returns nothing for an empty list', () => {
+  it('keeps every entry once, in content order within each attraction, and returns nothing for an empty list', () => {
     const park = entries[0].parkId;
     const list = entries.filter((e) => e.parkId === park);
-    const flat = groupByLand(list).flatMap((l) => l.attractions.flatMap((a) => a.entries));
-    expect(flat).toEqual(list);
+    const grouped = groupByLand(list);
+    const flat = grouped.flatMap((l) => l.attractions.flatMap((a) => a.entries));
+    // Grouping clusters an attraction's entries together, so the flattened
+    // order differs from file order once attractions interleave. Membership
+    // and per-attraction order are what matter.
+    expect(flat.map((e) => e.id).sort()).toEqual(list.map((e) => e.id).sort());
+    for (const land of grouped) {
+      for (const attraction of land.attractions) {
+        expect(attraction.entries).toEqual(
+          list.filter((e) => e.landId === land.landId && e.attractionId === attraction.attractionId)
+        );
+      }
+    }
     expect(groupByLand([])).toEqual([]);
   });
 
