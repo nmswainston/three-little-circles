@@ -1,0 +1,38 @@
+{
+  "id": "animal-kingdom-lodge-chair-backs-lead",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "great_hall_lobby",
+  "display": {
+    "entryTitle": "Chair Back Lead",
+    "parkName": "Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "Great Hall Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "This is a lead, not a confirmed find. The upholstered chairs and sofas in the great hall carry a printed pattern on their backs, and Mickey shapes have been reported in it. Which piece of furniture has never been recorded.",
+  "whereToLook": {
+    "scene": "The seating groups in the great hall, the backs of the upholstered chairs and sofas",
+    "exactSpot": "Look at the pattern on the seat backs and the outer arms for three circles worked into the print."
+  },
+  "bestTip": "Find an empty chair rather than reading over someone's shoulder. Early morning, before the lobby fills, gives you the run of the seating.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "Upholstery gets replaced on its own schedule, so a pattern reported years ago may simply no longer be in the room."
+  },
+  "confidence": "Interpretive",
+  "verification": "Unknown",
+  "coordinates": {
+    "latitude": 28.3531,
+    "longitude": -81.603
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

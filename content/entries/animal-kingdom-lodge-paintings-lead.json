@@ -1,0 +1,38 @@
+{
+  "id": "animal-kingdom-lodge-paintings-lead",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "great_hall_lobby",
+  "display": {
+    "entryTitle": "Framed Painting Lead",
+    "parkName": "Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "Great Hall Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "This is a lead, not a confirmed find. Framed paintings hang through the great hall and along the corridors running off it, and a Mickey has been reported in one of them. No one has said which painting.",
+  "whereToLook": {
+    "scene": "The framed artwork in the great hall and the corridors leading away from it",
+    "exactSpot": "Check the backgrounds rather than the subjects. Clouds, foliage, pottery and animal markings are where painted Mickeys usually sit."
+  },
+  "bestTip": "Work the corridors instead of the hall. They hold just as much art, they are quiet, and you can stand in front of a frame as long as you like.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Close",
+    "notes": "Corridor lighting is dim and the glass picks up glare, so step off to one side rather than standing square to the frame."
+  },
+  "confidence": "Interpretive",
+  "verification": "Unknown",
+  "coordinates": {
+    "latitude": 28.3531,
+    "longitude": -81.603
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

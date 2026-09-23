@@ -1,0 +1,38 @@
+{
+  "id": "animal-kingdom-lodge-curtains-lead",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "great_hall_lobby",
+  "display": {
+    "entryTitle": "Window Curtain Lead",
+    "parkName": "Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "Great Hall Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "This is a lead, not a confirmed find. The floor-to-ceiling drapes framing the tall savanna-facing windows carry a woven pattern, and a Mickey has been reported inside it. The exact repeat has never been identified.",
+  "whereToLook": {
+    "scene": "The tall windows at the savanna end of the great hall and the drapes framing them",
+    "exactSpot": "Read the pattern where the fabric hangs flat rather than where it gathers into folds, and watch for three circles inside the repeat."
+  },
+  "bestTip": "Morning light comes straight through those windows and backlights the weave, which makes the pattern far easier to read than it is at night.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Medium",
+    "notes": "A repeating textile pattern means that if the shape is there at all it is there many times over. Find it once and it is suddenly everywhere."
+  },
+  "confidence": "Interpretive",
+  "verification": "Unknown",
+  "coordinates": {
+    "latitude": 28.3531,
+    "longitude": -81.603
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

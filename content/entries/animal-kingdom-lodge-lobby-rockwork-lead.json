@@ -1,0 +1,38 @@
+{
+  "id": "animal-kingdom-lodge-lobby-rockwork-lead",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "great_hall_lobby",
+  "display": {
+    "entryTitle": "Lobby Rockwork Lead",
+    "parkName": "Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "Great Hall Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "This is a lead, not a confirmed find. Stone is built into the great hall around the fireplace and along the lower walls, and three rounded stones set as a head and two ears have been reported somewhere in it. The placement has never been recorded.",
+  "whereToLook": {
+    "scene": "The stone fireplace and the rock faces built into the walls of the great hall",
+    "exactSpot": "Follow the mortar lines and look for three rounded stones seated together rather than a carved shape."
+  },
+  "bestTip": "Come by in the evening. Firelight rakes across the stone and separates the individual rocks far better than flat daytime light does.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "Rockwork throws up accidental three-circle groupings constantly, so expect a few false positives before anything convincing."
+  },
+  "confidence": "Interpretive",
+  "verification": "Unknown",
+  "coordinates": {
+    "latitude": 28.3531,
+    "longitude": -81.603
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

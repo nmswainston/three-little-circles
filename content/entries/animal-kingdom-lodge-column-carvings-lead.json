@@ -1,0 +1,38 @@
+{
+  "id": "animal-kingdom-lodge-column-carvings-lead",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "great_hall_lobby",
+  "display": {
+    "entryTitle": "Column Carving Lead",
+    "parkName": "Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "Great Hall Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "This is a lead, not a confirmed find. The timber columns holding up the great hall are banded top to bottom with carved and painted pattern, and Mickey shapes have been reported worked into that banding. Nobody has pinned down which column or which band, so this one is a real search rather than a quick look.",
+  "whereToLook": {
+    "scene": "The great hall, the full-height timber columns under the thatched roof",
+    "exactSpot": "Take one column at a time and read it band by band from eye level upward, watching for three circles sitting inside the repeating geometric pattern."
+  },
+  "bestTip": "Start with the columns nearest the fireplace where the light is strongest, and bring a zoom lens or binoculars for the bands above the second floor.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Far",
+    "notes": "The hall is lit low and warm on purpose. The upper bands are genuinely far away, so a camera you can zoom with does most of the work."
+  },
+  "confidence": "Interpretive",
+  "verification": "Unknown",
+  "coordinates": {
+    "latitude": 28.3531,
+    "longitude": -81.603
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}
