@@ -49,7 +49,7 @@ change rather than a code change.
 - Share a find, a park, or your progress. Share text names the find and where it is, never where to look
 - Still there? Two taps on any entry report it seen or missing, and each entry shows when it was last seen
 - Export and import progress: a backup message you send yourself, pasted on the new phone, with a preview before anything changes
-- Badges for milestones, skills (hard finds, queues, an easter egg, a same-day streak, two regions), and each park. Badges the content can't reach yet stay hidden until it can
+- Badges for milestones, skills (hard finds, queues, a Hidden Surprise, a same-day streak, two regions), and each park. Badges the content can't reach yet stay hidden until it can
 - A three-page intro on first launch, and "Show the intro again" on Profile
 - Progress persists on the device, no sign-in required
 - Map of pinned entries on mobile, with the same entries listed on web
@@ -170,7 +170,7 @@ keeping the earlier date for anything both sides have, or replaces everything.
 
 Badges come in three kinds, defined in `src/data/achievements.ts`: milestones
 (first find, 10, 25, and 50 finds), skill badges (one complete land, one
-complete attraction, five Hard finds, three queue finds, an easter egg, three
+complete attraction, five Hard finds, three queue finds, a Hidden Surprise, three
 finds in one day, finds in two regions), and one completion badge per
 destination that has content, which appears automatically as parks gain
 entries. Each fixed badge knows whether the shipped content can satisfy it;

@@ -19,7 +19,17 @@ import { getAllEntries } from '../src/data/query';
 const NOW = Date.parse('2026-09-22T12:00:00Z');
 const entries = getAllEntries();
 const knownIds = new Set(entries.map((e) => e.id));
-const [first, second, third] = entries;
+
+// Pick fixtures by what the tests need rather than by file order, so more
+// content can't change what the assertions mean:
+//   first  is alone at its attraction, so finding it completes that attraction;
+//   third  shares its attraction with others, so finding it alone completes nothing;
+//   second is any other entry.
+const attractionSize = (e: (typeof entries)[number]) =>
+  entries.filter((o) => o.parkId === e.parkId && o.landId === e.landId && o.attractionId === e.attractionId).length;
+const first = entries.find((e) => attractionSize(e) === 1)!;
+const third = entries.find((e) => attractionSize(e) > 1)!;
+const second = entries.find((e) => e !== first && e !== third)!;
 
 const sample: BackupData = {
   found: { [first.id]: NOW - 5000, [second.id]: NOW - 4000 },
