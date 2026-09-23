@@ -1,0 +1,37 @@
+{
+  "id": "gliding-flight-hot-air-balloons-mickey",
+  "parkId": "showcase_park",
+  "landId": "nature_area",
+  "attractionId": "gliding_flight_theater",
+  "display": {
+    "entryTitle": "Hot Air Balloons Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Nature Area",
+    "attractionName": "Gliding Flight Theater"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "When the hot air balloons fill the screen, three of them line up for a moment as a classic three-circle Hidden Mickey. It lasts only a beat before the balloons drift apart.",
+  "whereToLook": {
+    "scene": "The hot air balloon scene",
+    "exactSpot": "Three balloons briefly form the classic shape as they come on screen."
+  },
+  "bestTip": "The moment the balloons appear, look for the tightest cluster of three rather than any single balloon.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "distance": "Far",
+    "notes": "Seats in the center of the top level see the screen with the least distortion."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3737,
+    "longitude": -81.5527
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

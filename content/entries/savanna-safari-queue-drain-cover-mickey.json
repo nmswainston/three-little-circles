@@ -1,0 +1,39 @@
+{
+  "id": "savanna-safari-queue-drain-cover-mickey",
+  "parkId": "adventure_park",
+  "landId": "savanna_village_area",
+  "attractionId": "savanna_safari_trucks",
+  "display": {
+    "entryTitle": "Queue Drain Cover Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Savanna Village Area",
+    "attractionName": "Savanna Safari Trucks"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "On the path of the express-entry line, a round drain cover has two stones set into the pavement beside it as ears, turning it into a classic three-circle Hidden Mickey. It is underfoot, so guests watching the trucks load walk right over it.",
+  "whereToLook": {
+    "scene": "Express-entry line for the safari, the paved path",
+    "exactSpot": "A round drain cover in the path with two stones inset next to it as ears.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Look down as you move through the express line rather than ahead at the loading area.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "This is in the express-entry line, so you will only pass it with that entry."
+  },
+  "confidence": "Strong",
+  "verification": "In-person",
+  "coordinates": {
+    "latitude": 28.36,
+    "longitude": -81.5925
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

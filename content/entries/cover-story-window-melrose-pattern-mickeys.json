@@ -1,0 +1,36 @@
+{
+  "id": "cover-story-window-melrose-pattern-mickeys",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cover_story_shop",
+  "display": {
+    "entryTitle": "Window Pattern Mickeys",
+    "parkName": "Studios Park",
+    "landName": "Boulevard Area",
+    "attractionName": "Cover Story Shop"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "description": "In the window of the photo shop on the boulevard, the pattern below the word Melrose creates several classic three-circle Hidden Mickeys. It looks like ordinary period decoration on the storefront, which is the point.",
+  "whereToLook": {
+    "scene": "Window of the shop on the boulevard",
+    "exactSpot": "Below where the window says Melrose. The pattern there forms several three-circle shapes."
+  },
+  "bestTip": "Find the word Melrose on the glass and look just under it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3573,
+    "longitude": -81.5591
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

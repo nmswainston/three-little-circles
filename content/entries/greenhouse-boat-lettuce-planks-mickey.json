@@ -1,0 +1,38 @@
+{
+  "id": "greenhouse-boat-lettuce-planks-mickey",
+  "parkId": "showcase_park",
+  "landId": "nature_area",
+  "attractionId": "greenhouse_boat_ride",
+  "display": {
+    "entryTitle": "Lettuce Planks Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Nature Area",
+    "attractionName": "Greenhouse Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the greenhouses, lettuce grows on horizontal planks. Most of it is red lettuce, but the green lettuce mixed in is planted as a classic three-circle Mickey. Crops rotate, so the pattern can grow out or be replanted, but it has been there recently.",
+  "whereToLook": {
+    "scene": "Greenhouse section, the horizontal planks of lettuce",
+    "exactSpot": "Among the red lettuce, the green lettuce forms the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Look at the color pattern across the planks rather than at individual plants.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "distance": "Medium",
+    "notes": "Crops are replanted regularly, so this one can change."
+  },
+  "confidence": "Strong",
+  "verification": "In-person",
+  "coordinates": {
+    "latitude": 28.3737,
+    "longitude": -81.5527
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

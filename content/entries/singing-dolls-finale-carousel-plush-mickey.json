@@ -1,0 +1,36 @@
+{
+  "id": "singing-dolls-finale-carousel-plush-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "singing_dolls_boat_ride",
+  "display": {
+    "entryTitle": "Finale Carousel Doll Plush Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Singing Dolls Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the last section before the ride ends, a carousel on the right side holds a doll with a little black Mickey plush in her hand. The finale is packed with dolls, and the plush is small and dark, so it is easy to miss.",
+  "whereToLook": {
+    "scene": "Last section before the ride ends, the carousel on the right side",
+    "exactSpot": "One of the dolls on the carousel is holding a small black Mickey plush."
+  },
+  "bestTip": "When the finale starts, watch the right side for the carousel and check the dolls' hands.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Right",
+    "distance": "Medium"
+  },
+  "confidence": "Obvious",
+  "verification": "In-person",
+  "coordinates": {
+    "latitude": 28.4204,
+    "longitude": -81.5827
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

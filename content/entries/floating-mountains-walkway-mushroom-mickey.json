@@ -1,0 +1,39 @@
+{
+  "id": "floating-mountains-walkway-mushroom-mickey",
+  "parkId": "adventure_park",
+  "landId": "floating_mountains_area",
+  "attractionId": "entrance_walkway",
+  "display": {
+    "entryTitle": "Dead Tree Mushrooms Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Floating Mountains Area",
+    "attractionName": "Entrance Walkway"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "Three small round mushrooms grow as a classic three-circle Hidden Mickey on a dead tree along the first side path that branches off the main walkway into the valley. The tree rises above the fence on the right side of the path, and the mushrooms sit on the far side of it, so you have to walk past the tree and look back.",
+  "whereToLook": {
+    "scene": "First pathway that branches from the main walkway into the valley, a dead tree jutting above the fence on the right",
+    "exactSpot": "On the far side of the tree, two clusters of mushrooms and fungi. Halfway up the left cluster, as you face the tree from the far side, three small round mushrooms form the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Pass the tree, turn around, and face it from the far side. Scan halfway up the left cluster.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "The fence keeps you a few steps away and the mushrooms are small. Late-day shade makes the shapes easier to separate from the bark."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3566,
+    "longitude": -81.5915
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

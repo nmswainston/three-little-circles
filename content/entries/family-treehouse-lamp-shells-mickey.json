@@ -1,0 +1,37 @@
+{
+  "id": "family-treehouse-lamp-shells-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "family_treehouse",
+  "display": {
+    "entryTitle": "Music Room Lamp Shells Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Jungle Outpost Area",
+    "attractionName": "Family Treehouse"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "In the mother's music room of the treehouse, a lamp sits on a shelf next to a book about the family. In the middle of the lampshade, a round red seashell forms the head of a classic Hidden Mickey with two smaller orange shells for ears, tilted to the right. It reads as beach decoration unless you know to look.",
+  "whereToLook": {
+    "scene": "Mother's music room in the treehouse, the shelf with the lamp next to the family's storybook",
+    "exactSpot": "Middle of the lampshade. A round red seashell with two smaller orange shells as ears, tilted to the right."
+  },
+  "bestTip": "Find the book on the shelf first, then check the lampshade beside it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 33.8113,
+    "longitude": -117.9205
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

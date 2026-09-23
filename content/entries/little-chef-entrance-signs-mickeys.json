@@ -1,0 +1,38 @@
+{
+  "id": "little-chef-entrance-signs-mickeys",
+  "parkId": "showcase_park",
+  "landId": "france_pavilion",
+  "attractionId": "little_chef_ride",
+  "display": {
+    "entryTitle": "Entrance Sign Frames Mickeys",
+    "parkName": "Showcase Park",
+    "landName": "France Pavilion",
+    "attractionName": "Little Chef Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Entrance",
+  "description": "Tilted classic three-circle Hidden Mickeys are worked into the decorative metal framework around the clock and the two queue signs at the ride entrance. There is one on each side of each sign and on both sides of the clock, so there are several to find. They read as ironwork scrolls, which is why guests checking the wait time miss them.",
+  "whereToLook": {
+    "scene": "Ride entrance, where the clock hangs alongside the two queue signs",
+    "exactSpot": "Metal framework on both sides of each sign and on both sides of the clock. Each holds a tilted three-circle shape."
+  },
+  "bestTip": "Start with the clock. Once you spot the tilted shape in its frame, the same shape is easy to find on the signs beside it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium",
+    "notes": "The signs hang above head height. Step to the side of the entrance so the queue is not moving through your view."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3679,
+    "longitude": -81.5529
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

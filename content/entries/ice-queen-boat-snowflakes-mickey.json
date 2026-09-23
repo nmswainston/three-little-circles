@@ -1,0 +1,37 @@
+{
+  "id": "ice-queen-boat-snowflakes-mickey",
+  "parkId": "showcase_park",
+  "landId": "norway_pavilion",
+  "attractionId": "ice_queen_boat_ride",
+  "display": {
+    "entryTitle": "Backward Slope Snowflakes Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Norway Pavilion",
+    "attractionName": "Ice Queen Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "Right after the ice queen sends your boat backward down the slope, the wall projection on the riders' right shows animated snowflakes, and for a moment they form a classic three-circle Mickey. It is hard to see unless you are looking for it while moving fast in the wrong direction.",
+  "whereToLook": {
+    "scene": "Just after the boat is pushed backward down the slope, the wall projection on the right",
+    "exactSpot": "Animated snowflakes on the projected wall come together in the classic shape."
+  },
+  "bestTip": "Sit in the front of the boat for the best chance, and watch the right wall the instant you start rolling backward.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Right",
+    "distance": "Medium",
+    "notes": "The front row has the clearest sightline. Riders in the back are looking at other riders."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3708,
+    "longitude": -81.5462
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "river-rapids-dock-wheels-mickey",
+  "parkId": "adventure_park",
+  "landId": "asia_village_area",
+  "attractionId": "river_rapids_raft_ride",
+  "display": {
+    "entryTitle": "Loading Dock Wheels Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Asia Village Area",
+    "attractionName": "River Rapids Raft Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Dock",
+  "description": "A classic three-circle Hidden Mickey is built from three spoked wheels standing against a crate on the shore across the waterway from the raft loading dock. One large wheel is topped by two smaller ones. The rock wall and props on that shore are busy with detail, and most riders are watching the rafts come in.",
+  "whereToLook": {
+    "scene": "Loading dock for the rafts, looking across the waterway to the right side of the far shore and rock wall",
+    "exactSpot": "Three spoked wheels leaning against a crate: one large wheel with two smaller wheels on top, forming the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Look across the water while you wait for your raft rather than after you sit down. Once the raft moves, the crate slides out of view.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Far",
+    "notes": "The wheels are across the water, so they look small from the dock. Zooming with your phone helps."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3594,
+    "longitude": -81.5882
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

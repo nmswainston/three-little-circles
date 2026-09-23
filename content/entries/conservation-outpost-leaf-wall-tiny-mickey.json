@@ -1,0 +1,38 @@
+{
+  "id": "conservation-outpost-leaf-wall-tiny-mickey",
+  "parkId": "adventure_park",
+  "landId": "conservation_outpost_area",
+  "attractionId": "character_greeting_area",
+  "display": {
+    "entryTitle": "Leaf Wall Tiny Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Conservation Outpost Area",
+    "attractionName": "Character Greeting Area"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "description": "Just outside the character greeting area at the conservation outpost, the walls carry a leaf pattern, and one leaf holds an incredibly tiny black classic Mickey about the size of a pencil eraser. It is one of the smallest in any park, on a wall guests walk past on their way out.",
+  "whereToLook": {
+    "scene": "Walls with the leaf pattern just outside the character greeting area, on the wall you pass as you exit",
+    "exactSpot": "On one of the leaves in the pattern, a tiny black three-circle shape about the size of a pencil eraser.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Stop at the leaf wall right as you leave the greeting area and check leaf by leaf at eye level.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "The outpost is reached by train, so plan the trip. The greeting area keeps limited hours."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3635,
+    "longitude": -81.5899
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

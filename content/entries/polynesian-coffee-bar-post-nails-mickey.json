@@ -1,0 +1,38 @@
+{
+  "id": "polynesian-coffee-bar-post-nails-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "polynesian_village_resort",
+  "attractionId": "kona_island_coffee_bar",
+  "display": {
+    "entryTitle": "Support Post Nails Mickey",
+    "parkName": "Resorts",
+    "landName": "Polynesian Village Resort",
+    "attractionName": "Kona Island Coffee Bar"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "description": "Three nails hammered into a wooden support pillar outside the window behind the coffee and sushi bar come together as a classic three-circle Hidden Mickey. The proportions are a little off, but the placement looks deliberate. Because it is outside a window behind the counter, almost nobody thinks to look for it.",
+  "whereToLook": {
+    "scene": "Outside the window behind the coffee and sushi bar in the main building, the row of wooden support pillars",
+    "exactSpot": "Second wood support pillar from the monorail entrance doors. Three nails on its right side form the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Count pillars from the monorail entrance doors and check the right side of the second one at about eye level.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Right",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "Not perfectly proportioned, so trust the three-nail cluster rather than a clean silhouette."
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4053,
+    "longitude": -81.5855
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

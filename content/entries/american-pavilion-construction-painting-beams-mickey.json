@@ -1,0 +1,36 @@
+{
+  "id": "american-pavilion-construction-painting-beams-mickey",
+  "parkId": "showcase_park",
+  "landId": "american_pavilion",
+  "attractionId": "rotunda_paintings",
+  "display": {
+    "entryTitle": "Construction Painting Beams Mickey",
+    "parkName": "Showcase Park",
+    "landName": "American Pavilion",
+    "attractionName": "Rotunda Paintings"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "description": "In the painting of workers constructing a building, the beams cross to form a classic three-circle Hidden Mickey. Beams and girders make natural circles and lines, so the shape hides in the structure.",
+  "whereToLook": {
+    "scene": "Paintings on display inside the pavilion, the one showing workers constructing a building",
+    "exactSpot": "In the building's beams. Their arrangement forms the classic shape."
+  },
+  "bestTip": "Look at the framework of the building rather than the workers.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3663,
+    "longitude": -81.5498
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

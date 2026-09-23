@@ -59,7 +59,7 @@ What the importer does for you:
 | `landId` | yes | stable id for the land or resort within the park |
 | `attractionId` | yes | stable id for the attraction or specific spot |
 | `display` | no | human-readable names: `parkName`, `landName`, `attractionName`, `entryTitle` |
-| `entryType` | yes | `FIND` for a Hidden Mickey, `FACT` for an easter egg or tribute |
+| `entryType` | yes | `FIND` for a Hidden Mickey, `FACT` for a Hidden Surprise such as an easter egg or movie reference |
 | `locationType` | yes | `Queue`, `Ride`, `Pre-show`, `Outdoor`, `Indoor` |
 | `difficulty` | yes | `Easy`, `Medium`, `Hard` |
 | `areaContext` | no | `Entrance`, `Queue`, `Loading`, `Ride`, `Dock`, `Post-show`, `Exit`, `Lobby`, `Walkway`, `Outdoor Display`, `Shop` |

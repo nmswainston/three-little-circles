@@ -1,0 +1,37 @@
+{
+  "id": "alien-spinner-mural-buttons-mickey",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "alien_spinner",
+  "display": {
+    "entryTitle": "Mural Buttons Mickey",
+    "parkName": "Studios Park",
+    "landName": "Toy Blocks Area",
+    "attractionName": "Alien Spinner"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "On the space ranger mural on the wall, three buttons form a classic three-circle Hidden Mickey. Painted control panels are full of round buttons, so the three that line up hide among the rest.",
+  "whereToLook": {
+    "scene": "Space ranger mural on the wall",
+    "exactSpot": "Three buttons on the mural form the classic shape."
+  },
+  "bestTip": "Scan the painted buttons for a cluster of three rather than reading the mural as a whole.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3568,
+    "longitude": -81.562
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

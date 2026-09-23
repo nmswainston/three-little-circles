@@ -1,0 +1,38 @@
+{
+  "id": "glowing-river-light-fixture-mickey",
+  "parkId": "adventure_park",
+  "landId": "floating_mountains_area",
+  "attractionId": "glowing_river_boats",
+  "display": {
+    "entryTitle": "Plant Light Fixture Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Floating Mountains Area",
+    "attractionName": "Glowing River Boats"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "A classic three-circle Hidden Mickey is traced near the top of one of the standing light fixtures that line the early part of the express-entry queue. The fixtures are shaped like alien plants that look a little like upside-down saxophones, and the shape blends into their texture.",
+  "whereToLook": {
+    "scene": "Early part of the express-entry queue, the row of standing plant-like light fixtures on your left",
+    "exactSpot": "Fourth fixture from the start on your left. The shape is traced near the top middle, toward the end of the fixture."
+  },
+  "bestTip": "Count the fixtures as you pass them and slow down at the fourth. Look at the upper part rather than the base.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Left",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "This is in the express-entry line, not the standby line, so you will only pass it with that entry."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3553,
+    "longitude": -81.5918
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

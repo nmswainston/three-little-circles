@@ -1,0 +1,36 @@
+{
+  "id": "savanna-safari-flamingo-island-mickey",
+  "parkId": "adventure_park",
+  "landId": "savanna_village_area",
+  "attractionId": "savanna_safari_trucks",
+  "display": {
+    "entryTitle": "Flamingo Pond Island Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Savanna Village Area",
+    "attractionName": "Savanna Safari Trucks"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Easy",
+  "areaContext": "Ride",
+  "description": "The island in the center of the flamingo pond is shaped like a classic three-circle Hidden Mickey. The pond is on your left after the truck enters the elephant area, and with flamingos and elephants competing for attention, most riders never notice the island's outline.",
+  "whereToLook": {
+    "scene": "Flamingo pond on your left after entering the elephant area",
+    "exactSpot": "The center island of the pond is the classic shape."
+  },
+  "bestTip": "Look at the island's outline rather than the birds. The shape is clearest as the truck first pulls alongside the pond.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Left",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.36,
+    "longitude": -81.5925
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

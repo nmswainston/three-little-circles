@@ -4,6 +4,151 @@ import type { HiddenMickeyEntry } from "./types";
 
 export const entries: HiddenMickeyEntry[] = [
   {
+    "id": "alien-spinner-mural-buttons-mickey",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "alien_spinner",
+    "display": {
+      "entryTitle": "Mural Buttons Mickey",
+      "parkName": "Studios Park",
+      "landName": "Toy Blocks Area",
+      "attractionName": "Alien Spinner"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "On the space ranger mural on the wall, three buttons form a classic three-circle Hidden Mickey. Painted control panels are full of round buttons, so the three that line up hide among the rest.",
+    "whereToLook": {
+      "scene": "Space ranger mural on the wall",
+      "exactSpot": "Three buttons on the mural form the classic shape."
+    },
+    "bestTip": "Scan the painted buttons for a cluster of three rather than reading the mural as a whole.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3568,
+      "longitude": -81.562
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "american-pavilion-construction-painting-beams-mickey",
+    "parkId": "showcase_park",
+    "landId": "american_pavilion",
+    "attractionId": "rotunda_paintings",
+    "display": {
+      "entryTitle": "Construction Painting Beams Mickey",
+      "parkName": "Showcase Park",
+      "landName": "American Pavilion",
+      "attractionName": "Rotunda Paintings"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "description": "In the painting of workers constructing a building, the beams cross to form a classic three-circle Hidden Mickey. Beams and girders make natural circles and lines, so the shape hides in the structure.",
+    "whereToLook": {
+      "scene": "Paintings on display inside the pavilion, the one showing workers constructing a building",
+      "exactSpot": "In the building's beams. Their arrangement forms the classic shape."
+    },
+    "bestTip": "Look at the framework of the building rather than the workers.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3663,
+      "longitude": -81.5498
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "american-pavilion-settlers-painting-horse-leg-mickey",
+    "parkId": "showcase_park",
+    "landId": "american_pavilion",
+    "attractionId": "rotunda_paintings",
+    "display": {
+      "entryTitle": "Settlers Painting Horse Leg Mickey",
+      "parkName": "Showcase Park",
+      "landName": "American Pavilion",
+      "attractionName": "Rotunda Paintings"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "description": "In the painting of early settlers crossing a river, a classic three-circle Hidden Mickey is hidden near one of the horse's legs. The painting is large and detailed, and the shape is small enough to pass for brushwork.",
+    "whereToLook": {
+      "scene": "Paintings on display inside the pavilion, the one showing early settlers crossing a river",
+      "exactSpot": "Near the leg of one of the horses."
+    },
+    "bestTip": "Find the horses first, then check the ground and water around each leg.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3663,
+      "longitude": -81.5498
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "aquarium-shark-room-poster-pearls-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "aquarium_pavilion",
+    "display": {
+      "entryTitle": "Shark Room Poster Pearls Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Nature Area",
+      "attractionName": "Aquarium Pavilion"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "description": "In the shark's submarine room, posters show pearls arranged as classic three-circle Hidden Mickeys. The room is built for kids and full of things to touch, so the posters get less attention than the props.",
+    "whereToLook": {
+      "scene": "The shark's submarine room in the pavilion",
+      "exactSpot": "The posters in the room. The pearls on them form the classic shape."
+    },
+    "bestTip": "Give each poster a look rather than only the interactive pieces.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.375,
+      "longitude": -81.5518
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
     "id": "art-animation-package-pickup-mickey",
     "parkId": "resorts_bucket",
     "landId": "art_of_animation_resort",
@@ -73,6 +218,493 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
   },
   {
+    "id": "canada-totem-pole-mickey",
+    "parkId": "showcase_park",
+    "landId": "canada_pavilion",
+    "attractionId": "totem_poles",
+    "display": {
+      "entryTitle": "Totem Pole Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Canada Pavilion",
+      "attractionName": "Totem Poles"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "A classic three-circle Hidden Mickey is carved into the detail of the totem poles at the pavilion. The poles are tall and covered in figures, so the shape hides among the carvings.",
+    "whereToLook": {
+      "scene": "The totem poles at the pavilion",
+      "exactSpot": "In the carved detail of the totem poles."
+    },
+    "bestTip": "Work your way up each pole slowly and look at the small carved details between the larger figures.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3713,
+      "longitude": -81.5517
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "cartoon-railway-dance-room-flower-mickey",
+    "parkId": "studios_park",
+    "landId": "boulevard_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Dance Room Flower Mickey",
+      "parkName": "Studios Park",
+      "landName": "Boulevard Area",
+      "attractionName": "Cartoon Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "A classic three-circle Hidden Mickey sits in the center of one of the large flowers that move and flash along the right side of the big mirror at the front of Daisy Duck's dance room. The flowers are in motion and the lights pulse, so the shape is only readable for a moment as your vehicle passes through.",
+    "whereToLook": {
+      "scene": "Daisy Duck's dance room, the large mirror at the front of the room",
+      "exactSpot": "Large flowers moving and flashing along the right side of the mirror. The shape is in the middle of one of them.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Look toward the front mirror the moment you enter the dance room and watch the flowers to its right rather than the dancers.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Flashing",
+      "angle": "Right",
+      "distance": "Medium",
+      "notes": "Ride vehicles turn as they move through the room, so your angle on the flowers changes quickly. It may take more than one ride."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3563,
+      "longitude": -81.5604
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "cartoon-railway-preshow-chandelier-mickeys",
+    "parkId": "studios_park",
+    "landId": "boulevard_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Pre-Show Chandelier Mickeys",
+      "parkName": "Studios Park",
+      "landName": "Boulevard Area",
+      "attractionName": "Cartoon Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Pre-show",
+    "difficulty": "Medium",
+    "description": "Two Hidden Mickeys decorate the overhead chandelier in the pre-show room where the cartoon short plays before you board: a classic three-circle shape and a second Mickey worked into the chandelier's Chinese-style ornament. Everyone in the room is watching the screen, so almost nobody looks up.",
+    "whereToLook": {
+      "scene": "Pre-show room where the cartoon short plays, the chandelier overhead",
+      "exactSpot": "Look up at the chandelier itself. One Mickey is the classic three-circle shape. The other is a stylized Mickey in the Chinese-themed decoration."
+    },
+    "bestTip": "Look up as soon as you walk in, before the lights drop for the cartoon.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium",
+      "notes": "The room fills quickly and the lights dim once the short starts, so the clear window is brief."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3563,
+      "longitude": -81.5604
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "cartoon-railway-waterfall-clam-pearls-mickey",
+    "parkId": "studios_park",
+    "landId": "boulevard_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Waterfall Clam Pearls Mickey",
+      "parkName": "Studios Park",
+      "landName": "Boulevard Area",
+      "attractionName": "Cartoon Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "A classic three-circle Hidden Mickey is formed by three blue pearls in an open clam just past the waterfall plunge. It sits behind you and to the left once the bubbles clear, so riders facing forward toward the next scene never see it.",
+    "whereToLook": {
+      "scene": "Just after your vehicle plunges over the waterfall",
+      "exactSpot": "Once the bubbles clear, look back over your left shoulder for an open clam holding three blue pearls arranged in the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Turn to look back and left the moment the bubbles fade after the waterfall. The clam is behind you, not ahead.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Left",
+      "distance": "Medium",
+      "notes": "You are looking backward from a moving vehicle, so the window is short. Riders on the left side of the vehicle have the easier view."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3563,
+      "longitude": -81.5604
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "castle-restaurant-bubbles-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "storybook_forest_area",
+    "attractionId": "enchanted_castle_restaurant",
+    "display": {
+      "entryTitle": "Bubbles Painting Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Forest Area",
+      "attractionName": "Enchanted Castle Restaurant"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "description": "A classic three-circle Hidden Mickey is formed by three bubbles in a small painting of Mrs. Potts and Chip, where Chip is playing in a dish full of bubbles. The painting hangs in the gallery dining room to the right of the ballroom, and because the dish is crowded with bubbles, most guests never notice that three of them line up.",
+    "whereToLook": {
+      "scene": "Gallery dining room (the Rose Gallery) to the right of the ballroom, left side of the rear wall",
+      "exactSpot": "Small painting of Mrs. Potts and Chip. In the dish of bubbles Chip is playing in, three bubbles form the classic shape, tilted to the left."
+    },
+    "bestTip": "Find the painting first, then get close and scan the bubbles slowly. The shape is tilted, so let your eye relax rather than hunting for an upright Mickey.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "The restaurant requires a dining reservation, and the gallery room is not always in use. Ask a Cast Member if you are seated in another room."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4215,
+      "longitude": -81.5809
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "concert-hall-shop-music-stands-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "concert_hall_gift_shop",
+    "display": {
+      "entryTitle": "Ledge Music Stands Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Concert Hall Gift Shop"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "Metal music stands sit on the ledge that runs around the gift shop next to the concert hall, and they are arranged as a classic three-circle Hidden Mickey. The ledge is above the merchandise, where shoppers rarely look.",
+    "whereToLook": {
+      "scene": "Gift shop beside the concert hall, the ledge that runs around the room",
+      "exactSpot": "The metal music stands on the ledge. Together they form the classic shape."
+    },
+    "bestTip": "Look above the shelves at the ledge, and take in a whole side of the room at once.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4201,
+      "longitude": -81.5815
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "concert-hall-show-curtain-french-horn-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "concert_hall_show",
+    "display": {
+      "entryTitle": "Curtain French Horn Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Concert Hall Show"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "description": "The French horn worked into the decoration around the theater curtain forms a classic three-circle Mickey. It is big and in plain sight, one of the easiest finds in the park, and a lovely one.",
+    "whereToLook": {
+      "scene": "Inside the concert hall theater, the decoration around the stage curtain",
+      "exactSpot": "The French horn in the curtain decoration. Its loops form the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Look at the curtain framing while you wait for the show to start.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4201,
+      "longitude": -81.5815
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-outpost-leaf-wall-tiny-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "character_greeting_area",
+    "display": {
+      "entryTitle": "Leaf Wall Tiny Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Conservation Outpost Area",
+      "attractionName": "Character Greeting Area"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "description": "Just outside the character greeting area at the conservation outpost, the walls carry a leaf pattern, and one leaf holds an incredibly tiny black classic Mickey about the size of a pencil eraser. It is one of the smallest in any park, on a wall guests walk past on their way out.",
+    "whereToLook": {
+      "scene": "Walls with the leaf pattern just outside the character greeting area, on the wall you pass as you exit",
+      "exactSpot": "On one of the leaves in the pattern, a tiny black three-circle shape about the size of a pencil eraser.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Stop at the leaf wall right as you leave the greeting area and check leaf by leaf at eye level.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "The outpost is reached by train, so plan the trip. The greeting area keeps limited hours."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3635,
+      "longitude": -81.5899
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "contemporary-monorail-beam-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "contemporary_resort",
+    "attractionId": "monorail_beam_approach",
+    "display": {
+      "entryTitle": "Monorail Beam Mickey",
+      "parkName": "Resorts",
+      "landName": "Contemporary Resort",
+      "attractionName": "Monorail Beam Approach"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "description": "A small black classic three-circle Hidden Mickey is painted halfway down the side of the resort monorail beam that runs beside the express line as it approaches the resort. You pass it a few seconds before the train enters the building, and it slips by fast enough that riders looking ahead at the hotel miss it.",
+    "whereToLook": {
+      "scene": "Express monorail from the transportation center toward the Kingdom Park, approaching the resort, left-side windows",
+      "exactSpot": "On the resort monorail beam running to your left, halfway down its side, a few seconds before the train enters the resort building."
+    },
+    "bestTip": "Sit on the left side of the express train and start watching the neighboring beam as soon as the resort comes into view.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Only the express line passes at the right angle. On the resort loop you are riding on that beam and cannot see its side."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4148,
+      "longitude": -81.5746
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "cosmic-coaster-city-model-domes-mickey",
+    "parkId": "showcase_park",
+    "landId": "discovery_area",
+    "attractionId": "cosmic_coaster",
+    "display": {
+      "entryTitle": "City Model Domes Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Discovery Area",
+      "attractionName": "Cosmic Coaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "A classic three-circle Hidden Mickey is built from three tiny domes in the grass of a park inside the colorful scale model of a city on the planet Xandar along the standby queue. The head is a blue dome with one green ear and one blue ear. The park sits behind a cluster of tall model buildings near the edge of the display, so the domes are easy to mistake for more city detail.",
+    "whereToLook": {
+      "scene": "Colorful lit model of the Xandar city along the standby entrance queue",
+      "exactSpot": "Near the perimeter of the model, look for a grassy park tucked behind some tall buildings. Three small domes sit in the grass: a blue head with one green ear and one blue ear.",
+      "orientation": "Upright"
+    },
+    "bestTip": "The queue passes the model on your right, makes a U-turn, and passes it on your right again. Check the grassy corner at the far end as you walk away from it, and ignore the towers.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "The model's lights cycle on and off. The domes are easiest to pick out while the display is lit, and faster entry lines may bypass this part of the queue."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3755,
+      "longitude": -81.5469
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "cosmic-coaster-city-model-water-mickey",
+    "parkId": "showcase_park",
+    "landId": "discovery_area",
+    "attractionId": "cosmic_coaster",
+    "display": {
+      "entryTitle": "City Model Water Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Discovery Area",
+      "attractionName": "Cosmic Coaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "A small metal classic three-circle Hidden Mickey sits in the water of the colorful scale model of a city on the planet Xandar along the standby queue. The model's lights cycle on and off, so the shape is only visible part of the time, and it is easy to walk past while the display is dark.",
+    "whereToLook": {
+      "scene": "Colorful lit model of the Xandar city along the standby entrance queue",
+      "exactSpot": "In the water between two bridges, find the semicircular grid of small interconnected metallic circles. The Mickey is near the outer edge of that grid.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Start scanning as soon as you begin walking around the model and wait through one full lighting cycle. The shape shows up when the water section is lit.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "The display lights up intermittently. If the queue is moving quickly you may get only one lit cycle at the right spot, and faster entry lines may bypass this part of the queue."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3755,
+      "longitude": -81.5469
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "cover-story-window-melrose-pattern-mickeys",
+    "parkId": "studios_park",
+    "landId": "boulevard_area",
+    "attractionId": "cover_story_shop",
+    "display": {
+      "entryTitle": "Window Pattern Mickeys",
+      "parkName": "Studios Park",
+      "landName": "Boulevard Area",
+      "attractionName": "Cover Story Shop"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "description": "In the window of the photo shop on the boulevard, the pattern below the word Melrose creates several classic three-circle Hidden Mickeys. It looks like ordinary period decoration on the storefront, which is the point.",
+    "whereToLook": {
+      "scene": "Window of the shop on the boulevard",
+      "exactSpot": "Below where the window says Melrose. The pattern there forms several three-circle shapes."
+    },
+    "bestTip": "Find the word Melrose on the glass and look just under it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3573,
+      "longitude": -81.5591
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "critter-carousel-armadillo-spots-mickey",
+    "parkId": "california_pier_park",
+    "landId": "boardwalk_pier_area",
+    "attractionId": "critter_carousel",
+    "display": {
+      "entryTitle": "Armadillo Spots Mickey",
+      "parkName": "Pier Park",
+      "landName": "Boardwalk Pier Area",
+      "attractionName": "Critter Carousel"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "description": "A classic three-circle Mickey made of spots sits on the right front shoulder of the blue armadillo on the carousel. The armadillo is in the second ring of critters, inside the outer ring, so you have to look past the outer animals to see it.",
+    "whereToLook": {
+      "scene": "The carousel, the second ring of critters inside the outer ring",
+      "exactSpot": "Blue armadillo. Three spots on the right front shoulder form the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Wait for the ride to stop and find the blue armadillo in the inner ring, or ride it and check the shoulder before you climb on.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Right",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 33.8045,
+      "longitude": -117.9212
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
     "id": "critter-popout-sideways-mickey",
     "parkId": "studios_park",
     "landId": "toy_blocks_area",
@@ -114,6 +746,763 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
   },
   {
+    "id": "elevated-tram-belt-buckle-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "elevated_tram_ride",
+    "display": {
+      "entryTitle": "Belt Buckle Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Future City Area",
+      "attractionName": "Elevated Tram Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Near the end of the elevated tram ride, a stylishly dressed figure from the future stands on your right, and her belt buckle is a classic three-circle Hidden Mickey. The ride is winding down and most riders are looking ahead to the station.",
+    "whereToLook": {
+      "scene": "Almost at the end of the ride, the display of future fashion on your right",
+      "exactSpot": "The fashionable woman on the right side. Her belt buckle is the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "When the ride starts its final approach, watch the right side for the figure and go straight to her waist.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Right",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4186,
+      "longitude": -81.5797
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "entrance-gates-grillwork-mickeys",
+    "parkId": "studios_park",
+    "landId": "park_entrance_area",
+    "attractionId": "entrance_gates",
+    "display": {
+      "entryTitle": "Gate Grillwork Mickeys",
+      "parkName": "Studios Park",
+      "landName": "Park Entrance Area",
+      "attractionName": "Entrance Gates"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "Classic three-circle Mickeys are worked into the metal grillwork of the gates at the park entrance. Guests are focused on tickets and bag check as they pass, so the ironwork above and beside them goes unstudied.",
+    "whereToLook": {
+      "scene": "Entrance gates at the front of the park",
+      "exactSpot": "In the decorative metal grillwork of the gates."
+    },
+    "bestTip": "Look at the gates before you scan your ticket, or on the way out when the crowd thins.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3578,
+      "longitude": -81.5586
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "family-treehouse-lamp-shells-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "family_treehouse",
+    "display": {
+      "entryTitle": "Music Room Lamp Shells Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Jungle Outpost Area",
+      "attractionName": "Family Treehouse"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "In the mother's music room of the treehouse, a lamp sits on a shelf next to a book about the family. In the middle of the lampshade, a round red seashell forms the head of a classic Hidden Mickey with two smaller orange shells for ears, tilted to the right. It reads as beach decoration unless you know to look.",
+    "whereToLook": {
+      "scene": "Mother's music room in the treehouse, the shelf with the lamp next to the family's storybook",
+      "exactSpot": "Middle of the lampshade. A round red seashell with two smaller orange shells as ears, tilted to the right."
+    },
+    "bestTip": "Find the book on the shelf first, then check the lampshade beside it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 33.8113,
+      "longitude": -117.9205
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "family-treehouse-trunk-moss-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "family_treehouse",
+    "display": {
+      "entryTitle": "Trunk Moss Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Jungle Outpost Area",
+      "attractionName": "Family Treehouse"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "A classic three-circle Hidden Mickey is camouflaged in the moss and bark of the giant tree's trunk. It blends so well into the texture that guests hurrying up the stairs walk right past it.",
+    "whereToLook": {
+      "scene": "The giant tree's trunk, from the walkway around the base of the treehouse",
+      "exactSpot": "In the moss and bark on the trunk. Look for three circles that stand out from the surrounding texture."
+    },
+    "bestTip": "Stop at the base before you climb and scan the trunk slowly at eye level and just above.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Circle the base if you can. The shape is camouflaged, so let your eye relax."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4182,
+      "longitude": -81.5832
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "floating-mountains-walkway-mushroom-mickey",
+    "parkId": "adventure_park",
+    "landId": "floating_mountains_area",
+    "attractionId": "entrance_walkway",
+    "display": {
+      "entryTitle": "Dead Tree Mushrooms Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Floating Mountains Area",
+      "attractionName": "Entrance Walkway"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "Three small round mushrooms grow as a classic three-circle Hidden Mickey on a dead tree along the first side path that branches off the main walkway into the valley. The tree rises above the fence on the right side of the path, and the mushrooms sit on the far side of it, so you have to walk past the tree and look back.",
+    "whereToLook": {
+      "scene": "First pathway that branches from the main walkway into the valley, a dead tree jutting above the fence on the right",
+      "exactSpot": "On the far side of the tree, two clusters of mushrooms and fungi. Halfway up the left cluster, as you face the tree from the far side, three small round mushrooms form the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Pass the tree, turn around, and face it from the far side. Scan halfway up the left cluster.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "The fence keeps you a few steps away and the mushrooms are small. Late-day shade makes the shapes easier to separate from the bark."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3566,
+      "longitude": -81.5915
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "flying-carpets-pavement-charm-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "flying_carpets_spinner",
+    "display": {
+      "entryTitle": "Pavement Charm Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Jungle Outpost Area",
+      "attractionName": "Flying Carpets Spinner"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "A tiny Mickey charm is set into the cement of the walkway across from the ride exit, near the bazaar shop. It is small enough to step on without noticing, and it is one of the finds people feel proudest of.",
+    "whereToLook": {
+      "scene": "Walkway between the bazaar shop across from the ride exit and the ride itself",
+      "exactSpot": "Find the pole at the shop with a thick blue stripe at the bottom. Take about three steps toward the ride and look down at the cement for the charm."
+    },
+    "bestTip": "Use the blue-striped pole as your anchor and count your steps. Look down before you look around.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "Foot traffic here is constant. Stand to one side and wait for a gap."
+    },
+    "confidence": "Strong",
+    "verification": "In-person",
+    "coordinates": {
+      "latitude": 28.4183,
+      "longitude": -81.5836
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z",
+    "funFacts": [
+      "Cast Members like to call this the tiniest Hidden Mickey in all the parks."
+    ]
+  },
+  {
+    "id": "flying-pirate-ship-cannonballs-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "flying_pirate_ship_ride",
+    "display": {
+      "entryTitle": "Pirate Ship Cannonballs Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Village Area",
+      "attractionName": "Flying Pirate Ship Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "An upside-down classic three-circle Hidden Mickey is stacked out of cannonballs on the deck of the pirate ship where the sword fight is happening. The cannonballs sit against a red post behind the first mate, and with the fight drawing your eye, the stack looks like ordinary deck clutter.",
+    "whereToLook": {
+      "scene": "Pirate ship scene where the sword fight is taking place, as you fly over the deck",
+      "exactSpot": "Cannonballs against a red post, behind the first mate. They form the classic shape upside down.",
+      "orientation": "Upside-down"
+    },
+    "bestTip": "Ignore the sword fight and scan the deck behind the first mate for the red post.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Below",
+      "distance": "Medium",
+      "notes": "You pass over the ship quickly. Riders on the side nearest the ship get the better angle."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 33.8131,
+      "longitude": -117.9188
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "flying-pirate-ship-queue-handrail-post-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "flying_pirate_ship_ride",
+    "display": {
+      "entryTitle": "Queue Handrail Post Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Village Area",
+      "attractionName": "Flying Pirate Ship Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "An upright classic three-circle Hidden Mickey is worked into one of the handrail posts along the part of the entrance queue that runs beside the loading area. It faces you at about waist height, but with the loading dock in view, almost everyone is watching the ships instead of the railing.",
+    "whereToLook": {
+      "scene": "Entrance queue where it runs alongside the loading dock area, the handrail on your right",
+      "exactSpot": "Seventh handrail post counting from the end of the handrail. Midway up the post, the classic shape faces you.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Count posts from the end of the rail while the line is stopped, then check midway up the seventh.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Right",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 33.8131,
+      "longitude": -117.9188
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "fortress-drop-tower-paint-trail-mickeys",
+    "parkId": "california_pier_park",
+    "landId": "hero_campus_area",
+    "attractionId": "fortress_drop_tower",
+    "display": {
+      "entryTitle": "Paint Trail Mickeys",
+      "parkName": "Pier Park",
+      "landName": "Hero Campus Area",
+      "attractionName": "Fortress Drop Tower"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Walkway",
+    "description": "Colorful paint trails run across the pavement and street outside the attraction, left behind when a certain raccoon spilled paint during an escape. Several classic three-circle Hidden Mickeys are scattered through the splotches along the trails between the exit and the entrance, hiding among dozens of ordinary drips.",
+    "whereToLook": {
+      "scene": "Sidewalk and street outside the attraction, along the colorful paint trails between the exit and the entrance",
+      "exactSpot": "Within the paint splotches and puddles along the trails. More than one three-circle shape is scattered along the route."
+    },
+    "bestTip": "Follow the trail from the exit toward the entrance and look down at each big splotch.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "Foot traffic is heavy here. Early morning or during a nearby show is easiest."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 33.8066,
+      "longitude": -117.9169
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "france-bridge-ledge-rope-mickey",
+    "parkId": "showcase_park",
+    "landId": "france_pavilion",
+    "attractionId": "canal_bridge",
+    "display": {
+      "entryTitle": "Bridge Ledge Rope Mickey",
+      "parkName": "Showcase Park",
+      "landName": "France Pavilion",
+      "attractionName": "Canal Bridge"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "A classic three-circle Hidden Mickey is coiled out of rope on a ledge down near the water beside the bridge that leads into the pavilion from the United Kingdom side. The rope loops around an oar propped against the wall, next to a small blue and orange boat. Guests crossing the bridge look ahead at the pavilion rather than down over the railing, which is why it stays hidden.",
+    "whereToLook": {
+      "scene": "Bridge from the United Kingdom Pavilion into the France Pavilion, left railing as you walk toward France",
+      "exactSpot": "Look over the left railing down to the ledge near the water. Beside a blue and orange boat, a rope is coiled into three circles around an oar leaning against the wall.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Stop about halfway across the bridge and look straight down over the left railing instead of out toward the pavilion.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Medium",
+      "notes": "The bridge gets busy before shows and at meal times. The rope is a set-dressing prop and may be recoiled or moved."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3699,
+      "longitude": -81.5521
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "france-film-wedding-party-mickey",
+    "parkId": "showcase_park",
+    "landId": "france_pavilion",
+    "attractionId": "pavilion_film",
+    "display": {
+      "entryTitle": "Film Wedding Party Mickey",
+      "parkName": "Showcase Park",
+      "landName": "France Pavilion",
+      "attractionName": "Pavilion Film Theater"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "description": "In the pavilion's travel film, a classic three-circle Hidden Mickey appears in the wedding party scene. It is on screen only as long as the shot lasts, and the sweeping scenery keeps most viewers from studying the guests.",
+    "whereToLook": {
+      "scene": "The pavilion's film, the wedding party scene",
+      "exactSpot": "Within the wedding party scene on screen."
+    },
+    "bestTip": "When the wedding appears, scan the whole frame quickly rather than following the couple.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3681,
+      "longitude": -81.5535
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "france-monsieur-paul-marquee-mickey",
+    "parkId": "showcase_park",
+    "landId": "france_pavilion",
+    "attractionId": "monsieur_paul_restaurant",
+    "display": {
+      "entryTitle": "Entrance Marquee Mickey",
+      "parkName": "Showcase Park",
+      "landName": "France Pavilion",
+      "attractionName": "Monsieur Paul"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "A classic three-circle Hidden Mickey is worked into the marquee at the entrance of the pavilion's upstairs fine-dining restaurant. The marquee is decorative and above eye level, so guests heading into the courtyard rarely study it.",
+    "whereToLook": {
+      "scene": "Entrance to the upstairs restaurant, the marquee above the door",
+      "exactSpot": "In the design of the marquee."
+    },
+    "bestTip": "Stand back from the entrance so you can see the whole marquee at once.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.368,
+      "longitude": -81.5533
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "france-wine-shop-columns-mickey",
+    "parkId": "showcase_park",
+    "landId": "france_pavilion",
+    "attractionId": "wine_shop",
+    "display": {
+      "entryTitle": "Wine Shop Columns Mickey",
+      "parkName": "Showcase Park",
+      "landName": "France Pavilion",
+      "attractionName": "Wine Shop"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Before you enter the pavilion's wine shop, look up at the columns framing the entrance. A classic three-circle Hidden Mickey is worked into their detail, well above where shoppers look as they walk in.",
+    "whereToLook": {
+      "scene": "Entrance to the wine shop, the columns on either side",
+      "exactSpot": "Up on the columns, in their decorative detail."
+    },
+    "bestTip": "Look up before you step inside, not after.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3684,
+      "longitude": -81.5528
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "galactic-blaster-planet-poster-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "galactic_blaster_ride",
+    "display": {
+      "entryTitle": "Planet Poster Continent Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Future City Area",
+      "attractionName": "Galactic Blaster Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "On the poster of allied planets on your right as you enter the queue, one planet has a continent shaped like a classic three-circle Mickey. The poster is full of planets and text, so the shape reads as just another landmass. The same planet appears again on the left near the end of the ride.",
+    "whereToLook": {
+      "scene": "Poster titled Planets of the Galactic Alliance on your right just after you enter the queue",
+      "exactSpot": "The planet named Pollost Prime. One of its continents is the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Find the planet by its name first, then look at the land shapes. Watch for the same planet on the left at the end of the ride.",
+    "funFacts": [
+      "The planet shows up a second time on the left side near the end of the ride, so you get a bonus sighting."
+    ],
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Right",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4185,
+      "longitude": -81.5795
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "geosphere-renaissance-painter-table-mickey",
+    "parkId": "showcase_park",
+    "landId": "celebration_area",
+    "attractionId": "geosphere_time_ride",
+    "display": {
+      "entryTitle": "Renaissance Painter Table Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Celebration Area",
+      "attractionName": "Geosphere Time Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the Renaissance scene, the first painter on your left works at a table with three white circles on top of it. They form a classic three-circle Hidden Mickey. The scene is dim and the ride keeps a steady pace, so it takes a deliberate look.",
+    "whereToLook": {
+      "scene": "Renaissance scene, the first painter on your left",
+      "exactSpot": "On top of the painter's table, three white circles form the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Look left as soon as the Renaissance scene begins and go straight to the first painter's table.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Left",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3753,
+      "longitude": -81.5494
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "germany-armor-crown-mickey",
+    "parkId": "showcase_park",
+    "landId": "germany_pavilion",
+    "attractionId": "glockenspiel_facade",
+    "display": {
+      "entryTitle": "Armor Crown Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Germany Pavilion",
+      "attractionName": "Glockenspiel Facade"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Outdoor Display",
+    "description": "A classic three-circle Hidden Mickey is worked into the crown on one of the three suits of armor displayed on the second floor of the building to the right of the glockenspiel clock. The armor stands well above eye level and the crown detail is small, so even guests who notice the knights rarely study them closely.",
+    "whereToLook": {
+      "scene": "Second floor of the building on your right as you face the pavilion, to the right of the glockenspiel clock",
+      "exactSpot": "Three suits of armor stand in a row. On the one closest to the glockenspiel, look at the crown for the three-circle shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Stand back in the courtyard for a straight view of the second floor and use your phone's camera zoom on the crown.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far",
+      "notes": "Afternoon sun can put the second floor in shadow or glare. The courtyard is busiest when the glockenspiel chimes on the hour."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.368,
+      "longitude": -81.5469
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "gliding-flight-finale-fireworks-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "gliding_flight_theater",
+    "display": {
+      "entryTitle": "Finale Fireworks Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Nature Area",
+      "attractionName": "Gliding Flight Theater"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Easy",
+    "areaContext": "Ride",
+    "description": "In the finale, the fireworks burst into a classic three-circle Hidden Mickey. It is one of the better-known moments on the ride, but it still catches first-time riders who are watching the ground below.",
+    "whereToLook": {
+      "scene": "Finale fireworks at the end of the flight",
+      "exactSpot": "In the fireworks bursts. Three bursts form the classic shape."
+    },
+    "bestTip": "Keep your eyes on the sky during the finale rather than the park below.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "distance": "Far"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3737,
+      "longitude": -81.5527
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "gliding-flight-hot-air-balloons-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "gliding_flight_theater",
+    "display": {
+      "entryTitle": "Hot Air Balloons Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Nature Area",
+      "attractionName": "Gliding Flight Theater"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "When the hot air balloons fill the screen, three of them line up for a moment as a classic three-circle Hidden Mickey. It lasts only a beat before the balloons drift apart.",
+    "whereToLook": {
+      "scene": "The hot air balloon scene",
+      "exactSpot": "Three balloons briefly form the classic shape as they come on screen."
+    },
+    "bestTip": "The moment the balloons appear, look for the tightest cluster of three rather than any single balloon.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "distance": "Far",
+      "notes": "Seats in the center of the top level see the screen with the least distortion."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3737,
+      "longitude": -81.5527
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "glowing-river-light-fixture-mickey",
+    "parkId": "adventure_park",
+    "landId": "floating_mountains_area",
+    "attractionId": "glowing_river_boats",
+    "display": {
+      "entryTitle": "Plant Light Fixture Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Floating Mountains Area",
+      "attractionName": "Glowing River Boats"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "A classic three-circle Hidden Mickey is traced near the top of one of the standing light fixtures that line the early part of the express-entry queue. The fixtures are shaped like alien plants that look a little like upside-down saxophones, and the shape blends into their texture.",
+    "whereToLook": {
+      "scene": "Early part of the express-entry queue, the row of standing plant-like light fixtures on your left",
+      "exactSpot": "Fourth fixture from the start on your left. The shape is traced near the top middle, toward the end of the fixture."
+    },
+    "bestTip": "Count the fixtures as you pass them and slow down at the fourth. Look at the upper part rather than the base.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "This is in the express-entry line, not the standby line, so you will only pass it with that entry."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3553,
+      "longitude": -81.5918
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "glowing-river-shaman-cloak-mickeys",
+    "parkId": "adventure_park",
+    "landId": "floating_mountains_area",
+    "attractionId": "glowing_river_boats",
+    "display": {
+      "entryTitle": "Shaman Cloak Holes Mickeys",
+      "parkName": "Adventure Park",
+      "landName": "Floating Mountains Area",
+      "attractionName": "Glowing River Boats"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Toward the end of the glowing river boat ride, the chanting animated shaman on your right wears a reddish cloak with black holes cut into it. Near the edges of the lower cloak, hanging from the backs of both arms, some of those holes form tilted classic Mickeys. They show only for moments, between the arms and the body, as the shaman lifts and moves the arms.",
+    "whereToLook": {
+      "scene": "Chanting animated shaman figure on your right toward the end of the ride",
+      "exactSpot": "Lower parts of the cloak hanging from the backs of both arms, near the edges. Black holes in the reddish fabric form tilted three-circle shapes that appear as the arms lift."
+    },
+    "bestTip": "Watch the gaps between the arms and the body rather than the face. The shapes come and go with each arm movement, so you get several chances.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Right",
+      "distance": "Medium",
+      "notes": "Riders on the right side of the boat have the closer view. The holes read as black against the red fabric."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3553,
+      "longitude": -81.5918
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
     "id": "gran-destino-elevator-wall-mickey",
     "parkId": "resorts_bucket",
     "landId": "coronado_springs_gran_destino",
@@ -150,6 +1539,301 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "great-tree-trunk-moss-mickey",
+    "parkId": "adventure_park",
+    "landId": "great_tree_area",
+    "attractionId": "great_tree",
+    "display": {
+      "entryTitle": "Trunk Moss Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Great Tree Area",
+      "attractionName": "Great Tree"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Outdoor Display",
+    "description": "A classic three-circle Hidden Mickey is shaped out of moss on the front of the great tree, to the right of the carved tiger. The trunk is covered in hundreds of carved animals, so a patch of moss is the last thing anyone studies.",
+    "whereToLook": {
+      "scene": "Front of the great tree, the carved tiger",
+      "exactSpot": "To the right of the tiger, a patch of moss forms the classic shape."
+    },
+    "bestTip": "Find the tiger carving first from the main viewing path, then scan the moss to its right.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3579,
+      "longitude": -81.5906
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "greenhouse-boat-lettuce-planks-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "greenhouse_boat_ride",
+    "display": {
+      "entryTitle": "Lettuce Planks Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Nature Area",
+      "attractionName": "Greenhouse Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the greenhouses, lettuce grows on horizontal planks. Most of it is red lettuce, but the green lettuce mixed in is planted as a classic three-circle Mickey. Crops rotate, so the pattern can grow out or be replanted, but it has been there recently.",
+    "whereToLook": {
+      "scene": "Greenhouse section, the horizontal planks of lettuce",
+      "exactSpot": "Among the red lettuce, the green lettuce forms the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Look at the color pattern across the planks rather than at individual plants.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "distance": "Medium",
+      "notes": "Crops are replanted regularly, so this one can change."
+    },
+    "confidence": "Strong",
+    "verification": "In-person",
+    "coordinates": {
+      "latitude": 28.3737,
+      "longitude": -81.5527
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "greenhouse-boat-mural-bubbles-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "greenhouse_boat_ride",
+    "display": {
+      "entryTitle": "Mural Bubbles Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Nature Area",
+      "attractionName": "Greenhouse Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Three bubbles on the large mural in the early part of the boat ride come together as a classic three-circle Hidden Mickey. The mural is full of shapes and color, so the trio reads as more bubbles.",
+    "whereToLook": {
+      "scene": "The large mural early in the boat ride",
+      "exactSpot": "Three bubbles on the mural form the classic shape."
+    },
+    "bestTip": "Scan the mural's bubbles for a group of three that touch.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3737,
+      "longitude": -81.5527
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "greenhouse-boat-shrimp-trap-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "greenhouse_boat_ride",
+    "display": {
+      "entryTitle": "Shrimp Tank Trap Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Nature Area",
+      "attractionName": "Greenhouse Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the fish and shrimp tank section of the boat ride, one of the live shrimp tanks holds a small trap shaped like a classic three-circle Mickey. It looks like working equipment sitting in the water, so riders looking for fish pass right over it.",
+    "whereToLook": {
+      "scene": "Fish and shrimp tank area of the ride",
+      "exactSpot": "In one of the live shrimp tanks, a small trap in the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "As the boat enters the tank area, look into the shrimp tanks rather than at the larger fish.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "In-person",
+    "coordinates": {
+      "latitude": 28.3737,
+      "longitude": -81.5527
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "greenhouse-boat-water-hose-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "greenhouse_boat_ride",
+    "display": {
+      "entryTitle": "Greenhouse Hose Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Nature Area",
+      "attractionName": "Greenhouse Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the fish and shrimp tank section of the boat ride, a garden hose lies on the ground coiled into a classic three-circle Hidden Mickey. It looks like working equipment, which is why most riders never give it a second look.",
+    "whereToLook": {
+      "scene": "Fish and shrimp tank area of the ride, the ground beside the tanks",
+      "exactSpot": "A garden hose coiled on the ground into the classic shape."
+    },
+    "bestTip": "As the boat enters the tank area, look low along the ground beside the tanks rather than at the fish.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "In-person",
+    "coordinates": {
+      "latitude": 28.3737,
+      "longitude": -81.5527
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "greeting-hall-mural-flowers-mickey",
+    "parkId": "showcase_park",
+    "landId": "celebration_area",
+    "attractionId": "character_greeting_hall",
+    "display": {
+      "entryTitle": "Greeting Mural Flowers Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Celebration Area",
+      "attractionName": "Character Greeting Hall"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "description": "A classic three-circle Hidden Mickey is formed by three round orange flowers that touch each other in the mural on the rear wall of the character greeting hall. The flowers are in the central greeting section, where Goofy usually meets, near the bottom of the mural, and they blend into the rest of the painted garden.",
+    "whereToLook": {
+      "scene": "Rear wall mural in the central greeting section of the hall, usually Goofy's spot",
+      "exactSpot": "Lower middle of the mural, near the end of the short green wall. Three round orange flowers connect to form the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Look for the flowers while you wait your turn rather than during your photo, when you will be facing the camera instead of the wall.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium",
+      "notes": "Which character greets in the center section can change, and the photo backdrop can block part of the mural."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3737,
+      "longitude": -81.5502
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "harambe-market-pillar-mickeys",
+    "parkId": "adventure_park",
+    "landId": "savanna_village_area",
+    "attractionId": "harambe_market",
+    "display": {
+      "entryTitle": "Market Pillar Mickeys",
+      "parkName": "Adventure Park",
+      "landName": "Savanna Village Area",
+      "attractionName": "Harambe Market"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "description": "Mickey appears on a pillar in the seating area of the market, enjoying a cup of coffee, and again at the entrance, waving hello. Several more are hidden around the seating area. They are drawn into the village signage and decoration, so they read as local art at a glance.",
+    "whereToLook": {
+      "scene": "The market's seating area and entrance",
+      "exactSpot": "A pillar in the seating area shows Mickey with a cup of coffee. At the entrance, Mickey is waving hello."
+    },
+    "bestTip": "Start with the entrance, then walk the pillars in the seating area.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3592,
+      "longitude": -81.5912
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "haunted-manor-banquet-table-plates-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "colonial_square_area",
+    "attractionId": "haunted_manor_ride",
+    "display": {
+      "entryTitle": "Banquet Table Plates Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Colonial Square Area",
+      "attractionName": "Haunted Manor Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "A classic three-circle Hidden Mickey is set on the ghostly banquet table using a plate for the head and two saucers for the ears. It sits at the bottom left corner of the table, away from the dancing ghosts that pull every eye toward the middle of the ballroom.",
+    "whereToLook": {
+      "scene": "Ballroom scene with the ghostly banquet, viewed from the balcony as your carriage passes",
+      "exactSpot": "Bottom left corner of the banquet table. A plate and two saucers form the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Look at the near left corner of the table as soon as the ballroom opens up, before the dancers distract you.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Below",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4201,
+      "longitude": -81.583
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
     "id": "homecomin-entrance-wall-painting-mickey",
@@ -190,6 +1874,917 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
   },
   {
+    "id": "honey-pot-owl-house-deed-painting",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "honey_pot_ride",
+    "display": {
+      "entryTitle": "Owl's House Deed Painting",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Honey Pot Ride"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Inside Owl's house, a framed picture shows Mr. Toad handing over the deed to Owl. It is a tribute to the ride that used to occupy this building, and a sweet one if you know the history.",
+    "whereToLook": {
+      "scene": "Owl's house scene, the pictures on the walls",
+      "exactSpot": "A framed picture of Mr. Toad handing the deed to Owl."
+    },
+    "bestTip": "Look at the framed pictures as the room rocks rather than at the characters.",
+    "funFacts": [
+      "The ride took over this building from Mr. Toad's Wild Ride in the late 1990s, and this painting makes the handover official."
+    ],
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "In-person",
+    "coordinates": {
+      "latitude": 28.4201,
+      "longitude": -81.5807
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "honey-pot-pink-flowers-room-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "honey_pot_ride",
+    "display": {
+      "entryTitle": "Pink Flowers Room Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Honey Pot Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In one of the first rooms of the ride, the wall is painted with pink flowers, and a tiny classic three-circle Mickey hides among them. A Cast Member once called it the smallest one in the park, and even if newer finds have taken that title, it is still easy to miss from a moving honey pot.",
+    "whereToLook": {
+      "scene": "One of the first rooms of the ride, the wall painted with pink flowers",
+      "exactSpot": "Among the painted pink flowers on the wall, a very small three-circle shape."
+    },
+    "bestTip": "Watch the flower wall from the moment you enter the room rather than looking ahead.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "In-person",
+    "coordinates": {
+      "latitude": 28.4201,
+      "longitude": -81.5807
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "honey-pot-queue-tree-pebbles-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "honey_pot_ride",
+    "display": {
+      "entryTitle": "Queue Tree Pebbles Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Honey Pot Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Queue",
+    "description": "Inside the play tree in front of the ride, three pebbles pushed into the cement that forms the tree make a classic three-circle Hidden Mickey. It is placed at kid height inside a kid space, so adults usually only find it when they duck in after their children.",
+    "whereToLook": {
+      "scene": "The hollow play tree in the queue in front of the ride",
+      "exactSpot": "Step inside, turn around, and look up a bit. Three pebbles pressed into the cement form the shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Duck in, turn to face the way you came, and look up.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "A favorite for kids. Adults will need to crouch."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4201,
+      "longitude": -81.5807
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "hotel-tower-lobby-balcony-mickeys",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Lobby Balcony Mickeys",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Hotel Drop Tower"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "A few classic three-circle Hidden Mickeys are worked into the balcony that overlooks the hotel lobby along the queue. The lobby is dim and dressed with cobwebs and props, so the balcony's details get lost.",
+    "whereToLook": {
+      "scene": "Hotel lobby along the queue, the balcony overlooking it",
+      "exactSpot": "In the details of the balcony. A few three-circle shapes are hidden along it."
+    },
+    "bestTip": "Look up at the balcony as you come into the lobby, before the line moves you toward the library.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.36,
+      "longitude": -81.5599
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "hotel-tower-lobby-coins-mickey",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Lobby Inbox Coins Mickey",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Hotel Drop Tower"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "A classic three-circle Hidden Mickey is usually laid out with three coins in a wooden inbox tray on a counter in the dusty hotel lobby, just before the queue splits off toward the pre-show rooms. Cast Members arrange the coins by hand, so the shape is sometimes upside down and occasionally missing, and the low light hides it from anyone who does not glance left at the right moment.",
+    "whereToLook": {
+      "scene": "Hotel lobby along the standby queue, just before you are directed into the pre-show rooms",
+      "exactSpot": "On your left, a wooden inbox tray of coins sits on a counter. Three coins, often at the lower left of the tray, form the classic shape."
+    },
+    "bestTip": "Slow down as the line approaches the pre-show doors and look left at the counter before a Cast Member waves you through.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Left",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "The coins are set by hand and may be upright, upside down, or scattered on any given day. Check the tray even if the shape is not obvious at first."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.36,
+      "longitude": -81.5599
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "hotel-tower-preshow-mickey-doll",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Pre-Show Mickey Doll",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Hotel Drop Tower"
+    },
+    "entryType": "FIND",
+    "locationType": "Pre-show",
+    "difficulty": "Easy",
+    "description": "In the pre-show film that plays on the old television in the hotel library, a little girl among the guests stepping into the elevator on Halloween night in 1939 is holding a Mickey Mouse doll styled the way Mickey looked in that era. The doll is easy to see in the film, and the same girl and her doll flash past as ghostly visions moments after your own elevator starts to move.",
+    "whereToLook": {
+      "scene": "Pre-show library room where the film plays on the television, then again briefly on the ride",
+      "exactSpot": "In the film, watch the family entering the hotel elevator. The little girl is holding a 1939-style Mickey Mouse doll."
+    },
+    "bestTip": "Spot the doll in the pre-show first so you know what to look for. On the ride, the same visions appear only for an instant just after you begin to move.",
+    "funFacts": [
+      "The guests in the film are the ones who vanished from the hotel on Halloween night in 1939, and the same figures, including the girl and her doll, appear as apparitions as your elevator drops."
+    ],
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium",
+      "notes": "The pre-show room is crowded and the screen is small, so stand where you have a clear view of the television. The ride reprise goes by very quickly."
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.36,
+      "longitude": -81.5599
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "ice-queen-boat-snowflakes-mickey",
+    "parkId": "showcase_park",
+    "landId": "norway_pavilion",
+    "attractionId": "ice_queen_boat_ride",
+    "display": {
+      "entryTitle": "Backward Slope Snowflakes Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Norway Pavilion",
+      "attractionName": "Ice Queen Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Right after the ice queen sends your boat backward down the slope, the wall projection on the riders' right shows animated snowflakes, and for a moment they form a classic three-circle Mickey. It is hard to see unless you are looking for it while moving fast in the wrong direction.",
+    "whereToLook": {
+      "scene": "Just after the boat is pushed backward down the slope, the wall projection on the right",
+      "exactSpot": "Animated snowflakes on the projected wall come together in the classic shape."
+    },
+    "bestTip": "Sit in the front of the boat for the best chance, and watch the right wall the instant you start rolling backward.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Right",
+      "distance": "Medium",
+      "notes": "The front row has the clearest sightline. Riders in the back are looking at other riders."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3708,
+      "longitude": -81.5462
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "imagination-dragon-bathroom-commode-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "imagination_dragon_ride",
+    "display": {
+      "entryTitle": "Bathroom Commode Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Nature Area",
+      "attractionName": "Imagination Dragon Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Inside the dragon's house near the end of the ride, the commode in his bathroom is shaped as a classic three-circle Hidden Mickey. The bathroom is a quick pass with plenty going on, and riders tend to look at the dragon rather than the fixtures.",
+    "whereToLook": {
+      "scene": "The dragon's house, the bathroom",
+      "exactSpot": "The commode. Its shape is the classic three circles."
+    },
+    "bestTip": "When the bathroom comes into view, look at the fixtures rather than the character.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3728,
+      "longitude": -81.5525
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "japan-gallery-fridge-container-mickey",
+    "parkId": "showcase_park",
+    "landId": "japan_pavilion",
+    "attractionId": "culture_gallery",
+    "display": {
+      "entryTitle": "Gallery Fridge Container Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Japan Pavilion",
+      "attractionName": "Culture Gallery"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "description": "A small red, black, and yellow container shaped like Mickey sits on the top back corner of the refrigerator in the kawaii cute-culture exhibit in the gallery at the rear of the pavilion. It is up high and toward the back, so guests studying the front of the fridge miss it.",
+    "whereToLook": {
+      "scene": "Kawaii cute-culture exhibit in the gallery at the rear of the pavilion, the decorated refrigerator",
+      "exactSpot": "Top of the refrigerator, at the back corner. Look for the red, black, and yellow Mickey-shaped container.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Step back from the fridge and look above it rather than at the door. The container sits at the rear edge of the top.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Low",
+      "distance": "Medium",
+      "notes": "Gallery exhibits rotate. If the cute-culture exhibit has been replaced, this find may no longer be present."
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3672,
+      "longitude": -81.5504
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "japan-gallery-fridge-magnets-mickey",
+    "parkId": "showcase_park",
+    "landId": "japan_pavilion",
+    "attractionId": "culture_gallery",
+    "display": {
+      "entryTitle": "Gallery Fridge Magnets Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Japan Pavilion",
+      "attractionName": "Culture Gallery"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "description": "A classic three-circle Hidden Mickey is made of magnets on the door of the refrigerator in the kawaii cute-culture exhibit in the gallery at the rear of the pavilion. The fridge is covered in magnets and small decorations, so the three that form the shape hide in plain sight among the rest.",
+    "whereToLook": {
+      "scene": "Kawaii cute-culture exhibit in the gallery at the rear of the pavilion, the decorated refrigerator",
+      "exactSpot": "Upper left of the refrigerator door. Three magnets form the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Start at the top left corner of the door and work inward. Ignore the character magnets and look for three plain circles touching.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close",
+      "notes": "Gallery exhibits rotate. If the cute-culture exhibit has been replaced, this find may no longer be present."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3672,
+      "longitude": -81.5504
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "jungle-boat-dock-rope-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "jungle_boat_ride",
+    "display": {
+      "entryTitle": "Dock Rope Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Jungle Outpost Area",
+      "attractionName": "Jungle Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Dock",
+    "description": "A classic three-circle Hidden Mickey is coiled out of rope on the long, thin outer dock that the boats pass as they approach the loading area. Cast Members arrange it by hand, so it is easy to miss if you are watching the boats instead of the dock, and it is not guaranteed to be there on every visit.",
+    "whereToLook": {
+      "scene": "Long, thin wooden outer dock across the water from the loading dock, where the boats pull in",
+      "exactSpot": "Right side of the outer dock as you face it from the loading area. Look for a rope coiled into three circles.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Scan the outer dock while you wait to board rather than after you sit down. Once the boat moves, the rope slips out of view quickly.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium",
+      "notes": "The rope is placed by hand and can be moved or recoiled, so this one comes and goes."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4179,
+      "longitude": -81.5835
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "jungle-palace-first-arch-leaves-mickey",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "jungle_palace_trail",
+    "display": {
+      "entryTitle": "First Arch Mural Leaves Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Asia Village Area",
+      "attractionName": "Jungle Palace Trail"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "Inside the first archway near the tiger viewing area, a mural on the left contains three leaves that form a classic three-circle Hidden Mickey. The trail has more than ten Hidden Mickeys, and this is one of the two easiest to pin down.",
+    "whereToLook": {
+      "scene": "First archway near the tiger exhibit, the mural on the left",
+      "exactSpot": "Three leaves in the mural form the classic shape."
+    },
+    "bestTip": "Stop under the arch and scan the leaves in the left mural before moving on to the tigers.",
+    "funFacts": [
+      "The trail is said to hold more than ten Hidden Mickeys. The leaves inside the first arch and the cloud past the second arch are the two easiest to find."
+    ],
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3598,
+      "longitude": -81.5892
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "jungle-palace-second-arch-cloud-mickey",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "jungle_palace_trail",
+    "display": {
+      "entryTitle": "Second Arch Mural Cloud Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Asia Village Area",
+      "attractionName": "Jungle Palace Trail"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "In the mural past the second archway, a classic three-circle Hidden Mickey is painted into a cloud. Clouds are an easy place to hide the shape, and this one blends in until you look for it.",
+    "whereToLook": {
+      "scene": "Mural past the second archway on the trail",
+      "exactSpot": "In the clouds of the mural. One cloud is the classic shape."
+    },
+    "bestTip": "Look at the sky portion of the mural and compare the clouds with each other.",
+    "funFacts": [
+      "The trail is said to hold more than ten Hidden Mickeys. The leaves inside the first arch and the cloud past the second arch are the two easiest to find."
+    ],
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3598,
+      "longitude": -81.5892
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "liberty-tree-tavern-farmhouse-painting-clouds-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "colonial_square_area",
+    "attractionId": "liberty_tree_tavern",
+    "display": {
+      "entryTitle": "Farmhouse Painting Clouds Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Colonial Square Area",
+      "attractionName": "Liberty Tree Tavern"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "description": "In one of the upstairs dining rooms of the colonial tavern, a landscape painting of a farmhouse hangs on the wall. The clouds above the farmhouse form a classic three-circle Hidden Mickey. It reads as ordinary sky unless you compare the cloud shapes.",
+    "whereToLook": {
+      "scene": "Upstairs dining rooms of the tavern, the landscape painting with a farmhouse",
+      "exactSpot": "The clouds above the farmhouse form the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "If you are seated downstairs, ask a Cast Member whether you can step upstairs to see the painting.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Table service. The upstairs rooms are not always open."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4189,
+      "longitude": -81.5826
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "little-chef-entrance-signs-mickeys",
+    "parkId": "showcase_park",
+    "landId": "france_pavilion",
+    "attractionId": "little_chef_ride",
+    "display": {
+      "entryTitle": "Entrance Sign Frames Mickeys",
+      "parkName": "Showcase Park",
+      "landName": "France Pavilion",
+      "attractionName": "Little Chef Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "Tilted classic three-circle Hidden Mickeys are worked into the decorative metal framework around the clock and the two queue signs at the ride entrance. There is one on each side of each sign and on both sides of the clock, so there are several to find. They read as ironwork scrolls, which is why guests checking the wait time miss them.",
+    "whereToLook": {
+      "scene": "Ride entrance, where the clock hangs alongside the two queue signs",
+      "exactSpot": "Metal framework on both sides of each sign and on both sides of the clock. Each holds a tilted three-circle shape."
+    },
+    "bestTip": "Start with the clock. Once you spot the tilted shape in its frame, the same shape is easy to find on the signs beside it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium",
+      "notes": "The signs hang above head height. Step to the side of the entrance so the queue is not moving through your view."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3679,
+      "longitude": -81.5529
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "magic-shop-ceiling-card-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "magic_shop",
+    "display": {
+      "entryTitle": "Ceiling Ace Card Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Main Street Area",
+      "attractionName": "Magic Shop"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "Playing cards are stuck all over the ceiling of the magic shop. In the middle of the group is an ace of clubs, and instead of a club, the center of the card shows a classic three-circle Mickey. Most shoppers are looking at the tricks on the counter, not the ceiling.",
+    "whereToLook": {
+      "scene": "Inside the magic shop, the playing cards stuck to the ceiling",
+      "exactSpot": "Middle of the group of cards. The ace of clubs has a Mickey in place of the club at its center.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Step to the middle of the shop and look straight up. Find the ace before you hunt for the shape.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 33.8106,
+      "longitude": -117.9188
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "main-street-vehicles-key-chain-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "main_street_vehicles",
+    "display": {
+      "entryTitle": "Ignition Key Chain Mickeys",
+      "parkName": "Kingdom Park",
+      "landName": "Main Street Area",
+      "attractionName": "Main Street Vehicles"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "description": "On the fire engine and the horseless carriages that run up and down the street, the key chain hanging from the ignition key in front of the driver often holds a smiling Mickey or Minnie. The vehicles keep moving and the chain is small, so you have to catch one while it is stopped.",
+    "whereToLook": {
+      "scene": "Fire engine or a horseless carriage on the street, in front of the driver",
+      "exactSpot": "Key chain hanging from the ignition key. Look for a Mickey or Minnie charm."
+    },
+    "bestTip": "Wait at a stop where the vehicles load and look at the dashboard before they pull away.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "The charm varies by vehicle and by day, so check more than one."
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 33.8113,
+      "longitude": -117.919
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "memento-mori-wallpaper-beetle-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "colonial_square_area",
+    "attractionId": "memento_mori_shop",
+    "display": {
+      "entryTitle": "Wallpaper Beetle Branch Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Colonial Square Area",
+      "attractionName": "Memento Mori Shop"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Shop",
+    "description": "A classic three-circle Hidden Mickey is worked into the wallpaper of the shop beside the manor, so small that you need a magnifying glass to see it. The shop keeps one on hand for anyone who asks. The pattern is dense with vines and insects, so the shape vanishes unless you know which branch to follow.",
+    "whereToLook": {
+      "scene": "Patterned wallpaper inside the shop",
+      "exactSpot": "Find the beetle in the pattern, then trace up the branch to its left. The tiny shape is along that branch."
+    },
+    "bestTip": "Ask a Cast Member for the magnifying glass before you start. Without it, the shape is too small to confirm.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Get close to the wall. The pattern repeats, so any beetle should lead you to a copy."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4199,
+      "longitude": -81.5831
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "mexico-pyramid-boat-finale-barge-drums-mickey",
+    "parkId": "showcase_park",
+    "landId": "mexico_pavilion",
+    "attractionId": "pyramid_boat_ride",
+    "display": {
+      "entryTitle": "Finale Barge Drums Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Mexico Pavilion",
+      "attractionName": "Pyramid Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "At the end of the boat ride, a barge floats on your left, and the bongo drums on it carry a classic three-circle Hidden Mickey. The finale is bright and noisy, and the boat is already turning toward the dock.",
+    "whereToLook": {
+      "scene": "End of the boat ride, the barge on your left",
+      "exactSpot": "The bongo drums on the barge. The shape is on the drums."
+    },
+    "bestTip": "As the last scene opens, look left at the barge and go straight to the drums.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Left",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3708,
+      "longitude": -81.5468
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "mexico-pyramid-boat-finale-window-mickey",
+    "parkId": "showcase_park",
+    "landId": "mexico_pavilion",
+    "attractionId": "pyramid_boat_ride",
+    "display": {
+      "entryTitle": "Finale Building Window Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Mexico Pavilion",
+      "attractionName": "Pyramid Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "A little Mickey hides in one of the windows of the buildings in the final scene of the boat ride. The finale is busy with the fiesta barge on the left, and the buildings slide past on the way to the dock, so the window goes unnoticed.",
+    "whereToLook": {
+      "scene": "Final scene of the boat ride, the buildings along the shore as you approach the dock",
+      "exactSpot": "One of the windows on those buildings holds a small Mickey."
+    },
+    "bestTip": "After you check the drums on the barge, switch to the buildings and go window by window.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3708,
+      "longitude": -81.5468
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "midway-shooter-circus-sign-exclamation-mickey",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "midway_shooter",
+    "display": {
+      "entryTitle": "Circus Sign Exclamation Mickey",
+      "parkName": "Studios Park",
+      "landName": "Toy Blocks Area",
+      "attractionName": "Midway Shooter"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Queue",
+    "description": "The dot under the exclamation mark on the pink Circus Fun! sign is a classic three-circle Hidden Mickey. It is right where the punctuation belongs, so the eye reads it as a period and moves on.",
+    "whereToLook": {
+      "scene": "Pink sign reading Circus Fun! in the queue",
+      "exactSpot": "The dot of the exclamation mark is the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Read the sign, then look again at the punctuation.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3553,
+      "longitude": -81.5613
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "mine-train-loading-log-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "storybook_forest_area",
+    "attractionId": "mine_train_coaster",
+    "display": {
+      "entryTitle": "Loading Dock Log Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Forest Area",
+      "attractionName": "Mine Train Coaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "An upright classic three-circle Hidden Mickey is traced into the wood of a horizontal log near the ceiling of the loading station. It sits across the track from the front rows, so only guests waiting near the front of the train are lined up with it, and most of them are watching the coaster instead of the rafters.",
+    "whereToLook": {
+      "scene": "Loading station, across the track from the boarding rows at the front of the train",
+      "exactSpot": "Horizontal log near the ceiling. The shape is traced into the wood in the middle of the log, toward the front end of the station.",
+      "orientation": "Upright"
+    },
+    "bestTip": "If you are assigned one of the front few rows, look up and across the track while the train ahead of you is loading.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium",
+      "notes": "Rows toward the back of the station are not lined up with the log, so this one depends on where you are placed."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4206,
+      "longitude": -81.5801
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "mouse-house-player-piano-roll-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "mouse_house",
+    "display": {
+      "entryTitle": "Player Piano Roll Mickeys",
+      "parkName": "Kingdom Park",
+      "landName": "Cartoon Town Area",
+      "attractionName": "Mouse House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "description": "Most of the holes punched in the paper roll of the player piano inside the house are classic three-circle Mickeys. Two holes are different: one is shaped like Goofy and another like Donald Duck. You can only see them by looking in toward the middle of the roll from the sides of the glass, which is why most visitors only ever notice the Mickeys.",
+    "whereToLook": {
+      "scene": "Player piano inside the house, viewed through the glass",
+      "exactSpot": "Holes in the paper roll. From the left side of the glass, look in toward the center green post for the Goofy hole. From the right side, look toward the post for the Donald hole."
+    },
+    "bestTip": "Look through the side glass at an angle toward the middle, not straight on. Left side for Goofy, right side for Donald.",
+    "funFacts": [
+      "The roll keeps moving, so the Goofy and Donald holes come into view only at times. Give it a minute."
+    ],
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Angled",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 33.8155,
+      "longitude": -117.9194
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "pirate-boat-queue-gun-cabinet-locks-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "pirate_port_area",
+    "attractionId": "pirate_boat_ride",
+    "display": {
+      "entryTitle": "Queue Gun Cabinet Locks Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Pirate Port Area",
+      "attractionName": "Pirate Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "Four large gun cabinets hang on the walls of the standby queue as you enter the fort, two on each side. The locks on the cabinets form a classic three-circle Hidden Mickey. The cabinets are dim and the queue keeps moving, so most guests pass them without a second look.",
+    "whereToLook": {
+      "scene": "Standby entrance queue inside the fort, the four large gun cabinets hanging on both side walls",
+      "exactSpot": "The locks on the cabinet doors. They form the classic shape."
+    },
+    "bestTip": "Slow down at the first cabinet you reach and study the lock rather than the guns behind the glass.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4181,
+      "longitude": -81.5843
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
     "id": "pirates-exit-bells-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "pirate_port_area",
@@ -204,13 +2799,13 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Exit",
-    "description": "A classic three-circle Hidden Mickey is formed by three small round bells mounted near the ceiling in a small artifact display room just outside the ride exit. Because the display is above eye level, most guests walk through without ever looking up.",
+    "description": "A classic three-circle Hidden Mickey is formed by three small round bells mounted near the ceiling in a small artifact display room just outside the gift shop exit. Because the display is above eye level, most guests walk through without ever looking up.",
     "whereToLook": {
-      "scene": "Small display room just outside the ride exit, filled with artifacts, urns, and candles",
-      "exactSpot": "Near the ceiling: three small round bells arranged in the classic shape. Enter the room and turn around to look upward.",
+      "scene": "Small display room just outside the exit from the gift shop, filled with artifacts, urns, and candles in cabinets and along the floor",
+      "exactSpot": "Near the ceiling: three small round bells arranged in the classic shape. Step just inside the room and turn around to look upward.",
       "orientation": "Upright"
     },
-    "bestTip": "After exiting the ride and entering the display room, stop briefly and turn around before continuing toward the gift shop exit.",
+    "bestTip": "After you leave the gift shop and step into the display room, stop just inside the doorway and turn around before continuing on.",
     "viewing": {
       "motion": "Still",
       "lighting": "Dim",
@@ -226,7 +2821,198 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5843
     },
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-16T00:00:00.000Z"
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "polynesian-coffee-bar-post-nails-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "kona_island_coffee_bar",
+    "display": {
+      "entryTitle": "Support Post Nails Mickey",
+      "parkName": "Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Kona Island Coffee Bar"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "description": "Three nails hammered into a wooden support pillar outside the window behind the coffee and sushi bar come together as a classic three-circle Hidden Mickey. The proportions are a little off, but the placement looks deliberate. Because it is outside a window behind the counter, almost nobody thinks to look for it.",
+    "whereToLook": {
+      "scene": "Outside the window behind the coffee and sushi bar in the main building, the row of wooden support pillars",
+      "exactSpot": "Second wood support pillar from the monorail entrance doors. Three nails on its right side form the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Count pillars from the monorail entrance doors and check the right side of the second one at about eye level.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Not perfectly proportioned, so trust the three-nail cluster rather than a clean silhouette."
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4053,
+      "longitude": -81.5855
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "polynesian-kona-cafe-flower-petal-mickeys",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "kona_cafe",
+    "display": {
+      "entryTitle": "Wall Flowers Petal Mickeys",
+      "parkName": "Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Kona Cafe"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "description": "Two clusters of large decorative flowers decorate the rear and side walls inside the cafe. On the purple flower at the center of each cluster, a tiny classic three-circle Mickey sits on the upper part of the right-hand petal. The shape is small and not quite perfect, which is why diners look straight past it.",
+    "whereToLook": {
+      "scene": "Inside the cafe, the two clusters of large decorative flowers on the rear and side walls",
+      "exactSpot": "The purple flower in the middle of each cluster. Look at the upper part of its right-side petal for a tiny three-circle shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Find the purple flower first, then focus only on its right petal. There is one on each cluster, so check both walls.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "The cafe is table service. If you are not dining, ask a Cast Member whether you can take a quick look at the walls."
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4056,
+      "longitude": -81.5854
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "polynesian-kona-cafe-orange-mural-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "kona_cafe",
+    "display": {
+      "entryTitle": "Orange Mural Mickey",
+      "parkName": "Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Kona Cafe"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "description": "Three incomplete circles form a subtle classic Hidden Mickey in the middle of the orange mural on the wall above the sushi bar inside the cafe. The partial head and the left ear are the easiest parts to see, while the right ear is only partly outlined by a light orange line.",
+    "whereToLook": {
+      "scene": "Orange mural on the wall above the sushi bar inside the cafe",
+      "exactSpot": "Middle of the mural. A partial head and the ear on your left are the clearest. The right ear is traced by a faint light orange line.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Look for the left ear and the head first, then let your eye complete the right ear from the faint outline.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Subtle by design. Stepping back a few feet helps the circles resolve."
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4056,
+      "longitude": -81.5854
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "port-orleans-pool-bar-barrel-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "port_orleans_riverside_resort",
+    "attractionId": "island_pool_bar",
+    "display": {
+      "entryTitle": "Pool Bar Barrel Mickey",
+      "parkName": "Resorts",
+      "landName": "Port Orleans Riverside Resort",
+      "attractionName": "Island Pool Bar"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "description": "A classic three-circle Hidden Mickey is stuck to the side of a light brown wooden barrel on an upper shelf behind the counter of the pool bar on the resort's island pool area. It sits at the left end of the shelf, above the bartenders' heads, where guests ordering a drink rarely look.",
+    "whereToLook": {
+      "scene": "Pool bar on the island at the center of the resort's main pool area",
+      "exactSpot": "Upper shelf behind the counter, left side. On the side of the light brown wooden barrel.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Step to the left end of the bar and look up at the shelf while you wait for your order.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "The bar keeps pool hours and the shelf can be rearranged, so check the barrel even if it has moved."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4137,
+      "longitude": -81.535
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "river-rapids-dock-wheels-mickey",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "river_rapids_raft_ride",
+    "display": {
+      "entryTitle": "Loading Dock Wheels Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Asia Village Area",
+      "attractionName": "River Rapids Raft Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Dock",
+    "description": "A classic three-circle Hidden Mickey is built from three spoked wheels standing against a crate on the shore across the waterway from the raft loading dock. One large wheel is topped by two smaller ones. The rock wall and props on that shore are busy with detail, and most riders are watching the rafts come in.",
+    "whereToLook": {
+      "scene": "Loading dock for the rafts, looking across the waterway to the right side of the far shore and rock wall",
+      "exactSpot": "Three spoked wheels leaning against a crate: one large wheel with two smaller wheels on top, forming the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Look across the water while you wait for your raft rather than after you sit down. Once the raft moves, the crate slides out of view.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Far",
+      "notes": "The wheels are across the water, so they look small from the dock. Zooming with your phone helps."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3594,
+      "longitude": -81.5882
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
     "id": "riviera-mural-teddy-bear-mickey",
@@ -242,10 +3028,10 @@ export const entries: HiddenMickeyEntry[] = [
     "entryType": "FIND",
     "locationType": "Outdoor",
     "difficulty": "Medium",
-    "description": "As you walk from the gondola station toward the resort, you pass under a series of colorful arch murals. In the first mural, a small teddy bear silhouette is shaped in a way that reads like the classic three-circle Mickey when you catch it at the right angle.",
+    "description": "As you walk from the gondola station toward the resort, you pass under a series of colorful arch murals. The first shows the flying children from the Peter Pan story above Big Ben, and the head and ears of the youngest boy's teddy bear form a classic three-circle Mickey when you catch it at the right angle.",
     "whereToLook": {
       "scene": "First arch mural along the walkway from the gondola station toward the resort entrance",
-      "exactSpot": "In the sky portion of the mural, locate the small teddy bear. The bear's head-and-ears silhouette forms the classic three-circle shape.",
+      "exactSpot": "In the sky portion of the mural, find the children flying above Big Ben. The youngest boy, Michael, is holding a teddy bear whose head and ears form the classic three-circle shape.",
       "orientation": "Upright"
     },
     "bestTip": "Slow down before you walk directly under the first arch so you can scan the mural without neck-craning mid-stride.",
@@ -264,7 +3050,395 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5459
     },
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-16T00:00:00.000Z"
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "rotating-theater-christmas-nutcracker-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "rotating_theater_show",
+    "display": {
+      "entryTitle": "Christmas Scene Nutcracker Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Future City Area",
+      "attractionName": "Rotating Theater Show"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "description": "In the final Christmas scene, a row of nutcrackers lines the top of the fireplace on the left side of the set. The one farthest to the left is a Mickey nutcracker. It is in plain view, but the family's chatter and the gadgets keep eyes elsewhere.",
+    "whereToLook": {
+      "scene": "Final scene, the fireplace on the left side of the set",
+      "exactSpot": "Row of nutcrackers on top of the fireplace. The one farthest to the left is Mickey."
+    },
+    "bestTip": "As the theater rotates into the last scene, look left at the fireplace before the dialogue starts.",
+    "funFacts": [
+      "The pepper grinder on the kitchen counter in the same scene is also a Mickey, so check both while you are looking."
+    ],
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Left",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4188,
+      "longitude": -81.58
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "rotating-theater-christmas-pepper-grinder-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "rotating_theater_show",
+    "display": {
+      "entryTitle": "Christmas Scene Pepper Grinder Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Future City Area",
+      "attractionName": "Rotating Theater Show"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "description": "A Mickey-shaped pepper grinder stands on the kitchen counter in the final Christmas scene. It is smaller than the nutcrackers on the mantel and sits among ordinary kitchen props, so it takes a deliberate look at the counter to spot.",
+    "whereToLook": {
+      "scene": "Final scene, the kitchen counter",
+      "exactSpot": "The pepper grinder on the counter is shaped like Mickey."
+    },
+    "bestTip": "After you find the nutcracker on the mantel, shift to the kitchen counter and scan the small props.",
+    "funFacts": [
+      "The nutcracker farthest left on the fireplace in this scene is also a Mickey."
+    ],
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4188,
+      "longitude": -81.58
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "savanna-safari-flamingo-island-mickey",
+    "parkId": "adventure_park",
+    "landId": "savanna_village_area",
+    "attractionId": "savanna_safari_trucks",
+    "display": {
+      "entryTitle": "Flamingo Pond Island Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Savanna Village Area",
+      "attractionName": "Savanna Safari Trucks"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Easy",
+    "areaContext": "Ride",
+    "description": "The island in the center of the flamingo pond is shaped like a classic three-circle Hidden Mickey. The pond is on your left after the truck enters the elephant area, and with flamingos and elephants competing for attention, most riders never notice the island's outline.",
+    "whereToLook": {
+      "scene": "Flamingo pond on your left after entering the elephant area",
+      "exactSpot": "The center island of the pond is the classic shape."
+    },
+    "bestTip": "Look at the island's outline rather than the birds. The shape is clearest as the truck first pulls alongside the pond.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Left",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.36,
+      "longitude": -81.5925
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "savanna-safari-queue-drain-cover-mickey",
+    "parkId": "adventure_park",
+    "landId": "savanna_village_area",
+    "attractionId": "savanna_safari_trucks",
+    "display": {
+      "entryTitle": "Queue Drain Cover Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Savanna Village Area",
+      "attractionName": "Savanna Safari Trucks"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "On the path of the express-entry line, a round drain cover has two stones set into the pavement beside it as ears, turning it into a classic three-circle Hidden Mickey. It is underfoot, so guests watching the trucks load walk right over it.",
+    "whereToLook": {
+      "scene": "Express-entry line for the safari, the paved path",
+      "exactSpot": "A round drain cover in the path with two stones inset next to it as ears.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Look down as you move through the express line rather than ahead at the loading area.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "This is in the express-entry line, so you will only pass it with that entry."
+    },
+    "confidence": "Strong",
+    "verification": "In-person",
+    "coordinates": {
+      "latitude": 28.36,
+      "longitude": -81.5925
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "singing-dolls-africa-purple-leaves-mickeys",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "singing_dolls_boat_ride",
+    "display": {
+      "entryTitle": "Africa Scene Purple Leaves Mickeys",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Singing Dolls Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Easy",
+    "areaContext": "Ride",
+    "description": "In the Africa section of the boat ride, purple leaves hang from the ceiling near the giraffe, and several of them are cut as classic three-circle Hidden Mickeys. They are overhead, and with singing dolls at eye level on every side, few riders ever look up.",
+    "whereToLook": {
+      "scene": "Africa section of the ride, the giraffe and the purple leaves hanging from the ceiling near it",
+      "exactSpot": "The purple leaves overhead by the giraffe. Several are shaped as the classic three circles."
+    },
+    "bestTip": "When you spot the giraffe, look up rather than at the dolls.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4204,
+      "longitude": -81.5827
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "singing-dolls-finale-carousel-plush-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "singing_dolls_boat_ride",
+    "display": {
+      "entryTitle": "Finale Carousel Doll Plush Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Singing Dolls Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the last section before the ride ends, a carousel on the right side holds a doll with a little black Mickey plush in her hand. The finale is packed with dolls, and the plush is small and dark, so it is easy to miss.",
+    "whereToLook": {
+      "scene": "Last section before the ride ends, the carousel on the right side",
+      "exactSpot": "One of the dolls on the carousel is holding a small black Mickey plush."
+    },
+    "bestTip": "When the finale starts, watch the right side for the carousel and check the dolls' hands.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Right",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "In-person",
+    "coordinates": {
+      "latitude": 28.4204,
+      "longitude": -81.5827
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "space-mission-mars-landing-dishes-mickey",
+    "parkId": "showcase_park",
+    "landId": "discovery_area",
+    "attractionId": "space_mission_simulator",
+    "display": {
+      "entryTitle": "Mars Landing Satellite Dishes Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Discovery Area",
+      "attractionName": "Space Mission Simulator"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "As your capsule lands on Mars, a classic three-circle Mickey made of satellite dishes sits on a rooftop of the base below. It is on screen briefly during the landing approach, when riders are bracing for touchdown.",
+    "whereToLook": {
+      "scene": "The landing on Mars near the end of the mission",
+      "exactSpot": "A rooftop of the base with three satellite dishes arranged in the classic shape."
+    },
+    "bestTip": "Choose the mission that lands on Mars and watch the rooftops during the approach.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "distance": "Far",
+      "notes": "Only the more intense mission lands on Mars. The gentler mission orbits Earth and does not show this."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3739,
+      "longitude": -81.5467
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "space-mission-shop-mural-ground-mickey",
+    "parkId": "showcase_park",
+    "landId": "discovery_area",
+    "attractionId": "space_mission_simulator",
+    "display": {
+      "entryTitle": "Shop Mural Ground Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Discovery Area",
+      "attractionName": "Space Mission Simulator"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Shop",
+    "description": "A classic three-circle Hidden Mickey is worked into the painted ground directly under Minnie Mouse's left foot in the large mural behind the gift shop's cash register. The mural is busy with characters, spacecraft, and planets, and the shape sits low and small, so most guests never pick it out of the painted terrain.",
+    "whereToLook": {
+      "scene": "Large space mural on the wall behind the cash register in the gift shop at the ride exit",
+      "exactSpot": "Find Minnie Mouse in the mural and look at the ground directly under her left foot.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Locate Minnie first, then drop your eyes straight down. This is the hardest of the three in this mural, so start here while the counter is quiet.",
+    "funFacts": [
+      "This mural hides three separate Hidden Mickeys. The other two are the thrusters behind the blue shuttle and the lower part of the moon."
+    ],
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "The mural is behind the register counter, so you will be looking from the customer side. Wait for a gap between transactions for a clear view."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3742,
+      "longitude": -81.5471
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "space-mission-shop-mural-moon-mickey",
+    "parkId": "showcase_park",
+    "landId": "discovery_area",
+    "attractionId": "space_mission_simulator",
+    "display": {
+      "entryTitle": "Shop Mural Moon Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Discovery Area",
+      "attractionName": "Space Mission Simulator"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "An upside-down classic three-circle Hidden Mickey is painted into the lower part of the moon in the large mural behind the gift shop's cash register. It blends into the moon's craters and shading, and the inverted orientation makes it easy to dismiss as more surface texture.",
+    "whereToLook": {
+      "scene": "Large space mural on the wall behind the cash register in the gift shop at the ride exit",
+      "exactSpot": "Lower part of the moon. Look for three circles among the craters that form the classic shape, upside down.",
+      "orientation": "Upside-down"
+    },
+    "bestTip": "Scan the bottom half of the moon for a crater with two smaller craters hanging beneath it rather than above it.",
+    "funFacts": [
+      "This mural hides three separate Hidden Mickeys. The other two are in the ground under Minnie Mouse's left foot and the thrusters behind the blue shuttle."
+    ],
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "The mural is behind the register counter, so you will be looking from the customer side. Wait for a gap between transactions for a clear view."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3742,
+      "longitude": -81.5471
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "space-mission-shop-mural-thrusters-mickey",
+    "parkId": "showcase_park",
+    "landId": "discovery_area",
+    "attractionId": "space_mission_simulator",
+    "display": {
+      "entryTitle": "Shop Mural Thrusters Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Discovery Area",
+      "attractionName": "Space Mission Simulator"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "An upside-down classic three-circle Hidden Mickey is formed by three round thrusters on the back of the blue shuttle in the large mural behind the gift shop's cash register. The thrusters read as ordinary engine detail, and because the shape is inverted, guests scanning for an upright Mickey pass right over it.",
+    "whereToLook": {
+      "scene": "Large space mural on the wall behind the cash register in the gift shop at the ride exit",
+      "exactSpot": "Find the blue shuttle. The three round thrusters behind it form the classic shape, upside down.",
+      "orientation": "Upside-down"
+    },
+    "bestTip": "Picture the shuttle flipped over. The two smaller thrusters are the ears, hanging below the larger one.",
+    "funFacts": [
+      "This mural hides three separate Hidden Mickeys. The other two are in the ground under Minnie Mouse's left foot and on the lower part of the moon."
+    ],
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "The mural is behind the register counter, so you will be looking from the customer side. Wait for a gap between transactions for a clear view."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3742,
+      "longitude": -81.5471
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
     "id": "space-panel-star-mickey",
@@ -304,6 +3478,120 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "star-flight-queue-window-droid-mickey",
+    "parkId": "studios_park",
+    "landId": "echo_lake_area",
+    "attractionId": "star_flight_simulator",
+    "display": {
+      "entryTitle": "Queue Window Droid Mickey",
+      "parkName": "Studios Park",
+      "landName": "Echo Lake Area",
+      "attractionName": "Star Flight Simulator"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the second room of the queue, droids pass by a window as people walk through. One of the droids has a pair of mouse ears. They come and go with the animation, so you can miss it if you only glance once.",
+    "whereToLook": {
+      "scene": "Second room you enter while waiting, the window that the droids pass by",
+      "exactSpot": "Watch the droids moving past the window. One of them wears mouse ears."
+    },
+    "bestTip": "Stay near the window for a full cycle of the droids rather than moving on with the line.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3578,
+      "longitude": -81.5612
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "studios-plaza-layout-mickey-face",
+    "parkId": "studios_park",
+    "landId": "boulevard_area",
+    "attractionId": "central_plaza",
+    "display": {
+      "entryTitle": "Park Layout Mickey Face",
+      "parkName": "Studios Park",
+      "landName": "Boulevard Area",
+      "attractionName": "Central Plaza"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "The center of the park was laid out as a giant Mickey face, visible from above. The plaza in front of the theater at the end of the boulevard is the face, the lake to the north is one ear, and the other ear was painted on a roof behind the boulevard restaurant. Changes over the years have chipped away at it, but the eyes are still set in the pavement and the nose is now the stage in front of the theater.",
+    "whereToLook": {
+      "scene": "The plaza in front of the theater at the end of the boulevard, seen on a map or from above",
+      "exactSpot": "The eyes are set into the pavement of the plaza. The stage in front of the theater sits where the nose was, and the lake to the north forms one ear."
+    },
+    "bestTip": "Pull up the park map or a satellite view and trace the circle of the plaza before you look for the eyes on the ground.",
+    "funFacts": [
+      "The second ear was once painted on the roof of the building behind the boulevard restaurant. It has since been removed, and later construction has softened the outline further."
+    ],
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3563,
+      "longitude": -81.56
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "tortuga-tavern-window-candles-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "pirate_port_area",
+    "attractionId": "tortuga_tavern",
+    "display": {
+      "entryTitle": "Window Candles Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Pirate Port Area",
+      "attractionName": "Tortuga Tavern"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "description": "Three candles inside the tavern line up to form a classic three-circle Hidden Mickey when viewed through the window from outside. The tavern is often closed, so for much of the year the window is the only way to see it.",
+    "whereToLook": {
+      "scene": "Window of the tavern in the pirate plaza, viewed from outside",
+      "exactSpot": "Three candles just inside the window, lined up in the classic shape."
+    },
+    "bestTip": "Stand square to the window. The candles only line up from straight on.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Glare on the glass can hide the candles at midday. Cup your hands around your eyes."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.418,
+      "longitude": -81.584
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
     "id": "totem-window-spider-mickey",
@@ -380,6 +3668,229 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "tree-theater-show-bubbles-mickey",
+    "parkId": "adventure_park",
+    "landId": "great_tree_area",
+    "attractionId": "tree_theater_show",
+    "display": {
+      "entryTitle": "Show Bubbles Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Great Tree Area",
+      "attractionName": "Tree Theater Show"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "description": "Near the end of the animated show inside the great tree, right after the animals swing on their swings, bubbles drift across the stage. For about a second, three large bubbles in the middle of the stage converge into a classic three-circle Mickey, tilted to the left. It breaks apart almost as soon as it forms, so most of the audience never registers it.",
+    "whereToLook": {
+      "scene": "Theater inside the great tree, toward the end of the show, just after the swinging animals",
+      "exactSpot": "Middle of the stage. Three large bubbles meet for about a second in the classic shape, tilted to the left."
+    },
+    "bestTip": "When the swings appear, shift your eyes to the center of the stage and wait for the bubbles rather than following the characters.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Far",
+      "notes": "The shape holds for about a second. Seats near the center give the cleanest view of the middle of the stage."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3579,
+      "longitude": -81.5906
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "tune-in-lounge-table-top-mickeys",
+    "parkId": "studios_park",
+    "landId": "echo_lake_area",
+    "attractionId": "tune_in_lounge",
+    "display": {
+      "entryTitle": "Table Top Mickeys",
+      "parkName": "Studios Park",
+      "landName": "Echo Lake Area",
+      "attractionName": "Tune-In Lounge"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "description": "Several classic three-circle Hidden Mickeys are built into the table tops of the 1950s-style lounge. They are part of the retro pattern, so they read as period decoration unless you look closely.",
+    "whereToLook": {
+      "scene": "Inside the lounge, the table tops",
+      "exactSpot": "In the pattern on the table tops. Several tables carry the shape."
+    },
+    "bestTip": "Check your own table first, then glance at the neighbors on your way out.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3573,
+      "longitude": -81.5606
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "undersea-clamshell-dock-mural-rock-mickey",
+    "parkId": "california_pier_park",
+    "landId": "boardwalk_gardens_area",
+    "attractionId": "undersea_clamshell_ride",
+    "display": {
+      "entryTitle": "Loading Mural Rock Mickey",
+      "parkName": "Pier Park",
+      "landName": "Boardwalk Gardens Area",
+      "attractionName": "Undersea Clamshell Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "A small classic three-circle Hidden Mickey is pressed into a large rock at the lower left corner of the mural behind the loading dock, just above the green tile. You can see it from the entrance queue and again on your right as your clamshell passes it, but it sits low where nobody looks.",
+    "whereToLook": {
+      "scene": "Mural behind the loading dock, seen from the entrance queue and again from the vehicle",
+      "exactSpot": "Lower left corner of the mural, in the large rock just above the green tile.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Spot it from the queue first so you know where it is, then glance right as your clamshell passes.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 33.8063,
+      "longitude": -117.9215
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "undersea-clamshell-queue-birthday-shadow-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "storybook_forest_area",
+    "attractionId": "undersea_clamshell_ride",
+    "display": {
+      "entryTitle": "Birthday Shadow Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Forest Area",
+      "attractionName": "Undersea Clamshell Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "Once a year, around noon on Mickey's birthday, November 18, the sun lines up with the rockwork of the outdoor queue and casts a classic three-circle shadow. The rest of the year there is nothing to see, which makes this one of the rarest finds in any park.",
+    "whereToLook": {
+      "scene": "Outdoor rockwork of the standby queue",
+      "exactSpot": "The shadow the rockwork throws around midday on November 18. Sunlight through the rocks forms the three circles."
+    },
+    "bestTip": "Be in the queue between about 11:30 and 12:30 on November 18 and watch the shadows rather than the rocks.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "Cloud cover on the day will hide it. Ask a Cast Member which stretch of rockwork casts the shadow."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4219,
+      "longitude": -81.5793
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "undersea-clamshell-queue-rockwork-steamboat-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "storybook_forest_area",
+    "attractionId": "undersea_clamshell_ride",
+    "display": {
+      "entryTitle": "Rockwork Steamboat Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Forest Area",
+      "attractionName": "Undersea Clamshell Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "A Mickey in his 1928 steamboat-era look is worked into the rockwork of the outdoor queue. It is a full figure rather than three circles, small and the same color as the rock, and almost nobody stumbles onto it by accident.",
+    "whereToLook": {
+      "scene": "Outdoor rockwork of the standby queue",
+      "exactSpot": "Carved into the rock faces along the queue. Look for the silhouette of the early cartoon Mickey rather than a three-circle shape."
+    },
+    "bestTip": "Scan the rock at and just above eye level as you move, and look for a figure rather than circles.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "The exact section of the queue is not pinned down. If you find it, note where and send it in."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4219,
+      "longitude": -81.5793
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "undersea-clamshell-song-scene-coral-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "storybook_forest_area",
+    "attractionId": "undersea_clamshell_ride",
+    "display": {
+      "entryTitle": "Song Scene Purple Coral Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Forest Area",
+      "attractionName": "Undersea Clamshell Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "During the big under-the-sea song scene, several pieces of purple coral are arranged as a classic three-circle Hidden Mickey, with two on the floor and one on the wall. The scene is bright, busy, and spinning with dancing sea creatures, which is exactly why the coral goes unnoticed.",
+    "whereToLook": {
+      "scene": "The scene where the crab sings the under-the-sea song",
+      "exactSpot": "Purple corals: two on the floor and one on the wall, together forming the classic shape."
+    },
+    "bestTip": "Look low along the floor at the purple coral as the song starts and let the wall piece complete the shape.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4219,
+      "longitude": -81.5793
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
     "id": "usa-map-queue-wall-mickey",
@@ -459,5 +3970,235 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "water-journey-rock-wall-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "water_journey_trail",
+    "display": {
+      "entryTitle": "Rock Wall Depressions Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Nature Area",
+      "attractionName": "Water Journey Trail"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "A classic three-circle Hidden Mickey is formed by three round depressions in a rock wall in the ocean section of the walk-through water trail. The wall stands behind a fence in front of the interactive wall of water that shoots into the air when you move, so most guests are busy with the water and never study the rock.",
+    "whereToLook": {
+      "scene": "Ocean exhibit area, the rock wall behind a fence in front of the interactive wall of water",
+      "exactSpot": "Left side of the rock wall, toward the top. Three round depressions in the rock form the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Let the water settle between bursts, then scan the upper left of the rock face. Stand back a step so the fence is not in your line of sight.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium",
+      "notes": "The water wall reacts to movement and this is a popular stop, so it is often crowded and you may get splashed."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3745,
+      "longitude": -81.5502
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "water-journey-vase-holes-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "water_journey_trail",
+    "display": {
+      "entryTitle": "Orange Vase Holes Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Nature Area",
+      "attractionName": "Water Journey Trail"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "A tiny classic three-circle Hidden Mickey is made of three holes near the bottom of an orange vase in the land section of the walk-through water trail. The vase sits on a low rock wall, and because the shape is small and close to the ground, guests watching the water features walk right past it.",
+    "whereToLook": {
+      "scene": "Land exhibit area of the trail, just after you pass under the rock archway",
+      "exactSpot": "Low rock wall on your left. Find the orange vase perched on it and look near the bottom of the vase for three small holes that form the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Slow down right after the archway and look left and low before the next water feature pulls your attention.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Full sun can wash out the holes. Step closer or wait for a passing cloud."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3745,
+      "longitude": -81.5502
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "wild-motorcar-sherlock-holmes-window",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "wild_motorcar_ride",
+    "display": {
+      "entryTitle": "Constabulary Window Sherlock Holmes",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Village Area",
+      "attractionName": "Wild Motorcar Ride"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the city scene with the fountain, a silhouette of Sherlock Holmes stands in the second-floor window above the constabulary door, which has a green frame around it. It is a nod to a famous detective rather than a Disney character, and it goes by quickly as your motorcar leaves the pub.",
+    "whereToLook": {
+      "scene": "City room with the fountain, just after the pub where the bartender spins the mugs",
+      "exactSpot": "As you leave the pub room, look directly left and slightly up. The silhouette is in the second-floor window above the green-framed constabulary door."
+    },
+    "bestTip": "Get ready as the mugs stop spinning. The window is to your left the moment you exit the pub.",
+    "funFacts": [
+      "Sherlock Holmes is not a Disney character, which makes this one a Hidden Surprise rather than a Hidden Mickey."
+    ],
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Left",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 33.8133,
+      "longitude": -117.9187
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "wild-west-mine-coaster-gears-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "wild_west_mine_coaster",
+    "display": {
+      "entryTitle": "Ride End Gears Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Frontier Area",
+      "attractionName": "Wild West Mine Coaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "As the train slows at the end of the ride, two sets of gears lie on the ground to your right. The second set is arranged as a classic three-circle Hidden Mickey. Riders are usually catching their breath and looking ahead to the station, so it slips by unnoticed.",
+    "whereToLook": {
+      "scene": "Final stretch of the ride as the train begins to slow, looking to your right",
+      "exactSpot": "Two sets of gears on the ground. The second set forms the classic shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "As soon as the brakes grab, turn right and watch the ground. Skip the first set of gears and focus on the second.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Right",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.42,
+      "longitude": -81.5856
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "winged-flight-queue-lab-drawing-mickey",
+    "parkId": "adventure_park",
+    "landId": "floating_mountains_area",
+    "attractionId": "winged_flight_simulator",
+    "display": {
+      "entryTitle": "Lab Drawing Circles Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Floating Mountains Area",
+      "attractionName": "Winged Flight Simulator"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "A sideways classic three-circle Hidden Mickey hides among small black circles drawn on a researcher's note paper in the circular lab section of the standby queue. The two ear circles are lighter than the head circle, and the whole shape is turned to the right, so it reads like a doodle rather than a Mickey.",
+    "whereToLook": {
+      "scene": "Circular lab along the standby queue, near the end of your walk around it, the researcher's drawings on note paper",
+      "exactSpot": "Upper left border of the drawings. Three small black circles form the classic shape sideways, turned to the right, with lighter ears and a darker head.",
+      "orientation": "Sideways"
+    },
+    "bestTip": "Study the border of the page rather than the sketches in the middle. The lighter ear circles are the giveaway.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "The queue moves in bursts here. Use a pause to lean in, since the circles are small."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3549,
+      "longitude": -81.5928
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "wonderland-caterpillar-purple-mushroom-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "wonderland_caterpillar_ride",
+    "display": {
+      "entryTitle": "Purple Mushroom Spots Mickeys",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Village Area",
+      "attractionName": "Wonderland Caterpillar Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Two small purple mushrooms in the scene after the White Rabbit's house each carry three white spots on their caps that form a classic three-circle Hidden Mickey. The first sits in the background and the second comes later and closer to your caterpillar, and each is next to an orange mushroom.",
+    "whereToLook": {
+      "scene": "Just after you pass the White Rabbit's house, looking to your left",
+      "exactSpot": "Two small purple mushrooms, each beside an orange mushroom: the first in the background, the second later and closer to the vehicle. Three white spots on each cap form the shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Stare left the moment the rabbit's house is behind you, and use the orange mushrooms as your markers.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Left",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 33.8132,
+      "longitude": -117.9184
+    },
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-22T00:00:00.000Z"
   }
 ];

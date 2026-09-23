@@ -55,7 +55,7 @@ export default function EntryCard({ entry, showLocation = false, trailingLabel }
         <DifficultyChip level={entry.difficulty} size="small" />
         {entry.entryType === "FACT" && (
           <View style={styles.factChip}>
-            <Text style={styles.factText}>Fact</Text>
+            <Text style={styles.factText}>Hidden Surprise</Text>
           </View>
         )}
       </View>

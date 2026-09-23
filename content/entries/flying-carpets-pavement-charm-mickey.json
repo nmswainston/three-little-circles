@@ -1,0 +1,41 @@
+{
+  "id": "flying-carpets-pavement-charm-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "flying_carpets_spinner",
+  "display": {
+    "entryTitle": "Pavement Charm Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Jungle Outpost Area",
+    "attractionName": "Flying Carpets Spinner"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "A tiny Mickey charm is set into the cement of the walkway across from the ride exit, near the bazaar shop. It is small enough to step on without noticing, and it is one of the finds people feel proudest of.",
+  "whereToLook": {
+    "scene": "Walkway between the bazaar shop across from the ride exit and the ride itself",
+    "exactSpot": "Find the pole at the shop with a thick blue stripe at the bottom. Take about three steps toward the ride and look down at the cement for the charm."
+  },
+  "bestTip": "Use the blue-striped pole as your anchor and count your steps. Look down before you look around.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "Foot traffic here is constant. Stand to one side and wait for a gap."
+  },
+  "confidence": "Strong",
+  "verification": "In-person",
+  "coordinates": {
+    "latitude": 28.4183,
+    "longitude": -81.5836
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z",
+  "funFacts": [
+    "Cast Members like to call this the tiniest Hidden Mickey in all the parks."
+  ]
+}

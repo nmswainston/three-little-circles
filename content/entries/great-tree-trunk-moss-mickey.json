@@ -1,0 +1,37 @@
+{
+  "id": "great-tree-trunk-moss-mickey",
+  "parkId": "adventure_park",
+  "landId": "great_tree_area",
+  "attractionId": "great_tree",
+  "display": {
+    "entryTitle": "Trunk Moss Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Great Tree Area",
+    "attractionName": "Great Tree"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Outdoor Display",
+  "description": "A classic three-circle Hidden Mickey is shaped out of moss on the front of the great tree, to the right of the carved tiger. The trunk is covered in hundreds of carved animals, so a patch of moss is the last thing anyone studies.",
+  "whereToLook": {
+    "scene": "Front of the great tree, the carved tiger",
+    "exactSpot": "To the right of the tiger, a patch of moss forms the classic shape."
+  },
+  "bestTip": "Find the tiger carving first from the main viewing path, then scan the moss to its right.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3579,
+    "longitude": -81.5906
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

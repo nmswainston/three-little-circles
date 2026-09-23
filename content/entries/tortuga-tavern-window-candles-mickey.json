@@ -1,0 +1,37 @@
+{
+  "id": "tortuga-tavern-window-candles-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "pirate_port_area",
+  "attractionId": "tortuga_tavern",
+  "display": {
+    "entryTitle": "Window Candles Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Pirate Port Area",
+    "attractionName": "Tortuga Tavern"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "description": "Three candles inside the tavern line up to form a classic three-circle Hidden Mickey when viewed through the window from outside. The tavern is often closed, so for much of the year the window is the only way to see it.",
+  "whereToLook": {
+    "scene": "Window of the tavern in the pirate plaza, viewed from outside",
+    "exactSpot": "Three candles just inside the window, lined up in the classic shape."
+  },
+  "bestTip": "Stand square to the window. The candles only line up from straight on.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "Glare on the glass can hide the candles at midday. Cup your hands around your eyes."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.418,
+    "longitude": -81.584
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

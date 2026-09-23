@@ -141,7 +141,7 @@ export default function EntryDetailScreen() {
             {entry.whereToLook.orientation && !spoilersHidden && (
               <OutlineChip label={entry.whereToLook.orientation} />
             )}
-            {entry.entryType === "FACT" && <OutlineChip label="Fact" />}
+            {entry.entryType === "FACT" && <OutlineChip label="Hidden Surprise" />}
           </View>
         </View>
 

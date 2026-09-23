@@ -1,0 +1,38 @@
+{
+  "id": "memento-mori-wallpaper-beetle-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "colonial_square_area",
+  "attractionId": "memento_mori_shop",
+  "display": {
+    "entryTitle": "Wallpaper Beetle Branch Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Colonial Square Area",
+    "attractionName": "Memento Mori Shop"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Shop",
+  "description": "A classic three-circle Hidden Mickey is worked into the wallpaper of the shop beside the manor, so small that you need a magnifying glass to see it. The shop keeps one on hand for anyone who asks. The pattern is dense with vines and insects, so the shape vanishes unless you know which branch to follow.",
+  "whereToLook": {
+    "scene": "Patterned wallpaper inside the shop",
+    "exactSpot": "Find the beetle in the pattern, then trace up the branch to its left. The tiny shape is along that branch."
+  },
+  "bestTip": "Ask a Cast Member for the magnifying glass before you start. Without it, the shape is too small to confirm.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "Get close to the wall. The pattern repeats, so any beetle should lead you to a copy."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4199,
+    "longitude": -81.5831
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

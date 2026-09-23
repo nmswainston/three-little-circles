@@ -1,0 +1,38 @@
+{
+  "id": "undersea-clamshell-queue-birthday-shadow-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "undersea_clamshell_ride",
+  "display": {
+    "entryTitle": "Birthday Shadow Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Forest Area",
+    "attractionName": "Undersea Clamshell Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "Once a year, around noon on Mickey's birthday, November 18, the sun lines up with the rockwork of the outdoor queue and casts a classic three-circle shadow. The rest of the year there is nothing to see, which makes this one of the rarest finds in any park.",
+  "whereToLook": {
+    "scene": "Outdoor rockwork of the standby queue",
+    "exactSpot": "The shadow the rockwork throws around midday on November 18. Sunlight through the rocks forms the three circles."
+  },
+  "bestTip": "Be in the queue between about 11:30 and 12:30 on November 18 and watch the shadows rather than the rocks.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "Cloud cover on the day will hide it. Ask a Cast Member which stretch of rockwork casts the shadow."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4219,
+    "longitude": -81.5793
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

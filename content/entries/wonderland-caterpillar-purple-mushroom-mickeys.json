@@ -1,0 +1,37 @@
+{
+  "id": "wonderland-caterpillar-purple-mushroom-mickeys",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "wonderland_caterpillar_ride",
+  "display": {
+    "entryTitle": "Purple Mushroom Spots Mickeys",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Village Area",
+    "attractionName": "Wonderland Caterpillar Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Two small purple mushrooms in the scene after the White Rabbit's house each carry three white spots on their caps that form a classic three-circle Hidden Mickey. The first sits in the background and the second comes later and closer to your caterpillar, and each is next to an orange mushroom.",
+  "whereToLook": {
+    "scene": "Just after you pass the White Rabbit's house, looking to your left",
+    "exactSpot": "Two small purple mushrooms, each beside an orange mushroom: the first in the background, the second later and closer to the vehicle. Three white spots on each cap form the shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Stare left the moment the rabbit's house is behind you, and use the orange mushrooms as your markers.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Left",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 33.8132,
+    "longitude": -117.9184
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

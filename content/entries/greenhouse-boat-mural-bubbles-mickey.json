@@ -1,0 +1,36 @@
+{
+  "id": "greenhouse-boat-mural-bubbles-mickey",
+  "parkId": "showcase_park",
+  "landId": "nature_area",
+  "attractionId": "greenhouse_boat_ride",
+  "display": {
+    "entryTitle": "Mural Bubbles Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Nature Area",
+    "attractionName": "Greenhouse Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Three bubbles on the large mural in the early part of the boat ride come together as a classic three-circle Hidden Mickey. The mural is full of shapes and color, so the trio reads as more bubbles.",
+  "whereToLook": {
+    "scene": "The large mural early in the boat ride",
+    "exactSpot": "Three bubbles on the mural form the classic shape."
+  },
+  "bestTip": "Scan the mural's bubbles for a group of three that touch.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3737,
+    "longitude": -81.5527
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

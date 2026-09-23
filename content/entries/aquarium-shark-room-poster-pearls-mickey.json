@@ -1,0 +1,36 @@
+{
+  "id": "aquarium-shark-room-poster-pearls-mickey",
+  "parkId": "showcase_park",
+  "landId": "nature_area",
+  "attractionId": "aquarium_pavilion",
+  "display": {
+    "entryTitle": "Shark Room Poster Pearls Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Nature Area",
+    "attractionName": "Aquarium Pavilion"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "description": "In the shark's submarine room, posters show pearls arranged as classic three-circle Hidden Mickeys. The room is built for kids and full of things to touch, so the posters get less attention than the props.",
+  "whereToLook": {
+    "scene": "The shark's submarine room in the pavilion",
+    "exactSpot": "The posters in the room. The pearls on them form the classic shape."
+  },
+  "bestTip": "Give each poster a look rather than only the interactive pieces.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.375,
+    "longitude": -81.5518
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

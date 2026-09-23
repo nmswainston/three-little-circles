@@ -1,0 +1,37 @@
+{
+  "id": "space-mission-mars-landing-dishes-mickey",
+  "parkId": "showcase_park",
+  "landId": "discovery_area",
+  "attractionId": "space_mission_simulator",
+  "display": {
+    "entryTitle": "Mars Landing Satellite Dishes Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Discovery Area",
+    "attractionName": "Space Mission Simulator"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "As your capsule lands on Mars, a classic three-circle Mickey made of satellite dishes sits on a rooftop of the base below. It is on screen briefly during the landing approach, when riders are bracing for touchdown.",
+  "whereToLook": {
+    "scene": "The landing on Mars near the end of the mission",
+    "exactSpot": "A rooftop of the base with three satellite dishes arranged in the classic shape."
+  },
+  "bestTip": "Choose the mission that lands on Mars and watch the rooftops during the approach.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "distance": "Far",
+    "notes": "Only the more intense mission lands on Mars. The gentler mission orbits Earth and does not show this."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3739,
+    "longitude": -81.5467
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

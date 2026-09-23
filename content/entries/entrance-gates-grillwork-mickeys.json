@@ -1,0 +1,37 @@
+{
+  "id": "entrance-gates-grillwork-mickeys",
+  "parkId": "studios_park",
+  "landId": "park_entrance_area",
+  "attractionId": "entrance_gates",
+  "display": {
+    "entryTitle": "Gate Grillwork Mickeys",
+    "parkName": "Studios Park",
+    "landName": "Park Entrance Area",
+    "attractionName": "Entrance Gates"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Entrance",
+  "description": "Classic three-circle Mickeys are worked into the metal grillwork of the gates at the park entrance. Guests are focused on tickets and bag check as they pass, so the ironwork above and beside them goes unstudied.",
+  "whereToLook": {
+    "scene": "Entrance gates at the front of the park",
+    "exactSpot": "In the decorative metal grillwork of the gates."
+  },
+  "bestTip": "Look at the gates before you scan your ticket, or on the way out when the crowd thins.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3578,
+    "longitude": -81.5586
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

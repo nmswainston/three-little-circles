@@ -1,0 +1,39 @@
+{
+  "id": "winged-flight-queue-lab-drawing-mickey",
+  "parkId": "adventure_park",
+  "landId": "floating_mountains_area",
+  "attractionId": "winged_flight_simulator",
+  "display": {
+    "entryTitle": "Lab Drawing Circles Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Floating Mountains Area",
+    "attractionName": "Winged Flight Simulator"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "A sideways classic three-circle Hidden Mickey hides among small black circles drawn on a researcher's note paper in the circular lab section of the standby queue. The two ear circles are lighter than the head circle, and the whole shape is turned to the right, so it reads like a doodle rather than a Mickey.",
+  "whereToLook": {
+    "scene": "Circular lab along the standby queue, near the end of your walk around it, the researcher's drawings on note paper",
+    "exactSpot": "Upper left border of the drawings. Three small black circles form the classic shape sideways, turned to the right, with lighter ears and a darker head.",
+    "orientation": "Sideways"
+  },
+  "bestTip": "Study the border of the page rather than the sketches in the middle. The lighter ear circles are the giveaway.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "The queue moves in bursts here. Use a pause to lean in, since the circles are small."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3549,
+    "longitude": -81.5928
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

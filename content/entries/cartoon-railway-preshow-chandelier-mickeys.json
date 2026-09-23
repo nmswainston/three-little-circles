@@ -1,0 +1,37 @@
+{
+  "id": "cartoon-railway-preshow-chandelier-mickeys",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Pre-Show Chandelier Mickeys",
+    "parkName": "Studios Park",
+    "landName": "Boulevard Area",
+    "attractionName": "Cartoon Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Pre-show",
+  "difficulty": "Medium",
+  "description": "Two Hidden Mickeys decorate the overhead chandelier in the pre-show room where the cartoon short plays before you board: a classic three-circle shape and a second Mickey worked into the chandelier's Chinese-style ornament. Everyone in the room is watching the screen, so almost nobody looks up.",
+  "whereToLook": {
+    "scene": "Pre-show room where the cartoon short plays, the chandelier overhead",
+    "exactSpot": "Look up at the chandelier itself. One Mickey is the classic three-circle shape. The other is a stylized Mickey in the Chinese-themed decoration."
+  },
+  "bestTip": "Look up as soon as you walk in, before the lights drop for the cartoon.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium",
+    "notes": "The room fills quickly and the lights dim once the short starts, so the clear window is brief."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "france-film-wedding-party-mickey",
+  "parkId": "showcase_park",
+  "landId": "france_pavilion",
+  "attractionId": "pavilion_film",
+  "display": {
+    "entryTitle": "Film Wedding Party Mickey",
+    "parkName": "Showcase Park",
+    "landName": "France Pavilion",
+    "attractionName": "Pavilion Film Theater"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "description": "In the pavilion's travel film, a classic three-circle Hidden Mickey appears in the wedding party scene. It is on screen only as long as the shot lasts, and the sweeping scenery keeps most viewers from studying the guests.",
+  "whereToLook": {
+    "scene": "The pavilion's film, the wedding party scene",
+    "exactSpot": "Within the wedding party scene on screen."
+  },
+  "bestTip": "When the wedding appears, scan the whole frame quickly rather than following the couple.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3681,
+    "longitude": -81.5535
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

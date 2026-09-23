@@ -1,0 +1,38 @@
+{
+  "id": "midway-shooter-circus-sign-exclamation-mickey",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "midway_shooter",
+  "display": {
+    "entryTitle": "Circus Sign Exclamation Mickey",
+    "parkName": "Studios Park",
+    "landName": "Toy Blocks Area",
+    "attractionName": "Midway Shooter"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Easy",
+  "areaContext": "Queue",
+  "description": "The dot under the exclamation mark on the pink Circus Fun! sign is a classic three-circle Hidden Mickey. It is right where the punctuation belongs, so the eye reads it as a period and moves on.",
+  "whereToLook": {
+    "scene": "Pink sign reading Circus Fun! in the queue",
+    "exactSpot": "The dot of the exclamation mark is the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Read the sign, then look again at the punctuation.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3553,
+    "longitude": -81.5613
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

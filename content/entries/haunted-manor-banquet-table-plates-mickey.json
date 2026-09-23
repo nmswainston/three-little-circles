@@ -1,0 +1,37 @@
+{
+  "id": "haunted-manor-banquet-table-plates-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "colonial_square_area",
+  "attractionId": "haunted_manor_ride",
+  "display": {
+    "entryTitle": "Banquet Table Plates Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Colonial Square Area",
+    "attractionName": "Haunted Manor Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "A classic three-circle Hidden Mickey is set on the ghostly banquet table using a plate for the head and two saucers for the ears. It sits at the bottom left corner of the table, away from the dancing ghosts that pull every eye toward the middle of the ballroom.",
+  "whereToLook": {
+    "scene": "Ballroom scene with the ghostly banquet, viewed from the balcony as your carriage passes",
+    "exactSpot": "Bottom left corner of the banquet table. A plate and two saucers form the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Look at the near left corner of the table as soon as the ballroom opens up, before the dancers distract you.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Below",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4201,
+    "longitude": -81.583
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

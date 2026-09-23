@@ -1,0 +1,40 @@
+{
+  "id": "jungle-palace-second-arch-cloud-mickey",
+  "parkId": "adventure_park",
+  "landId": "asia_village_area",
+  "attractionId": "jungle_palace_trail",
+  "display": {
+    "entryTitle": "Second Arch Mural Cloud Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Asia Village Area",
+    "attractionName": "Jungle Palace Trail"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "In the mural past the second archway, a classic three-circle Hidden Mickey is painted into a cloud. Clouds are an easy place to hide the shape, and this one blends in until you look for it.",
+  "whereToLook": {
+    "scene": "Mural past the second archway on the trail",
+    "exactSpot": "In the clouds of the mural. One cloud is the classic shape."
+  },
+  "bestTip": "Look at the sky portion of the mural and compare the clouds with each other.",
+  "funFacts": [
+    "The trail is said to hold more than ten Hidden Mickeys. The leaves inside the first arch and the cloud past the second arch are the two easiest to find."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3598,
+    "longitude": -81.5892
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

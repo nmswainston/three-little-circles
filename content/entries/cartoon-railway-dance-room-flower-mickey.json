@@ -1,0 +1,38 @@
+{
+  "id": "cartoon-railway-dance-room-flower-mickey",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Dance Room Flower Mickey",
+    "parkName": "Studios Park",
+    "landName": "Boulevard Area",
+    "attractionName": "Cartoon Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "A classic three-circle Hidden Mickey sits in the center of one of the large flowers that move and flash along the right side of the big mirror at the front of Daisy Duck's dance room. The flowers are in motion and the lights pulse, so the shape is only readable for a moment as your vehicle passes through.",
+  "whereToLook": {
+    "scene": "Daisy Duck's dance room, the large mirror at the front of the room",
+    "exactSpot": "Large flowers moving and flashing along the right side of the mirror. The shape is in the middle of one of them.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Look toward the front mirror the moment you enter the dance room and watch the flowers to its right rather than the dancers.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Flashing",
+    "angle": "Right",
+    "distance": "Medium",
+    "notes": "Ride vehicles turn as they move through the room, so your angle on the flowers changes quickly. It may take more than one ride."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

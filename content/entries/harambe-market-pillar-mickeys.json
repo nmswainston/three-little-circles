@@ -1,0 +1,36 @@
+{
+  "id": "harambe-market-pillar-mickeys",
+  "parkId": "adventure_park",
+  "landId": "savanna_village_area",
+  "attractionId": "harambe_market",
+  "display": {
+    "entryTitle": "Market Pillar Mickeys",
+    "parkName": "Adventure Park",
+    "landName": "Savanna Village Area",
+    "attractionName": "Harambe Market"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "description": "Mickey appears on a pillar in the seating area of the market, enjoying a cup of coffee, and again at the entrance, waving hello. Several more are hidden around the seating area. They are drawn into the village signage and decoration, so they read as local art at a glance.",
+  "whereToLook": {
+    "scene": "The market's seating area and entrance",
+    "exactSpot": "A pillar in the seating area shows Mickey with a cup of coffee. At the entrance, Mickey is waving hello."
+  },
+  "bestTip": "Start with the entrance, then walk the pillars in the seating area.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3592,
+    "longitude": -81.5912
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

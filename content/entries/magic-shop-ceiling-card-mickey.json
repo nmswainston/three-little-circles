@@ -1,0 +1,38 @@
+{
+  "id": "magic-shop-ceiling-card-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "magic_shop",
+  "display": {
+    "entryTitle": "Ceiling Ace Card Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Main Street Area",
+    "attractionName": "Magic Shop"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Shop",
+  "description": "Playing cards are stuck all over the ceiling of the magic shop. In the middle of the group is an ace of clubs, and instead of a club, the center of the card shows a classic three-circle Mickey. Most shoppers are looking at the tricks on the counter, not the ceiling.",
+  "whereToLook": {
+    "scene": "Inside the magic shop, the playing cards stuck to the ceiling",
+    "exactSpot": "Middle of the group of cards. The ace of clubs has a Mickey in place of the club at its center.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Step to the middle of the shop and look straight up. Find the ace before you hunt for the shape.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 33.8106,
+    "longitude": -117.9188
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

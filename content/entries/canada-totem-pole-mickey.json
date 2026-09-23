@@ -1,0 +1,37 @@
+{
+  "id": "canada-totem-pole-mickey",
+  "parkId": "showcase_park",
+  "landId": "canada_pavilion",
+  "attractionId": "totem_poles",
+  "display": {
+    "entryTitle": "Totem Pole Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Canada Pavilion",
+    "attractionName": "Totem Poles"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "A classic three-circle Hidden Mickey is carved into the detail of the totem poles at the pavilion. The poles are tall and covered in figures, so the shape hides among the carvings.",
+  "whereToLook": {
+    "scene": "The totem poles at the pavilion",
+    "exactSpot": "In the carved detail of the totem poles."
+  },
+  "bestTip": "Work your way up each pole slowly and look at the small carved details between the larger figures.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3713,
+    "longitude": -81.5517
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

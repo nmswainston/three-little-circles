@@ -1,0 +1,37 @@
+{
+  "id": "tree-theater-show-bubbles-mickey",
+  "parkId": "adventure_park",
+  "landId": "great_tree_area",
+  "attractionId": "tree_theater_show",
+  "display": {
+    "entryTitle": "Show Bubbles Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Great Tree Area",
+    "attractionName": "Tree Theater Show"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "description": "Near the end of the animated show inside the great tree, right after the animals swing on their swings, bubbles drift across the stage. For about a second, three large bubbles in the middle of the stage converge into a classic three-circle Mickey, tilted to the left. It breaks apart almost as soon as it forms, so most of the audience never registers it.",
+  "whereToLook": {
+    "scene": "Theater inside the great tree, toward the end of the show, just after the swinging animals",
+    "exactSpot": "Middle of the stage. Three large bubbles meet for about a second in the classic shape, tilted to the left."
+  },
+  "bestTip": "When the swings appear, shift your eyes to the center of the stage and wait for the bubbles rather than following the characters.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Far",
+    "notes": "The shape holds for about a second. Seats near the center give the cleanest view of the middle of the stage."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3579,
+    "longitude": -81.5906
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}
