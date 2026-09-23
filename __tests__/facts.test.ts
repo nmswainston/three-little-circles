@@ -1,4 +1,4 @@
-import { getAllFacts, getFactsForPark } from '../src/data/facts';
+import { getAllFacts, getFactCountsByPark, getFactsForPark } from '../src/data/facts';
 import { DESTINATIONS, REGIONS, isThemePark } from '../src/data/destinations';
 
 describe('park facts', () => {
@@ -62,6 +62,17 @@ describe('park facts', () => {
       for (const fact of getFactsForPark(destination.parkId)) shown.add(fact.id);
     }
     expect(shown.size).toBe(facts.length);
+  });
+
+  it('counts facts for every listed destination', () => {
+    const counts = getFactCountsByPark();
+    expect(counts.size).toBe(DESTINATIONS.length);
+    for (const destination of DESTINATIONS) {
+      expect(counts.get(destination.parkId)).toBe(getFactsForPark(destination.parkId).length);
+    }
+    // Overseas parks have no finds yet but do carry region history, which is
+    // what lets their cards open on the Parks screen.
+    expect(counts.get('paris_kingdom_park')).toBeGreaterThan(0);
   });
 
   it('returns nothing for an unknown park', () => {
