@@ -89,7 +89,7 @@ Each fact is one JSON file under `content/facts/`. Copy
 | --- | --- | --- |
 | `id` | yes | kebab-case slug, unique across all facts, must match the file name |
 | `parkId` | one of | a `parkId` from `destinations.json`; the fact shows on that Park screen |
-| `region` | one of | a region from `destinations.json`; the fact shows on every Park screen in that region, after the park's own facts |
+| `region` | one of | a region from `destinations.json`; the fact shows on every theme park in that region, after the park's own facts. Catch-all areas with a `_bucket` id, such as the resorts and the shopping district, show only their own facts |
 | `title` | yes | a few words |
 | `body` | yes | two to four sentences |
 | `createdAtISO`, `updatedAtISO` | no | ISO 8601 timestamps |
