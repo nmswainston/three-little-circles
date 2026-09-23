@@ -52,22 +52,27 @@ const supabase = createClient(url, key, { auth: { persistSession: false, autoRef
 const now = Date.now();
 const since = new Date(now - WINDOW_DAYS * 24 * 60 * 60 * 1000).toISOString();
 
-// Page through everything in the window; the table is append-only and small.
+// Page through everything in the window. created_at alone is not a total
+// order, so id breaks ties and no row can slip between pages. The project's
+// max-rows setting may be lower than PAGE, so a short page only advances by
+// what came back, and only an empty page ends the loop.
 const rows = [];
 const PAGE = 1000;
-for (let from = 0; ; from += PAGE) {
+for (let from = 0; ; ) {
   const { data, error } = await supabase
     .from("confirmations")
-    .select("entry_id, device_id, status, created_at")
+    .select("id, entry_id, device_id, status, created_at")
     .gte("created_at", since)
     .order("created_at", { ascending: true })
+    .order("id", { ascending: true })
     .range(from, from + PAGE - 1);
   if (error) {
     console.error("Could not read confirmations:", error.message);
     process.exit(1);
   }
-  rows.push(...(data ?? []));
-  if (!data || data.length < PAGE) break;
+  if (!data || data.length === 0) break;
+  rows.push(...data);
+  from += data.length;
 }
 
 const { summaries, unknownEntryIds } = summarizeConfirmations(rows, { knownIds, now, windowDays: WINDOW_DAYS });

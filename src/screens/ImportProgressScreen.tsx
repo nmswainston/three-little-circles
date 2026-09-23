@@ -49,7 +49,12 @@ export default function ImportProgressScreen() {
   const apply = (mode: ImportMode) => {
     if (!parsed?.ok || !summary) return;
     const run = () => {
-      applyBackup(parsed.backup, mode);
+      try {
+        applyBackup(parsed.backup, mode);
+      } catch (error) {
+        notify("Still loading", error instanceof Error ? error.message : "Try again in a moment.");
+        return;
+      }
       if (Platform.OS !== "web") Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success).catch(() => {});
       setApplied({ mode, finds: summary.finds, newFinds: summary.newFinds });
     };

@@ -34,7 +34,7 @@ describe('entryShareText', () => {
 
   it('copes with an entry that has no display names', () => {
     const bare = { ...entries[0], display: undefined };
-    expect(entryShareText(bare, true)).toBe(`I found the a hidden detail. ${bare.difficulty} to spot. Tracked with ${APP_NAME}.`);
+    expect(entryShareText(bare, true)).toBe(`I found the hidden detail. ${bare.difficulty} to spot. Tracked with ${APP_NAME}.`);
   });
 });
 
