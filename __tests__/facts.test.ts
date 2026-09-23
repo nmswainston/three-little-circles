@@ -1,5 +1,5 @@
 import { getAllFacts, getFactsForPark } from '../src/data/facts';
-import { DESTINATIONS, REGIONS } from '../src/data/destinations';
+import { DESTINATIONS, REGIONS, isThemePark } from '../src/data/destinations';
 
 describe('park facts', () => {
   const facts = getAllFacts();
@@ -36,6 +36,23 @@ describe('park facts', () => {
         if (fact.parkId !== undefined) expect(fact.parkId).toBe(destination.parkId);
         else expect(fact.region).toBe(destination.region);
       }
+    }
+  });
+
+  it('shows region-wide facts on theme parks only', () => {
+    const florida = DESTINATIONS.filter((d) => d.region === 'Florida');
+    const parks = florida.filter((d) => isThemePark(d.parkId));
+    const buckets = florida.filter((d) => !isThemePark(d.parkId));
+    expect(parks.length).toBe(4);
+    expect(buckets.length).toBe(2);
+
+    for (const park of parks) {
+      expect(getFactsForPark(park.parkId).some((f) => f.region === 'Florida')).toBe(true);
+    }
+    for (const bucket of buckets) {
+      const result = getFactsForPark(bucket.parkId);
+      expect(result.length).toBeGreaterThan(0);
+      expect(result.every((f) => f.parkId === bucket.parkId)).toBe(true);
     }
   });
 
