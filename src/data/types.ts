@@ -80,3 +80,23 @@ export type HiddenMickeyEntry = {
   createdAtISO?: string;
   updatedAtISO?: string;
 };
+
+/**
+ * A piece of history or trivia about a park or resort area itself, as opposed
+ * to a find inside it. Facts are not counted toward progress. A fact belongs
+ * to one destination (parkId) or to every destination in a region.
+ */
+export type ParkFact = {
+  id: string;
+
+  /** Show on this destination's Park screen. */
+  parkId?: ParkId;
+  /** Show on every Park screen in this region. Used for resort-wide history. */
+  region?: string;
+
+  title: string;
+  body: string;
+
+  createdAtISO?: string;
+  updatedAtISO?: string;
+};

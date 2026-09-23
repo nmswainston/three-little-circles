@@ -45,6 +45,7 @@ change rather than a code change.
 - Achievements for milestones such as the first find or completing an attraction
 - Progress persists on the device, no sign-in required
 - Map of pinned entries on mobile, with the same entries listed on web
+- A "Did you know?" section on each park with history and trivia about the park itself
 - One JSON file per entry, validated and compiled at build time
 
 ## Installation
@@ -66,6 +67,9 @@ is required for local development.
 ```
 content/entries/        One JSON file per Hidden Mickey. This is the source of truth.
 content/TEMPLATE.json   Starting point for a new entry.
+content/facts/          One JSON file per park fact, shown under "Did you know?" on the Park screen.
+content/TEMPLATE.fact.json
+                        Starting point for a new park fact.
 scripts/build-entries.mjs
                         Validates content and writes src/data/entries.generated.ts.
 src/data/               Entry types, query helpers, generated entries.
