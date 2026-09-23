@@ -143,14 +143,19 @@ export function parseBackup(text: string): ParseResult {
   if (!isRecord(raw) || raw.app !== BACKUP_APP) {
     return { ok: false, message: "That's not a Three Little Circles backup." };
   }
-  const format = typeof raw.format === "number" ? raw.format : 0;
-  if (format > BACKUP_FORMAT) {
+  // A well-formed object that merely names the app is not a backup. Without
+  // a supported format and the payload it would read as an empty backup, and
+  // Replace would then wipe the phone on the strength of nothing.
+  const format = raw.format;
+  if (!Number.isInteger(format) || (format as number) < 1) return incomplete;
+  if ((format as number) > BACKUP_FORMAT) {
     return { ok: false, message: "This backup is from a newer version of the app. Update the app, then try again." };
   }
+  if (!isRecord(raw.found) || !isRecord(raw.achievements)) return incomplete;
   const exportedAtISO = typeof raw.exportedAtISO === "string" && !Number.isNaN(Date.parse(raw.exportedAtISO)) ? raw.exportedAtISO : "";
   const backup: Backup = {
     app: BACKUP_APP,
-    format,
+    format: format as number,
     exportedAtISO,
     found: cleanFound(raw.found),
     achievements: cleanAchievements(raw.achievements),
