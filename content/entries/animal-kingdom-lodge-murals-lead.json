@@ -1,0 +1,38 @@
+{
+  "id": "animal-kingdom-lodge-murals-lead",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "great_hall_lobby",
+  "display": {
+    "entryTitle": "Wall Mural Lead",
+    "parkName": "Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "Great Hall Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "This is a lead, not a confirmed find. Painted murals cover stretches of wall in the great hall and the stairwells, and a Mickey has been reported somewhere in the artwork. Which mural was never written down.",
+  "whereToLook": {
+    "scene": "The painted wall murals in the great hall and the stairwells running off it",
+    "exactSpot": "Scan the painted backgrounds, the foliage and the patterned borders rather than the figures in the foreground."
+  },
+  "bestTip": "Take the stairs instead of the elevator. The stairwell murals get almost no attention and you can stop on a landing without being in anyone's way.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Medium",
+    "notes": "Stairwell lighting is uneven, so a shape can vanish into shadow on one landing and read clearly from the next one up."
+  },
+  "confidence": "Interpretive",
+  "verification": "Unknown",
+  "coordinates": {
+    "latitude": 28.3531,
+    "longitude": -81.603
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

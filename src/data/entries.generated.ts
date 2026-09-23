@@ -113,6 +113,348 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "animal-kingdom-lodge-carpets-lead",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Carpet Pattern Lead",
+      "parkName": "Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "This is a lead, not a confirmed find. The patterned carpet running through the great hall and the guest corridors has been reported to hide a Mickey in its repeat. The spot has never been pinned down.",
+    "whereToLook": {
+      "scene": "The carpet in the great hall and along the guest room corridors",
+      "exactSpot": "Stand still, look straight down, and read one full repeat of the pattern at a time for three circles set together."
+    },
+    "bestTip": "Hunt this one in the corridors. They run the same pattern for hundreds of feet with nobody walking over it, which the lobby floor never gives you.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close",
+      "notes": "Carpet gets replaced every few years and the pattern changes with it, so an old report may not survive the current floor."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.3531,
+      "longitude": -81.603
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "animal-kingdom-lodge-chair-backs-lead",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Chair Back Lead",
+      "parkName": "Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "This is a lead, not a confirmed find. The upholstered chairs and sofas in the great hall carry a printed pattern on their backs, and Mickey shapes have been reported in it. Which piece of furniture has never been recorded.",
+    "whereToLook": {
+      "scene": "The seating groups in the great hall, the backs of the upholstered chairs and sofas",
+      "exactSpot": "Look at the pattern on the seat backs and the outer arms for three circles worked into the print."
+    },
+    "bestTip": "Find an empty chair rather than reading over someone's shoulder. Early morning, before the lobby fills, gives you the run of the seating.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Upholstery gets replaced on its own schedule, so a pattern reported years ago may simply no longer be in the room."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.3531,
+      "longitude": -81.603
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "animal-kingdom-lodge-chandeliers-lead",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Chandelier Lead",
+      "parkName": "Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "This is a lead, not a confirmed find. The oversized chandeliers hanging over the great hall seating are built from metalwork, beading and shield shapes, and guests report Mickeys among the components. Which fixture and which detail has never been written down.",
+    "whereToLook": {
+      "scene": "The great hall, the large chandeliers hanging above the seating groups",
+      "exactSpot": "Read the metal frame and the beadwork on each fixture for three circles set together as a head and two ears."
+    },
+    "bestTip": "Go up to the second or third floor walkway so you are level with the fixtures instead of craning at them from underneath.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Medium",
+      "notes": "From the upper walkways the fixtures sit close and at eye height, which is a completely different look than from the lobby floor."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.3531,
+      "longitude": -81.603
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "animal-kingdom-lodge-column-carvings-lead",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Column Carving Lead",
+      "parkName": "Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "This is a lead, not a confirmed find. The timber columns holding up the great hall are banded top to bottom with carved and painted pattern, and Mickey shapes have been reported worked into that banding. Nobody has pinned down which column or which band, so this one is a real search rather than a quick look.",
+    "whereToLook": {
+      "scene": "The great hall, the full-height timber columns under the thatched roof",
+      "exactSpot": "Take one column at a time and read it band by band from eye level upward, watching for three circles sitting inside the repeating geometric pattern."
+    },
+    "bestTip": "Start with the columns nearest the fireplace where the light is strongest, and bring a zoom lens or binoculars for the bands above the second floor.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far",
+      "notes": "The hall is lit low and warm on purpose. The upper bands are genuinely far away, so a camera you can zoom with does most of the work."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.3531,
+      "longitude": -81.603
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "animal-kingdom-lodge-curtains-lead",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Window Curtain Lead",
+      "parkName": "Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "This is a lead, not a confirmed find. The floor-to-ceiling drapes framing the tall savanna-facing windows carry a woven pattern, and a Mickey has been reported inside it. The exact repeat has never been identified.",
+    "whereToLook": {
+      "scene": "The tall windows at the savanna end of the great hall and the drapes framing them",
+      "exactSpot": "Read the pattern where the fabric hangs flat rather than where it gathers into folds, and watch for three circles inside the repeat."
+    },
+    "bestTip": "Morning light comes straight through those windows and backlights the weave, which makes the pattern far easier to read than it is at night.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Medium",
+      "notes": "A repeating textile pattern means that if the shape is there at all it is there many times over. Find it once and it is suddenly everywhere."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.3531,
+      "longitude": -81.603
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "animal-kingdom-lodge-lobby-rockwork-lead",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Lobby Rockwork Lead",
+      "parkName": "Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "This is a lead, not a confirmed find. Stone is built into the great hall around the fireplace and along the lower walls, and three rounded stones set as a head and two ears have been reported somewhere in it. The placement has never been recorded.",
+    "whereToLook": {
+      "scene": "The stone fireplace and the rock faces built into the walls of the great hall",
+      "exactSpot": "Follow the mortar lines and look for three rounded stones seated together rather than a carved shape."
+    },
+    "bestTip": "Come by in the evening. Firelight rakes across the stone and separates the individual rocks far better than flat daytime light does.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Rockwork throws up accidental three-circle groupings constantly, so expect a few false positives before anything convincing."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.3531,
+      "longitude": -81.603
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "animal-kingdom-lodge-murals-lead",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Wall Mural Lead",
+      "parkName": "Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "This is a lead, not a confirmed find. Painted murals cover stretches of wall in the great hall and the stairwells, and a Mickey has been reported somewhere in the artwork. Which mural was never written down.",
+    "whereToLook": {
+      "scene": "The painted wall murals in the great hall and the stairwells running off it",
+      "exactSpot": "Scan the painted backgrounds, the foliage and the patterned borders rather than the figures in the foreground."
+    },
+    "bestTip": "Take the stairs instead of the elevator. The stairwell murals get almost no attention and you can stop on a landing without being in anyone's way.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Medium",
+      "notes": "Stairwell lighting is uneven, so a shape can vanish into shadow on one landing and read clearly from the next one up."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.3531,
+      "longitude": -81.603
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "animal-kingdom-lodge-paintings-lead",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Framed Painting Lead",
+      "parkName": "Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "This is a lead, not a confirmed find. Framed paintings hang through the great hall and along the corridors running off it, and a Mickey has been reported in one of them. No one has said which painting.",
+    "whereToLook": {
+      "scene": "The framed artwork in the great hall and the corridors leading away from it",
+      "exactSpot": "Check the backgrounds rather than the subjects. Clouds, foliage, pottery and animal markings are where painted Mickeys usually sit."
+    },
+    "bestTip": "Work the corridors instead of the hall. They hold just as much art, they are quiet, and you can stand in front of a frame as long as you like.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close",
+      "notes": "Corridor lighting is dim and the glass picks up glare, so step off to one side rather than standing square to the frame."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.3531,
+      "longitude": -81.603
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "animal-kingdom-lodge-pool-rockwork-lead",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "main_pool_area",
+    "display": {
+      "entryTitle": "Pool Rockwork Lead",
+      "parkName": "Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Main Pool Area"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Outdoor Display",
+    "description": "This is a lead, not a confirmed find. The sculpted rock built around the main pool and the waterslide has been reported to hold a Mickey. No one has said where on it.",
+    "whereToLook": {
+      "scene": "The sculpted rock faces surrounding the main pool and the waterslide",
+      "exactSpot": "Read the stone for three rounded forms set together as a head and two ears, and check the slide supports as well as the pool edge."
+    },
+    "bestTip": "Walk the far side of the pool early, before the deck fills. Low sun across the rock throws the shadows that make shapes readable.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Midday sun flattens sculpted rock into one pale mass. Early or late light is the difference between seeing shapes and seeing a wall."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.3531,
+      "longitude": -81.603
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
     "id": "aquarium-shark-room-poster-pearls-mickey",
     "parkId": "showcase_park",
     "landId": "nature_area",
@@ -188,6 +530,44 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
   },
   {
+    "id": "art-of-animation-courtyard-lead",
+    "parkId": "resorts_bucket",
+    "landId": "art_of_animation_resort",
+    "attractionId": "animation_courtyards",
+    "display": {
+      "entryTitle": "Animation Courtyard Lead",
+      "parkName": "Resorts",
+      "landName": "Art of Animation Resort",
+      "attractionName": "Animation Courtyards"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Outdoor Display",
+    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. Each wing is built as a walk-in film set with sculpted characters, painted facades and themed pools, all of it dense enough to hide a three-circle shape easily.",
+    "whereToLook": {
+      "scene": "The themed courtyards and pool areas of each wing, and the painted building facades around them",
+      "exactSpot": "Read the sculpted scenery, the painted facades and the pool surrounds for three circles set together as a head and two ears."
+    },
+    "bestTip": "Work one wing at a time and include the pool decks. The themed detail carries right to the water in every courtyard.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Full sun and saturated paint flatten detail in the middle of the day. Morning and late afternoon give the sculpted work its shadows back."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.3491,
+      "longitude": -81.545
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
     "id": "backyard-coaster-queue-cloud-mickey",
     "parkId": "studios_park",
     "landId": "toy_blocks_area",
@@ -216,6 +596,44 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "boardwalk-promenade-shopfront-lead",
+    "parkId": "resorts_bucket",
+    "landId": "boardwalk_resort",
+    "attractionId": "promenade_shopfronts",
+    "display": {
+      "entryTitle": "Promenade Shopfront Lead",
+      "parkName": "Resorts",
+      "landName": "BoardWalk Resort",
+      "attractionName": "Promenade Shopfronts"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. The promenade is dressed as a 1930s seaside boardwalk, and that means painted signage, ironwork railings and carnival detail along every storefront.",
+    "whereToLook": {
+      "scene": "The waterfront promenade, the shopfronts and railings along it",
+      "exactSpot": "Work the painted signs, the wrought iron railings and the carnival trim above the shop windows for three circles set together."
+    },
+    "bestTip": "Walk it at dusk when the bulbs come on. Lit signage and backlit ironwork show up shapes that flat afternoon sun washes out.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "The promenade is long and every shopfront is different, so this rewards a slow lap rather than a quick pass."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.3672,
+      "longitude": -81.5552
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
     "id": "canada-totem-pole-mickey",
@@ -590,6 +1008,44 @@ export const entries: HiddenMickeyEntry[] = [
     "coordinates": {
       "latitude": 28.3635,
       "longitude": -81.5899
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "contemporary-concourse-mural-lead",
+    "parkId": "resorts_bucket",
+    "landId": "contemporary_resort",
+    "attractionId": "grand_canyon_concourse",
+    "display": {
+      "entryTitle": "Concourse Mural Lead",
+      "parkName": "Resorts",
+      "landName": "Contemporary Resort",
+      "attractionName": "Grand Canyon Concourse"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. The concourse is dominated by a ninety foot tile mural of stylized desert landscape, children and animals, assembled from thousands of individual tiles.",
+    "whereToLook": {
+      "scene": "The full-height tile mural on the concourse where the monorail runs through",
+      "exactSpot": "Read the mural panel by panel for three circles in the tilework, and give the animals, the clouds and the geometric borders the most attention."
+    },
+    "bestTip": "Ride the monorail through the building for the upper panels, then come back and stand on the concourse for the lower ones. Neither view alone shows you the whole mural.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far",
+      "notes": "The mural is famous for a deliberate oddity or two, so a promising shape here is worth a second look rather than a shrug."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.4148,
+      "longitude": -81.5746
     },
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
@@ -1655,6 +2111,44 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "grand-floridian-grand-lobby-lead",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "grand_lobby",
+    "display": {
+      "entryTitle": "Grand Lobby Lead",
+      "parkName": "Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Grand Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. The grand lobby runs five stories of white millwork, stained glass domes, chandeliers and an aviary, which is a great deal of decorative surface to search.",
+    "whereToLook": {
+      "scene": "The five-story grand lobby, its balconies, chandeliers and stained glass",
+      "exactSpot": "Check the fretwork on the balcony railings, the stained glass domes overhead and the chandelier fittings for three circles worked into the pattern."
+    },
+    "bestTip": "Take the elevator to the top floor and work downward. From the upper balconies the millwork and the glass are close instead of five stories away.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far",
+      "notes": "The lobby is bright and white, which helps, but the ceiling detail is a long way up from the floor."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.4113,
+      "longitude": -81.5877
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
     "id": "great-tree-trunk-moss-mickey",
@@ -3060,6 +3554,44 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "polynesian-ceremonial-house-lead",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "great_ceremonial_house",
+    "display": {
+      "entryTitle": "Ceremonial House Lead",
+      "parkName": "Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Great Ceremonial House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. The main building is full of carved wood, woven textures, tapa cloth pattern and planting, all of which hide a three-circle shape well.",
+    "whereToLook": {
+      "scene": "The main building lobby, its carvings, textiles and planted interior",
+      "exactSpot": "Read the tapa cloth pattern, the carved wooden panels and the woven light fittings for three circles set together."
+    },
+    "bestTip": "The patterned textiles are the best bet here. A woven repeat puts the same shape in front of you dozens of times once you spot it once.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium",
+      "notes": "The building is a transport hub as well as a lobby, so it is busy. Early morning is the only genuinely quiet window."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.4055,
+      "longitude": -81.5855
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
     "id": "polynesian-coffee-bar-post-nails-mickey",
     "parkId": "resorts_bucket",
     "landId": "polynesian_village_resort",
@@ -3172,6 +3704,82 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "pop-century-courtyard-lead",
+    "parkId": "resorts_bucket",
+    "landId": "pop_century_resort",
+    "attractionId": "decade_courtyards",
+    "display": {
+      "entryTitle": "Decade Courtyard Lead",
+      "parkName": "Resorts",
+      "landName": "Pop Century Resort",
+      "attractionName": "Decade Courtyards"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Outdoor Display",
+    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. Each courtyard is built around oversized props from one decade, from giant telephones and yo-yos to enormous vinyl records, which is a lot of large round objects standing in the open.",
+    "whereToLook": {
+      "scene": "The decade courtyards between the buildings and the oversized props in each one",
+      "exactSpot": "Look for three round props or three circles within a single prop that line up as a head and two ears, and check the painted building facades too."
+    },
+    "bestTip": "Circles are everywhere here by accident, so hold out for a grouping that is clearly deliberate rather than three records that happen to overlap.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Far",
+      "notes": "The props are huge and out in full sun, so step well back. Up close a giant record is just a wall."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.3512,
+      "longitude": -81.5443
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "port-orleans-grounds-lead",
+    "parkId": "resorts_bucket",
+    "landId": "port_orleans_riverside_resort",
+    "attractionId": "mill_and_mansion_grounds",
+    "display": {
+      "entryTitle": "Mill and Mansion Grounds Lead",
+      "parkName": "Resorts",
+      "landName": "Port Orleans Riverside Resort",
+      "attractionName": "Mill and Mansion Grounds"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. The grounds run from a working water mill past mansion-style buildings and along the river, and the sister half of the resort a short walk upstream adds wrought iron and courtyards.",
+    "whereToLook": {
+      "scene": "The water mill, the mansion buildings and the riverside paths, plus the neighboring half of the resort upstream",
+      "exactSpot": "Read the mill machinery, the wrought iron balconies, the lamp posts and the landscaping for three circles set together."
+    },
+    "bestTip": "Walk the riverside path between the two halves. It links both sets of theming and takes about fifteen minutes each way.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Medium",
+      "notes": "The grounds are quiet and spread out, so this is a pleasant search even though it covers a lot of ground."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.4137,
+      "longitude": -81.535
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
     "id": "port-orleans-pool-bar-barrel-mickey",
@@ -4482,6 +5090,44 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "wilderness-lodge-lobby-and-grounds-lead",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "lobby_and_grounds",
+    "display": {
+      "entryTitle": "Lobby and Grounds Lead",
+      "parkName": "Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Lobby and Grounds"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. The lodge stacks carved timber, ironwork, stonework and a painted totem into one enormous room, then runs a spring out of it and down to the lake.",
+    "whereToLook": {
+      "scene": "The main lodge lobby, the fireplace and the spring trail running out toward the lake",
+      "exactSpot": "Read the carved railings on the upper balconies, the iron light fixtures, the rock strata of the fireplace and the stonework along the spring."
+    },
+    "bestTip": "Follow the spring from where it starts inside the lobby out to the lake. The whole route is themed and almost nobody walks it slowly.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far",
+      "notes": "The lobby is tall and dim, so the upper balconies need a zoom. The spring trail outside is bright and much easier going."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.4127,
+      "longitude": -81.5668
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
     "id": "winged-flight-queue-lab-drawing-mickey",
     "parkId": "adventure_park",
     "landId": "floating_mountains_area",
@@ -4556,5 +5202,43 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "yacht-and-beach-club-lobby-lead",
+    "parkId": "resorts_bucket",
+    "landId": "yacht_and_beach_club_resort",
+    "attractionId": "lobby_and_marina",
+    "display": {
+      "entryTitle": "Lobby and Marina Lead",
+      "parkName": "Resorts",
+      "landName": "Yacht and Beach Club Resort",
+      "attractionName": "Lobby and Marina"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. The two halves share a New England seaside theme built from nautical brass, globe lamps, painted woodwork and a marina out the back.",
+    "whereToLook": {
+      "scene": "Both resort lobbies and the shared marina and waterfront between them",
+      "exactSpot": "Check the brass nautical fittings, the globe light fixtures, the painted wood trim and the marina signage for three circles together."
+    },
+    "bestTip": "Do both lobbies in one visit. They are a short walk apart and the theming differs enough that each gives you a fresh set of surfaces.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Both lobbies are bright and airy, which makes this an easier search than the darker deluxe lobbies elsewhere on property."
+    },
+    "confidence": "Interpretive",
+    "verification": "Unknown",
+    "coordinates": {
+      "latitude": 28.3705,
+      "longitude": -81.5576
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
   }
 ];

@@ -1,0 +1,38 @@
+{
+  "id": "contemporary-concourse-mural-lead",
+  "parkId": "resorts_bucket",
+  "landId": "contemporary_resort",
+  "attractionId": "grand_canyon_concourse",
+  "display": {
+    "entryTitle": "Concourse Mural Lead",
+    "parkName": "Resorts",
+    "landName": "Contemporary Resort",
+    "attractionName": "Grand Canyon Concourse"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. The concourse is dominated by a ninety foot tile mural of stylized desert landscape, children and animals, assembled from thousands of individual tiles.",
+  "whereToLook": {
+    "scene": "The full-height tile mural on the concourse where the monorail runs through",
+    "exactSpot": "Read the mural panel by panel for three circles in the tilework, and give the animals, the clouds and the geometric borders the most attention."
+  },
+  "bestTip": "Ride the monorail through the building for the upper panels, then come back and stand on the concourse for the lower ones. Neither view alone shows you the whole mural.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Far",
+    "notes": "The mural is famous for a deliberate oddity or two, so a promising shape here is worth a second look rather than a shrug."
+  },
+  "confidence": "Interpretive",
+  "verification": "Unknown",
+  "coordinates": {
+    "latitude": 28.4148,
+    "longitude": -81.5746
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

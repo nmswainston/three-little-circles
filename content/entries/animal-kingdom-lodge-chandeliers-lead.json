@@ -1,0 +1,38 @@
+{
+  "id": "animal-kingdom-lodge-chandeliers-lead",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "great_hall_lobby",
+  "display": {
+    "entryTitle": "Chandelier Lead",
+    "parkName": "Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "Great Hall Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "This is a lead, not a confirmed find. The oversized chandeliers hanging over the great hall seating are built from metalwork, beading and shield shapes, and guests report Mickeys among the components. Which fixture and which detail has never been written down.",
+  "whereToLook": {
+    "scene": "The great hall, the large chandeliers hanging above the seating groups",
+    "exactSpot": "Read the metal frame and the beadwork on each fixture for three circles set together as a head and two ears."
+  },
+  "bestTip": "Go up to the second or third floor walkway so you are level with the fixtures instead of craning at them from underneath.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Medium",
+    "notes": "From the upper walkways the fixtures sit close and at eye height, which is a completely different look than from the lobby floor."
+  },
+  "confidence": "Interpretive",
+  "verification": "Unknown",
+  "coordinates": {
+    "latitude": 28.3531,
+    "longitude": -81.603
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}
