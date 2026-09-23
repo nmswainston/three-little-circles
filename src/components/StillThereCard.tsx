@@ -6,7 +6,6 @@ import { ConfirmationSummary, describeFreshness } from "../data/confirmations";
 import { sendConfirmation, ConfirmationStatus } from "../lib/confirm";
 import { relativeTime } from "../lib/time";
 import { useConfirmationsStore } from "../store/useConfirmationsStore";
-import { useSettingsStore } from "../store/useSettingsStore";
 import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
 import { spacing, radii, text } from "../theme/tokens";
 
@@ -23,7 +22,6 @@ interface StillThereCardProps {
 export default function StillThereCard({ entryId, summary }: StillThereCardProps) {
   const t = useTheme();
   const styles = useStyles(createStyles);
-  const deviceId = useSettingsStore((s) => s.deviceId);
   const mine = useConfirmationsStore((s) => s.reported[entryId]);
   const record = useConfirmationsStore((s) => s.record);
   const [sending, setSending] = useState<ConfirmationStatus | undefined>();
@@ -36,7 +34,7 @@ export default function StillThereCard({ entryId, summary }: StillThereCardProps
     if (sending) return;
     setError(undefined);
     setSending(status);
-    const result = await sendConfirmation(entryId, status, deviceId);
+    const result = await sendConfirmation(entryId, status);
     setSending(undefined);
     if (!result.ok) {
       setError(result.message);

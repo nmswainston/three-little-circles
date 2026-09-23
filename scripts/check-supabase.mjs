@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 /**
  * Checks that the app can reach your Supabase project with the anon key and
- * that supabase/schema.sql has been applied. Sends nothing and stores nothing.
+ * that supabase/schema.sql has been applied. Sends no content. The one thing
+ * it creates is a throwaway anonymous user, to prove anonymous sign-ins are
+ * on for "Still there?" reports.
  *
  * Usage: node scripts/check-supabase.mjs   (or npm run supabase:check)
  */
@@ -89,6 +91,21 @@ const anon = createClient(url, anonKey, { auth: { persistSession: false, autoRef
   if (error) bad(`reading reports with the anon key errored instead of returning nothing: ${error.message}`);
   else if (Array.isArray(data) && data.length === 0) ok("anon key cannot read reports (row-level security is on)");
   else bad("anon key CAN read confirmations. Row-level security is not applied; run schema.sql again.");
+}
+
+// "Still there?" reports sign in anonymously so each row is tied to a server-issued
+// id. A fresh client, so the checks above stayed on the plain anon role.
+{
+  const probe = createClient(url, anonKey, { auth: { persistSession: false, autoRefreshToken: false } });
+  const { error } = await probe.auth.signInAnonymously();
+  if (!error) {
+    ok("anonymous sign-ins are on (this created one throwaway anonymous user)");
+    await probe.auth.signOut().catch(() => {});
+  } else if (/anonymous/i.test(error.message)) {
+    bad("anonymous sign-ins are off. Turn them on under Authentication > Sign In / Providers > Anonymous, or reports will fail.");
+  } else {
+    bad(`anonymous sign-in failed: ${error.message}`);
+  }
 }
 
 if (serviceKey) {
