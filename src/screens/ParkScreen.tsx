@@ -140,7 +140,7 @@ export default function ParkScreen() {
             (allFoundHere ? (
               <EmptyState
                 title="All found here"
-                message={`You've spotted every documented ${filter === "All" ? "detail" : filter === "FIND" ? "find" : "fact"} here. Show them again to revisit.`}
+                message={`You've spotted every documented ${filter === "All" ? "detail" : filter === "FIND" ? "find" : "hidden surprise"} here. Show them again to revisit.`}
                 actionLabel="Show found"
                 onAction={() => setHideFound(false)}
               />

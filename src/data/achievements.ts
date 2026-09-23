@@ -9,7 +9,7 @@ import { PARK_ICONS } from "../theme/parks";
  * Achievement catalog and the pure rules for earning them.
  *
  * Three kinds: fixed milestones (count tiers), skill badges (one land, one
- * attraction, hard finds, queues, an easter egg, a same-day streak, two
+ * attraction, hard finds, queues, a Hidden Surprise, a same-day streak, two
  * regions), and one completion badge per destination that has content. Ids
  * are stable strings because they are persisted on the device.
  *
@@ -138,9 +138,9 @@ const SKILL: Rule[] = [
   },
   {
     id: "EASTER_EGG",
-    title: "Egg Hunter",
-    description: "You noticed an easter egg, not just a Mickey.",
-    hint: "Find any Fact: an easter egg or a tribute.",
+    title: "Surprise Spotter",
+    description: "You noticed a Hidden Surprise, not just a Mickey.",
+    hint: "Find any Hidden Surprise: an easter egg or a movie reference.",
     icon: "egg",
     earned: ({ foundEntries }) => foundEntries.some((e) => e.entryType === "FACT"),
     reachable: () => entries.some((e) => e.entryType === "FACT"),
