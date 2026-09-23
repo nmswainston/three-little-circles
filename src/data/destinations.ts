@@ -31,6 +31,15 @@ export function getDestination(parkId: string): Destination | undefined {
   return BY_ID[parkId];
 }
 
+/**
+ * True for a theme park, false for a catch-all area such as the resorts or
+ * the shopping district. Those areas use a `_bucket` id suffix by convention
+ * (see content/README.md), which is what this checks.
+ */
+export function isThemePark(parkId: string): boolean {
+  return !parkId.endsWith("_bucket");
+}
+
 export type DestinationSummary = Destination & {
   /** Number of entries documented for this destination. 0 means "coming soon". */
   count: number;

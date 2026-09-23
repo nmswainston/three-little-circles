@@ -2,7 +2,7 @@
 // facts.generated.ts by `npm run content:build`. This module is the stable
 // import path for the rest of the app.
 import { facts } from "./facts.generated";
-import { getDestination } from "./destinations";
+import { getDestination, isThemePark } from "./destinations";
 import { ParkFact, ParkId } from "./types";
 
 export { facts };
@@ -15,10 +15,14 @@ export function getAllFacts(): ParkFact[] {
  * Facts to show on one destination's Park screen: the ones written for that
  * parkId first, then region-wide history for the region it belongs to. The
  * order within each group follows the generated file, which is sorted by id.
+ *
+ * Region facts only appear on theme parks. The resorts and shopping buckets
+ * show just their own facts so resort-wide history is not repeated six times.
  */
 export function getFactsForPark(parkId: ParkId): ParkFact[] {
   const region = getDestination(parkId)?.region;
   const forPark = facts.filter((f) => f.parkId === parkId);
-  const forRegion = region ? facts.filter((f) => f.parkId === undefined && f.region === region) : [];
+  const forRegion =
+    region && isThemePark(parkId) ? facts.filter((f) => f.parkId === undefined && f.region === region) : [];
   return [...forPark, ...forRegion];
 }
