@@ -13,6 +13,7 @@ import {
   getParksSummary,
 } from "../data/query";
 import { getDestination } from "../data/destinations";
+import { getFactsForPark } from "../data/facts";
 import { labelOrFallback } from "../data/labels";
 import { useFoundStore } from "../store/useFoundStore";
 import { Theme, useParkPalette, useStyles, useTheme } from "../theme/ThemeProvider";
@@ -62,6 +63,10 @@ export default function ParkScreen() {
       })),
     [parkId, filter]
   );
+
+  // Park history and trivia. Independent of the finds filter so it does not
+  // disappear when a filter empties the list above it.
+  const parkFacts = useMemo(() => getFactsForPark(parkId), [parkId]);
 
   // By day the header is the park's solid accent; by night it stays a dark
   // surface and the accent moves into the text so the screen is not blinding.
@@ -142,6 +147,35 @@ export default function ParkScreen() {
               ))}
             </View>
           ))}
+
+          {parkFacts.length > 0 && (
+            <View style={styles.section}>
+              <View style={styles.sectionHeader}>
+                <Text style={styles.sectionTitle} accessibilityRole="header">
+                  Did you know?
+                </Text>
+                <Text style={styles.sectionMeta}>
+                  {parkFacts.length} {parkFacts.length === 1 ? "fact" : "facts"}
+                </Text>
+              </View>
+              <View style={styles.factsCard}>
+                {parkFacts.map((fact, index) => (
+                  <React.Fragment key={fact.id}>
+                    {index > 0 && <View style={styles.divider} />}
+                    <View style={styles.fact}>
+                      <View style={[styles.factIcon, { backgroundColor: palette.tint }]}>
+                        <Ionicons name="bulb-outline" size={16} color={palette.text} />
+                      </View>
+                      <View style={styles.factText}>
+                        <Text style={styles.factTitle}>{fact.title}</Text>
+                        <Text style={styles.factBody}>{fact.body}</Text>
+                      </View>
+                    </View>
+                  </React.Fragment>
+                ))}
+              </View>
+            </View>
+          )}
 
           <View style={styles.suggestCard}>
             <Text style={styles.suggestTitle}>Know one we're missing?</Text>
@@ -277,6 +311,38 @@ const createStyles = (t: Theme) =>
       height: 1,
       marginHorizontal: spacing.md - 2,
       backgroundColor: t.colors.border,
+    },
+    factsCard: {
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.md,
+      overflow: "hidden",
+    },
+    fact: {
+      flexDirection: "row",
+      alignItems: "flex-start",
+      gap: spacing.sm + 4,
+      paddingVertical: spacing.md - 2,
+      paddingHorizontal: spacing.md - 2,
+    },
+    factIcon: {
+      width: 32,
+      height: 32,
+      borderRadius: 16,
+      alignItems: "center",
+      justifyContent: "center",
+      marginTop: 1,
+    },
+    factText: {
+      flex: 1,
+      gap: spacing.xs,
+    },
+    factTitle: {
+      ...text.itemTitle,
+      color: t.colors.text,
+    },
+    factBody: {
+      ...text.bodySmall,
+      color: t.colors.textSecondary,
     },
     suggestCard: {
       alignItems: "flex-start",

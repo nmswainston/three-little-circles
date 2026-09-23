@@ -1,15 +1,18 @@
 #!/usr/bin/env node
 /**
- * Builds src/data/entries.generated.ts from content/entries/*.json.
+ * Builds src/data/entries.generated.ts from content/entries/*.json and
+ * src/data/facts.generated.ts from content/facts/*.json.
  *
  * Every entry lives in its own JSON file so new Hidden Mickeys can be added
  * without touching app code. This script validates each file against the
  * HiddenMickeyEntry schema, checks cross-entry consistency, and emits a typed
- * TypeScript module the app imports.
+ * TypeScript module the app imports. Park facts (history and trivia about a
+ * destination rather than a find inside it) go through the same pipeline
+ * with their own, smaller schema.
  *
  * Usage:
- *   node scripts/build-entries.mjs          # validate and write the generated file
- *   node scripts/build-entries.mjs --check  # validate and fail if the generated file is stale
+ *   node scripts/build-entries.mjs          # validate and write the generated files
+ *   node scripts/build-entries.mjs --check  # validate and fail if a generated file is stale
  */
 import { readdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
 import { join, dirname, basename } from "node:path";
@@ -17,7 +20,10 @@ import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const contentDir = join(root, "content", "entries");
+const factsDir = join(root, "content", "facts");
+const destinationsFile = join(root, "content", "destinations.json");
 const outFile = join(root, "src", "data", "entries.generated.ts");
+const factsOutFile = join(root, "src", "data", "facts.generated.ts");
 const checkOnly = process.argv.includes("--check");
 
 const ENUMS = {
@@ -216,25 +222,118 @@ function render(entries) {
   ].join("\n");
 }
 
+// ---------------------------------------------------------------------------
+// Park facts: history and trivia about a destination, shown on its Park screen.
+// A fact targets one parkId or a whole region, both taken from destinations.json.
+// ---------------------------------------------------------------------------
+
+const FACT_KEYS = new Set(["id", "parkId", "region", "title", "body", "createdAtISO", "updatedAtISO"]);
+
+function loadDestinations() {
+  const list = JSON.parse(readFileSync(destinationsFile, "utf8"));
+  return {
+    parkIds: new Set(list.map((d) => d.parkId)),
+    regions: new Set(list.map((d) => d.region)),
+  };
+}
+
+function validateFact(file, f, destinations) {
+  if (typeof f !== "object" || f === null || Array.isArray(f)) {
+    fail(file, "must be a JSON object");
+    return;
+  }
+  checkKeys(file, "fact", f, FACT_KEYS);
+
+  for (const field of ["id", "title", "body"]) {
+    if (!isNonEmptyString(f[field])) fail(file, `missing required string "${field}"`);
+  }
+  if (isNonEmptyString(f.id)) {
+    if (!ID_PATTERN.test(f.id)) fail(file, `id "${f.id}" must be lowercase kebab-case`);
+    if (basename(file, ".json") !== f.id) fail(file, `file name must match id "${f.id}"`);
+  }
+
+  const hasPark = f.parkId !== undefined;
+  const hasRegion = f.region !== undefined;
+  if (hasPark === hasRegion) {
+    fail(file, `set exactly one of "parkId" or "region"`);
+  }
+  if (hasPark && !destinations.parkIds.has(f.parkId)) {
+    fail(file, `"parkId" "${f.parkId}" is not listed in content/destinations.json`);
+  }
+  if (hasRegion && !destinations.regions.has(f.region)) {
+    fail(file, `"region" "${f.region}" is not listed in content/destinations.json`);
+  }
+
+  for (const field of ["createdAtISO", "updatedAtISO"]) {
+    if (f[field] !== undefined && Number.isNaN(Date.parse(f[field]))) {
+      fail(file, `"${field}" must be an ISO 8601 date string`);
+    }
+  }
+}
+
+function loadFacts() {
+  // The facts folder is optional so a content set without any still builds.
+  if (!existsSync(factsDir)) return [];
+  const destinations = loadDestinations();
+  const files = readdirSync(factsDir).filter((f) => f.endsWith(".json")).sort();
+  const facts = [];
+  const seenIds = new Map();
+  for (const file of files) {
+    const rel = `content/facts/${file}`;
+    let parsed;
+    try {
+      parsed = JSON.parse(readFileSync(join(factsDir, file), "utf8"));
+    } catch (err) {
+      fail(rel, `invalid JSON (${err.message})`);
+      continue;
+    }
+    validateFact(rel, parsed, destinations);
+    if (parsed && typeof parsed.id === "string") {
+      if (seenIds.has(parsed.id)) fail(rel, `duplicate id "${parsed.id}" (also in ${seenIds.get(parsed.id)})`);
+      seenIds.set(parsed.id, rel);
+    }
+    facts.push(parsed);
+  }
+  return facts;
+}
+
+function renderFacts(facts) {
+  const body = JSON.stringify(facts, null, 2);
+  return [
+    "// GENERATED FILE. Do not edit by hand.",
+    "// Source: content/facts/*.json. Rebuild with `npm run content:build`.",
+    'import type { ParkFact } from "./types";',
+    "",
+    `export const facts: ParkFact[] = ${body};`,
+    "",
+  ].join("\n");
+}
+
 const entries = loadEntries();
+const facts = loadFacts();
 if (errors.length > 0) {
   console.error(`Content validation failed with ${errors.length} problem(s):\n`);
   for (const e of errors) console.error(`  - ${e}`);
   process.exit(1);
 }
 
-const output = render(entries);
+const outputs = [
+  { path: outFile, label: "src/data/entries.generated.ts", content: render(entries) },
+  { path: factsOutFile, label: "src/data/facts.generated.ts", content: renderFacts(facts) },
+];
 // Git may check the generated file out with CRLF line endings on Windows;
 // compare content, not line terminators.
 const normalize = (s) => s.replace(/\r\n/g, "\n");
 if (checkOnly) {
-  const current = existsSync(outFile) ? readFileSync(outFile, "utf8") : "";
-  if (normalize(current) !== normalize(output)) {
-    console.error("src/data/entries.generated.ts is out of date. Run `npm run content:build`.");
-    process.exit(1);
+  for (const { path, label, content } of outputs) {
+    const current = existsSync(path) ? readFileSync(path, "utf8") : "";
+    if (normalize(current) !== normalize(content)) {
+      console.error(`${label} is out of date. Run \`npm run content:build\`.`);
+      process.exit(1);
+    }
   }
-  console.log(`Validated ${entries.length} entries; generated file is up to date.`);
+  console.log(`Validated ${entries.length} entries and ${facts.length} facts; generated files are up to date.`);
 } else {
-  writeFileSync(outFile, output);
-  console.log(`Validated ${entries.length} entries and wrote src/data/entries.generated.ts.`);
+  for (const { path, content } of outputs) writeFileSync(path, content);
+  console.log(`Validated ${entries.length} entries and ${facts.length} facts and wrote the generated files.`);
 }
