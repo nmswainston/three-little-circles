@@ -39,7 +39,7 @@ change rather than a code change.
 
 ## Features
 
-- Browse by park, land, and attraction, filtered to Hidden Mickeys or easter eggs
+- Browse by park, land, and attraction, filtered to Hidden Mickeys or Hidden Surprises
 - Every entry spells out the scene, exact spot, orientation, viewing conditions, best tip, and confidence
 - Mark finds and track progress overall, by park, by land, and by attraction
 - Hide found: a hunting mode on every park screen that leaves only what's left to spot
