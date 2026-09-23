@@ -11,7 +11,7 @@ const details = (n: number) => `${n} hidden detail${n === 1 ? "" : "s"}`;
  * to look within the scene, so a share can't spoil the hunt for the reader.
  */
 export function entryShareText(entry: HiddenMickeyEntry, found: boolean): string {
-  const title = labelOrFallback(entry.display?.entryTitle, "a hidden detail");
+  const title = labelOrFallback(entry.display?.entryTitle, "hidden detail");
   const attraction = entry.display?.attractionName?.trim();
   const park = entry.display?.parkName?.trim();
   const place = [attraction ? `at ${attraction}` : "", park ? `in ${park}` : ""].filter(Boolean).join(" ");

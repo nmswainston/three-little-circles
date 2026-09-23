@@ -47,7 +47,7 @@ const PAGES: Page[] = [
     key: "found",
     eyebrow: "Keep score",
     title: "Mark it. Keep it.",
-    body: "Tap Found and it counts toward your progress and badges. Everything stays on your phone. No account, no sign-in.",
+    body: "Tap Found and it counts toward your progress and badges. Your finds stay on your phone. No account needed.",
     icon: "checkmark-circle",
   },
 ];

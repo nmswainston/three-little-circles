@@ -96,7 +96,14 @@ export default function ProfileScreen() {
   };
 
   const handleExport = async () => {
-    const outcome = await shareText(backupToText(exportBackup()), "Three Little Circles backup");
+    let text: string;
+    try {
+      text = backupToText(exportBackup());
+    } catch (error) {
+      notify("Still loading", error instanceof Error ? error.message : "Try again in a moment.");
+      return;
+    }
+    const outcome = await shareText(text, "Three Little Circles backup");
     if (outcome === "copied") notify("Copied", "Your backup is on the clipboard. Paste it somewhere you can reach from your other phone.");
     else if (outcome === "unavailable") notify("Couldn't share", "Sharing isn't available here.");
   };

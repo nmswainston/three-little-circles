@@ -25,7 +25,11 @@ approved it, rewritten it if needed, and shipped it as content.
 4. Turn on anonymous sign-ins under **Authentication > Sign In / Providers >
    Anonymous**. "Still there?" reports use them so every report is tied to an
    id the server issued, not one the client picked. No email, password, or
-   personal detail is involved.
+   personal detail is involved. Then bound how many identities one actor can
+   mint: lower the anonymous sign-in limit under **Authentication > Rate
+   Limits**, and turn on CAPTCHA under **Authentication > Attack Protection**.
+   Without those, someone with a script could create users until a freshness
+   label reads the way they want.
 
 5. Run `npm run supabase:check`. It confirms both tables exist, that the anon
    key cannot read them, that anonymous sign-ins are on (this creates one
@@ -94,8 +98,11 @@ Every entry has two buttons, "Saw it today" and "Couldn't find it". The first
 tap signs the install in anonymously; every tap then inserts one row into
 `public.confirmations` with the entry id and the status. The server fills in
 the voter id from the session, and the insert policy refuses a row that claims
-any other id, so one phone cannot vote as many. The table allows at most 30
-reports per voter per hour, and nobody but the service role can read it.
+any other id, so a client cannot vote under an id it chose. A client can still
+sign in anonymously again, so the anonymous sign-in rate limit and CAPTCHA from
+the setup steps are what keep one actor from becoming many. The table allows
+at most 30 reports per voter per hour, and nobody but the service role can
+read it.
 
 The app never reads the table. Instead:
 

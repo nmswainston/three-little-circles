@@ -37,8 +37,8 @@ describe('describeFreshness', () => {
     expect(result.detail).toBe("1 saw it · 2 couldn't find it");
   });
 
-  it('ships with no summaries until the first pull', () => {
-    expect(getConfirmation('pirates-exit-bells-mickey')).toBeUndefined();
+  it('returns undefined for an entry with no summary', () => {
+    expect(getConfirmation('__no-such-entry__')).toBeUndefined();
   });
 });
 

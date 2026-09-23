@@ -155,11 +155,13 @@ create policy "anon can upload submission photos"
 -- Still there? One row per tap on an entry: "seen" today, or "missing".
 --
 -- The app signs in anonymously, then inserts. device_id is filled from the
--- session on the server and the policy refuses any other value, so the
--- rate limit and the one-vote-per-device summary rest on an id the client
--- cannot choose. `npm run confirmations:pull` reads the last 90 days with
--- the service role key, keeps one vote per device per entry (its latest),
--- and bakes the summary into src/data/confirmations.generated.ts.
+-- session on the server and the policy refuses any other value, so a client
+-- cannot vote under an id it chose. It can still mint new anonymous users,
+-- so how far one actor can tilt a summary is bounded by the project's
+-- anonymous sign-in rate limit and CAPTCHA (see supabase/README.md), not by
+-- this schema. `npm run confirmations:pull` reads the last 90 days with the
+-- service role key, keeps one vote per device per entry (its latest), and
+-- bakes the summary into src/data/confirmations.generated.ts.
 -- ---------------------------------------------------------------------------
 create table if not exists public.confirmations (
   id          uuid primary key default gen_random_uuid(),
