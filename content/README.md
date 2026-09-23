@@ -73,6 +73,32 @@ What the importer does for you:
 | `coordinates` | no | `latitude` and `longitude` as decimal degrees. Entries without coordinates are listed on the map screen but not pinned. |
 | `createdAtISO`, `updatedAtISO` | no | ISO 8601 timestamps |
 
+## Park facts
+
+Facts are history and trivia about a park or resort area itself, as opposed to
+a find inside it: how the land was bought, what the sphere is made of, why the
+park is on the second floor. They show in a "Did you know?" section at the
+bottom of the Park screen and do not count toward progress.
+
+Each fact is one JSON file under `content/facts/`. Copy
+[`TEMPLATE.fact.json`](TEMPLATE.fact.json) to `content/facts/<id>.json` and run
+`npm run content:build`, which validates it and regenerates
+`src/data/facts.generated.ts`. Commit both.
+
+| Field | Required | Values |
+| --- | --- | --- |
+| `id` | yes | kebab-case slug, unique across all facts, must match the file name |
+| `parkId` | one of | a `parkId` from `destinations.json`; the fact shows on that Park screen |
+| `region` | one of | a region from `destinations.json`; the fact shows on every Park screen in that region, after the park's own facts |
+| `title` | yes | a few words |
+| `body` | yes | two to four sentences |
+| `createdAtISO`, `updatedAtISO` | no | ISO 8601 timestamps |
+
+Set exactly one of `parkId` or `region`. Use `region` for resort-wide history
+such as how the Florida land was assembled, and `parkId` for anything specific
+to one park. Facts are shown in id order, so a numeric or alphabetical prefix
+controls the order within a park if you need one.
+
 ## Naming conventions
 
 The app is an unofficial fan project. Park, land, and attraction display names
