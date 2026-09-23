@@ -1,0 +1,39 @@
+{
+  "id": "snowy-mountain-approach-climbing-gear-mickey",
+  "parkId": "adventure_park",
+  "landId": "asia_village_area",
+  "attractionId": "snowy_mountain_coaster",
+  "display": {
+    "entryTitle": "Approach Eaves Climbing Gear Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Asia Village Area",
+    "attractionName": "Snowy Mountain Coaster"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "Expedition supplies hang from the rooflines of the village buildings on the walk toward the mountain: coils of rope, lanterns, packs and climbing hardware. In one spot three of those round pieces of gear hang together and form a Mickey head. Nobody sees it because everyone on that path is looking up at the peak, not up at the eaves.",
+  "whereToLook": {
+    "scene": "The village buildings along the walkway approaching the mountain",
+    "exactSpot": "Beneath the overhanging rooflines, in the clusters of hanging climbing equipment. Look for three round pieces that sit together as a head and two ears.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Stop walking. This one only lines up from a particular spot on the path, so take a few steps in each direction and keep checking the eaves as the angle changes.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "The gear hangs in deep shade under the eaves while the sky behind is bright, so the shapes read as silhouettes rather than objects."
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3592,
+    "longitude": -81.5872
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

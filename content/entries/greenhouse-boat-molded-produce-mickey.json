@@ -1,0 +1,42 @@
+{
+  "id": "greenhouse-boat-molded-produce-mickey",
+  "parkId": "showcase_park",
+  "landId": "nature_area",
+  "attractionId": "greenhouse_boat_ride",
+  "display": {
+    "entryTitle": "Mold-Grown Produce Mickeys",
+    "parkName": "Showcase Park",
+    "landName": "Nature Area",
+    "attractionName": "Greenhouse Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "The growing houses are not only a science exhibit, they are a workshop. Among the rows the horticulture team sometimes raises pumpkins and cucumbers inside Mickey-shaped molds, so the fruit swells into a three-circle head as it grows. It is a living Hidden Mickey, which also means it is a seasonal one.",
+  "whereToLook": {
+    "scene": "The greenhouse portion of the boat ride, in the smaller display beds rather than the tall production rows",
+    "exactSpot": "Scan low, at fruit level, for a pumpkin or cucumber that has grown into the outline of a Mickey head instead of a round shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "This one comes and goes with the growing calendar. Fall is the best bet for the pumpkins, and the walking tour of the greenhouses gets you far closer than the boat does.",
+  "funFacts": [
+    "The shapes are grown, not carved. A rigid mold is fitted around the young fruit and it fills the form as it matures."
+  ],
+  "viewing": {
+    "motion": "Slow",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Medium",
+    "notes": "Displays rotate with the season and with what the team is growing, so an empty trip is normal. The greenhouses are bright, so nothing hides in shadow here."
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3737,
+    "longitude": -81.5527
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

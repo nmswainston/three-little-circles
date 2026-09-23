@@ -330,6 +330,45 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "cartoon-railway-queue-light-scrollwork-mickeys",
+    "parkId": "studios_park",
+    "landId": "boulevard_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Queue Light Scrollwork Mickeys",
+      "parkName": "Studios Park",
+      "landName": "Boulevard Area",
+      "attractionName": "Cartoon Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Queue",
+    "description": "The round ceiling lights along the theater queue are ringed with metal scrollwork, and the curls are not random. Each one resolves into a Mickey profile once you recognize the ear. The queue keeps your attention at eye level on the posters and marquees, so the ceiling stays unread.",
+    "whereToLook": {
+      "scene": "The theater queue corridor, the round light fixtures overhead",
+      "exactSpot": "The decorative metal scrollwork ringing each light. Trace the outer curl and the head and ear profile appears.",
+      "orientation": "Sideways"
+    },
+    "bestTip": "Look straight up the moment the line stops moving. Every fixture carries the same detail, so you get plenty of chances down the corridor.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium",
+      "notes": "The fixtures are lit from inside, so the scrollwork reads best as a dark silhouette against the glow."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3563,
+      "longitude": -81.5604
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
     "id": "cartoon-railway-waterfall-clam-pearls-mickey",
     "parkId": "studios_park",
     "landId": "boulevard_area",
@@ -470,6 +509,45 @@ export const entries: HiddenMickeyEntry[] = [
       "distance": "Far"
     },
     "confidence": "Obvious",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4201,
+      "longitude": -81.5815
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "concert-hall-show-moon-craters-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "concert_hall_show",
+    "display": {
+      "entryTitle": "Moon Craters Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Concert Hall Show"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "During the magic carpet sequence the film sweeps out over a night sky, and the moon that hangs in the upper right of the screen is not as plain as it looks. Three gray craters sit on its surface in the classic three-circle arrangement. The carpet and the song pull every eye to the center of the screen, which is exactly why the moon goes unnoticed.",
+    "whereToLook": {
+      "scene": "The flying carpet sequence over the night sky",
+      "exactSpot": "Upper right corner of the screen. Find the moon and read the three gray craters on its face.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Sit back a few rows so the whole wide screen is in your view at once, then watch the corner instead of the carpet.",
+    "viewing": {
+      "motion": "Fast",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Far",
+      "notes": "The shot is brief and the theater is dark. Knowing which corner to watch ahead of time is most of the battle."
+    },
+    "confidence": "Strong",
     "verification": "Community",
     "coordinates": {
       "latitude": 28.4201,
@@ -893,6 +971,44 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "floating-mountains-approach-rock-holes-mickey",
+    "parkId": "adventure_park",
+    "landId": "floating_mountains_area",
+    "attractionId": "entrance_walkway",
+    "display": {
+      "entryTitle": "Approach Rock Holes Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Floating Mountains Area",
+      "attractionName": "Entrance Walkway"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "On the path that leads over from the savanna village into the valley, a large rock sits on the left side of the walkway. Three weathered holes in its face line up as a Mickey head tipped over to the left. Whether the rockwork crew meant it is an open question, so treat this one as a bonus rather than a sure thing.",
+    "whereToLook": {
+      "scene": "The connecting path from the savanna village toward the valley entrance",
+      "exactSpot": "The large rock on the left side of the path. Find three round hollows in the stone face, arranged as a head and two ears tilted to the left."
+    },
+    "bestTip": "Tilt your head to the left as you look. Upright it reads as ordinary erosion, and at a slight angle the three circles snap into place.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Low sun casts shadow inside the hollows and makes them far easier to separate from the surrounding rock than flat midday light does."
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3581,
+      "longitude": -81.5915
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
     "id": "floating-mountains-walkway-mushroom-mickey",
@@ -1608,6 +1724,48 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "In-person",
+    "coordinates": {
+      "latitude": 28.3737,
+      "longitude": -81.5527
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "greenhouse-boat-molded-produce-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "greenhouse_boat_ride",
+    "display": {
+      "entryTitle": "Mold-Grown Produce Mickeys",
+      "parkName": "Showcase Park",
+      "landName": "Nature Area",
+      "attractionName": "Greenhouse Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "The growing houses are not only a science exhibit, they are a workshop. Among the rows the horticulture team sometimes raises pumpkins and cucumbers inside Mickey-shaped molds, so the fruit swells into a three-circle head as it grows. It is a living Hidden Mickey, which also means it is a seasonal one.",
+    "whereToLook": {
+      "scene": "The greenhouse portion of the boat ride, in the smaller display beds rather than the tall production rows",
+      "exactSpot": "Scan low, at fruit level, for a pumpkin or cucumber that has grown into the outline of a Mickey head instead of a round shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "This one comes and goes with the growing calendar. Fall is the best bet for the pumpkins, and the walking tour of the greenhouses gets you far closer than the boat does.",
+    "funFacts": [
+      "The shapes are grown, not carved. A rigid mold is fitted around the young fruit and it fills the form as it matures."
+    ],
+    "viewing": {
+      "motion": "Slow",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Medium",
+      "notes": "Displays rotate with the season and with what the team is growing, so an empty trip is normal. The greenhouses are bright, so nothing hides in shadow here."
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
     "coordinates": {
       "latitude": 28.3737,
       "longitude": -81.5527
@@ -2670,6 +2828,45 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "mine-train-lift-hill-pickaxe-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "storybook_forest_area",
+    "attractionId": "mine_train_coaster",
+    "display": {
+      "entryTitle": "Lift Hill Pickaxe Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Forest Area",
+      "attractionName": "Mine Train Coaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "A tiny Mickey shouldering a pickaxe is worked into one of the wooden support beams near the top of the lift hill, just before the train leaves the indoor mine and rolls back out into daylight. He is small, he is on the right, and you get about two seconds of him while the chain is still clacking.",
+    "whereToLook": {
+      "scene": "Top of the lift hill, the last stretch of the indoor mine section before the train exits",
+      "exactSpot": "Right side of the train, on the wooden beams framing the tunnel. Look for the small carved figure holding a pickaxe rather than a three-circle shape.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Pick a right-hand seat and start scanning the beams as soon as the chain grabs the train, not once you can see the exit.",
+    "viewing": {
+      "motion": "Slow",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "Low",
+      "distance": "Close",
+      "notes": "The mine interior is deliberately dark and the climb is short, so your eyes need to be adjusted before the beams come into view."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.4206,
+      "longitude": -81.5801
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
     "id": "mine-train-loading-log-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "storybook_forest_area",
@@ -2707,6 +2904,45 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "morocco-bazaar-door-plates-mickey",
+    "parkId": "showcase_park",
+    "landId": "morocco_pavilion",
+    "attractionId": "bazaar_shops",
+    "display": {
+      "entryTitle": "Door Display Plates Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Morocco Pavilion",
+      "attractionName": "Bazaar Shops"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "The pavilion's shops are packed corner to corner with brass, tile and hand-painted pottery, and somewhere in that clutter three plates hang in the classic three-circle arrangement. They sit on the decorative doorway panelling, where the eye slides straight past them on the way to the merchandise tables.",
+    "whereToLook": {
+      "scene": "Inside the bazaar shops, the carved and painted doors and the wall panelling around them",
+      "exactSpot": "One large plate with two smaller plates hung above it as ears, mounted flat against the decorative door surround.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Step just inside the doorway and turn back toward the way you came in. The display reads as a Mickey only from a few steps away, not with your nose against it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "The shop interiors are deliberately dim and every surface is patterned, so the three circles have a lot of competition."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3676,
+      "longitude": -81.5518
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
     "id": "mouse-house-player-piano-roll-mickeys",
@@ -3278,6 +3514,84 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
+    "id": "snowy-mountain-approach-climbing-gear-mickey",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "snowy_mountain_coaster",
+    "display": {
+      "entryTitle": "Approach Eaves Climbing Gear Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Asia Village Area",
+      "attractionName": "Snowy Mountain Coaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "Expedition supplies hang from the rooflines of the village buildings on the walk toward the mountain: coils of rope, lanterns, packs and climbing hardware. In one spot three of those round pieces of gear hang together and form a Mickey head. Nobody sees it because everyone on that path is looking up at the peak, not up at the eaves.",
+    "whereToLook": {
+      "scene": "The village buildings along the walkway approaching the mountain",
+      "exactSpot": "Beneath the overhanging rooflines, in the clusters of hanging climbing equipment. Look for three round pieces that sit together as a head and two ears.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Stop walking. This one only lines up from a particular spot on the path, so take a few steps in each direction and keep checking the eaves as the angle changes.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "The gear hangs in deep shade under the eaves while the sky behind is bright, so the shapes read as silhouettes rather than objects."
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3592,
+      "longitude": -81.5872
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "snowy-mountain-queue-woodwork-mickey",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "snowy_mountain_coaster",
+    "display": {
+      "entryTitle": "Outdoor Queue Woodwork Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Asia Village Area",
+      "attractionName": "Snowy Mountain Coaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "Before the line goes indoors it winds past carved timber railings and painted window frames, all of it detailed to look like a mountain village that has stood for generations. A classic three-circle Mickey is cut into that woodwork. Because every board is already covered in carved pattern, the shape passes as one more piece of folk decoration.",
+    "whereToLook": {
+      "scene": "The outdoor stretch of queue before the entrance, the carved timber railings and window surrounds",
+      "exactSpot": "Scan the carved panels at rail height for three joined circles amid the repeating folk pattern.",
+      "orientation": "Upright"
+    },
+    "bestTip": "The outdoor queue is where you have time to look. Once the line moves inside it does not come back out, so work the railings while you are still in daylight.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "On a walk-on morning the queue is nearly empty and you can inspect the carvings at your own pace."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3589,
+      "longitude": -81.587
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
     "id": "space-mission-mars-landing-dishes-mickey",
     "parkId": "showcase_park",
     "landId": "discovery_area",
@@ -3552,6 +3866,48 @@ export const entries: HiddenMickeyEntry[] = [
     "coordinates": {
       "latitude": 28.3563,
       "longitude": -81.56
+    },
+    "createdAtISO": "2026-09-23T00:00:00.000Z",
+    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "sunset-walkway-sidewalk-contractor-stamp",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "sunset_walkway",
+    "display": {
+      "entryTitle": "Sidewalk Contractor Stamp",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Sunset Walkway"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Walkway",
+    "description": "Real city sidewalks carry a small stamp from whoever poured the concrete, and the boulevard plays along. Pressed into the pavement near the curb is a contractor's mark crediting Mortimer and dated 1928. Both halves are a wink: Mortimer was the name first floated for the mouse before Minnie's name took it, and 1928 is the year he made his screen debut.",
+    "whereToLook": {
+      "scene": "The boulevard sidewalk running toward the theater end of the street, close to the curb",
+      "exactSpot": "Look down at the concrete slabs near the gutter line for a stamped contractor's mark reading Mortimer and 1928."
+    },
+    "bestTip": "Walk the curb edge rather than the middle of the street. Morning light rakes across the stamp and makes the pressed letters far easier to read.",
+    "funFacts": [
+      "Mortimer was the name originally suggested for the character. It was set aside, then later reused for Mickey's rival.",
+      "1928 is the year of the mouse's first released cartoon, which makes the date on the sidewalk a birth year rather than a pour date."
+    ],
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "Foot traffic covers it constantly, so wait for a gap in the crowd rather than trying to read it mid-stream."
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "coordinates": {
+      "latitude": 28.3589,
+      "longitude": -81.5594
     },
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"

@@ -1,0 +1,39 @@
+{
+  "id": "concert-hall-show-moon-craters-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "concert_hall_show",
+  "display": {
+    "entryTitle": "Moon Craters Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Concert Hall Show"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "During the magic carpet sequence the film sweeps out over a night sky, and the moon that hangs in the upper right of the screen is not as plain as it looks. Three gray craters sit on its surface in the classic three-circle arrangement. The carpet and the song pull every eye to the center of the screen, which is exactly why the moon goes unnoticed.",
+  "whereToLook": {
+    "scene": "The flying carpet sequence over the night sky",
+    "exactSpot": "Upper right corner of the screen. Find the moon and read the three gray craters on its face.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Sit back a few rows so the whole wide screen is in your view at once, then watch the corner instead of the carpet.",
+  "viewing": {
+    "motion": "Fast",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Far",
+    "notes": "The shot is brief and the theater is dark. Knowing which corner to watch ahead of time is most of the battle."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4201,
+    "longitude": -81.5815
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

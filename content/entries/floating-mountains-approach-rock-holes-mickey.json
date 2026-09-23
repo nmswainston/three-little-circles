@@ -1,0 +1,38 @@
+{
+  "id": "floating-mountains-approach-rock-holes-mickey",
+  "parkId": "adventure_park",
+  "landId": "floating_mountains_area",
+  "attractionId": "entrance_walkway",
+  "display": {
+    "entryTitle": "Approach Rock Holes Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Floating Mountains Area",
+    "attractionName": "Entrance Walkway"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "On the path that leads over from the savanna village into the valley, a large rock sits on the left side of the walkway. Three weathered holes in its face line up as a Mickey head tipped over to the left. Whether the rockwork crew meant it is an open question, so treat this one as a bonus rather than a sure thing.",
+  "whereToLook": {
+    "scene": "The connecting path from the savanna village toward the valley entrance",
+    "exactSpot": "The large rock on the left side of the path. Find three round hollows in the stone face, arranged as a head and two ears tilted to the left."
+  },
+  "bestTip": "Tilt your head to the left as you look. Upright it reads as ordinary erosion, and at a slight angle the three circles snap into place.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "Low sun casts shadow inside the hollows and makes them far easier to separate from the surrounding rock than flat midday light does."
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3581,
+    "longitude": -81.5915
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "cartoon-railway-queue-light-scrollwork-mickeys",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Queue Light Scrollwork Mickeys",
+    "parkName": "Studios Park",
+    "landName": "Boulevard Area",
+    "attractionName": "Cartoon Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Easy",
+  "areaContext": "Queue",
+  "description": "The round ceiling lights along the theater queue are ringed with metal scrollwork, and the curls are not random. Each one resolves into a Mickey profile once you recognize the ear. The queue keeps your attention at eye level on the posters and marquees, so the ceiling stays unread.",
+  "whereToLook": {
+    "scene": "The theater queue corridor, the round light fixtures overhead",
+    "exactSpot": "The decorative metal scrollwork ringing each light. Trace the outer curl and the head and ear profile appears.",
+    "orientation": "Sideways"
+  },
+  "bestTip": "Look straight up the moment the line stops moving. Every fixture carries the same detail, so you get plenty of chances down the corridor.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium",
+    "notes": "The fixtures are lit from inside, so the scrollwork reads best as a dark silhouette against the glow."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}
