@@ -1,0 +1,39 @@
+{
+  "id": "morocco-bazaar-door-plates-mickey",
+  "parkId": "showcase_park",
+  "landId": "morocco_pavilion",
+  "attractionId": "bazaar_shops",
+  "display": {
+    "entryTitle": "Door Display Plates Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Morocco Pavilion",
+    "attractionName": "Bazaar Shops"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "The pavilion's shops are packed corner to corner with brass, tile and hand-painted pottery, and somewhere in that clutter three plates hang in the classic three-circle arrangement. They sit on the decorative doorway panelling, where the eye slides straight past them on the way to the merchandise tables.",
+  "whereToLook": {
+    "scene": "Inside the bazaar shops, the carved and painted doors and the wall panelling around them",
+    "exactSpot": "One large plate with two smaller plates hung above it as ears, mounted flat against the decorative door surround.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Step just inside the doorway and turn back toward the way you came in. The display reads as a Mickey only from a few steps away, not with your nose against it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "The shop interiors are deliberately dim and every surface is patterned, so the three circles have a lot of competition."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3676,
+    "longitude": -81.5518
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

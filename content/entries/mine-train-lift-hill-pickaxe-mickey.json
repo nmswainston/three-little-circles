@@ -1,0 +1,39 @@
+{
+  "id": "mine-train-lift-hill-pickaxe-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "mine_train_coaster",
+  "display": {
+    "entryTitle": "Lift Hill Pickaxe Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Forest Area",
+    "attractionName": "Mine Train Coaster"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "A tiny Mickey shouldering a pickaxe is worked into one of the wooden support beams near the top of the lift hill, just before the train leaves the indoor mine and rolls back out into daylight. He is small, he is on the right, and you get about two seconds of him while the chain is still clacking.",
+  "whereToLook": {
+    "scene": "Top of the lift hill, the last stretch of the indoor mine section before the train exits",
+    "exactSpot": "Right side of the train, on the wooden beams framing the tunnel. Look for the small carved figure holding a pickaxe rather than a three-circle shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Pick a right-hand seat and start scanning the beams as soon as the chain grabs the train, not once you can see the exit.",
+  "viewing": {
+    "motion": "Slow",
+    "lighting": "Dim",
+    "angle": "Right",
+    "crowding": "Low",
+    "distance": "Close",
+    "notes": "The mine interior is deliberately dark and the climb is short, so your eyes need to be adjusted before the beams come into view."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4206,
+    "longitude": -81.5801
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

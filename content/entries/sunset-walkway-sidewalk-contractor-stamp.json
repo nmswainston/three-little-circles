@@ -1,0 +1,42 @@
+{
+  "id": "sunset-walkway-sidewalk-contractor-stamp",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "sunset_walkway",
+  "display": {
+    "entryTitle": "Sidewalk Contractor Stamp",
+    "parkName": "Studios Park",
+    "landName": "Sunset Area",
+    "attractionName": "Sunset Walkway"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Walkway",
+  "description": "Real city sidewalks carry a small stamp from whoever poured the concrete, and the boulevard plays along. Pressed into the pavement near the curb is a contractor's mark crediting Mortimer and dated 1928. Both halves are a wink: Mortimer was the name first floated for the mouse before Minnie's name took it, and 1928 is the year he made his screen debut.",
+  "whereToLook": {
+    "scene": "The boulevard sidewalk running toward the theater end of the street, close to the curb",
+    "exactSpot": "Look down at the concrete slabs near the gutter line for a stamped contractor's mark reading Mortimer and 1928."
+  },
+  "bestTip": "Walk the curb edge rather than the middle of the street. Morning light rakes across the stamp and makes the pressed letters far easier to read.",
+  "funFacts": [
+    "Mortimer was the name originally suggested for the character. It was set aside, then later reused for Mickey's rival.",
+    "1928 is the year of the mouse's first released cartoon, which makes the date on the sidewalk a birth year rather than a pour date."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "Foot traffic covers it constantly, so wait for a gap in the crowd rather than trying to read it mid-stream."
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3589,
+    "longitude": -81.5594
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

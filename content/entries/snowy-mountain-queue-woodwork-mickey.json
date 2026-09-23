@@ -1,0 +1,39 @@
+{
+  "id": "snowy-mountain-queue-woodwork-mickey",
+  "parkId": "adventure_park",
+  "landId": "asia_village_area",
+  "attractionId": "snowy_mountain_coaster",
+  "display": {
+    "entryTitle": "Outdoor Queue Woodwork Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Asia Village Area",
+    "attractionName": "Snowy Mountain Coaster"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "Before the line goes indoors it winds past carved timber railings and painted window frames, all of it detailed to look like a mountain village that has stood for generations. A classic three-circle Mickey is cut into that woodwork. Because every board is already covered in carved pattern, the shape passes as one more piece of folk decoration.",
+  "whereToLook": {
+    "scene": "The outdoor stretch of queue before the entrance, the carved timber railings and window surrounds",
+    "exactSpot": "Scan the carved panels at rail height for three joined circles amid the repeating folk pattern.",
+    "orientation": "Upright"
+  },
+  "bestTip": "The outdoor queue is where you have time to look. Once the line moves inside it does not come back out, so work the railings while you are still in daylight.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "On a walk-on morning the queue is nearly empty and you can inspect the carvings at your own pace."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3589,
+    "longitude": -81.587
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}
