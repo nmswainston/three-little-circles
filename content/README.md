@@ -71,6 +71,7 @@ What the importer does for you:
 | `confidence` | no | `Obvious`, `Strong`, `Interpretive` |
 | `verification` | no | `In-person`, `Photo`, `Community`, `Unknown` |
 | `coordinates` | no | `latitude` and `longitude` as decimal degrees. Entries without coordinates are listed on the map screen but not pinned. |
+| `image` | no | `file` (a photo in `content/images/`), `alt` (required, what it shows), `credit` (optional). See [content/images/README.md](images/README.md) for the rules. Blurred in the app until revealed while hints are on. |
 | `createdAtISO`, `updatedAtISO` | no | ISO 8601 timestamps |
 
 ## Park facts

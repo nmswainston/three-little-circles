@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 /**
- * Builds src/data/entries.generated.ts from content/entries/*.json and
- * src/data/facts.generated.ts from content/facts/*.json.
+ * Builds src/data/entries.generated.ts from content/entries/*.json,
+ * src/data/facts.generated.ts from content/facts/*.json, and
+ * src/data/images.generated.ts from the entries' "image" fields and the
+ * files in content/images/.
  *
  * Every entry lives in its own JSON file so new Hidden Mickeys can be added
  * without touching app code. This script validates each file against the
@@ -13,17 +15,22 @@
  * Usage:
  *   node scripts/build-entries.mjs          # validate and write the generated files
  *   node scripts/build-entries.mjs --check  # validate and fail if a generated file is stale
+ *
+ * TLC_CONTENT_ROOT points the script at another project root (content/ in,
+ * src/data/ out). The tests use it to run the validator against fixtures.
  */
-import { readdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
-import { join, dirname, basename } from "node:path";
+import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from "node:fs";
+import { join, dirname, basename, extname } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const root = join(dirname(fileURLToPath(import.meta.url)), "..");
+const root = process.env.TLC_CONTENT_ROOT || join(dirname(fileURLToPath(import.meta.url)), "..");
 const contentDir = join(root, "content", "entries");
 const factsDir = join(root, "content", "facts");
 const destinationsFile = join(root, "content", "destinations.json");
 const outFile = join(root, "src", "data", "entries.generated.ts");
 const factsOutFile = join(root, "src", "data", "facts.generated.ts");
+const imagesDir = join(root, "content", "images");
+const imagesOutFile = join(root, "src", "data", "images.generated.ts");
 const checkOnly = process.argv.includes("--check");
 
 const ENUMS = {
@@ -43,10 +50,16 @@ const TOP_LEVEL_KEYS = new Set([
   "id", "parkId", "landId", "attractionId", "display", "entryType",
   "locationType", "difficulty", "areaContext", "description", "whereToLook",
   "bestTip", "funFacts", "viewing", "confidence", "verification",
-  "coordinates", "createdAtISO", "updatedAtISO",
+  "coordinates", "image", "createdAtISO", "updatedAtISO",
 ]);
 const DISPLAY_KEYS = new Set(["parkName", "landName", "attractionName", "entryTitle"]);
 const VIEWING_KEYS = new Set(["motion", "lighting", "angle", "crowding", "distance", "notes"]);
+const IMAGE_KEYS = new Set(["file", "alt", "credit"]);
+const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp"]);
+const IMAGE_FILE_PATTERN = /^[a-z0-9]+(-[a-z0-9]+)*\.[a-z]+$/;
+// Every photo ships inside the app, so keep each one small. About 1200 px on
+// the long side as a JPEG lands well under this.
+const IMAGE_MAX_BYTES = 300 * 1024;
 const ID_PATTERN = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
 const errors = [];
@@ -149,11 +162,52 @@ function validateEntry(file, e) {
     }
   }
 
+  if (e.image !== undefined) validateImage(file, e.image);
+
   for (const field of ["createdAtISO", "updatedAtISO"]) {
     if (e[field] !== undefined && Number.isNaN(Date.parse(e[field]))) {
       fail(file, `"${field}" must be an ISO 8601 date string`);
     }
   }
+}
+
+function validateImage(file, image) {
+  if (typeof image !== "object" || image === null || Array.isArray(image)) {
+    fail(file, `"image" must be an object with "file" and "alt"`);
+    return;
+  }
+  checkKeys(file, "image", image, IMAGE_KEYS);
+  if (!isNonEmptyString(image.alt)) fail(file, `"image.alt" is required: say what the photo shows`);
+  checkOptionalString(file, "image.credit", image.credit);
+
+  if (!isNonEmptyString(image.file)) {
+    fail(file, `"image.file" is required`);
+    return;
+  }
+  const name = image.file;
+  if (!IMAGE_FILE_PATTERN.test(name) || !IMAGE_EXTENSIONS.has(extname(name))) {
+    fail(file, `"image.file" "${name}" must be a lowercase kebab-case name ending in .jpg, .jpeg, .png, or .webp`);
+    return;
+  }
+  const path = join(imagesDir, name);
+  if (!existsSync(path)) {
+    fail(file, `"image.file" "${name}" is not in content/images/`);
+    return;
+  }
+  const bytes = statSync(path).size;
+  if (bytes > IMAGE_MAX_BYTES) {
+    const kb = Math.round(bytes / 1024);
+    fail(file, `content/images/${name} is ${kb} KB; keep photos under ${IMAGE_MAX_BYTES / 1024} KB (about 1200 px on the long side as a JPEG)`);
+  }
+}
+
+/** Image files nobody references. Reported, not failed, so a photo can land a commit before its entry. */
+function unusedImages(entries) {
+  if (!existsSync(imagesDir)) return [];
+  const used = new Set(entries.map((e) => e.image?.file).filter(Boolean));
+  return readdirSync(imagesDir)
+    .filter((f) => IMAGE_EXTENSIONS.has(extname(f)) && !used.has(f))
+    .sort();
 }
 
 function checkConsistency(entries) {
@@ -208,6 +262,24 @@ function loadEntries() {
   }
   checkConsistency(entries);
   return entries.map((x) => x.entry);
+}
+
+function renderImages(entries) {
+  const lines = entries
+    .filter((e) => e.image)
+    .map((e) => `  ${JSON.stringify(e.id)}: require(${JSON.stringify(`../../content/images/${e.image.file}`)}),`);
+  return [
+    "// GENERATED FILE. Do not edit by hand.",
+    '// Source: the "image" field of content/entries/*.json and the files in content/images/.',
+    "// Rebuild with `npm run content:build`.",
+    'import type { ImageSourcePropType } from "react-native";',
+    "",
+    "/** Bundled reference photos by entry id. Metro needs each require to be a literal. */",
+    lines.length > 0
+      ? `export const images: Record<string, ImageSourcePropType> = {\n${lines.join("\n")}\n};`
+      : "export const images: Record<string, ImageSourcePropType> = {};",
+    "",
+  ].join("\n");
 }
 
 function render(entries) {
@@ -311,6 +383,8 @@ function renderFacts(facts) {
 
 const entries = loadEntries();
 const facts = loadFacts();
+const orphans = unusedImages(entries);
+for (const name of orphans) console.log(`note: content/images/${name} is not referenced by any entry yet`);
 if (errors.length > 0) {
   console.error(`Content validation failed with ${errors.length} problem(s):\n`);
   for (const e of errors) console.error(`  - ${e}`);
@@ -320,7 +394,9 @@ if (errors.length > 0) {
 const outputs = [
   { path: outFile, label: "src/data/entries.generated.ts", content: render(entries) },
   { path: factsOutFile, label: "src/data/facts.generated.ts", content: renderFacts(facts) },
+  { path: imagesOutFile, label: "src/data/images.generated.ts", content: renderImages(entries) },
 ];
+const photoCount = entries.filter((e) => e.image).length;
 // Git may check the generated file out with CRLF line endings on Windows;
 // compare content, not line terminators.
 const normalize = (s) => s.replace(/\r\n/g, "\n");
@@ -332,8 +408,8 @@ if (checkOnly) {
       process.exit(1);
     }
   }
-  console.log(`Validated ${entries.length} entries and ${facts.length} facts; generated files are up to date.`);
+  console.log(`Validated ${entries.length} entries, ${facts.length} facts, and ${photoCount} photos; generated files are up to date.`);
 } else {
   for (const { path, content } of outputs) writeFileSync(path, content);
-  console.log(`Validated ${entries.length} entries and ${facts.length} facts and wrote the generated files.`);
+  console.log(`Validated ${entries.length} entries, ${facts.length} facts, and ${photoCount} photos and wrote the generated files.`);
 }
