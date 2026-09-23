@@ -1,0 +1,37 @@
+{
+  "id": "critter-carousel-armadillo-spots-mickey",
+  "parkId": "california_pier_park",
+  "landId": "boardwalk_pier_area",
+  "attractionId": "critter_carousel",
+  "display": {
+    "entryTitle": "Armadillo Spots Mickey",
+    "parkName": "Pier Park",
+    "landName": "Boardwalk Pier Area",
+    "attractionName": "Critter Carousel"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "description": "A classic three-circle Mickey made of spots sits on the right front shoulder of the blue armadillo on the carousel. The armadillo is in the second ring of critters, inside the outer ring, so you have to look past the outer animals to see it.",
+  "whereToLook": {
+    "scene": "The carousel, the second ring of critters inside the outer ring",
+    "exactSpot": "Blue armadillo. Three spots on the right front shoulder form the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Wait for the ride to stop and find the blue armadillo in the inner ring, or ride it and check the shoulder before you climb on.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Right",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 33.8045,
+    "longitude": -117.9212
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

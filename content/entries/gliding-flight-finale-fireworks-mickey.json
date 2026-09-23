@@ -1,0 +1,36 @@
+{
+  "id": "gliding-flight-finale-fireworks-mickey",
+  "parkId": "showcase_park",
+  "landId": "nature_area",
+  "attractionId": "gliding_flight_theater",
+  "display": {
+    "entryTitle": "Finale Fireworks Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Nature Area",
+    "attractionName": "Gliding Flight Theater"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Easy",
+  "areaContext": "Ride",
+  "description": "In the finale, the fireworks burst into a classic three-circle Hidden Mickey. It is one of the better-known moments on the ride, but it still catches first-time riders who are watching the ground below.",
+  "whereToLook": {
+    "scene": "Finale fireworks at the end of the flight",
+    "exactSpot": "In the fireworks bursts. Three bursts form the classic shape."
+  },
+  "bestTip": "Keep your eyes on the sky during the finale rather than the park below.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "distance": "Far"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3737,
+    "longitude": -81.5527
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

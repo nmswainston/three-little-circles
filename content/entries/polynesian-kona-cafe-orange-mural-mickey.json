@@ -1,0 +1,38 @@
+{
+  "id": "polynesian-kona-cafe-orange-mural-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "polynesian_village_resort",
+  "attractionId": "kona_cafe",
+  "display": {
+    "entryTitle": "Orange Mural Mickey",
+    "parkName": "Resorts",
+    "landName": "Polynesian Village Resort",
+    "attractionName": "Kona Cafe"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "description": "Three incomplete circles form a subtle classic Hidden Mickey in the middle of the orange mural on the wall above the sushi bar inside the cafe. The partial head and the left ear are the easiest parts to see, while the right ear is only partly outlined by a light orange line.",
+  "whereToLook": {
+    "scene": "Orange mural on the wall above the sushi bar inside the cafe",
+    "exactSpot": "Middle of the mural. A partial head and the ear on your left are the clearest. The right ear is traced by a faint light orange line.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Look for the left ear and the head first, then let your eye complete the right ear from the faint outline.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "Subtle by design. Stepping back a few feet helps the circles resolve."
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4056,
+    "longitude": -81.5854
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "jungle-palace-first-arch-leaves-mickey",
+  "parkId": "adventure_park",
+  "landId": "asia_village_area",
+  "attractionId": "jungle_palace_trail",
+  "display": {
+    "entryTitle": "First Arch Mural Leaves Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Asia Village Area",
+    "attractionName": "Jungle Palace Trail"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "Inside the first archway near the tiger viewing area, a mural on the left contains three leaves that form a classic three-circle Hidden Mickey. The trail has more than ten Hidden Mickeys, and this is one of the two easiest to pin down.",
+  "whereToLook": {
+    "scene": "First archway near the tiger exhibit, the mural on the left",
+    "exactSpot": "Three leaves in the mural form the classic shape."
+  },
+  "bestTip": "Stop under the arch and scan the leaves in the left mural before moving on to the tigers.",
+  "funFacts": [
+    "The trail is said to hold more than ten Hidden Mickeys. The leaves inside the first arch and the cloud past the second arch are the two easiest to find."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Left",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3598,
+    "longitude": -81.5892
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

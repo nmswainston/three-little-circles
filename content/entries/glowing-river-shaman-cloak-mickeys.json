@@ -1,0 +1,37 @@
+{
+  "id": "glowing-river-shaman-cloak-mickeys",
+  "parkId": "adventure_park",
+  "landId": "floating_mountains_area",
+  "attractionId": "glowing_river_boats",
+  "display": {
+    "entryTitle": "Shaman Cloak Holes Mickeys",
+    "parkName": "Adventure Park",
+    "landName": "Floating Mountains Area",
+    "attractionName": "Glowing River Boats"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "Toward the end of the glowing river boat ride, the chanting animated shaman on your right wears a reddish cloak with black holes cut into it. Near the edges of the lower cloak, hanging from the backs of both arms, some of those holes form tilted classic Mickeys. They show only for moments, between the arms and the body, as the shaman lifts and moves the arms.",
+  "whereToLook": {
+    "scene": "Chanting animated shaman figure on your right toward the end of the ride",
+    "exactSpot": "Lower parts of the cloak hanging from the backs of both arms, near the edges. Black holes in the reddish fabric form tilted three-circle shapes that appear as the arms lift."
+  },
+  "bestTip": "Watch the gaps between the arms and the body rather than the face. The shapes come and go with each arm movement, so you get several chances.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Right",
+    "distance": "Medium",
+    "notes": "Riders on the right side of the boat have the closer view. The holes read as black against the red fabric."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3553,
+    "longitude": -81.5918
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

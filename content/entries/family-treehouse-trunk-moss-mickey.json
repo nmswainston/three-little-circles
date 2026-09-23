@@ -1,0 +1,38 @@
+{
+  "id": "family-treehouse-trunk-moss-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "family_treehouse",
+  "display": {
+    "entryTitle": "Trunk Moss Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Jungle Outpost Area",
+    "attractionName": "Family Treehouse"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "A classic three-circle Hidden Mickey is camouflaged in the moss and bark of the giant tree's trunk. It blends so well into the texture that guests hurrying up the stairs walk right past it.",
+  "whereToLook": {
+    "scene": "The giant tree's trunk, from the walkway around the base of the treehouse",
+    "exactSpot": "In the moss and bark on the trunk. Look for three circles that stand out from the surrounding texture."
+  },
+  "bestTip": "Stop at the base before you climb and scan the trunk slowly at eye level and just above.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "Circle the base if you can. The shape is camouflaged, so let your eye relax."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4182,
+    "longitude": -81.5832
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

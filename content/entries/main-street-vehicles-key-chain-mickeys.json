@@ -1,0 +1,37 @@
+{
+  "id": "main-street-vehicles-key-chain-mickeys",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "main_street_vehicles",
+  "display": {
+    "entryTitle": "Ignition Key Chain Mickeys",
+    "parkName": "Kingdom Park",
+    "landName": "Main Street Area",
+    "attractionName": "Main Street Vehicles"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "description": "On the fire engine and the horseless carriages that run up and down the street, the key chain hanging from the ignition key in front of the driver often holds a smiling Mickey or Minnie. The vehicles keep moving and the chain is small, so you have to catch one while it is stopped.",
+  "whereToLook": {
+    "scene": "Fire engine or a horseless carriage on the street, in front of the driver",
+    "exactSpot": "Key chain hanging from the ignition key. Look for a Mickey or Minnie charm."
+  },
+  "bestTip": "Wait at a stop where the vehicles load and look at the dashboard before they pull away.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "The charm varies by vehicle and by day, so check more than one."
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 33.8113,
+    "longitude": -117.919
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "flying-pirate-ship-cannonballs-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "flying_pirate_ship_ride",
+  "display": {
+    "entryTitle": "Pirate Ship Cannonballs Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Village Area",
+    "attractionName": "Flying Pirate Ship Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "An upside-down classic three-circle Hidden Mickey is stacked out of cannonballs on the deck of the pirate ship where the sword fight is happening. The cannonballs sit against a red post behind the first mate, and with the fight drawing your eye, the stack looks like ordinary deck clutter.",
+  "whereToLook": {
+    "scene": "Pirate ship scene where the sword fight is taking place, as you fly over the deck",
+    "exactSpot": "Cannonballs against a red post, behind the first mate. They form the classic shape upside down.",
+    "orientation": "Upside-down"
+  },
+  "bestTip": "Ignore the sword fight and scan the deck behind the first mate for the red post.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Below",
+    "distance": "Medium",
+    "notes": "You pass over the ship quickly. Riders on the side nearest the ship get the better angle."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 33.8131,
+    "longitude": -117.9188
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

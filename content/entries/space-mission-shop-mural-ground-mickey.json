@@ -1,0 +1,42 @@
+{
+  "id": "space-mission-shop-mural-ground-mickey",
+  "parkId": "showcase_park",
+  "landId": "discovery_area",
+  "attractionId": "space_mission_simulator",
+  "display": {
+    "entryTitle": "Shop Mural Ground Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Discovery Area",
+    "attractionName": "Space Mission Simulator"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Shop",
+  "description": "A classic three-circle Hidden Mickey is worked into the painted ground directly under Minnie Mouse's left foot in the large mural behind the gift shop's cash register. The mural is busy with characters, spacecraft, and planets, and the shape sits low and small, so most guests never pick it out of the painted terrain.",
+  "whereToLook": {
+    "scene": "Large space mural on the wall behind the cash register in the gift shop at the ride exit",
+    "exactSpot": "Find Minnie Mouse in the mural and look at the ground directly under her left foot.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Locate Minnie first, then drop your eyes straight down. This is the hardest of the three in this mural, so start here while the counter is quiet.",
+  "funFacts": [
+    "This mural hides three separate Hidden Mickeys. The other two are the thrusters behind the blue shuttle and the lower part of the moon."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "The mural is behind the register counter, so you will be looking from the customer side. Wait for a gap between transactions for a clear view."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3742,
+    "longitude": -81.5471
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

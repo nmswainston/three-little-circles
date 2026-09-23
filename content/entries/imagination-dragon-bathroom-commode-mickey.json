@@ -1,0 +1,36 @@
+{
+  "id": "imagination-dragon-bathroom-commode-mickey",
+  "parkId": "showcase_park",
+  "landId": "nature_area",
+  "attractionId": "imagination_dragon_ride",
+  "display": {
+    "entryTitle": "Bathroom Commode Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Nature Area",
+    "attractionName": "Imagination Dragon Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Inside the dragon's house near the end of the ride, the commode in his bathroom is shaped as a classic three-circle Hidden Mickey. The bathroom is a quick pass with plenty going on, and riders tend to look at the dragon rather than the fixtures.",
+  "whereToLook": {
+    "scene": "The dragon's house, the bathroom",
+    "exactSpot": "The commode. Its shape is the classic three circles."
+  },
+  "bestTip": "When the bathroom comes into view, look at the fixtures rather than the character.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3728,
+    "longitude": -81.5525
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

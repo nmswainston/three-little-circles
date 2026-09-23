@@ -1,0 +1,37 @@
+{
+  "id": "pirate-boat-queue-gun-cabinet-locks-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "pirate_port_area",
+  "attractionId": "pirate_boat_ride",
+  "display": {
+    "entryTitle": "Queue Gun Cabinet Locks Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Pirate Port Area",
+    "attractionName": "Pirate Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "Four large gun cabinets hang on the walls of the standby queue as you enter the fort, two on each side. The locks on the cabinets form a classic three-circle Hidden Mickey. The cabinets are dim and the queue keeps moving, so most guests pass them without a second look.",
+  "whereToLook": {
+    "scene": "Standby entrance queue inside the fort, the four large gun cabinets hanging on both side walls",
+    "exactSpot": "The locks on the cabinet doors. They form the classic shape."
+  },
+  "bestTip": "Slow down at the first cabinet you reach and study the lock rather than the guns behind the glass.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4181,
+    "longitude": -81.5843
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "cosmic-coaster-city-model-water-mickey",
+  "parkId": "showcase_park",
+  "landId": "discovery_area",
+  "attractionId": "cosmic_coaster",
+  "display": {
+    "entryTitle": "City Model Water Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Discovery Area",
+    "attractionName": "Cosmic Coaster"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "A small metal classic three-circle Hidden Mickey sits in the water of the colorful scale model of a city on the planet Xandar along the standby queue. The model's lights cycle on and off, so the shape is only visible part of the time, and it is easy to walk past while the display is dark.",
+  "whereToLook": {
+    "scene": "Colorful lit model of the Xandar city along the standby entrance queue",
+    "exactSpot": "In the water between two bridges, find the semicircular grid of small interconnected metallic circles. The Mickey is near the outer edge of that grid.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Start scanning as soon as you begin walking around the model and wait through one full lighting cycle. The shape shows up when the water section is lit.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "The display lights up intermittently. If the queue is moving quickly you may get only one lit cycle at the right spot, and faster entry lines may bypass this part of the queue."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3755,
+    "longitude": -81.5469
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "undersea-clamshell-queue-rockwork-steamboat-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "undersea_clamshell_ride",
+  "display": {
+    "entryTitle": "Rockwork Steamboat Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Forest Area",
+    "attractionName": "Undersea Clamshell Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "A Mickey in his 1928 steamboat-era look is worked into the rockwork of the outdoor queue. It is a full figure rather than three circles, small and the same color as the rock, and almost nobody stumbles onto it by accident.",
+  "whereToLook": {
+    "scene": "Outdoor rockwork of the standby queue",
+    "exactSpot": "Carved into the rock faces along the queue. Look for the silhouette of the early cartoon Mickey rather than a three-circle shape."
+  },
+  "bestTip": "Scan the rock at and just above eye level as you move, and look for a figure rather than circles.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "The exact section of the queue is not pinned down. If you find it, note where and send it in."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4219,
+    "longitude": -81.5793
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

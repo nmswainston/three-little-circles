@@ -1,0 +1,39 @@
+{
+  "id": "wild-motorcar-sherlock-holmes-window",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "wild_motorcar_ride",
+  "display": {
+    "entryTitle": "Constabulary Window Sherlock Holmes",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Village Area",
+    "attractionName": "Wild Motorcar Ride"
+  },
+  "entryType": "FACT",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the city scene with the fountain, a silhouette of Sherlock Holmes stands in the second-floor window above the constabulary door, which has a green frame around it. It is a nod to a famous detective rather than a Disney character, and it goes by quickly as your motorcar leaves the pub.",
+  "whereToLook": {
+    "scene": "City room with the fountain, just after the pub where the bartender spins the mugs",
+    "exactSpot": "As you leave the pub room, look directly left and slightly up. The silhouette is in the second-floor window above the green-framed constabulary door."
+  },
+  "bestTip": "Get ready as the mugs stop spinning. The window is to your left the moment you exit the pub.",
+  "funFacts": [
+    "Sherlock Holmes is not a Disney character, which makes this one a Hidden Surprise rather than a Hidden Mickey."
+  ],
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Left",
+    "distance": "Medium"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 33.8133,
+    "longitude": -117.9187
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

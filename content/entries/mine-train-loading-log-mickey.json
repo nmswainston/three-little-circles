@@ -1,0 +1,39 @@
+{
+  "id": "mine-train-loading-log-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "mine_train_coaster",
+  "display": {
+    "entryTitle": "Loading Dock Log Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Forest Area",
+    "attractionName": "Mine Train Coaster"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Loading",
+  "description": "An upright classic three-circle Hidden Mickey is traced into the wood of a horizontal log near the ceiling of the loading station. It sits across the track from the front rows, so only guests waiting near the front of the train are lined up with it, and most of them are watching the coaster instead of the rafters.",
+  "whereToLook": {
+    "scene": "Loading station, across the track from the boarding rows at the front of the train",
+    "exactSpot": "Horizontal log near the ceiling. The shape is traced into the wood in the middle of the log, toward the front end of the station.",
+    "orientation": "Upright"
+  },
+  "bestTip": "If you are assigned one of the front few rows, look up and across the track while the train ahead of you is loading.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium",
+    "notes": "Rows toward the back of the station are not lined up with the log, so this one depends on where you are placed."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4206,
+    "longitude": -81.5801
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

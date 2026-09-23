@@ -1,0 +1,36 @@
+{
+  "id": "undersea-clamshell-song-scene-coral-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "undersea_clamshell_ride",
+  "display": {
+    "entryTitle": "Song Scene Purple Coral Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Forest Area",
+    "attractionName": "Undersea Clamshell Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "During the big under-the-sea song scene, several pieces of purple coral are arranged as a classic three-circle Hidden Mickey, with two on the floor and one on the wall. The scene is bright, busy, and spinning with dancing sea creatures, which is exactly why the coral goes unnoticed.",
+  "whereToLook": {
+    "scene": "The scene where the crab sings the under-the-sea song",
+    "exactSpot": "Purple corals: two on the floor and one on the wall, together forming the classic shape."
+  },
+  "bestTip": "Look low along the floor at the purple coral as the song starts and let the wall piece complete the shape.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4219,
+    "longitude": -81.5793
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

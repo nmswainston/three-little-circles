@@ -1,0 +1,40 @@
+{
+  "id": "studios-plaza-layout-mickey-face",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "central_plaza",
+  "display": {
+    "entryTitle": "Park Layout Mickey Face",
+    "parkName": "Studios Park",
+    "landName": "Boulevard Area",
+    "attractionName": "Central Plaza"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "The center of the park was laid out as a giant Mickey face, visible from above. The plaza in front of the theater at the end of the boulevard is the face, the lake to the north is one ear, and the other ear was painted on a roof behind the boulevard restaurant. Changes over the years have chipped away at it, but the eyes are still set in the pavement and the nose is now the stage in front of the theater.",
+  "whereToLook": {
+    "scene": "The plaza in front of the theater at the end of the boulevard, seen on a map or from above",
+    "exactSpot": "The eyes are set into the pavement of the plaza. The stage in front of the theater sits where the nose was, and the lake to the north forms one ear."
+  },
+  "bestTip": "Pull up the park map or a satellite view and trace the circle of the plaza before you look for the eyes on the ground.",
+  "funFacts": [
+    "The second ear was once painted on the roof of the building behind the boulevard restaurant. It has since been removed, and later construction has softened the outline further."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.56
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

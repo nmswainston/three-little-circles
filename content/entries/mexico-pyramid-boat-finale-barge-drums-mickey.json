@@ -1,0 +1,36 @@
+{
+  "id": "mexico-pyramid-boat-finale-barge-drums-mickey",
+  "parkId": "showcase_park",
+  "landId": "mexico_pavilion",
+  "attractionId": "pyramid_boat_ride",
+  "display": {
+    "entryTitle": "Finale Barge Drums Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Mexico Pavilion",
+    "attractionName": "Pyramid Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "At the end of the boat ride, a barge floats on your left, and the bongo drums on it carry a classic three-circle Hidden Mickey. The finale is bright and noisy, and the boat is already turning toward the dock.",
+  "whereToLook": {
+    "scene": "End of the boat ride, the barge on your left",
+    "exactSpot": "The bongo drums on the barge. The shape is on the drums."
+  },
+  "bestTip": "As the last scene opens, look left at the barge and go straight to the drums.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Left",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3708,
+    "longitude": -81.5468
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

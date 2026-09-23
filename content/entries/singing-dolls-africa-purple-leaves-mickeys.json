@@ -1,0 +1,36 @@
+{
+  "id": "singing-dolls-africa-purple-leaves-mickeys",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "singing_dolls_boat_ride",
+  "display": {
+    "entryTitle": "Africa Scene Purple Leaves Mickeys",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Singing Dolls Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Easy",
+  "areaContext": "Ride",
+  "description": "In the Africa section of the boat ride, purple leaves hang from the ceiling near the giraffe, and several of them are cut as classic three-circle Hidden Mickeys. They are overhead, and with singing dolls at eye level on every side, few riders ever look up.",
+  "whereToLook": {
+    "scene": "Africa section of the ride, the giraffe and the purple leaves hanging from the ceiling near it",
+    "exactSpot": "The purple leaves overhead by the giraffe. Several are shaped as the classic three circles."
+  },
+  "bestTip": "When you spot the giraffe, look up rather than at the dolls.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4204,
+    "longitude": -81.5827
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

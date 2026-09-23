@@ -1,0 +1,38 @@
+{
+  "id": "polynesian-kona-cafe-flower-petal-mickeys",
+  "parkId": "resorts_bucket",
+  "landId": "polynesian_village_resort",
+  "attractionId": "kona_cafe",
+  "display": {
+    "entryTitle": "Wall Flowers Petal Mickeys",
+    "parkName": "Resorts",
+    "landName": "Polynesian Village Resort",
+    "attractionName": "Kona Cafe"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "description": "Two clusters of large decorative flowers decorate the rear and side walls inside the cafe. On the purple flower at the center of each cluster, a tiny classic three-circle Mickey sits on the upper part of the right-hand petal. The shape is small and not quite perfect, which is why diners look straight past it.",
+  "whereToLook": {
+    "scene": "Inside the cafe, the two clusters of large decorative flowers on the rear and side walls",
+    "exactSpot": "The purple flower in the middle of each cluster. Look at the upper part of its right-side petal for a tiny three-circle shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Find the purple flower first, then focus only on its right petal. There is one on each cluster, so check both walls.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "The cafe is table service. If you are not dining, ask a Cast Member whether you can take a quick look at the walls."
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4056,
+    "longitude": -81.5854
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

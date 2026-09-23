@@ -1,0 +1,38 @@
+{
+  "id": "japan-gallery-fridge-magnets-mickey",
+  "parkId": "showcase_park",
+  "landId": "japan_pavilion",
+  "attractionId": "culture_gallery",
+  "display": {
+    "entryTitle": "Gallery Fridge Magnets Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Japan Pavilion",
+    "attractionName": "Culture Gallery"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "description": "A classic three-circle Hidden Mickey is made of magnets on the door of the refrigerator in the kawaii cute-culture exhibit in the gallery at the rear of the pavilion. The fridge is covered in magnets and small decorations, so the three that form the shape hide in plain sight among the rest.",
+  "whereToLook": {
+    "scene": "Kawaii cute-culture exhibit in the gallery at the rear of the pavilion, the decorated refrigerator",
+    "exactSpot": "Upper left of the refrigerator door. Three magnets form the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Start at the top left corner of the door and work inward. Ignore the character magnets and look for three plain circles touching.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Close",
+    "notes": "Gallery exhibits rotate. If the cute-culture exhibit has been replaced, this find may no longer be present."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3672,
+    "longitude": -81.5504
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

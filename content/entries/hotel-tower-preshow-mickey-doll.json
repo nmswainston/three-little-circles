@@ -1,0 +1,40 @@
+{
+  "id": "hotel-tower-preshow-mickey-doll",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "hotel_drop_tower",
+  "display": {
+    "entryTitle": "Pre-Show Mickey Doll",
+    "parkName": "Studios Park",
+    "landName": "Sunset Area",
+    "attractionName": "Hotel Drop Tower"
+  },
+  "entryType": "FIND",
+  "locationType": "Pre-show",
+  "difficulty": "Easy",
+  "description": "In the pre-show film that plays on the old television in the hotel library, a little girl among the guests stepping into the elevator on Halloween night in 1939 is holding a Mickey Mouse doll styled the way Mickey looked in that era. The doll is easy to see in the film, and the same girl and her doll flash past as ghostly visions moments after your own elevator starts to move.",
+  "whereToLook": {
+    "scene": "Pre-show library room where the film plays on the television, then again briefly on the ride",
+    "exactSpot": "In the film, watch the family entering the hotel elevator. The little girl is holding a 1939-style Mickey Mouse doll."
+  },
+  "bestTip": "Spot the doll in the pre-show first so you know what to look for. On the ride, the same visions appear only for an instant just after you begin to move.",
+  "funFacts": [
+    "The guests in the film are the ones who vanished from the hotel on Halloween night in 1939, and the same figures, including the girl and her doll, appear as apparitions as your elevator drops."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium",
+    "notes": "The pre-show room is crowded and the screen is small, so stand where you have a clear view of the television. The ride reprise goes by very quickly."
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.36,
+    "longitude": -81.5599
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

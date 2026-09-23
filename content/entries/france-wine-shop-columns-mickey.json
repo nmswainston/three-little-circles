@@ -1,0 +1,37 @@
+{
+  "id": "france-wine-shop-columns-mickey",
+  "parkId": "showcase_park",
+  "landId": "france_pavilion",
+  "attractionId": "wine_shop",
+  "display": {
+    "entryTitle": "Wine Shop Columns Mickey",
+    "parkName": "Showcase Park",
+    "landName": "France Pavilion",
+    "attractionName": "Wine Shop"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "Before you enter the pavilion's wine shop, look up at the columns framing the entrance. A classic three-circle Hidden Mickey is worked into their detail, well above where shoppers look as they walk in.",
+  "whereToLook": {
+    "scene": "Entrance to the wine shop, the columns on either side",
+    "exactSpot": "Up on the columns, in their decorative detail."
+  },
+  "bestTip": "Look up before you step inside, not after.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3684,
+    "longitude": -81.5528
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

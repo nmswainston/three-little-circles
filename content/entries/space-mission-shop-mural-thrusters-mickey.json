@@ -1,0 +1,42 @@
+{
+  "id": "space-mission-shop-mural-thrusters-mickey",
+  "parkId": "showcase_park",
+  "landId": "discovery_area",
+  "attractionId": "space_mission_simulator",
+  "display": {
+    "entryTitle": "Shop Mural Thrusters Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Discovery Area",
+    "attractionName": "Space Mission Simulator"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "An upside-down classic three-circle Hidden Mickey is formed by three round thrusters on the back of the blue shuttle in the large mural behind the gift shop's cash register. The thrusters read as ordinary engine detail, and because the shape is inverted, guests scanning for an upright Mickey pass right over it.",
+  "whereToLook": {
+    "scene": "Large space mural on the wall behind the cash register in the gift shop at the ride exit",
+    "exactSpot": "Find the blue shuttle. The three round thrusters behind it form the classic shape, upside down.",
+    "orientation": "Upside-down"
+  },
+  "bestTip": "Picture the shuttle flipped over. The two smaller thrusters are the ears, hanging below the larger one.",
+  "funFacts": [
+    "This mural hides three separate Hidden Mickeys. The other two are in the ground under Minnie Mouse's left foot and on the lower part of the moon."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "The mural is behind the register counter, so you will be looking from the customer side. Wait for a gap between transactions for a clear view."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3742,
+    "longitude": -81.5471
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

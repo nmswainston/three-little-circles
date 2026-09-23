@@ -1,0 +1,39 @@
+{
+  "id": "honey-pot-queue-tree-pebbles-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "honey_pot_ride",
+  "display": {
+    "entryTitle": "Queue Tree Pebbles Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Honey Pot Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Easy",
+  "areaContext": "Queue",
+  "description": "Inside the play tree in front of the ride, three pebbles pushed into the cement that forms the tree make a classic three-circle Hidden Mickey. It is placed at kid height inside a kid space, so adults usually only find it when they duck in after their children.",
+  "whereToLook": {
+    "scene": "The hollow play tree in the queue in front of the ride",
+    "exactSpot": "Step inside, turn around, and look up a bit. Three pebbles pressed into the cement form the shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Duck in, turn to face the way you came, and look up.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "A favorite for kids. Adults will need to crouch."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4201,
+    "longitude": -81.5807
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

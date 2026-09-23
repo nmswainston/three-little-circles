@@ -1,0 +1,36 @@
+{
+  "id": "american-pavilion-settlers-painting-horse-leg-mickey",
+  "parkId": "showcase_park",
+  "landId": "american_pavilion",
+  "attractionId": "rotunda_paintings",
+  "display": {
+    "entryTitle": "Settlers Painting Horse Leg Mickey",
+    "parkName": "Showcase Park",
+    "landName": "American Pavilion",
+    "attractionName": "Rotunda Paintings"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "description": "In the painting of early settlers crossing a river, a classic three-circle Hidden Mickey is hidden near one of the horse's legs. The painting is large and detailed, and the shape is small enough to pass for brushwork.",
+  "whereToLook": {
+    "scene": "Paintings on display inside the pavilion, the one showing early settlers crossing a river",
+    "exactSpot": "Near the leg of one of the horses."
+  },
+  "bestTip": "Find the horses first, then check the ground and water around each leg.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3663,
+    "longitude": -81.5498
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

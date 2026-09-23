@@ -1,0 +1,38 @@
+{
+  "id": "hotel-tower-lobby-coins-mickey",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "hotel_drop_tower",
+  "display": {
+    "entryTitle": "Lobby Inbox Coins Mickey",
+    "parkName": "Studios Park",
+    "landName": "Sunset Area",
+    "attractionName": "Hotel Drop Tower"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "A classic three-circle Hidden Mickey is usually laid out with three coins in a wooden inbox tray on a counter in the dusty hotel lobby, just before the queue splits off toward the pre-show rooms. Cast Members arrange the coins by hand, so the shape is sometimes upside down and occasionally missing, and the low light hides it from anyone who does not glance left at the right moment.",
+  "whereToLook": {
+    "scene": "Hotel lobby along the standby queue, just before you are directed into the pre-show rooms",
+    "exactSpot": "On your left, a wooden inbox tray of coins sits on a counter. Three coins, often at the lower left of the tray, form the classic shape."
+  },
+  "bestTip": "Slow down as the line approaches the pre-show doors and look left at the counter before a Cast Member waves you through.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Left",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "The coins are set by hand and may be upright, upside down, or scattered on any given day. Check the tray even if the shape is not obvious at first."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.36,
+    "longitude": -81.5599
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}
