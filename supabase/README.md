@@ -22,15 +22,21 @@ approved it, rewritten it if needed, and shipped it as content.
    The anon key is safe to ship in the app: the policies in `schema.sql` let it
    insert a pending submission and upload a photo, and nothing else.
 
-4. Run `npm run supabase:check`. It confirms the table exists, that the anon key
-   cannot read the queue, and (if the service role key is set) that the photo
-   bucket is private. It sends and stores nothing.
+4. Turn on anonymous sign-ins under **Authentication > Sign In / Providers >
+   Anonymous**. "Still there?" reports use them so every report is tied to an
+   id the server issued, not one the client picked. No email, password, or
+   personal detail is involved.
 
-5. For device builds, add the same two variables to your EAS project
+5. Run `npm run supabase:check`. It confirms both tables exist, that the anon
+   key cannot read them, that anonymous sign-ins are on (this creates one
+   throwaway anonymous user), and (if the service role key is set) that the
+   photo bucket is private. It sends no content.
+
+6. For device builds, add the same two variables to your EAS project
    environment (`eas env:create`, or the Environment variables page on
    expo.dev), otherwise the built app will say submissions aren't set up.
 
-6. For the import script only, also copy the **service role** key into `.env`
+7. For the import script only, also copy the **service role** key into `.env`
    as `SUPABASE_SERVICE_ROLE_KEY`. This key bypasses every policy. It is read by
    the script on your machine and never bundled into the app; `app.config.js`
    does not reference it.
@@ -84,10 +90,12 @@ raw text and, if they opted in, their name.
 
 ## Still there? reports
 
-Every entry has two buttons, "Saw it today" and "Couldn't find it". A tap
-inserts one row into `public.confirmations` with the entry id, the status, and
-the same random device id used for submissions. The anon key can insert and
-nothing else, and the table allows at most 30 reports per device per hour.
+Every entry has two buttons, "Saw it today" and "Couldn't find it". The first
+tap signs the install in anonymously; every tap then inserts one row into
+`public.confirmations` with the entry id and the status. The server fills in
+the voter id from the session, and the insert policy refuses a row that claims
+any other id, so one phone cannot vote as many. The table allows at most 30
+reports per voter per hour, and nobody but the service role can read it.
 
 The app never reads the table. Instead:
 

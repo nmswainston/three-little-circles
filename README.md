@@ -184,7 +184,8 @@ reviewed and shipped as content. Setup, the review workflow, and
 `npm run content:import` are documented in [supabase/README.md](supabase/README.md).
 
 "Still there?" on every entry sends a one-tap seen or missing report to the
-same project. The app never reads them back. `npm run confirmations:pull`
+same project, tied to an anonymous Supabase user the server issues (anonymous
+sign-ins must be on). The app never reads them back. `npm run confirmations:pull`
 summarizes the last 90 days into `src/data/confirmations.generated.ts`, which
 ships with the app and drives the "Last seen" line on each entry.
 

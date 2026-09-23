@@ -6,9 +6,12 @@
 -- What it sets up:
 --   * public.submissions   one row per suggested find, status pending until you review it
 --   * a private storage bucket for optional photos
---   * row-level security so the anon key can only INSERT a pending row and
+--   * row-level security so the app can only INSERT a pending row and
 --     upload a photo. It cannot read, update, or delete anything.
 --   * a per-device rate limit of 5 submissions per hour
+--   * public.confirmations  "Still there?" reports, tied to an anonymous
+--     Supabase user the server issues (Authentication > Sign In / Providers >
+--     Anonymous must be on), so a client cannot vote as many devices
 
 create extension if not exists pgcrypto;
 
@@ -98,12 +101,14 @@ create trigger submissions_rate_limit
 -- ---------------------------------------------------------------------------
 alter table public.submissions enable row level security;
 
--- The app (anon key) may only add a pending row. It cannot set review fields.
+-- The app may only add a pending row. It cannot set review fields. Both roles
+-- are listed because an install that has signed in anonymously for "Still
+-- there?" reports runs as authenticated from then on.
 drop policy if exists "anon can submit a pending sighting" on public.submissions;
 create policy "anon can submit a pending sighting"
   on public.submissions
   for insert
-  to anon
+  to anon, authenticated
   with check (
     status = 'pending'
     and reviewer_notes is null
@@ -130,7 +135,7 @@ drop policy if exists "anon can upload submission photos" on storage.objects;
 create policy "anon can upload submission photos"
   on storage.objects
   for insert
-  to anon
+  to anon, authenticated
   with check (bucket_id = 'submission-photos');
 
 -- ---------------------------------------------------------------------------
@@ -149,16 +154,19 @@ create policy "anon can upload submission photos"
 -- ---------------------------------------------------------------------------
 -- Still there? One row per tap on an entry: "seen" today, or "missing".
 --
--- The app only inserts. `npm run confirmations:pull` reads the last 90 days
--- with the service role key, keeps one vote per device per entry (its
--- latest), and bakes the summary into src/data/confirmations.generated.ts.
+-- The app signs in anonymously, then inserts. device_id is filled from the
+-- session on the server and the policy refuses any other value, so the
+-- rate limit and the one-vote-per-device summary rest on an id the client
+-- cannot choose. `npm run confirmations:pull` reads the last 90 days with
+-- the service role key, keeps one vote per device per entry (its latest),
+-- and bakes the summary into src/data/confirmations.generated.ts.
 -- ---------------------------------------------------------------------------
 create table if not exists public.confirmations (
   id          uuid primary key default gen_random_uuid(),
   created_at  timestamptz not null default now(),
   entry_id    text not null,
   status      text not null check (status in ('seen', 'missing')),
-  device_id   text not null,
+  device_id   text not null default auth.uid()::text,
   app_version text,
   platform    text,
 
@@ -200,13 +208,19 @@ create trigger confirmations_rate_limit
 
 alter table public.confirmations enable row level security;
 
--- The app (anon key) may only add a row. No select, update, or delete.
+-- Only a signed-in (anonymous) user may add a row, and only as itself. The
+-- plain anon role gets nothing here. No select, update, or delete for anyone
+-- but the service role.
 drop policy if exists "anon can report a sighting" on public.confirmations;
-create policy "anon can report a sighting"
+drop policy if exists "signed-in app can report a sighting" on public.confirmations;
+create policy "signed-in app can report a sighting"
   on public.confirmations
   for insert
-  to anon
-  with check (status in ('seen', 'missing'));
+  to authenticated
+  with check (
+    status in ('seen', 'missing')
+    and device_id = auth.uid()::text
+  );
 
 -- By hand, the same summary the pull script computes (one vote per device):
 --   select entry_id, status, count(*) as votes, max(created_at) as latest
