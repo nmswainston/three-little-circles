@@ -81,6 +81,20 @@ describe('parseBackup', () => {
     });
   });
 
+  it('refuses a well-formed object that is not a backup, so Replace cannot wipe the phone on nothing', () => {
+    const incomplete = { ok: false, message: expect.stringContaining('incomplete') };
+    expect(parseBackup('{"app":"three-little-circles"}')).toEqual(incomplete);
+    expect(parseBackup('{"app":"three-little-circles","format":1}')).toEqual(incomplete);
+    expect(parseBackup('{"app":"three-little-circles","format":1,"found":{}}')).toEqual(incomplete);
+    expect(parseBackup('{"app":"three-little-circles","format":0,"found":{},"achievements":{}}')).toEqual(incomplete);
+    expect(parseBackup('{"app":"three-little-circles","format":"1","found":{},"achievements":{}}')).toEqual(incomplete);
+    expect(parseBackup('{"app":"three-little-circles","format":1,"found":[],"achievements":{}}')).toEqual(incomplete);
+    // The minimal genuine backup still parses.
+    const minimal = parseBackup('{"app":"three-little-circles","format":1,"found":{},"achievements":{}}');
+    expect(minimal.ok).toBe(true);
+    if (minimal.ok) expect(minimal.backup.achievements).toEqual({ unlocked: [], earnedAt: {}, seen: [] });
+  });
+
   it('drops values it cannot trust and keeps the rest', () => {
     const messy = {
       app: 'three-little-circles',
