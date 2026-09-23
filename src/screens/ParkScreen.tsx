@@ -49,8 +49,9 @@ export default function ParkScreen() {
   const found = useFoundStore((s) => s.found);
 
   const parkEntries = useMemo(() => getAllEntries().filter((e) => e.parkId === parkId), [parkId]);
+  const hasFinds = parkEntries.length > 0;
   const foundCount = parkEntries.filter((e) => e.id in found).length;
-  const pct = parkEntries.length > 0 ? (foundCount / parkEntries.length) * 100 : 0;
+  const pct = hasFinds ? (foundCount / parkEntries.length) * 100 : 0;
 
   const groups = useMemo(
     () =>
@@ -108,17 +109,25 @@ export default function ParkScreen() {
               <View style={[styles.fill, { width: `${pct}%` }]} />
             </View>
             <Text style={[styles.progressLabel, { color: headerText }]}>
-              {foundCount} of {parkEntries.length} found
+              {hasFinds ? `${foundCount} of ${parkEntries.length} found` : "No finds yet"}
             </Text>
           </View>
         </View>
 
         <View style={styles.body}>
-          <SegmentedControl options={["All", "FIND", "FACT"]} selectedValue={filter} onValueChange={setFilter} />
-
-          {groups.length === 0 && (
-            <EmptyState title="Nothing here yet" message="No entries match this filter." />
+          {hasFinds && (
+            <SegmentedControl options={["All", "FIND", "FACT"]} selectedValue={filter} onValueChange={setFilter} />
           )}
+
+          {groups.length === 0 &&
+            (hasFinds ? (
+              <EmptyState title="Nothing here yet" message="No entries match this filter." />
+            ) : (
+              <EmptyState
+                title="No finds documented yet"
+                message="Read up on the park below, and send in anything you spot."
+              />
+            ))}
 
           {groups.map(({ land, attractions }) => (
             <View key={land.landId} style={styles.section}>

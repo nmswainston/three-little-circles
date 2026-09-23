@@ -2,7 +2,7 @@
 // facts.generated.ts by `npm run content:build`. This module is the stable
 // import path for the rest of the app.
 import { facts } from "./facts.generated";
-import { getDestination, isThemePark } from "./destinations";
+import { DESTINATIONS, getDestination, isThemePark } from "./destinations";
 import { ParkFact, ParkId } from "./types";
 
 export { facts };
@@ -25,4 +25,13 @@ export function getFactsForPark(parkId: ParkId): ParkFact[] {
   const forRegion =
     region && isThemePark(parkId) ? facts.filter((f) => f.parkId === undefined && f.region === region) : [];
   return [...forPark, ...forRegion];
+}
+
+/**
+ * How many facts each listed destination's Park screen would show. Lets the
+ * Parks screen open a destination that has history to read even before any
+ * finds are documented for it.
+ */
+export function getFactCountsByPark(): Map<ParkId, number> {
+  return new Map(DESTINATIONS.map((d) => [d.parkId, getFactsForPark(d.parkId).length]));
 }
