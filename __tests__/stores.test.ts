@@ -92,8 +92,9 @@ describe('computeUnlocked', () => {
     for (const parkId of new Set(entries.map((e) => e.parkId))) {
       expect(unlocked).toContain(parkAchievementId(parkId));
     }
-    // Twelve entries is short of the 25 tier.
-    expect(unlocked).not.toContain('TWENTY_FIVE_FINDS');
+    // Count tiers depend on how much content exists, so derive them from the catalog.
+    expect(unlocked.includes('TWENTY_FIVE_FINDS')).toBe(entries.length >= 25);
+    expect(unlocked.includes('FIFTY_FINDS')).toBe(entries.length >= 50);
   });
 });
 

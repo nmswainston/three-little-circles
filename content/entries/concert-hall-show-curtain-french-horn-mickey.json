@@ -1,0 +1,37 @@
+{
+  "id": "concert-hall-show-curtain-french-horn-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "concert_hall_show",
+  "display": {
+    "entryTitle": "Curtain French Horn Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Concert Hall Show"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "description": "The French horn worked into the decoration around the theater curtain forms a classic three-circle Mickey. It is big and in plain sight, one of the easiest finds in the park, and a lovely one.",
+  "whereToLook": {
+    "scene": "Inside the concert hall theater, the decoration around the stage curtain",
+    "exactSpot": "The French horn in the curtain decoration. Its loops form the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Look at the curtain framing while you wait for the show to start.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Far"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4201,
+    "longitude": -81.5815
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

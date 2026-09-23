@@ -1,0 +1,38 @@
+{
+  "id": "cartoon-railway-waterfall-clam-pearls-mickey",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Waterfall Clam Pearls Mickey",
+    "parkName": "Studios Park",
+    "landName": "Boulevard Area",
+    "attractionName": "Cartoon Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "A classic three-circle Hidden Mickey is formed by three blue pearls in an open clam just past the waterfall plunge. It sits behind you and to the left once the bubbles clear, so riders facing forward toward the next scene never see it.",
+  "whereToLook": {
+    "scene": "Just after your vehicle plunges over the waterfall",
+    "exactSpot": "Once the bubbles clear, look back over your left shoulder for an open clam holding three blue pearls arranged in the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Turn to look back and left the moment the bubbles fade after the waterfall. The clam is behind you, not ahead.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Left",
+    "distance": "Medium",
+    "notes": "You are looking backward from a moving vehicle, so the window is short. Riders on the left side of the vehicle have the easier view."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

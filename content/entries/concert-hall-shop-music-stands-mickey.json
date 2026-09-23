@@ -1,0 +1,37 @@
+{
+  "id": "concert-hall-shop-music-stands-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "concert_hall_gift_shop",
+  "display": {
+    "entryTitle": "Ledge Music Stands Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Concert Hall Gift Shop"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "Metal music stands sit on the ledge that runs around the gift shop next to the concert hall, and they are arranged as a classic three-circle Hidden Mickey. The ledge is above the merchandise, where shoppers rarely look.",
+  "whereToLook": {
+    "scene": "Gift shop beside the concert hall, the ledge that runs around the room",
+    "exactSpot": "The metal music stands on the ledge. Together they form the classic shape."
+  },
+  "bestTip": "Look above the shelves at the ledge, and take in a whole side of the room at once.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4201,
+    "longitude": -81.5815
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

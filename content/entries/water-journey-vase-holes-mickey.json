@@ -1,0 +1,39 @@
+{
+  "id": "water-journey-vase-holes-mickey",
+  "parkId": "showcase_park",
+  "landId": "nature_area",
+  "attractionId": "water_journey_trail",
+  "display": {
+    "entryTitle": "Orange Vase Holes Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Nature Area",
+    "attractionName": "Water Journey Trail"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "A tiny classic three-circle Hidden Mickey is made of three holes near the bottom of an orange vase in the land section of the walk-through water trail. The vase sits on a low rock wall, and because the shape is small and close to the ground, guests watching the water features walk right past it.",
+  "whereToLook": {
+    "scene": "Land exhibit area of the trail, just after you pass under the rock archway",
+    "exactSpot": "Low rock wall on your left. Find the orange vase perched on it and look near the bottom of the vase for three small holes that form the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Slow down right after the archway and look left and low before the next water feature pulls your attention.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Left",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "Full sun can wash out the holes. Step closer or wait for a passing cloud."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3745,
+    "longitude": -81.5502
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "france-bridge-ledge-rope-mickey",
+  "parkId": "showcase_park",
+  "landId": "france_pavilion",
+  "attractionId": "canal_bridge",
+  "display": {
+    "entryTitle": "Bridge Ledge Rope Mickey",
+    "parkName": "Showcase Park",
+    "landName": "France Pavilion",
+    "attractionName": "Canal Bridge"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "A classic three-circle Hidden Mickey is coiled out of rope on a ledge down near the water beside the bridge that leads into the pavilion from the United Kingdom side. The rope loops around an oar propped against the wall, next to a small blue and orange boat. Guests crossing the bridge look ahead at the pavilion rather than down over the railing, which is why it stays hidden.",
+  "whereToLook": {
+    "scene": "Bridge from the United Kingdom Pavilion into the France Pavilion, left railing as you walk toward France",
+    "exactSpot": "Look over the left railing down to the ledge near the water. Beside a blue and orange boat, a rope is coiled into three circles around an oar leaning against the wall.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Stop about halfway across the bridge and look straight down over the left railing instead of out toward the pavilion.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Medium",
+    "notes": "The bridge gets busy before shows and at meal times. The rope is a set-dressing prop and may be recoiled or moved."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3699,
+    "longitude": -81.5521
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

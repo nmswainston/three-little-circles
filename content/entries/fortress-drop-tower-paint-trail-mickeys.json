@@ -1,0 +1,38 @@
+{
+  "id": "fortress-drop-tower-paint-trail-mickeys",
+  "parkId": "california_pier_park",
+  "landId": "hero_campus_area",
+  "attractionId": "fortress_drop_tower",
+  "display": {
+    "entryTitle": "Paint Trail Mickeys",
+    "parkName": "Pier Park",
+    "landName": "Hero Campus Area",
+    "attractionName": "Fortress Drop Tower"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Walkway",
+  "description": "Colorful paint trails run across the pavement and street outside the attraction, left behind when a certain raccoon spilled paint during an escape. Several classic three-circle Hidden Mickeys are scattered through the splotches along the trails between the exit and the entrance, hiding among dozens of ordinary drips.",
+  "whereToLook": {
+    "scene": "Sidewalk and street outside the attraction, along the colorful paint trails between the exit and the entrance",
+    "exactSpot": "Within the paint splotches and puddles along the trails. More than one three-circle shape is scattered along the route."
+  },
+  "bestTip": "Follow the trail from the exit toward the entrance and look down at each big splotch.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "Foot traffic is heavy here. Early morning or during a nearby show is easiest."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 33.8066,
+    "longitude": -117.9169
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

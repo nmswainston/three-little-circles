@@ -1,0 +1,38 @@
+{
+  "id": "greeting-hall-mural-flowers-mickey",
+  "parkId": "showcase_park",
+  "landId": "celebration_area",
+  "attractionId": "character_greeting_hall",
+  "display": {
+    "entryTitle": "Greeting Mural Flowers Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Celebration Area",
+    "attractionName": "Character Greeting Hall"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "description": "A classic three-circle Hidden Mickey is formed by three round orange flowers that touch each other in the mural on the rear wall of the character greeting hall. The flowers are in the central greeting section, where Goofy usually meets, near the bottom of the mural, and they blend into the rest of the painted garden.",
+  "whereToLook": {
+    "scene": "Rear wall mural in the central greeting section of the hall, usually Goofy's spot",
+    "exactSpot": "Lower middle of the mural, near the end of the short green wall. Three round orange flowers connect to form the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Look for the flowers while you wait your turn rather than during your photo, when you will be facing the camera instead of the wall.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium",
+    "notes": "Which character greets in the center section can change, and the photo backdrop can block part of the mural."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3737,
+    "longitude": -81.5502
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

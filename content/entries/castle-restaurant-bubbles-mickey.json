@@ -1,0 +1,37 @@
+{
+  "id": "castle-restaurant-bubbles-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "enchanted_castle_restaurant",
+  "display": {
+    "entryTitle": "Bubbles Painting Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Forest Area",
+    "attractionName": "Enchanted Castle Restaurant"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "description": "A classic three-circle Hidden Mickey is formed by three bubbles in a small painting of Mrs. Potts and Chip, where Chip is playing in a dish full of bubbles. The painting hangs in the gallery dining room to the right of the ballroom, and because the dish is crowded with bubbles, most guests never notice that three of them line up.",
+  "whereToLook": {
+    "scene": "Gallery dining room (the Rose Gallery) to the right of the ballroom, left side of the rear wall",
+    "exactSpot": "Small painting of Mrs. Potts and Chip. In the dish of bubbles Chip is playing in, three bubbles form the classic shape, tilted to the left."
+  },
+  "bestTip": "Find the painting first, then get close and scan the bubbles slowly. The shape is tilted, so let your eye relax rather than hunting for an upright Mickey.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "The restaurant requires a dining reservation, and the gallery room is not always in use. Ask a Cast Member if you are seated in another room."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4215,
+    "longitude": -81.5809
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "undersea-clamshell-dock-mural-rock-mickey",
+  "parkId": "california_pier_park",
+  "landId": "boardwalk_gardens_area",
+  "attractionId": "undersea_clamshell_ride",
+  "display": {
+    "entryTitle": "Loading Mural Rock Mickey",
+    "parkName": "Pier Park",
+    "landName": "Boardwalk Gardens Area",
+    "attractionName": "Undersea Clamshell Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Loading",
+  "description": "A small classic three-circle Hidden Mickey is pressed into a large rock at the lower left corner of the mural behind the loading dock, just above the green tile. You can see it from the entrance queue and again on your right as your clamshell passes it, but it sits low where nobody looks.",
+  "whereToLook": {
+    "scene": "Mural behind the loading dock, seen from the entrance queue and again from the vehicle",
+    "exactSpot": "Lower left corner of the mural, in the large rock just above the green tile.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Spot it from the queue first so you know where it is, then glance right as your clamshell passes.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 33.8063,
+    "longitude": -117.9215
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

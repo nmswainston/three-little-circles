@@ -1,0 +1,37 @@
+{
+  "id": "elevated-tram-belt-buckle-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "elevated_tram_ride",
+  "display": {
+    "entryTitle": "Belt Buckle Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Future City Area",
+    "attractionName": "Elevated Tram Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Near the end of the elevated tram ride, a stylishly dressed figure from the future stands on your right, and her belt buckle is a classic three-circle Hidden Mickey. The ride is winding down and most riders are looking ahead to the station.",
+  "whereToLook": {
+    "scene": "Almost at the end of the ride, the display of future fashion on your right",
+    "exactSpot": "The fashionable woman on the right side. Her belt buckle is the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "When the ride starts its final approach, watch the right side for the figure and go straight to her waist.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Right",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4186,
+    "longitude": -81.5797
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

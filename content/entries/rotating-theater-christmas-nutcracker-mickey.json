@@ -1,0 +1,39 @@
+{
+  "id": "rotating-theater-christmas-nutcracker-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "rotating_theater_show",
+  "display": {
+    "entryTitle": "Christmas Scene Nutcracker Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Future City Area",
+    "attractionName": "Rotating Theater Show"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "description": "In the final Christmas scene, a row of nutcrackers lines the top of the fireplace on the left side of the set. The one farthest to the left is a Mickey nutcracker. It is in plain view, but the family's chatter and the gadgets keep eyes elsewhere.",
+  "whereToLook": {
+    "scene": "Final scene, the fireplace on the left side of the set",
+    "exactSpot": "Row of nutcrackers on top of the fireplace. The one farthest to the left is Mickey."
+  },
+  "bestTip": "As the theater rotates into the last scene, look left at the fireplace before the dialogue starts.",
+  "funFacts": [
+    "The pepper grinder on the kitchen counter in the same scene is also a Mickey, so check both while you are looking."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Left",
+    "crowding": "High",
+    "distance": "Far"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4188,
+    "longitude": -81.58
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

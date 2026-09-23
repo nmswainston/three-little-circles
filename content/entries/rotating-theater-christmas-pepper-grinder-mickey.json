@@ -1,0 +1,39 @@
+{
+  "id": "rotating-theater-christmas-pepper-grinder-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "rotating_theater_show",
+  "display": {
+    "entryTitle": "Christmas Scene Pepper Grinder Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Future City Area",
+    "attractionName": "Rotating Theater Show"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "description": "A Mickey-shaped pepper grinder stands on the kitchen counter in the final Christmas scene. It is smaller than the nutcrackers on the mantel and sits among ordinary kitchen props, so it takes a deliberate look at the counter to spot.",
+  "whereToLook": {
+    "scene": "Final scene, the kitchen counter",
+    "exactSpot": "The pepper grinder on the counter is shaped like Mickey."
+  },
+  "bestTip": "After you find the nutcracker on the mantel, shift to the kitchen counter and scan the small props.",
+  "funFacts": [
+    "The nutcracker farthest left on the fireplace in this scene is also a Mickey."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Far"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4188,
+    "longitude": -81.58
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "galactic-blaster-planet-poster-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "galactic_blaster_ride",
+  "display": {
+    "entryTitle": "Planet Poster Continent Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Future City Area",
+    "attractionName": "Galactic Blaster Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "On the poster of allied planets on your right as you enter the queue, one planet has a continent shaped like a classic three-circle Mickey. The poster is full of planets and text, so the shape reads as just another landmass. The same planet appears again on the left near the end of the ride.",
+  "whereToLook": {
+    "scene": "Poster titled Planets of the Galactic Alliance on your right just after you enter the queue",
+    "exactSpot": "The planet named Pollost Prime. One of its continents is the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Find the planet by its name first, then look at the land shapes. Watch for the same planet on the left at the end of the ride.",
+  "funFacts": [
+    "The planet shows up a second time on the left side near the end of the ride, so you get a bonus sighting."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Right",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4185,
+    "longitude": -81.5795
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

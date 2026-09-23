@@ -1,0 +1,36 @@
+{
+  "id": "mexico-pyramid-boat-finale-window-mickey",
+  "parkId": "showcase_park",
+  "landId": "mexico_pavilion",
+  "attractionId": "pyramid_boat_ride",
+  "display": {
+    "entryTitle": "Finale Building Window Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Mexico Pavilion",
+    "attractionName": "Pyramid Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "A little Mickey hides in one of the windows of the buildings in the final scene of the boat ride. The finale is busy with the fiesta barge on the left, and the buildings slide past on the way to the dock, so the window goes unnoticed.",
+  "whereToLook": {
+    "scene": "Final scene of the boat ride, the buildings along the shore as you approach the dock",
+    "exactSpot": "One of the windows on those buildings holds a small Mickey."
+  },
+  "bestTip": "After you check the drums on the barge, switch to the buildings and go window by window.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3708,
+    "longitude": -81.5468
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

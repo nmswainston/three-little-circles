@@ -1,0 +1,37 @@
+{
+  "id": "star-flight-queue-window-droid-mickey",
+  "parkId": "studios_park",
+  "landId": "echo_lake_area",
+  "attractionId": "star_flight_simulator",
+  "display": {
+    "entryTitle": "Queue Window Droid Mickey",
+    "parkName": "Studios Park",
+    "landName": "Echo Lake Area",
+    "attractionName": "Star Flight Simulator"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "In the second room of the queue, droids pass by a window as people walk through. One of the droids has a pair of mouse ears. They come and go with the animation, so you can miss it if you only glance once.",
+  "whereToLook": {
+    "scene": "Second room you enter while waiting, the window that the droids pass by",
+    "exactSpot": "Watch the droids moving past the window. One of them wears mouse ears."
+  },
+  "bestTip": "Stay near the window for a full cycle of the droids rather than moving on with the line.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3578,
+    "longitude": -81.5612
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

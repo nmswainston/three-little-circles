@@ -97,7 +97,7 @@ export default function EntryDetailScreen() {
             <DifficultyChip level={entry.difficulty} />
             <OutlineChip label={entry.locationType} />
             {entry.whereToLook.orientation && <OutlineChip label={entry.whereToLook.orientation} />}
-            {entry.entryType === "FACT" && <OutlineChip label="Fact" />}
+            {entry.entryType === "FACT" && <OutlineChip label="Hidden Surprise" />}
           </View>
         </View>
 

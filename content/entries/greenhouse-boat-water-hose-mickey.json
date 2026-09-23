@@ -1,0 +1,36 @@
+{
+  "id": "greenhouse-boat-water-hose-mickey",
+  "parkId": "showcase_park",
+  "landId": "nature_area",
+  "attractionId": "greenhouse_boat_ride",
+  "display": {
+    "entryTitle": "Greenhouse Hose Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Nature Area",
+    "attractionName": "Greenhouse Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the fish and shrimp tank section of the boat ride, a garden hose lies on the ground coiled into a classic three-circle Hidden Mickey. It looks like working equipment, which is why most riders never give it a second look.",
+  "whereToLook": {
+    "scene": "Fish and shrimp tank area of the ride, the ground beside the tanks",
+    "exactSpot": "A garden hose coiled on the ground into the classic shape."
+  },
+  "bestTip": "As the boat enters the tank area, look low along the ground beside the tanks rather than at the fish.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "In-person",
+  "coordinates": {
+    "latitude": 28.3737,
+    "longitude": -81.5527
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

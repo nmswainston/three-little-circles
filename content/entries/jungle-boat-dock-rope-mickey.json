@@ -1,0 +1,39 @@
+{
+  "id": "jungle-boat-dock-rope-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "jungle_boat_ride",
+  "display": {
+    "entryTitle": "Dock Rope Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Jungle Outpost Area",
+    "attractionName": "Jungle Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Dock",
+  "description": "A classic three-circle Hidden Mickey is coiled out of rope on the long, thin outer dock that the boats pass as they approach the loading area. Cast Members arrange it by hand, so it is easy to miss if you are watching the boats instead of the dock, and it is not guaranteed to be there on every visit.",
+  "whereToLook": {
+    "scene": "Long, thin wooden outer dock across the water from the loading dock, where the boats pull in",
+    "exactSpot": "Right side of the outer dock as you face it from the loading area. Look for a rope coiled into three circles.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Scan the outer dock while you wait to board rather than after you sit down. Once the boat moves, the rope slips out of view quickly.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium",
+    "notes": "The rope is placed by hand and can be moved or recoiled, so this one comes and goes."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4179,
+    "longitude": -81.5835
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

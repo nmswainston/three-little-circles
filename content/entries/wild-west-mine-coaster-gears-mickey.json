@@ -1,0 +1,37 @@
+{
+  "id": "wild-west-mine-coaster-gears-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "wild_west_mine_coaster",
+  "display": {
+    "entryTitle": "Ride End Gears Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Frontier Area",
+    "attractionName": "Wild West Mine Coaster"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "As the train slows at the end of the ride, two sets of gears lie on the ground to your right. The second set is arranged as a classic three-circle Hidden Mickey. Riders are usually catching their breath and looking ahead to the station, so it slips by unnoticed.",
+  "whereToLook": {
+    "scene": "Final stretch of the ride as the train begins to slow, looking to your right",
+    "exactSpot": "Two sets of gears on the ground. The second set forms the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "As soon as the brakes grab, turn right and watch the ground. Skip the first set of gears and focus on the second.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Right",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.42,
+    "longitude": -81.5856
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

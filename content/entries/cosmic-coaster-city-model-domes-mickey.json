@@ -1,0 +1,39 @@
+{
+  "id": "cosmic-coaster-city-model-domes-mickey",
+  "parkId": "showcase_park",
+  "landId": "discovery_area",
+  "attractionId": "cosmic_coaster",
+  "display": {
+    "entryTitle": "City Model Domes Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Discovery Area",
+    "attractionName": "Cosmic Coaster"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "A classic three-circle Hidden Mickey is built from three tiny domes in the grass of a park inside the colorful scale model of a city on the planet Xandar along the standby queue. The head is a blue dome with one green ear and one blue ear. The park sits behind a cluster of tall model buildings near the edge of the display, so the domes are easy to mistake for more city detail.",
+  "whereToLook": {
+    "scene": "Colorful lit model of the Xandar city along the standby entrance queue",
+    "exactSpot": "Near the perimeter of the model, look for a grassy park tucked behind some tall buildings. Three small domes sit in the grass: a blue head with one green ear and one blue ear.",
+    "orientation": "Upright"
+  },
+  "bestTip": "The queue passes the model on your right, makes a U-turn, and passes it on your right again. Check the grassy corner at the far end as you walk away from it, and ignore the towers.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "The model's lights cycle on and off. The domes are easiest to pick out while the display is lit, and faster entry lines may bypass this part of the queue."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3755,
+    "longitude": -81.5469
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

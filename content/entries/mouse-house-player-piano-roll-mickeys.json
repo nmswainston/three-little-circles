@@ -1,0 +1,39 @@
+{
+  "id": "mouse-house-player-piano-roll-mickeys",
+  "parkId": "california_kingdom_park",
+  "landId": "cartoon_town_area",
+  "attractionId": "mouse_house",
+  "display": {
+    "entryTitle": "Player Piano Roll Mickeys",
+    "parkName": "Kingdom Park",
+    "landName": "Cartoon Town Area",
+    "attractionName": "Mouse House"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "description": "Most of the holes punched in the paper roll of the player piano inside the house are classic three-circle Mickeys. Two holes are different: one is shaped like Goofy and another like Donald Duck. You can only see them by looking in toward the middle of the roll from the sides of the glass, which is why most visitors only ever notice the Mickeys.",
+  "whereToLook": {
+    "scene": "Player piano inside the house, viewed through the glass",
+    "exactSpot": "Holes in the paper roll. From the left side of the glass, look in toward the center green post for the Goofy hole. From the right side, look toward the post for the Donald hole."
+  },
+  "bestTip": "Look through the side glass at an angle toward the middle, not straight on. Left side for Goofy, right side for Donald.",
+  "funFacts": [
+    "The roll keeps moving, so the Goofy and Donald holes come into view only at times. Give it a minute."
+  ],
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Angled",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 33.8155,
+    "longitude": -117.9194
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

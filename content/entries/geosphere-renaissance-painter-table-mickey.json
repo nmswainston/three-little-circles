@@ -1,0 +1,37 @@
+{
+  "id": "geosphere-renaissance-painter-table-mickey",
+  "parkId": "showcase_park",
+  "landId": "celebration_area",
+  "attractionId": "geosphere_time_ride",
+  "display": {
+    "entryTitle": "Renaissance Painter Table Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Celebration Area",
+    "attractionName": "Geosphere Time Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the Renaissance scene, the first painter on your left works at a table with three white circles on top of it. They form a classic three-circle Hidden Mickey. The scene is dim and the ride keeps a steady pace, so it takes a deliberate look.",
+  "whereToLook": {
+    "scene": "Renaissance scene, the first painter on your left",
+    "exactSpot": "On top of the painter's table, three white circles form the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Look left as soon as the Renaissance scene begins and go straight to the first painter's table.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Left",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3753,
+    "longitude": -81.5494
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

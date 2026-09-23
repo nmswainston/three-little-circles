@@ -1,0 +1,36 @@
+{
+  "id": "honey-pot-pink-flowers-room-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "honey_pot_ride",
+  "display": {
+    "entryTitle": "Pink Flowers Room Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Honey Pot Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In one of the first rooms of the ride, the wall is painted with pink flowers, and a tiny classic three-circle Mickey hides among them. A Cast Member once called it the smallest one in the park, and even if newer finds have taken that title, it is still easy to miss from a moving honey pot.",
+  "whereToLook": {
+    "scene": "One of the first rooms of the ride, the wall painted with pink flowers",
+    "exactSpot": "Among the painted pink flowers on the wall, a very small three-circle shape."
+  },
+  "bestTip": "Watch the flower wall from the moment you enter the room rather than looking ahead.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "In-person",
+  "coordinates": {
+    "latitude": 28.4201,
+    "longitude": -81.5807
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

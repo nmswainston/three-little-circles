@@ -1,0 +1,37 @@
+{
+  "id": "france-monsieur-paul-marquee-mickey",
+  "parkId": "showcase_park",
+  "landId": "france_pavilion",
+  "attractionId": "monsieur_paul_restaurant",
+  "display": {
+    "entryTitle": "Entrance Marquee Mickey",
+    "parkName": "Showcase Park",
+    "landName": "France Pavilion",
+    "attractionName": "Monsieur Paul"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "A classic three-circle Hidden Mickey is worked into the marquee at the entrance of the pavilion's upstairs fine-dining restaurant. The marquee is decorative and above eye level, so guests heading into the courtyard rarely study it.",
+  "whereToLook": {
+    "scene": "Entrance to the upstairs restaurant, the marquee above the door",
+    "exactSpot": "In the design of the marquee."
+  },
+  "bestTip": "Stand back from the entrance so you can see the whole marquee at once.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.368,
+    "longitude": -81.5533
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

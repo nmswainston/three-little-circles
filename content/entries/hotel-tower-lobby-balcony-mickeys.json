@@ -1,0 +1,37 @@
+{
+  "id": "hotel-tower-lobby-balcony-mickeys",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "hotel_drop_tower",
+  "display": {
+    "entryTitle": "Lobby Balcony Mickeys",
+    "parkName": "Studios Park",
+    "landName": "Sunset Area",
+    "attractionName": "Hotel Drop Tower"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "A few classic three-circle Hidden Mickeys are worked into the balcony that overlooks the hotel lobby along the queue. The lobby is dim and dressed with cobwebs and props, so the balcony's details get lost.",
+  "whereToLook": {
+    "scene": "Hotel lobby along the queue, the balcony overlooking it",
+    "exactSpot": "In the details of the balcony. A few three-circle shapes are hidden along it."
+  },
+  "bestTip": "Look up at the balcony as you come into the lobby, before the line moves you toward the library.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.36,
+    "longitude": -81.5599
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

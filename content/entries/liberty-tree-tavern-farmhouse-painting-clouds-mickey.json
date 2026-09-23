@@ -1,0 +1,38 @@
+{
+  "id": "liberty-tree-tavern-farmhouse-painting-clouds-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "colonial_square_area",
+  "attractionId": "liberty_tree_tavern",
+  "display": {
+    "entryTitle": "Farmhouse Painting Clouds Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Colonial Square Area",
+    "attractionName": "Liberty Tree Tavern"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "description": "In one of the upstairs dining rooms of the colonial tavern, a landscape painting of a farmhouse hangs on the wall. The clouds above the farmhouse form a classic three-circle Hidden Mickey. It reads as ordinary sky unless you compare the cloud shapes.",
+  "whereToLook": {
+    "scene": "Upstairs dining rooms of the tavern, the landscape painting with a farmhouse",
+    "exactSpot": "The clouds above the farmhouse form the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "If you are seated downstairs, ask a Cast Member whether you can step upstairs to see the painting.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "Table service. The upstairs rooms are not always open."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4189,
+    "longitude": -81.5826
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

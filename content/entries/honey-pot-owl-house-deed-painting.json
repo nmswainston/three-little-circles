@@ -1,0 +1,39 @@
+{
+  "id": "honey-pot-owl-house-deed-painting",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "honey_pot_ride",
+  "display": {
+    "entryTitle": "Owl's House Deed Painting",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Honey Pot Ride"
+  },
+  "entryType": "FACT",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Inside Owl's house, a framed picture shows Mr. Toad handing over the deed to Owl. It is a tribute to the ride that used to occupy this building, and a sweet one if you know the history.",
+  "whereToLook": {
+    "scene": "Owl's house scene, the pictures on the walls",
+    "exactSpot": "A framed picture of Mr. Toad handing the deed to Owl."
+  },
+  "bestTip": "Look at the framed pictures as the room rocks rather than at the characters.",
+  "funFacts": [
+    "The ride took over this building from Mr. Toad's Wild Ride in the late 1990s, and this painting makes the handover official."
+  ],
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "distance": "Medium"
+  },
+  "confidence": "Obvious",
+  "verification": "In-person",
+  "coordinates": {
+    "latitude": 28.4201,
+    "longitude": -81.5807
+  },
+  "createdAtISO": "2026-09-23T00:00:00.000Z",
+  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+}

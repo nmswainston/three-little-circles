@@ -1,0 +1,36 @@
+{
+  "id": "tune-in-lounge-table-top-mickeys",
+  "parkId": "studios_park",
+  "landId": "echo_lake_area",
+  "attractionId": "tune_in_lounge",
+  "display": {
+    "entryTitle": "Table Top Mickeys",
+    "parkName": "Studios Park",
+    "landName": "Echo Lake Area",
+    "attractionName": "Tune-In Lounge"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "description": "Several classic three-circle Hidden Mickeys are built into the table tops of the 1950s-style lounge. They are part of the retro pattern, so they read as period decoration unless you look closely.",
+  "whereToLook": {
+    "scene": "Inside the lounge, the table tops",
+    "exactSpot": "In the pattern on the table tops. Several tables carry the shape."
+  },
+  "bestTip": "Check your own table first, then glance at the neighbors on your way out.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3573,
+    "longitude": -81.5606
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

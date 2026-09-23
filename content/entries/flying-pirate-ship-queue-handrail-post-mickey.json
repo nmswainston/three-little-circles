@@ -1,0 +1,38 @@
+{
+  "id": "flying-pirate-ship-queue-handrail-post-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "flying_pirate_ship_ride",
+  "display": {
+    "entryTitle": "Queue Handrail Post Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Village Area",
+    "attractionName": "Flying Pirate Ship Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "An upright classic three-circle Hidden Mickey is worked into one of the handrail posts along the part of the entrance queue that runs beside the loading area. It faces you at about waist height, but with the loading dock in view, almost everyone is watching the ships instead of the railing.",
+  "whereToLook": {
+    "scene": "Entrance queue where it runs alongside the loading dock area, the handrail on your right",
+    "exactSpot": "Seventh handrail post counting from the end of the handrail. Midway up the post, the classic shape faces you.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Count posts from the end of the rail while the line is stopped, then check midway up the seventh.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Right",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 33.8131,
+    "longitude": -117.9188
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "water-journey-rock-wall-mickey",
+  "parkId": "showcase_park",
+  "landId": "nature_area",
+  "attractionId": "water_journey_trail",
+  "display": {
+    "entryTitle": "Rock Wall Depressions Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Nature Area",
+    "attractionName": "Water Journey Trail"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "A classic three-circle Hidden Mickey is formed by three round depressions in a rock wall in the ocean section of the walk-through water trail. The wall stands behind a fence in front of the interactive wall of water that shoots into the air when you move, so most guests are busy with the water and never study the rock.",
+  "whereToLook": {
+    "scene": "Ocean exhibit area, the rock wall behind a fence in front of the interactive wall of water",
+    "exactSpot": "Left side of the rock wall, toward the top. Three round depressions in the rock form the classic shape.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Let the water settle between bursts, then scan the upper left of the rock face. Stand back a step so the fence is not in your line of sight.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium",
+    "notes": "The water wall reacts to movement and this is a popular stop, so it is often crowded and you may get splashed."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3745,
+    "longitude": -81.5502
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

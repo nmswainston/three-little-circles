@@ -1,0 +1,38 @@
+{
+  "id": "port-orleans-pool-bar-barrel-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "port_orleans_riverside_resort",
+  "attractionId": "island_pool_bar",
+  "display": {
+    "entryTitle": "Pool Bar Barrel Mickey",
+    "parkName": "Resorts",
+    "landName": "Port Orleans Riverside Resort",
+    "attractionName": "Island Pool Bar"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "description": "A classic three-circle Hidden Mickey is stuck to the side of a light brown wooden barrel on an upper shelf behind the counter of the pool bar on the resort's island pool area. It sits at the left end of the shelf, above the bartenders' heads, where guests ordering a drink rarely look.",
+  "whereToLook": {
+    "scene": "Pool bar on the island at the center of the resort's main pool area",
+    "exactSpot": "Upper shelf behind the counter, left side. On the side of the light brown wooden barrel.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Step to the left end of the bar and look up at the shelf while you wait for your order.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "The bar keeps pool hours and the shelf can be rearranged, so check the barrel even if it has moved."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.4137,
+    "longitude": -81.535
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}

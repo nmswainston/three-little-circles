@@ -9,7 +9,7 @@ export type SegmentedControlOption = 'All' | EntryType;
 const LABELS: Record<SegmentedControlOption, string> = {
   All: 'All',
   FIND: 'Finds',
-  FACT: 'Facts',
+  FACT: 'Surprises',
 };
 
 interface SegmentedControlProps {
@@ -18,7 +18,7 @@ interface SegmentedControlProps {
   onValueChange: (value: SegmentedControlOption) => void;
 }
 
-/** Filter between everything, Hidden Mickey finds, and easter-egg facts. */
+/** Filter between everything, Hidden Mickey finds, and Hidden Surprises. */
 export default function SegmentedControl({ options, selectedValue, onValueChange }: SegmentedControlProps) {
   const styles = useStyles(createStyles);
 

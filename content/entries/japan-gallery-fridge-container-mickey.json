@@ -1,0 +1,38 @@
+{
+  "id": "japan-gallery-fridge-container-mickey",
+  "parkId": "showcase_park",
+  "landId": "japan_pavilion",
+  "attractionId": "culture_gallery",
+  "display": {
+    "entryTitle": "Gallery Fridge Container Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Japan Pavilion",
+    "attractionName": "Culture Gallery"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "description": "A small red, black, and yellow container shaped like Mickey sits on the top back corner of the refrigerator in the kawaii cute-culture exhibit in the gallery at the rear of the pavilion. It is up high and toward the back, so guests studying the front of the fridge miss it.",
+  "whereToLook": {
+    "scene": "Kawaii cute-culture exhibit in the gallery at the rear of the pavilion, the decorated refrigerator",
+    "exactSpot": "Top of the refrigerator, at the back corner. Look for the red, black, and yellow Mickey-shaped container.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Step back from the fridge and look above it rather than at the door. The container sits at the rear edge of the top.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Low",
+    "distance": "Medium",
+    "notes": "Gallery exhibits rotate. If the cute-culture exhibit has been replaced, this find may no longer be present."
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "coordinates": {
+    "latitude": 28.3672,
+    "longitude": -81.5504
+  },
+  "createdAtISO": "2026-09-22T00:00:00.000Z",
+  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+}
