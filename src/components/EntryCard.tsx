@@ -7,6 +7,7 @@ import { RootStackParamList } from "../navigation/types";
 import { HiddenMickeyEntry } from "../data/types";
 import { labelOrFallback } from "../data/labels";
 import { useFoundStore } from "../store/useFoundStore";
+import { useSettingsStore } from "../store/useSettingsStore";
 import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
 import { spacing, radii, text, shadows } from "../theme/tokens";
 import DifficultyChip from "./ui/DifficultyChip";
@@ -27,6 +28,10 @@ export default function EntryCard({ entry, showLocation = false, trailingLabel }
   const t = useTheme();
   const styles = useStyles(createStyles);
   const found = useFoundStore((s) => entry.id in s.found);
+  const hintMode = useSettingsStore((s) => s.hintMode);
+  // The description gives the find away, so with hints on it stays hidden
+  // here too until the entry is found, matching the detail screen.
+  const showDescription = Boolean(entry.description) && (found || !hintMode);
   const title = labelOrFallback(entry.display?.entryTitle, "Hidden Find");
 
   const locationLine = [entry.display?.parkName, entry.display?.landName, entry.display?.attractionName]
@@ -59,11 +64,11 @@ export default function EntryCard({ entry, showLocation = false, trailingLabel }
           </View>
         )}
       </View>
-      {entry.description ? (
+      {showDescription && (
         <Text style={styles.description} numberOfLines={2}>
           {entry.description}
         </Text>
-      ) : null}
+      )}
     </Pressable>
   );
 }
