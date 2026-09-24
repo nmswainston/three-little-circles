@@ -22,6 +22,13 @@ export default {
         {
           locationWhenInUsePermission:
             'Three Little Circles uses your location to show where you are on the park map and which finds are closest.',
+          // The plugin also declares "Always" location by default. The app only
+          // ever asks while it is open, so leave those strings out of the
+          // Info.plist rather than declare access it never requests.
+          locationAlwaysAndWhenInUsePermission: false,
+          locationAlwaysPermission: false,
+          // Nor does it read motion activity.
+          motionUsagePermission: false,
         },
       ],
       [
@@ -29,6 +36,8 @@ export default {
         {
           photosPermission: 'Three Little Circles uses your photos so you can attach one to a suggested find.',
           cameraPermission: 'Three Little Circles uses the camera so you can photograph a suggested find.',
+          // Photos only, never video, so no microphone permission on either platform.
+          microphonePermission: false,
         },
       ],
       [
