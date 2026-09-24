@@ -83,8 +83,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "rotunda_paintings",
     "display": {
       "entryTitle": "Lobby Picture Frame Mickey",
-      "parkName": "Showcase Park",
-      "landName": "American Pavilion",
+      "parkName": "EPCOT",
+      "landName": "The American Adventure",
       "attractionName": "Rotunda Paintings"
     },
     "entryType": "FIND",
@@ -155,8 +155,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "rotunda_paintings",
     "display": {
       "entryTitle": "Westward Painting Mickey",
-      "parkName": "Showcase Park",
-      "landName": "American Pavilion",
+      "parkName": "EPCOT",
+      "landName": "The American Adventure",
       "attractionName": "Rotunda Paintings"
     },
     "entryType": "FIND",
@@ -533,8 +533,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "animal_mural_pizzeria",
     "display": {
       "entryTitle": "Turtle Markings Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Great Tree Area",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Discovery Island",
       "attractionName": "Animal Mural Pizzeria"
     },
     "entryType": "FIND",
@@ -857,9 +857,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "aquarium_pavilion",
     "display": {
       "entryTitle": "Shark Photo Area Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Nature Area",
-      "attractionName": "Aquarium Pavilion"
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "The Seas with Nemo & Friends"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -929,9 +929,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "aquarium_pavilion",
     "display": {
       "entryTitle": "Starfish Display Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Nature Area",
-      "attractionName": "Aquarium Pavilion"
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "The Seas with Nemo & Friends"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -1746,7 +1746,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "pavilion_gate",
     "display": {
       "entryTitle": "Gate Post Motif Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "China Pavilion",
       "attractionName": "Pavilion Gate"
     },
@@ -2040,8 +2040,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "conservation_exhibit_hall",
     "display": {
       "entryTitle": "Curving Mural Butterfly Body Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Conservation Outpost Area",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
       "attractionName": "Conservation Exhibit Hall"
     },
     "entryType": "FIND",
@@ -2076,8 +2076,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "conservation_exhibit_hall",
     "display": {
       "entryTitle": "Entrance Mural Butterfly Wing Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Conservation Outpost Area",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
       "attractionName": "Conservation Exhibit Hall"
     },
     "entryType": "FIND",
@@ -2112,8 +2112,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "conservation_exhibit_hall",
     "display": {
       "entryTitle": "Entrance Mural Opossum Eye Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Conservation Outpost Area",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
       "attractionName": "Conservation Exhibit Hall"
     },
     "entryType": "FIND",
@@ -2149,8 +2149,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "conservation_exhibit_hall",
     "display": {
       "entryTitle": "Lizard Tree Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Conservation Outpost Area",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
       "attractionName": "Conservation Exhibit Hall"
     },
     "entryType": "FIND",
@@ -2185,8 +2185,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "conservation_exhibit_hall",
     "display": {
       "entryTitle": "Low Mural Frog Pupil Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Conservation Outpost Area",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
       "attractionName": "Conservation Exhibit Hall"
     },
     "entryType": "FIND",
@@ -2221,8 +2221,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "conservation_exhibit_hall",
     "display": {
       "entryTitle": "Rainforest Panel Leaf Hole Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Conservation Outpost Area",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
       "attractionName": "Conservation Exhibit Hall"
     },
     "entryType": "FIND",
@@ -2257,8 +2257,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "conservation_exhibit_hall",
     "display": {
       "entryTitle": "Rainforest Tree Shadow Profile Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Conservation Outpost Area",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
       "attractionName": "Conservation Exhibit Hall"
     },
     "entryType": "FIND",
@@ -2293,8 +2293,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "conservation_exhibit_hall",
     "display": {
       "entryTitle": "Willow Tree Indentation Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Conservation Outpost Area",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
       "attractionName": "Conservation Exhibit Hall"
     },
     "entryType": "FIND",
@@ -3540,9 +3540,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "geosphere_time_ride",
     "display": {
       "entryTitle": "Electronics Scene Desk Eraser Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Celebration Area",
-      "attractionName": "Geosphere Time Ride"
+      "parkName": "EPCOT",
+      "landName": "World Celebration",
+      "attractionName": "Spaceship Earth"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -3580,9 +3580,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "geosphere_time_ride",
     "display": {
       "entryTitle": "Entrance Mural Satellite Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Celebration Area",
-      "attractionName": "Geosphere Time Ride"
+      "parkName": "EPCOT",
+      "landName": "World Celebration",
+      "attractionName": "Spaceship Earth"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -3620,9 +3620,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "geosphere_time_ride",
     "display": {
       "entryTitle": "Renaissance Fruit Study Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Celebration Area",
-      "attractionName": "Geosphere Time Ride"
+      "parkName": "EPCOT",
+      "landName": "World Celebration",
+      "attractionName": "Spaceship Earth"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -3889,9 +3889,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "glowing_river_boats",
     "display": {
       "entryTitle": "Shaman Garment Pattern Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Floating Mountains Area",
-      "attractionName": "Glowing River Boats"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Pandora: The World of Avatar",
+      "attractionName": "Na'vi River Journey"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -4528,7 +4528,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "high_street_shops",
     "display": {
       "entryTitle": "Ironwork Silhouette Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "United Kingdom Pavilion",
       "attractionName": "High Street Shops"
     },
@@ -5163,9 +5163,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "ice_queen_boat_ride",
     "display": {
       "entryTitle": "Queue Polar Bear Carving",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "Norway Pavilion",
-      "attractionName": "Ice Queen Boat Ride"
+      "attractionName": "Frozen Ever After"
     },
     "entryType": "FACT",
     "locationType": "Queue",
@@ -5199,9 +5199,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "ice_queen_boat_ride",
     "display": {
       "entryTitle": "Queue Spectacles and Gears Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "Norway Pavilion",
-      "attractionName": "Ice Queen Boat Ride"
+      "attractionName": "Frozen Ever After"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -5308,8 +5308,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "imagination_dragon_ride",
     "display": {
       "entryTitle": "Sight Room Illustration Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Celebration Area",
+      "parkName": "EPCOT",
+      "landName": "World Celebration",
       "attractionName": "Imagination Dragon Ride"
     },
     "entryType": "FIND",
@@ -5344,7 +5344,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "neptune_fountain",
     "display": {
       "entryTitle": "Fountain Ornament Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "Italy Pavilion",
       "attractionName": "Neptune Fountain"
     },
@@ -5456,7 +5456,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "koi_pond_garden",
     "display": {
       "entryTitle": "Koi Pond Rockwork Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "Japan Pavilion",
       "attractionName": "Koi Pond Garden"
     },
@@ -5674,9 +5674,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "jungle_palace_trail",
     "display": {
       "entryTitle": "Bridge Wall Hidden Name",
-      "parkName": "Adventure Park",
-      "landName": "Asia Village Area",
-      "attractionName": "Jungle Palace Trail"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Maharajah Jungle Trek"
     },
     "entryType": "FACT",
     "locationType": "Outdoor",
@@ -5710,9 +5710,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "jungle_palace_trail",
     "display": {
       "entryTitle": "Deer Wall Designer Initials",
-      "parkName": "Adventure Park",
-      "landName": "Asia Village Area",
-      "attractionName": "Jungle Palace Trail"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Maharajah Jungle Trek"
     },
     "entryType": "FACT",
     "locationType": "Outdoor",
@@ -5746,9 +5746,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "jungle_palace_trail",
     "display": {
       "entryTitle": "Deer Wall Designer Initials, Second Pair",
-      "parkName": "Adventure Park",
-      "landName": "Asia Village Area",
-      "attractionName": "Jungle Palace Trail"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Maharajah Jungle Trek"
     },
     "entryType": "FACT",
     "locationType": "Outdoor",
@@ -5862,9 +5862,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "jungle_palace_trail",
     "display": {
       "entryTitle": "Second Arch Mountain Rock Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Asia Village Area",
-      "attractionName": "Jungle Palace Trail"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Maharajah Jungle Trek"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -5898,9 +5898,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "legacy_photo_panels",
     "display": {
       "entryTitle": "Boy Band Portraits",
-      "parkName": "Showcase Park",
-      "landName": "Celebration Area",
-      "attractionName": "Legacy Photo Panels"
+      "parkName": "EPCOT",
+      "landName": "World Celebration",
+      "attractionName": "Leave a Legacy"
     },
     "entryType": "FACT",
     "locationType": "Outdoor",
@@ -5972,9 +5972,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "lion_celebration_show",
     "display": {
       "entryTitle": "Warthog Platform Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Savanna Village Area",
-      "attractionName": "Lion Celebration Show"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Africa",
+      "attractionName": "Festival of the Lion King"
     },
     "entryType": "FIND",
     "locationType": "Pre-show",
@@ -6046,9 +6046,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "little_chef_ride",
     "display": {
       "entryTitle": "Exit Wall Design Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "France Pavilion",
-      "attractionName": "Little Chef Ride"
+      "attractionName": "Remy's Ratatouille Adventure"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -6082,9 +6082,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "little_chef_ride",
     "display": {
       "entryTitle": "Queue Chef Animation Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "France Pavilion",
-      "attractionName": "Little Chef Ride"
+      "attractionName": "Remy's Ratatouille Adventure"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -6118,9 +6118,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "little_chef_ride",
     "display": {
       "entryTitle": "Street Scene Pizza Truck",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "France Pavilion",
-      "attractionName": "Little Chef Ride"
+      "attractionName": "Remy's Ratatouille Adventure"
     },
     "entryType": "FACT",
     "locationType": "Ride",
@@ -6300,9 +6300,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "marrakesh_restaurant",
     "display": {
       "entryTitle": "Anteroom Painting Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "Morocco Pavilion",
-      "attractionName": "Marrakesh Restaurant"
+      "attractionName": "Restaurant Marrakesh"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -6488,7 +6488,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "pyramid_interior_plaza",
     "display": {
       "entryTitle": "Volcano Landscape Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "Mexico Pavilion",
       "attractionName": "Pyramid Interior Plaza"
     },
@@ -7620,9 +7620,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "river_rapids_raft_ride",
     "display": {
       "entryTitle": "Queue Hanging Boots Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Asia Village Area",
-      "attractionName": "River Rapids Raft Ride"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Kali River Rapids"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -7656,9 +7656,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "river_rapids_raft_ride",
     "display": {
       "entryTitle": "Queue Wall Plates Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Asia Village Area",
-      "attractionName": "River Rapids Raft Ride"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Kali River Rapids"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -8133,7 +8133,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "rose_and_crown_pub",
     "display": {
       "entryTitle": "Pub Sign Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "United Kingdom Pavilion",
       "attractionName": "Rose and Crown Pub"
     },
@@ -8169,9 +8169,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "rotating_garden_restaurant",
     "display": {
       "entryTitle": "Mural Fern Face Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Nature Area",
-      "attractionName": "Rotating Garden Restaurant"
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "Garden Grill Restaurant"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -8401,9 +8401,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "savanna_safari_trucks",
     "display": {
       "entryTitle": "Queue Driver Board Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Savanna Village Area",
-      "attractionName": "Savanna Safari Trucks"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Africa",
+      "attractionName": "Kilimanjaro Safaris"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -8737,9 +8737,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "snowy_mountain_coaster",
     "display": {
       "entryTitle": "Yeti Museum Lantern Dents Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Asia Village Area",
-      "attractionName": "Snowy Mountain Coaster"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Expedition Everest"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -9979,9 +9979,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "undersea_puppet_show",
     "display": {
       "entryTitle": "Reef Backdrop Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Dinosaur Dig Area",
-      "attractionName": "Undersea Puppet Show"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "DinoLand U.S.A.",
+      "attractionName": "Finding Nemo: The Big Blue and Beyond"
     },
     "entryType": "FIND",
     "locationType": "Pre-show",
@@ -10396,9 +10396,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "winged_flight_simulator",
     "display": {
       "entryTitle": "Lab Specimen Containers Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Floating Mountains Area",
-      "attractionName": "Winged Flight Simulator"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Pandora: The World of Avatar",
+      "attractionName": "Avatar Flight of Passage"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -10436,9 +10436,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "winged_flight_simulator",
     "display": {
       "entryTitle": "Queue Gravel Cluster Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Floating Mountains Area",
-      "attractionName": "Winged Flight Simulator"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Pandora: The World of Avatar",
+      "attractionName": "Avatar Flight of Passage"
     },
     "entryType": "FIND",
     "locationType": "Queue",
