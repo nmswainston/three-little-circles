@@ -72,7 +72,10 @@
     ],
     "testPathIgnorePatterns": [
       "/node_modules/",
-      "/.expo/"
+      "<rootDir>/\\.[^/]+/"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/\\.[^/]+/"
     ]
   }
 }
