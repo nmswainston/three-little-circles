@@ -1,0 +1,36 @@
+{
+  "id": "river-rapids-queue-hanging-boots-mickey",
+  "parkId": "adventure_park",
+  "landId": "asia_village_area",
+  "attractionId": "river_rapids_raft_ride",
+  "display": {
+    "entryTitle": "Queue Hanging Boots Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Asia Village Area",
+    "attractionName": "River Rapids Raft Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "In the queue room hung with hiking equipment, a set of boots dangles from the ceiling. Seen from below, the boots are reported to form a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Equipment room in the queue with gear hanging overhead",
+    "exactSpot": "Look up at the hanging boots. The shape shows from underneath."
+  },
+  "bestTip": "Stand directly under the boots and look straight up.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-AK-0010",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-kali-river-rapids-boots",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

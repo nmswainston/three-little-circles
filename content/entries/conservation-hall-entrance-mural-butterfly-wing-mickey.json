@@ -1,0 +1,36 @@
+{
+  "id": "conservation-hall-entrance-mural-butterfly-wing-mickey",
+  "parkId": "adventure_park",
+  "landId": "conservation_outpost_area",
+  "attractionId": "conservation_exhibit_hall",
+  "display": {
+    "entryTitle": "Entrance Mural Butterfly Wing Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Conservation Outpost Area",
+    "attractionName": "Conservation Exhibit Hall"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "In the upper right of the entrance mural, a butterfly's wing markings form a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Entrance mural, upper right",
+    "exactSpot": "The butterfly high on the right. Look at the spots on its wings."
+  },
+  "bestTip": "Start from the top right corner and work down until you hit the butterfly.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-AK-0026",
+  "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

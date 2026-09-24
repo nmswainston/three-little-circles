@@ -1,0 +1,40 @@
+{
+  "id": "winged-flight-lab-specimen-containers-mickey",
+  "parkId": "adventure_park",
+  "landId": "floating_mountains_area",
+  "attractionId": "winged_flight_simulator",
+  "display": {
+    "entryTitle": "Lab Specimen Containers Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Floating Mountains Area",
+    "attractionName": "Winged Flight Simulator"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "In the indoor laboratory section of the queue, specimen displays line the walls. Three containers are set together as a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Laboratory displays in the indoor queue",
+    "exactSpot": "The specimen containers on display. One large jar with two smaller ones arranged as ears."
+  },
+  "bestTip": "The lab is dim but the displays are lit. Read each case as the line passes it.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3554,
+    "longitude": -81.5921
+  },
+  "sourceId": "TLC-AK-0009",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-flight-passage-specimen-jars",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
