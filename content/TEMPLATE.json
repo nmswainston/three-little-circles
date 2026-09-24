@@ -38,6 +38,11 @@
     "latitude": 28.3563,
     "longitude": -81.5628
   },
+  "image": {
+    "file": "park-attraction-short-description.jpg",
+    "alt": "Required. What the photo shows, for screen readers. The file named above goes in content/images/.",
+    "credit": "Optional. Who took it."
+  },
   "createdAtISO": "2026-09-16T00:00:00.000Z",
   "updatedAtISO": "2026-09-16T00:00:00.000Z"
 }

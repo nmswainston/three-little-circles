@@ -9,6 +9,7 @@ import { RootStackParamList, RootTabParamList } from "../navigation/types";
 import { getEntryById, getRelatedEntries } from "../data/query";
 import { HiddenMickeyEntry } from "../data/types";
 import { getConfirmation } from "../data/confirmations";
+import { getEntryImageSource } from "../data/images";
 import { labelOrFallback } from "../data/labels";
 import { openDirections } from "../lib/maps";
 import { entryShareText, shareText } from "../lib/share";
@@ -24,6 +25,7 @@ import EmptyState from "../components/ui/EmptyState";
 import EntryRow from "../components/EntryRow";
 import WhereToLook, { LookStep } from "../components/WhereToLook";
 import StillThereCard from "../components/StillThereCard";
+import ReferencePhoto from "../components/ReferencePhoto";
 
 type EntryDetailRouteProp = RouteProp<RootStackParamList, "EntryDetail">;
 type NavigationProp = CompositeNavigationProp<
@@ -118,6 +120,7 @@ export default function EntryDetailScreen() {
   const ladder = hintMode && !found;
   const shown = ladder ? Math.min(revealed, steps.length) : steps.length;
   const spoilersHidden = shown < steps.length;
+  const imageSource = getEntryImageSource(entry);
 
   const handleShare = async () => {
     const outcome = await shareText(entryShareText(entry, found));
@@ -208,6 +211,10 @@ export default function EntryDetailScreen() {
               <Ionicons name="key-outline" size={18} color={t.colors.textSecondary} />
               <Text style={styles.accessText}>{entry.accessNotes}</Text>
             </View>
+          )}
+
+          {entry.image && imageSource && (
+            <ReferencePhoto source={imageSource} image={entry.image} hidden={spoilersHidden} />
           )}
 
           {spoilersHidden ? (
