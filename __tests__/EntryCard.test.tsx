@@ -15,6 +15,9 @@ jest.mock('@react-navigation/native', () => ({
 const entry = getAllEntries().find((e) => e.display?.entryTitle && e.description)!;
 const title = entry.display!.entryTitle!;
 const description = entry.description!;
+// What a screen reader hears after the title: the type, the difficulty, and
+// the Hidden Surprise flag when it applies.
+const details = `${entry.locationType}, ${entry.difficulty}${entry.entryType === 'FACT' ? ', Hidden Surprise' : ''}`;
 
 beforeAll(async () => {
   await useFoundStore.persist.rehydrate();
@@ -39,27 +42,27 @@ describe('EntryCard', () => {
     useFoundStore.setState({ found: { [entry.id]: Date.now() } });
     render(<EntryCard entry={entry} />);
     expect(screen.getByText(description)).toBeTruthy();
-    expect(screen.getByLabelText(`${title}, found`)).toBeTruthy();
+    expect(screen.getByLabelText(`${title}, found, ${details}`)).toBeTruthy();
   });
 
   it('shows the description when hints are off', () => {
     useSettingsStore.setState({ hintMode: false });
     render(<EntryCard entry={entry} />);
     expect(screen.getByText(description)).toBeTruthy();
-    expect(screen.getByLabelText(title)).toBeTruthy();
+    expect(screen.getByLabelText(`${title}, ${details}`)).toBeTruthy();
   });
 
   it('opens the entry when tapped', () => {
     render(<EntryCard entry={entry} />);
-    fireEvent.press(screen.getByLabelText(title));
+    fireEvent.press(screen.getByLabelText(`${title}, ${details}`));
     expect(mockNavigate).toHaveBeenCalledWith('EntryDetail', { entryId: entry.id });
   });
 
   it('puts the location line and trailing label where a screen reader hears them', () => {
     render(<EntryCard entry={entry} showLocation trailingLabel="4 min walk" />);
     expect(screen.getByText('4 min walk')).toBeTruthy();
-    expect(screen.getByLabelText(`${title}, 4 min walk`)).toBeTruthy();
     const location = [entry.display?.parkName, entry.display?.landName, entry.display?.attractionName].filter(Boolean).join(' · ');
     expect(screen.getByText(location)).toBeTruthy();
+    expect(screen.getByLabelText(`${title}, 4 min walk, ${details}, ${location.replace(/ · /g, ', ')}`)).toBeTruthy();
   });
 });

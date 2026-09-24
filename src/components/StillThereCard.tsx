@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, Pressable, StyleSheet, Platform, ActivityIndicator } from "react-native";
+import { View, Text, Pressable, StyleSheet, Platform, ActivityIndicator, AccessibilityInfo } from "react-native";
 import * as Haptics from "expo-haptics";
 import { Ionicons } from "@expo/vector-icons";
 import { ConfirmationSummary, describeFreshness } from "../data/confirmations";
@@ -38,6 +38,9 @@ export default function StillThereCard({ entryId, summary }: StillThereCardProps
     setSending(undefined);
     if (!result.ok) {
       setError(result.message);
+      // The error line below is a live region, which Android and web read on
+      // their own. iOS has no live regions, so it gets an announcement instead.
+      if (Platform.OS === "ios") AccessibilityInfo.announceForAccessibility(result.message);
       return;
     }
     record(entryId, status);
@@ -50,7 +53,9 @@ export default function StillThereCard({ entryId, summary }: StillThereCardProps
   return (
     <View style={styles.card}>
       <View style={styles.header}>
-        <Text style={styles.title}>Still there?</Text>
+        <Text style={styles.title} accessibilityRole="header">
+          Still there?
+        </Text>
         <Text style={[styles.fresh, freshness.warning && styles.freshWarning]}>{freshness.label}</Text>
       </View>
       {freshness.detail && <Text style={styles.detail}>{freshness.detail}</Text>}
@@ -64,6 +69,7 @@ export default function StillThereCard({ entryId, summary }: StillThereCardProps
               disabled={!!sending}
               accessibilityRole="button"
               accessibilityLabel="Saw it today"
+              accessibilityState={{ busy: sending === "seen" }}
               style={({ pressed }) => [styles.button, styles.buttonPrimary, pressed && styles.pressed]}
             >
               {sending === "seen" ? (
@@ -78,6 +84,7 @@ export default function StillThereCard({ entryId, summary }: StillThereCardProps
               disabled={!!sending}
               accessibilityRole="button"
               accessibilityLabel="Couldn't find it"
+              accessibilityState={{ busy: sending === "missing" }}
               style={({ pressed }) => [styles.button, styles.buttonSecondary, pressed && styles.pressed]}
             >
               {sending === "missing" ? (
@@ -88,15 +95,19 @@ export default function StillThereCard({ entryId, summary }: StillThereCardProps
               <Text style={styles.buttonSecondaryText}>Couldn't find it</Text>
             </Pressable>
           </View>
-          {error && <Text style={styles.error}>{error}</Text>}
+          {error && (
+            <Text style={styles.error} accessibilityLiveRegion="polite">
+              {error}
+            </Text>
+          )}
         </>
       ) : (
         <View style={styles.thanks}>
-          <Ionicons name="checkmark" size={18} color={t.colors.success} />
+          <Ionicons name="checkmark" size={18} color={t.colors.success} accessibilityElementsHidden importantForAccessibility="no" />
           <Text style={styles.thanksText}>
             You said {mine.status === "seen" ? "you saw it" : "you couldn't find it"} {relativeTime(mine.at)}. Thanks.
           </Text>
-          <Pressable onPress={() => setChanging(true)} accessibilityRole="button" hitSlop={8}>
+          <Pressable onPress={() => setChanging(true)} accessibilityRole="button" accessibilityLabel="Change your report" hitSlop={8}>
             <Text style={styles.link}>Change</Text>
           </Pressable>
         </View>
@@ -156,7 +167,7 @@ const createStyles = (t: Theme) =>
       alignItems: "center",
       justifyContent: "center",
       gap: spacing.sm - 2,
-      height: 44,
+      minHeight: 44,
       borderRadius: radii.full,
     },
     buttonPrimary: {

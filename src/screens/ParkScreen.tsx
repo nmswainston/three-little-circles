@@ -122,7 +122,9 @@ export default function ParkScreen() {
         <View style={styles.groupCard}>
           <View style={styles.groupHeader}>
             <View style={[styles.dot, { backgroundColor: palette.accent }]} />
-            <Text style={[styles.groupTitle, { color: palette.text }]}>{item.attractionName}</Text>
+            <Text style={[styles.groupTitle, { color: palette.text }]} accessibilityRole="header">
+              {item.attractionName}
+            </Text>
           </View>
           {item.entries.map((entry, index) => (
             <React.Fragment key={entry.id}>
@@ -165,15 +167,23 @@ export default function ParkScreen() {
               <Ionicons name="share-outline" size={22} color={headerText} />
             </Pressable>
             <View style={[styles.headerDisc, { backgroundColor: headerDisc }]}>
-              <Ionicons name={PARK_ICONS[parkKey] as IconName} size={22} color={headerText} />
+              <Ionicons name={PARK_ICONS[parkKey] as IconName} size={22} color={headerText} accessibilityElementsHidden importantForAccessibility="no" />
             </View>
           </View>
         </View>
         {destination?.region && (
           <Text style={[styles.eyebrow, { color: headerMuted }]}>{destination.region}</Text>
         )}
-        <Text style={[styles.title, { color: headerText }]}>{parkName}</Text>
-        <View style={styles.progressRow}>
+        <Text style={[styles.title, { color: headerText }]} accessibilityRole="header">
+          {parkName}
+        </Text>
+        <View
+          style={styles.progressRow}
+          accessible
+          accessibilityRole={hasFinds ? "progressbar" : undefined}
+          accessibilityLabel={hasFinds ? `${foundCount} of ${parkEntries.length} found` : "No finds yet"}
+          accessibilityValue={hasFinds ? { min: 0, max: parkEntries.length, now: foundCount } : undefined}
+        >
           {hasFinds && (
             <View style={[styles.track, { backgroundColor: track }]}>
               <View style={[styles.fill, { width: `${pct}%` }]} />
@@ -240,7 +250,7 @@ export default function ParkScreen() {
                 {index > 0 && <View style={styles.divider} />}
                 <View style={styles.fact}>
                   <View style={[styles.factIcon, { backgroundColor: palette.tint }]}>
-                    <Ionicons name="bulb-outline" size={16} color={palette.text} />
+                    <Ionicons name="bulb-outline" size={16} color={palette.text} accessibilityElementsHidden importantForAccessibility="no" />
                   </View>
                   <View style={styles.factText}>
                     <Text style={styles.factTitle}>{fact.title}</Text>
@@ -255,6 +265,7 @@ export default function ParkScreen() {
                 <Pressable
                   onPress={() => setShowAllFacts(true)}
                   accessibilityRole="button"
+                  accessibilityLabel={`Show ${hiddenFactCount} more ${hiddenFactCount === 1 ? "fact" : "facts"}`}
                   style={({ pressed }) => [styles.factsMore, pressed && styles.suggestButtonPressed]}
                 >
                   <Text style={[styles.factsMoreText, { color: palette.text }]}>
@@ -274,6 +285,7 @@ export default function ParkScreen() {
         <Pressable
           onPress={() => navigation.navigate("SubmitSighting", { parkId })}
           accessibilityRole="button"
+          accessibilityLabel="Suggest a find"
           style={({ pressed }) => [styles.suggestButton, pressed && styles.suggestButtonPressed]}
         >
           <Ionicons name="add-circle-outline" size={20} color={t.colors.onInk} />
@@ -516,7 +528,7 @@ const createStyles = (t: Theme) =>
       flexDirection: "row",
       alignItems: "center",
       gap: spacing.sm - 2,
-      height: 44,
+      minHeight: 44,
       paddingHorizontal: spacing.md + 2,
       borderRadius: radii.full,
       backgroundColor: t.colors.ink,

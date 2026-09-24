@@ -106,7 +106,8 @@ export const day: Theme = {
     successLight: 'rgba(46,125,79,0.16)',
     onSuccess: '#FFFFFF',
     error: '#C2262E',
-    warning: '#F4B942',
+    /** Amber rather than the gold accent: gold as small text on cream is unreadable (1.6:1). */
+    warning: '#8A5A00',
 
     tip: '#FFE8B8',
     tipText: '#633806',

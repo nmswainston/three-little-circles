@@ -223,6 +223,7 @@ export default function MapScreen() {
             disabled={locating}
             accessibilityRole="button"
             accessibilityLabel="Show my location"
+            accessibilityState={{ busy: locating }}
             style={({ pressed }) => [styles.control, (pressed || locating) && styles.controlPressed]}
           >
             <Ionicons name={locationGranted ? "locate" : "locate-outline"} size={22} color={t.colors.text} />
@@ -232,7 +233,9 @@ export default function MapScreen() {
       {nearbyRows ? (
         <>
           <View style={styles.listHeader}>
-            <Text style={styles.listTitle}>Closest to you</Text>
+            <Text style={styles.listTitle} accessibilityRole="header">
+              Closest to you
+            </Text>
             <Text style={styles.listMeta}>
               {withinWalk === 0 ? "None within a walk" : `${withinWalk} within a walk`}
             </Text>

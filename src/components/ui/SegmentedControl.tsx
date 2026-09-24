@@ -31,6 +31,7 @@ export default function SegmentedControl({ options, selectedValue, onValueChange
             key={option}
             onPress={() => onValueChange(option)}
             accessibilityRole="tab"
+            accessibilityLabel={LABELS[option]}
             accessibilityState={{ selected }}
             style={[styles.segment, selected && styles.segmentSelected]}
           >
@@ -55,7 +56,7 @@ const createStyles = (t: Theme) =>
     },
     segment: {
       flex: 1,
-      height: 36,
+      minHeight: 36,
       borderRadius: radii.sm,
       alignItems: 'center',
       justifyContent: 'center',

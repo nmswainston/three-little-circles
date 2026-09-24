@@ -25,14 +25,16 @@ export default function AchievementSheet({ achievement, earnedAt, onClose }: Ach
 
   return (
     <Modal transparent visible={!!achievement} animationType="fade" onRequestClose={onClose}>
-      <Pressable style={styles.backdrop} onPress={onClose} accessibilityLabel="Close" />
+      <Pressable style={styles.backdrop} onPress={onClose} accessibilityRole="button" accessibilityLabel="Close" />
       {achievement && (
         <View style={[styles.sheet, { paddingBottom: insets.bottom + spacing.lg }]}>
           <Badge achievement={achievement} earned={earned} size={88} />
           <Text style={[styles.status, earned && styles.statusEarned]}>
             {earned ? `Unlocked ${formatDate(earnedAt)}` : 'Locked'}
           </Text>
-          <Text style={styles.title}>{achievement.title}</Text>
+          <Text style={styles.title} accessibilityRole="header">
+            {achievement.title}
+          </Text>
           <Text style={styles.body}>{earned ? achievement.description : achievement.hint}</Text>
           <Pressable onPress={onClose} accessibilityRole="button" style={styles.button}>
             <Text style={styles.buttonText}>Done</Text>
@@ -78,7 +80,7 @@ const createStyles = (t: Theme) =>
     },
     button: {
       marginTop: spacing.sm,
-      height: 48,
+      minHeight: 48,
       minWidth: 160,
       paddingHorizontal: spacing.lg,
       borderRadius: radii.full,

@@ -28,12 +28,13 @@ export default function TabBar({ state, descriptors, navigation }: BottomTabBarP
   const hasNewBadge = unlocked.some((id) => !seen.includes(id));
 
   return (
-    <View style={[styles.bar, { paddingBottom: Math.max(insets.bottom, spacing.sm) }]}>
+    <View style={[styles.bar, { paddingBottom: Math.max(insets.bottom, spacing.sm) }]} accessibilityRole="tablist">
       {state.routes.map((route, index) => {
         const focused = state.index === index;
         const { options } = descriptors[route.key];
         const label = options.title ?? route.name;
         const icon = ICONS[route.name] ?? ICONS.ParksTab;
+        const showsNewBadge = route.name === 'ProfileTab' && hasNewBadge;
 
         const onPress = () => {
           const event = navigation.emit({
@@ -53,9 +54,9 @@ export default function TabBar({ state, descriptors, navigation }: BottomTabBarP
         return (
           <Pressable
             key={route.key}
-            accessibilityRole="button"
-            accessibilityState={focused ? { selected: true } : {}}
-            accessibilityLabel={options.tabBarAccessibilityLabel ?? label}
+            accessibilityRole="tab"
+            accessibilityState={{ selected: focused }}
+            accessibilityLabel={`${options.tabBarAccessibilityLabel ?? label}${showsNewBadge ? ', new badge' : ''}`}
             onPress={onPress}
             onLongPress={onLongPress}
             style={styles.item}
@@ -67,7 +68,7 @@ export default function TabBar({ state, descriptors, navigation }: BottomTabBarP
                 size={22}
                 color={focused ? t.colors.onPrimary : t.colors.textMuted}
               />
-              {route.name === 'ProfileTab' && hasNewBadge && <View style={styles.newDot} />}
+              {showsNewBadge && <View style={styles.newDot} />}
             </View>
             <Text style={[styles.label, focused && styles.labelActive]}>{label}</Text>
           </Pressable>

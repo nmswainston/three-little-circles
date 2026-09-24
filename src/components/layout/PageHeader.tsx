@@ -27,7 +27,9 @@ export default function PageHeader({ title, subtitle, brand = false }: PageHeade
           <Text style={styles.brand}>Three Little Circles</Text>
         </View>
       )}
-      <Text style={[styles.title, brand && styles.titleAfterBrand]}>{title}</Text>
+      <Text style={[styles.title, brand && styles.titleAfterBrand]} accessibilityRole="header">
+        {title}
+      </Text>
       {subtitle ? <Text style={styles.subtitle}>{subtitle}</Text> : null}
     </View>
   );

@@ -118,7 +118,17 @@ export default function ProfileScreen() {
         <PageHeader title="Profile" subtitle="What you've noticed." />
 
         <View style={styles.body}>
-          <View style={styles.hero}>
+          <View
+            style={styles.hero}
+            accessible
+            accessibilityLabel={[
+              `${Math.round(progress * 100)} percent complete`,
+              `${foundCount} of ${total} hidden details found`,
+              latest ? `Latest find: ${labelOrFallback(latest.display?.entryTitle, "Hidden Find")}` : undefined,
+            ]
+              .filter(Boolean)
+              .join(", ")}
+          >
             <View style={styles.ringWrap}>
               <ProgressRing progress={progress} size={100} strokeWidth={10} />
               <View style={styles.ringCenter}>
@@ -145,6 +155,7 @@ export default function ProfileScreen() {
           <Pressable
             onPress={() => handleShare().catch(() => {})}
             accessibilityRole="button"
+            accessibilityLabel="Share progress"
             style={({ pressed }) => [styles.shareButton, pressed && styles.badgePressed]}
           >
             <Ionicons name="share-outline" size={20} color={t.colors.text} />
@@ -159,7 +170,11 @@ export default function ProfileScreen() {
                 return (
                   <React.Fragment key={park.parkId}>
                     {index > 0 && <View style={styles.divider} />}
-                    <View style={styles.parkRow}>
+                    <View
+                      style={styles.parkRow}
+                      accessible
+                      accessibilityLabel={`${park.name}, ${parkFound} of ${park.count} found`}
+                    >
                       <View style={[styles.dot, { backgroundColor: palette.accent }]} />
                       <Text style={styles.parkName} numberOfLines={2}>
                         {park.name}
@@ -184,7 +199,7 @@ export default function ProfileScreen() {
                     key={achievement.id}
                     onPress={() => openBadge(achievement)}
                     accessibilityRole="button"
-                    accessibilityLabel={`${achievement.title}, ${earned ? "unlocked" : "locked"}`}
+                    accessibilityLabel={`${achievement.title}, ${earned ? "unlocked" : "locked"}${unseen.has(achievement.id) ? ", new" : ""}`}
                     style={({ pressed }) => [styles.badge, pressed && styles.badgePressed]}
                   >
                     <Badge achievement={achievement} earned={earned} isNew={unseen.has(achievement.id)} />
@@ -245,6 +260,7 @@ export default function ProfileScreen() {
                 <Pressable
                   onPress={() => handleExport().catch(() => {})}
                   accessibilityRole="button"
+                  accessibilityLabel="Export a backup"
                   style={({ pressed }) => [styles.suggestButton, pressed && styles.badgePressed]}
                 >
                   <Ionicons name="arrow-up-circle-outline" size={20} color={t.colors.onInk} />
@@ -253,6 +269,7 @@ export default function ProfileScreen() {
                 <Pressable
                   onPress={() => navigation.navigate("ImportProgress")}
                   accessibilityRole="button"
+                  accessibilityLabel="Import a backup"
                   style={({ pressed }) => [styles.backupSecondary, pressed && styles.badgePressed]}
                 >
                   <Ionicons name="arrow-down-circle-outline" size={20} color={t.colors.text} />
@@ -270,6 +287,7 @@ export default function ProfileScreen() {
               <Pressable
                 onPress={() => navigation.navigate("SubmitSighting", undefined)}
                 accessibilityRole="button"
+                accessibilityLabel="Suggest a find"
                 style={({ pressed }) => [styles.suggestButton, pressed && styles.badgePressed]}
               >
                 <Ionicons name="add-circle-outline" size={20} color={t.colors.onInk} />
@@ -307,7 +325,9 @@ function Section({ title, children }: { title: string; children: ReactNode }) {
   const styles = useStyles(createStyles);
   return (
     <View style={styles.section}>
-      <Text style={styles.sectionTitle}>{title}</Text>
+      <Text style={styles.sectionTitle} accessibilityRole="header">
+        {title}
+      </Text>
       {children}
     </View>
   );
@@ -393,7 +413,7 @@ const createStyles = (t: Theme) =>
       flexDirection: "row",
       alignItems: "center",
       gap: spacing.sm - 2,
-      height: 44,
+      minHeight: 44,
       paddingHorizontal: spacing.md + 2,
       borderRadius: radii.full,
       backgroundColor: t.colors.surface,
@@ -411,7 +431,7 @@ const createStyles = (t: Theme) =>
       alignItems: "center",
       justifyContent: "center",
       gap: spacing.sm - 2,
-      height: 44,
+      minHeight: 44,
       borderRadius: radii.full,
       backgroundColor: t.colors.surface,
       borderWidth: 1,
@@ -529,7 +549,7 @@ const createStyles = (t: Theme) =>
       alignItems: "center",
       alignSelf: "flex-start",
       gap: spacing.sm - 2,
-      height: 44,
+      minHeight: 44,
       paddingHorizontal: spacing.md + 2,
       borderRadius: radii.full,
       backgroundColor: t.colors.ink,
@@ -541,7 +561,7 @@ const createStyles = (t: Theme) =>
     },
     introLink: {
       alignSelf: "flex-start",
-      height: 44,
+      minHeight: 44,
       justifyContent: "center",
     },
     introLinkText: {
@@ -551,7 +571,7 @@ const createStyles = (t: Theme) =>
     },
     resetButton: {
       alignSelf: "flex-start",
-      height: 44,
+      minHeight: 44,
       paddingHorizontal: spacing.md + 4,
       borderRadius: radii.full,
       borderWidth: 2,

@@ -29,7 +29,11 @@ export default function Sunburst({ color, opacity, center = { x: 195, y: -190 } 
   const rayOpacity = opacity ?? (t.dark ? 0.07 : 0.32);
 
   return (
-    <View style={[StyleSheet.absoluteFill, { pointerEvents: 'none' }]}>
+    <View
+      style={[StyleSheet.absoluteFill, { pointerEvents: 'none' }]}
+      accessibilityElementsHidden
+      importantForAccessibility="no-hide-descendants"
+    >
       <Svg
         width={size}
         height={size}

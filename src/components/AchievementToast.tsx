@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useRef } from 'react';
-import { View, Text, Pressable, Animated, StyleSheet, Platform } from 'react-native';
+import { View, Text, Pressable, Animated, StyleSheet, Platform, AccessibilityInfo } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import * as Haptics from 'expo-haptics';
 import { useAchievementsStore, getAchievement } from '../store/useAchievementsStore';
@@ -40,6 +40,8 @@ export default function AchievementToast() {
     if (Platform.OS !== 'web') {
       Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success).catch(() => {});
     }
+    const earned = getAchievement(current);
+    if (earned) AccessibilityInfo.announceForAccessibility(`Badge unlocked: ${earned.title}`);
     translateY.setValue(HIDDEN_Y);
     Animated.spring(translateY, {
       toValue: 0,
