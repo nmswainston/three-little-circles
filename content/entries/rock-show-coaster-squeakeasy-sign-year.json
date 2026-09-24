@@ -1,0 +1,36 @@
+{
+  "id": "rock-show-coaster-squeakeasy-sign-year",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "rock_show_coaster",
+  "display": {
+    "entryTitle": "Squeakeasy Sign Year",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Sunset Boulevard",
+    "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+  },
+  "entryType": "FACT",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "The sign for the squeakeasy is dated 1936. That is the birth year of the man who created the whole troupe of felt performers.",
+  "whereToLook": {
+    "scene": "Squeakeasy sign along the queue",
+    "exactSpot": "The year on the sign."
+  },
+  "bestTip": "Read the small print on every sign in this queue. Most of it means something.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0028",
+  "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

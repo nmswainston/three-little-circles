@@ -1,0 +1,36 @@
+{
+  "id": "midway-shooter-exit-purple-bull-patch-mickey",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "midway_shooter",
+  "display": {
+    "entryTitle": "Exit Purple Bull Patch Mickey",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Toy Story Land",
+    "attractionName": "Toy Story Mania!"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "On the exit route past the giant playing cards, a purple bull cutout stands against the wall. A patch on the bull's side forms a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Exit route beyond the large playing cards",
+    "exactSpot": "The purple bull cutout. Look at the patch on its side."
+  },
+  "bestTip": "Let the crowd go ahead and step to the side of the bull.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0006",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-rodeo-bull",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

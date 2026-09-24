@@ -1,0 +1,36 @@
+{
+  "id": "boulder-ridge-lobby-flower-painting-frame-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "wilderness_lodge_resort",
+  "attractionId": "boulder_ridge_villas_lobby",
+  "display": {
+    "entryTitle": "Flower Painting Frame Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Wilderness Lodge Resort",
+    "attractionName": "Boulder Ridge Villas Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The frame of the same flower painting carries a classic Hidden Mickey in its ornament, lower right.",
+  "whereToLook": {
+    "scene": "Flower painting on the right side of the villas lobby",
+    "exactSpot": "Lower right corner of the frame."
+  },
+  "bestTip": "Third of three on this painting. Check the frame last.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0054",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

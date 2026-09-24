@@ -1,0 +1,36 @@
+{
+  "id": "smugglers-freighter-cockpit-miniature-ship",
+  "parkId": "studios_park",
+  "landId": "smugglers_outpost_area",
+  "attractionId": "smugglers_freighter_ride",
+  "display": {
+    "entryTitle": "Cockpit Miniature Ship",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Star Wars: Galaxy's Edge",
+    "attractionName": "Millennium Falcon: Smugglers Run"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "The full-size freighter parked outside the ride has a tiny copy of itself built into the underside of its cockpit. A ship inside a ship, for anyone who thinks to look up.",
+  "whereToLook": {
+    "scene": "Full-size freighter outside the attraction",
+    "exactSpot": "Under the cockpit, on the side of the ship where the cockpit juts out. Look up at the greebles."
+  },
+  "bestTip": "Stand under the cockpit rather than in front of the ship, where everyone takes their photo.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0002",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-hidden-millenium-falcoln",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

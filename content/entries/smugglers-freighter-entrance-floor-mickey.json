@@ -1,0 +1,36 @@
+{
+  "id": "smugglers-freighter-entrance-floor-mickey",
+  "parkId": "studios_park",
+  "landId": "smugglers_outpost_area",
+  "attractionId": "smugglers_freighter_ride",
+  "display": {
+    "entryTitle": "Entrance Floor Mickey",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Star Wars: Galaxy's Edge",
+    "attractionName": "Millennium Falcon: Smugglers Run"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Entrance",
+  "description": "In the floor at the entrance to the freighter queue, a small grouping of marks is reported to form a classic Hidden Mickey. The outpost was designed to hide almost no Mickeys, which makes this one worth a look.",
+  "whereToLook": {
+    "scene": "Floor at the queue entrance",
+    "exactSpot": "Look straight down as you pass through the entrance. The shape is small."
+  },
+  "bestTip": "Go when the line is short so you can stop and study the floor without holding people up.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0004",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-millennium-falcon-smugglers-run",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

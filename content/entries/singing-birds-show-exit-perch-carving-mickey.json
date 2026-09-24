@@ -5,9 +5,9 @@
   "attractionId": "singing_birds_show",
   "display": {
     "entryTitle": "Exit Perch Carving Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Jungle Outpost Area",
-    "attractionName": "Singing Birds Show"
+    "parkName": "Magic Kingdom",
+    "landName": "Adventureland",
+    "attractionName": "Walt Disney's Enchanted Tiki Room"
   },
   "entryType": "FIND",
   "locationType": "Indoor",

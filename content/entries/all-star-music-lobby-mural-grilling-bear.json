@@ -1,0 +1,36 @@
+{
+  "id": "all-star-music-lobby-mural-grilling-bear",
+  "parkId": "resorts_bucket",
+  "landId": "all_star_music_resort",
+  "attractionId": "lobby_mural",
+  "display": {
+    "entryTitle": "Lobby Mural Grilling Bear",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "All-Star Music Resort",
+    "attractionName": "Lobby Mural"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In the lobby's character mural, the band plays while a bear grills food in the background, sneaking a picnic into the musical scene.",
+  "whereToLook": {
+    "scene": "Character mural in the lobby",
+    "exactSpot": "Look behind the band for a bear at a grill."
+  },
+  "bestTip": "The musicians pull your eye; look at the background.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Documented",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0086",
+  "sourceUrl": "https://disneyparksblog.com/wdw/check-in-check-it-out-all-star-and-pop-century-resort-refurbishments/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -5,9 +5,9 @@
   "attractionId": "wild_west_mine_coaster",
   "display": {
     "entryTitle": "Exit Fairy Likeness",
-    "parkName": "Kingdom Park",
-    "landName": "Frontier Area",
-    "attractionName": "Wild West Mine Coaster"
+    "parkName": "Magic Kingdom",
+    "landName": "Frontierland",
+    "attractionName": "Big Thunder Mountain Railroad"
   },
   "entryType": "FACT",
   "locationType": "Outdoor",

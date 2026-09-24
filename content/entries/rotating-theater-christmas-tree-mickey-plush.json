@@ -5,9 +5,9 @@
   "attractionId": "rotating_theater_show",
   "display": {
     "entryTitle": "Christmas Tree Mickey Plush",
-    "parkName": "Kingdom Park",
-    "landName": "Future City Area",
-    "attractionName": "Rotating Theater Show"
+    "parkName": "Magic Kingdom",
+    "landName": "Tomorrowland",
+    "attractionName": "Walt Disney's Carousel of Progress"
   },
   "entryType": "FIND",
   "locationType": "Ride",

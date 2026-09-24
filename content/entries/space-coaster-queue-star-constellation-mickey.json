@@ -5,9 +5,9 @@
   "attractionId": "space_coaster",
   "display": {
     "entryTitle": "Queue Star Constellation Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Future City Area",
-    "attractionName": "Space Coaster"
+    "parkName": "Magic Kingdom",
+    "landName": "Tomorrowland",
+    "attractionName": "Space Mountain"
   },
   "entryType": "FIND",
   "locationType": "Queue",

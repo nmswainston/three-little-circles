@@ -5,9 +5,9 @@
   "attractionId": "honey_pot_ride",
   "display": {
     "entryTitle": "Entrance Sign Profile Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Castle Courtyard Area",
-    "attractionName": "Honey Pot Ride"
+    "parkName": "Magic Kingdom",
+    "landName": "Fantasyland",
+    "attractionName": "The Many Adventures of Winnie the Pooh"
   },
   "entryType": "FIND",
   "locationType": "Outdoor",

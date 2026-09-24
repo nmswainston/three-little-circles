@@ -5,9 +5,9 @@
   "attractionId": "mine_train_coaster",
   "display": {
     "entryTitle": "Loading Dock Log Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Storybook Forest Area",
-    "attractionName": "Mine Train Coaster"
+    "parkName": "Magic Kingdom",
+    "landName": "Fantasyland: Enchanted Forest",
+    "attractionName": "Seven Dwarfs Mine Train"
   },
   "entryType": "FIND",
   "locationType": "Queue",

@@ -5,9 +5,9 @@
   "attractionId": "steam_train_station",
   "display": {
     "entryTitle": "Ticket Office Padlock Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Main Street Area",
-    "attractionName": "Steam Train Station"
+    "parkName": "Magic Kingdom",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Walt Disney World Railroad"
   },
   "entryType": "FIND",
   "locationType": "Indoor",

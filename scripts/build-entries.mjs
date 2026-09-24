@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 /**
- * Builds src/data/entries.generated.ts from content/entries/*.json and
- * src/data/facts.generated.ts from content/facts/*.json.
+ * Builds src/data/entries.generated.ts from content/entries/*.json,
+ * src/data/facts.generated.ts from content/facts/*.json, and
+ * src/data/images.generated.ts from the entries' "image" fields and the
+ * files in content/images/.
  *
  * Every entry lives in its own JSON file so new Hidden Mickeys can be added
  * without touching app code. This script validates each file against the
@@ -13,17 +15,22 @@
  * Usage:
  *   node scripts/build-entries.mjs          # validate and write the generated files
  *   node scripts/build-entries.mjs --check  # validate and fail if a generated file is stale
+ *
+ * TLC_CONTENT_ROOT points the script at another project root (content/ in,
+ * src/data/ out). The tests use it to run the validator against fixtures.
  */
-import { readdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
-import { join, dirname, basename } from "node:path";
+import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from "node:fs";
+import { join, dirname, basename, extname } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const root = join(dirname(fileURLToPath(import.meta.url)), "..");
+const root = process.env.TLC_CONTENT_ROOT || join(dirname(fileURLToPath(import.meta.url)), "..");
 const contentDir = join(root, "content", "entries");
 const factsDir = join(root, "content", "facts");
 const destinationsFile = join(root, "content", "destinations.json");
 const outFile = join(root, "src", "data", "entries.generated.ts");
 const factsOutFile = join(root, "src", "data", "facts.generated.ts");
+const imagesDir = join(root, "content", "images");
+const imagesOutFile = join(root, "src", "data", "images.generated.ts");
 const checkOnly = process.argv.includes("--check");
 
 const ENUMS = {
@@ -44,12 +51,18 @@ const TOP_LEVEL_KEYS = new Set([
   "id", "parkId", "landId", "attractionId", "display", "entryType",
   "locationType", "difficulty", "areaContext", "description", "whereToLook",
   "bestTip", "funFacts", "viewing", "confidence", "verification", "verifiedAtISO",
-  "status", "accessNotes", "coordinates", "sourceId", "sourceUrl",
+  "status", "accessNotes", "coordinates", "image", "sourceId", "sourceUrl",
   "createdAtISO", "updatedAtISO",
 ]);
 const SOURCE_ID_PATTERN = /^[A-Z]{2,5}-[A-Z]{2,4}-\d{4}$/;
 const DISPLAY_KEYS = new Set(["parkName", "landName", "attractionName", "entryTitle"]);
 const VIEWING_KEYS = new Set(["motion", "lighting", "angle", "crowding", "distance", "notes"]);
+const IMAGE_KEYS = new Set(["file", "alt", "credit"]);
+const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp"]);
+const IMAGE_FILE_PATTERN = /^[a-z0-9]+(-[a-z0-9]+)*\.[a-z]+$/;
+// Every photo ships inside the app, so keep each one small. About 1200 px on
+// the long side as a JPEG lands well under this.
+const IMAGE_MAX_BYTES = 300 * 1024;
 const ID_PATTERN = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
 const errors = [];
@@ -162,11 +175,183 @@ function validateEntry(file, e) {
     }
   }
 
+  if (e.image !== undefined) validateImage(file, e.image);
+
   for (const field of ["createdAtISO", "updatedAtISO", "verifiedAtISO"]) {
     if (e[field] !== undefined && Number.isNaN(Date.parse(e[field]))) {
       fail(file, `"${field}" must be an ISO 8601 date string`);
     }
   }
+}
+
+function validateImage(file, image) {
+  if (typeof image !== "object" || image === null || Array.isArray(image)) {
+    fail(file, `"image" must be an object with "file" and "alt"`);
+    return;
+  }
+  checkKeys(file, "image", image, IMAGE_KEYS);
+  if (!isNonEmptyString(image.alt)) fail(file, `"image.alt" is required: say what the photo shows`);
+  checkOptionalString(file, "image.credit", image.credit);
+
+  if (!isNonEmptyString(image.file)) {
+    fail(file, `"image.file" is required`);
+    return;
+  }
+  const name = image.file;
+  if (!IMAGE_FILE_PATTERN.test(name) || !IMAGE_EXTENSIONS.has(extname(name))) {
+    fail(file, `"image.file" "${name}" must be a lowercase kebab-case name ending in .jpg, .jpeg, .png, or .webp`);
+    return;
+  }
+  // Compare against the directory listing rather than existsSync: on a
+  // case-insensitive disk (the macOS default) existsSync would accept
+  // Pirates-Bells.jpg for pirates-bells.jpg, and the bundle would then fail
+  // on Linux, where Metro looks the name up exactly.
+  if (!imageFileNames().has(name)) {
+    fail(file, `"image.file" "${name}" is not in content/images/ (the name must match the file exactly, including letter case)`);
+    return;
+  }
+  const path = join(imagesDir, name);
+  const bytes = statSync(path).size;
+  if (bytes > IMAGE_MAX_BYTES) {
+    const kb = Math.round(bytes / 1024);
+    fail(file, `content/images/${name} is ${kb} KB; keep photos under ${IMAGE_MAX_BYTES / 1024} KB (about 1200 px on the long side as a JPEG)`);
+    return;
+  }
+  const problem = imageProblem(name, readFileSync(path));
+  if (problem) fail(file, `content/images/${name} ${problem}`);
+}
+
+// ---------------------------------------------------------------------------
+// Photo bytes. A photo that is cut off or saved under the wrong extension
+// passes the size check and then fails inside the app, where nobody sees the
+// error until a guest opens the entry. These checks walk each format's
+// container structure: JPEG marker segments through to the end-of-image
+// marker, PNG chunks with their checksums through to IEND, and the WebP RIFF
+// header against the file length. They are not a pixel decode, so a photo
+// that passes can still look wrong, but it cannot be truncated, empty, or a
+// different format in disguise.
+// ---------------------------------------------------------------------------
+
+/** What is wrong with the photo's bytes for its extension, or null when they look complete. */
+function imageProblem(name, data) {
+  switch (extname(name)) {
+    case ".jpg":
+    case ".jpeg":
+      return jpegProblem(data);
+    case ".png":
+      return pngProblem(data);
+    case ".webp":
+      return webpProblem(data);
+    default:
+      return "has an unsupported extension";
+  }
+}
+
+const JPEG_EOI = Buffer.from([0xff, 0xd9]);
+
+/** Walks the JPEG marker segments up to the scan, then requires the end-of-image marker after it. */
+function jpegProblem(data) {
+  if (data.length < 4 || data[0] !== 0xff || data[1] !== 0xd8 || data[2] !== 0xff) {
+    return "does not start with a JPEG header; is it really a JPEG?";
+  }
+  let offset = 2;
+  while (offset + 4 <= data.length) {
+    if (data[offset] !== 0xff) return `has a malformed JPEG segment at byte ${offset}`;
+    const marker = data[offset + 1];
+    if (marker === 0xff) {
+      offset += 1; // fill byte ahead of a marker
+      continue;
+    }
+    if (marker === 0xd9) return "has no JPEG image data";
+    if (marker === 0xda) {
+      // Start of scan: entropy-coded data follows. Inside it every 0xff is
+      // followed by 0x00 or a restart marker, so 0xff 0xd9 can only be the
+      // end-of-image marker.
+      return data.indexOf(JPEG_EOI, offset + 2) === -1
+        ? "is missing the JPEG end-of-image marker; the file may be truncated"
+        : null;
+    }
+    if ((marker >= 0xd0 && marker <= 0xd8) || marker === 0x01) {
+      offset += 2; // standalone marker with no length
+      continue;
+    }
+    const length = data.readUInt16BE(offset + 2);
+    if (length < 2) return `has a malformed JPEG segment at byte ${offset}`;
+    offset += 2 + length;
+  }
+  return "ends before its JPEG image data; the file may be truncated";
+}
+
+const PNG_SIGNATURE = Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]);
+
+/** Walks the PNG chunks, checking each checksum, until IEND. */
+function pngProblem(data) {
+  if (data.length < PNG_SIGNATURE.length || !data.subarray(0, PNG_SIGNATURE.length).equals(PNG_SIGNATURE)) {
+    return "does not start with a PNG header; is it really a PNG?";
+  }
+  let offset = PNG_SIGNATURE.length;
+  let sawHeader = false;
+  while (offset + 12 <= data.length) {
+    const length = data.readUInt32BE(offset);
+    const type = data.toString("latin1", offset + 4, offset + 8);
+    if (!sawHeader && type !== "IHDR") return "does not begin with a PNG IHDR chunk";
+    sawHeader = true;
+    const end = offset + 12 + length;
+    if (end > data.length) return `is cut off inside its PNG ${type} chunk; the file may be truncated`;
+    if (crc32(data.subarray(offset + 4, end - 4)) !== data.readUInt32BE(end - 4)) {
+      return `has a corrupt PNG ${type} chunk (checksum mismatch)`;
+    }
+    if (type === "IEND") return null;
+    offset = end;
+  }
+  return "is missing its PNG IEND chunk; the file may be truncated";
+}
+
+const CRC_TABLE = new Uint32Array(256).map((_, n) => {
+  let c = n;
+  for (let k = 0; k < 8; k++) c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1;
+  return c >>> 0;
+});
+
+/** CRC-32 as PNG uses it, over a chunk's type and data. */
+function crc32(bytes) {
+  let crc = 0xffffffff;
+  for (const b of bytes) crc = CRC_TABLE[(crc ^ b) & 0xff] ^ (crc >>> 8);
+  return (crc ^ 0xffffffff) >>> 0;
+}
+
+const WEBP_FIRST_CHUNKS = new Set(["VP8 ", "VP8L", "VP8X"]);
+
+/** Checks the RIFF container: its declared length must fit the file and the first chunk must be a WebP bitstream. */
+function webpProblem(data) {
+  if (data.length < 16 || data.toString("latin1", 0, 4) !== "RIFF" || data.toString("latin1", 8, 12) !== "WEBP") {
+    return "does not start with a WebP header; is it really a WebP?";
+  }
+  const declared = data.readUInt32LE(4) + 8;
+  if (declared > data.length) {
+    return `is ${data.length} bytes but its WebP header declares ${declared}; the file may be truncated`;
+  }
+  const chunk = data.toString("latin1", 12, 16);
+  if (!WEBP_FIRST_CHUNKS.has(chunk)) return `has an unexpected first WebP chunk "${chunk}"`;
+  return null;
+}
+
+let imageFileNamesCache;
+
+/** The exact file names in content/images/, read once. */
+function imageFileNames() {
+  if (imageFileNamesCache === undefined) {
+    imageFileNamesCache = new Set(existsSync(imagesDir) ? readdirSync(imagesDir) : []);
+  }
+  return imageFileNamesCache;
+}
+
+/** Image files nobody references. Reported, not failed, so a photo can land a commit before its entry. */
+function unusedImages(entries) {
+  const used = new Set(entries.map((e) => e.image?.file).filter(Boolean));
+  return [...imageFileNames()]
+    .filter((f) => IMAGE_EXTENSIONS.has(extname(f)) && !used.has(f))
+    .sort();
 }
 
 function checkConsistency(entries) {
@@ -228,6 +413,24 @@ function loadEntries() {
   }
   checkConsistency(entries);
   return entries.map((x) => x.entry);
+}
+
+function renderImages(entries) {
+  const lines = entries
+    .filter((e) => e.image)
+    .map((e) => `  ${JSON.stringify(e.id)}: require(${JSON.stringify(`../../content/images/${e.image.file}`)}),`);
+  return [
+    "// GENERATED FILE. Do not edit by hand.",
+    '// Source: the "image" field of content/entries/*.json and the files in content/images/.',
+    "// Rebuild with `npm run content:build`.",
+    'import type { ImageSourcePropType } from "react-native";',
+    "",
+    "/** Bundled reference photos by entry id. Metro needs each require to be a literal. */",
+    lines.length > 0
+      ? `export const images: Record<string, ImageSourcePropType> = {\n${lines.join("\n")}\n};`
+      : "export const images: Record<string, ImageSourcePropType> = {};",
+    "",
+  ].join("\n");
 }
 
 function render(entries) {
@@ -331,6 +534,8 @@ function renderFacts(facts) {
 
 const entries = loadEntries();
 const facts = loadFacts();
+const orphans = unusedImages(entries);
+for (const name of orphans) console.log(`note: content/images/${name} is not referenced by any entry yet`);
 if (errors.length > 0) {
   console.error(`Content validation failed with ${errors.length} problem(s):\n`);
   for (const e of errors) console.error(`  - ${e}`);
@@ -340,7 +545,9 @@ if (errors.length > 0) {
 const outputs = [
   { path: outFile, label: "src/data/entries.generated.ts", content: render(entries) },
   { path: factsOutFile, label: "src/data/facts.generated.ts", content: renderFacts(facts) },
+  { path: imagesOutFile, label: "src/data/images.generated.ts", content: renderImages(entries) },
 ];
+const photoCount = entries.filter((e) => e.image).length;
 // Git may check the generated file out with CRLF line endings on Windows;
 // compare content, not line terminators.
 const normalize = (s) => s.replace(/\r\n/g, "\n");
@@ -352,8 +559,8 @@ if (checkOnly) {
       process.exit(1);
     }
   }
-  console.log(`Validated ${entries.length} entries and ${facts.length} facts; generated files are up to date.`);
+  console.log(`Validated ${entries.length} entries, ${facts.length} facts, and ${photoCount} photos; generated files are up to date.`);
 } else {
   for (const { path, content } of outputs) writeFileSync(path, content);
-  console.log(`Validated ${entries.length} entries and ${facts.length} facts and wrote the generated files.`);
+  console.log(`Validated ${entries.length} entries, ${facts.length} facts, and ${photoCount} photos and wrote the generated files.`);
 }

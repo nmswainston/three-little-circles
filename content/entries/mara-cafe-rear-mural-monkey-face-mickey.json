@@ -1,0 +1,36 @@
+{
+  "id": "mara-cafe-rear-mural-monkey-face-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "mara_cafe",
+  "display": {
+    "entryTitle": "Rear Mural Monkey Face Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "The Mara"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "On the mural at the rear of the cafe, the monkey on the left has facial markings that form a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Rear mural in the cafe",
+    "exactSpot": "The monkey on the left side of the mural. Look at its face."
+  },
+  "bestTip": "Take a table near the back to study it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0026",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

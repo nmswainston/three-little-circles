@@ -1,0 +1,36 @@
+{
+  "id": "boulder-ridge-lobby-fireplace-red-ornament-profile-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "wilderness_lodge_resort",
+  "attractionId": "boulder_ridge_villas_lobby",
+  "display": {
+    "entryTitle": "Fireplace Red Ornament Profile Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Wilderness Lodge Resort",
+    "attractionName": "Boulder Ridge Villas Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "Above the villas lobby fireplace, a red ornament hides Mickey's profile in its decoration.",
+  "whereToLook": {
+    "scene": "Red ornament above the fireplace",
+    "exactSpot": "Look at the decoration for a side view of a face with a round ear."
+  },
+  "bestTip": "Step back to the middle of the room; the profile reads from a distance.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "Low",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0057",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

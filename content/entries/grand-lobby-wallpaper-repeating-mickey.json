@@ -1,0 +1,36 @@
+{
+  "id": "grand-lobby-wallpaper-repeating-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "grand_floridian_resort",
+  "attractionId": "grand_lobby",
+  "display": {
+    "entryTitle": "Lobby Wallpaper Repeating Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Grand Floridian Resort",
+    "attractionName": "Grand Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The wallpaper pattern in the grand lobby repeats a classic Hidden Mickey within its decoration.",
+  "whereToLook": {
+    "scene": "Wallpaper in the grand lobby",
+    "exactSpot": "Look closely at one repeat of the wallpaper pattern."
+  },
+  "bestTip": "The walls near the elevators are easiest to get close to.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0075",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

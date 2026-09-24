@@ -5,9 +5,9 @@
   "attractionId": "concert_hall_show",
   "display": {
     "entryTitle": "Rotating Ring Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Castle Courtyard Area",
-    "attractionName": "Concert Hall Show"
+    "parkName": "Magic Kingdom",
+    "landName": "Fantasyland",
+    "attractionName": "Mickey's PhilharMagic"
   },
   "entryType": "FIND",
   "locationType": "Ride",

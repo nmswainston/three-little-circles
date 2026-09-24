@@ -5,9 +5,9 @@
   "attractionId": "town_square_restaurant",
   "display": {
     "entryTitle": "Floor Tile Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Main Street Area",
-    "attractionName": "Town Square Restaurant"
+    "parkName": "Magic Kingdom",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Tony's Town Square Restaurant"
   },
   "entryType": "FIND",
   "locationType": "Indoor",

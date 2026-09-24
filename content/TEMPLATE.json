@@ -2,11 +2,11 @@
   "id": "park-attraction-short-description",
   "parkId": "studios_park",
   "landId": "toy_blocks_area",
-  "attractionId": "backyard_coaster",
+  "attractionId": "slinky_dog_dash",
   "display": {
-    "parkName": "Studios Park",
-    "landName": "Toy Blocks Area",
-    "attractionName": "Backyard Coaster",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Toy Story Land",
+    "attractionName": "Slinky Dog Dash",
     "entryTitle": "Short Title For The Find"
   },
   "entryType": "FIND",
@@ -37,6 +37,11 @@
   "coordinates": {
     "latitude": 28.3563,
     "longitude": -81.5628
+  },
+  "image": {
+    "file": "park-attraction-short-description.jpg",
+    "alt": "Required. What the photo shows, for screen readers. The file named above goes in content/images/.",
+    "credit": "Optional. Who took it."
   },
   "createdAtISO": "2026-09-16T00:00:00.000Z",
   "updatedAtISO": "2026-09-16T00:00:00.000Z"

@@ -1,0 +1,36 @@
+{
+  "id": "rooftop-restaurant-entry-sign-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "riviera_resort",
+  "attractionId": "rooftop_restaurant",
+  "display": {
+    "entryTitle": "Entry Sign Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Riviera Resort",
+    "attractionName": "Topolino's Terrace"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Entrance",
+  "description": "The sign over the entrance to the rooftop restaurant is topped with a classic three-circle Hidden Mickey, fitting for a place named after the mouse in Italian.",
+  "whereToLook": {
+    "scene": "Sign over the restaurant entrance",
+    "exactSpot": "Look up at the top of the sign."
+  },
+  "bestTip": "You can see it from the elevator lobby without a reservation.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0047",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

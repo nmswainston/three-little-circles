@@ -1,0 +1,36 @@
+{
+  "id": "boulevard-photo-shop-dalmatian-spot-mickey",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "boulevard_photo_shop",
+  "display": {
+    "entryTitle": "Dalmatian Spot Mickey",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "The Darkroom"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Shop",
+  "description": "A dalmatian figure stands near the entrance of the photo shop on the boulevard. Among its spots, one is a classic three-circle Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Dalmatian statue near the shop entrance",
+    "exactSpot": "The dog's spots. Look for one spot with two smaller spots attached as ears."
+  },
+  "bestTip": "Walk all the way around the dog. The Mickey spot is not on the side facing the door.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0001",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-dalmatian",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -5,7 +5,7 @@
   "attractionId": "monorail_beam_approach",
   "display": {
     "entryTitle": "Monorail Beam Mickey",
-    "parkName": "Resorts",
+    "parkName": "Walt Disney World Resorts",
     "landName": "Contemporary Resort",
     "attractionName": "Monorail Beam Approach"
   },
@@ -14,7 +14,7 @@
   "difficulty": "Medium",
   "description": "A small black classic three-circle Hidden Mickey is painted halfway down the side of the resort monorail beam that runs beside the express line as it approaches the resort. You pass it a few seconds before the train enters the building, and it slips by fast enough that riders looking ahead at the hotel miss it.",
   "whereToLook": {
-    "scene": "Express monorail from the transportation center toward the Kingdom Park, approaching the resort, left-side windows",
+    "scene": "Express monorail from the transportation center toward Magic Kingdom, approaching the resort, left-side windows",
     "exactSpot": "On the resort monorail beam running to your left, halfway down its side, a few seconds before the train enters the resort building."
   },
   "bestTip": "Sit on the left side of the express train and start watching the neighboring beam as soon as the resort comes into view.",

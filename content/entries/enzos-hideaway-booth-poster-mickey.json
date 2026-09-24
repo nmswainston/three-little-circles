@@ -1,0 +1,37 @@
+{
+  "id": "enzos-hideaway-booth-poster-mickey",
+  "parkId": "springs_bucket",
+  "landId": "the_landing",
+  "attractionId": "enzos_hideaway",
+  "display": {
+    "entryTitle": "Booth Poster Mickey",
+    "parkName": "Disney Springs",
+    "landName": "The Landing",
+    "attractionName": "Enzo's Hideaway"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "In the first booth on the right after the entry tunnel, a vintage poster hangs on the wall. A tiny classic Hidden Mickey is drawn above the poster's text, between the words for the month and the events.",
+  "whereToLook": {
+    "scene": "First booth on the right after the entry tunnel",
+    "exactSpot": "The poster. Look just above the printed text, between the month and the word for events."
+  },
+  "bestTip": "Ask for that booth, or peek in on the way to yours.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "A speakeasy-style restaurant. Reservations get you in; walk-ups at the bar are sometimes possible."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-DS-0002",
+  "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disney-springs-enzos-hideaway-booth-wall-poster-hidden-mickey/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

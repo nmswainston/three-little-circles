@@ -1,0 +1,36 @@
+{
+  "id": "food-court-lion-light-tree-leaves-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "art_of_animation_resort",
+  "attractionId": "food_court",
+  "display": {
+    "entryTitle": "Lion Light Tree Leaves Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Art of Animation Resort",
+    "attractionName": "Landscape of Flavors"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The food court's light fixtures are themed to films. On the lion-themed light nearest the shop, three green leaf circles on the tree trunk form a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Lion-themed light fixture nearest the gift shop",
+    "exactSpot": "The tree trunk on the fixture. Three green leaf circles."
+  },
+  "bestTip": "Look at the fixture itself, not the light it throws.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0036",
+  "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

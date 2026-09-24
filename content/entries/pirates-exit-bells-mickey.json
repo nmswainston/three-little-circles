@@ -5,8 +5,8 @@
   "attractionId": "exit_artifact_room",
   "display": {
     "entryTitle": "Exit Bells Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Pirate Port Area",
+    "parkName": "Magic Kingdom",
+    "landName": "Adventureland: Caribbean Plaza",
     "attractionName": "Exit Artifact Room"
   },
   "entryType": "FIND",

@@ -1,0 +1,36 @@
+{
+  "id": "star-flight-outdoor-tree-trunk-white-mickey",
+  "parkId": "studios_park",
+  "landId": "echo_lake_area",
+  "attractionId": "star_flight_simulator",
+  "display": {
+    "entryTitle": "Outdoor Tree Trunk White Mickey",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Echo Lake",
+    "attractionName": "Star Tours: The Adventures Continue"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "In the outdoor queue, opposite the giant walker and beneath the furry forest creatures' platform, a white classic Hidden Mickey marks the trunk of a tree.",
+  "whereToLook": {
+    "scene": "Outdoor queue beneath the tree platform, across from the walker",
+    "exactSpot": "On the trunk of the tree, below the platform."
+  },
+  "bestTip": "Stand where you can see the walker and turn around. The tree is behind you.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0015",
+  "sourceUrl": "https://www.celebrationspress.com/issues/Celebrations-Issue-1-DV46852.pdf",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

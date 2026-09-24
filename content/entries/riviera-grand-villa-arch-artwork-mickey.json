@@ -1,0 +1,37 @@
+{
+  "id": "riviera-grand-villa-arch-artwork-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "riviera_resort",
+  "attractionId": "grand_villas",
+  "display": {
+    "entryTitle": "Grand Villa Arch Artwork Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Riviera Resort",
+    "attractionName": "Grand Villas"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In the three-bedroom grand villas, an arch-shaped piece of artwork carries a classic Hidden Mickey in its design.",
+  "whereToLook": {
+    "scene": "Arch-shaped artwork in the grand villa",
+    "exactSpot": "The design within the arch. Look for three circles."
+  },
+  "bestTip": "It is only in the largest villa type.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
+  "sourceId": "TLC-RS-0092",
+  "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2026/02/01/disney-riviera-resort-hidden-mickeys",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -46,6 +46,7 @@ change rather than a code change.
 - Related finds on each entry, so one attraction can be swept without leaving the screen
 - Closest to you: tap locate on the Map tab and the list sorts by walking time, switching to the park you're standing in
 - Hints one at a time: where-to-look opens a step per tap and the full note waits for the last hint. Off in Profile shows everything
+- Reference photos: an optional photo per entry, blurred behind a "Reveal photo" button while hints are on, full screen on tap once shown
 - Share a find, a park, or your progress. Share text names the find and where it is, never where to look
 - Still there? Two taps on any entry report it seen or missing, and each entry shows when it was last seen
 - Export and import progress: a backup message you send yourself, pasted on the new phone, with a preview before anything changes
@@ -74,12 +75,13 @@ is required for local development.
 
 ```
 content/entries/        One JSON file per Hidden Mickey. This is the source of truth.
+content/images/         Optional reference photos, one per entry, referenced by the entry's image field.
 content/TEMPLATE.json   Starting point for a new entry.
 content/facts/          One JSON file per park fact, shown under "Did you know?" on the Park screen.
 content/TEMPLATE.fact.json
                         Starting point for a new park fact.
 scripts/build-entries.mjs
-                        Validates content and writes src/data/entries.generated.ts.
+                        Validates content and writes the generated entries, facts, and image map.
 scripts/pull-confirmations.mjs
                         Summarizes "Still there?" reports into src/data/confirmations.generated.ts.
 src/data/               Entry types, query helpers, generated entries.
@@ -193,6 +195,18 @@ same project, tied to an anonymous Supabase user the server issues (anonymous
 sign-ins must be on). The app never reads them back. `npm run confirmations:pull`
 summarizes the last 90 days into `src/data/confirmations.generated.ts`, which
 ships with the app and drives the "Last seen" line on each entry.
+
+## Privacy
+
+[docs/privacy.html](docs/privacy.html) is the privacy policy, served by GitHub
+Pages at https://nmswainston.github.io/three-little-circles/privacy.html. App
+Store Connect requires that URL in TestFlight Test Information before a build
+can go to external testers, and again on the store listing.
+
+Keep it accurate when data handling changes. Today the app stores progress,
+badges, settings, and a random install id on the device only; uses location on
+the device without transmitting it; and sends something to Supabase only when
+someone submits a sighting or taps "Still there?".
 
 ## Lessons Learned
 

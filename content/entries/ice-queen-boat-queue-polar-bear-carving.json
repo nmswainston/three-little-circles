@@ -1,0 +1,36 @@
+{
+  "id": "ice-queen-boat-queue-polar-bear-carving",
+  "parkId": "showcase_park",
+  "landId": "norway_pavilion",
+  "attractionId": "ice_queen_boat_ride",
+  "display": {
+    "entryTitle": "Queue Polar Bear Carving",
+    "parkName": "EPCOT",
+    "landName": "Norway Pavilion",
+    "attractionName": "Frozen Ever After"
+  },
+  "entryType": "FACT",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "High on a shelf inside the cottage section of the queue, a carved polar bear keeps watch. It is a tribute to the boat ride that occupied this building before the ice queen moved in, which had polar bears of its own.",
+  "whereToLook": {
+    "scene": "Cottage interior along the queue",
+    "exactSpot": "Up on a high shelf. Look for a small carved bear."
+  },
+  "bestTip": "Look up as soon as you enter the cottage; the shelf is above the doorway side.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0015",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-frozen-ever-after-hidden-tribute",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

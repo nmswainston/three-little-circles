@@ -1,0 +1,37 @@
+{
+  "id": "rodeo-barbecue-corn-kernels-mickey",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "rodeo_barbecue_restaurant",
+  "display": {
+    "entryTitle": "Corn Kernels Mickey",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Toy Story Land",
+    "attractionName": "Roundup Rodeo BBQ"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In the dining room, the corn illustration behind the popcorn character has a cluster of kernels at the top of the cob that forms a classic three-circle Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Corn illustration behind the popcorn character in the dining room",
+    "exactSpot": "Top of the corn cob. Three kernels set as head and ears."
+  },
+  "bestTip": "Find the popcorn character first, then look at what is painted behind him.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "Table service; a reservation gets you inside."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0007",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-roundup-rodeo-bbq-corn",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

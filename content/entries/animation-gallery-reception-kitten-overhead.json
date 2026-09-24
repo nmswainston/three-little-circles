@@ -1,0 +1,36 @@
+{
+  "id": "animation-gallery-reception-kitten-overhead",
+  "parkId": "studios_park",
+  "landId": "animation_courtyard_area",
+  "attractionId": "animation_gallery",
+  "display": {
+    "entryTitle": "Kitten Above Reception",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Animation Courtyard",
+    "attractionName": "The Animation Gallery"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "Above the reception desk, the woodcarver's black-and-white kitten from the puppet story watches everyone who comes in.",
+  "whereToLook": {
+    "scene": "Reception area",
+    "exactSpot": "Look up above the desk."
+  },
+  "bestTip": "Everyone looks at the shelf. Look up.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0034",
+  "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

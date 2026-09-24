@@ -5,9 +5,9 @@
   "attractionId": "pirate_exit_shop",
   "display": {
     "entryTitle": "Pirate Map Landmass Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Pirate Port Area",
-    "attractionName": "Pirate Exit Shop"
+    "parkName": "Magic Kingdom",
+    "landName": "Adventureland: Caribbean Plaza",
+    "attractionName": "Plaza del Sol Caribe Bazaar"
   },
   "entryType": "FIND",
   "locationType": "Indoor",

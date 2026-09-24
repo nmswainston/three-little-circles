@@ -1,0 +1,36 @@
+{
+  "id": "jungle-palace-deer-wall-designer-initials-first",
+  "parkId": "adventure_park",
+  "landId": "asia_village_area",
+  "attractionId": "jungle_palace_trail",
+  "display": {
+    "entryTitle": "Deer Wall Designer Initials",
+    "parkName": "Disney's Animal Kingdom",
+    "landName": "Asia",
+    "attractionName": "Maharajah Jungle Trek"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "Along the semicircular wall by the deer enclosure, near its left end, the brick and plaster are worked into a pair of initials. They belong to the lead designer who shaped this park.",
+  "whereToLook": {
+    "scene": "Semicircular wall at the deer viewing area",
+    "exactSpot": "Near the left end of the wall. Read the brickwork and plaster for two letters."
+  },
+  "bestTip": "Step back a few feet. The initials read better from a distance than up close.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-AK-0033",
+  "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-maharajah-jungle-trek-three-hidden-joes/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "midway-shooter-queue-viewer-reel-future-land",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "midway_shooter",
+  "display": {
+    "entryTitle": "Queue Viewer Reel",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Toy Story Land",
+    "attractionName": "Toy Story Mania!"
+  },
+  "entryType": "FACT",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "A giant stereoscopic viewer reel in the queue shows pictures of the original California park's early future-themed land, as it looked decades ago.",
+  "whereToLook": {
+    "scene": "Oversized toys along the queue",
+    "exactSpot": "The picture reel. Look at the images printed on it."
+  },
+  "bestTip": "The queue is full of oversized toys. This one rewards reading the tiny pictures.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0016",
+  "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

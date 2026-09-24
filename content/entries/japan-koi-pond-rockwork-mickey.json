@@ -1,0 +1,36 @@
+{
+  "id": "japan-koi-pond-rockwork-mickey",
+  "parkId": "showcase_park",
+  "landId": "japan_pavilion",
+  "attractionId": "koi_pond_garden",
+  "display": {
+    "entryTitle": "Koi Pond Rockwork Mickey",
+    "parkName": "EPCOT",
+    "landName": "Japan Pavilion",
+    "attractionName": "Koi Pond Garden"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Outdoor Display",
+  "description": "The koi pond in the pavilion's garden is edged with placed stones. One arrangement of three rocks along the edge is reported to read as a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Koi pond in the garden beside the pavilion",
+    "exactSpot": "The rockwork along the pond edge. Look for one larger stone with two smaller ones set above it."
+  },
+  "bestTip": "Walk the full edge of the pond. The rocks only line up from the path side.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0004",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-japan-pavilion-koi-pond",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

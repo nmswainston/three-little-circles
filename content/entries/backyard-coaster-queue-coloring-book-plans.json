@@ -1,0 +1,36 @@
+{
+  "id": "backyard-coaster-queue-coloring-book-plans",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "backyard_coaster",
+  "display": {
+    "entryTitle": "Queue Coloring Book Plans",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Toy Story Land",
+    "attractionName": "Slinky Dog Dash"
+  },
+  "entryType": "FACT",
+  "locationType": "Queue",
+  "difficulty": "Easy",
+  "areaContext": "Queue",
+  "description": "A coloring book in the queue has a drawing tucked inside it. It is the boy's own plan for the coaster you are about to ride, explaining how he built it from his toys.",
+  "whereToLook": {
+    "scene": "Oversized coloring book along the queue",
+    "exactSpot": "The drawing inserted between the pages."
+  },
+  "bestTip": "Read it. It is the ride's backstory in one page.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0020",
+  "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

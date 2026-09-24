@@ -1,0 +1,36 @@
+{
+  "id": "animation-gallery-treasures-rag-doll",
+  "parkId": "studios_park",
+  "landId": "animation_courtyard_area",
+  "attractionId": "animation_gallery",
+  "display": {
+    "entryTitle": "Treasures Exhibit Rag Doll",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Animation Courtyard",
+    "attractionName": "The Animation Gallery"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "In the treasures exhibit, a lumpy homemade rag doll with button eyes sits among the artifacts. It is the doll the little Hawaiian girl made herself in the film about her alien pet.",
+  "whereToLook": {
+    "scene": "Treasures exhibit cases",
+    "exactSpot": "The rag doll."
+  },
+  "bestTip": "It is the least polished thing in the case, on purpose.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0035",
+  "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "conservation-hall-entrance-mural-opossum-eye-mickey",
+  "parkId": "adventure_park",
+  "landId": "conservation_outpost_area",
+  "attractionId": "conservation_exhibit_hall",
+  "display": {
+    "entryTitle": "Entrance Mural Opossum Eye Mickey",
+    "parkName": "Disney's Animal Kingdom",
+    "landName": "Rafiki's Planet Watch",
+    "attractionName": "Conservation Station"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Entrance",
+  "description": "The entrance mural is famous for hiding many Mickeys in its animals. On the right side, a Mickey profile hides in the pupil of the opossum's eye.",
+  "whereToLook": {
+    "scene": "Entrance mural, right side",
+    "exactSpot": "Find the opossum and look into its eye. The profile is in the pupil."
+  },
+  "bestTip": "Get close. The pupils are small and the profile is smaller.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "This mural hides more than a dozen Mickeys. Each entry here is one of them."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-AK-0017",
+  "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "rock-show-coaster-gallery-rhythm-guitar",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "rock_show_coaster",
+  "display": {
+    "entryTitle": "Instrument Gallery Rhythm Guitar",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Sunset Boulevard",
+    "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+  },
+  "entryType": "FACT",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "The band's laid-back guitarist has her guitar in the gallery too, matching the one she plays and tipping its hat to the performer behind her.",
+  "whereToLook": {
+    "scene": "Instrument gallery along the queue",
+    "exactSpot": "The guitar labeled for the band's rhythm guitarist."
+  },
+  "bestTip": "Look for the placard next to the lead guitar. They sit close together.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0024",
+  "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

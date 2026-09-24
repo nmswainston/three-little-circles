@@ -1,0 +1,36 @@
+{
+  "id": "clownfish-corridor-carpet-bubbles-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "art_of_animation_resort",
+  "attractionId": "guest_corridors",
+  "display": {
+    "entryTitle": "Clownfish Corridor Carpet Bubbles Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Art of Animation Resort",
+    "attractionName": "Guest Corridors"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "In the guest corridors of the clownfish section, the carpet's bubbles include three that form a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Carpet in the clownfish section corridors",
+    "exactSpot": "Look down at the bubbles in the carpet pattern for three grouped together."
+  },
+  "bestTip": "Read one repeat of the pattern at a time.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0040",
+  "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "animation-gallery-lost-and-found-map-sphere",
+  "parkId": "studios_park",
+  "landId": "animation_courtyard_area",
+  "attractionId": "animation_gallery",
+  "display": {
+    "entryTitle": "Lost and Found Map Sphere",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Animation Courtyard",
+    "attractionName": "The Animation Gallery"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The lost-and-found at the reception desk holds a golden sphere etched with a map. It is the treasure map from the animated space pirate adventure.",
+  "whereToLook": {
+    "scene": "Lost-and-found shelf at reception",
+    "exactSpot": "The engraved golden sphere."
+  },
+  "bestTip": "The shelf is dressed as clutter. Take each object one at a time.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0030",
+  "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

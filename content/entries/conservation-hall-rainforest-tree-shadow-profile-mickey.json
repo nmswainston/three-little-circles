@@ -1,0 +1,36 @@
+{
+  "id": "conservation-hall-rainforest-tree-shadow-profile-mickey",
+  "parkId": "adventure_park",
+  "landId": "conservation_outpost_area",
+  "attractionId": "conservation_exhibit_hall",
+  "display": {
+    "entryTitle": "Rainforest Tree Shadow Profile Mickey",
+    "parkName": "Disney's Animal Kingdom",
+    "landName": "Rafiki's Planet Watch",
+    "attractionName": "Conservation Station"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "In the rainforest exhibit, the front of the tree carries a painted shadow about seven feet up that resembles Mickey's profile.",
+  "whereToLook": {
+    "scene": "Rainforest tree in the exhibit",
+    "exactSpot": "Front of the tree, roughly seven feet up. Look at the shadows painted on the bark."
+  },
+  "bestTip": "Stand back from the tree; the profile needs a little distance.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-AK-0020",
+  "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

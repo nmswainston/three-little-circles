@@ -1,0 +1,36 @@
+{
+  "id": "boardwalk-lobby-carousel-horse-neck-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "boardwalk_resort",
+  "attractionId": "lobby_carousel_model",
+  "display": {
+    "entryTitle": "Carousel Horse Neck Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "BoardWalk Resort",
+    "attractionName": "Lobby Carousel Model"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "The miniature carousel in the lobby is full of tiny painted horses. On one, a marking on the neck resembles a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Miniature carousel model in the lobby",
+    "exactSpot": "The horses' necks. Look for a three-circle marking."
+  },
+  "bestTip": "Walk around the whole model slowly; there are two Mickeys on it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0062",
+  "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

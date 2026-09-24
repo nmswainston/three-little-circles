@@ -1,0 +1,36 @@
+{
+  "id": "ceremonial-house-registration-wall-stones-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "polynesian_village_resort",
+  "attractionId": "great_ceremonial_house",
+  "display": {
+    "entryTitle": "Registration Wall Stones Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Polynesian Village Resort",
+    "attractionName": "Great Ceremonial House"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In the stone wall behind the registration desk, three stones sit together as a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Stone wall behind the registration desk",
+    "exactSpot": "Scan the wall for one large rounded stone with two smaller ones above it."
+  },
+  "bestTip": "Look while you check in; the desk puts you at the right distance.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0031",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

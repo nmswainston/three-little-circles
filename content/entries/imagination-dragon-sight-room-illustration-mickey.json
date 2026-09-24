@@ -1,0 +1,36 @@
+{
+  "id": "imagination-dragon-sight-room-illustration-mickey",
+  "parkId": "showcase_park",
+  "landId": "celebration_area",
+  "attractionId": "imagination_dragon_ride",
+  "display": {
+    "entryTitle": "Sight Room Illustration Mickey",
+    "parkName": "EPCOT",
+    "landName": "World Celebration",
+    "attractionName": "Journey Into Imagination With Figment"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the sight sequence, the wall is covered in optical-illusion drawings. A classic Hidden Mickey is reported among the visual-perception illustrations.",
+  "whereToLook": {
+    "scene": "Sight lab with the optical illusion drawings",
+    "exactSpot": "The illustrations on the wall. Look for three circles hidden in one of the diagrams."
+  },
+  "bestTip": "The vehicle pauses here. Use the pause to read the wall.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0019",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-imagination-ride",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

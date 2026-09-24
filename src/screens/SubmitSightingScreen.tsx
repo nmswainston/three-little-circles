@@ -215,7 +215,7 @@ export default function SubmitSightingScreen() {
               <TextInput
                 value={land}
                 onChangeText={setLand}
-                placeholder="Toy Blocks Area"
+                placeholder="Toy Story Land"
                 placeholderTextColor={t.colors.textMuted}
                 style={styles.input}
                 maxLength={LIMITS.land.max}

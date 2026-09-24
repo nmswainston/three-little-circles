@@ -1,0 +1,36 @@
+{
+  "id": "conservation-hall-lizard-tree-mickey",
+  "parkId": "adventure_park",
+  "landId": "conservation_outpost_area",
+  "attractionId": "conservation_exhibit_hall",
+  "display": {
+    "entryTitle": "Lizard Tree Mickey",
+    "parkName": "Disney's Animal Kingdom",
+    "landName": "Rafiki's Planet Watch",
+    "attractionName": "Conservation Station"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "On the tree to the right of the willow, a lizard sits above the cockroach sign. A classic Hidden Mickey sits just above the lizard's front leg.",
+  "whereToLook": {
+    "scene": "Tree to the right of the willow",
+    "exactSpot": "Find the cockroach sign, then the lizard above it, then look just above the lizard's front leg."
+  },
+  "bestTip": "Follow the chain: sign, lizard, leg. Each one points to the next.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-AK-0022",
+  "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

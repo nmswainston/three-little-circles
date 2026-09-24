@@ -10,9 +10,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "alien_spinner",
     "display": {
       "entryTitle": "Mural Buttons Mickey",
-      "parkName": "Studios Park",
-      "landName": "Toy Blocks Area",
-      "attractionName": "Alien Spinner"
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Alien Swirling Saucers"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -41,14 +41,50 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "all-star-music-lobby-mural-grilling-bear",
+    "parkId": "resorts_bucket",
+    "landId": "all_star_music_resort",
+    "attractionId": "lobby_mural",
+    "display": {
+      "entryTitle": "Lobby Mural Grilling Bear",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "All-Star Music Resort",
+      "attractionName": "Lobby Mural"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the lobby's character mural, the band plays while a bear grills food in the background, sneaking a picnic into the musical scene.",
+    "whereToLook": {
+      "scene": "Character mural in the lobby",
+      "exactSpot": "Look behind the band for a bear at a grill."
+    },
+    "bestTip": "The musicians pull your eye; look at the background.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Documented",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0086",
+    "sourceUrl": "https://disneyparksblog.com/wdw/check-in-check-it-out-all-star-and-pop-century-resort-refurbishments/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "american-pavilion-construction-painting-beams-mickey",
     "parkId": "showcase_park",
     "landId": "american_pavilion",
     "attractionId": "rotunda_paintings",
     "display": {
       "entryTitle": "Construction Painting Beams Mickey",
-      "parkName": "Showcase Park",
-      "landName": "American Pavilion",
+      "parkName": "EPCOT",
+      "landName": "The American Adventure",
       "attractionName": "Rotunda Paintings"
     },
     "entryType": "FIND",
@@ -77,14 +113,50 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "american-pavilion-lobby-picture-frame-mickey",
+    "parkId": "showcase_park",
+    "landId": "american_pavilion",
+    "attractionId": "rotunda_paintings",
+    "display": {
+      "entryTitle": "Lobby Picture Frame Mickey",
+      "parkName": "EPCOT",
+      "landName": "The American Adventure",
+      "attractionName": "Rotunda Paintings"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "The paintings in the rotunda lobby hang in ornate carved frames. A classic Hidden Mickey is reported worked into the ornament of one of the frames.",
+    "whereToLook": {
+      "scene": "Framed paintings in the rotunda lobby",
+      "exactSpot": "The carved decoration of the frames, not the paintings. Look at the corners and the scrollwork."
+    },
+    "bestTip": "Take the frames one at a time while you wait for the show to load.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0009",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-united-states-pavillion-frame-design",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "american-pavilion-settlers-painting-horse-leg-mickey",
     "parkId": "showcase_park",
     "landId": "american_pavilion",
     "attractionId": "rotunda_paintings",
     "display": {
       "entryTitle": "Settlers Painting Horse Leg Mickey",
-      "parkName": "Showcase Park",
-      "landName": "American Pavilion",
+      "parkName": "EPCOT",
+      "landName": "The American Adventure",
       "attractionName": "Rotunda Paintings"
     },
     "entryType": "FIND",
@@ -113,42 +185,40 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
-    "id": "animal-kingdom-lodge-carpets-lead",
-    "parkId": "resorts_bucket",
-    "landId": "animal_kingdom_lodge_resort",
-    "attractionId": "great_hall_lobby",
+    "id": "american-pavilion-westward-painting-mickey",
+    "parkId": "showcase_park",
+    "landId": "american_pavilion",
+    "attractionId": "rotunda_paintings",
     "display": {
-      "entryTitle": "Carpet Pattern Lead",
-      "parkName": "Resorts",
-      "landName": "Animal Kingdom Lodge",
-      "attractionName": "Great Hall Lobby"
+      "entryTitle": "Westward Painting Mickey",
+      "parkName": "EPCOT",
+      "landName": "The American Adventure",
+      "attractionName": "Rotunda Paintings"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
     "difficulty": "Hard",
     "areaContext": "Lobby",
-    "description": "This is a lead, not a confirmed find. The patterned carpet running through the great hall and the guest corridors has been reported to hide a Mickey in its repeat. The spot has never been pinned down.",
+    "description": "The lobby painting of settlers heading west is reported to hide a classic three-circle Hidden Mickey somewhere in its scene, a companion to the horse-leg Mickey in the neighboring painting.",
     "whereToLook": {
-      "scene": "The carpet in the great hall and along the guest room corridors",
-      "exactSpot": "Stand still, look straight down, and read one full repeat of the pattern at a time for three circles set together."
+      "scene": "Painting of the westward wagon train in the rotunda lobby",
+      "exactSpot": "Within the painted scene. Read the wagons, the sky, and the ground for three circles together."
     },
-    "bestTip": "Hunt this one in the corridors. They run the same pattern for hundreds of feet with nobody walking over it, which the lobby floor never gives you.",
+    "bestTip": "Get close. The painting is large and the shape is small.",
     "viewing": {
       "motion": "Still",
-      "lighting": "Dim",
-      "angle": "Below",
-      "crowding": "Low",
-      "distance": "Close",
-      "notes": "Carpet gets replaced every few years and the pattern changes with it, so an old report may not survive the current floor."
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
     },
     "confidence": "Interpretive",
-    "verification": "Unknown",
-    "coordinates": {
-      "latitude": 28.3531,
-      "longitude": -81.603
-    },
-    "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0010",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-united-states-pavillion",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "animal-kingdom-lodge-chair-backs-lead",
@@ -157,7 +227,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "great_hall_lobby",
     "display": {
       "entryTitle": "Chair Back Lead",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Animal Kingdom Lodge",
       "attractionName": "Great Hall Lobby"
     },
@@ -195,7 +265,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "great_hall_lobby",
     "display": {
       "entryTitle": "Chandelier Lead",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Animal Kingdom Lodge",
       "attractionName": "Great Hall Lobby"
     },
@@ -227,51 +297,13 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
-    "id": "animal-kingdom-lodge-column-carvings-lead",
-    "parkId": "resorts_bucket",
-    "landId": "animal_kingdom_lodge_resort",
-    "attractionId": "great_hall_lobby",
-    "display": {
-      "entryTitle": "Column Carving Lead",
-      "parkName": "Resorts",
-      "landName": "Animal Kingdom Lodge",
-      "attractionName": "Great Hall Lobby"
-    },
-    "entryType": "FIND",
-    "locationType": "Indoor",
-    "difficulty": "Hard",
-    "areaContext": "Lobby",
-    "description": "This is a lead, not a confirmed find. The timber columns holding up the great hall are banded top to bottom with carved and painted pattern, and Mickey shapes have been reported worked into that banding. Nobody has pinned down which column or which band, so this one is a real search rather than a quick look.",
-    "whereToLook": {
-      "scene": "The great hall, the full-height timber columns under the thatched roof",
-      "exactSpot": "Take one column at a time and read it band by band from eye level upward, watching for three circles sitting inside the repeating geometric pattern."
-    },
-    "bestTip": "Start with the columns nearest the fireplace where the light is strongest, and bring a zoom lens or binoculars for the bands above the second floor.",
-    "viewing": {
-      "motion": "Still",
-      "lighting": "Dim",
-      "angle": "Above",
-      "crowding": "Medium",
-      "distance": "Far",
-      "notes": "The hall is lit low and warm on purpose. The upper bands are genuinely far away, so a camera you can zoom with does most of the work."
-    },
-    "confidence": "Interpretive",
-    "verification": "Unknown",
-    "coordinates": {
-      "latitude": 28.3531,
-      "longitude": -81.603
-    },
-    "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
-  },
-  {
     "id": "animal-kingdom-lodge-curtains-lead",
     "parkId": "resorts_bucket",
     "landId": "animal_kingdom_lodge_resort",
     "attractionId": "great_hall_lobby",
     "display": {
       "entryTitle": "Window Curtain Lead",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Animal Kingdom Lodge",
       "attractionName": "Great Hall Lobby"
     },
@@ -303,51 +335,13 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
-    "id": "animal-kingdom-lodge-lobby-rockwork-lead",
-    "parkId": "resorts_bucket",
-    "landId": "animal_kingdom_lodge_resort",
-    "attractionId": "great_hall_lobby",
-    "display": {
-      "entryTitle": "Lobby Rockwork Lead",
-      "parkName": "Resorts",
-      "landName": "Animal Kingdom Lodge",
-      "attractionName": "Great Hall Lobby"
-    },
-    "entryType": "FIND",
-    "locationType": "Indoor",
-    "difficulty": "Hard",
-    "areaContext": "Lobby",
-    "description": "This is a lead, not a confirmed find. Stone is built into the great hall around the fireplace and along the lower walls, and three rounded stones set as a head and two ears have been reported somewhere in it. The placement has never been recorded.",
-    "whereToLook": {
-      "scene": "The stone fireplace and the rock faces built into the walls of the great hall",
-      "exactSpot": "Follow the mortar lines and look for three rounded stones seated together rather than a carved shape."
-    },
-    "bestTip": "Come by in the evening. Firelight rakes across the stone and separates the individual rocks far better than flat daytime light does.",
-    "viewing": {
-      "motion": "Still",
-      "lighting": "Dim",
-      "angle": "Straight-on",
-      "crowding": "Medium",
-      "distance": "Close",
-      "notes": "Rockwork throws up accidental three-circle groupings constantly, so expect a few false positives before anything convincing."
-    },
-    "confidence": "Interpretive",
-    "verification": "Unknown",
-    "coordinates": {
-      "latitude": 28.3531,
-      "longitude": -81.603
-    },
-    "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
-  },
-  {
     "id": "animal-kingdom-lodge-murals-lead",
     "parkId": "resorts_bucket",
     "landId": "animal_kingdom_lodge_resort",
     "attractionId": "great_hall_lobby",
     "display": {
       "entryTitle": "Wall Mural Lead",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Animal Kingdom Lodge",
       "attractionName": "Great Hall Lobby"
     },
@@ -385,7 +379,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "great_hall_lobby",
     "display": {
       "entryTitle": "Framed Painting Lead",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Animal Kingdom Lodge",
       "attractionName": "Great Hall Lobby"
     },
@@ -423,7 +417,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "main_pool_area",
     "display": {
       "entryTitle": "Pool Rockwork Lead",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Animal Kingdom Lodge",
       "attractionName": "Main Pool Area"
     },
@@ -455,15 +449,375 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
+    "id": "animal-mural-pizzeria-turtle-markings-mickey",
+    "parkId": "adventure_park",
+    "landId": "great_tree_area",
+    "attractionId": "animal_mural_pizzeria",
+    "display": {
+      "entryTitle": "Turtle Markings Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Discovery Island",
+      "attractionName": "Pizzafari"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The pizzeria's dining rooms are wrapped in animal murals. On one wall, a turtle's shell markings include a reported classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Animal murals in the dining rooms",
+      "exactSpot": "The turtle. Look at the pattern on its shell."
+    },
+    "bestTip": "There are several dining rooms. Check each mural for the turtle before settling in.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0015",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-pizzafari-turtle",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "animation-gallery-lost-and-found-donkey-tail",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "display": {
+      "entryTitle": "Lost and Found Donkey Tail",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Animation Courtyard",
+      "attractionName": "The Animation Gallery"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Also in the lost-and-found is a small pinned-on tail. It belongs to the gloomy donkey from the hundred-acre wood, who is forever losing it.",
+    "whereToLook": {
+      "scene": "Lost-and-found shelf at reception",
+      "exactSpot": "A short tail with a bow, pinned among the objects."
+    },
+    "bestTip": "It is small and grey. Look low on the shelf.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0031",
+    "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "animation-gallery-lost-and-found-hydra-vase",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "display": {
+      "entryTitle": "Lost and Found Hydra Vase",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Animation Courtyard",
+      "attractionName": "The Animation Gallery"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "A vase on the lost-and-found shelf is painted with a many-headed hydra, straight out of the animated film about the Greek hero.",
+    "whereToLook": {
+      "scene": "Lost-and-found shelf at reception",
+      "exactSpot": "The painted vase. Count the heads."
+    },
+    "bestTip": "The artwork is in the black-figure style, so it reads as an antique until you see the monster.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0032",
+    "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "animation-gallery-lost-and-found-map-sphere",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "display": {
+      "entryTitle": "Lost and Found Map Sphere",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Animation Courtyard",
+      "attractionName": "The Animation Gallery"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The lost-and-found at the reception desk holds a golden sphere etched with a map. It is the treasure map from the animated space pirate adventure.",
+    "whereToLook": {
+      "scene": "Lost-and-found shelf at reception",
+      "exactSpot": "The engraved golden sphere."
+    },
+    "bestTip": "The shelf is dressed as clutter. Take each object one at a time.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0030",
+    "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "animation-gallery-lost-and-found-sundrop-flower",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "display": {
+      "entryTitle": "Lost and Found Glowing Flower",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Animation Courtyard",
+      "attractionName": "The Animation Gallery"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "A golden flower among the lost items is the magic sundrop flower that gave the long-haired princess her glowing hair.",
+    "whereToLook": {
+      "scene": "Lost-and-found shelf at reception",
+      "exactSpot": "The golden flower."
+    },
+    "bestTip": "It sits with the other props from the same shelf, so find the sphere first and work along.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0033",
+    "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "animation-gallery-reception-kitten-overhead",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "display": {
+      "entryTitle": "Kitten Above Reception",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Animation Courtyard",
+      "attractionName": "The Animation Gallery"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Above the reception desk, the woodcarver's black-and-white kitten from the puppet story watches everyone who comes in.",
+    "whereToLook": {
+      "scene": "Reception area",
+      "exactSpot": "Look up above the desk."
+    },
+    "bestTip": "Everyone looks at the shelf. Look up.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0034",
+    "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "animation-gallery-snowman-book-illusion-of-life",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "display": {
+      "entryTitle": "Snowman Area Animation Book",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Animation Courtyard",
+      "attractionName": "The Animation Gallery"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the drawing area with the snowman, a book beneath him is the classic textbook on animation written by two of the studio's original nine master animators.",
+    "whereToLook": {
+      "scene": "Drawing area with the snowman figure",
+      "exactSpot": "The book underneath the snowman. Read the spine."
+    },
+    "bestTip": "Lean in. The title is on the spine, not the cover.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0037",
+    "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "animation-gallery-treasures-emperor-crown",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "display": {
+      "entryTitle": "Treasures Exhibit Emperor Crown",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Animation Courtyard",
+      "attractionName": "The Animation Gallery"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "A gold crown in the treasures exhibit belongs to the self-absorbed emperor who spent most of his movie as a llama.",
+    "whereToLook": {
+      "scene": "Treasures exhibit cases",
+      "exactSpot": "The gold crown."
+    },
+    "bestTip": "Look for the tall pointed shape rather than a round crown.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0036",
+    "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "animation-gallery-treasures-rag-doll",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "display": {
+      "entryTitle": "Treasures Exhibit Rag Doll",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Animation Courtyard",
+      "attractionName": "The Animation Gallery"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "In the treasures exhibit, a lumpy homemade rag doll with button eyes sits among the artifacts. It is the doll the little Hawaiian girl made herself in the film about her alien pet.",
+    "whereToLook": {
+      "scene": "Treasures exhibit cases",
+      "exactSpot": "The rag doll."
+    },
+    "bestTip": "It is the least polished thing in the case, on purpose.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0035",
+    "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "aquarium-shark-photo-area-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "aquarium_pavilion",
+    "display": {
+      "entryTitle": "Shark Photo Area Mickey",
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "The Seas with Nemo & Friends"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "The shark exhibit's photo area, where kids pose with the big cartoon shark, has a classic Hidden Mickey reported in its decoration.",
+    "whereToLook": {
+      "scene": "Photo area of the shark exhibit",
+      "exactSpot": "The decoration around the photo backdrop and props."
+    },
+    "bestTip": "Wait for a gap between photo groups and read the whole set piece.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0037",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-living-seas-aquarium",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "aquarium-shark-room-poster-pearls-mickey",
     "parkId": "showcase_park",
     "landId": "nature_area",
     "attractionId": "aquarium_pavilion",
     "display": {
       "entryTitle": "Shark Room Poster Pearls Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Nature Area",
-      "attractionName": "Aquarium Pavilion"
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "The Seas with Nemo & Friends"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -491,13 +845,49 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "aquarium-starfish-display-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "aquarium_pavilion",
+    "display": {
+      "entryTitle": "Starfish Display Mickey",
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "The Seas with Nemo & Friends"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "A starfish-themed display in the aquarium pavilion contains a reported classic Hidden Mickey in its detailing.",
+    "whereToLook": {
+      "scene": "Starfish-themed display in the exhibit halls",
+      "exactSpot": "The decoration on the starfish display. Look for three circles among the arms and textures."
+    },
+    "bestTip": "It is in the exhibit halls after the ride, not in the ride itself.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0038",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-living-seas-aquarium-starfish",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "art-animation-package-pickup-mickey",
     "parkId": "resorts_bucket",
     "landId": "art_of_animation_resort",
     "attractionId": "gift_shop_package_pickup",
     "display": {
       "entryTitle": "Package Pick-Up Mickey",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Art of Animation Resort",
       "attractionName": "Gift Shop Package Pick-Up Area"
     },
@@ -539,7 +929,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "animation_courtyards",
     "display": {
       "entryTitle": "Animation Courtyard Lead",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Art of Animation Resort",
       "attractionName": "Animation Courtyards"
     },
@@ -576,9 +966,9 @@ export const entries: HiddenMickeyEntry[] = [
     "landId": "toy_blocks_area",
     "attractionId": "backyard_coaster",
     "display": {
-      "parkName": "Studios Park",
-      "landName": "Toy Blocks Area",
-      "attractionName": "Backyard Coaster",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Slinky Dog Dash",
       "entryTitle": "Queue Cloud Mickey"
     },
     "entryType": "FIND",
@@ -601,15 +991,159 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
   },
   {
+    "id": "backyard-coaster-queue-coloring-book-plans",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "backyard_coaster",
+    "display": {
+      "entryTitle": "Queue Coloring Book Plans",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Slinky Dog Dash"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Queue",
+    "description": "A coloring book in the queue has a drawing tucked inside it. It is the boy's own plan for the coaster you are about to ride, explaining how he built it from his toys.",
+    "whereToLook": {
+      "scene": "Oversized coloring book along the queue",
+      "exactSpot": "The drawing inserted between the pages."
+    },
+    "bestTip": "Read it. It is the ride's backstory in one page.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0020",
+    "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "backyard-coaster-queue-dog-tag",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "backyard_coaster",
+    "display": {
+      "entryTitle": "Queue Dog Tag",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Slinky Dog Dash"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Queue",
+    "description": "A dog tag in the queue is engraved with the name of the boy's real dog, the dachshund who barrels through the second movie.",
+    "whereToLook": {
+      "scene": "Props along the queue",
+      "exactSpot": "The oversized dog tag. Read the name."
+    },
+    "bestTip": "It hangs at about eye level for a kid, so lower your gaze.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0019",
+    "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "backyard-coaster-queue-penguin-box-mickey",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "backyard_coaster",
+    "display": {
+      "entryTitle": "Queue Penguin Box Mickey",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Slinky Dog Dash"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "Near the boarding area, a squeaky penguin toy sits in its packaging. A classic Hidden Mickey is reported in the artwork on the box.",
+    "whereToLook": {
+      "scene": "Toy packaging near the boarding area",
+      "exactSpot": "The squeaky penguin's box. Read the printed artwork."
+    },
+    "bestTip": "It is close to the loading platform, so look while the row ahead boards.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0010",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-slinky-dog-dash",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "barbados-walkway-pavement-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "caribbean_beach_resort",
+    "attractionId": "barbados_walkway",
+    "display": {
+      "entryTitle": "Barbados Walkway Pavement Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Caribbean Beach Resort",
+      "attractionName": "Barbados Walkway"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "On the concrete walkway from the Barbados section toward the main building, a small classic Hidden Mickey is pressed into the pavement.",
+    "whereToLook": {
+      "scene": "Concrete walkway from the Barbados section toward the main building",
+      "exactSpot": "Look down at the concrete along the way for a small pressed shape."
+    },
+    "bestTip": "Walk it slowly in good light.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0084",
+    "sourceUrl": "https://tinkandtoni.com/2021/06/13/hidden-mickeys-at-caribbean-beach-and-beach-club/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "bayou-log-flume-bobcat-fur-spots-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "frontier_area",
     "attractionId": "bayou_log_flume",
     "display": {
       "entryTitle": "Bobcat Fur Spots Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Frontier Area",
-      "attractionName": "Bayou Log Flume"
+      "parkName": "Magic Kingdom",
+      "landName": "Frontierland",
+      "attractionName": "Tiana's Bayou Adventure"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -643,9 +1177,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "bayou_log_flume",
     "display": {
       "entryTitle": "Bongo Frog Thigh Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Frontier Area",
-      "attractionName": "Bayou Log Flume"
+      "parkName": "Magic Kingdom",
+      "landName": "Frontierland",
+      "attractionName": "Tiana's Bayou Adventure"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -679,9 +1213,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "bayou_log_flume",
     "display": {
       "entryTitle": "Fence Gumbo Foam Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Frontier Area",
-      "attractionName": "Bayou Log Flume"
+      "parkName": "Magic Kingdom",
+      "landName": "Frontierland",
+      "attractionName": "Tiana's Bayou Adventure"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -714,9 +1248,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "bayou_log_flume",
     "display": {
       "entryTitle": "Finale Beignets Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Frontier Area",
-      "attractionName": "Bayou Log Flume"
+      "parkName": "Magic Kingdom",
+      "landName": "Frontierland",
+      "attractionName": "Tiana's Bayou Adventure"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -749,9 +1283,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "beak_and_barrel_lounge",
     "display": {
       "entryTitle": "Chalice Display",
-      "parkName": "Kingdom Park",
-      "landName": "Pirate Port Area",
-      "attractionName": "Beak and Barrel Lounge"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland: Caribbean Plaza",
+      "attractionName": "The Beak and Barrel"
     },
     "entryType": "FACT",
     "locationType": "Indoor",
@@ -786,9 +1320,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "beak_and_barrel_lounge",
     "display": {
       "entryTitle": "Wall Barrels Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Pirate Port Area",
-      "attractionName": "Beak and Barrel Lounge"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland: Caribbean Plaza",
+      "attractionName": "The Beak and Barrel"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -817,13 +1351,122 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "big-blue-pool-green-fish-spots-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "art_of_animation_resort",
+    "attractionId": "big_blue_pool",
+    "display": {
+      "entryTitle": "Green Fish Spots Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Art of Animation Resort",
+      "attractionName": "The Big Blue Pool"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "Viewed from the lobby, a green fish stands left of the big pool. Its blue spots include a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Green fish figure left of the pool as seen from the lobby",
+      "exactSpot": "The blue spots on the fish. Look for three set as head and ears."
+    },
+    "bestTip": "Line it up from the lobby windows first, then walk out to it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Pool and recreation areas are for registered resort guests.",
+    "sourceId": "TLC-RS-0039",
+    "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boardwalk-lobby-carousel-horse-neck-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "boardwalk_resort",
+    "attractionId": "lobby_carousel_model",
+    "display": {
+      "entryTitle": "Carousel Horse Neck Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "BoardWalk Resort",
+      "attractionName": "Lobby Carousel Model"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "The miniature carousel in the lobby is full of tiny painted horses. On one, a marking on the neck resembles a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Miniature carousel model in the lobby",
+      "exactSpot": "The horses' necks. Look for a three-circle marking."
+    },
+    "bestTip": "Walk around the whole model slowly; there are two Mickeys on it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0062",
+    "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boardwalk-lobby-carousel-horse-thigh-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "boardwalk_resort",
+    "attractionId": "lobby_carousel_model",
+    "display": {
+      "entryTitle": "Carousel Horse Thigh Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "BoardWalk Resort",
+      "attractionName": "Lobby Carousel Model"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "On the same miniature carousel, a second marking on a horse's right rear thigh resembles a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Miniature carousel model in the lobby",
+      "exactSpot": "A horse's right rear thigh."
+    },
+    "bestTip": "After the neck, check the hindquarters.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0063",
+    "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "boardwalk-promenade-shopfront-lead",
     "parkId": "resorts_bucket",
     "landId": "boardwalk_resort",
     "attractionId": "promenade_shopfronts",
     "display": {
       "entryTitle": "Promenade Shopfront Lead",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "BoardWalk Resort",
       "attractionName": "Promenade Shopfronts"
     },
@@ -855,13 +1498,302 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
+    "id": "boulder-ridge-lobby-beam-knot-carved-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "boulder_ridge_villas_lobby",
+    "display": {
+      "entryTitle": "Beam Knot Carved Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Boulder Ridge Villas Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "On the wooden beam to the right of the villas lobby fireplace, a carved classic Hidden Mickey emerges from a knot in the wood.",
+    "whereToLook": {
+      "scene": "Beam to the right of the fireplace",
+      "exactSpot": "Find the knot in the wood and look at the carving around it."
+    },
+    "bestTip": "The carving uses the knot as the head.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0056",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boulder-ridge-lobby-fireplace-red-ornament-profile-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "boulder_ridge_villas_lobby",
+    "display": {
+      "entryTitle": "Fireplace Red Ornament Profile Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Boulder Ridge Villas Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "Above the villas lobby fireplace, a red ornament hides Mickey's profile in its decoration.",
+    "whereToLook": {
+      "scene": "Red ornament above the fireplace",
+      "exactSpot": "Look at the decoration for a side view of a face with a round ear."
+    },
+    "bestTip": "Step back to the middle of the room; the profile reads from a distance.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Low",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0057",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boulder-ridge-lobby-flower-painting-field-rocks-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "boulder_ridge_villas_lobby",
+    "display": {
+      "entryTitle": "Flower Painting Field Rocks Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Boulder Ridge Villas Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the same flower painting, a second grouping of rocks in the open field forms another classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Flower painting on the right side of the villas lobby",
+      "exactSpot": "The open field, away from the river. Look for three rocks together."
+    },
+    "bestTip": "After the river, move your eyes to the meadow.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0053",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boulder-ridge-lobby-flower-painting-frame-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "boulder_ridge_villas_lobby",
+    "display": {
+      "entryTitle": "Flower Painting Frame Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Boulder Ridge Villas Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The frame of the same flower painting carries a classic Hidden Mickey in its ornament, lower right.",
+    "whereToLook": {
+      "scene": "Flower painting on the right side of the villas lobby",
+      "exactSpot": "Lower right corner of the frame."
+    },
+    "bestTip": "Third of three on this painting. Check the frame last.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0054",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boulder-ridge-lobby-flower-painting-river-rocks-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "boulder_ridge_villas_lobby",
+    "display": {
+      "entryTitle": "Flower Painting River Rocks Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Boulder Ridge Villas Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the villas lobby, the flower painting to the right of the room shows a river. Rocks in the river form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Flower painting on the right side of the villas lobby",
+      "exactSpot": "The river in the painting. Look at the rocks in the water."
+    },
+    "bestTip": "This painting hides three Mickeys. Start with the river.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0052",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boulder-ridge-lobby-hearth-turtle-shell-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "boulder_ridge_villas_lobby",
+    "display": {
+      "entryTitle": "Hearth Turtle Shell Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Boulder Ridge Villas Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "On the fireplace hearth in the villas lobby, a turtle shell design has three swirls that form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Fireplace hearth in the villas lobby",
+      "exactSpot": "The turtle shell. Look at the swirls in the pattern."
+    },
+    "bestTip": "Crouch at the hearth; it is low.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0055",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boulder-ridge-villa-murphy-bed-birch-bark-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "boulder_ridge_guest_villas",
+    "display": {
+      "entryTitle": "Murphy Bed Birch Bark Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Boulder Ridge Guest Villas"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the guest villas, the artwork on the fold-down Murphy bed shows birch bark. A classic Hidden Mickey is painted into the bark.",
+    "whereToLook": {
+      "scene": "Murphy bed artwork in the villa",
+      "exactSpot": "The painted birch bark. Look at the markings for three circles."
+    },
+    "bestTip": "Fold the bed up and look at the artwork with the room lights on.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
+    "sourceId": "TLC-RS-0088",
+    "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2026/04/26/boulder-ridge-villas-hidden-mickey-painting",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boulevard-photo-shop-dalmatian-spot-mickey",
+    "parkId": "studios_park",
+    "landId": "boulevard_area",
+    "attractionId": "boulevard_photo_shop",
+    "display": {
+      "entryTitle": "Dalmatian Spot Mickey",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Hollywood Boulevard",
+      "attractionName": "The Darkroom"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "A dalmatian figure stands near the entrance of the photo shop on the boulevard. Among its spots, one is a classic three-circle Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Dalmatian statue near the shop entrance",
+      "exactSpot": "The dog's spots. Look for one spot with two smaller spots attached as ears."
+    },
+    "bestTip": "Walk all the way around the dog. The Mickey spot is not on the side facing the door.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0001",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-dalmatian",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "canada-totem-pole-mickey",
     "parkId": "showcase_park",
     "landId": "canada_pavilion",
     "attractionId": "totem_poles",
     "display": {
       "entryTitle": "Totem Pole Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "Canada Pavilion",
       "attractionName": "Totem Poles"
     },
@@ -895,15 +1827,87 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "cape-may-cafe-display-plate-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "yacht_and_beach_club_resort",
+    "attractionId": "cape_may_cafe",
+    "display": {
+      "entryTitle": "Display Plate Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Yacht and Beach Club Resort",
+      "attractionName": "Cape May Cafe"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Just inside the cafe on the right wall, a display plate carries red and black shapes that form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Right wall just inside the entrance",
+      "exactSpot": "The display plate. Look at the red and black pattern."
+    },
+    "bestTip": "Look while you wait to be seated.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0064",
+    "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "cape-may-corridor-sandcastle-picture-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "yacht_and_beach_club_resort",
+    "attractionId": "cape_may_cafe",
+    "display": {
+      "entryTitle": "Corridor Sandcastle Picture Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Yacht and Beach Club Resort",
+      "attractionName": "Cape May Cafe"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "In the corridor behind the cafe, a picture of a sandcastle hides a full Mickey figure in the artwork.",
+    "whereToLook": {
+      "scene": "Corridor behind the restaurant",
+      "exactSpot": "The sandcastle picture. Look for a full figure, not just circles."
+    },
+    "bestTip": "Walk the corridor after your meal.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0065",
+    "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "cartoon-railway-dance-room-flower-mickey",
     "parkId": "studios_park",
     "landId": "boulevard_area",
     "attractionId": "cartoon_railway",
     "display": {
       "entryTitle": "Dance Room Flower Mickey",
-      "parkName": "Studios Park",
-      "landName": "Boulevard Area",
-      "attractionName": "Cartoon Railway"
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Hollywood Boulevard",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -939,9 +1943,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "cartoon_railway",
     "display": {
       "entryTitle": "Pre-Show Chandelier Mickeys",
-      "parkName": "Studios Park",
-      "landName": "Boulevard Area",
-      "attractionName": "Cartoon Railway"
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Hollywood Boulevard",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
     },
     "entryType": "FIND",
     "locationType": "Pre-show",
@@ -979,9 +1983,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "cartoon_railway",
     "display": {
       "entryTitle": "Queue Light Scrollwork Mickeys",
-      "parkName": "Studios Park",
-      "landName": "Boulevard Area",
-      "attractionName": "Cartoon Railway"
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Hollywood Boulevard",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -1021,9 +2025,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "cartoon_railway",
     "display": {
       "entryTitle": "Waterfall Clam Pearls Mickey",
-      "parkName": "Studios Park",
-      "landName": "Boulevard Area",
-      "attractionName": "Cartoon Railway"
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Hollywood Boulevard",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -1059,9 +2063,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "enchanted_castle_restaurant",
     "display": {
       "entryTitle": "Ballroom Ceiling Minnie",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Forest Area",
-      "attractionName": "Enchanted Castle Restaurant"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland: Enchanted Forest",
+      "attractionName": "Be Our Guest Restaurant"
     },
     "entryType": "FACT",
     "locationType": "Indoor",
@@ -1095,9 +2099,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "enchanted_castle_restaurant",
     "display": {
       "entryTitle": "Bubbles Painting Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Forest Area",
-      "attractionName": "Enchanted Castle Restaurant"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland: Enchanted Forest",
+      "attractionName": "Be Our Guest Restaurant"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -1128,15 +2132,267 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "ceremonial-house-front-door-floor-stones-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "great_ceremonial_house",
+    "display": {
+      "entryTitle": "Front Door Floor Stones Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Great Ceremonial House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Just inside the front doors of the ceremonial house, the stone floor pattern forms a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Floor just inside the front doors",
+      "exactSpot": "Look down as you enter. Three stones set as head and ears."
+    },
+    "bestTip": "Step to the side of the door so you are not standing on it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0027",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "ceremonial-house-net-knot-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "great_ceremonial_house",
+    "display": {
+      "entryTitle": "Overhead Net Knot Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Great Ceremonial House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "A fishing net is strung overhead in the ceremonial house. At one junction, the rope is knotted into a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Fishing net strung overhead",
+      "exactSpot": "Follow the net to its junctions and look for three loops together."
+    },
+    "bestTip": "Look from directly beneath the net.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0029",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "ceremonial-house-registration-wall-stones-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "great_ceremonial_house",
+    "display": {
+      "entryTitle": "Registration Wall Stones Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Great Ceremonial House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the stone wall behind the registration desk, three stones sit together as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Stone wall behind the registration desk",
+      "exactSpot": "Scan the wall for one large rounded stone with two smaller ones above it."
+    },
+    "bestTip": "Look while you check in; the desk puts you at the right distance.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0031",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "ceremonial-house-stairway-tubes-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "great_ceremonial_house",
+    "display": {
+      "entryTitle": "Stairway Tubes Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Great Ceremonial House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "On the stairway between floors, decorative tubes in the railing or wall are arranged into a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Stairway between the two floors",
+      "exactSpot": "The decorative tubes along the stair. Look for three grouped together."
+    },
+    "bestTip": "Take the stairs instead of the elevator.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0030",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "ceremonial-house-suspended-orbs-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "great_ceremonial_house",
+    "display": {
+      "entryTitle": "Suspended Orbs Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Great Ceremonial House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Colorful orbs hang from the ceiling of the ceremonial house. From the right spot, three of them align into a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Hanging orbs in the lobby",
+      "exactSpot": "Look up and move until three orbs stack into the shape."
+    },
+    "bestTip": "Try from the stairs, where you are closer to their height.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0028",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "china-pavilion-gate-post-motif-mickey",
+    "parkId": "showcase_park",
+    "landId": "china_pavilion",
+    "attractionId": "pavilion_gate",
+    "display": {
+      "entryTitle": "Gate Post Motif Mickey",
+      "parkName": "EPCOT",
+      "landName": "China Pavilion",
+      "attractionName": "Pavilion Gate"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The ornamental posts at the pavilion entrance are decorated with a repeating pattern. A three-circle motif recurs in that decoration.",
+    "whereToLook": {
+      "scene": "Ornamental gate posts at the pavilion entrance",
+      "exactSpot": "The decoration on the posts. Look for a repeated cluster of three circles."
+    },
+    "bestTip": "Look at the post from the side, where the pattern runs uninterrupted.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0011",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-s-china-pavillion-hidden-mickeys",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "clownfish-corridor-carpet-bubbles-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "art_of_animation_resort",
+    "attractionId": "guest_corridors",
+    "display": {
+      "entryTitle": "Clownfish Corridor Carpet Bubbles Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Art of Animation Resort",
+      "attractionName": "Guest Corridors"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "In the guest corridors of the clownfish section, the carpet's bubbles include three that form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Carpet in the clownfish section corridors",
+      "exactSpot": "Look down at the bubbles in the carpet pattern for three grouped together."
+    },
+    "bestTip": "Read one repeat of the pattern at a time.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0040",
+    "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "colonial-square-walkway-beam-floral-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "colonial_square_area",
     "attractionId": "colonial_square_walkway",
     "display": {
       "entryTitle": "Overhead Beam Floral Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Colonial Square Area",
-      "attractionName": "Colonial Square Walkway"
+      "parkName": "Magic Kingdom",
+      "landName": "Liberty Square",
+      "attractionName": "Liberty Square Walkway"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -1170,8 +2426,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "concert_hall_gift_shop",
     "display": {
       "entryTitle": "Ledge Music Stands Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
       "attractionName": "Concert Hall Gift Shop"
     },
     "entryType": "FIND",
@@ -1207,9 +2463,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "concert_hall_show",
     "display": {
       "entryTitle": "City Buildings Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
-      "attractionName": "Concert Hall Show"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
+      "attractionName": "Mickey's PhilharMagic"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -1243,9 +2499,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "concert_hall_show",
     "display": {
       "entryTitle": "Curtain French Horn Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
-      "attractionName": "Concert Hall Show"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
+      "attractionName": "Mickey's PhilharMagic"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -1280,9 +2536,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "concert_hall_show",
     "display": {
       "entryTitle": "Entrance Hall Music Pattern Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
-      "attractionName": "Concert Hall Show"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
+      "attractionName": "Mickey's PhilharMagic"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -1316,9 +2572,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "concert_hall_show",
     "display": {
       "entryTitle": "Moon Craters Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
-      "attractionName": "Concert Hall Show"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
+      "attractionName": "Mickey's PhilharMagic"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -1357,9 +2613,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "concert_hall_show",
     "display": {
       "entryTitle": "Rotating Ring Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
-      "attractionName": "Concert Hall Show"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
+      "attractionName": "Mickey's PhilharMagic"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -1386,14 +2642,303 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "conservation-hall-curving-mural-butterfly-body-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Curving Mural Butterfly Body Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
+      "attractionName": "Conservation Station"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Entrance",
+    "description": "On the curving mural to the right, a butterfly's body conceals Mickey's face.",
+    "whereToLook": {
+      "scene": "Right-hand curving mural",
+      "exactSpot": "The butterfly. Look at its body between the wings, not the wing pattern."
+    },
+    "bestTip": "There are several butterflies. The one you want has a face where its thorax should be.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0018",
+    "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-hall-entrance-mural-butterfly-wing-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Entrance Mural Butterfly Wing Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
+      "attractionName": "Conservation Station"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "In the upper right of the entrance mural, a butterfly's wing markings form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Entrance mural, upper right",
+      "exactSpot": "The butterfly high on the right. Look at the spots on its wings."
+    },
+    "bestTip": "Start from the top right corner and work down until you hit the butterfly.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0026",
+    "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-hall-entrance-mural-opossum-eye-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Entrance Mural Opossum Eye Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
+      "attractionName": "Conservation Station"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Entrance",
+    "description": "The entrance mural is famous for hiding many Mickeys in its animals. On the right side, a Mickey profile hides in the pupil of the opossum's eye.",
+    "whereToLook": {
+      "scene": "Entrance mural, right side",
+      "exactSpot": "Find the opossum and look into its eye. The profile is in the pupil."
+    },
+    "bestTip": "Get close. The pupils are small and the profile is smaller.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "This mural hides more than a dozen Mickeys. Each entry here is one of them."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0017",
+    "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-hall-lizard-tree-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Lizard Tree Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
+      "attractionName": "Conservation Station"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "On the tree to the right of the willow, a lizard sits above the cockroach sign. A classic Hidden Mickey sits just above the lizard's front leg.",
+    "whereToLook": {
+      "scene": "Tree to the right of the willow",
+      "exactSpot": "Find the cockroach sign, then the lizard above it, then look just above the lizard's front leg."
+    },
+    "bestTip": "Follow the chain: sign, lizard, leg. Each one points to the next.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0022",
+    "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-hall-low-mural-frog-pupil-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Low Mural Frog Pupil Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
+      "attractionName": "Conservation Station"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "On the low mural before the theater, a silver frog looks out at you. A Mickey profile fills its left pupil.",
+    "whereToLook": {
+      "scene": "Low mural just before the theater",
+      "exactSpot": "The silver frog. Look into its left eye."
+    },
+    "bestTip": "Crouch. The mural is low and the frog is near the floor.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0019",
+    "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-hall-rainforest-panel-leaf-hole-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Rainforest Panel Leaf Hole Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
+      "attractionName": "Conservation Station"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "On the right panel at the rainforest entrance, a hole in a green leaf is cut in the outline of a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Right panel at the entrance to the rainforest exhibit",
+      "exactSpot": "A green leaf on the panel. The Mickey is a hole in the leaf, not a marking on it."
+    },
+    "bestTip": "Look for daylight or wall color showing through the leaf.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0027",
+    "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-hall-rainforest-tree-shadow-profile-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Rainforest Tree Shadow Profile Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
+      "attractionName": "Conservation Station"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "In the rainforest exhibit, the front of the tree carries a painted shadow about seven feet up that resembles Mickey's profile.",
+    "whereToLook": {
+      "scene": "Rainforest tree in the exhibit",
+      "exactSpot": "Front of the tree, roughly seven feet up. Look at the shadows painted on the bark."
+    },
+    "bestTip": "Stand back from the tree; the profile needs a little distance.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0020",
+    "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-hall-willow-tree-indentation-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Willow Tree Indentation Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
+      "attractionName": "Conservation Station"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The talking willow tree from the story of the Powhatan princess stands in the exhibit. Below her sign and to the right of her face, an indentation in the bark is shaped like a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Grandmother willow tree in the exhibit",
+      "exactSpot": "Below the sign, to the right of the face. Look for a three-circle dent in the bark."
+    },
+    "bestTip": "Look at the trunk, not the face.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0021",
+    "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "conservation-outpost-leaf-wall-tiny-mickey",
     "parkId": "adventure_park",
     "landId": "conservation_outpost_area",
     "attractionId": "character_greeting_area",
     "display": {
       "entryTitle": "Leaf Wall Tiny Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Conservation Outpost Area",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
       "attractionName": "Character Greeting Area"
     },
     "entryType": "FIND",
@@ -1430,7 +2975,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "grand_canyon_concourse",
     "display": {
       "entryTitle": "Concourse Mural Lead",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Contemporary Resort",
       "attractionName": "Grand Canyon Concourse"
     },
@@ -1468,7 +3013,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "monorail_beam_approach",
     "display": {
       "entryTitle": "Monorail Beam Mickey",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Contemporary Resort",
       "attractionName": "Monorail Beam Approach"
     },
@@ -1477,7 +3022,7 @@ export const entries: HiddenMickeyEntry[] = [
     "difficulty": "Medium",
     "description": "A small black classic three-circle Hidden Mickey is painted halfway down the side of the resort monorail beam that runs beside the express line as it approaches the resort. You pass it a few seconds before the train enters the building, and it slips by fast enough that riders looking ahead at the hotel miss it.",
     "whereToLook": {
-      "scene": "Express monorail from the transportation center toward the Kingdom Park, approaching the resort, left-side windows",
+      "scene": "Express monorail from the transportation center toward Magic Kingdom, approaching the resort, left-side windows",
       "exactSpot": "On the resort monorail beam running to your left, halfway down its side, a few seconds before the train enters the resort building."
     },
     "bestTip": "Sit on the left side of the express train and start watching the neighboring beam as soon as the resort comes into view.",
@@ -1502,15 +3047,51 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "coronado-gift-shop-left-door-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "coronado_springs_resort",
+    "attractionId": "resort_gift_shop",
+    "display": {
+      "entryTitle": "Gift Shop Left Door Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Coronado Springs Resort",
+      "attractionName": "Panchito's Gifts and Sundries"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The left entrance door of the resort gift shop has a classic Hidden Mickey worked into its design.",
+    "whereToLook": {
+      "scene": "Left entrance door of the gift shop",
+      "exactSpot": "Look at the door's decoration and hardware for three circles."
+    },
+    "bestTip": "Check both the woodwork and the handle.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0087",
+    "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-springs-resorts/2026/08/01/disneys-coronado-springs-resort-hidden-mickey",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "cosmic-coaster-city-model-domes-mickey",
     "parkId": "showcase_park",
     "landId": "discovery_area",
     "attractionId": "cosmic_coaster",
     "display": {
       "entryTitle": "City Model Domes Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Discovery Area",
-      "attractionName": "Cosmic Coaster"
+      "parkName": "EPCOT",
+      "landName": "World Discovery",
+      "attractionName": "Guardians of the Galaxy: Cosmic Rewind"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -1547,9 +3128,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "cosmic_coaster",
     "display": {
       "entryTitle": "City Model Water Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Discovery Area",
-      "attractionName": "Cosmic Coaster"
+      "parkName": "EPCOT",
+      "landName": "World Discovery",
+      "attractionName": "Guardians of the Galaxy: Cosmic Rewind"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -1589,8 +3170,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "cover_story_shop",
     "display": {
       "entryTitle": "Window Pattern Mickeys",
-      "parkName": "Studios Park",
-      "landName": "Boulevard Area",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Hollywood Boulevard",
       "attractionName": "Cover Story Shop"
     },
     "entryType": "FIND",
@@ -1625,9 +3206,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "critter_carousel",
     "display": {
       "entryTitle": "Armadillo Spots Mickey",
-      "parkName": "Pier Park",
-      "landName": "Boardwalk Pier Area",
-      "attractionName": "Critter Carousel"
+      "parkName": "Disney California Adventure",
+      "landName": "Pixar Pier",
+      "attractionName": "Jessie's Critter Carousel"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -1662,9 +3243,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "midway_shooter",
     "display": {
       "entryTitle": "Critter Pop-Out Sideways Mickey",
-      "parkName": "Studios Park",
-      "landName": "Toy Blocks Area",
-      "attractionName": "Midway Shooter"
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Toy Story Mania!"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -1703,9 +3284,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "crystal_arts_shop",
     "display": {
       "entryTitle": "Paving Stone Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Main Street Area",
-      "attractionName": "Crystal Arts Shop"
+      "parkName": "Magic Kingdom",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Crystal Arts"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -1732,15 +3313,87 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "disneystyle-pavement-dark-stones-mickey",
+    "parkId": "springs_bucket",
+    "landId": "west_side",
+    "attractionId": "disneystyle_shop",
+    "display": {
+      "entryTitle": "Pavement Dark Stones Mickey",
+      "parkName": "Disney Springs",
+      "landName": "West Side",
+      "attractionName": "DisneyStyle"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "In the pavement beside the shop, on the way toward the coffee place, dark stones are set into the paving as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Pavement beside the shop, heading toward the coffee shop",
+      "exactSpot": "Look down at the paving for a cluster of darker stones in the three-circle shape."
+    },
+    "bestTip": "Walk it slowly in the shade; the contrast shows better without glare.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0004",
+    "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "drawn-to-life-entrance-tile-circles-mickey",
+    "parkId": "springs_bucket",
+    "landId": "west_side",
+    "attractionId": "drawn_to_life_theater",
+    "display": {
+      "entryTitle": "Entrance Tile Circles Mickey",
+      "parkName": "Disney Springs",
+      "landName": "West Side",
+      "attractionName": "Drawn to Life Theater"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "At the theater entrance, in the corner by the men's restroom, three black circles are set into the white tile as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Theater entrance, corner near the men's restroom",
+      "exactSpot": "Look down at the white tile in the corner for three black circles."
+    },
+    "bestTip": "You do not need a show ticket to reach the entrance plaza.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0008",
+    "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "elevated-tram-belt-buckle-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "future_city_area",
     "attractionId": "elevated_tram_ride",
     "display": {
       "entryTitle": "Belt Buckle Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Future City Area",
-      "attractionName": "Elevated Tram Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Tomorrowland",
+      "attractionName": "Tomorrowland Transit Authority PeopleMover"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -1777,8 +3430,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "entrance_gates",
     "display": {
       "entryTitle": "Gate Grillwork Mickeys",
-      "parkName": "Studios Park",
-      "landName": "Park Entrance Area",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Park Entrance",
       "attractionName": "Entrance Gates"
     },
     "entryType": "FIND",
@@ -1808,15 +3461,124 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "enzos-hideaway-booth-poster-mickey",
+    "parkId": "springs_bucket",
+    "landId": "the_landing",
+    "attractionId": "enzos_hideaway",
+    "display": {
+      "entryTitle": "Booth Poster Mickey",
+      "parkName": "Disney Springs",
+      "landName": "The Landing",
+      "attractionName": "Enzo's Hideaway"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "In the first booth on the right after the entry tunnel, a vintage poster hangs on the wall. A tiny classic Hidden Mickey is drawn above the poster's text, between the words for the month and the events.",
+    "whereToLook": {
+      "scene": "First booth on the right after the entry tunnel",
+      "exactSpot": "The poster. Look just above the printed text, between the month and the word for events."
+    },
+    "bestTip": "Ask for that booth, or peek in on the way to yours.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "A speakeasy-style restaurant. Reservations get you in; walk-ups at the bar are sometimes possible."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0002",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disney-springs-enzos-hideaway-booth-wall-poster-hidden-mickey/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "enzos-hideaway-corridor-music-note-mickey",
+    "parkId": "springs_bucket",
+    "landId": "the_landing",
+    "attractionId": "enzos_hideaway",
+    "display": {
+      "entryTitle": "Corridor Music Note Mickey",
+      "parkName": "Disney Springs",
+      "landName": "The Landing",
+      "attractionName": "Enzo's Hideaway"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Entrance",
+    "description": "In the entry corridor, sheet music is painted above the welcome nook. In the final bar of music, one note is drawn as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Entry corridor, above the welcome nook",
+      "exactSpot": "The sheet music on the wall. Read to the final bar and look at the notes."
+    },
+    "bestTip": "Look before the host seats you; the corridor is where you wait.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0005",
+    "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "exposition-park-planters-overhead-mickey",
+    "parkId": "springs_bucket",
+    "landId": "west_side",
+    "attractionId": "exposition_park",
+    "display": {
+      "entryTitle": "Planters Overhead Mickey",
+      "parkName": "Disney Springs",
+      "landName": "West Side",
+      "attractionName": "Exposition Park"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Outdoor Display",
+    "description": "Seen from above, the planting beds in the park are laid out as a classic Hidden Mickey. At ground level it is just landscaping.",
+    "whereToLook": {
+      "scene": "Planting beds in the park",
+      "exactSpot": "Find a spot with height, such as the upper walkways or a bridge, and look down at the layout of the beds."
+    },
+    "bestTip": "This one is about vantage point. Go up before you look down.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0010",
+    "sourceUrl": "https://mickeyvisit.com/hidden-mickeys-at-disney-world/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "family-treehouse-lamp-shells-mickey",
     "parkId": "california_kingdom_park",
     "landId": "jungle_outpost_area",
     "attractionId": "family_treehouse",
     "display": {
       "entryTitle": "Music Room Lamp Shells Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Jungle Outpost Area",
-      "attractionName": "Family Treehouse"
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Adventureland Treehouse"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -1851,9 +3613,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "family_treehouse",
     "display": {
       "entryTitle": "Trunk Moss Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Jungle Outpost Area",
-      "attractionName": "Family Treehouse"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland",
+      "attractionName": "Swiss Family Treehouse"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -1889,9 +3651,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "family_treehouse",
     "display": {
       "entryTitle": "Trunk Profile Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Jungle Outpost Area",
-      "attractionName": "Family Treehouse"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland",
+      "attractionName": "Swiss Family Treehouse"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -1918,14 +3680,50 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "fitness-center-elevator-wood-panel-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "fitness_center_elevator",
+    "display": {
+      "entryTitle": "Elevator Wood Panel Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Fitness Center Elevator"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "Beside the elevator near the fitness center, the wood panel on the right has a carved figure with circular ears on top of an elongated head.",
+    "whereToLook": {
+      "scene": "Elevator near the fitness center",
+      "exactSpot": "Right-hand wood panel. Look for two round ears above a stretched head shape."
+    },
+    "bestTip": "It is a stylized figure, not the classic three circles.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0022",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "floating-mountains-approach-rock-holes-mickey",
     "parkId": "adventure_park",
     "landId": "floating_mountains_area",
     "attractionId": "entrance_walkway",
     "display": {
       "entryTitle": "Approach Rock Holes Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Floating Mountains Area",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Pandora: The World of Avatar",
       "attractionName": "Entrance Walkway"
     },
     "entryType": "FIND",
@@ -1962,8 +3760,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "entrance_walkway",
     "display": {
       "entryTitle": "Dead Tree Mushrooms Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Floating Mountains Area",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Pandora: The World of Avatar",
       "attractionName": "Entrance Walkway"
     },
     "entryType": "FIND",
@@ -2001,9 +3799,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "flying_carpets_spinner",
     "display": {
       "entryTitle": "Pavement Charm Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Jungle Outpost Area",
-      "attractionName": "Flying Carpets Spinner"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland",
+      "attractionName": "The Magic Carpets of Aladdin"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -2043,9 +3841,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "flying_carpets_spinner",
     "display": {
       "entryTitle": "Camel Necklace Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Jungle Outpost Area",
-      "attractionName": "Flying Carpets Spinner"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland",
+      "attractionName": "The Magic Carpets of Aladdin"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -2079,9 +3877,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "flying_pirate_ship_ride",
     "display": {
       "entryTitle": "Pirate Ship Cannonballs Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Village Area",
-      "attractionName": "Flying Pirate Ship Ride"
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Peter Pan's Flight"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -2117,9 +3915,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "flying_pirate_ship_ride",
     "display": {
       "entryTitle": "Mermaid Lagoon Flowers Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
-      "attractionName": "Flying Pirate Ship Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
+      "attractionName": "Peter Pan's Flight"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -2152,9 +3950,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "flying_pirate_ship_ride",
     "display": {
       "entryTitle": "Queue Handrail Post Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Village Area",
-      "attractionName": "Flying Pirate Ship Ride"
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Peter Pan's Flight"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -2190,9 +3988,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "flying_pirate_ship_ride",
     "display": {
       "entryTitle": "Queue Tree Bark Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
-      "attractionName": "Flying Pirate Ship Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
+      "attractionName": "Peter Pan's Flight"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -2220,15 +4018,87 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "food-court-lion-light-tree-leaves-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "art_of_animation_resort",
+    "attractionId": "food_court",
+    "display": {
+      "entryTitle": "Lion Light Tree Leaves Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Art of Animation Resort",
+      "attractionName": "Landscape of Flavors"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The food court's light fixtures are themed to films. On the lion-themed light nearest the shop, three green leaf circles on the tree trunk form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Lion-themed light fixture nearest the gift shop",
+      "exactSpot": "The tree trunk on the fixture. Three green leaf circles."
+    },
+    "bestTip": "Look at the fixture itself, not the light it throws.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0036",
+    "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "food-court-mermaid-light-shelf-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "art_of_animation_resort",
+    "attractionId": "food_court",
+    "display": {
+      "entryTitle": "Mermaid Light Shelf Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Art of Animation Resort",
+      "attractionName": "Landscape of Flavors"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "On the mermaid-themed light on the far seating side, an illustrated shelf of the mermaid's collected treasures includes Mickey's face among the objects.",
+    "whereToLook": {
+      "scene": "Mermaid-themed light fixture on the far side of the seating",
+      "exactSpot": "The illustrated shelf of treasures. Look for a face among the gadgets and gizmos."
+    },
+    "bestTip": "Sit under it and look up with a coffee.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0037",
+    "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "fortress-drop-tower-paint-trail-mickeys",
     "parkId": "california_pier_park",
     "landId": "hero_campus_area",
     "attractionId": "fortress_drop_tower",
     "display": {
       "entryTitle": "Paint Trail Mickeys",
-      "parkName": "Pier Park",
-      "landName": "Hero Campus Area",
-      "attractionName": "Fortress Drop Tower"
+      "parkName": "Disney California Adventure",
+      "landName": "Avengers Campus",
+      "attractionName": "Guardians of the Galaxy: Mission Breakout!"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -2264,7 +4134,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "canal_bridge",
     "display": {
       "entryTitle": "Bridge Ledge Rope Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "France Pavilion",
       "attractionName": "Canal Bridge"
     },
@@ -2306,9 +4176,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "pavilion_film",
     "display": {
       "entryTitle": "Film Wedding Party Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "France Pavilion",
-      "attractionName": "Pavilion Film Theater"
+      "attractionName": "Impressions de France"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -2342,7 +4212,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "monsieur_paul_restaurant",
     "display": {
       "entryTitle": "Entrance Marquee Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "France Pavilion",
       "attractionName": "Monsieur Paul"
     },
@@ -2379,7 +4249,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "wine_shop",
     "display": {
       "entryTitle": "Wine Shop Columns Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "France Pavilion",
       "attractionName": "Wine Shop"
     },
@@ -2413,15 +4283,125 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "french-quarter-guest-room-bathroom-door-tiara",
+    "parkId": "resorts_bucket",
+    "landId": "port_orleans_french_quarter_resort",
+    "attractionId": "guest_rooms",
+    "display": {
+      "entryTitle": "Bathroom Door Tiara",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Port Orleans French Quarter Resort",
+      "attractionName": "Guest Rooms"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the refurbished guest rooms, the decorative pattern on the bathroom door works in the tiara of the princess who spent her movie as a frog. It is the resort's new theme, hidden in plain sight.",
+    "whereToLook": {
+      "scene": "Refurbished guest room",
+      "exactSpot": "The ornament on the bathroom door. Look for a crown shape in the pattern."
+    },
+    "bestTip": "Look at the door with the room lights on; the pattern is subtle.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Documented",
+    "status": "Current",
+    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
+    "sourceId": "TLC-RS-0061",
+    "sourceUrl": "https://disneyparksblog.com/wdw/new-rooms-at-port-orleans-french-quarter/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "french-quarter-lobby-painting-dress-tiger-face",
+    "parkId": "resorts_bucket",
+    "landId": "port_orleans_french_quarter_resort",
+    "attractionId": "registration_lobby",
+    "display": {
+      "entryTitle": "Lobby Painting Dress Tiger Face",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Port Orleans French Quarter Resort",
+      "attractionName": "Registration Lobby"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "Behind the registration desk, the third painting from the left shows a woman in a green dress. In the lower green section of the dress, the ornament suggests the face of the bouncy striped tiger from the hundred-acre wood.",
+    "whereToLook": {
+      "scene": "Paintings behind the registration desk",
+      "exactSpot": "Third painting from the left. Look at the lower part of the green dress."
+    },
+    "bestTip": "Ask at the desk if you can step behind the rope for a closer look.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0011",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-port-orleans-resort-french-quarter-hidden-tigger/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "frontier-tavern-spoked-wheels-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "fort_wilderness_campground",
+    "attractionId": "frontier_tavern",
+    "display": {
+      "entryTitle": "Spoked Wheels Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Fort Wilderness Resort & Campground",
+      "attractionName": "Crockett's Tavern"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Low on the wall of the tavern, spoked wagon wheels form a tilted classic Hidden Mickey. It is easiest to see from the far end of the neighboring restaurant's seating.",
+    "whereToLook": {
+      "scene": "Lower wall of the tavern",
+      "exactSpot": "The spoked wheels. Stand at the far end of the restaurant seating and look across.",
+      "orientation": "Sideways"
+    },
+    "bestTip": "Distance helps. Close up, they are just wheels.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0013",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-trails-end-restaurant-and-crocketts-tavern-frying-pan-hidden-mickey-and-spoked-wheel-hidden-mickey/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "galactic-blaster-exit-mural-alien-spacecraft",
     "parkId": "magic_kingdom_park",
     "landId": "future_city_area",
     "attractionId": "galactic_blaster_ride",
     "display": {
       "entryTitle": "Exit Mural Alien Spacecraft",
-      "parkName": "Kingdom Park",
-      "landName": "Future City Area",
-      "attractionName": "Galactic Blaster Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Tomorrowland",
+      "attractionName": "Buzz Lightyear's Space Ranger Spin"
     },
     "entryType": "FACT",
     "locationType": "Indoor",
@@ -2454,9 +4434,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "galactic_blaster_ride",
     "display": {
       "entryTitle": "First Room Low Wall Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Future City Area",
-      "attractionName": "Galactic Blaster Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Tomorrowland",
+      "attractionName": "Buzz Lightyear's Space Ranger Spin"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -2489,9 +4469,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "galactic_blaster_ride",
     "display": {
       "entryTitle": "Late Battle Planet Landmass Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Future City Area",
-      "attractionName": "Galactic Blaster Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Tomorrowland",
+      "attractionName": "Buzz Lightyear's Space Ranger Spin"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -2525,9 +4505,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "galactic_blaster_ride",
     "display": {
       "entryTitle": "Planet Poster Continent Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Future City Area",
-      "attractionName": "Galactic Blaster Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Tomorrowland",
+      "attractionName": "Buzz Lightyear's Space Ranger Spin"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -2568,9 +4548,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "galactic_blaster_ride",
     "display": {
       "entryTitle": "Zurg Scene Blue Star Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Future City Area",
-      "attractionName": "Galactic Blaster Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Tomorrowland",
+      "attractionName": "Buzz Lightyear's Space Ranger Spin"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -2597,15 +4577,135 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "geosphere-electronics-scene-desk-eraser-mickey",
+    "parkId": "showcase_park",
+    "landId": "celebration_area",
+    "attractionId": "geosphere_time_ride",
+    "display": {
+      "entryTitle": "Electronics Scene Desk Eraser Mickey",
+      "parkName": "EPCOT",
+      "landName": "World Celebration",
+      "attractionName": "Spaceship Earth"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the garage electronics scene, the desk is scattered with period clutter. An eraser on the desktop is reported to be shaped like a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Garage electronics scene",
+      "exactSpot": "The desktop. Look at the small items for an eraser in the three-circle shape."
+    },
+    "bestTip": "The vehicle turns slowly here. Watch the desk rather than the screen.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 28.3753,
+      "longitude": -81.5494
+    },
+    "sourceId": "TLC-EP-0031",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-eraser",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "geosphere-entrance-mural-satellite-mickey",
+    "parkId": "showcase_park",
+    "landId": "celebration_area",
+    "attractionId": "geosphere_time_ride",
+    "display": {
+      "entryTitle": "Entrance Mural Satellite Mickey",
+      "parkName": "EPCOT",
+      "landName": "World Celebration",
+      "attractionName": "Spaceship Earth"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The mural at the right of the entrance shows a satellite numbered 2350. A classic Hidden Mickey is concealed right beside the numbering.",
+    "whereToLook": {
+      "scene": "Entrance mural on the right as you walk in",
+      "exactSpot": "Find the satellite marked 2350 and look immediately beside the numbers."
+    },
+    "bestTip": "Look while you are still outside the queue; the mural is easier to see without the rail in the way.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 28.3753,
+      "longitude": -81.5494
+    },
+    "sourceId": "TLC-EP-0029",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "geosphere-renaissance-fruit-study-mickey",
+    "parkId": "showcase_park",
+    "landId": "celebration_area",
+    "attractionId": "geosphere_time_ride",
+    "display": {
+      "entryTitle": "Renaissance Fruit Study Mickey",
+      "parkName": "EPCOT",
+      "landName": "World Celebration",
+      "attractionName": "Spaceship Earth"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the Renaissance scene, the artist's fruit study is arranged so that the grouping depicts a Mickey silhouette. It is a companion to the three paint marks on the same painter's table.",
+    "whereToLook": {
+      "scene": "Renaissance painter's studio",
+      "exactSpot": "The fruit the artist is studying. Look at how the pieces are grouped."
+    },
+    "bestTip": "Find the painter first, then the paint marks, then the fruit.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 28.3753,
+      "longitude": -81.5494
+    },
+    "sourceId": "TLC-EP-0030",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-art",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "geosphere-renaissance-painter-table-mickey",
     "parkId": "showcase_park",
     "landId": "celebration_area",
     "attractionId": "geosphere_time_ride",
     "display": {
       "entryTitle": "Renaissance Painter Table Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Celebration Area",
-      "attractionName": "Geosphere Time Ride"
+      "parkName": "EPCOT",
+      "landName": "World Celebration",
+      "attractionName": "Spaceship Earth"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -2643,7 +4743,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "glockenspiel_facade",
     "display": {
       "entryTitle": "Armor Crown Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "Germany Pavilion",
       "attractionName": "Glockenspiel Facade"
     },
@@ -2682,9 +4782,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "gliding_flight_theater",
     "display": {
       "entryTitle": "Finale Fireworks Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Nature Area",
-      "attractionName": "Gliding Flight Theater"
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "Soarin' Around the World"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -2720,9 +4820,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "gliding_flight_theater",
     "display": {
       "entryTitle": "Hot Air Balloons Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Nature Area",
-      "attractionName": "Gliding Flight Theater"
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "Soarin' Around the World"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -2757,9 +4857,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "glowing_river_boats",
     "display": {
       "entryTitle": "Plant Light Fixture Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Floating Mountains Area",
-      "attractionName": "Glowing River Boats"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Pandora: The World of Avatar",
+      "attractionName": "Na'vi River Journey"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -2795,9 +4895,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "glowing_river_boats",
     "display": {
       "entryTitle": "Shaman Cloak Holes Mickeys",
-      "parkName": "Adventure Park",
-      "landName": "Floating Mountains Area",
-      "attractionName": "Glowing River Boats"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Pandora: The World of Avatar",
+      "attractionName": "Na'vi River Journey"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -2826,13 +4926,49 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "glowing-river-shaman-garment-pattern-mickey",
+    "parkId": "adventure_park",
+    "landId": "floating_mountains_area",
+    "attractionId": "glowing_river_boats",
+    "display": {
+      "entryTitle": "Shaman Garment Pattern Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Pandora: The World of Avatar",
+      "attractionName": "Na'vi River Journey"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "The singing shaman at the end of the boat ride wears an elaborately patterned garment. A classic three-circle shape is reported in that pattern, separate from the Mickeys reported in her cloak.",
+    "whereToLook": {
+      "scene": "Shaman scene at the end of the ride",
+      "exactSpot": "The pattern of the shaman's garment. Look at the woven design across her body."
+    },
+    "bestTip": "The boat lingers here. Look at the fabric rather than her face.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0014",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-na-vi-river-journey",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "gran-destino-elevator-wall-mickey",
     "parkId": "resorts_bucket",
     "landId": "coronado_springs_gran_destino",
     "attractionId": "top_floor_elevator_bank",
     "display": {
       "entryTitle": "Elevator Bank Wall Mickey",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Gran Destino Tower",
       "attractionName": "Top Floor Elevator Bank"
     },
@@ -2867,42 +5003,329 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
-    "id": "grand-floridian-grand-lobby-lead",
+    "id": "grand-lobby-carpet-red-gold-mickey",
     "parkId": "resorts_bucket",
     "landId": "grand_floridian_resort",
     "attractionId": "grand_lobby",
     "display": {
-      "entryTitle": "Grand Lobby Lead",
-      "parkName": "Resorts",
+      "entryTitle": "Lobby Carpet Red and Gold Mickey",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Grand Floridian Resort",
       "attractionName": "Grand Lobby"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. The grand lobby runs five stories of white millwork, stained glass domes, chandeliers and an aviary, which is a great deal of decorative surface to search.",
+    "description": "The lobby carpet's red and gold motifs include one arranged as a classic Hidden Mickey.",
     "whereToLook": {
-      "scene": "The five-story grand lobby, its balconies, chandeliers and stained glass",
-      "exactSpot": "Check the fretwork on the balcony railings, the stained glass domes overhead and the chandelier fittings for three circles worked into the pattern."
+      "scene": "Carpet in the grand lobby",
+      "exactSpot": "Read the red and gold pattern for three circles together."
     },
-    "bestTip": "Take the elevator to the top floor and work downward. From the upper balconies the millwork and the glass are close instead of five stories away.",
+    "bestTip": "The pattern repeats; one clean repeat is all you need.",
     "viewing": {
       "motion": "Still",
-      "lighting": "Bright",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0074",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "grand-lobby-marble-floor-corner-panel-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "grand_lobby",
+    "display": {
+      "entryTitle": "Marble Floor Corner Panel Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Grand Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In a green corner panel of the marble lobby floor, orange marble outlines a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Marble floor of the grand lobby",
+      "exactSpot": "A green panel in a corner of the floor. Look for orange marble in a three-circle outline."
+    },
+    "bestTip": "Look from the upper balcony first to find the panel, then go down.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0069",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "grand-lobby-marble-floor-dog",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "grand_lobby",
+    "display": {
+      "entryTitle": "Marble Floor Dog",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Grand Lobby"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The loyal yellow dog is also in the marble floor inlay.",
+    "whereToLook": {
+      "scene": "Character inlay in the marble lobby floor",
+      "exactSpot": "Look for the long nose and floppy ears in profile."
+    },
+    "bestTip": "Third of four in the inlay.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0072",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "grand-lobby-marble-floor-duck",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "grand_lobby",
+    "display": {
+      "entryTitle": "Marble Floor Duck",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Grand Lobby"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The sailor-suited duck completes the set of characters in the marble floor inlay.",
+    "whereToLook": {
+      "scene": "Character inlay in the marble lobby floor",
+      "exactSpot": "Look for the bill and the cap."
+    },
+    "bestTip": "Last of four in the inlay.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0073",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "grand-lobby-marble-floor-goof",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "grand_lobby",
+    "display": {
+      "entryTitle": "Marble Floor Goof",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Grand Lobby"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the same marble floor inlay, the tall goof appears among the characters.",
+    "whereToLook": {
+      "scene": "Character inlay in the marble lobby floor",
+      "exactSpot": "Look for the hat and the long ears."
+    },
+    "bestTip": "Second of four in the inlay.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0071",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "grand-lobby-marble-floor-minnie",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "grand_lobby",
+    "display": {
+      "entryTitle": "Marble Floor Minnie",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Grand Lobby"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The marble floor of the grand lobby has a character design inlaid in it. Minnie is one of the characters.",
+    "whereToLook": {
+      "scene": "Character inlay in the marble lobby floor",
+      "exactSpot": "Find the inlay and look for the bow."
+    },
+    "bestTip": "The inlay hides four characters. Take them one at a time.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0070",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "grand-lobby-wallpaper-repeating-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "grand_lobby",
+    "display": {
+      "entryTitle": "Lobby Wallpaper Repeating Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Grand Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The wallpaper pattern in the grand lobby repeats a classic Hidden Mickey within its decoration.",
+    "whereToLook": {
+      "scene": "Wallpaper in the grand lobby",
+      "exactSpot": "Look closely at one repeat of the wallpaper pattern."
+    },
+    "bestTip": "The walls near the elevators are easiest to get close to.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0075",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "great-hall-lobby-column-base-logs-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Column Base Logs Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "At the base of one of the great hall's columns, three tied logs are bundled so they form an inverted classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Columns in the great hall lobby",
+      "exactSpot": "The base of the column. Look at the ends of the tied logs.",
+      "orientation": "Upside-down"
+    },
+    "bestTip": "Work the columns one at a time; only one has the bundle.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0018",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "great-hall-lobby-shield-dots-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "High Shield Dots Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "High on the wall of the great hall, a decorative shield carries three black dots arranged as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Shields displayed high in the great hall",
+      "exactSpot": "Look up at the shields. One has three black dots set as head and ears."
+    },
+    "bestTip": "The upper balconies bring you level with the shields.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
       "angle": "Above",
       "crowding": "Medium",
-      "distance": "Far",
-      "notes": "The lobby is bright and white, which helps, but the ceiling detail is a long way up from the floor."
+      "distance": "Far"
     },
-    "confidence": "Interpretive",
-    "verification": "Unknown",
-    "coordinates": {
-      "latitude": 28.4113,
-      "longitude": -81.5877
-    },
-    "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0019",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "great-tree-trunk-moss-mickey",
@@ -2911,9 +5334,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "great_tree",
     "display": {
       "entryTitle": "Trunk Moss Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Great Tree Area",
-      "attractionName": "Great Tree"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Discovery Island",
+      "attractionName": "Tree of Life"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -2948,9 +5371,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "greenhouse_boat_ride",
     "display": {
       "entryTitle": "Lettuce Planks Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Nature Area",
-      "attractionName": "Greenhouse Boat Ride"
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "Living with the Land"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -2989,9 +5412,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "greenhouse_boat_ride",
     "display": {
       "entryTitle": "Mold-Grown Produce Mickeys",
-      "parkName": "Showcase Park",
-      "landName": "Nature Area",
-      "attractionName": "Greenhouse Boat Ride"
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "Living with the Land"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -3031,9 +5454,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "greenhouse_boat_ride",
     "display": {
       "entryTitle": "Mural Bubbles Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Nature Area",
-      "attractionName": "Greenhouse Boat Ride"
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "Living with the Land"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -3067,9 +5490,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "greenhouse_boat_ride",
     "display": {
       "entryTitle": "Shrimp Tank Trap Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Nature Area",
-      "attractionName": "Greenhouse Boat Ride"
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "Living with the Land"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -3104,9 +5527,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "greenhouse_boat_ride",
     "display": {
       "entryTitle": "Greenhouse Hose Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Nature Area",
-      "attractionName": "Greenhouse Boat Ride"
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "Living with the Land"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -3143,8 +5566,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "character_greeting_hall",
     "display": {
       "entryTitle": "Greeting Mural Flowers Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Celebration Area",
+      "parkName": "EPCOT",
+      "landName": "World Celebration",
       "attractionName": "Character Greeting Hall"
     },
     "entryType": "FIND",
@@ -3184,8 +5607,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "harambe_market",
     "display": {
       "entryTitle": "Market Pillar Mickeys",
-      "parkName": "Adventure Park",
-      "landName": "Savanna Village Area",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Africa",
       "attractionName": "Harambe Market"
     },
     "entryType": "FIND",
@@ -3220,9 +5643,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "harbour_house_restaurant",
     "display": {
       "entryTitle": "Navigation Charts Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Colonial Square Area",
-      "attractionName": "Harbour House Restaurant"
+      "parkName": "Magic Kingdom",
+      "landName": "Liberty Square",
+      "attractionName": "Columbia Harbour House"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -3255,9 +5678,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "haunted_manor_ride",
     "display": {
       "entryTitle": "Attic Hats Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Colonial Square Area",
-      "attractionName": "Haunted Manor Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Liberty Square",
+      "attractionName": "The Haunted Mansion"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -3290,9 +5713,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "haunted_manor_ride",
     "display": {
       "entryTitle": "Banquet Table Plates Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Colonial Square Area",
-      "attractionName": "Haunted Manor Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Liberty Square",
+      "attractionName": "The Haunted Mansion"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -3329,9 +5752,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "haunted_manor_ride",
     "display": {
       "entryTitle": "Graveyard Shroud Folds Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Colonial Square Area",
-      "attractionName": "Haunted Manor Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Liberty Square",
+      "attractionName": "The Haunted Mansion"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -3364,9 +5787,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "haunted_manor_ride",
     "display": {
       "entryTitle": "Hearse Hoofprints Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Colonial Square Area",
-      "attractionName": "Haunted Manor Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Liberty Square",
+      "attractionName": "The Haunted Mansion"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -3399,9 +5822,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "haunted_manor_ride",
     "display": {
       "entryTitle": "Queue Bathtub Memorial Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Colonial Square Area",
-      "attractionName": "Haunted Manor Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Liberty Square",
+      "attractionName": "The Haunted Mansion"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -3429,13 +5852,49 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "high-street-shops-ironwork-silhouette-mickey",
+    "parkId": "showcase_park",
+    "landId": "united_kingdom_pavilion",
+    "attractionId": "high_street_shops",
+    "display": {
+      "entryTitle": "Ironwork Silhouette Mickey",
+      "parkName": "EPCOT",
+      "landName": "United Kingdom Pavilion",
+      "attractionName": "High Street Shops"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "Above the shops along the pavilion's high street, curved metal ornament decorates the facades. A Mickey silhouette is reported in the ironwork.",
+    "whereToLook": {
+      "scene": "Metal ornament above the shop fronts",
+      "exactSpot": "Look up at the curved ironwork over the shops. The shape sits in the curls."
+    },
+    "bestTip": "Stand across the street so you can see the whole facade at once.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0020",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-ironwork",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "homecomin-entrance-wall-painting-mickey",
     "parkId": "springs_bucket",
     "landId": "homecomin_restaurant",
     "attractionId": "entrance_wall_painting",
     "display": {
       "entryTitle": "Entrance Wall Painting Mickey",
-      "parkName": "Springs",
+      "parkName": "Disney Springs",
       "landName": "Homecomin' Restaurant",
       "attractionName": "Main Entrance"
     },
@@ -3476,9 +5935,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "honey_pot_ride",
     "display": {
       "entryTitle": "Owl's House Deed Painting",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
-      "attractionName": "Honey Pot Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
+      "attractionName": "The Many Adventures of Winnie the Pooh"
     },
     "entryType": "FACT",
     "locationType": "Ride",
@@ -3516,9 +5975,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "honey_pot_ride",
     "display": {
       "entryTitle": "Pink Flowers Room Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
-      "attractionName": "Honey Pot Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
+      "attractionName": "The Many Adventures of Winnie the Pooh"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -3552,9 +6011,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "honey_pot_ride",
     "display": {
       "entryTitle": "Queue Tree Pebbles Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
-      "attractionName": "Honey Pot Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
+      "attractionName": "The Many Adventures of Winnie the Pooh"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -3591,9 +6050,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "honey_pot_ride",
     "display": {
       "entryTitle": "Entrance Sign Profile Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
-      "attractionName": "Honey Pot Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
+      "attractionName": "The Many Adventures of Winnie the Pooh"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -3620,15 +6079,267 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "hotel-drop-tower-boiler-room-stain-mickey",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Boiler Room Stain Mickey",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "The Twilight Zone Tower of Terror"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "In the boiler room part of the queue, a water stain on the wall is reported to have the classic three-circle shape. The room is dim and the walls are full of stains, so this one takes patience.",
+    "whereToLook": {
+      "scene": "Boiler room queue after the library",
+      "exactSpot": "A stain on the wall. Look for three joined rounded marks rather than a drip."
+    },
+    "bestTip": "Walk the boiler room slowly and check the walls at eye level.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0039",
+    "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "hotel-drop-tower-broken-spectacles",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Broken Spectacles",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "The Twilight Zone Tower of Terror"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "A pair of broken eyeglasses sits among the props, a nod to the famous episode about a bookworm who finally gets all the time in the world to read, then breaks his glasses.",
+    "whereToLook": {
+      "scene": "Props in the hotel lobby and library",
+      "exactSpot": "A pair of spectacles with a cracked lens."
+    },
+    "bestTip": "The props are dressed to look forgotten. Read the shelves and side tables slowly.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0042",
+    "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "hotel-drop-tower-inspection-certificate-name",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Inspection Certificate Name",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "The Twilight Zone Tower of Terror"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "The elevator inspection certificate near the loading area is signed by an inspector named Cadwallader. That is the name of the devil in one of the anthology show's best-known episodes.",
+    "whereToLook": {
+      "scene": "Loading area before the elevator doors",
+      "exactSpot": "The framed inspection certificate on the wall. Read the signature."
+    },
+    "bestTip": "Look while the cast member is loading the row ahead of you.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0043",
+    "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "hotel-drop-tower-library-sheet-music",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Library Sheet Music",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "The Twilight Zone Tower of Terror"
+    },
+    "entryType": "FACT",
+    "locationType": "Pre-show",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Among the props in the library is sheet music for a real 1932 song that asks, in its title, whether there is no Mickey Mouse. It is a period joke with a wink to the mouse that built the place.",
+    "whereToLook": {
+      "scene": "Library where the pre-show film plays",
+      "exactSpot": "The sheet music among the shelves and props. Look for the title with a question mark."
+    },
+    "bestTip": "Look before the lights dim. Once the film starts, the props are hard to read.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0041",
+    "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "hotel-drop-tower-lobby-directory-warning",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Lobby Directory Warning",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "The Twilight Zone Tower of Terror"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The elevator directory in the hotel lobby lists the floors and their services. Read the first letters down the list and they spell out a warning about taking the stairs.",
+    "whereToLook": {
+      "scene": "Elevator directory board in the lobby",
+      "exactSpot": "The listing on the directory. Read the first letter of each line from top to bottom."
+    },
+    "bestTip": "Look while you wait to be called into the library. It is right by the elevator doors.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0013",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-tower-terror-hidden-message",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "hotel-drop-tower-lobby-thirteen-diamond-plaque",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Thirteen Diamond Plaque",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "The Twilight Zone Tower of Terror"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "A hotel rating plaque in the lobby awards the place thirteen diamonds. Real ratings top out at five, so this one is a joke about the hotel's supernatural standards.",
+    "whereToLook": {
+      "scene": "Plaques on the lobby wall",
+      "exactSpot": "The auto club style rating plaque. Count the diamonds."
+    },
+    "bestTip": "It is near the front desk. Look up from the guest register.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0044",
+    "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "hotel-drop-tower-star-field-mickey",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Star Field Mickey",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "The Twilight Zone Tower of Terror"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the star field of the fifth dimension scene, before the drops begin, the stars briefly line up into a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Fifth dimension corridor with the star field",
+      "exactSpot": "Watch the stars ahead of the vehicle as it rolls through the corridor. The shape appears for a moment."
+    },
+    "bestTip": "Keep your eyes forward and up through the corridor instead of bracing for the drop.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0040",
+    "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "hotel-tower-lobby-balcony-mickeys",
     "parkId": "studios_park",
     "landId": "sunset_area",
     "attractionId": "hotel_drop_tower",
     "display": {
       "entryTitle": "Lobby Balcony Mickeys",
-      "parkName": "Studios Park",
-      "landName": "Sunset Area",
-      "attractionName": "Hotel Drop Tower"
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "The Twilight Zone Tower of Terror"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -3666,9 +6377,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "hotel_drop_tower",
     "display": {
       "entryTitle": "Lobby Inbox Coins Mickey",
-      "parkName": "Studios Park",
-      "landName": "Sunset Area",
-      "attractionName": "Hotel Drop Tower"
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "The Twilight Zone Tower of Terror"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -3704,9 +6415,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "hotel_drop_tower",
     "display": {
       "entryTitle": "Pre-Show Mickey Doll",
-      "parkName": "Studios Park",
-      "landName": "Sunset Area",
-      "attractionName": "Hotel Drop Tower"
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "The Twilight Zone Tower of Terror"
     },
     "entryType": "FIND",
     "locationType": "Pre-show",
@@ -3747,9 +6458,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "hunters_tavern",
     "display": {
       "entryTitle": "Statue Rock Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Forest Area",
-      "attractionName": "Hunter's Tavern"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland: Enchanted Forest",
+      "attractionName": "Gaston's Tavern"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -3776,15 +6487,87 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "ice-queen-boat-queue-polar-bear-carving",
+    "parkId": "showcase_park",
+    "landId": "norway_pavilion",
+    "attractionId": "ice_queen_boat_ride",
+    "display": {
+      "entryTitle": "Queue Polar Bear Carving",
+      "parkName": "EPCOT",
+      "landName": "Norway Pavilion",
+      "attractionName": "Frozen Ever After"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "High on a shelf inside the cottage section of the queue, a carved polar bear keeps watch. It is a tribute to the boat ride that occupied this building before the ice queen moved in, which had polar bears of its own.",
+    "whereToLook": {
+      "scene": "Cottage interior along the queue",
+      "exactSpot": "Up on a high shelf. Look for a small carved bear."
+    },
+    "bestTip": "Look up as soon as you enter the cottage; the shelf is above the doorway side.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0015",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-frozen-ever-after-hidden-tribute",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "ice-queen-boat-queue-spectacles-gears-mickey",
+    "parkId": "showcase_park",
+    "landId": "norway_pavilion",
+    "attractionId": "ice_queen_boat_ride",
+    "display": {
+      "entryTitle": "Queue Spectacles and Gears Mickey",
+      "parkName": "EPCOT",
+      "landName": "Norway Pavilion",
+      "attractionName": "Frozen Ever After"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Loading",
+    "description": "Just before boarding, a set of spectacles and gears sits among the trading post props. From one particular angle, the round parts overlap into a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Trading post props just before the boarding area",
+      "exactSpot": "The spectacles and gears. Move your head until the circles line up."
+    },
+    "bestTip": "Find it while the row ahead boards; you will not have time once your boat arrives.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0014",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-frozen-ever-after",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "ice-queen-boat-snowflakes-mickey",
     "parkId": "showcase_park",
     "landId": "norway_pavilion",
     "attractionId": "ice_queen_boat_ride",
     "display": {
       "entryTitle": "Backward Slope Snowflakes Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "Norway Pavilion",
-      "attractionName": "Ice Queen Boat Ride"
+      "attractionName": "Frozen Ever After"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -3815,13 +6598,13 @@ export const entries: HiddenMickeyEntry[] = [
   {
     "id": "imagination-dragon-bathroom-commode-mickey",
     "parkId": "showcase_park",
-    "landId": "nature_area",
+    "landId": "celebration_area",
     "attractionId": "imagination_dragon_ride",
     "display": {
       "entryTitle": "Bathroom Commode Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Nature Area",
-      "attractionName": "Imagination Dragon Ride"
+      "parkName": "EPCOT",
+      "landName": "World Celebration",
+      "attractionName": "Journey Into Imagination With Figment"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -3849,15 +6632,87 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "imagination-dragon-sight-room-illustration-mickey",
+    "parkId": "showcase_park",
+    "landId": "celebration_area",
+    "attractionId": "imagination_dragon_ride",
+    "display": {
+      "entryTitle": "Sight Room Illustration Mickey",
+      "parkName": "EPCOT",
+      "landName": "World Celebration",
+      "attractionName": "Journey Into Imagination With Figment"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the sight sequence, the wall is covered in optical-illusion drawings. A classic Hidden Mickey is reported among the visual-perception illustrations.",
+    "whereToLook": {
+      "scene": "Sight lab with the optical illusion drawings",
+      "exactSpot": "The illustrations on the wall. Look for three circles hidden in one of the diagrams."
+    },
+    "bestTip": "The vehicle pauses here. Use the pause to read the wall.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0019",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-imagination-ride",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "italy-neptune-fountain-ornament-mickey",
+    "parkId": "showcase_park",
+    "landId": "italy_pavilion",
+    "attractionId": "neptune_fountain",
+    "display": {
+      "entryTitle": "Fountain Ornament Mickey",
+      "parkName": "EPCOT",
+      "landName": "Italy Pavilion",
+      "attractionName": "Neptune Fountain"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "The sea-god fountain in the pavilion's piazza is covered in sculpted detail. A classic Hidden Mickey is reported in its ornament.",
+    "whereToLook": {
+      "scene": "Sea-god fountain in the piazza",
+      "exactSpot": "The sculpted decoration on the fountain. Look at the shells, waves, and figures for three circles together."
+    },
+    "bestTip": "Walk all the way around. The back is less crowded and just as detailed.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0023",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-neptune-s-fountain-italy-pavilion",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "japan-gallery-fridge-container-mickey",
     "parkId": "showcase_park",
     "landId": "japan_pavilion",
     "attractionId": "culture_gallery",
     "display": {
       "entryTitle": "Gallery Fridge Container Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "Japan Pavilion",
-      "attractionName": "Culture Gallery"
+      "attractionName": "Bijutsu-kan Gallery"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -3893,9 +6748,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "culture_gallery",
     "display": {
       "entryTitle": "Gallery Fridge Magnets Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "Japan Pavilion",
-      "attractionName": "Culture Gallery"
+      "attractionName": "Bijutsu-kan Gallery"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -3925,15 +6780,51 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "japan-koi-pond-rockwork-mickey",
+    "parkId": "showcase_park",
+    "landId": "japan_pavilion",
+    "attractionId": "koi_pond_garden",
+    "display": {
+      "entryTitle": "Koi Pond Rockwork Mickey",
+      "parkName": "EPCOT",
+      "landName": "Japan Pavilion",
+      "attractionName": "Koi Pond Garden"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Outdoor Display",
+    "description": "The koi pond in the pavilion's garden is edged with placed stones. One arrangement of three rocks along the edge is reported to read as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Koi pond in the garden beside the pavilion",
+      "exactSpot": "The rockwork along the pond edge. Look for one larger stone with two smaller ones set above it."
+    },
+    "bestTip": "Walk the full edge of the pond. The rocks only line up from the path side.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0004",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-japan-pavilion-koi-pond",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "jungle-boat-dock-rope-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "jungle_outpost_area",
     "attractionId": "jungle_boat_ride",
     "display": {
       "entryTitle": "Dock Rope Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Jungle Outpost Area",
-      "attractionName": "Jungle Boat Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland",
+      "attractionName": "Jungle Cruise"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -3972,9 +6863,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "jungle_boat_ride",
     "display": {
       "entryTitle": "Entrance Sign Barnacles Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Jungle Outpost Area",
-      "attractionName": "Jungle Boat Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland",
+      "attractionName": "Jungle Cruise"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -4007,9 +6898,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "jungle_boat_ride",
     "display": {
       "entryTitle": "Queue Map Circles Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Jungle Outpost Area",
-      "attractionName": "Jungle Boat Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland",
+      "attractionName": "Jungle Cruise"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -4043,9 +6934,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "jungle_boat_ride",
     "display": {
       "entryTitle": "Temple Pillar Profile Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Jungle Outpost Area",
-      "attractionName": "Jungle Boat Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland",
+      "attractionName": "Jungle Cruise"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -4078,9 +6969,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "jungle_outpost_entrance",
     "display": {
       "entryTitle": "Stone Seating Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Jungle Outpost Area",
-      "attractionName": "Jungle Outpost Entrance"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland",
+      "attractionName": "Adventureland Entrance"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -4107,15 +6998,123 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "jungle-palace-bridge-wall-hidden-name",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "jungle_palace_trail",
+    "display": {
+      "entryTitle": "Bridge Wall Hidden Name",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Maharajah Jungle Trek"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "Just past the short bridge hung with prayer flags, the wall on the left hides the lead designer's first name in its texture.",
+    "whereToLook": {
+      "scene": "Wall on the left past the short flagged bridge",
+      "exactSpot": "In the plaster and stone of the wall. Look for three letters."
+    },
+    "bestTip": "Look right after the bridge, before the trail turns.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0035",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-maharajah-jungle-trek-three-hidden-joes/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "jungle-palace-deer-wall-designer-initials-first",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "jungle_palace_trail",
+    "display": {
+      "entryTitle": "Deer Wall Designer Initials",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Maharajah Jungle Trek"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "Along the semicircular wall by the deer enclosure, near its left end, the brick and plaster are worked into a pair of initials. They belong to the lead designer who shaped this park.",
+    "whereToLook": {
+      "scene": "Semicircular wall at the deer viewing area",
+      "exactSpot": "Near the left end of the wall. Read the brickwork and plaster for two letters."
+    },
+    "bestTip": "Step back a few feet. The initials read better from a distance than up close.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0033",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-maharajah-jungle-trek-three-hidden-joes/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "jungle-palace-deer-wall-designer-initials-second",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "jungle_palace_trail",
+    "display": {
+      "entryTitle": "Deer Wall Designer Initials, Second Pair",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Maharajah Jungle Trek"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "Farther along the same semicircular wall, a second pair of the lead designer's initials is worked into the brick and plaster.",
+    "whereToLook": {
+      "scene": "Semicircular wall at the deer viewing area",
+      "exactSpot": "Continue along the wall from the first pair. The second is farther toward the right end."
+    },
+    "bestTip": "Once you know what the first pair looks like, the second is easier.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0034",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-maharajah-jungle-trek-three-hidden-joes/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "jungle-palace-first-arch-leaves-mickey",
     "parkId": "adventure_park",
     "landId": "asia_village_area",
     "attractionId": "jungle_palace_trail",
     "display": {
       "entryTitle": "First Arch Mural Leaves Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Asia Village Area",
-      "attractionName": "Jungle Palace Trail"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Maharajah Jungle Trek"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -4153,9 +7152,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "jungle_palace_trail",
     "display": {
       "entryTitle": "Second Arch Mural Cloud Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Asia Village Area",
-      "attractionName": "Jungle Palace Trail"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Maharajah Jungle Trek"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -4187,14 +7186,158 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "jungle-palace-second-arch-mountain-rock-mickey",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "jungle_palace_trail",
+    "display": {
+      "entryTitle": "Second Arch Mountain Rock Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Maharajah Jungle Trek"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "In the mural on the left past the second archway, a brown mountain is painted in the background. A rock shape in it is reported to suggest part of a classic Hidden Mickey, a separate find from the cloud on the same mural.",
+    "whereToLook": {
+      "scene": "Mural on the left past the second archway",
+      "exactSpot": "The brown mountain in the painted background. Look at the rock shapes for a rounded three-circle outline."
+    },
+    "bestTip": "Find the cloud Mickey first, then drop your eyes to the mountain below it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0032",
+    "sourceUrl": "https://www.celebrationspress.com/issues/Celebrations-Issue-1-DV46852.pdf",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "kidani-village-sidewalk-concrete-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "kidani_village_entrance",
+    "display": {
+      "entryTitle": "Sidewalk Concrete Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Kidani Village"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "On the sidewalk that runs left of the lobby entrance toward the pool, a faint classic Hidden Mickey is traced into the concrete near the curb, just before the parking direction sign.",
+    "whereToLook": {
+      "scene": "Sidewalk left of the lobby entrance, heading toward the pool",
+      "exactSpot": "Near the curb, before the parking sign. Look for a faint tracing in the concrete."
+    },
+    "bestTip": "Low sun makes the tracing easier to see. Try early morning or late afternoon.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0015",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-lodge-kidani-village-hidden-mickey-carved-in-sidewalk-outside-front-of-lobby/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "kona-island-counter-tile-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "kona_island_coffee_bar",
+    "display": {
+      "entryTitle": "Counter Tile Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Kona Island Coffee Bar"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "The tiles on the coffee bar counter beside the register include a classic Hidden Mickey design.",
+    "whereToLook": {
+      "scene": "Counter beside the register",
+      "exactSpot": "The tilework on the counter front. Look for three circles in the pattern."
+    },
+    "bestTip": "Look while you order.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0032",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "legacy-photo-panels-boy-band-portraits",
+    "parkId": "showcase_park",
+    "landId": "celebration_area",
+    "attractionId": "legacy_photo_panels",
+    "display": {
+      "entryTitle": "Boy Band Portraits",
+      "parkName": "EPCOT",
+      "landName": "World Celebration",
+      "attractionName": "Leave a Legacy"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The granite photo panels outside the park entrance hold thousands of tiny etched portraits from the turn of the millennium. Among them are the members of a certain Orlando boy band who were at their peak when the panels went in.",
+    "whereToLook": {
+      "scene": "Photo panels on the approach to the park entrance",
+      "exactSpot": "Panels on the left before the entry gates. Look for five familiar faces in a row."
+    },
+    "bestTip": "Bring patience or a fan who knows the panel number.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0013",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-finding-nsync-epcot",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "liberty-tree-tavern-farmhouse-painting-clouds-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "colonial_square_area",
     "attractionId": "liberty_tree_tavern",
     "display": {
       "entryTitle": "Farmhouse Painting Clouds Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Colonial Square Area",
+      "parkName": "Magic Kingdom",
+      "landName": "Liberty Square",
       "attractionName": "Liberty Tree Tavern"
     },
     "entryType": "FIND",
@@ -4225,15 +7368,51 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
+    "id": "lion-celebration-show-warthog-platform-mickey",
+    "parkId": "adventure_park",
+    "landId": "savanna_village_area",
+    "attractionId": "lion_celebration_show",
+    "display": {
+      "entryTitle": "Warthog Platform Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Africa",
+      "attractionName": "Festival of the Lion King"
+    },
+    "entryType": "FIND",
+    "locationType": "Pre-show",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "During the show, a small classic Hidden Mickey is reported in the scenic decoration beside the warthog's platform.",
+    "whereToLook": {
+      "scene": "Warthog float and platform during the show",
+      "exactSpot": "The scenic decoration around the platform, not the warthog himself."
+    },
+    "bestTip": "Sit in the section that faces the warthog float so you can study it while other sections perform.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0016",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-poombah",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "little-chef-entrance-signs-mickeys",
     "parkId": "showcase_park",
     "landId": "france_pavilion",
     "attractionId": "little_chef_ride",
     "display": {
       "entryTitle": "Entrance Sign Frames Mickeys",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "France Pavilion",
-      "attractionName": "Little Chef Ride"
+      "attractionName": "Remy's Ratatouille Adventure"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -4263,15 +7442,267 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "little-chef-exit-wall-design-mickey",
+    "parkId": "showcase_park",
+    "landId": "france_pavilion",
+    "attractionId": "little_chef_ride",
+    "display": {
+      "entryTitle": "Exit Wall Design Mickey",
+      "parkName": "EPCOT",
+      "landName": "France Pavilion",
+      "attractionName": "Remy's Ratatouille Adventure"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "The wall at the very end of the ride, where you leave the vehicle, carries a decorative design with a reported classic Hidden Mickey in it.",
+    "whereToLook": {
+      "scene": "Wall at the unload area",
+      "exactSpot": "The decorative pattern on the wall as you step out."
+    },
+    "bestTip": "Look at the wall before you look for the exit.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0025",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-remy-s-ratatouille-adventure",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "little-chef-queue-chef-animation-mickey",
+    "parkId": "showcase_park",
+    "landId": "france_pavilion",
+    "attractionId": "little_chef_ride",
+    "display": {
+      "entryTitle": "Queue Chef Animation Mickey",
+      "parkName": "EPCOT",
+      "landName": "France Pavilion",
+      "attractionName": "Remy's Ratatouille Adventure"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "In the queue, the animated image of the late great chef moves through a short loop. For a moment, the imagery is reported to form a Mickey-like shape.",
+    "whereToLook": {
+      "scene": "Animated chef display in the queue",
+      "exactSpot": "Watch the whole loop. The shape appears briefly and then dissolves."
+    },
+    "bestTip": "Stand where you can see the display through a full cycle.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0024",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-remy-s-ratatouille-adventure-gusteau",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "little-chef-street-scene-pizza-truck",
+    "parkId": "showcase_park",
+    "landId": "france_pavilion",
+    "attractionId": "little_chef_ride",
+    "display": {
+      "entryTitle": "Street Scene Pizza Truck",
+      "parkName": "EPCOT",
+      "landName": "France Pavilion",
+      "attractionName": "Remy's Ratatouille Adventure"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the projected Paris street scenery, a small yellow pizza delivery truck drives past. It is the same truck that turns up in nearly every film from the animation studio that made this one.",
+    "whereToLook": {
+      "scene": "Projected street scenery during the ride",
+      "exactSpot": "Watch the traffic in the background of the street scene for a small yellow truck."
+    },
+    "bestTip": "It is on screen for a second or two. Watch the road, not the rats.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0026",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-remy-s-ratatouille-adventure-pizza-planet",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "lobby-gift-shop-banner-sign-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "lobby_gift_shop",
+    "display": {
+      "entryTitle": "Gift Shop Banner Sign Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "M. Mouse Mercantile"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "The sign attached to the gift shop's banner carries a raised classic Hidden Mickey as decoration.",
+    "whereToLook": {
+      "scene": "Sign on the shop's banner",
+      "exactSpot": "Look at the raised ornament on the sign."
+    },
+    "bestTip": "Look up at the banner from the lobby floor.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0077",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "lodge-entrance-pavement-lizard-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "lodge_entrance",
+    "display": {
+      "entryTitle": "Pavement Lizard Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Jambo House Entrance"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "A lizard is set into the pavement to the right of the main lodge entrance. A marking on its back outlines a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Pavement right of the main entrance",
+      "exactSpot": "Find the lizard in the paving and look at the pattern on its back."
+    },
+    "bestTip": "Look down as you walk in from the bus stop.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0017",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "lodge-guest-corridor-carpet-panel-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "guest_corridors",
+    "display": {
+      "entryTitle": "Guest Corridor Carpet Panel Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Guest Corridors"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "The carpet in the guest corridors repeats a pattern of rectangular panels. One panel design contains a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Carpet in the guest room corridors",
+      "exactSpot": "Look down and read one repeat of the pattern. The Mickey is inside a rectangular panel."
+    },
+    "bestTip": "Stand still and read one full repeat before moving on.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0021",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "lunch-box-counter-mom-note",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "lunch_box_counter",
+    "display": {
+      "entryTitle": "Lunch Box Mom Note",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Woody's Lunch Box"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Outdoor Display",
+    "description": "A note from the boy's mother is posted at the lunch counter, signed off with a deputy message that echoes the cowboy sheriff's famous catchphrase.",
+    "whereToLook": {
+      "scene": "Note posted at the counter",
+      "exactSpot": "The handwritten note. Read the closing line."
+    },
+    "bestTip": "Look while you wait for your order.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0021",
+    "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "magic-shop-ceiling-card-mickey",
     "parkId": "california_kingdom_park",
     "landId": "main_street_area",
     "attractionId": "magic_shop",
     "display": {
       "entryTitle": "Ceiling Ace Card Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Main Street Area",
-      "attractionName": "Magic Shop"
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Main Street Magic Shop"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -4307,9 +7738,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "main_street_candy_shop",
     "display": {
       "entryTitle": "Chocolate Wall Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Main Street Area",
-      "attractionName": "Main Street Candy Shop"
+      "parkName": "Magic Kingdom",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Main Street Confectionery"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -4342,8 +7773,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "main_street_vehicles",
     "display": {
       "entryTitle": "Ignition Key Chain Mickeys",
-      "parkName": "Kingdom Park",
-      "landName": "Main Street Area",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
       "attractionName": "Main Street Vehicles"
     },
     "entryType": "FIND",
@@ -4373,15 +7804,197 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "mara-cafe-rear-mural-monkey-face-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "mara_cafe",
+    "display": {
+      "entryTitle": "Rear Mural Monkey Face Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "The Mara"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "On the mural at the rear of the cafe, the monkey on the left has facial markings that form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Rear mural in the cafe",
+      "exactSpot": "The monkey on the left side of the mural. Look at its face."
+    },
+    "bestTip": "Take a table near the back to study it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0026",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "mara-cafe-window-leaves-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "mara_cafe",
+    "display": {
+      "entryTitle": "Window Leaves Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "The Mara"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Above the windows of the food area in the cafe, sculpted leaves include a cluster shaped like a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Leaves above the food-area windows",
+      "exactSpot": "Look up at the foliage over the windows for three round leaves together."
+    },
+    "bestTip": "Stand back near the seating so you can see the whole run of windows.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0025",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "maria-enzos-propeller-display-mickey",
+    "parkId": "springs_bucket",
+    "landId": "the_landing",
+    "attractionId": "maria_and_enzos_ristorante",
+    "display": {
+      "entryTitle": "Propeller Display Mickey",
+      "parkName": "Disney Springs",
+      "landName": "The Landing",
+      "attractionName": "Maria & Enzo's Ristorante"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The restaurant is themed as an old airline terminal. On the lower level, an airplane propeller display contains a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Airplane propeller display on the lower level",
+      "exactSpot": "The propeller display. Look at the hub and mounting hardware for three circles."
+    },
+    "bestTip": "Take the stairs down even if your table is upstairs.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Table-service restaurant; ask to look around if you are not dining."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0009",
+    "sourceUrl": "https://mickeyvisit.com/hidden-mickeys-at-disney-world/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "marina-lighthouse-boatyard-sign-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "caribbean_beach_resort",
+    "attractionId": "marina_lighthouse",
+    "display": {
+      "entryTitle": "Lighthouse Boatyard Sign Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Caribbean Beach Resort",
+      "attractionName": "Old Port Royale Marina Lighthouse"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "The boatyard sign on the marina lighthouse conceals a classic Hidden Mickey in its design.",
+    "whereToLook": {
+      "scene": "Sign on the marina lighthouse",
+      "exactSpot": "Read the boatyard sign closely for three circles."
+    },
+    "bestTip": "Approach from the marina side for the best angle.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0083",
+    "sourceUrl": "https://tinkandtoni.com/2021/06/13/hidden-mickeys-at-caribbean-beach-and-beach-club/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "marrakesh-restaurant-anteroom-painting-mickey",
+    "parkId": "showcase_park",
+    "landId": "morocco_pavilion",
+    "attractionId": "marrakesh_restaurant",
+    "display": {
+      "entryTitle": "Anteroom Painting Mickey",
+      "parkName": "EPCOT",
+      "landName": "Morocco Pavilion",
+      "attractionName": "Restaurant Marrakesh"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the room you pass through before the pavilion's sit-down restaurant, a painting is reported to hide a classic three-circle Hidden Mickey in its detail.",
+    "whereToLook": {
+      "scene": "Anteroom before the restaurant dining room",
+      "exactSpot": "The painting on the wall. Scan the pattern and background for three circles together."
+    },
+    "bestTip": "Ask at the podium whether you can step in to look if you are not dining.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "The restaurant has had long closures. Check that it is open and ask before entering the anteroom if you are not dining.",
+    "sourceId": "TLC-EP-0006",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-morocco-pavillion",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "memento-mori-wallpaper-beetle-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "colonial_square_area",
     "attractionId": "memento_mori_shop",
     "display": {
       "entryTitle": "Wallpaper Beetle Branch Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Colonial Square Area",
-      "attractionName": "Memento Mori Shop"
+      "parkName": "Magic Kingdom",
+      "landName": "Liberty Square",
+      "attractionName": "Memento Mori"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -4413,15 +8026,51 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "mermaid-stage-show-sign-mickey",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "mermaid_stage_show",
+    "display": {
+      "entryTitle": "Attraction Sign Mickey",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Animation Courtyard",
+      "attractionName": "Voyage of The Little Mermaid"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The sign for the undersea stage show has a small Mickey motif worked into its design.",
+    "whereToLook": {
+      "scene": "Attraction sign at the theater entrance",
+      "exactSpot": "In the decorative details of the sign. Look for three circles among the waves and shells."
+    },
+    "bestTip": "Stand back so you can read the whole sign at once.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0012",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-little-mermaid",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "mexico-pyramid-boat-finale-barge-drums-mickey",
     "parkId": "showcase_park",
     "landId": "mexico_pavilion",
     "attractionId": "pyramid_boat_ride",
     "display": {
       "entryTitle": "Finale Barge Drums Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "Mexico Pavilion",
-      "attractionName": "Pyramid Boat Ride"
+      "attractionName": "Gran Fiesta Tour Starring The Three Caballeros"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -4458,9 +8107,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "pyramid_boat_ride",
     "display": {
       "entryTitle": "Finale Building Window Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "Mexico Pavilion",
-      "attractionName": "Pyramid Boat Ride"
+      "attractionName": "Gran Fiesta Tour Starring The Three Caballeros"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -4488,15 +8137,51 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
+    "id": "mexico-pyramid-plaza-volcano-landscape-mickey",
+    "parkId": "showcase_park",
+    "landId": "mexico_pavilion",
+    "attractionId": "pyramid_interior_plaza",
+    "display": {
+      "entryTitle": "Volcano Landscape Mickey",
+      "parkName": "EPCOT",
+      "landName": "Mexico Pavilion",
+      "attractionName": "Plaza de los Amigos"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "Inside the pyramid, the twilight plaza looks out on a painted volcano. A classic three-circle shape is reported in the volcanic landscape around it.",
+    "whereToLook": {
+      "scene": "Painted volcano backdrop seen from the plaza inside the pyramid",
+      "exactSpot": "The scenery around the volcano, not the cone itself."
+    },
+    "bestTip": "The best view is from the restaurant side of the plaza, near the water.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0022",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-mexico-volcano",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "midway-shooter-circus-sign-exclamation-mickey",
     "parkId": "studios_park",
     "landId": "toy_blocks_area",
     "attractionId": "midway_shooter",
     "display": {
       "entryTitle": "Circus Sign Exclamation Mickey",
-      "parkName": "Studios Park",
-      "landName": "Toy Blocks Area",
-      "attractionName": "Midway Shooter"
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Toy Story Mania!"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -4526,15 +8211,159 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "midway-shooter-exit-purple-bull-patch-mickey",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "midway_shooter",
+    "display": {
+      "entryTitle": "Exit Purple Bull Patch Mickey",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Toy Story Mania!"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "On the exit route past the giant playing cards, a purple bull cutout stands against the wall. A patch on the bull's side forms a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Exit route beyond the large playing cards",
+      "exactSpot": "The purple bull cutout. Look at the patch on its side."
+    },
+    "bestTip": "Let the crowd go ahead and step to the side of the bull.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0006",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-rodeo-bull",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "midway-shooter-exit-tin-toy-book",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "midway_shooter",
+    "display": {
+      "entryTitle": "Exit Tin Toy Book",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Toy Story Mania!"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "Past the glasses return, a book on display is titled for the tin toy short that won the animation studio its first Academy Award and led directly to the toy movies.",
+    "whereToLook": {
+      "scene": "Exit route beyond the 3D glasses return",
+      "exactSpot": "A book among the props. Read the title."
+    },
+    "bestTip": "Look after you drop your glasses, before the exit doors.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0018",
+    "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "midway-shooter-loading-box-barcode-date",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "midway_shooter",
+    "display": {
+      "entryTitle": "Loading Box Barcode Date",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Toy Story Mania!"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "A toy box near the loading area carries the barcode 121506. Read it as a date and it is December 15, 2006, the day the attraction was announced.",
+    "whereToLook": {
+      "scene": "Toy boxes near the loading area",
+      "exactSpot": "The barcode on the box. Read the digits."
+    },
+    "bestTip": "Look at the boxes stacked around the loading platform, not the ones in the queue.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0017",
+    "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "midway-shooter-queue-viewer-reel-future-land",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "midway_shooter",
+    "display": {
+      "entryTitle": "Queue Viewer Reel",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Toy Story Mania!"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "A giant stereoscopic viewer reel in the queue shows pictures of the original California park's early future-themed land, as it looked decades ago.",
+    "whereToLook": {
+      "scene": "Oversized toys along the queue",
+      "exactSpot": "The picture reel. Look at the images printed on it."
+    },
+    "bestTip": "The queue is full of oversized toys. This one rewards reading the tiny pictures.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0016",
+    "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "mine-train-lift-hill-pickaxe-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "storybook_forest_area",
     "attractionId": "mine_train_coaster",
     "display": {
       "entryTitle": "Lift Hill Pickaxe Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Forest Area",
-      "attractionName": "Mine Train Coaster"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland: Enchanted Forest",
+      "attractionName": "Seven Dwarfs Mine Train"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -4571,9 +8400,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "mine_train_coaster",
     "display": {
       "entryTitle": "Lift Hill Rabbit Carving",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Forest Area",
-      "attractionName": "Mine Train Coaster"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland: Enchanted Forest",
+      "attractionName": "Seven Dwarfs Mine Train"
     },
     "entryType": "FACT",
     "locationType": "Ride",
@@ -4610,9 +8439,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "mine_train_coaster",
     "display": {
       "entryTitle": "Loading Dock Log Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Forest Area",
-      "attractionName": "Mine Train Coaster"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland: Enchanted Forest",
+      "attractionName": "Seven Dwarfs Mine Train"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -4651,9 +8480,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "mine_train_coaster",
     "display": {
       "entryTitle": "Gem Barrels Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Forest Area",
-      "attractionName": "Mine Train Coaster"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland: Enchanted Forest",
+      "attractionName": "Seven Dwarfs Mine Train"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -4690,7 +8519,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "bazaar_shops",
     "display": {
       "entryTitle": "Door Display Plates Mickey",
-      "parkName": "Showcase Park",
+      "parkName": "EPCOT",
       "landName": "Morocco Pavilion",
       "attractionName": "Bazaar Shops"
     },
@@ -4732,9 +8561,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "mouse_house",
     "display": {
       "entryTitle": "Player Piano Roll Mickeys",
-      "parkName": "Kingdom Park",
-      "landName": "Cartoon Town Area",
-      "attractionName": "Mouse House"
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey's House"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -4765,15 +8594,87 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "photopass-studio-left-column-mickey",
+    "parkId": "springs_bucket",
+    "landId": "marketplace",
+    "attractionId": "photopass_studio",
+    "display": {
+      "entryTitle": "Left Column Mickey",
+      "parkName": "Disney Springs",
+      "landName": "Marketplace",
+      "attractionName": "Disney PhotoPass Studio"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Inside the photo studio, the column to the left of the counter carries a classic Hidden Mickey in its detailing.",
+    "whereToLook": {
+      "scene": "Counter area inside the studio",
+      "exactSpot": "The column on the left of the counter. Look at its decoration."
+    },
+    "bestTip": "There are two, one on each column. Start left.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0006",
+    "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "photopass-studio-right-column-mickey",
+    "parkId": "springs_bucket",
+    "landId": "marketplace",
+    "attractionId": "photopass_studio",
+    "display": {
+      "entryTitle": "Right Column Mickey",
+      "parkName": "Disney Springs",
+      "landName": "Marketplace",
+      "attractionName": "Disney PhotoPass Studio"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The column to the right of the counter carries a second, separate classic Hidden Mickey in its detailing.",
+    "whereToLook": {
+      "scene": "Counter area inside the studio",
+      "exactSpot": "The column on the right of the counter. Look at its decoration."
+    },
+    "bestTip": "It is a different detail from the left column, not a mirror of it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0007",
+    "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "pirate-boat-queue-gun-cabinet-locks-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "pirate_port_area",
     "attractionId": "pirate_boat_ride",
     "display": {
       "entryTitle": "Queue Gun Cabinet Locks Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Pirate Port Area",
-      "attractionName": "Pirate Boat Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland: Caribbean Plaza",
+      "attractionName": "Pirates of the Caribbean"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -4808,9 +8709,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "pirate_boat_ride",
     "display": {
       "entryTitle": "Final Scene Lantern Wire Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Pirate Port Area",
-      "attractionName": "Pirate Boat Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland: Caribbean Plaza",
+      "attractionName": "Pirates of the Caribbean"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -4843,9 +8744,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "pirate_boat_ride",
     "display": {
       "entryTitle": "Jail Padlock Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Pirate Port Area",
-      "attractionName": "Pirate Boat Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland: Caribbean Plaza",
+      "attractionName": "Pirates of the Caribbean"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -4878,9 +8779,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "pirate_exit_shop",
     "display": {
       "entryTitle": "Coin Display Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Pirate Port Area",
-      "attractionName": "Pirate Exit Shop"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland: Caribbean Plaza",
+      "attractionName": "Plaza del Sol Caribe Bazaar"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -4914,9 +8815,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "pirate_exit_shop",
     "display": {
       "entryTitle": "Pirate Map Landmass Dog",
-      "parkName": "Kingdom Park",
-      "landName": "Pirate Port Area",
-      "attractionName": "Pirate Exit Shop"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland: Caribbean Plaza",
+      "attractionName": "Plaza del Sol Caribe Bazaar"
     },
     "entryType": "FACT",
     "locationType": "Indoor",
@@ -4949,9 +8850,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "pirate_exit_shop",
     "display": {
       "entryTitle": "Pirate Map Landmass Duck",
-      "parkName": "Kingdom Park",
-      "landName": "Pirate Port Area",
-      "attractionName": "Pirate Exit Shop"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland: Caribbean Plaza",
+      "attractionName": "Plaza del Sol Caribe Bazaar"
     },
     "entryType": "FACT",
     "locationType": "Indoor",
@@ -4984,9 +8885,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "pirate_exit_shop",
     "display": {
       "entryTitle": "Pirate Map Landmass Goof",
-      "parkName": "Kingdom Park",
-      "landName": "Pirate Port Area",
-      "attractionName": "Pirate Exit Shop"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland: Caribbean Plaza",
+      "attractionName": "Plaza del Sol Caribe Bazaar"
     },
     "entryType": "FACT",
     "locationType": "Indoor",
@@ -5019,9 +8920,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "pirate_exit_shop",
     "display": {
       "entryTitle": "Pirate Map Landmass Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Pirate Port Area",
-      "attractionName": "Pirate Exit Shop"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland: Caribbean Plaza",
+      "attractionName": "Plaza del Sol Caribe Bazaar"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -5048,14 +8949,51 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "pirate-ship-pool-helm-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "caribbean_beach_resort",
+    "attractionId": "pirate_ship_pool",
+    "display": {
+      "entryTitle": "Pirate Ship Helm Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Caribbean Beach Resort",
+      "attractionName": "Fuentes del Morro Pool"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "On the children's pirate ship at the main pool, a classic Hidden Mickey is worked into the helm beside the wheel.",
+    "whereToLook": {
+      "scene": "Children's pirate ship at the main pool",
+      "exactSpot": "The helm. Look beside the ship's wheel."
+    },
+    "bestTip": "Go when the kids' pool is quiet.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Pool and recreation areas are for registered resort guests.",
+    "sourceId": "TLC-RS-0082",
+    "sourceUrl": "https://www.disneycaribbeanbeach.com/content/caribbean-beach-resort-hidden-mickeys/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "pirates-exit-bells-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "pirate_port_area",
     "attractionId": "exit_artifact_room",
     "display": {
       "entryTitle": "Exit Bells Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Pirate Port Area",
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland: Caribbean Plaza",
       "attractionName": "Exit Artifact Room"
     },
     "entryType": "FIND",
@@ -5089,51 +9027,13 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
-    "id": "polynesian-ceremonial-house-lead",
-    "parkId": "resorts_bucket",
-    "landId": "polynesian_village_resort",
-    "attractionId": "great_ceremonial_house",
-    "display": {
-      "entryTitle": "Ceremonial House Lead",
-      "parkName": "Resorts",
-      "landName": "Polynesian Village Resort",
-      "attractionName": "Great Ceremonial House"
-    },
-    "entryType": "FIND",
-    "locationType": "Indoor",
-    "difficulty": "Hard",
-    "areaContext": "Lobby",
-    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. The main building is full of carved wood, woven textures, tapa cloth pattern and planting, all of which hide a three-circle shape well.",
-    "whereToLook": {
-      "scene": "The main building lobby, its carvings, textiles and planted interior",
-      "exactSpot": "Read the tapa cloth pattern, the carved wooden panels and the woven light fittings for three circles set together."
-    },
-    "bestTip": "The patterned textiles are the best bet here. A woven repeat puts the same shape in front of you dozens of times once you spot it once.",
-    "viewing": {
-      "motion": "Still",
-      "lighting": "Dim",
-      "angle": "Straight-on",
-      "crowding": "High",
-      "distance": "Medium",
-      "notes": "The building is a transport hub as well as a lobby, so it is busy. Early morning is the only genuinely quiet window."
-    },
-    "confidence": "Interpretive",
-    "verification": "Unknown",
-    "coordinates": {
-      "latitude": 28.4055,
-      "longitude": -81.5855
-    },
-    "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
-  },
-  {
     "id": "polynesian-coffee-bar-post-nails-mickey",
     "parkId": "resorts_bucket",
     "landId": "polynesian_village_resort",
     "attractionId": "kona_island_coffee_bar",
     "display": {
       "entryTitle": "Support Post Nails Mickey",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Polynesian Village Resort",
       "attractionName": "Kona Island Coffee Bar"
     },
@@ -5174,7 +9074,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "kona_cafe",
     "display": {
       "entryTitle": "Wall Flowers Petal Mickeys",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Polynesian Village Resort",
       "attractionName": "Kona Cafe"
     },
@@ -5214,7 +9114,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "kona_cafe",
     "display": {
       "entryTitle": "Orange Mural Mickey",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Polynesian Village Resort",
       "attractionName": "Kona Cafe"
     },
@@ -5249,51 +9149,13 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
-    "id": "pop-century-courtyard-lead",
-    "parkId": "resorts_bucket",
-    "landId": "pop_century_resort",
-    "attractionId": "decade_courtyards",
-    "display": {
-      "entryTitle": "Decade Courtyard Lead",
-      "parkName": "Resorts",
-      "landName": "Pop Century Resort",
-      "attractionName": "Decade Courtyards"
-    },
-    "entryType": "FIND",
-    "locationType": "Outdoor",
-    "difficulty": "Hard",
-    "areaContext": "Outdoor Display",
-    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. Each courtyard is built around oversized props from one decade, from giant telephones and yo-yos to enormous vinyl records, which is a lot of large round objects standing in the open.",
-    "whereToLook": {
-      "scene": "The decade courtyards between the buildings and the oversized props in each one",
-      "exactSpot": "Look for three round props or three circles within a single prop that line up as a head and two ears, and check the painted building facades too."
-    },
-    "bestTip": "Circles are everywhere here by accident, so hold out for a grouping that is clearly deliberate rather than three records that happen to overlap.",
-    "viewing": {
-      "motion": "Still",
-      "lighting": "Bright",
-      "angle": "Straight-on",
-      "crowding": "Low",
-      "distance": "Far",
-      "notes": "The props are huge and out in full sun, so step well back. Up close a giant record is just a wall."
-    },
-    "confidence": "Interpretive",
-    "verification": "Unknown",
-    "coordinates": {
-      "latitude": 28.3512,
-      "longitude": -81.5443
-    },
-    "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
-  },
-  {
     "id": "port-orleans-grounds-lead",
     "parkId": "resorts_bucket",
     "landId": "port_orleans_riverside_resort",
     "attractionId": "mill_and_mansion_grounds",
     "display": {
       "entryTitle": "Mill and Mansion Grounds Lead",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Port Orleans Riverside Resort",
       "attractionName": "Mill and Mansion Grounds"
     },
@@ -5331,7 +9193,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "island_pool_bar",
     "display": {
       "entryTitle": "Pool Bar Barrel Mickey",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Port Orleans Riverside Resort",
       "attractionName": "Island Pool Bar"
     },
@@ -5372,9 +9234,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "presidents_hall_show",
     "display": {
       "entryTitle": "Lobby Sword Tip Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Colonial Square Area",
-      "attractionName": "Presidents Hall Show"
+      "parkName": "Magic Kingdom",
+      "landName": "Liberty Square",
+      "attractionName": "The Hall of Presidents"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -5401,15 +9263,124 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "railroad-display-room-backyard-railway-equipment",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "railroad_display_room",
+    "display": {
+      "entryTitle": "Backyard Railway Equipment",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Carolwood Pacific Room"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "The display at the rear of the railroad room holds original miniature railroad equipment from the backyard railway Walt ran at his home, the hobby that fed directly into the parks' trains.",
+    "whereToLook": {
+      "scene": "Railroad room in the villas building",
+      "exactSpot": "The display case at the rear of the room."
+    },
+    "bestTip": "The room is open to anyone; you do not need to be a villa guest.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0060",
+    "sourceUrl": "https://disneyparksblog.com/wdw/5-hidden-details-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "reef-playground-rock-hollows-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "art_of_animation_resort",
+    "attractionId": "reef_playground",
+    "display": {
+      "entryTitle": "Playground Rock Hollows Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Art of Animation Resort",
+      "attractionName": "Squirt's Righteous Reef"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "On the rock surface of the reef playground, three circular hollows form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Rock surfaces of the playground",
+      "exactSpot": "Look at the sculpted rock for three round hollows together."
+    },
+    "bestTip": "Go early before the playground fills up.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Pool and recreation areas are for registered resort guests.",
+    "sourceId": "TLC-RS-0038",
+    "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "restaurant-stairway-waterfall-rockwork-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "restaurant_stairway",
+    "display": {
+      "entryTitle": "Stairway Waterfall Rockwork Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Boma Stairway"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "On the stairway down to the buffet restaurant, the waterfall on the right at the first landing has rockwork that outlines a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Stairway down to the buffet restaurant",
+      "exactSpot": "First landing. Look at the rocks of the waterfall on the right."
+    },
+    "bestTip": "Stop on the landing rather than looking back from the bottom.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0020",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "river-rapids-dock-wheels-mickey",
     "parkId": "adventure_park",
     "landId": "asia_village_area",
     "attractionId": "river_rapids_raft_ride",
     "display": {
       "entryTitle": "Loading Dock Wheels Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Asia Village Area",
-      "attractionName": "River Rapids Raft Ride"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Kali River Rapids"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -5440,13 +9411,267 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "river-rapids-queue-hanging-boots-mickey",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "river_rapids_raft_ride",
+    "display": {
+      "entryTitle": "Queue Hanging Boots Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Kali River Rapids"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the queue room hung with hiking equipment, a set of boots dangles from the ceiling. Seen from below, the boots are reported to form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Equipment room in the queue with gear hanging overhead",
+      "exactSpot": "Look up at the hanging boots. The shape shows from underneath."
+    },
+    "bestTip": "Stand directly under the boots and look straight up.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0010",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-kali-river-rapids-boots",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "river-rapids-queue-wall-plates-mickey",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "river_rapids_raft_ride",
+    "display": {
+      "entryTitle": "Queue Wall Plates Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Kali River Rapids"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "Low on the left wall of the queue, three plates hang together. They form a tilted classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Left wall of the queue, low",
+      "exactSpot": "Three plates on the lower left wall. One large, two small, tilted.",
+      "orientation": "Sideways"
+    },
+    "bestTip": "Look down and left rather than at the props at eye level.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0029",
+    "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "riviera-grand-villa-arch-artwork-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "grand_villas",
+    "display": {
+      "entryTitle": "Grand Villa Arch Artwork Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Grand Villas"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the three-bedroom grand villas, an arch-shaped piece of artwork carries a classic Hidden Mickey in its design.",
+    "whereToLook": {
+      "scene": "Arch-shaped artwork in the grand villa",
+      "exactSpot": "The design within the arch. Look for three circles."
+    },
+    "bestTip": "It is only in the largest villa type.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
+    "sourceId": "TLC-RS-0092",
+    "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2026/02/01/disney-riviera-resort-hidden-mickeys",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "riviera-guest-corridor-carpet-minnie-bow",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "guest_corridors",
+    "display": {
+      "entryTitle": "Guest Corridor Carpet Minnie Bow",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Guest Corridors"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "The guest corridor carpet hides Minnie in its scrollwork. The bow is what gives her away.",
+    "whereToLook": {
+      "scene": "Carpet in the guest room corridors",
+      "exactSpot": "Look for the three-circle shape with a bow on top."
+    },
+    "bestTip": "Find the Mickey in the same carpet first; Minnie is nearby.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0044",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "riviera-lobby-balcony-railing-scrolls-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "resort_lobby",
+    "display": {
+      "entryTitle": "Balcony Railing Scrolls Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Resort Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "On the lobby balcony that faces the courtyard, the metal scrollwork of the railing forms a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Courtyard-facing lobby balcony",
+      "exactSpot": "The metal scrolls of the railing. Look for three curls that close into circles."
+    },
+    "bestTip": "View it from the courtyard side, where the pattern is against the sky.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0042",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "riviera-lobby-porte-cochere-lamps-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "resort_lobby",
+    "display": {
+      "entryTitle": "Porte Cochere Lamps Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Resort Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Under the covered entrance at the front of the resort, three ceiling lamps align into a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Ceiling of the covered entrance drive",
+      "exactSpot": "Look up at the lamps. Three of them sit as head and ears."
+    },
+    "bestTip": "Look up while you wait for the bus or a car.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0041",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "riviera-lounge-carpet-scrollwork-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "guest_corridors",
+    "display": {
+      "entryTitle": "Lounge Carpet Scrollwork Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Guest Corridors"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "In the carpet just past the lobby lounge, the scrollwork outlines a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Carpet past the lobby lounge",
+      "exactSpot": "Look down at the scrollwork pattern for three circles together."
+    },
+    "bestTip": "It repeats, so one look at a full pattern tile is enough.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0043",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "riviera-mural-teddy-bear-mickey",
     "parkId": "resorts_bucket",
     "landId": "riviera_resort",
     "attractionId": "skyliner_arch_murals",
     "display": {
       "entryTitle": "Mural Teddy Bear Mickey",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Riviera Resort",
       "attractionName": "Skyliner Walkway Murals"
     },
@@ -5481,15 +9706,631 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "riviera-west-elevator-carpet-duck",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "guest_corridors",
+    "display": {
+      "entryTitle": "West Elevator Carpet Duck",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Guest Corridors"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "The carpet by the west elevators has a circular pattern, and the sailor-suited duck is hidden inside it.",
+    "whereToLook": {
+      "scene": "Carpet at the west elevators",
+      "exactSpot": "The circular motif. Look for a bill and cap in the pattern."
+    },
+    "bestTip": "Two characters hide in this carpet. The duck's bill is the giveaway.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0045",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "riviera-west-elevator-carpet-goof",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "guest_corridors",
+    "display": {
+      "entryTitle": "West Elevator Carpet Goof",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Guest Corridors"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "In the same circular carpet pattern by the west elevators, the tall goof's hat and floppy ears appear.",
+    "whereToLook": {
+      "scene": "Carpet at the west elevators",
+      "exactSpot": "The circular motif. Look for a tall hat and long ears."
+    },
+    "bestTip": "Once you have the duck, the goof is in the same repeat.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0046",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "roaring-fork-fishing-display-nut-caps-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "roaring_fork_cafe",
+    "display": {
+      "entryTitle": "Fishing Display Nut Caps Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Roaring Fork"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Entrance",
+    "description": "At the entrance to the quick-service cafe, a fishing display includes three small nut caps set together as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Fishing display at the cafe entrance",
+      "exactSpot": "Look closely at the small hardware on the display for three nut caps."
+    },
+    "bestTip": "It is small. Get close.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0091",
+    "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2026/02/26/roaring-fork-hidden-mickey",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rock-show-coaster-alley-balcony-chairs",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "display": {
+      "entryTitle": "Alley Balcony Chairs",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Queue",
+    "description": "In the alley section of the queue, two chairs sit on a balcony overlooking the street. They are for the two grumpy old critics who heckled the park's former 3D show from a box just like it.",
+    "whereToLook": {
+      "scene": "Alley section of the queue",
+      "exactSpot": "Balcony above the alley. Two empty chairs."
+    },
+    "bestTip": "Look up. The alley is dressed at every height.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0025",
+    "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rock-show-coaster-alley-mona-lisa",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "display": {
+      "entryTitle": "Alley Mona Lisa",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "A Mona Lisa hangs in the alley, a leftover from the Italian restaurant that once stood nearby and hung the same painting on its walls.",
+    "whereToLook": {
+      "scene": "Alley section of the queue",
+      "exactSpot": "A framed Mona Lisa on the alley wall."
+    },
+    "bestTip": "She is smaller than you expect. Check the walls between the doors.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0027",
+    "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rock-show-coaster-alley-pizza-boxes",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "display": {
+      "entryTitle": "Alley Pizza Boxes",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Queue",
+    "description": "Stacked pizza boxes in the alley carry the name of the rat's pizzeria that used to serve the park. The restaurant is gone, but the boxes made it into the queue.",
+    "whereToLook": {
+      "scene": "Alley section of the queue",
+      "exactSpot": "The stack of pizza boxes. Read the logo."
+    },
+    "bestTip": "They are near ground level, easy to walk past while looking up at the balcony.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0026",
+    "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rock-show-coaster-exit-creator-portrait",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "display": {
+      "entryTitle": "Exit Creator Portrait",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Exit",
+    "description": "On the way out, a portrait of the troupe's creator hangs on the wall. It used to hang in the pre-show of the park's former 3D show and was moved here when that show closed.",
+    "whereToLook": {
+      "scene": "Exit corridor",
+      "exactSpot": "The framed portrait of a bearded man on the wall."
+    },
+    "bestTip": "Slow down on the exit ramp. It is on the wall, not in the gift shop.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0029",
+    "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rock-show-coaster-gallery-frog-banjo",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "display": {
+      "entryTitle": "Instrument Gallery Frog Banjo",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Queue",
+    "description": "The instrument gallery in the queue includes a banjo built to match the one the famous green frog plays. It is the first thing many fans look for.",
+    "whereToLook": {
+      "scene": "Instrument gallery along the queue",
+      "exactSpot": "The banjo in the display cases."
+    },
+    "bestTip": "The gallery is worth a slow walk. Every instrument belongs to somebody.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0022",
+    "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rock-show-coaster-gallery-lead-guitar",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "display": {
+      "entryTitle": "Instrument Gallery Lead Guitar",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The band's lead guitarist has his guitar in the gallery, built to match the instrument he plays in the show and a nod to the performer who originated the character.",
+    "whereToLook": {
+      "scene": "Instrument gallery along the queue",
+      "exactSpot": "The guitar labeled for the band's lead guitarist."
+    },
+    "bestTip": "Read the placards. The labels tell you whose instrument is whose.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0023",
+    "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rock-show-coaster-gallery-rhythm-guitar",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "display": {
+      "entryTitle": "Instrument Gallery Rhythm Guitar",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The band's laid-back guitarist has her guitar in the gallery too, matching the one she plays and tipping its hat to the performer behind her.",
+    "whereToLook": {
+      "scene": "Instrument gallery along the queue",
+      "exactSpot": "The guitar labeled for the band's rhythm guitarist."
+    },
+    "bestTip": "Look for the placard next to the lead guitar. They sit close together.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0024",
+    "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rock-show-coaster-squeakeasy-sign-year",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "display": {
+      "entryTitle": "Squeakeasy Sign Year",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
+      "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The sign for the squeakeasy is dated 1936. That is the birth year of the man who created the whole troupe of felt performers.",
+    "whereToLook": {
+      "scene": "Squeakeasy sign along the queue",
+      "exactSpot": "The year on the sign."
+    },
+    "bestTip": "Read the small print on every sign in this queue. Most of it means something.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0028",
+    "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rodeo-barbecue-corn-kernels-mickey",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "rodeo_barbecue_restaurant",
+    "display": {
+      "entryTitle": "Corn Kernels Mickey",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Roundup Rodeo BBQ"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the dining room, the corn illustration behind the popcorn character has a cluster of kernels at the top of the cob that forms a classic three-circle Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Corn illustration behind the popcorn character in the dining room",
+      "exactSpot": "Top of the corn cob. Three kernels set as head and ears."
+    },
+    "bestTip": "Find the popcorn character first, then look at what is painted behind him.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Table service; a reservation gets you inside."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0007",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-roundup-rodeo-bbq-corn",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rodeo-barbecue-cow-spot-mickey",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "rodeo_barbecue_restaurant",
+    "display": {
+      "entryTitle": "Cow Spot Mickey",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Roundup Rodeo BBQ"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "A painted cow in the dining room has a spot on its side that resembles a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Cow illustration in the dining room",
+      "exactSpot": "The cow's side. Look at the spots for one shaped like three circles."
+    },
+    "bestTip": "Ask for a table with a view of the cow if you are going on purpose.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Table service; a reservation gets you inside."
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0008",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-roundup-rodeo-bbq-cow",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rodeo-barbecue-mobile-circles-mickey",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "rodeo_barbecue_restaurant",
+    "display": {
+      "entryTitle": "Mobile Circles Mickey",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Roundup Rodeo BBQ"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "A mobile hangs above the shepherdess figure in the dining room. From the right spot on the floor, its circular pieces line up into a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Hanging mobile above the shepherdess figure",
+      "exactSpot": "Look up at the mobile and move until three of the circles overlap into the shape."
+    },
+    "bestTip": "It turns with the air conditioning, so give it a minute.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far",
+      "notes": "Table service; a reservation gets you inside."
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0009",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-roundup-rodeo-bbq",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rooftop-restaurant-entry-sign-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "rooftop_restaurant",
+    "display": {
+      "entryTitle": "Entry Sign Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Topolino's Terrace"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "The sign over the entrance to the rooftop restaurant is topped with a classic three-circle Hidden Mickey, fitting for a place named after the mouse in Italian.",
+    "whereToLook": {
+      "scene": "Sign over the restaurant entrance",
+      "exactSpot": "Look up at the top of the sign."
+    },
+    "bestTip": "You can see it from the elevator lobby without a reservation.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0047",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rose-and-crown-pub-sign-mickey",
+    "parkId": "showcase_park",
+    "landId": "united_kingdom_pavilion",
+    "attractionId": "rose_and_crown_pub",
+    "display": {
+      "entryTitle": "Pub Sign Mickey",
+      "parkName": "EPCOT",
+      "landName": "United Kingdom Pavilion",
+      "attractionName": "Rose and Crown Pub"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The painted pub sign hanging outside has a classic Hidden Mickey worked into its decoration.",
+    "whereToLook": {
+      "scene": "Hanging pub sign at the entrance",
+      "exactSpot": "In the painted decoration around the rose and the crown."
+    },
+    "bestTip": "Both sides of the sign are painted. Check the one facing the water too.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0027",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-rose-crown-pub",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rotating-garden-restaurant-mural-fern-face-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "rotating_garden_restaurant",
+    "display": {
+      "entryTitle": "Mural Fern Face Mickey",
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "Garden Grill Restaurant"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The large landscape mural in the rotating restaurant has a prominent fern on its left side. Behind the fern's right-hand leaves, roughly the fifth through eighth, a green Mickey face peers out.",
+    "whereToLook": {
+      "scene": "Large landscape mural in the dining room",
+      "exactSpot": "Left side of the mural. Find the big fern and count its right-hand leaves; the face is behind leaves five to eight."
+    },
+    "bestTip": "The restaurant rotates, so wait for the mural to come around to your table.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Table service; a reservation gets you inside."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0016",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-garden-grill",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "rotating-theater-christmas-nutcracker-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "future_city_area",
     "attractionId": "rotating_theater_show",
     "display": {
       "entryTitle": "Christmas Scene Nutcracker Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Future City Area",
-      "attractionName": "Rotating Theater Show"
+      "parkName": "Magic Kingdom",
+      "landName": "Tomorrowland",
+      "attractionName": "Walt Disney's Carousel of Progress"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -5528,9 +10369,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "rotating_theater_show",
     "display": {
       "entryTitle": "Christmas Scene Pepper Grinder Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Future City Area",
-      "attractionName": "Rotating Theater Show"
+      "parkName": "Magic Kingdom",
+      "landName": "Tomorrowland",
+      "attractionName": "Walt Disney's Carousel of Progress"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -5569,9 +10410,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "rotating_theater_show",
     "display": {
       "entryTitle": "Christmas Tree Mickey Plush",
-      "parkName": "Kingdom Park",
-      "landName": "Future City Area",
-      "attractionName": "Rotating Theater Show"
+      "parkName": "Magic Kingdom",
+      "landName": "Tomorrowland",
+      "attractionName": "Walt Disney's Carousel of Progress"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -5598,15 +10439,123 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "saratoga-lobby-horse-roses-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "saratoga_springs_resort",
+    "attractionId": "lobby_approach",
+    "display": {
+      "entryTitle": "Lobby Horse Roses Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Saratoga Springs Resort",
+      "attractionName": "Lobby Approach"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The horse near the lobby is decorated with roses. Among them, a grouping of three forms a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Horse figure near the lobby entrance",
+      "exactSpot": "The roses on the horse. Look for three arranged as head and ears."
+    },
+    "bestTip": "Walk all the way around the horse.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0090",
+    "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2026/03/01/saratoga-springs-resort-hidden-mickey",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "savanna-overlook-rock-impression-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "savanna_overlook",
+    "display": {
+      "entryTitle": "Overlook Rock Impression Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Savanna Overlook"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "At the big rock overlook, above the stacked crates beside a bin, an impression in the rock outlines a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Rock overlook onto the savanna",
+      "exactSpot": "Above the crates next to the bin. Look at the surface of the rock."
+    },
+    "bestTip": "Find the crates first; the rock above them is the one.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0024",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "savanna-overlook-vine-column-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "savanna_overlook",
+    "display": {
+      "entryTitle": "Vine Column Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Savanna Overlook"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "On the approach to the savanna overlook, a column wrapped in vines has three of them curling into a classic Hidden Mickey high up.",
+    "whereToLook": {
+      "scene": "Vine-wrapped column on the way to the savanna overlook",
+      "exactSpot": "High on the column. Follow the vines up until three circles appear."
+    },
+    "bestTip": "Look up before you reach the overlook railing.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Low",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0023",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "savanna-safari-flamingo-island-mickey",
     "parkId": "adventure_park",
     "landId": "savanna_village_area",
     "attractionId": "savanna_safari_trucks",
     "display": {
       "entryTitle": "Flamingo Pond Island Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Savanna Village Area",
-      "attractionName": "Savanna Safari Trucks"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Africa",
+      "attractionName": "Kilimanjaro Safaris"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -5643,9 +10592,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "savanna_safari_trucks",
     "display": {
       "entryTitle": "Queue Drain Cover Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Savanna Village Area",
-      "attractionName": "Savanna Safari Trucks"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Africa",
+      "attractionName": "Kilimanjaro Safaris"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -5676,15 +10625,51 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "savanna-safari-queue-driver-board-mickey",
+    "parkId": "adventure_park",
+    "landId": "savanna_village_area",
+    "attractionId": "savanna_safari_trucks",
+    "display": {
+      "entryTitle": "Queue Driver Board Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Africa",
+      "attractionName": "Kilimanjaro Safaris"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The driver assignment board in the queue lists the safari drivers with a status marker beside each name. Ahmed's marker is a classic Hidden Mickey instead of a plain dot.",
+    "whereToLook": {
+      "scene": "Driver assignment board in the queue",
+      "exactSpot": "Find Ahmed's name on the board and look at the marker beside it."
+    },
+    "bestTip": "Read the board from top to bottom; the names are hand-lettered.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0012",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-kusafiri-coffee-shop-bakery",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "singing-birds-show-exit-perch-carving-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "jungle_outpost_area",
     "attractionId": "singing_birds_show",
     "display": {
       "entryTitle": "Exit Perch Carving Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Jungle Outpost Area",
-      "attractionName": "Singing Birds Show"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland",
+      "attractionName": "Walt Disney's Enchanted Tiki Room"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -5718,9 +10703,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "singing_birds_show",
     "display": {
       "entryTitle": "Left Perch Carving Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Jungle Outpost Area",
-      "attractionName": "Singing Birds Show"
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland",
+      "attractionName": "Walt Disney's Enchanted Tiki Room"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -5755,9 +10740,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "singing_dolls_boat_ride",
     "display": {
       "entryTitle": "Africa Scene Purple Leaves Mickeys",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
-      "attractionName": "Singing Dolls Boat Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
+      "attractionName": "it's a small world"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -5793,9 +10778,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "singing_dolls_boat_ride",
     "display": {
       "entryTitle": "Finale Carousel Doll Plush Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
-      "attractionName": "Singing Dolls Boat Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
+      "attractionName": "it's a small world"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -5823,15 +10808,196 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
+    "id": "sixties-courtyard-wall-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "pop_century_resort",
+    "attractionId": "sixties_courtyard",
+    "display": {
+      "entryTitle": "Sixties Courtyard Wall Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Pop Century Resort",
+      "attractionName": "1960s Courtyard"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "In the sixties section, behind the giant jungle-boy figure and below the yellow second-floor walkway, a classic Hidden Mickey is worked into the exterior wall.",
+    "whereToLook": {
+      "scene": "Wall behind the jungle-boy figure in the sixties courtyard",
+      "exactSpot": "Below the yellow walkway on the second floor. Look at the wall behind the figure."
+    },
+    "bestTip": "Stand where the figure is between you and the wall, then look past him.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Pool and recreation areas are for registered resort guests.",
+    "sourceId": "TLC-RS-0016",
+    "sourceUrl": "https://hiddenmickeyguy.com/disneys-pop-century-resort-hidden-mickey/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "skyliner-station-crest-caribbean-side-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "skyliner_station",
+    "display": {
+      "entryTitle": "Station Crest Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Disney Skyliner Station"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The gondola station's roof ornament on the side facing the neighboring beach resort forms a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Roof crest of the gondola station",
+      "exactSpot": "The side facing the beach resort. Look at the ornament at the peak of the roof."
+    },
+    "bestTip": "Look back at the station from the walkway toward the beach resort.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0048",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "skyliner-station-crest-showcase-side-minnie",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "skyliner_station",
+    "display": {
+      "entryTitle": "Station Crest Minnie",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Disney Skyliner Station"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "On the opposite side of the gondola station, facing the showcase park, the roof crest carries the same ornament with a bow, making it Minnie.",
+    "whereToLook": {
+      "scene": "Roof crest of the gondola station",
+      "exactSpot": "The side facing the showcase park. Look for the bow on the ornament."
+    },
+    "bestTip": "Find the Mickey side first, then walk around.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0049",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "smugglers-freighter-cockpit-miniature-ship",
+    "parkId": "studios_park",
+    "landId": "smugglers_outpost_area",
+    "attractionId": "smugglers_freighter_ride",
+    "display": {
+      "entryTitle": "Cockpit Miniature Ship",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Star Wars: Galaxy's Edge",
+      "attractionName": "Millennium Falcon: Smugglers Run"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "The full-size freighter parked outside the ride has a tiny copy of itself built into the underside of its cockpit. A ship inside a ship, for anyone who thinks to look up.",
+    "whereToLook": {
+      "scene": "Full-size freighter outside the attraction",
+      "exactSpot": "Under the cockpit, on the side of the ship where the cockpit juts out. Look up at the greebles."
+    },
+    "bestTip": "Stand under the cockpit rather than in front of the ship, where everyone takes their photo.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0002",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-hidden-millenium-falcoln",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "smugglers-freighter-entrance-floor-mickey",
+    "parkId": "studios_park",
+    "landId": "smugglers_outpost_area",
+    "attractionId": "smugglers_freighter_ride",
+    "display": {
+      "entryTitle": "Entrance Floor Mickey",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Star Wars: Galaxy's Edge",
+      "attractionName": "Millennium Falcon: Smugglers Run"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Entrance",
+    "description": "In the floor at the entrance to the freighter queue, a small grouping of marks is reported to form a classic Hidden Mickey. The outpost was designed to hide almost no Mickeys, which makes this one worth a look.",
+    "whereToLook": {
+      "scene": "Floor at the queue entrance",
+      "exactSpot": "Look straight down as you pass through the entrance. The shape is small."
+    },
+    "bestTip": "Go when the line is short so you can stop and study the floor without holding people up.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0004",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-millennium-falcon-smugglers-run",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "snowy-mountain-approach-climbing-gear-mickey",
     "parkId": "adventure_park",
     "landId": "asia_village_area",
     "attractionId": "snowy_mountain_coaster",
     "display": {
       "entryTitle": "Approach Eaves Climbing Gear Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Asia Village Area",
-      "attractionName": "Snowy Mountain Coaster"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Expedition Everest"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -5871,9 +11037,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "snowy_mountain_coaster",
     "display": {
       "entryTitle": "Outdoor Queue Woodwork Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Asia Village Area",
-      "attractionName": "Snowy Mountain Coaster"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Expedition Everest"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -5904,15 +11070,56 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
+    "id": "snowy-mountain-yeti-museum-lantern-dents-mickey",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "snowy_mountain_coaster",
+    "display": {
+      "entryTitle": "Yeti Museum Lantern Dents Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Asia",
+      "attractionName": "Expedition Everest"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the yeti museum section of the queue, the second display holds a battered lantern. Three dents in its metal form a sideways classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Yeti museum in the standby queue, second display",
+      "exactSpot": "The lantern in the display case. Look at the dents in its side.",
+      "orientation": "Sideways"
+    },
+    "bestTip": "The museum is where the line slows. Take the displays in order and stop at the second.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 28.3582,
+      "longitude": -81.5863
+    },
+    "sourceId": "TLC-AK-0028",
+    "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "space-coaster-exit-diorama-robot-dog-tag",
     "parkId": "magic_kingdom_park",
     "landId": "future_city_area",
     "attractionId": "space_coaster",
     "display": {
       "entryTitle": "Exit Diorama Robot Dog Tag",
-      "parkName": "Kingdom Park",
-      "landName": "Future City Area",
-      "attractionName": "Space Coaster"
+      "parkName": "Magic Kingdom",
+      "landName": "Tomorrowland",
+      "attractionName": "Space Mountain"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -5945,9 +11152,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "space_coaster",
     "display": {
       "entryTitle": "Queue Star Constellation Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Future City Area",
-      "attractionName": "Space Coaster"
+      "parkName": "Magic Kingdom",
+      "landName": "Tomorrowland",
+      "attractionName": "Space Mountain"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -5981,9 +11188,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "space_mission_simulator",
     "display": {
       "entryTitle": "Mars Landing Satellite Dishes Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Discovery Area",
-      "attractionName": "Space Mission Simulator"
+      "parkName": "EPCOT",
+      "landName": "World Discovery",
+      "attractionName": "Mission: SPACE"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -6018,9 +11225,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "space_mission_simulator",
     "display": {
       "entryTitle": "Shop Mural Ground Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Discovery Area",
-      "attractionName": "Space Mission Simulator"
+      "parkName": "EPCOT",
+      "landName": "World Discovery",
+      "attractionName": "Mission: SPACE"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -6060,9 +11267,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "space_mission_simulator",
     "display": {
       "entryTitle": "Shop Mural Moon Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Discovery Area",
-      "attractionName": "Space Mission Simulator"
+      "parkName": "EPCOT",
+      "landName": "World Discovery",
+      "attractionName": "Mission: SPACE"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -6102,9 +11309,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "space_mission_simulator",
     "display": {
       "entryTitle": "Shop Mural Thrusters Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Discovery Area",
-      "attractionName": "Space Mission Simulator"
+      "parkName": "EPCOT",
+      "landName": "World Discovery",
+      "attractionName": "Mission: SPACE"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -6144,9 +11351,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "alien_spinner",
     "display": {
       "entryTitle": "Space Panel Star Mickey",
-      "parkName": "Studios Park",
-      "landName": "Toy Blocks Area",
-      "attractionName": "Alien Spinner"
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Alien Swirling Saucers"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -6177,15 +11384,87 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
   },
   {
+    "id": "splitsville-upstairs-mural-bowling-shapes-mickey",
+    "parkId": "springs_bucket",
+    "landId": "west_side",
+    "attractionId": "splitsville_luxury_lanes",
+    "display": {
+      "entryTitle": "Upstairs Mural Bowling Shapes Mickey",
+      "parkName": "Disney Springs",
+      "landName": "West Side",
+      "attractionName": "Splitsville Luxury Lanes"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The upstairs mural with the orange background is full of bowling imagery. Three black bowling shapes are set together as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Upstairs mural with the orange background",
+      "exactSpot": "Three black bowling shapes on the orange. One large, two small."
+    },
+    "bestTip": "Head upstairs even if you are bowling downstairs; the mural is on the upper level.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0003",
+    "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "star-flight-outdoor-tree-trunk-white-mickey",
+    "parkId": "studios_park",
+    "landId": "echo_lake_area",
+    "attractionId": "star_flight_simulator",
+    "display": {
+      "entryTitle": "Outdoor Tree Trunk White Mickey",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Echo Lake",
+      "attractionName": "Star Tours: The Adventures Continue"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the outdoor queue, opposite the giant walker and beneath the furry forest creatures' platform, a white classic Hidden Mickey marks the trunk of a tree.",
+    "whereToLook": {
+      "scene": "Outdoor queue beneath the tree platform, across from the walker",
+      "exactSpot": "On the trunk of the tree, below the platform."
+    },
+    "bestTip": "Stand where you can see the walker and turn around. The tree is behind you.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0015",
+    "sourceUrl": "https://www.celebrationspress.com/issues/Celebrations-Issue-1-DV46852.pdf",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "star-flight-queue-window-droid-mickey",
     "parkId": "studios_park",
     "landId": "echo_lake_area",
     "attractionId": "star_flight_simulator",
     "display": {
       "entryTitle": "Queue Window Droid Mickey",
-      "parkName": "Studios Park",
-      "landName": "Echo Lake Area",
-      "attractionName": "Star Flight Simulator"
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Echo Lake",
+      "attractionName": "Star Tours: The Adventures Continue"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -6217,15 +11496,51 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "steakhouse-entrance-cow-photo-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "yacht_and_beach_club_resort",
+    "attractionId": "steakhouse_entrance",
+    "display": {
+      "entryTitle": "Cow Photo Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Yacht and Beach Club Resort",
+      "attractionName": "Yachtsman Steakhouse"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "Left of the steakhouse entrance hangs a photo of a real cow whose black-and-white markings included a perfect Mickey on her side. She lived on the resort property and was a minor celebrity.",
+    "whereToLook": {
+      "scene": "Photo to the left of the restaurant entrance",
+      "exactSpot": "The cow in the photo. Look at the marking on her side."
+    },
+    "bestTip": "No reservation needed; the photo is outside the restaurant.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0066",
+    "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "steam-train-station-ticket-office-padlock-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "main_street_area",
     "attractionId": "steam_train_station",
     "display": {
       "entryTitle": "Ticket Office Padlock Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Main Street Area",
-      "attractionName": "Steam Train Station"
+      "parkName": "Magic Kingdom",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Walt Disney World Railroad"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -6258,9 +11573,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "storybook_castle",
     "display": {
       "entryTitle": "Fountain Crown Alignment",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
-      "attractionName": "Storybook Castle"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
+      "attractionName": "Cinderella Castle"
     },
     "entryType": "FACT",
     "locationType": "Outdoor",
@@ -6293,9 +11608,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "storybook_castle",
     "display": {
       "entryTitle": "Mosaic Green Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
-      "attractionName": "Storybook Castle"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
+      "attractionName": "Cinderella Castle"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -6328,9 +11643,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "storybook_forest_walkway",
     "display": {
       "entryTitle": "Horseshoe Prints Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Forest Area",
-      "attractionName": "Storybook Forest Walkway"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland: Enchanted Forest",
+      "attractionName": "Enchanted Forest Walkway"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -6363,8 +11678,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "central_plaza",
     "display": {
       "entryTitle": "Park Layout Mickey Face",
-      "parkName": "Studios Park",
-      "landName": "Boulevard Area",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Hollywood Boulevard",
       "attractionName": "Central Plaza"
     },
     "entryType": "FACT",
@@ -6403,9 +11718,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "stunt_plane_coaster",
     "display": {
       "entryTitle": "Billboard Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Circus Grounds Area",
-      "attractionName": "Stunt Plane Coaster"
+      "parkName": "Magic Kingdom",
+      "landName": "Storybook Circus",
+      "attractionName": "The Barnstormer"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -6439,8 +11754,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "sunset_walkway",
     "display": {
       "entryTitle": "Sidewalk Contractor Stamp",
-      "parkName": "Studios Park",
-      "landName": "Sunset Area",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Sunset Boulevard",
       "attractionName": "Sunset Walkway"
     },
     "entryType": "FACT",
@@ -6481,8 +11796,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "tortuga_tavern",
     "display": {
       "entryTitle": "Window Candles Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Pirate Port Area",
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland: Caribbean Plaza",
       "attractionName": "Tortuga Tavern"
     },
     "entryType": "FIND",
@@ -6518,7 +11833,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "lobby_window_displays",
     "display": {
       "entryTitle": "Totem Display Spider Mickey",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Wilderness Lodge Resort",
       "attractionName": "Lobby Window Displays"
     },
@@ -6553,15 +11868,51 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "tower-plaza-flagpole-pavement-holes-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "coronado_springs_gran_destino",
+    "attractionId": "tower_entrance_plaza",
+    "display": {
+      "entryTitle": "Flagpole Pavement Holes Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Gran Destino Tower",
+      "attractionName": "Tower Entrance Plaza"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "At the base of the flagpole on the way toward the lakeside bar, holes in the pavement form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Flagpole base between the tower and the lakeside bar",
+      "exactSpot": "Look down at the pavement around the flagpole base for three holes together."
+    },
+    "bestTip": "Look on the bar side of the pole.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0068",
+    "sourceUrl": "https://mickeyvisit.com/hidden-mickeys-at-disney-world/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "town-square-restaurant-floor-tile-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "main_street_area",
     "attractionId": "town_square_restaurant",
     "display": {
       "entryTitle": "Floor Tile Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Main Street Area",
-      "attractionName": "Town Square Restaurant"
+      "parkName": "Magic Kingdom",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Tony's Town Square Restaurant"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -6595,9 +11946,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "town_square_restaurant",
     "display": {
       "entryTitle": "Pavement Heart and Paw Prints",
-      "parkName": "Kingdom Park",
-      "landName": "Main Street Area",
-      "attractionName": "Town Square Restaurant"
+      "parkName": "Magic Kingdom",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Tony's Town Square Restaurant"
     },
     "entryType": "FACT",
     "locationType": "Outdoor",
@@ -6630,8 +11981,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "town_square_theater",
     "display": {
       "entryTitle": "Bulletin Board Rabbit Sketch",
-      "parkName": "Kingdom Park",
-      "landName": "Main Street Area",
+      "parkName": "Magic Kingdom",
+      "landName": "Main Street, U.S.A.",
       "attractionName": "Town Square Theater"
     },
     "entryType": "FACT",
@@ -6666,8 +12017,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "town_square_theater",
     "display": {
       "entryTitle": "Exit Card Clip Sorcerer Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Main Street Area",
+      "parkName": "Magic Kingdom",
+      "landName": "Main Street, U.S.A.",
       "attractionName": "Town Square Theater"
     },
     "entryType": "FIND",
@@ -6702,8 +12053,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "town_square_theater",
     "display": {
       "entryTitle": "Magic Chest Rings Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Main Street Area",
+      "parkName": "Magic Kingdom",
+      "landName": "Main Street, U.S.A.",
       "attractionName": "Town Square Theater"
     },
     "entryType": "FIND",
@@ -6738,9 +12089,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "backyard_coaster",
     "display": {
       "entryTitle": "Toy Story Release Date Easter Egg",
-      "parkName": "Studios Park",
-      "landName": "Toy Blocks Area",
-      "attractionName": "Backyard Coaster"
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Slinky Dog Dash"
     },
     "entryType": "FACT",
     "locationType": "Ride",
@@ -6770,15 +12121,51 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
   },
   {
+    "id": "trails-end-restaurant-frying-pans-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "fort_wilderness_campground",
+    "attractionId": "trails_end_restaurant",
+    "display": {
+      "entryTitle": "Frying Pans Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Fort Wilderness Resort & Campground",
+      "attractionName": "Trail's End Restaurant"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "On the wall of the seating area, hanging frying pans are arranged with one large pan and two smaller ones as ears, a classic Hidden Mickey in cast iron.",
+    "whereToLook": {
+      "scene": "Wall of the seating area",
+      "exactSpot": "The hanging frying pans. One large, two small."
+    },
+    "bestTip": "Look at the walls while you wait for a table at the buffet.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0012",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-trails-end-restaurant-and-crocketts-tavern-frying-pan-hidden-mickey-and-spoked-wheel-hidden-mickey/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "tree-theater-show-bubbles-mickey",
     "parkId": "adventure_park",
     "landId": "great_tree_area",
     "attractionId": "tree_theater_show",
     "display": {
       "entryTitle": "Show Bubbles Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Great Tree Area",
-      "attractionName": "Tree Theater Show"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Discovery Island",
+      "attractionName": "It's Tough to be a Bug!"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -6813,8 +12200,8 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "tune_in_lounge",
     "display": {
       "entryTitle": "Table Top Mickeys",
-      "parkName": "Studios Park",
-      "landName": "Echo Lake Area",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Echo Lake",
       "attractionName": "Tune-In Lounge"
     },
     "entryType": "FIND",
@@ -6849,9 +12236,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "undersea_clamshell_ride",
     "display": {
       "entryTitle": "Loading Mural Rock Mickey",
-      "parkName": "Pier Park",
-      "landName": "Boardwalk Gardens Area",
-      "attractionName": "Undersea Clamshell Ride"
+      "parkName": "Disney California Adventure",
+      "landName": "Paradise Gardens Park",
+      "attractionName": "The Little Mermaid: Ariel's Undersea Adventure"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -6887,9 +12274,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "undersea_clamshell_ride",
     "display": {
       "entryTitle": "Exit Rockwork Steamboat Figure",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Forest Area",
-      "attractionName": "Undersea Clamshell Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland: Enchanted Forest",
+      "attractionName": "Under the Sea: Journey of The Little Mermaid"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -6923,9 +12310,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "undersea_clamshell_ride",
     "display": {
       "entryTitle": "Kiss Scene Frog Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Forest Area",
-      "attractionName": "Undersea Clamshell Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland: Enchanted Forest",
+      "attractionName": "Under the Sea: Journey of The Little Mermaid"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -6959,9 +12346,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "undersea_clamshell_ride",
     "display": {
       "entryTitle": "Birthday Shadow Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Forest Area",
-      "attractionName": "Undersea Clamshell Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland: Enchanted Forest",
+      "attractionName": "Under the Sea: Journey of The Little Mermaid"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -6999,9 +12386,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "undersea_clamshell_ride",
     "display": {
       "entryTitle": "Rockwork Steamboat Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Forest Area",
-      "attractionName": "Undersea Clamshell Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland: Enchanted Forest",
+      "attractionName": "Under the Sea: Journey of The Little Mermaid"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -7037,9 +12424,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "undersea_clamshell_ride",
     "display": {
       "entryTitle": "Song Scene Purple Coral Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Forest Area",
-      "attractionName": "Undersea Clamshell Ride"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland: Enchanted Forest",
+      "attractionName": "Under the Sea: Journey of The Little Mermaid"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -7069,15 +12456,51 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "undersea-puppet-show-reef-backdrop-mickey",
+    "parkId": "adventure_park",
+    "landId": "dinosaur_dig_area",
+    "attractionId": "undersea_puppet_show",
+    "display": {
+      "entryTitle": "Reef Backdrop Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "DinoLand U.S.A.",
+      "attractionName": "Finding Nemo: The Big Blue and Beyond"
+    },
+    "entryType": "FIND",
+    "locationType": "Pre-show",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "The stage show's coral reef scenery is reported to hide a classic Hidden Mickey somewhere in the backdrop. The report does not say which scene, so it is a whole-show hunt.",
+    "whereToLook": {
+      "scene": "Coral reef scenery during the stage show",
+      "exactSpot": "The painted and sculpted reef behind the performers. Watch for three circles in the coral."
+    },
+    "bestTip": "Sit high and central so the full backdrop is in view for the whole show.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0008",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-finding-nemo-big-blue-beyond",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "usa-map-queue-wall-mickey",
     "parkId": "studios_park",
     "landId": "toy_blocks_area",
     "attractionId": "midway_shooter",
     "display": {
       "entryTitle": "Queue Wall Mickey",
-      "parkName": "Studios Park",
-      "landName": "Toy Blocks Area",
-      "attractionName": "Midway Shooter"
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Toy Story Land",
+      "attractionName": "Toy Story Mania!"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -7113,7 +12536,7 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "lobby_anniversary_display",
     "display": {
       "entryTitle": "Lobby Display Mickey",
-      "parkName": "Resorts",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Vero Beach Resort",
       "attractionName": "Lobby Display"
     },
@@ -7154,9 +12577,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "village_haus_restaurant",
     "display": {
       "entryTitle": "Dining Room Mural Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Castle Courtyard Area",
-      "attractionName": "Village Haus Restaurant"
+      "parkName": "Magic Kingdom",
+      "landName": "Fantasyland",
+      "attractionName": "Pinocchio Village Haus"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -7184,15 +12607,126 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "villas-resort-studio-air-vent-grille-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "villas_resort_studio",
+    "display": {
+      "entryTitle": "Resort Studio Air Vent Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Villas Resort Studio"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the villas' resort studios, the air vent grille is cut with a classic Hidden Mickey in its pattern.",
+    "whereToLook": {
+      "scene": "Air vent in the resort studio",
+      "exactSpot": "The grille. Look at the cutout pattern for three circles."
+    },
+    "bestTip": "The same grille hides a second surprise beside the Mickey.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
+    "sourceId": "TLC-RS-0078",
+    "sourceUrl": "https://www.disneyfoodblog.com/2022/03/09/photos-go-inside-the-new-rooms-coming-to-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "villas-resort-studio-air-vent-umbrellas",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "villas_resort_studio",
+    "display": {
+      "entryTitle": "Resort Studio Air Vent Umbrellas",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Villas Resort Studio"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Beside the Mickey in the resort studio vent grille, umbrellas are cut into the pattern, a nod to the magical nanny who arrived by one.",
+    "whereToLook": {
+      "scene": "Air vent in the resort studio",
+      "exactSpot": "Next to the Mickey in the grille. Look for umbrella shapes."
+    },
+    "bestTip": "Find the Mickey first and look to either side.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
+    "sourceId": "TLC-RS-0079",
+    "sourceUrl": "https://www.disneyfoodblog.com/2022/03/09/photos-go-inside-the-new-rooms-coming-to-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "volcano-pool-carved-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "volcano_pool",
+    "display": {
+      "entryTitle": "Volcano Carved Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Lava Pool"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "The volcano that anchors the main pool has a classic Hidden Mickey carved into its side.",
+    "whereToLook": {
+      "scene": "Volcano at the main pool",
+      "exactSpot": "The side of the volcano. Walk around it and look at the carved rock."
+    },
+    "bestTip": "Check the side facing away from the slide, where fewer people look.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Pool and recreation areas are for registered resort guests.",
+    "sourceId": "TLC-RS-0093",
+    "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2025/02/12/polynesian-village-resort-pool-hidden-mickey",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "water-journey-rock-wall-mickey",
     "parkId": "showcase_park",
     "landId": "nature_area",
     "attractionId": "water_journey_trail",
     "display": {
       "entryTitle": "Rock Wall Depressions Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Nature Area",
-      "attractionName": "Water Journey Trail"
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "Journey of Water, Inspired by Moana"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -7229,9 +12763,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "water_journey_trail",
     "display": {
       "entryTitle": "Orange Vase Holes Mickey",
-      "parkName": "Showcase Park",
-      "landName": "Nature Area",
-      "attractionName": "Water Journey Trail"
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "Journey of Water, Inspired by Moana"
     },
     "entryType": "FIND",
     "locationType": "Outdoor",
@@ -7262,15 +12796,89 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "wedding-pavilion-castle-window",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "wedding_pavilion",
+    "display": {
+      "entryTitle": "Castle Window",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Disney's Wedding Pavilion"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "The window at the front of the wedding pavilion frames the castle across the lagoon. The glass was designed to make the castle look larger than it is from that distance.",
+    "whereToLook": {
+      "scene": "Window facing the castle at the front of the pavilion",
+      "exactSpot": "Stand at the aisle and look through the window."
+    },
+    "bestTip": "Compare the view through the glass with the view from the door.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Far"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Unverified",
+    "accessNotes": "The pavilion is used for weddings. Visit between events or ask at the resort about viewing times.",
+    "sourceId": "TLC-RS-0080",
+    "sourceUrl": "https://disneyparksblog.com/weddings/5-little-known-facts-about-disneys-iconic-wedding-pavilion/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "wedding-pavilion-restroom-mirror-clock",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "wedding_pavilion",
+    "display": {
+      "entryTitle": "Restroom Mirror Clock",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Disney's Wedding Pavilion"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "A clock design on the restroom mirror in the pavilion is set permanently to just before midnight, so the spell never breaks.",
+    "whereToLook": {
+      "scene": "Restroom mirror in the pavilion",
+      "exactSpot": "The clock in the mirror design. Check the time."
+    },
+    "bestTip": "It is in the restroom, so this one takes a little nerve.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Documented",
+    "status": "Unverified",
+    "accessNotes": "The pavilion is used for weddings. Visit between events or ask at the resort about viewing times.",
+    "sourceId": "TLC-RS-0081",
+    "sourceUrl": "https://disneyparksblog.com/weddings/5-little-known-facts-about-disneys-iconic-wedding-pavilion/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "wild-motorcar-sherlock-holmes-window",
     "parkId": "california_kingdom_park",
     "landId": "storybook_village_area",
     "attractionId": "wild_motorcar_ride",
     "display": {
       "entryTitle": "Constabulary Window Sherlock Holmes",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Village Area",
-      "attractionName": "Wild Motorcar Ride"
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Mr. Toad's Wild Ride"
     },
     "entryType": "FACT",
     "locationType": "Ride",
@@ -7307,9 +12915,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "wild_west_mine_coaster",
     "display": {
       "entryTitle": "Exit Fairy Likeness",
-      "parkName": "Kingdom Park",
-      "landName": "Frontier Area",
-      "attractionName": "Wild West Mine Coaster"
+      "parkName": "Magic Kingdom",
+      "landName": "Frontierland",
+      "attractionName": "Big Thunder Mountain Railroad"
     },
     "entryType": "FACT",
     "locationType": "Outdoor",
@@ -7343,9 +12951,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "wild_west_mine_coaster",
     "display": {
       "entryTitle": "First Climb Cavern Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Frontier Area",
-      "attractionName": "Wild West Mine Coaster"
+      "parkName": "Magic Kingdom",
+      "landName": "Frontierland",
+      "attractionName": "Big Thunder Mountain Railroad"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -7379,9 +12987,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "wild_west_mine_coaster",
     "display": {
       "entryTitle": "Ride End Gears Mickey",
-      "parkName": "Kingdom Park",
-      "landName": "Frontier Area",
-      "attractionName": "Wild West Mine Coaster"
+      "parkName": "Magic Kingdom",
+      "landName": "Frontierland",
+      "attractionName": "Big Thunder Mountain Railroad"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -7412,42 +13020,228 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
-    "id": "wilderness-lodge-lobby-and-grounds-lead",
+    "id": "wilderness-lobby-fireplace-canyon-strata",
     "parkId": "resorts_bucket",
     "landId": "wilderness_lodge_resort",
     "attractionId": "lobby_and_grounds",
     "display": {
-      "entryTitle": "Lobby and Grounds Lead",
-      "parkName": "Resorts",
+      "entryTitle": "Fireplace Canyon Strata",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Lobby and Grounds"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "The layered stonework of the lobby fireplace is not random. It models the rock layers of the Grand Canyon in order, from the oldest at the bottom to the youngest at the top.",
+    "whereToLook": {
+      "scene": "Main stone fireplace in the lobby",
+      "exactSpot": "Read the bands of stone from bottom to top."
+    },
+    "bestTip": "A plaque nearby explains the layers if you want the geology.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0059",
+    "sourceUrl": "https://disneyparksblog.com/wdw/5-hidden-details-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "wilderness-lobby-fireplace-stones-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "lobby_and_grounds",
+    "display": {
+      "entryTitle": "Fireplace Stones Mickey",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Wilderness Lodge Resort",
       "attractionName": "Lobby and Grounds"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. The lodge stacks carved timber, ironwork, stonework and a painted totem into one enormous room, then runs a spring out of it and down to the lake.",
+    "description": "The main stone fireplace in the lobby rises through the whole building. A classic Hidden Mickey hides among its stones.",
     "whereToLook": {
-      "scene": "The main lodge lobby, the fireplace and the spring trail running out toward the lake",
-      "exactSpot": "Read the carved railings on the upper balconies, the iron light fixtures, the rock strata of the fireplace and the stonework along the spring."
+      "scene": "Main stone fireplace in the lobby",
+      "exactSpot": "Scan the layered stones for three rounded ones set together."
     },
-    "bestTip": "Follow the spring from where it starts inside the lobby out to the lake. The whole route is themed and almost nobody walks it slowly.",
+    "bestTip": "Look from the upper balconies too; the fireplace is several stories tall.",
     "viewing": {
       "motion": "Still",
-      "lighting": "Dim",
-      "angle": "Above",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
       "crowding": "Medium",
-      "distance": "Far",
-      "notes": "The lobby is tall and dim, so the upper balconies need a zoom. The spring trail outside is bright and much easier going."
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Documented",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0058",
+    "sourceUrl": "https://disneyparksblog.com/wdw/5-hidden-details-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "wilderness-lobby-registration-keys-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "lobby_and_grounds",
+    "display": {
+      "entryTitle": "Registration Keys Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Lobby and Grounds"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Behind the registration desk, a display of old-fashioned keys includes one whose bow is shaped like a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Keys displayed behind the registration desk",
+      "exactSpot": "Look at the tops of the keys for one shaped like three circles."
+    },
+    "bestTip": "Ask the cast member to point it out if the desk is quiet.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0051",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "wilderness-lobby-transportation-sign-bus-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "lobby_and_grounds",
+    "display": {
+      "entryTitle": "Transportation Sign Bus Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Lobby and Grounds"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The transportation sign in the lobby shows a bus. Mickey sits in the driver's seat beside the lettering.",
+    "whereToLook": {
+      "scene": "Transportation sign in the lobby",
+      "exactSpot": "The bus on the sign. Look at the driver's seat."
+    },
+    "bestTip": "Look while you check the bus times.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0050",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "winged-flight-lab-specimen-containers-mickey",
+    "parkId": "adventure_park",
+    "landId": "floating_mountains_area",
+    "attractionId": "winged_flight_simulator",
+    "display": {
+      "entryTitle": "Lab Specimen Containers Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Pandora: The World of Avatar",
+      "attractionName": "Avatar Flight of Passage"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the indoor laboratory section of the queue, specimen displays line the walls. Three containers are set together as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Laboratory displays in the indoor queue",
+      "exactSpot": "The specimen containers on display. One large jar with two smaller ones arranged as ears."
+    },
+    "bestTip": "The lab is dim but the displays are lit. Read each case as the line passes it.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 28.3554,
+      "longitude": -81.5921
+    },
+    "sourceId": "TLC-AK-0009",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-flight-passage-specimen-jars",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "winged-flight-queue-gravel-cluster-mickey",
+    "parkId": "adventure_park",
+    "landId": "floating_mountains_area",
+    "attractionId": "winged_flight_simulator",
+    "display": {
+      "entryTitle": "Queue Gravel Cluster Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Pandora: The World of Avatar",
+      "attractionName": "Avatar Flight of Passage"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "The outdoor queue winds over textured ground set with small stones. A cluster of three is reported to form a classic Hidden Mickey underfoot.",
+    "whereToLook": {
+      "scene": "Textured ground along the outdoor queue",
+      "exactSpot": "Look down at the gravel set into the path. One larger stone with two smaller ones above it."
+    },
+    "bestTip": "Check the ground during the slow stretches before the caves, when you have time to scan.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
     },
     "confidence": "Interpretive",
-    "verification": "Unknown",
+    "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
-      "latitude": 28.4127,
-      "longitude": -81.5668
+      "latitude": 28.3554,
+      "longitude": -81.5921
     },
-    "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "sourceId": "TLC-AK-0003",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-avatar-flight-passage-gravel",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "winged-flight-queue-lab-drawing-mickey",
@@ -7456,9 +13250,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "winged_flight_simulator",
     "display": {
       "entryTitle": "Lab Drawing Circles Mickey",
-      "parkName": "Adventure Park",
-      "landName": "Floating Mountains Area",
-      "attractionName": "Winged Flight Simulator"
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Pandora: The World of Avatar",
+      "attractionName": "Avatar Flight of Passage"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -7495,9 +13289,9 @@ export const entries: HiddenMickeyEntry[] = [
     "attractionId": "wonderland_caterpillar_ride",
     "display": {
       "entryTitle": "Purple Mushroom Spots Mickeys",
-      "parkName": "Kingdom Park",
-      "landName": "Storybook Village Area",
-      "attractionName": "Wonderland Caterpillar Ride"
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Alice in Wonderland"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -7526,41 +13320,39 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
-    "id": "yacht-and-beach-club-lobby-lead",
+    "id": "yacht-lobby-globe-mickey",
     "parkId": "resorts_bucket",
     "landId": "yacht_and_beach_club_resort",
     "attractionId": "lobby_and_marina",
     "display": {
-      "entryTitle": "Lobby and Marina Lead",
-      "parkName": "Resorts",
+      "entryTitle": "Lobby Globe Mickey",
+      "parkName": "Walt Disney World Resorts",
       "landName": "Yacht and Beach Club Resort",
       "attractionName": "Lobby and Marina"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. The two halves share a New England seaside theme built from nautical brass, globe lamps, painted woodwork and a marina out the back.",
+    "description": "The big globe in the yacht-themed lobby has a pale blue classic Hidden Mickey marked near Madagascar, just below the sea monster.",
     "whereToLook": {
-      "scene": "Both resort lobbies and the shared marina and waterfront between them",
-      "exactSpot": "Check the brass nautical fittings, the globe light fixtures, the painted wood trim and the marina signage for three circles together."
+      "scene": "Globe in the lobby",
+      "exactSpot": "Find Madagascar, then the sea monster near it. The Mickey is just below the monster."
     },
-    "bestTip": "Do both lobbies in one visit. They are a short walk apart and the theming differs enough that each gives you a fresh set of surfaces.",
+    "bestTip": "Spin the globe gently if it moves, or walk around to the Indian Ocean side.",
     "viewing": {
       "motion": "Still",
-      "lighting": "Bright",
+      "lighting": "Mixed",
       "angle": "Straight-on",
       "crowding": "Medium",
-      "distance": "Medium",
-      "notes": "Both lobbies are bright and airy, which makes this an easier search than the darker deluxe lobbies elsewhere on property."
+      "distance": "Close"
     },
-    "confidence": "Interpretive",
-    "verification": "Unknown",
-    "coordinates": {
-      "latitude": 28.3705,
-      "longitude": -81.5576
-    },
-    "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0067",
+    "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   }
 ];

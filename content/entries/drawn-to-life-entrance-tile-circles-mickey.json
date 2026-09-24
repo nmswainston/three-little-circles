@@ -1,0 +1,36 @@
+{
+  "id": "drawn-to-life-entrance-tile-circles-mickey",
+  "parkId": "springs_bucket",
+  "landId": "west_side",
+  "attractionId": "drawn_to_life_theater",
+  "display": {
+    "entryTitle": "Entrance Tile Circles Mickey",
+    "parkName": "Disney Springs",
+    "landName": "West Side",
+    "attractionName": "Drawn to Life Theater"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "At the theater entrance, in the corner by the men's restroom, three black circles are set into the white tile as a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Theater entrance, corner near the men's restroom",
+    "exactSpot": "Look down at the white tile in the corner for three black circles."
+  },
+  "bestTip": "You do not need a show ticket to reach the entrance plaza.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-DS-0008",
+  "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

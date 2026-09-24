@@ -1,0 +1,36 @@
+{
+  "id": "barbados-walkway-pavement-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "caribbean_beach_resort",
+  "attractionId": "barbados_walkway",
+  "display": {
+    "entryTitle": "Barbados Walkway Pavement Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Caribbean Beach Resort",
+    "attractionName": "Barbados Walkway"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "On the concrete walkway from the Barbados section toward the main building, a small classic Hidden Mickey is pressed into the pavement.",
+  "whereToLook": {
+    "scene": "Concrete walkway from the Barbados section toward the main building",
+    "exactSpot": "Look down at the concrete along the way for a small pressed shape."
+  },
+  "bestTip": "Walk it slowly in good light.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0084",
+  "sourceUrl": "https://tinkandtoni.com/2021/06/13/hidden-mickeys-at-caribbean-beach-and-beach-club/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

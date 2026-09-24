@@ -5,9 +5,9 @@
   "attractionId": "crystal_arts_shop",
   "display": {
     "entryTitle": "Paving Stone Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Main Street Area",
-    "attractionName": "Crystal Arts Shop"
+    "parkName": "Magic Kingdom",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Crystal Arts"
   },
   "entryType": "FIND",
   "locationType": "Outdoor",

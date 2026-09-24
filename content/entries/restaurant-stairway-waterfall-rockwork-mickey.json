@@ -1,0 +1,36 @@
+{
+  "id": "restaurant-stairway-waterfall-rockwork-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "restaurant_stairway",
+  "display": {
+    "entryTitle": "Stairway Waterfall Rockwork Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "Boma Stairway"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "On the stairway down to the buffet restaurant, the waterfall on the right at the first landing has rockwork that outlines a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Stairway down to the buffet restaurant",
+    "exactSpot": "First landing. Look at the rocks of the waterfall on the right."
+  },
+  "bestTip": "Stop on the landing rather than looking back from the bottom.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0020",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
