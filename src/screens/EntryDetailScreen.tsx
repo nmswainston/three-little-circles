@@ -111,7 +111,8 @@ export default function EntryDetailScreen() {
     { label: "Exact spot", value: entry.whereToLook.exactSpot },
     ...(entry.whereToLook.orientation ? [{ label: "Orientation", value: entry.whereToLook.orientation }] : []),
   ];
-  const ladder = hintMode && !found;
+  // A lead has nothing to spoil and no Found button to end the ladder, so it always shows in full.
+  const ladder = hintMode && !found && countable;
   const shown = ladder ? Math.min(revealed, steps.length) : steps.length;
   const spoilersHidden = shown < steps.length;
 
