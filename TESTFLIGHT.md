@@ -1,7 +1,80 @@
-# TestFlight copy
+# TestFlight
 
-Paste-ready text for the App Store Connect fields. Each field's limit is 4000
-characters; all of these are well under.
+The readiness checklist, then paste-ready text for the App Store Connect fields.
+Each field's limit is 4000 characters; all of these are well under.
+
+---
+
+## Before the first build
+
+What is already in place, and the steps that only the account owner can do.
+The app config answers the questions Apple asks at upload, so none of these
+should surprise you at submit time.
+
+**Already handled in the repo**
+
+- Bundle id `com.nmswainston.threelittlecircles`, version `1.0.0`, and EAS
+  remote build numbers that increment on every production build.
+- Export compliance answered in the build (`ITSAppUsesNonExemptEncryption`
+  is false; the app only uses HTTPS), so App Store Connect will not ask.
+- Permission strings for location while in use, photo library, and camera,
+  each saying why. The "Always" location, motion activity, and microphone
+  strings that the Expo plugins add by default are switched off, so the
+  Info.plist declares only what the app requests.
+- A 1024 px App Store icon with no transparency, which is what the upload
+  validator checks, plus adaptive icons and light and dark splash images.
+- The privacy policy page in `docs/privacy.html`, which describes the data
+  handling accurately as of the date at its top.
+- Expo SDK 57 ships the privacy manifest entries for the libraries in use,
+  and the app itself calls none of Apple's required-reason APIs directly.
+
+**Do once, before `eas build`**
+
+1. Apple Developer Program membership active, and an app record in App Store
+   Connect for the bundle id above. Check the name "Three Little Circles" is
+   available when you create the record.
+2. EAS environment variables, since `.env` never leaves your machine. Set
+   them for `production` and again for `preview`:
+   `SUPABASE_URL` and `SUPABASE_ANON_KEY` (plain text; the anon key is public
+   by design) and `GOOGLE_MAPS_ANDROID_API_KEY` (sensitive; Android only).
+   Without the first two, the build ships with reports and suggestions
+   switched off. Each profile in `eas.json` names the environment it loads.
+3. Confirm the privacy policy is live: open
+   https://nmswainston.github.io/three-little-circles/privacy.html in a
+   browser and expect the page, not a 404. GitHub Pages must be serving the
+   `docs/` folder from `main`.
+4. Run `npm run check` on `main`.
+
+**Build and upload**
+
+```bash
+eas build --profile production --platform ios
+eas submit --platform ios --latest
+```
+
+Then in App Store Connect, under TestFlight: fill Test Information with the
+Beta App Description and the fields below, add yourself and any internal
+testers (no review needed, up to 100 App Store Connect users), and for
+friends outside the team create an external group, which triggers Beta App
+Review. Paste the review notes below when it asks.
+
+**Decide before the App Store listing, not before TestFlight**
+
+- iPad. `supportsTablet` is on, so a store submission will require 13-inch
+  iPad screenshots. Either take them or switch it off until the layout is
+  more than phone-shaped. TestFlight does not care either way.
+- Home screen name. "Three Little Circles" is longer than iOS shows under an
+  icon, so it will be cut short on the home screen. A shorter
+  `CFBundleDisplayName` is a branding call, not a technical one.
+- App Privacy answers. Location (precise, app functionality, not linked to
+  the user, not used for tracking). Photos and user content (only when a
+  sighting is submitted, not linked). Identifiers (the random install id sent
+  with submissions and reports; declare it as a device identifier used for
+  app functionality, not linked, not tracking). Nothing else is collected.
+- Trademarks. The names of real parks and attractions appear as plain text,
+  the app ships no logos, characters, or artwork, and the disclaimer is on the
+  intro, the Parks screen, and Profile. The review notes below make that case.
+  It is the one guideline (5.2.1) where a reviewer might still ask questions.
 
 ---
 
@@ -24,10 +97,11 @@ that is well established and one that is a lead.
 Tap Found to mark something off. Progress and badges are worked out from your
 finds and stay on your phone. There is no account and no sign-in.
 
-This build covers 138 documented finds across Magic Kingdom, EPCOT, Hollywood
+This build covers 350 documented finds across Magic Kingdom, EPCOT, Hollywood
 Studios, Animal Kingdom, Disney Springs, the Walt Disney World resorts,
 Disneyland Park, and Disney California Adventure, plus 19 pieces of park
-history and trivia.
+history and trivia. (Update these numbers for each build; `npm run
+content:check` prints the current ones.)
 
 An independent fan project. Not affiliated with, endorsed by, or sponsored by
 any theme park company.
@@ -74,8 +148,9 @@ want eyes on:
 
 - Map pins were placed by hand from satellite view. They are accurate to the
   building, not to the spot.
-- The resort entries are unconfirmed leads. They say roughly where to look but
-  nobody has verified them yet.
+- Most entries were written up from research and are marked Unverified in the
+  content until someone confirms them in person. The confidence rating on each
+  entry is the honest guide to how sure we are.
 - It runs on iPad, but the layout is still phone-shaped.
 
 Tell me what is confusing before you tell me what is broken. Confusing is the

@@ -220,7 +220,7 @@ someone submits a sighting or taps "Still there?".
 ## Future Improvements
 
 - App Store and Google Play deployment (EAS build profiles are in place)
-- More content. Twelve entries ship today, and the pipeline makes each new one a JSON file.
+- More content. The pipeline makes each new entry a JSON file, and `npm run content:check` reports how many ship.
 - Verify map coordinates on site. The current ones were placed by hand and are approximate to the building.
 - Sync found progress across devices
 - Push notifications
