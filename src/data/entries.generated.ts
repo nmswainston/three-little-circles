@@ -457,7 +457,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Turtle Markings Mickey",
       "parkName": "Disney's Animal Kingdom",
       "landName": "Discovery Island",
-      "attractionName": "Animal Mural Pizzeria"
+      "attractionName": "Pizzafari"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -2650,7 +2650,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Curving Mural Butterfly Body Mickey",
       "parkName": "Disney's Animal Kingdom",
       "landName": "Rafiki's Planet Watch",
-      "attractionName": "Conservation Exhibit Hall"
+      "attractionName": "Conservation Station"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -2686,7 +2686,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Entrance Mural Butterfly Wing Mickey",
       "parkName": "Disney's Animal Kingdom",
       "landName": "Rafiki's Planet Watch",
-      "attractionName": "Conservation Exhibit Hall"
+      "attractionName": "Conservation Station"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -2722,7 +2722,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Entrance Mural Opossum Eye Mickey",
       "parkName": "Disney's Animal Kingdom",
       "landName": "Rafiki's Planet Watch",
-      "attractionName": "Conservation Exhibit Hall"
+      "attractionName": "Conservation Station"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -2759,7 +2759,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Lizard Tree Mickey",
       "parkName": "Disney's Animal Kingdom",
       "landName": "Rafiki's Planet Watch",
-      "attractionName": "Conservation Exhibit Hall"
+      "attractionName": "Conservation Station"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -2795,7 +2795,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Low Mural Frog Pupil Mickey",
       "parkName": "Disney's Animal Kingdom",
       "landName": "Rafiki's Planet Watch",
-      "attractionName": "Conservation Exhibit Hall"
+      "attractionName": "Conservation Station"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -2831,7 +2831,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Rainforest Panel Leaf Hole Mickey",
       "parkName": "Disney's Animal Kingdom",
       "landName": "Rafiki's Planet Watch",
-      "attractionName": "Conservation Exhibit Hall"
+      "attractionName": "Conservation Station"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -2867,7 +2867,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Rainforest Tree Shadow Profile Mickey",
       "parkName": "Disney's Animal Kingdom",
       "landName": "Rafiki's Planet Watch",
-      "attractionName": "Conservation Exhibit Hall"
+      "attractionName": "Conservation Station"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -2903,7 +2903,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Willow Tree Indentation Mickey",
       "parkName": "Disney's Animal Kingdom",
       "landName": "Rafiki's Planet Watch",
-      "attractionName": "Conservation Exhibit Hall"
+      "attractionName": "Conservation Station"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
@@ -6417,12 +6417,12 @@ export const entries: HiddenMickeyEntry[] = [
   {
     "id": "imagination-dragon-bathroom-commode-mickey",
     "parkId": "showcase_park",
-    "landId": "nature_area",
+    "landId": "celebration_area",
     "attractionId": "imagination_dragon_ride",
     "display": {
       "entryTitle": "Bathroom Commode Mickey",
       "parkName": "EPCOT",
-      "landName": "World Nature",
+      "landName": "World Celebration",
       "attractionName": "Journey Into Imagination With Figment"
     },
     "entryType": "FIND",
@@ -6459,7 +6459,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Sight Room Illustration Mickey",
       "parkName": "EPCOT",
       "landName": "World Celebration",
-      "attractionName": "Imagination Dragon Ride"
+      "attractionName": "Journey Into Imagination With Figment"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -7927,7 +7927,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Volcano Landscape Mickey",
       "parkName": "EPCOT",
       "landName": "Mexico Pavilion",
-      "attractionName": "Pyramid Interior Plaza"
+      "attractionName": "Plaza de los Amigos"
     },
     "entryType": "FIND",
     "locationType": "Indoor",

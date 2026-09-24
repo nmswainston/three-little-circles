@@ -1,12 +1,12 @@
 {
   "id": "imagination-dragon-bathroom-commode-mickey",
   "parkId": "showcase_park",
-  "landId": "nature_area",
+  "landId": "celebration_area",
   "attractionId": "imagination_dragon_ride",
   "display": {
     "entryTitle": "Bathroom Commode Mickey",
     "parkName": "EPCOT",
-    "landName": "World Nature",
+    "landName": "World Celebration",
     "attractionName": "Journey Into Imagination With Figment"
   },
   "entryType": "FIND",
