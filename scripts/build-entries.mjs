@@ -198,7 +198,125 @@ function validateImage(file, image) {
   if (bytes > IMAGE_MAX_BYTES) {
     const kb = Math.round(bytes / 1024);
     fail(file, `content/images/${name} is ${kb} KB; keep photos under ${IMAGE_MAX_BYTES / 1024} KB (about 1200 px on the long side as a JPEG)`);
+    return;
   }
+  const problem = imageProblem(name, readFileSync(path));
+  if (problem) fail(file, `content/images/${name} ${problem}`);
+}
+
+// ---------------------------------------------------------------------------
+// Photo bytes. A photo that is cut off or saved under the wrong extension
+// passes the size check and then fails inside the app, where nobody sees the
+// error until a guest opens the entry. These checks walk each format's
+// container structure: JPEG marker segments through to the end-of-image
+// marker, PNG chunks with their checksums through to IEND, and the WebP RIFF
+// header against the file length. They are not a pixel decode, so a photo
+// that passes can still look wrong, but it cannot be truncated, empty, or a
+// different format in disguise.
+// ---------------------------------------------------------------------------
+
+/** What is wrong with the photo's bytes for its extension, or null when they look complete. */
+function imageProblem(name, data) {
+  switch (extname(name)) {
+    case ".jpg":
+    case ".jpeg":
+      return jpegProblem(data);
+    case ".png":
+      return pngProblem(data);
+    case ".webp":
+      return webpProblem(data);
+    default:
+      return "has an unsupported extension";
+  }
+}
+
+const JPEG_EOI = Buffer.from([0xff, 0xd9]);
+
+/** Walks the JPEG marker segments up to the scan, then requires the end-of-image marker after it. */
+function jpegProblem(data) {
+  if (data.length < 4 || data[0] !== 0xff || data[1] !== 0xd8 || data[2] !== 0xff) {
+    return "does not start with a JPEG header; is it really a JPEG?";
+  }
+  let offset = 2;
+  while (offset + 4 <= data.length) {
+    if (data[offset] !== 0xff) return `has a malformed JPEG segment at byte ${offset}`;
+    const marker = data[offset + 1];
+    if (marker === 0xff) {
+      offset += 1; // fill byte ahead of a marker
+      continue;
+    }
+    if (marker === 0xd9) return "has no JPEG image data";
+    if (marker === 0xda) {
+      // Start of scan: entropy-coded data follows. Inside it every 0xff is
+      // followed by 0x00 or a restart marker, so 0xff 0xd9 can only be the
+      // end-of-image marker.
+      return data.indexOf(JPEG_EOI, offset + 2) === -1
+        ? "is missing the JPEG end-of-image marker; the file may be truncated"
+        : null;
+    }
+    if ((marker >= 0xd0 && marker <= 0xd8) || marker === 0x01) {
+      offset += 2; // standalone marker with no length
+      continue;
+    }
+    const length = data.readUInt16BE(offset + 2);
+    if (length < 2) return `has a malformed JPEG segment at byte ${offset}`;
+    offset += 2 + length;
+  }
+  return "ends before its JPEG image data; the file may be truncated";
+}
+
+const PNG_SIGNATURE = Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]);
+
+/** Walks the PNG chunks, checking each checksum, until IEND. */
+function pngProblem(data) {
+  if (data.length < PNG_SIGNATURE.length || !data.subarray(0, PNG_SIGNATURE.length).equals(PNG_SIGNATURE)) {
+    return "does not start with a PNG header; is it really a PNG?";
+  }
+  let offset = PNG_SIGNATURE.length;
+  let sawHeader = false;
+  while (offset + 12 <= data.length) {
+    const length = data.readUInt32BE(offset);
+    const type = data.toString("latin1", offset + 4, offset + 8);
+    if (!sawHeader && type !== "IHDR") return "does not begin with a PNG IHDR chunk";
+    sawHeader = true;
+    const end = offset + 12 + length;
+    if (end > data.length) return `is cut off inside its PNG ${type} chunk; the file may be truncated`;
+    if (crc32(data.subarray(offset + 4, end - 4)) !== data.readUInt32BE(end - 4)) {
+      return `has a corrupt PNG ${type} chunk (checksum mismatch)`;
+    }
+    if (type === "IEND") return null;
+    offset = end;
+  }
+  return "is missing its PNG IEND chunk; the file may be truncated";
+}
+
+const CRC_TABLE = new Uint32Array(256).map((_, n) => {
+  let c = n;
+  for (let k = 0; k < 8; k++) c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1;
+  return c >>> 0;
+});
+
+/** CRC-32 as PNG uses it, over a chunk's type and data. */
+function crc32(bytes) {
+  let crc = 0xffffffff;
+  for (const b of bytes) crc = CRC_TABLE[(crc ^ b) & 0xff] ^ (crc >>> 8);
+  return (crc ^ 0xffffffff) >>> 0;
+}
+
+const WEBP_FIRST_CHUNKS = new Set(["VP8 ", "VP8L", "VP8X"]);
+
+/** Checks the RIFF container: its declared length must fit the file and the first chunk must be a WebP bitstream. */
+function webpProblem(data) {
+  if (data.length < 16 || data.toString("latin1", 0, 4) !== "RIFF" || data.toString("latin1", 8, 12) !== "WEBP") {
+    return "does not start with a WebP header; is it really a WebP?";
+  }
+  const declared = data.readUInt32LE(4) + 8;
+  if (declared > data.length) {
+    return `is ${data.length} bytes but its WebP header declares ${declared}; the file may be truncated`;
+  }
+  const chunk = data.toString("latin1", 12, 16);
+  if (!WEBP_FIRST_CHUNKS.has(chunk)) return `has an unexpected first WebP chunk "${chunk}"`;
+  return null;
 }
 
 /** Image files nobody references. Reported, not failed, so a photo can land a commit before its entry. */

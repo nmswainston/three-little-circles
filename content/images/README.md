@@ -14,6 +14,8 @@ Rules, enforced by `npm run content:build`:
 
 - The file lives in this folder and its name matches the `file` value.
 - Lowercase kebab-case name, ending in `.jpg`, `.jpeg`, `.png`, or `.webp`.
+- A complete, genuine image. The build walks the file's structure and rejects
+  one that is cut off or saved under the wrong extension.
 - At most 300 KB. Aim for about 1200 px on the long side as a JPEG; every
   photo ships inside the app, so size adds up fast.
 - `alt` is required. Say what the photo shows, for screen readers and for
