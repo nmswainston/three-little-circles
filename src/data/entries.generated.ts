@@ -455,6 +455,294 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
+    "id": "animation-gallery-lost-and-found-donkey-tail",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "display": {
+      "entryTitle": "Lost and Found Donkey Tail",
+      "parkName": "Studios Park",
+      "landName": "Animation Courtyard Area",
+      "attractionName": "Animation Gallery"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Also in the lost-and-found is a small pinned-on tail. It belongs to the gloomy donkey from the hundred-acre wood, who is forever losing it.",
+    "whereToLook": {
+      "scene": "Lost-and-found shelf at reception",
+      "exactSpot": "A short tail with a bow, pinned among the objects."
+    },
+    "bestTip": "It is small and grey. Look low on the shelf.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0031",
+    "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "animation-gallery-lost-and-found-hydra-vase",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "display": {
+      "entryTitle": "Lost and Found Hydra Vase",
+      "parkName": "Studios Park",
+      "landName": "Animation Courtyard Area",
+      "attractionName": "Animation Gallery"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "A vase on the lost-and-found shelf is painted with a many-headed hydra, straight out of the animated film about the Greek hero.",
+    "whereToLook": {
+      "scene": "Lost-and-found shelf at reception",
+      "exactSpot": "The painted vase. Count the heads."
+    },
+    "bestTip": "The artwork is in the black-figure style, so it reads as an antique until you see the monster.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0032",
+    "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "animation-gallery-lost-and-found-map-sphere",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "display": {
+      "entryTitle": "Lost and Found Map Sphere",
+      "parkName": "Studios Park",
+      "landName": "Animation Courtyard Area",
+      "attractionName": "Animation Gallery"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The lost-and-found at the reception desk holds a golden sphere etched with a map. It is the treasure map from the animated space pirate adventure.",
+    "whereToLook": {
+      "scene": "Lost-and-found shelf at reception",
+      "exactSpot": "The engraved golden sphere."
+    },
+    "bestTip": "The shelf is dressed as clutter. Take each object one at a time.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0030",
+    "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "animation-gallery-lost-and-found-sundrop-flower",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "display": {
+      "entryTitle": "Lost and Found Glowing Flower",
+      "parkName": "Studios Park",
+      "landName": "Animation Courtyard Area",
+      "attractionName": "Animation Gallery"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "A golden flower among the lost items is the magic sundrop flower that gave the long-haired princess her glowing hair.",
+    "whereToLook": {
+      "scene": "Lost-and-found shelf at reception",
+      "exactSpot": "The golden flower."
+    },
+    "bestTip": "It sits with the other props from the same shelf, so find the sphere first and work along.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0033",
+    "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "animation-gallery-reception-kitten-overhead",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "display": {
+      "entryTitle": "Kitten Above Reception",
+      "parkName": "Studios Park",
+      "landName": "Animation Courtyard Area",
+      "attractionName": "Animation Gallery"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Above the reception desk, the woodcarver's black-and-white kitten from the puppet story watches everyone who comes in.",
+    "whereToLook": {
+      "scene": "Reception area",
+      "exactSpot": "Look up above the desk."
+    },
+    "bestTip": "Everyone looks at the shelf. Look up.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0034",
+    "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "animation-gallery-snowman-book-illusion-of-life",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "display": {
+      "entryTitle": "Snowman Area Animation Book",
+      "parkName": "Studios Park",
+      "landName": "Animation Courtyard Area",
+      "attractionName": "Animation Gallery"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the drawing area with the snowman, a book beneath him is the classic textbook on animation written by two of the studio's original nine master animators.",
+    "whereToLook": {
+      "scene": "Drawing area with the snowman figure",
+      "exactSpot": "The book underneath the snowman. Read the spine."
+    },
+    "bestTip": "Lean in. The title is on the spine, not the cover.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0037",
+    "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "animation-gallery-treasures-emperor-crown",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "display": {
+      "entryTitle": "Treasures Exhibit Emperor Crown",
+      "parkName": "Studios Park",
+      "landName": "Animation Courtyard Area",
+      "attractionName": "Animation Gallery"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "A gold crown in the treasures exhibit belongs to the self-absorbed emperor who spent most of his movie as a llama.",
+    "whereToLook": {
+      "scene": "Treasures exhibit cases",
+      "exactSpot": "The gold crown."
+    },
+    "bestTip": "Look for the tall pointed shape rather than a round crown.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0036",
+    "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "animation-gallery-treasures-rag-doll",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "display": {
+      "entryTitle": "Treasures Exhibit Rag Doll",
+      "parkName": "Studios Park",
+      "landName": "Animation Courtyard Area",
+      "attractionName": "Animation Gallery"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "In the treasures exhibit, a lumpy homemade rag doll with button eyes sits among the artifacts. It is the doll the little Hawaiian girl made herself in the film about her alien pet.",
+    "whereToLook": {
+      "scene": "Treasures exhibit cases",
+      "exactSpot": "The rag doll."
+    },
+    "bestTip": "It is the least polished thing in the case, on purpose.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0035",
+    "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "aquarium-shark-room-poster-pearls-mickey",
     "parkId": "showcase_park",
     "landId": "nature_area",
@@ -599,6 +887,114 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "backyard-coaster-queue-coloring-book-plans",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "backyard_coaster",
+    "display": {
+      "entryTitle": "Queue Coloring Book Plans",
+      "parkName": "Studios Park",
+      "landName": "Toy Blocks Area",
+      "attractionName": "Backyard Coaster"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Queue",
+    "description": "A coloring book in the queue has a drawing tucked inside it. It is the boy's own plan for the coaster you are about to ride, explaining how he built it from his toys.",
+    "whereToLook": {
+      "scene": "Oversized coloring book along the queue",
+      "exactSpot": "The drawing inserted between the pages."
+    },
+    "bestTip": "Read it. It is the ride's backstory in one page.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0020",
+    "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "backyard-coaster-queue-dog-tag",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "backyard_coaster",
+    "display": {
+      "entryTitle": "Queue Dog Tag",
+      "parkName": "Studios Park",
+      "landName": "Toy Blocks Area",
+      "attractionName": "Backyard Coaster"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Queue",
+    "description": "A dog tag in the queue is engraved with the name of the boy's real dog, the dachshund who barrels through the second movie.",
+    "whereToLook": {
+      "scene": "Props along the queue",
+      "exactSpot": "The oversized dog tag. Read the name."
+    },
+    "bestTip": "It hangs at about eye level for a kid, so lower your gaze.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0019",
+    "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "backyard-coaster-queue-penguin-box-mickey",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "backyard_coaster",
+    "display": {
+      "entryTitle": "Queue Penguin Box Mickey",
+      "parkName": "Studios Park",
+      "landName": "Toy Blocks Area",
+      "attractionName": "Backyard Coaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "Near the boarding area, a squeaky penguin toy sits in its packaging. A classic Hidden Mickey is reported in the artwork on the box.",
+    "whereToLook": {
+      "scene": "Toy packaging near the boarding area",
+      "exactSpot": "The squeaky penguin's box. Read the printed artwork."
+    },
+    "bestTip": "It is close to the loading platform, so look while the row ahead boards.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0010",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-slinky-dog-dash",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "bayou-log-flume-bobcat-fur-spots-mickey",
@@ -853,6 +1249,42 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "boulevard-photo-shop-dalmatian-spot-mickey",
+    "parkId": "studios_park",
+    "landId": "boulevard_area",
+    "attractionId": "boulevard_photo_shop",
+    "display": {
+      "entryTitle": "Dalmatian Spot Mickey",
+      "parkName": "Studios Park",
+      "landName": "Boulevard Area",
+      "attractionName": "Boulevard Photo Shop"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "A dalmatian figure stands near the entrance of the photo shop on the boulevard. Among its spots, one is a classic three-circle Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Dalmatian statue near the shop entrance",
+      "exactSpot": "The dog's spots. Look for one spot with two smaller spots attached as ears."
+    },
+    "bestTip": "Walk all the way around the dog. The Mickey spot is not on the side facing the door.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0001",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-dalmatian",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "canada-totem-pole-mickey",
@@ -3620,6 +4052,258 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "hotel-drop-tower-boiler-room-stain-mickey",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Boiler Room Stain Mickey",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Hotel Drop Tower"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "In the boiler room part of the queue, a water stain on the wall is reported to have the classic three-circle shape. The room is dim and the walls are full of stains, so this one takes patience.",
+    "whereToLook": {
+      "scene": "Boiler room queue after the library",
+      "exactSpot": "A stain on the wall. Look for three joined rounded marks rather than a drip."
+    },
+    "bestTip": "Walk the boiler room slowly and check the walls at eye level.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0039",
+    "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "hotel-drop-tower-broken-spectacles",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Broken Spectacles",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Hotel Drop Tower"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "A pair of broken eyeglasses sits among the props, a nod to the famous episode about a bookworm who finally gets all the time in the world to read, then breaks his glasses.",
+    "whereToLook": {
+      "scene": "Props in the hotel lobby and library",
+      "exactSpot": "A pair of spectacles with a cracked lens."
+    },
+    "bestTip": "The props are dressed to look forgotten. Read the shelves and side tables slowly.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0042",
+    "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "hotel-drop-tower-inspection-certificate-name",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Inspection Certificate Name",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Hotel Drop Tower"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "The elevator inspection certificate near the loading area is signed by an inspector named Cadwallader. That is the name of the devil in one of the anthology show's best-known episodes.",
+    "whereToLook": {
+      "scene": "Loading area before the elevator doors",
+      "exactSpot": "The framed inspection certificate on the wall. Read the signature."
+    },
+    "bestTip": "Look while the cast member is loading the row ahead of you.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0043",
+    "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "hotel-drop-tower-library-sheet-music",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Library Sheet Music",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Hotel Drop Tower"
+    },
+    "entryType": "FACT",
+    "locationType": "Pre-show",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Among the props in the library is sheet music for a real 1932 song that asks, in its title, whether there is no Mickey Mouse. It is a period joke with a wink to the mouse that built the place.",
+    "whereToLook": {
+      "scene": "Library where the pre-show film plays",
+      "exactSpot": "The sheet music among the shelves and props. Look for the title with a question mark."
+    },
+    "bestTip": "Look before the lights dim. Once the film starts, the props are hard to read.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0041",
+    "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "hotel-drop-tower-lobby-directory-warning",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Lobby Directory Warning",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Hotel Drop Tower"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The elevator directory in the hotel lobby lists the floors and their services. Read the first letters down the list and they spell out a warning about taking the stairs.",
+    "whereToLook": {
+      "scene": "Elevator directory board in the lobby",
+      "exactSpot": "The listing on the directory. Read the first letter of each line from top to bottom."
+    },
+    "bestTip": "Look while you wait to be called into the library. It is right by the elevator doors.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0013",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-tower-terror-hidden-message",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "hotel-drop-tower-lobby-thirteen-diamond-plaque",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Thirteen Diamond Plaque",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Hotel Drop Tower"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "A hotel rating plaque in the lobby awards the place thirteen diamonds. Real ratings top out at five, so this one is a joke about the hotel's supernatural standards.",
+    "whereToLook": {
+      "scene": "Plaques on the lobby wall",
+      "exactSpot": "The auto club style rating plaque. Count the diamonds."
+    },
+    "bestTip": "It is near the front desk. Look up from the guest register.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0044",
+    "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "hotel-drop-tower-star-field-mickey",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "display": {
+      "entryTitle": "Star Field Mickey",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Hotel Drop Tower"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the star field of the fifth dimension scene, before the drops begin, the stars briefly line up into a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Fifth dimension corridor with the star field",
+      "exactSpot": "Watch the stars ahead of the vehicle as it rolls through the corridor. The shape appears for a moment."
+    },
+    "bestTip": "Keep your eyes forward and up through the corridor instead of bracing for the drop.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0040",
+    "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "hotel-tower-lobby-balcony-mickeys",
     "parkId": "studios_park",
     "landId": "sunset_area",
@@ -4263,6 +4947,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "lunch-box-counter-mom-note",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "lunch_box_counter",
+    "display": {
+      "entryTitle": "Lunch Box Mom Note",
+      "parkName": "Studios Park",
+      "landName": "Toy Blocks Area",
+      "attractionName": "Lunch Box Counter"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Outdoor Display",
+    "description": "A note from the boy's mother is posted at the lunch counter, signed off with a deputy message that echoes the cowboy sheriff's famous catchphrase.",
+    "whereToLook": {
+      "scene": "Note posted at the counter",
+      "exactSpot": "The handwritten note. Read the closing line."
+    },
+    "bestTip": "Look while you wait for your order.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0021",
+    "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "magic-shop-ceiling-card-mickey",
     "parkId": "california_kingdom_park",
     "landId": "main_street_area",
@@ -4413,6 +5133,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "mermaid-stage-show-sign-mickey",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "mermaid_stage_show",
+    "display": {
+      "entryTitle": "Attraction Sign Mickey",
+      "parkName": "Studios Park",
+      "landName": "Animation Courtyard Area",
+      "attractionName": "Mermaid Stage Show"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The sign for the undersea stage show has a small Mickey motif worked into its design.",
+    "whereToLook": {
+      "scene": "Attraction sign at the theater entrance",
+      "exactSpot": "In the decorative details of the sign. Look for three circles among the waves and shells."
+    },
+    "bestTip": "Stand back so you can read the whole sign at once.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0012",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-little-mermaid",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "mexico-pyramid-boat-finale-barge-drums-mickey",
     "parkId": "showcase_park",
     "landId": "mexico_pavilion",
@@ -4524,6 +5280,150 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "midway-shooter-exit-purple-bull-patch-mickey",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "midway_shooter",
+    "display": {
+      "entryTitle": "Exit Purple Bull Patch Mickey",
+      "parkName": "Studios Park",
+      "landName": "Toy Blocks Area",
+      "attractionName": "Midway Shooter"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "On the exit route past the giant playing cards, a purple bull cutout stands against the wall. A patch on the bull's side forms a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Exit route beyond the large playing cards",
+      "exactSpot": "The purple bull cutout. Look at the patch on its side."
+    },
+    "bestTip": "Let the crowd go ahead and step to the side of the bull.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0006",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-rodeo-bull",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "midway-shooter-exit-tin-toy-book",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "midway_shooter",
+    "display": {
+      "entryTitle": "Exit Tin Toy Book",
+      "parkName": "Studios Park",
+      "landName": "Toy Blocks Area",
+      "attractionName": "Midway Shooter"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "Past the glasses return, a book on display is titled for the tin toy short that won the animation studio its first Academy Award and led directly to the toy movies.",
+    "whereToLook": {
+      "scene": "Exit route beyond the 3D glasses return",
+      "exactSpot": "A book among the props. Read the title."
+    },
+    "bestTip": "Look after you drop your glasses, before the exit doors.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0018",
+    "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "midway-shooter-loading-box-barcode-date",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "midway_shooter",
+    "display": {
+      "entryTitle": "Loading Box Barcode Date",
+      "parkName": "Studios Park",
+      "landName": "Toy Blocks Area",
+      "attractionName": "Midway Shooter"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "A toy box near the loading area carries the barcode 121506. Read it as a date and it is December 15, 2006, the day the attraction was announced.",
+    "whereToLook": {
+      "scene": "Toy boxes near the loading area",
+      "exactSpot": "The barcode on the box. Read the digits."
+    },
+    "bestTip": "Look at the boxes stacked around the loading platform, not the ones in the queue.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0017",
+    "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "midway-shooter-queue-viewer-reel-future-land",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "midway_shooter",
+    "display": {
+      "entryTitle": "Queue Viewer Reel",
+      "parkName": "Studios Park",
+      "landName": "Toy Blocks Area",
+      "attractionName": "Midway Shooter"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "A giant stereoscopic viewer reel in the queue shows pictures of the original California park's early future-themed land, as it looked decades ago.",
+    "whereToLook": {
+      "scene": "Oversized toys along the queue",
+      "exactSpot": "The picture reel. Look at the images printed on it."
+    },
+    "bestTip": "The queue is full of oversized toys. This one rewards reading the tiny pictures.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0016",
+    "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "mine-train-lift-hill-pickaxe-mickey",
@@ -5481,6 +6381,405 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "rock-show-coaster-alley-balcony-chairs",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "display": {
+      "entryTitle": "Alley Balcony Chairs",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Rock Show Coaster"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Queue",
+    "description": "In the alley section of the queue, two chairs sit on a balcony overlooking the street. They are for the two grumpy old critics who heckled the park's former 3D show from a box just like it.",
+    "whereToLook": {
+      "scene": "Alley section of the queue",
+      "exactSpot": "Balcony above the alley. Two empty chairs."
+    },
+    "bestTip": "Look up. The alley is dressed at every height.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0025",
+    "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rock-show-coaster-alley-mona-lisa",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "display": {
+      "entryTitle": "Alley Mona Lisa",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Rock Show Coaster"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "A Mona Lisa hangs in the alley, a leftover from the Italian restaurant that once stood nearby and hung the same painting on its walls.",
+    "whereToLook": {
+      "scene": "Alley section of the queue",
+      "exactSpot": "A framed Mona Lisa on the alley wall."
+    },
+    "bestTip": "She is smaller than you expect. Check the walls between the doors.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0027",
+    "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rock-show-coaster-alley-pizza-boxes",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "display": {
+      "entryTitle": "Alley Pizza Boxes",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Rock Show Coaster"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Queue",
+    "description": "Stacked pizza boxes in the alley carry the name of the rat's pizzeria that used to serve the park. The restaurant is gone, but the boxes made it into the queue.",
+    "whereToLook": {
+      "scene": "Alley section of the queue",
+      "exactSpot": "The stack of pizza boxes. Read the logo."
+    },
+    "bestTip": "They are near ground level, easy to walk past while looking up at the balcony.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0026",
+    "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rock-show-coaster-exit-creator-portrait",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "display": {
+      "entryTitle": "Exit Creator Portrait",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Rock Show Coaster"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Exit",
+    "description": "On the way out, a portrait of the troupe's creator hangs on the wall. It used to hang in the pre-show of the park's former 3D show and was moved here when that show closed.",
+    "whereToLook": {
+      "scene": "Exit corridor",
+      "exactSpot": "The framed portrait of a bearded man on the wall."
+    },
+    "bestTip": "Slow down on the exit ramp. It is on the wall, not in the gift shop.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0029",
+    "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rock-show-coaster-gallery-frog-banjo",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "display": {
+      "entryTitle": "Instrument Gallery Frog Banjo",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Rock Show Coaster"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Queue",
+    "description": "The instrument gallery in the queue includes a banjo built to match the one the famous green frog plays. It is the first thing many fans look for.",
+    "whereToLook": {
+      "scene": "Instrument gallery along the queue",
+      "exactSpot": "The banjo in the display cases."
+    },
+    "bestTip": "The gallery is worth a slow walk. Every instrument belongs to somebody.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0022",
+    "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rock-show-coaster-gallery-lead-guitar",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "display": {
+      "entryTitle": "Instrument Gallery Lead Guitar",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Rock Show Coaster"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The band's lead guitarist has his guitar in the gallery, built to match the instrument he plays in the show and a nod to the performer who originated the character.",
+    "whereToLook": {
+      "scene": "Instrument gallery along the queue",
+      "exactSpot": "The guitar labeled for the band's lead guitarist."
+    },
+    "bestTip": "Read the placards. The labels tell you whose instrument is whose.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0023",
+    "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rock-show-coaster-gallery-rhythm-guitar",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "display": {
+      "entryTitle": "Instrument Gallery Rhythm Guitar",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Rock Show Coaster"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The band's laid-back guitarist has her guitar in the gallery too, matching the one she plays and tipping its hat to the performer behind her.",
+    "whereToLook": {
+      "scene": "Instrument gallery along the queue",
+      "exactSpot": "The guitar labeled for the band's rhythm guitarist."
+    },
+    "bestTip": "Look for the placard next to the lead guitar. They sit close together.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0024",
+    "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rock-show-coaster-squeakeasy-sign-year",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "display": {
+      "entryTitle": "Squeakeasy Sign Year",
+      "parkName": "Studios Park",
+      "landName": "Sunset Area",
+      "attractionName": "Rock Show Coaster"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The sign for the squeakeasy is dated 1936. That is the birth year of the man who created the whole troupe of felt performers.",
+    "whereToLook": {
+      "scene": "Squeakeasy sign along the queue",
+      "exactSpot": "The year on the sign."
+    },
+    "bestTip": "Read the small print on every sign in this queue. Most of it means something.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Documented",
+    "status": "Current",
+    "sourceId": "TLC-HS-0028",
+    "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rodeo-barbecue-corn-kernels-mickey",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "rodeo_barbecue_restaurant",
+    "display": {
+      "entryTitle": "Corn Kernels Mickey",
+      "parkName": "Studios Park",
+      "landName": "Toy Blocks Area",
+      "attractionName": "Rodeo Barbecue Restaurant"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the dining room, the corn illustration behind the popcorn character has a cluster of kernels at the top of the cob that forms a classic three-circle Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Corn illustration behind the popcorn character in the dining room",
+      "exactSpot": "Top of the corn cob. Three kernels set as head and ears."
+    },
+    "bestTip": "Find the popcorn character first, then look at what is painted behind him.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Table service; a reservation gets you inside."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0007",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-roundup-rodeo-bbq-corn",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rodeo-barbecue-cow-spot-mickey",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "rodeo_barbecue_restaurant",
+    "display": {
+      "entryTitle": "Cow Spot Mickey",
+      "parkName": "Studios Park",
+      "landName": "Toy Blocks Area",
+      "attractionName": "Rodeo Barbecue Restaurant"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "A painted cow in the dining room has a spot on its side that resembles a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Cow illustration in the dining room",
+      "exactSpot": "The cow's side. Look at the spots for one shaped like three circles."
+    },
+    "bestTip": "Ask for a table with a view of the cow if you are going on purpose.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Table service; a reservation gets you inside."
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0008",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-roundup-rodeo-bbq-cow",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rodeo-barbecue-mobile-circles-mickey",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "rodeo_barbecue_restaurant",
+    "display": {
+      "entryTitle": "Mobile Circles Mickey",
+      "parkName": "Studios Park",
+      "landName": "Toy Blocks Area",
+      "attractionName": "Rodeo Barbecue Restaurant"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "A mobile hangs above the shepherdess figure in the dining room. From the right spot on the floor, its circular pieces line up into a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Hanging mobile above the shepherdess figure",
+      "exactSpot": "Look up at the mobile and move until three of the circles overlap into the shape."
+    },
+    "bestTip": "It turns with the air conditioning, so give it a minute.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far",
+      "notes": "Table service; a reservation gets you inside."
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0009",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-roundup-rodeo-bbq",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "rotating-theater-christmas-nutcracker-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "future_city_area",
@@ -5821,6 +7120,78 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "smugglers-freighter-cockpit-miniature-ship",
+    "parkId": "studios_park",
+    "landId": "smugglers_outpost_area",
+    "attractionId": "smugglers_freighter_ride",
+    "display": {
+      "entryTitle": "Cockpit Miniature Ship",
+      "parkName": "Studios Park",
+      "landName": "Smugglers Outpost Area",
+      "attractionName": "Smugglers Freighter Ride"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "The full-size freighter parked outside the ride has a tiny copy of itself built into the underside of its cockpit. A ship inside a ship, for anyone who thinks to look up.",
+    "whereToLook": {
+      "scene": "Full-size freighter outside the attraction",
+      "exactSpot": "Under the cockpit, on the side of the ship where the cockpit juts out. Look up at the greebles."
+    },
+    "bestTip": "Stand under the cockpit rather than in front of the ship, where everyone takes their photo.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0002",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-hidden-millenium-falcoln",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "smugglers-freighter-entrance-floor-mickey",
+    "parkId": "studios_park",
+    "landId": "smugglers_outpost_area",
+    "attractionId": "smugglers_freighter_ride",
+    "display": {
+      "entryTitle": "Entrance Floor Mickey",
+      "parkName": "Studios Park",
+      "landName": "Smugglers Outpost Area",
+      "attractionName": "Smugglers Freighter Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Entrance",
+    "description": "In the floor at the entrance to the freighter queue, a small grouping of marks is reported to form a classic Hidden Mickey. The outpost was designed to hide almost no Mickeys, which makes this one worth a look.",
+    "whereToLook": {
+      "scene": "Floor at the queue entrance",
+      "exactSpot": "Look straight down as you pass through the entrance. The shape is small."
+    },
+    "bestTip": "Go when the line is short so you can stop and study the floor without holding people up.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0004",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-millennium-falcon-smugglers-run",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "snowy-mountain-approach-climbing-gear-mickey",
@@ -6175,6 +7546,42 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "star-flight-outdoor-tree-trunk-white-mickey",
+    "parkId": "studios_park",
+    "landId": "echo_lake_area",
+    "attractionId": "star_flight_simulator",
+    "display": {
+      "entryTitle": "Outdoor Tree Trunk White Mickey",
+      "parkName": "Studios Park",
+      "landName": "Echo Lake Area",
+      "attractionName": "Star Flight Simulator"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the outdoor queue, opposite the giant walker and beneath the furry forest creatures' platform, a white classic Hidden Mickey marks the trunk of a tree.",
+    "whereToLook": {
+      "scene": "Outdoor queue beneath the tree platform, across from the walker",
+      "exactSpot": "On the trunk of the tree, below the platform."
+    },
+    "bestTip": "Stand where you can see the walker and turn around. The tree is behind you.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-HS-0015",
+    "sourceUrl": "https://www.celebrationspress.com/issues/Celebrations-Issue-1-DV46852.pdf",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "star-flight-queue-window-droid-mickey",

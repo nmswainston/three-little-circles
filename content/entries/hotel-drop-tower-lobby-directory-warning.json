@@ -1,0 +1,36 @@
+{
+  "id": "hotel-drop-tower-lobby-directory-warning",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "hotel_drop_tower",
+  "display": {
+    "entryTitle": "Lobby Directory Warning",
+    "parkName": "Studios Park",
+    "landName": "Sunset Area",
+    "attractionName": "Hotel Drop Tower"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The elevator directory in the hotel lobby lists the floors and their services. Read the first letters down the list and they spell out a warning about taking the stairs.",
+  "whereToLook": {
+    "scene": "Elevator directory board in the lobby",
+    "exactSpot": "The listing on the directory. Read the first letter of each line from top to bottom."
+  },
+  "bestTip": "Look while you wait to be called into the library. It is right by the elevator doors.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0013",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-tower-terror-hidden-message",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

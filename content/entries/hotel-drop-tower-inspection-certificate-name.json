@@ -1,0 +1,36 @@
+{
+  "id": "hotel-drop-tower-inspection-certificate-name",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "hotel_drop_tower",
+  "display": {
+    "entryTitle": "Inspection Certificate Name",
+    "parkName": "Studios Park",
+    "landName": "Sunset Area",
+    "attractionName": "Hotel Drop Tower"
+  },
+  "entryType": "FACT",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Loading",
+  "description": "The elevator inspection certificate near the loading area is signed by an inspector named Cadwallader. That is the name of the devil in one of the anthology show's best-known episodes.",
+  "whereToLook": {
+    "scene": "Loading area before the elevator doors",
+    "exactSpot": "The framed inspection certificate on the wall. Read the signature."
+  },
+  "bestTip": "Look while the cast member is loading the row ahead of you.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0043",
+  "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

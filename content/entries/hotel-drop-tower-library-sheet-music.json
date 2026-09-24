@@ -1,0 +1,36 @@
+{
+  "id": "hotel-drop-tower-library-sheet-music",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "hotel_drop_tower",
+  "display": {
+    "entryTitle": "Library Sheet Music",
+    "parkName": "Studios Park",
+    "landName": "Sunset Area",
+    "attractionName": "Hotel Drop Tower"
+  },
+  "entryType": "FACT",
+  "locationType": "Pre-show",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "Among the props in the library is sheet music for a real 1932 song that asks, in its title, whether there is no Mickey Mouse. It is a period joke with a wink to the mouse that built the place.",
+  "whereToLook": {
+    "scene": "Library where the pre-show film plays",
+    "exactSpot": "The sheet music among the shelves and props. Look for the title with a question mark."
+  },
+  "bestTip": "Look before the lights dim. Once the film starts, the props are hard to read.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0041",
+  "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

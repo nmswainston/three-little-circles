@@ -1,0 +1,37 @@
+{
+  "id": "rodeo-barbecue-cow-spot-mickey",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "rodeo_barbecue_restaurant",
+  "display": {
+    "entryTitle": "Cow Spot Mickey",
+    "parkName": "Studios Park",
+    "landName": "Toy Blocks Area",
+    "attractionName": "Rodeo Barbecue Restaurant"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "A painted cow in the dining room has a spot on its side that resembles a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Cow illustration in the dining room",
+    "exactSpot": "The cow's side. Look at the spots for one shaped like three circles."
+  },
+  "bestTip": "Ask for a table with a view of the cow if you are going on purpose.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "Table service; a reservation gets you inside."
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0008",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-roundup-rodeo-bbq-cow",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "hotel-drop-tower-lobby-thirteen-diamond-plaque",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "hotel_drop_tower",
+  "display": {
+    "entryTitle": "Thirteen Diamond Plaque",
+    "parkName": "Studios Park",
+    "landName": "Sunset Area",
+    "attractionName": "Hotel Drop Tower"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "A hotel rating plaque in the lobby awards the place thirteen diamonds. Real ratings top out at five, so this one is a joke about the hotel's supernatural standards.",
+  "whereToLook": {
+    "scene": "Plaques on the lobby wall",
+    "exactSpot": "The auto club style rating plaque. Count the diamonds."
+  },
+  "bestTip": "It is near the front desk. Look up from the guest register.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0044",
+  "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

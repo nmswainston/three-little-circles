@@ -1,0 +1,36 @@
+{
+  "id": "animation-gallery-lost-and-found-donkey-tail",
+  "parkId": "studios_park",
+  "landId": "animation_courtyard_area",
+  "attractionId": "animation_gallery",
+  "display": {
+    "entryTitle": "Lost and Found Donkey Tail",
+    "parkName": "Studios Park",
+    "landName": "Animation Courtyard Area",
+    "attractionName": "Animation Gallery"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "Also in the lost-and-found is a small pinned-on tail. It belongs to the gloomy donkey from the hundred-acre wood, who is forever losing it.",
+  "whereToLook": {
+    "scene": "Lost-and-found shelf at reception",
+    "exactSpot": "A short tail with a bow, pinned among the objects."
+  },
+  "bestTip": "It is small and grey. Look low on the shelf.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0031",
+  "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

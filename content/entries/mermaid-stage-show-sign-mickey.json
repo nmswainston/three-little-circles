@@ -1,0 +1,36 @@
+{
+  "id": "mermaid-stage-show-sign-mickey",
+  "parkId": "studios_park",
+  "landId": "animation_courtyard_area",
+  "attractionId": "mermaid_stage_show",
+  "display": {
+    "entryTitle": "Attraction Sign Mickey",
+    "parkName": "Studios Park",
+    "landName": "Animation Courtyard Area",
+    "attractionName": "Mermaid Stage Show"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "The sign for the undersea stage show has a small Mickey motif worked into its design.",
+  "whereToLook": {
+    "scene": "Attraction sign at the theater entrance",
+    "exactSpot": "In the decorative details of the sign. Look for three circles among the waves and shells."
+  },
+  "bestTip": "Stand back so you can read the whole sign at once.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0012",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-little-mermaid",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
