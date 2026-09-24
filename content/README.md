@@ -74,6 +74,7 @@ What the importer does for you:
 | `status` | no | `Current`, `Unverified` (desk researched, not yet checked in person), `Seasonal`, `Variable` (depends on props that move), `Removed` (kept for history, gone from the park). Shown as a chip on the detail screen except for `Current`. |
 | `accessNotes` | no | free text: what a guest needs to reach the spot, such as resort or dining access |
 | `coordinates` | no | `latitude` and `longitude` as decimal degrees. Entries without coordinates are listed on the map screen but not pinned. |
+| `image` | no | `file` (a photo in `content/images/`), `alt` (required, what it shows), `credit` (optional). See [content/images/README.md](images/README.md) for the rules. Blurred in the app until revealed while hints are on. |
 | `sourceId` | no | the find's id in the research spreadsheet, for example `TLC-MK-0001`. Unique across entries; the reconcile script matches on it. |
 | `sourceUrl` | no | primary evidence URL. Kept for research, never shown to guests. |
 | `createdAtISO`, `updatedAtISO` | no | ISO 8601 timestamps |

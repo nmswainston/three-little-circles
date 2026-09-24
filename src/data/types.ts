@@ -57,6 +57,19 @@ export type Coordinates = {
   longitude: number;
 };
 
+/**
+ * A reference photo bundled with the app, from content/images. While hints are
+ * on and the entry is unfound it renders blurred until the guest reveals it.
+ */
+export type EntryImage = {
+  /** File name under content/images, for example "pirates-exit-bells-mickey.jpg". */
+  file: string;
+  /** What the photo shows, for screen readers and for when it fails to load. */
+  alt: string;
+  /** Who took it, shown under the photo. */
+  credit?: string;
+};
+
 export type WhereToLook = {
   scene: string;
   exactSpot: string;
@@ -94,6 +107,9 @@ export type HiddenMickeyEntry = {
 
   /** Where to drop a map pin. Entries without coordinates are listed but not pinned. */
   coordinates?: Coordinates;
+
+  /** A reference photo. Entries without one show no photo card. */
+  image?: EntryImage;
 
   /** Id of this find in the research spreadsheet, for example TLC-MK-0001. Unique across entries. */
   sourceId?: string;
