@@ -1,0 +1,37 @@
+{
+  "id": "wedding-pavilion-restroom-mirror-clock",
+  "parkId": "resorts_bucket",
+  "landId": "grand_floridian_resort",
+  "attractionId": "wedding_pavilion",
+  "display": {
+    "entryTitle": "Restroom Mirror Clock",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Grand Floridian Resort",
+    "attractionName": "Disney's Wedding Pavilion"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "A clock design on the restroom mirror in the pavilion is set permanently to just before midnight, so the spell never breaks.",
+  "whereToLook": {
+    "scene": "Restroom mirror in the pavilion",
+    "exactSpot": "The clock in the mirror design. Check the time."
+  },
+  "bestTip": "It is in the restroom, so this one takes a little nerve.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Documented",
+  "status": "Unverified",
+  "accessNotes": "The pavilion is used for weddings. Visit between events or ask at the resort about viewing times.",
+  "sourceId": "TLC-RS-0081",
+  "sourceUrl": "https://disneyparksblog.com/weddings/5-little-known-facts-about-disneys-iconic-wedding-pavilion/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

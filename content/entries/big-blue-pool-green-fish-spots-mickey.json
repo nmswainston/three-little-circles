@@ -1,0 +1,37 @@
+{
+  "id": "big-blue-pool-green-fish-spots-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "art_of_animation_resort",
+  "attractionId": "big_blue_pool",
+  "display": {
+    "entryTitle": "Green Fish Spots Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Art of Animation Resort",
+    "attractionName": "The Big Blue Pool"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "Viewed from the lobby, a green fish stands left of the big pool. Its blue spots include a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Green fish figure left of the pool as seen from the lobby",
+    "exactSpot": "The blue spots on the fish. Look for three set as head and ears."
+  },
+  "bestTip": "Line it up from the lobby windows first, then walk out to it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Pool and recreation areas are for registered resort guests.",
+  "sourceId": "TLC-RS-0039",
+  "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

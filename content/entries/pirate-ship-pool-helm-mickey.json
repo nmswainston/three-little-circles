@@ -1,0 +1,37 @@
+{
+  "id": "pirate-ship-pool-helm-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "caribbean_beach_resort",
+  "attractionId": "pirate_ship_pool",
+  "display": {
+    "entryTitle": "Pirate Ship Helm Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Caribbean Beach Resort",
+    "attractionName": "Fuentes del Morro Pool"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "On the children's pirate ship at the main pool, a classic Hidden Mickey is worked into the helm beside the wheel.",
+  "whereToLook": {
+    "scene": "Children's pirate ship at the main pool",
+    "exactSpot": "The helm. Look beside the ship's wheel."
+  },
+  "bestTip": "Go when the kids' pool is quiet.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Pool and recreation areas are for registered resort guests.",
+  "sourceId": "TLC-RS-0082",
+  "sourceUrl": "https://www.disneycaribbeanbeach.com/content/caribbean-beach-resort-hidden-mickeys/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

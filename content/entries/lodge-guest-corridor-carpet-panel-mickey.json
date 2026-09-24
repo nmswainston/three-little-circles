@@ -1,0 +1,36 @@
+{
+  "id": "lodge-guest-corridor-carpet-panel-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "guest_corridors",
+  "display": {
+    "entryTitle": "Guest Corridor Carpet Panel Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "Guest Corridors"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "The carpet in the guest corridors repeats a pattern of rectangular panels. One panel design contains a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Carpet in the guest room corridors",
+    "exactSpot": "Look down and read one repeat of the pattern. The Mickey is inside a rectangular panel."
+  },
+  "bestTip": "Stand still and read one full repeat before moving on.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0021",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

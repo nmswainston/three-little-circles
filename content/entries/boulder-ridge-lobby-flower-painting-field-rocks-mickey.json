@@ -1,0 +1,36 @@
+{
+  "id": "boulder-ridge-lobby-flower-painting-field-rocks-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "wilderness_lodge_resort",
+  "attractionId": "boulder_ridge_villas_lobby",
+  "display": {
+    "entryTitle": "Flower Painting Field Rocks Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Wilderness Lodge Resort",
+    "attractionName": "Boulder Ridge Villas Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In the same flower painting, a second grouping of rocks in the open field forms another classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Flower painting on the right side of the villas lobby",
+    "exactSpot": "The open field, away from the river. Look for three rocks together."
+  },
+  "bestTip": "After the river, move your eyes to the meadow.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0053",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

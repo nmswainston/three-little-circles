@@ -1,0 +1,36 @@
+{
+  "id": "wilderness-lobby-fireplace-canyon-strata",
+  "parkId": "resorts_bucket",
+  "landId": "wilderness_lodge_resort",
+  "attractionId": "lobby_and_grounds",
+  "display": {
+    "entryTitle": "Fireplace Canyon Strata",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Wilderness Lodge Resort",
+    "attractionName": "Lobby and Grounds"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "The layered stonework of the lobby fireplace is not random. It models the rock layers of the Grand Canyon in order, from the oldest at the bottom to the youngest at the top.",
+  "whereToLook": {
+    "scene": "Main stone fireplace in the lobby",
+    "exactSpot": "Read the bands of stone from bottom to top."
+  },
+  "bestTip": "A plaque nearby explains the layers if you want the geology.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0059",
+  "sourceUrl": "https://disneyparksblog.com/wdw/5-hidden-details-at-disneys-wilderness-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

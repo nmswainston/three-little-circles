@@ -1,0 +1,36 @@
+{
+  "id": "riviera-west-elevator-carpet-duck",
+  "parkId": "resorts_bucket",
+  "landId": "riviera_resort",
+  "attractionId": "guest_corridors",
+  "display": {
+    "entryTitle": "West Elevator Carpet Duck",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Riviera Resort",
+    "attractionName": "Guest Corridors"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "The carpet by the west elevators has a circular pattern, and the sailor-suited duck is hidden inside it.",
+  "whereToLook": {
+    "scene": "Carpet at the west elevators",
+    "exactSpot": "The circular motif. Look for a bill and cap in the pattern."
+  },
+  "bestTip": "Two characters hide in this carpet. The duck's bill is the giveaway.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0045",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

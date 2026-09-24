@@ -1,0 +1,36 @@
+{
+  "id": "wilderness-lobby-fireplace-stones-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "wilderness_lodge_resort",
+  "attractionId": "lobby_and_grounds",
+  "display": {
+    "entryTitle": "Fireplace Stones Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Wilderness Lodge Resort",
+    "attractionName": "Lobby and Grounds"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The main stone fireplace in the lobby rises through the whole building. A classic Hidden Mickey hides among its stones.",
+  "whereToLook": {
+    "scene": "Main stone fireplace in the lobby",
+    "exactSpot": "Scan the layered stones for three rounded ones set together."
+  },
+  "bestTip": "Look from the upper balconies too; the fireplace is several stories tall.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Documented",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0058",
+  "sourceUrl": "https://disneyparksblog.com/wdw/5-hidden-details-at-disneys-wilderness-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

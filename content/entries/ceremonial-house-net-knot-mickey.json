@@ -1,0 +1,36 @@
+{
+  "id": "ceremonial-house-net-knot-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "polynesian_village_resort",
+  "attractionId": "great_ceremonial_house",
+  "display": {
+    "entryTitle": "Overhead Net Knot Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Polynesian Village Resort",
+    "attractionName": "Great Ceremonial House"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "A fishing net is strung overhead in the ceremonial house. At one junction, the rope is knotted into a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Fishing net strung overhead",
+    "exactSpot": "Follow the net to its junctions and look for three loops together."
+  },
+  "bestTip": "Look from directly beneath the net.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Far"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0029",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

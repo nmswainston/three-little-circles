@@ -1,0 +1,36 @@
+{
+  "id": "grand-lobby-marble-floor-dog",
+  "parkId": "resorts_bucket",
+  "landId": "grand_floridian_resort",
+  "attractionId": "grand_lobby",
+  "display": {
+    "entryTitle": "Marble Floor Dog",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Grand Floridian Resort",
+    "attractionName": "Grand Lobby"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The loyal yellow dog is also in the marble floor inlay.",
+  "whereToLook": {
+    "scene": "Character inlay in the marble lobby floor",
+    "exactSpot": "Look for the long nose and floppy ears in profile."
+  },
+  "bestTip": "Third of four in the inlay.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0072",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

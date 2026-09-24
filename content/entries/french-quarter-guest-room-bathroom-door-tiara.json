@@ -1,0 +1,37 @@
+{
+  "id": "french-quarter-guest-room-bathroom-door-tiara",
+  "parkId": "resorts_bucket",
+  "landId": "port_orleans_french_quarter_resort",
+  "attractionId": "guest_rooms",
+  "display": {
+    "entryTitle": "Bathroom Door Tiara",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Port Orleans French Quarter Resort",
+    "attractionName": "Guest Rooms"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In the refurbished guest rooms, the decorative pattern on the bathroom door works in the tiara of the princess who spent her movie as a frog. It is the resort's new theme, hidden in plain sight.",
+  "whereToLook": {
+    "scene": "Refurbished guest room",
+    "exactSpot": "The ornament on the bathroom door. Look for a crown shape in the pattern."
+  },
+  "bestTip": "Look at the door with the room lights on; the pattern is subtle.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Documented",
+  "status": "Current",
+  "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
+  "sourceId": "TLC-RS-0061",
+  "sourceUrl": "https://disneyparksblog.com/wdw/new-rooms-at-port-orleans-french-quarter/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

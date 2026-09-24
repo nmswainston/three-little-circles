@@ -1,0 +1,36 @@
+{
+  "id": "cape-may-corridor-sandcastle-picture-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "yacht_and_beach_club_resort",
+  "attractionId": "cape_may_cafe",
+  "display": {
+    "entryTitle": "Corridor Sandcastle Picture Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Yacht and Beach Club Resort",
+    "attractionName": "Cape May Cafe"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "In the corridor behind the cafe, a picture of a sandcastle hides a full Mickey figure in the artwork.",
+  "whereToLook": {
+    "scene": "Corridor behind the restaurant",
+    "exactSpot": "The sandcastle picture. Look for a full figure, not just circles."
+  },
+  "bestTip": "Walk the corridor after your meal.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0065",
+  "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

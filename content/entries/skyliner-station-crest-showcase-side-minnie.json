@@ -1,0 +1,36 @@
+{
+  "id": "skyliner-station-crest-showcase-side-minnie",
+  "parkId": "resorts_bucket",
+  "landId": "riviera_resort",
+  "attractionId": "skyliner_station",
+  "display": {
+    "entryTitle": "Station Crest Minnie",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Riviera Resort",
+    "attractionName": "Disney Skyliner Station"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "On the opposite side of the gondola station, facing the showcase park, the roof crest carries the same ornament with a bow, making it Minnie.",
+  "whereToLook": {
+    "scene": "Roof crest of the gondola station",
+    "exactSpot": "The side facing the showcase park. Look for the bow on the ornament."
+  },
+  "bestTip": "Find the Mickey side first, then walk around.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0049",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

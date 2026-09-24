@@ -1,0 +1,36 @@
+{
+  "id": "ceremonial-house-suspended-orbs-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "polynesian_village_resort",
+  "attractionId": "great_ceremonial_house",
+  "display": {
+    "entryTitle": "Suspended Orbs Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Polynesian Village Resort",
+    "attractionName": "Great Ceremonial House"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "Colorful orbs hang from the ceiling of the ceremonial house. From the right spot, three of them align into a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Hanging orbs in the lobby",
+    "exactSpot": "Look up and move until three orbs stack into the shape."
+  },
+  "bestTip": "Try from the stairs, where you are closer to their height.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Far"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0028",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

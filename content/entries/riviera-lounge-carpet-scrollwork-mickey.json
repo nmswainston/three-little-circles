@@ -1,0 +1,36 @@
+{
+  "id": "riviera-lounge-carpet-scrollwork-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "riviera_resort",
+  "attractionId": "guest_corridors",
+  "display": {
+    "entryTitle": "Lounge Carpet Scrollwork Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Riviera Resort",
+    "attractionName": "Guest Corridors"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "In the carpet just past the lobby lounge, the scrollwork outlines a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Carpet past the lobby lounge",
+    "exactSpot": "Look down at the scrollwork pattern for three circles together."
+  },
+  "bestTip": "It repeats, so one look at a full pattern tile is enough.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0043",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

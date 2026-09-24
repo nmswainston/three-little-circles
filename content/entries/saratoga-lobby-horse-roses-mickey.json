@@ -1,0 +1,36 @@
+{
+  "id": "saratoga-lobby-horse-roses-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "saratoga_springs_resort",
+  "attractionId": "lobby_approach",
+  "display": {
+    "entryTitle": "Lobby Horse Roses Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Saratoga Springs Resort",
+    "attractionName": "Lobby Approach"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "The horse near the lobby is decorated with roses. Among them, a grouping of three forms a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Horse figure near the lobby entrance",
+    "exactSpot": "The roses on the horse. Look for three arranged as head and ears."
+  },
+  "bestTip": "Walk all the way around the horse.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0090",
+  "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2026/03/01/saratoga-springs-resort-hidden-mickey",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

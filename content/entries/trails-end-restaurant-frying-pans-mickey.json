@@ -1,0 +1,36 @@
+{
+  "id": "trails-end-restaurant-frying-pans-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "fort_wilderness_campground",
+  "attractionId": "trails_end_restaurant",
+  "display": {
+    "entryTitle": "Frying Pans Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Fort Wilderness Resort & Campground",
+    "attractionName": "Trail's End Restaurant"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "On the wall of the seating area, hanging frying pans are arranged with one large pan and two smaller ones as ears, a classic Hidden Mickey in cast iron.",
+  "whereToLook": {
+    "scene": "Wall of the seating area",
+    "exactSpot": "The hanging frying pans. One large, two small."
+  },
+  "bestTip": "Look at the walls while you wait for a table at the buffet.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0012",
+  "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-trails-end-restaurant-and-crocketts-tavern-frying-pan-hidden-mickey-and-spoked-wheel-hidden-mickey/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
