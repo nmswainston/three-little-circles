@@ -1,0 +1,36 @@
+{
+  "id": "disneystyle-pavement-dark-stones-mickey",
+  "parkId": "springs_bucket",
+  "landId": "west_side",
+  "attractionId": "disneystyle_shop",
+  "display": {
+    "entryTitle": "Pavement Dark Stones Mickey",
+    "parkName": "Disney Springs",
+    "landName": "West Side",
+    "attractionName": "DisneyStyle"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "In the pavement beside the shop, on the way toward the coffee place, dark stones are set into the paving as a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Pavement beside the shop, heading toward the coffee shop",
+    "exactSpot": "Look down at the paving for a cluster of darker stones in the three-circle shape."
+  },
+  "bestTip": "Walk it slowly in the shade; the contrast shows better without glare.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-DS-0004",
+  "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
