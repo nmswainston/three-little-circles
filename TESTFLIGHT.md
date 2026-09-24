@@ -34,11 +34,13 @@ should surprise you at submit time.
    Connect for the bundle id above. Check the name "Three Little Circles" is
    available when you create the record.
 2. EAS environment variables, since `.env` never leaves your machine. Set
-   them for `production` and again for `preview`:
+   them for `production`, `preview`, and `development`:
    `SUPABASE_URL` and `SUPABASE_ANON_KEY` (plain text; the anon key is public
    by design) and `GOOGLE_MAPS_ANDROID_API_KEY` (sensitive; Android only).
    Without the first two, the build ships with reports and suggestions
-   switched off. Each profile in `eas.json` names the environment it loads.
+   switched off. Each profile in `eas.json` names the environment it loads,
+   and the development client bakes the Android map key in at build time, so
+   the README's dev-build workflow needs the `development` set as well.
 3. Confirm the privacy policy is live: open
    https://nmswainston.github.io/three-little-circles/privacy.html in a
    browser and expect the page, not a 404. GitHub Pages must be serving the
@@ -66,11 +68,27 @@ Review. Paste the review notes below when it asks.
 - Home screen name. "Three Little Circles" is longer than iOS shows under an
   icon, so it will be cut short on the home screen. A shorter
   `CFBundleDisplayName` is a branding call, not a technical one.
-- App Privacy answers. Location (precise, app functionality, not linked to
-  the user, not used for tracking). Photos and user content (only when a
-  sighting is submitted, not linked). Identifiers (the random install id sent
-  with submissions and reports; declare it as a device identifier used for
-  app functionality, not linked, not tracking). Nothing else is collected.
+- App Privacy answers. Apple only counts data that leaves the phone, so
+  location is "not collected": it is read on the device to place you on the
+  map and is never sent. What does leave the phone, all of it for app
+  functionality and none of it for tracking:
+  - Contact Info, Name: only if the person types one and ticks the credit
+    box on a suggestion.
+  - User Content, Photos and Other User Content: the suggestion itself
+    (park, land, attraction, title, where to look, difficulty, location
+    type, and the attached photo), and a "Still there?" report (the entry
+    and a seen or missing answer). A report is something the person chooses
+    to send, so it counts as content rather than Product Interaction, the
+    Usage Data type for taps and scrolling an app records on its own.
+  - Identifiers: the random install id sent with each suggestion (Device
+    ID), and the anonymous session id the server issues for "Still there?"
+    reports (User ID).
+
+  Answer "linked to the user" for all three. A suggestion row holds the
+  install id, the text, the photo path, and sometimes a real name together,
+  and Apple's question is whether the data can be tied to a person, not
+  whether it usually is. The app version and platform sent alongside are not
+  a data type Apple asks about.
 - Trademarks. The names of real parks and attractions appear as plain text,
   the app ships no logos, characters, or artwork, and the disclaimer is on the
   intro, the Parks screen, and Profile. The review notes below make that case.
