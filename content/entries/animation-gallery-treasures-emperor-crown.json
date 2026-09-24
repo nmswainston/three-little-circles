@@ -1,0 +1,36 @@
+{
+  "id": "animation-gallery-treasures-emperor-crown",
+  "parkId": "studios_park",
+  "landId": "animation_courtyard_area",
+  "attractionId": "animation_gallery",
+  "display": {
+    "entryTitle": "Treasures Exhibit Emperor Crown",
+    "parkName": "Studios Park",
+    "landName": "Animation Courtyard Area",
+    "attractionName": "Animation Gallery"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "A gold crown in the treasures exhibit belongs to the self-absorbed emperor who spent most of his movie as a llama.",
+  "whereToLook": {
+    "scene": "Treasures exhibit cases",
+    "exactSpot": "The gold crown."
+  },
+  "bestTip": "Look for the tall pointed shape rather than a round crown.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0036",
+  "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "hotel-drop-tower-boiler-room-stain-mickey",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "hotel_drop_tower",
+  "display": {
+    "entryTitle": "Boiler Room Stain Mickey",
+    "parkName": "Studios Park",
+    "landName": "Sunset Area",
+    "attractionName": "Hotel Drop Tower"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "In the boiler room part of the queue, a water stain on the wall is reported to have the classic three-circle shape. The room is dim and the walls are full of stains, so this one takes patience.",
+  "whereToLook": {
+    "scene": "Boiler room queue after the library",
+    "exactSpot": "A stain on the wall. Look for three joined rounded marks rather than a drip."
+  },
+  "bestTip": "Walk the boiler room slowly and check the walls at eye level.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0039",
+  "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

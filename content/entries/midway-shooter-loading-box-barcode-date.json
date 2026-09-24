@@ -1,0 +1,36 @@
+{
+  "id": "midway-shooter-loading-box-barcode-date",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "midway_shooter",
+  "display": {
+    "entryTitle": "Loading Box Barcode Date",
+    "parkName": "Studios Park",
+    "landName": "Toy Blocks Area",
+    "attractionName": "Midway Shooter"
+  },
+  "entryType": "FACT",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Loading",
+  "description": "A toy box near the loading area carries the barcode 121506. Read it as a date and it is December 15, 2006, the day the attraction was announced.",
+  "whereToLook": {
+    "scene": "Toy boxes near the loading area",
+    "exactSpot": "The barcode on the box. Read the digits."
+  },
+  "bestTip": "Look at the boxes stacked around the loading platform, not the ones in the queue.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0017",
+  "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

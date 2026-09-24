@@ -1,0 +1,36 @@
+{
+  "id": "backyard-coaster-queue-penguin-box-mickey",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "backyard_coaster",
+  "display": {
+    "entryTitle": "Queue Penguin Box Mickey",
+    "parkName": "Studios Park",
+    "landName": "Toy Blocks Area",
+    "attractionName": "Backyard Coaster"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Loading",
+  "description": "Near the boarding area, a squeaky penguin toy sits in its packaging. A classic Hidden Mickey is reported in the artwork on the box.",
+  "whereToLook": {
+    "scene": "Toy packaging near the boarding area",
+    "exactSpot": "The squeaky penguin's box. Read the printed artwork."
+  },
+  "bestTip": "It is close to the loading platform, so look while the row ahead boards.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0010",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-slinky-dog-dash",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

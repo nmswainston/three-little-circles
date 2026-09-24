@@ -1,0 +1,36 @@
+{
+  "id": "rock-show-coaster-exit-creator-portrait",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "rock_show_coaster",
+  "display": {
+    "entryTitle": "Exit Creator Portrait",
+    "parkName": "Studios Park",
+    "landName": "Sunset Area",
+    "attractionName": "Rock Show Coaster"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Exit",
+  "description": "On the way out, a portrait of the troupe's creator hangs on the wall. It used to hang in the pre-show of the park's former 3D show and was moved here when that show closed.",
+  "whereToLook": {
+    "scene": "Exit corridor",
+    "exactSpot": "The framed portrait of a bearded man on the wall."
+  },
+  "bestTip": "Slow down on the exit ramp. It is on the wall, not in the gift shop.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0029",
+  "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

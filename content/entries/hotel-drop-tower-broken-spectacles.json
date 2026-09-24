@@ -1,0 +1,36 @@
+{
+  "id": "hotel-drop-tower-broken-spectacles",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "hotel_drop_tower",
+  "display": {
+    "entryTitle": "Broken Spectacles",
+    "parkName": "Studios Park",
+    "landName": "Sunset Area",
+    "attractionName": "Hotel Drop Tower"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "A pair of broken eyeglasses sits among the props, a nod to the famous episode about a bookworm who finally gets all the time in the world to read, then breaks his glasses.",
+  "whereToLook": {
+    "scene": "Props in the hotel lobby and library",
+    "exactSpot": "A pair of spectacles with a cracked lens."
+  },
+  "bestTip": "The props are dressed to look forgotten. Read the shelves and side tables slowly.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0042",
+  "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

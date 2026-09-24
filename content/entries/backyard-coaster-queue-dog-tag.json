@@ -1,0 +1,36 @@
+{
+  "id": "backyard-coaster-queue-dog-tag",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "backyard_coaster",
+  "display": {
+    "entryTitle": "Queue Dog Tag",
+    "parkName": "Studios Park",
+    "landName": "Toy Blocks Area",
+    "attractionName": "Backyard Coaster"
+  },
+  "entryType": "FACT",
+  "locationType": "Queue",
+  "difficulty": "Easy",
+  "areaContext": "Queue",
+  "description": "A dog tag in the queue is engraved with the name of the boy's real dog, the dachshund who barrels through the second movie.",
+  "whereToLook": {
+    "scene": "Props along the queue",
+    "exactSpot": "The oversized dog tag. Read the name."
+  },
+  "bestTip": "It hangs at about eye level for a kid, so lower your gaze.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0019",
+  "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
