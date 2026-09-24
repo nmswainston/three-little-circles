@@ -3313,6 +3313,78 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "disneystyle-pavement-dark-stones-mickey",
+    "parkId": "springs_bucket",
+    "landId": "west_side",
+    "attractionId": "disneystyle_shop",
+    "display": {
+      "entryTitle": "Pavement Dark Stones Mickey",
+      "parkName": "Disney Springs",
+      "landName": "West Side",
+      "attractionName": "DisneyStyle"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "In the pavement beside the shop, on the way toward the coffee place, dark stones are set into the paving as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Pavement beside the shop, heading toward the coffee shop",
+      "exactSpot": "Look down at the paving for a cluster of darker stones in the three-circle shape."
+    },
+    "bestTip": "Walk it slowly in the shade; the contrast shows better without glare.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0004",
+    "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "drawn-to-life-entrance-tile-circles-mickey",
+    "parkId": "springs_bucket",
+    "landId": "west_side",
+    "attractionId": "drawn_to_life_theater",
+    "display": {
+      "entryTitle": "Entrance Tile Circles Mickey",
+      "parkName": "Disney Springs",
+      "landName": "West Side",
+      "attractionName": "Drawn to Life Theater"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "At the theater entrance, in the corner by the men's restroom, three black circles are set into the white tile as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Theater entrance, corner near the men's restroom",
+      "exactSpot": "Look down at the white tile in the corner for three black circles."
+    },
+    "bestTip": "You do not need a show ticket to reach the entrance plaza.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0008",
+    "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "elevated-tram-belt-buckle-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "future_city_area",
@@ -3387,6 +3459,115 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "enzos-hideaway-booth-poster-mickey",
+    "parkId": "springs_bucket",
+    "landId": "the_landing",
+    "attractionId": "enzos_hideaway",
+    "display": {
+      "entryTitle": "Booth Poster Mickey",
+      "parkName": "Disney Springs",
+      "landName": "The Landing",
+      "attractionName": "Enzo's Hideaway"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "In the first booth on the right after the entry tunnel, a vintage poster hangs on the wall. A tiny classic Hidden Mickey is drawn above the poster's text, between the words for the month and the events.",
+    "whereToLook": {
+      "scene": "First booth on the right after the entry tunnel",
+      "exactSpot": "The poster. Look just above the printed text, between the month and the word for events."
+    },
+    "bestTip": "Ask for that booth, or peek in on the way to yours.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "A speakeasy-style restaurant. Reservations get you in; walk-ups at the bar are sometimes possible."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0002",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disney-springs-enzos-hideaway-booth-wall-poster-hidden-mickey/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "enzos-hideaway-corridor-music-note-mickey",
+    "parkId": "springs_bucket",
+    "landId": "the_landing",
+    "attractionId": "enzos_hideaway",
+    "display": {
+      "entryTitle": "Corridor Music Note Mickey",
+      "parkName": "Disney Springs",
+      "landName": "The Landing",
+      "attractionName": "Enzo's Hideaway"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Entrance",
+    "description": "In the entry corridor, sheet music is painted above the welcome nook. In the final bar of music, one note is drawn as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Entry corridor, above the welcome nook",
+      "exactSpot": "The sheet music on the wall. Read to the final bar and look at the notes."
+    },
+    "bestTip": "Look before the host seats you; the corridor is where you wait.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0005",
+    "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "exposition-park-planters-overhead-mickey",
+    "parkId": "springs_bucket",
+    "landId": "west_side",
+    "attractionId": "exposition_park",
+    "display": {
+      "entryTitle": "Planters Overhead Mickey",
+      "parkName": "Disney Springs",
+      "landName": "West Side",
+      "attractionName": "Exposition Park"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Outdoor Display",
+    "description": "Seen from above, the planting beds in the park are laid out as a classic Hidden Mickey. At ground level it is just landscaping.",
+    "whereToLook": {
+      "scene": "Planting beds in the park",
+      "exactSpot": "Find a spot with height, such as the upper walkways or a bridge, and look down at the layout of the beds."
+    },
+    "bestTip": "This one is about vantage point. Go up before you look down.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0010",
+    "sourceUrl": "https://mickeyvisit.com/hidden-mickeys-at-disney-world/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "family-treehouse-lamp-shells-mickey",
@@ -7695,6 +7876,43 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "maria-enzos-propeller-display-mickey",
+    "parkId": "springs_bucket",
+    "landId": "the_landing",
+    "attractionId": "maria_and_enzos_ristorante",
+    "display": {
+      "entryTitle": "Propeller Display Mickey",
+      "parkName": "Disney Springs",
+      "landName": "The Landing",
+      "attractionName": "Maria & Enzo's Ristorante"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The restaurant is themed as an old airline terminal. On the lower level, an airplane propeller display contains a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Airplane propeller display on the lower level",
+      "exactSpot": "The propeller display. Look at the hub and mounting hardware for three circles."
+    },
+    "bestTip": "Take the stairs down even if your table is upstairs.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Table-service restaurant; ask to look around if you are not dining."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0009",
+    "sourceUrl": "https://mickeyvisit.com/hidden-mickeys-at-disney-world/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "marina-lighthouse-boatyard-sign-mickey",
     "parkId": "resorts_bucket",
     "landId": "caribbean_beach_resort",
@@ -8374,6 +8592,78 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "photopass-studio-left-column-mickey",
+    "parkId": "springs_bucket",
+    "landId": "marketplace",
+    "attractionId": "photopass_studio",
+    "display": {
+      "entryTitle": "Left Column Mickey",
+      "parkName": "Disney Springs",
+      "landName": "Marketplace",
+      "attractionName": "Disney PhotoPass Studio"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Inside the photo studio, the column to the left of the counter carries a classic Hidden Mickey in its detailing.",
+    "whereToLook": {
+      "scene": "Counter area inside the studio",
+      "exactSpot": "The column on the left of the counter. Look at its decoration."
+    },
+    "bestTip": "There are two, one on each column. Start left.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0006",
+    "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "photopass-studio-right-column-mickey",
+    "parkId": "springs_bucket",
+    "landId": "marketplace",
+    "attractionId": "photopass_studio",
+    "display": {
+      "entryTitle": "Right Column Mickey",
+      "parkName": "Disney Springs",
+      "landName": "Marketplace",
+      "attractionName": "Disney PhotoPass Studio"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The column to the right of the counter carries a second, separate classic Hidden Mickey in its detailing.",
+    "whereToLook": {
+      "scene": "Counter area inside the studio",
+      "exactSpot": "The column on the right of the counter. Look at its decoration."
+    },
+    "bestTip": "It is a different detail from the left column, not a mirror of it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0007",
+    "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "pirate-boat-queue-gun-cabinet-locks-mickey",
@@ -11092,6 +11382,42 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "splitsville-upstairs-mural-bowling-shapes-mickey",
+    "parkId": "springs_bucket",
+    "landId": "west_side",
+    "attractionId": "splitsville_luxury_lanes",
+    "display": {
+      "entryTitle": "Upstairs Mural Bowling Shapes Mickey",
+      "parkName": "Disney Springs",
+      "landName": "West Side",
+      "attractionName": "Splitsville Luxury Lanes"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The upstairs mural with the orange background is full of bowling imagery. Three black bowling shapes are set together as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Upstairs mural with the orange background",
+      "exactSpot": "Three black bowling shapes on the orange. One large, two small."
+    },
+    "bestTip": "Head upstairs even if you are bowling downstairs; the mural is on the upper level.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-DS-0003",
+    "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "star-flight-outdoor-tree-trunk-white-mickey",

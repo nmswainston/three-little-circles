@@ -1,0 +1,36 @@
+{
+  "id": "photopass-studio-left-column-mickey",
+  "parkId": "springs_bucket",
+  "landId": "marketplace",
+  "attractionId": "photopass_studio",
+  "display": {
+    "entryTitle": "Left Column Mickey",
+    "parkName": "Disney Springs",
+    "landName": "Marketplace",
+    "attractionName": "Disney PhotoPass Studio"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "Inside the photo studio, the column to the left of the counter carries a classic Hidden Mickey in its detailing.",
+  "whereToLook": {
+    "scene": "Counter area inside the studio",
+    "exactSpot": "The column on the left of the counter. Look at its decoration."
+  },
+  "bestTip": "There are two, one on each column. Start left.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-DS-0006",
+  "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
