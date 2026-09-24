@@ -36,9 +36,13 @@ should surprise you at submit time.
 2. EAS environment variables, since `.env` never leaves your machine. Set
    them for `production`, `preview`, and `development`:
    `SUPABASE_URL` and `SUPABASE_ANON_KEY` (plain text; the anon key is public
-   by design) and `GOOGLE_MAPS_ANDROID_API_KEY` (sensitive; Android only).
-   Without the first two, the build ships with reports and suggestions
-   switched off. Each profile in `eas.json` names the environment it loads,
+   by design), `GOOGLE_MAPS_ANDROID_API_KEY` (sensitive; Android only), and
+   `EXPO_PUBLIC_FEEDBACK_EMAIL` (plain text; it is bundled into the app, so
+   use an address you are happy for testers to see). Without the first two,
+   the build ships with reports and suggestions switched off. Without the
+   last, Profile has no "Send feedback" button, since a button that goes
+   nowhere is worse than none. Each profile in `eas.json` names the
+   environment it loads,
    and the development client bakes the Android map key in at build time, so
    the README's dev-build workflow needs the `development` set as well.
 3. Confirm the privacy policy is live: open
@@ -215,7 +219,7 @@ suggesting.
 
 | Field | Value |
 | --- | --- |
-| Feedback email | the address you want tester replies sent to |
+| Feedback email | the address you want tester replies sent to; the same one as `EXPO_PUBLIC_FEEDBACK_EMAIL` keeps it simple |
 | Privacy policy URL | https://nmswainston.github.io/three-little-circles/privacy.html |
 | Marketing URL | optional, your GitHub repo works |
 | Beta App Review contact | your name, email, and phone |
