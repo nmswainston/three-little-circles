@@ -1,0 +1,36 @@
+{
+  "id": "ice-queen-boat-queue-spectacles-gears-mickey",
+  "parkId": "showcase_park",
+  "landId": "norway_pavilion",
+  "attractionId": "ice_queen_boat_ride",
+  "display": {
+    "entryTitle": "Queue Spectacles and Gears Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Norway Pavilion",
+    "attractionName": "Ice Queen Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Loading",
+  "description": "Just before boarding, a set of spectacles and gears sits among the trading post props. From one particular angle, the round parts overlap into a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Trading post props just before the boarding area",
+    "exactSpot": "The spectacles and gears. Move your head until the circles line up."
+  },
+  "bestTip": "Find it while the row ahead boards; you will not have time once your boat arrives.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0014",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-frozen-ever-after",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

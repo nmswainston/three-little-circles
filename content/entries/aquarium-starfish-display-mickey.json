@@ -1,0 +1,36 @@
+{
+  "id": "aquarium-starfish-display-mickey",
+  "parkId": "showcase_park",
+  "landId": "nature_area",
+  "attractionId": "aquarium_pavilion",
+  "display": {
+    "entryTitle": "Starfish Display Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Nature Area",
+    "attractionName": "Aquarium Pavilion"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "A starfish-themed display in the aquarium pavilion contains a reported classic Hidden Mickey in its detailing.",
+  "whereToLook": {
+    "scene": "Starfish-themed display in the exhibit halls",
+    "exactSpot": "The decoration on the starfish display. Look for three circles among the arms and textures."
+  },
+  "bestTip": "It is in the exhibit halls after the ride, not in the ride itself.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0038",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-living-seas-aquarium-starfish",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

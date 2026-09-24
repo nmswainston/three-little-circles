@@ -77,6 +77,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "american-pavilion-lobby-picture-frame-mickey",
+    "parkId": "showcase_park",
+    "landId": "american_pavilion",
+    "attractionId": "rotunda_paintings",
+    "display": {
+      "entryTitle": "Lobby Picture Frame Mickey",
+      "parkName": "Showcase Park",
+      "landName": "American Pavilion",
+      "attractionName": "Rotunda Paintings"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "The paintings in the rotunda lobby hang in ornate carved frames. A classic Hidden Mickey is reported worked into the ornament of one of the frames.",
+    "whereToLook": {
+      "scene": "Framed paintings in the rotunda lobby",
+      "exactSpot": "The carved decoration of the frames, not the paintings. Look at the corners and the scrollwork."
+    },
+    "bestTip": "Take the frames one at a time while you wait for the show to load.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0009",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-united-states-pavillion-frame-design",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "american-pavilion-settlers-painting-horse-leg-mickey",
     "parkId": "showcase_park",
     "landId": "american_pavilion",
@@ -111,6 +147,42 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "american-pavilion-westward-painting-mickey",
+    "parkId": "showcase_park",
+    "landId": "american_pavilion",
+    "attractionId": "rotunda_paintings",
+    "display": {
+      "entryTitle": "Westward Painting Mickey",
+      "parkName": "Showcase Park",
+      "landName": "American Pavilion",
+      "attractionName": "Rotunda Paintings"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "The lobby painting of settlers heading west is reported to hide a classic three-circle Hidden Mickey somewhere in its scene, a companion to the horse-leg Mickey in the neighboring painting.",
+    "whereToLook": {
+      "scene": "Painting of the westward wagon train in the rotunda lobby",
+      "exactSpot": "Within the painted scene. Read the wagons, the sky, and the ground for three circles together."
+    },
+    "bestTip": "Get close. The painting is large and the shape is small.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0010",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-united-states-pavillion",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "animal-kingdom-lodge-carpets-lead",
@@ -743,6 +815,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "aquarium-shark-photo-area-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "aquarium_pavilion",
+    "display": {
+      "entryTitle": "Shark Photo Area Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Nature Area",
+      "attractionName": "Aquarium Pavilion"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "The shark exhibit's photo area, where kids pose with the big cartoon shark, has a classic Hidden Mickey reported in its decoration.",
+    "whereToLook": {
+      "scene": "Photo area of the shark exhibit",
+      "exactSpot": "The decoration around the photo backdrop and props."
+    },
+    "bestTip": "Wait for a gap between photo groups and read the whole set piece.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0037",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-living-seas-aquarium",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "aquarium-shark-room-poster-pearls-mickey",
     "parkId": "showcase_park",
     "landId": "nature_area",
@@ -777,6 +885,42 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "aquarium-starfish-display-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "aquarium_pavilion",
+    "display": {
+      "entryTitle": "Starfish Display Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Nature Area",
+      "attractionName": "Aquarium Pavilion"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "A starfish-themed display in the aquarium pavilion contains a reported classic Hidden Mickey in its detailing.",
+    "whereToLook": {
+      "scene": "Starfish-themed display in the exhibit halls",
+      "exactSpot": "The decoration on the starfish display. Look for three circles among the arms and textures."
+    },
+    "bestTip": "It is in the exhibit halls after the ride, not in the ride itself.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0038",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-living-seas-aquarium-starfish",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "art-animation-package-pickup-mickey",
@@ -1558,6 +1702,42 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  },
+  {
+    "id": "china-pavilion-gate-post-motif-mickey",
+    "parkId": "showcase_park",
+    "landId": "china_pavilion",
+    "attractionId": "pavilion_gate",
+    "display": {
+      "entryTitle": "Gate Post Motif Mickey",
+      "parkName": "Showcase Park",
+      "landName": "China Pavilion",
+      "attractionName": "Pavilion Gate"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The ornamental posts at the pavilion entrance are decorated with a repeating pattern. A three-circle motif recurs in that decoration.",
+    "whereToLook": {
+      "scene": "Ornamental gate posts at the pavilion entrance",
+      "exactSpot": "The decoration on the posts. Look for a repeated cluster of three circles."
+    },
+    "bestTip": "Look at the post from the side, where the pattern runs uninterrupted.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0011",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-s-china-pavillion-hidden-mickeys",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "colonial-square-walkway-beam-floral-mickey",
@@ -3029,6 +3209,126 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "geosphere-electronics-scene-desk-eraser-mickey",
+    "parkId": "showcase_park",
+    "landId": "celebration_area",
+    "attractionId": "geosphere_time_ride",
+    "display": {
+      "entryTitle": "Electronics Scene Desk Eraser Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Celebration Area",
+      "attractionName": "Geosphere Time Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the garage electronics scene, the desk is scattered with period clutter. An eraser on the desktop is reported to be shaped like a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Garage electronics scene",
+      "exactSpot": "The desktop. Look at the small items for an eraser in the three-circle shape."
+    },
+    "bestTip": "The vehicle turns slowly here. Watch the desk rather than the screen.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 28.3753,
+      "longitude": -81.5494
+    },
+    "sourceId": "TLC-EP-0031",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-eraser",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "geosphere-entrance-mural-satellite-mickey",
+    "parkId": "showcase_park",
+    "landId": "celebration_area",
+    "attractionId": "geosphere_time_ride",
+    "display": {
+      "entryTitle": "Entrance Mural Satellite Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Celebration Area",
+      "attractionName": "Geosphere Time Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The mural at the right of the entrance shows a satellite numbered 2350. A classic Hidden Mickey is concealed right beside the numbering.",
+    "whereToLook": {
+      "scene": "Entrance mural on the right as you walk in",
+      "exactSpot": "Find the satellite marked 2350 and look immediately beside the numbers."
+    },
+    "bestTip": "Look while you are still outside the queue; the mural is easier to see without the rail in the way.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 28.3753,
+      "longitude": -81.5494
+    },
+    "sourceId": "TLC-EP-0029",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "geosphere-renaissance-fruit-study-mickey",
+    "parkId": "showcase_park",
+    "landId": "celebration_area",
+    "attractionId": "geosphere_time_ride",
+    "display": {
+      "entryTitle": "Renaissance Fruit Study Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Celebration Area",
+      "attractionName": "Geosphere Time Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the Renaissance scene, the artist's fruit study is arranged so that the grouping depicts a Mickey silhouette. It is a companion to the three paint marks on the same painter's table.",
+    "whereToLook": {
+      "scene": "Renaissance painter's studio",
+      "exactSpot": "The fruit the artist is studying. Look at how the pieces are grouped."
+    },
+    "bestTip": "Find the painter first, then the paint marks, then the fruit.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 28.3753,
+      "longitude": -81.5494
+    },
+    "sourceId": "TLC-EP-0030",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-art",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "geosphere-renaissance-painter-table-mickey",
     "parkId": "showcase_park",
     "landId": "celebration_area",
@@ -3861,6 +4161,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "high-street-shops-ironwork-silhouette-mickey",
+    "parkId": "showcase_park",
+    "landId": "united_kingdom_pavilion",
+    "attractionId": "high_street_shops",
+    "display": {
+      "entryTitle": "Ironwork Silhouette Mickey",
+      "parkName": "Showcase Park",
+      "landName": "United Kingdom Pavilion",
+      "attractionName": "High Street Shops"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "Above the shops along the pavilion's high street, curved metal ornament decorates the facades. A Mickey silhouette is reported in the ironwork.",
+    "whereToLook": {
+      "scene": "Metal ornament above the shop fronts",
+      "exactSpot": "Look up at the curved ironwork over the shops. The shape sits in the curls."
+    },
+    "bestTip": "Stand across the street so you can see the whole facade at once.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0020",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-ironwork",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "homecomin-entrance-wall-painting-mickey",
     "parkId": "springs_bucket",
     "landId": "homecomin_restaurant",
@@ -4460,6 +4796,78 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "ice-queen-boat-queue-polar-bear-carving",
+    "parkId": "showcase_park",
+    "landId": "norway_pavilion",
+    "attractionId": "ice_queen_boat_ride",
+    "display": {
+      "entryTitle": "Queue Polar Bear Carving",
+      "parkName": "Showcase Park",
+      "landName": "Norway Pavilion",
+      "attractionName": "Ice Queen Boat Ride"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "High on a shelf inside the cottage section of the queue, a carved polar bear keeps watch. It is a tribute to the boat ride that occupied this building before the ice queen moved in, which had polar bears of its own.",
+    "whereToLook": {
+      "scene": "Cottage interior along the queue",
+      "exactSpot": "Up on a high shelf. Look for a small carved bear."
+    },
+    "bestTip": "Look up as soon as you enter the cottage; the shelf is above the doorway side.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0015",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-frozen-ever-after-hidden-tribute",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "ice-queen-boat-queue-spectacles-gears-mickey",
+    "parkId": "showcase_park",
+    "landId": "norway_pavilion",
+    "attractionId": "ice_queen_boat_ride",
+    "display": {
+      "entryTitle": "Queue Spectacles and Gears Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Norway Pavilion",
+      "attractionName": "Ice Queen Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Loading",
+    "description": "Just before boarding, a set of spectacles and gears sits among the trading post props. From one particular angle, the round parts overlap into a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Trading post props just before the boarding area",
+      "exactSpot": "The spectacles and gears. Move your head until the circles line up."
+    },
+    "bestTip": "Find it while the row ahead boards; you will not have time once your boat arrives.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0014",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-frozen-ever-after",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "ice-queen-boat-snowflakes-mickey",
     "parkId": "showcase_park",
     "landId": "norway_pavilion",
@@ -4531,6 +4939,78 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "imagination-dragon-sight-room-illustration-mickey",
+    "parkId": "showcase_park",
+    "landId": "celebration_area",
+    "attractionId": "imagination_dragon_ride",
+    "display": {
+      "entryTitle": "Sight Room Illustration Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Celebration Area",
+      "attractionName": "Imagination Dragon Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the sight sequence, the wall is covered in optical-illusion drawings. A classic Hidden Mickey is reported among the visual-perception illustrations.",
+    "whereToLook": {
+      "scene": "Sight lab with the optical illusion drawings",
+      "exactSpot": "The illustrations on the wall. Look for three circles hidden in one of the diagrams."
+    },
+    "bestTip": "The vehicle pauses here. Use the pause to read the wall.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0019",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-imagination-ride",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "italy-neptune-fountain-ornament-mickey",
+    "parkId": "showcase_park",
+    "landId": "italy_pavilion",
+    "attractionId": "neptune_fountain",
+    "display": {
+      "entryTitle": "Fountain Ornament Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Italy Pavilion",
+      "attractionName": "Neptune Fountain"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "The sea-god fountain in the pavilion's piazza is covered in sculpted detail. A classic Hidden Mickey is reported in its ornament.",
+    "whereToLook": {
+      "scene": "Sea-god fountain in the piazza",
+      "exactSpot": "The sculpted decoration on the fountain. Look at the shells, waves, and figures for three circles together."
+    },
+    "bestTip": "Walk all the way around. The back is less crowded and just as detailed.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0023",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-neptune-s-fountain-italy-pavilion",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "japan-gallery-fridge-container-mickey",
@@ -4607,6 +5087,42 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "japan-koi-pond-rockwork-mickey",
+    "parkId": "showcase_park",
+    "landId": "japan_pavilion",
+    "attractionId": "koi_pond_garden",
+    "display": {
+      "entryTitle": "Koi Pond Rockwork Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Japan Pavilion",
+      "attractionName": "Koi Pond Garden"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Outdoor Display",
+    "description": "The koi pond in the pavilion's garden is edged with placed stones. One arrangement of three rocks along the edge is reported to read as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Koi pond in the garden beside the pavilion",
+      "exactSpot": "The rockwork along the pond edge. Look for one larger stone with two smaller ones set above it."
+    },
+    "bestTip": "Walk the full edge of the pond. The rocks only line up from the path side.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0004",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-japan-pavilion-koi-pond",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "jungle-boat-dock-rope-mickey",
@@ -4871,6 +5387,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "legacy-photo-panels-boy-band-portraits",
+    "parkId": "showcase_park",
+    "landId": "celebration_area",
+    "attractionId": "legacy_photo_panels",
+    "display": {
+      "entryTitle": "Boy Band Portraits",
+      "parkName": "Showcase Park",
+      "landName": "Celebration Area",
+      "attractionName": "Legacy Photo Panels"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The granite photo panels outside the park entrance hold thousands of tiny etched portraits from the turn of the millennium. Among them are the members of a certain Orlando boy band who were at their peak when the panels went in.",
+    "whereToLook": {
+      "scene": "Photo panels on the approach to the park entrance",
+      "exactSpot": "Panels on the left before the entry gates. Look for five familiar faces in a row."
+    },
+    "bestTip": "Bring patience or a fan who knows the panel number.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0013",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-finding-nsync-epcot",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "liberty-tree-tavern-farmhouse-painting-clouds-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "colonial_square_area",
@@ -4945,6 +5497,114 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "little-chef-exit-wall-design-mickey",
+    "parkId": "showcase_park",
+    "landId": "france_pavilion",
+    "attractionId": "little_chef_ride",
+    "display": {
+      "entryTitle": "Exit Wall Design Mickey",
+      "parkName": "Showcase Park",
+      "landName": "France Pavilion",
+      "attractionName": "Little Chef Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "The wall at the very end of the ride, where you leave the vehicle, carries a decorative design with a reported classic Hidden Mickey in it.",
+    "whereToLook": {
+      "scene": "Wall at the unload area",
+      "exactSpot": "The decorative pattern on the wall as you step out."
+    },
+    "bestTip": "Look at the wall before you look for the exit.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0025",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-remy-s-ratatouille-adventure",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "little-chef-queue-chef-animation-mickey",
+    "parkId": "showcase_park",
+    "landId": "france_pavilion",
+    "attractionId": "little_chef_ride",
+    "display": {
+      "entryTitle": "Queue Chef Animation Mickey",
+      "parkName": "Showcase Park",
+      "landName": "France Pavilion",
+      "attractionName": "Little Chef Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "In the queue, the animated image of the late great chef moves through a short loop. For a moment, the imagery is reported to form a Mickey-like shape.",
+    "whereToLook": {
+      "scene": "Animated chef display in the queue",
+      "exactSpot": "Watch the whole loop. The shape appears briefly and then dissolves."
+    },
+    "bestTip": "Stand where you can see the display through a full cycle.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0024",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-remy-s-ratatouille-adventure-gusteau",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "little-chef-street-scene-pizza-truck",
+    "parkId": "showcase_park",
+    "landId": "france_pavilion",
+    "attractionId": "little_chef_ride",
+    "display": {
+      "entryTitle": "Street Scene Pizza Truck",
+      "parkName": "Showcase Park",
+      "landName": "France Pavilion",
+      "attractionName": "Little Chef Ride"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the projected Paris street scenery, a small yellow pizza delivery truck drives past. It is the same truck that turns up in nearly every film from the animation studio that made this one.",
+    "whereToLook": {
+      "scene": "Projected street scenery during the ride",
+      "exactSpot": "Watch the traffic in the background of the street scene for a small yellow truck."
+    },
+    "bestTip": "It is on screen for a second or two. Watch the road, not the rats.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0026",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-remy-s-ratatouille-adventure-pizza-planet",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "lunch-box-counter-mom-note",
@@ -5091,6 +5751,43 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "marrakesh-restaurant-anteroom-painting-mickey",
+    "parkId": "showcase_park",
+    "landId": "morocco_pavilion",
+    "attractionId": "marrakesh_restaurant",
+    "display": {
+      "entryTitle": "Anteroom Painting Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Morocco Pavilion",
+      "attractionName": "Marrakesh Restaurant"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the room you pass through before the pavilion's sit-down restaurant, a painting is reported to hide a classic three-circle Hidden Mickey in its detail.",
+    "whereToLook": {
+      "scene": "Anteroom before the restaurant dining room",
+      "exactSpot": "The painting on the wall. Scan the pattern and background for three circles together."
+    },
+    "bestTip": "Ask at the podium whether you can step in to look if you are not dining.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "The restaurant has had long closures. Check that it is open and ask before entering the anteroom if you are not dining.",
+    "sourceId": "TLC-EP-0006",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-morocco-pavillion",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "memento-mori-wallpaper-beetle-mickey",
@@ -5242,6 +5939,42 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "mexico-pyramid-plaza-volcano-landscape-mickey",
+    "parkId": "showcase_park",
+    "landId": "mexico_pavilion",
+    "attractionId": "pyramid_interior_plaza",
+    "display": {
+      "entryTitle": "Volcano Landscape Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Mexico Pavilion",
+      "attractionName": "Pyramid Interior Plaza"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "Inside the pyramid, the twilight plaza looks out on a painted volcano. A classic three-circle shape is reported in the volcanic landscape around it.",
+    "whereToLook": {
+      "scene": "Painted volcano backdrop seen from the plaza inside the pyramid",
+      "exactSpot": "The scenery around the volcano, not the cone itself."
+    },
+    "bestTip": "The best view is from the restaurant side of the plaza, near the water.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0022",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-mexico-volcano",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "midway-shooter-circus-sign-exclamation-mickey",
@@ -6776,6 +7509,79 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "sourceId": "TLC-HS-0009",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-roundup-rodeo-bbq",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rose-and-crown-pub-sign-mickey",
+    "parkId": "showcase_park",
+    "landId": "united_kingdom_pavilion",
+    "attractionId": "rose_and_crown_pub",
+    "display": {
+      "entryTitle": "Pub Sign Mickey",
+      "parkName": "Showcase Park",
+      "landName": "United Kingdom Pavilion",
+      "attractionName": "Rose and Crown Pub"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The painted pub sign hanging outside has a classic Hidden Mickey worked into its decoration.",
+    "whereToLook": {
+      "scene": "Hanging pub sign at the entrance",
+      "exactSpot": "In the painted decoration around the rose and the crown."
+    },
+    "bestTip": "Both sides of the sign are painted. Check the one facing the water too.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0027",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-rose-crown-pub",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "rotating-garden-restaurant-mural-fern-face-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "rotating_garden_restaurant",
+    "display": {
+      "entryTitle": "Mural Fern Face Mickey",
+      "parkName": "Showcase Park",
+      "landName": "Nature Area",
+      "attractionName": "Rotating Garden Restaurant"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The large landscape mural in the rotating restaurant has a prominent fern on its left side. Behind the fern's right-hand leaves, roughly the fifth through eighth, a green Mickey face peers out.",
+    "whereToLook": {
+      "scene": "Large landscape mural in the dining room",
+      "exactSpot": "Left side of the mural. Find the big fern and count its right-hand leaves; the face is behind leaves five to eight."
+    },
+    "bestTip": "The restaurant rotates, so wait for the mural to come around to your table.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Table service; a reservation gets you inside."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-EP-0016",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-garden-grill",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },

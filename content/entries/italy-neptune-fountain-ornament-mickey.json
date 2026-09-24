@@ -1,0 +1,36 @@
+{
+  "id": "italy-neptune-fountain-ornament-mickey",
+  "parkId": "showcase_park",
+  "landId": "italy_pavilion",
+  "attractionId": "neptune_fountain",
+  "display": {
+    "entryTitle": "Fountain Ornament Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Italy Pavilion",
+    "attractionName": "Neptune Fountain"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "The sea-god fountain in the pavilion's piazza is covered in sculpted detail. A classic Hidden Mickey is reported in its ornament.",
+  "whereToLook": {
+    "scene": "Sea-god fountain in the piazza",
+    "exactSpot": "The sculpted decoration on the fountain. Look at the shells, waves, and figures for three circles together."
+  },
+  "bestTip": "Walk all the way around. The back is less crowded and just as detailed.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0023",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-neptune-s-fountain-italy-pavilion",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
