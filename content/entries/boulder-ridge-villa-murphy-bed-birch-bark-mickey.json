@@ -1,0 +1,37 @@
+{
+  "id": "boulder-ridge-villa-murphy-bed-birch-bark-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "wilderness_lodge_resort",
+  "attractionId": "boulder_ridge_guest_villas",
+  "display": {
+    "entryTitle": "Murphy Bed Birch Bark Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Wilderness Lodge Resort",
+    "attractionName": "Boulder Ridge Guest Villas"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In the guest villas, the artwork on the fold-down Murphy bed shows birch bark. A classic Hidden Mickey is painted into the bark.",
+  "whereToLook": {
+    "scene": "Murphy bed artwork in the villa",
+    "exactSpot": "The painted birch bark. Look at the markings for three circles."
+  },
+  "bestTip": "Fold the bed up and look at the artwork with the room lights on.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
+  "sourceId": "TLC-RS-0088",
+  "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2026/04/26/boulder-ridge-villas-hidden-mickey-painting",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

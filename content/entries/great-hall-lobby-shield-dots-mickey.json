@@ -1,0 +1,36 @@
+{
+  "id": "great-hall-lobby-shield-dots-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "great_hall_lobby",
+  "display": {
+    "entryTitle": "High Shield Dots Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "Great Hall Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "High on the wall of the great hall, a decorative shield carries three black dots arranged as a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Shields displayed high in the great hall",
+    "exactSpot": "Look up at the shields. One has three black dots set as head and ears."
+  },
+  "bestTip": "The upper balconies bring you level with the shields.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0019",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "savanna-overlook-vine-column-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "savanna_overlook",
+  "display": {
+    "entryTitle": "Vine Column Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "Savanna Overlook"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "On the approach to the savanna overlook, a column wrapped in vines has three of them curling into a classic Hidden Mickey high up.",
+  "whereToLook": {
+    "scene": "Vine-wrapped column on the way to the savanna overlook",
+    "exactSpot": "High on the column. Follow the vines up until three circles appear."
+  },
+  "bestTip": "Look up before you reach the overlook railing.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Low",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0023",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

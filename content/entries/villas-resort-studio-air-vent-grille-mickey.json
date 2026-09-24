@@ -1,0 +1,37 @@
+{
+  "id": "villas-resort-studio-air-vent-grille-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "grand_floridian_resort",
+  "attractionId": "villas_resort_studio",
+  "display": {
+    "entryTitle": "Resort Studio Air Vent Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Grand Floridian Resort",
+    "attractionName": "Villas Resort Studio"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In the villas' resort studios, the air vent grille is cut with a classic Hidden Mickey in its pattern.",
+  "whereToLook": {
+    "scene": "Air vent in the resort studio",
+    "exactSpot": "The grille. Look at the cutout pattern for three circles."
+  },
+  "bestTip": "The same grille hides a second surprise beside the Mickey.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
+  "sourceId": "TLC-RS-0078",
+  "sourceUrl": "https://www.disneyfoodblog.com/2022/03/09/photos-go-inside-the-new-rooms-coming-to-disneys-grand-floridian-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

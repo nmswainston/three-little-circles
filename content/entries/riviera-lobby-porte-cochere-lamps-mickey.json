@@ -1,0 +1,36 @@
+{
+  "id": "riviera-lobby-porte-cochere-lamps-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "riviera_resort",
+  "attractionId": "resort_lobby",
+  "display": {
+    "entryTitle": "Porte Cochere Lamps Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Riviera Resort",
+    "attractionName": "Resort Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "Under the covered entrance at the front of the resort, three ceiling lamps align into a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Ceiling of the covered entrance drive",
+    "exactSpot": "Look up at the lamps. Three of them sit as head and ears."
+  },
+  "bestTip": "Look up while you wait for the bus or a car.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0041",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

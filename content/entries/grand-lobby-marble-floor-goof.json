@@ -1,0 +1,36 @@
+{
+  "id": "grand-lobby-marble-floor-goof",
+  "parkId": "resorts_bucket",
+  "landId": "grand_floridian_resort",
+  "attractionId": "grand_lobby",
+  "display": {
+    "entryTitle": "Marble Floor Goof",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Grand Floridian Resort",
+    "attractionName": "Grand Lobby"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In the same marble floor inlay, the tall goof appears among the characters.",
+  "whereToLook": {
+    "scene": "Character inlay in the marble lobby floor",
+    "exactSpot": "Look for the hat and the long ears."
+  },
+  "bestTip": "Second of four in the inlay.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0071",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

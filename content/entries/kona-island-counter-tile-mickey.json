@@ -1,0 +1,36 @@
+{
+  "id": "kona-island-counter-tile-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "polynesian_village_resort",
+  "attractionId": "kona_island_coffee_bar",
+  "display": {
+    "entryTitle": "Counter Tile Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Polynesian Village Resort",
+    "attractionName": "Kona Island Coffee Bar"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Shop",
+  "description": "The tiles on the coffee bar counter beside the register include a classic Hidden Mickey design.",
+  "whereToLook": {
+    "scene": "Counter beside the register",
+    "exactSpot": "The tilework on the counter front. Look for three circles in the pattern."
+  },
+  "bestTip": "Look while you order.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0032",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

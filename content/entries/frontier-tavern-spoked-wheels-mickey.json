@@ -1,0 +1,37 @@
+{
+  "id": "frontier-tavern-spoked-wheels-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "fort_wilderness_campground",
+  "attractionId": "frontier_tavern",
+  "display": {
+    "entryTitle": "Spoked Wheels Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Fort Wilderness Resort & Campground",
+    "attractionName": "Crockett's Tavern"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "Low on the wall of the tavern, spoked wagon wheels form a tilted classic Hidden Mickey. It is easiest to see from the far end of the neighboring restaurant's seating.",
+  "whereToLook": {
+    "scene": "Lower wall of the tavern",
+    "exactSpot": "The spoked wheels. Stand at the far end of the restaurant seating and look across.",
+    "orientation": "Sideways"
+  },
+  "bestTip": "Distance helps. Close up, they are just wheels.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0013",
+  "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-trails-end-restaurant-and-crocketts-tavern-frying-pan-hidden-mickey-and-spoked-wheel-hidden-mickey/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

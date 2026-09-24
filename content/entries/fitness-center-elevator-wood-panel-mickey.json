@@ -1,0 +1,36 @@
+{
+  "id": "fitness-center-elevator-wood-panel-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "fitness_center_elevator",
+  "display": {
+    "entryTitle": "Elevator Wood Panel Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "Fitness Center Elevator"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "Beside the elevator near the fitness center, the wood panel on the right has a carved figure with circular ears on top of an elongated head.",
+  "whereToLook": {
+    "scene": "Elevator near the fitness center",
+    "exactSpot": "Right-hand wood panel. Look for two round ears above a stretched head shape."
+  },
+  "bestTip": "It is a stylized figure, not the classic three circles.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0022",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
