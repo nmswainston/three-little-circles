@@ -43,7 +43,7 @@ describe('ParkScreen', () => {
     expect(screen.getByText(`0 of ${entries.length} found`)).toBeTruthy();
     expect(screen.getByText(firstLand.landName)).toBeTruthy();
     const count = firstLand.attractions.length;
-    expect(screen.getByText(`${count} ${count === 1 ? 'attraction' : 'attractions'}`)).toBeTruthy();
+    expect(screen.getAllByText(`${count} ${count === 1 ? 'attraction' : 'attractions'}`).length).toBeGreaterThan(0);
     expect(screen.getAllByText(firstAttraction.attractionName).length).toBeGreaterThan(0);
     expect(screen.getAllByText(firstEntry.display!.entryTitle!).length).toBeGreaterThan(0);
   });

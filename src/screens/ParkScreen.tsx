@@ -104,7 +104,9 @@ export default function ParkScreen() {
     ({ section }: { section: SectionListData<AttractionItem, LandSection> }) => (
       <View style={[styles.rowPad, styles.sectionHeaderWrap]}>
         <View style={styles.sectionHeader}>
-          <Text style={styles.sectionTitle}>{section.landName}</Text>
+          <Text style={styles.sectionTitle} accessibilityRole="header">
+            {section.landName}
+          </Text>
           <Text style={styles.sectionMeta}>
             {section.attractions.length} {section.attractions.length === 1 ? "attraction" : "attractions"}
           </Text>

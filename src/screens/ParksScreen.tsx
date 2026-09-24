@@ -92,7 +92,11 @@ export default function ParksScreen() {
       }
       return (
         <View style={[styles.row, styles.regionGroup]}>
-          {region === undefined && <Text style={styles.regionTitle}>{item.region}</Text>}
+          {region === undefined && (
+            <Text style={styles.regionTitle} accessibilityRole="header">
+              {item.region}
+            </Text>
+          )}
           {item.destinations.map((d) => (
             <ParkCard
               key={d.parkId}

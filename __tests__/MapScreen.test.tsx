@@ -26,8 +26,22 @@ const park = [...parks]
 const visible = getAllEntries().filter((e) => e.parkId === park.parkId);
 const pinned = visible.filter((e) => e.coordinates);
 const unpinned = visible.filter((e) => !e.coordinates);
-const origin = pinned[0].coordinates!;
-const withinWalk = sortByDistance(pinned, origin).filter((n) => n.meters <= WALKING_RANGE_METERS).length;
+// Stand on a pin that does not already lead in source order, so a list that
+// merely kept source order would fail the ordering assertions below.
+const standingOn =
+  [...pinned].reverse().find((e) => sortByDistance(pinned, e.coordinates!)[0].item.id !== pinned[0].id) ?? pinned[0];
+const origin = standingOn.coordinates!;
+const sorted = sortByDistance(pinned, origin);
+const withinWalk = sorted.filter((n) => n.meters <= WALKING_RANGE_METERS).length;
+const title = (entry: (typeof pinned)[number]) => entry.display!.entryTitle!;
+
+/** Accessibility labels of the entry cards under the map, in render order. */
+function cardLabels() {
+  return screen
+    .getAllByRole('button')
+    .map((b) => (b.props.accessibilityLabel ?? b.props['aria-label']) as unknown)
+    .filter((l): l is string => typeof l === 'string' && /Right here|min walk|away$|No pin yet$/.test(l));
+}
 
 function renderPark() {
   render(<MapScreen />);
@@ -63,8 +77,10 @@ describe('MapScreen', () => {
     fireEvent.press(screen.getByLabelText('Show my location'));
     expect(await screen.findByText('Closest to you')).toBeTruthy();
     expect(screen.getByText(withinWalk === 0 ? 'None within a walk' : `${withinWalk} within a walk`)).toBeTruthy();
-    // Standing on the first pin: its card leads the list with no distance to walk.
-    expect(screen.getAllByText('Right here').length).toBeGreaterThan(0);
-    expect(screen.getAllByText(pinned[0].display!.entryTitle!).length).toBeGreaterThan(0);
+    // Closest first: the pin we stand on leads with no distance to walk, and
+    // the next-nearest pin follows it.
+    const cards = cardLabels();
+    expect(cards[0]).toBe(`${title(sorted[0].item)}, Right here`);
+    if (sorted.length > 1) expect(cards[1].startsWith(title(sorted[1].item))).toBe(true);
   });
 });
