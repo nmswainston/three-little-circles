@@ -70,6 +70,9 @@ export default {
       },
       edgeToEdgeEnabled: true,
       predictiveBackGestureEnabled: false,
+      // The Expo template asks to draw over other apps. Nothing here needs it,
+      // and it shows up on the Play listing's permission list.
+      blockedPermissions: ['android.permission.SYSTEM_ALERT_WINDOW'],
     },
     web: {
       favicon: './assets/favicon.png',
