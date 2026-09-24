@@ -1,0 +1,36 @@
+{
+  "id": "animation-gallery-lost-and-found-sundrop-flower",
+  "parkId": "studios_park",
+  "landId": "animation_courtyard_area",
+  "attractionId": "animation_gallery",
+  "display": {
+    "entryTitle": "Lost and Found Glowing Flower",
+    "parkName": "Studios Park",
+    "landName": "Animation Courtyard Area",
+    "attractionName": "Animation Gallery"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "A golden flower among the lost items is the magic sundrop flower that gave the long-haired princess her glowing hair.",
+  "whereToLook": {
+    "scene": "Lost-and-found shelf at reception",
+    "exactSpot": "The golden flower."
+  },
+  "bestTip": "It sits with the other props from the same shelf, so find the sphere first and work along.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0033",
+  "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

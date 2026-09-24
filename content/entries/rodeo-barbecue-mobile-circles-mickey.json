@@ -1,0 +1,37 @@
+{
+  "id": "rodeo-barbecue-mobile-circles-mickey",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "rodeo_barbecue_restaurant",
+  "display": {
+    "entryTitle": "Mobile Circles Mickey",
+    "parkName": "Studios Park",
+    "landName": "Toy Blocks Area",
+    "attractionName": "Rodeo Barbecue Restaurant"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "A mobile hangs above the shepherdess figure in the dining room. From the right spot on the floor, its circular pieces line up into a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Hanging mobile above the shepherdess figure",
+    "exactSpot": "Look up at the mobile and move until three of the circles overlap into the shape."
+  },
+  "bestTip": "It turns with the air conditioning, so give it a minute.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Far",
+    "notes": "Table service; a reservation gets you inside."
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0009",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-roundup-rodeo-bbq",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "lunch-box-counter-mom-note",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "lunch_box_counter",
+  "display": {
+    "entryTitle": "Lunch Box Mom Note",
+    "parkName": "Studios Park",
+    "landName": "Toy Blocks Area",
+    "attractionName": "Lunch Box Counter"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Outdoor Display",
+  "description": "A note from the boy's mother is posted at the lunch counter, signed off with a deputy message that echoes the cowboy sheriff's famous catchphrase.",
+  "whereToLook": {
+    "scene": "Note posted at the counter",
+    "exactSpot": "The handwritten note. Read the closing line."
+  },
+  "bestTip": "Look while you wait for your order.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0021",
+  "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

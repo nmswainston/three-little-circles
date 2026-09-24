@@ -1,0 +1,36 @@
+{
+  "id": "midway-shooter-exit-tin-toy-book",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "midway_shooter",
+  "display": {
+    "entryTitle": "Exit Tin Toy Book",
+    "parkName": "Studios Park",
+    "landName": "Toy Blocks Area",
+    "attractionName": "Midway Shooter"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "Past the glasses return, a book on display is titled for the tin toy short that won the animation studio its first Academy Award and led directly to the toy movies.",
+  "whereToLook": {
+    "scene": "Exit route beyond the 3D glasses return",
+    "exactSpot": "A book among the props. Read the title."
+  },
+  "bestTip": "Look after you drop your glasses, before the exit doors.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0018",
+  "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

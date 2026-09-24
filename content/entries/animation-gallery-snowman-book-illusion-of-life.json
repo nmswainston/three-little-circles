@@ -1,0 +1,36 @@
+{
+  "id": "animation-gallery-snowman-book-illusion-of-life",
+  "parkId": "studios_park",
+  "landId": "animation_courtyard_area",
+  "attractionId": "animation_gallery",
+  "display": {
+    "entryTitle": "Snowman Area Animation Book",
+    "parkName": "Studios Park",
+    "landName": "Animation Courtyard Area",
+    "attractionName": "Animation Gallery"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In the drawing area with the snowman, a book beneath him is the classic textbook on animation written by two of the studio's original nine master animators.",
+  "whereToLook": {
+    "scene": "Drawing area with the snowman figure",
+    "exactSpot": "The book underneath the snowman. Read the spine."
+  },
+  "bestTip": "Lean in. The title is on the spine, not the cover.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0037",
+  "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

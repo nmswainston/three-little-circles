@@ -1,0 +1,36 @@
+{
+  "id": "hotel-drop-tower-star-field-mickey",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "hotel_drop_tower",
+  "display": {
+    "entryTitle": "Star Field Mickey",
+    "parkName": "Studios Park",
+    "landName": "Sunset Area",
+    "attractionName": "Hotel Drop Tower"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the star field of the fifth dimension scene, before the drops begin, the stars briefly line up into a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Fifth dimension corridor with the star field",
+    "exactSpot": "Watch the stars ahead of the vehicle as it rolls through the corridor. The shape appears for a moment."
+  },
+  "bestTip": "Keep your eyes forward and up through the corridor instead of bracing for the drop.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Far"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-HS-0040",
+  "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "rock-show-coaster-alley-balcony-chairs",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "rock_show_coaster",
+  "display": {
+    "entryTitle": "Alley Balcony Chairs",
+    "parkName": "Studios Park",
+    "landName": "Sunset Area",
+    "attractionName": "Rock Show Coaster"
+  },
+  "entryType": "FACT",
+  "locationType": "Queue",
+  "difficulty": "Easy",
+  "areaContext": "Queue",
+  "description": "In the alley section of the queue, two chairs sit on a balcony overlooking the street. They are for the two grumpy old critics who heckled the park's former 3D show from a box just like it.",
+  "whereToLook": {
+    "scene": "Alley section of the queue",
+    "exactSpot": "Balcony above the alley. Two empty chairs."
+  },
+  "bestTip": "Look up. The alley is dressed at every height.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Current",
+  "sourceId": "TLC-HS-0025",
+  "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
