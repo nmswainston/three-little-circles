@@ -1,0 +1,36 @@
+{
+  "id": "conservation-hall-low-mural-frog-pupil-mickey",
+  "parkId": "adventure_park",
+  "landId": "conservation_outpost_area",
+  "attractionId": "conservation_exhibit_hall",
+  "display": {
+    "entryTitle": "Low Mural Frog Pupil Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Conservation Outpost Area",
+    "attractionName": "Conservation Exhibit Hall"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "On the low mural before the theater, a silver frog looks out at you. A Mickey profile fills its left pupil.",
+  "whereToLook": {
+    "scene": "Low mural just before the theater",
+    "exactSpot": "The silver frog. Look into its left eye."
+  },
+  "bestTip": "Crouch. The mural is low and the frog is near the floor.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-AK-0019",
+  "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

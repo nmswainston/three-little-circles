@@ -1,0 +1,36 @@
+{
+  "id": "little-chef-exit-wall-design-mickey",
+  "parkId": "showcase_park",
+  "landId": "france_pavilion",
+  "attractionId": "little_chef_ride",
+  "display": {
+    "entryTitle": "Exit Wall Design Mickey",
+    "parkName": "Showcase Park",
+    "landName": "France Pavilion",
+    "attractionName": "Little Chef Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "The wall at the very end of the ride, where you leave the vehicle, carries a decorative design with a reported classic Hidden Mickey in it.",
+  "whereToLook": {
+    "scene": "Wall at the unload area",
+    "exactSpot": "The decorative pattern on the wall as you step out."
+  },
+  "bestTip": "Look at the wall before you look for the exit.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0025",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-remy-s-ratatouille-adventure",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

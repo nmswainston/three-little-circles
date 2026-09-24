@@ -1,0 +1,36 @@
+{
+  "id": "american-pavilion-lobby-picture-frame-mickey",
+  "parkId": "showcase_park",
+  "landId": "american_pavilion",
+  "attractionId": "rotunda_paintings",
+  "display": {
+    "entryTitle": "Lobby Picture Frame Mickey",
+    "parkName": "Showcase Park",
+    "landName": "American Pavilion",
+    "attractionName": "Rotunda Paintings"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "The paintings in the rotunda lobby hang in ornate carved frames. A classic Hidden Mickey is reported worked into the ornament of one of the frames.",
+  "whereToLook": {
+    "scene": "Framed paintings in the rotunda lobby",
+    "exactSpot": "The carved decoration of the frames, not the paintings. Look at the corners and the scrollwork."
+  },
+  "bestTip": "Take the frames one at a time while you wait for the show to load.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0009",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-united-states-pavillion-frame-design",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

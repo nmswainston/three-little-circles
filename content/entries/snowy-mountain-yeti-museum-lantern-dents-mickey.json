@@ -1,0 +1,41 @@
+{
+  "id": "snowy-mountain-yeti-museum-lantern-dents-mickey",
+  "parkId": "adventure_park",
+  "landId": "asia_village_area",
+  "attractionId": "snowy_mountain_coaster",
+  "display": {
+    "entryTitle": "Yeti Museum Lantern Dents Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Asia Village Area",
+    "attractionName": "Snowy Mountain Coaster"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "In the yeti museum section of the queue, the second display holds a battered lantern. Three dents in its metal form a sideways classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Yeti museum in the standby queue, second display",
+    "exactSpot": "The lantern in the display case. Look at the dents in its side.",
+    "orientation": "Sideways"
+  },
+  "bestTip": "The museum is where the line slows. Take the displays in order and stop at the second.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3582,
+    "longitude": -81.5863
+  },
+  "sourceId": "TLC-AK-0028",
+  "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

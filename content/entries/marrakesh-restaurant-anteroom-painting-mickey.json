@@ -1,0 +1,37 @@
+{
+  "id": "marrakesh-restaurant-anteroom-painting-mickey",
+  "parkId": "showcase_park",
+  "landId": "morocco_pavilion",
+  "attractionId": "marrakesh_restaurant",
+  "display": {
+    "entryTitle": "Anteroom Painting Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Morocco Pavilion",
+    "attractionName": "Marrakesh Restaurant"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In the room you pass through before the pavilion's sit-down restaurant, a painting is reported to hide a classic three-circle Hidden Mickey in its detail.",
+  "whereToLook": {
+    "scene": "Anteroom before the restaurant dining room",
+    "exactSpot": "The painting on the wall. Scan the pattern and background for three circles together."
+  },
+  "bestTip": "Ask at the podium whether you can step in to look if you are not dining.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "The restaurant has had long closures. Check that it is open and ask before entering the anteroom if you are not dining.",
+  "sourceId": "TLC-EP-0006",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-morocco-pavillion",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

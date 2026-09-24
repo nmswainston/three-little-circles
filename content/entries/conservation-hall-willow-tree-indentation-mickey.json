@@ -1,0 +1,36 @@
+{
+  "id": "conservation-hall-willow-tree-indentation-mickey",
+  "parkId": "adventure_park",
+  "landId": "conservation_outpost_area",
+  "attractionId": "conservation_exhibit_hall",
+  "display": {
+    "entryTitle": "Willow Tree Indentation Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Conservation Outpost Area",
+    "attractionName": "Conservation Exhibit Hall"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The talking willow tree from the story of the Powhatan princess stands in the exhibit. Below her sign and to the right of her face, an indentation in the bark is shaped like a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Grandmother willow tree in the exhibit",
+    "exactSpot": "Below the sign, to the right of the face. Look for a three-circle dent in the bark."
+  },
+  "bestTip": "Look at the trunk, not the face.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-AK-0021",
+  "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

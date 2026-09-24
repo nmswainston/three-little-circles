@@ -1,0 +1,36 @@
+{
+  "id": "legacy-photo-panels-boy-band-portraits",
+  "parkId": "showcase_park",
+  "landId": "celebration_area",
+  "attractionId": "legacy_photo_panels",
+  "display": {
+    "entryTitle": "Boy Band Portraits",
+    "parkName": "Showcase Park",
+    "landName": "Celebration Area",
+    "attractionName": "Legacy Photo Panels"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "The granite photo panels outside the park entrance hold thousands of tiny etched portraits from the turn of the millennium. Among them are the members of a certain Orlando boy band who were at their peak when the panels went in.",
+  "whereToLook": {
+    "scene": "Photo panels on the approach to the park entrance",
+    "exactSpot": "Panels on the left before the entry gates. Look for five familiar faces in a row."
+  },
+  "bestTip": "Bring patience or a fan who knows the panel number.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0013",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-finding-nsync-epcot",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

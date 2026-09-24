@@ -1,0 +1,36 @@
+{
+  "id": "conservation-hall-rainforest-panel-leaf-hole-mickey",
+  "parkId": "adventure_park",
+  "landId": "conservation_outpost_area",
+  "attractionId": "conservation_exhibit_hall",
+  "display": {
+    "entryTitle": "Rainforest Panel Leaf Hole Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Conservation Outpost Area",
+    "attractionName": "Conservation Exhibit Hall"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "On the right panel at the rainforest entrance, a hole in a green leaf is cut in the outline of a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Right panel at the entrance to the rainforest exhibit",
+    "exactSpot": "A green leaf on the panel. The Mickey is a hole in the leaf, not a marking on it."
+  },
+  "bestTip": "Look for daylight or wall color showing through the leaf.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-AK-0027",
+  "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
