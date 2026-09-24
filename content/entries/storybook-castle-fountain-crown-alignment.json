@@ -1,0 +1,35 @@
+{
+  "id": "storybook-castle-fountain-crown-alignment",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "storybook_castle",
+  "display": {
+    "entryTitle": "Fountain Crown Alignment",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Storybook Castle"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Outdoor Display",
+  "description": "The fountain statue of the storybook heroine stands in front of a mural with a crown painted behind her. Crouch to a child's height and the crown sits perfectly on her head. It was designed so kids see her as a princess even before adults do.",
+  "whereToLook": {
+    "scene": "Fountain statue beside the castle",
+    "exactSpot": "Crouch until the painted crown on the wall behind lines up with the top of the statue's head."
+  },
+  "bestTip": "Get low. At adult height the crown floats above her; at about four feet it lands.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0007",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

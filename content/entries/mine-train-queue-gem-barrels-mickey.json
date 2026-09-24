@@ -1,0 +1,39 @@
+{
+  "id": "mine-train-queue-gem-barrels-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "mine_train_coaster",
+  "display": {
+    "entryTitle": "Gem Barrels Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Forest Area",
+    "attractionName": "Mine Train Coaster"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "The indoor standby queue passes barrels heaped with jewels. Among the gems, some groups of three are set in the classic three-circle arrangement. There is more than one, so it rewards a slow line.",
+  "whereToLook": {
+    "scene": "Indoor standby queue with the interactive gem barrels",
+    "exactSpot": "The gemstones on top of the barrels. Look for one large gem with two smaller ones set as ears."
+  },
+  "bestTip": "Skip the interactive jewel sorting for a minute and scan the still gems around the edges of each barrel.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.4206,
+    "longitude": -81.58
+  },
+  "sourceId": "TLC-MK-0012",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

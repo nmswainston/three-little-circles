@@ -1,0 +1,35 @@
+{
+  "id": "town-square-restaurant-pavement-heart-pawprints",
+  "parkId": "magic_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "town_square_restaurant",
+  "display": {
+    "entryTitle": "Pavement Heart and Paw Prints",
+    "parkName": "Kingdom Park",
+    "landName": "Main Street Area",
+    "attractionName": "Town Square Restaurant"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Entrance",
+  "description": "In the pavement in front of the restaurant, a heart is set alongside two sets of paw prints, a tribute to the spaghetti-sharing dogs the restaurant is themed after.",
+  "whereToLook": {
+    "scene": "Pavement in front of the restaurant",
+    "exactSpot": "Look down near the entrance for the heart with paw prints."
+  },
+  "bestTip": "It is at your feet as you read the menu board.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0059",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

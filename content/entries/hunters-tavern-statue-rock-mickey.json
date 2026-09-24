@@ -1,0 +1,35 @@
+{
+  "id": "hunters-tavern-statue-rock-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "hunters_tavern",
+  "display": {
+    "entryTitle": "Statue Rock Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Forest Area",
+    "attractionName": "Hunter's Tavern"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "Behind the bronze statue of the hunter and his sidekick, the rockwork carries three dark impressions in the classic shape. It is down low and behind the statue's left leg, so most people photograph the statue and walk on.",
+  "whereToLook": {
+    "scene": "Fountain statue in front of the tavern",
+    "exactSpot": "Walk around behind the statue and crouch. The impressions are in the rock below his left leg."
+  },
+  "bestTip": "Go early or late. The statue is a popular photo spot and the back of it clears out between groups.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0009",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

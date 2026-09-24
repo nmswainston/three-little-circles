@@ -19,7 +19,8 @@
     "content:import": "node scripts/import-submissions.mjs",
     "confirmations:pull": "node scripts/pull-confirmations.mjs",
     "supabase:check": "node scripts/check-supabase.mjs",
-    "content:import-csv": "node scripts/import-csv.mjs"
+    "content:import-csv": "node scripts/import-csv.mjs",
+    "content:reconcile": "node scripts/reconcile-master.mjs"
   },
   "dependencies": {
     "@expo-google-fonts/lilita-one": "^0.4.1",

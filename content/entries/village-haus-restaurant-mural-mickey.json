@@ -1,0 +1,36 @@
+{
+  "id": "village-haus-restaurant-mural-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "village_haus_restaurant",
+  "display": {
+    "entryTitle": "Dining Room Mural Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Village Haus Restaurant"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "One of the painted murals in the puppet-themed dining rooms hides a small classic Hidden Mickey in its lower left corner. It blends into the scenery, which is the point.",
+  "whereToLook": {
+    "scene": "Painted murals in the dining rooms",
+    "exactSpot": "Lower left area of the mural. Look for three small circles tucked into the background."
+  },
+  "bestTip": "Check each dining room's mural in turn. The one you want has the shape low on the left.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0081",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-pinocchio-village-haus",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

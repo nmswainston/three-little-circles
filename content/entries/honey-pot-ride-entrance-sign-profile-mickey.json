@@ -1,0 +1,35 @@
+{
+  "id": "honey-pot-ride-entrance-sign-profile-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "honey_pot_ride",
+  "display": {
+    "entryTitle": "Entrance Sign Profile Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Honey Pot Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "The carved entrance sign for the honey pot ride works a Mickey profile into its design. It reads as decoration until you look for the nose and ears.",
+  "whereToLook": {
+    "scene": "Entrance sign and archway to the ride",
+    "exactSpot": "In the carved detail of the sign itself. Look for the side view of a face with round ears."
+  },
+  "bestTip": "Stand back a few steps. The profile is easier to read as a whole than up close.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0015",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

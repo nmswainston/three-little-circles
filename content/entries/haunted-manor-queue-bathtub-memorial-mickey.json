@@ -1,0 +1,36 @@
+{
+  "id": "haunted-manor-queue-bathtub-memorial-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "colonial_square_area",
+  "attractionId": "haunted_manor_ride",
+  "display": {
+    "entryTitle": "Queue Bathtub Memorial Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Colonial Square Area",
+    "attractionName": "Haunted Manor Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "The interactive cemetery in the queue includes a memorial shaped like a bathtub. A classic three-circle Hidden Mickey is reported in its detailing.",
+  "whereToLook": {
+    "scene": "Interactive cemetery on the left side of the entrance queue",
+    "exactSpot": "The bathtub-shaped memorial. Look at its carved details."
+  },
+  "bestTip": "Take the interactive queue path even if the standby line is short.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0075",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-haunted-mansion-bathtub-headstone",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

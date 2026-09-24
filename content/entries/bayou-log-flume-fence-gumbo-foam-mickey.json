@@ -1,0 +1,35 @@
+{
+  "id": "bayou-log-flume-fence-gumbo-foam-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "bayou_log_flume",
+  "display": {
+    "entryTitle": "Fence Gumbo Foam Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Frontier Area",
+    "attractionName": "Bayou Log Flume"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Shortly after leaving the station, the log passes a tall brown fence on the left painted with gumbo imagery. In the white foam of the painted pot, a classic Hidden Mickey hides.",
+  "whereToLook": {
+    "scene": "Outdoor stretch just after departure",
+    "exactSpot": "Tall brown fence on the left. Look at the white foam in the gumbo painting."
+  },
+  "bestTip": "It comes early, before the first lift. Be looking left as soon as you are outside.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Left",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0052",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

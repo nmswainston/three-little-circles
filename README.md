@@ -196,6 +196,18 @@ sign-ins must be on). The app never reads them back. `npm run confirmations:pull
 summarizes the last 90 days into `src/data/confirmations.generated.ts`, which
 ships with the app and drives the "Last seen" line on each entry.
 
+## Privacy
+
+[docs/privacy.html](docs/privacy.html) is the privacy policy, served by GitHub
+Pages at https://nmswainston.github.io/three-little-circles/privacy.html. App
+Store Connect requires that URL in TestFlight Test Information before a build
+can go to external testers, and again on the store listing.
+
+Keep it accurate when data handling changes. Today the app stores progress,
+badges, settings, and a random install id on the device only; uses location on
+the device without transmitting it; and sends something to Supabase only when
+someone submits a sighting or taps "Still there?".
+
 ## Lessons Learned
 
 - Mobile UX requires rethinking navigation patterns from the ground up compared to web

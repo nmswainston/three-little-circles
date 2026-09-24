@@ -1,0 +1,35 @@
+{
+  "id": "pirate-boat-ride-jail-padlock-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "pirate_port_area",
+  "attractionId": "pirate_boat_ride",
+  "display": {
+    "entryTitle": "Jail Padlock Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Pirate Port Area",
+    "attractionName": "Pirate Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the jail scene where prisoners coax a dog holding the keys, the padlock on the cell door is itself shaped like a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Jail scene with the prisoners and the dog",
+    "exactSpot": "The lock on the cell door."
+  },
+  "bestTip": "Everyone watches the dog. Look at the door instead.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0026",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

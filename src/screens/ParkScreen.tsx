@@ -24,6 +24,9 @@ import Chip from "../components/ui/Chip";
 
 type IconName = keyof typeof Ionicons.glyphMap;
 
+/** Facts shown before the "Show more" toggle. */
+const FACTS_PREVIEW_COUNT = 3;
+
 type ParkRouteProp = RouteProp<RootStackParamList, "Park">;
 type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 
@@ -66,6 +69,11 @@ export default function ParkScreen() {
   // Park history and trivia. Independent of the finds filter so it does not
   // disappear when a filter empties the list above it.
   const parkFacts = useMemo(() => getFactsForPark(parkId), [parkId]);
+  // A park with several facts would otherwise end in a very tall card after
+  // an already long list of finds, so show a few and let the reader expand.
+  const [showAllFacts, setShowAllFacts] = useState(false);
+  const visibleFacts = showAllFacts ? parkFacts : parkFacts.slice(0, FACTS_PREVIEW_COUNT);
+  const hiddenFactCount = parkFacts.length - visibleFacts.length;
 
   const handleShare = async () => {
     const outcome = await shareText(parkShareText({ name: parkName, found: foundCount, total: parkEntries.length }));
@@ -120,9 +128,11 @@ export default function ParkScreen() {
           )}
           <Text style={[styles.title, { color: headerText }]}>{parkName}</Text>
           <View style={styles.progressRow}>
-            <View style={[styles.track, { backgroundColor: track }]}>
-              <View style={[styles.fill, { width: `${pct}%` }]} />
-            </View>
+            {hasFinds && (
+              <View style={[styles.track, { backgroundColor: track }]}>
+                <View style={[styles.fill, { width: `${pct}%` }]} />
+              </View>
+            )}
             <Text style={[styles.progressLabel, { color: headerText }]}>
               {hasFinds ? `${foundCount} of ${parkEntries.length} found` : "No finds yet"}
             </Text>
@@ -202,7 +212,7 @@ export default function ParkScreen() {
                 </Text>
               </View>
               <View style={styles.factsCard}>
-                {parkFacts.map((fact, index) => (
+                {visibleFacts.map((fact, index) => (
                   <React.Fragment key={fact.id}>
                     {index > 0 && <View style={styles.divider} />}
                     <View style={styles.fact}>
@@ -216,6 +226,21 @@ export default function ParkScreen() {
                     </View>
                   </React.Fragment>
                 ))}
+                {hiddenFactCount > 0 && (
+                  <>
+                    <View style={styles.divider} />
+                    <Pressable
+                      onPress={() => setShowAllFacts(true)}
+                      accessibilityRole="button"
+                      style={({ pressed }) => [styles.factsMore, pressed && styles.suggestButtonPressed]}
+                    >
+                      <Text style={[styles.factsMoreText, { color: palette.text }]}>
+                        Show {hiddenFactCount} more
+                      </Text>
+                      <Ionicons name="chevron-down" size={16} color={palette.text} />
+                    </Pressable>
+                  </>
+                )}
               </View>
             </View>
           )}
@@ -406,6 +431,18 @@ const createStyles = (t: Theme) =>
     factBody: {
       ...text.bodySmall,
       color: t.colors.textSecondary,
+    },
+    factsMore: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: spacing.xs,
+      minHeight: 44,
+      paddingHorizontal: spacing.md - 2,
+    },
+    factsMoreText: {
+      ...text.chip,
+      fontSize: 14,
     },
     suggestCard: {
       alignItems: "flex-start",

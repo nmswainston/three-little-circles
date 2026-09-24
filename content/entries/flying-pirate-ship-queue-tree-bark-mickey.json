@@ -1,0 +1,36 @@
+{
+  "id": "flying-pirate-ship-queue-tree-bark-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "flying_pirate_ship_ride",
+  "display": {
+    "entryTitle": "Queue Tree Bark Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Flying Pirate Ship Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "The queue for the flying ship winds past sculpted trees. A classic three-circle shape is reported in the bark texture of one of them.",
+  "whereToLook": {
+    "scene": "Sculpted trees along the standby queue",
+    "exactSpot": "In the bark detailing beside the queue rail. Look for three raised circles rather than a carved shape."
+  },
+  "bestTip": "Run your eyes along the bark at about waist height while the line is stopped.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0080",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-peter-pan-tree-hidden-mickeys",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

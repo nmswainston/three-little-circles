@@ -7,6 +7,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { RootStackParamList, RootTabParamList } from "../navigation/types";
 import { getEntryById, getRelatedEntries } from "../data/query";
+import { HiddenMickeyEntry } from "../data/types";
 import { getConfirmation } from "../data/confirmations";
 import { getEntryImageSource } from "../data/images";
 import { labelOrFallback } from "../data/labels";
@@ -33,6 +34,29 @@ type NavigationProp = CompositeNavigationProp<
 >;
 
 const VIEWING_FIELDS = ["motion", "lighting", "angle", "crowding", "distance"] as const;
+
+const VERIFICATION_LABEL: Record<NonNullable<HiddenMickeyEntry["verification"]>, string | null> = {
+  "In-person": "Confirmed in person",
+  Photo: "Confirmed by photo",
+  Community: "Community reported",
+  Documented: "Officially documented",
+  Unknown: null,
+};
+
+/** Chip text for a status worth warning about. Current needs no chip. */
+const STATUS_LABEL: Record<NonNullable<HiddenMickeyEntry["status"]>, string | null> = {
+  Current: null,
+  Unverified: "Unconfirmed",
+  Seasonal: "Seasonal",
+  Variable: "Props move",
+  Removed: "Removed",
+};
+
+function formatMonthYear(iso: string): string | null {
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return null;
+  return date.toLocaleDateString(undefined, { month: "short", year: "numeric" });
+}
 
 export default function EntryDetailScreen() {
   const route = useRoute<EntryDetailRouteProp>();
@@ -109,12 +133,18 @@ export default function EntryDetailScreen() {
     return value ? [{ label: key, value }] : [];
   });
 
+  const verifiedLabel = entry.verification ? VERIFICATION_LABEL[entry.verification] : null;
+  const verifiedWhen =
+    verifiedLabel && entry.verifiedAtISO && (entry.verification === "In-person" || entry.verification === "Photo")
+      ? formatMonthYear(entry.verifiedAtISO)
+      : null;
   const provenance = [
     entry.confidence ? `${entry.confidence} sighting` : null,
-    entry.verification && entry.verification !== "Unknown" ? `${entry.verification} verified` : null,
+    verifiedLabel ? (verifiedWhen ? `${verifiedLabel} ${verifiedWhen}` : verifiedLabel) : null,
   ]
     .filter(Boolean)
     .join(" · ");
+  const statusLabel = entry.status ? STATUS_LABEL[entry.status] : null;
 
   return (
     <View style={styles.screen}>
@@ -145,6 +175,7 @@ export default function EntryDetailScreen() {
               <OutlineChip label={entry.whereToLook.orientation} />
             )}
             {entry.entryType === "FACT" && <OutlineChip label="Hidden Surprise" />}
+            {statusLabel && <OutlineChip label={statusLabel} />}
           </View>
         </View>
 
@@ -172,6 +203,13 @@ export default function EntryDetailScreen() {
                 <Ionicons name="navigate-outline" size={18} color={t.colors.text} />
                 <Text style={styles.mapButtonSecondaryText}>Directions</Text>
               </Pressable>
+            </View>
+          )}
+
+          {entry.accessNotes && (
+            <View style={styles.access}>
+              <Ionicons name="key-outline" size={18} color={t.colors.textSecondary} />
+              <Text style={styles.accessText}>{entry.accessNotes}</Text>
             </View>
           )}
 
@@ -487,6 +525,17 @@ const createStyles = (t: Theme) =>
     },
     provenanceText: {
       ...text.meta,
+      color: t.colors.textSecondary,
+    },
+    access: {
+      flexDirection: "row",
+      alignItems: "flex-start",
+      gap: spacing.sm,
+      paddingHorizontal: spacing.xs,
+    },
+    accessText: {
+      ...text.bodySmall,
+      flex: 1,
       color: t.colors.textSecondary,
     },
     relatedCard: {

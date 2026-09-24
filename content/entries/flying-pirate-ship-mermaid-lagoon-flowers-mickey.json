@@ -1,0 +1,35 @@
+{
+  "id": "flying-pirate-ship-mermaid-lagoon-flowers-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "flying_pirate_ship_ride",
+  "display": {
+    "entryTitle": "Mermaid Lagoon Flowers Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Flying Pirate Ship Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the mermaid lagoon scene, flowers grow along the rocky edge of the water. One yellow flower with two orange flowers above it forms a classic three-circle Hidden Mickey as your ship glides past.",
+  "whereToLook": {
+    "scene": "Mermaid lagoon scene",
+    "exactSpot": "Flowers along the rocky edge of the lagoon. Look for the yellow bloom with two orange blooms as ears."
+  },
+  "bestTip": "Look down and to the side as the lagoon comes into view rather than at the mermaids.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0011",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "beak-and-barrel-lounge-chalice-display",
+  "parkId": "magic_kingdom_park",
+  "landId": "pirate_port_area",
+  "attractionId": "beak_and_barrel_lounge",
+  "display": {
+    "entryTitle": "Chalice Display",
+    "parkName": "Kingdom Park",
+    "landName": "Pirate Port Area",
+    "attractionName": "Beak and Barrel Lounge"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "A display near the bar includes a chalice that recalls the silver cups from the pirate film about the fountain of youth. Drink from the right one and you get the years; drink from the wrong one and you lose them.",
+  "whereToLook": {
+    "scene": "Display case near the bar",
+    "exactSpot": "The ornate chalice among the props."
+  },
+  "bestTip": "Ask the bartender. They tend to know the story.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "The lounge takes reservations and may require a dining or drink order."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0084",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-pirates-caribbean-s-beak-barrel",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
