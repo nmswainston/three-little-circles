@@ -1,0 +1,37 @@
+{
+  "id": "sixties-courtyard-wall-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "pop_century_resort",
+  "attractionId": "sixties_courtyard",
+  "display": {
+    "entryTitle": "Sixties Courtyard Wall Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Pop Century Resort",
+    "attractionName": "1960s Courtyard"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "In the sixties section, behind the giant jungle-boy figure and below the yellow second-floor walkway, a classic Hidden Mickey is worked into the exterior wall.",
+  "whereToLook": {
+    "scene": "Wall behind the jungle-boy figure in the sixties courtyard",
+    "exactSpot": "Below the yellow walkway on the second floor. Look at the wall behind the figure."
+  },
+  "bestTip": "Stand where the figure is between you and the wall, then look past him.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Pool and recreation areas are for registered resort guests.",
+  "sourceId": "TLC-RS-0016",
+  "sourceUrl": "https://hiddenmickeyguy.com/disneys-pop-century-resort-hidden-mickey/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

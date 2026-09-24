@@ -1,0 +1,36 @@
+{
+  "id": "marina-lighthouse-boatyard-sign-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "caribbean_beach_resort",
+  "attractionId": "marina_lighthouse",
+  "display": {
+    "entryTitle": "Lighthouse Boatyard Sign Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Caribbean Beach Resort",
+    "attractionName": "Old Port Royale Marina Lighthouse"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "The boatyard sign on the marina lighthouse conceals a classic Hidden Mickey in its design.",
+  "whereToLook": {
+    "scene": "Sign on the marina lighthouse",
+    "exactSpot": "Read the boatyard sign closely for three circles."
+  },
+  "bestTip": "Approach from the marina side for the best angle.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0083",
+  "sourceUrl": "https://tinkandtoni.com/2021/06/13/hidden-mickeys-at-caribbean-beach-and-beach-club/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

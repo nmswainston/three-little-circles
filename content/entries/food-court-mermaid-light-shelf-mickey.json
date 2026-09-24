@@ -1,0 +1,36 @@
+{
+  "id": "food-court-mermaid-light-shelf-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "art_of_animation_resort",
+  "attractionId": "food_court",
+  "display": {
+    "entryTitle": "Mermaid Light Shelf Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Art of Animation Resort",
+    "attractionName": "Landscape of Flavors"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "On the mermaid-themed light on the far seating side, an illustrated shelf of the mermaid's collected treasures includes Mickey's face among the objects.",
+  "whereToLook": {
+    "scene": "Mermaid-themed light fixture on the far side of the seating",
+    "exactSpot": "The illustrated shelf of treasures. Look for a face among the gadgets and gizmos."
+  },
+  "bestTip": "Sit under it and look up with a coffee.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0037",
+  "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

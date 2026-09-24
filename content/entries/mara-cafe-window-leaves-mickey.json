@@ -1,0 +1,36 @@
+{
+  "id": "mara-cafe-window-leaves-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "mara_cafe",
+  "display": {
+    "entryTitle": "Window Leaves Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "The Mara"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "Above the windows of the food area in the cafe, sculpted leaves include a cluster shaped like a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Leaves above the food-area windows",
+    "exactSpot": "Look up at the foliage over the windows for three round leaves together."
+  },
+  "bestTip": "Stand back near the seating so you can see the whole run of windows.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0025",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

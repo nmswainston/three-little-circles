@@ -1,0 +1,36 @@
+{
+  "id": "riviera-west-elevator-carpet-goof",
+  "parkId": "resorts_bucket",
+  "landId": "riviera_resort",
+  "attractionId": "guest_corridors",
+  "display": {
+    "entryTitle": "West Elevator Carpet Goof",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Riviera Resort",
+    "attractionName": "Guest Corridors"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "In the same circular carpet pattern by the west elevators, the tall goof's hat and floppy ears appear.",
+  "whereToLook": {
+    "scene": "Carpet at the west elevators",
+    "exactSpot": "The circular motif. Look for a tall hat and long ears."
+  },
+  "bestTip": "Once you have the duck, the goof is in the same repeat.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0046",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

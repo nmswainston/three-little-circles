@@ -1,0 +1,36 @@
+{
+  "id": "roaring-fork-fishing-display-nut-caps-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "wilderness_lodge_resort",
+  "attractionId": "roaring_fork_cafe",
+  "display": {
+    "entryTitle": "Fishing Display Nut Caps Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Wilderness Lodge Resort",
+    "attractionName": "Roaring Fork"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Entrance",
+  "description": "At the entrance to the quick-service cafe, a fishing display includes three small nut caps set together as a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Fishing display at the cafe entrance",
+    "exactSpot": "Look closely at the small hardware on the display for three nut caps."
+  },
+  "bestTip": "It is small. Get close.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0091",
+  "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2026/02/26/roaring-fork-hidden-mickey",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

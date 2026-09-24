@@ -1,0 +1,36 @@
+{
+  "id": "kidani-village-sidewalk-concrete-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "kidani_village_entrance",
+  "display": {
+    "entryTitle": "Sidewalk Concrete Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "Kidani Village"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "On the sidewalk that runs left of the lobby entrance toward the pool, a faint classic Hidden Mickey is traced into the concrete near the curb, just before the parking direction sign.",
+  "whereToLook": {
+    "scene": "Sidewalk left of the lobby entrance, heading toward the pool",
+    "exactSpot": "Near the curb, before the parking sign. Look for a faint tracing in the concrete."
+  },
+  "bestTip": "Low sun makes the tracing easier to see. Try early morning or late afternoon.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0015",
+  "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-lodge-kidani-village-hidden-mickey-carved-in-sidewalk-outside-front-of-lobby/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "wilderness-lobby-registration-keys-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "wilderness_lodge_resort",
+  "attractionId": "lobby_and_grounds",
+  "display": {
+    "entryTitle": "Registration Keys Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Wilderness Lodge Resort",
+    "attractionName": "Lobby and Grounds"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "Behind the registration desk, a display of old-fashioned keys includes one whose bow is shaped like a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Keys displayed behind the registration desk",
+    "exactSpot": "Look at the tops of the keys for one shaped like three circles."
+  },
+  "bestTip": "Ask the cast member to point it out if the desk is quiet.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0051",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

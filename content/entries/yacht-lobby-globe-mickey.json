@@ -1,0 +1,36 @@
+{
+  "id": "yacht-lobby-globe-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "yacht_and_beach_club_resort",
+  "attractionId": "lobby_and_marina",
+  "display": {
+    "entryTitle": "Lobby Globe Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Yacht and Beach Club Resort",
+    "attractionName": "Lobby and Marina"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The big globe in the yacht-themed lobby has a pale blue classic Hidden Mickey marked near Madagascar, just below the sea monster.",
+  "whereToLook": {
+    "scene": "Globe in the lobby",
+    "exactSpot": "Find Madagascar, then the sea monster near it. The Mickey is just below the monster."
+  },
+  "bestTip": "Spin the globe gently if it moves, or walk around to the Indian Ocean side.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0067",
+  "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

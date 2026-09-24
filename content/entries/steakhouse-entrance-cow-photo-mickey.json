@@ -1,0 +1,36 @@
+{
+  "id": "steakhouse-entrance-cow-photo-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "yacht_and_beach_club_resort",
+  "attractionId": "steakhouse_entrance",
+  "display": {
+    "entryTitle": "Cow Photo Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Yacht and Beach Club Resort",
+    "attractionName": "Yachtsman Steakhouse"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Entrance",
+  "description": "Left of the steakhouse entrance hangs a photo of a real cow whose black-and-white markings included a perfect Mickey on her side. She lived on the resort property and was a minor celebrity.",
+  "whereToLook": {
+    "scene": "Photo to the left of the restaurant entrance",
+    "exactSpot": "The cow in the photo. Look at the marking on her side."
+  },
+  "bestTip": "No reservation needed; the photo is outside the restaurant.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0066",
+  "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
