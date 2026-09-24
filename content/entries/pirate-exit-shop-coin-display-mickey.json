@@ -1,0 +1,36 @@
+{
+  "id": "pirate-exit-shop-coin-display-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "pirate_port_area",
+  "attractionId": "pirate_exit_shop",
+  "display": {
+    "entryTitle": "Coin Display Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Pirate Port Area",
+    "attractionName": "Pirate Exit Shop"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "On the right as you enter the exit shop from the ride, a display of pirate coins includes three arranged as a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Coin display on the right as you enter the shop from the ride",
+    "exactSpot": "Among the coins. One large coin with two smaller ones set as ears."
+  },
+  "bestTip": "Look before the crowd from your boat fills the shop.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0082",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-pirates-caribbean-coins",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

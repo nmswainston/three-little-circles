@@ -1,0 +1,36 @@
+{
+  "id": "jungle-boat-ride-queue-map-circles-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "jungle_boat_ride",
+  "display": {
+    "entryTitle": "Queue Map Circles Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Jungle Outpost Area",
+    "attractionName": "Jungle Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "About halfway through the standby queue, a wall-mounted expedition map carries three dark circles that form a tilted classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Wall-mounted map roughly halfway through the standby queue",
+    "exactSpot": "Three dark circles on the map, tilted rather than upright.",
+    "orientation": "Sideways"
+  },
+  "bestTip": "The map is easy to walk past. When you reach the halfway mark, look for framed paper on the wall.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0022",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

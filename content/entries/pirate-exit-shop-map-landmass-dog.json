@@ -1,0 +1,35 @@
+{
+  "id": "pirate-exit-shop-map-landmass-dog",
+  "parkId": "magic_kingdom_park",
+  "landId": "pirate_port_area",
+  "attractionId": "pirate_exit_shop",
+  "display": {
+    "entryTitle": "Pirate Map Landmass Dog",
+    "parkName": "Kingdom Park",
+    "landName": "Pirate Port Area",
+    "attractionName": "Pirate Exit Shop"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "The fourth character on the exit shop's pirate map is the loyal yellow dog, drawn as an island with a long nose and floppy ears.",
+  "whereToLook": {
+    "scene": "Small pirate map on the left wall of the exit shop",
+    "exactSpot": "An island shaped like a dog's head in profile."
+  },
+  "bestTip": "Four islands, four friends. Count them off.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0063",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

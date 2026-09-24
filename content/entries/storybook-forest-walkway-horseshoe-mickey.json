@@ -1,0 +1,35 @@
+{
+  "id": "storybook-forest-walkway-horseshoe-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "storybook_forest_walkway",
+  "display": {
+    "entryTitle": "Horseshoe Prints Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Forest Area",
+    "attractionName": "Storybook Forest Walkway"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "On the path between the hunter's tavern and the castle restaurant, horseshoe prints are pressed into the pavement. Four of them are arranged so that together they read as a classic three-circle Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Walkway between the tavern and the castle restaurant",
+    "exactSpot": "Near the short rock wall and the lamp post. Look down at the horseshoe impressions in the paving."
+  },
+  "bestTip": "Follow the hoofprints from the tavern side and stop at the lamp. The Mickey is the tight group of four.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0008",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "concert-hall-show-city-buildings-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "concert_hall_show",
+  "display": {
+    "entryTitle": "City Buildings Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Concert Hall Show"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "During the magic carpet sequence, the city below sweeps past at the bottom left of the screen. For a moment three round rooftops line up into the classic three-circle shape before the camera moves on.",
+  "whereToLook": {
+    "scene": "Magic carpet flight over the city in the 3D show",
+    "exactSpot": "Bottom left of the screen, in the cluster of domed buildings as the carpet dives toward the city."
+  },
+  "bestTip": "Look down and left the instant the carpet ride begins. It is over before the moon appears in the upper right.",
+  "viewing": {
+    "motion": "Fast",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Far",
+    "notes": "Two Hidden Mickeys hide in this scene. This one comes first."
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0002",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

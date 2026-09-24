@@ -1,0 +1,36 @@
+{
+  "id": "wild-west-mine-coaster-first-climb-cavern-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "wild_west_mine_coaster",
+  "display": {
+    "entryTitle": "First Climb Cavern Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Frontier Area",
+    "attractionName": "Wild West Mine Coaster"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "Beside the first climb, the train passes through a cavern with dripping rockwork. A classic three-circle Hidden Mickey is reported in the scenery on the right.",
+  "whereToLook": {
+    "scene": "Cavern beside the first lift hill",
+    "exactSpot": "Right side of the train, in the rockwork and cave scenery."
+  },
+  "bestTip": "Ride on the right and look into the cavern rather than ahead.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Right",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0069",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-big-thunder-mountain-railroad",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

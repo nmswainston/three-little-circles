@@ -1,0 +1,35 @@
+{
+  "id": "family-treehouse-trunk-profile-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "family_treehouse",
+  "display": {
+    "entryTitle": "Trunk Profile Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Jungle Outpost Area",
+    "attractionName": "Family Treehouse"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "The main trunk of the treehouse is textured with green, algae-like growth. In that texture, a side profile of Mickey is reported, separate from the three-circle shape in the moss elsewhere on the trunk.",
+  "whereToLook": {
+    "scene": "Main tree trunk along the climbing path",
+    "exactSpot": "The green surface texture on the main trunk. Look for a face in profile, not three circles."
+  },
+  "bestTip": "Pause on the lower stairs where you are level with the trunk and scan slowly.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0030",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "haunted-manor-hearse-hoofprints-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "colonial_square_area",
+  "attractionId": "haunted_manor_ride",
+  "display": {
+    "entryTitle": "Hearse Hoofprints Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Colonial Square Area",
+    "attractionName": "Haunted Manor Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "Outside the manor, a hearse waits with an invisible horse in the traces. On the ground nearby, the hoofprints are arranged into a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Hearse outside the manor entrance",
+    "exactSpot": "The ground in front of the hearse where the horse would stand."
+  },
+  "bestTip": "Look down at the prints, not at the harness.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0043",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

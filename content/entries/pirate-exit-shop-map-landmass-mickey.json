@@ -1,0 +1,35 @@
+{
+  "id": "pirate-exit-shop-map-landmass-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "pirate_port_area",
+  "attractionId": "pirate_exit_shop",
+  "display": {
+    "entryTitle": "Pirate Map Landmass Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Pirate Port Area",
+    "attractionName": "Pirate Exit Shop"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "A small pirate map hangs on the left wall of the exit shop. One of its landmasses is drawn in the classic three-circle shape. Three more islands nearby are shaped like his friends.",
+  "whereToLook": {
+    "scene": "Small pirate map on the left wall of the exit shop",
+    "exactSpot": "One of the islands on the map. Look for a coastline with a round head and two round ears."
+  },
+  "bestTip": "Once you find the Mickey island, look for the duck, the dog, and the goof on the same map.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0029",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

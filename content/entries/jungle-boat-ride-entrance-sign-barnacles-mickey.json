@@ -1,0 +1,35 @@
+{
+  "id": "jungle-boat-ride-entrance-sign-barnacles-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "jungle_boat_ride",
+  "display": {
+    "entryTitle": "Entrance Sign Barnacles Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Jungle Outpost Area",
+    "attractionName": "Jungle Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "The big weathered entrance sign for the boat ride is crusted with barnacles. Below the first letter, three of them cluster into a classic three-circle Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Large entrance sign over the boat ride queue",
+    "exactSpot": "Directly below the letter J. Three barnacles set as head and ears."
+  },
+  "bestTip": "Stand under the sign and look straight up at the first letter.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0021",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

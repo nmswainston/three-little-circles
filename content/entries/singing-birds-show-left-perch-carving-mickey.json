@@ -1,0 +1,37 @@
+{
+  "id": "singing-birds-show-left-perch-carving-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "singing_birds_show",
+  "display": {
+    "entryTitle": "Left Perch Carving Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Jungle Outpost Area",
+    "attractionName": "Singing Birds Show"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The carved bases of the bird perches inside the theater are covered in tropical patterns. On the perch to your left as you enter, the carving contains an upside-down classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Bird perches inside the theater",
+    "exactSpot": "Base of the perch on the left as you enter. The three circles are upside down.",
+    "orientation": "Upside-down"
+  },
+  "bestTip": "Look while the seats are filling and the lights are still up.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "A second carved Mickey sits on the perch near the exit."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0031",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

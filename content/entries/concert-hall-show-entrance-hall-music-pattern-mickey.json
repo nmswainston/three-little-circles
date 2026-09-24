@@ -1,0 +1,36 @@
+{
+  "id": "concert-hall-show-entrance-hall-music-pattern-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "concert_hall_show",
+  "display": {
+    "entryTitle": "Entrance Hall Music Pattern Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Concert Hall Show"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "The entrance hall to the concert show is decorated with a repeating pattern of musical notes and instruments. A Mickey motif is worked into that pattern along the wall.",
+  "whereToLook": {
+    "scene": "Decorated entrance hall on the way into the theater",
+    "exactSpot": "The musical pattern running along the wall. Look for three circles set into the notes."
+  },
+  "bestTip": "The line moves steadily here, so pick one stretch of wall and read it as you walk.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0079",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-musical-hidden-mickeys",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

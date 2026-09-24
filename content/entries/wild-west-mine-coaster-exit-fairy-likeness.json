@@ -1,0 +1,36 @@
+{
+  "id": "wild-west-mine-coaster-exit-fairy-likeness",
+  "parkId": "magic_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "wild_west_mine_coaster",
+  "display": {
+    "entryTitle": "Exit Fairy Likeness",
+    "parkName": "Kingdom Park",
+    "landName": "Frontier Area",
+    "attractionName": "Wild West Mine Coaster"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "Leaving the coaster, look left at the scenery beside the exit route. A likeness of the small pixie from the boy-who-never-grew-up story is reported hiding there.",
+  "whereToLook": {
+    "scene": "Scenery beside the exit path",
+    "exactSpot": "Left of the exit route. Look for a small winged figure among the props."
+  },
+  "bestTip": "Most people rush the exit. Let the group ahead go first.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Left",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0070",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-big-thunder-mountain-railroad-hidden-tinker",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
