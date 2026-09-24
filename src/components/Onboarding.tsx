@@ -116,7 +116,7 @@ function OnboardingPages({ onDone }: { onDone: () => void }) {
             accessibilityElementsHidden={i !== index}
             importantForAccessibility={i === index ? "yes" : "no-hide-descendants"}
           >
-            <View style={styles.hero}>
+            <View style={styles.hero} accessibilityElementsHidden importantForAccessibility="no-hide-descendants">
               <Sunburst center={{ x: heroWidth / 2, y: HERO_HEIGHT / 2 }} />
               {page.icon ? (
                 <View style={[styles.heroDisc, styles.heroDiscAccent]}>
@@ -129,7 +129,9 @@ function OnboardingPages({ onDone }: { onDone: () => void }) {
               )}
             </View>
             <Text style={styles.eyebrow}>{page.eyebrow}</Text>
-            <Text style={styles.title}>{page.title}</Text>
+            <Text style={styles.title} accessibilityRole="header">
+              {page.title}
+            </Text>
             <Text style={styles.body}>{page.body}</Text>
             {i === PAGES.length - 1 && (
               <View style={styles.disclaimer}>
@@ -141,7 +143,7 @@ function OnboardingPages({ onDone }: { onDone: () => void }) {
       </ScrollView>
 
       <View style={styles.footer}>
-        <View style={styles.dots} accessibilityLabel={`Page ${index + 1} of ${PAGES.length}`}>
+        <View style={styles.dots} accessible accessibilityLabel={`Page ${index + 1} of ${PAGES.length}`}>
           {PAGES.map((page, i) => (
             <View key={page.key} style={[styles.dot, i === index && styles.dotActive]} />
           ))}
@@ -149,6 +151,7 @@ function OnboardingPages({ onDone }: { onDone: () => void }) {
         <Pressable
           onPress={() => (last ? onDone() : goTo(index + 1))}
           accessibilityRole="button"
+          accessibilityLabel={last ? "Start hunting" : "Next"}
           style={({ pressed }) => [styles.button, pressed && styles.pressed]}
         >
           <Text style={styles.buttonText}>{last ? "Start hunting" : "Next"}</Text>
@@ -252,7 +255,7 @@ const createStyles = (t: Theme) =>
       alignItems: "center",
       justifyContent: "center",
       gap: spacing.sm,
-      height: 56,
+      minHeight: 56,
       borderRadius: radii.full,
       backgroundColor: t.colors.primary,
     },

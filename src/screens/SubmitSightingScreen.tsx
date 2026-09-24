@@ -11,6 +11,7 @@ import {
   ActivityIndicator,
   Platform,
   KeyboardAvoidingView,
+  AccessibilityInfo,
 } from "react-native";
 import { useRoute, RouteProp, useNavigation } from "@react-navigation/native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
@@ -64,6 +65,13 @@ export default function SubmitSightingScreen() {
 
   const destination = destinations.find((d) => d.parkId === parkId);
 
+  // The error line sits below the field that caused it, so a screen reader
+  // would otherwise never hear it.
+  const showError = (message: string) => {
+    setError(message);
+    AccessibilityInfo.announceForAccessibility(message);
+  };
+
   const pickPhoto = async (fromCamera: boolean) => {
     setError(undefined);
     try {
@@ -71,7 +79,7 @@ export default function SubmitSightingScreen() {
         ? await ImagePicker.requestCameraPermissionsAsync()
         : await ImagePicker.requestMediaLibraryPermissionsAsync();
       if (!permission.granted) {
-        setError(fromCamera ? "Camera access is turned off for this app." : "Photo access is turned off for this app.");
+        showError(fromCamera ? "Camera access is turned off for this app." : "Photo access is turned off for this app.");
         return;
       }
       const options: ImagePicker.ImagePickerOptions = { mediaTypes: ["images"], quality: 0.7 };
@@ -81,7 +89,7 @@ export default function SubmitSightingScreen() {
       const asset = result.canceled ? undefined : result.assets[0];
       if (asset) setPhoto({ uri: asset.uri, mimeType: asset.mimeType ?? undefined });
     } catch {
-      setError("Couldn't open the photo picker.");
+      showError("Couldn't open the photo picker.");
     }
   };
 
@@ -112,12 +120,12 @@ export default function SubmitSightingScreen() {
     }
     const input = buildInput();
     if (!input) {
-      setError("Pick the park or resort.");
+      showError("Pick the park or resort.");
       return;
     }
     const problems = validateSighting(input);
     if (problems.length > 0) {
-      setError(problems[0]);
+      showError(problems[0]);
       return;
     }
     setSubmitting(true);
@@ -127,7 +135,7 @@ export default function SubmitSightingScreen() {
       if (Platform.OS !== "web") Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success).catch(() => {});
       setDone(true);
     } else {
-      setError(result.message);
+      showError(result.message);
     }
   };
 
@@ -157,7 +165,9 @@ export default function SubmitSightingScreen() {
             <Ionicons name="arrow-back" size={24} color={t.colors.text} />
           </Pressable>
           <Text style={styles.eyebrow}>Community</Text>
-          <Text style={styles.title}>Suggest a find</Text>
+          <Text style={styles.title} accessibilityRole="header">
+            Suggest a find
+          </Text>
           <Text style={styles.subtitle}>
             Spotted a Hidden Mickey we don't have? Tell us where to look. A person checks every suggestion before it goes live.
           </Text>
@@ -167,9 +177,11 @@ export default function SubmitSightingScreen() {
           <View style={styles.body}>
             <View style={styles.successCard}>
               <View style={styles.successDisc}>
-                <Ionicons name="checkmark" size={32} color={t.colors.onSuccess} />
+                <Ionicons name="checkmark" size={32} color={t.colors.onSuccess} accessibilityElementsHidden importantForAccessibility="no" />
               </View>
-              <Text style={styles.successTitle}>Thanks, we'll take a look</Text>
+              <Text style={styles.successTitle} accessibilityRole="header">
+                Thanks, we'll take a look
+              </Text>
               <Text style={styles.successBody}>
                 Suggestions are reviewed by a person before they're added, so it can take a little while to show up in the app.
               </Text>
@@ -271,19 +283,19 @@ export default function SubmitSightingScreen() {
               {photo ? (
                 <View style={styles.photoRow}>
                   <Image source={{ uri: photo.uri }} style={styles.thumbnail} accessibilityLabel="Attached photo" />
-                  <Pressable onPress={() => setPhoto(undefined)} accessibilityRole="button" style={styles.secondaryButton}>
+                  <Pressable onPress={() => setPhoto(undefined)} accessibilityRole="button" accessibilityLabel="Remove photo" style={styles.secondaryButton}>
                     <Text style={styles.secondaryButtonText}>Remove</Text>
                   </Pressable>
                 </View>
               ) : (
                 <View style={styles.wrapRow}>
                   {Platform.OS !== "web" && (
-                    <Pressable onPress={() => pickPhoto(true)} accessibilityRole="button" style={styles.secondaryButton}>
+                    <Pressable onPress={() => pickPhoto(true)} accessibilityRole="button" accessibilityLabel="Take photo" style={styles.secondaryButton}>
                       <Ionicons name="camera-outline" size={18} color={t.colors.text} />
                       <Text style={styles.secondaryButtonText}>Take photo</Text>
                     </Pressable>
                   )}
-                  <Pressable onPress={() => pickPhoto(false)} accessibilityRole="button" style={styles.secondaryButton}>
+                  <Pressable onPress={() => pickPhoto(false)} accessibilityRole="button" accessibilityLabel="Choose photo" style={styles.secondaryButton}>
                     <Ionicons name="image-outline" size={18} color={t.colors.text} />
                     <Text style={styles.secondaryButtonText}>Choose photo</Text>
                   </Pressable>
@@ -319,16 +331,24 @@ export default function SubmitSightingScreen() {
               style={styles.honeypot}
               accessibilityElementsHidden
               importantForAccessibility="no-hide-descendants"
+              accessible={false}
+              tabIndex={-1}
               autoComplete="off"
               placeholder="Website"
             />
 
-            {error && <Text style={styles.error}>{error}</Text>}
+            {error && (
+              <Text style={styles.error} accessibilityLiveRegion="polite">
+                {error}
+              </Text>
+            )}
 
             <Pressable
               onPress={handleSubmit}
               disabled={submitting}
               accessibilityRole="button"
+              accessibilityLabel="Send suggestion"
+              accessibilityState={{ busy: submitting }}
               style={({ pressed }) => [styles.primaryButton, styles.submit, (pressed || submitting) && styles.pressed]}
             >
               {submitting ? (
@@ -491,7 +511,7 @@ const createStyles = (t: Theme) =>
       alignItems: "center",
       justifyContent: "center",
       gap: spacing.sm,
-      height: 52,
+      minHeight: 52,
       paddingHorizontal: spacing.lg,
       borderRadius: radii.full,
       backgroundColor: t.colors.ink,
@@ -511,7 +531,7 @@ const createStyles = (t: Theme) =>
       alignItems: "center",
       justifyContent: "center",
       gap: spacing.sm - 2,
-      height: 44,
+      minHeight: 44,
       paddingHorizontal: spacing.md,
       borderRadius: radii.full,
       backgroundColor: t.colors.surface,

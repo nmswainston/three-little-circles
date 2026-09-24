@@ -20,10 +20,19 @@ export default function Chip({ label, icon, selected = false, onPress }: ChipPro
     <Pressable
       onPress={onPress}
       accessibilityRole="button"
+      accessibilityLabel={label}
       accessibilityState={{ selected }}
       style={({ pressed }) => [styles.chip, selected && styles.chipSelected, pressed && styles.pressed]}
     >
-      {icon && <Ionicons name={icon} size={16} color={selected ? t.colors.onInk : t.colors.text} />}
+      {icon && (
+        <Ionicons
+          name={icon}
+          size={16}
+          color={selected ? t.colors.onInk : t.colors.text}
+          accessibilityElementsHidden
+          importantForAccessibility="no"
+        />
+      )}
       <Text style={[styles.label, selected && styles.labelSelected]}>{label}</Text>
     </Pressable>
   );
@@ -36,7 +45,7 @@ const createStyles = (t: Theme) =>
       alignItems: 'center',
       justifyContent: 'center',
       gap: spacing.sm - 2,
-      height: 36,
+      minHeight: 36,
       paddingHorizontal: spacing.md - 2,
       borderRadius: radii.full,
       backgroundColor: t.colors.surface,

@@ -22,12 +22,20 @@ export default function EntryRow({ entry, onPress }: EntryRowProps) {
   const styles = useStyles(createStyles);
   const found = useFoundStore((s) => entry.id in s.found);
   const title = labelOrFallback(entry.display?.entryTitle, 'Hidden Find');
+  const label = [
+    `${title}${found ? ', found' : ''}`,
+    entry.locationType,
+    entry.difficulty,
+    entry.entryType === 'FACT' ? 'Hidden Surprise' : undefined,
+  ]
+    .filter(Boolean)
+    .join(', ');
 
   return (
     <Pressable
       onPress={onPress}
       accessibilityRole="button"
-      accessibilityLabel={`${title}${found ? ', found' : ''}`}
+      accessibilityLabel={label}
       style={({ pressed }) => [styles.row, pressed && styles.pressed]}
     >
       <View style={styles.textColumn}>
@@ -85,7 +93,7 @@ const createStyles = (t: Theme) =>
       color: t.colors.textSecondary,
     },
     factChip: {
-      height: 20,
+      minHeight: 20,
       paddingHorizontal: spacing.sm,
       borderRadius: radii.full,
       borderWidth: 1,

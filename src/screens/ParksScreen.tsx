@@ -122,7 +122,7 @@ export default function ParksScreen() {
       <PageHeader title="Parks" subtitle="Pick a destination. The magic hides in plain sight." brand />
       <View style={styles.body}>
         <View style={styles.search}>
-          <Ionicons name="search" size={20} color={t.colors.textMuted} />
+          <Ionicons name="search" size={20} color={t.colors.textMuted} accessibilityElementsHidden importantForAccessibility="no" />
           <TextInput
             value={query}
             onChangeText={setQuery}
@@ -203,7 +203,7 @@ const createStyles = (t: Theme) =>
       flexDirection: "row",
       alignItems: "center",
       gap: spacing.sm + 2,
-      height: 44,
+      minHeight: 44,
       paddingHorizontal: spacing.md,
       backgroundColor: t.colors.surface,
       borderRadius: radii.full,

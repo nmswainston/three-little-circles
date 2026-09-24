@@ -40,7 +40,7 @@ function cardLabels() {
   return screen
     .getAllByRole('button')
     .map((b) => (b.props.accessibilityLabel ?? b.props['aria-label']) as unknown)
-    .filter((l): l is string => typeof l === 'string' && /Right here|min walk|away$|No pin yet$/.test(l));
+    .filter((l): l is string => typeof l === 'string' && /, (Right here|[^,]* walk|[^,]* away|No pin yet), /.test(l));
 }
 
 function renderPark() {
@@ -80,7 +80,7 @@ describe('MapScreen', () => {
     // Closest first: the pin we stand on leads with no distance to walk, and
     // the next-nearest pin follows it.
     const cards = cardLabels();
-    expect(cards[0]).toBe(`${title(sorted[0].item)}, Right here`);
+    expect(cards[0].startsWith(`${title(sorted[0].item)}, Right here, `)).toBe(true);
     if (sorted.length > 1) expect(cards[1].startsWith(title(sorted[1].item))).toBe(true);
   });
 });

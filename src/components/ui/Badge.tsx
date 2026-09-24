@@ -37,6 +37,8 @@ export default function Badge({ achievement, earned, size = 40, isNew = false }:
         styles.ring,
         { width: outer, height: outer, borderRadius: outer / 2, borderColor: ring },
       ]}
+      accessibilityElementsHidden
+      importantForAccessibility="no-hide-descendants"
     >
       <View style={[styles.disc, { width: size - 2, height: size - 2, borderRadius: (size - 2) / 2, backgroundColor: fill }]}>
         <Ionicons name={achievement.icon as IconName} size={Math.round(size * 0.5)} color={iconColor} />

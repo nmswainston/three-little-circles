@@ -92,7 +92,9 @@ export default function ImportProgressScreen() {
             <Ionicons name="arrow-back" size={24} color={t.colors.text} />
           </Pressable>
           <Text style={styles.eyebrow}>Backup</Text>
-          <Text style={styles.title}>Import progress</Text>
+          <Text style={styles.title} accessibilityRole="header">
+            Import progress
+          </Text>
           <Text style={styles.subtitle}>
             Paste the backup message from your other phone. You'll see what's in it before anything changes.
           </Text>
@@ -102,9 +104,11 @@ export default function ImportProgressScreen() {
           <View style={styles.body}>
             <View style={styles.successCard}>
               <View style={styles.successDisc}>
-                <Ionicons name="checkmark" size={32} color={t.colors.onSuccess} />
+                <Ionicons name="checkmark" size={32} color={t.colors.onSuccess} accessibilityElementsHidden importantForAccessibility="no" />
               </View>
-              <Text style={styles.successTitle}>Imported</Text>
+              <Text style={styles.successTitle} accessibilityRole="header">
+                Imported
+              </Text>
               <Text style={styles.successBody}>
                 {applied.mode === "merge"
                   ? `${applied.newFinds} new find${applied.newFinds === 1 ? "" : "s"} added, and badges and reports merged in.`
@@ -136,12 +140,18 @@ export default function ImportProgressScreen() {
                 autoCorrect={false}
                 accessibilityLabel="Backup message"
               />
-              {parsed && !parsed.ok && <Text style={styles.error}>{parsed.message}</Text>}
+              {parsed && !parsed.ok && (
+                <Text style={styles.error} accessibilityLiveRegion="polite">
+                  {parsed.message}
+                </Text>
+              )}
             </View>
 
             {summary && (
               <View style={styles.previewCard}>
-                <Text style={styles.previewTitle}>{exportedOn ? `Backup from ${exportedOn}` : "Backup"}</Text>
+                <Text style={styles.previewTitle} accessibilityRole="header">
+                  {exportedOn ? `Backup from ${exportedOn}` : "Backup"}
+                </Text>
                 <Row icon="checkmark-circle-outline" label={`${summary.finds} find${summary.finds === 1 ? "" : "s"}`} meta={`${summary.newFinds} new to this phone`} />
                 <Row icon="ribbon-outline" label={`${summary.badges} badge${summary.badges === 1 ? "" : "s"}`} />
                 <Row icon="options-outline" label={summary.hasSettings ? "Settings included" : "No settings"} meta={summary.hasSettings ? "Applied only if you replace" : undefined} />
@@ -155,6 +165,7 @@ export default function ImportProgressScreen() {
                   <Pressable
                     onPress={() => apply("merge")}
                     accessibilityRole="button"
+                    accessibilityLabel="Merge into this phone"
                     style={({ pressed }) => [styles.primaryButton, pressed && styles.pressed]}
                   >
                     <Ionicons name="git-merge-outline" size={18} color={t.colors.onInk} />
@@ -183,9 +194,10 @@ export default function ImportProgressScreen() {
 function Row({ icon, label, meta }: { icon: keyof typeof Ionicons.glyphMap; label: string; meta?: string }) {
   const t = useTheme();
   const styles = useStyles(createStyles);
+  // One stop per row for a screen reader: "3 finds, 2 new to this phone".
   return (
-    <View style={styles.row}>
-      <Ionicons name={icon} size={20} color={t.colors.textSecondary} />
+    <View style={styles.row} accessible accessibilityLabel={meta ? `${label}, ${meta}` : label}>
+      <Ionicons name={icon} size={20} color={t.colors.textSecondary} accessibilityElementsHidden importantForAccessibility="no" />
       <Text style={styles.rowLabel}>{label}</Text>
       {meta && <Text style={styles.rowMeta}>{meta}</Text>}
     </View>
@@ -312,7 +324,7 @@ const createStyles = (t: Theme) =>
       alignItems: "center",
       justifyContent: "center",
       gap: spacing.sm - 2,
-      height: 48,
+      minHeight: 48,
       borderRadius: radii.full,
       backgroundColor: t.colors.ink,
       paddingHorizontal: spacing.lg,
@@ -325,7 +337,7 @@ const createStyles = (t: Theme) =>
     secondaryButton: {
       alignItems: "center",
       justifyContent: "center",
-      height: 48,
+      minHeight: 48,
       borderRadius: radii.full,
       backgroundColor: t.colors.surface,
       borderWidth: 1,

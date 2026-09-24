@@ -26,7 +26,13 @@ export default function ProgressRing({
   const center = size / 2;
 
   return (
-    <Svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
+    <Svg
+      width={size}
+      height={size}
+      viewBox={`0 0 ${size} ${size}`}
+      accessibilityElementsHidden
+      importantForAccessibility="no-hide-descendants"
+    >
       <Circle
         cx={center}
         cy={center}

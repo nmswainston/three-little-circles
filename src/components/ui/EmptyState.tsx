@@ -27,7 +27,7 @@ export default function EmptyState({
         <Text style={styles.title}>{title}</Text>
         <Text style={styles.message}>{message}</Text>
         {actionLabel && onAction && (
-          <TouchableOpacity style={styles.button} onPress={onAction} activeOpacity={0.7}>
+          <TouchableOpacity style={styles.button} onPress={onAction} activeOpacity={0.7} accessibilityRole="button">
             <Text style={styles.buttonText}>{actionLabel}</Text>
           </TouchableOpacity>
         )}

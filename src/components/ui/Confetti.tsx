@@ -45,7 +45,7 @@ export default function Confetti({ colors }: ConfettiProps) {
   }, [pieces, progress]);
 
   return (
-    <View style={styles.layer}>
+    <View style={styles.layer} accessibilityElementsHidden importantForAccessibility="no-hide-descendants">
       {pieces.map((piece, i) => (
         <Animated.View
           key={i}

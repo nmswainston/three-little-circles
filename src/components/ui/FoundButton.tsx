@@ -63,7 +63,7 @@ const createStyles = (t: Theme) =>
       alignItems: 'center',
       justifyContent: 'center',
       gap: spacing.sm + 2,
-      height: 56,
+      minHeight: 56,
       borderRadius: radii.full,
       paddingHorizontal: spacing.lg,
     },

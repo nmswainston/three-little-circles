@@ -30,7 +30,11 @@ export default function ThreeCircles({ size = 'medium', style }: ThreeCirclesPro
   ];
 
   return (
-    <View style={[styles.container, { width: container, height: container }, style]}>
+    <View
+      style={[styles.container, { width: container, height: container }, style]}
+      accessibilityElementsHidden
+      importantForAccessibility="no-hide-descendants"
+    >
       {positions.map((pos, i) => (
         <View
           key={i}

@@ -29,11 +29,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   regular: {
-    height: 28,
+    minHeight: 28,
     paddingHorizontal: spacing.md - 4,
   },
   small: {
-    height: 20,
+    minHeight: 20,
     paddingHorizontal: spacing.sm,
   },
   text: {

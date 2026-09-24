@@ -37,13 +37,23 @@ export default function EntryCard({ entry, showLocation = false, trailingLabel }
   const locationLine = [entry.display?.parkName, entry.display?.landName, entry.display?.attractionName]
     .filter(Boolean)
     .join(" · ");
+  // Title and state first, then what the card shows: type, difficulty, and where.
+  const label = [
+    `${title}${found ? ", found" : ""}${trailingLabel ? `, ${trailingLabel}` : ""}`,
+    entry.locationType,
+    entry.difficulty,
+    entry.entryType === "FACT" ? "Hidden Surprise" : undefined,
+    showLocation && locationLine.length > 0 ? locationLine.replace(/ · /g, ", ") : undefined,
+  ]
+    .filter(Boolean)
+    .join(", ");
 
   return (
     <Pressable
       style={({ pressed }) => [styles.card, found && styles.cardFound, pressed && styles.pressed]}
       onPress={() => navigation.navigate("EntryDetail", { entryId: entry.id })}
       accessibilityRole="button"
-      accessibilityLabel={`${title}${found ? ", found" : ""}${trailingLabel ? `, ${trailingLabel}` : ""}`}
+      accessibilityLabel={label}
     >
       <View style={styles.header}>
         <Text style={styles.title}>{title}</Text>
@@ -130,7 +140,7 @@ const createStyles = (t: Theme) =>
       color: t.colors.textSecondary,
     },
     factChip: {
-      height: 20,
+      minHeight: 20,
       paddingHorizontal: spacing.sm,
       borderRadius: radii.full,
       borderWidth: 1,

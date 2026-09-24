@@ -47,7 +47,9 @@ export default function WhereToLook({
   return (
     <View style={styles.card}>
       <View style={styles.header}>
-        <Text style={styles.title}>Where to look</Text>
+        <Text style={styles.title} accessibilityRole="header">
+          Where to look
+        </Text>
         {ladder && (
           <Text style={styles.meta}>
             {shown} of {steps.length} hints
@@ -59,7 +61,14 @@ export default function WhereToLook({
       {steps.map((step, index) => {
         const open = index < shown;
         return (
-          <View key={step.label} style={styles.step}>
+          // One element per step, so a screen reader hears "Hint 2, The spot: ..."
+          // instead of the number, the label, and the value as three stops.
+          <View
+            key={step.label}
+            style={styles.step}
+            accessible
+            accessibilityLabel={`Hint ${index + 1}, ${step.label}: ${open ? step.value : "hidden until you ask."}`}
+          >
             <View style={[styles.stepNumber, open ? { backgroundColor: accent } : styles.stepNumberLocked]}>
               {open ? (
                 <Text style={[styles.stepNumberText, { color: onAccent }]}>{index + 1}</Text>
@@ -181,7 +190,7 @@ const createStyles = (t: Theme) =>
       flexDirection: "row",
       alignItems: "center",
       gap: spacing.sm - 2,
-      height: 44,
+      minHeight: 44,
       paddingHorizontal: spacing.md + 2,
       borderRadius: radii.full,
       backgroundColor: t.colors.ink,
@@ -192,7 +201,7 @@ const createStyles = (t: Theme) =>
       color: t.colors.onInk,
     },
     allButton: {
-      height: 44,
+      minHeight: 44,
       justifyContent: "center",
     },
     allText: {
