@@ -1,0 +1,37 @@
+{
+  "id": "rotating-garden-restaurant-mural-fern-face-mickey",
+  "parkId": "showcase_park",
+  "landId": "nature_area",
+  "attractionId": "rotating_garden_restaurant",
+  "display": {
+    "entryTitle": "Mural Fern Face Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Nature Area",
+    "attractionName": "Rotating Garden Restaurant"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The large landscape mural in the rotating restaurant has a prominent fern on its left side. Behind the fern's right-hand leaves, roughly the fifth through eighth, a green Mickey face peers out.",
+  "whereToLook": {
+    "scene": "Large landscape mural in the dining room",
+    "exactSpot": "Left side of the mural. Find the big fern and count its right-hand leaves; the face is behind leaves five to eight."
+  },
+  "bestTip": "The restaurant rotates, so wait for the mural to come around to your table.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "Table service; a reservation gets you inside."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0016",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-garden-grill",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

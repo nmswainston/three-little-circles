@@ -1,0 +1,36 @@
+{
+  "id": "mexico-pyramid-plaza-volcano-landscape-mickey",
+  "parkId": "showcase_park",
+  "landId": "mexico_pavilion",
+  "attractionId": "pyramid_interior_plaza",
+  "display": {
+    "entryTitle": "Volcano Landscape Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Mexico Pavilion",
+    "attractionName": "Pyramid Interior Plaza"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "Inside the pyramid, the twilight plaza looks out on a painted volcano. A classic three-circle shape is reported in the volcanic landscape around it.",
+  "whereToLook": {
+    "scene": "Painted volcano backdrop seen from the plaza inside the pyramid",
+    "exactSpot": "The scenery around the volcano, not the cone itself."
+  },
+  "bestTip": "The best view is from the restaurant side of the plaza, near the water.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0022",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-mexico-volcano",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

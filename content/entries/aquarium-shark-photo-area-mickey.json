@@ -1,0 +1,36 @@
+{
+  "id": "aquarium-shark-photo-area-mickey",
+  "parkId": "showcase_park",
+  "landId": "nature_area",
+  "attractionId": "aquarium_pavilion",
+  "display": {
+    "entryTitle": "Shark Photo Area Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Nature Area",
+    "attractionName": "Aquarium Pavilion"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "The shark exhibit's photo area, where kids pose with the big cartoon shark, has a classic Hidden Mickey reported in its decoration.",
+  "whereToLook": {
+    "scene": "Photo area of the shark exhibit",
+    "exactSpot": "The decoration around the photo backdrop and props."
+  },
+  "bestTip": "Wait for a gap between photo groups and read the whole set piece.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0037",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-living-seas-aquarium",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
