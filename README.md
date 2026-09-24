@@ -162,8 +162,15 @@ Then:
 Android builds need `GOOGLE_MAPS_ANDROID_API_KEY` set in the EAS environment
 for the map to render; without it the Map tab is a grey box. Create the key in
 Google Cloud with "Maps SDK for Android" enabled, restricted to the package
-`com.nmswainston.threelittlecircles` and the signing fingerprint that
-`eas credentials` shows. iOS uses Apple Maps and needs no key.
+`com.nmswainston.threelittlecircles` and two SHA-1 fingerprints: the one
+`eas credentials` shows, which signs preview and development builds, and the
+app signing key from Play Console (Setup, App signing), which signs every copy
+installed from Google Play. With only the first, the map works in test builds
+and is grey in the store build. iOS uses Apple Maps and needs no key.
+
+Store release steps and paste-ready listing text live in
+[TESTFLIGHT.md](TESTFLIGHT.md) for iOS and [PLAY_STORE.md](PLAY_STORE.md) for
+Android.
 
 A development build (`eas build --profile development`) is the way to test the
 Android map with your own key while keeping hot reload: install the build, then
