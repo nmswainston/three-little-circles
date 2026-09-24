@@ -161,7 +161,7 @@ export default function ProfileScreen() {
                     {index > 0 && <View style={styles.divider} />}
                     <View style={styles.parkRow}>
                       <View style={[styles.dot, { backgroundColor: palette.accent }]} />
-                      <Text style={styles.parkName} numberOfLines={1}>
+                      <Text style={styles.parkName} numberOfLines={2}>
                         {park.name}
                       </Text>
                       <Text style={styles.parkMeta}>
@@ -451,7 +451,8 @@ const createStyles = (t: Theme) =>
       flexDirection: "row",
       alignItems: "center",
       gap: spacing.md - 4,
-      height: 52,
+      minHeight: 52,
+      paddingVertical: spacing.sm,
     },
     divider: {
       height: 1,
@@ -470,6 +471,10 @@ const createStyles = (t: Theme) =>
     parkMeta: {
       ...text.meta,
       color: t.colors.textSecondary,
+      // Fixed width and even digits so "0 / 8" and "12 / 90" line up down the column.
+      minWidth: 64,
+      textAlign: "right",
+      fontVariant: ["tabular-nums"],
     },
     grid: {
       flexDirection: "row",

@@ -1,5 +1,5 @@
 import React, { useCallback, useMemo, useState } from "react";
-import { FlatList, ListRenderItem, ScrollView, StyleSheet, View, Text, TextInput, Pressable } from "react-native";
+import { FlatList, ListRenderItem, StyleSheet, View, Text, TextInput, Pressable } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { Ionicons } from "@expo/vector-icons";
@@ -13,6 +13,7 @@ import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
 import { spacing, radii, text } from "../theme/tokens";
 import PageHeader from "../components/layout/PageHeader";
 import Chip from "../components/ui/Chip";
+import FadingScrollRow from "../components/ui/FadingScrollRow";
 import ParkCard from "../components/ParkCard";
 import EntryCard from "../components/EntryCard";
 import EmptyState from "../components/ui/EmptyState";
@@ -140,17 +141,12 @@ export default function ParksScreen() {
         </View>
 
         {!searching && (
-          <ScrollView
-            horizontal
-            showsHorizontalScrollIndicator={false}
-            contentContainerStyle={styles.chips}
-            style={styles.chipRow}
-          >
+          <FadingScrollRow contentContainerStyle={styles.chips} style={styles.chipRow}>
             <Chip label="All" selected={region === undefined} onPress={() => setRegion(undefined)} />
             {REGIONS.map((r) => (
               <Chip key={r} label={r} selected={region === r} onPress={() => setRegion(r)} />
             ))}
-          </ScrollView>
+          </FadingScrollRow>
         )}
       </View>
     </>
@@ -223,8 +219,6 @@ const createStyles = (t: Theme) =>
     },
     chipRow: {
       marginHorizontal: -spacing.lg,
-      flexGrow: 0,
-      flexShrink: 0,
     },
     chips: {
       paddingHorizontal: spacing.lg,

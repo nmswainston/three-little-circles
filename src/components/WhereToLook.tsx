@@ -16,6 +16,8 @@ interface WhereToLookProps {
   /** Park accent for the step numbers. */
   accent: string;
   onAccent: string;
+  /** One line under the header while hints are still closed. */
+  note?: string;
 }
 
 /**
@@ -23,7 +25,15 @@ interface WhereToLookProps {
  * ladder, steps open one tap at a time and the closed ones keep their label
  * so the guest knows what kind of help is next without seeing the answer.
  */
-export default function WhereToLook({ steps, revealed, onRevealNext, onRevealAll, accent, onAccent }: WhereToLookProps) {
+export default function WhereToLook({
+  steps,
+  revealed,
+  onRevealNext,
+  onRevealAll,
+  accent,
+  onAccent,
+  note,
+}: WhereToLookProps) {
   const t = useTheme();
   const styles = useStyles(createStyles);
   const shown = Math.min(Math.max(revealed, 0), steps.length);
@@ -44,6 +54,7 @@ export default function WhereToLook({ steps, revealed, onRevealNext, onRevealAll
           </Text>
         )}
       </View>
+      {ladder && note ? <Text style={styles.note}>{note}</Text> : null}
 
       {steps.map((step, index) => {
         const open = index < shown;
@@ -114,6 +125,11 @@ const createStyles = (t: Theme) =>
     meta: {
       ...text.meta,
       color: t.colors.textSecondary,
+    },
+    note: {
+      ...text.bodySmall,
+      color: t.colors.textSecondary,
+      marginTop: -spacing.sm,
     },
     step: {
       flexDirection: "row",

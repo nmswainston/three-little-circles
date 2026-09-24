@@ -143,10 +143,15 @@ const createStyles = (t: Theme) =>
     },
     actions: {
       flexDirection: "row",
+      flexWrap: "wrap",
       gap: spacing.sm + 2,
     },
+    // Buttons size to their labels and share the row; when both labels will
+    // not fit on a narrow phone, the second wraps below at full width.
     button: {
-      flex: 1,
+      flexGrow: 1,
+      flexBasis: "auto",
+      paddingHorizontal: spacing.md,
       flexDirection: "row",
       alignItems: "center",
       justifyContent: "center",
