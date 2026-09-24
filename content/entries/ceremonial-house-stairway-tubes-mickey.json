@@ -1,0 +1,36 @@
+{
+  "id": "ceremonial-house-stairway-tubes-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "polynesian_village_resort",
+  "attractionId": "great_ceremonial_house",
+  "display": {
+    "entryTitle": "Stairway Tubes Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Polynesian Village Resort",
+    "attractionName": "Great Ceremonial House"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "On the stairway between floors, decorative tubes in the railing or wall are arranged into a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Stairway between the two floors",
+    "exactSpot": "The decorative tubes along the stair. Look for three grouped together."
+  },
+  "bestTip": "Take the stairs instead of the elevator.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0030",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

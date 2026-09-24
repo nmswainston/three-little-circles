@@ -1,0 +1,37 @@
+{
+  "id": "volcano-pool-carved-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "polynesian_village_resort",
+  "attractionId": "volcano_pool",
+  "display": {
+    "entryTitle": "Volcano Carved Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Polynesian Village Resort",
+    "attractionName": "Lava Pool"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "The volcano that anchors the main pool has a classic Hidden Mickey carved into its side.",
+  "whereToLook": {
+    "scene": "Volcano at the main pool",
+    "exactSpot": "The side of the volcano. Walk around it and look at the carved rock."
+  },
+  "bestTip": "Check the side facing away from the slide, where fewer people look.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Pool and recreation areas are for registered resort guests.",
+  "sourceId": "TLC-RS-0093",
+  "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2025/02/12/polynesian-village-resort-pool-hidden-mickey",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

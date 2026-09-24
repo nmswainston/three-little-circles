@@ -1,0 +1,36 @@
+{
+  "id": "lobby-gift-shop-banner-sign-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "grand_floridian_resort",
+  "attractionId": "lobby_gift_shop",
+  "display": {
+    "entryTitle": "Gift Shop Banner Sign Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Grand Floridian Resort",
+    "attractionName": "M. Mouse Mercantile"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Shop",
+  "description": "The sign attached to the gift shop's banner carries a raised classic Hidden Mickey as decoration.",
+  "whereToLook": {
+    "scene": "Sign on the shop's banner",
+    "exactSpot": "Look at the raised ornament on the sign."
+  },
+  "bestTip": "Look up at the banner from the lobby floor.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0077",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

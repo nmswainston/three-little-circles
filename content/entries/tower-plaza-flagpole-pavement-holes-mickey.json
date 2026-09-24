@@ -1,0 +1,36 @@
+{
+  "id": "tower-plaza-flagpole-pavement-holes-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "coronado_springs_gran_destino",
+  "attractionId": "tower_entrance_plaza",
+  "display": {
+    "entryTitle": "Flagpole Pavement Holes Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Gran Destino Tower",
+    "attractionName": "Tower Entrance Plaza"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "At the base of the flagpole on the way toward the lakeside bar, holes in the pavement form a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Flagpole base between the tower and the lakeside bar",
+    "exactSpot": "Look down at the pavement around the flagpole base for three holes together."
+  },
+  "bestTip": "Look on the bar side of the pole.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0068",
+  "sourceUrl": "https://mickeyvisit.com/hidden-mickeys-at-disney-world/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

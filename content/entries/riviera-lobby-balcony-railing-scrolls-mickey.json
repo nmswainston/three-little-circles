@@ -1,0 +1,36 @@
+{
+  "id": "riviera-lobby-balcony-railing-scrolls-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "riviera_resort",
+  "attractionId": "resort_lobby",
+  "display": {
+    "entryTitle": "Balcony Railing Scrolls Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Riviera Resort",
+    "attractionName": "Resort Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "On the lobby balcony that faces the courtyard, the metal scrollwork of the railing forms a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Courtyard-facing lobby balcony",
+    "exactSpot": "The metal scrolls of the railing. Look for three curls that close into circles."
+  },
+  "bestTip": "View it from the courtyard side, where the pattern is against the sky.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0042",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

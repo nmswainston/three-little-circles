@@ -1,0 +1,36 @@
+{
+  "id": "ceremonial-house-front-door-floor-stones-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "polynesian_village_resort",
+  "attractionId": "great_ceremonial_house",
+  "display": {
+    "entryTitle": "Front Door Floor Stones Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Polynesian Village Resort",
+    "attractionName": "Great Ceremonial House"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "Just inside the front doors of the ceremonial house, the stone floor pattern forms a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Floor just inside the front doors",
+    "exactSpot": "Look down as you enter. Three stones set as head and ears."
+  },
+  "bestTip": "Step to the side of the door so you are not standing on it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0027",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

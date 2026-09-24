@@ -41,6 +41,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "all-star-music-lobby-mural-grilling-bear",
+    "parkId": "resorts_bucket",
+    "landId": "all_star_music_resort",
+    "attractionId": "lobby_mural",
+    "display": {
+      "entryTitle": "Lobby Mural Grilling Bear",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "All-Star Music Resort",
+      "attractionName": "Lobby Mural"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the lobby's character mural, the band plays while a bear grills food in the background, sneaking a picnic into the musical scene.",
+    "whereToLook": {
+      "scene": "Character mural in the lobby",
+      "exactSpot": "Look behind the band for a bear at a grill."
+    },
+    "bestTip": "The musicians pull your eye; look at the background.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Documented",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0086",
+    "sourceUrl": "https://disneyparksblog.com/wdw/check-in-check-it-out-all-star-and-pop-century-resort-refurbishments/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "american-pavilion-construction-painting-beams-mickey",
     "parkId": "showcase_park",
     "landId": "american_pavilion",
@@ -185,44 +221,6 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
-    "id": "animal-kingdom-lodge-carpets-lead",
-    "parkId": "resorts_bucket",
-    "landId": "animal_kingdom_lodge_resort",
-    "attractionId": "great_hall_lobby",
-    "display": {
-      "entryTitle": "Carpet Pattern Lead",
-      "parkName": "Walt Disney World Resorts",
-      "landName": "Animal Kingdom Lodge",
-      "attractionName": "Great Hall Lobby"
-    },
-    "entryType": "FIND",
-    "locationType": "Indoor",
-    "difficulty": "Hard",
-    "areaContext": "Lobby",
-    "description": "This is a lead, not a confirmed find. The patterned carpet running through the great hall and the guest corridors has been reported to hide a Mickey in its repeat. The spot has never been pinned down.",
-    "whereToLook": {
-      "scene": "The carpet in the great hall and along the guest room corridors",
-      "exactSpot": "Stand still, look straight down, and read one full repeat of the pattern at a time for three circles set together."
-    },
-    "bestTip": "Hunt this one in the corridors. They run the same pattern for hundreds of feet with nobody walking over it, which the lobby floor never gives you.",
-    "viewing": {
-      "motion": "Still",
-      "lighting": "Dim",
-      "angle": "Below",
-      "crowding": "Low",
-      "distance": "Close",
-      "notes": "Carpet gets replaced every few years and the pattern changes with it, so an old report may not survive the current floor."
-    },
-    "confidence": "Interpretive",
-    "verification": "Unknown",
-    "coordinates": {
-      "latitude": 28.3531,
-      "longitude": -81.603
-    },
-    "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
-  },
-  {
     "id": "animal-kingdom-lodge-chair-backs-lead",
     "parkId": "resorts_bucket",
     "landId": "animal_kingdom_lodge_resort",
@@ -299,44 +297,6 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
-    "id": "animal-kingdom-lodge-column-carvings-lead",
-    "parkId": "resorts_bucket",
-    "landId": "animal_kingdom_lodge_resort",
-    "attractionId": "great_hall_lobby",
-    "display": {
-      "entryTitle": "Column Carving Lead",
-      "parkName": "Walt Disney World Resorts",
-      "landName": "Animal Kingdom Lodge",
-      "attractionName": "Great Hall Lobby"
-    },
-    "entryType": "FIND",
-    "locationType": "Indoor",
-    "difficulty": "Hard",
-    "areaContext": "Lobby",
-    "description": "This is a lead, not a confirmed find. The timber columns holding up the great hall are banded top to bottom with carved and painted pattern, and Mickey shapes have been reported worked into that banding. Nobody has pinned down which column or which band, so this one is a real search rather than a quick look.",
-    "whereToLook": {
-      "scene": "The great hall, the full-height timber columns under the thatched roof",
-      "exactSpot": "Take one column at a time and read it band by band from eye level upward, watching for three circles sitting inside the repeating geometric pattern."
-    },
-    "bestTip": "Start with the columns nearest the fireplace where the light is strongest, and bring a zoom lens or binoculars for the bands above the second floor.",
-    "viewing": {
-      "motion": "Still",
-      "lighting": "Dim",
-      "angle": "Above",
-      "crowding": "Medium",
-      "distance": "Far",
-      "notes": "The hall is lit low and warm on purpose. The upper bands are genuinely far away, so a camera you can zoom with does most of the work."
-    },
-    "confidence": "Interpretive",
-    "verification": "Unknown",
-    "coordinates": {
-      "latitude": 28.3531,
-      "longitude": -81.603
-    },
-    "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
-  },
-  {
     "id": "animal-kingdom-lodge-curtains-lead",
     "parkId": "resorts_bucket",
     "landId": "animal_kingdom_lodge_resort",
@@ -364,44 +324,6 @@ export const entries: HiddenMickeyEntry[] = [
       "crowding": "Low",
       "distance": "Medium",
       "notes": "A repeating textile pattern means that if the shape is there at all it is there many times over. Find it once and it is suddenly everywhere."
-    },
-    "confidence": "Interpretive",
-    "verification": "Unknown",
-    "coordinates": {
-      "latitude": 28.3531,
-      "longitude": -81.603
-    },
-    "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
-  },
-  {
-    "id": "animal-kingdom-lodge-lobby-rockwork-lead",
-    "parkId": "resorts_bucket",
-    "landId": "animal_kingdom_lodge_resort",
-    "attractionId": "great_hall_lobby",
-    "display": {
-      "entryTitle": "Lobby Rockwork Lead",
-      "parkName": "Walt Disney World Resorts",
-      "landName": "Animal Kingdom Lodge",
-      "attractionName": "Great Hall Lobby"
-    },
-    "entryType": "FIND",
-    "locationType": "Indoor",
-    "difficulty": "Hard",
-    "areaContext": "Lobby",
-    "description": "This is a lead, not a confirmed find. Stone is built into the great hall around the fireplace and along the lower walls, and three rounded stones set as a head and two ears have been reported somewhere in it. The placement has never been recorded.",
-    "whereToLook": {
-      "scene": "The stone fireplace and the rock faces built into the walls of the great hall",
-      "exactSpot": "Follow the mortar lines and look for three rounded stones seated together rather than a carved shape."
-    },
-    "bestTip": "Come by in the evening. Firelight rakes across the stone and separates the individual rocks far better than flat daytime light does.",
-    "viewing": {
-      "motion": "Still",
-      "lighting": "Dim",
-      "angle": "Straight-on",
-      "crowding": "Medium",
-      "distance": "Close",
-      "notes": "Rockwork throws up accidental three-circle groupings constantly, so expect a few false positives before anything convincing."
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
@@ -1177,6 +1099,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "barbados-walkway-pavement-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "caribbean_beach_resort",
+    "attractionId": "barbados_walkway",
+    "display": {
+      "entryTitle": "Barbados Walkway Pavement Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Caribbean Beach Resort",
+      "attractionName": "Barbados Walkway"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "On the concrete walkway from the Barbados section toward the main building, a small classic Hidden Mickey is pressed into the pavement.",
+    "whereToLook": {
+      "scene": "Concrete walkway from the Barbados section toward the main building",
+      "exactSpot": "Look down at the concrete along the way for a small pressed shape."
+    },
+    "bestTip": "Walk it slowly in good light.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0084",
+    "sourceUrl": "https://tinkandtoni.com/2021/06/13/hidden-mickeys-at-caribbean-beach-and-beach-club/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "bayou-log-flume-bobcat-fur-spots-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "frontier_area",
@@ -1393,6 +1351,115 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "big-blue-pool-green-fish-spots-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "art_of_animation_resort",
+    "attractionId": "big_blue_pool",
+    "display": {
+      "entryTitle": "Green Fish Spots Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Art of Animation Resort",
+      "attractionName": "The Big Blue Pool"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "Viewed from the lobby, a green fish stands left of the big pool. Its blue spots include a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Green fish figure left of the pool as seen from the lobby",
+      "exactSpot": "The blue spots on the fish. Look for three set as head and ears."
+    },
+    "bestTip": "Line it up from the lobby windows first, then walk out to it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Pool and recreation areas are for registered resort guests.",
+    "sourceId": "TLC-RS-0039",
+    "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boardwalk-lobby-carousel-horse-neck-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "boardwalk_resort",
+    "attractionId": "lobby_carousel_model",
+    "display": {
+      "entryTitle": "Carousel Horse Neck Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "BoardWalk Resort",
+      "attractionName": "Lobby Carousel Model"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "The miniature carousel in the lobby is full of tiny painted horses. On one, a marking on the neck resembles a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Miniature carousel model in the lobby",
+      "exactSpot": "The horses' necks. Look for a three-circle marking."
+    },
+    "bestTip": "Walk around the whole model slowly; there are two Mickeys on it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0062",
+    "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boardwalk-lobby-carousel-horse-thigh-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "boardwalk_resort",
+    "attractionId": "lobby_carousel_model",
+    "display": {
+      "entryTitle": "Carousel Horse Thigh Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "BoardWalk Resort",
+      "attractionName": "Lobby Carousel Model"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "On the same miniature carousel, a second marking on a horse's right rear thigh resembles a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Miniature carousel model in the lobby",
+      "exactSpot": "A horse's right rear thigh."
+    },
+    "bestTip": "After the neck, check the hindquarters.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0063",
+    "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "boardwalk-promenade-shopfront-lead",
     "parkId": "resorts_bucket",
     "landId": "boardwalk_resort",
@@ -1429,6 +1496,259 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "boulder-ridge-lobby-beam-knot-carved-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "boulder_ridge_villas_lobby",
+    "display": {
+      "entryTitle": "Beam Knot Carved Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Boulder Ridge Villas Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "On the wooden beam to the right of the villas lobby fireplace, a carved classic Hidden Mickey emerges from a knot in the wood.",
+    "whereToLook": {
+      "scene": "Beam to the right of the fireplace",
+      "exactSpot": "Find the knot in the wood and look at the carving around it."
+    },
+    "bestTip": "The carving uses the knot as the head.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0056",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boulder-ridge-lobby-fireplace-red-ornament-profile-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "boulder_ridge_villas_lobby",
+    "display": {
+      "entryTitle": "Fireplace Red Ornament Profile Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Boulder Ridge Villas Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "Above the villas lobby fireplace, a red ornament hides Mickey's profile in its decoration.",
+    "whereToLook": {
+      "scene": "Red ornament above the fireplace",
+      "exactSpot": "Look at the decoration for a side view of a face with a round ear."
+    },
+    "bestTip": "Step back to the middle of the room; the profile reads from a distance.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Low",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0057",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boulder-ridge-lobby-flower-painting-field-rocks-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "boulder_ridge_villas_lobby",
+    "display": {
+      "entryTitle": "Flower Painting Field Rocks Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Boulder Ridge Villas Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the same flower painting, a second grouping of rocks in the open field forms another classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Flower painting on the right side of the villas lobby",
+      "exactSpot": "The open field, away from the river. Look for three rocks together."
+    },
+    "bestTip": "After the river, move your eyes to the meadow.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0053",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boulder-ridge-lobby-flower-painting-frame-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "boulder_ridge_villas_lobby",
+    "display": {
+      "entryTitle": "Flower Painting Frame Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Boulder Ridge Villas Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The frame of the same flower painting carries a classic Hidden Mickey in its ornament, lower right.",
+    "whereToLook": {
+      "scene": "Flower painting on the right side of the villas lobby",
+      "exactSpot": "Lower right corner of the frame."
+    },
+    "bestTip": "Third of three on this painting. Check the frame last.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0054",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boulder-ridge-lobby-flower-painting-river-rocks-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "boulder_ridge_villas_lobby",
+    "display": {
+      "entryTitle": "Flower Painting River Rocks Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Boulder Ridge Villas Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the villas lobby, the flower painting to the right of the room shows a river. Rocks in the river form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Flower painting on the right side of the villas lobby",
+      "exactSpot": "The river in the painting. Look at the rocks in the water."
+    },
+    "bestTip": "This painting hides three Mickeys. Start with the river.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0052",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boulder-ridge-lobby-hearth-turtle-shell-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "boulder_ridge_villas_lobby",
+    "display": {
+      "entryTitle": "Hearth Turtle Shell Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Boulder Ridge Villas Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "On the fireplace hearth in the villas lobby, a turtle shell design has three swirls that form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Fireplace hearth in the villas lobby",
+      "exactSpot": "The turtle shell. Look at the swirls in the pattern."
+    },
+    "bestTip": "Crouch at the hearth; it is low.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0055",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "boulder-ridge-villa-murphy-bed-birch-bark-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "boulder_ridge_guest_villas",
+    "display": {
+      "entryTitle": "Murphy Bed Birch Bark Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Boulder Ridge Guest Villas"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the guest villas, the artwork on the fold-down Murphy bed shows birch bark. A classic Hidden Mickey is painted into the bark.",
+    "whereToLook": {
+      "scene": "Murphy bed artwork in the villa",
+      "exactSpot": "The painted birch bark. Look at the markings for three circles."
+    },
+    "bestTip": "Fold the bed up and look at the artwork with the room lights on.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
+    "sourceId": "TLC-RS-0088",
+    "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2026/04/26/boulder-ridge-villas-hidden-mickey-painting",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "boulevard-photo-shop-dalmatian-spot-mickey",
@@ -1505,6 +1825,78 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-canada-totem-pole",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  },
+  {
+    "id": "cape-may-cafe-display-plate-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "yacht_and_beach_club_resort",
+    "attractionId": "cape_may_cafe",
+    "display": {
+      "entryTitle": "Display Plate Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Yacht and Beach Club Resort",
+      "attractionName": "Cape May Cafe"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Just inside the cafe on the right wall, a display plate carries red and black shapes that form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Right wall just inside the entrance",
+      "exactSpot": "The display plate. Look at the red and black pattern."
+    },
+    "bestTip": "Look while you wait to be seated.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0064",
+    "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "cape-may-corridor-sandcastle-picture-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "yacht_and_beach_club_resort",
+    "attractionId": "cape_may_cafe",
+    "display": {
+      "entryTitle": "Corridor Sandcastle Picture Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Yacht and Beach Club Resort",
+      "attractionName": "Cape May Cafe"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "In the corridor behind the cafe, a picture of a sandcastle hides a full Mickey figure in the artwork.",
+    "whereToLook": {
+      "scene": "Corridor behind the restaurant",
+      "exactSpot": "The sandcastle picture. Look for a full figure, not just circles."
+    },
+    "bestTip": "Walk the corridor after your meal.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0065",
+    "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-dance-room-flower-mickey",
@@ -1740,6 +2132,186 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "ceremonial-house-front-door-floor-stones-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "great_ceremonial_house",
+    "display": {
+      "entryTitle": "Front Door Floor Stones Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Great Ceremonial House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Just inside the front doors of the ceremonial house, the stone floor pattern forms a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Floor just inside the front doors",
+      "exactSpot": "Look down as you enter. Three stones set as head and ears."
+    },
+    "bestTip": "Step to the side of the door so you are not standing on it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0027",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "ceremonial-house-net-knot-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "great_ceremonial_house",
+    "display": {
+      "entryTitle": "Overhead Net Knot Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Great Ceremonial House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "A fishing net is strung overhead in the ceremonial house. At one junction, the rope is knotted into a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Fishing net strung overhead",
+      "exactSpot": "Follow the net to its junctions and look for three loops together."
+    },
+    "bestTip": "Look from directly beneath the net.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0029",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "ceremonial-house-registration-wall-stones-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "great_ceremonial_house",
+    "display": {
+      "entryTitle": "Registration Wall Stones Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Great Ceremonial House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the stone wall behind the registration desk, three stones sit together as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Stone wall behind the registration desk",
+      "exactSpot": "Scan the wall for one large rounded stone with two smaller ones above it."
+    },
+    "bestTip": "Look while you check in; the desk puts you at the right distance.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0031",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "ceremonial-house-stairway-tubes-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "great_ceremonial_house",
+    "display": {
+      "entryTitle": "Stairway Tubes Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Great Ceremonial House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "On the stairway between floors, decorative tubes in the railing or wall are arranged into a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Stairway between the two floors",
+      "exactSpot": "The decorative tubes along the stair. Look for three grouped together."
+    },
+    "bestTip": "Take the stairs instead of the elevator.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0030",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "ceremonial-house-suspended-orbs-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "great_ceremonial_house",
+    "display": {
+      "entryTitle": "Suspended Orbs Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Great Ceremonial House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Colorful orbs hang from the ceiling of the ceremonial house. From the right spot, three of them align into a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Hanging orbs in the lobby",
+      "exactSpot": "Look up and move until three orbs stack into the shape."
+    },
+    "bestTip": "Try from the stairs, where you are closer to their height.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0028",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "china-pavilion-gate-post-motif-mickey",
     "parkId": "showcase_park",
     "landId": "china_pavilion",
@@ -1772,6 +2344,42 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "sourceId": "TLC-EP-0011",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-s-china-pavillion-hidden-mickeys",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "clownfish-corridor-carpet-bubbles-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "art_of_animation_resort",
+    "attractionId": "guest_corridors",
+    "display": {
+      "entryTitle": "Clownfish Corridor Carpet Bubbles Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Art of Animation Resort",
+      "attractionName": "Guest Corridors"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "In the guest corridors of the clownfish section, the carpet's bubbles include three that form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Carpet in the clownfish section corridors",
+      "exactSpot": "Look down at the bubbles in the carpet pattern for three grouped together."
+    },
+    "bestTip": "Read one repeat of the pattern at a time.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0040",
+    "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
@@ -2439,6 +3047,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "coronado-gift-shop-left-door-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "coronado_springs_resort",
+    "attractionId": "resort_gift_shop",
+    "display": {
+      "entryTitle": "Gift Shop Left Door Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Coronado Springs Resort",
+      "attractionName": "Panchito's Gifts and Sundries"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The left entrance door of the resort gift shop has a classic Hidden Mickey worked into its design.",
+    "whereToLook": {
+      "scene": "Left entrance door of the gift shop",
+      "exactSpot": "Look at the door's decoration and hardware for three circles."
+    },
+    "bestTip": "Check both the woodwork and the handle.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0087",
+    "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-springs-resorts/2026/08/01/disneys-coronado-springs-resort-hidden-mickey",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "cosmic-coaster-city-model-domes-mickey",
     "parkId": "showcase_park",
     "landId": "discovery_area",
@@ -2855,6 +3499,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "fitness-center-elevator-wood-panel-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "fitness_center_elevator",
+    "display": {
+      "entryTitle": "Elevator Wood Panel Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Fitness Center Elevator"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "Beside the elevator near the fitness center, the wood panel on the right has a carved figure with circular ears on top of an elongated head.",
+    "whereToLook": {
+      "scene": "Elevator near the fitness center",
+      "exactSpot": "Right-hand wood panel. Look for two round ears above a stretched head shape."
+    },
+    "bestTip": "It is a stylized figure, not the classic three circles.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0022",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "floating-mountains-approach-rock-holes-mickey",
     "parkId": "adventure_park",
     "landId": "floating_mountains_area",
@@ -3157,6 +3837,78 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "food-court-lion-light-tree-leaves-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "art_of_animation_resort",
+    "attractionId": "food_court",
+    "display": {
+      "entryTitle": "Lion Light Tree Leaves Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Art of Animation Resort",
+      "attractionName": "Landscape of Flavors"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The food court's light fixtures are themed to films. On the lion-themed light nearest the shop, three green leaf circles on the tree trunk form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Lion-themed light fixture nearest the gift shop",
+      "exactSpot": "The tree trunk on the fixture. Three green leaf circles."
+    },
+    "bestTip": "Look at the fixture itself, not the light it throws.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0036",
+    "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "food-court-mermaid-light-shelf-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "art_of_animation_resort",
+    "attractionId": "food_court",
+    "display": {
+      "entryTitle": "Mermaid Light Shelf Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Art of Animation Resort",
+      "attractionName": "Landscape of Flavors"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "On the mermaid-themed light on the far seating side, an illustrated shelf of the mermaid's collected treasures includes Mickey's face among the objects.",
+    "whereToLook": {
+      "scene": "Mermaid-themed light fixture on the far side of the seating",
+      "exactSpot": "The illustrated shelf of treasures. Look for a face among the gadgets and gizmos."
+    },
+    "bestTip": "Sit under it and look up with a coffee.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0037",
+    "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "fortress-drop-tower-paint-trail-mickeys",
     "parkId": "california_pier_park",
     "landId": "hero_campus_area",
@@ -3348,6 +4100,116 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-italy-pavillion-enoteca-castello-wine",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  },
+  {
+    "id": "french-quarter-guest-room-bathroom-door-tiara",
+    "parkId": "resorts_bucket",
+    "landId": "port_orleans_french_quarter_resort",
+    "attractionId": "guest_rooms",
+    "display": {
+      "entryTitle": "Bathroom Door Tiara",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Port Orleans French Quarter Resort",
+      "attractionName": "Guest Rooms"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the refurbished guest rooms, the decorative pattern on the bathroom door works in the tiara of the princess who spent her movie as a frog. It is the resort's new theme, hidden in plain sight.",
+    "whereToLook": {
+      "scene": "Refurbished guest room",
+      "exactSpot": "The ornament on the bathroom door. Look for a crown shape in the pattern."
+    },
+    "bestTip": "Look at the door with the room lights on; the pattern is subtle.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Documented",
+    "status": "Current",
+    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
+    "sourceId": "TLC-RS-0061",
+    "sourceUrl": "https://disneyparksblog.com/wdw/new-rooms-at-port-orleans-french-quarter/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "french-quarter-lobby-painting-dress-tiger-face",
+    "parkId": "resorts_bucket",
+    "landId": "port_orleans_french_quarter_resort",
+    "attractionId": "registration_lobby",
+    "display": {
+      "entryTitle": "Lobby Painting Dress Tiger Face",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Port Orleans French Quarter Resort",
+      "attractionName": "Registration Lobby"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "Behind the registration desk, the third painting from the left shows a woman in a green dress. In the lower green section of the dress, the ornament suggests the face of the bouncy striped tiger from the hundred-acre wood.",
+    "whereToLook": {
+      "scene": "Paintings behind the registration desk",
+      "exactSpot": "Third painting from the left. Look at the lower part of the green dress."
+    },
+    "bestTip": "Ask at the desk if you can step behind the rope for a closer look.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0011",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-port-orleans-resort-french-quarter-hidden-tigger/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "frontier-tavern-spoked-wheels-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "fort_wilderness_campground",
+    "attractionId": "frontier_tavern",
+    "display": {
+      "entryTitle": "Spoked Wheels Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Fort Wilderness Resort & Campground",
+      "attractionName": "Crockett's Tavern"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Low on the wall of the tavern, spoked wagon wheels form a tilted classic Hidden Mickey. It is easiest to see from the far end of the neighboring restaurant's seating.",
+    "whereToLook": {
+      "scene": "Lower wall of the tavern",
+      "exactSpot": "The spoked wheels. Stand at the far end of the restaurant seating and look across.",
+      "orientation": "Sideways"
+    },
+    "bestTip": "Distance helps. Close up, they are just wheels.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0013",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-trails-end-restaurant-and-crocketts-tavern-frying-pan-hidden-mickey-and-spoked-wheel-hidden-mickey/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "galactic-blaster-exit-mural-alien-spacecraft",
@@ -3960,42 +4822,329 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
-    "id": "grand-floridian-grand-lobby-lead",
+    "id": "grand-lobby-carpet-red-gold-mickey",
     "parkId": "resorts_bucket",
     "landId": "grand_floridian_resort",
     "attractionId": "grand_lobby",
     "display": {
-      "entryTitle": "Grand Lobby Lead",
+      "entryTitle": "Lobby Carpet Red and Gold Mickey",
       "parkName": "Walt Disney World Resorts",
       "landName": "Grand Floridian Resort",
       "attractionName": "Grand Lobby"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. The grand lobby runs five stories of white millwork, stained glass domes, chandeliers and an aviary, which is a great deal of decorative surface to search.",
+    "description": "The lobby carpet's red and gold motifs include one arranged as a classic Hidden Mickey.",
     "whereToLook": {
-      "scene": "The five-story grand lobby, its balconies, chandeliers and stained glass",
-      "exactSpot": "Check the fretwork on the balcony railings, the stained glass domes overhead and the chandelier fittings for three circles worked into the pattern."
+      "scene": "Carpet in the grand lobby",
+      "exactSpot": "Read the red and gold pattern for three circles together."
     },
-    "bestTip": "Take the elevator to the top floor and work downward. From the upper balconies the millwork and the glass are close instead of five stories away.",
+    "bestTip": "The pattern repeats; one clean repeat is all you need.",
     "viewing": {
       "motion": "Still",
-      "lighting": "Bright",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0074",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "grand-lobby-marble-floor-corner-panel-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "grand_lobby",
+    "display": {
+      "entryTitle": "Marble Floor Corner Panel Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Grand Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In a green corner panel of the marble lobby floor, orange marble outlines a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Marble floor of the grand lobby",
+      "exactSpot": "A green panel in a corner of the floor. Look for orange marble in a three-circle outline."
+    },
+    "bestTip": "Look from the upper balcony first to find the panel, then go down.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0069",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "grand-lobby-marble-floor-dog",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "grand_lobby",
+    "display": {
+      "entryTitle": "Marble Floor Dog",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Grand Lobby"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The loyal yellow dog is also in the marble floor inlay.",
+    "whereToLook": {
+      "scene": "Character inlay in the marble lobby floor",
+      "exactSpot": "Look for the long nose and floppy ears in profile."
+    },
+    "bestTip": "Third of four in the inlay.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0072",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "grand-lobby-marble-floor-duck",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "grand_lobby",
+    "display": {
+      "entryTitle": "Marble Floor Duck",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Grand Lobby"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The sailor-suited duck completes the set of characters in the marble floor inlay.",
+    "whereToLook": {
+      "scene": "Character inlay in the marble lobby floor",
+      "exactSpot": "Look for the bill and the cap."
+    },
+    "bestTip": "Last of four in the inlay.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0073",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "grand-lobby-marble-floor-goof",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "grand_lobby",
+    "display": {
+      "entryTitle": "Marble Floor Goof",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Grand Lobby"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the same marble floor inlay, the tall goof appears among the characters.",
+    "whereToLook": {
+      "scene": "Character inlay in the marble lobby floor",
+      "exactSpot": "Look for the hat and the long ears."
+    },
+    "bestTip": "Second of four in the inlay.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0071",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "grand-lobby-marble-floor-minnie",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "grand_lobby",
+    "display": {
+      "entryTitle": "Marble Floor Minnie",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Grand Lobby"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The marble floor of the grand lobby has a character design inlaid in it. Minnie is one of the characters.",
+    "whereToLook": {
+      "scene": "Character inlay in the marble lobby floor",
+      "exactSpot": "Find the inlay and look for the bow."
+    },
+    "bestTip": "The inlay hides four characters. Take them one at a time.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0070",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "grand-lobby-wallpaper-repeating-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "grand_lobby",
+    "display": {
+      "entryTitle": "Lobby Wallpaper Repeating Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Grand Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The wallpaper pattern in the grand lobby repeats a classic Hidden Mickey within its decoration.",
+    "whereToLook": {
+      "scene": "Wallpaper in the grand lobby",
+      "exactSpot": "Look closely at one repeat of the wallpaper pattern."
+    },
+    "bestTip": "The walls near the elevators are easiest to get close to.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0075",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "great-hall-lobby-column-base-logs-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Column Base Logs Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "At the base of one of the great hall's columns, three tied logs are bundled so they form an inverted classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Columns in the great hall lobby",
+      "exactSpot": "The base of the column. Look at the ends of the tied logs.",
+      "orientation": "Upside-down"
+    },
+    "bestTip": "Work the columns one at a time; only one has the bundle.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0018",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "great-hall-lobby-shield-dots-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "High Shield Dots Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "High on the wall of the great hall, a decorative shield carries three black dots arranged as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Shields displayed high in the great hall",
+      "exactSpot": "Look up at the shields. One has three black dots set as head and ears."
+    },
+    "bestTip": "The upper balconies bring you level with the shields.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
       "angle": "Above",
       "crowding": "Medium",
-      "distance": "Far",
-      "notes": "The lobby is bright and white, which helps, but the ceiling detail is a long way up from the floor."
+      "distance": "Far"
     },
-    "confidence": "Interpretive",
-    "verification": "Unknown",
-    "coordinates": {
-      "latitude": 28.4113,
-      "longitude": -81.5877
-    },
-    "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0019",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "great-tree-trunk-moss-mickey",
@@ -5892,6 +7041,78 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "kidani-village-sidewalk-concrete-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "kidani_village_entrance",
+    "display": {
+      "entryTitle": "Sidewalk Concrete Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Kidani Village"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "On the sidewalk that runs left of the lobby entrance toward the pool, a faint classic Hidden Mickey is traced into the concrete near the curb, just before the parking direction sign.",
+    "whereToLook": {
+      "scene": "Sidewalk left of the lobby entrance, heading toward the pool",
+      "exactSpot": "Near the curb, before the parking sign. Look for a faint tracing in the concrete."
+    },
+    "bestTip": "Low sun makes the tracing easier to see. Try early morning or late afternoon.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0015",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-lodge-kidani-village-hidden-mickey-carved-in-sidewalk-outside-front-of-lobby/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "kona-island-counter-tile-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "kona_island_coffee_bar",
+    "display": {
+      "entryTitle": "Counter Tile Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Kona Island Coffee Bar"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "The tiles on the coffee bar counter beside the register include a classic Hidden Mickey design.",
+    "whereToLook": {
+      "scene": "Counter beside the register",
+      "exactSpot": "The tilework on the counter front. Look for three circles in the pattern."
+    },
+    "bestTip": "Look while you order.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0032",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "legacy-photo-panels-boy-band-portraits",
     "parkId": "showcase_park",
     "landId": "celebration_area",
@@ -6148,6 +7369,114 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "lobby-gift-shop-banner-sign-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "lobby_gift_shop",
+    "display": {
+      "entryTitle": "Gift Shop Banner Sign Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "M. Mouse Mercantile"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "The sign attached to the gift shop's banner carries a raised classic Hidden Mickey as decoration.",
+    "whereToLook": {
+      "scene": "Sign on the shop's banner",
+      "exactSpot": "Look at the raised ornament on the sign."
+    },
+    "bestTip": "Look up at the banner from the lobby floor.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0077",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "lodge-entrance-pavement-lizard-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "lodge_entrance",
+    "display": {
+      "entryTitle": "Pavement Lizard Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Jambo House Entrance"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "A lizard is set into the pavement to the right of the main lodge entrance. A marking on its back outlines a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Pavement right of the main entrance",
+      "exactSpot": "Find the lizard in the paving and look at the pattern on its back."
+    },
+    "bestTip": "Look down as you walk in from the bus stop.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0017",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "lodge-guest-corridor-carpet-panel-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "guest_corridors",
+    "display": {
+      "entryTitle": "Guest Corridor Carpet Panel Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Guest Corridors"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "The carpet in the guest corridors repeats a pattern of rectangular panels. One panel design contains a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Carpet in the guest room corridors",
+      "exactSpot": "Look down and read one repeat of the pattern. The Mickey is inside a rectangular panel."
+    },
+    "bestTip": "Stand still and read one full repeat before moving on.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0021",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "lunch-box-counter-mom-note",
     "parkId": "studios_park",
     "landId": "toy_blocks_area",
@@ -6292,6 +7621,114 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "mara-cafe-rear-mural-monkey-face-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "mara_cafe",
+    "display": {
+      "entryTitle": "Rear Mural Monkey Face Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "The Mara"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "On the mural at the rear of the cafe, the monkey on the left has facial markings that form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Rear mural in the cafe",
+      "exactSpot": "The monkey on the left side of the mural. Look at its face."
+    },
+    "bestTip": "Take a table near the back to study it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0026",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "mara-cafe-window-leaves-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "mara_cafe",
+    "display": {
+      "entryTitle": "Window Leaves Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "The Mara"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Above the windows of the food area in the cafe, sculpted leaves include a cluster shaped like a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Leaves above the food-area windows",
+      "exactSpot": "Look up at the foliage over the windows for three round leaves together."
+    },
+    "bestTip": "Stand back near the seating so you can see the whole run of windows.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0025",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "marina-lighthouse-boatyard-sign-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "caribbean_beach_resort",
+    "attractionId": "marina_lighthouse",
+    "display": {
+      "entryTitle": "Lighthouse Boatyard Sign Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Caribbean Beach Resort",
+      "attractionName": "Old Port Royale Marina Lighthouse"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "The boatyard sign on the marina lighthouse conceals a classic Hidden Mickey in its design.",
+    "whereToLook": {
+      "scene": "Sign on the marina lighthouse",
+      "exactSpot": "Read the boatyard sign closely for three circles."
+    },
+    "bestTip": "Approach from the marina side for the best angle.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0083",
+    "sourceUrl": "https://tinkandtoni.com/2021/06/13/hidden-mickeys-at-caribbean-beach-and-beach-club/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "marrakesh-restaurant-anteroom-painting-mickey",
@@ -7222,6 +8659,43 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "pirate-ship-pool-helm-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "caribbean_beach_resort",
+    "attractionId": "pirate_ship_pool",
+    "display": {
+      "entryTitle": "Pirate Ship Helm Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Caribbean Beach Resort",
+      "attractionName": "Fuentes del Morro Pool"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "On the children's pirate ship at the main pool, a classic Hidden Mickey is worked into the helm beside the wheel.",
+    "whereToLook": {
+      "scene": "Children's pirate ship at the main pool",
+      "exactSpot": "The helm. Look beside the ship's wheel."
+    },
+    "bestTip": "Go when the kids' pool is quiet.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Pool and recreation areas are for registered resort guests.",
+    "sourceId": "TLC-RS-0082",
+    "sourceUrl": "https://www.disneycaribbeanbeach.com/content/caribbean-beach-resort-hidden-mickeys/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "pirates-exit-bells-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "pirate_port_area",
@@ -7261,44 +8735,6 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
-  },
-  {
-    "id": "polynesian-ceremonial-house-lead",
-    "parkId": "resorts_bucket",
-    "landId": "polynesian_village_resort",
-    "attractionId": "great_ceremonial_house",
-    "display": {
-      "entryTitle": "Ceremonial House Lead",
-      "parkName": "Walt Disney World Resorts",
-      "landName": "Polynesian Village Resort",
-      "attractionName": "Great Ceremonial House"
-    },
-    "entryType": "FIND",
-    "locationType": "Indoor",
-    "difficulty": "Hard",
-    "areaContext": "Lobby",
-    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. The main building is full of carved wood, woven textures, tapa cloth pattern and planting, all of which hide a three-circle shape well.",
-    "whereToLook": {
-      "scene": "The main building lobby, its carvings, textiles and planted interior",
-      "exactSpot": "Read the tapa cloth pattern, the carved wooden panels and the woven light fittings for three circles set together."
-    },
-    "bestTip": "The patterned textiles are the best bet here. A woven repeat puts the same shape in front of you dozens of times once you spot it once.",
-    "viewing": {
-      "motion": "Still",
-      "lighting": "Dim",
-      "angle": "Straight-on",
-      "crowding": "High",
-      "distance": "Medium",
-      "notes": "The building is a transport hub as well as a lobby, so it is busy. Early morning is the only genuinely quiet window."
-    },
-    "confidence": "Interpretive",
-    "verification": "Unknown",
-    "coordinates": {
-      "latitude": 28.4055,
-      "longitude": -81.5855
-    },
-    "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
     "id": "polynesian-coffee-bar-post-nails-mickey",
@@ -7423,44 +8859,6 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
-    "id": "pop-century-courtyard-lead",
-    "parkId": "resorts_bucket",
-    "landId": "pop_century_resort",
-    "attractionId": "decade_courtyards",
-    "display": {
-      "entryTitle": "Decade Courtyard Lead",
-      "parkName": "Walt Disney World Resorts",
-      "landName": "Pop Century Resort",
-      "attractionName": "Decade Courtyards"
-    },
-    "entryType": "FIND",
-    "locationType": "Outdoor",
-    "difficulty": "Hard",
-    "areaContext": "Outdoor Display",
-    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. Each courtyard is built around oversized props from one decade, from giant telephones and yo-yos to enormous vinyl records, which is a lot of large round objects standing in the open.",
-    "whereToLook": {
-      "scene": "The decade courtyards between the buildings and the oversized props in each one",
-      "exactSpot": "Look for three round props or three circles within a single prop that line up as a head and two ears, and check the painted building facades too."
-    },
-    "bestTip": "Circles are everywhere here by accident, so hold out for a grouping that is clearly deliberate rather than three records that happen to overlap.",
-    "viewing": {
-      "motion": "Still",
-      "lighting": "Bright",
-      "angle": "Straight-on",
-      "crowding": "Low",
-      "distance": "Far",
-      "notes": "The props are huge and out in full sun, so step well back. Up close a giant record is just a wall."
-    },
-    "confidence": "Interpretive",
-    "verification": "Unknown",
-    "coordinates": {
-      "latitude": 28.3512,
-      "longitude": -81.5443
-    },
-    "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
-  },
-  {
     "id": "port-orleans-grounds-lead",
     "parkId": "resorts_bucket",
     "landId": "port_orleans_riverside_resort",
@@ -7571,6 +8969,115 @@ export const entries: HiddenMickeyEntry[] = [
     "verification": "Community",
     "status": "Unverified",
     "sourceId": "TLC-MK-0047",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "railroad-display-room-backyard-railway-equipment",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "railroad_display_room",
+    "display": {
+      "entryTitle": "Backyard Railway Equipment",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Carolwood Pacific Room"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "The display at the rear of the railroad room holds original miniature railroad equipment from the backyard railway Walt ran at his home, the hobby that fed directly into the parks' trains.",
+    "whereToLook": {
+      "scene": "Railroad room in the villas building",
+      "exactSpot": "The display case at the rear of the room."
+    },
+    "bestTip": "The room is open to anyone; you do not need to be a villa guest.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0060",
+    "sourceUrl": "https://disneyparksblog.com/wdw/5-hidden-details-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "reef-playground-rock-hollows-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "art_of_animation_resort",
+    "attractionId": "reef_playground",
+    "display": {
+      "entryTitle": "Playground Rock Hollows Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Art of Animation Resort",
+      "attractionName": "Squirt's Righteous Reef"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "On the rock surface of the reef playground, three circular hollows form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Rock surfaces of the playground",
+      "exactSpot": "Look at the sculpted rock for three round hollows together."
+    },
+    "bestTip": "Go early before the playground fills up.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Pool and recreation areas are for registered resort guests.",
+    "sourceId": "TLC-RS-0038",
+    "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "restaurant-stairway-waterfall-rockwork-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "restaurant_stairway",
+    "display": {
+      "entryTitle": "Stairway Waterfall Rockwork Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Boma Stairway"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "On the stairway down to the buffet restaurant, the waterfall on the right at the first landing has rockwork that outlines a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Stairway down to the buffet restaurant",
+      "exactSpot": "First landing. Look at the rocks of the waterfall on the right."
+    },
+    "bestTip": "Stop on the landing rather than looking back from the bottom.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0020",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
@@ -7687,6 +9194,187 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "riviera-grand-villa-arch-artwork-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "grand_villas",
+    "display": {
+      "entryTitle": "Grand Villa Arch Artwork Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Grand Villas"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the three-bedroom grand villas, an arch-shaped piece of artwork carries a classic Hidden Mickey in its design.",
+    "whereToLook": {
+      "scene": "Arch-shaped artwork in the grand villa",
+      "exactSpot": "The design within the arch. Look for three circles."
+    },
+    "bestTip": "It is only in the largest villa type.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
+    "sourceId": "TLC-RS-0092",
+    "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2026/02/01/disney-riviera-resort-hidden-mickeys",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "riviera-guest-corridor-carpet-minnie-bow",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "guest_corridors",
+    "display": {
+      "entryTitle": "Guest Corridor Carpet Minnie Bow",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Guest Corridors"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "The guest corridor carpet hides Minnie in its scrollwork. The bow is what gives her away.",
+    "whereToLook": {
+      "scene": "Carpet in the guest room corridors",
+      "exactSpot": "Look for the three-circle shape with a bow on top."
+    },
+    "bestTip": "Find the Mickey in the same carpet first; Minnie is nearby.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0044",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "riviera-lobby-balcony-railing-scrolls-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "resort_lobby",
+    "display": {
+      "entryTitle": "Balcony Railing Scrolls Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Resort Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "On the lobby balcony that faces the courtyard, the metal scrollwork of the railing forms a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Courtyard-facing lobby balcony",
+      "exactSpot": "The metal scrolls of the railing. Look for three curls that close into circles."
+    },
+    "bestTip": "View it from the courtyard side, where the pattern is against the sky.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0042",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "riviera-lobby-porte-cochere-lamps-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "resort_lobby",
+    "display": {
+      "entryTitle": "Porte Cochere Lamps Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Resort Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Under the covered entrance at the front of the resort, three ceiling lamps align into a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Ceiling of the covered entrance drive",
+      "exactSpot": "Look up at the lamps. Three of them sit as head and ears."
+    },
+    "bestTip": "Look up while you wait for the bus or a car.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0041",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "riviera-lounge-carpet-scrollwork-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "guest_corridors",
+    "display": {
+      "entryTitle": "Lounge Carpet Scrollwork Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Guest Corridors"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "In the carpet just past the lobby lounge, the scrollwork outlines a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Carpet past the lobby lounge",
+      "exactSpot": "Look down at the scrollwork pattern for three circles together."
+    },
+    "bestTip": "It repeats, so one look at a full pattern tile is enough.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0043",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "riviera-mural-teddy-bear-mickey",
     "parkId": "resorts_bucket",
     "landId": "riviera_resort",
@@ -7726,6 +9414,114 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-riviera-resort-michael-darlings-teddy-bear-hidden-mickey/",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  },
+  {
+    "id": "riviera-west-elevator-carpet-duck",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "guest_corridors",
+    "display": {
+      "entryTitle": "West Elevator Carpet Duck",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Guest Corridors"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "The carpet by the west elevators has a circular pattern, and the sailor-suited duck is hidden inside it.",
+    "whereToLook": {
+      "scene": "Carpet at the west elevators",
+      "exactSpot": "The circular motif. Look for a bill and cap in the pattern."
+    },
+    "bestTip": "Two characters hide in this carpet. The duck's bill is the giveaway.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0045",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "riviera-west-elevator-carpet-goof",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "guest_corridors",
+    "display": {
+      "entryTitle": "West Elevator Carpet Goof",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Guest Corridors"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "In the same circular carpet pattern by the west elevators, the tall goof's hat and floppy ears appear.",
+    "whereToLook": {
+      "scene": "Carpet at the west elevators",
+      "exactSpot": "The circular motif. Look for a tall hat and long ears."
+    },
+    "bestTip": "Once you have the duck, the goof is in the same repeat.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0046",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "roaring-fork-fishing-display-nut-caps-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "roaring_fork_cafe",
+    "display": {
+      "entryTitle": "Fishing Display Nut Caps Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Roaring Fork"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Entrance",
+    "description": "At the entrance to the quick-service cafe, a fishing display includes three small nut caps set together as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Fishing display at the cafe entrance",
+      "exactSpot": "Look closely at the small hardware on the display for three nut caps."
+    },
+    "bestTip": "It is small. Get close.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0091",
+    "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2026/02/26/roaring-fork-hidden-mickey",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "rock-show-coaster-alley-balcony-chairs",
@@ -8127,6 +9923,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "rooftop-restaurant-entry-sign-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "rooftop_restaurant",
+    "display": {
+      "entryTitle": "Entry Sign Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Topolino's Terrace"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "The sign over the entrance to the rooftop restaurant is topped with a classic three-circle Hidden Mickey, fitting for a place named after the mouse in Italian.",
+    "whereToLook": {
+      "scene": "Sign over the restaurant entrance",
+      "exactSpot": "Look up at the top of the sign."
+    },
+    "bestTip": "You can see it from the elevator lobby without a reservation.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0047",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "rose-and-crown-pub-sign-mickey",
     "parkId": "showcase_park",
     "landId": "united_kingdom_pavilion",
@@ -8313,6 +10145,114 @@ export const entries: HiddenMickeyEntry[] = [
     "verification": "Community",
     "status": "Unverified",
     "sourceId": "TLC-MK-0033",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "saratoga-lobby-horse-roses-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "saratoga_springs_resort",
+    "attractionId": "lobby_approach",
+    "display": {
+      "entryTitle": "Lobby Horse Roses Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Saratoga Springs Resort",
+      "attractionName": "Lobby Approach"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The horse near the lobby is decorated with roses. Among them, a grouping of three forms a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Horse figure near the lobby entrance",
+      "exactSpot": "The roses on the horse. Look for three arranged as head and ears."
+    },
+    "bestTip": "Walk all the way around the horse.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0090",
+    "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2026/03/01/saratoga-springs-resort-hidden-mickey",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "savanna-overlook-rock-impression-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "savanna_overlook",
+    "display": {
+      "entryTitle": "Overlook Rock Impression Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Savanna Overlook"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "At the big rock overlook, above the stacked crates beside a bin, an impression in the rock outlines a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Rock overlook onto the savanna",
+      "exactSpot": "Above the crates next to the bin. Look at the surface of the rock."
+    },
+    "bestTip": "Find the crates first; the rock above them is the one.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0024",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "savanna-overlook-vine-column-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "animal_kingdom_lodge_resort",
+    "attractionId": "savanna_overlook",
+    "display": {
+      "entryTitle": "Vine Column Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Animal Kingdom Lodge",
+      "attractionName": "Savanna Overlook"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "On the approach to the savanna overlook, a column wrapped in vines has three of them curling into a classic Hidden Mickey high up.",
+    "whereToLook": {
+      "scene": "Vine-wrapped column on the way to the savanna overlook",
+      "exactSpot": "High on the column. Follow the vines up until three circles appear."
+    },
+    "bestTip": "Look up before you reach the overlook railing.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Low",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0023",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
@@ -8576,6 +10516,115 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "sixties-courtyard-wall-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "pop_century_resort",
+    "attractionId": "sixties_courtyard",
+    "display": {
+      "entryTitle": "Sixties Courtyard Wall Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Pop Century Resort",
+      "attractionName": "1960s Courtyard"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "In the sixties section, behind the giant jungle-boy figure and below the yellow second-floor walkway, a classic Hidden Mickey is worked into the exterior wall.",
+    "whereToLook": {
+      "scene": "Wall behind the jungle-boy figure in the sixties courtyard",
+      "exactSpot": "Below the yellow walkway on the second floor. Look at the wall behind the figure."
+    },
+    "bestTip": "Stand where the figure is between you and the wall, then look past him.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Pool and recreation areas are for registered resort guests.",
+    "sourceId": "TLC-RS-0016",
+    "sourceUrl": "https://hiddenmickeyguy.com/disneys-pop-century-resort-hidden-mickey/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "skyliner-station-crest-caribbean-side-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "skyliner_station",
+    "display": {
+      "entryTitle": "Station Crest Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Disney Skyliner Station"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The gondola station's roof ornament on the side facing the neighboring beach resort forms a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Roof crest of the gondola station",
+      "exactSpot": "The side facing the beach resort. Look at the ornament at the peak of the roof."
+    },
+    "bestTip": "Look back at the station from the walkway toward the beach resort.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0048",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "skyliner-station-crest-showcase-side-minnie",
+    "parkId": "resorts_bucket",
+    "landId": "riviera_resort",
+    "attractionId": "skyliner_station",
+    "display": {
+      "entryTitle": "Station Crest Minnie",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Riviera Resort",
+      "attractionName": "Disney Skyliner Station"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "On the opposite side of the gondola station, facing the showcase park, the roof crest carries the same ornament with a bow, making it Minnie.",
+    "whereToLook": {
+      "scene": "Roof crest of the gondola station",
+      "exactSpot": "The side facing the showcase park. Look for the bow on the ornament."
+    },
+    "bestTip": "Find the Mickey side first, then walk around.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0049",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "smugglers-freighter-cockpit-miniature-ship",
@@ -9121,6 +11170,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "steakhouse-entrance-cow-photo-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "yacht_and_beach_club_resort",
+    "attractionId": "steakhouse_entrance",
+    "display": {
+      "entryTitle": "Cow Photo Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Yacht and Beach Club Resort",
+      "attractionName": "Yachtsman Steakhouse"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "Left of the steakhouse entrance hangs a photo of a real cow whose black-and-white markings included a perfect Mickey on her side. She lived on the resort property and was a minor celebrity.",
+    "whereToLook": {
+      "scene": "Photo to the left of the restaurant entrance",
+      "exactSpot": "The cow in the photo. Look at the marking on her side."
+    },
+    "bestTip": "No reservation needed; the photo is outside the restaurant.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0066",
+    "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "steam-train-station-ticket-office-padlock-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "main_street_area",
@@ -9457,6 +11542,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "tower-plaza-flagpole-pavement-holes-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "coronado_springs_gran_destino",
+    "attractionId": "tower_entrance_plaza",
+    "display": {
+      "entryTitle": "Flagpole Pavement Holes Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Gran Destino Tower",
+      "attractionName": "Tower Entrance Plaza"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "At the base of the flagpole on the way toward the lakeside bar, holes in the pavement form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Flagpole base between the tower and the lakeside bar",
+      "exactSpot": "Look down at the pavement around the flagpole base for three holes together."
+    },
+    "bestTip": "Look on the bar side of the pole.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0068",
+    "sourceUrl": "https://mickeyvisit.com/hidden-mickeys-at-disney-world/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "town-square-restaurant-floor-tile-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "main_street_area",
@@ -9672,6 +11793,42 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "trails-end-restaurant-frying-pans-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "fort_wilderness_campground",
+    "attractionId": "trails_end_restaurant",
+    "display": {
+      "entryTitle": "Frying Pans Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Fort Wilderness Resort & Campground",
+      "attractionName": "Trail's End Restaurant"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "On the wall of the seating area, hanging frying pans are arranged with one large pan and two smaller ones as ears, a classic Hidden Mickey in cast iron.",
+    "whereToLook": {
+      "scene": "Wall of the seating area",
+      "exactSpot": "The hanging frying pans. One large, two small."
+    },
+    "bestTip": "Look at the walls while you wait for a table at the buffet.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0012",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-trails-end-restaurant-and-crocketts-tavern-frying-pan-hidden-mickey-and-spoked-wheel-hidden-mickey/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "tree-theater-show-bubbles-mickey",
@@ -10124,6 +12281,117 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "villas-resort-studio-air-vent-grille-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "villas_resort_studio",
+    "display": {
+      "entryTitle": "Resort Studio Air Vent Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Villas Resort Studio"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the villas' resort studios, the air vent grille is cut with a classic Hidden Mickey in its pattern.",
+    "whereToLook": {
+      "scene": "Air vent in the resort studio",
+      "exactSpot": "The grille. Look at the cutout pattern for three circles."
+    },
+    "bestTip": "The same grille hides a second surprise beside the Mickey.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
+    "sourceId": "TLC-RS-0078",
+    "sourceUrl": "https://www.disneyfoodblog.com/2022/03/09/photos-go-inside-the-new-rooms-coming-to-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "villas-resort-studio-air-vent-umbrellas",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "villas_resort_studio",
+    "display": {
+      "entryTitle": "Resort Studio Air Vent Umbrellas",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Villas Resort Studio"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Beside the Mickey in the resort studio vent grille, umbrellas are cut into the pattern, a nod to the magical nanny who arrived by one.",
+    "whereToLook": {
+      "scene": "Air vent in the resort studio",
+      "exactSpot": "Next to the Mickey in the grille. Look for umbrella shapes."
+    },
+    "bestTip": "Find the Mickey first and look to either side.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
+    "sourceId": "TLC-RS-0079",
+    "sourceUrl": "https://www.disneyfoodblog.com/2022/03/09/photos-go-inside-the-new-rooms-coming-to-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "volcano-pool-carved-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "volcano_pool",
+    "display": {
+      "entryTitle": "Volcano Carved Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Lava Pool"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "The volcano that anchors the main pool has a classic Hidden Mickey carved into its side.",
+    "whereToLook": {
+      "scene": "Volcano at the main pool",
+      "exactSpot": "The side of the volcano. Walk around it and look at the carved rock."
+    },
+    "bestTip": "Check the side facing away from the slide, where fewer people look.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Pool and recreation areas are for registered resort guests.",
+    "sourceId": "TLC-RS-0093",
+    "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2025/02/12/polynesian-village-resort-pool-hidden-mickey",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "water-journey-rock-wall-mickey",
     "parkId": "showcase_park",
     "landId": "nature_area",
@@ -10200,6 +12468,80 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "wedding-pavilion-castle-window",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "wedding_pavilion",
+    "display": {
+      "entryTitle": "Castle Window",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Disney's Wedding Pavilion"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "The window at the front of the wedding pavilion frames the castle across the lagoon. The glass was designed to make the castle look larger than it is from that distance.",
+    "whereToLook": {
+      "scene": "Window facing the castle at the front of the pavilion",
+      "exactSpot": "Stand at the aisle and look through the window."
+    },
+    "bestTip": "Compare the view through the glass with the view from the door.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Far"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Unverified",
+    "accessNotes": "The pavilion is used for weddings. Visit between events or ask at the resort about viewing times.",
+    "sourceId": "TLC-RS-0080",
+    "sourceUrl": "https://disneyparksblog.com/weddings/5-little-known-facts-about-disneys-iconic-wedding-pavilion/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "wedding-pavilion-restroom-mirror-clock",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "wedding_pavilion",
+    "display": {
+      "entryTitle": "Restroom Mirror Clock",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Disney's Wedding Pavilion"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "A clock design on the restroom mirror in the pavilion is set permanently to just before midnight, so the spell never breaks.",
+    "whereToLook": {
+      "scene": "Restroom mirror in the pavilion",
+      "exactSpot": "The clock in the mirror design. Check the time."
+    },
+    "bestTip": "It is in the restroom, so this one takes a little nerve.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Documented",
+    "status": "Unverified",
+    "accessNotes": "The pavilion is used for weddings. Visit between events or ask at the resort about viewing times.",
+    "sourceId": "TLC-RS-0081",
+    "sourceUrl": "https://disneyparksblog.com/weddings/5-little-known-facts-about-disneys-iconic-wedding-pavilion/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "wild-motorcar-sherlock-holmes-window",
@@ -10352,42 +12694,148 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
-    "id": "wilderness-lodge-lobby-and-grounds-lead",
+    "id": "wilderness-lobby-fireplace-canyon-strata",
     "parkId": "resorts_bucket",
     "landId": "wilderness_lodge_resort",
     "attractionId": "lobby_and_grounds",
     "display": {
-      "entryTitle": "Lobby and Grounds Lead",
+      "entryTitle": "Fireplace Canyon Strata",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Lobby and Grounds"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "The layered stonework of the lobby fireplace is not random. It models the rock layers of the Grand Canyon in order, from the oldest at the bottom to the youngest at the top.",
+    "whereToLook": {
+      "scene": "Main stone fireplace in the lobby",
+      "exactSpot": "Read the bands of stone from bottom to top."
+    },
+    "bestTip": "A plaque nearby explains the layers if you want the geology.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "Documented",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0059",
+    "sourceUrl": "https://disneyparksblog.com/wdw/5-hidden-details-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "wilderness-lobby-fireplace-stones-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "lobby_and_grounds",
+    "display": {
+      "entryTitle": "Fireplace Stones Mickey",
       "parkName": "Walt Disney World Resorts",
       "landName": "Wilderness Lodge Resort",
       "attractionName": "Lobby and Grounds"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. The lodge stacks carved timber, ironwork, stonework and a painted totem into one enormous room, then runs a spring out of it and down to the lake.",
+    "description": "The main stone fireplace in the lobby rises through the whole building. A classic Hidden Mickey hides among its stones.",
     "whereToLook": {
-      "scene": "The main lodge lobby, the fireplace and the spring trail running out toward the lake",
-      "exactSpot": "Read the carved railings on the upper balconies, the iron light fixtures, the rock strata of the fireplace and the stonework along the spring."
+      "scene": "Main stone fireplace in the lobby",
+      "exactSpot": "Scan the layered stones for three rounded ones set together."
     },
-    "bestTip": "Follow the spring from where it starts inside the lobby out to the lake. The whole route is themed and almost nobody walks it slowly.",
+    "bestTip": "Look from the upper balconies too; the fireplace is several stories tall.",
     "viewing": {
       "motion": "Still",
-      "lighting": "Dim",
-      "angle": "Above",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
       "crowding": "Medium",
-      "distance": "Far",
-      "notes": "The lobby is tall and dim, so the upper balconies need a zoom. The spring trail outside is bright and much easier going."
+      "distance": "Medium"
     },
-    "confidence": "Interpretive",
-    "verification": "Unknown",
-    "coordinates": {
-      "latitude": 28.4127,
-      "longitude": -81.5668
+    "confidence": "Strong",
+    "verification": "Documented",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0058",
+    "sourceUrl": "https://disneyparksblog.com/wdw/5-hidden-details-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "wilderness-lobby-registration-keys-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "lobby_and_grounds",
+    "display": {
+      "entryTitle": "Registration Keys Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Lobby and Grounds"
     },
-    "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Behind the registration desk, a display of old-fashioned keys includes one whose bow is shaped like a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Keys displayed behind the registration desk",
+      "exactSpot": "Look at the tops of the keys for one shaped like three circles."
+    },
+    "bestTip": "Ask the cast member to point it out if the desk is quiet.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0051",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "wilderness-lobby-transportation-sign-bus-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "lobby_and_grounds",
+    "display": {
+      "entryTitle": "Transportation Sign Bus Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Wilderness Lodge Resort",
+      "attractionName": "Lobby and Grounds"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The transportation sign in the lobby shows a bus. Mickey sits in the driver's seat beside the lettering.",
+    "whereToLook": {
+      "scene": "Transportation sign in the lobby",
+      "exactSpot": "The bus on the sign. Look at the driver's seat."
+    },
+    "bestTip": "Look while you check the bus times.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0050",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "winged-flight-lab-specimen-containers-mickey",
@@ -10546,41 +12994,39 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
-    "id": "yacht-and-beach-club-lobby-lead",
+    "id": "yacht-lobby-globe-mickey",
     "parkId": "resorts_bucket",
     "landId": "yacht_and_beach_club_resort",
     "attractionId": "lobby_and_marina",
     "display": {
-      "entryTitle": "Lobby and Marina Lead",
+      "entryTitle": "Lobby Globe Mickey",
       "parkName": "Walt Disney World Resorts",
       "landName": "Yacht and Beach Club Resort",
       "attractionName": "Lobby and Marina"
     },
     "entryType": "FIND",
     "locationType": "Indoor",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "This is a lead, not a confirmed find. Hidden Mickeys are reported at this resort, but no one recorded a single specific spot, so the starting points below are the best places to begin rather than a known find. The two halves share a New England seaside theme built from nautical brass, globe lamps, painted woodwork and a marina out the back.",
+    "description": "The big globe in the yacht-themed lobby has a pale blue classic Hidden Mickey marked near Madagascar, just below the sea monster.",
     "whereToLook": {
-      "scene": "Both resort lobbies and the shared marina and waterfront between them",
-      "exactSpot": "Check the brass nautical fittings, the globe light fixtures, the painted wood trim and the marina signage for three circles together."
+      "scene": "Globe in the lobby",
+      "exactSpot": "Find Madagascar, then the sea monster near it. The Mickey is just below the monster."
     },
-    "bestTip": "Do both lobbies in one visit. They are a short walk apart and the theming differs enough that each gives you a fresh set of surfaces.",
+    "bestTip": "Spin the globe gently if it moves, or walk around to the Indian Ocean side.",
     "viewing": {
       "motion": "Still",
-      "lighting": "Bright",
+      "lighting": "Mixed",
       "angle": "Straight-on",
       "crowding": "Medium",
-      "distance": "Medium",
-      "notes": "Both lobbies are bright and airy, which makes this an easier search than the darker deluxe lobbies elsewhere on property."
+      "distance": "Close"
     },
-    "confidence": "Interpretive",
-    "verification": "Unknown",
-    "coordinates": {
-      "latitude": 28.3705,
-      "longitude": -81.5576
-    },
-    "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-RS-0067",
+    "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   }
 ];
