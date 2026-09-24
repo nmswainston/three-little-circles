@@ -35,7 +35,7 @@ change rather than a code change.
 - React Navigation (native stack)
 - Zustand with AsyncStorage persistence
 - react-native-maps on iOS and Android, list fallback on web
-- Jest with jest-expo
+- Jest with jest-expo, plus React Native Testing Library for component tests
 
 ## Features
 
@@ -90,7 +90,7 @@ src/theme/              Day and night color themes, per-park accents, useTheme a
 src/screens/            One file per screen. MapScreen.web.tsx replaces the map on web.
 src/components/         Shared UI.
 src/utils/progress.ts   Progress and completion math.
-__tests__/              Jest tests.
+__tests__/              Jest tests: pure helpers, the content build, and component behavior.
 ```
 
 ## Adding Content
