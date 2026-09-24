@@ -1,5 +1,6 @@
-import { entries } from "./entries";
+import { entries as allEntries } from "./entries";
 import { getDestinationSummaries } from "./destinations";
+import { countsTowardProgress } from "./status";
 import { HiddenMickeyEntry } from "./types";
 import { groupProgress, isComplete } from "../utils/progress";
 import { ParkKey } from "../theme/themes";
@@ -18,6 +19,9 @@ import { PARK_ICONS } from "../theme/parks";
  * on its own as content lands.
  */
 export type AchievementId = string;
+
+/** Leads and removed finds never count, so a stale mark on one cannot unlock anything. */
+const entries = allEntries.filter(countsTowardProgress);
 
 export interface Achievement {
   id: AchievementId;

@@ -6,6 +6,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { RootStackParamList } from "../navigation/types";
 import { HiddenMickeyEntry } from "../data/types";
 import { labelOrFallback } from "../data/labels";
+import { listStatusLabel } from "../data/status";
 import { useFoundStore } from "../store/useFoundStore";
 import { useSettingsStore } from "../store/useSettingsStore";
 import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
@@ -33,6 +34,7 @@ export default function EntryCard({ entry, showLocation = false, trailingLabel }
   // here too until the entry is found, matching the detail screen.
   const showDescription = Boolean(entry.description) && (found || !hintMode);
   const title = labelOrFallback(entry.display?.entryTitle, "Hidden Find");
+  const statusLabel = listStatusLabel(entry);
 
   const locationLine = [entry.display?.parkName, entry.display?.landName, entry.display?.attractionName]
     .filter(Boolean)
@@ -43,7 +45,7 @@ export default function EntryCard({ entry, showLocation = false, trailingLabel }
       style={({ pressed }) => [styles.card, found && styles.cardFound, pressed && styles.pressed]}
       onPress={() => navigation.navigate("EntryDetail", { entryId: entry.id })}
       accessibilityRole="button"
-      accessibilityLabel={`${title}${found ? ", found" : ""}${trailingLabel ? `, ${trailingLabel}` : ""}`}
+      accessibilityLabel={`${title}${found ? ", found" : ""}${statusLabel ? `, ${statusLabel.toLowerCase()}` : ""}${trailingLabel ? `, ${trailingLabel}` : ""}`}
     >
       <View style={styles.header}>
         <Text style={styles.title}>{title}</Text>
@@ -61,6 +63,11 @@ export default function EntryCard({ entry, showLocation = false, trailingLabel }
         {entry.entryType === "FACT" && (
           <View style={styles.factChip}>
             <Text style={styles.factText}>Hidden Surprise</Text>
+          </View>
+        )}
+        {statusLabel && (
+          <View style={styles.factChip}>
+            <Text style={styles.factText}>{statusLabel}</Text>
           </View>
         )}
       </View>

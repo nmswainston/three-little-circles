@@ -10,6 +10,7 @@ import { getEntryById, getRelatedEntries } from "../data/query";
 import { HiddenMickeyEntry } from "../data/types";
 import { getConfirmation } from "../data/confirmations";
 import { labelOrFallback } from "../data/labels";
+import { STATUS_LABEL, countsTowardProgress } from "../data/status";
 import { openDirections } from "../lib/maps";
 import { entryShareText, shareText } from "../lib/share";
 import { notify } from "../lib/notify";
@@ -41,15 +42,6 @@ const VERIFICATION_LABEL: Record<NonNullable<HiddenMickeyEntry["verification"]>,
   Unknown: null,
 };
 
-/** Chip text for a status worth warning about. Current needs no chip. */
-const STATUS_LABEL: Record<NonNullable<HiddenMickeyEntry["status"]>, string | null> = {
-  Current: null,
-  Unverified: "Unconfirmed",
-  Seasonal: "Seasonal",
-  Variable: "Props move",
-  Removed: "Removed",
-};
-
 function formatMonthYear(iso: string): string | null {
   const date = new Date(iso);
   if (Number.isNaN(date.getTime())) return null;
@@ -76,7 +68,11 @@ export default function EntryDetailScreen() {
   // Other entries at the same attraction, so sweeping one queue or lobby
   // doesn't mean a trip back to the park screen between finds.
   const related = useMemo(() => (entry ? getRelatedEntries(entry) : []), [entry]);
-  const foundHere = related.filter((e) => e.id in foundMap).length + (found ? 1 : 0);
+  // Leads and removed finds sit in the list but stay out of the tally.
+  const countable = entry ? countsTowardProgress(entry) : false;
+  const relatedCountable = related.filter(countsTowardProgress);
+  const hereTotal = relatedCountable.length + (countable ? 1 : 0);
+  const foundHere = relatedCountable.filter((e) => e.id in foundMap).length + (found && countable ? 1 : 0);
 
   // Hint mode keeps the answer under wraps: where-to-look opens one step per
   // tap, and the description, tip, and fun facts wait for the last step. A
@@ -177,10 +173,49 @@ export default function EntryDetailScreen() {
         </View>
 
         <View style={styles.body}>
-          <FoundButton found={found} onToggle={() => toggleFound(entryId)} />
-          <Text style={styles.helper}>
-            {found ? "Nice catch. This counts toward your progress." : "Mark it found to add it to your progress."}
-          </Text>
+          {countable ? (
+            <>
+              <FoundButton found={found} onToggle={() => toggleFound(entryId)} />
+              <Text style={styles.helper}>
+                {found ? "Nice catch. This counts toward your progress." : "Mark it found to add it to your progress."}
+              </Text>
+            </>
+          ) : entry.status === "Lead" ? (
+            <View style={styles.noteCard}>
+              <View style={styles.noteHeader}>
+                <Ionicons name="search-outline" size={20} color={t.colors.text} />
+                <Text style={styles.noteTitle}>Unconfirmed lead</Text>
+              </View>
+              <Text style={styles.noteText}>
+                Someone reported a Mickey here, but nobody has pinned it down yet, so this one doesn't count toward
+                your progress. Spot it and send a sighting, and it can become a real find.
+              </Text>
+              <Pressable
+                onPress={() =>
+                  navigation.navigate("SubmitSighting", {
+                    parkId: entry.parkId,
+                    landName: entry.display?.landName,
+                    attractionName: entry.display?.attractionName,
+                  })
+                }
+                accessibilityRole="button"
+                style={({ pressed }) => [styles.noteButton, pressed && styles.pressed]}
+              >
+                <Ionicons name="camera-outline" size={18} color={t.colors.onInk} />
+                <Text style={styles.mapButtonText}>Spotted it? Send a sighting</Text>
+              </Pressable>
+            </View>
+          ) : (
+            <View style={styles.noteCard}>
+              <View style={styles.noteHeader}>
+                <Ionicons name="time-outline" size={20} color={t.colors.text} />
+                <Text style={styles.noteTitle}>No longer in the park</Text>
+              </View>
+              <Text style={styles.noteText}>
+                This detail has been removed. It stays in the guide for history and doesn't count toward your progress.
+              </Text>
+            </View>
+          )}
 
           {entry.coordinates && (
             <View style={styles.mapRow}>
@@ -274,7 +309,7 @@ export default function EntryDetailScreen() {
             </View>
           )}
 
-          <StillThereCard entryId={entry.id} summary={getConfirmation(entry.id)} />
+          {countable && <StillThereCard entryId={entry.id} summary={getConfirmation(entry.id)} />}
 
           {related.length > 0 && (
             <View style={styles.relatedCard}>
@@ -282,9 +317,11 @@ export default function EntryDetailScreen() {
                 <Text style={styles.relatedTitle} numberOfLines={2}>
                   More at {labelOrFallback(entry.display?.attractionName, "this attraction")}
                 </Text>
-                <Text style={styles.relatedMeta}>
-                  {foundHere} of {related.length + 1} found here
-                </Text>
+                {hereTotal > 0 && (
+                  <Text style={styles.relatedMeta}>
+                    {foundHere} of {hereTotal} found here
+                  </Text>
+                )}
               </View>
               {related.map((other, index) => (
                 <React.Fragment key={other.id}>
@@ -384,6 +421,37 @@ const createStyles = (t: Theme) =>
       color: t.colors.textSecondary,
       textAlign: "center",
       marginTop: -spacing.sm,
+    },
+    noteCard: {
+      gap: spacing.sm + 2,
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.md,
+      padding: spacing.md,
+      borderWidth: 1,
+      borderColor: t.colors.borderStrong,
+    },
+    noteHeader: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.sm,
+    },
+    noteTitle: {
+      ...text.sectionTitle,
+      color: t.colors.text,
+    },
+    noteText: {
+      ...text.bodySmall,
+      color: t.colors.textSecondary,
+    },
+    noteButton: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: spacing.sm - 2,
+      height: 48,
+      marginTop: spacing.xs,
+      borderRadius: radii.full,
+      backgroundColor: t.colors.ink,
     },
     description: {
       ...text.body,

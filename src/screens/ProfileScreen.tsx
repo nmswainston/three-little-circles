@@ -4,7 +4,8 @@ import { useFocusEffect, useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { Ionicons } from "@expo/vector-icons";
 import { RootStackParamList } from "../navigation/types";
-import { getAllEntries, getEntryById } from "../data/query";
+import { getEntryById, getProgressEntries } from "../data/query";
+import { countsTowardProgress } from "../data/status";
 import { getDestinationSummaries } from "../data/destinations";
 import { labelOrFallback } from "../data/labels";
 import { progressShareText, shareText } from "../lib/share";
@@ -66,7 +67,7 @@ export default function ProfileScreen() {
   };
   const setAppearance = useSettingsStore((s) => s.setAppearance);
 
-  const entries = useMemo(() => getAllEntries(), []);
+  const entries = useMemo(() => getProgressEntries(), []);
   const total = entries.length;
   const foundCount = entries.filter((e) => e.id in found).length;
   const progress = total > 0 ? foundCount / total : 0;
@@ -74,7 +75,8 @@ export default function ProfileScreen() {
   const latest = useMemo(() => {
     let best: { id: string; at: number } | undefined;
     for (const [id, at] of Object.entries(found)) {
-      if (getEntryById(id) && (!best || at > best.at)) best = { id, at };
+      const entry = getEntryById(id);
+      if (entry && countsTowardProgress(entry) && (!best || at > best.at)) best = { id, at };
     }
     return best ? getEntryById(best.id) : undefined;
   }, [found]);

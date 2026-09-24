@@ -48,8 +48,8 @@ export default function SubmitSightingScreen() {
   }, [destinations]);
 
   const [parkId, setParkId] = useState<string | undefined>(route.params?.parkId ?? destinations[0]?.parkId);
-  const [attraction, setAttraction] = useState("");
-  const [land, setLand] = useState("");
+  const [attraction, setAttraction] = useState(route.params?.attractionName ?? "");
+  const [land, setLand] = useState(route.params?.landName ?? "");
   const [title, setTitle] = useState("");
   const [whereToLook, setWhereToLook] = useState("");
   const [difficulty, setDifficulty] = useState<Difficulty>("Medium");

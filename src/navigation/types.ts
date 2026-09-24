@@ -8,7 +8,8 @@ export type RootStackParamList = {
   Parks: undefined;
   Park: { parkId: string };
   EntryDetail: { entryId: string };
-  SubmitSighting: { parkId?: string } | undefined;
+  /** landName and attractionName prefill the form, for example from a lead's detail screen */
+  SubmitSighting: { parkId?: string; landName?: string; attractionName?: string } | undefined;
   /** focusEntryId zooms to that entry's pin and opens its label */
   Map: { focusEntryId?: string } | undefined;
   Profile: undefined;

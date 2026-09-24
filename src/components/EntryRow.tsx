@@ -3,6 +3,7 @@ import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { HiddenMickeyEntry } from '../data/types';
 import { labelOrFallback } from '../data/labels';
+import { listStatusLabel } from '../data/status';
 import { useFoundStore } from '../store/useFoundStore';
 import { Theme, useStyles, useTheme } from '../theme/ThemeProvider';
 import { spacing, radii, text } from '../theme/tokens';
@@ -22,12 +23,13 @@ export default function EntryRow({ entry, onPress }: EntryRowProps) {
   const styles = useStyles(createStyles);
   const found = useFoundStore((s) => entry.id in s.found);
   const title = labelOrFallback(entry.display?.entryTitle, 'Hidden Find');
+  const statusLabel = listStatusLabel(entry);
 
   return (
     <Pressable
       onPress={onPress}
       accessibilityRole="button"
-      accessibilityLabel={`${title}${found ? ', found' : ''}`}
+      accessibilityLabel={`${title}${found ? ', found' : ''}${statusLabel ? `, ${statusLabel.toLowerCase()}` : ''}`}
       style={({ pressed }) => [styles.row, pressed && styles.pressed]}
     >
       <View style={styles.textColumn}>
@@ -38,6 +40,11 @@ export default function EntryRow({ entry, onPress }: EntryRowProps) {
           {entry.entryType === 'FACT' && (
             <View style={styles.factChip}>
               <Text style={styles.factText}>Hidden Surprise</Text>
+            </View>
+          )}
+          {statusLabel && (
+            <View style={styles.factChip}>
+              <Text style={styles.factText}>{statusLabel}</Text>
             </View>
           )}
         </View>

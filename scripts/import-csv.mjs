@@ -144,7 +144,7 @@ const ENUMS = {
   orientation: ["Upright", "Upside-down", "Sideways"],
   confidence: ["Obvious", "Strong", "Interpretive"],
   verification: ["In-person", "Photo", "Community", "Documented", "Unknown"],
-  status: ["Current", "Unverified", "Seasonal", "Variable", "Removed"],
+  status: ["Current", "Unverified", "Seasonal", "Variable", "Removed", "Lead"],
   areaContext: ["Entrance", "Queue", "Loading", "Ride", "Dock", "Post-show", "Exit", "Lobby", "Walkway", "Outdoor Display", "Shop"],
 };
 

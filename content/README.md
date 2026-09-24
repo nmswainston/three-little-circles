@@ -71,12 +71,23 @@ What the importer does for you:
 | `confidence` | no | `Obvious`, `Strong`, `Interpretive` |
 | `verification` | no | `In-person`, `Photo`, `Community`, `Documented` (appears in official park material), `Unknown` |
 | `verifiedAtISO` | no | ISO 8601 date of the in-person or photo confirmation |
-| `status` | no | `Current`, `Unverified` (desk researched, not yet checked in person), `Seasonal`, `Variable` (depends on props that move), `Removed` (kept for history, gone from the park). Shown as a chip on the detail screen except for `Current`. |
+| `status` | no | `Current`, `Unverified` (desk researched, not yet checked in person), `Seasonal`, `Variable` (depends on props that move), `Removed` (kept for history, gone from the park), `Lead` (a report with no pinned spot, see below). Shown as a chip on the detail screen except for `Current`. `Lead` and `Removed` are flagged in lists too and never count toward progress or badges. |
 | `accessNotes` | no | free text: what a guest needs to reach the spot, such as resort or dining access |
 | `coordinates` | no | `latitude` and `longitude` as decimal degrees. Entries without coordinates are listed on the map screen but not pinned. |
 | `sourceId` | no | the find's id in the research spreadsheet, for example `TLC-MK-0001`. Unique across entries; the reconcile script matches on it. |
 | `sourceUrl` | no | primary evidence URL. Kept for research, never shown to guests. |
 | `createdAtISO`, `updatedAtISO` | no | ISO 8601 timestamps |
+
+## Leads
+
+A lead is a Hidden Mickey somebody has reported but nobody has pinned down,
+such as "there is one in the lobby carpet somewhere". Give it
+`"status": "Lead"`, `"verification": "Unknown"`, and an id ending in `-lead`
+so it is easy to find later. Leads show in the park list with a Lead chip and
+open like any entry, but they do not count toward totals, rings, or badges,
+and the detail screen replaces the Found button with a prompt to send a
+sighting. Once a lead is confirmed, write the specific find as a new entry
+with its own id and delete the lead file.
 
 ## Reconciling with the research spreadsheet
 

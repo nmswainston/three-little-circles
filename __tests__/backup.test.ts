@@ -14,11 +14,13 @@ import { useFoundStore } from '../src/store/useFoundStore';
 import { useAchievementsStore } from '../src/store/useAchievementsStore';
 import { useSettingsStore } from '../src/store/useSettingsStore';
 import { useConfirmationsStore } from '../src/store/useConfirmationsStore';
-import { getAllEntries } from '../src/data/query';
+import { getAllEntries, getProgressEntries } from '../src/data/query';
 
 const NOW = Date.parse('2026-09-22T12:00:00Z');
-const entries = getAllEntries();
-const knownIds = new Set(entries.map((e) => e.id));
+// Fixtures come from the entries that count toward progress, so a found
+// fixture always earns FIRST_FIND; leads and removed finds never would.
+const entries = getProgressEntries();
+const knownIds = new Set(getAllEntries().map((e) => e.id));
 
 // Pick fixtures by what the tests need rather than by file order, so more
 // content can't change what the assertions mean:

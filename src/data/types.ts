@@ -27,9 +27,11 @@ export type Verification = "In-person" | "Photo" | "Community" | "Documented" | 
  * Whether the find is expected to be there today. "Unverified" is a desk
  * researched report nobody has checked in person yet. "Seasonal" appears
  * only at certain times, "Variable" depends on props that move, and
- * "Removed" is kept for history but is gone from the park.
+ * "Removed" is kept for history but is gone from the park. "Lead" is a
+ * report with no pinned spot: listed so guests can hunt for it and send a
+ * sighting, but never counted toward progress or badges.
  */
-export type EntryStatus = "Current" | "Unverified" | "Seasonal" | "Variable" | "Removed";
+export type EntryStatus = "Current" | "Unverified" | "Seasonal" | "Variable" | "Removed" | "Lead";
 
 export type AreaContext =
   | "Entrance"

@@ -6,6 +6,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { RootStackParamList } from "../navigation/types";
 import { getAllEntries, getParksSummary, groupByLand, matchesEntryType } from "../data/query";
+import { countsTowardProgress } from "../data/status";
 import { getDestination } from "../data/destinations";
 import { getFactsForPark } from "../data/facts";
 import { labelOrFallback } from "../data/labels";
@@ -52,19 +53,23 @@ export default function ParkScreen() {
   const setHideFound = useSettingsStore((s) => s.setHideFound);
 
   const parkEntries = useMemo(() => getAllEntries().filter((e) => e.parkId === parkId), [parkId]);
-  const hasFinds = parkEntries.length > 0;
-  const foundCount = parkEntries.filter((e) => e.id in found).length;
-  const pct = hasFinds ? (foundCount / parkEntries.length) * 100 : 0;
+  // Leads and removed finds stay in the list but out of the tally, so the
+  // bar, the label, and "all found" only look at what a guest can find.
+  const countable = useMemo(() => parkEntries.filter(countsTowardProgress), [parkEntries]);
+  const hasFinds = countable.length > 0;
+  const foundCount = countable.filter((e) => e.id in found).length;
+  const pct = hasFinds ? (foundCount / countable.length) * 100 : 0;
 
   // The type filter narrows first; hunting mode then drops what's already
   // found, so an attraction with nothing left to spot disappears entirely.
   const typed = useMemo(() => parkEntries.filter((e) => matchesEntryType(e, filter)), [parkEntries, filter]);
-  const hiddenCount = hideFound ? typed.filter((e) => e.id in found).length : 0;
+  const huntable = typed.filter(countsTowardProgress);
+  const hiddenCount = hideFound ? huntable.filter((e) => e.id in found).length : 0;
   const groups = useMemo(
     () => groupByLand(hideFound ? typed.filter((e) => !(e.id in found)) : typed),
     [typed, hideFound, found]
   );
-  const allFoundHere = hideFound && typed.length > 0 && hiddenCount === typed.length;
+  const allFoundHere = hideFound && huntable.length > 0 && hiddenCount === huntable.length;
 
   // Park history and trivia. Independent of the finds filter so it does not
   // disappear when a filter empties the list above it.
@@ -76,7 +81,7 @@ export default function ParkScreen() {
   const hiddenFactCount = parkFacts.length - visibleFacts.length;
 
   const handleShare = async () => {
-    const outcome = await shareText(parkShareText({ name: parkName, found: foundCount, total: parkEntries.length }));
+    const outcome = await shareText(parkShareText({ name: parkName, found: foundCount, total: countable.length }));
     if (outcome === "copied") notify("Copied", "The text is on your clipboard.");
     else if (outcome === "unavailable") notify("Couldn't share", "Sharing isn't available here.");
   };
@@ -134,7 +139,7 @@ export default function ParkScreen() {
               </View>
             )}
             <Text style={[styles.progressLabel, { color: headerText }]}>
-              {hasFinds ? `${foundCount} of ${parkEntries.length} found` : "No finds yet"}
+              {hasFinds ? `${foundCount} of ${countable.length} found` : "No finds yet"}
             </Text>
           </View>
         </View>

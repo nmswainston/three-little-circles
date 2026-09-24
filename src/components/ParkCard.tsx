@@ -9,30 +9,48 @@ import ProgressRing from './ui/ProgressRing';
 
 type IconName = keyof typeof Ionicons.glyphMap;
 
+const plural = (n: number, word: string) => `${n} ${word}${n === 1 ? '' : 's'}`;
+
 interface ParkCardProps {
   name: string;
   parkKey: ParkKey;
-  /** Entries documented. 0 with no facts renders the card as "Coming soon". */
+  /** Entries a guest can find. 0 with no leads and no facts renders the card as "Coming soon". */
   count: number;
   found: number;
+  /** Unconfirmed leads listed here. They open the destination but never count. */
+  leadCount?: number;
   /** Park facts available. A destination with facts but no finds still opens. */
   factCount?: number;
   onPress?: () => void;
 }
 
 /** A destination row: accent disc with icon, name, counts, and a progress ring. */
-export default function ParkCard({ name, parkKey, count, found, factCount = 0, onPress }: ParkCardProps) {
+export default function ParkCard({
+  name,
+  parkKey,
+  count,
+  found,
+  leadCount = 0,
+  factCount = 0,
+  onPress,
+}: ParkCardProps) {
   const t = useTheme();
   const styles = useStyles(createStyles);
   const palette = t.parks[parkKey];
   const hasFinds = count > 0;
-  const comingSoon = !hasFinds && factCount === 0;
+  const comingSoon = !hasFinds && leadCount === 0 && factCount === 0;
 
   const meta = comingSoon
     ? 'Coming soon'
     : hasFinds
-      ? `${count} ${count === 1 ? 'find' : 'finds'} · ${found} found`
-      : `No finds yet · ${factCount} ${factCount === 1 ? 'fact' : 'facts'}`;
+      ? [`${plural(count, 'find')} · ${found} found`, leadCount > 0 && plural(leadCount, 'lead')]
+          .filter(Boolean)
+          .join(' · ')
+      : leadCount > 0
+        ? [plural(leadCount, 'unconfirmed lead'), factCount > 0 && plural(factCount, 'fact')]
+            .filter(Boolean)
+            .join(' · ')
+        : `No finds yet · ${plural(factCount, 'fact')}`;
 
   return (
     <Pressable

@@ -215,6 +215,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.3531,
       "longitude": -81.603
@@ -253,6 +254,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.3531,
       "longitude": -81.603
@@ -291,6 +293,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.3531,
       "longitude": -81.603
@@ -329,6 +332,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.3531,
       "longitude": -81.603
@@ -367,6 +371,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.3531,
       "longitude": -81.603
@@ -405,6 +410,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.3531,
       "longitude": -81.603
@@ -443,6 +449,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.3531,
       "longitude": -81.603
@@ -481,6 +488,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.3531,
       "longitude": -81.603
@@ -519,6 +527,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.3531,
       "longitude": -81.603
@@ -1031,6 +1040,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.3491,
       "longitude": -81.545
@@ -1423,6 +1433,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.3672,
       "longitude": -81.5552
@@ -2391,6 +2402,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.4148,
       "longitude": -81.5746
@@ -3990,6 +4002,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.4113,
       "longitude": -81.5877
@@ -7293,6 +7306,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.4055,
       "longitude": -81.5855
@@ -7453,6 +7467,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.3512,
       "longitude": -81.5443
@@ -7491,6 +7506,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.4137,
       "longitude": -81.535
@@ -10382,6 +10398,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.4127,
       "longitude": -81.5668
@@ -10576,6 +10593,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Unknown",
+    "status": "Lead",
     "coordinates": {
       "latitude": 28.3705,
       "longitude": -81.5576

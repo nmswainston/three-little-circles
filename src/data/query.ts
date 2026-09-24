@@ -1,10 +1,18 @@
 import { entries } from "./entries";
 import { HiddenMickeyEntry, ParkId, LandId, AttractionId } from "./types";
 import { labelOrFallback } from "./labels";
+import { countsTowardProgress } from "./status";
 import { SegmentedControlOption } from "../components/ui/SegmentedControl";
 
 export function getAllEntries(): HiddenMickeyEntry[] {
   return entries;
+}
+
+const progressEntries = entries.filter(countsTowardProgress);
+
+/** Entries that count toward progress: everything except leads and removed finds. */
+export function getProgressEntries(): HiddenMickeyEntry[] {
+  return progressEntries;
 }
 
 export function getEntryById(id: string): HiddenMickeyEntry | undefined {

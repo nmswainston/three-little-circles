@@ -1,5 +1,6 @@
 import { entries } from "./entries";
 import { labelOrFallback } from "./labels";
+import { countsTowardProgress } from "./status";
 import { ParkKey } from "../theme/themes";
 import destinationsJson from "../../content/destinations.json";
 
@@ -41,8 +42,10 @@ export function isThemePark(parkId: string): boolean {
 }
 
 export type DestinationSummary = Destination & {
-  /** Number of entries documented for this destination. 0 means "coming soon". */
+  /** Entries a guest can find here. 0 with no leads and no facts means "coming soon". */
   count: number;
+  /** Unconfirmed leads listed here. They open the destination but never count. */
+  leadCount: number;
 };
 
 /**
@@ -53,26 +56,29 @@ export type DestinationSummary = Destination & {
  */
 export function getDestinationSummaries(): DestinationSummary[] {
   const counts = new Map<string, number>();
+  const leadCounts = new Map<string, number>();
   const namesFromContent = new Map<string, string>();
   for (const entry of entries) {
-    counts.set(entry.parkId, (counts.get(entry.parkId) ?? 0) + 1);
+    if (countsTowardProgress(entry)) {
+      counts.set(entry.parkId, (counts.get(entry.parkId) ?? 0) + 1);
+    } else if (entry.status === "Lead") {
+      leadCounts.set(entry.parkId, (leadCounts.get(entry.parkId) ?? 0) + 1);
+    }
     if (!namesFromContent.has(entry.parkId)) {
       namesFromContent.set(entry.parkId, labelOrFallback(entry.display?.parkName, entry.parkId));
     }
   }
 
-  const listed = DESTINATIONS.map((d) => ({ ...d, count: counts.get(d.parkId) ?? 0 }));
+  const tally = (parkId: string) => ({
+    count: counts.get(parkId) ?? 0,
+    leadCount: leadCounts.get(parkId) ?? 0,
+  });
+  const listed = DESTINATIONS.map((d) => ({ ...d, ...tally(d.parkId) }));
 
   const unlisted: DestinationSummary[] = [];
-  for (const [parkId, count] of counts) {
+  for (const [parkId, name] of namesFromContent) {
     if (!BY_ID[parkId]) {
-      unlisted.push({
-        parkId,
-        name: namesFromContent.get(parkId) ?? parkId,
-        region: "Florida",
-        parkKey: "kingdom",
-        count,
-      });
+      unlisted.push({ parkId, name, region: "Florida", parkKey: "kingdom", ...tally(parkId) });
     }
   }
 

@@ -9,6 +9,7 @@ import { RootStackParamList } from "../navigation/types";
 import { getAllEntries, getEntryById, getParksSummary } from "../data/query";
 import { getDestination } from "../data/destinations";
 import { labelOrFallback } from "../data/labels";
+import { countsTowardProgress } from "../data/status";
 import { Coordinates } from "../data/types";
 import { formatCoordinates } from "../lib/maps";
 import { distanceLabel, nearest, sortByDistance, unitsForRegion, WALKING_RANGE_METERS } from "../lib/geo";
@@ -177,7 +178,9 @@ export default function MapScreen() {
               coordinate={entry.coordinates!}
               title={labelOrFallback(entry.display?.entryTitle, "Hidden Find")}
               description={entry.display?.attractionName}
-              pinColor={entry.id in found ? t.colors.success : t.colors.error}
+              pinColor={
+                entry.id in found ? t.colors.success : countsTowardProgress(entry) ? t.colors.error : t.colors.textMuted
+              }
               onCalloutPress={() => navigation.navigate("EntryDetail", { entryId: entry.id })}
             />
           ))}

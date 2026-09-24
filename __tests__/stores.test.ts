@@ -9,10 +9,11 @@ import {
   parkAchievementId,
 } from '../src/data/achievements';
 import { getDestination } from '../src/data/destinations';
-import { getAllEntries } from '../src/data/query';
+import { getAllEntries, getProgressEntries } from '../src/data/query';
 import { RESORTS_BUCKET_ID } from '../src/data/constants';
 
-const entries = getAllEntries();
+// Leads and removed finds never count, so the badge tests only look at what does.
+const entries = getProgressEntries();
 
 beforeAll(async () => {
   // Achievements only recompute once both stores have loaded from storage.
@@ -68,6 +69,12 @@ describe('computeUnlocked', () => {
 
   it('ignores ids that are not real entries', () => {
     expect(computeUnlocked({ 'not-an-entry': 1 })).toEqual([]);
+  });
+
+  it('ignores a lead that was marked found', () => {
+    const lead = getAllEntries().find((e) => e.status === 'Lead');
+    expect(lead).toBeDefined();
+    expect(computeUnlocked({ [lead!.id]: 1 })).toEqual([]);
   });
 
   it('unlocks ATTRACTION_COMPLETE when every entry at one attraction is found', () => {

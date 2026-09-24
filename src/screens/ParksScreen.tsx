@@ -4,7 +4,7 @@ import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { Ionicons } from "@expo/vector-icons";
 import { RootStackParamList } from "../navigation/types";
-import { getAllEntries, searchEntries } from "../data/query";
+import { getProgressEntries, searchEntries } from "../data/query";
 import { getDestinationSummaries, Region, REGIONS } from "../data/destinations";
 import { getFactCountsByPark } from "../data/facts";
 import { useFoundStore } from "../store/useFoundStore";
@@ -34,8 +34,8 @@ export default function ParksScreen() {
   const factCounts = useMemo(() => getFactCountsByPark(), []);
 
   // A chosen region shows everything it has, including parks marked "Coming
-  // soon". The All view shows only parks with something to open, finds or
-  // facts, grouped under region headings so the same park name in different
+  // soon". The All view shows only parks with something to open (finds, leads,
+  // or facts), grouped under region headings so the same park name in different
   // places never reads as a duplicate.
   const sections = useMemo(() => {
     if (region) {
@@ -44,14 +44,14 @@ export default function ParksScreen() {
     return REGIONS.map((r) => ({
       region: r,
       destinations: destinations.filter(
-        (d) => d.region === r && (d.count > 0 || (factCounts.get(d.parkId) ?? 0) > 0)
+        (d) => d.region === r && (d.count > 0 || d.leadCount > 0 || (factCounts.get(d.parkId) ?? 0) > 0)
       ),
     })).filter((s) => s.destinations.length > 0);
   }, [destinations, factCounts, region]);
 
   const foundByPark = useMemo(() => {
     const map = new Map<string, number>();
-    for (const entry of getAllEntries()) {
+    for (const entry of getProgressEntries()) {
       if (entry.id in found) map.set(entry.parkId, (map.get(entry.parkId) ?? 0) + 1);
     }
     return map;
@@ -126,6 +126,7 @@ export default function ParksScreen() {
                         parkKey={d.parkKey}
                         count={d.count}
                         found={foundByPark.get(d.parkId) ?? 0}
+                        leadCount={d.leadCount}
                         factCount={factCounts.get(d.parkId) ?? 0}
                         onPress={() => navigation.navigate("Park", { parkId: d.parkId })}
                       />
