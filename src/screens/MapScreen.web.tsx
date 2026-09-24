@@ -1,12 +1,15 @@
-import React, { useMemo, useState } from "react";
-import { View, Text, StyleSheet, ScrollView } from "react-native";
+import React, { useCallback, useMemo, useState } from "react";
+import { View, Text, StyleSheet, FlatList, ListRenderItem } from "react-native";
 import { getAllEntries, getParksSummary } from "../data/query";
+import { HiddenMickeyEntry } from "../data/types";
 import { Theme, useStyles } from "../theme/ThemeProvider";
 import { spacing, text } from "../theme/tokens";
 import PageHeader from "../components/layout/PageHeader";
 import ParkPicker from "../components/ParkPicker";
 import EntryCard from "../components/EntryCard";
 import EmptyState from "../components/ui/EmptyState";
+
+const entryKey = (entry: HiddenMickeyEntry) => entry.id;
 
 /**
  * Web build: react-native-maps has no web renderer, so this screen shows the
@@ -22,18 +25,27 @@ export default function MapScreen() {
     [selectedParkId]
   );
 
+  const renderEntry = useCallback<ListRenderItem<HiddenMickeyEntry>>(
+    ({ item }) => <EntryCard entry={item} showLocation />,
+    []
+  );
+
   return (
     <View style={styles.screen}>
       <PageHeader title="Map" subtitle="Sightlines and queues." />
       <ParkPicker parks={parks} selectedParkId={selectedParkId} onSelect={setSelectedParkId} />
-      <ScrollView contentContainerStyle={styles.list} showsVerticalScrollIndicator={false}>
-        <Text style={styles.caption}>The interactive map is available in the mobile app. Everything is listed here.</Text>
-        {visible.length === 0 ? (
-          <EmptyState title="Nothing here yet" message="No entries match this filter." />
-        ) : (
-          visible.map((entry) => <EntryCard key={entry.id} entry={entry} showLocation />)
-        )}
-      </ScrollView>
+      <FlatList
+        data={visible}
+        keyExtractor={entryKey}
+        renderItem={renderEntry}
+        ListHeaderComponent={
+          <Text style={styles.caption}>The interactive map is available in the mobile app. Everything is listed here.</Text>
+        }
+        ListEmptyComponent={<EmptyState title="Nothing here yet" message="No entries match this filter." />}
+        contentContainerStyle={styles.list}
+        showsVerticalScrollIndicator={false}
+        initialNumToRender={8}
+      />
     </View>
   );
 }

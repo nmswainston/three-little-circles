@@ -1,11 +1,12 @@
-import React, { useMemo, useState } from "react";
-import { ScrollView, StyleSheet, View, Text, TextInput, Pressable } from "react-native";
+import React, { useCallback, useMemo, useState } from "react";
+import { FlatList, ListRenderItem, ScrollView, StyleSheet, View, Text, TextInput, Pressable } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { Ionicons } from "@expo/vector-icons";
 import { RootStackParamList } from "../navigation/types";
 import { getAllEntries, searchEntries } from "../data/query";
-import { getDestinationSummaries, Region, REGIONS } from "../data/destinations";
+import { DestinationSummary, getDestinationSummaries, Region, REGIONS } from "../data/destinations";
+import { HiddenMickeyEntry } from "../data/types";
 import { getFactCountsByPark } from "../data/facts";
 import { useFoundStore } from "../store/useFoundStore";
 import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
@@ -20,6 +21,17 @@ import Disclaimer from "../components/Disclaimer";
 type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 
 const DEFAULT_REGION: Region = "Florida";
+
+// The screen is one virtualized list, so a broad search never mounts a card
+// for every entry at once. Browsing rows are whole region groups (a title and
+// a handful of park cards); searching rows are single finds.
+type Row =
+  | { kind: "group"; region: Region; destinations: DestinationSummary[] }
+  | { kind: "entry"; entry: HiddenMickeyEntry };
+
+const rowKey = (row: Row) => (row.kind === "entry" ? `entry:${row.entry.id}` : `group:${row.region}`);
+const RowGap = () => <View style={gapStyles.row} />;
+const gapStyles = StyleSheet.create({ row: { height: spacing.md } });
 
 export default function ParksScreen() {
   const navigation = useNavigation<NavigationProp>();
@@ -61,86 +73,111 @@ export default function ParksScreen() {
   const results = useMemo(() => (trimmedQuery ? searchEntries(trimmedQuery) : []), [trimmedQuery]);
   const searching = trimmedQuery.length > 0;
 
+  const rows = useMemo<Row[]>(
+    () =>
+      searching
+        ? results.map((entry) => ({ kind: "entry" as const, entry }))
+        : sections.map((section) => ({ kind: "group" as const, region: section.region, destinations: section.destinations })),
+    [searching, results, sections]
+  );
+
+  const renderRow = useCallback<ListRenderItem<Row>>(
+    ({ item }) => {
+      if (item.kind === "entry") {
+        return (
+          <View style={styles.row}>
+            <EntryCard entry={item.entry} showLocation />
+          </View>
+        );
+      }
+      return (
+        <View style={[styles.row, styles.regionGroup]}>
+          {region === undefined && <Text style={styles.regionTitle}>{item.region}</Text>}
+          {item.destinations.map((d) => (
+            <ParkCard
+              key={d.parkId}
+              name={d.name}
+              parkKey={d.parkKey}
+              count={d.count}
+              found={foundByPark.get(d.parkId) ?? 0}
+              factCount={factCounts.get(d.parkId) ?? 0}
+              onPress={() => navigation.navigate("Park", { parkId: d.parkId })}
+            />
+          ))}
+        </View>
+      );
+    },
+    [styles, region, foundByPark, factCounts, navigation]
+  );
+
+  // Passed as an element, not a component, so the text input keeps its
+  // identity (and the keyboard) across every keystroke.
+  const header = (
+    <>
+      <PageHeader title="Parks" subtitle="Pick a destination. The magic hides in plain sight." brand />
+      <View style={styles.body}>
+        <View style={styles.search}>
+          <Ionicons name="search" size={20} color={t.colors.textMuted} />
+          <TextInput
+            value={query}
+            onChangeText={setQuery}
+            placeholder="Search attractions"
+            placeholderTextColor={t.colors.textMuted}
+            style={styles.searchInput}
+            returnKeyType="search"
+            autoCorrect={false}
+            accessibilityLabel="Search attractions"
+          />
+          {query.length > 0 && (
+            <Pressable onPress={() => setQuery("")} hitSlop={8} accessibilityRole="button" accessibilityLabel="Clear search">
+              <Ionicons name="close-circle" size={20} color={t.colors.textMuted} />
+            </Pressable>
+          )}
+        </View>
+
+        {!searching && (
+          <ScrollView
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            contentContainerStyle={styles.chips}
+            style={styles.chipRow}
+          >
+            <Chip label="All" selected={region === undefined} onPress={() => setRegion(undefined)} />
+            {REGIONS.map((r) => (
+              <Chip key={r} label={r} selected={region === r} onPress={() => setRegion(r)} />
+            ))}
+          </ScrollView>
+        )}
+      </View>
+    </>
+  );
+
   return (
     <View style={styles.screen}>
-      <ScrollView
+      <FlatList
+        data={rows}
+        keyExtractor={rowKey}
+        renderItem={renderRow}
+        extraData={foundByPark}
+        ListHeaderComponent={header}
+        ListEmptyComponent={
+          searching ? (
+            <View style={styles.row}>
+              <EmptyState title="No matches" message="Try an attraction, land, or park name." />
+            </View>
+          ) : null
+        }
+        ListFooterComponent={
+          <View style={[styles.row, styles.footer]}>
+            <Disclaimer />
+          </View>
+        }
+        ItemSeparatorComponent={RowGap}
         contentContainerStyle={styles.scroll}
         keyboardShouldPersistTaps="handled"
         showsVerticalScrollIndicator={false}
-      >
-        <PageHeader title="Parks" subtitle="Pick a destination. The magic hides in plain sight." brand />
-
-        <View style={styles.body}>
-          <View style={styles.search}>
-            <Ionicons name="search" size={20} color={t.colors.textMuted} />
-            <TextInput
-              value={query}
-              onChangeText={setQuery}
-              placeholder="Search attractions"
-              placeholderTextColor={t.colors.textMuted}
-              style={styles.searchInput}
-              returnKeyType="search"
-              autoCorrect={false}
-              accessibilityLabel="Search attractions"
-            />
-            {query.length > 0 && (
-              <Pressable onPress={() => setQuery("")} hitSlop={8} accessibilityRole="button" accessibilityLabel="Clear search">
-                <Ionicons name="close-circle" size={20} color={t.colors.textMuted} />
-              </Pressable>
-            )}
-          </View>
-
-          {searching ? (
-            <View style={styles.list}>
-              {results.length === 0 ? (
-                <EmptyState
-                  title="No matches"
-                  message="Try an attraction, land, or park name."
-                />
-              ) : (
-                results.map((entry) => <EntryCard key={entry.id} entry={entry} showLocation />)
-              )}
-            </View>
-          ) : (
-            <>
-              <ScrollView
-                horizontal
-                showsHorizontalScrollIndicator={false}
-                contentContainerStyle={styles.chips}
-                style={styles.chipRow}
-              >
-                <Chip label="All" selected={region === undefined} onPress={() => setRegion(undefined)} />
-                {REGIONS.map((r) => (
-                  <Chip key={r} label={r} selected={region === r} onPress={() => setRegion(r)} />
-                ))}
-              </ScrollView>
-
-              <View style={styles.list}>
-                {sections.map((section) => (
-                  <View key={section.region} style={styles.regionGroup}>
-                    {region === undefined && <Text style={styles.regionTitle}>{section.region}</Text>}
-                    {section.destinations.map((d) => (
-                      <ParkCard
-                        key={d.parkId}
-                        name={d.name}
-                        parkKey={d.parkKey}
-                        count={d.count}
-                        found={foundByPark.get(d.parkId) ?? 0}
-                        factCount={factCounts.get(d.parkId) ?? 0}
-                        onPress={() => navigation.navigate("Park", { parkId: d.parkId })}
-                      />
-                    ))}
-                  </View>
-                ))}
-              </View>
-            </>
-          )}
-
-          <View style={styles.footer}>
-            <Disclaimer />
-          </View>
-        </View>
-      </ScrollView>
+        initialNumToRender={10}
+      />
     </View>
   );
 }
@@ -156,7 +193,11 @@ const createStyles = (t: Theme) =>
     },
     body: {
       paddingHorizontal: spacing.lg,
+      paddingBottom: spacing.md,
       gap: spacing.md - 4,
+    },
+    row: {
+      paddingHorizontal: spacing.lg,
     },
     search: {
       flexDirection: "row",
@@ -184,10 +225,6 @@ const createStyles = (t: Theme) =>
     chips: {
       paddingHorizontal: spacing.lg,
       gap: spacing.sm,
-    },
-    list: {
-      gap: spacing.md,
-      paddingTop: spacing.xs,
     },
     regionGroup: {
       gap: spacing.sm + 2,

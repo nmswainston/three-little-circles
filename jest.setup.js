@@ -21,3 +21,26 @@ jest.mock('@expo/vector-icons', () => {
   const sets = { __esModule: true };
   return new Proxy(sets, { get: (target, prop) => (prop in target ? target[prop] : Icon) });
 });
+
+// react-native-maps has no Jest mock of its own and needs a native map view.
+// Stand in with plain views that answer the imperative calls the Map screen
+// makes and report the map as ready at once.
+jest.mock('react-native-maps', () => {
+  const React = require('react');
+  const { View } = require('react-native');
+  const MapView = React.forwardRef(({ children, onMapReady }, ref) => {
+    React.useImperativeHandle(ref, () => ({ animateToRegion: jest.fn(), fitToCoordinates: jest.fn() }));
+    const announced = React.useRef(false);
+    React.useEffect(() => {
+      if (announced.current) return;
+      announced.current = true;
+      onMapReady?.();
+    });
+    return React.createElement(View, { testID: 'map-view' }, children);
+  });
+  const Marker = React.forwardRef((props, ref) => {
+    React.useImperativeHandle(ref, () => ({ showCallout: jest.fn() }));
+    return React.createElement(View, { testID: 'map-marker', accessibilityLabel: props.title });
+  });
+  return { __esModule: true, default: MapView, Marker, PROVIDER_GOOGLE: 'google' };
+});

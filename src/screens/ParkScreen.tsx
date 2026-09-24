@@ -1,11 +1,11 @@
-import React, { useMemo, useState } from "react";
-import { ScrollView, StyleSheet, View, Text, Pressable } from "react-native";
+import React, { useCallback, useMemo, useState } from "react";
+import { SectionList, SectionListData, SectionListRenderItem, StyleSheet, View, Text, Pressable } from "react-native";
 import { useRoute, RouteProp, useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { RootStackParamList } from "../navigation/types";
-import { getAllEntries, getParksSummary, groupByLand, matchesEntryType } from "../data/query";
+import { AttractionGroup, LandGroup, getAllEntries, getParksSummary, groupByLand, matchesEntryType } from "../data/query";
 import { getDestination } from "../data/destinations";
 import { getFactsForPark } from "../data/facts";
 import { labelOrFallback } from "../data/labels";
@@ -28,6 +28,13 @@ type IconName = keyof typeof Ionicons.glyphMap;
 const FACTS_PREVIEW_COUNT = 3;
 
 type ParkRouteProp = RouteProp<RootStackParamList, "Park">;
+
+// The finds are a virtualized section list: lands are the sections and each
+// attraction card, with its rows, is one item. A big park would otherwise
+// mount every row on the way in.
+type AttractionItem = AttractionGroup & { landId: string };
+type LandSection = LandGroup & { data: AttractionItem[] };
+const attractionKey = (item: AttractionItem) => `${item.landId}:${item.attractionId}`;
 type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 
 export default function ParkScreen() {
@@ -65,6 +72,10 @@ export default function ParkScreen() {
     [typed, hideFound, found]
   );
   const allFoundHere = hideFound && typed.length > 0 && hiddenCount === typed.length;
+  const sections = useMemo<LandSection[]>(
+    () => groups.map((land) => ({ ...land, data: land.attractions.map((a) => ({ ...a, landId: land.landId })) })),
+    [groups]
+  );
 
   // Park history and trivia. Independent of the finds filter so it does not
   // disappear when a filter empties the list above it.
@@ -89,176 +100,201 @@ export default function ParkScreen() {
   const headerDisc = t.dark ? palette.tint : "rgba(255,244,220,0.18)";
   const track = t.dark ? t.colors.track : "rgba(255,244,220,0.25)";
 
-  return (
-    <View style={styles.screen}>
-      <ScrollView contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
-        <View style={[styles.header, { backgroundColor: headerBg, paddingTop: insets.top + spacing.sm }]}>
-          <Sunburst
-            color={t.dark ? palette.accent : t.colors.textOnAccent}
-            opacity={t.dark ? 0.08 : 0.14}
-            center={{ x: 195, y: -190 + insets.top }}
-          />
-          <View style={styles.headerRow}>
+  const renderSectionHeader = useCallback(
+    ({ section }: { section: SectionListData<AttractionItem, LandSection> }) => (
+      <View style={[styles.rowPad, styles.sectionHeaderWrap]}>
+        <View style={styles.sectionHeader}>
+          <Text style={styles.sectionTitle}>{section.landName}</Text>
+          <Text style={styles.sectionMeta}>
+            {section.attractions.length} {section.attractions.length === 1 ? "attraction" : "attractions"}
+          </Text>
+        </View>
+      </View>
+    ),
+    [styles]
+  );
+
+  const renderAttraction = useCallback<SectionListRenderItem<AttractionItem, LandSection>>(
+    ({ item }) => (
+      <View style={[styles.rowPad, styles.attractionRow]}>
+        <View style={styles.groupCard}>
+          <View style={styles.groupHeader}>
+            <View style={[styles.dot, { backgroundColor: palette.accent }]} />
+            <Text style={[styles.groupTitle, { color: palette.text }]}>{item.attractionName}</Text>
+          </View>
+          {item.entries.map((entry, index) => (
+            <React.Fragment key={entry.id}>
+              {index > 0 && <View style={styles.divider} />}
+              <EntryRow entry={entry} onPress={() => navigation.navigate("EntryDetail", { entryId: entry.id })} />
+            </React.Fragment>
+          ))}
+        </View>
+      </View>
+    ),
+    [styles, palette, navigation]
+  );
+
+  const header = (
+    <>
+      <View style={[styles.header, { backgroundColor: headerBg, paddingTop: insets.top + spacing.sm }]}>
+        <Sunburst
+          color={t.dark ? palette.accent : t.colors.textOnAccent}
+          opacity={t.dark ? 0.08 : 0.14}
+          center={{ x: 195, y: -190 + insets.top }}
+        />
+        <View style={styles.headerRow}>
+          <Pressable
+            onPress={() => navigation.goBack()}
+            accessibilityRole="button"
+            accessibilityLabel="Back"
+            hitSlop={8}
+            style={styles.backButton}
+          >
+            <Ionicons name="arrow-back" size={24} color={headerText} />
+          </Pressable>
+          <View style={styles.headerActions}>
             <Pressable
-              onPress={() => navigation.goBack()}
+              onPress={() => handleShare().catch(() => {})}
               accessibilityRole="button"
-              accessibilityLabel="Back"
+              accessibilityLabel="Share park progress"
               hitSlop={8}
-              style={styles.backButton}
+              style={styles.shareButton}
             >
-              <Ionicons name="arrow-back" size={24} color={headerText} />
+              <Ionicons name="share-outline" size={22} color={headerText} />
             </Pressable>
-            <View style={styles.headerActions}>
-              <Pressable
-                onPress={() => handleShare().catch(() => {})}
-                accessibilityRole="button"
-                accessibilityLabel="Share park progress"
-                hitSlop={8}
-                style={styles.shareButton}
-              >
-                <Ionicons name="share-outline" size={22} color={headerText} />
-              </Pressable>
-              <View style={[styles.headerDisc, { backgroundColor: headerDisc }]}>
-                <Ionicons name={PARK_ICONS[parkKey] as IconName} size={22} color={headerText} />
-              </View>
+            <View style={[styles.headerDisc, { backgroundColor: headerDisc }]}>
+              <Ionicons name={PARK_ICONS[parkKey] as IconName} size={22} color={headerText} />
             </View>
           </View>
-          {destination?.region && (
-            <Text style={[styles.eyebrow, { color: headerMuted }]}>{destination.region}</Text>
+        </View>
+        {destination?.region && (
+          <Text style={[styles.eyebrow, { color: headerMuted }]}>{destination.region}</Text>
+        )}
+        <Text style={[styles.title, { color: headerText }]}>{parkName}</Text>
+        <View style={styles.progressRow}>
+          {hasFinds && (
+            <View style={[styles.track, { backgroundColor: track }]}>
+              <View style={[styles.fill, { width: `${pct}%` }]} />
+            </View>
           )}
-          <Text style={[styles.title, { color: headerText }]}>{parkName}</Text>
-          <View style={styles.progressRow}>
-            {hasFinds && (
-              <View style={[styles.track, { backgroundColor: track }]}>
-                <View style={[styles.fill, { width: `${pct}%` }]} />
-              </View>
-            )}
-            <Text style={[styles.progressLabel, { color: headerText }]}>
-              {hasFinds ? `${foundCount} of ${parkEntries.length} found` : "No finds yet"}
+          <Text style={[styles.progressLabel, { color: headerText }]}>
+            {hasFinds ? `${foundCount} of ${parkEntries.length} found` : "No finds yet"}
+          </Text>
+        </View>
+      </View>
+
+      <View style={styles.body}>
+        {hasFinds && (
+          <SegmentedControl options={["All", "FIND", "FACT"]} selectedValue={filter} onValueChange={setFilter} />
+        )}
+
+        {hasFinds && (
+          <View style={styles.huntRow}>
+            <Chip
+              label="Hide found"
+              icon={hideFound ? "eye-off" : "eye-off-outline"}
+              selected={hideFound}
+              onPress={() => setHideFound(!hideFound)}
+            />
+            {hiddenCount > 0 && <Text style={styles.huntMeta}>{hiddenCount} hidden</Text>}
+          </View>
+        )}
+
+        {groups.length === 0 &&
+          (!hasFinds ? (
+            <EmptyState
+              title="No finds documented yet"
+              message="Read up on the park below, and send in anything you spot."
+            />
+          ) : allFoundHere ? (
+            <EmptyState
+              title="All found here"
+              message={`You've spotted every documented ${filter === "All" ? "detail" : filter === "FIND" ? "find" : "hidden surprise"} here. Show them again to revisit.`}
+              actionLabel="Show found"
+              onAction={() => setHideFound(false)}
+            />
+          ) : (
+            <EmptyState title="Nothing here yet" message="No entries match this filter." />
+          ))}
+      </View>
+    </>
+  );
+
+  const footer = (
+    <View style={styles.footerBody}>
+      {parkFacts.length > 0 && (
+        <View style={styles.section}>
+          <View style={styles.sectionHeader}>
+            <Text style={styles.sectionTitle} accessibilityRole="header">
+              Did you know?
+            </Text>
+            <Text style={styles.sectionMeta}>
+              {parkFacts.length} {parkFacts.length === 1 ? "fact" : "facts"}
             </Text>
           </View>
-        </View>
-
-        <View style={styles.body}>
-          {hasFinds && (
-            <SegmentedControl options={["All", "FIND", "FACT"]} selectedValue={filter} onValueChange={setFilter} />
-          )}
-
-          {hasFinds && (
-            <View style={styles.huntRow}>
-              <Chip
-                label="Hide found"
-                icon={hideFound ? "eye-off" : "eye-off-outline"}
-                selected={hideFound}
-                onPress={() => setHideFound(!hideFound)}
-              />
-              {hiddenCount > 0 && <Text style={styles.huntMeta}>{hiddenCount} hidden</Text>}
-            </View>
-          )}
-
-          {groups.length === 0 &&
-            (!hasFinds ? (
-              <EmptyState
-                title="No finds documented yet"
-                message="Read up on the park below, and send in anything you spot."
-              />
-            ) : allFoundHere ? (
-              <EmptyState
-                title="All found here"
-                message={`You've spotted every documented ${filter === "All" ? "detail" : filter === "FIND" ? "find" : "hidden surprise"} here. Show them again to revisit.`}
-                actionLabel="Show found"
-                onAction={() => setHideFound(false)}
-              />
-            ) : (
-              <EmptyState title="Nothing here yet" message="No entries match this filter." />
-            ))}
-
-          {groups.map((land) => (
-            <View key={land.landId} style={styles.section}>
-              <View style={styles.sectionHeader}>
-                <Text style={styles.sectionTitle}>{land.landName}</Text>
-                <Text style={styles.sectionMeta}>
-                  {land.attractions.length} {land.attractions.length === 1 ? "attraction" : "attractions"}
-                </Text>
-              </View>
-              {land.attractions.map((attraction) => (
-                <View key={attraction.attractionId} style={styles.groupCard}>
-                  <View style={styles.groupHeader}>
-                    <View style={[styles.dot, { backgroundColor: palette.accent }]} />
-                    <Text style={[styles.groupTitle, { color: palette.text }]}>{attraction.attractionName}</Text>
+          <View style={styles.factsCard}>
+            {visibleFacts.map((fact, index) => (
+              <React.Fragment key={fact.id}>
+                {index > 0 && <View style={styles.divider} />}
+                <View style={styles.fact}>
+                  <View style={[styles.factIcon, { backgroundColor: palette.tint }]}>
+                    <Ionicons name="bulb-outline" size={16} color={palette.text} />
                   </View>
-                  {attraction.entries.map((entry, index) => (
-                    <React.Fragment key={entry.id}>
-                      {index > 0 && <View style={styles.divider} />}
-                      <EntryRow
-                        entry={entry}
-                        onPress={() => navigation.navigate("EntryDetail", { entryId: entry.id })}
-                      />
-                    </React.Fragment>
-                  ))}
+                  <View style={styles.factText}>
+                    <Text style={styles.factTitle}>{fact.title}</Text>
+                    <Text style={styles.factBody}>{fact.body}</Text>
+                  </View>
                 </View>
-              ))}
-            </View>
-          ))}
-
-          {parkFacts.length > 0 && (
-            <View style={styles.section}>
-              <View style={styles.sectionHeader}>
-                <Text style={styles.sectionTitle} accessibilityRole="header">
-                  Did you know?
-                </Text>
-                <Text style={styles.sectionMeta}>
-                  {parkFacts.length} {parkFacts.length === 1 ? "fact" : "facts"}
-                </Text>
-              </View>
-              <View style={styles.factsCard}>
-                {visibleFacts.map((fact, index) => (
-                  <React.Fragment key={fact.id}>
-                    {index > 0 && <View style={styles.divider} />}
-                    <View style={styles.fact}>
-                      <View style={[styles.factIcon, { backgroundColor: palette.tint }]}>
-                        <Ionicons name="bulb-outline" size={16} color={palette.text} />
-                      </View>
-                      <View style={styles.factText}>
-                        <Text style={styles.factTitle}>{fact.title}</Text>
-                        <Text style={styles.factBody}>{fact.body}</Text>
-                      </View>
-                    </View>
-                  </React.Fragment>
-                ))}
-                {hiddenFactCount > 0 && (
-                  <>
-                    <View style={styles.divider} />
-                    <Pressable
-                      onPress={() => setShowAllFacts(true)}
-                      accessibilityRole="button"
-                      style={({ pressed }) => [styles.factsMore, pressed && styles.suggestButtonPressed]}
-                    >
-                      <Text style={[styles.factsMoreText, { color: palette.text }]}>
-                        Show {hiddenFactCount} more
-                      </Text>
-                      <Ionicons name="chevron-down" size={16} color={palette.text} />
-                    </Pressable>
-                  </>
-                )}
-              </View>
-            </View>
-          )}
-
-          <View style={styles.suggestCard}>
-            <Text style={styles.suggestTitle}>Know one we're missing?</Text>
-            <Text style={styles.suggestBody}>Send it in and we'll check it out before adding it.</Text>
-            <Pressable
-              onPress={() => navigation.navigate("SubmitSighting", { parkId })}
-              accessibilityRole="button"
-              style={({ pressed }) => [styles.suggestButton, pressed && styles.suggestButtonPressed]}
-            >
-              <Ionicons name="add-circle-outline" size={20} color={t.colors.onInk} />
-              <Text style={styles.suggestButtonText}>Suggest a find</Text>
-            </Pressable>
+              </React.Fragment>
+            ))}
+            {hiddenFactCount > 0 && (
+              <>
+                <View style={styles.divider} />
+                <Pressable
+                  onPress={() => setShowAllFacts(true)}
+                  accessibilityRole="button"
+                  style={({ pressed }) => [styles.factsMore, pressed && styles.suggestButtonPressed]}
+                >
+                  <Text style={[styles.factsMoreText, { color: palette.text }]}>
+                    Show {hiddenFactCount} more
+                  </Text>
+                  <Ionicons name="chevron-down" size={16} color={palette.text} />
+                </Pressable>
+              </>
+            )}
           </View>
         </View>
-      </ScrollView>
+      )}
+
+      <View style={styles.suggestCard}>
+        <Text style={styles.suggestTitle}>Know one we're missing?</Text>
+        <Text style={styles.suggestBody}>Send it in and we'll check it out before adding it.</Text>
+        <Pressable
+          onPress={() => navigation.navigate("SubmitSighting", { parkId })}
+          accessibilityRole="button"
+          style={({ pressed }) => [styles.suggestButton, pressed && styles.suggestButtonPressed]}
+        >
+          <Ionicons name="add-circle-outline" size={20} color={t.colors.onInk} />
+          <Text style={styles.suggestButtonText}>Suggest a find</Text>
+        </Pressable>
+      </View>
+    </View>
+  );
+
+  return (
+    <View style={styles.screen}>
+      <SectionList
+        sections={sections}
+        keyExtractor={attractionKey}
+        renderItem={renderAttraction}
+        renderSectionHeader={renderSectionHeader}
+        ListHeaderComponent={header}
+        ListFooterComponent={footer}
+        stickySectionHeadersEnabled={false}
+        contentContainerStyle={styles.scroll}
+        showsVerticalScrollIndicator={false}
+        initialNumToRender={8}
+      />
     </View>
   );
 }
@@ -351,6 +387,20 @@ const createStyles = (t: Theme) =>
     huntMeta: {
       ...text.meta,
       color: t.colors.textSecondary,
+    },
+    rowPad: {
+      paddingHorizontal: spacing.lg,
+    },
+    sectionHeaderWrap: {
+      paddingTop: spacing.md - 4 + spacing.xs,
+      paddingBottom: spacing.sm,
+    },
+    attractionRow: {
+      paddingBottom: spacing.sm,
+    },
+    footerBody: {
+      paddingHorizontal: spacing.lg,
+      gap: spacing.md - 4,
     },
     section: {
       gap: spacing.sm,
