@@ -5,9 +5,9 @@
   "attractionId": "haunted_manor_ride",
   "display": {
     "entryTitle": "Hearse Hoofprints Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Colonial Square Area",
-    "attractionName": "Haunted Manor Ride"
+    "parkName": "Magic Kingdom",
+    "landName": "Liberty Square",
+    "attractionName": "The Haunted Mansion"
   },
   "entryType": "FIND",
   "locationType": "Outdoor",

@@ -5,9 +5,9 @@
   "attractionId": "village_haus_restaurant",
   "display": {
     "entryTitle": "Dining Room Mural Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Castle Courtyard Area",
-    "attractionName": "Village Haus Restaurant"
+    "parkName": "Magic Kingdom",
+    "landName": "Fantasyland",
+    "attractionName": "Pinocchio Village Haus"
   },
   "entryType": "FIND",
   "locationType": "Indoor",

@@ -5,9 +5,9 @@
   "attractionId": "enchanted_castle_restaurant",
   "display": {
     "entryTitle": "Bubbles Painting Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Storybook Forest Area",
-    "attractionName": "Enchanted Castle Restaurant"
+    "parkName": "Magic Kingdom",
+    "landName": "Fantasyland: Enchanted Forest",
+    "attractionName": "Be Our Guest Restaurant"
   },
   "entryType": "FIND",
   "locationType": "Indoor",

@@ -162,7 +162,7 @@ function resolvePark(parkCell, regionCell) {
   const byId = destinations.find((d) => d.parkId === raw);
   if (byId) return { destination: byId };
 
-  // "Kingdom Park (Paris)" or a separate region column
+  // "Disneyland Park (Paris)" or a separate region column
   const m = raw.match(/^(.*?)\s*\((.*?)\)\s*$/);
   const name = norm(m ? m[1] : raw);
   const region = norm(regionCell || (m ? m[2] : ""));

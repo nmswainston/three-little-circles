@@ -5,9 +5,9 @@
   "attractionId": "flying_carpets_spinner",
   "display": {
     "entryTitle": "Camel Necklace Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Jungle Outpost Area",
-    "attractionName": "Flying Carpets Spinner"
+    "parkName": "Magic Kingdom",
+    "landName": "Adventureland",
+    "attractionName": "The Magic Carpets of Aladdin"
   },
   "entryType": "FIND",
   "locationType": "Outdoor",
