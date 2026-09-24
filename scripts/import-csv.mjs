@@ -62,6 +62,10 @@ const DEFAULT_MAP = {
   viewingNotes: "viewing notes",
   confidence: "confidence",
   verification: "verification",
+  status: "status",
+  accessNotes: "access notes",
+  sourceId: "source id",
+  sourceUrl: "source url",
   areaContext: "area",
   latitude: "latitude",
   longitude: "longitude",
@@ -139,7 +143,8 @@ const ENUMS = {
   difficulty: ["Easy", "Medium", "Hard"],
   orientation: ["Upright", "Upside-down", "Sideways"],
   confidence: ["Obvious", "Strong", "Interpretive"],
-  verification: ["In-person", "Photo", "Community", "Unknown"],
+  verification: ["In-person", "Photo", "Community", "Documented", "Unknown"],
+  status: ["Current", "Unverified", "Seasonal", "Variable", "Removed"],
   areaContext: ["Entrance", "Queue", "Loading", "Ride", "Dock", "Post-show", "Exit", "Lobby", "Walkway", "Outdoor Display", "Shop"],
 };
 
@@ -246,7 +251,10 @@ for (let r = 1; r < rows.length; r++) {
   const orientation = enumOrProblem("orientation");
   const confidence = enumOrProblem("confidence");
   const verification = enumOrProblem("verification");
+  const status = enumOrProblem("status");
   const areaContext = enumOrProblem("areaContext");
+  const sourceUrl = cell("sourceUrl");
+  if (sourceUrl && !/^https?:\/\/\S+$/.test(sourceUrl)) problems.push(`source url "${sourceUrl}" is not an http(s) URL`);
 
   // Coordinates: separate columns or one "lat, lng" cell
   let coordinates;
@@ -321,7 +329,11 @@ for (let r = 1; r < rows.length; r++) {
     ...(Object.keys(viewing).length ? { viewing } : {}),
     ...(confidence ? { confidence } : {}),
     ...(verification ? { verification } : {}),
+    ...(status ? { status } : {}),
+    ...(cell("accessNotes") ? { accessNotes: cell("accessNotes") } : {}),
     ...(coordinates ? { coordinates } : {}),
+    ...(cell("sourceId") ? { sourceId: cell("sourceId").toUpperCase() } : {}),
+    ...(sourceUrl ? { sourceUrl } : {}),
     createdAtISO: exists ? existing.find((e) => e.id === id)?.createdAtISO ?? now : now,
     updatedAtISO: now,
   };
