@@ -1,0 +1,36 @@
+{
+  "id": "savanna-overlook-rock-impression-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "savanna_overlook",
+  "display": {
+    "entryTitle": "Overlook Rock Impression Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "Savanna Overlook"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "At the big rock overlook, above the stacked crates beside a bin, an impression in the rock outlines a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Rock overlook onto the savanna",
+    "exactSpot": "Above the crates next to the bin. Look at the surface of the rock."
+  },
+  "bestTip": "Find the crates first; the rock above them is the one.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0024",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

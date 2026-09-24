@@ -1,0 +1,36 @@
+{
+  "id": "little-chef-street-scene-pizza-truck",
+  "parkId": "showcase_park",
+  "landId": "france_pavilion",
+  "attractionId": "little_chef_ride",
+  "display": {
+    "entryTitle": "Street Scene Pizza Truck",
+    "parkName": "EPCOT",
+    "landName": "France Pavilion",
+    "attractionName": "Remy's Ratatouille Adventure"
+  },
+  "entryType": "FACT",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the projected Paris street scenery, a small yellow pizza delivery truck drives past. It is the same truck that turns up in nearly every film from the animation studio that made this one.",
+  "whereToLook": {
+    "scene": "Projected street scenery during the ride",
+    "exactSpot": "Watch the traffic in the background of the street scene for a small yellow truck."
+  },
+  "bestTip": "It is on screen for a second or two. Watch the road, not the rats.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0026",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-remy-s-ratatouille-adventure-pizza-planet",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

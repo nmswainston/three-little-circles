@@ -1,0 +1,36 @@
+{
+  "id": "china-pavilion-gate-post-motif-mickey",
+  "parkId": "showcase_park",
+  "landId": "china_pavilion",
+  "attractionId": "pavilion_gate",
+  "display": {
+    "entryTitle": "Gate Post Motif Mickey",
+    "parkName": "EPCOT",
+    "landName": "China Pavilion",
+    "attractionName": "Pavilion Gate"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "The ornamental posts at the pavilion entrance are decorated with a repeating pattern. A three-circle motif recurs in that decoration.",
+  "whereToLook": {
+    "scene": "Ornamental gate posts at the pavilion entrance",
+    "exactSpot": "The decoration on the posts. Look for a repeated cluster of three circles."
+  },
+  "bestTip": "Look at the post from the side, where the pattern runs uninterrupted.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0011",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-s-china-pavillion-hidden-mickeys",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

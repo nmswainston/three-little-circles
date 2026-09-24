@@ -1,0 +1,36 @@
+{
+  "id": "coronado-gift-shop-left-door-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "coronado_springs_resort",
+  "attractionId": "resort_gift_shop",
+  "display": {
+    "entryTitle": "Gift Shop Left Door Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Coronado Springs Resort",
+    "attractionName": "Panchito's Gifts and Sundries"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "The left entrance door of the resort gift shop has a classic Hidden Mickey worked into its design.",
+  "whereToLook": {
+    "scene": "Left entrance door of the gift shop",
+    "exactSpot": "Look at the door's decoration and hardware for three circles."
+  },
+  "bestTip": "Check both the woodwork and the handle.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0087",
+  "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-springs-resorts/2026/08/01/disneys-coronado-springs-resort-hidden-mickey",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

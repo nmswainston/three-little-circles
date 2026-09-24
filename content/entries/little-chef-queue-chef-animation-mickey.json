@@ -1,0 +1,36 @@
+{
+  "id": "little-chef-queue-chef-animation-mickey",
+  "parkId": "showcase_park",
+  "landId": "france_pavilion",
+  "attractionId": "little_chef_ride",
+  "display": {
+    "entryTitle": "Queue Chef Animation Mickey",
+    "parkName": "EPCOT",
+    "landName": "France Pavilion",
+    "attractionName": "Remy's Ratatouille Adventure"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "In the queue, the animated image of the late great chef moves through a short loop. For a moment, the imagery is reported to form a Mickey-like shape.",
+  "whereToLook": {
+    "scene": "Animated chef display in the queue",
+    "exactSpot": "Watch the whole loop. The shape appears briefly and then dissolves."
+  },
+  "bestTip": "Stand where you can see the display through a full cycle.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0024",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-remy-s-ratatouille-adventure-gusteau",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

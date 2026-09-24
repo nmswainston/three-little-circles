@@ -1,0 +1,36 @@
+{
+  "id": "splitsville-upstairs-mural-bowling-shapes-mickey",
+  "parkId": "springs_bucket",
+  "landId": "west_side",
+  "attractionId": "splitsville_luxury_lanes",
+  "display": {
+    "entryTitle": "Upstairs Mural Bowling Shapes Mickey",
+    "parkName": "Disney Springs",
+    "landName": "West Side",
+    "attractionName": "Splitsville Luxury Lanes"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The upstairs mural with the orange background is full of bowling imagery. Three black bowling shapes are set together as a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Upstairs mural with the orange background",
+    "exactSpot": "Three black bowling shapes on the orange. One large, two small."
+  },
+  "bestTip": "Head upstairs even if you are bowling downstairs; the mural is on the upper level.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-DS-0003",
+  "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

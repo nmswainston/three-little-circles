@@ -1,0 +1,36 @@
+{
+  "id": "american-pavilion-westward-painting-mickey",
+  "parkId": "showcase_park",
+  "landId": "american_pavilion",
+  "attractionId": "rotunda_paintings",
+  "display": {
+    "entryTitle": "Westward Painting Mickey",
+    "parkName": "EPCOT",
+    "landName": "The American Adventure",
+    "attractionName": "Rotunda Paintings"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "The lobby painting of settlers heading west is reported to hide a classic three-circle Hidden Mickey somewhere in its scene, a companion to the horse-leg Mickey in the neighboring painting.",
+  "whereToLook": {
+    "scene": "Painting of the westward wagon train in the rotunda lobby",
+    "exactSpot": "Within the painted scene. Read the wagons, the sky, and the ground for three circles together."
+  },
+  "bestTip": "Get close. The painting is large and the shape is small.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0010",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-united-states-pavillion",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

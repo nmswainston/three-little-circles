@@ -1,0 +1,36 @@
+{
+  "id": "wilderness-lobby-transportation-sign-bus-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "wilderness_lodge_resort",
+  "attractionId": "lobby_and_grounds",
+  "display": {
+    "entryTitle": "Transportation Sign Bus Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Wilderness Lodge Resort",
+    "attractionName": "Lobby and Grounds"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The transportation sign in the lobby shows a bus. Mickey sits in the driver's seat beside the lettering.",
+  "whereToLook": {
+    "scene": "Transportation sign in the lobby",
+    "exactSpot": "The bus on the sign. Look at the driver's seat."
+  },
+  "bestTip": "Look while you check the bus times.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0050",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

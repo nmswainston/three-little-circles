@@ -5,9 +5,9 @@
   "attractionId": "presidents_hall_show",
   "display": {
     "entryTitle": "Lobby Sword Tip Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Colonial Square Area",
-    "attractionName": "Presidents Hall Show"
+    "parkName": "Magic Kingdom",
+    "landName": "Liberty Square",
+    "attractionName": "The Hall of Presidents"
   },
   "entryType": "FIND",
   "locationType": "Indoor",

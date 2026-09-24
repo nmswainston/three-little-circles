@@ -5,9 +5,9 @@
   "attractionId": "storybook_forest_walkway",
   "display": {
     "entryTitle": "Horseshoe Prints Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Storybook Forest Area",
-    "attractionName": "Storybook Forest Walkway"
+    "parkName": "Magic Kingdom",
+    "landName": "Fantasyland: Enchanted Forest",
+    "attractionName": "Enchanted Forest Walkway"
   },
   "entryType": "FIND",
   "locationType": "Outdoor",

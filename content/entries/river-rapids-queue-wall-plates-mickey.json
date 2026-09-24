@@ -1,0 +1,37 @@
+{
+  "id": "river-rapids-queue-wall-plates-mickey",
+  "parkId": "adventure_park",
+  "landId": "asia_village_area",
+  "attractionId": "river_rapids_raft_ride",
+  "display": {
+    "entryTitle": "Queue Wall Plates Mickey",
+    "parkName": "Disney's Animal Kingdom",
+    "landName": "Asia",
+    "attractionName": "Kali River Rapids"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "Low on the left wall of the queue, three plates hang together. They form a tilted classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Left wall of the queue, low",
+    "exactSpot": "Three plates on the lower left wall. One large, two small, tilted.",
+    "orientation": "Sideways"
+  },
+  "bestTip": "Look down and left rather than at the props at eye level.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-AK-0029",
+  "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

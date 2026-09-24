@@ -1,0 +1,36 @@
+{
+  "id": "rose-and-crown-pub-sign-mickey",
+  "parkId": "showcase_park",
+  "landId": "united_kingdom_pavilion",
+  "attractionId": "rose_and_crown_pub",
+  "display": {
+    "entryTitle": "Pub Sign Mickey",
+    "parkName": "EPCOT",
+    "landName": "United Kingdom Pavilion",
+    "attractionName": "Rose and Crown Pub"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "The painted pub sign hanging outside has a classic Hidden Mickey worked into its decoration.",
+  "whereToLook": {
+    "scene": "Hanging pub sign at the entrance",
+    "exactSpot": "In the painted decoration around the rose and the crown."
+  },
+  "bestTip": "Both sides of the sign are painted. Check the one facing the water too.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0027",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-rose-crown-pub",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

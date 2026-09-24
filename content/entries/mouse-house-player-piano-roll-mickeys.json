@@ -5,9 +5,9 @@
   "attractionId": "mouse_house",
   "display": {
     "entryTitle": "Player Piano Roll Mickeys",
-    "parkName": "Kingdom Park",
-    "landName": "Cartoon Town Area",
-    "attractionName": "Mouse House"
+    "parkName": "Disneyland Park",
+    "landName": "Mickey's Toontown",
+    "attractionName": "Mickey's House"
   },
   "entryType": "FIND",
   "locationType": "Indoor",

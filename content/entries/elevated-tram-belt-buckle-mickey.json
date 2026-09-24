@@ -5,9 +5,9 @@
   "attractionId": "elevated_tram_ride",
   "display": {
     "entryTitle": "Belt Buckle Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Future City Area",
-    "attractionName": "Elevated Tram Ride"
+    "parkName": "Magic Kingdom",
+    "landName": "Tomorrowland",
+    "attractionName": "Tomorrowland Transit Authority PeopleMover"
   },
   "entryType": "FIND",
   "locationType": "Ride",

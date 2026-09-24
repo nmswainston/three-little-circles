@@ -1,0 +1,36 @@
+{
+  "id": "grand-lobby-marble-floor-corner-panel-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "grand_floridian_resort",
+  "attractionId": "grand_lobby",
+  "display": {
+    "entryTitle": "Marble Floor Corner Panel Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Grand Floridian Resort",
+    "attractionName": "Grand Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In a green corner panel of the marble lobby floor, orange marble outlines a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Marble floor of the grand lobby",
+    "exactSpot": "A green panel in a corner of the floor. Look for orange marble in a three-circle outline."
+  },
+  "bestTip": "Look from the upper balcony first to find the panel, then go down.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0069",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

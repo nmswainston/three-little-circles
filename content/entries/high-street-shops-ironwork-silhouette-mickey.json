@@ -1,0 +1,36 @@
+{
+  "id": "high-street-shops-ironwork-silhouette-mickey",
+  "parkId": "showcase_park",
+  "landId": "united_kingdom_pavilion",
+  "attractionId": "high_street_shops",
+  "display": {
+    "entryTitle": "Ironwork Silhouette Mickey",
+    "parkName": "EPCOT",
+    "landName": "United Kingdom Pavilion",
+    "attractionName": "High Street Shops"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "Above the shops along the pavilion's high street, curved metal ornament decorates the facades. A Mickey silhouette is reported in the ironwork.",
+  "whereToLook": {
+    "scene": "Metal ornament above the shop fronts",
+    "exactSpot": "Look up at the curved ironwork over the shops. The shape sits in the curls."
+  },
+  "bestTip": "Stand across the street so you can see the whole facade at once.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-EP-0020",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-ironwork",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "boulder-ridge-lobby-beam-knot-carved-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "wilderness_lodge_resort",
+  "attractionId": "boulder_ridge_villas_lobby",
+  "display": {
+    "entryTitle": "Beam Knot Carved Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Wilderness Lodge Resort",
+    "attractionName": "Boulder Ridge Villas Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "On the wooden beam to the right of the villas lobby fireplace, a carved classic Hidden Mickey emerges from a knot in the wood.",
+  "whereToLook": {
+    "scene": "Beam to the right of the fireplace",
+    "exactSpot": "Find the knot in the wood and look at the carving around it."
+  },
+  "bestTip": "The carving uses the knot as the head.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0056",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

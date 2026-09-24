@@ -5,9 +5,9 @@
   "attractionId": "flying_pirate_ship_ride",
   "display": {
     "entryTitle": "Queue Tree Bark Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Castle Courtyard Area",
-    "attractionName": "Flying Pirate Ship Ride"
+    "parkName": "Magic Kingdom",
+    "landName": "Fantasyland",
+    "attractionName": "Peter Pan's Flight"
   },
   "entryType": "FIND",
   "locationType": "Queue",

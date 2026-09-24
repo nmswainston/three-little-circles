@@ -1,0 +1,36 @@
+{
+  "id": "undersea-puppet-show-reef-backdrop-mickey",
+  "parkId": "adventure_park",
+  "landId": "dinosaur_dig_area",
+  "attractionId": "undersea_puppet_show",
+  "display": {
+    "entryTitle": "Reef Backdrop Mickey",
+    "parkName": "Disney's Animal Kingdom",
+    "landName": "DinoLand U.S.A.",
+    "attractionName": "Finding Nemo: The Big Blue and Beyond"
+  },
+  "entryType": "FIND",
+  "locationType": "Pre-show",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "The stage show's coral reef scenery is reported to hide a classic Hidden Mickey somewhere in the backdrop. The report does not say which scene, so it is a whole-show hunt.",
+  "whereToLook": {
+    "scene": "Coral reef scenery during the stage show",
+    "exactSpot": "The painted and sculpted reef behind the performers. Watch for three circles in the coral."
+  },
+  "bestTip": "Sit high and central so the full backdrop is in view for the whole show.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Far"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-AK-0008",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-finding-nemo-big-blue-beyond",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

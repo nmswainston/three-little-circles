@@ -1,0 +1,40 @@
+{
+  "id": "geosphere-entrance-mural-satellite-mickey",
+  "parkId": "showcase_park",
+  "landId": "celebration_area",
+  "attractionId": "geosphere_time_ride",
+  "display": {
+    "entryTitle": "Entrance Mural Satellite Mickey",
+    "parkName": "EPCOT",
+    "landName": "World Celebration",
+    "attractionName": "Spaceship Earth"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "The mural at the right of the entrance shows a satellite numbered 2350. A classic Hidden Mickey is concealed right beside the numbering.",
+  "whereToLook": {
+    "scene": "Entrance mural on the right as you walk in",
+    "exactSpot": "Find the satellite marked 2350 and look immediately beside the numbers."
+  },
+  "bestTip": "Look while you are still outside the queue; the mural is easier to see without the rail in the way.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3753,
+    "longitude": -81.5494
+  },
+  "sourceId": "TLC-EP-0029",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

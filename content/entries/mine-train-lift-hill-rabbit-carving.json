@@ -5,9 +5,9 @@
   "attractionId": "mine_train_coaster",
   "display": {
     "entryTitle": "Lift Hill Rabbit Carving",
-    "parkName": "Kingdom Park",
-    "landName": "Storybook Forest Area",
-    "attractionName": "Mine Train Coaster"
+    "parkName": "Magic Kingdom",
+    "landName": "Fantasyland: Enchanted Forest",
+    "attractionName": "Seven Dwarfs Mine Train"
   },
   "entryType": "FACT",
   "locationType": "Ride",

@@ -5,9 +5,9 @@
   "attractionId": "tree_theater_show",
   "display": {
     "entryTitle": "Show Bubbles Mickey",
-    "parkName": "Adventure Park",
-    "landName": "Great Tree Area",
-    "attractionName": "Tree Theater Show"
+    "parkName": "Disney's Animal Kingdom",
+    "landName": "Discovery Island",
+    "attractionName": "It's Tough to be a Bug!"
   },
   "entryType": "FIND",
   "locationType": "Indoor",

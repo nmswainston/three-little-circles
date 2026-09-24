@@ -5,9 +5,9 @@
   "attractionId": "star_flight_simulator",
   "display": {
     "entryTitle": "Queue Window Droid Mickey",
-    "parkName": "Studios Park",
-    "landName": "Echo Lake Area",
-    "attractionName": "Star Flight Simulator"
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Echo Lake",
+    "attractionName": "Star Tours: The Adventures Continue"
   },
   "entryType": "FIND",
   "locationType": "Queue",

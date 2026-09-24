@@ -5,9 +5,9 @@
   "attractionId": "smugglers_freighter_ride",
   "display": {
     "entryTitle": "Entrance Floor Mickey",
-    "parkName": "Studios Park",
-    "landName": "Smugglers Outpost Area",
-    "attractionName": "Smugglers Freighter Ride"
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Star Wars: Galaxy's Edge",
+    "attractionName": "Millennium Falcon: Smugglers Run"
   },
   "entryType": "FIND",
   "locationType": "Queue",

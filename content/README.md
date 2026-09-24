@@ -39,7 +39,7 @@ pass `--overwrite`.
 What the importer does for you:
 
 - `park` accepts a name from `destinations.json` or a parkId. Names that exist
-  in several regions need a `region` column, or write `Kingdom Park (Paris)`.
+  in several regions need a `region` column, or write `Disneyland Park (Paris)`.
 - Land and attraction ids are reused from entries already in that park when
   the names match, so new finds group with existing ones. A `land id` or
   `attraction id` column overrides that.
@@ -122,11 +122,21 @@ controls the order within a park if you need one.
 ## Naming conventions
 
 The app is an unofficial fan project. Park, land, and attraction display names
-use generic descriptive names rather than trademarked ones, for example
-"Studios Park" and "Backyard Coaster". Keep new entries consistent with the
-names already used for the same `parkId`, `landId`, and `attractionId`. The
-build script rejects an entry whose display names disagree with an existing
-entry for the same id.
+use the real names, for example "Disney's Hollywood Studios" and "Slinky Dog
+Dash", because naming the thing a find is attached to is what makes an entry
+usable. Use plain text only: no logos, no park or attraction wordmarks, no
+character art.
+
+Ids are separate from display names and are deliberately not real names. They
+are persistence keys, so leave `parkId`, `landId`, and `attractionId` alone once
+an entry ships. Renaming one orphans saved progress in `tlc.found.v1`.
+
+Keep new entries consistent with the display names already used for the same
+`parkId`, `landId`, and `attractionId`. The build script rejects an entry whose
+display names disagree with an existing entry for the same id.
+
+A few locations have no branded name to use and keep a plain descriptive label,
+for example "Grand Lobby" or "Entrance Gates". That is fine.
 
 ## Coordinates
 

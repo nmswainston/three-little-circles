@@ -1,0 +1,37 @@
+{
+  "id": "reef-playground-rock-hollows-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "art_of_animation_resort",
+  "attractionId": "reef_playground",
+  "display": {
+    "entryTitle": "Playground Rock Hollows Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Art of Animation Resort",
+    "attractionName": "Squirt's Righteous Reef"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "On the rock surface of the reef playground, three circular hollows form a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Rock surfaces of the playground",
+    "exactSpot": "Look at the sculpted rock for three round hollows together."
+  },
+  "bestTip": "Go early before the playground fills up.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Pool and recreation areas are for registered resort guests.",
+  "sourceId": "TLC-RS-0038",
+  "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "winged-flight-queue-gravel-cluster-mickey",
+  "parkId": "adventure_park",
+  "landId": "floating_mountains_area",
+  "attractionId": "winged_flight_simulator",
+  "display": {
+    "entryTitle": "Queue Gravel Cluster Mickey",
+    "parkName": "Disney's Animal Kingdom",
+    "landName": "Pandora: The World of Avatar",
+    "attractionName": "Avatar Flight of Passage"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "The outdoor queue winds over textured ground set with small stones. A cluster of three is reported to form a classic Hidden Mickey underfoot.",
+  "whereToLook": {
+    "scene": "Textured ground along the outdoor queue",
+    "exactSpot": "Look down at the gravel set into the path. One larger stone with two smaller ones above it."
+  },
+  "bestTip": "Check the ground during the slow stretches before the caves, when you have time to scan.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3554,
+    "longitude": -81.5921
+  },
+  "sourceId": "TLC-AK-0003",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-avatar-flight-passage-gravel",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

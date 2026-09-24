@@ -1,0 +1,37 @@
+{
+  "id": "wedding-pavilion-castle-window",
+  "parkId": "resorts_bucket",
+  "landId": "grand_floridian_resort",
+  "attractionId": "wedding_pavilion",
+  "display": {
+    "entryTitle": "Castle Window",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Grand Floridian Resort",
+    "attractionName": "Disney's Wedding Pavilion"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "The window at the front of the wedding pavilion frames the castle across the lagoon. The glass was designed to make the castle look larger than it is from that distance.",
+  "whereToLook": {
+    "scene": "Window facing the castle at the front of the pavilion",
+    "exactSpot": "Stand at the aisle and look through the window."
+  },
+  "bestTip": "Compare the view through the glass with the view from the door.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Far"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Unverified",
+  "accessNotes": "The pavilion is used for weddings. Visit between events or ask at the resort about viewing times.",
+  "sourceId": "TLC-RS-0080",
+  "sourceUrl": "https://disneyparksblog.com/weddings/5-little-known-facts-about-disneys-iconic-wedding-pavilion/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "riviera-guest-corridor-carpet-minnie-bow",
+  "parkId": "resorts_bucket",
+  "landId": "riviera_resort",
+  "attractionId": "guest_corridors",
+  "display": {
+    "entryTitle": "Guest Corridor Carpet Minnie Bow",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Riviera Resort",
+    "attractionName": "Guest Corridors"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "The guest corridor carpet hides Minnie in its scrollwork. The bow is what gives her away.",
+  "whereToLook": {
+    "scene": "Carpet in the guest room corridors",
+    "exactSpot": "Look for the three-circle shape with a bow on top."
+  },
+  "bestTip": "Find the Mickey in the same carpet first; Minnie is nearby.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0044",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

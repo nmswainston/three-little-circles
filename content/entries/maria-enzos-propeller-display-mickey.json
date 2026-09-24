@@ -1,0 +1,37 @@
+{
+  "id": "maria-enzos-propeller-display-mickey",
+  "parkId": "springs_bucket",
+  "landId": "the_landing",
+  "attractionId": "maria_and_enzos_ristorante",
+  "display": {
+    "entryTitle": "Propeller Display Mickey",
+    "parkName": "Disney Springs",
+    "landName": "The Landing",
+    "attractionName": "Maria & Enzo's Ristorante"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The restaurant is themed as an old airline terminal. On the lower level, an airplane propeller display contains a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Airplane propeller display on the lower level",
+    "exactSpot": "The propeller display. Look at the hub and mounting hardware for three circles."
+  },
+  "bestTip": "Take the stairs down even if your table is upstairs.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "Table-service restaurant; ask to look around if you are not dining."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-DS-0009",
+  "sourceUrl": "https://mickeyvisit.com/hidden-mickeys-at-disney-world/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

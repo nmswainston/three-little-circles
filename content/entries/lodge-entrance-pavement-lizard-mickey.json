@@ -1,0 +1,36 @@
+{
+  "id": "lodge-entrance-pavement-lizard-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "animal_kingdom_lodge_resort",
+  "attractionId": "lodge_entrance",
+  "display": {
+    "entryTitle": "Pavement Lizard Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Animal Kingdom Lodge",
+    "attractionName": "Jambo House Entrance"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "A lizard is set into the pavement to the right of the main lodge entrance. A marking on its back outlines a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Pavement right of the main entrance",
+    "exactSpot": "Find the lizard in the paving and look at the pattern on its back."
+  },
+  "bestTip": "Look down as you walk in from the bus stop.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0017",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "boardwalk-lobby-carousel-horse-thigh-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "boardwalk_resort",
+  "attractionId": "lobby_carousel_model",
+  "display": {
+    "entryTitle": "Carousel Horse Thigh Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "BoardWalk Resort",
+    "attractionName": "Lobby Carousel Model"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "On the same miniature carousel, a second marking on a horse's right rear thigh resembles a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Miniature carousel model in the lobby",
+    "exactSpot": "A horse's right rear thigh."
+  },
+  "bestTip": "After the neck, check the hindquarters.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0063",
+  "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

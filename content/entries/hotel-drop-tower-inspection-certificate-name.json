@@ -5,9 +5,9 @@
   "attractionId": "hotel_drop_tower",
   "display": {
     "entryTitle": "Inspection Certificate Name",
-    "parkName": "Studios Park",
-    "landName": "Sunset Area",
-    "attractionName": "Hotel Drop Tower"
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Sunset Boulevard",
+    "attractionName": "The Twilight Zone Tower of Terror"
   },
   "entryType": "FACT",
   "locationType": "Queue",

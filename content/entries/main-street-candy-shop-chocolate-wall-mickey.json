@@ -5,9 +5,9 @@
   "attractionId": "main_street_candy_shop",
   "display": {
     "entryTitle": "Chocolate Wall Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Main Street Area",
-    "attractionName": "Main Street Candy Shop"
+    "parkName": "Magic Kingdom",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Main Street Confectionery"
   },
   "entryType": "FIND",
   "locationType": "Indoor",

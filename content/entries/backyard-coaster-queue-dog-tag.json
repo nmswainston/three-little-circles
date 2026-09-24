@@ -5,9 +5,9 @@
   "attractionId": "backyard_coaster",
   "display": {
     "entryTitle": "Queue Dog Tag",
-    "parkName": "Studios Park",
-    "landName": "Toy Blocks Area",
-    "attractionName": "Backyard Coaster"
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Toy Story Land",
+    "attractionName": "Slinky Dog Dash"
   },
   "entryType": "FACT",
   "locationType": "Queue",

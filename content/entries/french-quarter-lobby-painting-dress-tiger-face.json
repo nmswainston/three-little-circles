@@ -1,0 +1,36 @@
+{
+  "id": "french-quarter-lobby-painting-dress-tiger-face",
+  "parkId": "resorts_bucket",
+  "landId": "port_orleans_french_quarter_resort",
+  "attractionId": "registration_lobby",
+  "display": {
+    "entryTitle": "Lobby Painting Dress Tiger Face",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Port Orleans French Quarter Resort",
+    "attractionName": "Registration Lobby"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "Behind the registration desk, the third painting from the left shows a woman in a green dress. In the lower green section of the dress, the ornament suggests the face of the bouncy striped tiger from the hundred-acre wood.",
+  "whereToLook": {
+    "scene": "Paintings behind the registration desk",
+    "exactSpot": "Third painting from the left. Look at the lower part of the green dress."
+  },
+  "bestTip": "Ask at the desk if you can step behind the rope for a closer look.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0011",
+  "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-port-orleans-resort-french-quarter-hidden-tigger/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

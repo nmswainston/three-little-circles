@@ -1,0 +1,36 @@
+{
+  "id": "railroad-display-room-backyard-railway-equipment",
+  "parkId": "resorts_bucket",
+  "landId": "wilderness_lodge_resort",
+  "attractionId": "railroad_display_room",
+  "display": {
+    "entryTitle": "Backyard Railway Equipment",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Wilderness Lodge Resort",
+    "attractionName": "Carolwood Pacific Room"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "The display at the rear of the railroad room holds original miniature railroad equipment from the backyard railway Walt ran at his home, the hobby that fed directly into the parks' trains.",
+  "whereToLook": {
+    "scene": "Railroad room in the villas building",
+    "exactSpot": "The display case at the rear of the room."
+  },
+  "bestTip": "The room is open to anyone; you do not need to be a villa guest.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Documented",
+  "status": "Unverified",
+  "sourceId": "TLC-RS-0060",
+  "sourceUrl": "https://disneyparksblog.com/wdw/5-hidden-details-at-disneys-wilderness-lodge/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
