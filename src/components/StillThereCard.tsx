@@ -38,7 +38,9 @@ export default function StillThereCard({ entryId, summary }: StillThereCardProps
     setSending(undefined);
     if (!result.ok) {
       setError(result.message);
-      AccessibilityInfo.announceForAccessibility(result.message);
+      // The error line below is a live region, which Android and web read on
+      // their own. iOS has no live regions, so it gets an announcement instead.
+      if (Platform.OS === "ios") AccessibilityInfo.announceForAccessibility(result.message);
       return;
     }
     record(entryId, status);

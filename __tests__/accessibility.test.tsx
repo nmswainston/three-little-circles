@@ -93,6 +93,8 @@ describe('entry row', () => {
 });
 
 describe('still there card', () => {
+  // jest-expo runs as iOS, the platform with no live regions, so the
+  // announcement is the only way this error is heard.
   it('announces a failed report instead of only printing it under the buttons', async () => {
     mockSend.mockResolvedValue({ ok: false, message: 'No connection.' });
     const announce = jest.spyOn(AccessibilityInfo, 'announceForAccessibility').mockImplementation(() => {});

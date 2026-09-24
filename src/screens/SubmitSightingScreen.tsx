@@ -66,10 +66,11 @@ export default function SubmitSightingScreen() {
   const destination = destinations.find((d) => d.parkId === parkId);
 
   // The error line sits below the field that caused it, so a screen reader
-  // would otherwise never hear it.
+  // would otherwise never reach it. It is a live region, which Android and web
+  // read on their own; iOS has no live regions, so it gets an announcement.
   const showError = (message: string) => {
     setError(message);
-    AccessibilityInfo.announceForAccessibility(message);
+    if (Platform.OS === "ios") AccessibilityInfo.announceForAccessibility(message);
   };
 
   const pickPhoto = async (fromCamera: boolean) => {
