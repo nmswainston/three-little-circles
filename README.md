@@ -4,8 +4,9 @@ An unofficial field guide to Hidden Mickeys and other hidden details in theme
 parks and resorts. A cross-platform mobile app built with Expo and React Native.
 
 This is a fan project. It is not affiliated with or endorsed by any theme park
-company. Park, land, and attraction names in the app are descriptive rather than
-trademarked.
+company. The app names real parks, lands, and attractions because that is the
+only way directions can work when you are standing in the queue. The names are
+used descriptively, and the app ships no logos, characters, or artwork.
 
 ## Problem
 
@@ -26,7 +27,17 @@ change rather than a code change.
 
 ## Screenshots
 
-> *Add 2 to 4 screenshots here*
+<p>
+  <img src="docs/screenshots/parks.png" width="190" alt="Parks tab: a list of destinations with a progress ring on each card" />
+  <img src="docs/screenshots/park.png" width="190" alt="Magic Kingdom screen: finds grouped by land and attraction, with difficulty chips" />
+  <img src="docs/screenshots/entry.png" width="190" alt="An entry with hints on: the scene is shown and the exact spot is hidden until you ask" />
+  <img src="docs/screenshots/profile.png" width="190" alt="Profile tab: overall progress and a per-park breakdown" />
+</p>
+
+Left to right: the Parks tab, a park with its finds grouped by land and
+attraction, an entry with hints on, and the Profile tab. The app follows the
+system appearance; [here is the Parks tab at night](docs/screenshots/parks-dark.png).
+Screenshots are from the web build at phone width.
 
 ## Tech Stack
 
@@ -91,6 +102,7 @@ src/screens/            One file per screen. MapScreen.web.tsx replaces the map 
 src/components/         Shared UI.
 src/utils/progress.ts   Progress and completion math.
 __tests__/              Jest tests: pure helpers, the content build, and component behavior.
+docs/                   The privacy policy (served by GitHub Pages) and README screenshots.
 ```
 
 ## Adding Content
