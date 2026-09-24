@@ -5,9 +5,9 @@
   "attractionId": "jungle_boat_ride",
   "display": {
     "entryTitle": "Temple Pillar Profile Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Jungle Outpost Area",
-    "attractionName": "Jungle Boat Ride"
+    "parkName": "Magic Kingdom",
+    "landName": "Adventureland",
+    "attractionName": "Jungle Cruise"
   },
   "entryType": "FIND",
   "locationType": "Ride",

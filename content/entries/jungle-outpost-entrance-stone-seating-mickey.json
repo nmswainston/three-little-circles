@@ -5,9 +5,9 @@
   "attractionId": "jungle_outpost_entrance",
   "display": {
     "entryTitle": "Stone Seating Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Jungle Outpost Area",
-    "attractionName": "Jungle Outpost Entrance"
+    "parkName": "Magic Kingdom",
+    "landName": "Adventureland",
+    "attractionName": "Adventureland Entrance"
   },
   "entryType": "FIND",
   "locationType": "Outdoor",

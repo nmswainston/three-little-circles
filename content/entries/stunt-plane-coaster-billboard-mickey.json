@@ -5,9 +5,9 @@
   "attractionId": "stunt_plane_coaster",
   "display": {
     "entryTitle": "Billboard Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Circus Grounds Area",
-    "attractionName": "Stunt Plane Coaster"
+    "parkName": "Magic Kingdom",
+    "landName": "Storybook Circus",
+    "attractionName": "The Barnstormer"
   },
   "entryType": "FIND",
   "locationType": "Outdoor",

@@ -5,9 +5,9 @@
   "attractionId": "galactic_blaster_ride",
   "display": {
     "entryTitle": "Zurg Scene Blue Star Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Future City Area",
-    "attractionName": "Galactic Blaster Ride"
+    "parkName": "Magic Kingdom",
+    "landName": "Tomorrowland",
+    "attractionName": "Buzz Lightyear's Space Ranger Spin"
   },
   "entryType": "FIND",
   "locationType": "Ride",
