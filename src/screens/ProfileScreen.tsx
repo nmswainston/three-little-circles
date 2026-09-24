@@ -1,5 +1,5 @@
 import React, { ReactNode, useCallback, useMemo, useState } from "react";
-import { ScrollView, StyleSheet, View, Text, Pressable, Switch } from "react-native";
+import { ScrollView, StyleSheet, View, Text, Pressable, Switch, Linking } from "react-native";
 import { useFocusEffect, useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { Ionicons } from "@expo/vector-icons";
@@ -9,6 +9,7 @@ import { getDestinationSummaries } from "../data/destinations";
 import { labelOrFallback } from "../data/labels";
 import { progressShareText, shareText } from "../lib/share";
 import { backupToText } from "../lib/backup";
+import { currentFeedbackContext, feedbackEmail, feedbackMailto } from "../lib/feedback";
 import { exportBackup } from "../store/backup";
 import { confirm, notify } from "../lib/notify";
 import { useFoundStore } from "../store/useFoundStore";
@@ -110,6 +111,17 @@ export default function ProfileScreen() {
 
   const handleReset = () => {
     confirm("Reset progress", "Clear all your found marks? This cannot be undone.", clearAll, "Clear");
+  };
+
+  // Only builds with an address get the section. If the mail app will not
+  // open (no account set up, or a platform without one), show the address
+  // so the notes can still be sent by hand.
+  const email = feedbackEmail();
+  const handleFeedback = () => {
+    if (!email) return;
+    Linking.openURL(feedbackMailto(email, currentFeedbackContext())).catch(() =>
+      notify("Couldn't open your mail app", `Send your notes to ${email}.`)
+    );
   };
 
   return (
@@ -295,6 +307,25 @@ export default function ProfileScreen() {
               </Pressable>
             </View>
           </Section>
+
+          {email && (
+            <Section title="Feedback">
+              <View style={styles.aboutCard}>
+                <Text style={styles.communityBody}>
+                  Something confusing, wrong, or broken? Tell us. Confusing counts as much as broken.
+                </Text>
+                <Pressable
+                  onPress={handleFeedback}
+                  accessibilityRole="button"
+                  accessibilityLabel="Send feedback"
+                  style={({ pressed }) => [styles.suggestButton, pressed && styles.badgePressed]}
+                >
+                  <Ionicons name="mail-outline" size={20} color={t.colors.onInk} />
+                  <Text style={styles.suggestButtonText}>Send feedback</Text>
+                </Pressable>
+              </View>
+            </Section>
+          )}
 
           <Section title="About">
             <View style={styles.aboutCard}>
