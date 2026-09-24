@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { View, Text, StyleSheet, ScrollView, Platform, Alert, Pressable } from "react-native";
+import { View, Text, StyleSheet, FlatList, ListRenderItem, Platform, Alert, Pressable } from "react-native";
 import MapView, { Marker, Region, PROVIDER_GOOGLE } from "react-native-maps";
 import { useNavigation, useRoute, RouteProp } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
@@ -9,7 +9,7 @@ import { RootStackParamList } from "../navigation/types";
 import { getAllEntries, getEntryById, getParksSummary } from "../data/query";
 import { getDestination } from "../data/destinations";
 import { labelOrFallback } from "../data/labels";
-import { Coordinates } from "../data/types";
+import { Coordinates, HiddenMickeyEntry } from "../data/types";
 import { formatCoordinates } from "../lib/maps";
 import { distanceLabel, nearest, sortByDistance, unitsForRegion, WALKING_RANGE_METERS } from "../lib/geo";
 import { useFoundStore } from "../store/useFoundStore";
@@ -31,6 +31,10 @@ const FALLBACK_REGION: Region = {
 };
 
 type MapRouteProp = RouteProp<RootStackParamList, "Map">;
+
+type NearbyRow = { entry: HiddenMickeyEntry; trailingLabel: string };
+const nearbyKey = (row: NearbyRow) => row.entry.id;
+const entryKey = (entry: HiddenMickeyEntry) => entry.id;
 
 export default function MapScreen() {
   const navigation = useNavigation<NavigationProp>();
@@ -120,6 +124,27 @@ export default function MapScreen() {
   // Once we know where you are, the list under the map is closest first.
   const nearby = useMemo(() => (position ? sortByDistance(pinned, position) : undefined), [pinned, position]);
   const withinWalk = nearby ? nearby.filter((n) => n.meters <= WALKING_RANGE_METERS).length : 0;
+  // One flat list for the closest-first cards, with the unpinned entries at
+  // the end. The lists under the map are virtualized: with every park
+  // selected they would otherwise mount a card for every entry at once.
+  const nearbyRows = useMemo<NearbyRow[] | undefined>(() => {
+    if (!nearby) return undefined;
+    return [
+      ...nearby.map(({ item, meters }) => ({
+        entry: item,
+        trailingLabel: distanceLabel(meters, unitsForRegion(getDestination(item.parkId)?.region)),
+      })),
+      ...unpinned.map((entry) => ({ entry, trailingLabel: "No pin yet" })),
+    ];
+  }, [nearby, unpinned]);
+  const renderNearby = useCallback<ListRenderItem<NearbyRow>>(
+    ({ item }) => <EntryCard entry={item.entry} showLocation trailingLabel={item.trailingLabel} />,
+    []
+  );
+  const renderUnpinned = useCallback<ListRenderItem<HiddenMickeyEntry>>(
+    ({ item }) => <EntryCard entry={item} showLocation />,
+    []
+  );
   const [mapReady, setMapReady] = useState(false);
 
   const fitToPins = useCallback(() => {
@@ -204,7 +229,7 @@ export default function MapScreen() {
           </Pressable>
         </View>
       </View>
-      {nearby ? (
+      {nearbyRows ? (
         <>
           <View style={styles.listHeader}>
             <Text style={styles.listTitle}>Closest to you</Text>
@@ -212,19 +237,16 @@ export default function MapScreen() {
               {withinWalk === 0 ? "None within a walk" : `${withinWalk} within a walk`}
             </Text>
           </View>
-          <ScrollView style={styles.nearbyList} contentContainerStyle={styles.unpinnedContent} showsVerticalScrollIndicator={false}>
-            {nearby.map(({ item, meters }) => (
-              <EntryCard
-                key={item.id}
-                entry={item}
-                showLocation
-                trailingLabel={distanceLabel(meters, unitsForRegion(getDestination(item.parkId)?.region))}
-              />
-            ))}
-            {unpinned.map((entry) => (
-              <EntryCard key={entry.id} entry={entry} showLocation trailingLabel="No pin yet" />
-            ))}
-          </ScrollView>
+          <FlatList
+            data={nearbyRows}
+            keyExtractor={nearbyKey}
+            renderItem={renderNearby}
+            style={styles.nearbyList}
+            contentContainerStyle={styles.listContent}
+            showsVerticalScrollIndicator={false}
+            initialNumToRender={6}
+            windowSize={5}
+          />
         </>
       ) : (
         <>
@@ -232,11 +254,16 @@ export default function MapScreen() {
             {pinned.length} pinned{unpinned.length > 0 ? `, ${unpinned.length} without a location yet` : ""}. Tap a pin, then its label, for details. Tap the locate button to sort by distance. Long-press the map to copy a spot's coordinates.
           </Text>
           {unpinned.length > 0 && (
-            <ScrollView style={styles.unpinnedList} contentContainerStyle={styles.unpinnedContent} showsVerticalScrollIndicator={false}>
-              {unpinned.map((entry) => (
-                <EntryCard key={entry.id} entry={entry} showLocation />
-              ))}
-            </ScrollView>
+            <FlatList
+              data={unpinned}
+              keyExtractor={entryKey}
+              renderItem={renderUnpinned}
+              style={styles.unpinnedList}
+              contentContainerStyle={styles.listContent}
+              showsVerticalScrollIndicator={false}
+              initialNumToRender={6}
+              windowSize={5}
+            />
           )}
         </>
       )}
@@ -313,7 +340,7 @@ const createStyles = (t: Theme) =>
       ...text.meta,
       color: t.colors.textSecondary,
     },
-    unpinnedContent: {
+    listContent: {
       paddingHorizontal: spacing.lg,
       paddingBottom: spacing.md,
       gap: spacing.sm + 2,
