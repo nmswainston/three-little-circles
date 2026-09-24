@@ -5,9 +5,9 @@
   "attractionId": "storybook_castle",
   "display": {
     "entryTitle": "Fountain Crown Alignment",
-    "parkName": "Kingdom Park",
-    "landName": "Castle Courtyard Area",
-    "attractionName": "Storybook Castle"
+    "parkName": "Magic Kingdom",
+    "landName": "Fantasyland",
+    "attractionName": "Cinderella Castle"
   },
   "entryType": "FACT",
   "locationType": "Outdoor",

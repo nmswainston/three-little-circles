@@ -5,9 +5,9 @@
   "attractionId": "hunters_tavern",
   "display": {
     "entryTitle": "Statue Rock Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Storybook Forest Area",
-    "attractionName": "Hunter's Tavern"
+    "parkName": "Magic Kingdom",
+    "landName": "Fantasyland: Enchanted Forest",
+    "attractionName": "Gaston's Tavern"
   },
   "entryType": "FIND",
   "locationType": "Outdoor",
