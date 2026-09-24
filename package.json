@@ -72,10 +72,10 @@
     ],
     "testPathIgnorePatterns": [
       "/node_modules/",
-      "<rootDir>/.[^/]+/"
+      "<rootDir>/\\.[^/]+/"
     ],
     "modulePathIgnorePatterns": [
-      "<rootDir>/.[^/]+/"
+      "<rootDir>/\\.[^/]+/"
     ]
   }
 }
