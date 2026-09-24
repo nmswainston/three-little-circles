@@ -77,7 +77,9 @@ Review. Paste the review notes below when it asks.
   - User Content, Photos and Other User Content: the suggestion itself
     (park, land, attraction, title, where to look, difficulty, location
     type, and the attached photo), and a "Still there?" report (the entry
-    and a seen or missing answer).
+    and a seen or missing answer). A report is something the person chooses
+    to send, so it counts as content rather than Product Interaction, the
+    Usage Data type for taps and scrolling an app records on its own.
   - Identifiers: the random install id sent with each suggestion (Device
     ID), and the anonymous session id the server issues for "Still there?"
     reports (User ID).
