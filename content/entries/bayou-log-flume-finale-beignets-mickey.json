@@ -1,0 +1,35 @@
+{
+  "id": "bayou-log-flume-finale-beignets-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "bayou_log_flume",
+  "display": {
+    "entryTitle": "Finale Beignets Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Frontier Area",
+    "attractionName": "Bayou Log Flume"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the finale party, the food display includes a plate of beignets. Three are arranged as a classic Hidden Mickey, dusted with sugar.",
+  "whereToLook": {
+    "scene": "Party finale after the big drop",
+    "exactSpot": "The food display. Look at the plate of beignets."
+  },
+  "bestTip": "The finale is busy. Find the food table first, then the plate.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0053",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

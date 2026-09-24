@@ -1,0 +1,35 @@
+{
+  "id": "concert-hall-show-rotating-ring-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "concert_hall_show",
+  "display": {
+    "entryTitle": "Rotating Ring Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Concert Hall Show"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the undersea sequence, jewelry tumbles toward the audience on the right side of the screen. A tiny black classic Hidden Mickey sits inside one of the rotating rings and shows only when the ring turns to face you.",
+  "whereToLook": {
+    "scene": "Undersea song sequence with jewels and treasure floating past",
+    "exactSpot": "Right side of the screen. Watch the rings as they rotate; the shape is inside one of them."
+  },
+  "bestTip": "Sit right of center so the right edge of the screen is easy to watch, and keep your 3D glasses on.",
+  "viewing": {
+    "motion": "Fast",
+    "lighting": "Dim",
+    "angle": "Right",
+    "crowding": "High",
+    "distance": "Far"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0003",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "castle-restaurant-ballroom-ceiling-minnie",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "enchanted_castle_restaurant",
+  "display": {
+    "entryTitle": "Ballroom Ceiling Minnie",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Forest Area",
+    "attractionName": "Enchanted Castle Restaurant"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The painted clouds on the ballroom ceiling hide a profile of Minnie, bow and all. Once you see the bow the rest of the face falls into place.",
+  "whereToLook": {
+    "scene": "Ballroom dining room with the painted sky ceiling",
+    "exactSpot": "Front right portion of the ceiling, near the outer edge where the clouds thin out."
+  },
+  "bestTip": "Stand near the front right of the room and look for the bow first. The ceiling is high, so give your eyes a moment.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Far",
+    "notes": "You need a reservation or a walk-in table to be in the ballroom."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0004",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

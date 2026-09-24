@@ -1,0 +1,36 @@
+{
+  "id": "bayou-log-flume-bobcat-fur-spots-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "bayou_log_flume",
+  "display": {
+    "entryTitle": "Bobcat Fur Spots Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Frontier Area",
+    "attractionName": "Bayou Log Flume"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the mid-ride musical scene, a bobcat plays a wooden saxophone. The spots on his fur include a cluster that reads as a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Mid-ride musical scene",
+    "exactSpot": "The bobcat with the saxophone. Look at his fur pattern."
+  },
+  "bestTip": "Find the saxophone first, then read the spots.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0092",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-tiana-s-bayou-adventure-bobcat-hidden",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "galactic-blaster-zurg-scene-blue-star-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "galactic_blaster_ride",
+  "display": {
+    "entryTitle": "Zurg Scene Blue Star Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Future City Area",
+    "attractionName": "Galactic Blaster Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the battery room where the big villain waits, a tiny blue star high above his left shoulder is shaped like a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Battery scene with the villain",
+    "exactSpot": "High above his left shoulder, among the small stars."
+  },
+  "bestTip": "Look up and past him rather than at him.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Far"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0037",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

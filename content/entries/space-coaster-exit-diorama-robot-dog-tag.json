@@ -1,0 +1,35 @@
+{
+  "id": "space-coaster-exit-diorama-robot-dog-tag",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "space_coaster",
+  "display": {
+    "entryTitle": "Exit Diorama Robot Dog Tag",
+    "parkName": "Kingdom Park",
+    "landName": "Future City Area",
+    "attractionName": "Space Coaster"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "The moving walkway out of the coaster passes a series of dioramas. In the last one on the right, a robot dog wears a collar with a Mickey-shaped name tag.",
+  "whereToLook": {
+    "scene": "Dioramas along the exit moving walkway",
+    "exactSpot": "Last diorama on the right. Look at the robot dog's collar."
+  },
+  "bestTip": "Stand on the right side of the walkway so the last window is close.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Right",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0039",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

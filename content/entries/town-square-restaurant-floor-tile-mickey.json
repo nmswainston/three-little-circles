@@ -1,0 +1,36 @@
+{
+  "id": "town-square-restaurant-floor-tile-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "town_square_restaurant",
+  "display": {
+    "entryTitle": "Floor Tile Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Main Street Area",
+    "attractionName": "Town Square Restaurant"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Entrance",
+  "description": "Just inside the entrance of the Italian restaurant, a black floor tile near the bureau on the right carries a tiny three-circle imprint.",
+  "whereToLook": {
+    "scene": "Entrance area just inside the doors",
+    "exactSpot": "Black floor tile on the right, near the bureau."
+  },
+  "bestTip": "Look while you wait to be seated. Once you are at a table it is behind you.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "Reservation or walk-in seating needed to linger inside."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0058",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

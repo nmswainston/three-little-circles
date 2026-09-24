@@ -1,0 +1,35 @@
+{
+  "id": "haunted-manor-attic-hats-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "colonial_square_area",
+  "attractionId": "haunted_manor_ride",
+  "display": {
+    "entryTitle": "Attic Hats Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Colonial Square Area",
+    "attractionName": "Haunted Manor Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the attic, the bride's former husbands appear in portraits with their hats displayed nearby. Three of the hats are set together as a classic three-circle Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Attic scene with the bride and the portraits",
+    "exactSpot": "The hats near the portraits of the husbands."
+  },
+  "bestTip": "Look at the props between the portraits, not the portraits themselves.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0044",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

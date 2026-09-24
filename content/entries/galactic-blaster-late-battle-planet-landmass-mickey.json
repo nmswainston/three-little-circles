@@ -1,0 +1,36 @@
+{
+  "id": "galactic-blaster-late-battle-planet-landmass-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "galactic_blaster_ride",
+  "display": {
+    "entryTitle": "Late Battle Planet Landmass Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Future City Area",
+    "attractionName": "Galactic Blaster Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the space battle near the end of the ride, a planet drifts past with a continent shaped like a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Space battle sequence near the end",
+    "exactSpot": "The planets in the background. One has a landmass in the three-circle shape."
+  },
+  "bestTip": "Stop shooting for a second and look at the scenery behind the targets.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Far"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0072",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-buzz-lightyear-planet",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "presidents-hall-lobby-sword-tip-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "colonial_square_area",
+  "attractionId": "presidents_hall_show",
+  "display": {
+    "entryTitle": "Lobby Sword Tip Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Colonial Square Area",
+    "attractionName": "Presidents Hall Show"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "In the lobby painting to the right of the theater doors, the first president holds a sword. A tiny classic Hidden Mickey is painted at its tip.",
+  "whereToLook": {
+    "scene": "Painting to the right of the theater doors in the lobby",
+    "exactSpot": "The very tip of the sword."
+  },
+  "bestTip": "Get as close as the rope allows. It is small enough to need a good look.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0047",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

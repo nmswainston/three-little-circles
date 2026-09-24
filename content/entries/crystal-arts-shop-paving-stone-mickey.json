@@ -1,0 +1,35 @@
+{
+  "id": "crystal-arts-shop-paving-stone-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "crystal_arts_shop",
+  "display": {
+    "entryTitle": "Paving Stone Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Main Street Area",
+    "attractionName": "Crystal Arts Shop"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "Right outside the glass shop, a grey paving stone has a small classic Hidden Mickey pressed into one corner. Thousands of feet cross it every day.",
+  "whereToLook": {
+    "scene": "Pavement immediately outside the shop entrance",
+    "exactSpot": "The grey paving stone at the door. Look in its corner."
+  },
+  "bestTip": "Look down as you step out of the shop rather than as you go in.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0054",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

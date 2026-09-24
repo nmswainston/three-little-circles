@@ -1,0 +1,36 @@
+{
+  "id": "undersea-clamshell-exit-rockwork-steamboat-figure",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "undersea_clamshell_ride",
+  "display": {
+    "entryTitle": "Exit Rockwork Steamboat Figure",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Forest Area",
+    "attractionName": "Undersea Clamshell Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Exit",
+  "description": "Beside the pool outside the ride, several separate rocks line up from exactly one viewing spot into the full figure of the old black-and-white steamboat Mickey at his wheel. Move a step either way and it falls apart.",
+  "whereToLook": {
+    "scene": "Rockwork beside the pool near the exit",
+    "exactSpot": "Find the one spot on the path where the rocks stack into a figure with a round head and ears. It is a full body, not just three circles."
+  },
+  "bestTip": "Walk slowly along the pool railing and keep looking at the rock pile. When the figure clicks into place, stop.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "This is a full character figure, so it counts as a Hidden Mickey even though it is more than three circles."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0018",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "main-street-candy-shop-chocolate-wall-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "main_street_candy_shop",
+  "display": {
+    "entryTitle": "Chocolate Wall Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Main Street Area",
+    "attractionName": "Main Street Candy Shop"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "In the custom popcorn area of the candy shop, a wall decorated on a chocolate theme has a classic Hidden Mickey worked into its design.",
+  "whereToLook": {
+    "scene": "Custom popcorn corner of the shop",
+    "exactSpot": "The chocolate-themed wall. Look for three circles in the decoration."
+  },
+  "bestTip": "Go during a parade when the shop empties out.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0056",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

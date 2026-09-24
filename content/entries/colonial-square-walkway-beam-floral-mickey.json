@@ -1,0 +1,36 @@
+{
+  "id": "colonial-square-walkway-beam-floral-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "colonial_square_area",
+  "attractionId": "colonial_square_walkway",
+  "display": {
+    "entryTitle": "Overhead Beam Floral Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Colonial Square Area",
+    "attractionName": "Colonial Square Walkway"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "On the path from the mourning shop toward the tower restrooms, an overhead beam carries a blue-and-white floral ornament. A classic Hidden Mickey is reported within the pattern.",
+  "whereToLook": {
+    "scene": "Covered walkway from the shop toward the restrooms",
+    "exactSpot": "Look up at the beam overhead. The shape is in the painted floral ornament."
+  },
+  "bestTip": "Stop under the beam; walking past, it is just a blur of blue and white.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0078",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-floral-surprise-liberty-square",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

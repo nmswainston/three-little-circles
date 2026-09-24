@@ -1,0 +1,35 @@
+{
+  "id": "galactic-blaster-first-room-low-wall-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "galactic_blaster_ride",
+  "display": {
+    "entryTitle": "First Room Low Wall Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Future City Area",
+    "attractionName": "Galactic Blaster Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the first target room, a green Mickey head with blue ears is painted low on the wall. You have to spin the vehicle backward and to the right to see it, which is why so few people do.",
+  "whereToLook": {
+    "scene": "First target room after loading",
+    "exactSpot": "Low on the wall behind you and to the right. Rotate the vehicle to face it."
+  },
+  "bestTip": "Spin as soon as you enter the room. Aim later.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0036",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

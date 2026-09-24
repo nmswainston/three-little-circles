@@ -1,0 +1,35 @@
+{
+  "id": "rotating-theater-christmas-tree-mickey-plush",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "rotating_theater_show",
+  "display": {
+    "entryTitle": "Christmas Tree Mickey Plush",
+    "parkName": "Kingdom Park",
+    "landName": "Future City Area",
+    "attractionName": "Rotating Theater Show"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the final Christmas scene, a Mickey plush sits beneath the tree, partly hidden behind the wrapped presents. It keeps company with the nutcracker and the pepper grinder in the same room.",
+  "whereToLook": {
+    "scene": "Final Christmas scene",
+    "exactSpot": "Under the tree, tucked behind the presents on the floor."
+  },
+  "bestTip": "Look low before the scene's dialogue pulls your eyes to the family.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "Low",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0033",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "flying-carpets-spinner-camel-necklace-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "flying_carpets_spinner",
+  "display": {
+    "entryTitle": "Camel Necklace Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Jungle Outpost Area",
+    "attractionName": "Flying Carpets Spinner"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Outdoor Display",
+  "description": "The spitting camel statue outside the carpet ride wears a necklace, and the pendant on it carries a classic three-circle Hidden Mickey outline.",
+  "whereToLook": {
+    "scene": "Camel statue beside the carpet ride",
+    "exactSpot": "The jewelry around the camel's neck."
+  },
+  "bestTip": "Approach from the side that is not spitting.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0073",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-camel-necklace",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

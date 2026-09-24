@@ -1,0 +1,36 @@
+{
+  "id": "space-coaster-queue-star-constellation-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "space_coaster",
+  "display": {
+    "entryTitle": "Queue Star Constellation Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Future City Area",
+    "attractionName": "Space Coaster"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "The dark queue into the coaster is lined with star fields. Three stars on the wall panels are reported to form a Mickey constellation.",
+  "whereToLook": {
+    "scene": "Dark corridor of the standby queue with the star panels",
+    "exactSpot": "On the star illustrations along the wall. Look for three stars set as head and ears."
+  },
+  "bestTip": "Let your eyes adjust for a minute before you start hunting.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0087",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-space-mountain-queue-stars",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

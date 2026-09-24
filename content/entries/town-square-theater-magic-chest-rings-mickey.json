@@ -1,0 +1,36 @@
+{
+  "id": "town-square-theater-magic-chest-rings-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "town_square_theater",
+  "display": {
+    "entryTitle": "Magic Chest Rings Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Main Street Area",
+    "attractionName": "Town Square Theater"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "In the magician's greeting room, a magic chest holds a set of interlocking rings. Three of them are linked into a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Magician's dressing room where the greeting happens",
+    "exactSpot": "The interlocking rings on the magic chest."
+  },
+  "bestTip": "Look while you wait your turn; the props are all around the room.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0096",
+  "sourceUrl": "https://allears.net/2017/01/16/hidden-mickeys-in-the-magic-kingdom-and-disney-springs/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
