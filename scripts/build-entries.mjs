@@ -32,7 +32,8 @@ const ENUMS = {
   difficulty: ["Easy", "Medium", "Hard"],
   orientation: ["Upright", "Upside-down", "Sideways"],
   confidence: ["Obvious", "Strong", "Interpretive"],
-  verification: ["In-person", "Photo", "Community", "Unknown"],
+  verification: ["In-person", "Photo", "Community", "Documented", "Unknown"],
+  status: ["Current", "Unverified", "Seasonal", "Variable", "Removed"],
   areaContext: [
     "Entrance", "Queue", "Loading", "Ride", "Dock", "Post-show",
     "Exit", "Lobby", "Walkway", "Outdoor Display", "Shop",
@@ -42,9 +43,11 @@ const ENUMS = {
 const TOP_LEVEL_KEYS = new Set([
   "id", "parkId", "landId", "attractionId", "display", "entryType",
   "locationType", "difficulty", "areaContext", "description", "whereToLook",
-  "bestTip", "funFacts", "viewing", "confidence", "verification",
-  "coordinates", "createdAtISO", "updatedAtISO",
+  "bestTip", "funFacts", "viewing", "confidence", "verification", "verifiedAtISO",
+  "status", "accessNotes", "coordinates", "sourceId", "sourceUrl",
+  "createdAtISO", "updatedAtISO",
 ]);
+const SOURCE_ID_PATTERN = /^[A-Z]{2,5}-[A-Z]{2,4}-\d{4}$/;
 const DISPLAY_KEYS = new Set(["parkName", "landName", "attractionName", "entryTitle"]);
 const VIEWING_KEYS = new Set(["motion", "lighting", "angle", "crowding", "distance", "notes"]);
 const ID_PATTERN = /^[a-z0-9]+(-[a-z0-9]+)*$/;
@@ -99,6 +102,16 @@ function validateEntry(file, e) {
   checkEnum(file, "areaContext", e.areaContext, ENUMS.areaContext);
   checkEnum(file, "confidence", e.confidence, ENUMS.confidence);
   checkEnum(file, "verification", e.verification, ENUMS.verification);
+  checkEnum(file, "status", e.status, ENUMS.status);
+  checkOptionalString(file, "accessNotes", e.accessNotes);
+  checkOptionalString(file, "sourceId", e.sourceId);
+  if (isNonEmptyString(e.sourceId) && !SOURCE_ID_PATTERN.test(e.sourceId)) {
+    fail(file, `"sourceId" "${e.sourceId}" should look like TLC-MK-0001`);
+  }
+  checkOptionalString(file, "sourceUrl", e.sourceUrl);
+  if (isNonEmptyString(e.sourceUrl) && !/^https?:\/\/\S+$/.test(e.sourceUrl)) {
+    fail(file, `"sourceUrl" must be an http(s) URL`);
+  }
 
   if (typeof e.whereToLook !== "object" || e.whereToLook === null) {
     fail(file, `missing required object "whereToLook"`);
@@ -149,7 +162,7 @@ function validateEntry(file, e) {
     }
   }
 
-  for (const field of ["createdAtISO", "updatedAtISO"]) {
+  for (const field of ["createdAtISO", "updatedAtISO", "verifiedAtISO"]) {
     if (e[field] !== undefined && Number.isNaN(Date.parse(e[field]))) {
       fail(file, `"${field}" must be an ISO 8601 date string`);
     }
@@ -158,6 +171,7 @@ function validateEntry(file, e) {
 
 function checkConsistency(entries) {
   const seenIds = new Map();
+  const seenSourceIds = new Map();
   const parkNames = new Map();
   const landNames = new Map();
   const attractionNames = new Map();
@@ -175,6 +189,12 @@ function checkConsistency(entries) {
   for (const { file, entry: e } of entries) {
     if (seenIds.has(e.id)) fail(file, `duplicate id "${e.id}" (also in ${seenIds.get(e.id)})`);
     seenIds.set(e.id, file);
+    if (isNonEmptyString(e.sourceId)) {
+      if (seenSourceIds.has(e.sourceId)) {
+        fail(file, `duplicate sourceId "${e.sourceId}" (also in ${seenSourceIds.get(e.sourceId)})`);
+      }
+      seenSourceIds.set(e.sourceId, file);
+    }
     expectSame(parkNames, e.parkId, e.display?.parkName, file, "display.parkName");
     expectSame(landNames, `${e.parkId}/${e.landId}`, e.display?.landName, file, "display.landName");
     expectSame(

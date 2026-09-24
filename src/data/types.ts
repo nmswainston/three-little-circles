@@ -17,7 +17,19 @@ export type ViewingCondition = {
 
 export type Confidence = "Obvious" | "Strong" | "Interpretive";
 
-export type Verification = "In-person" | "Photo" | "Community" | "Unknown";
+/**
+ * How the sighting was confirmed. "Documented" means it appears in official
+ * material from the parks; "Community" is a report someone else published.
+ */
+export type Verification = "In-person" | "Photo" | "Community" | "Documented" | "Unknown";
+
+/**
+ * Whether the find is expected to be there today. "Unverified" is a desk
+ * researched report nobody has checked in person yet. "Seasonal" appears
+ * only at certain times, "Variable" depends on props that move, and
+ * "Removed" is kept for history but is gone from the park.
+ */
+export type EntryStatus = "Current" | "Unverified" | "Seasonal" | "Variable" | "Removed";
 
 export type AreaContext =
   | "Entrance"
@@ -72,10 +84,21 @@ export type HiddenMickeyEntry = {
   viewing?: ViewingCondition;
   confidence?: Confidence;
   verification?: Verification;
+  /** Date of the in-person or photo confirmation behind `verification`. */
+  verifiedAtISO?: string;
+  status?: EntryStatus;
   areaContext?: AreaContext;
+
+  /** Anything a guest needs before they can get to the spot, such as resort or dining access. */
+  accessNotes?: string;
 
   /** Where to drop a map pin. Entries without coordinates are listed but not pinned. */
   coordinates?: Coordinates;
+
+  /** Id of this find in the research spreadsheet, for example TLC-MK-0001. Unique across entries. */
+  sourceId?: string;
+  /** Primary evidence for the sighting. Kept for research, not shown to guests. */
+  sourceUrl?: string;
 
   createdAtISO?: string;
   updatedAtISO?: string;

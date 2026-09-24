@@ -69,9 +69,28 @@ What the importer does for you:
 | `funFacts` | no | array of strings |
 | `viewing` | no | `motion`, `lighting`, `angle`, `crowding`, `distance`, `notes` as free text |
 | `confidence` | no | `Obvious`, `Strong`, `Interpretive` |
-| `verification` | no | `In-person`, `Photo`, `Community`, `Unknown` |
+| `verification` | no | `In-person`, `Photo`, `Community`, `Documented` (appears in official park material), `Unknown` |
+| `verifiedAtISO` | no | ISO 8601 date of the in-person or photo confirmation |
+| `status` | no | `Current`, `Unverified` (desk researched, not yet checked in person), `Seasonal`, `Variable` (depends on props that move), `Removed` (kept for history, gone from the park). Shown as a chip on the detail screen except for `Current`. |
+| `accessNotes` | no | free text: what a guest needs to reach the spot, such as resort or dining access |
 | `coordinates` | no | `latitude` and `longitude` as decimal degrees. Entries without coordinates are listed on the map screen but not pinned. |
+| `sourceId` | no | the find's id in the research spreadsheet, for example `TLC-MK-0001`. Unique across entries; the reconcile script matches on it. |
+| `sourceUrl` | no | primary evidence URL. Kept for research, never shown to guests. |
 | `createdAtISO`, `updatedAtISO` | no | ISO 8601 timestamps |
+
+## Reconciling with the research spreadsheet
+
+The research spreadsheet is the register of candidate finds; entries here are
+the ones written up for the app. Each entry carries the spreadsheet's id in
+`sourceId`. After the spreadsheet changes, export its Master tab as CSV and run:
+
+```bash
+npm run content:reconcile -- path/to/master.csv
+```
+
+It lists spreadsheet rows with no entry yet (grouped by status), entries whose
+`sourceId` is no longer in the spreadsheet, and entries whose `status` disagrees
+with the spreadsheet. It changes nothing; act on the report by hand.
 
 ## Park facts
 

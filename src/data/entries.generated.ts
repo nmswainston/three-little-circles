@@ -526,8 +526,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3491,
       "longitude": -81.545
     },
+    "sourceId": "TLC-RS-0010",
+    "sourceUrl": "https://hiddenmickeyguy.com/817-2/",
+    "status": "Variable",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-16T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "art-of-animation-courtyard-lead",
@@ -669,8 +672,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3713,
       "longitude": -81.5517
     },
+    "sourceId": "TLC-EP-0001",
+    "status": "Unverified",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-canada-totem-pole",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "cartoon-railway-dance-room-flower-mickey",
@@ -744,8 +750,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3563,
       "longitude": -81.5604
     },
+    "sourceId": "TLC-HS-0047",
+    "status": "Unverified",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-hollywood-studios-mickey-minnies-runaway-railway-classic-hidden-mickey-and-chinese-hidden-mickey-on-chandelier/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "cartoon-railway-queue-light-scrollwork-mickeys",
@@ -783,8 +792,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3563,
       "longitude": -81.5604
     },
+    "sourceId": "TLC-HS-0003",
+    "status": "Unverified",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-mickey-minnie-s-runaway-railway",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "cartoon-railway-waterfall-clam-pearls-mickey",
@@ -858,8 +870,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4215,
       "longitude": -81.5809
     },
+    "sourceId": "TLC-MK-0005",
+    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "concert-hall-shop-music-stands-mickey",
@@ -971,8 +985,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4201,
       "longitude": -81.5815
     },
+    "sourceId": "TLC-MK-0001",
+    "status": "Unverified",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "conservation-outpost-leaf-wall-tiny-mickey",
@@ -1084,8 +1100,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4148,
       "longitude": -81.5746
     },
+    "sourceId": "TLC-RS-0001",
+    "status": "Current",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-contemporary-resort-hidden-mickey-on-monorail-beam/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "cosmic-coaster-city-model-domes-mickey",
@@ -1162,8 +1181,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3755,
       "longitude": -81.5469
     },
+    "sourceId": "TLC-EP-0041",
+    "status": "Unverified",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-epcot-guardians-of-the-galaxy-cosmic-rewind-standby-queue-city-display-hidden-mickey-in-water/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "cover-story-window-melrose-pattern-mickeys",
@@ -1313,8 +1335,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4186,
       "longitude": -81.5797
     },
+    "sourceId": "TLC-MK-0040",
+    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "entrance-gates-grillwork-mickeys",
@@ -1540,11 +1564,12 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4183,
       "longitude": -81.5836
     },
-    "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z",
     "funFacts": [
       "Cast Members like to call this the tiniest Hidden Mickey in all the parks."
-    ]
+    ],
+    "sourceId": "TLC-MK-0025",
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "flying-pirate-ship-cannonballs-mickey",
@@ -1696,8 +1721,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3699,
       "longitude": -81.5521
     },
+    "sourceId": "TLC-EP-0040",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-epcot-france-hidden-mickey-rope-on-ledge-near-bridge/",
+    "status": "Variable",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "france-film-wedding-party-mickey",
@@ -1806,8 +1834,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3684,
       "longitude": -81.5528
     },
+    "sourceId": "TLC-EP-0003",
+    "status": "Unverified",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-italy-pavillion-enoteca-castello-wine",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "galactic-blaster-planet-poster-mickey",
@@ -1847,8 +1878,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4185,
       "longitude": -81.5795
     },
+    "sourceId": "TLC-MK-0035",
+    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "geosphere-renaissance-painter-table-mickey",
@@ -1884,8 +1917,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3753,
       "longitude": -81.5494
     },
+    "sourceId": "TLC-EP-0032",
+    "status": "Unverified",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-paint-marks",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "germany-armor-crown-mickey",
@@ -1959,8 +1995,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3737,
       "longitude": -81.5527
     },
+    "sourceId": "TLC-EP-0028",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-soarin-fireworks",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "gliding-flight-hot-air-balloons-mickey",
@@ -2109,8 +2147,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3722,
       "longitude": -81.5601
     },
+    "sourceId": "TLC-RS-0003",
+    "status": "Unverified",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-coronado-springs-resort-gran-destino-tower-top-floor-hidden-mickey-above-elevator-doors/",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-16T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "grand-floridian-grand-lobby-lead",
@@ -2222,8 +2263,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3737,
       "longitude": -81.5527
     },
+    "sourceId": "TLC-EP-0021",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-lettuce",
+    "status": "Variable",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "greenhouse-boat-molded-produce-mickey",
@@ -2373,8 +2417,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3737,
       "longitude": -81.5527
     },
+    "sourceId": "TLC-EP-0018",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-hose",
+    "status": "Variable",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "greeting-hall-mural-flowers-mickey",
@@ -2411,8 +2458,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3737,
       "longitude": -81.5502
     },
+    "sourceId": "TLC-EP-0042",
+    "status": "Unverified",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-epcot-world-celebration-meet-mickey-friends-mural-flower-hidden-mickey/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "harambe-market-pillar-mickeys",
@@ -2484,8 +2534,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4201,
       "longitude": -81.583
     },
+    "sourceId": "TLC-MK-0041",
+    "status": "Variable",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "homecomin-entrance-wall-painting-mickey",
@@ -2522,8 +2574,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3712,
       "longitude": -81.5177
     },
+    "sourceId": "TLC-DS-0001",
+    "status": "Unverified",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disney-springs-chef-art-smiths-homecomin-restaurant-wall-painting-hidden-mickey-inside-entrance/",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-16T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "honey-pot-owl-house-deed-painting",
@@ -2561,8 +2616,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4201,
       "longitude": -81.5807
     },
+    "sourceId": "TLC-MK-0016",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "honey-pot-pink-flowers-room-mickey",
@@ -2673,8 +2729,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.36,
       "longitude": -81.5599
     },
+    "sourceId": "TLC-HS-0038",
+    "status": "Unverified",
+    "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "hotel-tower-lobby-coins-mickey",
@@ -2751,8 +2810,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.36,
       "longitude": -81.5599
     },
+    "sourceId": "TLC-HS-0014",
+    "status": "Unverified",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-twilight-zone-doll",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "ice-queen-boat-snowflakes-mickey",
@@ -2939,8 +3001,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4179,
       "longitude": -81.5835
     },
+    "sourceId": "TLC-MK-0023",
+    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "jungle-palace-first-arch-leaves-mickey",
@@ -3208,8 +3272,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4199,
       "longitude": -81.5831
     },
+    "sourceId": "TLC-MK-0046",
+    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "mexico-pyramid-boat-finale-barge-drums-mickey",
@@ -3244,8 +3310,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3708,
       "longitude": -81.5468
     },
+    "sourceId": "TLC-EP-0005",
+    "status": "Unverified",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-mexico-congo-drums",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "mexico-pyramid-boat-finale-window-mickey",
@@ -3396,8 +3465,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4206,
       "longitude": -81.5801
     },
+    "sourceId": "TLC-MK-0013",
+    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "morocco-bazaar-door-plates-mickey",
@@ -3435,8 +3506,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3676,
       "longitude": -81.5518
     },
+    "sourceId": "TLC-EP-0007",
+    "status": "Unverified",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-morocco-plates",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "mouse-house-player-piano-roll-mickeys",
@@ -3550,8 +3624,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4181,
       "longitude": -81.5843
     },
+    "sourceId": "TLC-MK-0028",
+    "status": "Unverified",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "polynesian-ceremonial-house-lead",
@@ -3626,8 +3702,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4053,
       "longitude": -81.5855
     },
+    "sourceId": "TLC-RS-0006",
+    "status": "Unverified",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-polynesian-village-resort-nail-hidden-mickey-on-post-near-kona-island-coffee-and-sushi-bar/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "polynesian-kona-cafe-flower-petal-mickeys",
@@ -3664,8 +3743,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4056,
       "longitude": -81.5854
     },
+    "sourceId": "TLC-RS-0007",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-polynesian-village-resort-kona-cafe-wall-purple-flower-hidden-mickeys/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "polynesian-kona-cafe-orange-mural-mickey",
@@ -3702,8 +3783,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4056,
       "longitude": -81.5854
     },
+    "sourceId": "TLC-RS-0009",
+    "status": "Unverified",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-polynesian-village-resort-kona-cafe-orange-mural-hidden-mickey/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "pop-century-courtyard-lead",
@@ -3816,8 +3900,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4137,
       "longitude": -81.535
     },
+    "sourceId": "TLC-RS-0005",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-port-orleans-riverside-resort-ol-man-island-muddy-rivers-pool-bar-hidden-mickey/",
+    "status": "Variable",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "river-rapids-dock-wheels-mickey",
@@ -3893,8 +3980,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3633,
       "longitude": -81.5459
     },
+    "sourceId": "TLC-RS-0004",
+    "status": "Unverified",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-riviera-resort-michael-darlings-teddy-bear-hidden-mickey/",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "rotating-theater-christmas-nutcracker-mickey",
@@ -3932,8 +4022,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4188,
       "longitude": -81.58
     },
+    "sourceId": "TLC-MK-0032",
+    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "rotating-theater-christmas-pepper-grinder-mickey",
@@ -3971,8 +4063,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4188,
       "longitude": -81.58
     },
+    "sourceId": "TLC-MK-0034",
+    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "savanna-safari-flamingo-island-mickey",
@@ -4007,8 +4101,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.36,
       "longitude": -81.5925
     },
+    "sourceId": "TLC-AK-0001",
+    "status": "Unverified",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-animal-kindgom-kilimanjaro-safari-ride",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "savanna-safari-queue-drain-cover-mickey",
@@ -4082,8 +4179,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4204,
       "longitude": -81.5827
     },
+    "sourceId": "TLC-MK-0010",
+    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "singing-dolls-finale-carousel-plush-mickey",
@@ -4157,8 +4256,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3592,
       "longitude": -81.5872
     },
+    "sourceId": "TLC-AK-0002",
+    "status": "Unverified",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-animal-kingdom-climbing-gear",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "snowy-mountain-queue-woodwork-mickey",
@@ -4435,8 +4537,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3578,
       "longitude": -81.5612
     },
+    "sourceId": "TLC-HS-0011",
+    "status": "Unverified",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-star-tours-r2d2",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "studios-plaza-layout-mickey-face",
@@ -4592,8 +4697,11 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4127,
       "longitude": -81.5668
     },
+    "sourceId": "TLC-RS-0002",
+    "status": "Current",
+    "sourceUrl": "https://hiddenmickeyguy.com/1047-2/",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-16T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "toy-story-release-date-box",
@@ -4779,8 +4887,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4219,
       "longitude": -81.5793
     },
+    "sourceId": "TLC-MK-0019",
+    "status": "Seasonal",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "undersea-clamshell-queue-rockwork-steamboat-mickey",
@@ -4853,8 +4963,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4219,
       "longitude": -81.5793
     },
+    "sourceId": "TLC-MK-0017",
+    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "usa-map-queue-wall-mickey",
@@ -5086,8 +5198,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.42,
       "longitude": -81.5856
     },
+    "sourceId": "TLC-MK-0049",
+    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "wilderness-lodge-lobby-and-grounds-lead",
