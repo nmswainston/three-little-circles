@@ -1,0 +1,36 @@
+{
+  "id": "conservation-hall-curving-mural-butterfly-body-mickey",
+  "parkId": "adventure_park",
+  "landId": "conservation_outpost_area",
+  "attractionId": "conservation_exhibit_hall",
+  "display": {
+    "entryTitle": "Curving Mural Butterfly Body Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Conservation Outpost Area",
+    "attractionName": "Conservation Exhibit Hall"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Entrance",
+  "description": "On the curving mural to the right, a butterfly's body conceals Mickey's face.",
+  "whereToLook": {
+    "scene": "Right-hand curving mural",
+    "exactSpot": "The butterfly. Look at its body between the wings, not the wing pattern."
+  },
+  "bestTip": "There are several butterflies. The one you want has a face where its thorax should be.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-AK-0018",
+  "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

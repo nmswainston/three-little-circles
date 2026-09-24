@@ -1,0 +1,36 @@
+{
+  "id": "savanna-safari-queue-driver-board-mickey",
+  "parkId": "adventure_park",
+  "landId": "savanna_village_area",
+  "attractionId": "savanna_safari_trucks",
+  "display": {
+    "entryTitle": "Queue Driver Board Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Savanna Village Area",
+    "attractionName": "Savanna Safari Trucks"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "The driver assignment board in the queue lists the safari drivers with a status marker beside each name. Ahmed's marker is a classic Hidden Mickey instead of a plain dot.",
+  "whereToLook": {
+    "scene": "Driver assignment board in the queue",
+    "exactSpot": "Find Ahmed's name on the board and look at the marker beside it."
+  },
+  "bestTip": "Read the board from top to bottom; the names are hand-lettered.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-AK-0012",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-kusafiri-coffee-shop-bakery",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

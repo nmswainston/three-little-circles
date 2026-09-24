@@ -1,0 +1,36 @@
+{
+  "id": "animal-mural-pizzeria-turtle-markings-mickey",
+  "parkId": "adventure_park",
+  "landId": "great_tree_area",
+  "attractionId": "animal_mural_pizzeria",
+  "display": {
+    "entryTitle": "Turtle Markings Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Great Tree Area",
+    "attractionName": "Animal Mural Pizzeria"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The pizzeria's dining rooms are wrapped in animal murals. On one wall, a turtle's shell markings include a reported classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Animal murals in the dining rooms",
+    "exactSpot": "The turtle. Look at the pattern on its shell."
+  },
+  "bestTip": "There are several dining rooms. Check each mural for the turtle before settling in.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-AK-0015",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-pizzafari-turtle",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
