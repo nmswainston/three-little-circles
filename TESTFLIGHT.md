@@ -74,8 +74,10 @@ Review. Paste the review notes below when it asks.
   functionality and none of it for tracking:
   - Contact Info, Name: only if the person types one and ticks the credit
     box on a suggestion.
-  - User Content, Photos and Other User Content: only when a suggestion is
-    sent.
+  - User Content, Photos and Other User Content: the suggestion itself
+    (park, land, attraction, title, where to look, difficulty, location
+    type, and the attached photo), and a "Still there?" report (the entry
+    and a seen or missing answer).
   - Identifiers: the random install id sent with each suggestion (Device
     ID), and the anonymous session id the server issues for "Still there?"
     reports (User ID).
