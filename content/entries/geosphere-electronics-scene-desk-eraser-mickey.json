@@ -1,0 +1,40 @@
+{
+  "id": "geosphere-electronics-scene-desk-eraser-mickey",
+  "parkId": "showcase_park",
+  "landId": "celebration_area",
+  "attractionId": "geosphere_time_ride",
+  "display": {
+    "entryTitle": "Electronics Scene Desk Eraser Mickey",
+    "parkName": "Showcase Park",
+    "landName": "Celebration Area",
+    "attractionName": "Geosphere Time Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the garage electronics scene, the desk is scattered with period clutter. An eraser on the desktop is reported to be shaped like a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Garage electronics scene",
+    "exactSpot": "The desktop. Look at the small items for an eraser in the three-circle shape."
+  },
+  "bestTip": "The vehicle turns slowly here. Watch the desk rather than the screen.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3753,
+    "longitude": -81.5494
+  },
+  "sourceId": "TLC-EP-0031",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-eraser",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
