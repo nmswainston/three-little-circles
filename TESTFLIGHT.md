@@ -96,10 +96,17 @@ This is an independent, unofficial fan-made guide. It is not affiliated with,
 endorsed by, or sponsored by The Walt Disney Company or any other theme park
 operator, and it does not represent itself as such. A disclaimer to that effect
 appears in the first-run intro, on the main Parks screen, and on the Profile
-screen. Park and attraction names appear only as factual references identifying
-real-world places a visitor is standing in. The app contains no logos,
-characters, artwork, audio, or other assets belonging to any park operator.
-Every written entry and every piece of artwork in the app is original.
+screen.
+
+The guide names real parks, lands, and attractions because naming them is the
+only way it can do its job. Someone holding this app is standing in a particular
+queue looking at a particular mural, and an invented or altered location name
+would make the directions useless. The names are used descriptively, to identify
+the real place being described, and never as branding or as a claim of
+association. The app ships no logos, wordmarks, characters, artwork, audio, or
+other assets belonging to any park operator. Names appear only as plain text set
+in the app's own typeface. Every written entry and every image in the app is
+original work.
 
 Privacy policy: https://nmswainston.github.io/three-little-circles/privacy.html
 
