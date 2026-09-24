@@ -1,0 +1,36 @@
+{
+  "id": "exposition-park-planters-overhead-mickey",
+  "parkId": "springs_bucket",
+  "landId": "west_side",
+  "attractionId": "exposition_park",
+  "display": {
+    "entryTitle": "Planters Overhead Mickey",
+    "parkName": "Disney Springs",
+    "landName": "West Side",
+    "attractionName": "Exposition Park"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Outdoor Display",
+  "description": "Seen from above, the planting beds in the park are laid out as a classic Hidden Mickey. At ground level it is just landscaping.",
+  "whereToLook": {
+    "scene": "Planting beds in the park",
+    "exactSpot": "Find a spot with height, such as the upper walkways or a bridge, and look down at the layout of the beds."
+  },
+  "bestTip": "This one is about vantage point. Go up before you look down.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-DS-0010",
+  "sourceUrl": "https://mickeyvisit.com/hidden-mickeys-at-disney-world/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
