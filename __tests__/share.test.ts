@@ -40,9 +40,9 @@ describe('entryShareText', () => {
 
 describe('parkShareText', () => {
   it('reads differently for nothing, some, and everything found', () => {
-    expect(parkShareText({ name: 'Studios Park', found: 0, total: 0 })).toBe(`Exploring Studios Park with ${APP_NAME}.`);
-    expect(parkShareText({ name: 'Studios Park', found: 2, total: 5 })).toBe(
-      `2 of 5 hidden details found in Studios Park. Tracked with ${APP_NAME}.`
+    expect(parkShareText({ name: "Disney's Hollywood Studios", found: 0, total: 0 })).toBe(`Exploring Disney's Hollywood Studios with ${APP_NAME}.`);
+    expect(parkShareText({ name: "Disney's Hollywood Studios", found: 2, total: 5 })).toBe(
+      `2 of 5 hidden details found in Disney's Hollywood Studios. Tracked with ${APP_NAME}.`
     );
     expect(parkShareText({ name: 'Springs', found: 1, total: 1 })).toBe(
       `Found all 1 hidden detail in Springs. Tracked with ${APP_NAME}.`
@@ -52,7 +52,7 @@ describe('parkShareText', () => {
 
 describe('progressShareText', () => {
   const parks = [
-    { name: 'Studios Park', found: 3, total: 5 },
+    { name: "Disney's Hollywood Studios", found: 3, total: 5 },
     { name: 'Resorts', found: 0, total: 5 },
     { name: 'Springs', found: 1, total: 1 },
   ];
@@ -61,7 +61,7 @@ describe('progressShareText', () => {
     const text = progressShareText(4, 12, parks, 3);
     const lines = text.split('\n');
     expect(lines[0]).toBe(`4 of 12 hidden details found so far. Tracked with ${APP_NAME}.`);
-    expect(lines[1]).toBe('Studios Park 3/5 · Springs 1/1');
+    expect(lines[1]).toBe("Disney's Hollywood Studios 3/5 · Springs 1/1");
     expect(lines[2]).toBe('3 badges earned.');
     expect(text).not.toContain('Resorts');
   });

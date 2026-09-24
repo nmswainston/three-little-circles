@@ -103,7 +103,7 @@ export const facts: ParkFact[] = [
     "id": "resorts-rooms-slid-in-like-drawers",
     "parkId": "resorts_bucket",
     "title": "Rooms slid in like drawers",
-    "body": "The A-frame resort beside the Kingdom Park was built by putting up the steel frame first, then sliding prefabricated hotel rooms into it like drawers into a dresser. Each room arrived finished, down to the plumbing and fixtures, and was lifted into place by crane. The plan was to pull rooms back out the same way for refurbishment. They settled into the frame and have never moved since.",
+    "body": "The A-frame resort beside the Magic Kingdom was built by putting up the steel frame first, then sliding prefabricated hotel rooms into it like drawers into a dresser. Each room arrived finished, down to the plumbing and fixtures, and was lifted into place by crane. The plan was to pull rooms back out the same way for refurbishment. They settled into the frame and have never moved since.",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },

@@ -1,21 +1,86 @@
 [
-  { "parkId": "magic_kingdom_park", "name": "Kingdom Park", "region": "Florida", "parkKey": "kingdom" },
-  { "parkId": "studios_park", "name": "Studios Park", "region": "Florida", "parkKey": "studios" },
-  { "parkId": "showcase_park", "name": "Showcase Park", "region": "Florida", "parkKey": "showcase" },
-  { "parkId": "adventure_park", "name": "Adventure Park", "region": "Florida", "parkKey": "adventure" },
-  { "parkId": "springs_bucket", "name": "Springs", "region": "Florida", "parkKey": "springs" },
-  { "parkId": "resorts_bucket", "name": "Resorts", "region": "Florida", "parkKey": "resorts" },
-
-  { "parkId": "california_kingdom_park", "name": "Kingdom Park", "region": "California", "parkKey": "kingdom" },
-  { "parkId": "california_pier_park", "name": "Pier Park", "region": "California", "parkKey": "adventure" },
-
-  { "parkId": "paris_kingdom_park", "name": "Kingdom Park", "region": "Paris", "parkKey": "kingdom" },
-  { "parkId": "paris_studios_park", "name": "Studios Park", "region": "Paris", "parkKey": "studios" },
-
-  { "parkId": "tokyo_kingdom_park", "name": "Kingdom Park", "region": "Tokyo", "parkKey": "kingdom" },
-  { "parkId": "tokyo_sea_park", "name": "Sea Park", "region": "Tokyo", "parkKey": "springs" },
-
-  { "parkId": "hong_kong_kingdom_park", "name": "Kingdom Park", "region": "Hong Kong", "parkKey": "kingdom" },
-
-  { "parkId": "shanghai_kingdom_park", "name": "Kingdom Park", "region": "Shanghai", "parkKey": "kingdom" }
+  {
+    "parkId": "magic_kingdom_park",
+    "name": "Magic Kingdom",
+    "region": "Florida",
+    "parkKey": "kingdom"
+  },
+  {
+    "parkId": "studios_park",
+    "name": "Disney's Hollywood Studios",
+    "region": "Florida",
+    "parkKey": "studios"
+  },
+  {
+    "parkId": "showcase_park",
+    "name": "EPCOT",
+    "region": "Florida",
+    "parkKey": "showcase"
+  },
+  {
+    "parkId": "adventure_park",
+    "name": "Disney's Animal Kingdom",
+    "region": "Florida",
+    "parkKey": "adventure"
+  },
+  {
+    "parkId": "springs_bucket",
+    "name": "Disney Springs",
+    "region": "Florida",
+    "parkKey": "springs"
+  },
+  {
+    "parkId": "resorts_bucket",
+    "name": "Walt Disney World Resorts",
+    "region": "Florida",
+    "parkKey": "resorts"
+  },
+  {
+    "parkId": "california_kingdom_park",
+    "name": "Disneyland Park",
+    "region": "California",
+    "parkKey": "kingdom"
+  },
+  {
+    "parkId": "california_pier_park",
+    "name": "Disney California Adventure",
+    "region": "California",
+    "parkKey": "adventure"
+  },
+  {
+    "parkId": "paris_kingdom_park",
+    "name": "Disneyland Park",
+    "region": "Paris",
+    "parkKey": "kingdom"
+  },
+  {
+    "parkId": "paris_studios_park",
+    "name": "Walt Disney Studios Park",
+    "region": "Paris",
+    "parkKey": "studios"
+  },
+  {
+    "parkId": "tokyo_kingdom_park",
+    "name": "Tokyo Disneyland",
+    "region": "Tokyo",
+    "parkKey": "kingdom"
+  },
+  {
+    "parkId": "tokyo_sea_park",
+    "name": "Tokyo DisneySea",
+    "region": "Tokyo",
+    "parkKey": "springs"
+  },
+  {
+    "parkId": "hong_kong_kingdom_park",
+    "name": "Hong Kong Disneyland",
+    "region": "Hong Kong",
+    "parkKey": "kingdom"
+  },
+  {
+    "parkId": "shanghai_kingdom_park",
+    "name": "Shanghai Disneyland",
+    "region": "Shanghai",
+    "parkKey": "kingdom"
+  }
 ]

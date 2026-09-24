@@ -5,9 +5,9 @@
   "attractionId": "magic_shop",
   "display": {
     "entryTitle": "Ceiling Ace Card Mickey",
-    "parkName": "Kingdom Park",
-    "landName": "Main Street Area",
-    "attractionName": "Magic Shop"
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Main Street Magic Shop"
   },
   "entryType": "FIND",
   "locationType": "Indoor",
