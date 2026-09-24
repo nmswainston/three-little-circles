@@ -1,8 +1,9 @@
 import React from "react";
-import { ScrollView, StyleSheet } from "react-native";
+import { StyleSheet } from "react-native";
 import { ParkSummary } from "../data/query";
 import { spacing } from "../theme/tokens";
 import Chip from "./ui/Chip";
+import FadingScrollRow from "./ui/FadingScrollRow";
 
 interface ParkPickerProps {
   parks: ParkSummary[];
@@ -19,12 +20,7 @@ export default function ParkPicker({ parks, selectedParkId, onSelect }: ParkPick
   ];
 
   return (
-    <ScrollView
-      horizontal
-      showsHorizontalScrollIndicator={false}
-      style={styles.scroll}
-      contentContainerStyle={styles.row}
-    >
+    <FadingScrollRow contentContainerStyle={styles.row}>
       {options.map((opt) => (
         <Chip
           key={opt.id ?? "all"}
@@ -33,17 +29,11 @@ export default function ParkPicker({ parks, selectedParkId, onSelect }: ParkPick
           onPress={() => onSelect(opt.id)}
         />
       ))}
-    </ScrollView>
+    </FadingScrollRow>
   );
 }
 
 const styles = StyleSheet.create({
-  // A horizontal ScrollView in a column will otherwise shrink to make room
-  // for a long sibling list, hiding the chips behind it.
-  scroll: {
-    flexGrow: 0,
-    flexShrink: 0,
-  },
   row: {
     paddingHorizontal: spacing.xl,
     paddingVertical: spacing.sm,

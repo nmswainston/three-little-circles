@@ -4,6 +4,8 @@ import Svg, { G, Polygon, Circle } from 'react-native-svg';
 import { useTheme } from '../../theme/ThemeProvider';
 
 const RAY_COUNT = 16;
+/** Stars stay in the side gutters (the headers' horizontal padding) so they never sit on text or buttons. */
+const GUTTER = 22;
 const RAYS = Array.from({ length: RAY_COUNT }, (_, i) => i * (360 / RAY_COUNT));
 
 interface SunburstProps {
@@ -41,16 +43,19 @@ export default function Sunburst({ color, opacity, center = { x: 195, y: -190 } 
         </G>
       </Svg>
       {t.dark && (
-        <Svg width={390} height={170} viewBox="0 0 390 170" style={{ position: 'absolute', left: 0, top: 0 }}>
-          <Circle cx="52" cy="38" r="2.5" fill={t.colors.primary} />
-          <Circle cx="318" cy="52" r="2" fill={t.parks.springs.accent} />
-          <Circle cx="236" cy="28" r="1.6" fill={t.colors.text} />
-          <Circle cx="356" cy="112" r="2.4" fill={t.parks.studios.accent} />
-          <Circle cx="150" cy="18" r="1.4" fill={t.colors.text} />
-          <Circle cx="290" cy="140" r="1.6" fill={t.colors.primary} />
-          <Circle cx="24" cy="120" r="1.6" fill={t.parks.kingdom.accent} />
-          <Circle cx="200" cy="96" r="1.2" fill={t.colors.text} />
-        </Svg>
+        <>
+          <Svg width={GUTTER} height={170} viewBox={`0 0 ${GUTTER} 170`} style={{ position: 'absolute', left: 0, top: 0 }}>
+            <Circle cx="10" cy="22" r="2.5" fill={t.colors.primary} />
+            <Circle cx="14" cy="78" r="1.4" fill={t.colors.text} />
+            <Circle cx="8" cy="134" r="1.6" fill={t.parks.kingdom.accent} />
+          </Svg>
+          <Svg width={GUTTER} height={170} viewBox={`0 0 ${GUTTER} 170`} style={{ position: 'absolute', right: 0, top: 0 }}>
+            <Circle cx="12" cy="12" r="1.6" fill={t.colors.text} />
+            <Circle cx="9" cy="62" r="2" fill={t.parks.springs.accent} />
+            <Circle cx="14" cy="112" r="2.4" fill={t.parks.studios.accent} />
+            <Circle cx="10" cy="156" r="1.6" fill={t.colors.primary} />
+          </Svg>
+        </>
       )}
     </View>
   );

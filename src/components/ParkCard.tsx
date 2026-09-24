@@ -46,7 +46,7 @@ export default function ParkCard({ name, parkKey, count, found, factCount = 0, o
         <Ionicons name={PARK_ICONS[parkKey] as IconName} size={20} color={palette.onAccent} />
       </View>
       <View style={styles.textColumn}>
-        <Text style={styles.name} numberOfLines={1}>
+        <Text style={styles.name} numberOfLines={2}>
           {name}
         </Text>
         <Text style={[styles.meta, comingSoon && styles.metaMuted]}>{meta}</Text>

@@ -35,6 +35,14 @@ type NavigationProp = CompositeNavigationProp<
 
 const VIEWING_FIELDS = ["motion", "lighting", "angle", "crowding", "distance"] as const;
 
+const VIEWING_ICONS: Record<(typeof VIEWING_FIELDS)[number], keyof typeof Ionicons.glyphMap> = {
+  motion: "speedometer-outline",
+  lighting: "sunny-outline",
+  angle: "scan-outline",
+  crowding: "people-outline",
+  distance: "locate-outline",
+};
+
 const VERIFICATION_LABEL: Record<NonNullable<HiddenMickeyEntry["verification"]>, string | null> = {
   "In-person": "Confirmed in person",
   Photo: "Confirmed by photo",
@@ -130,7 +138,7 @@ export default function EntryDetailScreen() {
 
   const viewing = VIEWING_FIELDS.flatMap((key) => {
     const value = entry.viewing?.[key];
-    return value ? [{ label: key, value }] : [];
+    return value ? [{ key, value }] : [];
   });
 
   const verifiedLabel = entry.verification ? VERIFICATION_LABEL[entry.verification] : null;
@@ -175,16 +183,11 @@ export default function EntryDetailScreen() {
               <OutlineChip label={entry.whereToLook.orientation} />
             )}
             {entry.entryType === "FACT" && <OutlineChip label="Hidden Surprise" />}
-            {statusLabel && <OutlineChip label={statusLabel} />}
+            {statusLabel && <StatusChip label={statusLabel} />}
           </View>
         </View>
 
         <View style={styles.body}>
-          <FoundButton found={found} onToggle={() => toggleFound(entryId)} />
-          <Text style={styles.helper}>
-            {found ? "Nice catch. This counts toward your progress." : "Mark it found to add it to your progress."}
-          </Text>
-
           {entry.coordinates && (
             <View style={styles.mapRow}>
               <Pressable
@@ -217,14 +220,7 @@ export default function EntryDetailScreen() {
             <ReferencePhoto source={imageSource} image={entry.image} hidden={spoilersHidden} />
           )}
 
-          {spoilersHidden ? (
-            <Text style={styles.hintNote}>
-              Hints are on. The full note appears after the last hint, or once you mark it found. Change this on the
-              Profile tab.
-            </Text>
-          ) : (
-            <Text style={styles.description}>{entry.description}</Text>
-          )}
+          {!spoilersHidden && <Text style={styles.description}>{entry.description}</Text>}
 
           <WhereToLook
             steps={steps}
@@ -233,7 +229,13 @@ export default function EntryDetailScreen() {
             onRevealAll={() => setRevealed(steps.length)}
             accent={palette.accent}
             onAccent={palette.onAccent}
+            note="The full note opens after the last hint. Hints can be turned off on Profile."
           />
+
+          <FoundButton found={found} onToggle={() => toggleFound(entryId)} />
+          <Text style={styles.helper}>
+            {found ? "Nice catch. This counts toward your progress." : "Spotted it? Mark it to add it to your progress."}
+          </Text>
 
           {entry.bestTip && !spoilersHidden && (
             <View style={styles.tip}>
@@ -263,9 +265,12 @@ export default function EntryDetailScreen() {
               {viewing.length > 0 && (
                 <View style={styles.grid}>
                   {viewing.map((item) => (
-                    <View key={item.label} style={styles.tile}>
-                      <Text style={styles.tileLabel}>{item.label}</Text>
-                      <Text style={styles.tileValue}>{item.value}</Text>
+                    <View key={item.key} style={styles.tile}>
+                      <Ionicons name={VIEWING_ICONS[item.key]} size={20} color={palette.text} />
+                      <View style={styles.tileText}>
+                        <Text style={styles.tileLabel}>{item.key}</Text>
+                        <Text style={styles.tileValue}>{item.value}</Text>
+                      </View>
                     </View>
                   ))}
                 </View>
@@ -312,6 +317,18 @@ function OutlineChip({ label }: { label: string }) {
   return (
     <View style={styles.outlineChip}>
       <Text style={styles.outlineChipText}>{label}</Text>
+    </View>
+  );
+}
+
+/** A caveat about the find itself (unconfirmed, seasonal, removed), styled apart from the plain facts. */
+function StatusChip({ label }: { label: string }) {
+  const t = useTheme();
+  const styles = useStyles(createStyles);
+  return (
+    <View style={[styles.outlineChip, styles.statusChip]}>
+      <Ionicons name="alert-circle-outline" size={14} color={t.colors.tipText} />
+      <Text style={[styles.outlineChipText, { color: t.colors.tipText }]}>{label}</Text>
     </View>
   );
 }
@@ -377,6 +394,14 @@ const createStyles = (t: Theme) =>
       alignItems: "center",
       justifyContent: "center",
     },
+    statusChip: {
+      flexDirection: "row",
+      gap: spacing.xs,
+      paddingLeft: spacing.sm,
+      borderStyle: "dashed",
+      borderColor: t.colors.tipText,
+      backgroundColor: t.colors.tip,
+    },
     outlineChipText: {
       ...text.meta,
       color: t.colors.text,
@@ -399,7 +424,6 @@ const createStyles = (t: Theme) =>
     mapRow: {
       flexDirection: "row",
       gap: spacing.sm + 2,
-      marginTop: -spacing.xs,
     },
     mapButton: {
       flex: 1,
@@ -445,10 +469,6 @@ const createStyles = (t: Theme) =>
     cardTitle: {
       ...text.sectionTitle,
       color: t.colors.text,
-    },
-    hintNote: {
-      ...text.bodySmall,
-      color: t.colors.textSecondary,
     },
     tip: {
       flexDirection: "row",
@@ -499,11 +519,17 @@ const createStyles = (t: Theme) =>
     tile: {
       width: "48%",
       flexGrow: 1,
-      gap: 2,
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.sm + 2,
       backgroundColor: t.colors.surfaceAlt,
       borderRadius: radii.sm,
       paddingVertical: spacing.sm + 2,
       paddingHorizontal: spacing.md - 4,
+    },
+    tileText: {
+      flex: 1,
+      gap: 2,
     },
     tileLabel: {
       ...text.labelCaps,
@@ -545,10 +571,7 @@ const createStyles = (t: Theme) =>
       paddingBottom: spacing.xs,
     },
     relatedHeader: {
-      flexDirection: "row",
-      alignItems: "baseline",
-      justifyContent: "space-between",
-      gap: spacing.sm,
+      gap: 2,
       paddingTop: spacing.md,
       paddingHorizontal: spacing.md - 2,
       paddingBottom: spacing.xs,
@@ -556,7 +579,6 @@ const createStyles = (t: Theme) =>
     relatedTitle: {
       ...text.sectionTitle,
       color: t.colors.text,
-      flexShrink: 1,
     },
     relatedMeta: {
       ...text.meta,
