@@ -88,6 +88,11 @@ describe('image validation in the content build', () => {
     expect(missing.status).toBe(1);
     expect(missing.stderr).toContain('is not in content/images/');
 
+    // A case-insensitive disk would let existsSync accept this; the listing check does not.
+    const wrongCase = build(withImage('sample-find.jpg'), { 'Sample-Find.jpg': JPEG });
+    expect(wrongCase.status).toBe(1);
+    expect(wrongCase.stderr).toContain('including letter case');
+
     const oversized = build(withImage('sample-find.jpg'), { 'sample-find.jpg': Buffer.alloc(300 * 1024 + 1, 1) });
     expect(oversized.status).toBe(1);
     expect(oversized.stderr).toContain('keep photos under 300 KB');

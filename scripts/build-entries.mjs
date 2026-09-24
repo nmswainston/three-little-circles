@@ -202,11 +202,15 @@ function validateImage(file, image) {
     fail(file, `"image.file" "${name}" must be a lowercase kebab-case name ending in .jpg, .jpeg, .png, or .webp`);
     return;
   }
-  const path = join(imagesDir, name);
-  if (!existsSync(path)) {
-    fail(file, `"image.file" "${name}" is not in content/images/`);
+  // Compare against the directory listing rather than existsSync: on a
+  // case-insensitive disk (the macOS default) existsSync would accept
+  // Pirates-Bells.jpg for pirates-bells.jpg, and the bundle would then fail
+  // on Linux, where Metro looks the name up exactly.
+  if (!imageFileNames().has(name)) {
+    fail(file, `"image.file" "${name}" is not in content/images/ (the name must match the file exactly, including letter case)`);
     return;
   }
+  const path = join(imagesDir, name);
   const bytes = statSync(path).size;
   if (bytes > IMAGE_MAX_BYTES) {
     const kb = Math.round(bytes / 1024);
@@ -332,11 +336,20 @@ function webpProblem(data) {
   return null;
 }
 
+let imageFileNamesCache;
+
+/** The exact file names in content/images/, read once. */
+function imageFileNames() {
+  if (imageFileNamesCache === undefined) {
+    imageFileNamesCache = new Set(existsSync(imagesDir) ? readdirSync(imagesDir) : []);
+  }
+  return imageFileNamesCache;
+}
+
 /** Image files nobody references. Reported, not failed, so a photo can land a commit before its entry. */
 function unusedImages(entries) {
-  if (!existsSync(imagesDir)) return [];
   const used = new Set(entries.map((e) => e.image?.file).filter(Boolean));
-  return readdirSync(imagesDir)
+  return [...imageFileNames()]
     .filter((f) => IMAGE_EXTENSIONS.has(extname(f)) && !used.has(f))
     .sort();
 }
