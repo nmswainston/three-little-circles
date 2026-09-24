@@ -1,0 +1,35 @@
+{
+  "id": "jungle-outpost-entrance-stone-seating-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "jungle_outpost_entrance",
+  "display": {
+    "entryTitle": "Stone Seating Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Jungle Outpost Area",
+    "attractionName": "Jungle Outpost Entrance"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "Just inside the entrance to the jungle area, near the bridge and the citrus-swirl stand, a stone bench has three holes in its back that form a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Stone seating near the bridge at the entrance to the jungle area",
+    "exactSpot": "The back of the stone bench. Look at the holes worn into the rock."
+  },
+  "bestTip": "Walk around to the back of the seating; you cannot see it while sitting on it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0020",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

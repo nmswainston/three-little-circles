@@ -1,0 +1,35 @@
+{
+  "id": "galactic-blaster-exit-mural-alien-spacecraft",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "galactic_blaster_ride",
+  "display": {
+    "entryTitle": "Exit Mural Alien Spacecraft",
+    "parkName": "Kingdom Park",
+    "landName": "Future City Area",
+    "attractionName": "Galactic Blaster Ride"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "The first mural on your right after unloading hides the little red spacecraft that a certain blue alien crash-landed in Hawaii. It sits in the corner of the artwork.",
+  "whereToLook": {
+    "scene": "Exit corridor murals",
+    "exactSpot": "First mural on the right. Check the corner."
+  },
+  "bestTip": "Slow down at the first mural instead of heading straight for the photo screens.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Right",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0038",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

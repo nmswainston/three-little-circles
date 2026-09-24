@@ -1,0 +1,35 @@
+{
+  "id": "haunted-manor-graveyard-shroud-folds-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "colonial_square_area",
+  "attractionId": "haunted_manor_ride",
+  "display": {
+    "entryTitle": "Graveyard Shroud Folds Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Colonial Square Area",
+    "attractionName": "Haunted Manor Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "Near the end of the graveyard, a hooded figure stands by a crypt. The folds of its shroud fall into a classic three-circle Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Graveyard scene, near the end",
+    "exactSpot": "The hooded figure's shroud. Look at the folds of the fabric."
+  },
+  "bestTip": "The car turns toward it. Watch the fabric, not the face.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0042",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

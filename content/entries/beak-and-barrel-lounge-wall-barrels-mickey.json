@@ -1,0 +1,37 @@
+{
+  "id": "beak-and-barrel-lounge-wall-barrels-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "pirate_port_area",
+  "attractionId": "beak_and_barrel_lounge",
+  "display": {
+    "entryTitle": "Wall Barrels Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Pirate Port Area",
+    "attractionName": "Beak and Barrel Lounge"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "Barrels are set into the wall near the bar of the pirate lounge. Three of them sit together as one large and two small, a classic Hidden Mickey in oak.",
+  "whereToLook": {
+    "scene": "Bar wall inside the lounge",
+    "exactSpot": "The barrels built into the wall near the bar."
+  },
+  "bestTip": "Take a seat at the bar and look at the wall behind it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "The lounge takes reservations and may require a dining or drink order."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0083",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-pirates-caribbean-s-beak-barrel",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

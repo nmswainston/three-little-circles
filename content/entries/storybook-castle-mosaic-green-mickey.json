@@ -1,0 +1,35 @@
+{
+  "id": "storybook-castle-mosaic-green-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "storybook_castle",
+  "display": {
+    "entryTitle": "Mosaic Green Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Castle Courtyard Area",
+    "attractionName": "Storybook Castle"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "The mosaic murals inside the castle breezeway tell the storybook tale in thousands of tiles. Down low on the left wall, three green tiles are set as a small classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Mosaic murals in the castle walkway",
+    "exactSpot": "Left-hand mosaic wall, low, well below eye level."
+  },
+  "bestTip": "Kids find this one first. Crouch to their height and scan the lower rows of tiles on the left.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0006",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

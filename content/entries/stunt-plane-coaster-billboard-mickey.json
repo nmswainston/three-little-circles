@@ -1,0 +1,36 @@
+{
+  "id": "stunt-plane-coaster-billboard-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "circus_grounds_area",
+  "attractionId": "stunt_plane_coaster",
+  "display": {
+    "entryTitle": "Billboard Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Circus Grounds Area",
+    "attractionName": "Stunt Plane Coaster"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "The billboard advertising the flying act outside the kids' coaster is packed with painted detail. A classic three-circle Hidden Mickey is worked into the illustration.",
+  "whereToLook": {
+    "scene": "Painted billboard for the flying act near the coaster entrance",
+    "exactSpot": "In the illustration on the billboard. Scan the painted details for three circles together."
+  },
+  "bestTip": "Read the whole poster like a comic page rather than looking for one spot.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0089",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-barnstormer",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

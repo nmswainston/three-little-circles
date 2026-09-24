@@ -1,0 +1,36 @@
+{
+  "id": "undersea-clamshell-kiss-scene-frog-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "undersea_clamshell_ride",
+  "display": {
+    "entryTitle": "Kiss Scene Frog Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Forest Area",
+    "attractionName": "Undersea Clamshell Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the romantic lagoon scene, frogs perch around the water. A classic three-circle pattern is reported on one of them.",
+  "whereToLook": {
+    "scene": "Lagoon scene with the singing frogs",
+    "exactSpot": "The frog detailing around the water. Look at each frog's back and legs for three spots together."
+  },
+  "bestTip": "The clamshell turns as you pass, so keep watching the frogs on both sides.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0091",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-little-mermaid-frog-hidden-mickeys",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

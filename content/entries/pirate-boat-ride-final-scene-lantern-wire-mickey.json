@@ -1,0 +1,35 @@
+{
+  "id": "pirate-boat-ride-final-scene-lantern-wire-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "pirate_port_area",
+  "attractionId": "pirate_boat_ride",
+  "display": {
+    "entryTitle": "Final Scene Lantern Wire Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Pirate Port Area",
+    "attractionName": "Pirate Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the final scene, a lantern post stands on the left close to the boat. A small wire loop beneath the lantern reads, for a moment, as a classic three-circle Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Final scene before the boat returns to the dock",
+    "exactSpot": "Lantern post nearest the boat on the left. Look just below the lantern at the wire."
+  },
+  "bestTip": "It is small and quick. Sit on the left and find the lantern before the boat reaches it.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Left",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0027",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

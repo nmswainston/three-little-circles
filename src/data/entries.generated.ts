@@ -601,6 +601,222 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
   },
   {
+    "id": "bayou-log-flume-bobcat-fur-spots-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "bayou_log_flume",
+    "display": {
+      "entryTitle": "Bobcat Fur Spots Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Frontier Area",
+      "attractionName": "Bayou Log Flume"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the mid-ride musical scene, a bobcat plays a wooden saxophone. The spots on his fur include a cluster that reads as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Mid-ride musical scene",
+      "exactSpot": "The bobcat with the saxophone. Look at his fur pattern."
+    },
+    "bestTip": "Find the saxophone first, then read the spots.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0092",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-tiana-s-bayou-adventure-bobcat-hidden",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "bayou-log-flume-bongo-frog-thigh-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "bayou_log_flume",
+    "display": {
+      "entryTitle": "Bongo Frog Thigh Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Frontier Area",
+      "attractionName": "Bayou Log Flume"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Inside the mountain, a green and yellow frog plays the bongos on the left side of the flume. Raised spots on his upper left thigh form an upside-down classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Musical scene inside the mountain",
+      "exactSpot": "The bongo frog on the left. Look at the spots on his upper left thigh.",
+      "orientation": "Upside-down"
+    },
+    "bestTip": "Sit on the left and look at the frog's leg, not his drums.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Left",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0051",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "bayou-log-flume-fence-gumbo-foam-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "bayou_log_flume",
+    "display": {
+      "entryTitle": "Fence Gumbo Foam Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Frontier Area",
+      "attractionName": "Bayou Log Flume"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Shortly after leaving the station, the log passes a tall brown fence on the left painted with gumbo imagery. In the white foam of the painted pot, a classic Hidden Mickey hides.",
+    "whereToLook": {
+      "scene": "Outdoor stretch just after departure",
+      "exactSpot": "Tall brown fence on the left. Look at the white foam in the gumbo painting."
+    },
+    "bestTip": "It comes early, before the first lift. Be looking left as soon as you are outside.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Left",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0052",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "bayou-log-flume-finale-beignets-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "bayou_log_flume",
+    "display": {
+      "entryTitle": "Finale Beignets Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Frontier Area",
+      "attractionName": "Bayou Log Flume"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the finale party, the food display includes a plate of beignets. Three are arranged as a classic Hidden Mickey, dusted with sugar.",
+    "whereToLook": {
+      "scene": "Party finale after the big drop",
+      "exactSpot": "The food display. Look at the plate of beignets."
+    },
+    "bestTip": "The finale is busy. Find the food table first, then the plate.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0053",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "beak-and-barrel-lounge-chalice-display",
+    "parkId": "magic_kingdom_park",
+    "landId": "pirate_port_area",
+    "attractionId": "beak_and_barrel_lounge",
+    "display": {
+      "entryTitle": "Chalice Display",
+      "parkName": "Kingdom Park",
+      "landName": "Pirate Port Area",
+      "attractionName": "Beak and Barrel Lounge"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "A display near the bar includes a chalice that recalls the silver cups from the pirate film about the fountain of youth. Drink from the right one and you get the years; drink from the wrong one and you lose them.",
+    "whereToLook": {
+      "scene": "Display case near the bar",
+      "exactSpot": "The ornate chalice among the props."
+    },
+    "bestTip": "Ask the bartender. They tend to know the story.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "The lounge takes reservations and may require a dining or drink order."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0084",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-pirates-caribbean-s-beak-barrel",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "beak-and-barrel-lounge-wall-barrels-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "pirate_port_area",
+    "attractionId": "beak_and_barrel_lounge",
+    "display": {
+      "entryTitle": "Wall Barrels Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Pirate Port Area",
+      "attractionName": "Beak and Barrel Lounge"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "Barrels are set into the wall near the bar of the pirate lounge. Three of them sit together as one large and two small, a classic Hidden Mickey in oak.",
+    "whereToLook": {
+      "scene": "Bar wall inside the lounge",
+      "exactSpot": "The barrels built into the wall near the bar."
+    },
+    "bestTip": "Take a seat at the bar and look at the wall behind it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "The lounge takes reservations and may require a dining or drink order."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0083",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-pirates-caribbean-s-beak-barrel",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "boardwalk-promenade-shopfront-lead",
     "parkId": "resorts_bucket",
     "landId": "boardwalk_resort",
@@ -837,6 +1053,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "castle-restaurant-ballroom-ceiling-minnie",
+    "parkId": "magic_kingdom_park",
+    "landId": "storybook_forest_area",
+    "attractionId": "enchanted_castle_restaurant",
+    "display": {
+      "entryTitle": "Ballroom Ceiling Minnie",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Forest Area",
+      "attractionName": "Enchanted Castle Restaurant"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The painted clouds on the ballroom ceiling hide a profile of Minnie, bow and all. Once you see the bow the rest of the face falls into place.",
+    "whereToLook": {
+      "scene": "Ballroom dining room with the painted sky ceiling",
+      "exactSpot": "Front right portion of the ceiling, near the outer edge where the clouds thin out."
+    },
+    "bestTip": "Stand near the front right of the room and look for the bow first. The ceiling is high, so give your eyes a moment.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far",
+      "notes": "You need a reservation or a walk-in table to be in the ballroom."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0004",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "castle-restaurant-bubbles-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "storybook_forest_area",
@@ -876,6 +1128,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "colonial-square-walkway-beam-floral-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "colonial_square_area",
+    "attractionId": "colonial_square_walkway",
+    "display": {
+      "entryTitle": "Overhead Beam Floral Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Colonial Square Area",
+      "attractionName": "Colonial Square Walkway"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "On the path from the mourning shop toward the tower restrooms, an overhead beam carries a blue-and-white floral ornament. A classic Hidden Mickey is reported within the pattern.",
+    "whereToLook": {
+      "scene": "Covered walkway from the shop toward the restrooms",
+      "exactSpot": "Look up at the beam overhead. The shape is in the painted floral ornament."
+    },
+    "bestTip": "Stop under the beam; walking past, it is just a blur of blue and white.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0078",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-floral-surprise-liberty-square",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "concert-hall-shop-music-stands-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "castle_courtyard_area",
@@ -913,6 +1201,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "concert-hall-show-city-buildings-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "concert_hall_show",
+    "display": {
+      "entryTitle": "City Buildings Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Concert Hall Show"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "During the magic carpet sequence, the city below sweeps past at the bottom left of the screen. For a moment three round rooftops line up into the classic three-circle shape before the camera moves on.",
+    "whereToLook": {
+      "scene": "Magic carpet flight over the city in the 3D show",
+      "exactSpot": "Bottom left of the screen, in the cluster of domed buildings as the carpet dives toward the city."
+    },
+    "bestTip": "Look down and left the instant the carpet ride begins. It is over before the moon appears in the upper right.",
+    "viewing": {
+      "motion": "Fast",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Far",
+      "notes": "Two Hidden Mickeys hide in this scene. This one comes first."
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0002",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "concert-hall-show-curtain-french-horn-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "castle_courtyard_area",
@@ -948,6 +1272,42 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "concert-hall-show-entrance-hall-music-pattern-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "concert_hall_show",
+    "display": {
+      "entryTitle": "Entrance Hall Music Pattern Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Concert Hall Show"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The entrance hall to the concert show is decorated with a repeating pattern of musical notes and instruments. A Mickey motif is worked into that pattern along the wall.",
+    "whereToLook": {
+      "scene": "Decorated entrance hall on the way into the theater",
+      "exactSpot": "The musical pattern running along the wall. Look for three circles set into the notes."
+    },
+    "bestTip": "The line moves steadily here, so pick one stretch of wall and read it as you walk.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0079",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-musical-hidden-mickeys",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "concert-hall-show-moon-craters-mickey",
@@ -989,6 +1349,41 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  },
+  {
+    "id": "concert-hall-show-rotating-ring-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "concert_hall_show",
+    "display": {
+      "entryTitle": "Rotating Ring Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Concert Hall Show"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the undersea sequence, jewelry tumbles toward the audience on the right side of the screen. A tiny black classic Hidden Mickey sits inside one of the rotating rings and shows only when the ring turns to face you.",
+    "whereToLook": {
+      "scene": "Undersea song sequence with jewels and treasure floating past",
+      "exactSpot": "Right side of the screen. Watch the rings as they rotate; the shape is inside one of them."
+    },
+    "bestTip": "Sit right of center so the right edge of the screen is easy to watch, and keep your 3D glasses on.",
+    "viewing": {
+      "motion": "Fast",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0003",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "conservation-outpost-leaf-wall-tiny-mickey",
@@ -1302,6 +1697,41 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
   },
   {
+    "id": "crystal-arts-shop-paving-stone-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "crystal_arts_shop",
+    "display": {
+      "entryTitle": "Paving Stone Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Main Street Area",
+      "attractionName": "Crystal Arts Shop"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Right outside the glass shop, a grey paving stone has a small classic Hidden Mickey pressed into one corner. Thousands of feet cross it every day.",
+    "whereToLook": {
+      "scene": "Pavement immediately outside the shop entrance",
+      "exactSpot": "The grey paving stone at the door. Look in its corner."
+    },
+    "bestTip": "Look down as you step out of the shop rather than as you go in.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0054",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "elevated-tram-belt-buckle-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "future_city_area",
@@ -1453,6 +1883,41 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "family-treehouse-trunk-profile-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "family_treehouse",
+    "display": {
+      "entryTitle": "Trunk Profile Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Jungle Outpost Area",
+      "attractionName": "Family Treehouse"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "The main trunk of the treehouse is textured with green, algae-like growth. In that texture, a side profile of Mickey is reported, separate from the three-circle shape in the moss elsewhere on the trunk.",
+    "whereToLook": {
+      "scene": "Main tree trunk along the climbing path",
+      "exactSpot": "The green surface texture on the main trunk. Look for a face in profile, not three circles."
+    },
+    "bestTip": "Pause on the lower stairs where you are level with the trunk and scan slowly.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0030",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "floating-mountains-approach-rock-holes-mickey",
     "parkId": "adventure_park",
     "landId": "floating_mountains_area",
@@ -1572,6 +2037,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "flying-carpets-spinner-camel-necklace-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "flying_carpets_spinner",
+    "display": {
+      "entryTitle": "Camel Necklace Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Jungle Outpost Area",
+      "attractionName": "Flying Carpets Spinner"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Outdoor Display",
+    "description": "The spitting camel statue outside the carpet ride wears a necklace, and the pendant on it carries a classic three-circle Hidden Mickey outline.",
+    "whereToLook": {
+      "scene": "Camel statue beside the carpet ride",
+      "exactSpot": "The jewelry around the camel's neck."
+    },
+    "bestTip": "Approach from the side that is not spitting.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0073",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-camel-necklace",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "flying-pirate-ship-cannonballs-mickey",
     "parkId": "california_kingdom_park",
     "landId": "storybook_village_area",
@@ -1610,6 +2111,41 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "flying-pirate-ship-mermaid-lagoon-flowers-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "flying_pirate_ship_ride",
+    "display": {
+      "entryTitle": "Mermaid Lagoon Flowers Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Flying Pirate Ship Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the mermaid lagoon scene, flowers grow along the rocky edge of the water. One yellow flower with two orange flowers above it forms a classic three-circle Hidden Mickey as your ship glides past.",
+    "whereToLook": {
+      "scene": "Mermaid lagoon scene",
+      "exactSpot": "Flowers along the rocky edge of the lagoon. Look for the yellow bloom with two orange blooms as ears."
+    },
+    "bestTip": "Look down and to the side as the lagoon comes into view rather than at the mermaids.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0011",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "flying-pirate-ship-queue-handrail-post-mickey",
     "parkId": "california_kingdom_park",
     "landId": "storybook_village_area",
@@ -1646,6 +2182,42 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "flying-pirate-ship-queue-tree-bark-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "flying_pirate_ship_ride",
+    "display": {
+      "entryTitle": "Queue Tree Bark Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Flying Pirate Ship Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "The queue for the flying ship winds past sculpted trees. A classic three-circle shape is reported in the bark texture of one of them.",
+    "whereToLook": {
+      "scene": "Sculpted trees along the standby queue",
+      "exactSpot": "In the bark detailing beside the queue rail. Look for three raised circles rather than a carved shape."
+    },
+    "bestTip": "Run your eyes along the bark at about waist height while the line is stopped.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0080",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-peter-pan-tree-hidden-mickeys",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "fortress-drop-tower-paint-trail-mickeys",
@@ -1841,6 +2413,112 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "galactic-blaster-exit-mural-alien-spacecraft",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "galactic_blaster_ride",
+    "display": {
+      "entryTitle": "Exit Mural Alien Spacecraft",
+      "parkName": "Kingdom Park",
+      "landName": "Future City Area",
+      "attractionName": "Galactic Blaster Ride"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "The first mural on your right after unloading hides the little red spacecraft that a certain blue alien crash-landed in Hawaii. It sits in the corner of the artwork.",
+    "whereToLook": {
+      "scene": "Exit corridor murals",
+      "exactSpot": "First mural on the right. Check the corner."
+    },
+    "bestTip": "Slow down at the first mural instead of heading straight for the photo screens.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Right",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0038",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "galactic-blaster-first-room-low-wall-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "galactic_blaster_ride",
+    "display": {
+      "entryTitle": "First Room Low Wall Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Future City Area",
+      "attractionName": "Galactic Blaster Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the first target room, a green Mickey head with blue ears is painted low on the wall. You have to spin the vehicle backward and to the right to see it, which is why so few people do.",
+    "whereToLook": {
+      "scene": "First target room after loading",
+      "exactSpot": "Low on the wall behind you and to the right. Rotate the vehicle to face it."
+    },
+    "bestTip": "Spin as soon as you enter the room. Aim later.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0036",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "galactic-blaster-late-battle-planet-landmass-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "galactic_blaster_ride",
+    "display": {
+      "entryTitle": "Late Battle Planet Landmass Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Future City Area",
+      "attractionName": "Galactic Blaster Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the space battle near the end of the ride, a planet drifts past with a continent shaped like a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Space battle sequence near the end",
+      "exactSpot": "The planets in the background. One has a landmass in the three-circle shape."
+    },
+    "bestTip": "Stop shooting for a second and look at the scenery behind the targets.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0072",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-buzz-lightyear-planet",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "galactic-blaster-planet-poster-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "future_city_area",
@@ -1882,6 +2560,41 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  },
+  {
+    "id": "galactic-blaster-zurg-scene-blue-star-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "galactic_blaster_ride",
+    "display": {
+      "entryTitle": "Zurg Scene Blue Star Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Future City Area",
+      "attractionName": "Galactic Blaster Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the battery room where the big villain waits, a tiny blue star high above his left shoulder is shaped like a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Battery scene with the villain",
+      "exactSpot": "High above his left shoulder, among the small stars."
+    },
+    "bestTip": "Look up and past him rather than at him.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0037",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "geosphere-renaissance-painter-table-mickey",
@@ -2501,6 +3214,76 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "harbour-house-restaurant-navigation-charts-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "colonial_square_area",
+    "attractionId": "harbour_house_restaurant",
+    "display": {
+      "entryTitle": "Navigation Charts Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Colonial Square Area",
+      "attractionName": "Harbour House Restaurant"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The colonial seafood restaurant is decorated with framed nautical artwork. In one frame, three circular charts are arranged as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Framed navigational artwork in the dining rooms",
+      "exactSpot": "The frame holding round charts. One large, two small."
+    },
+    "bestTip": "Take the stairs to the upstairs rooms; they are quieter and the walls are easier to read.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0048",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "haunted-manor-attic-hats-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "colonial_square_area",
+    "attractionId": "haunted_manor_ride",
+    "display": {
+      "entryTitle": "Attic Hats Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Colonial Square Area",
+      "attractionName": "Haunted Manor Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the attic, the bride's former husbands appear in portraits with their hats displayed nearby. Three of the hats are set together as a classic three-circle Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Attic scene with the bride and the portraits",
+      "exactSpot": "The hats near the portraits of the husbands."
+    },
+    "bestTip": "Look at the props between the portraits, not the portraits themselves.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0044",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "haunted-manor-banquet-table-plates-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "colonial_square_area",
@@ -2538,6 +3321,112 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Variable",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  },
+  {
+    "id": "haunted-manor-graveyard-shroud-folds-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "colonial_square_area",
+    "attractionId": "haunted_manor_ride",
+    "display": {
+      "entryTitle": "Graveyard Shroud Folds Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Colonial Square Area",
+      "attractionName": "Haunted Manor Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Near the end of the graveyard, a hooded figure stands by a crypt. The folds of its shroud fall into a classic three-circle Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Graveyard scene, near the end",
+      "exactSpot": "The hooded figure's shroud. Look at the folds of the fabric."
+    },
+    "bestTip": "The car turns toward it. Watch the fabric, not the face.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0042",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "haunted-manor-hearse-hoofprints-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "colonial_square_area",
+    "attractionId": "haunted_manor_ride",
+    "display": {
+      "entryTitle": "Hearse Hoofprints Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Colonial Square Area",
+      "attractionName": "Haunted Manor Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Outside the manor, a hearse waits with an invisible horse in the traces. On the ground nearby, the hoofprints are arranged into a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Hearse outside the manor entrance",
+      "exactSpot": "The ground in front of the hearse where the horse would stand."
+    },
+    "bestTip": "Look down at the prints, not at the harness.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0043",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "haunted-manor-queue-bathtub-memorial-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "colonial_square_area",
+    "attractionId": "haunted_manor_ride",
+    "display": {
+      "entryTitle": "Queue Bathtub Memorial Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Colonial Square Area",
+      "attractionName": "Haunted Manor Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The interactive cemetery in the queue includes a memorial shaped like a bathtub. A classic three-circle Hidden Mickey is reported in its detailing.",
+    "whereToLook": {
+      "scene": "Interactive cemetery on the left side of the entrance queue",
+      "exactSpot": "The bathtub-shaped memorial. Look at its carved details."
+    },
+    "bestTip": "Take the interactive queue path even if the standby line is short.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0075",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-haunted-mansion-bathtub-headstone",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "homecomin-entrance-wall-painting-mickey",
@@ -2696,6 +3585,41 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "honey-pot-ride-entrance-sign-profile-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "honey_pot_ride",
+    "display": {
+      "entryTitle": "Entrance Sign Profile Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Honey Pot Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The carved entrance sign for the honey pot ride works a Mickey profile into its design. It reads as decoration until you look for the nose and ears.",
+    "whereToLook": {
+      "scene": "Entrance sign and archway to the ride",
+      "exactSpot": "In the carved detail of the sign itself. Look for the side view of a face with round ears."
+    },
+    "bestTip": "Stand back a few steps. The profile is easier to read as a whole than up close.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0015",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "hotel-tower-lobby-balcony-mickeys",
     "parkId": "studios_park",
     "landId": "sunset_area",
@@ -2815,6 +3739,41 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-twilight-zone-doll",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  },
+  {
+    "id": "hunters-tavern-statue-rock-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "storybook_forest_area",
+    "attractionId": "hunters_tavern",
+    "display": {
+      "entryTitle": "Statue Rock Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Forest Area",
+      "attractionName": "Hunter's Tavern"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "Behind the bronze statue of the hunter and his sidekick, the rockwork carries three dark impressions in the classic shape. It is down low and behind the statue's left leg, so most people photograph the statue and walk on.",
+    "whereToLook": {
+      "scene": "Fountain statue in front of the tavern",
+      "exactSpot": "Walk around behind the statue and crouch. The impressions are in the rock below his left leg."
+    },
+    "bestTip": "Go early or late. The statue is a popular photo spot and the back of it clears out between groups.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0009",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "ice-queen-boat-snowflakes-mickey",
@@ -3005,6 +3964,147 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  },
+  {
+    "id": "jungle-boat-ride-entrance-sign-barnacles-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "jungle_boat_ride",
+    "display": {
+      "entryTitle": "Entrance Sign Barnacles Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Jungle Outpost Area",
+      "attractionName": "Jungle Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The big weathered entrance sign for the boat ride is crusted with barnacles. Below the first letter, three of them cluster into a classic three-circle Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Large entrance sign over the boat ride queue",
+      "exactSpot": "Directly below the letter J. Three barnacles set as head and ears."
+    },
+    "bestTip": "Stand under the sign and look straight up at the first letter.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0021",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "jungle-boat-ride-queue-map-circles-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "jungle_boat_ride",
+    "display": {
+      "entryTitle": "Queue Map Circles Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Jungle Outpost Area",
+      "attractionName": "Jungle Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "About halfway through the standby queue, a wall-mounted expedition map carries three dark circles that form a tilted classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Wall-mounted map roughly halfway through the standby queue",
+      "exactSpot": "Three dark circles on the map, tilted rather than upright.",
+      "orientation": "Sideways"
+    },
+    "bestTip": "The map is easy to walk past. When you reach the halfway mark, look for framed paper on the wall.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0022",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "jungle-boat-ride-temple-pillar-profile-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "jungle_boat_ride",
+    "display": {
+      "entryTitle": "Temple Pillar Profile Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Jungle Outpost Area",
+      "attractionName": "Jungle Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Near the end of the ruined temple, a damaged pillar on the left has a chunk of stone missing. The missing section is shaped like a Mickey profile.",
+    "whereToLook": {
+      "scene": "Ruined temple interior, near the exit",
+      "exactSpot": "Damaged pillar on the left side of the boat. The Mickey is the missing piece, not a carving."
+    },
+    "bestTip": "Sit on the left and watch the pillars as the boat approaches daylight.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Left",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0024",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "jungle-outpost-entrance-stone-seating-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "jungle_outpost_entrance",
+    "display": {
+      "entryTitle": "Stone Seating Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Jungle Outpost Area",
+      "attractionName": "Jungle Outpost Entrance"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Just inside the entrance to the jungle area, near the bridge and the citrus-swirl stand, a stone bench has three holes in its back that form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Stone seating near the bridge at the entrance to the jungle area",
+      "exactSpot": "The back of the stone bench. Look at the holes worn into the rock."
+    },
+    "bestTip": "Walk around to the back of the seating; you cannot see it while sitting on it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0020",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "jungle-palace-first-arch-leaves-mickey",
@@ -3199,6 +4299,41 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "main-street-candy-shop-chocolate-wall-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "main_street_candy_shop",
+    "display": {
+      "entryTitle": "Chocolate Wall Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Main Street Area",
+      "attractionName": "Main Street Candy Shop"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "In the custom popcorn area of the candy shop, a wall decorated on a chocolate theme has a classic Hidden Mickey worked into its design.",
+    "whereToLook": {
+      "scene": "Custom popcorn corner of the shop",
+      "exactSpot": "The chocolate-themed wall. Look for three circles in the decoration."
+    },
+    "bestTip": "Go during a parade when the shop empties out.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0056",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "main-street-vehicles-key-chain-mickeys",
@@ -3430,6 +4565,45 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
+    "id": "mine-train-lift-hill-rabbit-carving",
+    "parkId": "magic_kingdom_park",
+    "landId": "storybook_forest_area",
+    "attractionId": "mine_train_coaster",
+    "display": {
+      "entryTitle": "Lift Hill Rabbit Carving",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Forest Area",
+      "attractionName": "Mine Train Coaster"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "As the train climbs the first lift hill, a small carving of a lucky rabbit with long ears hides high on the left among the roof beams. He was Walt's cartoon star before the mouse, and he watches every train go up.",
+    "whereToLook": {
+      "scene": "First lift hill climb after leaving the mine",
+      "exactSpot": "High and to the left, in the wooden roof beams near the top of the climb."
+    },
+    "bestTip": "Look up and left the moment the train starts to climb. By the top it is behind you.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 28.4206,
+      "longitude": -81.58
+    },
+    "sourceId": "TLC-MK-0014",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "mine-train-loading-log-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "storybook_forest_area",
@@ -3469,6 +4643,45 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  },
+  {
+    "id": "mine-train-queue-gem-barrels-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "storybook_forest_area",
+    "attractionId": "mine_train_coaster",
+    "display": {
+      "entryTitle": "Gem Barrels Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Forest Area",
+      "attractionName": "Mine Train Coaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The indoor standby queue passes barrels heaped with jewels. Among the gems, some groups of three are set in the classic three-circle arrangement. There is more than one, so it rewards a slow line.",
+    "whereToLook": {
+      "scene": "Indoor standby queue with the interactive gem barrels",
+      "exactSpot": "The gemstones on top of the barrels. Look for one large gem with two smaller ones set as ears."
+    },
+    "bestTip": "Skip the interactive jewel sorting for a minute and scan the still gems around the edges of each barrel.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 28.4206,
+      "longitude": -81.58
+    },
+    "sourceId": "TLC-MK-0012",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "morocco-bazaar-door-plates-mickey",
@@ -3587,6 +4800,252 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "pirate-boat-ride-final-scene-lantern-wire-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "pirate_port_area",
+    "attractionId": "pirate_boat_ride",
+    "display": {
+      "entryTitle": "Final Scene Lantern Wire Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Pirate Port Area",
+      "attractionName": "Pirate Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the final scene, a lantern post stands on the left close to the boat. A small wire loop beneath the lantern reads, for a moment, as a classic three-circle Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Final scene before the boat returns to the dock",
+      "exactSpot": "Lantern post nearest the boat on the left. Look just below the lantern at the wire."
+    },
+    "bestTip": "It is small and quick. Sit on the left and find the lantern before the boat reaches it.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Left",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0027",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "pirate-boat-ride-jail-padlock-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "pirate_port_area",
+    "attractionId": "pirate_boat_ride",
+    "display": {
+      "entryTitle": "Jail Padlock Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Pirate Port Area",
+      "attractionName": "Pirate Boat Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the jail scene where prisoners coax a dog holding the keys, the padlock on the cell door is itself shaped like a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Jail scene with the prisoners and the dog",
+      "exactSpot": "The lock on the cell door."
+    },
+    "bestTip": "Everyone watches the dog. Look at the door instead.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0026",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "pirate-exit-shop-coin-display-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "pirate_port_area",
+    "attractionId": "pirate_exit_shop",
+    "display": {
+      "entryTitle": "Coin Display Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Pirate Port Area",
+      "attractionName": "Pirate Exit Shop"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "On the right as you enter the exit shop from the ride, a display of pirate coins includes three arranged as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Coin display on the right as you enter the shop from the ride",
+      "exactSpot": "Among the coins. One large coin with two smaller ones set as ears."
+    },
+    "bestTip": "Look before the crowd from your boat fills the shop.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0082",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-pirates-caribbean-coins",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "pirate-exit-shop-map-landmass-dog",
+    "parkId": "magic_kingdom_park",
+    "landId": "pirate_port_area",
+    "attractionId": "pirate_exit_shop",
+    "display": {
+      "entryTitle": "Pirate Map Landmass Dog",
+      "parkName": "Kingdom Park",
+      "landName": "Pirate Port Area",
+      "attractionName": "Pirate Exit Shop"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "The fourth character on the exit shop's pirate map is the loyal yellow dog, drawn as an island with a long nose and floppy ears.",
+    "whereToLook": {
+      "scene": "Small pirate map on the left wall of the exit shop",
+      "exactSpot": "An island shaped like a dog's head in profile."
+    },
+    "bestTip": "Four islands, four friends. Count them off.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0063",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "pirate-exit-shop-map-landmass-duck",
+    "parkId": "magic_kingdom_park",
+    "landId": "pirate_port_area",
+    "attractionId": "pirate_exit_shop",
+    "display": {
+      "entryTitle": "Pirate Map Landmass Duck",
+      "parkName": "Kingdom Park",
+      "landName": "Pirate Port Area",
+      "attractionName": "Pirate Exit Shop"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "On the same small pirate map in the exit shop, one landmass is shaped like the famous duck in the sailor suit. Find the Mickey island first and the others are nearby.",
+    "whereToLook": {
+      "scene": "Small pirate map on the left wall of the exit shop",
+      "exactSpot": "An island on the map drawn with a duck's bill and cap."
+    },
+    "bestTip": "Look for the bill. It is the giveaway.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0061",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "pirate-exit-shop-map-landmass-goof",
+    "parkId": "magic_kingdom_park",
+    "landId": "pirate_port_area",
+    "attractionId": "pirate_exit_shop",
+    "display": {
+      "entryTitle": "Pirate Map Landmass Goof",
+      "parkName": "Kingdom Park",
+      "landName": "Pirate Port Area",
+      "attractionName": "Pirate Exit Shop"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "Another landmass on the exit shop's pirate map is shaped like the tall, good-natured goof with the floppy ears and hat.",
+    "whereToLook": {
+      "scene": "Small pirate map on the left wall of the exit shop",
+      "exactSpot": "An island with a long snout and a tall hat outline."
+    },
+    "bestTip": "Start from the Mickey island and work outward.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0062",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "pirate-exit-shop-map-landmass-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "pirate_port_area",
+    "attractionId": "pirate_exit_shop",
+    "display": {
+      "entryTitle": "Pirate Map Landmass Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Pirate Port Area",
+      "attractionName": "Pirate Exit Shop"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "A small pirate map hangs on the left wall of the exit shop. One of its landmasses is drawn in the classic three-circle shape. Three more islands nearby are shaped like his friends.",
+    "whereToLook": {
+      "scene": "Small pirate map on the left wall of the exit shop",
+      "exactSpot": "One of the islands on the map. Look for a coastline with a round head and two round ears."
+    },
+    "bestTip": "Once you find the Mickey island, look for the duck, the dog, and the goof on the same map.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0029",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "pirates-exit-bells-mickey",
@@ -3907,6 +5366,41 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "presidents-hall-lobby-sword-tip-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "colonial_square_area",
+    "attractionId": "presidents_hall_show",
+    "display": {
+      "entryTitle": "Lobby Sword Tip Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Colonial Square Area",
+      "attractionName": "Presidents Hall Show"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "In the lobby painting to the right of the theater doors, the first president holds a sword. A tiny classic Hidden Mickey is painted at its tip.",
+    "whereToLook": {
+      "scene": "Painting to the right of the theater doors in the lobby",
+      "exactSpot": "The very tip of the sword."
+    },
+    "bestTip": "Get as close as the rope allows. It is small enough to need a good look.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0047",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "river-rapids-dock-wheels-mickey",
     "parkId": "adventure_park",
     "landId": "asia_village_area",
@@ -4069,6 +5563,41 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "rotating-theater-christmas-tree-mickey-plush",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "rotating_theater_show",
+    "display": {
+      "entryTitle": "Christmas Tree Mickey Plush",
+      "parkName": "Kingdom Park",
+      "landName": "Future City Area",
+      "attractionName": "Rotating Theater Show"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the final Christmas scene, a Mickey plush sits beneath the tree, partly hidden behind the wrapped presents. It keeps company with the nutcracker and the pepper grinder in the same room.",
+    "whereToLook": {
+      "scene": "Final Christmas scene",
+      "exactSpot": "Under the tree, tucked behind the presents on the floor."
+    },
+    "bestTip": "Look low before the scene's dialogue pulls your eyes to the family.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0033",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "savanna-safari-flamingo-island-mickey",
     "parkId": "adventure_park",
     "landId": "savanna_village_area",
@@ -4145,6 +5674,79 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "singing-birds-show-exit-perch-carving-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "singing_birds_show",
+    "display": {
+      "entryTitle": "Exit Perch Carving Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Jungle Outpost Area",
+      "attractionName": "Singing Birds Show"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "The perch base nearest the exit of the bird show carries a second carved upside-down classic Hidden Mickey, a match for the one by the entrance.",
+    "whereToLook": {
+      "scene": "Bird perches inside the theater",
+      "exactSpot": "Base of the perch nearest the exit doors. The circles are upside down.",
+      "orientation": "Upside-down"
+    },
+    "bestTip": "Catch it on the way out while everyone else is filing toward the doors.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0064",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "singing-birds-show-left-perch-carving-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "singing_birds_show",
+    "display": {
+      "entryTitle": "Left Perch Carving Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Jungle Outpost Area",
+      "attractionName": "Singing Birds Show"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The carved bases of the bird perches inside the theater are covered in tropical patterns. On the perch to your left as you enter, the carving contains an upside-down classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Bird perches inside the theater",
+      "exactSpot": "Base of the perch on the left as you enter. The three circles are upside down.",
+      "orientation": "Upside-down"
+    },
+    "bestTip": "Look while the seats are filling and the lights are still up.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "A second carved Mickey sits on the perch near the exit."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0031",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "singing-dolls-africa-purple-leaves-mickeys",
@@ -4300,6 +5902,77 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "space-coaster-exit-diorama-robot-dog-tag",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "space_coaster",
+    "display": {
+      "entryTitle": "Exit Diorama Robot Dog Tag",
+      "parkName": "Kingdom Park",
+      "landName": "Future City Area",
+      "attractionName": "Space Coaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "The moving walkway out of the coaster passes a series of dioramas. In the last one on the right, a robot dog wears a collar with a Mickey-shaped name tag.",
+    "whereToLook": {
+      "scene": "Dioramas along the exit moving walkway",
+      "exactSpot": "Last diorama on the right. Look at the robot dog's collar."
+    },
+    "bestTip": "Stand on the right side of the walkway so the last window is close.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0039",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "space-coaster-queue-star-constellation-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "space_coaster",
+    "display": {
+      "entryTitle": "Queue Star Constellation Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Future City Area",
+      "attractionName": "Space Coaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "The dark queue into the coaster is lined with star fields. Three stars on the wall panels are reported to form a Mickey constellation.",
+    "whereToLook": {
+      "scene": "Dark corridor of the standby queue with the star panels",
+      "exactSpot": "On the star illustrations along the wall. Look for three stars set as head and ears."
+    },
+    "bestTip": "Let your eyes adjust for a minute before you start hunting.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0087",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-space-mountain-queue-stars",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "space-mission-mars-landing-dishes-mickey",
@@ -4544,6 +6217,146 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "steam-train-station-ticket-office-padlock-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "steam_train_station",
+    "display": {
+      "entryTitle": "Ticket Office Padlock Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Main Street Area",
+      "attractionName": "Steam Train Station"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Upstairs in the Main Street train station, a mock ticket office is set-dressed with period props. On the wall to the right, a padlock is shaped like a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Upper level of the train station, mock ticket office",
+      "exactSpot": "Wall to the right of the ticket office window. The padlock."
+    },
+    "bestTip": "Climb up even if you are not riding the train. The upper level is open to look around.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0057",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "storybook-castle-fountain-crown-alignment",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "storybook_castle",
+    "display": {
+      "entryTitle": "Fountain Crown Alignment",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Storybook Castle"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Outdoor Display",
+    "description": "The fountain statue of the storybook heroine stands in front of a mural with a crown painted behind her. Crouch to a child's height and the crown sits perfectly on her head. It was designed so kids see her as a princess even before adults do.",
+    "whereToLook": {
+      "scene": "Fountain statue beside the castle",
+      "exactSpot": "Crouch until the painted crown on the wall behind lines up with the top of the statue's head."
+    },
+    "bestTip": "Get low. At adult height the crown floats above her; at about four feet it lands.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0007",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "storybook-castle-mosaic-green-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "storybook_castle",
+    "display": {
+      "entryTitle": "Mosaic Green Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Storybook Castle"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "The mosaic murals inside the castle breezeway tell the storybook tale in thousands of tiles. Down low on the left wall, three green tiles are set as a small classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Mosaic murals in the castle walkway",
+      "exactSpot": "Left-hand mosaic wall, low, well below eye level."
+    },
+    "bestTip": "Kids find this one first. Crouch to their height and scan the lower rows of tiles on the left.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0006",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "storybook-forest-walkway-horseshoe-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "storybook_forest_area",
+    "attractionId": "storybook_forest_walkway",
+    "display": {
+      "entryTitle": "Horseshoe Prints Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Forest Area",
+      "attractionName": "Storybook Forest Walkway"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "On the path between the hunter's tavern and the castle restaurant, horseshoe prints are pressed into the pavement. Four of them are arranged so that together they read as a classic three-circle Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Walkway between the tavern and the castle restaurant",
+      "exactSpot": "Near the short rock wall and the lamp post. Look down at the horseshoe impressions in the paving."
+    },
+    "bestTip": "Follow the hoofprints from the tavern side and stop at the lamp. The Mickey is the tight group of four.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0008",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "studios-plaza-layout-mickey-face",
     "parkId": "studios_park",
     "landId": "boulevard_area",
@@ -4582,6 +6395,42 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "stunt-plane-coaster-billboard-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "circus_grounds_area",
+    "attractionId": "stunt_plane_coaster",
+    "display": {
+      "entryTitle": "Billboard Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Circus Grounds Area",
+      "attractionName": "Stunt Plane Coaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The billboard advertising the flying act outside the kids' coaster is packed with painted detail. A classic three-circle Hidden Mickey is worked into the illustration.",
+    "whereToLook": {
+      "scene": "Painted billboard for the flying act near the coaster entrance",
+      "exactSpot": "In the illustration on the billboard. Scan the painted details for three circles together."
+    },
+    "bestTip": "Read the whole poster like a comic page rather than looking for one spot.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0089",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-barnstormer",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "sunset-walkway-sidewalk-contractor-stamp",
@@ -4702,6 +6551,185 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://hiddenmickeyguy.com/1047-2/",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  },
+  {
+    "id": "town-square-restaurant-floor-tile-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "town_square_restaurant",
+    "display": {
+      "entryTitle": "Floor Tile Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Main Street Area",
+      "attractionName": "Town Square Restaurant"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Entrance",
+    "description": "Just inside the entrance of the Italian restaurant, a black floor tile near the bureau on the right carries a tiny three-circle imprint.",
+    "whereToLook": {
+      "scene": "Entrance area just inside the doors",
+      "exactSpot": "Black floor tile on the right, near the bureau."
+    },
+    "bestTip": "Look while you wait to be seated. Once you are at a table it is behind you.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Reservation or walk-in seating needed to linger inside."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0058",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "town-square-restaurant-pavement-heart-pawprints",
+    "parkId": "magic_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "town_square_restaurant",
+    "display": {
+      "entryTitle": "Pavement Heart and Paw Prints",
+      "parkName": "Kingdom Park",
+      "landName": "Main Street Area",
+      "attractionName": "Town Square Restaurant"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "In the pavement in front of the restaurant, a heart is set alongside two sets of paw prints, a tribute to the spaghetti-sharing dogs the restaurant is themed after.",
+    "whereToLook": {
+      "scene": "Pavement in front of the restaurant",
+      "exactSpot": "Look down near the entrance for the heart with paw prints."
+    },
+    "bestTip": "It is at your feet as you read the menu board.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0059",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "town-square-theater-bulletin-board-rabbit-sketch",
+    "parkId": "magic_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "town_square_theater",
+    "display": {
+      "entryTitle": "Bulletin Board Rabbit Sketch",
+      "parkName": "Kingdom Park",
+      "landName": "Main Street Area",
+      "attractionName": "Town Square Theater"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "High on the bulletin board in the greeting room, a sketch of a lucky rabbit with long ears hides among the pinned papers. He was the star before the mouse.",
+    "whereToLook": {
+      "scene": "Bulletin board in the magician's dressing room",
+      "exactSpot": "High on the board, among the papers. Look for a rabbit sketch."
+    },
+    "bestTip": "Look up. The lower papers are the decoys.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0097",
+    "sourceUrl": "https://allears.net/2017/01/16/hidden-mickeys-in-the-magic-kingdom-and-disney-springs/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "town-square-theater-exit-card-clip-sorcerer-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "town_square_theater",
+    "display": {
+      "entryTitle": "Exit Card Clip Sorcerer Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Main Street Area",
+      "attractionName": "Town Square Theater"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "On the way out, a display of playing cards is held by clips. The center clip is cut in the outline of Mickey in his sorcerer's hat.",
+    "whereToLook": {
+      "scene": "Playing-card display near the exit",
+      "exactSpot": "The clip in the center of the display."
+    },
+    "bestTip": "Look at the hardware holding the cards, not the cards.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0098",
+    "sourceUrl": "https://allears.net/2017/01/16/hidden-mickeys-in-the-magic-kingdom-and-disney-springs/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "town-square-theater-magic-chest-rings-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "town_square_theater",
+    "display": {
+      "entryTitle": "Magic Chest Rings Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Main Street Area",
+      "attractionName": "Town Square Theater"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "In the magician's greeting room, a magic chest holds a set of interlocking rings. Three of them are linked into a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Magician's dressing room where the greeting happens",
+      "exactSpot": "The interlocking rings on the magic chest."
+    },
+    "bestTip": "Look while you wait your turn; the props are all around the room.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0096",
+    "sourceUrl": "https://allears.net/2017/01/16/hidden-mickeys-in-the-magic-kingdom-and-disney-springs/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "toy-story-release-date-box",
@@ -4851,6 +6879,78 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "undersea-clamshell-exit-rockwork-steamboat-figure",
+    "parkId": "magic_kingdom_park",
+    "landId": "storybook_forest_area",
+    "attractionId": "undersea_clamshell_ride",
+    "display": {
+      "entryTitle": "Exit Rockwork Steamboat Figure",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Forest Area",
+      "attractionName": "Undersea Clamshell Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Exit",
+    "description": "Beside the pool outside the ride, several separate rocks line up from exactly one viewing spot into the full figure of the old black-and-white steamboat Mickey at his wheel. Move a step either way and it falls apart.",
+    "whereToLook": {
+      "scene": "Rockwork beside the pool near the exit",
+      "exactSpot": "Find the one spot on the path where the rocks stack into a figure with a round head and ears. It is a full body, not just three circles."
+    },
+    "bestTip": "Walk slowly along the pool railing and keep looking at the rock pile. When the figure clicks into place, stop.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "This is a full character figure, so it counts as a Hidden Mickey even though it is more than three circles."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0018",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "undersea-clamshell-kiss-scene-frog-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "storybook_forest_area",
+    "attractionId": "undersea_clamshell_ride",
+    "display": {
+      "entryTitle": "Kiss Scene Frog Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Storybook Forest Area",
+      "attractionName": "Undersea Clamshell Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the romantic lagoon scene, frogs perch around the water. A classic three-circle pattern is reported on one of them.",
+    "whereToLook": {
+      "scene": "Lagoon scene with the singing frogs",
+      "exactSpot": "The frog detailing around the water. Look at each frog's back and legs for three spots together."
+    },
+    "bestTip": "The clamshell turns as you pass, so keep watching the frogs on both sides.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0091",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-little-mermaid-frog-hidden-mickeys",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "undersea-clamshell-queue-birthday-shadow-mickey",
@@ -5048,6 +7148,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-16T00:00:00.000Z"
   },
   {
+    "id": "village-haus-restaurant-mural-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "village_haus_restaurant",
+    "display": {
+      "entryTitle": "Dining Room Mural Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Castle Courtyard Area",
+      "attractionName": "Village Haus Restaurant"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "One of the painted murals in the puppet-themed dining rooms hides a small classic Hidden Mickey in its lower left corner. It blends into the scenery, which is the point.",
+    "whereToLook": {
+      "scene": "Painted murals in the dining rooms",
+      "exactSpot": "Lower left area of the mural. Look for three small circles tucked into the background."
+    },
+    "bestTip": "Check each dining room's mural in turn. The one you want has the shape low on the left.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0081",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-pinocchio-village-haus",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "water-journey-rock-wall-mickey",
     "parkId": "showcase_park",
     "landId": "nature_area",
@@ -5163,6 +7299,78 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "wild-west-mine-coaster-exit-fairy-likeness",
+    "parkId": "magic_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "wild_west_mine_coaster",
+    "display": {
+      "entryTitle": "Exit Fairy Likeness",
+      "parkName": "Kingdom Park",
+      "landName": "Frontier Area",
+      "attractionName": "Wild West Mine Coaster"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "Leaving the coaster, look left at the scenery beside the exit route. A likeness of the small pixie from the boy-who-never-grew-up story is reported hiding there.",
+    "whereToLook": {
+      "scene": "Scenery beside the exit path",
+      "exactSpot": "Left of the exit route. Look for a small winged figure among the props."
+    },
+    "bestTip": "Most people rush the exit. Let the group ahead go first.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Left",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0070",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-big-thunder-mountain-railroad-hidden-tinker",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "wild-west-mine-coaster-first-climb-cavern-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "wild_west_mine_coaster",
+    "display": {
+      "entryTitle": "First Climb Cavern Mickey",
+      "parkName": "Kingdom Park",
+      "landName": "Frontier Area",
+      "attractionName": "Wild West Mine Coaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Beside the first climb, the train passes through a cavern with dripping rockwork. A classic three-circle Hidden Mickey is reported in the scenery on the right.",
+    "whereToLook": {
+      "scene": "Cavern beside the first lift hill",
+      "exactSpot": "Right side of the train, in the rockwork and cave scenery."
+    },
+    "bestTip": "Ride on the right and look into the cavern rather than ahead.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-MK-0069",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-big-thunder-mountain-railroad",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "wild-west-mine-coaster-gears-mickey",

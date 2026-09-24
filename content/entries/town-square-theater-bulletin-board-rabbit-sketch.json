@@ -1,0 +1,36 @@
+{
+  "id": "town-square-theater-bulletin-board-rabbit-sketch",
+  "parkId": "magic_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "town_square_theater",
+  "display": {
+    "entryTitle": "Bulletin Board Rabbit Sketch",
+    "parkName": "Kingdom Park",
+    "landName": "Main Street Area",
+    "attractionName": "Town Square Theater"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "High on the bulletin board in the greeting room, a sketch of a lucky rabbit with long ears hides among the pinned papers. He was the star before the mouse.",
+  "whereToLook": {
+    "scene": "Bulletin board in the magician's dressing room",
+    "exactSpot": "High on the board, among the papers. Look for a rabbit sketch."
+  },
+  "bestTip": "Look up. The lower papers are the decoys.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0097",
+  "sourceUrl": "https://allears.net/2017/01/16/hidden-mickeys-in-the-magic-kingdom-and-disney-springs/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "town-square-theater-exit-card-clip-sorcerer-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "town_square_theater",
+  "display": {
+    "entryTitle": "Exit Card Clip Sorcerer Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Main Street Area",
+    "attractionName": "Town Square Theater"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "On the way out, a display of playing cards is held by clips. The center clip is cut in the outline of Mickey in his sorcerer's hat.",
+  "whereToLook": {
+    "scene": "Playing-card display near the exit",
+    "exactSpot": "The clip in the center of the display."
+  },
+  "bestTip": "Look at the hardware holding the cards, not the cards.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0098",
+  "sourceUrl": "https://allears.net/2017/01/16/hidden-mickeys-in-the-magic-kingdom-and-disney-springs/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

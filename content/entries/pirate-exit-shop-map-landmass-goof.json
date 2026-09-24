@@ -1,0 +1,35 @@
+{
+  "id": "pirate-exit-shop-map-landmass-goof",
+  "parkId": "magic_kingdom_park",
+  "landId": "pirate_port_area",
+  "attractionId": "pirate_exit_shop",
+  "display": {
+    "entryTitle": "Pirate Map Landmass Goof",
+    "parkName": "Kingdom Park",
+    "landName": "Pirate Port Area",
+    "attractionName": "Pirate Exit Shop"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "Another landmass on the exit shop's pirate map is shaped like the tall, good-natured goof with the floppy ears and hat.",
+  "whereToLook": {
+    "scene": "Small pirate map on the left wall of the exit shop",
+    "exactSpot": "An island with a long snout and a tall hat outline."
+  },
+  "bestTip": "Start from the Mickey island and work outward.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0062",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

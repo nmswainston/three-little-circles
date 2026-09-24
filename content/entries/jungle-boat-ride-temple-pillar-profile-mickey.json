@@ -1,0 +1,35 @@
+{
+  "id": "jungle-boat-ride-temple-pillar-profile-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "jungle_boat_ride",
+  "display": {
+    "entryTitle": "Temple Pillar Profile Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Jungle Outpost Area",
+    "attractionName": "Jungle Boat Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "Near the end of the ruined temple, a damaged pillar on the left has a chunk of stone missing. The missing section is shaped like a Mickey profile.",
+  "whereToLook": {
+    "scene": "Ruined temple interior, near the exit",
+    "exactSpot": "Damaged pillar on the left side of the boat. The Mickey is the missing piece, not a carving."
+  },
+  "bestTip": "Sit on the left and watch the pillars as the boat approaches daylight.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Left",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0024",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

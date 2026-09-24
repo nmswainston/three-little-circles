@@ -1,0 +1,35 @@
+{
+  "id": "steam-train-station-ticket-office-padlock-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "steam_train_station",
+  "display": {
+    "entryTitle": "Ticket Office Padlock Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Main Street Area",
+    "attractionName": "Steam Train Station"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "Upstairs in the Main Street train station, a mock ticket office is set-dressed with period props. On the wall to the right, a padlock is shaped like a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Upper level of the train station, mock ticket office",
+    "exactSpot": "Wall to the right of the ticket office window. The padlock."
+  },
+  "bestTip": "Climb up even if you are not riding the train. The upper level is open to look around.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0057",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

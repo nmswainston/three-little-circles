@@ -1,0 +1,35 @@
+{
+  "id": "harbour-house-restaurant-navigation-charts-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "colonial_square_area",
+  "attractionId": "harbour_house_restaurant",
+  "display": {
+    "entryTitle": "Navigation Charts Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Colonial Square Area",
+    "attractionName": "Harbour House Restaurant"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The colonial seafood restaurant is decorated with framed nautical artwork. In one frame, three circular charts are arranged as a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Framed navigational artwork in the dining rooms",
+    "exactSpot": "The frame holding round charts. One large, two small."
+  },
+  "bestTip": "Take the stairs to the upstairs rooms; they are quieter and the walls are easier to read.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0048",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "singing-birds-show-exit-perch-carving-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "singing_birds_show",
+  "display": {
+    "entryTitle": "Exit Perch Carving Mickey",
+    "parkName": "Kingdom Park",
+    "landName": "Jungle Outpost Area",
+    "attractionName": "Singing Birds Show"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "The perch base nearest the exit of the bird show carries a second carved upside-down classic Hidden Mickey, a match for the one by the entrance.",
+  "whereToLook": {
+    "scene": "Bird perches inside the theater",
+    "exactSpot": "Base of the perch nearest the exit doors. The circles are upside down.",
+    "orientation": "Upside-down"
+  },
+  "bestTip": "Catch it on the way out while everyone else is filing toward the doors.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-MK-0064",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

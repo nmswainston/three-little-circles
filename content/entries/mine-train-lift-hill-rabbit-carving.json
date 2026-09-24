@@ -1,0 +1,39 @@
+{
+  "id": "mine-train-lift-hill-rabbit-carving",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "mine_train_coaster",
+  "display": {
+    "entryTitle": "Lift Hill Rabbit Carving",
+    "parkName": "Kingdom Park",
+    "landName": "Storybook Forest Area",
+    "attractionName": "Mine Train Coaster"
+  },
+  "entryType": "FACT",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "As the train climbs the first lift hill, a small carving of a lucky rabbit with long ears hides high on the left among the roof beams. He was Walt's cartoon star before the mouse, and he watches every train go up.",
+  "whereToLook": {
+    "scene": "First lift hill climb after leaving the mine",
+    "exactSpot": "High and to the left, in the wooden roof beams near the top of the climb."
+  },
+  "bestTip": "Look up and left the moment the train starts to climb. By the top it is behind you.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.4206,
+    "longitude": -81.58
+  },
+  "sourceId": "TLC-MK-0014",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
