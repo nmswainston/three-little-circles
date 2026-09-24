@@ -1,0 +1,36 @@
+{
+  "id": "jungle-palace-bridge-wall-hidden-name",
+  "parkId": "adventure_park",
+  "landId": "asia_village_area",
+  "attractionId": "jungle_palace_trail",
+  "display": {
+    "entryTitle": "Bridge Wall Hidden Name",
+    "parkName": "Adventure Park",
+    "landName": "Asia Village Area",
+    "attractionName": "Jungle Palace Trail"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "Just past the short bridge hung with prayer flags, the wall on the left hides the lead designer's first name in its texture.",
+  "whereToLook": {
+    "scene": "Wall on the left past the short flagged bridge",
+    "exactSpot": "In the plaster and stone of the wall. Look for three letters."
+  },
+  "bestTip": "Look right after the bridge, before the trail turns.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-AK-0035",
+  "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-maharajah-jungle-trek-three-hidden-joes/",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}

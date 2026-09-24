@@ -527,6 +527,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
+    "id": "animal-mural-pizzeria-turtle-markings-mickey",
+    "parkId": "adventure_park",
+    "landId": "great_tree_area",
+    "attractionId": "animal_mural_pizzeria",
+    "display": {
+      "entryTitle": "Turtle Markings Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Great Tree Area",
+      "attractionName": "Animal Mural Pizzeria"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The pizzeria's dining rooms are wrapped in animal murals. On one wall, a turtle's shell markings include a reported classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Animal murals in the dining rooms",
+      "exactSpot": "The turtle. Look at the pattern on its shell."
+    },
+    "bestTip": "There are several dining rooms. Check each mural for the turtle before settling in.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0015",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-pizzafari-turtle",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "animation-gallery-lost-and-found-donkey-tail",
     "parkId": "studios_park",
     "landId": "animation_courtyard_area",
@@ -1994,6 +2030,295 @@ export const entries: HiddenMickeyEntry[] = [
     "verification": "Community",
     "status": "Unverified",
     "sourceId": "TLC-MK-0003",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-hall-curving-mural-butterfly-body-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Curving Mural Butterfly Body Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Conservation Outpost Area",
+      "attractionName": "Conservation Exhibit Hall"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Entrance",
+    "description": "On the curving mural to the right, a butterfly's body conceals Mickey's face.",
+    "whereToLook": {
+      "scene": "Right-hand curving mural",
+      "exactSpot": "The butterfly. Look at its body between the wings, not the wing pattern."
+    },
+    "bestTip": "There are several butterflies. The one you want has a face where its thorax should be.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0018",
+    "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-hall-entrance-mural-butterfly-wing-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Entrance Mural Butterfly Wing Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Conservation Outpost Area",
+      "attractionName": "Conservation Exhibit Hall"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "In the upper right of the entrance mural, a butterfly's wing markings form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Entrance mural, upper right",
+      "exactSpot": "The butterfly high on the right. Look at the spots on its wings."
+    },
+    "bestTip": "Start from the top right corner and work down until you hit the butterfly.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0026",
+    "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-hall-entrance-mural-opossum-eye-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Entrance Mural Opossum Eye Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Conservation Outpost Area",
+      "attractionName": "Conservation Exhibit Hall"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Entrance",
+    "description": "The entrance mural is famous for hiding many Mickeys in its animals. On the right side, a Mickey profile hides in the pupil of the opossum's eye.",
+    "whereToLook": {
+      "scene": "Entrance mural, right side",
+      "exactSpot": "Find the opossum and look into its eye. The profile is in the pupil."
+    },
+    "bestTip": "Get close. The pupils are small and the profile is smaller.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "This mural hides more than a dozen Mickeys. Each entry here is one of them."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0017",
+    "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-hall-lizard-tree-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Lizard Tree Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Conservation Outpost Area",
+      "attractionName": "Conservation Exhibit Hall"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "On the tree to the right of the willow, a lizard sits above the cockroach sign. A classic Hidden Mickey sits just above the lizard's front leg.",
+    "whereToLook": {
+      "scene": "Tree to the right of the willow",
+      "exactSpot": "Find the cockroach sign, then the lizard above it, then look just above the lizard's front leg."
+    },
+    "bestTip": "Follow the chain: sign, lizard, leg. Each one points to the next.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0022",
+    "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-hall-low-mural-frog-pupil-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Low Mural Frog Pupil Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Conservation Outpost Area",
+      "attractionName": "Conservation Exhibit Hall"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "On the low mural before the theater, a silver frog looks out at you. A Mickey profile fills its left pupil.",
+    "whereToLook": {
+      "scene": "Low mural just before the theater",
+      "exactSpot": "The silver frog. Look into its left eye."
+    },
+    "bestTip": "Crouch. The mural is low and the frog is near the floor.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0019",
+    "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-hall-rainforest-panel-leaf-hole-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Rainforest Panel Leaf Hole Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Conservation Outpost Area",
+      "attractionName": "Conservation Exhibit Hall"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "On the right panel at the rainforest entrance, a hole in a green leaf is cut in the outline of a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Right panel at the entrance to the rainforest exhibit",
+      "exactSpot": "A green leaf on the panel. The Mickey is a hole in the leaf, not a marking on it."
+    },
+    "bestTip": "Look for daylight or wall color showing through the leaf.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0027",
+    "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-hall-rainforest-tree-shadow-profile-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Rainforest Tree Shadow Profile Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Conservation Outpost Area",
+      "attractionName": "Conservation Exhibit Hall"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "In the rainforest exhibit, the front of the tree carries a painted shadow about seven feet up that resembles Mickey's profile.",
+    "whereToLook": {
+      "scene": "Rainforest tree in the exhibit",
+      "exactSpot": "Front of the tree, roughly seven feet up. Look at the shadows painted on the bark."
+    },
+    "bestTip": "Stand back from the tree; the profile needs a little distance.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0020",
+    "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-hall-willow-tree-indentation-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Willow Tree Indentation Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Conservation Outpost Area",
+      "attractionName": "Conservation Exhibit Hall"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The talking willow tree from the story of the Powhatan princess stands in the exhibit. Below her sign and to the right of her face, an indentation in the bark is shaped like a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Grandmother willow tree in the exhibit",
+      "exactSpot": "Below the sign, to the right of the face. Look for a three-circle dent in the bark."
+    },
+    "bestTip": "Look at the trunk, not the face.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0021",
+    "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
@@ -3556,6 +3881,42 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "glowing-river-shaman-garment-pattern-mickey",
+    "parkId": "adventure_park",
+    "landId": "floating_mountains_area",
+    "attractionId": "glowing_river_boats",
+    "display": {
+      "entryTitle": "Shaman Garment Pattern Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Floating Mountains Area",
+      "attractionName": "Glowing River Boats"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "The singing shaman at the end of the boat ride wears an elaborately patterned garment. A classic three-circle shape is reported in that pattern, separate from the Mickeys reported in her cloak.",
+    "whereToLook": {
+      "scene": "Shaman scene at the end of the ride",
+      "exactSpot": "The pattern of the shaman's garment. Look at the woven design across her body."
+    },
+    "bestTip": "The boat lingers here. Look at the fabric rather than her face.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0014",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-na-vi-river-journey",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "gran-destino-elevator-wall-mickey",
@@ -5307,6 +5668,114 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "jungle-palace-bridge-wall-hidden-name",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "jungle_palace_trail",
+    "display": {
+      "entryTitle": "Bridge Wall Hidden Name",
+      "parkName": "Adventure Park",
+      "landName": "Asia Village Area",
+      "attractionName": "Jungle Palace Trail"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "Just past the short bridge hung with prayer flags, the wall on the left hides the lead designer's first name in its texture.",
+    "whereToLook": {
+      "scene": "Wall on the left past the short flagged bridge",
+      "exactSpot": "In the plaster and stone of the wall. Look for three letters."
+    },
+    "bestTip": "Look right after the bridge, before the trail turns.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0035",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-maharajah-jungle-trek-three-hidden-joes/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "jungle-palace-deer-wall-designer-initials-first",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "jungle_palace_trail",
+    "display": {
+      "entryTitle": "Deer Wall Designer Initials",
+      "parkName": "Adventure Park",
+      "landName": "Asia Village Area",
+      "attractionName": "Jungle Palace Trail"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "Along the semicircular wall by the deer enclosure, near its left end, the brick and plaster are worked into a pair of initials. They belong to the lead designer who shaped this park.",
+    "whereToLook": {
+      "scene": "Semicircular wall at the deer viewing area",
+      "exactSpot": "Near the left end of the wall. Read the brickwork and plaster for two letters."
+    },
+    "bestTip": "Step back a few feet. The initials read better from a distance than up close.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0033",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-maharajah-jungle-trek-three-hidden-joes/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "jungle-palace-deer-wall-designer-initials-second",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "jungle_palace_trail",
+    "display": {
+      "entryTitle": "Deer Wall Designer Initials, Second Pair",
+      "parkName": "Adventure Park",
+      "landName": "Asia Village Area",
+      "attractionName": "Jungle Palace Trail"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "Farther along the same semicircular wall, a second pair of the lead designer's initials is worked into the brick and plaster.",
+    "whereToLook": {
+      "scene": "Semicircular wall at the deer viewing area",
+      "exactSpot": "Continue along the wall from the first pair. The second is farther toward the right end."
+    },
+    "bestTip": "Once you know what the first pair looks like, the second is easier.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0034",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-maharajah-jungle-trek-three-hidden-joes/",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "jungle-palace-first-arch-leaves-mickey",
     "parkId": "adventure_park",
     "landId": "asia_village_area",
@@ -5387,6 +5856,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "jungle-palace-second-arch-mountain-rock-mickey",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "jungle_palace_trail",
+    "display": {
+      "entryTitle": "Second Arch Mountain Rock Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Asia Village Area",
+      "attractionName": "Jungle Palace Trail"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "In the mural on the left past the second archway, a brown mountain is painted in the background. A rock shape in it is reported to suggest part of a classic Hidden Mickey, a separate find from the cloud on the same mural.",
+    "whereToLook": {
+      "scene": "Mural on the left past the second archway",
+      "exactSpot": "The brown mountain in the painted background. Look at the rock shapes for a rounded three-circle outline."
+    },
+    "bestTip": "Find the cloud Mickey first, then drop your eyes to the mountain below it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0032",
+    "sourceUrl": "https://www.celebrationspress.com/issues/Celebrations-Issue-1-DV46852.pdf",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "legacy-photo-panels-boy-band-portraits",
     "parkId": "showcase_park",
     "landId": "celebration_area",
@@ -5459,6 +5964,42 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "lion-celebration-show-warthog-platform-mickey",
+    "parkId": "adventure_park",
+    "landId": "savanna_village_area",
+    "attractionId": "lion_celebration_show",
+    "display": {
+      "entryTitle": "Warthog Platform Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Savanna Village Area",
+      "attractionName": "Lion Celebration Show"
+    },
+    "entryType": "FIND",
+    "locationType": "Pre-show",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "During the show, a small classic Hidden Mickey is reported in the scenic decoration beside the warthog's platform.",
+    "whereToLook": {
+      "scene": "Warthog float and platform during the show",
+      "exactSpot": "The scenic decoration around the platform, not the warthog himself."
+    },
+    "bestTip": "Sit in the section that faces the warthog float so you can study it while other sections perform.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0016",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-poombah",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "little-chef-entrance-signs-mickeys",
@@ -7073,6 +7614,79 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "river-rapids-queue-hanging-boots-mickey",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "river_rapids_raft_ride",
+    "display": {
+      "entryTitle": "Queue Hanging Boots Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Asia Village Area",
+      "attractionName": "River Rapids Raft Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the queue room hung with hiking equipment, a set of boots dangles from the ceiling. Seen from below, the boots are reported to form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Equipment room in the queue with gear hanging overhead",
+      "exactSpot": "Look up at the hanging boots. The shape shows from underneath."
+    },
+    "bestTip": "Stand directly under the boots and look straight up.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0010",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-kali-river-rapids-boots",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "river-rapids-queue-wall-plates-mickey",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "river_rapids_raft_ride",
+    "display": {
+      "entryTitle": "Queue Wall Plates Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Asia Village Area",
+      "attractionName": "River Rapids Raft Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "Low on the left wall of the queue, three plates hang together. They form a tilted classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Left wall of the queue, low",
+      "exactSpot": "Three plates on the lower left wall. One large, two small, tilted.",
+      "orientation": "Sideways"
+    },
+    "bestTip": "Look down and left rather than at the props at eye level.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0029",
+    "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "riviera-mural-teddy-bear-mickey",
     "parkId": "resorts_bucket",
     "landId": "riviera_resort",
@@ -7781,6 +8395,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "savanna-safari-queue-driver-board-mickey",
+    "parkId": "adventure_park",
+    "landId": "savanna_village_area",
+    "attractionId": "savanna_safari_trucks",
+    "display": {
+      "entryTitle": "Queue Driver Board Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Savanna Village Area",
+      "attractionName": "Savanna Safari Trucks"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The driver assignment board in the queue lists the safari drivers with a status marker beside each name. Ahmed's marker is a classic Hidden Mickey instead of a plain dot.",
+    "whereToLook": {
+      "scene": "Driver assignment board in the queue",
+      "exactSpot": "Find Ahmed's name on the board and look at the marker beside it."
+    },
+    "bestTip": "Read the board from top to bottom; the names are hand-lettered.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0012",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-kusafiri-coffee-shop-bakery",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "singing-birds-show-exit-perch-carving-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "jungle_outpost_area",
@@ -8079,6 +8729,47 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "snowy-mountain-yeti-museum-lantern-dents-mickey",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "snowy_mountain_coaster",
+    "display": {
+      "entryTitle": "Yeti Museum Lantern Dents Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Asia Village Area",
+      "attractionName": "Snowy Mountain Coaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the yeti museum section of the queue, the second display holds a battered lantern. Three dents in its metal form a sideways classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Yeti museum in the standby queue, second display",
+      "exactSpot": "The lantern in the display case. Look at the dents in its side.",
+      "orientation": "Sideways"
+    },
+    "bestTip": "The museum is where the line slows. Take the displays in order and stop at the second.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 28.3582,
+      "longitude": -81.5863
+    },
+    "sourceId": "TLC-AK-0028",
+    "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "space-coaster-exit-diorama-robot-dog-tag",
@@ -9282,6 +9973,42 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "undersea-puppet-show-reef-backdrop-mickey",
+    "parkId": "adventure_park",
+    "landId": "dinosaur_dig_area",
+    "attractionId": "undersea_puppet_show",
+    "display": {
+      "entryTitle": "Reef Backdrop Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Dinosaur Dig Area",
+      "attractionName": "Undersea Puppet Show"
+    },
+    "entryType": "FIND",
+    "locationType": "Pre-show",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "The stage show's coral reef scenery is reported to hide a classic Hidden Mickey somewhere in the backdrop. The report does not say which scene, so it is a whole-show hunt.",
+    "whereToLook": {
+      "scene": "Coral reef scenery during the stage show",
+      "exactSpot": "The painted and sculpted reef behind the performers. Watch for three circles in the coral."
+    },
+    "bestTip": "Sit high and central so the full backdrop is in view for the whole show.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceId": "TLC-AK-0008",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-finding-nemo-big-blue-beyond",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "usa-map-queue-wall-mickey",
     "parkId": "studios_park",
     "landId": "toy_blocks_area",
@@ -9661,6 +10388,86 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "winged-flight-lab-specimen-containers-mickey",
+    "parkId": "adventure_park",
+    "landId": "floating_mountains_area",
+    "attractionId": "winged_flight_simulator",
+    "display": {
+      "entryTitle": "Lab Specimen Containers Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Floating Mountains Area",
+      "attractionName": "Winged Flight Simulator"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the indoor laboratory section of the queue, specimen displays line the walls. Three containers are set together as a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Laboratory displays in the indoor queue",
+      "exactSpot": "The specimen containers on display. One large jar with two smaller ones arranged as ears."
+    },
+    "bestTip": "The lab is dim but the displays are lit. Read each case as the line passes it.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 28.3554,
+      "longitude": -81.5921
+    },
+    "sourceId": "TLC-AK-0009",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-flight-passage-specimen-jars",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "winged-flight-queue-gravel-cluster-mickey",
+    "parkId": "adventure_park",
+    "landId": "floating_mountains_area",
+    "attractionId": "winged_flight_simulator",
+    "display": {
+      "entryTitle": "Queue Gravel Cluster Mickey",
+      "parkName": "Adventure Park",
+      "landName": "Floating Mountains Area",
+      "attractionName": "Winged Flight Simulator"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "The outdoor queue winds over textured ground set with small stones. A cluster of three is reported to form a classic Hidden Mickey underfoot.",
+    "whereToLook": {
+      "scene": "Textured ground along the outdoor queue",
+      "exactSpot": "Look down at the gravel set into the path. One larger stone with two smaller ones above it."
+    },
+    "bestTip": "Check the ground during the slow stretches before the caves, when you have time to scan.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 28.3554,
+      "longitude": -81.5921
+    },
+    "sourceId": "TLC-AK-0003",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-avatar-flight-passage-gravel",
+    "createdAtISO": "2026-09-24T00:00:00.000Z",
+    "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
     "id": "winged-flight-queue-lab-drawing-mickey",

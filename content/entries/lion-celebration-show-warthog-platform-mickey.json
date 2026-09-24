@@ -1,0 +1,36 @@
+{
+  "id": "lion-celebration-show-warthog-platform-mickey",
+  "parkId": "adventure_park",
+  "landId": "savanna_village_area",
+  "attractionId": "lion_celebration_show",
+  "display": {
+    "entryTitle": "Warthog Platform Mickey",
+    "parkName": "Adventure Park",
+    "landName": "Savanna Village Area",
+    "attractionName": "Lion Celebration Show"
+  },
+  "entryType": "FIND",
+  "locationType": "Pre-show",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "During the show, a small classic Hidden Mickey is reported in the scenic decoration beside the warthog's platform.",
+  "whereToLook": {
+    "scene": "Warthog float and platform during the show",
+    "exactSpot": "The scenic decoration around the platform, not the warthog himself."
+  },
+  "bestTip": "Sit in the section that faces the warthog float so you can study it while other sections perform.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceId": "TLC-AK-0016",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-poombah",
+  "createdAtISO": "2026-09-24T00:00:00.000Z",
+  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+}
