@@ -50,7 +50,7 @@ describe('achievement catalog', () => {
   it('has one badge per destination with content, after the milestones', () => {
     const all = getAchievements();
     const parkIds = new Set(entries.map((e) => e.parkId));
-    const parkBadges = all.filter((a) => a.parkId);
+    const parkBadges = all.filter((a) => a.kind === 'park');
     expect(parkBadges.map((a) => a.parkId).sort()).toEqual([...parkIds].sort());
     expect(all[0].id).toBe('FIRST_FIND');
     expect(new Set(all.map((a) => a.id)).size).toBe(all.length);
