@@ -57,7 +57,7 @@ Screenshots are from the web build at phone width.
 - Hide found: a hunting mode on every park screen that leaves only what's left to spot
 - Related finds on each entry, so one attraction can be swept without leaving the screen
 - Closest to you: tap locate on the Map tab and the list sorts by walking time, switching to the park you're standing in
-- Hints one at a time: where-to-look opens a step per tap and the full note waits for the last hint. Off in Profile shows everything
+- Hints one at a time: where-to-look shows the scene up front, then opens a step per tap, and the full note waits for the last hint. Off in Profile shows everything
 - Reference photos: an optional photo per entry, blurred behind a "Reveal photo" button while hints are on, full screen on tap once shown
 - Share a find, a park, or your progress. Share text names the find and where it is, never where to look
 - Still there? Two taps on any entry report it seen or missing, and each entry shows when it was last seen
