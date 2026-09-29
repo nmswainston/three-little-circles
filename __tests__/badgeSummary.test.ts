@@ -2,7 +2,8 @@ import { summaryState } from '../src/components/BadgeSummaryCard';
 import { AchievementProgress, getAchievements } from '../src/store/useAchievementsStore';
 
 const achievements = getAchievements();
-const [a, b, c] = achievements;
+// Single badges, so tier collapsing does not come into it.
+const [a, b, c] = achievements.filter((x) => !x.tier);
 const at = (current: number, goal: number): AchievementProgress => ({
   current,
   goal,

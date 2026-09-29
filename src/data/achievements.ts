@@ -10,7 +10,7 @@ import { challengeProgress, getChallenges } from "./challenges";
 /**
  * Achievement catalog and the pure rules for earning them.
  *
- * Four kinds: fixed milestones (count tiers), skill badges (one land, one
+ * Four kinds: fixed milestones (the Hunter tiers), skill badges (one land, one
  * attraction, hard finds, queues, a Hidden Surprise, a same-day streak, two
  * regions), one completion badge per destination that has content, and one
  * per challenge in content/challenges. Ids are stable strings because they
@@ -42,6 +42,25 @@ export interface Achievement {
   parkKey?: ParkKey;
   /** Set on challenge badges */
   challengeId?: string;
+  /** Set on each level of a tiered badge */
+  tier?: AchievementTier;
+}
+
+/**
+ * One level of a tiered badge. Every level is its own achievement, so each
+ * unlocks, toasts, and backs up on its own, but screens show the group as
+ * one badge at its highest level.
+ */
+export interface AchievementTier {
+  /** Shared by every level, for example "HUNTER" */
+  group: string;
+  /** The badge's name without the level, for example "Hunter" */
+  groupTitle: string;
+  /** 1 for the first level */
+  level: number;
+  /** "Bronze", "Silver", ... */
+  name: string;
+  threshold: number;
 }
 
 type RuleContext = {
@@ -86,22 +105,25 @@ const HARD_FINDS = 5;
 const QUEUE_FINDS = 3;
 const STREAK_FINDS = 3;
 
-const countTier = (id: AchievementId, threshold: number, title: string, description: string, icon: string): Rule => ({
+// The Hunter tiers keep the ids of the count milestones they replaced, so
+// unlocks saved before the tiers existed carry straight over.
+const hunterTier = (id: AchievementId, level: number, name: string, threshold: number, description: string): Rule => ({
   id,
   kind: "milestone",
-  title,
+  title: `Hunter: ${name}`,
   description,
   hint: threshold === 1 ? "Mark any find as found." : `Find ${threshold} hidden details across any parks.`,
-  icon,
+  icon: "medal",
+  tier: { group: "HUNTER", groupTitle: "Hunter", level, name, threshold },
   progress: ({ foundEntries }) => ({ current: foundEntries.length, goal: threshold }),
   reachable: () => entries.length >= threshold,
 });
 
 const MILESTONES: Rule[] = [
-  countTier("FIRST_FIND", 1, "First Find", "You spotted your very first hidden detail.", "star"),
-  countTier("TEN_FINDS", 10, "Explorer", "Ten hidden details found.", "map"),
-  countTier("TWENTY_FIVE_FINDS", 25, "Adventurer", "Twenty-five hidden details found.", "compass"),
-  countTier("FIFTY_FINDS", 50, "Legend", "Fifty hidden details found.", "trophy"),
+  hunterTier("FIRST_FIND", 1, "Bronze", 1, "You spotted your very first hidden detail."),
+  hunterTier("TEN_FINDS", 2, "Silver", 10, "Ten hidden details found."),
+  hunterTier("TWENTY_FIVE_FINDS", 3, "Gold", 25, "Twenty-five hidden details found."),
+  hunterTier("FIFTY_FINDS", 4, "Platinum", 50, "Fifty hidden details found."),
 ];
 
 const isMet = ({ current, goal }: RawProgress): boolean => goal > 0 && current >= goal;
@@ -377,15 +399,62 @@ export function computeProgress(found: Record<string, number>): Record<Achieveme
 export function closestToEarning(
   progress: Record<AchievementId, AchievementProgress>,
   unlocked: readonly AchievementId[],
-  limit = 6
+  limit = 6,
+  options: { nextTiers?: boolean } = {}
 ): AchievementId[] {
+  const { nextTiers = true } = options;
   const earned = new Set(unlocked);
+  const all = getAchievements();
   const candidates: { id: AchievementId; order: number; p: AchievementProgress }[] = [];
-  getAchievements().forEach((achievement, order) => {
+  all.forEach((achievement, order) => {
     const p = progress[achievement.id];
-    if (p && !earned.has(achievement.id)) candidates.push({ id: achievement.id, order, p });
+    if (!p || earned.has(achievement.id)) return;
+    if (achievement.tier) {
+      // Only the next level of a tiered badge is a candidate, and once a
+      // level is earned the badge lives under Earned unless nextTiers asks
+      // for the next level anyway (the Home card's nudge wants it).
+      const ladder = tierLadder(achievement.tier.group, all);
+      if (ladder.find((a) => !earned.has(a.id))?.id !== achievement.id) return;
+      if (!nextTiers && ladder.some((a) => earned.has(a.id))) return;
+    }
+    candidates.push({ id: achievement.id, order, p });
   });
 
   candidates.sort((a, b) => b.p.fraction - a.p.fraction || a.p.remaining - b.p.remaining || a.order - b.order);
   return candidates.slice(0, limit).map((c) => c.id);
+}
+
+/** Every level of a tiered badge, lowest first. */
+export function tierLadder(group: string, all: Achievement[] = getAchievements()): Achievement[] {
+  return all.filter((a) => a.tier?.group === group).sort((a, b) => a.tier!.level - b.tier!.level);
+}
+
+/**
+ * Pure: the badges as screens show them, with each tiered badge as one entry.
+ * A tiered badge with any level earned counts as earned, shown at its highest
+ * level; otherwise it waits under unearned at its first level.
+ */
+export function visibleBadges(
+  unlocked: readonly AchievementId[],
+  all: Achievement[] = getAchievements()
+): { earned: Achievement[]; unearned: Achievement[] } {
+  const have = new Set(unlocked);
+  const earned: Achievement[] = [];
+  const unearned: Achievement[] = [];
+  const doneGroups = new Set<string>();
+
+  for (const achievement of all) {
+    const tier = achievement.tier;
+    if (!tier) {
+      (have.has(achievement.id) ? earned : unearned).push(achievement);
+      continue;
+    }
+    if (doneGroups.has(tier.group)) continue;
+    doneGroups.add(tier.group);
+    const ladder = tierLadder(tier.group, all);
+    const top = [...ladder].reverse().find((a) => have.has(a.id));
+    if (top) earned.push(top);
+    else unearned.push(ladder[0]);
+  }
+  return { earned, unearned };
 }

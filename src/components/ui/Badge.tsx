@@ -17,11 +17,35 @@ interface BadgeProps {
   inProgress?: boolean;
 }
 
+// Metal colors for tiered badges. Gold is the theme's own gold. Small text
+// uses a darker shade by day and the metal itself on the night navy.
+const TIERS: Record<number, { accent: string; dayText: string }> = {
+  1: { accent: '#C9844A', dayText: '#8A4F1C' },
+  2: { accent: '#A7AFBF', dayText: '#4F5872' },
+  4: { accent: '#8ED1D9', dayText: '#1F6F78' },
+};
+
+/** The colors for one level of a tiered badge: bronze, silver, gold, platinum. */
+export function tierAccent(t: Theme, level: number) {
+  const metal = TIERS[level];
+  if (!metal) {
+    return { accent: t.colors.primary, onAccent: t.colors.onPrimary, tint: t.colors.primaryLight, text: t.colors.warning };
+  }
+  return {
+    accent: metal.accent,
+    onAccent: '#1F2A44',
+    tint: `${metal.accent}33`,
+    text: t.dark ? metal.accent : metal.dayText,
+  };
+}
+
 /**
- * The colors a badge is drawn in: its park's accent for park badges, gold for
- * the rest. `text` is the accent adjusted for small text on the background.
+ * The colors a badge is drawn in: its tier's metal for tiered badges, its
+ * park's accent for park badges, gold for the rest. `text` is the accent
+ * adjusted for small text on the background.
  */
 export function badgeAccent(t: Theme, achievement: Achievement) {
+  if (achievement.tier) return tierAccent(t, achievement.tier.level);
   const palette = achievement.parkKey ? t.parks[achievement.parkKey] : undefined;
   return {
     accent: palette?.accent ?? t.colors.primary,

@@ -18,6 +18,8 @@ import {
   useBadgeProgress,
   getAchievements,
   closestToEarning,
+  tierLadder,
+  visibleBadges,
   Achievement,
 } from "../store/useAchievementsStore";
 import { useSettingsStore, Appearance } from "../store/useSettingsStore";
@@ -67,12 +69,17 @@ export default function ProfileScreen() {
   const unseen = useMemo(() => new Set(unlocked.filter((id) => !seen.includes(id))), [unlocked, seen]);
   const [selected, setSelected] = useState<Achievement | undefined>();
 
-  const earnedBadges = useMemo(() => {
-    const have = new Set(unlocked);
-    return achievements
-      .filter((a) => have.has(a.id))
-      .sort((a, b) => (earnedAt[b.id] ?? 0) - (earnedAt[a.id] ?? 0));
+  // Tiered badges count once, at their highest level.
+  const { earnedBadges, badgeTotal } = useMemo(() => {
+    const visible = visibleBadges(unlocked, achievements);
+    return {
+      earnedBadges: [...visible.earned].sort((a, b) => (earnedAt[b.id] ?? 0) - (earnedAt[a.id] ?? 0)),
+      badgeTotal: visible.earned.length + visible.unearned.length,
+    };
   }, [achievements, unlocked, earnedAt]);
+  const levelsOf = (achievement: Achievement) =>
+    achievement.tier ? tierLadder(achievement.tier.group, achievements).map((a) => a.id) : [achievement.id];
+  const isNewBadge = (achievement: Achievement) => levelsOf(achievement).some((id) => unseen.has(id));
   const nextUp = useMemo(() => {
     const [id] = closestToEarning(badgeProgress, unlocked, 1);
     return achievements.find((a) => a.id === id);
@@ -102,7 +109,8 @@ export default function ProfileScreen() {
 
   const openBadge = (achievement: Achievement) => {
     setSelected(achievement);
-    if (unseen.has(achievement.id)) markSeen([achievement.id]);
+    const fresh = levelsOf(achievement).filter((id) => unseen.has(id));
+    if (fresh.length > 0) markSeen(fresh);
   };
   const setAppearance = useSettingsStore((s) => s.setAppearance);
 
@@ -216,7 +224,7 @@ export default function ProfileScreen() {
           <Section title="Badges">
             <View style={styles.badgeCard}>
               <Text style={styles.badgeCount}>
-                {earnedBadges.length} of {achievements.length} earned
+                {earnedBadges.length} of {badgeTotal} earned
               </Text>
               {earnedBadges.length === 0 ? (
                 <Text style={styles.caption}>Mark your first find and your first badge is yours.</Text>
@@ -227,10 +235,10 @@ export default function ProfileScreen() {
                       key={achievement.id}
                       onPress={() => openBadge(achievement)}
                       accessibilityRole="button"
-                      accessibilityLabel={`${achievement.title}, unlocked${unseen.has(achievement.id) ? ", new" : ""}`}
+                      accessibilityLabel={`${achievement.title}, unlocked${isNewBadge(achievement) ? ", new" : ""}`}
                       style={({ pressed }) => [styles.badge, pressed && styles.badgePressed]}
                     >
-                      <Badge achievement={achievement} earned isNew={unseen.has(achievement.id)} />
+                      <Badge achievement={achievement} earned isNew={isNewBadge(achievement)} />
                       <Text style={styles.badgeTitle} numberOfLines={2}>
                         {achievement.title}
                       </Text>

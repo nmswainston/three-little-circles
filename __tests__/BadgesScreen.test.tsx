@@ -1,7 +1,7 @@
 import React from 'react';
 import { fireEvent, render, screen } from '@testing-library/react-native';
 import BadgesScreen from '../src/screens/BadgesScreen';
-import { computeUnlocked, getAchievements, useAchievementsStore } from '../src/store/useAchievementsStore';
+import { computeUnlocked, useAchievementsStore, visibleBadges } from '../src/store/useAchievementsStore';
 import { useFoundStore } from '../src/store/useFoundStore';
 import { getAllEntries } from '../src/data/query';
 import { getChallenge, getChallenges } from '../src/data/challenges';
@@ -22,7 +22,7 @@ beforeAll(async () => {
   await useAchievementsStore.persist.rehydrate();
 });
 
-/** Twelve finds, with First Find earned before Explorer. */
+/** Twelve finds: Hunter Silver (Explorer's old id) is the newest badge, everything else earlier. */
 function seedTwelveFinds() {
   const found = Object.fromEntries(entries.slice(0, 12).map((e) => [e.id, NOW]));
   const unlocked = computeUnlocked(found);
@@ -48,17 +48,24 @@ describe('BadgesScreen', () => {
   it('invites a first find when nothing is earned yet', () => {
     render(<BadgesScreen />);
     expect(screen.getByText('Mark your first find and your first badge is yours.')).toBeTruthy();
-    expect(screen.getByText(`0 of ${getAchievements().length} earned`)).toBeTruthy();
+    const { unearned } = visibleBadges([]);
+    expect(screen.getByText(`0 of ${unearned.length} earned`)).toBeTruthy();
   });
 
-  it('lists earned badges newest first', () => {
+  it('lists earned badges newest first, with Hunter once at its highest level', () => {
     seedTwelveFinds();
     render(<BadgesScreen />);
-    const all = labels();
-    const explorer = all.findIndex((l) => l.startsWith('Explorer, earned'));
-    const firstFind = all.findIndex((l) => l.startsWith('First Find, earned'));
-    expect(explorer).toBeGreaterThanOrEqual(0);
-    expect(explorer).toBeLessThan(firstFind);
+    const earned = labels().filter((l) => / earned( |,|$)/.test(l) && !l.includes(' of '));
+    expect(earned[0]).toMatch(/^Hunter: Silver, earned/);
+    expect(earned.some((l) => l.startsWith('Hunter: Bronze'))).toBe(false);
+  });
+
+  it('shows the Hunter levels as one bar toward the next level', () => {
+    seedTwelveFinds();
+    render(<BadgesScreen />);
+    expect(screen.getByLabelText('Hunter: Silver to Gold, 12 of 25')).toBeTruthy();
+    expect(screen.getByText('Platinum')).toBeTruthy();
+    expect(screen.getByText('50')).toBeTruthy();
   });
 
   it('shows a progress row for every unearned badge, six of them under Closest to earning', () => {
@@ -66,7 +73,9 @@ describe('BadgesScreen', () => {
     render(<BadgesScreen />);
     expect(screen.getByText('Closest to earning')).toBeTruthy();
     const rows = labels().filter((l) => l.includes(' to go'));
-    expect(rows).toHaveLength(getAchievements().length - unlocked.length);
+    // Hunter is earned, so its next level is not repeated as a row.
+    expect(rows).toHaveLength(visibleBadges(unlocked).unearned.length);
+    expect(rows.some((l) => l.startsWith('Hunter'))).toBe(false);
     // Full rows add a detail line after "n to go"; compact "More to earn" rows end there.
     const full = rows.filter((l) => !l.endsWith(' to go'));
     expect(full).toHaveLength(6);

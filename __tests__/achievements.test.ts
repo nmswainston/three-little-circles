@@ -5,6 +5,8 @@ import {
   computeUnlocked,
   getAchievements,
   parkAchievementId,
+  tierLadder,
+  visibleBadges,
 } from '../src/data/achievements';
 import { labelOrFallback } from '../src/data/labels';
 import { getAllEntries } from '../src/data/query';
@@ -91,7 +93,8 @@ describe('computeProgress', () => {
 });
 
 describe('closestToEarning', () => {
-  const ids = getAchievements().map((a) => a.id);
+  // Tier levels have their own rules below; these use single badges.
+  const ids = getAchievements().filter((a) => !a.tier).map((a) => a.id);
   const at = (current: number, goal: number): AchievementProgress => ({
     current,
     goal,
@@ -121,5 +124,41 @@ describe('closestToEarning', () => {
     const closest = closestToEarning(computeProgress(found), computeUnlocked(found));
     expect(closest).toHaveLength(6);
     for (const id of closest) expect(computeUnlocked(found)).not.toContain(id);
+  });
+});
+
+describe('Hunter tiers', () => {
+  const ladder = tierLadder('HUNTER');
+  const asFoundN = (n: number) => asFound(entries.slice(0, n));
+
+  it('keeps the old milestone ids as the four levels, lowest first', () => {
+    expect(ladder.map((a) => a.id)).toEqual(['FIRST_FIND', 'TEN_FINDS', 'TWENTY_FIVE_FINDS', 'FIFTY_FINDS']);
+    expect(ladder.map((a) => a.title)).toEqual(['Hunter: Bronze', 'Hunter: Silver', 'Hunter: Gold', 'Hunter: Platinum']);
+    expect(ladder.map((a) => a.tier!.threshold)).toEqual([1, 10, 25, 50]);
+  });
+
+  it('shows Hunter once: at its first level while nothing is earned, then at its highest earned level', () => {
+    const none = visibleBadges([]);
+    expect(none.unearned.filter((a) => a.tier)).toEqual([ladder[0]]);
+    expect(none.earned).toEqual([]);
+
+    const silver = visibleBadges(computeUnlocked(asFoundN(12)));
+    expect(silver.earned.filter((a) => a.tier).map((a) => a.id)).toEqual(['TEN_FINDS']);
+    expect(silver.unearned.some((a) => a.tier)).toBe(false);
+  });
+
+  it('offers only the next level as the closest badge, and only when asked once a level is earned', () => {
+    const found = asFoundN(24);
+    const unlocked = computeUnlocked(found);
+    const progress = computeProgress(found);
+    const all = closestToEarning(progress, unlocked, 50);
+    expect(all).toContain('TWENTY_FIVE_FINDS');
+    expect(all).not.toContain('FIFTY_FINDS');
+    expect(closestToEarning(progress, unlocked, 50, { nextTiers: false })).not.toContain('TWENTY_FIVE_FINDS');
+  });
+
+  it('still unlocks each level on its own', () => {
+    expect(computeUnlocked(asFoundN(10))).toEqual(expect.arrayContaining(['FIRST_FIND', 'TEN_FINDS']));
+    expect(computeUnlocked(asFoundN(9))).not.toContain('TEN_FINDS');
   });
 });
