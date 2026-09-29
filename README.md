@@ -28,14 +28,15 @@ change rather than a code change.
 ## Screenshots
 
 <p>
-  <img src="docs/screenshots/parks.png" width="190" alt="Parks tab: a list of destinations with a progress ring on each card" />
+  <img src="docs/screenshots/parks.png" width="190" alt="Parks tab: a badge card pointing at the next badge to earn, then the destinations with a progress ring on each card" />
   <img src="docs/screenshots/park.png" width="190" alt="Magic Kingdom screen: finds grouped by land and attraction, with difficulty chips" />
   <img src="docs/screenshots/entry.png" width="190" alt="An entry with hints on: the scene is shown and the exact spot is hidden until you ask" />
-  <img src="docs/screenshots/profile.png" width="190" alt="Profile tab: overall progress and a per-park breakdown" />
+  <img src="docs/screenshots/profile.png" width="190" alt="Profile tab: overall progress, the newest badges with the next one to earn, and challenges in progress" />
 </p>
 
-Left to right: the Parks tab, a park with its finds grouped by land and
-attraction, an entry with hints on, and the Profile tab. The app follows the
+Left to right: the Parks tab with its badge card, a park with its finds
+grouped by land and attraction, an entry with hints on, and the Profile tab
+with badges and challenges. The app follows the
 system appearance; [here is the Parks tab at night](docs/screenshots/parks-dark.png).
 Screenshots are from the web build at phone width.
 
