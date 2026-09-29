@@ -1,6 +1,7 @@
 import { entries } from "./entries";
 import { HiddenMickeyEntry, ParkId, LandId, AttractionId } from "./types";
 import { labelOrFallback } from "./labels";
+import { isConfirmed } from "./confirmations";
 import { SegmentedControlOption } from "../components/ui/SegmentedControl";
 
 export function getAllEntries(): HiddenMickeyEntry[] {
@@ -175,6 +176,17 @@ export function groupByLand(list: HiddenMickeyEntry[]): LandGroup[] {
   }
 
   return Array.from(lands.values());
+}
+
+/**
+ * The same list with confirmed finds ahead of unconfirmed ones. The sort is
+ * stable, so each half keeps its content order.
+ */
+export function confirmedFirst<T extends HiddenMickeyEntry>(list: T[]): T[] {
+  const confirmed: T[] = [];
+  const rest: T[] = [];
+  for (const entry of list) (isConfirmed(entry) ? confirmed : rest).push(entry);
+  return confirmed.concat(rest);
 }
 
 /** The other entries at the same attraction as this one, in content order. */

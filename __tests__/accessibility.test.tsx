@@ -7,6 +7,7 @@ import Chip from '../src/components/ui/Chip';
 import EntryRow from '../src/components/EntryRow';
 import StillThereCard from '../src/components/StillThereCard';
 import { getAllEntries } from '../src/data/query';
+import { isConfirmed } from '../src/data/confirmations';
 import { useAchievementsStore } from '../src/store/useAchievementsStore';
 import { useConfirmationsStore } from '../src/store/useConfirmationsStore';
 import { useFoundStore } from '../src/store/useFoundStore';
@@ -76,7 +77,8 @@ describe('chip', () => {
 });
 
 describe('entry row', () => {
-  const entry = getAllEntries().find((e) => e.display?.entryTitle && e.entryType === 'FIND')!;
+  const finds = getAllEntries().filter((e) => e.display?.entryTitle && e.entryType === 'FIND');
+  const entry = finds.find((e) => !isConfirmed(e))!;
   const title = entry.display!.entryTitle!;
 
   it('reads the type and difficulty, and the found state once marked', () => {
@@ -89,6 +91,13 @@ describe('entry row', () => {
       useFoundStore.setState({ found: { [entry.id]: Date.now() } });
     });
     expect(screen.getByLabelText(`${title}, found, ${entry.locationType}, ${entry.difficulty}`)).toBeTruthy();
+  });
+
+  it('says when a find is confirmed', () => {
+    const confirmed = finds.find((e) => isConfirmed(e))!;
+    render(<EntryRow entry={confirmed} onPress={jest.fn()} />);
+    const name = confirmed.display!.entryTitle!;
+    expect(screen.getByLabelText(`${name}, confirmed, ${confirmed.locationType}, ${confirmed.difficulty}`)).toBeTruthy();
   });
 });
 

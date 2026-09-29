@@ -3,6 +3,7 @@ import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { HiddenMickeyEntry } from '../data/types';
 import { labelOrFallback } from '../data/labels';
+import { isConfirmed } from '../data/confirmations';
 import { useFoundStore } from '../store/useFoundStore';
 import { Theme, useStyles, useTheme } from '../theme/ThemeProvider';
 import { spacing, radii, text } from '../theme/tokens';
@@ -14,16 +15,18 @@ interface EntryRowProps {
 }
 
 /**
- * Compact entry row for grouped lists: title, location type, difficulty,
- * and either a found check or a chevron.
+ * Compact entry row for grouped lists: title, a shield when the find is
+ * confirmed, location type, difficulty, and either a found check or a chevron.
  */
 export default function EntryRow({ entry, onPress }: EntryRowProps) {
   const t = useTheme();
   const styles = useStyles(createStyles);
   const found = useFoundStore((s) => entry.id in s.found);
   const title = labelOrFallback(entry.display?.entryTitle, 'Hidden Find');
+  const confirmed = isConfirmed(entry);
   const label = [
     `${title}${found ? ', found' : ''}`,
+    confirmed ? 'confirmed' : undefined,
     entry.locationType,
     entry.difficulty,
     entry.entryType === 'FACT' ? 'Hidden Surprise' : undefined,
@@ -41,6 +44,15 @@ export default function EntryRow({ entry, onPress }: EntryRowProps) {
       <View style={styles.textColumn}>
         <Text style={styles.title}>{title}</Text>
         <View style={styles.metaRow}>
+          {confirmed && (
+            <Ionicons
+              name="shield-checkmark"
+              size={14}
+              color={t.colors.success}
+              accessibilityElementsHidden
+              importantForAccessibility="no"
+            />
+          )}
           <Text style={styles.meta}>{entry.locationType}</Text>
           <DifficultyChip level={entry.difficulty} size="small" />
           {entry.entryType === 'FACT' && (

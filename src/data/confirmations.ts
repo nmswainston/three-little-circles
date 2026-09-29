@@ -1,5 +1,6 @@
 import { relativeTime } from "../lib/time";
 import { confirmations, CONFIRMATIONS_PULLED_AT_ISO } from "./confirmations.generated";
+import type { HiddenMickeyEntry } from "./types";
 
 /**
  * "Still there?" freshness, one summary per entry, baked in at build time by
@@ -23,6 +24,24 @@ export function getConfirmation(entryId: string): ConfirmationSummary | undefine
 
 /** When the bundled summaries were pulled, or undefined before the first pull. */
 export const confirmationsPulledAtISO: string | undefined = CONFIRMATIONS_PULLED_AT_ISO;
+
+/**
+ * True when there is good reason to expect the find is there today. A
+ * "Still there?" report outranks the content: the newest one decides. With
+ * no reports, anything but an unconfirmed or removed status counts, since
+ * entries written before statuses existed leave it out.
+ */
+export function isConfirmed(
+  entry: Pick<HiddenMickeyEntry, "id" | "status">,
+  summary: ConfirmationSummary | undefined = getConfirmation(entry.id)
+): boolean {
+  const seenAt = parse(summary?.lastSeenISO);
+  const missingAt = parse(summary?.lastMissingISO);
+  if (seenAt !== undefined || missingAt !== undefined) {
+    return missingAt === undefined || (seenAt !== undefined && seenAt > missingAt);
+  }
+  return entry.status !== "Unverified" && entry.status !== "Removed";
+}
 
 export type Freshness = {
   /** "Last seen 3 weeks ago", "Reported missing yesterday", or "No reports yet". */

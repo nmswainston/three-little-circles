@@ -1,4 +1,6 @@
+import { isConfirmed } from '../src/data/confirmations';
 import {
+  confirmedFirst,
   getAllEntries,
   getEntryById,
   getParksSummary,
@@ -131,6 +133,23 @@ describe('groupByLand', () => {
 
     const landStillHasEntries = remaining.some((e) => e.landId === target.landId);
     expect(grouped.some((l) => l.landId === target.landId)).toBe(landStillHasEntries);
+  });
+});
+
+describe('confirmedFirst', () => {
+  const entries = getAllEntries();
+
+  it('puts confirmed finds first and keeps content order within each half', () => {
+    const sorted = confirmedFirst(entries);
+    expect(sorted).toHaveLength(entries.length);
+    const confirmed = entries.filter((e) => isConfirmed(e));
+    const rest = entries.filter((e) => !isConfirmed(e));
+    expect(sorted).toEqual([...confirmed, ...rest]);
+  });
+
+  it('has both confirmed and unconfirmed finds in the shipped content', () => {
+    expect(entries.some((e) => isConfirmed(e))).toBe(true);
+    expect(entries.some((e) => !isConfirmed(e))).toBe(true);
   });
 });
 
