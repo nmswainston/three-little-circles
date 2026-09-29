@@ -15,7 +15,7 @@
   "areaContext": "Lobby",
   "description": "The lost-and-found at the reception desk holds a golden sphere etched with a map. It is the treasure map from the animated space pirate adventure.",
   "whereToLook": {
-    "scene": "Lost-and-found shelf at reception",
+    "scene": "Lost-and-found shelf at the gallery's reception desk",
     "exactSpot": "The engraved golden sphere."
   },
   "bestTip": "The shelf is dressed as clutter. Take each object one at a time.",
@@ -32,5 +32,5 @@
   "sourceId": "TLC-HS-0030",
   "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

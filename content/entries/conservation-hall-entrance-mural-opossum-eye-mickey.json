@@ -15,7 +15,7 @@
   "areaContext": "Entrance",
   "description": "The entrance mural is famous for hiding many Mickeys in its animals. On the right side, a Mickey profile hides in the pupil of the opossum's eye.",
   "whereToLook": {
-    "scene": "Entrance mural, right side",
+    "scene": "Right side of the animal mural at the station entrance",
     "exactSpot": "Find the opossum and look into its eye. The profile is in the pupil."
   },
   "bestTip": "Get close. The shape is tiny, and it is a profile, not three circles.",

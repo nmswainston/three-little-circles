@@ -14,7 +14,7 @@
   "difficulty": "Medium",
   "description": "A classic three-circle Hidden Mickey appears in a lobby anniversary display. The shape is located in the lower right portion of the display and is easiest to spot when you view the full arrangement from a step or two back.",
   "whereToLook": {
-    "scene": "Lobby anniversary display area",
+    "scene": "Anniversary display in the resort lobby",
     "exactSpot": "Lower right portion of the anniversary display (scan the bottom-right details rather than the main centerpiece).",
     "orientation": "Upright"
   },

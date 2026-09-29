@@ -15,7 +15,7 @@
   "areaContext": "Exit",
   "description": "The first mural on your right after unloading hides the little red spacecraft that a certain blue alien crash-landed in Hawaii. It sits in the corner of the artwork.",
   "whereToLook": {
-    "scene": "Exit corridor murals",
+    "scene": "Murals along the exit corridor after you unload",
     "exactSpot": "First mural on the right. Check the corner."
   },
   "bestTip": "Slow down at the first mural instead of heading straight for the photo screens.",
@@ -35,5 +35,5 @@
   },
   "sourceId": "TLC-MK-0038",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

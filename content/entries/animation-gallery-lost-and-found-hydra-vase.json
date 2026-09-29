@@ -15,7 +15,7 @@
   "areaContext": "Lobby",
   "description": "A vase on the lost-and-found shelf is painted with a many-headed hydra, straight out of the animated film about the Greek hero.",
   "whereToLook": {
-    "scene": "Lost-and-found shelf at reception",
+    "scene": "Lost-and-found shelf at the gallery's reception desk",
     "exactSpot": "The painted vase. Count the heads."
   },
   "bestTip": "The artwork is in the black-figure style, so it reads as an antique until you see the monster.",
@@ -32,5 +32,5 @@
   "sourceId": "TLC-HS-0032",
   "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

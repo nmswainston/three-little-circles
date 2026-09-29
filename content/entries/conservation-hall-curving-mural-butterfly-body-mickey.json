@@ -15,7 +15,7 @@
   "areaContext": "Entrance",
   "description": "On the curving mural to the right, a butterfly's body conceals Mickey's face.",
   "whereToLook": {
-    "scene": "Right-hand curving mural",
+    "scene": "Curving mural on the right at the station entrance",
     "exactSpot": "The butterfly. Look at its body between the wings, not the wing pattern."
   },
   "bestTip": "Plenty of creatures share this mural. Check each one's body, not just its markings.",

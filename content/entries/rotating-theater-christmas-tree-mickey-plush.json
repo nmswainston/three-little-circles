@@ -15,7 +15,7 @@
   "areaContext": "Ride",
   "description": "In the final Christmas scene, a Mickey plush sits beneath the tree, partly hidden behind the wrapped presents. It keeps company with the nutcracker and the pepper grinder in the same room.",
   "whereToLook": {
-    "scene": "Final Christmas scene",
+    "scene": "Final Christmas scene in the family's home",
     "exactSpot": "Under the tree, tucked behind the presents on the floor."
   },
   "bestTip": "Look low before the scene's dialogue pulls your eyes to the family.",
@@ -35,5 +35,5 @@
   },
   "sourceId": "TLC-MK-0033",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

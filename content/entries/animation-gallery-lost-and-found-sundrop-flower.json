@@ -15,7 +15,7 @@
   "areaContext": "Lobby",
   "description": "A golden flower among the lost items is the magic sundrop flower that gave the long-haired princess her glowing hair.",
   "whereToLook": {
-    "scene": "Lost-and-found shelf at reception",
+    "scene": "Lost-and-found shelf at the gallery's reception desk",
     "exactSpot": "The golden flower."
   },
   "bestTip": "It sits with the other props from the same shelf, so find the sphere first and work along.",
@@ -32,5 +32,5 @@
   "sourceId": "TLC-HS-0033",
   "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

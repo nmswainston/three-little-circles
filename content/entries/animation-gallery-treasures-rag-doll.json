@@ -15,7 +15,7 @@
   "areaContext": "Lobby",
   "description": "In the treasures exhibit, a lumpy homemade rag doll with button eyes sits among the artifacts. It is the doll the little Hawaiian girl made herself in the film about her alien pet.",
   "whereToLook": {
-    "scene": "Treasures exhibit cases",
+    "scene": "Display cases in the gallery's treasures exhibit",
     "exactSpot": "The rag doll."
   },
   "bestTip": "It is the least polished thing in the case, on purpose.",
@@ -32,5 +32,5 @@
   "sourceId": "TLC-HS-0035",
   "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }
