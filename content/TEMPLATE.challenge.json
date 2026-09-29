@@ -1,0 +1,14 @@
+{
+  "id": "short-kebab-title",
+  "title": "Short title",
+  "blurb": "One or two sentences on what ties these places together.",
+  "parkId": "magic_kingdom_park",
+  "icon": "flag",
+  "goal": "all",
+  "targets": [
+    { "attraction": "magic_kingdom_park/jungle_outpost_area/jungle_boat_ride" },
+    { "land": "showcase_park/mexico_pavilion" }
+  ],
+  "createdAtISO": "2026-09-29T00:00:00.000Z",
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+}

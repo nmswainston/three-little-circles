@@ -119,6 +119,50 @@ such as how the Florida land was assembled, and `parkId` for anything specific
 to one park. Facts are shown in id order, so a numeric or alphabetical prefix
 controls the order within a park if you need one.
 
+## Challenges
+
+A challenge is a themed hunt with a badge at the end: every find on the
+attractions Walt Disney worked on, one find in each World Showcase pavilion,
+something at five different resorts. Guests see their progress with a bar,
+and finishing a challenge unlocks its badge like any other.
+
+Each challenge is one JSON file under `content/challenges/`. Copy
+[`TEMPLATE.challenge.json`](TEMPLATE.challenge.json) to
+`content/challenges/<id>.json` and run `npm run content:build`, which validates
+it, checks that every target matches real entries, and regenerates
+`src/data/challenges.generated.ts`. Commit both.
+
+| Field | Required | Values |
+| --- | --- | --- |
+| `id` | yes | kebab-case slug, unique across all challenges, must match the file name. The badge is saved as `challenge:<id>`, so leave the id alone once it ships. |
+| `title` | yes | a few words |
+| `blurb` | yes | one or two sentences on what ties the targets together. Shown on the challenge and as the badge's hint. |
+| `parkId` | no | a `parkId` from `destinations.json`. Gives the challenge that park's color. Omit it for challenges that cross parks. |
+| `icon` | no | an [Ionicons](https://icons.expo.fyi) glyph name. Defaults to `flag`. |
+| `goal` | yes | `all`, `each`, or `any`; see below |
+| `count` | with `any` | how many targets need a find, from 1 to the number of targets |
+| `targets` | yes | a list of places, each an object with exactly one key: `attraction` (`parkId/landId/attractionId`), `land` (`parkId/landId`), `park` (a `parkId`), or `entry` (an entry id) |
+| `createdAtISO`, `updatedAtISO` | no | ISO 8601 timestamps |
+
+The goal says what finishing means:
+
+- `all`: find every entry the targets cover. An entry covered by two targets
+  counts once. Use it for "every hidden detail at these attractions".
+- `each`: find at least one entry in every target. Use it for "one in every
+  pavilion".
+- `any`: find at least one entry in `count` of the targets. Use it for "five
+  different resorts".
+
+Targets are ids, not names, so they keep working when a display name changes.
+An `attraction`, `land`, or `park` target picks up new entries added there
+later, which can grow an `all` challenge after a guest has finished it; the
+badge they earned stays earned. Use `entry` targets when a challenge should
+cover exactly the finds chosen for it.
+
+Like entries, challenges are written in the app's voice and only claim what
+the finds support. Check history in a blurb, such as which attractions Walt
+worked on, against a reliable source before it ships.
+
 ## Naming conventions
 
 The app is an unofficial fan project. Park, land, and attraction display names

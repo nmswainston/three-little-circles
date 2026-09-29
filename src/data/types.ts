@@ -139,3 +139,41 @@ export type ParkFact = {
   createdAtISO?: string;
   updatedAtISO?: string;
 };
+
+/**
+ * One thing a challenge covers. Exactly one key is set: an attraction as
+ * "parkId/landId/attractionId", a land as "parkId/landId", a whole park by
+ * parkId, or a single find by entry id.
+ */
+export type ChallengeTarget =
+  | { attraction: string }
+  | { land: string }
+  | { park: string }
+  | { entry: string };
+
+/**
+ * A themed hunt with a badge at the end. `goal` says what finishing means:
+ * - "all": find every entry the targets cover.
+ * - "each": find at least one entry in every target.
+ * - "any": find at least one entry in `count` of the targets.
+ *
+ * The id is a persistence key (the badge is saved as "challenge:<id>"), so
+ * leave it alone once a challenge ships.
+ */
+export type Challenge = {
+  id: string;
+  title: string;
+  /** One or two sentences: what ties the targets together. */
+  blurb: string;
+  /** The park the challenge belongs to, for its accent color. Omit for cross-park challenges. */
+  parkId?: ParkId;
+  /** Ionicons glyph name */
+  icon?: string;
+  goal: "all" | "each" | "any";
+  /** Required when goal is "any" */
+  count?: number;
+  targets: ChallengeTarget[];
+
+  createdAtISO?: string;
+  updatedAtISO?: string;
+};
