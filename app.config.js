@@ -8,6 +8,18 @@ export default {
     icon: './assets/icon.png',
     userInterfaceStyle: 'automatic',
     newArchEnabled: true,
+    // Content and JavaScript fixes ship over the air with `eas update`, so a
+    // new batch of finds does not wait on store review. The fingerprint
+    // policy changes the runtime version whenever native code changes, so an
+    // update only ever reaches builds that can run it.
+    runtimeVersion: { policy: 'fingerprint' },
+    updates: {
+      url: 'https://u.expo.dev/114958f9-aa23-493a-ac7e-72772c555b21',
+      // Check at launch but never wait on it: queues have poor signal, so the
+      // app opens on what it has and a downloaded update applies next launch.
+      checkAutomatically: 'ON_LOAD',
+      fallbackToCacheTimeout: 0,
+    },
     plugins: [
       [
         // Google Maps on Android needs a key in built apps (not in Expo Go).

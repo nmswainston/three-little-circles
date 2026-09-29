@@ -86,7 +86,7 @@
 <main>
   <p class="eyebrow">Three Little Circles</p>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated 23 September 2026</p>
+  <p class="updated">Last updated 29 September 2026</p>
   <div class="rule"></div>
 
   <div class="card">
@@ -99,7 +99,7 @@
       <li>No account, no sign-in, and no email address are required to use the app.</li>
       <li>Your progress, badges, and settings are stored only on your device.</li>
       <li>Your location is used on your phone to place you on the map. It is never sent anywhere.</li>
-      <li>Nothing leaves your device unless you choose to submit a sighting or report whether a find is still there.</li>
+      <li>Apart from a routine check for guide updates when the app opens, nothing leaves your device unless you choose to submit a sighting or report whether a find is still there.</li>
       <li>There is no advertising, no analytics, and no third-party tracking of any kind.</li>
     </ul>
 
@@ -133,6 +133,9 @@
 
     <h2>When you report whether a find is still there</h2>
     <p>Reporting that a find is still visible, or has gone, sends only the entry you are reporting on and your answer. It is tied to an anonymous session identifier issued by the server so that one install counts as one report. It carries no personal information.</p>
+
+    <h2>Guide updates</h2>
+    <p>When the app opens, it asks Expo, the company whose update service delivers new finds and fixes without a store update, whether a newer version of the guide is available, and downloads it if so. The request carries the app's version and platform, the release channel, and a random identifier the update service creates for the install so updates can be rolled out gradually. It carries none of your progress, location, or other personal information. As with any connection, the service sees your IP address.</p>
 
     <h2>Where that data is held</h2>
     <p>Submissions and reports are stored with Supabase, a hosted database and file storage provider, in a private queue that only the maintainer can read. They are used solely to review and improve the guide. They are never sold, rented, or shared for advertising, and they are not used to build a profile of you.</p>
