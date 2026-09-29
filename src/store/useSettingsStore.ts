@@ -26,9 +26,9 @@ interface SettingsState {
   confirmedOnly: boolean;
   setConfirmedOnly: (confirmedOnly: boolean) => void;
   /**
-   * Hints one at a time: an entry's where-to-look shows the scene, opens the
-   * rest a step per tap, and the description, tip, and fun facts wait for
-   * the last step. Off shows
+   * Hints one at a time: an entry's where-to-look shows the scene, then opens
+   * the tip and the exact spot a step per tap, and the description and fun
+   * facts wait for the last step. Off shows
    * every field note in full. A find already marked always shows in full.
    */
   hintMode: boolean;

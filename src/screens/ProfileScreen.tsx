@@ -349,8 +349,8 @@ export default function ProfileScreen() {
               <View style={styles.settingText}>
                 <Text style={styles.settingTitle}>Hints one at a time</Text>
                 <Text style={styles.caption}>
-                  Where-to-look shows the scene, then opens a step per tap, and the full note waits for the last hint.
-                  Off shows everything at once.
+                  Where-to-look shows the scene, then the tip and the exact spot one tap at a time, and the full note
+                  waits for the last hint. Off shows everything at once.
                 </Text>
               </View>
               <Switch

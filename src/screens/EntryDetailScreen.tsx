@@ -120,8 +120,12 @@ export default function EntryDetailScreen() {
   const title = labelOrFallback(entry.display?.entryTitle, "Hidden Find");
   const eyebrow = [entry.display?.parkName, entry.display?.attractionName].filter(Boolean).join(" · ");
 
+  // Broad to narrow: the scene points at the area, the tip says how to look
+  // there, and the exact spot gives the answer. Tips are written so they
+  // never name the answer themselves.
   const steps: LookStep[] = [
     { label: "Scene", value: entry.whereToLook.scene },
+    ...(entry.bestTip ? [{ label: "Tip", value: entry.bestTip }] : []),
     { label: "Exact spot", value: entry.whereToLook.exactSpot },
     ...(entry.whereToLook.orientation ? [{ label: "Orientation", value: entry.whereToLook.orientation }] : []),
   ];
@@ -240,16 +244,6 @@ export default function EntryDetailScreen() {
           <Text style={styles.helper}>
             {found ? "Nice catch. This counts toward your progress." : "Spotted it? Mark it to add it to your progress."}
           </Text>
-
-          {entry.bestTip && !spoilersHidden && (
-            <View style={styles.tip}>
-              <Ionicons name="bulb-outline" size={24} color={t.colors.tipText} />
-              <View style={styles.tipText}>
-                <Text style={styles.tipLabel}>Best tip</Text>
-                <Text style={styles.tipBody}>{entry.bestTip}</Text>
-              </View>
-            </View>
-          )}
 
           {entry.funFacts && entry.funFacts.length > 0 && !spoilersHidden && (
             <View style={styles.card}>
@@ -472,30 +466,6 @@ const createStyles = (t: Theme) =>
     },
     cardTitle: {
       ...text.sectionTitle,
-      color: t.colors.text,
-    },
-    tip: {
-      flexDirection: "row",
-      alignItems: "flex-start",
-      gap: spacing.md - 4,
-      backgroundColor: t.colors.tip,
-      borderRadius: radii.md,
-      paddingVertical: spacing.md - 2,
-      paddingHorizontal: spacing.md,
-    },
-    tipText: {
-      flex: 1,
-      gap: 2,
-    },
-    tipLabel: {
-      ...text.labelCaps,
-      fontSize: 13,
-      lineHeight: 18,
-      color: t.colors.tipText,
-    },
-    tipBody: {
-      ...text.body,
-      lineHeight: 22,
       color: t.colors.text,
     },
     fact: {
