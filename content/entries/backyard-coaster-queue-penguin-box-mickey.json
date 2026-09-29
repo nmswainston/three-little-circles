@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5628
+  },
   "sourceId": "TLC-HS-0010",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-slinky-dog-dash",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

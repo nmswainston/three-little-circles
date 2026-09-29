@@ -29,6 +29,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.363501,
+    "longitude": -81.571682
+  },
   "sourceId": "TLC-RS-0068",
   "sourceUrl": "https://mickeyvisit.com/hidden-mickeys-at-disney-world/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

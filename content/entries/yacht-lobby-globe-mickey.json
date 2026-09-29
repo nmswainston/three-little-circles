@@ -29,6 +29,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.370136,
+    "longitude": -81.558794
+  },
   "sourceId": "TLC-RS-0067",
   "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

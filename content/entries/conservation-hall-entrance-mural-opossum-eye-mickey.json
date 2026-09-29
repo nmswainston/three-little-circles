@@ -30,6 +30,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.365314,
+    "longitude": -81.588384
+  },
   "sourceId": "TLC-AK-0017",
   "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

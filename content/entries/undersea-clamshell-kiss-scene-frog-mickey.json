@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.4219,
+    "longitude": -81.5793
+  },
   "sourceId": "TLC-MK-0091",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-little-mermaid-frog-hidden-mickeys",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

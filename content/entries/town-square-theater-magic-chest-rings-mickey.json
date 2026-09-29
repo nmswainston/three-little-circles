@@ -29,6 +29,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.416737,
+    "longitude": -81.580788
+  },
   "sourceId": "TLC-MK-0096",
   "sourceUrl": "https://allears.net/2017/01/16/hidden-mickeys-in-the-magic-kingdom-and-disney-springs/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

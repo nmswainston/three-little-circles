@@ -29,6 +29,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.350963,
+    "longitude": -81.544313
+  },
   "accessNotes": "Pool and recreation areas are for registered resort guests.",
   "sourceId": "TLC-RS-0016",
   "sourceUrl": "https://hiddenmickeyguy.com/disneys-pop-century-resort-hidden-mickey/",

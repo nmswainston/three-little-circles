@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.380582,
+    "longitude": -81.536772
+  },
   "sourceId": "TLC-RS-0011",
   "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-port-orleans-resort-french-quarter-hidden-tigger/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

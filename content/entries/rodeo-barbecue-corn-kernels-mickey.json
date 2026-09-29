@@ -30,6 +30,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.357049,
+    "longitude": -81.561998
+  },
   "sourceId": "TLC-HS-0007",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-roundup-rodeo-bbq-corn",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

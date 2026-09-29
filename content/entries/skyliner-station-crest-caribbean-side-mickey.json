@@ -29,6 +29,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.365488,
+    "longitude": -81.544131
+  },
   "sourceId": "TLC-RS-0048",
   "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

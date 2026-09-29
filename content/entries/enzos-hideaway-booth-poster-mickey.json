@@ -30,6 +30,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.370383,
+    "longitude": -81.518849
+  },
   "sourceId": "TLC-DS-0002",
   "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disney-springs-enzos-hideaway-booth-wall-poster-hidden-mickey/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

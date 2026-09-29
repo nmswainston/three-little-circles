@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.370049,
+    "longitude": -81.546274
+  },
   "sourceId": "TLC-EP-0011",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-s-china-pavillion-hidden-mickeys",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

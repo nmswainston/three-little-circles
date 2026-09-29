@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.375,
+    "longitude": -81.5518
+  },
   "sourceId": "TLC-EP-0038",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-living-seas-aquarium-starfish",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

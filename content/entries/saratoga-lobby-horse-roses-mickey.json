@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.376076,
+    "longitude": -81.522636
+  },
   "sourceId": "TLC-RS-0090",
   "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2026/03/01/saratoga-springs-resort-hidden-mickey",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

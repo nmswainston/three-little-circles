@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3594,
+    "longitude": -81.5882
+  },
   "sourceId": "TLC-AK-0010",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-kali-river-rapids-boots",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

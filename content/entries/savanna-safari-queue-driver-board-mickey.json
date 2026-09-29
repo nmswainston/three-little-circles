@@ -29,6 +29,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.36,
+    "longitude": -81.5925
+  },
   "sourceId": "TLC-AK-0012",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-kusafiri-coffee-shop-bakery",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

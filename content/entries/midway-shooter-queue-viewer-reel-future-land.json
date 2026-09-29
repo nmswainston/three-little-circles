@@ -29,6 +29,10 @@
   "confidence": "Obvious",
   "verification": "Documented",
   "status": "Current",
+  "coordinates": {
+    "latitude": 28.3553,
+    "longitude": -81.5613
+  },
   "sourceId": "TLC-HS-0016",
   "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
