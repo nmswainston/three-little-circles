@@ -10,6 +10,7 @@ import SubmitSightingScreen from '../screens/SubmitSightingScreen';
 import MapScreen from '../screens/MapScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import ImportProgressScreen from '../screens/ImportProgressScreen';
+import BadgesScreen from '../screens/BadgesScreen';
 
 const Tab = createBottomTabNavigator<RootTabParamList>();
 const ParksStack = createNativeStackNavigator<RootStackParamList>();
@@ -40,6 +41,7 @@ function ProfileStackNavigator() {
   return (
     <ProfileStack.Navigator initialRouteName="Profile" screenOptions={{ headerShown: false }}>
       <ProfileStack.Screen name="Profile" component={ProfileScreen} options={{ title: 'Profile' }} />
+      <ProfileStack.Screen name="Badges" component={BadgesScreen} options={{ title: 'Badges' }} />
       <ProfileStack.Screen name="SubmitSighting" component={SubmitSightingScreen} options={{ title: 'Suggest a find' }} />
       <ProfileStack.Screen name="ImportProgress" component={ImportProgressScreen} options={{ title: 'Import progress' }} />
     </ProfileStack.Navigator>

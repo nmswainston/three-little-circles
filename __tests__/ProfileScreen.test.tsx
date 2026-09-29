@@ -2,7 +2,8 @@ import React from 'react';
 import { Linking } from 'react-native';
 import { fireEvent, render, screen } from '@testing-library/react-native';
 import ProfileScreen from '../src/screens/ProfileScreen';
-import { useAchievementsStore } from '../src/store/useAchievementsStore';
+import { computeUnlocked, getAchievement, useAchievementsStore } from '../src/store/useAchievementsStore';
+import { getAllEntries } from '../src/data/query';
 import { useFoundStore } from '../src/store/useFoundStore';
 import { useSettingsStore } from '../src/store/useSettingsStore';
 
@@ -23,6 +24,38 @@ beforeEach(() => {
   useFoundStore.setState({ found: {} });
   useAchievementsStore.setState({ unlocked: [], seen: [] });
   delete process.env.EXPO_PUBLIC_FEEDBACK_EMAIL;
+});
+
+describe('ProfileScreen badges', () => {
+  const NOW = Date.parse('2026-09-27T12:00:00Z');
+
+  it('shows only the three newest badges, a next-up row, and a link to all badges', () => {
+    const found = Object.fromEntries(getAllEntries().slice(0, 12).map((e) => [e.id, NOW]));
+    const unlocked = computeUnlocked(found);
+    expect(unlocked.length).toBeGreaterThan(3);
+    const earnedAt = Object.fromEntries(unlocked.map((id, i) => [id, NOW - i * 1000]));
+    useFoundStore.setState({ found });
+    useAchievementsStore.setState({ unlocked, earnedAt, seen: unlocked });
+
+    render(<ProfileScreen />);
+    const shown = screen
+      .getAllByRole('button')
+      .map((b) => String(b.props.accessibilityLabel ?? ''))
+      .filter((l) => l.endsWith(', unlocked'));
+    const titles = unlocked.slice(0, 3).map((id) => getAchievement(id)!.title);
+    expect(shown).toEqual(titles.map((title) => `${title}, unlocked`));
+
+    expect(screen.getAllByRole('button').some((b) => String(b.props.accessibilityLabel).startsWith('Next up: '))).toBe(
+      true
+    );
+    fireEvent.press(screen.getByRole('button', { name: 'See all badges' }));
+    expect(mockNavigate).toHaveBeenCalledWith('Badges');
+  });
+
+  it('invites a first find when nothing is earned yet', () => {
+    render(<ProfileScreen />);
+    expect(screen.getByText('Mark your first find and your first badge is yours.')).toBeTruthy();
+  });
 });
 
 describe('ProfileScreen feedback', () => {
