@@ -4,7 +4,7 @@ import { BottomTabBarProps } from '@react-navigation/bottom-tabs';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { Theme, useStyles, useTheme } from '../../theme/ThemeProvider';
-import { spacing, radii, typography } from '../../theme/tokens';
+import { spacing, typography } from '../../theme/tokens';
 import { useAchievementsStore } from '../../store/useAchievementsStore';
 
 type IconName = keyof typeof Ionicons.glyphMap;
@@ -99,7 +99,9 @@ const createStyles = (t: Theme) =>
     pill: {
       width: 52,
       height: 32,
-      borderRadius: radii.full,
+      borderRadius: 16,               // half the height, instead of radii.full
+      backgroundColor: 'transparent', // background exists from the first render
+      overflow: 'hidden',
       alignItems: 'center',
       justifyContent: 'center',
     },
