@@ -29,9 +29,14 @@ import Chip from "../components/ui/Chip";
 import Badge from "../components/ui/Badge";
 import AchievementSheet from "../components/AchievementSheet";
 import BadgeProgressRow from "../components/BadgeProgressRow";
+import ChallengeCard from "../components/ChallengeCard";
+import { challengeAchievementId } from "../data/achievements";
+import { challengeStatus, getChallenges } from "../data/challenges";
+import { useChallengeProgress } from "../store/useChallengeProgress";
 import Disclaimer from "../components/Disclaimer";
 
 const RECENT_BADGES = 3;
+const PROFILE_CHALLENGES = 3;
 
 const APPEARANCE_OPTIONS: { value: Appearance; label: string }[] = [
   { value: "system", label: "System" },
@@ -72,6 +77,20 @@ export default function ProfileScreen() {
     const [id] = closestToEarning(badgeProgress, unlocked, 1);
     return achievements.find((a) => a.id === id);
   }, [achievements, badgeProgress, unlocked]);
+
+  // Challenges in progress first (closest to done on top), then ones not
+  // started, so the section always points at something to do next.
+  const challengeProgress = useChallengeProgress();
+  const challenges = useMemo(() => {
+    const list = getChallenges().map((challenge) => ({
+      challenge,
+      progress: challengeProgress[challenge.id],
+      status: challengeStatus(challengeProgress[challenge.id], unlocked.includes(challengeAchievementId(challenge.id))),
+    }));
+    const rank = { inProgress: 0, notStarted: 1, complete: 2 } as const;
+    return list.sort((a, b) => rank[a.status] - rank[b.status] || b.progress.fraction - a.progress.fraction);
+  }, [challengeProgress, unlocked]);
+  const completeChallenges = challenges.filter((c) => c.status === "complete").length;
 
   // "New" dots stay while you look around Profile and the Badges screen, and
   // clear once you leave the tab.
@@ -242,6 +261,37 @@ export default function ProfileScreen() {
               </Pressable>
             </View>
           </Section>
+
+          {challenges.length > 0 && (
+            <Section title="Challenges">
+              <View style={styles.badgeCard}>
+                <Text style={styles.badgeCount}>
+                  {completeChallenges} of {challenges.length} complete
+                </Text>
+                {challenges.slice(0, PROFILE_CHALLENGES).map(({ challenge, progress, status }, index) => (
+                  <React.Fragment key={challenge.id}>
+                    {index > 0 && <View style={styles.divider} />}
+                    <ChallengeCard
+                      challenge={challenge}
+                      progress={progress}
+                      status={status}
+                      onPress={() => navigation.navigate("ChallengeDetail", { challengeId: challenge.id })}
+                      compact
+                    />
+                  </React.Fragment>
+                ))}
+                <Pressable
+                  onPress={() => navigation.navigate("Badges", { tab: "challenges" })}
+                  accessibilityRole="button"
+                  accessibilityLabel="See all challenges"
+                  style={({ pressed }) => [styles.seeAllButton, pressed && styles.badgePressed]}
+                >
+                  <Text style={styles.seeAllText}>See all challenges</Text>
+                  <Ionicons name="chevron-forward" size={18} color={t.colors.text} />
+                </Pressable>
+              </View>
+            </Section>
+          )}
 
           <Section title="By park">
             <View style={styles.listCard}>

@@ -129,3 +129,32 @@ export function challengeProgress(
     ...(focusGroup ? { focus: { key: focusGroup.key, name: focusGroup.name, parkId: focusGroup.parkId } } : {}),
   };
 }
+
+export type ChallengeStatus = "complete" | "inProgress" | "notStarted";
+
+/**
+ * Pure: where a challenge stands. `earned` is the badge from the store, which
+ * is kept for good, so a finished challenge stays finished even if a find is
+ * unmarked or new finds join its targets later.
+ */
+export function challengeStatus(progress: ChallengeProgress, earned: boolean): ChallengeStatus {
+  if (earned || progress.complete) return "complete";
+  return progress.current > 0 ? "inProgress" : "notStarted";
+}
+
+/** What finishing means, in a sentence for the detail screen. */
+export function goalSentence(challenge: Challenge): string {
+  switch (challenge.goal) {
+    case "all":
+      return "Find every hidden detail below.";
+    case "each":
+      return "Find at least one in every place below.";
+    case "any":
+      return `Find something at any ${challenge.count ?? 1} of the places below.`;
+  }
+}
+
+/** The unit a challenge counts in: finds for "all", places otherwise. */
+export function progressUnit(challenge: Challenge): string {
+  return challenge.goal === "all" ? "found" : "places";
+}

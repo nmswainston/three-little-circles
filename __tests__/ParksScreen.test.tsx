@@ -4,7 +4,7 @@ import ParksScreen from '../src/screens/ParksScreen';
 import { getAllEntries, searchEntries } from '../src/data/query';
 import { getDestinationSummaries } from '../src/data/destinations';
 import { useFoundStore } from '../src/store/useFoundStore';
-import { computeUnlocked, getAchievement, useAchievementsStore } from '../src/store/useAchievementsStore';
+import { computeUnlocked, getAchievement, getAchievements, useAchievementsStore } from '../src/store/useAchievementsStore';
 
 const mockNavigate = jest.fn();
 jest.mock('@react-navigation/native', () => ({
@@ -69,6 +69,18 @@ describe('ParksScreen badge card', () => {
     seed(true);
     render(<ParksScreen />);
     expect(cardLabel()).toMatch(/^Your badges: \d+ of \d+ earned\. Next up: /);
+  });
+
+  it('opens the challenge itself when the next badge is a challenge', () => {
+    const all = getAchievements().map((a) => a.id).filter((id) => id !== 'challenge:check-in-at-the-tower');
+    const tower = getAllEntries().filter((e) => e.attractionId === 'hotel_drop_tower');
+    useFoundStore.setState({ found: { [tower[0].id]: NOW } });
+    useAchievementsStore.setState({ unlocked: all, earnedAt: {}, seen: all, pending: [] });
+    render(<ParksScreen />);
+    expect(cardLabel()).toBeUndefined();
+    const card = screen.getAllByRole('button').find((b) => String(b.props.accessibilityLabel).startsWith('Challenge. '))!;
+    fireEvent.press(card);
+    expect(mockNavigate).toHaveBeenCalledWith('ChallengeDetail', { challengeId: 'check-in-at-the-tower' });
   });
 
   it('steps aside while searching', () => {

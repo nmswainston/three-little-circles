@@ -4,6 +4,7 @@ import { fireEvent, render, screen } from '@testing-library/react-native';
 import ProfileScreen from '../src/screens/ProfileScreen';
 import { computeUnlocked, getAchievement, useAchievementsStore } from '../src/store/useAchievementsStore';
 import { getAllEntries } from '../src/data/query';
+import { getChallenges } from '../src/data/challenges';
 import { useFoundStore } from '../src/store/useFoundStore';
 import { useSettingsStore } from '../src/store/useSettingsStore';
 
@@ -55,6 +56,24 @@ describe('ProfileScreen badges', () => {
   it('invites a first find when nothing is earned yet', () => {
     render(<ProfileScreen />);
     expect(screen.getByText('Mark your first find and your first badge is yours.')).toBeTruthy();
+  });
+});
+
+describe('ProfileScreen challenges', () => {
+  it('lists three challenges, started ones first, and links to the Challenges tab', () => {
+    const tower = getAllEntries().filter((e) => e.attractionId === 'hotel_drop_tower');
+    useFoundStore.setState({ found: { [tower[0].id]: 1 } });
+    render(<ProfileScreen />);
+    const cards = screen
+      .getAllByRole('button')
+      .map((b) => String(b.props.accessibilityLabel ?? ''))
+      .filter((l) => l.includes(' challenge,'));
+    expect(cards).toHaveLength(3);
+    expect(cards[0]).toMatch(/^Check In at the Tower challenge/);
+    expect(screen.getByText(`0 of ${getChallenges().length} complete`)).toBeTruthy();
+
+    fireEvent.press(screen.getByRole('button', { name: 'See all challenges' }));
+    expect(mockNavigate).toHaveBeenCalledWith('Badges', { tab: 'challenges' });
   });
 });
 

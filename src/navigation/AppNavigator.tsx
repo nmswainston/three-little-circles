@@ -11,6 +11,7 @@ import MapScreen from '../screens/MapScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import ImportProgressScreen from '../screens/ImportProgressScreen';
 import BadgesScreen from '../screens/BadgesScreen';
+import ChallengeDetailScreen from '../screens/ChallengeDetailScreen';
 
 const Tab = createBottomTabNavigator<RootTabParamList>();
 const ParksStack = createNativeStackNavigator<RootStackParamList>();
@@ -25,6 +26,7 @@ function ParksStackNavigator() {
       <ParksStack.Screen name="EntryDetail" component={EntryDetailScreen} options={{ title: 'Hidden find' }} />
       <ParksStack.Screen name="SubmitSighting" component={SubmitSightingScreen} options={{ title: 'Suggest a find' }} />
       <ParksStack.Screen name="Badges" component={BadgesScreen} options={{ title: 'Badges' }} />
+      <ParksStack.Screen name="ChallengeDetail" component={ChallengeDetailScreen} options={{ title: 'Challenge' }} />
     </ParksStack.Navigator>
   );
 }
@@ -43,6 +45,8 @@ function ProfileStackNavigator() {
     <ProfileStack.Navigator initialRouteName="Profile" screenOptions={{ headerShown: false }}>
       <ProfileStack.Screen name="Profile" component={ProfileScreen} options={{ title: 'Profile' }} />
       <ProfileStack.Screen name="Badges" component={BadgesScreen} options={{ title: 'Badges' }} />
+      <ProfileStack.Screen name="ChallengeDetail" component={ChallengeDetailScreen} options={{ title: 'Challenge' }} />
+      <ProfileStack.Screen name="EntryDetail" component={EntryDetailScreen} options={{ title: 'Hidden find' }} />
       <ProfileStack.Screen name="SubmitSighting" component={SubmitSightingScreen} options={{ title: 'Suggest a find' }} />
       <ProfileStack.Screen name="ImportProgress" component={ImportProgressScreen} options={{ title: 'Import progress' }} />
     </ProfileStack.Navigator>
