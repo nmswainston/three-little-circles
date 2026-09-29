@@ -138,7 +138,8 @@ export default function ProfileScreen() {
 
   const handleShare = async () => {
     const byPark = parks.map((p) => ({ name: p.name, found: foundByPark.get(p.parkId) ?? 0, total: p.count }));
-    const outcome = await shareText(progressShareText(foundCount, total, byPark, unlocked.length));
+    // Same count as the Badges card: each tiered badge once, at its top level.
+    const outcome = await shareText(progressShareText(foundCount, total, byPark, earnedBadges.length));
     if (outcome === "copied") notify("Copied", "Your progress is on the clipboard.");
     else if (outcome === "unavailable") notify("Couldn't share", "Sharing isn't available here.");
   };

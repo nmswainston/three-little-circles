@@ -14,6 +14,13 @@ jest.mock('@react-navigation/native', () => ({
   useFocusEffect: () => {},
 }));
 
+// Capture what Share progress would send instead of opening a share sheet.
+const mockShareText = jest.fn(async (_text: string) => 'shared' as const);
+jest.mock('../src/lib/share', () => ({
+  ...jest.requireActual('../src/lib/share'),
+  shareText: (text: string) => mockShareText(text),
+}));
+
 beforeAll(async () => {
   await useFoundStore.persist.rehydrate();
   await useAchievementsStore.persist.rehydrate();
@@ -25,6 +32,26 @@ beforeEach(() => {
   useFoundStore.setState({ found: {} });
   useAchievementsStore.setState({ unlocked: [], seen: [] });
   delete process.env.EXPO_PUBLIC_FEEDBACK_EMAIL;
+});
+
+describe('ProfileScreen share', () => {
+  it('counts Hunter once in the shared badge total, like the Badges card', async () => {
+    const found = Object.fromEntries(getAllEntries().slice(0, 12).map((e) => [e.id, 1]));
+    const unlocked = computeUnlocked(found);
+    expect(unlocked).toEqual(expect.arrayContaining(['FIRST_FIND', 'TEN_FINDS']));
+    useFoundStore.setState({ found });
+    useAchievementsStore.setState({ unlocked, earnedAt: {}, seen: unlocked });
+    mockShareText.mockClear();
+
+    render(<ProfileScreen />);
+    fireEvent.press(screen.getByRole('button', { name: 'Share progress' }));
+    await Promise.resolve();
+
+    const shown = visibleBadges(unlocked).earned.length;
+    expect(shown).toBe(unlocked.length - 1);
+    expect(mockShareText).toHaveBeenCalledWith(expect.stringContaining(`${shown} badges earned.`));
+    expect(screen.getByText(`${shown} of ${visibleBadges(unlocked).earned.length + visibleBadges(unlocked).unearned.length} earned`)).toBeTruthy();
+  });
 });
 
 describe('ProfileScreen badges', () => {
