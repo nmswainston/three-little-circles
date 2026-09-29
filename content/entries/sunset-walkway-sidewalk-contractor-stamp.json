@@ -33,10 +33,12 @@
   },
   "confidence": "Obvious",
   "verification": "Community",
+  "status": "Unverified",
   "coordinates": {
     "latitude": 28.3589,
     "longitude": -81.5594
   },
+  "sourceId": "TLC-HS-0051",
   "createdAtISO": "2026-09-23T00:00:00.000Z",
-  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }
