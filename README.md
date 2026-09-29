@@ -176,6 +176,34 @@ A development build (`eas build --profile development`) is the way to test the
 Android map with your own key while keeping hot reload: install the build, then
 `npm start` connects to it instead of Expo Go.
 
+### Shipping content over the air
+
+New finds, facts, and JavaScript fixes do not need a store release. Each build
+profile has a channel of the same name, and the app checks its channel with
+[EAS Update](https://docs.expo.dev/eas-update/introduction/) when it opens. It
+never waits on the check: the app starts on what it has, downloads any update
+in the background, and runs it on the next launch.
+
+Once a content pull request is merged:
+
+```bash
+git checkout main && git pull
+npm run content:build
+eas update --channel production --environment production --message "Studios batch"
+```
+
+Try it on `preview` first if you like; the same command with
+`--channel preview --environment preview` reaches internal test builds only.
+`--environment` loads the same EAS variables the build used, so the update
+keeps reports and suggestions switched on.
+
+`runtimeVersion` uses the fingerprint policy, so any change to native code or
+config (a new Expo package, a permission, a plugin) produces a new runtime
+version, and updates published afterwards only reach builds made afterwards.
+When a change like that lands, ship it with `eas build` and a store release,
+not `eas update`. `eas update` prints the runtime version it targets; if it
+matches no build in the stores, nobody will receive it.
+
 ## Data and Persistence
 
 Found marks are stored on the device under the key `tlc.found.v1`, badges under
@@ -224,7 +252,8 @@ can go to external testers, and again on the store listing.
 
 Keep it accurate when data handling changes. Today the app stores progress,
 badges, settings, and a random install id on the device only; uses location on
-the device without transmitting it; and sends something to Supabase only when
+the device without transmitting it; checks Expo's update service for a new
+guide version when it opens; and sends something to Supabase only when
 someone submits a sighting or taps "Still there?".
 
 ## Lessons Learned
