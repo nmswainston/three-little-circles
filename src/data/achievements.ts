@@ -1,5 +1,5 @@
 import { entries } from "./entries";
-import { getDestinationSummaries } from "./destinations";
+import { getDestinationSummaries, isThemePark } from "./destinations";
 import { HiddenMickeyEntry } from "./types";
 import { labelOrFallback } from "./labels";
 import { groupProgress, isComplete, ProgressGroup } from "../utils/progress";
@@ -25,7 +25,7 @@ import { challengeProgress, getChallenges } from "./challenges";
  */
 export type AchievementId = string;
 
-export type AchievementKind = "milestone" | "skill" | "park" | "challenge";
+export type AchievementKind = "milestone" | "skill" | "park" | "challenge" | "secret";
 
 export interface Achievement {
   id: AchievementId;
@@ -44,6 +44,8 @@ export interface Achievement {
   challengeId?: string;
   /** Set on each level of a tiered badge */
   tier?: AchievementTier;
+  /** Shown only as "???" until earned */
+  secret?: boolean;
 }
 
 /**
@@ -276,7 +278,83 @@ const SKILL: Rule[] = [
   },
 ];
 
-const FIXED: Rule[] = [...MILESTONES, ...SKILL];
+// Secret badges stay "???" until earned, so their hint never shows; the
+// description is the reveal.
+const SECRET_HINT = "A secret badge. Keep exploring and it will show itself.";
+
+const hourOf = (timestamp: number): number => new Date(timestamp).getHours();
+const markedHours = ({ found, foundEntries }: RuleContext): number[] =>
+  foundEntries.map((e) => found[e.id]).filter((at) => typeof at === "number" && Number.isFinite(at)).map(hourOf);
+
+/** The most different theme parks with a find on any one local day. */
+function mostParksInOneDay({ found, foundEntries }: RuleContext): number {
+  const perDay = new Map<string, Set<string>>();
+  let best = 0;
+  for (const entry of foundEntries) {
+    const at = found[entry.id];
+    if (typeof at !== "number" || !Number.isFinite(at) || !isThemePark(entry.parkId)) continue;
+    const key = dayKey(at);
+    const parks = perDay.get(key) ?? new Set<string>();
+    parks.add(entry.parkId);
+    perDay.set(key, parks);
+    best = Math.max(best, parks.size);
+  }
+  return best;
+}
+
+const PARK_HOPPER_PARKS = 3;
+const ROPE_DROP_BEFORE = 9;
+const NIGHT_OWL_FROM = 21;
+const NIGHT_OWL_UNTIL = 4;
+
+const SECRET: Rule[] = [
+  {
+    id: "PARK_HOPPER",
+    kind: "secret",
+    secret: true,
+    title: "Park Hopper",
+    description: `Finds in ${PARK_HOPPER_PARKS} different parks in a single day.`,
+    hint: SECRET_HINT,
+    icon: "shuffle",
+    progress: (ctx) => ({ current: mostParksInOneDay(ctx), goal: PARK_HOPPER_PARKS }),
+    reachable: () => new Set(entries.filter((e) => isThemePark(e.parkId)).map((e) => e.parkId)).size >= PARK_HOPPER_PARKS,
+  },
+  {
+    id: "TOPSY_TURVY",
+    kind: "secret",
+    secret: true,
+    title: "Topsy-Turvy",
+    description: "You spotted a Hidden Mickey hiding upside down.",
+    hint: SECRET_HINT,
+    icon: "swap-vertical",
+    progress: ({ foundEntries }) => count(foundEntries, 1, (e) => e.whereToLook?.orientation === "Upside-down"),
+    reachable: () => entries.some((e) => e.whereToLook?.orientation === "Upside-down"),
+  },
+  {
+    id: "ROPE_DROP",
+    kind: "secret",
+    secret: true,
+    title: "Rope Drop",
+    description: "A find marked before 9 in the morning. The early guest gets the Mickey.",
+    hint: SECRET_HINT,
+    icon: "sunny",
+    progress: (ctx) => ({ current: markedHours(ctx).some((h) => h >= NIGHT_OWL_UNTIL && h < ROPE_DROP_BEFORE) ? 1 : 0, goal: 1 }),
+    reachable: () => entries.length > 0,
+  },
+  {
+    id: "NIGHT_OWL",
+    kind: "secret",
+    secret: true,
+    title: "Night Owl",
+    description: "A find marked after 9 at night, around fireworks time.",
+    hint: SECRET_HINT,
+    icon: "moon",
+    progress: (ctx) => ({ current: markedHours(ctx).some((h) => h >= NIGHT_OWL_FROM || h < NIGHT_OWL_UNTIL) ? 1 : 0, goal: 1 }),
+    reachable: () => entries.length > 0,
+  },
+];
+
+const FIXED: Rule[] = [...MILESTONES, ...SKILL, ...SECRET];
 
 const strip = ({ progress: _progress, reachable: _reachable, ...achievement }: Rule): Achievement => achievement;
 
@@ -339,9 +417,9 @@ export function getAchievement(id: AchievementId): Achievement | undefined {
   return getAchievements({ includeUnreachable: true }).find((a) => a.id === id);
 }
 
-/** How many fixed badges are waiting on more content. */
+/** How many fixed badges are waiting on more content. Secrets stay secret. */
 export function countUnreachableAchievements(): number {
-  return FIXED.filter((rule) => !rule.reachable()).length;
+  return FIXED.filter((rule) => !rule.secret && !rule.reachable()).length;
 }
 
 const contextFor = (found: Record<string, number>): RuleContext => ({
@@ -408,7 +486,8 @@ export function closestToEarning(
   const candidates: { id: AchievementId; order: number; p: AchievementProgress }[] = [];
   all.forEach((achievement, order) => {
     const p = progress[achievement.id];
-    if (!p || earned.has(achievement.id)) return;
+    // An unearned secret never shows up as a nudge: that would give it away.
+    if (!p || earned.has(achievement.id) || achievement.secret) return;
     if (achievement.tier) {
       // Only the next level of a tiered badge is a candidate, and once a
       // level is earned the badge lives under Earned unless nextTiers asks
@@ -432,21 +511,25 @@ export function tierLadder(group: string, all: Achievement[] = getAchievements()
 /**
  * Pure: the badges as screens show them, with each tiered badge as one entry.
  * A tiered badge with any level earned counts as earned, shown at its highest
- * level; otherwise it waits under unearned at its first level.
+ * level; otherwise it waits under unearned at its first level. Secret badges
+ * not yet earned go in `hidden`, apart from the rest, so screens can show
+ * them as "???" and leave them out of the totals.
  */
 export function visibleBadges(
   unlocked: readonly AchievementId[],
   all: Achievement[] = getAchievements()
-): { earned: Achievement[]; unearned: Achievement[] } {
+): { earned: Achievement[]; unearned: Achievement[]; hidden: Achievement[] } {
   const have = new Set(unlocked);
   const earned: Achievement[] = [];
   const unearned: Achievement[] = [];
+  const hidden: Achievement[] = [];
   const doneGroups = new Set<string>();
 
   for (const achievement of all) {
     const tier = achievement.tier;
     if (!tier) {
-      (have.has(achievement.id) ? earned : unearned).push(achievement);
+      if (have.has(achievement.id)) earned.push(achievement);
+      else (achievement.secret ? hidden : unearned).push(achievement);
       continue;
     }
     if (doneGroups.has(tier.group)) continue;
@@ -456,5 +539,5 @@ export function visibleBadges(
     if (top) earned.push(top);
     else unearned.push(ladder[0]);
   }
-  return { earned, unearned };
+  return { earned, unearned, hidden };
 }

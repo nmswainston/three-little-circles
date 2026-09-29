@@ -107,6 +107,23 @@ describe('BadgesScreen', () => {
   });
 });
 
+describe('BadgesScreen secrets', () => {
+  it('shows each hidden secret as a ??? card and says how many are hiding', () => {
+    render(<BadgesScreen />);
+    const hidden = visibleBadges([]).hidden.length;
+    expect(screen.getByText(`Plus ${hidden} secret badges still hiding somewhere.`)).toBeTruthy();
+    expect(screen.getAllByText('???')).toHaveLength(hidden);
+    expect(screen.queryByText('Night Owl')).toBeNull();
+  });
+
+  it('reveals a secret once it is earned', () => {
+    useAchievementsStore.setState({ unlocked: ['NIGHT_OWL'], earnedAt: { NIGHT_OWL: NOW }, seen: ['NIGHT_OWL'], pending: [] });
+    render(<BadgesScreen />);
+    expect(screen.getByText('Night Owl')).toBeTruthy();
+    expect(screen.getAllByText('???')).toHaveLength(visibleBadges([]).hidden.length - 1);
+  });
+});
+
 describe('BadgesScreen challenges tab', () => {
   it('lists every challenge and opens one', () => {
     render(<BadgesScreen />);
