@@ -566,22 +566,32 @@ function ioniconNames() {
   return ioniconsCache;
 }
 
-/** The entries a target covers, or undefined when the target is malformed. */
-function resolveTarget(target, entries) {
-  const keys = Object.keys(target);
-  if (keys.length !== 1 || !TARGET_KINDS.includes(keys[0]) || !isNonEmptyString(target[keys[0]])) return undefined;
-  const [kind] = keys;
-  const value = target[kind];
+/** The id an entry has at the given level: its attraction, land, park, or itself. */
+function idAt(kind, e) {
   switch (kind) {
     case "entry":
-      return entries.filter((e) => e.id === value);
+      return e.id;
     case "park":
-      return entries.filter((e) => e.parkId === value);
+      return e.parkId;
     case "land":
-      return entries.filter((e) => `${e.parkId}/${e.landId}` === value);
+      return `${e.parkId}/${e.landId}`;
     case "attraction":
-      return entries.filter((e) => `${e.parkId}/${e.landId}/${e.attractionId}` === value);
+      return `${e.parkId}/${e.landId}/${e.attractionId}`;
   }
+}
+
+/**
+ * A target's kind and its ids (a single id or a non-empty list of them), or
+ * undefined when the target is malformed.
+ */
+function unpackTarget(target) {
+  const keys = Object.keys(target);
+  if (keys.length !== 1 || !TARGET_KINDS.includes(keys[0])) return undefined;
+  const [kind] = keys;
+  const value = target[kind];
+  const ids = Array.isArray(value) ? value : [value];
+  if (ids.length === 0 || !ids.every(isNonEmptyString)) return undefined;
+  return { kind, ids };
 }
 
 function validateChallenge(file, c, entries, destinations) {
@@ -620,17 +630,21 @@ function validateChallenge(file, c, entries, destinations) {
       fail(file, `${label} must be an object like {"attraction": "park/land/attraction"}`);
       return;
     }
-    const matched = resolveTarget(target, entries);
-    if (matched === undefined) {
-      fail(file, `${label} must have exactly one of ${TARGET_KINDS.map((k) => `"${k}"`).join(", ")}, set to an id`);
+    const unpacked = unpackTarget(target);
+    if (unpacked === undefined) {
+      fail(
+        file,
+        `${label} must have exactly one of ${TARGET_KINDS.map((k) => `"${k}"`).join(", ")}, set to an id or a list of ids`
+      );
       return;
     }
     const key = JSON.stringify(target);
     if (seenTargets.has(key)) fail(file, `${label} repeats an earlier target`);
     seenTargets.add(key);
-    if (matched.length === 0) {
-      const [kind] = Object.keys(target);
-      fail(file, `${label} ${kind} "${target[kind]}" matches no entries`);
+    // Every id must match something, so a typo in a grouped target still fails.
+    const { kind, ids } = unpacked;
+    for (const id of ids) {
+      if (!entries.some((e) => idAt(kind, e) === id)) fail(file, `${label} ${kind} "${id}" matches no entries`);
     }
   });
 

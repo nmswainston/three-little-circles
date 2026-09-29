@@ -141,15 +141,16 @@ export type ParkFact = {
 };
 
 /**
- * One thing a challenge covers. Exactly one key is set: an attraction as
+ * One place a challenge covers. Exactly one key is set: an attraction as
  * "parkId/landId/attractionId", a land as "parkId/landId", a whole park by
- * parkId, or a single find by entry id.
+ * parkId, or a single find by entry id. A list of ids of the same kind is
+ * one place, for a resort split across two lands in the content.
  */
 export type ChallengeTarget =
-  | { attraction: string }
-  | { land: string }
-  | { park: string }
-  | { entry: string };
+  | { attraction: string | string[] }
+  | { land: string | string[] }
+  | { park: string | string[] }
+  | { entry: string | string[] };
 
 /**
  * A themed hunt with a badge at the end. `goal` says what finishing means:

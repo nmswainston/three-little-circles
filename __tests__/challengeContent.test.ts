@@ -71,6 +71,21 @@ describe('challenge validation in the content build', () => {
     expect(run.generated).toContain('"id": "studio-sampler"');
   });
 
+  it('accepts a list of ids as one target, and checks every id in it', () => {
+    const grouped = { land: ['studios_park/sunset_area', 'studios_park/toy_area'] };
+    const ok = build([{ ...valid, goal: 'any', count: 1, targets: [grouped] }]);
+    expect(ok.stderr).toBe('');
+    expect(ok.status).toBe(0);
+
+    const typo = build([{ ...valid, targets: [{ land: ['studios_park/sunset_area', 'studios_park/typo_area'] }] }]);
+    expect(typo.status).toBe(1);
+    expect(typo.stderr).toContain('targets[0] land "studios_park/typo_area" matches no entries');
+
+    const empty = build([{ ...valid, targets: [{ land: [] }] }]);
+    expect(empty.status).toBe(1);
+    expect(empty.stderr).toContain('set to an id or a list of ids');
+  });
+
   it('rejects a target that matches no entries', () => {
     const run = build([{ ...valid, targets: [{ attraction: 'studios_park/sunset_area/typo_ride' }] }]);
     expect(run.status).toBe(1);

@@ -45,36 +45,65 @@ export type ChallengeProgress = {
   focus?: ProgressFocus;
 };
 
+type TargetKind = "attraction" | "land" | "park" | "entry";
+
+/** A target as its kind and the ids it lists; a single id is a list of one. */
+function unpack(target: ChallengeTarget): { kind: TargetKind; ids: string[] } {
+  const kind = Object.keys(target)[0] as TargetKind;
+  const value = (target as Record<TargetKind, string | string[]>)[kind];
+  return { kind, ids: Array.isArray(value) ? value : [value] };
+}
+
+/** The id an entry has at the given level: its attraction, land, park, or itself. */
+function idAt(kind: TargetKind, e: HiddenMickeyEntry): string {
+  switch (kind) {
+    case "attraction":
+      return `${e.parkId}/${e.landId}/${e.attractionId}`;
+    case "land":
+      return `${e.parkId}/${e.landId}`;
+    case "park":
+      return e.parkId;
+    case "entry":
+      return e.id;
+  }
+}
+
 function targetKey(target: ChallengeTarget): string {
-  if ("attraction" in target) return target.attraction;
-  if ("land" in target) return target.land;
-  if ("park" in target) return target.park;
-  return `entry:${target.entry}`;
+  const { kind, ids } = unpack(target);
+  return kind === "entry" ? `entry:${ids.join("+")}` : ids.join("+");
 }
 
 function matches(target: ChallengeTarget, e: HiddenMickeyEntry): boolean {
-  if ("attraction" in target) return `${e.parkId}/${e.landId}/${e.attractionId}` === target.attraction;
-  if ("land" in target) return `${e.parkId}/${e.landId}` === target.land;
-  if ("park" in target) return e.parkId === target.park;
-  return e.id === target.entry;
+  const { kind, ids } = unpack(target);
+  return ids.includes(idAt(kind, e));
 }
 
-function targetName(target: ChallengeTarget, first: HiddenMickeyEntry | undefined): string {
-  if ("attraction" in target) return labelOrFallback(first?.display?.attractionName, first?.attractionId ?? target.attraction);
-  if ("land" in target) return labelOrFallback(first?.display?.landName, first?.landId ?? target.land);
-  if ("park" in target) return getDestination(target.park)?.name ?? labelOrFallback(first?.display?.parkName, target.park);
-  return labelOrFallback(first?.display?.entryTitle, target.entry);
+/** A target is named after its first id, so a resort's main land names the pair. */
+function targetName(target: ChallengeTarget, covered: HiddenMickeyEntry[]): string {
+  const { kind, ids } = unpack(target);
+  const [id] = ids;
+  const first = covered.find((e) => idAt(kind, e) === id) ?? covered[0];
+  switch (kind) {
+    case "attraction":
+      return labelOrFallback(first?.display?.attractionName, first?.attractionId ?? id);
+    case "land":
+      return labelOrFallback(first?.display?.landName, first?.landId ?? id);
+    case "park":
+      return getDestination(id)?.name ?? labelOrFallback(first?.display?.parkName, id);
+    case "entry":
+      return labelOrFallback(first?.display?.entryTitle, id);
+  }
 }
 
 /** Pure: each target with the entries it covers, in the challenge's order. */
 export function challengeGroups(challenge: Challenge, list: HiddenMickeyEntry[] = allEntries): ChallengeGroup[] {
   return challenge.targets.map((target) => {
     const covered = list.filter((e) => matches(target, e));
-    const first = covered[0];
+    const { kind, ids } = unpack(target);
     return {
       key: targetKey(target),
-      name: targetName(target, first),
-      parkId: first?.parkId ?? ("park" in target ? target.park : ""),
+      name: targetName(target, covered),
+      parkId: covered[0]?.parkId ?? (kind === "park" ? ids[0] : ""),
       entries: covered,
     };
   });

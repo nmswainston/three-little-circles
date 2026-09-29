@@ -106,3 +106,21 @@ describe('challengeEntries and sharedParkId', () => {
     expect(sharedParkId(at(JUNGLE))).toBe('magic_kingdom_park');
   });
 });
+
+describe('grouped targets', () => {
+  const RESORT = 'resorts_bucket/coronado_springs_resort';
+  const TOWER = 'resorts_bucket/coronado_springs_gran_destino';
+
+  it('counts a list of lands as one place, named after the first', () => {
+    const c = challenge('any', [{ land: [RESORT, TOWER] }, { land: CANADA }], 2);
+    const [coronado] = challengeGroups(c);
+    expect(coronado.name).toBe('Coronado Springs Resort');
+    expect(coronado.entries).toHaveLength(inLand(RESORT).length + inLand(TOWER).length);
+
+    // Finds in both lands still make one place, not two.
+    const both = challengeProgress(c, asFound([inLand(RESORT)[0], inLand(TOWER)[0]]));
+    expect(both).toMatchObject({ current: 1, goal: 2, complete: false });
+    // A find in the tower alone counts for the resort.
+    expect(challengeProgress(c, asFound([inLand(TOWER)[0]])).groups[0].done).toBe(true);
+  });
+});
