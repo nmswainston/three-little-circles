@@ -18,7 +18,7 @@
     "scene": "Walkway between the bazaar shop across from the ride exit and the ride itself",
     "exactSpot": "Find the pole at the shop with a thick blue stripe at the bottom. Take about three steps toward the ride and look down at the cement for the charm."
   },
-  "bestTip": "Use the blue-striped pole as your anchor and count your steps. Look down before you look around.",
+  "bestTip": "Look down, not around. The walkway itself is where to search.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -38,5 +38,5 @@
   ],
   "sourceId": "TLC-MK-0025",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

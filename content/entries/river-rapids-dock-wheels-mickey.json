@@ -19,7 +19,7 @@
     "exactSpot": "Three spoked wheels leaning against a crate: one large wheel with two smaller wheels on top, forming the classic shape.",
     "orientation": "Upright"
   },
-  "bestTip": "Look across the water while you wait for your raft rather than after you sit down. Once the raft moves, the crate slides out of view.",
+  "bestTip": "Look across the water while you wait for your raft rather than after you sit down. Once the raft moves, it slides out of view.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -35,5 +35,5 @@
     "longitude": -81.5882
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

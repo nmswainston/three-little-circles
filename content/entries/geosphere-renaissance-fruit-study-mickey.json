@@ -18,7 +18,7 @@
     "scene": "Renaissance painter's studio",
     "exactSpot": "The fruit the artist is studying. Look at how the pieces are grouped."
   },
-  "bestTip": "Find the painter first, then the paint marks, then the fruit.",
+  "bestTip": "Find the painter first, then look at what he is studying.",
   "viewing": {
     "motion": "Moving",
     "lighting": "Dim",
@@ -36,5 +36,5 @@
   "sourceId": "TLC-EP-0030",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-art",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

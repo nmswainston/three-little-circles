@@ -18,7 +18,7 @@
     "scene": "Large entrance sign over the boat ride queue",
     "exactSpot": "Directly below the letter J. Three barnacles set as head and ears."
   },
-  "bestTip": "Stand under the sign and look straight up at the first letter.",
+  "bestTip": "Stand under the sign and look straight up. Read it letter by letter.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -35,5 +35,5 @@
   },
   "sourceId": "TLC-MK-0021",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

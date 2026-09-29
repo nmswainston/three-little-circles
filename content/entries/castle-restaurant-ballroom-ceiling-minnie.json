@@ -18,7 +18,7 @@
     "scene": "Ballroom dining room with the painted sky ceiling",
     "exactSpot": "Front right portion of the ceiling, near the outer edge where the clouds thin out."
   },
-  "bestTip": "Stand near the front right of the room and look for the bow first. The ceiling is high, so give your eyes a moment.",
+  "bestTip": "The ceiling is high and busy, so give your eyes a moment. Look for a bow, not ears.",
   "viewing": {
     "motion": "Still",
     "lighting": "Dim",
@@ -36,5 +36,5 @@
   },
   "sourceId": "TLC-MK-0004",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

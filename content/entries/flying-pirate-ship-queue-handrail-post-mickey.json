@@ -19,7 +19,7 @@
     "exactSpot": "Seventh handrail post counting from the end of the handrail. Midway up the post, the classic shape faces you.",
     "orientation": "Upright"
   },
-  "bestTip": "Count posts from the end of the rail while the line is stopped, then check midway up the seventh.",
+  "bestTip": "Count the handrail posts from the end of the rail while the line is stopped.",
   "viewing": {
     "motion": "Still",
     "lighting": "Mixed",
@@ -34,5 +34,5 @@
     "longitude": -117.9188
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

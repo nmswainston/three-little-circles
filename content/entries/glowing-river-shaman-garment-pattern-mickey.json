@@ -18,7 +18,7 @@
     "scene": "Shaman scene at the end of the ride",
     "exactSpot": "The pattern of the shaman's garment. Look at the woven design across her body."
   },
-  "bestTip": "The boat lingers here. Look at the fabric rather than her face.",
+  "bestTip": "The boat lingers here. Look past her face.",
   "viewing": {
     "motion": "Moving",
     "lighting": "Dim",
@@ -36,5 +36,5 @@
   "sourceId": "TLC-AK-0014",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-na-vi-river-journey",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

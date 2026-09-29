@@ -18,7 +18,7 @@
     "scene": "Front of the great tree, the carved tiger",
     "exactSpot": "To the right of the tiger, a patch of moss forms the classic shape."
   },
-  "bestTip": "Find the tiger carving first from the main viewing path, then scan the moss to its right.",
+  "bestTip": "Start from the main viewing path and find the tiger carving. Then look around it.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -33,5 +33,5 @@
     "longitude": -81.5906
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

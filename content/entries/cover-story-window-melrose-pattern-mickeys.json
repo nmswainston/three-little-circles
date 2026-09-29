@@ -17,7 +17,7 @@
     "scene": "Window of the shop on the boulevard",
     "exactSpot": "Below where the window says Melrose. The pattern there forms several three-circle shapes."
   },
-  "bestTip": "Find the word Melrose on the glass and look just under it.",
+  "bestTip": "Read the lettering on the glass slowly. The shapes are in the pattern, not the words.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -32,5 +32,5 @@
     "longitude": -81.5591
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

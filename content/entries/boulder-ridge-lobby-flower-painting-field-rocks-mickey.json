@@ -18,7 +18,7 @@
     "scene": "Flower painting on the right side of the villas lobby",
     "exactSpot": "The open field, away from the river. Look for three rocks together."
   },
-  "bestTip": "After the river, move your eyes to the meadow.",
+  "bestTip": "This is one of three on the painting. Look away from the river.",
   "viewing": {
     "motion": "Still",
     "lighting": "Mixed",
@@ -36,5 +36,5 @@
   "sourceId": "TLC-RS-0053",
   "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

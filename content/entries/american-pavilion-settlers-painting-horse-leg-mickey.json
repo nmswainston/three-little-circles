@@ -17,7 +17,7 @@
     "scene": "Paintings on display inside the pavilion, the one showing early settlers crossing a river",
     "exactSpot": "Near the leg of one of the horses."
   },
-  "bestTip": "Find the horses first, then check the ground and water around each leg.",
+  "bestTip": "Find the horses first, then slow down. The shape is small.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -32,5 +32,5 @@
     "longitude": -81.5498
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

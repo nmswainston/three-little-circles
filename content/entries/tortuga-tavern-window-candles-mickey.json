@@ -17,7 +17,7 @@
     "scene": "Window of the tavern in the pirate plaza, viewed from outside",
     "exactSpot": "Three candles just inside the window, lined up in the classic shape."
   },
-  "bestTip": "Stand square to the window. The candles only line up from straight on.",
+  "bestTip": "Stand square to the window. It only lines up from straight on.",
   "viewing": {
     "motion": "Still",
     "lighting": "Mixed",
@@ -33,5 +33,5 @@
     "longitude": -81.584
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

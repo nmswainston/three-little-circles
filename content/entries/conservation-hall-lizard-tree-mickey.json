@@ -18,7 +18,7 @@
     "scene": "Tree to the right of the willow",
     "exactSpot": "Find the cockroach sign, then the lizard above it, then look just above the lizard's front leg."
   },
-  "bestTip": "Follow the chain: sign, lizard, leg. Each one points to the next.",
+  "bestTip": "There is a trail of clues on this tree. Start at the sign.",
   "viewing": {
     "motion": "Still",
     "lighting": "Dim",
@@ -36,5 +36,5 @@
   "sourceId": "TLC-AK-0022",
   "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

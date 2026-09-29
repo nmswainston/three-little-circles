@@ -18,7 +18,7 @@
     "scene": "Garage electronics scene",
     "exactSpot": "The desktop. Look at the small items for an eraser in the three-circle shape."
   },
-  "bestTip": "The vehicle turns slowly here. Watch the desk rather than the screen.",
+  "bestTip": "The vehicle turns slowly here. Look at the clutter rather than the screen.",
   "viewing": {
     "motion": "Moving",
     "lighting": "Dim",
@@ -36,5 +36,5 @@
   "sourceId": "TLC-EP-0031",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-eraser",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

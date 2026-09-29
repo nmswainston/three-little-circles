@@ -18,7 +18,7 @@
     "scene": "Low mural just before the theater",
     "exactSpot": "The silver frog. Look into its left eye."
   },
-  "bestTip": "Crouch. The mural is low and the frog is near the floor.",
+  "bestTip": "Crouch. The mural is low and easy to walk past.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -36,5 +36,5 @@
   "sourceId": "TLC-AK-0019",
   "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

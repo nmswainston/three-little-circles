@@ -19,7 +19,7 @@
     "exactSpot": "Bottom left corner of the banquet table. A plate and two saucers form the classic shape.",
     "orientation": "Upright"
   },
-  "bestTip": "Look at the near left corner of the table as soon as the ballroom opens up, before the dancers distract you.",
+  "bestTip": "Look at the table as soon as the ballroom opens up, before the dancers distract you.",
   "viewing": {
     "motion": "Moving",
     "lighting": "Dim",
@@ -35,5 +35,5 @@
   "sourceId": "TLC-MK-0041",
   "status": "Variable",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

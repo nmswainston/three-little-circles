@@ -18,7 +18,7 @@
     "exactSpot": "Blue armadillo. Three spots on the right front shoulder form the classic shape.",
     "orientation": "Upright"
   },
-  "bestTip": "Wait for the ride to stop and find the blue armadillo in the inner ring, or ride it and check the shoulder before you climb on.",
+  "bestTip": "Wait for the ride to stop, then check the inner ring of critters one by one.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -33,5 +33,5 @@
     "longitude": -117.9212
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

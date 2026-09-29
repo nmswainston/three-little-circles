@@ -19,7 +19,7 @@
     "exactSpot": "Middle of the group of cards. The ace of clubs has a Mickey in place of the club at its center.",
     "orientation": "Upright"
   },
-  "bestTip": "Step to the middle of the shop and look straight up. Find the ace before you hunt for the shape.",
+  "bestTip": "Step to the middle of the shop and look straight up. Read the cards one at a time.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -34,5 +34,5 @@
     "longitude": -117.9188
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

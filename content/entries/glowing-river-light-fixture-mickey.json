@@ -18,7 +18,7 @@
     "scene": "Early part of the express-entry queue, the row of standing plant-like light fixtures on your left",
     "exactSpot": "Fourth fixture from the start on your left. The shape is traced near the top middle, toward the end of the fixture."
   },
-  "bestTip": "Count the fixtures as you pass them and slow down at the fourth. Look at the upper part rather than the base.",
+  "bestTip": "Count the fixtures as you pass them, and look high rather than at the base.",
   "viewing": {
     "motion": "Still",
     "lighting": "Mixed",
@@ -34,5 +34,5 @@
     "longitude": -81.5918
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

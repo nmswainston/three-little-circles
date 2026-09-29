@@ -18,7 +18,7 @@
     "exactSpot": "Upper left of the refrigerator door. Three magnets form the classic shape.",
     "orientation": "Upright"
   },
-  "bestTip": "Start at the top left corner of the door and work inward. Ignore the character magnets and look for three plain circles touching.",
+  "bestTip": "Ignore the character magnets. The answer is plainer than they are.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -34,5 +34,5 @@
     "longitude": -81.5504
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

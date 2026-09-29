@@ -18,7 +18,7 @@
     "scene": "The large mural early in the boat ride",
     "exactSpot": "Three bubbles on the mural form the classic shape."
   },
-  "bestTip": "Scan the mural's bubbles for a group of three that touch.",
+  "bestTip": "Scan the whole mural early. The boat does not wait.",
   "viewing": {
     "motion": "Moving",
     "lighting": "Dim",
@@ -32,5 +32,5 @@
     "longitude": -81.5527
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

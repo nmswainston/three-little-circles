@@ -19,7 +19,7 @@
     "exactSpot": "Upper left border of the drawings. Three small black circles form the classic shape sideways, turned to the right, with lighter ears and a darker head.",
     "orientation": "Sideways"
   },
-  "bestTip": "Study the border of the page rather than the sketches in the middle. The lighter ear circles are the giveaway.",
+  "bestTip": "Study the edges of the page rather than the sketches in the middle.",
   "viewing": {
     "motion": "Still",
     "lighting": "Mixed",
@@ -35,5 +35,5 @@
     "longitude": -81.5928
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

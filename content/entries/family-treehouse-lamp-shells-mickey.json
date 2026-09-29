@@ -18,7 +18,7 @@
     "scene": "Mother's music room in the treehouse, the shelf with the lamp next to the family's storybook",
     "exactSpot": "Middle of the lampshade. A round red seashell with two smaller orange shells as ears, tilted to the right."
   },
-  "bestTip": "Find the book on the shelf first, then check the lampshade beside it.",
+  "bestTip": "Find the storybook on the shelf first, then look closely at everything around it.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -33,5 +33,5 @@
     "longitude": -117.9205
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

@@ -19,7 +19,7 @@
     "exactSpot": "Once the bubbles clear, look back over your left shoulder for an open clam holding three blue pearls arranged in the classic shape.",
     "orientation": "Upright"
   },
-  "bestTip": "Turn to look back and left the moment the bubbles fade after the waterfall. The clam is behind you, not ahead.",
+  "bestTip": "Turn to look back and left the moment the bubbles fade after the waterfall. It is behind you, not ahead.",
   "viewing": {
     "motion": "Moving",
     "lighting": "Dim",
@@ -34,5 +34,5 @@
     "longitude": -81.5604
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

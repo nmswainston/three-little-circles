@@ -19,7 +19,7 @@
     "exactSpot": "On the far side of the tree, two clusters of mushrooms and fungi. Halfway up the left cluster, as you face the tree from the far side, three small round mushrooms form the classic shape.",
     "orientation": "Upright"
   },
-  "bestTip": "Pass the tree, turn around, and face it from the far side. Scan halfway up the left cluster.",
+  "bestTip": "Pass the tree, then turn around. It only works from the far side.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -35,5 +35,5 @@
     "longitude": -81.5915
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

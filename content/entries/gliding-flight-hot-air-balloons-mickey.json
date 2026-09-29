@@ -18,7 +18,7 @@
     "scene": "The hot air balloon scene",
     "exactSpot": "Three balloons briefly form the classic shape as they come on screen."
   },
-  "bestTip": "The moment the balloons appear, look for the tightest cluster of three rather than any single balloon.",
+  "bestTip": "The moment the balloons appear, take in the whole group rather than any single balloon. It lasts a moment.",
   "viewing": {
     "motion": "Moving",
     "lighting": "Bright",
@@ -33,5 +33,5 @@
     "longitude": -81.5527
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

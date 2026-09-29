@@ -19,7 +19,7 @@
     "exactSpot": "Two sets of gears on the ground. The second set forms the classic shape.",
     "orientation": "Upright"
   },
-  "bestTip": "As soon as the brakes grab, turn right and watch the ground. Skip the first set of gears and focus on the second.",
+  "bestTip": "As soon as the brakes grab, turn right and look down. Be patient: the first thing you see is not it.",
   "viewing": {
     "motion": "Moving",
     "lighting": "Bright",
@@ -35,5 +35,5 @@
   "sourceId": "TLC-MK-0049",
   "status": "Unverified",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

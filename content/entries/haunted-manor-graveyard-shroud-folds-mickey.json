@@ -18,7 +18,7 @@
     "scene": "Graveyard scene, near the end",
     "exactSpot": "The hooded figure's shroud. Look at the folds of the fabric."
   },
-  "bestTip": "The car turns toward it. Watch the fabric, not the face.",
+  "bestTip": "The car turns toward the figure, so you get a good look. Don't stop at the face.",
   "viewing": {
     "motion": "Moving",
     "lighting": "Dim",
@@ -35,5 +35,5 @@
   },
   "sourceId": "TLC-MK-0042",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }
