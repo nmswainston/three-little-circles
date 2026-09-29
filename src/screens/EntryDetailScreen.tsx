@@ -125,8 +125,11 @@ export default function EntryDetailScreen() {
     { label: "Exact spot", value: entry.whereToLook.exactSpot },
     ...(entry.whereToLook.orientation ? [{ label: "Orientation", value: entry.whereToLook.orientation }] : []),
   ];
+  // The scene is free: it points the guest the right way without giving the
+  // find away. Hints start after it.
+  const GIVEN = 1;
   const ladder = hintMode && !found;
-  const shown = ladder ? Math.min(revealed, steps.length) : steps.length;
+  const shown = ladder ? Math.min(Math.max(revealed, GIVEN), steps.length) : steps.length;
   const spoilersHidden = shown < steps.length;
   const imageSource = getEntryImageSource(entry);
 
@@ -225,6 +228,7 @@ export default function EntryDetailScreen() {
           <WhereToLook
             steps={steps}
             revealed={shown}
+            given={GIVEN}
             onRevealNext={() => setRevealed(shown + 1)}
             onRevealAll={() => setRevealed(steps.length)}
             accent={palette.accent}

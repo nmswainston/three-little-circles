@@ -57,4 +57,27 @@ describe('WhereToLook', () => {
     render(<WhereToLook steps={steps} revealed={-3} {...colors} />);
     expect(screen.getByText('0 of 3 hints')).toBeTruthy();
   });
+
+  it('opens given steps from the start without counting them as hints', () => {
+    const onRevealNext = jest.fn();
+    render(<WhereToLook steps={steps} revealed={0} given={1} onRevealNext={onRevealNext} {...colors} />);
+
+    expect(screen.getByText(steps[0].value)).toBeTruthy();
+    expect(screen.queryByText(steps[1].value)).toBeNull();
+    expect(screen.getByText('0 of 2 hints')).toBeTruthy();
+    expect(screen.getByText('First hint')).toBeTruthy();
+    fireEvent.press(screen.getByRole('button', { name: 'Show the first hint' }));
+    expect(onRevealNext).toHaveBeenCalledTimes(1);
+  });
+
+  it('counts a single remaining hint in the singular', () => {
+    render(<WhereToLook steps={steps.slice(0, 2)} revealed={1} given={1} {...colors} />);
+    expect(screen.getByText('0 of 1 hint')).toBeTruthy();
+
+    screen.unmount();
+    render(<WhereToLook steps={steps.slice(0, 2)} revealed={2} given={1} {...colors} />);
+    expect(screen.queryByText(/hints?$/)).toBeNull();
+    expect(screen.getByText(steps[1].value)).toBeTruthy();
+  });
 });
+

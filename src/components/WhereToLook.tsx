@@ -11,6 +11,11 @@ interface WhereToLookProps {
   steps: LookStep[];
   /** How many steps are open. Equal to steps.length shows everything with no controls. */
   revealed: number;
+  /**
+   * Steps open from the start that are not counted as hints, such as the
+   * scene: enough to point the guest the right way without giving it away.
+   */
+  given?: number;
   onRevealNext?: () => void;
   onRevealAll?: () => void;
   /** Park accent for the step numbers. */
@@ -28,6 +33,7 @@ interface WhereToLookProps {
 export default function WhereToLook({
   steps,
   revealed,
+  given = 0,
   onRevealNext,
   onRevealAll,
   accent,
@@ -36,8 +42,12 @@ export default function WhereToLook({
 }: WhereToLookProps) {
   const t = useTheme();
   const styles = useStyles(createStyles);
-  const shown = Math.min(Math.max(revealed, 0), steps.length);
+  const free = Math.min(Math.max(given, 0), steps.length);
+  const shown = Math.min(Math.max(revealed, free), steps.length);
   const ladder = shown < steps.length;
+  const hintsTotal = steps.length - free;
+  const hintsUsed = shown - free;
+  const atStart = shown === free;
 
   const reveal = (action?: () => void) => {
     if (Platform.OS !== "web") Haptics.selectionAsync().catch(() => {});
@@ -52,7 +62,7 @@ export default function WhereToLook({
         </Text>
         {ladder && (
           <Text style={styles.meta}>
-            {shown} of {steps.length} hints
+            {hintsUsed} of {hintsTotal} {hintsTotal === 1 ? "hint" : "hints"}
           </Text>
         )}
       </View>
@@ -93,11 +103,11 @@ export default function WhereToLook({
           <Pressable
             onPress={() => reveal(onRevealNext)}
             accessibilityRole="button"
-            accessibilityLabel={shown === 0 ? "Show the first hint" : "Show the next hint"}
+            accessibilityLabel={atStart ? "Show the first hint" : "Show the next hint"}
             style={({ pressed }) => [styles.nextButton, pressed && styles.pressed]}
           >
             <Ionicons name="bulb-outline" size={18} color={t.colors.onInk} />
-            <Text style={styles.nextText}>{shown === 0 ? "First hint" : "Next hint"}</Text>
+            <Text style={styles.nextText}>{atStart ? "First hint" : "Next hint"}</Text>
           </Pressable>
           <Pressable
             onPress={() => reveal(onRevealAll)}
