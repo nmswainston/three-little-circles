@@ -4,11 +4,14 @@ import MapScreen from '../src/screens/MapScreen';
 import { getAllEntries, getParksSummary } from '../src/data/query';
 import { sortByDistance, WALKING_RANGE_METERS } from '../src/lib/geo';
 import { useFoundStore } from '../src/store/useFoundStore';
+import { challengeEntries, getChallenge } from '../src/data/challenges';
 
 const mockNavigate = jest.fn();
+const mockSetParams = jest.fn();
+let mockRouteParams: { focusEntryId?: string; challengeId?: string } = {};
 jest.mock('@react-navigation/native', () => ({
-  useNavigation: () => ({ navigate: mockNavigate, setParams: jest.fn() }),
-  useRoute: () => ({ params: {} }),
+  useNavigation: () => ({ navigate: mockNavigate, setParams: mockSetParams }),
+  useRoute: () => ({ params: mockRouteParams }),
 }));
 
 const mockPosition = { latitude: 0, longitude: 0 };
@@ -54,6 +57,8 @@ beforeAll(async () => {
 
 beforeEach(() => {
   mockNavigate.mockClear();
+  mockSetParams.mockClear();
+  mockRouteParams = {};
   useFoundStore.setState({ found: {} });
   mockPosition.latitude = origin.latitude;
   mockPosition.longitude = origin.longitude;
@@ -82,5 +87,31 @@ describe('MapScreen', () => {
     const cards = cardLabels();
     expect(cards[0].startsWith(`${title(sorted[0].item)}, Right here, `)).toBe(true);
     if (sorted.length > 1) expect(cards[1].startsWith(title(sorted[1].item))).toBe(true);
+  });
+});
+
+describe('MapScreen for a challenge', () => {
+  const walts = getChallenge('walts-originals')!;
+  const theirs = challengeEntries(walts);
+
+  it("shows only the challenge's finds, pinned and listed, under a banner", () => {
+    mockRouteParams = { challengeId: walts.id };
+    useFoundStore.setState({ found: { [theirs[0].id]: 1 } });
+    render(<MapScreen />);
+    const pins = theirs.filter((e) => e.coordinates).length;
+    expect(screen.getAllByTestId('map-marker')).toHaveLength(pins);
+    expect(screen.getByText(walts.title)).toBeTruthy();
+    expect(screen.getByLabelText(new RegExp(`^Showing the ${walts.title} challenge. 1 of ${theirs.length} found`))).toBeTruthy();
+  });
+
+  it('clears the filter from the banner or by picking a park', () => {
+    mockRouteParams = { challengeId: walts.id };
+    render(<MapScreen />);
+    fireEvent.press(screen.getByRole('button', { name: 'Show all finds' }));
+    expect(mockSetParams).toHaveBeenCalledWith({ challengeId: undefined });
+
+    mockSetParams.mockClear();
+    fireEvent.press(screen.getByText(parks[parks.length - 1].parkName));
+    expect(mockSetParams).toHaveBeenCalledWith({ focusEntryId: undefined, challengeId: undefined });
   });
 });

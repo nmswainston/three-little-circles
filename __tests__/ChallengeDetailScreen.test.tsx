@@ -65,6 +65,12 @@ describe('ChallengeDetailScreen', () => {
     expect(screen.getByText(/^Badge earned /)).toBeTruthy();
   });
 
+  it('shows its finds on the map', () => {
+    render(<ChallengeDetailScreen />);
+    fireEvent.press(screen.getByRole('button', { name: 'Show these on the map' }));
+    expect(mockNavigate).toHaveBeenCalledWith('MapTab', { screen: 'Map', params: { challengeId: 'walts-originals' } });
+  });
+
   it('copes with a challenge that no longer exists', () => {
     mockChallengeId = 'retired-challenge';
     render(<ChallengeDetailScreen />);

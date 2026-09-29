@@ -8,6 +8,7 @@ import * as Location from "expo-location";
 import { RootStackParamList } from "../navigation/types";
 import { getAllEntries, getEntryById, getParksSummary } from "../data/query";
 import { getDestination } from "../data/destinations";
+import { challengeEntries, getChallenge, sharedParkId } from "../data/challenges";
 import { labelOrFallback } from "../data/labels";
 import { Coordinates, HiddenMickeyEntry } from "../data/types";
 import { formatCoordinates } from "../lib/maps";
@@ -19,6 +20,7 @@ import { spacing, radii, text, shadows } from "../theme/tokens";
 import PageHeader from "../components/layout/PageHeader";
 import ParkPicker from "../components/ParkPicker";
 import EntryCard from "../components/EntryCard";
+import ChallengeMapBanner from "../components/ChallengeMapBanner";
 
 type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 
@@ -55,7 +57,7 @@ export default function MapScreen() {
 
   const handleSelectPark = (parkId: string | undefined) => {
     setFocusId(undefined);
-    navigation.setParams({ focusEntryId: undefined });
+    navigation.setParams({ focusEntryId: undefined, challengeId: undefined });
     setSelectedParkId(parkId);
   };
 
@@ -101,6 +103,20 @@ export default function MapScreen() {
     setFocusId(entry.id);
   }, [focusEntryId]);
 
+  // "Show these on the map" from a challenge: only its finds, in its park when
+  // they share one, until the guest picks a park or clears the filter.
+  const challengeId = route.params?.challengeId;
+  const challenge = challengeId ? getChallenge(challengeId) : undefined;
+  const challengeIds = useMemo(
+    () => (challenge ? new Set(challengeEntries(challenge).map((e) => e.id)) : undefined),
+    [challenge]
+  );
+  useEffect(() => {
+    if (!challenge) return;
+    setFocusId(undefined);
+    setSelectedParkId(sharedParkId(challengeEntries(challenge)));
+  }, [challenge]);
+
   // Long-press copies the spot's coordinates, ready to paste into an entry file.
   // The clipboard module is loaded on demand so a build made before it was
   // added still runs; it just shows the numbers instead of copying them.
@@ -116,8 +132,11 @@ export default function MapScreen() {
   };
 
   const visible = useMemo(
-    () => getAllEntries().filter((e) => !selectedParkId || e.parkId === selectedParkId),
-    [selectedParkId]
+    () =>
+      getAllEntries().filter(
+        (e) => (!selectedParkId || e.parkId === selectedParkId) && (!challengeIds || challengeIds.has(e.id))
+      ),
+    [selectedParkId, challengeIds]
   );
   const pinned = useMemo(() => visible.filter((e) => e.coordinates), [visible]);
   const unpinned = useMemo(() => visible.filter((e) => !e.coordinates), [visible]);
@@ -180,6 +199,15 @@ export default function MapScreen() {
     <View style={styles.screen}>
       <PageHeader title="Map" subtitle="Sightlines and queues." />
       <ParkPicker parks={parks} selectedParkId={selectedParkId} onSelect={handleSelectPark} />
+      {challenge && (
+        <ChallengeMapBanner
+          challenge={challenge}
+          total={visible.length}
+          pinned={pinned.length}
+          found={visible.filter((e) => e.id in found).length}
+          onClear={() => navigation.setParams({ challengeId: undefined })}
+        />
+      )}
       <View style={styles.mapContainer}>
         <MapView
           ref={mapRef}

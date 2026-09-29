@@ -1,4 +1,4 @@
-import { challengeGroups, challengeProgress, challengeStatus } from '../src/data/challenges';
+import { challengeEntries, challengeGroups, challengeProgress, challengeStatus, sharedParkId } from '../src/data/challenges';
 import { getAllEntries } from '../src/data/query';
 import { Challenge } from '../src/data/types';
 
@@ -93,5 +93,16 @@ describe('challengeStatus', () => {
 
   it('stays complete once the badge is earned, even if finds are unmarked', () => {
     expect(challengeStatus(challengeProgress(c, {}), true)).toBe('complete');
+  });
+});
+
+describe('challengeEntries and sharedParkId', () => {
+  it('lists every covered entry once and finds the shared park', () => {
+    const c = challenge('all', [{ attraction: JUNGLE }, { entry: at(JUNGLE)[0].id }, { land: MEXICO }]);
+    const list = challengeEntries(c);
+    expect(list).toHaveLength(at(JUNGLE).length + inLand(MEXICO).length);
+    expect(new Set(list.map((e) => e.id)).size).toBe(list.length);
+    expect(sharedParkId(list)).toBeUndefined();
+    expect(sharedParkId(at(JUNGLE))).toBe('magic_kingdom_park');
   });
 });

@@ -158,3 +158,23 @@ export function goalSentence(challenge: Challenge): string {
 export function progressUnit(challenge: Challenge): string {
   return challenge.goal === "all" ? "found" : "places";
 }
+
+/** Pure: every entry a challenge covers, once each, in target order. */
+export function challengeEntries(challenge: Challenge, list: HiddenMickeyEntry[] = allEntries): HiddenMickeyEntry[] {
+  const seen = new Set<string>();
+  const out: HiddenMickeyEntry[] = [];
+  for (const group of challengeGroups(challenge, list)) {
+    for (const entry of group.entries) {
+      if (seen.has(entry.id)) continue;
+      seen.add(entry.id);
+      out.push(entry);
+    }
+  }
+  return out;
+}
+
+/** The one park every entry is in, or undefined when they span parks. */
+export function sharedParkId(list: HiddenMickeyEntry[]): string | undefined {
+  const parks = new Set(list.map((e) => e.parkId));
+  return parks.size === 1 ? [...parks][0] : undefined;
+}

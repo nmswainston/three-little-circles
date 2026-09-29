@@ -1,4 +1,10 @@
-import React, { useCallback, useMemo, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useState } from "react";
+import { RouteProp, useNavigation, useRoute } from "@react-navigation/native";
+import { NativeStackNavigationProp } from "@react-navigation/native-stack";
+import { RootStackParamList } from "../navigation/types";
+import { challengeEntries, getChallenge, sharedParkId } from "../data/challenges";
+import { useFoundStore } from "../store/useFoundStore";
+import ChallengeMapBanner from "../components/ChallengeMapBanner";
 import { View, Text, StyleSheet, SectionList, SectionListData, SectionListRenderItem } from "react-native";
 import { getAllEntries, getParksSummary } from "../data/query";
 import { HiddenMickeyEntry } from "../data/types";
@@ -19,13 +25,32 @@ type ParkSection = { parkId: string; parkName: string; data: HiddenMickeyEntry[]
  */
 export default function MapScreen() {
   const styles = useStyles(createStyles);
+  const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
+  const route = useRoute<RouteProp<RootStackParamList, "Map">>();
+  const found = useFoundStore((s) => s.found);
   const parks = useMemo(() => getParksSummary(), []);
   const [selectedParkId, setSelectedParkId] = useState<string | undefined>(undefined);
+
+  // Same challenge filter as the native map, over the list.
+  const challengeId = route.params?.challengeId;
+  const challenge = challengeId ? getChallenge(challengeId) : undefined;
+  const challengeIds = useMemo(
+    () => (challenge ? new Set(challengeEntries(challenge).map((e) => e.id)) : undefined),
+    [challenge]
+  );
+  useEffect(() => {
+    if (challenge) setSelectedParkId(sharedParkId(challengeEntries(challenge)));
+  }, [challenge]);
+  const handleSelectPark = (parkId: string | undefined) => {
+    navigation.setParams({ challengeId: undefined });
+    setSelectedParkId(parkId);
+  };
 
   const sections = useMemo<ParkSection[]>(() => {
     const byPark = new Map<string, HiddenMickeyEntry[]>();
     for (const entry of getAllEntries()) {
       if (selectedParkId && entry.parkId !== selectedParkId) continue;
+      if (challengeIds && !challengeIds.has(entry.id)) continue;
       const list = byPark.get(entry.parkId);
       if (list) list.push(entry);
       else byPark.set(entry.parkId, [entry]);
@@ -34,7 +59,8 @@ export default function MapScreen() {
       const data = byPark.get(park.parkId);
       return data ? [{ parkId: park.parkId, parkName: park.parkName, data }] : [];
     });
-  }, [parks, selectedParkId]);
+  }, [parks, selectedParkId, challengeIds]);
+  const shown = sections.flatMap((s) => s.data);
 
   const renderEntry = useCallback<SectionListRenderItem<HiddenMickeyEntry, ParkSection>>(
     ({ item }) => <EntryCard entry={item} showLocation />,
@@ -58,7 +84,15 @@ export default function MapScreen() {
   return (
     <View style={styles.screen}>
       <PageHeader title="Map" subtitle="Sightlines and queues." />
-      <ParkPicker parks={parks} selectedParkId={selectedParkId} onSelect={setSelectedParkId} />
+      <ParkPicker parks={parks} selectedParkId={selectedParkId} onSelect={handleSelectPark} />
+      {challenge && (
+        <ChallengeMapBanner
+          challenge={challenge}
+          total={shown.length}
+          found={shown.filter((e) => e.id in found).length}
+          onClear={() => navigation.setParams({ challengeId: undefined })}
+        />
+      )}
       <SectionList
         sections={sections}
         keyExtractor={entryKey}
