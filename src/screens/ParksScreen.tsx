@@ -18,6 +18,7 @@ import ParkCard from "../components/ParkCard";
 import EntryCard from "../components/EntryCard";
 import EmptyState from "../components/ui/EmptyState";
 import Disclaimer from "../components/Disclaimer";
+import BadgeSummaryCard from "../components/BadgeSummaryCard";
 
 type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 
@@ -121,6 +122,8 @@ export default function ParksScreen() {
     <>
       <PageHeader title="Parks" subtitle="Pick a destination. The magic hides in plain sight." brand />
       <View style={styles.body}>
+        {!searching && <BadgeSummaryCard onOpen={() => navigation.navigate("Badges")} />}
+
         <View style={styles.search}>
           <Ionicons name="search" size={20} color={t.colors.textMuted} accessibilityElementsHidden importantForAccessibility="no" />
           <TextInput

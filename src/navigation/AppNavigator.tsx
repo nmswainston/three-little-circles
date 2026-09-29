@@ -24,6 +24,7 @@ function ParksStackNavigator() {
       <ParksStack.Screen name="Park" component={ParkScreen} options={{ title: 'Park' }} />
       <ParksStack.Screen name="EntryDetail" component={EntryDetailScreen} options={{ title: 'Hidden find' }} />
       <ParksStack.Screen name="SubmitSighting" component={SubmitSightingScreen} options={{ title: 'Suggest a find' }} />
+      <ParksStack.Screen name="Badges" component={BadgesScreen} options={{ title: 'Badges' }} />
     </ParksStack.Navigator>
   );
 }
