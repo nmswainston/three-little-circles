@@ -438,6 +438,7 @@ const createStyles = (t: Theme) =>
     },
     backupRow: {
       flexDirection: "row",
+      alignItems: "center",
       gap: spacing.sm + 2,
     },
     backupSecondary: {
@@ -450,7 +451,6 @@ const createStyles = (t: Theme) =>
       backgroundColor: t.colors.surface,
       borderWidth: 1,
       borderColor: t.colors.borderStrong,
-      marginTop: spacing.sm,
     },
     backupSecondaryText: {
       ...text.chip,
