@@ -29,6 +29,10 @@
   "confidence": "Strong",
   "verification": "Documented",
   "status": "Current",
+  "coordinates": {
+    "latitude": 28.359642,
+    "longitude": -81.561521
+  },
   "sourceId": "TLC-HS-0024",
   "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

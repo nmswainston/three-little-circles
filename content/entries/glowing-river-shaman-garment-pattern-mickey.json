@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3553,
+    "longitude": -81.5918
+  },
   "sourceId": "TLC-AK-0014",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-na-vi-river-journey",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

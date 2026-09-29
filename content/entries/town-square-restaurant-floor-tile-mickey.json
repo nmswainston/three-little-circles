@@ -30,6 +30,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.416917,
+    "longitude": -81.580587
+  },
   "sourceId": "TLC-MK-0058",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
   "updatedAtISO": "2026-09-24T00:00:00.000Z"

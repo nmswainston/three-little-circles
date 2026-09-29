@@ -29,6 +29,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.35261,
+    "longitude": -81.60272
+  },
   "sourceId": "TLC-RS-0026",
   "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

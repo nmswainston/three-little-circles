@@ -29,6 +29,10 @@
   "confidence": "Obvious",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.36,
+    "longitude": -81.5599
+  },
   "sourceId": "TLC-HS-0044",
   "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

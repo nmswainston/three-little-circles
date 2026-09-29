@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.357503,
+    "longitude": -81.560992
+  },
   "sourceId": "TLC-HS-0012",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-little-mermaid",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

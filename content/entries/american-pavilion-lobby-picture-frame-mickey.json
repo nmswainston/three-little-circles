@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3663,
+    "longitude": -81.5498
+  },
   "sourceId": "TLC-EP-0009",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-united-states-pavillion-frame-design",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.4201,
+    "longitude": -81.5815
+  },
   "sourceId": "TLC-MK-0079",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-musical-hidden-mickeys",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

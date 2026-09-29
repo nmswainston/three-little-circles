@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.420154,
+    "longitude": -81.581999
+  },
   "sourceId": "TLC-MK-0080",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-peter-pan-tree-hidden-mickeys",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

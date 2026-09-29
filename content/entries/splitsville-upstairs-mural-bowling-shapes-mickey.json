@@ -29,6 +29,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.370058,
+    "longitude": -81.521526
+  },
   "sourceId": "TLC-DS-0003",
   "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

@@ -30,6 +30,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.373941,
+    "longitude": -81.552382
+  },
   "sourceId": "TLC-EP-0016",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-garden-grill",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

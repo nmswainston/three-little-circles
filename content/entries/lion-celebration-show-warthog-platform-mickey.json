@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.358458,
+    "longitude": -81.592908
+  },
   "sourceId": "TLC-AK-0016",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-poombah",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

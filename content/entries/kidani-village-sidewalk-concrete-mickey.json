@@ -29,6 +29,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.35434,
+    "longitude": -81.605576
+  },
   "sourceId": "TLC-RS-0015",
   "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-lodge-kidani-village-hidden-mickey-carved-in-sidewalk-outside-front-of-lobby/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

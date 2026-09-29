@@ -29,6 +29,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.409663,
+    "longitude": -81.572464
+  },
   "sourceId": "TLC-RS-0091",
   "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2026/02/26/roaring-fork-hidden-mickey",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

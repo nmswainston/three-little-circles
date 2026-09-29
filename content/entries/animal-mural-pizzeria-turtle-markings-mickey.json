@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.357254,
+    "longitude": -81.591409
+  },
   "sourceId": "TLC-AK-0015",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-pizzafari-turtle",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

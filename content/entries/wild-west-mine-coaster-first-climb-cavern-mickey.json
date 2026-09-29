@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.42,
+    "longitude": -81.5856
+  },
   "sourceId": "TLC-MK-0069",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-big-thunder-mountain-railroad",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

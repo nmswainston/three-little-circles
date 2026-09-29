@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.362622,
+    "longitude": -81.572922
+  },
   "sourceId": "TLC-RS-0087",
   "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-springs-resorts/2026/08/01/disneys-coronado-springs-resort-hidden-mickey",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

@@ -29,6 +29,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.411764,
+    "longitude": -81.561808
+  },
   "sourceId": "TLC-RS-0012",
   "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-trails-end-restaurant-and-crocketts-tavern-frying-pan-hidden-mickey-and-spoked-wheel-hidden-mickey/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

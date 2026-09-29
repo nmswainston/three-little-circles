@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.419244,
+    "longitude": -81.585062
+  },
   "sourceId": "TLC-MK-0092",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-tiana-s-bayou-adventure-bobcat-hidden",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

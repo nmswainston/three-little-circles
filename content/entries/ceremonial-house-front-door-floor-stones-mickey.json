@@ -29,6 +29,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.405509,
+    "longitude": -81.585352
+  },
   "sourceId": "TLC-RS-0027",
   "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

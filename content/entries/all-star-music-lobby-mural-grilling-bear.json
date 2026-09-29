@@ -29,6 +29,10 @@
   "confidence": "Strong",
   "verification": "Documented",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.339678,
+    "longitude": -81.572786
+  },
   "sourceId": "TLC-RS-0086",
   "sourceUrl": "https://disneyparksblog.com/wdw/check-in-check-it-out-all-star-and-pop-century-resort-refurbishments/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

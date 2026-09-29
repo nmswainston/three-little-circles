@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.362511,
+    "longitude": -81.542523
+  },
   "accessNotes": "Pool and recreation areas are for registered resort guests.",
   "sourceId": "TLC-RS-0082",
   "sourceUrl": "https://www.disneycaribbeanbeach.com/content/caribbean-beach-resort-hidden-mickeys/",

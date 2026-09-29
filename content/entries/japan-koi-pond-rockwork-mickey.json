@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.367728,
+    "longitude": -81.550317
+  },
   "sourceId": "TLC-EP-0004",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-japan-pavilion-koi-pond",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

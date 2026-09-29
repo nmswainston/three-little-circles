@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.367551,
+    "longitude": -81.548297
+  },
   "sourceId": "TLC-EP-0023",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-neptune-s-fountain-italy-pavilion",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.370391,
+    "longitude": -81.551628
+  },
   "sourceId": "TLC-EP-0027",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-rose-crown-pub",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

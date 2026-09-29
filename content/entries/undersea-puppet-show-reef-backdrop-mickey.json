@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.357235,
+    "longitude": -81.587141
+  },
   "sourceId": "TLC-AK-0008",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-finding-nemo-big-blue-beyond",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

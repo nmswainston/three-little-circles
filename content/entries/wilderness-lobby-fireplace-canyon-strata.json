@@ -29,6 +29,10 @@
   "confidence": "Obvious",
   "verification": "Documented",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.409495,
+    "longitude": -81.572404
+  },
   "sourceId": "TLC-RS-0059",
   "sourceUrl": "https://disneyparksblog.com/wdw/5-hidden-details-at-disneys-wilderness-lodge/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

@@ -29,6 +29,10 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3598,
+    "longitude": -81.5892
+  },
   "sourceId": "TLC-AK-0033",
   "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-maharajah-jungle-trek-three-hidden-joes/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

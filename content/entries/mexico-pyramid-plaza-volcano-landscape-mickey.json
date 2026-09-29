@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.371661,
+    "longitude": -81.547201
+  },
   "sourceId": "TLC-EP-0022",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-mexico-volcano",
   "createdAtISO": "2026-09-24T00:00:00.000Z",

@@ -29,6 +29,10 @@
   "confidence": "Interpretive",
   "verification": "Community",
   "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3708,
+    "longitude": -81.5462
+  },
   "sourceId": "TLC-EP-0014",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-frozen-ever-after",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
