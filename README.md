@@ -61,7 +61,8 @@ Screenshots are from the web build at phone width.
 - Share a find, a park, or your progress. Share text names the find and where it is, never where to look
 - Still there? Two taps on any entry report it seen or missing, and each entry shows when it was last seen
 - Export and import progress: a backup message you send yourself, pasted on the new phone, with a preview before anything changes
-- Badges for milestones, skills (hard finds, queues, a Hidden Surprise, a same-day streak, two regions), and each park. Badges the content can't reach yet stay hidden until it can
+- Badges with progress bars: a Hunter badge that levels up from Bronze to Platinum, skills (hard finds, queues, a Hidden Surprise, a same-day streak, two regions), each park, each challenge, and four secret badges that stay hidden until earned. A card at the top of the Parks tab points at the next one to earn. Badges the content can't reach yet stay hidden until it can
+- Challenges: themed hunts such as Walt's Originals or one find in every World Showcase pavilion, each with a dot per find, its own badge, and a map of just its finds
 - A three-page intro on first launch, and "Show the intro again" on Profile
 - Progress persists on the device, no sign-in required
 - Map of pinned entries on mobile, with the same entries listed on web
@@ -91,8 +92,11 @@ content/TEMPLATE.json   Starting point for a new entry.
 content/facts/          One JSON file per park fact, shown under "Did you know?" on the Park screen.
 content/TEMPLATE.fact.json
                         Starting point for a new park fact.
+content/challenges/     One JSON file per challenge: a themed hunt over attractions, lands, parks, or finds.
+content/TEMPLATE.challenge.json
+                        Starting point for a new challenge.
 scripts/build-entries.mjs
-                        Validates content and writes the generated entries, facts, and image map.
+                        Validates content and writes the generated entries, facts, challenges, and image map.
 scripts/pull-confirmations.mjs
                         Summarizes "Still there?" reports into src/data/confirmations.generated.ts.
 src/data/               Entry types, query helpers, generated entries.
@@ -112,6 +116,9 @@ See [content/README.md](content/README.md). The short version:
 1. Copy `content/TEMPLATE.json` to `content/entries/<id>.json`.
 2. Fill it in.
 3. Run `npm run content:build` and commit both files.
+
+Park facts and challenges work the same way, starting from
+`content/TEMPLATE.fact.json` and `content/TEMPLATE.challenge.json`.
 
 ## Updating Expo packages
 
@@ -218,15 +225,31 @@ device id) as a text backup, and "Import progress" reads one back. Import
 shows what the backup holds first, then either merges it into the device,
 keeping the earlier date for anything both sides have, or replaces everything.
 
-Badges come in three kinds, defined in `src/data/achievements.ts`: milestones
-(first find, 10, 25, and 50 finds), skill badges (one complete land, one
-complete attraction, five Hard finds, three queue finds, a Hidden Surprise, three
-finds in one day, finds in two regions), and one completion badge per
-destination that has content, which appears automatically as parks gain
-entries. Each fixed badge knows whether the shipped content can satisfy it;
-the ones that can't stay out of the grid, and the Profile tab says how many
-are waiting on more content. Earning one shows a toast with confetti and a
-haptic tap, and marks the badge as new on the Profile tab until it is viewed.
+Badges are defined in `src/data/achievements.ts` and come in five kinds:
+
+- **Hunter**, one badge with four levels: Bronze, Silver, Gold, and Platinum
+  at 1, 10, 25, and 50 finds. Each level is earned and saved on its own, under
+  the ids of the milestone badges it replaced, and screens show Hunter once at
+  its highest level.
+- **Skill badges**: one complete land, one complete attraction, five Hard
+  finds, three queue finds, a Hidden Surprise, three finds in one day, and
+  finds in two regions.
+- **Park badges**: one per destination that has content, which appears
+  automatically as parks gain entries.
+- **Challenge badges**: one per file in `content/challenges/`, saved as
+  `challenge:<id>`. [content/README.md](content/README.md) describes the
+  format.
+- **Secret badges**: four of them, shown as "???" until earned and never
+  suggested as the next one to earn.
+
+Every badge reports progress toward a goal and is earned when the progress
+meets it, so a progress bar and an unlock always agree. The Parks tab card and
+Profile's Next up point at the badge closest to earning, and the Badges screen
+lists everything: earned, closest to earning, and the rest. Fixed badges the
+shipped content can't satisfy stay out of the lists, and the Badges screen
+says how many are waiting on more content. Earning one shows a toast with
+confetti and a haptic tap, and the badge stays marked as new until it is
+viewed.
 
 ## Community sightings
 
