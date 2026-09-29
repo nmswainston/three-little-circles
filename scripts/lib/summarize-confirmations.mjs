@@ -46,6 +46,34 @@ export function summarizeConfirmations(rows, { knownIds, now = Date.now(), windo
   return { summaries: sorted, unknownEntryIds: [...unknown].sort() };
 }
 
+/**
+ * Entries whose "Still there?" votes disagree with their status, for the
+ * owner to act on by hand:
+ *   * promote: Unverified, at least minVotes devices saw it, more saw it
+ *     than missed it, and the newest vote is a sighting. Set it to Current.
+ *   * review: expected to be there (any status but Unverified or Removed),
+ *     at least minVotes devices couldn't find it, more missed it than saw
+ *     it, and the newest vote says it's gone. Check whether it was removed.
+ * statuses maps entry id to its status, undefined when the entry has none.
+ */
+export function reviewStatuses(summaries, statuses, { minVotes = 2 } = {}) {
+  const promote = [];
+  const review = [];
+  for (const [id, s] of Object.entries(summaries)) {
+    if (!statuses.has(id)) continue;
+    const status = statuses.get(id);
+    const seenAt = s.lastSeenISO ? Date.parse(s.lastSeenISO) : -Infinity;
+    const missingAt = s.lastMissingISO ? Date.parse(s.lastMissingISO) : -Infinity;
+    const row = { id, status: status ?? null, ...s };
+    if (status === "Unverified" && s.seen >= minVotes && s.seen > s.missing && seenAt > missingAt) {
+      promote.push(row);
+    } else if (status !== "Unverified" && status !== "Removed" && s.missing >= minVotes && s.missing > s.seen && missingAt > seenAt) {
+      review.push(row);
+    }
+  }
+  return { promote, review };
+}
+
 /** The TypeScript module the app imports. */
 export function renderGeneratedModule(summaries, pulledAtISO) {
   const body = Object.entries(summaries)

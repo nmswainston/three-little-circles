@@ -123,3 +123,48 @@ describe('summarizeConfirmations (pull script)', () => {
     expect(module).toContain('export const confirmations: Record<string, ConfirmationSummary> = {};');
   });
 });
+
+describe('reviewStatuses (pull script)', () => {
+  function review(summaries: Summaries, statuses: Record<string, string | null>) {
+    const mod = pathToFileURL(join(__dirname, '..', 'scripts', 'lib', 'summarize-confirmations.mjs')).href;
+    const code = `
+      import { reviewStatuses } from ${JSON.stringify(mod)};
+      const statuses = new Map(Object.entries(${JSON.stringify(statuses)}).map(([k, v]) => [k, v ?? undefined]));
+      process.stdout.write(JSON.stringify(reviewStatuses(${JSON.stringify(summaries)}, statuses)));
+    `;
+    const run = spawnSync(process.execPath, ['--input-type=module', '-e', code], { encoding: 'utf8' });
+    expect(run.stderr).toBe('');
+    expect(run.status).toBe(0);
+    const out = JSON.parse(run.stdout) as { promote: { id: string }[]; review: { id: string }[] };
+    return { promote: out.promote.map((r) => r.id), review: out.review.map((r) => r.id) };
+  }
+
+  it('promotes an unconfirmed find that enough devices saw, newest vote a sighting', () => {
+    const result = review(
+      {
+        seenTwice: { seen: 2, missing: 0, lastSeenISO: iso(1) },
+        seenOnce: { seen: 1, missing: 0, lastSeenISO: iso(1) },
+        tied: { seen: 2, missing: 2, lastSeenISO: iso(1), lastMissingISO: iso(3) },
+        missedLast: { seen: 3, missing: 1, lastSeenISO: iso(5), lastMissingISO: iso(1) },
+        alreadyCurrent: { seen: 4, missing: 0, lastSeenISO: iso(1) },
+      },
+      { seenTwice: 'Unverified', seenOnce: 'Unverified', tied: 'Unverified', missedLast: 'Unverified', alreadyCurrent: 'Current' }
+    );
+    expect(result).toEqual({ promote: ['seenTwice'], review: [] });
+  });
+
+  it('flags a find expected to be there that enough devices could not find', () => {
+    const result = review(
+      {
+        gone: { seen: 0, missing: 2, lastMissingISO: iso(1) },
+        noStatus: { seen: 1, missing: 3, lastSeenISO: iso(9), lastMissingISO: iso(2) },
+        seenSince: { seen: 1, missing: 3, lastSeenISO: iso(1), lastMissingISO: iso(2) },
+        unverified: { seen: 0, missing: 5, lastMissingISO: iso(1) },
+        removed: { seen: 0, missing: 5, lastMissingISO: iso(1) },
+        deleted: { seen: 0, missing: 5, lastMissingISO: iso(1) },
+      },
+      { gone: 'Current', noStatus: null, seenSince: 'Seasonal', unverified: 'Unverified', removed: 'Removed' }
+    );
+    expect(result).toEqual({ promote: [], review: ['gone', 'noStatus'] });
+  });
+});

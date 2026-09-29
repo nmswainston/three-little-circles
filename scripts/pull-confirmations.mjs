@@ -8,6 +8,10 @@
  * local .env file. The service role key bypasses row-level security, so this
  * script is for your machine only.
  *
+ * It also lists entries whose votes disagree with their status: unconfirmed
+ * finds enough people have seen, and confirmed ones enough people couldn't
+ * find. Nothing changes automatically; edit the entries by hand.
+ *
  * Usage:
  *   node scripts/pull-confirmations.mjs            # write the generated file
  *   node scripts/pull-confirmations.mjs --dry-run  # print the summary instead
@@ -16,7 +20,7 @@ import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join, dirname, basename } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createClient } from "@supabase/supabase-js";
-import { summarizeConfirmations, renderGeneratedModule } from "./lib/summarize-confirmations.mjs";
+import { summarizeConfirmations, renderGeneratedModule, reviewStatuses } from "./lib/summarize-confirmations.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const outFile = join(root, "src", "data", "confirmations.generated.ts");
@@ -42,11 +46,13 @@ if (!url || !key) {
   process.exit(1);
 }
 
-const knownIds = new Set(
-  readdirSync(join(root, "content", "entries"))
+const entriesDir = join(root, "content", "entries");
+const statuses = new Map(
+  readdirSync(entriesDir)
     .filter((f) => f.endsWith(".json"))
-    .map((f) => basename(f, ".json"))
+    .map((f) => [basename(f, ".json"), JSON.parse(readFileSync(join(entriesDir, f), "utf8")).status])
 );
+const knownIds = new Set(statuses.keys());
 
 const supabase = createClient(url, key, { auth: { persistSession: false, autoRefreshToken: false } });
 const now = Date.now();
@@ -85,6 +91,17 @@ for (const [id, s] of Object.entries(summaries)) {
 }
 if (unknownEntryIds.length > 0) {
   console.log(`Ignored reports for ${unknownEntryIds.length} unknown entry id(s): ${unknownEntryIds.join(", ")}`);
+}
+
+const { promote, review } = reviewStatuses(summaries, statuses);
+if (promote.length > 0 || review.length > 0) {
+  console.log("\nStatus review (edit content/entries/<id>.json by hand, then npm run content:build):");
+  for (const r of promote) {
+    console.log(`  promote ${r.id}: Unverified, ${r.seen} saw it, ${r.missing} couldn't find it. Set "status": "Current".`);
+  }
+  for (const r of review) {
+    console.log(`  check   ${r.id}: ${r.status ?? "no status"}, ${r.missing} couldn't find it, ${r.seen} saw it. Removed or moved?`);
+  }
 }
 
 if (dryRun) {
