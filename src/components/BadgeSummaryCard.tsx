@@ -63,7 +63,14 @@ function nextDetail(progress: AchievementProgress): string {
  * so it draws with the night palette: its park accents are the ones made to
  * read on navy.
  */
-export default function BadgeSummaryCard({ onOpen }: { onOpen: () => void }) {
+export default function BadgeSummaryCard({
+  onOpen,
+  onOpenChallenge,
+}: {
+  onOpen: () => void;
+  /** When the next badge is a challenge's, the card opens that challenge instead. */
+  onOpenChallenge?: (challengeId: string) => void;
+}) {
   const t = useTheme();
   const styles = useStyles(createStyles);
 
@@ -138,13 +145,15 @@ export default function BadgeSummaryCard({ onOpen }: { onOpen: () => void }) {
         : 'New ones arrive as the guide grows.';
   const icon: IconName =
     state.kind === 'next' ? (state.achievement.icon as IconName) : state.kind === 'start' ? 'star' : 'trophy';
+  const challengeId = state.kind === 'next' ? state.achievement.challengeId : undefined;
+  const openCard = challengeId && onOpenChallenge ? () => onOpenChallenge(challengeId) : onOpen;
 
   return (
     <Pressable
-      onPress={onOpen}
+      onPress={openCard}
       accessibilityRole="button"
       accessibilityLabel={[
-        `Your badges: ${tally} earned`,
+        challengeId ? 'Challenge' : `Your badges: ${tally} earned`,
         title,
         state.kind === 'next' ? `${state.progress.current} of ${state.progress.goal}` : undefined,
         detail,
@@ -154,7 +163,7 @@ export default function BadgeSummaryCard({ onOpen }: { onOpen: () => void }) {
       style={({ pressed }) => [styles.card, t.dark && styles.cardNight, pressed && styles.pressed]}
     >
       <View style={styles.topRow}>
-        <Text style={styles.eyebrow}>Your badges</Text>
+        <Text style={styles.eyebrow}>{challengeId ? 'Challenge' : 'Your badges'}</Text>
         <Text style={styles.tally}>{tally}</Text>
         <Ionicons name="chevron-forward" size={18} color={night.colors.text} />
       </View>

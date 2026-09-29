@@ -4,10 +4,14 @@ import BadgesScreen from '../src/screens/BadgesScreen';
 import { computeUnlocked, getAchievements, useAchievementsStore } from '../src/store/useAchievementsStore';
 import { useFoundStore } from '../src/store/useFoundStore';
 import { getAllEntries } from '../src/data/query';
+import { getChallenge, getChallenges } from '../src/data/challenges';
 
 const mockGoBack = jest.fn();
+const mockNavigate = jest.fn();
+let mockParams: { tab?: 'badges' | 'challenges' } | undefined;
 jest.mock('@react-navigation/native', () => ({
-  useNavigation: () => ({ goBack: mockGoBack, navigate: jest.fn() }),
+  useNavigation: () => ({ goBack: mockGoBack, navigate: mockNavigate }),
+  useRoute: () => ({ params: mockParams }),
 }));
 
 const entries = getAllEntries();
@@ -34,6 +38,8 @@ const labels = () => screen.getAllByRole('button').map((b) => b.props.accessibil
 
 beforeEach(() => {
   mockGoBack.mockClear();
+  mockNavigate.mockClear();
+  mockParams = undefined;
   useFoundStore.setState({ found: {} });
   useAchievementsStore.setState({ unlocked: [], earnedAt: {}, seen: [], pending: [] });
 });
@@ -78,5 +84,40 @@ describe('BadgesScreen', () => {
     render(<BadgesScreen />);
     fireEvent.press(screen.getByRole('button', { name: 'Back' }));
     expect(mockGoBack).toHaveBeenCalledTimes(1);
+  });
+
+  it('opens a challenge badge on its challenge instead of the sheet', () => {
+    seedTwelveFinds();
+    render(<BadgesScreen />);
+    const row = screen
+      .getAllByRole('button')
+      .find((b) => String(b.props.accessibilityLabel).startsWith("Walt's Originals,"))!;
+    fireEvent.press(row);
+    expect(mockNavigate).toHaveBeenCalledWith('ChallengeDetail', { challengeId: 'walts-originals' });
+    expect(screen.queryByText('Locked')).toBeNull();
+  });
+});
+
+describe('BadgesScreen challenges tab', () => {
+  it('lists every challenge and opens one', () => {
+    render(<BadgesScreen />);
+    fireEvent.press(screen.getByRole('tab', { name: 'Challenges' }));
+    for (const challenge of getChallenges()) {
+      expect(screen.getByText(challenge.title)).toBeTruthy();
+    }
+    expect(screen.getByText('Not started')).toBeTruthy();
+
+    fireEvent.press(screen.getByText(getChallenges()[0].title));
+    expect(mockNavigate).toHaveBeenCalledWith('ChallengeDetail', { challengeId: getChallenges()[0].id });
+  });
+
+  it('opens straight onto the tab the route asks for, with started challenges under In progress', () => {
+    mockParams = { tab: 'challenges' };
+    const walts = getChallenge('walts-originals')!;
+    const jungle = entries.filter((e) => e.attractionId === 'jungle_boat_ride');
+    useFoundStore.setState({ found: Object.fromEntries(jungle.map((e) => [e.id, NOW])) });
+    render(<BadgesScreen />);
+    expect(screen.getByText('In progress')).toBeTruthy();
+    expect(screen.getByText(walts.title)).toBeTruthy();
   });
 });

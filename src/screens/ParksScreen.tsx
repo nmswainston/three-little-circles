@@ -122,7 +122,12 @@ export default function ParksScreen() {
     <>
       <PageHeader title="Parks" subtitle="Pick a destination. The magic hides in plain sight." brand />
       <View style={styles.body}>
-        {!searching && <BadgeSummaryCard onOpen={() => navigation.navigate("Badges")} />}
+        {!searching && (
+          <BadgeSummaryCard
+            onOpen={() => navigation.navigate("Badges")}
+            onOpenChallenge={(challengeId) => navigation.navigate("ChallengeDetail", { challengeId })}
+          />
+        )}
 
         <View style={styles.search}>
           <Ionicons name="search" size={20} color={t.colors.textMuted} accessibilityElementsHidden importantForAccessibility="no" />

@@ -1,4 +1,4 @@
-import { challengeGroups, challengeProgress } from '../src/data/challenges';
+import { challengeGroups, challengeProgress, challengeStatus } from '../src/data/challenges';
 import { getAllEntries } from '../src/data/query';
 import { Challenge } from '../src/data/types';
 
@@ -79,5 +79,19 @@ describe('challengeProgress', () => {
   it('ignores found ids that are not real entries', () => {
     const c = challenge('each', [{ land: CANADA }]);
     expect(challengeProgress(c, { 'not-an-entry': 1 }).current).toBe(0);
+  });
+});
+
+describe('challengeStatus', () => {
+  const c = challenge('each', [{ land: CANADA }, { land: MEXICO }]);
+
+  it('is not started, then in progress, then complete', () => {
+    expect(challengeStatus(challengeProgress(c, {}), false)).toBe('notStarted');
+    expect(challengeStatus(challengeProgress(c, asFound(inLand(MEXICO).slice(0, 1))), false)).toBe('inProgress');
+    expect(challengeStatus(challengeProgress(c, asFound([inLand(CANADA)[0], inLand(MEXICO)[0]])), false)).toBe('complete');
+  });
+
+  it('stays complete once the badge is earned, even if finds are unmarked', () => {
+    expect(challengeStatus(challengeProgress(c, {}), true)).toBe('complete');
   });
 });
