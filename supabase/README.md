@@ -117,6 +117,16 @@ that file and ship it. The entry screen then shows "Last seen 3 weeks ago", or
 "Reported missing 2 days ago" when the most recent vote says it's gone, along
 with how many devices said each.
 
+The pull also prints a status review when the votes disagree with the
+content. An `Unverified` entry that at least two devices saw, with more
+sightings than misses and a sighting as the newest vote, is listed under
+"promote": set its `status` to `Current`. An entry expected to be there
+that at least two devices couldn't find, with more misses than sightings and
+a miss as the newest vote, is listed under "check": go and look, or research
+whether it was removed, before changing it to `Removed`. Nothing is changed
+for you; edit the entries, run `npm run content:build`, and ship them in a
+content pull request of their own.
+
 Pull before each release, or whenever you want the freshness to move. Pass
 `--dry-run` to print the summary without writing. `npm run supabase:check`
 verifies the table exists and that the anon key cannot read it.
