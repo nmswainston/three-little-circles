@@ -20,6 +20,12 @@ interface SettingsState {
   hideFound: boolean;
   setHideFound: (hideFound: boolean) => void;
   /**
+   * Park screens leave out finds nobody has confirmed yet, so a short visit
+   * goes to the ones most likely to be there. Remembered like hideFound.
+   */
+  confirmedOnly: boolean;
+  setConfirmedOnly: (confirmedOnly: boolean) => void;
+  /**
    * Hints one at a time: an entry's where-to-look opens a step per tap, and
    * the description, tip, and fun facts wait for the last step. Off shows
    * every field note in full. A find already marked always shows in full.
@@ -47,6 +53,8 @@ export const useSettingsStore = create<SettingsState>()(
       setMapType: (mapType) => set({ mapType }),
       hideFound: false,
       setHideFound: (hideFound) => set({ hideFound }),
+      confirmedOnly: false,
+      setConfirmedOnly: (confirmedOnly) => set({ confirmedOnly }),
       hintMode: true,
       setHintMode: (hintMode) => set({ hintMode }),
       onboarded: false,
@@ -60,6 +68,7 @@ export const useSettingsStore = create<SettingsState>()(
         appearance: state.appearance,
         mapType: state.mapType,
         hideFound: state.hideFound,
+        confirmedOnly: state.confirmedOnly,
         hintMode: state.hintMode,
         onboarded: state.onboarded,
         deviceId: state.deviceId,

@@ -2,6 +2,7 @@ import React from 'react';
 import { fireEvent, render, screen } from '@testing-library/react-native';
 import ParkScreen from '../src/screens/ParkScreen';
 import { getAllEntries, getParksSummary, groupByLand } from '../src/data/query';
+import { isConfirmed } from '../src/data/confirmations';
 import { getDestination } from '../src/data/destinations';
 import { useFoundStore } from '../src/store/useFoundStore';
 import { useSettingsStore } from '../src/store/useSettingsStore';
@@ -33,7 +34,7 @@ beforeEach(() => {
   mockNavigate.mockClear();
   mockGoBack.mockClear();
   useFoundStore.setState({ found: {} });
-  useSettingsStore.setState({ hideFound: false });
+  useSettingsStore.setState({ hideFound: false, confirmedOnly: false });
 });
 
 describe('ParkScreen', () => {
@@ -65,6 +66,35 @@ describe('ParkScreen', () => {
     fireEvent.press(screen.getByText('Show found'));
     expect(useSettingsStore.getState().hideFound).toBe(false);
     expect(screen.getByText(firstLand.landName)).toBeTruthy();
+  });
+
+  it('hides unconfirmed finds with Confirmed only, and remembers the choice', () => {
+    const unconfirmed = entries.find((e) => !isConfirmed(e))!;
+    const title = unconfirmed.display!.entryTitle!;
+    const unconfirmedCount = entries.filter((e) => !isConfirmed(e)).length;
+    render(<ParkScreen />);
+    expect(screen.queryAllByText(title).length).toBeGreaterThan(0);
+
+    fireEvent.press(screen.getByLabelText('Confirmed only'));
+    expect(useSettingsStore.getState().confirmedOnly).toBe(true);
+    expect(screen.getByText(`${unconfirmedCount} hidden`)).toBeTruthy();
+    // Titles are not unique across entries, so only check the ones no confirmed find shares.
+    if (!entries.some((e) => isConfirmed(e) && e.display?.entryTitle === title)) {
+      expect(screen.queryAllByText(title)).toHaveLength(0);
+    }
+  });
+
+  it('offers to show everything when nothing here is confirmed yet', () => {
+    // Everything confirmed is marked found and hidden, so only unconfirmed finds remain.
+    const confirmedIds = entries.filter((e) => isConfirmed(e)).map((e) => e.id);
+    useFoundStore.setState({ found: Object.fromEntries(confirmedIds.map((id) => [id, Date.now()])) });
+    useSettingsStore.setState({ hideFound: true, confirmedOnly: true });
+    render(<ParkScreen />);
+    expect(screen.getByText('Nothing confirmed here yet')).toBeTruthy();
+
+    fireEvent.press(screen.getByText('Show all'));
+    expect(useSettingsStore.getState().confirmedOnly).toBe(false);
+    expect(screen.queryByText('Nothing confirmed here yet')).toBeNull();
   });
 
   it('keeps the suggestion card at the end and the back button at the top', () => {

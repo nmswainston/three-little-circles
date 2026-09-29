@@ -1,7 +1,7 @@
 import { spawnSync } from 'node:child_process';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { describeFreshness, getConfirmation, ConfirmationSummary } from '../src/data/confirmations';
+import { describeFreshness, getConfirmation, isConfirmed, ConfirmationSummary } from '../src/data/confirmations';
 import { useConfirmationsStore } from '../src/store/useConfirmationsStore';
 
 const NOW = Date.parse('2026-09-22T12:00:00Z');
@@ -39,6 +39,27 @@ describe('describeFreshness', () => {
 
   it('returns undefined for an entry with no summary', () => {
     expect(getConfirmation('__no-such-entry__')).toBeUndefined();
+  });
+});
+
+describe('isConfirmed', () => {
+  const entry = (status?: 'Current' | 'Unverified' | 'Seasonal' | 'Variable' | 'Removed') => ({ id: 'x', status });
+
+  it('trusts the content when nobody has reported on the find', () => {
+    expect(isConfirmed(entry(), undefined)).toBe(true);
+    expect(isConfirmed(entry('Current'), undefined)).toBe(true);
+    expect(isConfirmed(entry('Seasonal'), undefined)).toBe(true);
+    expect(isConfirmed(entry('Variable'), undefined)).toBe(true);
+    expect(isConfirmed(entry('Unverified'), undefined)).toBe(false);
+    expect(isConfirmed(entry('Removed'), undefined)).toBe(false);
+    expect(isConfirmed(entry('Unverified'), { seen: 0, missing: 0 })).toBe(false);
+  });
+
+  it('lets the newest report decide over the content', () => {
+    expect(isConfirmed(entry('Unverified'), { seen: 1, missing: 0, lastSeenISO: iso(3) })).toBe(true);
+    expect(isConfirmed(entry('Current'), { seen: 0, missing: 1, lastMissingISO: iso(3) })).toBe(false);
+    expect(isConfirmed(entry('Current'), { seen: 5, missing: 1, lastSeenISO: iso(9), lastMissingISO: iso(2) })).toBe(false);
+    expect(isConfirmed(entry('Unverified'), { seen: 1, missing: 4, lastSeenISO: iso(1), lastMissingISO: iso(2) })).toBe(true);
   });
 });
 

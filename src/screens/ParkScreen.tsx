@@ -5,7 +5,16 @@ import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { RootStackParamList } from "../navigation/types";
-import { AttractionGroup, LandGroup, getAllEntries, getParksSummary, groupByLand, matchesEntryType } from "../data/query";
+import {
+  AttractionGroup,
+  LandGroup,
+  confirmedFirst,
+  getAllEntries,
+  getParksSummary,
+  groupByLand,
+  matchesEntryType,
+} from "../data/query";
+import { isConfirmed } from "../data/confirmations";
 import { getDestination } from "../data/destinations";
 import { getFactsForPark } from "../data/facts";
 import { labelOrFallback } from "../data/labels";
@@ -57,6 +66,8 @@ export default function ParkScreen() {
   const found = useFoundStore((s) => s.found);
   const hideFound = useSettingsStore((s) => s.hideFound);
   const setHideFound = useSettingsStore((s) => s.setHideFound);
+  const confirmedOnly = useSettingsStore((s) => s.confirmedOnly);
+  const setConfirmedOnly = useSettingsStore((s) => s.setConfirmedOnly);
 
   const parkEntries = useMemo(() => getAllEntries().filter((e) => e.parkId === parkId), [parkId]);
   const hasFinds = parkEntries.length > 0;
@@ -64,16 +75,23 @@ export default function ParkScreen() {
   const pct = hasFinds ? (foundCount / parkEntries.length) * 100 : 0;
 
   // The type filter narrows first; hunting mode then drops what's already
-  // found, so an attraction with nothing left to spot disappears entirely.
+  // found, and "Confirmed only" what nobody has checked, so an attraction
+  // with nothing left to show disappears entirely.
   const typed = useMemo(() => parkEntries.filter((e) => matchesEntryType(e, filter)), [parkEntries, filter]);
-  const hiddenCount = hideFound ? typed.filter((e) => e.id in found).length : 0;
-  const groups = useMemo(
-    () => groupByLand(hideFound ? typed.filter((e) => !(e.id in found)) : typed),
-    [typed, hideFound, found]
+  const visible = useMemo(
+    () => typed.filter((e) => (!hideFound || !(e.id in found)) && (!confirmedOnly || isConfirmed(e))),
+    [typed, hideFound, confirmedOnly, found]
   );
-  const allFoundHere = hideFound && typed.length > 0 && hiddenCount === typed.length;
+  const hiddenCount = typed.length - visible.length;
+  const groups = useMemo(() => groupByLand(visible), [visible]);
+  const allFoundHere = hideFound && typed.length > 0 && typed.every((e) => e.id in found);
+  // Within each attraction, the finds most likely to be there come first.
   const sections = useMemo<LandSection[]>(
-    () => groups.map((land) => ({ ...land, data: land.attractions.map((a) => ({ ...a, landId: land.landId })) })),
+    () =>
+      groups.map((land) => ({
+        ...land,
+        data: land.attractions.map((a) => ({ ...a, entries: confirmedFirst(a.entries), landId: land.landId })),
+      })),
     [groups]
   );
 
@@ -208,6 +226,12 @@ export default function ParkScreen() {
               selected={hideFound}
               onPress={() => setHideFound(!hideFound)}
             />
+            <Chip
+              label="Confirmed only"
+              icon={confirmedOnly ? "shield-checkmark" : "shield-checkmark-outline"}
+              selected={confirmedOnly}
+              onPress={() => setConfirmedOnly(!confirmedOnly)}
+            />
             {hiddenCount > 0 && <Text style={styles.huntMeta}>{hiddenCount} hidden</Text>}
           </View>
         )}
@@ -224,6 +248,13 @@ export default function ParkScreen() {
               message={`You've spotted every documented ${filter === "All" ? "detail" : filter === "FIND" ? "find" : "hidden surprise"} here. Show them again to revisit.`}
               actionLabel="Show found"
               onAction={() => setHideFound(false)}
+            />
+          ) : confirmedOnly ? (
+            <EmptyState
+              title="Nothing confirmed here yet"
+              message="Nobody has checked these in person yet. Show them all, and tap Still there? on any you spot."
+              actionLabel="Show all"
+              onAction={() => setConfirmedOnly(false)}
             />
           ) : (
             <EmptyState title="Nothing here yet" message="No entries match this filter." />
@@ -395,6 +426,7 @@ const createStyles = (t: Theme) =>
     },
     huntRow: {
       flexDirection: "row",
+      flexWrap: "wrap",
       alignItems: "center",
       gap: spacing.md - 4,
     },
