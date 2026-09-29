@@ -1,0 +1,45 @@
+{
+  "id": "around-the-world",
+  "title": "Around the World",
+  "blurb": "One find in every World Showcase pavilion, all eleven of them.",
+  "parkId": "showcase_park",
+  "icon": "globe",
+  "goal": "each",
+  "targets": [
+    {
+      "land": "showcase_park/mexico_pavilion"
+    },
+    {
+      "land": "showcase_park/norway_pavilion"
+    },
+    {
+      "land": "showcase_park/china_pavilion"
+    },
+    {
+      "land": "showcase_park/germany_pavilion"
+    },
+    {
+      "land": "showcase_park/italy_pavilion"
+    },
+    {
+      "land": "showcase_park/american_pavilion"
+    },
+    {
+      "land": "showcase_park/japan_pavilion"
+    },
+    {
+      "land": "showcase_park/morocco_pavilion"
+    },
+    {
+      "land": "showcase_park/france_pavilion"
+    },
+    {
+      "land": "showcase_park/united_kingdom_pavilion"
+    },
+    {
+      "land": "showcase_park/canada_pavilion"
+    }
+  ],
+  "createdAtISO": "2026-09-29T00:00:00.000Z",
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+}

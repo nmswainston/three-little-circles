@@ -1,0 +1,67 @@
+{
+  "id": "resort-hopper",
+  "title": "Resort Hopper",
+  "blurb": "Find something at five different Disney resort hotels.",
+  "parkId": "resorts_bucket",
+  "icon": "bed",
+  "goal": "any",
+  "count": 5,
+  "targets": [
+    {
+      "land": "resorts_bucket/all_star_music_resort"
+    },
+    {
+      "land": "resorts_bucket/animal_kingdom_lodge_resort"
+    },
+    {
+      "land": "resorts_bucket/art_of_animation_resort"
+    },
+    {
+      "land": "resorts_bucket/boardwalk_resort"
+    },
+    {
+      "land": "resorts_bucket/caribbean_beach_resort"
+    },
+    {
+      "land": "resorts_bucket/contemporary_resort"
+    },
+    {
+      "land": "resorts_bucket/coronado_springs_resort"
+    },
+    {
+      "land": "resorts_bucket/fort_wilderness_campground"
+    },
+    {
+      "land": "resorts_bucket/grand_floridian_resort"
+    },
+    {
+      "land": "resorts_bucket/polynesian_village_resort"
+    },
+    {
+      "land": "resorts_bucket/pop_century_resort"
+    },
+    {
+      "land": "resorts_bucket/port_orleans_french_quarter_resort"
+    },
+    {
+      "land": "resorts_bucket/port_orleans_riverside_resort"
+    },
+    {
+      "land": "resorts_bucket/riviera_resort"
+    },
+    {
+      "land": "resorts_bucket/saratoga_springs_resort"
+    },
+    {
+      "land": "resorts_bucket/vero_beach_resort"
+    },
+    {
+      "land": "resorts_bucket/wilderness_lodge_resort"
+    },
+    {
+      "land": "resorts_bucket/yacht_and_beach_club_resort"
+    }
+  ],
+  "createdAtISO": "2026-09-29T00:00:00.000Z",
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+}
