@@ -127,7 +127,10 @@ export const challenges: Challenge[] = [
         "land": "resorts_bucket/contemporary_resort"
       },
       {
-        "land": "resorts_bucket/coronado_springs_resort"
+        "land": [
+          "resorts_bucket/coronado_springs_resort",
+          "resorts_bucket/coronado_springs_gran_destino"
+        ]
       },
       {
         "land": "resorts_bucket/fort_wilderness_campground"
