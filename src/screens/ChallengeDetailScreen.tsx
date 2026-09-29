@@ -1,10 +1,11 @@
 import React, { useMemo, useState } from "react";
 import { ScrollView, StyleSheet, View, Text, Pressable } from "react-native";
-import { RouteProp, useNavigation, useRoute } from "@react-navigation/native";
+import { CompositeNavigationProp, RouteProp, useNavigation, useRoute } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
+import { BottomTabNavigationProp } from "@react-navigation/bottom-tabs";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
-import { RootStackParamList } from "../navigation/types";
+import { RootStackParamList, RootTabParamList } from "../navigation/types";
 import { challengeGroups, challengeStatus, getChallenge, goalSentence, progressUnit } from "../data/challenges";
 import { challengeAchievementId, getAchievement } from "../data/achievements";
 import { getDestination } from "../data/destinations";
@@ -22,7 +23,10 @@ import EntryRow from "../components/EntryRow";
 import { challengeAccent } from "../components/ChallengeCard";
 
 type IconName = keyof typeof Ionicons.glyphMap;
-type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
+type NavigationProp = CompositeNavigationProp<
+  NativeStackNavigationProp<RootStackParamList>,
+  BottomTabNavigationProp<RootTabParamList>
+>;
 
 function longDate(timestamp: number): string {
   return new Date(timestamp).toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
@@ -219,6 +223,16 @@ export default function ChallengeDetailScreen() {
               </View>
             </View>
           ))}
+
+          <Pressable
+            onPress={() => navigation.navigate("MapTab", { screen: "Map", params: { challengeId: challenge.id } })}
+            accessibilityRole="button"
+            accessibilityLabel="Show these on the map"
+            style={({ pressed }) => [styles.mapButton, pressed && styles.pressed]}
+          >
+            <Ionicons name="map" size={20} color={t.colors.onPrimary} />
+            <Text style={styles.mapButtonText}>Show these on the map</Text>
+          </Pressable>
         </View>
       </ScrollView>
     </View>
@@ -368,6 +382,20 @@ const createStyles = (t: Theme) =>
     placeCount: {
       ...text.meta,
       fontVariant: ["tabular-nums"],
+    },
+    mapButton: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: spacing.sm,
+      minHeight: 48,
+      borderRadius: radii.full,
+      backgroundColor: t.colors.primary,
+    },
+    mapButtonText: {
+      ...text.button,
+      fontSize: 15,
+      color: t.colors.onPrimary,
     },
     entries: {
       paddingBottom: spacing.sm,

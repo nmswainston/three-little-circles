@@ -9,8 +9,11 @@ export type RootStackParamList = {
   Park: { parkId: string };
   EntryDetail: { entryId: string };
   SubmitSighting: { parkId?: string } | undefined;
-  /** focusEntryId zooms to that entry's pin and opens its label */
-  Map: { focusEntryId?: string } | undefined;
+  /**
+   * focusEntryId zooms to that entry's pin and opens its label. challengeId
+   * shows only that challenge's finds until the guest picks a park or clears it.
+   */
+  Map: { focusEntryId?: string; challengeId?: string } | undefined;
   Profile: undefined;
   /** tab opens on Challenges instead of Badges */
   Badges: { tab?: "badges" | "challenges" } | undefined;
