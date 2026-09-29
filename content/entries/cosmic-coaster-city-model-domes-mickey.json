@@ -19,7 +19,7 @@
     "exactSpot": "Near the perimeter of the model, look for a grassy park tucked behind some tall buildings. Three small domes sit in the grass: a blue head with one green ear and one blue ear.",
     "orientation": "Upright"
   },
-  "bestTip": "The queue passes the model on your right, makes a U-turn, and passes it on your right again. Check the grassy corner at the far end as you walk away from it, and ignore the towers.",
+  "bestTip": "The queue passes the model twice, on your right both times. Use the second pass, and look past the towers.",
   "viewing": {
     "motion": "Still",
     "lighting": "Mixed",
@@ -35,5 +35,5 @@
     "longitude": -81.5469
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

@@ -19,7 +19,7 @@
     "exactSpot": "Three suits of armor stand in a row. On the one closest to the glockenspiel, look at the crown for the three-circle shape.",
     "orientation": "Upright"
   },
-  "bestTip": "Stand back in the courtyard for a straight view of the second floor and use your phone's camera zoom on the crown.",
+  "bestTip": "Stand back in the courtyard for a straight view of the second floor, and bring your phone's zoom.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -35,5 +35,5 @@
     "longitude": -81.5469
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

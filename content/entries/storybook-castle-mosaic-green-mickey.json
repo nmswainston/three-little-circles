@@ -18,7 +18,7 @@
     "scene": "Mosaic murals in the castle walkway",
     "exactSpot": "Left-hand mosaic wall, low, well below eye level."
   },
-  "bestTip": "Kids find this one first. Crouch to their height and scan the lower rows of tiles on the left.",
+  "bestTip": "Kids find this one first. Crouch to their height before you start scanning.",
   "viewing": {
     "motion": "Still",
     "lighting": "Mixed",
@@ -35,5 +35,5 @@
   },
   "sourceId": "TLC-MK-0006",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

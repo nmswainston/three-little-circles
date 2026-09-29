@@ -19,7 +19,7 @@
     "exactSpot": "The base of the column. Look at the ends of the tied logs.",
     "orientation": "Upside-down"
   },
-  "bestTip": "Work the columns one at a time; only one has the bundle.",
+  "bestTip": "Work the columns one at a time, and look low.",
   "viewing": {
     "motion": "Still",
     "lighting": "Mixed",
@@ -37,5 +37,5 @@
   "sourceId": "TLC-RS-0018",
   "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

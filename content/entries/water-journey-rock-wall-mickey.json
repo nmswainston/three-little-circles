@@ -19,7 +19,7 @@
     "exactSpot": "Left side of the rock wall, toward the top. Three round depressions in the rock form the classic shape.",
     "orientation": "Upright"
   },
-  "bestTip": "Let the water settle between bursts, then scan the upper left of the rock face. Stand back a step so the fence is not in your line of sight.",
+  "bestTip": "Let the water settle between bursts, and stand back a step so the fence is not in your line of sight.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -35,5 +35,5 @@
     "longitude": -81.5502
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

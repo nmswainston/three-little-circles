@@ -18,7 +18,7 @@
     "scene": "Final scene of the boat ride, the buildings along the shore as you approach the dock",
     "exactSpot": "One of the windows on those buildings holds a small Mickey."
   },
-  "bestTip": "After you check the drums on the barge, switch to the buildings and go window by window.",
+  "bestTip": "After the barge, switch to the buildings on the shore and take them slowly.",
   "viewing": {
     "motion": "Moving",
     "lighting": "Dim",
@@ -32,5 +32,5 @@
     "longitude": -81.5468
   },
   "createdAtISO": "2026-09-23T00:00:00.000Z",
-  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

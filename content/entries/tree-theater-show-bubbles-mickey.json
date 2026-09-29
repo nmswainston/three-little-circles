@@ -17,7 +17,7 @@
     "scene": "Theater inside the great tree, toward the end of the show, just after the swinging animals",
     "exactSpot": "Middle of the stage. Three large bubbles meet for about a second in the classic shape, tilted to the left."
   },
-  "bestTip": "When the swings appear, shift your eyes to the center of the stage and wait for the bubbles rather than following the characters.",
+  "bestTip": "When the swings appear, shift your eyes to the center of the stage rather than following the characters. It lasts about a second.",
   "viewing": {
     "motion": "Moving",
     "lighting": "Dim",
@@ -33,5 +33,5 @@
     "longitude": -81.5906
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

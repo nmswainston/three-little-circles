@@ -23,7 +23,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Space ranger mural on the wall",
       "exactSpot": "Three buttons on the mural form the classic shape."
     },
-    "bestTip": "Scan the painted buttons for a cluster of three rather than reading the mural as a whole.",
+    "bestTip": "Look at the details of the ranger's outfit rather than the mural as a whole.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -38,7 +38,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.562
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "all-star-music-lobby-mural-grilling-bear",
@@ -99,7 +99,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Paintings on display inside the pavilion, the one showing workers constructing a building",
       "exactSpot": "In the building's beams. Their arrangement forms the classic shape."
     },
-    "bestTip": "Look at the framework of the building rather than the workers.",
+    "bestTip": "Look at the building rather than the workers.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -114,7 +114,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5498
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "american-pavilion-lobby-picture-frame-mickey",
@@ -136,7 +136,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Framed paintings in the rotunda lobby",
       "exactSpot": "The carved decoration of the frames, not the paintings. Look at the corners and the scrollwork."
     },
-    "bestTip": "Take the frames one at a time while you wait for the show to load.",
+    "bestTip": "Take the paintings one at a time while you wait for the show to load. Look at everything on the wall, not just the scenes.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -154,7 +154,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-EP-0009",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-united-states-pavillion-frame-design",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "american-pavilion-settlers-painting-horse-leg-mickey",
@@ -175,7 +175,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Paintings on display inside the pavilion, the one showing early settlers crossing a river",
       "exactSpot": "Near the leg of one of the horses."
     },
-    "bestTip": "Find the horses first, then check the ground and water around each leg.",
+    "bestTip": "Find the horses first, then slow down. The shape is small.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -190,7 +190,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5498
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "american-pavilion-westward-painting-mickey",
@@ -252,7 +252,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Animal murals in the dining rooms",
       "exactSpot": "The turtle. Look at the pattern on its shell."
     },
-    "bestTip": "There are several dining rooms. Check each mural for the turtle before settling in.",
+    "bestTip": "There are several dining rooms. Check each mural before settling in, and look at the animals' markings.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -270,7 +270,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0015",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-pizzafari-turtle",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "animation-gallery-lost-and-found-donkey-tail",
@@ -436,7 +436,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Reception area",
       "exactSpot": "Look up above the desk."
     },
-    "bestTip": "Everyone looks at the shelf. Look up.",
+    "bestTip": "Everyone looks at the shelf. This one is somewhere else in the room.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -450,7 +450,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0034",
     "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "animation-gallery-snowman-book-illusion-of-life",
@@ -472,7 +472,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Drawing area with the snowman figure",
       "exactSpot": "The book underneath the snowman. Read the spine."
     },
-    "bestTip": "Lean in. The title is on the spine, not the cover.",
+    "bestTip": "Lean in. The snowman is not the only thing on display.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -486,7 +486,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0037",
     "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "animation-gallery-treasures-emperor-crown",
@@ -697,7 +697,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "In the shadows behind and just below the round Package Pick-Up sign",
       "orientation": "Upright"
     },
-    "bestTip": "Look just under the sign rather than at eye level. Most guests scan too high and miss it.",
+    "bestTip": "Most guests scan at eye level and miss it. Check around the sign itself.",
     "viewing": {
       "motion": "Still",
       "lighting": "Dim",
@@ -716,7 +716,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://hiddenmickeyguy.com/817-2/",
     "status": "Variable",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "backyard-coaster-queue-cloud-mickey",
@@ -930,7 +930,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Mid-ride musical scene",
       "exactSpot": "The bobcat with the saxophone. Look at his fur pattern."
     },
-    "bestTip": "Find the saxophone first, then read the spots.",
+    "bestTip": "The scene is crowded and moves fast. Pick out the band and study the players one by one.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Dim",
@@ -948,7 +948,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0092",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-tiana-s-bayou-adventure-bobcat-hidden",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "bayou-log-flume-bongo-frog-thigh-mickey",
@@ -971,7 +971,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "The bongo frog on the left. Look at the spots on his upper left thigh.",
       "orientation": "Upside-down"
     },
-    "bestTip": "Sit on the left and look at the frog's leg, not his drums.",
+    "bestTip": "Sit on the left. The answer is on a performer, not an instrument.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Dim",
@@ -988,7 +988,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0051",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "bayou-log-flume-fence-gumbo-foam-mickey",
@@ -1049,7 +1049,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Party finale after the big drop",
       "exactSpot": "The food display. Look at the plate of beignets."
     },
-    "bestTip": "The finale is busy. Find the food table first, then the plate.",
+    "bestTip": "The finale is busy. Look past the characters to the party itself.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Mixed",
@@ -1066,7 +1066,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0053",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "beak-and-barrel-lounge-chalice-display",
@@ -1243,7 +1243,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Miniature carousel model in the lobby",
       "exactSpot": "A horse's right rear thigh."
     },
-    "bestTip": "After the neck, check the hindquarters.",
+    "bestTip": "Find the first carousel Mickey, then keep going around the horses.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -1261,7 +1261,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0063",
     "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "boulder-ridge-lobby-beam-knot-carved-mickey",
@@ -1283,7 +1283,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Beam to the right of the fireplace",
       "exactSpot": "Find the knot in the wood and look at the carving around it."
     },
-    "bestTip": "The carving uses the knot as the head.",
+    "bestTip": "Look closely at the wood grain rather than the beam as a whole.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -1301,7 +1301,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0056",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "boulder-ridge-lobby-fireplace-red-ornament-profile-mickey",
@@ -1363,7 +1363,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Flower painting on the right side of the villas lobby",
       "exactSpot": "The open field, away from the river. Look for three rocks together."
     },
-    "bestTip": "After the river, move your eyes to the meadow.",
+    "bestTip": "This is one of three on the painting. Look away from the river.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -1381,7 +1381,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0053",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "boulder-ridge-lobby-flower-painting-frame-mickey",
@@ -1403,7 +1403,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Flower painting on the right side of the villas lobby",
       "exactSpot": "Lower right corner of the frame."
     },
-    "bestTip": "Third of three on this painting. Check the frame last.",
+    "bestTip": "Third of three on this painting, and not in the scene itself.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -1421,7 +1421,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0054",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "boulder-ridge-lobby-flower-painting-river-rocks-mickey",
@@ -1721,7 +1721,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Large flowers moving and flashing along the right side of the mirror. The shape is in the middle of one of them.",
       "orientation": "Upright"
     },
-    "bestTip": "Look toward the front mirror the moment you enter the dance room and watch the flowers to its right rather than the dancers.",
+    "bestTip": "Look toward the front mirror the moment you enter the dance room, and watch what surrounds it rather than the dancers.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Flashing",
@@ -1736,7 +1736,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5604
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-preshow-chandelier-mickeys",
@@ -1841,7 +1841,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Once the bubbles clear, look back over your left shoulder for an open clam holding three blue pearls arranged in the classic shape.",
       "orientation": "Upright"
     },
-    "bestTip": "Turn to look back and left the moment the bubbles fade after the waterfall. The clam is behind you, not ahead.",
+    "bestTip": "Turn to look back and left the moment the bubbles fade after the waterfall. It is behind you, not ahead.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Dim",
@@ -1856,7 +1856,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5604
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "castle-restaurant-ballroom-ceiling-minnie",
@@ -1878,7 +1878,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Ballroom dining room with the painted sky ceiling",
       "exactSpot": "Front right portion of the ceiling, near the outer edge where the clouds thin out."
     },
-    "bestTip": "Stand near the front right of the room and look for the bow first. The ceiling is high, so give your eyes a moment.",
+    "bestTip": "The ceiling is high and busy, so give your eyes a moment. Look for a bow, not ears.",
     "viewing": {
       "motion": "Still",
       "lighting": "Dim",
@@ -1896,7 +1896,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0004",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "castle-restaurant-bubbles-mickey",
@@ -1917,7 +1917,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Gallery dining room (the Rose Gallery) to the right of the ballroom, left side of the rear wall",
       "exactSpot": "Small painting of Mrs. Potts and Chip. In the dish of bubbles Chip is playing in, three bubbles form the classic shape, tilted to the left."
     },
-    "bestTip": "Find the painting first, then get close and scan the bubbles slowly. The shape is tilted, so let your eye relax rather than hunting for an upright Mickey.",
+    "bestTip": "Get close and scan slowly. The shape is tilted, so let your eye relax rather than hunting for an upright Mickey.",
     "viewing": {
       "motion": "Still",
       "lighting": "Dim",
@@ -1935,7 +1935,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0005",
     "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "ceremonial-house-front-door-floor-stones-mickey",
@@ -2237,7 +2237,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Covered walkway from the shop toward the restrooms",
       "exactSpot": "Look up at the beam overhead. The shape is in the painted floral ornament."
     },
-    "bestTip": "Stop under the beam; walking past, it is just a blur of blue and white.",
+    "bestTip": "Stop and look up. Walking past, it is just a blur of blue and white.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -2251,7 +2251,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0078",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-floral-surprise-liberty-square",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "concert-hall-shop-music-stands-mickey",
@@ -2507,7 +2507,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Right-hand curving mural",
       "exactSpot": "The butterfly. Look at its body between the wings, not the wing pattern."
     },
-    "bestTip": "There are several butterflies. The one you want has a face where its thorax should be.",
+    "bestTip": "Plenty of creatures share this mural. Check each one's body, not just its markings.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -2525,7 +2525,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0018",
     "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-entrance-mural-butterfly-wing-mickey",
@@ -2547,7 +2547,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Entrance mural, upper right",
       "exactSpot": "The butterfly high on the right. Look at the spots on its wings."
     },
-    "bestTip": "Start from the top right corner and work down until you hit the butterfly.",
+    "bestTip": "Start from the top right corner and work down slowly.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -2565,7 +2565,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0026",
     "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-entrance-mural-opossum-eye-mickey",
@@ -2587,7 +2587,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Entrance mural, right side",
       "exactSpot": "Find the opossum and look into its eye. The profile is in the pupil."
     },
-    "bestTip": "Get close. The pupils are small and the profile is smaller.",
+    "bestTip": "Get close. The shape is tiny, and it is a profile, not three circles.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -2606,7 +2606,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0017",
     "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-lizard-tree-mickey",
@@ -2628,7 +2628,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Tree to the right of the willow",
       "exactSpot": "Find the cockroach sign, then the lizard above it, then look just above the lizard's front leg."
     },
-    "bestTip": "Follow the chain: sign, lizard, leg. Each one points to the next.",
+    "bestTip": "There is a trail of clues on this tree. Start at the sign.",
     "viewing": {
       "motion": "Still",
       "lighting": "Dim",
@@ -2646,7 +2646,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0022",
     "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-low-mural-frog-pupil-mickey",
@@ -2668,7 +2668,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Low mural just before the theater",
       "exactSpot": "The silver frog. Look into its left eye."
     },
-    "bestTip": "Crouch. The mural is low and the frog is near the floor.",
+    "bestTip": "Crouch. The mural is low and easy to walk past.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -2686,7 +2686,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0019",
     "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-rainforest-panel-leaf-hole-mickey",
@@ -2708,7 +2708,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Right panel at the entrance to the rainforest exhibit",
       "exactSpot": "A green leaf on the panel. The Mickey is a hole in the leaf, not a marking on it."
     },
-    "bestTip": "Look for daylight or wall color showing through the leaf.",
+    "bestTip": "Look for what is missing rather than what is painted.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -2726,7 +2726,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0027",
     "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-rainforest-tree-shadow-profile-mickey",
@@ -2906,7 +2906,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Left entrance door of the gift shop",
       "exactSpot": "Look at the door's decoration and hardware for three circles."
     },
-    "bestTip": "Check both the woodwork and the handle.",
+    "bestTip": "Look at the door itself, not through it.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -2924,7 +2924,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0087",
     "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-springs-resorts/2026/08/01/disneys-coronado-springs-resort-hidden-mickey",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "cosmic-coaster-city-model-domes-mickey",
@@ -2947,7 +2947,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Near the perimeter of the model, look for a grassy park tucked behind some tall buildings. Three small domes sit in the grass: a blue head with one green ear and one blue ear.",
       "orientation": "Upright"
     },
-    "bestTip": "The queue passes the model on your right, makes a U-turn, and passes it on your right again. Check the grassy corner at the far end as you walk away from it, and ignore the towers.",
+    "bestTip": "The queue passes the model twice, on your right both times. Use the second pass, and look past the towers.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -2963,7 +2963,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5469
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "cosmic-coaster-city-model-water-mickey",
@@ -3026,7 +3026,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Window of the shop on the boulevard",
       "exactSpot": "Below where the window says Melrose. The pattern there forms several three-circle shapes."
     },
-    "bestTip": "Find the word Melrose on the glass and look just under it.",
+    "bestTip": "Read the lettering on the glass slowly. The shapes are in the pattern, not the words.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -3041,7 +3041,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5591
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "critter-carousel-armadillo-spots-mickey",
@@ -3063,7 +3063,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Blue armadillo. Three spots on the right front shoulder form the classic shape.",
       "orientation": "Upright"
     },
-    "bestTip": "Wait for the ride to stop and find the blue armadillo in the inner ring, or ride it and check the shoulder before you climb on.",
+    "bestTip": "Wait for the ride to stop, then check the inner ring of critters one by one.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -3078,7 +3078,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -117.9212
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "critter-popout-sideways-mickey",
@@ -3261,7 +3261,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "The fashionable woman on the right side. Her belt buckle is the classic shape.",
       "orientation": "Upright"
     },
-    "bestTip": "When the ride starts its final approach, watch the right side for the figure and go straight to her waist.",
+    "bestTip": "When the ride starts its final approach, watch the right side and look at the outfits, not the faces.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Mixed",
@@ -3277,7 +3277,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0040",
     "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "entrance-gates-grillwork-mickeys",
@@ -3457,7 +3457,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Mother's music room in the treehouse, the shelf with the lamp next to the family's storybook",
       "exactSpot": "Middle of the lampshade. A round red seashell with two smaller orange shells as ears, tilted to the right."
     },
-    "bestTip": "Find the book on the shelf first, then check the lampshade beside it.",
+    "bestTip": "Find the storybook on the shelf first, then look closely at everything around it.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -3472,7 +3472,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -117.9205
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "family-treehouse-trunk-moss-mickey",
@@ -3652,7 +3652,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "On the far side of the tree, two clusters of mushrooms and fungi. Halfway up the left cluster, as you face the tree from the far side, three small round mushrooms form the classic shape.",
       "orientation": "Upright"
     },
-    "bestTip": "Pass the tree, turn around, and face it from the far side. Scan halfway up the left cluster.",
+    "bestTip": "Pass the tree, then turn around. It only works from the far side.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -3668,7 +3668,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5915
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "flying-carpets-pavement-charm-mickey",
@@ -3690,7 +3690,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Walkway between the bazaar shop across from the ride exit and the ride itself",
       "exactSpot": "Find the pole at the shop with a thick blue stripe at the bottom. Take about three steps toward the ride and look down at the cement for the charm."
     },
-    "bestTip": "Use the blue-striped pole as your anchor and count your steps. Look down before you look around.",
+    "bestTip": "Look down, not around. The walkway itself is where to search.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -3710,7 +3710,7 @@ export const entries: HiddenMickeyEntry[] = [
     ],
     "sourceId": "TLC-MK-0025",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "flying-carpets-spinner-camel-necklace-mickey",
@@ -3773,7 +3773,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Cannonballs against a red post, behind the first mate. They form the classic shape upside down.",
       "orientation": "Upside-down"
     },
-    "bestTip": "Ignore the sword fight and scan the deck behind the first mate for the red post.",
+    "bestTip": "Ignore the sword fight and look past the first mate.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Dim",
@@ -3788,7 +3788,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -117.9188
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "flying-pirate-ship-mermaid-lagoon-flowers-mickey",
@@ -3850,7 +3850,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Seventh handrail post counting from the end of the handrail. Midway up the post, the classic shape faces you.",
       "orientation": "Upright"
     },
-    "bestTip": "Count posts from the end of the rail while the line is stopped, then check midway up the seventh.",
+    "bestTip": "Count the handrail posts from the end of the rail while the line is stopped.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -3865,7 +3865,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -117.9188
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "flying-pirate-ship-queue-tree-bark-mickey",
@@ -4282,7 +4282,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "The spoked wheels. Stand at the far end of the restaurant seating and look across.",
       "orientation": "Sideways"
     },
-    "bestTip": "Distance helps. Close up, they are just wheels.",
+    "bestTip": "Distance helps. Close up, it just looks like decoration.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -4300,7 +4300,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0013",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-trails-end-restaurant-and-crocketts-tavern-frying-pan-hidden-mickey-and-spoked-wheel-hidden-mickey/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "galactic-blaster-exit-mural-alien-spacecraft",
@@ -4522,7 +4522,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Garage electronics scene",
       "exactSpot": "The desktop. Look at the small items for an eraser in the three-circle shape."
     },
-    "bestTip": "The vehicle turns slowly here. Watch the desk rather than the screen.",
+    "bestTip": "The vehicle turns slowly here. Look at the clutter rather than the screen.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Dim",
@@ -4540,7 +4540,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-EP-0031",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-eraser",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "geosphere-entrance-mural-satellite-mickey",
@@ -4602,7 +4602,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Renaissance painter's studio",
       "exactSpot": "The fruit the artist is studying. Look at how the pieces are grouped."
     },
-    "bestTip": "Find the painter first, then the paint marks, then the fruit.",
+    "bestTip": "Find the painter first, then look at what he is studying.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Dim",
@@ -4620,7 +4620,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-EP-0030",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-art",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "geosphere-renaissance-painter-table-mickey",
@@ -4643,7 +4643,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "On top of the painter's table, three white circles form the classic shape.",
       "orientation": "Upright"
     },
-    "bestTip": "Look left as soon as the Renaissance scene begins and go straight to the first painter's table.",
+    "bestTip": "Look left as soon as the Renaissance scene begins, and stay with the first painter rather than the rest of the scene.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Dim",
@@ -4660,7 +4660,7 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-paint-marks",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "germany-armor-crown-mickey",
@@ -4683,7 +4683,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Three suits of armor stand in a row. On the one closest to the glockenspiel, look at the crown for the three-circle shape.",
       "orientation": "Upright"
     },
-    "bestTip": "Stand back in the courtyard for a straight view of the second floor and use your phone's camera zoom on the crown.",
+    "bestTip": "Stand back in the courtyard for a straight view of the second floor, and bring your phone's zoom.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -4699,7 +4699,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5469
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "gliding-flight-finale-fireworks-mickey",
@@ -4759,7 +4759,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "The hot air balloon scene",
       "exactSpot": "Three balloons briefly form the classic shape as they come on screen."
     },
-    "bestTip": "The moment the balloons appear, look for the tightest cluster of three rather than any single balloon.",
+    "bestTip": "The moment the balloons appear, take in the whole group rather than any single balloon. It lasts a moment.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Bright",
@@ -4774,7 +4774,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5527
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "glowing-river-light-fixture-mickey",
@@ -4796,7 +4796,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Early part of the express-entry queue, the row of standing plant-like light fixtures on your left",
       "exactSpot": "Fourth fixture from the start on your left. The shape is traced near the top middle, toward the end of the fixture."
     },
-    "bestTip": "Count the fixtures as you pass them and slow down at the fourth. Look at the upper part rather than the base.",
+    "bestTip": "Count the fixtures as you pass them, and look high rather than at the base.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -4812,7 +4812,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5918
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "glowing-river-shaman-cloak-mickeys",
@@ -4871,7 +4871,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Shaman scene at the end of the ride",
       "exactSpot": "The pattern of the shaman's garment. Look at the woven design across her body."
     },
-    "bestTip": "The boat lingers here. Look at the fabric rather than her face.",
+    "bestTip": "The boat lingers here. Look past her face.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Dim",
@@ -4889,7 +4889,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0014",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-na-vi-river-journey",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "gran-destino-elevator-wall-mickey",
@@ -4911,7 +4911,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Ornate wall design directly above the elevator doors on the top floor",
       "orientation": "Upright"
     },
-    "bestTip": "Ride to the top floor using the side elevators and scan above the doors before exiting the elevator area.",
+    "bestTip": "Ride to the top floor using the side elevators, and look around the elevator bank before you leave it.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -4930,7 +4930,7 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-coronado-springs-resort-gran-destino-tower-top-floor-hidden-mickey-above-elevator-doors/",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "grand-lobby-carpet-red-gold-mickey",
@@ -5233,7 +5233,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "The base of the column. Look at the ends of the tied logs.",
       "orientation": "Upside-down"
     },
-    "bestTip": "Work the columns one at a time; only one has the bundle.",
+    "bestTip": "Work the columns one at a time, and look low.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -5251,7 +5251,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0018",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "great-hall-lobby-shield-dots-mickey",
@@ -5313,7 +5313,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Front of the great tree, the carved tiger",
       "exactSpot": "To the right of the tiger, a patch of moss forms the classic shape."
     },
-    "bestTip": "Find the tiger carving first from the main viewing path, then scan the moss to its right.",
+    "bestTip": "Start from the main viewing path and find the tiger carving. Then look around it.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -5328,7 +5328,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5906
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "greenhouse-boat-lettuce-planks-mickey",
@@ -5435,7 +5435,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "The large mural early in the boat ride",
       "exactSpot": "Three bubbles on the mural form the classic shape."
     },
-    "bestTip": "Scan the mural's bubbles for a group of three that touch.",
+    "bestTip": "Scan the whole mural early. The boat does not wait.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Dim",
@@ -5449,7 +5449,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5527
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "greenhouse-boat-shrimp-trap-mickey",
@@ -5547,7 +5547,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Lower middle of the mural, near the end of the short green wall. Three round orange flowers connect to form the classic shape.",
       "orientation": "Upright"
     },
-    "bestTip": "Look for the flowers while you wait your turn rather than during your photo, when you will be facing the camera instead of the wall.",
+    "bestTip": "Look at the mural while you wait your turn rather than during your photo, when you will be facing the camera instead of the wall.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -5566,7 +5566,7 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-epcot-world-celebration-meet-mickey-friends-mural-flower-hidden-mickey/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "harambe-market-pillar-mickeys",
@@ -5703,7 +5703,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Bottom left corner of the banquet table. A plate and two saucers form the classic shape.",
       "orientation": "Upright"
     },
-    "bestTip": "Look at the near left corner of the table as soon as the ballroom opens up, before the dancers distract you.",
+    "bestTip": "Look at the table as soon as the ballroom opens up, before the dancers distract you.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Dim",
@@ -5719,7 +5719,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0041",
     "status": "Variable",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "haunted-manor-graveyard-shroud-folds-mickey",
@@ -5741,7 +5741,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Graveyard scene, near the end",
       "exactSpot": "The hooded figure's shroud. Look at the folds of the fabric."
     },
-    "bestTip": "The car turns toward it. Watch the fabric, not the face.",
+    "bestTip": "The car turns toward the figure, so you get a good look. Don't stop at the face.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Dim",
@@ -5758,7 +5758,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0042",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "haunted-manor-hearse-hoofprints-mickey",
@@ -5780,7 +5780,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Hearse outside the manor entrance",
       "exactSpot": "The ground in front of the hearse where the horse would stand."
     },
-    "bestTip": "Look down at the prints, not at the harness.",
+    "bestTip": "Look down, not at the hearse.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -5797,7 +5797,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0043",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "haunted-manor-queue-bathtub-memorial-mickey",
@@ -5899,7 +5899,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "In the dirt area at the lower left of the painting, behind and between the first and second wall lamps from the left",
       "orientation": "Upright"
     },
-    "bestTip": "Stand close to the wall and scan low between the first two lamps from the left before moving further inside.",
+    "bestTip": "Stand close to the wall and scan the painting low, before moving further inside.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -5918,7 +5918,7 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disney-springs-chef-art-smiths-homecomin-restaurant-wall-painting-hidden-mickey-inside-entrance/",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "honey-pot-owl-house-deed-painting",
@@ -6767,7 +6767,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Top of the refrigerator, at the back corner. Look for the red, black, and yellow Mickey-shaped container.",
       "orientation": "Upright"
     },
-    "bestTip": "Step back from the fridge and look above it rather than at the door. The container sits at the rear edge of the top.",
+    "bestTip": "Step back from the fridge. The door is not the only place things are kept.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -6783,7 +6783,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5504
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "japan-gallery-fridge-magnets-mickey",
@@ -6805,7 +6805,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Upper left of the refrigerator door. Three magnets form the classic shape.",
       "orientation": "Upright"
     },
-    "bestTip": "Start at the top left corner of the door and work inward. Ignore the character magnets and look for three plain circles touching.",
+    "bestTip": "Ignore the character magnets. The answer is plainer than they are.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -6821,7 +6821,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5504
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "japan-koi-pond-rockwork-mickey",
@@ -6924,7 +6924,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Large entrance sign over the boat ride queue",
       "exactSpot": "Directly below the letter J. Three barnacles set as head and ears."
     },
-    "bestTip": "Stand under the sign and look straight up at the first letter.",
+    "bestTip": "Stand under the sign and look straight up. Read it letter by letter.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -6941,7 +6941,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0021",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "jungle-boat-ride-queue-map-circles-mickey",
@@ -7197,7 +7197,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "First archway near the tiger exhibit, the mural on the left",
       "exactSpot": "Three leaves in the mural form the classic shape."
     },
-    "bestTip": "Stop under the arch and scan the leaves in the left mural before moving on to the tigers.",
+    "bestTip": "Stop under the arch and give the left mural a slow look before moving on to the tigers.",
     "funFacts": [
       "The trail is said to hold more than ten Hidden Mickeys. The leaves inside the first arch and the cloud past the second arch are the two easiest to find."
     ],
@@ -7215,7 +7215,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5892
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "jungle-palace-second-arch-cloud-mickey",
@@ -7237,7 +7237,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Mural past the second archway on the trail",
       "exactSpot": "In the clouds of the mural. One cloud is the classic shape."
     },
-    "bestTip": "Look at the sky portion of the mural and compare the clouds with each other.",
+    "bestTip": "Look up into the mural rather than at the scene on the ground.",
     "funFacts": [
       "The trail is said to hold more than ten Hidden Mickeys. The leaves inside the first arch and the cloud past the second arch are the two easiest to find."
     ],
@@ -7255,7 +7255,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5892
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "jungle-palace-second-arch-mountain-rock-mickey",
@@ -7277,7 +7277,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Mural on the left past the second archway",
       "exactSpot": "The brown mountain in the painted background. Look at the rock shapes for a rounded three-circle outline."
     },
-    "bestTip": "Find the cloud Mickey first, then drop your eyes to the mountain below it.",
+    "bestTip": "Find the other Mickey in this mural first, then drop your eyes.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -7295,7 +7295,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0032",
     "sourceUrl": "https://www.celebrationspress.com/issues/Celebrations-Issue-1-DV46852.pdf",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "kidani-village-sidewalk-concrete-mickey",
@@ -7830,7 +7830,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Middle of the group of cards. The ace of clubs has a Mickey in place of the club at its center.",
       "orientation": "Upright"
     },
-    "bestTip": "Step to the middle of the shop and look straight up. Find the ace before you hunt for the shape.",
+    "bestTip": "Step to the middle of the shop and look straight up. Read the cards one at a time.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -7845,7 +7845,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -117.9188
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "main-street-candy-shop-chocolate-wall-mickey",
@@ -8221,7 +8221,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "End of the boat ride, the barge on your left",
       "exactSpot": "The bongo drums on the barge. The shape is on the drums."
     },
-    "bestTip": "As the last scene opens, look left at the barge and go straight to the drums.",
+    "bestTip": "As the last scene opens, look left at the barge before the dock pulls your eyes ahead.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Mixed",
@@ -8238,7 +8238,7 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-mexico-congo-drums",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "mexico-pyramid-boat-finale-window-mickey",
@@ -8260,7 +8260,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Final scene of the boat ride, the buildings along the shore as you approach the dock",
       "exactSpot": "One of the windows on those buildings holds a small Mickey."
     },
-    "bestTip": "After you check the drums on the barge, switch to the buildings and go window by window.",
+    "bestTip": "After the barge, switch to the buildings on the shore and take them slowly.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Dim",
@@ -8274,7 +8274,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5468
     },
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "mexico-pyramid-plaza-volcano-landscape-mickey",
@@ -8337,7 +8337,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "The dot of the exclamation mark is the classic shape.",
       "orientation": "Upright"
     },
-    "bestTip": "Read the sign, then look again at the punctuation.",
+    "bestTip": "Read the sign, then read it again more slowly.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -8352,7 +8352,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5613
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "midway-shooter-exit-purple-bull-patch-mickey",
@@ -8653,7 +8653,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Indoor standby queue with the interactive gem barrels",
       "exactSpot": "The gemstones on top of the barrels. Look for one large gem with two smaller ones set as ears."
     },
-    "bestTip": "Skip the interactive jewel sorting for a minute and scan the still gems around the edges of each barrel.",
+    "bestTip": "Skip the interactive jewel sorting for a minute and look at what is sitting still.",
     "viewing": {
       "motion": "Still",
       "lighting": "Dim",
@@ -8670,7 +8670,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0012",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "morocco-bazaar-door-plates-mickey",
@@ -8733,7 +8733,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Player piano inside the house, viewed through the glass",
       "exactSpot": "Holes in the paper roll. From the left side of the glass, look in toward the center green post for the Goofy hole. From the right side, look toward the post for the Donald hole."
     },
-    "bestTip": "Look through the side glass at an angle toward the middle, not straight on. Left side for Goofy, right side for Donald.",
+    "bestTip": "Look through the side glass at an angle toward the middle, not straight on, and try both sides.",
     "funFacts": [
       "The roll keeps moving, so the Goofy and Donald holes come into view only at times. Give it a minute."
     ],
@@ -8751,7 +8751,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -117.9194
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "photopass-studio-left-column-mickey",
@@ -8853,7 +8853,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Standby entrance queue inside the fort, the four large gun cabinets hanging on both side walls",
       "exactSpot": "The locks on the cabinet doors. They form the classic shape."
     },
-    "bestTip": "Slow down at the first cabinet you reach and study the lock rather than the guns behind the glass.",
+    "bestTip": "Slow down at the first cabinet you reach and look at the cabinet itself rather than the guns behind the glass.",
     "viewing": {
       "motion": "Still",
       "lighting": "Dim",
@@ -8868,7 +8868,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5843
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "pirate-boat-ride-final-scene-lantern-wire-mickey",
@@ -8929,7 +8929,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Jail scene with the prisoners and the dog",
       "exactSpot": "The lock on the cell door."
     },
-    "bestTip": "Everyone watches the dog. Look at the door instead.",
+    "bestTip": "Everyone watches the dog. Look at the cell itself instead.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Dim",
@@ -8946,7 +8946,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0026",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "pirate-exit-shop-coin-display-mickey",
@@ -9246,7 +9246,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Second wood support pillar from the monorail entrance doors. Three nails on its right side form the classic shape.",
       "orientation": "Upright"
     },
-    "bestTip": "Count pillars from the monorail entrance doors and check the right side of the second one at about eye level.",
+    "bestTip": "Count the pillars from the monorail entrance doors, and look closely at the wood.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -9265,7 +9265,7 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-polynesian-village-resort-nail-hidden-mickey-on-post-near-kona-island-coffee-and-sushi-bar/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "polynesian-kona-cafe-flower-petal-mickeys",
@@ -9287,7 +9287,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "The purple flower in the middle of each cluster. Look at the upper part of its right-side petal for a tiny three-circle shape.",
       "orientation": "Upright"
     },
-    "bestTip": "Find the purple flower first, then focus only on its right petal. There is one on each cluster, so check both walls.",
+    "bestTip": "There is one on each cluster, so check both walls. Look at the petals rather than the leaves.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -9305,7 +9305,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0007",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-polynesian-village-resort-kona-cafe-wall-purple-flower-hidden-mickeys/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "polynesian-kona-cafe-orange-mural-mickey",
@@ -9570,7 +9570,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Three spoked wheels leaning against a crate: one large wheel with two smaller wheels on top, forming the classic shape.",
       "orientation": "Upright"
     },
-    "bestTip": "Look across the water while you wait for your raft rather than after you sit down. Once the raft moves, the crate slides out of view.",
+    "bestTip": "Look across the water while you wait for your raft rather than after you sit down. Once the raft moves, it slides out of view.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -9586,7 +9586,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5882
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "river-rapids-queue-hanging-boots-mickey",
@@ -9608,7 +9608,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Equipment room in the queue with gear hanging overhead",
       "exactSpot": "Look up at the hanging boots. The shape shows from underneath."
     },
-    "bestTip": "Stand directly under the boots and look straight up.",
+    "bestTip": "Stand directly under the hanging gear and look straight up.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -9626,7 +9626,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0010",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-kali-river-rapids-boots",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "river-rapids-queue-wall-plates-mickey",
@@ -10776,7 +10776,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Rock overlook onto the savanna",
       "exactSpot": "Above the crates next to the bin. Look at the surface of the rock."
     },
-    "bestTip": "Find the crates first; the rock above them is the one.",
+    "bestTip": "Use the props on the overlook as landmarks.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -10794,7 +10794,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0024",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "savanna-overlook-vine-column-mickey",
@@ -10856,7 +10856,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Flamingo pond on your left after entering the elephant area",
       "exactSpot": "The center island of the pond is the classic shape."
     },
-    "bestTip": "Look at the island's outline rather than the birds. The shape is clearest as the truck first pulls alongside the pond.",
+    "bestTip": "Look at the pond itself rather than the birds. It is clearest as the truck first pulls alongside.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Bright",
@@ -10873,7 +10873,7 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-animal-kindgom-kilimanjaro-safari-ride",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "savanna-safari-queue-drain-cover-mickey",
@@ -11093,7 +11093,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Last section before the ride ends, the carousel on the right side",
       "exactSpot": "One of the dolls on the carousel is holding a small black Mickey plush."
     },
-    "bestTip": "When the finale starts, watch the right side for the carousel and check the dolls' hands.",
+    "bestTip": "When the finale starts, watch the right side for the carousel and look closely at the riders.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Bright",
@@ -11107,7 +11107,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5827
     },
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "sixties-courtyard-wall-mickey",
@@ -11569,7 +11569,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Find Minnie Mouse in the mural and look at the ground directly under her left foot.",
       "orientation": "Upright"
     },
-    "bestTip": "Locate Minnie first, then drop your eyes straight down. This is the hardest of the three in this mural, so start here while the counter is quiet.",
+    "bestTip": "This is the hardest of the three in this mural, so start here while the counter is quiet. Find a familiar face first.",
     "funFacts": [
       "This mural hides three separate Hidden Mickeys. The other two are the thrusters behind the blue shuttle and the lower part of the moon."
     ],
@@ -11588,7 +11588,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5471
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "space-mission-shop-mural-moon-mickey",
@@ -11611,7 +11611,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Lower part of the moon. Look for three circles among the craters that form the classic shape, upside down.",
       "orientation": "Upside-down"
     },
-    "bestTip": "Scan the bottom half of the moon for a crater with two smaller craters hanging beneath it rather than above it.",
+    "bestTip": "Think upside down. The ears hang below the head on this one.",
     "funFacts": [
       "This mural hides three separate Hidden Mickeys. The other two are in the ground under Minnie Mouse's left foot and the thrusters behind the blue shuttle."
     ],
@@ -11630,7 +11630,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5471
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "space-mission-shop-mural-thrusters-mickey",
@@ -11653,7 +11653,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Find the blue shuttle. The three round thrusters behind it form the classic shape, upside down.",
       "orientation": "Upside-down"
     },
-    "bestTip": "Picture the shuttle flipped over. The two smaller thrusters are the ears, hanging below the larger one.",
+    "bestTip": "Think upside down, and look at the ships rather than the planets.",
     "funFacts": [
       "This mural hides three separate Hidden Mickeys. The other two are in the ground under Minnie Mouse's left foot and on the lower part of the moon."
     ],
@@ -11672,7 +11672,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5471
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "space-panel-star-mickey",
@@ -11971,7 +11971,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Mosaic murals in the castle walkway",
       "exactSpot": "Left-hand mosaic wall, low, well below eye level."
     },
-    "bestTip": "Kids find this one first. Crouch to their height and scan the lower rows of tiles on the left.",
+    "bestTip": "Kids find this one first. Crouch to their height before you start scanning.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -11988,7 +11988,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0006",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "storybook-forest-walkway-horseshoe-mickey",
@@ -12010,7 +12010,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Walkway between the tavern and the castle restaurant",
       "exactSpot": "Near the short rock wall and the lamp post. Look down at the horseshoe impressions in the paving."
     },
-    "bestTip": "Follow the hoofprints from the tavern side and stop at the lamp. The Mickey is the tight group of four.",
+    "bestTip": "Look down as you walk. The path itself holds this one.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -12023,7 +12023,7 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "sourceId": "TLC-MK-0008",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "studios-plaza-layout-mickey-face",
@@ -12168,7 +12168,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Window of the tavern in the pirate plaza, viewed from outside",
       "exactSpot": "Three candles just inside the window, lined up in the classic shape."
     },
-    "bestTip": "Stand square to the window. The candles only line up from straight on.",
+    "bestTip": "Stand square to the window. It only lines up from straight on.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -12184,7 +12184,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.584
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "totem-window-spider-mickey",
@@ -12406,7 +12406,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Playing-card display near the exit",
       "exactSpot": "The clip in the center of the display."
     },
-    "bestTip": "Look at the hardware holding the cards, not the cards.",
+    "bestTip": "Look past the cards themselves.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -12424,7 +12424,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0098",
     "sourceUrl": "https://allears.net/2017/01/16/hidden-mickeys-in-the-magic-kingdom-and-disney-springs/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "town-square-theater-magic-chest-rings-mickey",
@@ -12563,7 +12563,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Theater inside the great tree, toward the end of the show, just after the swinging animals",
       "exactSpot": "Middle of the stage. Three large bubbles meet for about a second in the classic shape, tilted to the left."
     },
-    "bestTip": "When the swings appear, shift your eyes to the center of the stage and wait for the bubbles rather than following the characters.",
+    "bestTip": "When the swings appear, shift your eyes to the center of the stage rather than following the characters. It lasts about a second.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Dim",
@@ -12579,7 +12579,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5906
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "tune-in-lounge-table-top-mickeys",
@@ -12833,7 +12833,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "The scene where the crab sings the under-the-sea song",
       "exactSpot": "Purple corals: two on the floor and one on the wall, together forming the classic shape."
     },
-    "bestTip": "Look low along the floor at the purple coral as the song starts and let the wall piece complete the shape.",
+    "bestTip": "Look low as the song starts, then let your eyes rise. The shape spans more than one spot.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Bright",
@@ -12849,7 +12849,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0017",
     "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "undersea-puppet-show-reef-backdrop-mickey",
@@ -12949,7 +12949,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Lower right portion of the anniversary display (scan the bottom-right details rather than the main centerpiece).",
       "orientation": "Upright"
     },
-    "bestTip": "Stand back far enough to see the whole display, then scan the lower right area slowly for the three-circle shape.",
+    "bestTip": "Stand back far enough to see the whole display, then look away from the main centerpiece.",
     "funFacts": [
       "This Hidden Mickey was reported as part of the resort's 30th Anniversary lobby display, which may be temporary or seasonal."
     ],
@@ -12968,7 +12968,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -80.362
     },
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-16T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "village-haus-restaurant-mural-mickey",
@@ -12990,7 +12990,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Painted murals in the dining rooms",
       "exactSpot": "Lower left area of the mural. Look for three small circles tucked into the background."
     },
-    "bestTip": "Check each dining room's mural in turn. The one you want has the shape low on the left.",
+    "bestTip": "Check each dining room's mural in turn, and look into the background rather than at the characters.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -13008,7 +13008,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0081",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-pinocchio-village-haus",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "villas-resort-studio-air-vent-grille-mickey",
@@ -13154,7 +13154,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Left side of the rock wall, toward the top. Three round depressions in the rock form the classic shape.",
       "orientation": "Upright"
     },
-    "bestTip": "Let the water settle between bursts, then scan the upper left of the rock face. Stand back a step so the fence is not in your line of sight.",
+    "bestTip": "Let the water settle between bursts, and stand back a step so the fence is not in your line of sight.",
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -13170,7 +13170,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5502
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "water-journey-vase-holes-mickey",
@@ -13313,7 +13313,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "City room with the fountain, just after the pub where the bartender spins the mugs",
       "exactSpot": "As you leave the pub room, look directly left and slightly up. The silhouette is in the second-floor window above the green-framed constabulary door."
     },
-    "bestTip": "Get ready as the mugs stop spinning. The window is to your left the moment you exit the pub.",
+    "bestTip": "Get ready as the mugs stop spinning, and look left and up the moment you leave the pub.",
     "funFacts": [
       "Sherlock Holmes is not a Disney character, which makes this one a Hidden Surprise rather than a Hidden Mickey."
     ],
@@ -13330,7 +13330,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -117.9187
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "wild-west-mine-coaster-exit-fairy-likeness",
@@ -13433,7 +13433,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Two sets of gears on the ground. The second set forms the classic shape.",
       "orientation": "Upright"
     },
-    "bestTip": "As soon as the brakes grab, turn right and watch the ground. Skip the first set of gears and focus on the second.",
+    "bestTip": "As soon as the brakes grab, turn right and look down. Be patient: the first thing you see is not it.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Bright",
@@ -13449,7 +13449,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0049",
     "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "wilderness-lobby-fireplace-canyon-strata",
@@ -13712,7 +13712,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Upper left border of the drawings. Three small black circles form the classic shape sideways, turned to the right, with lighter ears and a darker head.",
       "orientation": "Sideways"
     },
-    "bestTip": "Study the border of the page rather than the sketches in the middle. The lighter ear circles are the giveaway.",
+    "bestTip": "Study the edges of the page rather than the sketches in the middle.",
     "viewing": {
       "motion": "Still",
       "lighting": "Mixed",
@@ -13728,7 +13728,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -81.5928
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "wonderland-caterpillar-purple-mushroom-mickeys",
@@ -13751,7 +13751,7 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Two small purple mushrooms, each beside an orange mushroom: the first in the background, the second later and closer to the vehicle. Three white spots on each cap form the shape.",
       "orientation": "Upright"
     },
-    "bestTip": "Stare left the moment the rabbit's house is behind you, and use the orange mushrooms as your markers.",
+    "bestTip": "Stare left the moment the rabbit's house is behind you. There are two chances, one far and one near.",
     "viewing": {
       "motion": "Moving",
       "lighting": "Dim",
@@ -13765,7 +13765,7 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -117.9184
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "yacht-lobby-globe-mickey",

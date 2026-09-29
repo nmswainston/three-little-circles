@@ -19,7 +19,7 @@
     "exactSpot": "Find Minnie Mouse in the mural and look at the ground directly under her left foot.",
     "orientation": "Upright"
   },
-  "bestTip": "Locate Minnie first, then drop your eyes straight down. This is the hardest of the three in this mural, so start here while the counter is quiet.",
+  "bestTip": "This is the hardest of the three in this mural, so start here while the counter is quiet. Find a familiar face first.",
   "funFacts": [
     "This mural hides three separate Hidden Mickeys. The other two are the thrusters behind the blue shuttle and the lower part of the moon."
   ],
@@ -38,5 +38,5 @@
     "longitude": -81.5471
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

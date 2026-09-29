@@ -19,7 +19,7 @@
     "exactSpot": "The dot of the exclamation mark is the classic shape.",
     "orientation": "Upright"
   },
-  "bestTip": "Read the sign, then look again at the punctuation.",
+  "bestTip": "Read the sign, then read it again more slowly.",
   "viewing": {
     "motion": "Still",
     "lighting": "Mixed",
@@ -34,5 +34,5 @@
     "longitude": -81.5613
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

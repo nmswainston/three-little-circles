@@ -18,7 +18,7 @@
     "scene": "Standby entrance queue inside the fort, the four large gun cabinets hanging on both side walls",
     "exactSpot": "The locks on the cabinet doors. They form the classic shape."
   },
-  "bestTip": "Slow down at the first cabinet you reach and study the lock rather than the guns behind the glass.",
+  "bestTip": "Slow down at the first cabinet you reach and look at the cabinet itself rather than the guns behind the glass.",
   "viewing": {
     "motion": "Still",
     "lighting": "Dim",
@@ -33,5 +33,5 @@
     "longitude": -81.5843
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

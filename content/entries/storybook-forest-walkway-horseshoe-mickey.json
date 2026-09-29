@@ -18,7 +18,7 @@
     "scene": "Walkway between the tavern and the castle restaurant",
     "exactSpot": "Near the short rock wall and the lamp post. Look down at the horseshoe impressions in the paving."
   },
-  "bestTip": "Follow the hoofprints from the tavern side and stop at the lamp. The Mickey is the tight group of four.",
+  "bestTip": "Look down as you walk. The path itself holds this one.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -31,5 +31,5 @@
   "status": "Unverified",
   "sourceId": "TLC-MK-0008",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

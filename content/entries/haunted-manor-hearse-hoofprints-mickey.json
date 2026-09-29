@@ -18,7 +18,7 @@
     "scene": "Hearse outside the manor entrance",
     "exactSpot": "The ground in front of the hearse where the horse would stand."
   },
-  "bestTip": "Look down at the prints, not at the harness.",
+  "bestTip": "Look down, not at the hearse.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -35,5 +35,5 @@
   },
   "sourceId": "TLC-MK-0043",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

@@ -19,7 +19,7 @@
     "exactSpot": "In the shadows behind and just below the round Package Pick-Up sign",
     "orientation": "Upright"
   },
-  "bestTip": "Look just under the sign rather than at eye level. Most guests scan too high and miss it.",
+  "bestTip": "Most guests scan at eye level and miss it. Check around the sign itself.",
   "viewing": {
     "motion": "Still",
     "lighting": "Dim",
@@ -38,5 +38,5 @@
   "sourceUrl": "https://hiddenmickeyguy.com/817-2/",
   "status": "Variable",
   "createdAtISO": "2026-01-12T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

@@ -19,7 +19,7 @@
     "exactSpot": "Large flowers moving and flashing along the right side of the mirror. The shape is in the middle of one of them.",
     "orientation": "Upright"
   },
-  "bestTip": "Look toward the front mirror the moment you enter the dance room and watch the flowers to its right rather than the dancers.",
+  "bestTip": "Look toward the front mirror the moment you enter the dance room, and watch what surrounds it rather than the dancers.",
   "viewing": {
     "motion": "Moving",
     "lighting": "Flashing",
@@ -34,5 +34,5 @@
     "longitude": -81.5604
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

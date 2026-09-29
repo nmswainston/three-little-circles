@@ -18,7 +18,7 @@
     "exactSpot": "Top of the refrigerator, at the back corner. Look for the red, black, and yellow Mickey-shaped container.",
     "orientation": "Upright"
   },
-  "bestTip": "Step back from the fridge and look above it rather than at the door. The container sits at the rear edge of the top.",
+  "bestTip": "Step back from the fridge. The door is not the only place things are kept.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -34,5 +34,5 @@
     "longitude": -81.5504
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

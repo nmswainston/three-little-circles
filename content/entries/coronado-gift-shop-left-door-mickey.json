@@ -18,7 +18,7 @@
     "scene": "Left entrance door of the gift shop",
     "exactSpot": "Look at the door's decoration and hardware for three circles."
   },
-  "bestTip": "Check both the woodwork and the handle.",
+  "bestTip": "Look at the door itself, not through it.",
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -36,5 +36,5 @@
   "sourceId": "TLC-RS-0087",
   "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-springs-resorts/2026/08/01/disneys-coronado-springs-resort-hidden-mickey",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

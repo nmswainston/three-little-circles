@@ -18,7 +18,7 @@
     "scene": "Space ranger mural on the wall",
     "exactSpot": "Three buttons on the mural form the classic shape."
   },
-  "bestTip": "Scan the painted buttons for a cluster of three rather than reading the mural as a whole.",
+  "bestTip": "Look at the details of the ranger's outfit rather than the mural as a whole.",
   "viewing": {
     "motion": "Still",
     "lighting": "Mixed",
@@ -33,5 +33,5 @@
     "longitude": -81.562
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

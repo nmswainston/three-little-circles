@@ -17,7 +17,7 @@
     "scene": "Player piano inside the house, viewed through the glass",
     "exactSpot": "Holes in the paper roll. From the left side of the glass, look in toward the center green post for the Goofy hole. From the right side, look toward the post for the Donald hole."
   },
-  "bestTip": "Look through the side glass at an angle toward the middle, not straight on. Left side for Goofy, right side for Donald.",
+  "bestTip": "Look through the side glass at an angle toward the middle, not straight on, and try both sides.",
   "funFacts": [
     "The roll keeps moving, so the Goofy and Donald holes come into view only at times. Give it a minute."
   ],
@@ -35,5 +35,5 @@
     "longitude": -117.9194
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-22T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

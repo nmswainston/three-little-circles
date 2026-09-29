@@ -18,7 +18,7 @@
     "scene": "Jail scene with the prisoners and the dog",
     "exactSpot": "The lock on the cell door."
   },
-  "bestTip": "Everyone watches the dog. Look at the door instead.",
+  "bestTip": "Everyone watches the dog. Look at the cell itself instead.",
   "viewing": {
     "motion": "Moving",
     "lighting": "Dim",
@@ -35,5 +35,5 @@
   },
   "sourceId": "TLC-MK-0026",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }
