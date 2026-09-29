@@ -4,15 +4,17 @@ import { HiddenMickeyEntry } from "./types";
 import { labelOrFallback } from "./labels";
 import { groupProgress, isComplete, ProgressGroup } from "../utils/progress";
 import { ParkKey } from "../theme/themes";
-import { PARK_ICONS } from "../theme/parks";
+import { PARK_ICONS, parkKeyFor } from "../theme/parks";
+import { challengeProgress, getChallenges } from "./challenges";
 
 /**
  * Achievement catalog and the pure rules for earning them.
  *
- * Three kinds: fixed milestones (count tiers), skill badges (one land, one
+ * Four kinds: fixed milestones (count tiers), skill badges (one land, one
  * attraction, hard finds, queues, a Hidden Surprise, a same-day streak, two
- * regions), and one completion badge per destination that has content. Ids
- * are stable strings because they are persisted on the device.
+ * regions), one completion badge per destination that has content, and one
+ * per challenge in content/challenges. Ids are stable strings because they
+ * are persisted on the device.
  *
  * Every rule reports progress toward a goal, and a badge is earned when the
  * progress meets it, so a progress bar and an unlock can never disagree.
@@ -23,8 +25,11 @@ import { PARK_ICONS } from "../theme/parks";
  */
 export type AchievementId = string;
 
+export type AchievementKind = "milestone" | "skill" | "park" | "challenge";
+
 export interface Achievement {
   id: AchievementId;
+  kind: AchievementKind;
   title: string;
   /** Shown once earned */
   description: string;
@@ -32,9 +37,11 @@ export interface Achievement {
   hint: string;
   /** Ionicons glyph name */
   icon: string;
-  /** Set on per-park badges */
+  /** Set on per-park badges, and on challenges that belong to one park */
   parkId?: string;
   parkKey?: ParkKey;
+  /** Set on challenge badges */
+  challengeId?: string;
 }
 
 type RuleContext = {
@@ -81,6 +88,7 @@ const STREAK_FINDS = 3;
 
 const countTier = (id: AchievementId, threshold: number, title: string, description: string, icon: string): Rule => ({
   id,
+  kind: "milestone",
   title,
   description,
   hint: threshold === 1 ? "Mark any find as found." : `Find ${threshold} hidden details across any parks.`,
@@ -176,6 +184,7 @@ const regionsIn = (list: HiddenMickeyEntry[]): number => new Set(list.map((e) =>
 const SKILL: Rule[] = [
   {
     id: "LAND_COMPLETE",
+    kind: "skill",
     title: "Land Specialist",
     description: "You found everything documented in one land.",
     hint: "Find every documented detail in a single land or resort.",
@@ -185,6 +194,7 @@ const SKILL: Rule[] = [
   },
   {
     id: "ATTRACTION_COMPLETE",
+    kind: "skill",
     title: "Attraction Master",
     description: "You found everything documented at one attraction.",
     hint: "Find every documented detail at a single attraction.",
@@ -194,6 +204,7 @@ const SKILL: Rule[] = [
   },
   {
     id: "EAGLE_EYE",
+    kind: "skill",
     title: "Eagle Eye",
     description: `${HARD_FINDS} hard-to-spot details found.`,
     hint: `Find ${HARD_FINDS} details rated Hard.`,
@@ -203,6 +214,7 @@ const SKILL: Rule[] = [
   },
   {
     id: "QUEUE_MASTER",
+    kind: "skill",
     title: "Queue Master",
     description: `${QUEUE_FINDS} details spotted from a queue. The wait was worth it.`,
     hint: `Find ${QUEUE_FINDS} details in queues.`,
@@ -212,6 +224,7 @@ const SKILL: Rule[] = [
   },
   {
     id: "EASTER_EGG",
+    kind: "skill",
     title: "Surprise Spotter",
     description: "You noticed a Hidden Surprise, not just a Mickey.",
     hint: "Find any Hidden Surprise: an easter egg or a movie reference.",
@@ -221,6 +234,7 @@ const SKILL: Rule[] = [
   },
   {
     id: "HOT_STREAK",
+    kind: "skill",
     title: "Hot Streak",
     description: `${STREAK_FINDS} finds in a single day.`,
     hint: `Find ${STREAK_FINDS} details in one day.`,
@@ -230,6 +244,7 @@ const SKILL: Rule[] = [
   },
   {
     id: "COAST_TO_COAST",
+    kind: "skill",
     title: "Coast to Coast",
     description: "Details found in two different regions.",
     hint: "Find something in two regions, like Florida and California.",
@@ -258,6 +273,7 @@ function parkBadges(): Achievement[] {
     const name = (nameCounts.get(park.name) ?? 0) > 1 ? `${park.name} (${park.region})` : park.name;
     return {
       id: parkAchievementId(park.parkId),
+      kind: "park" as const,
       title: name,
       description: `You found every documented detail in ${name}.`,
       hint: `Find all ${park.count} documented details in ${name}.`,
@@ -268,14 +284,32 @@ function parkBadges(): Achievement[] {
   });
 }
 
+export function challengeAchievementId(challengeId: string): AchievementId {
+  return `challenge:${challengeId}`;
+}
+
+function challengeBadges(): Achievement[] {
+  return getChallenges().map((challenge) => ({
+    id: challengeAchievementId(challenge.id),
+    kind: "challenge" as const,
+    title: challenge.title,
+    description: `You finished the ${challenge.title} challenge.`,
+    hint: challenge.blurb,
+    icon: challenge.icon ?? "flag",
+    challengeId: challenge.id,
+    ...(challenge.parkId ? { parkId: challenge.parkId, parkKey: parkKeyFor(challenge.parkId) } : {}),
+  }));
+}
+
 /**
- * Every achievement in display order: milestones, skill badges, then one per
- * park with content. Badges the content can't reach yet are left out unless
- * asked for, so the grid only shows what a guest can actually earn.
+ * Every achievement in display order: milestones, skill badges, one per park
+ * with content, then one per challenge. Badges the content can't reach yet
+ * are left out unless asked for, so the grid only shows what a guest can
+ * actually earn.
  */
 export function getAchievements(options?: { includeUnreachable?: boolean }): Achievement[] {
   const fixed = FIXED.filter((rule) => options?.includeUnreachable || rule.reachable()).map(strip);
-  return [...fixed, ...parkBadges()];
+  return [...fixed, ...parkBadges(), ...challengeBadges()];
 }
 
 /** Looks an id up across the whole catalog, hidden badges included, so a persisted unlock always resolves. */
@@ -304,6 +338,9 @@ export function computeUnlocked(found: Record<string, number>): AchievementId[] 
   for (const park of byPark(found)) {
     if (isComplete(park)) unlocked.push(parkAchievementId(park.key));
   }
+  for (const challenge of getChallenges()) {
+    if (challengeProgress(challenge, found, entries).complete) unlocked.push(challengeAchievementId(challenge.id));
+  }
 
   return unlocked;
 }
@@ -323,6 +360,10 @@ export function computeProgress(found: Record<string, number>): Record<Achieveme
   for (const rule of FIXED) progress[rule.id] = toProgress(rule.progress(ctx));
   for (const park of byPark(found)) {
     progress[parkAchievementId(park.key)] = toProgress({ current: park.found, goal: park.total });
+  }
+  for (const challenge of getChallenges()) {
+    const { current, goal, focus } = challengeProgress(challenge, found, entries);
+    progress[challengeAchievementId(challenge.id)] = toProgress({ current, goal, focus });
   }
 
   return progress;

@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
  * Builds src/data/entries.generated.ts from content/entries/*.json,
- * src/data/facts.generated.ts from content/facts/*.json, and
+ * src/data/facts.generated.ts from content/facts/*.json,
+ * src/data/challenges.generated.ts from content/challenges/*.json, and
  * src/data/images.generated.ts from the entries' "image" fields and the
  * files in content/images/.
  *
@@ -9,8 +10,9 @@
  * without touching app code. This script validates each file against the
  * HiddenMickeyEntry schema, checks cross-entry consistency, and emits a typed
  * TypeScript module the app imports. Park facts (history and trivia about a
- * destination rather than a find inside it) go through the same pipeline
- * with their own, smaller schema.
+ * destination rather than a find inside it) and challenges (themed hunts
+ * over a hand-picked set of attractions, lands, parks, or finds) go through
+ * the same pipeline with their own, smaller schemas.
  *
  * Usage:
  *   node scripts/build-entries.mjs          # validate and write the generated files
@@ -20,6 +22,7 @@
  * src/data/ out). The tests use it to run the validator against fixtures.
  */
 import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from "node:fs";
+import { createRequire } from "node:module";
 import { join, dirname, basename, extname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -29,6 +32,8 @@ const factsDir = join(root, "content", "facts");
 const destinationsFile = join(root, "content", "destinations.json");
 const outFile = join(root, "src", "data", "entries.generated.ts");
 const factsOutFile = join(root, "src", "data", "facts.generated.ts");
+const challengesDir = join(root, "content", "challenges");
+const challengesOutFile = join(root, "src", "data", "challenges.generated.ts");
 const imagesDir = join(root, "content", "images");
 const imagesOutFile = join(root, "src", "data", "images.generated.ts");
 const checkOnly = process.argv.includes("--check");
@@ -532,8 +537,159 @@ function renderFacts(facts) {
   ].join("\n");
 }
 
+// ---------------------------------------------------------------------------
+// Challenges: themed hunts with a badge at the end. A challenge names its
+// targets (attractions, lands, parks, or single finds) and a goal over them.
+// Targets are resolved against the entries at build time so a typo fails
+// here, not silently in the app.
+// ---------------------------------------------------------------------------
+
+const CHALLENGE_KEYS = new Set([
+  "id", "title", "blurb", "parkId", "icon", "goal", "count", "targets", "createdAtISO", "updatedAtISO",
+]);
+const CHALLENGE_GOALS = ["all", "each", "any"];
+const TARGET_KINDS = ["attraction", "land", "park", "entry"];
+
+let ioniconsCache;
+
+/** Ionicons glyph names, or null when the icon package is not installed. */
+function ioniconNames() {
+  if (ioniconsCache === undefined) {
+    try {
+      const require = createRequire(import.meta.url);
+      const map = require("@expo/vector-icons/build/vendor/react-native-vector-icons/glyphmaps/Ionicons.json");
+      ioniconsCache = new Set(Object.keys(map));
+    } catch {
+      ioniconsCache = null;
+    }
+  }
+  return ioniconsCache;
+}
+
+/** The entries a target covers, or undefined when the target is malformed. */
+function resolveTarget(target, entries) {
+  const keys = Object.keys(target);
+  if (keys.length !== 1 || !TARGET_KINDS.includes(keys[0]) || !isNonEmptyString(target[keys[0]])) return undefined;
+  const [kind] = keys;
+  const value = target[kind];
+  switch (kind) {
+    case "entry":
+      return entries.filter((e) => e.id === value);
+    case "park":
+      return entries.filter((e) => e.parkId === value);
+    case "land":
+      return entries.filter((e) => `${e.parkId}/${e.landId}` === value);
+    case "attraction":
+      return entries.filter((e) => `${e.parkId}/${e.landId}/${e.attractionId}` === value);
+  }
+}
+
+function validateChallenge(file, c, entries, destinations) {
+  if (typeof c !== "object" || c === null || Array.isArray(c)) {
+    fail(file, "must be a JSON object");
+    return;
+  }
+  checkKeys(file, "challenge", c, CHALLENGE_KEYS);
+
+  for (const field of ["id", "title", "blurb"]) {
+    if (!isNonEmptyString(c[field])) fail(file, `missing required string "${field}"`);
+  }
+  if (isNonEmptyString(c.id)) {
+    if (!ID_PATTERN.test(c.id)) fail(file, `id "${c.id}" must be lowercase kebab-case`);
+    if (basename(file, ".json") !== c.id) fail(file, `file name must match id "${c.id}"`);
+  }
+  if (c.parkId !== undefined && !destinations.parkIds.has(c.parkId)) {
+    fail(file, `"parkId" "${c.parkId}" is not listed in content/destinations.json`);
+  }
+  checkOptionalString(file, "icon", c.icon);
+  const icons = ioniconNames();
+  if (isNonEmptyString(c.icon) && icons && !icons.has(c.icon)) {
+    fail(file, `"icon" "${c.icon}" is not an Ionicons glyph name`);
+  }
+
+  checkEnum(file, "goal", c.goal, CHALLENGE_GOALS, false);
+
+  if (!Array.isArray(c.targets) || c.targets.length === 0) {
+    fail(file, `"targets" must be a non-empty array`);
+    return;
+  }
+  const seenTargets = new Set();
+  c.targets.forEach((target, i) => {
+    const label = `targets[${i}]`;
+    if (typeof target !== "object" || target === null || Array.isArray(target)) {
+      fail(file, `${label} must be an object like {"attraction": "park/land/attraction"}`);
+      return;
+    }
+    const matched = resolveTarget(target, entries);
+    if (matched === undefined) {
+      fail(file, `${label} must have exactly one of ${TARGET_KINDS.map((k) => `"${k}"`).join(", ")}, set to an id`);
+      return;
+    }
+    const key = JSON.stringify(target);
+    if (seenTargets.has(key)) fail(file, `${label} repeats an earlier target`);
+    seenTargets.add(key);
+    if (matched.length === 0) {
+      const [kind] = Object.keys(target);
+      fail(file, `${label} ${kind} "${target[kind]}" matches no entries`);
+    }
+  });
+
+  if (c.goal === "any") {
+    if (!Number.isInteger(c.count) || c.count < 1 || c.count > c.targets.length) {
+      fail(file, `"count" must be a whole number from 1 to ${c.targets.length} (the number of targets) when "goal" is "any"`);
+    }
+  } else if (c.count !== undefined) {
+    fail(file, `"count" is only used when "goal" is "any"`);
+  }
+
+  for (const field of ["createdAtISO", "updatedAtISO"]) {
+    if (c[field] !== undefined && Number.isNaN(Date.parse(c[field]))) {
+      fail(file, `"${field}" must be an ISO 8601 date string`);
+    }
+  }
+}
+
+function loadChallenges(entries) {
+  // Optional, like facts, so a content set without any still builds.
+  if (!existsSync(challengesDir)) return [];
+  const destinations = loadDestinations();
+  const files = readdirSync(challengesDir).filter((f) => f.endsWith(".json")).sort();
+  const challenges = [];
+  const seenIds = new Map();
+  for (const file of files) {
+    const rel = `content/challenges/${file}`;
+    let parsed;
+    try {
+      parsed = JSON.parse(readFileSync(join(challengesDir, file), "utf8"));
+    } catch (err) {
+      fail(rel, `invalid JSON (${err.message})`);
+      continue;
+    }
+    validateChallenge(rel, parsed, entries, destinations);
+    if (parsed && typeof parsed.id === "string") {
+      if (seenIds.has(parsed.id)) fail(rel, `duplicate id "${parsed.id}" (also in ${seenIds.get(parsed.id)})`);
+      seenIds.set(parsed.id, rel);
+    }
+    challenges.push(parsed);
+  }
+  return challenges;
+}
+
+function renderChallenges(challenges) {
+  const body = JSON.stringify(challenges, null, 2);
+  return [
+    "// GENERATED FILE. Do not edit by hand.",
+    "// Source: content/challenges/*.json. Rebuild with `npm run content:build`.",
+    'import type { Challenge } from "./types";',
+    "",
+    `export const challenges: Challenge[] = ${body};`,
+    "",
+  ].join("\n");
+}
+
 const entries = loadEntries();
 const facts = loadFacts();
+const challenges = loadChallenges(entries);
 const orphans = unusedImages(entries);
 for (const name of orphans) console.log(`note: content/images/${name} is not referenced by any entry yet`);
 if (errors.length > 0) {
@@ -545,6 +701,7 @@ if (errors.length > 0) {
 const outputs = [
   { path: outFile, label: "src/data/entries.generated.ts", content: render(entries) },
   { path: factsOutFile, label: "src/data/facts.generated.ts", content: renderFacts(facts) },
+  { path: challengesOutFile, label: "src/data/challenges.generated.ts", content: renderChallenges(challenges) },
   { path: imagesOutFile, label: "src/data/images.generated.ts", content: renderImages(entries) },
 ];
 const photoCount = entries.filter((e) => e.image).length;
@@ -559,8 +716,12 @@ if (checkOnly) {
       process.exit(1);
     }
   }
-  console.log(`Validated ${entries.length} entries, ${facts.length} facts, and ${photoCount} photos; generated files are up to date.`);
+  console.log(
+    `Validated ${entries.length} entries, ${facts.length} facts, ${challenges.length} challenges, and ${photoCount} photos; generated files are up to date.`
+  );
 } else {
   for (const { path, content } of outputs) writeFileSync(path, content);
-  console.log(`Validated ${entries.length} entries, ${facts.length} facts, and ${photoCount} photos and wrote the generated files.`);
+  console.log(
+    `Validated ${entries.length} entries, ${facts.length} facts, ${challenges.length} challenges, and ${photoCount} photos and wrote the generated files.`
+  );
 }

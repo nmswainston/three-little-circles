@@ -45,7 +45,7 @@ export default function BadgesScreen() {
   const hiddenBadges = useMemo(() => countUnreachableAchievements(), []);
   const [selected, setSelected] = useState<Achievement | undefined>();
 
-  const { earned, closest, restSkills, restParks, unseen } = useMemo(() => {
+  const { earned, closest, restSkills, restParks, restChallenges, unseen } = useMemo(() => {
     const have = new Set(unlocked);
     const byId = new Map(achievements.map((a) => [a.id, a]));
     const closestIds = closestToEarning(progress, unlocked, CLOSEST_COUNT);
@@ -56,8 +56,9 @@ export default function BadgesScreen() {
         .filter((a) => have.has(a.id))
         .sort((a, b) => (earnedAt[b.id] ?? 0) - (earnedAt[a.id] ?? 0)),
       closest: closestIds.map((id) => byId.get(id)).filter((a): a is Achievement => !!a),
-      restSkills: rest.filter((a) => !a.parkId),
-      restParks: rest.filter((a) => a.parkId),
+      restSkills: rest.filter((a) => a.kind === "milestone" || a.kind === "skill"),
+      restParks: rest.filter((a) => a.kind === "park"),
+      restChallenges: rest.filter((a) => a.kind === "challenge"),
       unseen: new Set(unlocked.filter((id) => !seen.includes(id))),
     };
   }, [achievements, progress, unlocked, seen, earnedAt]);
@@ -153,10 +154,11 @@ export default function BadgesScreen() {
             </Section>
           )}
 
-          {restSkills.length + restParks.length > 0 && (
+          {restSkills.length + restParks.length + restChallenges.length > 0 && (
             <Section title="More to earn">
               <RestGroup label="Skills" list={restSkills} progress={progress} onPress={openBadge} />
               <RestGroup label="Parks" list={restParks} progress={progress} onPress={openBadge} />
+              <RestGroup label="Challenges" list={restChallenges} progress={progress} onPress={openBadge} />
             </Section>
           )}
         </View>
