@@ -58,7 +58,8 @@ describe('ParksScreen badge card', () => {
     render(<ParksScreen />);
     const { unlocked } = useAchievementsStore.getState();
     const explorer = getAchievement('TEN_FINDS')!.title;
-    expect(cardLabel()).toContain(`${unlocked.length} new badges: ${explorer}`);
+    // Hunter Bronze and Silver are both new but count once, as Silver.
+    expect(cardLabel()).toContain(`${unlocked.length - 1} new badges: ${explorer}`);
 
     fireEvent.press(screen.getByText(explorer));
     expect(useAchievementsStore.getState().seen.sort()).toEqual([...unlocked].sort());

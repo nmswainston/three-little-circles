@@ -6,7 +6,14 @@ import { AchievementId, AchievementProgress, computeProgress, computeUnlocked } 
 import { useFoundStore } from "./useFoundStore";
 
 export type { Achievement, AchievementId, AchievementProgress } from "../data/achievements";
-export { getAchievements, getAchievement, computeUnlocked, closestToEarning } from "../data/achievements";
+export {
+  getAchievements,
+  getAchievement,
+  computeUnlocked,
+  closestToEarning,
+  tierLadder,
+  visibleBadges,
+} from "../data/achievements";
 
 interface AchievementsState {
   /** Achievements ever earned. Once earned, an achievement stays earned. */

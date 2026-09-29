@@ -9,6 +9,8 @@ import {
   Achievement,
   closestToEarning,
   getAchievements,
+  tierLadder,
+  visibleBadges,
   useAchievementsStore,
   useBadgeProgress,
 } from "../store/useAchievementsStore";
@@ -24,6 +26,8 @@ import ProgressBar from "../components/ui/ProgressBar";
 import BadgeProgressRow from "../components/BadgeProgressRow";
 import AchievementSheet from "../components/AchievementSheet";
 import ChallengeCard from "../components/ChallengeCard";
+import TierLadder from "../components/TierLadder";
+import { tierAccent } from "../components/ui/Badge";
 
 const CLOSEST_COUNT = 6;
 
@@ -57,16 +61,17 @@ export default function BadgesScreen() {
   const hiddenBadges = useMemo(() => countUnreachableAchievements(), []);
   const [selected, setSelected] = useState<Achievement | undefined>();
 
-  const { earned, closest, restSkills, restParks, restChallenges, unseen } = useMemo(() => {
-    const have = new Set(unlocked);
+  // Tiered badges show once: under Earned at their highest level once any
+  // level is earned, never also under Closest to earning.
+  const { earned, total, closest, restSkills, restParks, restChallenges, unseen } = useMemo(() => {
+    const visible = visibleBadges(unlocked, achievements);
     const byId = new Map(achievements.map((a) => [a.id, a]));
-    const closestIds = closestToEarning(progress, unlocked, CLOSEST_COUNT);
+    const closestIds = closestToEarning(progress, unlocked, CLOSEST_COUNT, { nextTiers: false });
     const inClosest = new Set(closestIds);
-    const rest = achievements.filter((a) => !have.has(a.id) && !inClosest.has(a.id));
+    const rest = visible.unearned.filter((a) => !inClosest.has(a.id));
     return {
-      earned: achievements
-        .filter((a) => have.has(a.id))
-        .sort((a, b) => (earnedAt[b.id] ?? 0) - (earnedAt[a.id] ?? 0)),
+      earned: [...visible.earned].sort((a, b) => (earnedAt[b.id] ?? 0) - (earnedAt[a.id] ?? 0)),
+      total: visible.earned.length + visible.unearned.length,
       closest: closestIds.map((id) => byId.get(id)).filter((a): a is Achievement => !!a),
       restSkills: rest.filter((a) => a.kind === "milestone" || a.kind === "skill"),
       restParks: rest.filter((a) => a.kind === "park"),
@@ -75,14 +80,22 @@ export default function BadgesScreen() {
     };
   }, [achievements, progress, unlocked, seen, earnedAt]);
 
+  // Every level of a tiered badge sits behind one cell, so a new level shows
+  // the dot and opening the cell clears all of them.
+  const levelsOf = (achievement: Achievement) =>
+    achievement.tier ? tierLadder(achievement.tier.group, achievements).map((a) => a.id) : [achievement.id];
+  const isNewBadge = (achievement: Achievement) => levelsOf(achievement).some((id) => unseen.has(id));
+
   // A challenge badge opens its challenge, which says far more than the sheet.
   const openBadge = (achievement: Achievement) => {
-    if (unseen.has(achievement.id)) markSeen([achievement.id]);
+    const fresh = levelsOf(achievement).filter((id) => unseen.has(id));
+    if (fresh.length > 0) markSeen(fresh);
     if (achievement.challengeId) navigation.navigate("ChallengeDetail", { challengeId: achievement.challengeId });
     else setSelected(achievement);
   };
 
-  const share = achievements.length > 0 ? earned.length / achievements.length : 0;
+  const share = total > 0 ? earned.length / total : 0;
+  const tierGroups = [...new Set(earned.map((a) => a.tier?.group).filter((g): g is string => !!g))];
 
   return (
     <View style={styles.screen}>
@@ -132,11 +145,11 @@ export default function BadgesScreen() {
             <View
               style={styles.summary}
               accessible
-              accessibilityLabel={`${earned.length} of ${achievements.length} badges earned`}
+              accessibilityLabel={`${earned.length} of ${total} badges earned`}
             >
               <View style={styles.summaryRow}>
                 <Text style={styles.summaryCount}>
-                  {earned.length} of {achievements.length} earned
+                  {earned.length} of {total} earned
                 </Text>
                 <Text style={styles.summaryPct}>{Math.round(share * 100)}%</Text>
               </View>
@@ -155,7 +168,8 @@ export default function BadgesScreen() {
                 <View style={styles.grid}>
                   {earned.map((achievement) => {
                     const at = earnedAt[achievement.id];
-                    const isNew = unseen.has(achievement.id);
+                    const isNew = isNewBadge(achievement);
+                    const tier = achievement.tier;
                     return (
                       <Pressable
                         key={achievement.id}
@@ -168,15 +182,33 @@ export default function BadgesScreen() {
                       >
                         <Badge achievement={achievement} earned isNew={isNew} />
                         <Text style={styles.earnedTitle} numberOfLines={2}>
-                          {achievement.title}
+                          {tier ? tier.groupTitle : achievement.title}
                         </Text>
-                        {at !== undefined && <Text style={styles.earnedDate}>{shortDate(at)}</Text>}
+                        {tier ? (
+                          <Text style={[styles.tierPill, { backgroundColor: tierAccent(t, tier.level).accent }]}>
+                            {tier.name}
+                          </Text>
+                        ) : (
+                          at !== undefined && <Text style={styles.earnedDate}>{shortDate(at)}</Text>
+                        )}
                       </Pressable>
                     );
                   })}
                 </View>
               )}
             </Section>
+
+            {tierGroups.map((group) => {
+              const ladder = tierLadder(group, achievements);
+              return (
+                <TierLadder
+                  key={group}
+                  ladder={ladder}
+                  unlocked={unlocked}
+                  count={progress[ladder[ladder.length - 1].id]?.current ?? 0}
+                />
+              );
+            })}
 
             {closest.length > 0 && (
               <Section title="Closest to earning" note="Most progress first">
@@ -454,6 +486,15 @@ const createStyles = (t: Theme) =>
       lineHeight: 15,
       color: t.colors.text,
       textAlign: "center",
+    },
+    tierPill: {
+      ...text.labelCaps,
+      fontSize: 10,
+      color: "#1F2A44",
+      borderRadius: radii.full,
+      paddingHorizontal: spacing.sm,
+      paddingVertical: 1,
+      overflow: "hidden",
     },
     earnedDate: {
       ...text.labelCaps,

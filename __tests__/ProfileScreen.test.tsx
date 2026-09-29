@@ -2,7 +2,7 @@ import React from 'react';
 import { Linking } from 'react-native';
 import { fireEvent, render, screen } from '@testing-library/react-native';
 import ProfileScreen from '../src/screens/ProfileScreen';
-import { computeUnlocked, getAchievement, useAchievementsStore } from '../src/store/useAchievementsStore';
+import { computeUnlocked, getAchievement, useAchievementsStore, visibleBadges } from '../src/store/useAchievementsStore';
 import { getAllEntries } from '../src/data/query';
 import { getChallenges } from '../src/data/challenges';
 import { useFoundStore } from '../src/store/useFoundStore';
@@ -43,7 +43,9 @@ describe('ProfileScreen badges', () => {
       .getAllByRole('button')
       .map((b) => String(b.props.accessibilityLabel ?? ''))
       .filter((l) => l.endsWith(', unlocked'));
-    const titles = unlocked.slice(0, 3).map((id) => getAchievement(id)!.title);
+    const newestFirst = [...visibleBadges(unlocked).earned].sort((a, b) => earnedAt[b.id] - earnedAt[a.id]);
+    const titles = newestFirst.slice(0, 3).map((a) => a.title);
+    expect(titles).not.toContain(getAchievement('FIRST_FIND')!.title);
     expect(shown).toEqual(titles.map((title) => `${title}, unlocked`));
 
     expect(screen.getAllByRole('button').some((b) => String(b.props.accessibilityLabel).startsWith('Next up: '))).toBe(

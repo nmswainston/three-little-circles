@@ -7,6 +7,7 @@ import {
   AchievementProgress,
   closestToEarning,
   getAchievements,
+  visibleBadges,
   useAchievementsStore,
   useBadgeProgress,
 } from '../store/useAchievementsStore';
@@ -40,9 +41,15 @@ export function summaryState(
 ): SummaryState {
   if (foundCount === 0 && unlocked.length === 0) return { kind: 'start' };
 
+  // A tiered badge with several new levels counts once, at its highest.
   const seenSet = new Set(seen);
+  const topLevel = new Map<string, number>();
+  for (const a of achievements) {
+    if (a.tier && unlocked.includes(a.id)) topLevel.set(a.tier.group, Math.max(topLevel.get(a.tier.group) ?? 0, a.tier.level));
+  }
   const unseen = achievements
     .filter((a) => unlocked.includes(a.id) && !seenSet.has(a.id))
+    .filter((a) => !a.tier || a.tier.level === topLevel.get(a.tier.group))
     .sort((a, b) => (earnedAt[b.id] ?? 0) - (earnedAt[a.id] ?? 0));
   if (unseen.length > 0) return { kind: 'earned', achievement: unseen[0], unseenCount: unseen.length };
 
@@ -83,12 +90,11 @@ export default function BadgeSummaryCard({
 
   const achievements = useMemo(() => getAchievements(), []);
   const foundCount = useMemo(() => Object.keys(found).filter((id) => getEntryById(id)).length, [found]);
-  const earnedCount = useMemo(
-    () => achievements.filter((a) => unlocked.includes(a.id)).length,
-    [achievements, unlocked]
-  );
+  // Tiered badges count once, at their highest level.
+  const visible = useMemo(() => visibleBadges(unlocked, achievements), [achievements, unlocked]);
+  const earnedCount = visible.earned.length;
   const state = summaryState(achievements, foundCount, unlocked, seen, earnedAt, progress);
-  const tally = `${earnedCount} of ${achievements.length}`;
+  const tally = `${earnedCount} of ${visible.earned.length + visible.unearned.length}`;
 
   if (state.kind === 'earned') {
     const { achievement, unseenCount } = state;
