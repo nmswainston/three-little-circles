@@ -2,7 +2,7 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { Achievement } from '../../data/achievements';
-import { useTheme } from '../../theme/ThemeProvider';
+import { Theme, useTheme } from '../../theme/ThemeProvider';
 
 type IconName = keyof typeof Ionicons.glyphMap;
 
@@ -13,22 +13,39 @@ interface BadgeProps {
   size?: number;
   /** Show the "new" dot */
   isNew?: boolean;
+  /** Locked but started: a dashed accent ring on a tinted disc */
+  inProgress?: boolean;
+}
+
+/**
+ * The colors a badge is drawn in: its park's accent for park badges, gold for
+ * the rest. `text` is the accent adjusted for small text on the background.
+ */
+export function badgeAccent(t: Theme, achievement: Achievement) {
+  const palette = achievement.parkKey ? t.parks[achievement.parkKey] : undefined;
+  return {
+    accent: palette?.accent ?? t.colors.primary,
+    onAccent: palette?.onAccent ?? t.colors.onPrimary,
+    tint: palette?.tint ?? t.colors.primaryLight,
+    // Gold is unreadable as small text on cream, so fixed badges use amber.
+    text: palette?.text ?? t.colors.warning,
+  };
 }
 
 /**
  * A medallion: a ring around a disc with the achievement's icon. Park badges
  * take their park's accent; milestone badges are gold. Locked badges sit on
- * the track color with a muted icon.
+ * the track color with a muted icon; started ones keep their accent on a
+ * dashed ring.
  */
-export default function Badge({ achievement, earned, size = 40, isNew = false }: BadgeProps) {
+export default function Badge({ achievement, earned, size = 40, isNew = false, inProgress = false }: BadgeProps) {
   const t = useTheme();
-  const palette = achievement.parkKey ? t.parks[achievement.parkKey] : undefined;
+  const { accent, onAccent, tint, text } = badgeAccent(t, achievement);
+  const started = !earned && inProgress;
 
-  const accent = palette?.accent ?? t.colors.primary;
-  const onAccent = palette?.onAccent ?? t.colors.onPrimary;
-  const fill = earned ? accent : t.colors.track;
-  const iconColor = earned ? onAccent : t.colors.textMuted;
-  const ring = earned ? accent : t.colors.border;
+  const fill = earned ? accent : started ? tint : t.colors.track;
+  const iconColor = earned ? onAccent : started ? text : t.colors.textMuted;
+  const ring = earned || started ? accent : t.colors.border;
   const outer = size + 8;
 
   return (
@@ -36,6 +53,7 @@ export default function Badge({ achievement, earned, size = 40, isNew = false }:
       style={[
         styles.ring,
         { width: outer, height: outer, borderRadius: outer / 2, borderColor: ring },
+        started && styles.ringDashed,
       ]}
       accessibilityElementsHidden
       importantForAccessibility="no-hide-descendants"
@@ -55,6 +73,9 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  ringDashed: {
+    borderStyle: 'dashed',
   },
   disc: {
     alignItems: 'center',

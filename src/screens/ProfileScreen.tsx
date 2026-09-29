@@ -1,6 +1,6 @@
-import React, { ReactNode, useCallback, useMemo, useState } from "react";
+import React, { ReactNode, useEffect, useMemo, useState } from "react";
 import { ScrollView, StyleSheet, View, Text, Pressable, Switch, Linking } from "react-native";
-import { useFocusEffect, useNavigation } from "@react-navigation/native";
+import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { Ionicons } from "@expo/vector-icons";
 import { RootStackParamList } from "../navigation/types";
@@ -13,8 +13,13 @@ import { currentFeedbackContext, feedbackEmail, feedbackMailto } from "../lib/fe
 import { exportBackup } from "../store/backup";
 import { confirm, notify } from "../lib/notify";
 import { useFoundStore } from "../store/useFoundStore";
-import { useAchievementsStore, getAchievements, Achievement } from "../store/useAchievementsStore";
-import { countUnreachableAchievements } from "../data/achievements";
+import {
+  useAchievementsStore,
+  useBadgeProgress,
+  getAchievements,
+  closestToEarning,
+  Achievement,
+} from "../store/useAchievementsStore";
 import { useSettingsStore, Appearance } from "../store/useSettingsStore";
 import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
 import { spacing, radii, text } from "../theme/tokens";
@@ -23,7 +28,10 @@ import ProgressRing from "../components/ui/ProgressRing";
 import Chip from "../components/ui/Chip";
 import Badge from "../components/ui/Badge";
 import AchievementSheet from "../components/AchievementSheet";
+import BadgeProgressRow from "../components/BadgeProgressRow";
 import Disclaimer from "../components/Disclaimer";
+
+const RECENT_BADGES = 3;
 
 const APPEARANCE_OPTIONS: { value: Appearance; label: string }[] = [
   { value: "system", label: "System" },
@@ -50,16 +58,28 @@ export default function ProfileScreen() {
   const setOnboarded = useSettingsStore((s) => s.setOnboarded);
 
   const achievements = useMemo(() => getAchievements(), []);
-  const hiddenBadges = useMemo(() => countUnreachableAchievements(), []);
+  const badgeProgress = useBadgeProgress();
   const unseen = useMemo(() => new Set(unlocked.filter((id) => !seen.includes(id))), [unlocked, seen]);
   const [selected, setSelected] = useState<Achievement | undefined>();
 
-  // "New" dots stay while you look; they clear once you leave the tab.
-  useFocusEffect(
-    useCallback(() => {
-      return () => markSeen();
-    }, [markSeen])
-  );
+  const earnedBadges = useMemo(() => {
+    const have = new Set(unlocked);
+    return achievements
+      .filter((a) => have.has(a.id))
+      .sort((a, b) => (earnedAt[b.id] ?? 0) - (earnedAt[a.id] ?? 0));
+  }, [achievements, unlocked, earnedAt]);
+  const nextUp = useMemo(() => {
+    const [id] = closestToEarning(badgeProgress, unlocked, 1);
+    return achievements.find((a) => a.id === id);
+  }, [achievements, badgeProgress, unlocked]);
+
+  // "New" dots stay while you look around Profile and the Badges screen, and
+  // clear once you leave the tab.
+  useEffect(() => {
+    const tab = navigation.getParent?.();
+    if (!tab) return;
+    return tab.addListener("blur", () => markSeen());
+  }, [navigation, markSeen]);
 
   const openBadge = (achievement: Achievement) => {
     setSelected(achievement);
@@ -174,6 +194,55 @@ export default function ProfileScreen() {
             <Text style={styles.shareButtonText}>Share progress</Text>
           </Pressable>
 
+          <Section title="Badges">
+            <View style={styles.badgeCard}>
+              <Text style={styles.badgeCount}>
+                {earnedBadges.length} of {achievements.length} earned
+              </Text>
+              {earnedBadges.length === 0 ? (
+                <Text style={styles.caption}>Mark your first find and your first badge is yours.</Text>
+              ) : (
+                <View style={styles.recentRow}>
+                  {earnedBadges.slice(0, RECENT_BADGES).map((achievement) => (
+                    <Pressable
+                      key={achievement.id}
+                      onPress={() => openBadge(achievement)}
+                      accessibilityRole="button"
+                      accessibilityLabel={`${achievement.title}, unlocked${unseen.has(achievement.id) ? ", new" : ""}`}
+                      style={({ pressed }) => [styles.badge, pressed && styles.badgePressed]}
+                    >
+                      <Badge achievement={achievement} earned isNew={unseen.has(achievement.id)} />
+                      <Text style={styles.badgeTitle} numberOfLines={2}>
+                        {achievement.title}
+                      </Text>
+                    </Pressable>
+                  ))}
+                </View>
+              )}
+              {nextUp && (
+                <>
+                  <View style={styles.divider} />
+                  <BadgeProgressRow
+                    achievement={nextUp}
+                    progress={badgeProgress[nextUp.id]}
+                    onPress={() => openBadge(nextUp)}
+                    prefix="Next up: "
+                    compact
+                  />
+                </>
+              )}
+              <Pressable
+                onPress={() => navigation.navigate("Badges")}
+                accessibilityRole="button"
+                accessibilityLabel="See all badges"
+                style={({ pressed }) => [styles.seeAllButton, pressed && styles.badgePressed]}
+              >
+                <Text style={styles.seeAllText}>See all badges</Text>
+                <Ionicons name="chevron-forward" size={18} color={t.colors.text} />
+              </Pressable>
+            </View>
+          </Section>
+
           <Section title="By park">
             <View style={styles.listCard}>
               {parks.map((park, index) => {
@@ -200,33 +269,6 @@ export default function ProfileScreen() {
                 );
               })}
             </View>
-          </Section>
-
-          <Section title="Badges">
-            <View style={styles.grid}>
-              {achievements.map((achievement) => {
-                const earned = unlocked.includes(achievement.id);
-                return (
-                  <Pressable
-                    key={achievement.id}
-                    onPress={() => openBadge(achievement)}
-                    accessibilityRole="button"
-                    accessibilityLabel={`${achievement.title}, ${earned ? "unlocked" : "locked"}${unseen.has(achievement.id) ? ", new" : ""}`}
-                    style={({ pressed }) => [styles.badge, pressed && styles.badgePressed]}
-                  >
-                    <Badge achievement={achievement} earned={earned} isNew={unseen.has(achievement.id)} />
-                    <Text style={[styles.badgeTitle, earned && styles.badgeTitleEarned]} numberOfLines={2}>
-                      {achievement.title}
-                    </Text>
-                  </Pressable>
-                );
-              })}
-            </View>
-            {hiddenBadges > 0 && (
-              <Text style={styles.caption}>
-                {hiddenBadges} more badge{hiddenBadges === 1 ? "" : "s"} unlock as the guide grows.
-              </Text>
-            )}
           </Section>
 
           <Section title="Appearance">
@@ -346,6 +388,8 @@ export default function ProfileScreen() {
       <AchievementSheet
         achievement={selected}
         earnedAt={selected ? earnedAt[selected.id] : undefined}
+        earned={selected ? unlocked.includes(selected.id) : false}
+        progress={selected ? badgeProgress[selected.id] : undefined}
         onClose={() => setSelected(undefined)}
       />
     </View>
@@ -527,20 +571,39 @@ const createStyles = (t: Theme) =>
       textAlign: "right",
       fontVariant: ["tabular-nums"],
     },
-    grid: {
+    badgeCard: {
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.lg,
+      padding: spacing.md,
+      gap: spacing.sm + 2,
+    },
+    badgeCount: {
+      ...text.meta,
+      color: t.colors.textSecondary,
+    },
+    recentRow: {
       flexDirection: "row",
-      flexWrap: "wrap",
-      gap: spacing.sm,
     },
     badge: {
-      width: "31%",
-      flexGrow: 1,
+      flex: 1,
       alignItems: "center",
       gap: spacing.sm - 2,
-      backgroundColor: t.colors.surface,
+      paddingVertical: spacing.xs,
+      paddingHorizontal: spacing.xs,
+    },
+    seeAllButton: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: spacing.xs,
+      minHeight: 44,
       borderRadius: radii.md,
-      paddingVertical: spacing.sm + 2,
-      paddingHorizontal: spacing.xs + 2,
+      backgroundColor: t.colors.background,
+    },
+    seeAllText: {
+      ...text.chip,
+      fontSize: 15,
+      color: t.colors.text,
     },
     badgePressed: {
       opacity: 0.85,
@@ -549,13 +612,10 @@ const createStyles = (t: Theme) =>
       ...text.labelCaps,
       textTransform: "none",
       letterSpacing: 0,
-      fontSize: 11,
-      lineHeight: 14,
-      color: t.colors.textMuted,
-      textAlign: "center",
-    },
-    badgeTitleEarned: {
+      fontSize: 12,
+      lineHeight: 15,
       color: t.colors.text,
+      textAlign: "center",
     },
     chipRow: {
       flexDirection: "row",

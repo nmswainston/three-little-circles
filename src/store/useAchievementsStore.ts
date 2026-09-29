@@ -1,11 +1,12 @@
+import { useMemo } from "react";
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { AchievementId, computeUnlocked } from "../data/achievements";
+import { AchievementId, AchievementProgress, computeProgress, computeUnlocked } from "../data/achievements";
 import { useFoundStore } from "./useFoundStore";
 
-export type { Achievement, AchievementId } from "../data/achievements";
-export { getAchievements, getAchievement, computeUnlocked } from "../data/achievements";
+export type { Achievement, AchievementId, AchievementProgress } from "../data/achievements";
+export { getAchievements, getAchievement, computeUnlocked, closestToEarning } from "../data/achievements";
 
 interface AchievementsState {
   /** Achievements ever earned. Once earned, an achievement stays earned. */
@@ -94,3 +95,12 @@ const onHydrated = () => {
 };
 useFoundStore.persist.onFinishHydration(onHydrated);
 useAchievementsStore.persist.onFinishHydration(onHydrated);
+
+/**
+ * Progress toward every badge, recomputed when finds change. Take "earned"
+ * from the unlocked list, not from full progress: an unlock is kept for good.
+ */
+export function useBadgeProgress(): Record<AchievementId, AchievementProgress> {
+  const found = useFoundStore((s) => s.found);
+  return useMemo(() => computeProgress(found), [found]);
+}
