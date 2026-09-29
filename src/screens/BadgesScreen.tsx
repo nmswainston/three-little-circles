@@ -63,7 +63,7 @@ export default function BadgesScreen() {
 
   // Tiered badges show once: under Earned at their highest level once any
   // level is earned, never also under Closest to earning.
-  const { earned, total, closest, restSkills, restParks, restChallenges, unseen } = useMemo(() => {
+  const { earned, total, secrets, closest, restSkills, restParks, restChallenges, unseen } = useMemo(() => {
     const visible = visibleBadges(unlocked, achievements);
     const byId = new Map(achievements.map((a) => [a.id, a]));
     const closestIds = closestToEarning(progress, unlocked, CLOSEST_COUNT, { nextTiers: false });
@@ -72,6 +72,7 @@ export default function BadgesScreen() {
     return {
       earned: [...visible.earned].sort((a, b) => (earnedAt[b.id] ?? 0) - (earnedAt[a.id] ?? 0)),
       total: visible.earned.length + visible.unearned.length,
+      secrets: visible.hidden.length,
       closest: closestIds.map((id) => byId.get(id)).filter((a): a is Achievement => !!a),
       restSkills: rest.filter((a) => a.kind === "milestone" || a.kind === "skill"),
       restParks: rest.filter((a) => a.kind === "park"),
@@ -154,6 +155,11 @@ export default function BadgesScreen() {
                 <Text style={styles.summaryPct}>{Math.round(share * 100)}%</Text>
               </View>
               <ProgressBar progress={share} height={10} />
+              {secrets > 0 && (
+                <Text style={styles.caption}>
+                  Plus {secrets} secret badge{secrets === 1 ? "" : "s"} still hiding somewhere.
+                </Text>
+              )}
               {hiddenBadges > 0 && (
                 <Text style={styles.caption}>
                   {hiddenBadges} more badge{hiddenBadges === 1 ? "" : "s"} unlock as the guide grows.
@@ -225,11 +231,12 @@ export default function BadgesScreen() {
               </Section>
             )}
 
-            {restSkills.length + restParks.length + restChallenges.length > 0 && (
+            {restSkills.length + restParks.length + restChallenges.length + secrets > 0 && (
               <Section title="More to earn">
                 <RestGroup label="Skills" list={restSkills} progress={progress} onPress={openBadge} />
                 <RestGroup label="Parks" list={restParks} progress={progress} onPress={openBadge} />
                 <RestGroup label="Challenges" list={restChallenges} progress={progress} onPress={openBadge} />
+                {secrets > 0 && <SecretGroup count={secrets} />}
               </Section>
             )}
           </View>
@@ -301,6 +308,33 @@ function ChallengesTab({ unlocked, onOpen }: { unlocked: string[]; onOpen: (chal
           </Section>
         );
       })}
+    </View>
+  );
+}
+
+// One card per secret still hiding. They say nothing about how to earn them;
+// that is the point.
+function SecretGroup({ count }: { count: number }) {
+  const styles = useStyles(createStyles);
+  return (
+    <View style={styles.restGroup}>
+      <Text style={styles.groupLabel}>Secret</Text>
+      <View style={styles.secretGrid}>
+        {Array.from({ length: count }, (_, i) => (
+          <View
+            key={i}
+            style={styles.secretCard}
+            accessible
+            accessibilityLabel="Secret badge. Keep exploring and it will show itself."
+          >
+            <View style={styles.secretMark}>
+              <Text style={styles.secretQuestion}>?</Text>
+            </View>
+            <Text style={styles.secretTitle}>???</Text>
+            <Text style={styles.secretHint}>Keep exploring.</Text>
+          </View>
+        ))}
+      </View>
     </View>
   );
 }
@@ -519,6 +553,43 @@ const createStyles = (t: Theme) =>
       backgroundColor: t.colors.surface,
       borderRadius: radii.lg,
       paddingHorizontal: spacing.md - 2,
+    },
+    // Two even columns; an odd one out stays half width rather than stretching.
+    secretGrid: {
+      flexDirection: "row",
+      flexWrap: "wrap",
+      justifyContent: "space-between",
+      rowGap: spacing.sm + 2,
+    },
+    secretCard: {
+      width: "48.5%",
+      alignItems: "center",
+      gap: spacing.xs + 2,
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.lg,
+      padding: spacing.md,
+    },
+    secretMark: {
+      width: 48,
+      height: 48,
+      borderRadius: 24,
+      borderWidth: 2,
+      borderStyle: "dashed",
+      borderColor: t.colors.borderStrong,
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    secretQuestion: {
+      ...text.sectionTitle,
+      color: t.colors.textMuted,
+    },
+    secretTitle: {
+      ...text.itemTitle,
+      color: t.colors.text,
+    },
+    secretHint: {
+      ...text.bodySmall,
+      color: t.colors.textSecondary,
     },
     divider: {
       height: 1,

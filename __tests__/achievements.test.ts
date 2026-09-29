@@ -162,3 +162,49 @@ describe('Hunter tiers', () => {
     expect(computeUnlocked(asFoundN(9))).not.toContain('TEN_FINDS');
   });
 });
+
+describe('secret badges', () => {
+  const at = (hour: number, day = 20) => new Date(2026, 8, day, hour, 0).getTime();
+  const secretIds = getAchievements()
+    .filter((a) => a.secret)
+    .map((a) => a.id);
+
+  it('has four secrets, hidden from the lists until earned', () => {
+    expect(secretIds.sort()).toEqual(['NIGHT_OWL', 'PARK_HOPPER', 'ROPE_DROP', 'TOPSY_TURVY']);
+    const { unearned, hidden } = visibleBadges([]);
+    expect(hidden.map((a) => a.id).sort()).toEqual(secretIds);
+    expect(unearned.some((a) => a.secret)).toBe(false);
+
+    const revealed = visibleBadges(['TOPSY_TURVY']);
+    expect(revealed.earned.map((a) => a.id)).toContain('TOPSY_TURVY');
+    expect(revealed.hidden.map((a) => a.id)).not.toContain('TOPSY_TURVY');
+  });
+
+  it('never nudges toward a secret, however close it is', () => {
+    const upsideDown = entries.find((e) => e.whereToLook?.orientation === 'Upside-down')!;
+    const progress = computeProgress({});
+    progress.TOPSY_TURVY = { current: 0, goal: 1, fraction: 0.99, remaining: 1 };
+    expect(closestToEarning(progress, [], 50)).not.toContain('TOPSY_TURVY');
+    expect(computeUnlocked({ [upsideDown.id]: at(12) })).toContain('TOPSY_TURVY');
+  });
+
+  it('Park Hopper needs three theme parks on one day, resorts not counted', () => {
+    const firstIn = (parkId: string) => entries.find((e) => e.parkId === parkId)!;
+    const parks = [...new Set(entries.map((e) => e.parkId))].filter((id) => !id.endsWith('_bucket'));
+    const [p1, p2, p3] = parks.map(firstIn);
+    expect(computeUnlocked({ [p1.id]: at(10), [p2.id]: at(12), [p3.id]: at(15) })).toContain('PARK_HOPPER');
+    expect(computeUnlocked({ [p1.id]: at(10), [p2.id]: at(12), [p3.id]: at(15, 21) })).not.toContain('PARK_HOPPER');
+    const resort = firstIn('resorts_bucket');
+    expect(computeUnlocked({ [p1.id]: at(10), [p2.id]: at(12), [resort.id]: at(15) })).not.toContain('PARK_HOPPER');
+  });
+
+  it('Rope Drop and Night Owl go by the local hour a find was marked', () => {
+    const one = entries[0].id;
+    expect(computeUnlocked({ [one]: at(8) })).toContain('ROPE_DROP');
+    expect(computeUnlocked({ [one]: at(9) })).not.toContain('ROPE_DROP');
+    expect(computeUnlocked({ [one]: at(21) })).toContain('NIGHT_OWL');
+    expect(computeUnlocked({ [one]: at(2) })).toContain('NIGHT_OWL');
+    expect(computeUnlocked({ [one]: at(2) })).not.toContain('ROPE_DROP');
+    expect(computeUnlocked({ [one]: at(14) })).not.toEqual(expect.arrayContaining(['NIGHT_OWL']));
+  });
+});
