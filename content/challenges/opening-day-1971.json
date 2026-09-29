@@ -1,0 +1,36 @@
+{
+  "id": "opening-day-1971",
+  "title": "Opening Day, 1971",
+  "blurb": "Attractions that welcomed guests on Magic Kingdom's first day, October 1, 1971, and are still running.",
+  "parkId": "magic_kingdom_park",
+  "icon": "calendar",
+  "goal": "all",
+  "targets": [
+    {
+      "attraction": "magic_kingdom_park/main_street_area/steam_train_station"
+    },
+    {
+      "attraction": "magic_kingdom_park/jungle_outpost_area/family_treehouse"
+    },
+    {
+      "attraction": "magic_kingdom_park/jungle_outpost_area/jungle_boat_ride"
+    },
+    {
+      "attraction": "magic_kingdom_park/jungle_outpost_area/singing_birds_show"
+    },
+    {
+      "attraction": "magic_kingdom_park/colonial_square_area/presidents_hall_show"
+    },
+    {
+      "attraction": "magic_kingdom_park/colonial_square_area/haunted_manor_ride"
+    },
+    {
+      "attraction": "magic_kingdom_park/castle_courtyard_area/flying_pirate_ship_ride"
+    },
+    {
+      "attraction": "magic_kingdom_park/castle_courtyard_area/singing_dolls_boat_ride"
+    }
+  ],
+  "createdAtISO": "2026-09-29T00:00:00.000Z",
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+}

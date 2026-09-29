@@ -1,0 +1,15 @@
+{
+  "id": "check-in-at-the-tower",
+  "title": "Check In at the Tower",
+  "blurb": "Every hidden detail at The Twilight Zone Tower of Terror.",
+  "parkId": "studios_park",
+  "icon": "business",
+  "goal": "all",
+  "targets": [
+    {
+      "attraction": "studios_park/sunset_area/hotel_drop_tower"
+    }
+  ],
+  "createdAtISO": "2026-09-29T00:00:00.000Z",
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+}
