@@ -29,10 +29,12 @@
   },
   "confidence": "Interpretive",
   "verification": "Community",
+  "status": "Unverified",
   "coordinates": {
     "latitude": 28.3581,
     "longitude": -81.5915
   },
+  "sourceId": "TLC-AK-0036",
   "createdAtISO": "2026-09-23T00:00:00.000Z",
-  "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

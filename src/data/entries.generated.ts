@@ -721,8 +721,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3563,
       "longitude": -81.5628
     },
+    "sourceId": "TLC-HS-0050",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-16T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z",
+    "status": "Unverified"
   },
   {
     "id": "backyard-coaster-queue-coloring-book-plans",
@@ -3404,12 +3406,14 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3581,
       "longitude": -81.5915
     },
+    "sourceId": "TLC-AK-0036",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "floating-mountains-walkway-mushroom-mickey",
@@ -5098,12 +5102,14 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Obvious",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3737,
       "longitude": -81.5527
     },
+    "sourceId": "TLC-EP-0046",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "greenhouse-boat-mural-bubbles-mickey",
@@ -11402,12 +11408,14 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Obvious",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3589,
       "longitude": -81.5594
     },
+    "sourceId": "TLC-HS-0051",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "tortuga-tavern-window-candles-mickey",
