@@ -7,6 +7,8 @@ interface ProgressBarProps {
   progress: number;
   /** Fill color. Defaults to the gold primary. */
   color?: string;
+  /** Track color. Defaults to the theme track. */
+  trackColor?: string;
   height?: number;
 }
 
@@ -14,14 +16,14 @@ interface ProgressBarProps {
  * A flat, rounded progress bar. Decorative: the row that holds it carries the
  * numbers for screen readers.
  */
-export default function ProgressBar({ progress, color, height = 8 }: ProgressBarProps) {
+export default function ProgressBar({ progress, color, trackColor, height = 8 }: ProgressBarProps) {
   const t = useTheme();
   const clamped = Math.max(0, Math.min(1, progress));
   const radius = height / 2;
 
   return (
     <View
-      style={[styles.track, { height, borderRadius: radius, backgroundColor: t.colors.track }]}
+      style={[styles.track, { height, borderRadius: radius, backgroundColor: trackColor ?? t.colors.track }]}
       accessibilityElementsHidden
       importantForAccessibility="no-hide-descendants"
     >

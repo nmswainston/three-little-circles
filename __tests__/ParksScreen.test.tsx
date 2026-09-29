@@ -4,6 +4,7 @@ import ParksScreen from '../src/screens/ParksScreen';
 import { getAllEntries, searchEntries } from '../src/data/query';
 import { getDestinationSummaries } from '../src/data/destinations';
 import { useFoundStore } from '../src/store/useFoundStore';
+import { computeUnlocked, getAchievement, useAchievementsStore } from '../src/store/useAchievementsStore';
 
 const mockNavigate = jest.fn();
 jest.mock('@react-navigation/native', () => ({
@@ -18,11 +19,63 @@ const results = searchEntries(query);
 
 beforeAll(async () => {
   await useFoundStore.persist.rehydrate();
+  await useAchievementsStore.persist.rehydrate();
 });
 
 beforeEach(() => {
   mockNavigate.mockClear();
   useFoundStore.setState({ found: {} });
+  useAchievementsStore.setState({ unlocked: [], earnedAt: {}, seen: [], pending: [] });
+});
+
+const NOW = Date.parse('2026-09-27T12:00:00Z');
+const cardLabel = () =>
+  screen
+    .getAllByRole('button')
+    .map((b) => String(b.props.accessibilityLabel ?? ''))
+    .find((l) => l.startsWith('Your badges') || /^(New badge|\d+ new badges)/.test(l));
+
+/** Twelve finds with every resulting badge earned; `seen` says which were looked at. */
+function seed(seenAll: boolean) {
+  const found = Object.fromEntries(getAllEntries().slice(0, 12).map((e) => [e.id, NOW]));
+  const unlocked = computeUnlocked(found);
+  const earnedAt = Object.fromEntries(unlocked.map((id) => [id, NOW - 5000]));
+  earnedAt.TEN_FINDS = NOW;
+  useFoundStore.setState({ found });
+  useAchievementsStore.setState({ unlocked, earnedAt, seen: seenAll ? unlocked : [], pending: [] });
+}
+
+describe('ParksScreen badge card', () => {
+  it('invites a new guest to make a first find', () => {
+    render(<ParksScreen />);
+    expect(screen.getByText('Find your first Hidden Mickey')).toBeTruthy();
+    fireEvent.press(screen.getByText('Find your first Hidden Mickey'));
+    expect(mockNavigate).toHaveBeenCalledWith('Badges');
+  });
+
+  it('celebrates the newest unseen badge, and marks every new one seen on tap', () => {
+    seed(false);
+    render(<ParksScreen />);
+    const { unlocked } = useAchievementsStore.getState();
+    const explorer = getAchievement('TEN_FINDS')!.title;
+    expect(cardLabel()).toContain(`${unlocked.length} new badges: ${explorer}`);
+
+    fireEvent.press(screen.getByText(explorer));
+    expect(useAchievementsStore.getState().seen.sort()).toEqual([...unlocked].sort());
+    expect(mockNavigate).toHaveBeenCalledWith('Badges');
+  });
+
+  it('nudges toward the closest badge once everything earned has been seen', () => {
+    seed(true);
+    render(<ParksScreen />);
+    expect(cardLabel()).toMatch(/^Your badges: \d+ of \d+ earned\. Next up: /);
+  });
+
+  it('steps aside while searching', () => {
+    render(<ParksScreen />);
+    fireEvent.changeText(screen.getByLabelText('Search attractions'), query);
+    expect(screen.queryByText('Find your first Hidden Mickey')).toBeNull();
+  });
 });
 
 describe('ParksScreen', () => {
