@@ -141,7 +141,7 @@ it, checks that every target matches real entries, and regenerates
 | `icon` | no | an [Ionicons](https://icons.expo.fyi) glyph name. Defaults to `flag`. |
 | `goal` | yes | `all`, `each`, or `any`; see below |
 | `count` | with `any` | how many targets need a find, from 1 to the number of targets |
-| `targets` | yes | a list of places, each an object with exactly one key: `attraction` (`parkId/landId/attractionId`), `land` (`parkId/landId`), `park` (a `parkId`), or `entry` (an entry id) |
+| `targets` | yes | a list of places, each an object with exactly one key: `attraction` (`parkId/landId/attractionId`), `land` (`parkId/landId`), `park` (a `parkId`), or `entry` (an entry id). The value can also be a list of ids of that kind, which counts as one place; see below. |
 | `createdAtISO`, `updatedAtISO` | no | ISO 8601 timestamps |
 
 The goal says what finishing means:
@@ -152,6 +152,12 @@ The goal says what finishing means:
   pavilion".
 - `any`: find at least one entry in `count` of the targets. Use it for "five
   different resorts".
+
+One place can span several ids. A resort split across two lands in the
+content, such as Coronado Springs and its Gran Destino Tower, is written as
+`{"land": ["resorts_bucket/coronado_springs_resort", "resorts_bucket/coronado_springs_gran_destino"]}`.
+Finds in either land count toward that one place, and it takes its name from
+the first id. Every id in the list must match entries.
 
 Targets are ids, not names, so they keep working when a display name changes.
 An `attraction`, `land`, or `park` target picks up new entries added there
