@@ -15,7 +15,7 @@
   "areaContext": "Lobby",
   "description": "In the refurbished guest rooms, the decorative pattern on the bathroom door works in the tiara of the princess who spent her movie as a frog. It is the resort's new theme, hidden in plain sight.",
   "whereToLook": {
-    "scene": "Refurbished guest room",
+    "scene": "Inside a refurbished guest room, themed to the princess who spent her movie as a frog",
     "exactSpot": "The ornament on the bathroom door. Look for a crown shape in the pattern."
   },
   "bestTip": "Look at the door with the room lights on; the pattern is subtle.",
@@ -37,5 +37,5 @@
   "sourceId": "TLC-RS-0061",
   "sourceUrl": "https://disneyparksblog.com/wdw/new-rooms-at-port-orleans-french-quarter/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

@@ -289,7 +289,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Lobby",
     "description": "Also in the lost-and-found is a small pinned-on tail. It belongs to the gloomy donkey from the hundred-acre wood, who is forever losing it.",
     "whereToLook": {
-      "scene": "Lost-and-found shelf at reception",
+      "scene": "Lost-and-found shelf at the gallery's reception desk",
       "exactSpot": "A short tail with a bow, pinned among the objects."
     },
     "bestTip": "It is small and grey. Look low on the shelf.",
@@ -306,7 +306,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0031",
     "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "animation-gallery-lost-and-found-hydra-vase",
@@ -325,7 +325,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Lobby",
     "description": "A vase on the lost-and-found shelf is painted with a many-headed hydra, straight out of the animated film about the Greek hero.",
     "whereToLook": {
-      "scene": "Lost-and-found shelf at reception",
+      "scene": "Lost-and-found shelf at the gallery's reception desk",
       "exactSpot": "The painted vase. Count the heads."
     },
     "bestTip": "The artwork is in the black-figure style, so it reads as an antique until you see the monster.",
@@ -342,7 +342,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0032",
     "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "animation-gallery-lost-and-found-map-sphere",
@@ -361,7 +361,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Lobby",
     "description": "The lost-and-found at the reception desk holds a golden sphere etched with a map. It is the treasure map from the animated space pirate adventure.",
     "whereToLook": {
-      "scene": "Lost-and-found shelf at reception",
+      "scene": "Lost-and-found shelf at the gallery's reception desk",
       "exactSpot": "The engraved golden sphere."
     },
     "bestTip": "The shelf is dressed as clutter. Take each object one at a time.",
@@ -378,7 +378,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0030",
     "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "animation-gallery-lost-and-found-sundrop-flower",
@@ -397,7 +397,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Lobby",
     "description": "A golden flower among the lost items is the magic sundrop flower that gave the long-haired princess her glowing hair.",
     "whereToLook": {
-      "scene": "Lost-and-found shelf at reception",
+      "scene": "Lost-and-found shelf at the gallery's reception desk",
       "exactSpot": "The golden flower."
     },
     "bestTip": "It sits with the other props from the same shelf, so find the sphere first and work along.",
@@ -414,7 +414,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0033",
     "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "animation-gallery-reception-kitten-overhead",
@@ -433,7 +433,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Lobby",
     "description": "Above the reception desk, the woodcarver's black-and-white kitten from the puppet story watches everyone who comes in.",
     "whereToLook": {
-      "scene": "Reception area",
+      "scene": "The gallery's reception area, where guests come in",
       "exactSpot": "Look up above the desk."
     },
     "bestTip": "Everyone looks at the shelf. This one is somewhere else in the room.",
@@ -505,7 +505,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Lobby",
     "description": "A gold crown in the treasures exhibit belongs to the self-absorbed emperor who spent most of his movie as a llama.",
     "whereToLook": {
-      "scene": "Treasures exhibit cases",
+      "scene": "Display cases in the gallery's treasures exhibit",
       "exactSpot": "The gold crown."
     },
     "bestTip": "Look for the tall pointed shape rather than a round crown.",
@@ -522,7 +522,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0036",
     "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "animation-gallery-treasures-rag-doll",
@@ -541,7 +541,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Lobby",
     "description": "In the treasures exhibit, a lumpy homemade rag doll with button eyes sits among the artifacts. It is the doll the little Hawaiian girl made herself in the film about her alien pet.",
     "whereToLook": {
-      "scene": "Treasures exhibit cases",
+      "scene": "Display cases in the gallery's treasures exhibit",
       "exactSpot": "The rag doll."
     },
     "bestTip": "It is the least polished thing in the case, on purpose.",
@@ -558,7 +558,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0035",
     "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "aquarium-shark-photo-area-mickey",
@@ -807,7 +807,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Queue",
     "description": "A dog tag in the queue is engraved with the name of the boy's real dog, the dachshund who barrels through the second movie.",
     "whereToLook": {
-      "scene": "Props along the queue",
+      "scene": "Oversized props along the standby queue",
       "exactSpot": "The oversized dog tag. Read the name."
     },
     "bestTip": "It hangs at about eye level for a kid, so lower your gaze.",
@@ -828,7 +828,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0019",
     "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "backyard-coaster-queue-penguin-box-mickey",
@@ -927,7 +927,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Ride",
     "description": "In the mid-ride musical scene, a bobcat plays a wooden saxophone. The spots on his fur include a cluster that reads as a classic Hidden Mickey.",
     "whereToLook": {
-      "scene": "Mid-ride musical scene",
+      "scene": "Mid-ride musical scene with the animal band",
       "exactSpot": "The bobcat with the saxophone. Look at his fur pattern."
     },
     "bestTip": "The scene is crowded and moves fast. Pick out the band and study the players one by one.",
@@ -1677,7 +1677,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Walkway",
     "description": "In the corridor behind the cafe, a picture of a sandcastle hides a full Mickey figure in the artwork.",
     "whereToLook": {
-      "scene": "Corridor behind the restaurant",
+      "scene": "Corridor behind the cafe, with artwork along its walls",
       "exactSpot": "The sandcastle picture. Look for a full figure, not just circles."
     },
     "bestTip": "Walk the corridor after your meal.",
@@ -1698,7 +1698,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0065",
     "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-dance-room-flower-mickey",
@@ -1994,7 +1994,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Lobby",
     "description": "A fishing net is strung overhead in the ceremonial house. At one junction, the rope is knotted into a classic Hidden Mickey.",
     "whereToLook": {
-      "scene": "Fishing net strung overhead",
+      "scene": "Fishing net strung overhead in the ceremonial house lobby",
       "exactSpot": "Follow the net to its junctions and look for three loops together."
     },
     "bestTip": "Look from directly beneath the net.",
@@ -2015,7 +2015,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0029",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "ceremonial-house-registration-wall-stones-mickey",
@@ -2504,7 +2504,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Entrance",
     "description": "On the curving mural to the right, a butterfly's body conceals Mickey's face.",
     "whereToLook": {
-      "scene": "Right-hand curving mural",
+      "scene": "Curving mural on the right at the station entrance",
       "exactSpot": "The butterfly. Look at its body between the wings, not the wing pattern."
     },
     "bestTip": "Plenty of creatures share this mural. Check each one's body, not just its markings.",
@@ -2544,7 +2544,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Entrance",
     "description": "In the upper right of the entrance mural, a butterfly's wing markings form a classic Hidden Mickey.",
     "whereToLook": {
-      "scene": "Entrance mural, upper right",
+      "scene": "Upper right of the animal mural at the station entrance",
       "exactSpot": "The butterfly high on the right. Look at the spots on its wings."
     },
     "bestTip": "Start from the top right corner and work down slowly.",
@@ -2584,7 +2584,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Entrance",
     "description": "The entrance mural is famous for hiding many Mickeys in its animals. On the right side, a Mickey profile hides in the pupil of the opossum's eye.",
     "whereToLook": {
-      "scene": "Entrance mural, right side",
+      "scene": "Right side of the animal mural at the station entrance",
       "exactSpot": "Find the opossum and look into its eye. The profile is in the pupil."
     },
     "bestTip": "Get close. The shape is tiny, and it is a profile, not three circles.",
@@ -3807,7 +3807,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Ride",
     "description": "In the mermaid lagoon scene, flowers grow along the rocky edge of the water. One yellow flower with two orange flowers above it forms a classic three-circle Hidden Mickey as your ship glides past.",
     "whereToLook": {
-      "scene": "Mermaid lagoon scene",
+      "scene": "Mermaid lagoon scene as your ship glides past",
       "exactSpot": "Flowers along the rocky edge of the lagoon. Look for the yellow bloom with two orange blooms as ears."
     },
     "bestTip": "Look down and to the side as the lagoon comes into view rather than at the mermaids.",
@@ -3827,7 +3827,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0011",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "flying-pirate-ship-queue-handrail-post-mickey",
@@ -4197,7 +4197,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Lobby",
     "description": "In the refurbished guest rooms, the decorative pattern on the bathroom door works in the tiara of the princess who spent her movie as a frog. It is the resort's new theme, hidden in plain sight.",
     "whereToLook": {
-      "scene": "Refurbished guest room",
+      "scene": "Inside a refurbished guest room, themed to the princess who spent her movie as a frog",
       "exactSpot": "The ornament on the bathroom door. Look for a crown shape in the pattern."
     },
     "bestTip": "Look at the door with the room lights on; the pattern is subtle.",
@@ -4219,7 +4219,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0061",
     "sourceUrl": "https://disneyparksblog.com/wdw/new-rooms-at-port-orleans-french-quarter/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "french-quarter-lobby-painting-dress-tiger-face",
@@ -4319,7 +4319,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Exit",
     "description": "The first mural on your right after unloading hides the little red spacecraft that a certain blue alien crash-landed in Hawaii. It sits in the corner of the artwork.",
     "whereToLook": {
-      "scene": "Exit corridor murals",
+      "scene": "Murals along the exit corridor after you unload",
       "exactSpot": "First mural on the right. Check the corner."
     },
     "bestTip": "Slow down at the first mural instead of heading straight for the photo screens.",
@@ -4339,7 +4339,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0038",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "galactic-blaster-first-room-low-wall-mickey",
@@ -4519,7 +4519,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Ride",
     "description": "In the garage electronics scene, the desk is scattered with period clutter. An eraser on the desktop is reported to be shaped like a classic Hidden Mickey.",
     "whereToLook": {
-      "scene": "Garage electronics scene",
+      "scene": "Garage electronics scene, full of period clutter",
       "exactSpot": "The desktop. Look at the small items for an eraser in the three-circle shape."
     },
     "bestTip": "The vehicle turns slowly here. Look at the clutter rather than the screen.",
@@ -4599,7 +4599,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Ride",
     "description": "In the Renaissance scene, the artist's fruit study is arranged so that the grouping depicts a Mickey silhouette. It is a companion to the three paint marks on the same painter's table.",
     "whereToLook": {
-      "scene": "Renaissance painter's studio",
+      "scene": "Renaissance scene, the painter's studio",
       "exactSpot": "The fruit the artist is studying. Look at how the pieces are grouped."
     },
     "bestTip": "Find the painter first, then look at what he is studying.",
@@ -7354,7 +7354,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Shop",
     "description": "The tiles on the coffee bar counter beside the register include a classic Hidden Mickey design.",
     "whereToLook": {
-      "scene": "Counter beside the register",
+      "scene": "Coffee bar counter beside the register",
       "exactSpot": "The tilework on the counter front. Look for three circles in the pattern."
     },
     "bestTip": "Look while you order.",
@@ -7375,7 +7375,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0032",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "legacy-photo-panels-boy-band-portraits",
@@ -9767,7 +9767,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Lobby",
     "description": "On the lobby balcony that faces the courtyard, the metal scrollwork of the railing forms a classic Hidden Mickey.",
     "whereToLook": {
-      "scene": "Courtyard-facing lobby balcony",
+      "scene": "Lobby balcony overlooking the courtyard",
       "exactSpot": "The metal scrolls of the railing. Look for three curls that close into circles."
     },
     "bestTip": "View it from the courtyard side, where the pattern is against the sky.",
@@ -9788,7 +9788,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0042",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "riviera-lobby-porte-cochere-lamps-mickey",
@@ -10168,7 +10168,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Exit",
     "description": "On the way out, a portrait of the troupe's creator hangs on the wall. It used to hang in the pre-show of the park's former 3D show and was moved here when that show closed.",
     "whereToLook": {
-      "scene": "Exit corridor",
+      "scene": "Exit ramp on the way out, before the gift shop",
       "exactSpot": "The framed portrait of a bearded man on the wall."
     },
     "bestTip": "Slow down on the exit ramp. It is on the wall, not in the gift shop.",
@@ -10189,7 +10189,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0029",
     "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "rock-show-coaster-gallery-frog-banjo",
@@ -10694,7 +10694,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Ride",
     "description": "In the final Christmas scene, a Mickey plush sits beneath the tree, partly hidden behind the wrapped presents. It keeps company with the nutcracker and the pepper grinder in the same room.",
     "whereToLook": {
-      "scene": "Final Christmas scene",
+      "scene": "Final Christmas scene in the family's home",
       "exactSpot": "Under the tree, tucked behind the presents on the floor."
     },
     "bestTip": "Look low before the scene's dialogue pulls your eyes to the family.",
@@ -10714,7 +10714,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0033",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "saratoga-lobby-horse-roses-mickey",
@@ -12945,7 +12945,7 @@ export const entries: HiddenMickeyEntry[] = [
     "difficulty": "Medium",
     "description": "A classic three-circle Hidden Mickey appears in a lobby anniversary display. The shape is located in the lower right portion of the display and is easiest to spot when you view the full arrangement from a step or two back.",
     "whereToLook": {
-      "scene": "Lobby anniversary display area",
+      "scene": "Anniversary display in the resort lobby",
       "exactSpot": "Lower right portion of the anniversary display (scan the bottom-right details rather than the main centerpiece).",
       "orientation": "Upright"
     },
@@ -13784,7 +13784,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Lobby",
     "description": "The big globe in the yacht-themed lobby has a pale blue classic Hidden Mickey marked near Madagascar, just below the sea monster.",
     "whereToLook": {
-      "scene": "Globe in the lobby",
+      "scene": "Big globe in the yacht-themed lobby",
       "exactSpot": "Find Madagascar, then the sea monster near it. The Mickey is just below the monster."
     },
     "bestTip": "Spin the globe gently if it moves, or walk around to the Indian Ocean side.",
@@ -13805,6 +13805,6 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0067",
     "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   }
 ];

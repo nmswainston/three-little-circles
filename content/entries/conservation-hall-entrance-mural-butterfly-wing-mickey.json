@@ -15,7 +15,7 @@
   "areaContext": "Entrance",
   "description": "In the upper right of the entrance mural, a butterfly's wing markings form a classic Hidden Mickey.",
   "whereToLook": {
-    "scene": "Entrance mural, upper right",
+    "scene": "Upper right of the animal mural at the station entrance",
     "exactSpot": "The butterfly high on the right. Look at the spots on its wings."
   },
   "bestTip": "Start from the top right corner and work down slowly.",

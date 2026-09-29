@@ -15,7 +15,7 @@
   "areaContext": "Ride",
   "description": "In the garage electronics scene, the desk is scattered with period clutter. An eraser on the desktop is reported to be shaped like a classic Hidden Mickey.",
   "whereToLook": {
-    "scene": "Garage electronics scene",
+    "scene": "Garage electronics scene, full of period clutter",
     "exactSpot": "The desktop. Look at the small items for an eraser in the three-circle shape."
   },
   "bestTip": "The vehicle turns slowly here. Look at the clutter rather than the screen.",

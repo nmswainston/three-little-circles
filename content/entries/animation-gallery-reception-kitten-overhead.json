@@ -15,7 +15,7 @@
   "areaContext": "Lobby",
   "description": "Above the reception desk, the woodcarver's black-and-white kitten from the puppet story watches everyone who comes in.",
   "whereToLook": {
-    "scene": "Reception area",
+    "scene": "The gallery's reception area, where guests come in",
     "exactSpot": "Look up above the desk."
   },
   "bestTip": "Everyone looks at the shelf. This one is somewhere else in the room.",

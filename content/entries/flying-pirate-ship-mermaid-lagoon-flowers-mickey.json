@@ -15,7 +15,7 @@
   "areaContext": "Ride",
   "description": "In the mermaid lagoon scene, flowers grow along the rocky edge of the water. One yellow flower with two orange flowers above it forms a classic three-circle Hidden Mickey as your ship glides past.",
   "whereToLook": {
-    "scene": "Mermaid lagoon scene",
+    "scene": "Mermaid lagoon scene as your ship glides past",
     "exactSpot": "Flowers along the rocky edge of the lagoon. Look for the yellow bloom with two orange blooms as ears."
   },
   "bestTip": "Look down and to the side as the lagoon comes into view rather than at the mermaids.",
@@ -35,5 +35,5 @@
   },
   "sourceId": "TLC-MK-0011",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }
