@@ -1,0 +1,40 @@
+{
+  "id": "flying-pirate-ship-entry-p-pan-blocks",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "flying_pirate_ship_ride",
+  "display": {
+    "entryTitle": "Entry P PAN Blocks",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Peter Pan's Flight"
+  },
+  "entryType": "FACT",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "As your ship enters the ride, more alphabet blocks sit on the floor, and seen straight on they spell P PAN.",
+  "whereToLook": {
+    "scene": "The first moments after the ship enters the building",
+    "exactSpot": "Blocks on the floor, read face-on as you glide past."
+  },
+  "bestTip": "Sit forward and look down early. They are gone in a second.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8131,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-DL-0106",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wild-motorcar-loading-rafters-berries-mickeys",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "wild_motorcar_ride",
+  "display": {
+    "entryTitle": "Loading Rafters Berries Mickeys",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Mr. Toad's Wild Ride"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Loading",
+  "description": "Right after the turnstile, before you board, berries are painted on the rafters overhead. Some grow in threes, and two of those clusters, one to the left and one to the right, are classic Hidden Mickeys.",
+  "whereToLook": {
+    "scene": "The rafters above the boarding area, just past the turnstile",
+    "exactSpot": "Look up at the painted berries. Two groups of three, one on each side, form the shape."
+  },
+  "bestTip": "Look up while you wait for your car rather than once you are in it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8133,
+    "longitude": -117.9187
+  },
+  "sourceId": "TLC-DL-0110",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Mr-Toad1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

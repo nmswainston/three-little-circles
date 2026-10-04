@@ -1,0 +1,40 @@
+{
+  "id": "king-arthur-carrousel-jingles-head-flowers-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "king_arthur_carrousel",
+  "display": {
+    "entryTitle": "Jingles Head Flowers Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "King Arthur Carrousel"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Three flowers on Jingles's head are reported as a Hidden Mickey. The center bloom is bigger than the other two, but not by much, so opinions are split on whether it counts.",
+  "whereToLook": {
+    "scene": "Jingles, the bell-covered horse on the carrousel, the top of her head",
+    "exactSpot": "The three flowers on her head. One larger bloom with two smaller ones above it."
+  },
+  "bestTip": "Judge for yourself. The gems on her body are the sure things; this one is a bonus.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8129,
+    "longitude": -117.9189
+  },
+  "sourceId": "TLC-DL-0116",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Carrousel-3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

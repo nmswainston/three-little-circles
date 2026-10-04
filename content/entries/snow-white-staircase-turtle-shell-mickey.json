@@ -1,0 +1,40 @@
+{
+  "id": "snow-white-staircase-turtle-shell-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "snow_white_enchanted_wish",
+  "display": {
+    "entryTitle": "Staircase Turtle Shell Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Snow White's Enchanted Wish"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the second room, Snow White climbs the stairs with a turtle following her. The turtle's shell is patterned with one large circle ringed by smaller ones, and the two at the top sit on the big one as ears.",
+  "whereToLook": {
+    "scene": "Second room of the ride, the staircase scene with the turtle",
+    "exactSpot": "The turtle's shell. The large center circle plus the two small circles at its top form the shape."
+  },
+  "bestTip": "Watch the turtle, not Snow White. A cast member tipped this one the same way.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.813,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-DL-0098",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Snow-White1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "snow-white-mine-tinker-bell-on-wall",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "snow_white_enchanted_wish",
+  "display": {
+    "entryTitle": "Mine Scene Tinker Bell",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Snow White's Enchanted Wish"
+  },
+  "entryType": "FACT",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the mine, as you approach the mine car heaped with jewels on the left, a Tinker Bell hides on the wall behind the car, to the left of the red jewel a dwarf is holding up.",
+  "whereToLook": {
+    "scene": "The mine scene, the jewel-filled mine car on the left",
+    "exactSpot": "The wall behind the mine car, left of the dwarf holding up the red jewel."
+  },
+  "bestTip": "Find the red jewel first, then look left of it into the wall.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Left",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.813,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-DL-0100",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "king-arthur-carrousel-jingles-rear-gems-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "king_arthur_carrousel",
+  "display": {
+    "entryTitle": "Jingles Rear Gems Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "King Arthur Carrousel"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Ride",
+  "description": "Jingles is the lead horse, the one covered in bells. On each of her hindquarters, three gems are set in a perfect Mickey formation. The horse has been repainted over thirty years, but the gems have held their shape.",
+  "whereToLook": {
+    "scene": "Jingles, the bell-covered horse on the carrousel",
+    "exactSpot": "The hindquarter on either side. Three gems, one large and two small, in the classic arrangement."
+  },
+  "bestTip": "You can see this from the fence. Wait for Jingles to come round.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8129,
+    "longitude": -117.9189
+  },
+  "sourceId": "TLC-DL-0114",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Carrousel-1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

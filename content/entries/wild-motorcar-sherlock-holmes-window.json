@@ -30,10 +30,13 @@
   },
   "confidence": "Obvious",
   "verification": "Community",
+  "status": "Unverified",
   "coordinates": {
     "latitude": 33.8133,
     "longitude": -117.9187
   },
+  "sourceId": "TLC-DL-0111",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

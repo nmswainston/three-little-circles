@@ -1,0 +1,41 @@
+{
+  "id": "snow-white-turret-wicked-queen-curtains",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "snow_white_enchanted_wish",
+  "display": {
+    "entryTitle": "Turret Wicked Queen",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Snow White's Enchanted Wish"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "Above the attraction, in the turret window, the Wicked Queen parts the curtains about every twenty seconds, looks down at the crowd for fifteen, and draws them closed again. Almost nobody notices unless they know to look up and wait.",
+  "whereToLook": {
+    "scene": "The turret on top of the Snow White attraction, seen from the Peter Pan's Flight queue",
+    "exactSpot": "The turret window. Wait for the curtains to open."
+  },
+  "bestTip": "The Peter Pan queue is the best vantage, and the effect is easier to see at night.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Far",
+    "notes": "On a timer: roughly every twenty seconds."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.813,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-DL-0099",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Snow-White2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

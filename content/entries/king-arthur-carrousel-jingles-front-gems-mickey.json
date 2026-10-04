@@ -1,0 +1,40 @@
+{
+  "id": "king-arthur-carrousel-jingles-front-gems-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "king_arthur_carrousel",
+  "display": {
+    "entryTitle": "Jingles Front Gems Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "King Arthur Carrousel"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Jingles carries a second gem Mickey on her front. It was once two gold gems and one blue; after repainting it is two yellow and one red, still in the same formation.",
+  "whereToLook": {
+    "scene": "Jingles, the bell-covered horse on the carrousel, her chest and front",
+    "exactSpot": "Three gems on the front of the horse: two yellow as ears and one red as the head."
+  },
+  "bestTip": "Find the rear gems first, then check the front as she passes.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8129,
+    "longitude": -117.9189
+  },
+  "sourceId": "TLC-DL-0115",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Carrousel-2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
