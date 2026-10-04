@@ -6,6 +6,15 @@ import { getDestinationSummaries } from '../src/data/destinations';
 import { useFoundStore } from '../src/store/useFoundStore';
 import { computeUnlocked, getAchievement, getAchievements, useAchievementsStore } from '../src/store/useAchievementsStore';
 
+// Location is undecided, so the Parks home offers to turn it on and never prompts by itself.
+jest.mock('expo-location', () => ({
+  Accuracy: { Balanced: 3 },
+  getForegroundPermissionsAsync: jest.fn(async () => ({ granted: false, canAskAgain: true })),
+  requestForegroundPermissionsAsync: jest.fn(async () => ({ granted: false, canAskAgain: true })),
+  getLastKnownPositionAsync: jest.fn(async () => null),
+  getCurrentPositionAsync: jest.fn(async () => ({ coords: { latitude: 0, longitude: 0 } })),
+}));
+
 const mockNavigate = jest.fn();
 jest.mock('@react-navigation/native', () => ({
   useNavigation: () => ({ navigate: mockNavigate, goBack: jest.fn() }),

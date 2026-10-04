@@ -12,8 +12,9 @@ export type RootStackParamList = {
   /**
    * focusEntryId zooms to that entry's pin and opens its label. challengeId
    * shows only that challenge's finds until the guest picks a park or clears it.
+   * locate finds the guest on the map as soon as it opens.
    */
-  Map: { focusEntryId?: string; challengeId?: string } | undefined;
+  Map: { focusEntryId?: string; challengeId?: string; locate?: boolean } | undefined;
   Profile: undefined;
   /** tab opens on Challenges instead of Badges */
   Badges: { tab?: "badges" | "challenges" } | undefined;

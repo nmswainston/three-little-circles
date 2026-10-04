@@ -93,6 +93,17 @@ export default function MapScreen() {
     }
   };
 
+  // "Show nearby finds" from the Parks home: find the guest right away, then
+  // clear the flag so coming back to the tab does not ask again.
+  const locateOnOpen = route.params?.locate;
+  useEffect(() => {
+    if (!locateOnOpen) return;
+    navigation.setParams({ locate: undefined });
+    goToMyLocation().catch(() => {});
+    // goToMyLocation is rebuilt every render; only the flag should trigger this.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [locateOnOpen]);
+
   // "See on map" from an entry: select its park and remember it for the zoom below.
   const focusEntryId = route.params?.focusEntryId;
   useEffect(() => {
