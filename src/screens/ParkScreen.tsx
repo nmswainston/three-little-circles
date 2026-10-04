@@ -1,4 +1,4 @@
-import React, { useCallback, useMemo, useState } from "react";
+import React, { useCallback, useMemo, useRef, useState } from "react";
 import { SectionList, SectionListData, SectionListRenderItem, StyleSheet, View, Text, Pressable } from "react-native";
 import { useRoute, RouteProp, useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
@@ -30,6 +30,7 @@ import SegmentedControl, { SegmentedControlOption } from "../components/ui/Segme
 import EmptyState from "../components/ui/EmptyState";
 import EntryRow from "../components/EntryRow";
 import Chip from "../components/ui/Chip";
+import FadingScrollRow from "../components/ui/FadingScrollRow";
 
 type IconName = keyof typeof Ionicons.glyphMap;
 
@@ -45,6 +46,9 @@ type AttractionItem = AttractionGroup & { landId: string };
 type LandSection = LandGroup & { data: AttractionItem[] };
 const attractionKey = (item: AttractionItem) => `${item.landId}:${item.attractionId}`;
 type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
+
+/** Space a land header takes, so a jump lands the first attraction just under it. */
+const LAND_HEADER_OFFSET = 44;
 
 export default function ParkScreen() {
   const route = useRoute<ParkRouteProp>();
@@ -84,6 +88,17 @@ export default function ParkScreen() {
   );
   const hiddenCount = typed.length - visible.length;
   const groups = useMemo(() => groupByLand(visible), [visible]);
+  // Land progress ignores the filters, so "2 of 9" always means the whole land.
+  const landProgress = useMemo(() => {
+    const progress = new Map<string, { found: number; total: number }>();
+    for (const e of parkEntries) {
+      const p = progress.get(e.landId) ?? { found: 0, total: 0 };
+      p.total++;
+      if (e.id in found) p.found++;
+      progress.set(e.landId, p);
+    }
+    return progress;
+  }, [parkEntries, found]);
   const allFoundHere = hideFound && typed.length > 0 && typed.every((e) => e.id in found);
   // Within each attraction, the finds most likely to be there come first.
   const sections = useMemo<LandSection[]>(
@@ -93,6 +108,27 @@ export default function ParkScreen() {
         data: land.attractions.map((a) => ({ ...a, entries: confirmedFirst(a.entries), landId: land.landId })),
       })),
     [groups]
+  );
+
+  const listRef = useRef<SectionList<AttractionItem, LandSection>>(null);
+  const pendingJump = useRef<number | null>(null);
+  const jumpToLand = useCallback((sectionIndex: number) => {
+    pendingJump.current = sectionIndex;
+    listRef.current?.scrollToLocation({ sectionIndex, itemIndex: 0, viewOffset: LAND_HEADER_OFFSET, animated: true });
+  }, []);
+  // Rows further down are not measured yet, so scroll toward them first and
+  // try again once the list has rendered that far.
+  const onScrollToIndexFailed = useCallback(
+    (info: { index: number; averageItemLength: number }) => {
+      const target = pendingJump.current;
+      if (target === null) return;
+      pendingJump.current = null;
+      (listRef.current as unknown as { getScrollResponder: () => { scrollTo: (o: object) => void } | null })
+        ?.getScrollResponder()
+        ?.scrollTo({ y: info.averageItemLength * info.index, animated: false });
+      setTimeout(() => jumpToLand(target), 100);
+    },
+    [jumpToLand]
   );
 
   // Park history and trivia. Independent of the finds filter so it does not
@@ -124,6 +160,11 @@ export default function ParkScreen() {
         <View style={styles.sectionHeader}>
           <Text style={styles.sectionTitle} accessibilityRole="header">
             {section.landName}
+            {landProgress.get(section.landId) && (
+              <Text style={[styles.landProgress, { color: palette.text }]}>
+                {`  ${landProgress.get(section.landId)!.found} of ${landProgress.get(section.landId)!.total}`}
+              </Text>
+            )}
           </Text>
           <Text style={styles.sectionMeta}>
             {section.attractions.length} {section.attractions.length === 1 ? "attraction" : "attractions"}
@@ -131,7 +172,7 @@ export default function ParkScreen() {
         </View>
       </View>
     ),
-    [styles]
+    [styles, landProgress, palette]
   );
 
   const renderAttraction = useCallback<SectionListRenderItem<AttractionItem, LandSection>>(
@@ -216,6 +257,18 @@ export default function ParkScreen() {
       <View style={styles.body}>
         {hasFinds && (
           <SegmentedControl options={["All", "FIND", "FACT"]} selectedValue={filter} onValueChange={setFilter} />
+        )}
+
+        {hasFinds && sections.length > 1 && (
+          <FadingScrollRow contentContainerStyle={styles.jumpRow} style={styles.jump}>
+            {sections.map((land, index) => (
+              <Chip
+                key={land.landId}
+                label={land.landName}
+                onPress={() => jumpToLand(index)}
+              />
+            ))}
+          </FadingScrollRow>
         )}
 
         {hasFinds && (
@@ -329,13 +382,15 @@ export default function ParkScreen() {
   return (
     <View style={styles.screen}>
       <SectionList
+        ref={listRef}
         sections={sections}
         keyExtractor={attractionKey}
         renderItem={renderAttraction}
         renderSectionHeader={renderSectionHeader}
         ListHeaderComponent={header}
         ListFooterComponent={footer}
-        stickySectionHeadersEnabled={false}
+        stickySectionHeadersEnabled
+        onScrollToIndexFailed={onScrollToIndexFailed}
         contentContainerStyle={styles.scroll}
         showsVerticalScrollIndicator={false}
         initialNumToRender={8}
@@ -424,6 +479,13 @@ const createStyles = (t: Theme) =>
       paddingTop: spacing.md - 4,
       gap: spacing.md - 4,
     },
+    jump: {
+      marginHorizontal: -spacing.lg,
+    },
+    jumpRow: {
+      gap: spacing.sm,
+      paddingHorizontal: spacing.lg,
+    },
     huntRow: {
       flexDirection: "row",
       flexWrap: "wrap",
@@ -437,7 +499,9 @@ const createStyles = (t: Theme) =>
     rowPad: {
       paddingHorizontal: spacing.lg,
     },
+    // Opaque, because the header sticks over the attraction cards.
     sectionHeaderWrap: {
+      backgroundColor: t.colors.background,
       paddingTop: spacing.md - 4 + spacing.xs,
       paddingBottom: spacing.sm,
     },
@@ -462,6 +526,9 @@ const createStyles = (t: Theme) =>
       ...text.sectionTitle,
       color: t.colors.text,
       flexShrink: 1,
+    },
+    landProgress: {
+      ...text.meta,
     },
     sectionMeta: {
       ...text.meta,

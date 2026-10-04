@@ -42,11 +42,21 @@ describe('ParkScreen', () => {
     render(<ParkScreen />);
     expect(screen.getByText(parkName)).toBeTruthy();
     expect(screen.getByText(`0 of ${entries.length} found`)).toBeTruthy();
-    expect(screen.getByText(firstLand.landName)).toBeTruthy();
+    expect(screen.getAllByText(firstLand.landName).length).toBeGreaterThan(0);
     const count = firstLand.attractions.length;
     expect(screen.getAllByText(`${count} ${count === 1 ? 'attraction' : 'attractions'}`).length).toBeGreaterThan(0);
     expect(screen.getAllByText(firstAttraction.attractionName).length).toBeGreaterThan(0);
     expect(screen.getAllByText(firstEntry.display!.entryTitle!).length).toBeGreaterThan(0);
+  });
+
+  it('shows progress for each land and a chip to jump to it', () => {
+    const landEntries = entries.filter((e) => e.landId === firstLand.landId);
+    useFoundStore.setState({ found: { [landEntries[0].id]: Date.now() } });
+    render(<ParkScreen />);
+    expect(screen.getAllByText(new RegExp(`1 of ${landEntries.length}$`)).length).toBeGreaterThan(0);
+    if (groups.length > 1) {
+      expect(screen.getAllByRole('button', { name: firstLand.landName }).length).toBeGreaterThan(0);
+    }
   });
 
   it('opens a find from its row', () => {
@@ -65,7 +75,7 @@ describe('ParkScreen', () => {
 
     fireEvent.press(screen.getByText('Show found'));
     expect(useSettingsStore.getState().hideFound).toBe(false);
-    expect(screen.getByText(firstLand.landName)).toBeTruthy();
+    expect(screen.getAllByText(firstLand.landName).length).toBeGreaterThan(0);
   });
 
   it('hides unconfirmed finds with Confirmed only, and remembers the choice', () => {
