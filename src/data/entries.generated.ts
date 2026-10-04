@@ -1701,6 +1701,49 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
+    "id": "cartoon-railway-city-scene-great-movie-ride-marquee",
+    "parkId": "studios_park",
+    "landId": "boulevard_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "City Scene Great Movie Ride Marquee",
+      "parkName": "Disney's Hollywood Studios",
+      "landName": "Hollywood Boulevard",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "This ride took over the building that housed The Great Movie Ride from the park's opening day until 2017. In the big city scene, one of the painted theater fronts carries a marquee that reads The Great Movie Ride, a tip of the hat to the attraction that stood on this exact spot.",
+    "whereToLook": {
+      "scene": "The city scene, the painted building fronts along the street",
+      "exactSpot": "The theater facade among the buildings. Read the marquee over its entrance: it says The Great Movie Ride."
+    },
+    "bestTip": "The vehicle moves through the city quickly. Read the building fronts rather than watching the characters as you enter the scene.",
+    "funFacts": [
+      "The Great Movie Ride opened with the park in 1989 and closed in 2017. Runaway Railway opened in the same building in 2020, and the Chinese Theatre facade outside is the original."
+    ],
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Reports also place Great Movie Ride references in the factory scene, but no one has pinned down which props, so the marquee is the one to count."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 28.3563,
+      "longitude": -81.5604
+    },
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-mickey-minnie-s-runaway-railway-easter",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "cartoon-railway-dance-room-flower-mickey",
     "parkId": "studios_park",
     "landId": "boulevard_area",
@@ -4700,6 +4743,47 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "germany-volkskunst-painted-flower-mickey",
+    "parkId": "showcase_park",
+    "landId": "germany_pavilion",
+    "attractionId": "volkskunst_shop",
+    "display": {
+      "entryTitle": "Painted Flower Mickey",
+      "parkName": "EPCOT",
+      "landName": "Germany Pavilion",
+      "attractionName": "Volkskunst"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "The woodwork in the shop is painted with Bavarian folk-art flowers, big pink blossoms on a plum background. In one spray of flowers, the bloom at the upper right is not a flower at all. It is a round head with two smaller round buds set as ears.",
+    "whereToLook": {
+      "scene": "The painted folk-art floral designs on the shop's wooden panels and cabinets",
+      "exactSpot": "Find a spray of large pink blossoms on a plum-colored panel. The bloom at the upper right of the cluster is the classic shape, one round flower with two smaller round buds for ears.",
+      "orientation": "Upright"
+    },
+    "bestTip": "The shop is small. Walk it once at eye level reading the painted panels rather than the shelves, and the odd blossom stands out.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Gets tight when the glockenspiel crowd comes in on the hour. Mid-afternoon is quieter."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 28.368,
+      "longitude": -81.5469
+    },
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-volkskunst-shop",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "gliding-flight-finale-fireworks-mickey",
