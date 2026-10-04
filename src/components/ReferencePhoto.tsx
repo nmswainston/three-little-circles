@@ -66,8 +66,23 @@ export default function ReferencePhoto({ source, image, hidden }: ReferencePhoto
       </View>
 
       <Modal visible={enlarged} transparent animationType="fade" onRequestClose={() => setEnlarged(false)}>
-        <Pressable style={styles.backdrop} onPress={() => setEnlarged(false)} accessibilityLabel="Close">
-          <Image source={source} style={styles.full} resizeMode="contain" accessibilityLabel={image.alt} accessible />
+        {/* The backdrop is a tap target, not an element: were it accessible it
+            would swallow the photo and the Close button into one stop. The
+            Close button below is the way out for a screen reader. */}
+        <Pressable
+          style={styles.backdrop}
+          onPress={() => setEnlarged(false)}
+          accessible={false}
+          accessibilityViewIsModal
+        >
+          <Image
+            source={source}
+            style={styles.full}
+            resizeMode="contain"
+            accessibilityRole="image"
+            accessibilityLabel={image.alt}
+            accessible
+          />
           <View style={[styles.closeWrap, { top: insets.top + spacing.sm }]}>
             <Pressable
               onPress={() => setEnlarged(false)}
@@ -120,7 +135,7 @@ const createStyles = (t: Theme) =>
       flexDirection: "row",
       alignItems: "center",
       gap: spacing.sm - 2,
-      height: 44,
+      minHeight: 44,
       paddingHorizontal: spacing.md + 2,
       borderRadius: radii.full,
       backgroundColor: t.colors.ink,
