@@ -117,6 +117,8 @@ See [content/README.md](content/README.md). The short version:
 1. Copy `content/TEMPLATE.json` to `content/entries/<id>.json`.
 2. Fill it in.
 3. Run `npm run content:build` and commit both files.
+4. Got a photo? `npm run content:photo -- <id> photo.jpg --alt "What it shows"`
+   resizes it, strips the metadata, and wires it into the entry.
 
 Park facts and challenges work the same way, starting from
 `content/TEMPLATE.fact.json` and `content/TEMPLATE.challenge.json`.

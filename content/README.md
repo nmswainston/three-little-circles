@@ -15,6 +15,26 @@ and writes `src/data/entries.generated.ts`, which is what the app imports.
 `npm start`, `npm run ios`, `npm run android`, and `npm run web` all run the build
 automatically first, so a stale generated file will not sneak into a dev session.
 
+## Adding a photo
+
+One command takes a photo straight off a phone and attaches it to an entry:
+
+```bash
+npm run content:photo -- <entry-id> path/to/photo.jpg --alt "Three brass bells near the ceiling" --credit "Nick S."
+```
+
+It bakes the orientation into the pixels, resizes to at most 1200 px on the
+long side, re-encodes as a JPEG under the 300 KB limit, strips all metadata
+(phone photos carry GPS and device details), writes
+`content/images/<entry-id>.jpg`, fills the entry's `image` field, and runs the
+content build. Commit the photo, the entry, and `src/data/images.generated.ts`.
+
+`--alt` is required: say what the photo shows, for screen readers. `--credit`
+is optional. Pass `--replace` to swap an existing photo and `--dry-run` to see
+the result without writing anything. HEIC files need exporting as JPEG first;
+sharing from an iPhone with AirDrop or Mail does that. The rules the photo has
+to meet are in [content/images/README.md](images/README.md).
+
 ## Importing from a spreadsheet
 
 For many finds at once, keep them in a spreadsheet and import the CSV export:
