@@ -1,0 +1,40 @@
+{
+  "id": "rise-of-the-resistance-finn-panel-grey-buttons-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "batuu_area",
+  "attractionId": "rise_of_the_resistance",
+  "display": {
+    "entryTitle": "Finn Panel Grey Buttons Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Star Wars: Galaxy's Edge",
+    "attractionName": "Star Wars: Rise of the Resistance"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "Right after the cannon battle, Finn appears on a control panel telling you to abandon ship. At the lower left of that panel, three grey buttons form a Mickey. The easiest moment is when Kylo Ren faces your vehicle and it finally sits still: look behind you.",
+  "whereToLook": {
+    "scene": "The control panel with Finn, just after dodging the cannons",
+    "exactSpot": "Lower left of the panel. Three grey buttons."
+  },
+  "bestTip": "Wait for the vehicle to stop in front of Kylo Ren, then turn around.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8139,
+    "longitude": -117.9226
+  },
+  "sourceId": "TLC-DL-0231",
+  "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Rise-Resistance2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

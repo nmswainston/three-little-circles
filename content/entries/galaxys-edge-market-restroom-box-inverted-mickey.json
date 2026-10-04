@@ -1,0 +1,40 @@
+{
+  "id": "galaxys-edge-market-restroom-box-inverted-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "batuu_area",
+  "attractionId": "black_spire_outpost",
+  "display": {
+    "entryTitle": "Market Restroom Box Inverted Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Star Wars: Galaxy's Edge",
+    "attractionName": "Black Spire Outpost"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "Over the restroom entrance in the Black Spire Outpost market hangs a big rectangular mechanical box. On its underside, just right of the middle strut, a cluster of dials and circles forms a Hidden Mickey, and it is upside down.",
+  "whereToLook": {
+    "scene": "The market area, the big box mounted above the restroom entrance",
+    "exactSpot": "The underside of the box, just right of the center strut. Dials in an inverted head and ears."
+  },
+  "bestTip": "Stand under the box and look straight up. A second Mickey is right beside this one.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8145,
+    "longitude": -117.923
+  },
+  "sourceId": "TLC-DL-0223",
+  "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Galaxys-Edge1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
