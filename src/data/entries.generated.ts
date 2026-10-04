@@ -33,6 +33,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3568,
       "longitude": -81.562
@@ -109,6 +110,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3663,
       "longitude": -81.5498
@@ -185,6 +187,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3663,
       "longitude": -81.5498
@@ -629,6 +632,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.375,
       "longitude": -81.5518
@@ -741,14 +745,23 @@ export const entries: HiddenMickeyEntry[] = [
     "funFacts": [
       "The cloud's position is a subtle nod to the former Earful Tower, the park's iconic water tower that once stood in this area."
     ],
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3563,
       "longitude": -81.5628
     },
     "sourceId": "TLC-HS-0050",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z",
-    "status": "Unverified"
+    "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
     "id": "backyard-coaster-queue-coloring-book-plans",
@@ -1775,6 +1788,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3563,
       "longitude": -81.5604
@@ -1895,6 +1909,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3563,
       "longitude": -81.5604
@@ -2367,6 +2382,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4201,
       "longitude": -81.5815
@@ -2444,6 +2460,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Obvious",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4201,
       "longitude": -81.5815
@@ -2923,6 +2940,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3635,
       "longitude": -81.5899
@@ -3042,6 +3060,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3755,
       "longitude": -81.5469
@@ -3120,6 +3139,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3573,
       "longitude": -81.5591
@@ -3197,6 +3217,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 33.8045,
       "longitude": -117.9212
@@ -3238,6 +3259,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3553,
       "longitude": -81.5613
@@ -3636,6 +3658,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3578,
       "longitude": -81.5586
@@ -3794,6 +3817,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 33.8113,
       "longitude": -117.9205
@@ -3832,6 +3856,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4182,
       "longitude": -81.5832
@@ -4030,6 +4055,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3566,
       "longitude": -81.5915
@@ -4068,6 +4094,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "In-person",
+    "status": "Current",
     "coordinates": {
       "latitude": 28.4183,
       "longitude": -81.5836
@@ -4631,6 +4658,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 33.8066,
       "longitude": -117.9169
@@ -4749,6 +4777,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3681,
       "longitude": -81.5535
@@ -4786,6 +4815,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.368,
       "longitude": -81.5533
@@ -5347,6 +5377,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.368,
       "longitude": -81.5469
@@ -5465,6 +5496,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Obvious",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3737,
       "longitude": -81.5527
@@ -5504,6 +5536,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3737,
       "longitude": -81.5527
@@ -5542,6 +5575,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3553,
       "longitude": -81.5918
@@ -5579,6 +5613,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3553,
       "longitude": -81.5918
@@ -6058,6 +6093,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3579,
       "longitude": -81.5906
@@ -6179,6 +6215,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3737,
       "longitude": -81.5527
@@ -6216,6 +6253,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "In-person",
+    "status": "Current",
     "coordinates": {
       "latitude": 28.3737,
       "longitude": -81.5527
@@ -6332,6 +6370,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Obvious",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3592,
       "longitude": -81.5912
@@ -6687,6 +6726,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Obvious",
     "verification": "In-person",
+    "status": "Current",
     "coordinates": {
       "latitude": 28.4201,
       "longitude": -81.5807
@@ -6724,6 +6764,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "In-person",
+    "status": "Current",
     "coordinates": {
       "latitude": 28.4201,
       "longitude": -81.5807
@@ -6763,6 +6804,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4201,
       "longitude": -81.5807
@@ -7200,6 +7242,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.36,
       "longitude": -81.5599
@@ -7399,6 +7442,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3708,
       "longitude": -81.5462
@@ -7435,6 +7479,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3728,
       "longitude": -81.5525
@@ -7553,6 +7598,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Obvious",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3672,
       "longitude": -81.5504
@@ -7591,6 +7637,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3672,
       "longitude": -81.5504
@@ -7985,6 +8032,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3598,
       "longitude": -81.5892
@@ -8025,6 +8073,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3598,
       "longitude": -81.5892
@@ -8339,6 +8388,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4189,
       "longitude": -81.5826
@@ -8417,6 +8467,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3679,
       "longitude": -81.5529
@@ -9021,6 +9072,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 33.8106,
       "longitude": -117.9188
@@ -9978,6 +10030,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3708,
       "longitude": -81.5468
@@ -10056,6 +10109,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3553,
       "longitude": -81.5613
@@ -10255,6 +10309,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4206,
       "longitude": -81.5801
@@ -10455,6 +10510,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Obvious",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 33.8155,
       "longitude": -117.9194
@@ -10772,6 +10828,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4181,
       "longitude": -81.5843
@@ -11329,6 +11386,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4056,
       "longitude": -81.5854
@@ -12376,6 +12434,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3594,
       "longitude": -81.5882
@@ -13743,6 +13802,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "In-person",
+    "status": "Current",
     "coordinates": {
       "latitude": 28.36,
       "longitude": -81.5925
@@ -13979,6 +14039,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Obvious",
     "verification": "In-person",
+    "status": "Current",
     "coordinates": {
       "latitude": 28.4204,
       "longitude": -81.5827
@@ -14623,6 +14684,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3589,
       "longitude": -81.587
@@ -14780,6 +14842,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3739,
       "longitude": -81.5467
@@ -14822,6 +14885,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3742,
       "longitude": -81.5471
@@ -14864,6 +14928,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3742,
       "longitude": -81.5471
@@ -14906,6 +14971,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3742,
       "longitude": -81.5471
@@ -14945,6 +15011,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Photo",
+    "status": "Current",
     "coordinates": {
       "latitude": 28.3568,
       "longitude": -81.562
@@ -15338,6 +15405,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3563,
       "longitude": -81.56
@@ -15459,6 +15527,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.418,
       "longitude": -81.584
@@ -15806,6 +15875,7 @@ export const entries: HiddenMickeyEntry[] = [
       "scene": "Large toy box with a painted Tyrannosaurus Rex",
       "exactSpot": "Price label on the upper left of the front of the box, visible from the right side of the loading dock or shortly after launch"
     },
+    "bestTip": "Stand on the right side of the loading area, or glance left just after launch, and read the numbers on the box's price label.",
     "funFacts": [
       "The numbers 11, 22, and 19.95 reference November 22, 1995, the release date of the first Toy Story film.",
       "This detail is a hidden tribute rather than a Hidden Mickey, blending naturally into the toy-themed scenery."
@@ -15818,6 +15888,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Obvious",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3563,
       "longitude": -81.5628
@@ -15895,6 +15966,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3579,
       "longitude": -81.5906
@@ -15931,6 +16003,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3573,
       "longitude": -81.5606
@@ -15969,6 +16042,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 33.8063,
       "longitude": -117.9215
@@ -16127,6 +16201,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4219,
       "longitude": -81.5793
@@ -16243,6 +16318,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3553,
       "longitude": -81.5613
@@ -16284,6 +16360,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 27.6832,
       "longitude": -80.362
@@ -16486,6 +16563,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3745,
       "longitude": -81.5502
@@ -16525,6 +16603,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3745,
       "longitude": -81.5502
@@ -17087,6 +17166,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3549,
       "longitude": -81.5928

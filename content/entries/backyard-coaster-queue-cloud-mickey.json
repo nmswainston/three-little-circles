@@ -21,12 +21,21 @@
   "funFacts": [
     "The cloud's position is a subtle nod to the former Earful Tower, the park's iconic water tower that once stood in this area."
   ],
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
   "coordinates": {
     "latitude": 28.3563,
     "longitude": -81.5628
   },
   "sourceId": "TLC-HS-0050",
   "createdAtISO": "2026-01-12T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z",
-  "status": "Unverified"
+  "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }
