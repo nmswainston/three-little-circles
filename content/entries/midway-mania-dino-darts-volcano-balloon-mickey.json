@@ -1,0 +1,41 @@
+{
+  "id": "midway-mania-dino-darts-volcano-balloon-mickey",
+  "parkId": "california_pier_park",
+  "landId": "boardwalk_pier_area",
+  "attractionId": "midway_shooter",
+  "display": {
+    "entryTitle": "Dino Darts Volcano Balloon Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Pixar Pier",
+    "attractionName": "Toy Story Midway Mania!"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the Dino Darts game, a 3D Mickey hides behind one of the balloons at the base of the volcano. Pop the middle 100-point balloon on the second tier and there he is.",
+  "whereToLook": {
+    "scene": "The Dino Darts game, the balloons at the base of the volcano",
+    "exactSpot": "Behind the middle 100-point balloon on the second tier. Pop it to reveal the Mickey."
+  },
+  "bestTip": "Aim for that one balloon first, before the screen gets busy.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "You have to pop the balloon yourself."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8057,
+    "longitude": -117.9203
+  },
+  "sourceId": "TLC-CA-0076",
+  "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#Midway-Mania3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

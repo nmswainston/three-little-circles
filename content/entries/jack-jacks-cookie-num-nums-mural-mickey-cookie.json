@@ -1,0 +1,40 @@
+{
+  "id": "jack-jacks-cookie-num-nums-mural-mickey-cookie",
+  "parkId": "california_pier_park",
+  "landId": "boardwalk_pier_area",
+  "attractionId": "jack_jacks_cookie_num_nums",
+  "display": {
+    "entryTitle": "Back Mural Mickey Cookie",
+    "parkName": "Disney California Adventure",
+    "landName": "Pixar Pier",
+    "attractionName": "Jack-Jack's Cookie Num Nums"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Outdoor Display",
+  "description": "The mural at the back of Jack-Jack's Cookie Num Nums shows Jack-Jack holding a cookie, and the cookie is a Mickey.",
+  "whereToLook": {
+    "scene": "The mural at the back of the Jack-Jack's Cookie Num Nums stand",
+    "exactSpot": "The cookie in Jack-Jack's hand."
+  },
+  "bestTip": "Look past the menu board at the painted wall.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8052,
+    "longitude": -117.9207
+  },
+  "sourceId": "TLC-CA-0072",
+  "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#JackJack-1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

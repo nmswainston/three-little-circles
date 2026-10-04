@@ -1,0 +1,40 @@
+{
+  "id": "midway-mania-loading-zone-signs-mickey",
+  "parkId": "california_pier_park",
+  "landId": "boardwalk_pier_area",
+  "attractionId": "midway_shooter",
+  "display": {
+    "entryTitle": "Loading Zone Signs Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Pixar Pier",
+    "attractionName": "Toy Story Midway Mania!"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Easy",
+  "areaContext": "Loading",
+  "description": "The signs in the loading zone are drawn with three circles arranged as a Mickey head. Cast members confirm it was on purpose.",
+  "whereToLook": {
+    "scene": "The loading zone, the signs over the boarding positions",
+    "exactSpot": "The three circles on the signs. Head and ears."
+  },
+  "bestTip": "Look up while the cast member sorts your group.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8057,
+    "longitude": -117.9203
+  },
+  "sourceId": "TLC-CA-0074",
+  "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#Midway-Mania1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "midway-mania-exit-rug-game-box-ovals-mickey",
+  "parkId": "california_pier_park",
+  "landId": "boardwalk_pier_area",
+  "attractionId": "midway_shooter",
+  "display": {
+    "entryTitle": "Exit Rug Game Box Ovals Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Pixar Pier",
+    "attractionName": "Toy Story Midway Mania!"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "On the way out, a Toy Story Midway board game sits on a rug. On the left side of the game box, three ovals make a Mickey.",
+  "whereToLook": {
+    "scene": "The exit, the board game on the rug",
+    "exactSpot": "The left side of the game box. Three ovals."
+  },
+  "bestTip": "Slow down at the rug; the box art is the find.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8057,
+    "longitude": -117.9203
+  },
+  "sourceId": "TLC-CA-0077",
+  "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#Midway-Mania5",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
