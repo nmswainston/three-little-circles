@@ -1739,6 +1739,7 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3563,
       "longitude": -81.5604
     },
+    "sourceId": "TLC-HS-0052",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-mickey-minnie-s-runaway-railway-easter",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
@@ -4781,6 +4782,7 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.368,
       "longitude": -81.5469
     },
+    "sourceId": "TLC-EP-0047",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-volkskunst-shop",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
