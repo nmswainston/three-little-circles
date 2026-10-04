@@ -3793,6 +3793,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "docking-bay-7-droid-ramp-blaster-shots-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "batuu_area",
+    "attractionId": "docking_bay_7",
+    "display": {
+      "entryTitle": "Droid Ramp Blaster Shots Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Star Wars: Galaxy's Edge",
+      "attractionName": "Docking Bay 7 Food and Cargo"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "On the wall along the accessible ramp beside Docking Bay 7, the one cast members call the droid ramp, three blaster scorch marks are grouped as a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The ramp beside Docking Bay 7, the wall alongside it",
+      "exactSpot": "Three blaster marks on the wall, one large and two small."
+    },
+    "bestTip": "Take the ramp instead of the stairs, going up or down.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8143,
+      "longitude": -117.9232
+    },
+    "sourceId": "TLC-DL-0226",
+    "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#DockingBay7-1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "drawn-to-life-entrance-tile-circles-mickey",
     "parkId": "springs_bucket",
     "landId": "west_side",
@@ -6073,6 +6113,126 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0037",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "galaxys-edge-frontierland-bridge-donald-rock",
+    "parkId": "california_kingdom_park",
+    "landId": "batuu_area",
+    "attractionId": "black_spire_outpost",
+    "display": {
+      "entryTitle": "Frontierland Bridge Donald Rock",
+      "parkName": "Disneyland Park",
+      "landName": "Star Wars: Galaxy's Edge",
+      "attractionName": "Black Spire Outpost"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "Leaving Galaxy's Edge toward Frontierland, look up and to the left of the bridge. One of the rocks up there is shaped like Donald Duck's head.",
+    "whereToLook": {
+      "scene": "The Frontierland exit from Galaxy's Edge, the rockwork above the left side of the bridge",
+      "exactSpot": "Above the left side of the bridge. A rock with Donald's bill and cap."
+    },
+    "bestTip": "Turn around once you are on the bridge and look back up.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8145,
+      "longitude": -117.923
+    },
+    "sourceId": "TLC-DL-0225",
+    "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "galaxys-edge-market-restroom-box-inverted-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "batuu_area",
+    "attractionId": "black_spire_outpost",
+    "display": {
+      "entryTitle": "Market Restroom Box Inverted Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Star Wars: Galaxy's Edge",
+      "attractionName": "Black Spire Outpost"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "Over the restroom entrance in the Black Spire Outpost market hangs a big rectangular mechanical box. On its underside, just right of the middle strut, a cluster of dials and circles forms a Hidden Mickey, and it is upside down.",
+    "whereToLook": {
+      "scene": "The market area, the big box mounted above the restroom entrance",
+      "exactSpot": "The underside of the box, just right of the center strut. Dials in an inverted head and ears."
+    },
+    "bestTip": "Stand under the box and look straight up. A second Mickey is right beside this one.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8145,
+      "longitude": -117.923
+    },
+    "sourceId": "TLC-DL-0223",
+    "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Galaxys-Edge1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "galaxys-edge-market-restroom-box-upright-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "batuu_area",
+    "attractionId": "black_spire_outpost",
+    "display": {
+      "entryTitle": "Market Restroom Box Upright Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Star Wars: Galaxy's Edge",
+      "attractionName": "Black Spire Outpost"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "The same box above the market restrooms carries a second Hidden Mickey right next to the inverted one, this time the right way up.",
+    "whereToLook": {
+      "scene": "The market area, the big box mounted above the restroom entrance",
+      "exactSpot": "The underside of the box, beside the upside-down Mickey. An upright one."
+    },
+    "bestTip": "Find the inverted one first. Its neighbor is the easy half.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8145,
+      "longitude": -117.923
+    },
+    "sourceId": "TLC-DL-0224",
+    "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Galaxys-Edge2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "geosphere-electronics-scene-desk-eraser-mickey",
@@ -12821,6 +12981,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
+    "id": "ogas-cantina-facade-donald-duck",
+    "parkId": "california_kingdom_park",
+    "landId": "batuu_area",
+    "attractionId": "ogas_cantina",
+    "display": {
+      "entryTitle": "Cantina Facade Donald Duck",
+      "parkName": "Disneyland Park",
+      "landName": "Star Wars: Galaxy's Edge",
+      "attractionName": "Oga's Cantina"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Step back from Oga's Cantina and look at the whole front. The blue banner is the ribbon hanging from Donald's sailor cap, the canopy over the door is his bill, and the doorway is his open mouth. Nobody has explained what Donald is doing on Batuu.",
+    "whereToLook": {
+      "scene": "The front of Oga's Cantina, viewed from across the walkway",
+      "exactSpot": "The whole facade. Banner as cap ribbon, canopy as bill, doorway as mouth."
+    },
+    "bestTip": "You need distance. Up close it is just a door.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8146,
+      "longitude": -117.9228
+    },
+    "sourceId": "TLC-DL-0227",
+    "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Ogas-Cantina1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "opera-house-balcony-ironwork-mickey",
     "parkId": "california_kingdom_park",
     "landId": "main_street_area",
@@ -15151,6 +15351,126 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "rise-of-the-resistance-finn-panel-grey-buttons-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "batuu_area",
+    "attractionId": "rise_of_the_resistance",
+    "display": {
+      "entryTitle": "Finn Panel Grey Buttons Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Star Wars: Galaxy's Edge",
+      "attractionName": "Star Wars: Rise of the Resistance"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Right after the cannon battle, Finn appears on a control panel telling you to abandon ship. At the lower left of that panel, three grey buttons form a Mickey. The easiest moment is when Kylo Ren faces your vehicle and it finally sits still: look behind you.",
+    "whereToLook": {
+      "scene": "The control panel with Finn, just after dodging the cannons",
+      "exactSpot": "Lower left of the panel. Three grey buttons."
+    },
+    "bestTip": "Wait for the vehicle to stop in front of Kylo Ren, then turn around.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8139,
+      "longitude": -117.9226
+    },
+    "sourceId": "TLC-DL-0231",
+    "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Rise-Resistance2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "rise-of-the-resistance-standby-barrel-tubes-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "batuu_area",
+    "attractionId": "rise_of_the_resistance",
+    "display": {
+      "entryTitle": "Standby Queue Barrel Tubes Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Star Wars: Galaxy's Edge",
+      "attractionName": "Star Wars: Rise of the Resistance"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the standby queue, a barrel holds a bundle of tubes, and three of them are arranged as a classic Mickey.",
+    "whereToLook": {
+      "scene": "The standby queue, a barrel of tubes",
+      "exactSpot": "The ends of the tubes in the barrel. One large and two small in a Mickey grouping."
+    },
+    "bestTip": "Look at the tops of the tubes, not the barrel.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8139,
+      "longitude": -117.9226
+    },
+    "sourceId": "TLC-DL-0229",
+    "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Rise-Resistance1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "rise-of-the-resistance-transport-ship-28",
+    "parkId": "california_kingdom_park",
+    "landId": "batuu_area",
+    "attractionId": "rise_of_the_resistance",
+    "display": {
+      "entryTitle": "Transport Ship Number 28",
+      "parkName": "Disneyland Park",
+      "landName": "Star Wars: Galaxy's Edge",
+      "attractionName": "Star Wars: Rise of the Resistance"
+    },
+    "entryType": "FACT",
+    "locationType": "Pre-show",
+    "difficulty": "Easy",
+    "areaContext": "Loading",
+    "description": "After Rey's briefing you board a transport ship, and its hull number is 28. That is a nod to 1928, the year Steamboat Willie introduced Mickey to the world.",
+    "whereToLook": {
+      "scene": "The transport ship you board after Rey's briefing",
+      "exactSpot": "The number painted on the ship: 28."
+    },
+    "bestTip": "Read the hull as you walk up the ramp.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8139,
+      "longitude": -117.9226
+    },
+    "sourceId": "TLC-DL-0230",
+    "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Rise-Resistance3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "river-belle-terrace-menu-riverboat-grillwork-mickeys",
     "parkId": "california_kingdom_park",
     "landId": "frontier_area",
@@ -17396,6 +17716,46 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-millennium-falcon-smugglers-run",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "smugglers-run-queue-monitor-metal-wheels-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "batuu_area",
+    "attractionId": "millennium_falcon_smugglers_run",
+    "display": {
+      "entryTitle": "Queue Monitor Metal Wheels Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Star Wars: Galaxy's Edge",
+      "attractionName": "Millennium Falcon: Smugglers Run"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "Along the Smugglers Run queue, a video monitor is mounted on the wall with a cluster of metal wheels beside it. Three of the wheels sit together as a Mickey turned on its side.",
+    "whereToLook": {
+      "scene": "The queue, a wall-mounted video monitor",
+      "exactSpot": "The metal wheels to one side of the monitor. A sideways three-circle grouping."
+    },
+    "bestTip": "Tilt your head. It is a profile, not an upright Mickey.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.814,
+      "longitude": -117.9237
+    },
+    "sourceId": "TLC-DL-0228",
+    "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Smugglers-Run1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "snow-white-mine-tinker-bell-on-wall",

@@ -1,0 +1,40 @@
+{
+  "id": "docking-bay-7-droid-ramp-blaster-shots-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "batuu_area",
+  "attractionId": "docking_bay_7",
+  "display": {
+    "entryTitle": "Droid Ramp Blaster Shots Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Star Wars: Galaxy's Edge",
+    "attractionName": "Docking Bay 7 Food and Cargo"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "On the wall along the accessible ramp beside Docking Bay 7, the one cast members call the droid ramp, three blaster scorch marks are grouped as a Hidden Mickey.",
+  "whereToLook": {
+    "scene": "The ramp beside Docking Bay 7, the wall alongside it",
+    "exactSpot": "Three blaster marks on the wall, one large and two small."
+  },
+  "bestTip": "Take the ramp instead of the stairs, going up or down.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8143,
+    "longitude": -117.9232
+  },
+  "sourceId": "TLC-DL-0226",
+  "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#DockingBay7-1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

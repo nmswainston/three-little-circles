@@ -1,0 +1,40 @@
+{
+  "id": "ogas-cantina-facade-donald-duck",
+  "parkId": "california_kingdom_park",
+  "landId": "batuu_area",
+  "attractionId": "ogas_cantina",
+  "display": {
+    "entryTitle": "Cantina Facade Donald Duck",
+    "parkName": "Disneyland Park",
+    "landName": "Star Wars: Galaxy's Edge",
+    "attractionName": "Oga's Cantina"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "Step back from Oga's Cantina and look at the whole front. The blue banner is the ribbon hanging from Donald's sailor cap, the canopy over the door is his bill, and the doorway is his open mouth. Nobody has explained what Donald is doing on Batuu.",
+  "whereToLook": {
+    "scene": "The front of Oga's Cantina, viewed from across the walkway",
+    "exactSpot": "The whole facade. Banner as cap ribbon, canopy as bill, doorway as mouth."
+  },
+  "bestTip": "You need distance. Up close it is just a door.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8146,
+    "longitude": -117.9228
+  },
+  "sourceId": "TLC-DL-0227",
+  "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Ogas-Cantina1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

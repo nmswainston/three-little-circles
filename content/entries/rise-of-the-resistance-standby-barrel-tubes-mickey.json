@@ -1,0 +1,40 @@
+{
+  "id": "rise-of-the-resistance-standby-barrel-tubes-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "batuu_area",
+  "attractionId": "rise_of_the_resistance",
+  "display": {
+    "entryTitle": "Standby Queue Barrel Tubes Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Star Wars: Galaxy's Edge",
+    "attractionName": "Star Wars: Rise of the Resistance"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "In the standby queue, a barrel holds a bundle of tubes, and three of them are arranged as a classic Mickey.",
+  "whereToLook": {
+    "scene": "The standby queue, a barrel of tubes",
+    "exactSpot": "The ends of the tubes in the barrel. One large and two small in a Mickey grouping."
+  },
+  "bestTip": "Look at the tops of the tubes, not the barrel.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8139,
+    "longitude": -117.9226
+  },
+  "sourceId": "TLC-DL-0229",
+  "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Rise-Resistance1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

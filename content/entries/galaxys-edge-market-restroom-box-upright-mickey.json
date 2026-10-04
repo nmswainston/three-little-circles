@@ -1,0 +1,40 @@
+{
+  "id": "galaxys-edge-market-restroom-box-upright-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "batuu_area",
+  "attractionId": "black_spire_outpost",
+  "display": {
+    "entryTitle": "Market Restroom Box Upright Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Star Wars: Galaxy's Edge",
+    "attractionName": "Black Spire Outpost"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "The same box above the market restrooms carries a second Hidden Mickey right next to the inverted one, this time the right way up.",
+  "whereToLook": {
+    "scene": "The market area, the big box mounted above the restroom entrance",
+    "exactSpot": "The underside of the box, beside the upside-down Mickey. An upright one."
+  },
+  "bestTip": "Find the inverted one first. Its neighbor is the easy half.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8145,
+    "longitude": -117.923
+  },
+  "sourceId": "TLC-DL-0224",
+  "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Galaxys-Edge2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
