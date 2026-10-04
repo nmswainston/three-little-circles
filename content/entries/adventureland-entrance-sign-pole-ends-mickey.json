@@ -1,0 +1,40 @@
+{
+  "id": "adventureland-entrance-sign-pole-ends-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "jungle_outpost_entrance",
+  "display": {
+    "entryTitle": "Entrance Sign Pole Ends Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Adventureland",
+    "attractionName": "Adventureland Entrance"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Outdoor Display",
+  "description": "The big Adventureland sign over the land's entrance is built from bundled poles. Look at the cut ends of the three poles along its bottom edge. Their round faces sit together as a head and two ears. Even the person who confirmed this one for the wiki hedged on whether it was planned, so file it under maybe.",
+  "whereToLook": {
+    "scene": "The Adventureland entrance sign, seen from the Enchanted Tiki Room's garden",
+    "exactSpot": "The ends of the three lowest poles in the sign. Three round cut ends grouped together."
+  },
+  "bestTip": "The Tiki Room garden gives you a place to stand with a clear view up at the sign.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8117,
+    "longitude": -117.9199
+  },
+  "sourceId": "TLC-DL-0027",
+  "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Tiki-Room1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

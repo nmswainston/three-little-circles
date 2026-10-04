@@ -1,0 +1,43 @@
+{
+  "id": "indiana-jones-adventure-film-room-eeyore-parking-sign",
+  "parkId": "california_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "temple_of_forbidden_eye",
+  "display": {
+    "entryTitle": "Film Room Eeyore Parking Sign",
+    "parkName": "Disneyland Park",
+    "landName": "Adventureland",
+    "attractionName": "Indiana Jones Adventure"
+  },
+  "entryType": "FACT",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "Indiana Jones Adventure was built over part of the old Disneyland parking lot, and the Eeyore section sign survived. It hangs in the rafters of the film room, in the dark above the queue. Step into the film room, turn right, and at the first switchback to the left put your back to the wall and shine a light straight up. The sign rests on the bamboo slats above you.",
+  "whereToLook": {
+    "scene": "The film room in the queue, the first left switchback after you enter",
+    "exactSpot": "Straight up, on the bamboo slats overhead. A parking lot sign reading Eeyore."
+  },
+  "bestTip": "A phone light is enough. Expect a few gasps when the people around you see it.",
+  "funFacts": [
+    "The attraction opened in 1995 on land that had been the parking lot's Eeyore section."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dark",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.811,
+    "longitude": -117.9207
+  },
+  "sourceId": "TLC-DL-0038",
+  "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

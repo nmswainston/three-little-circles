@@ -1,0 +1,41 @@
+{
+  "id": "bengal-barbecue-seating-area-wall-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "bengal_barbecue",
+  "display": {
+    "entryTitle": "Seating Area Wall Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Adventureland",
+    "attractionName": "Bengal Barbecue"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "A Hidden Mickey that once hung on a merchandise wall in the Adventureland Bazaar has moved next door. It now sits in the first seating area to the right of the Bengal Barbecue counter, worked into the wall decor.",
+  "whereToLook": {
+    "scene": "The first seating area to the right of the Bengal Barbecue counter",
+    "exactSpot": "The decorated wall of that seating area. Look for the three-circle shape among the props."
+  },
+  "bestTip": "Grab a skewer and sit on the right side. It gives you time to scan the wall.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "This piece has moved once already. If it is gone, check the Bazaar."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8115,
+    "longitude": -117.9202
+  },
+  "sourceId": "TLC-DL-0032",
+  "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Bengal-BBQ1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

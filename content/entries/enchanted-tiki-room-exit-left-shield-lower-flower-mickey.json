@@ -1,0 +1,40 @@
+{
+  "id": "enchanted-tiki-room-exit-left-shield-lower-flower-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "singing_birds_show",
+  "display": {
+    "entryTitle": "Exit Left Shield Lower Flower Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Adventureland",
+    "attractionName": "Walt Disney's Enchanted Tiki Room"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "The same left shield above the Tiki Room exit hides a second blue flower Mickey below the first, closer to the shield's bottom edge.",
+  "whereToLook": {
+    "scene": "Leaving the Enchanted Tiki Room, the four shields overhead",
+    "exactSpot": "The left shield, lower section. The lower of the two blue flower Mickeys."
+  },
+  "bestTip": "Find the upper one, then drop your eyes toward the bottom edge.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8118,
+    "longitude": -117.9198
+  },
+  "sourceId": "TLC-DL-0031",
+  "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Tiki-Room4",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

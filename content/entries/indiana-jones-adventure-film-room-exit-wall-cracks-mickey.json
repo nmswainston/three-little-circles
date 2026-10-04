@@ -1,0 +1,40 @@
+{
+  "id": "indiana-jones-adventure-film-room-exit-wall-cracks-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "temple_of_forbidden_eye",
+  "display": {
+    "entryTitle": "Film Room Exit Wall Cracks Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Adventureland",
+    "attractionName": "Indiana Jones Adventure"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "As you leave the film room toward the archaeologist's office, glance back over your left shoulder at the far wall. Between the lights, cracks in the plaster form a big Mickey head. The left ear is incomplete, and fans argue about whether it was planned.",
+  "whereToLook": {
+    "scene": "Leaving the film room toward the office, the far wall behind you",
+    "exactSpot": "Between the wall lights. Cracks shaped as a large head and ears, the left ear only partly there."
+  },
+  "bestTip": "Turn around before the office doorway. It is behind you, not ahead.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.811,
+    "longitude": -117.9207
+  },
+  "sourceId": "TLC-DL-0040",
+  "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones6",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

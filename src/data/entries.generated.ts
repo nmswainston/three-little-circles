@@ -4,6 +4,206 @@ import type { HiddenMickeyEntry } from "./types";
 
 export const entries: HiddenMickeyEntry[] = [
   {
+    "id": "adventureland-entrance-sign-pole-ends-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "jungle_outpost_entrance",
+    "display": {
+      "entryTitle": "Entrance Sign Pole Ends Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Adventureland Entrance"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Outdoor Display",
+    "description": "The big Adventureland sign over the land's entrance is built from bundled poles. Look at the cut ends of the three poles along its bottom edge. Their round faces sit together as a head and two ears. Even the person who confirmed this one for the wiki hedged on whether it was planned, so file it under maybe.",
+    "whereToLook": {
+      "scene": "The Adventureland entrance sign, seen from the Enchanted Tiki Room's garden",
+      "exactSpot": "The ends of the three lowest poles in the sign. Three round cut ends grouped together."
+    },
+    "bestTip": "The Tiki Room garden gives you a place to stand with a clear view up at the sign.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8117,
+      "longitude": -117.9199
+    },
+    "sourceId": "TLC-DL-0027",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Tiki-Room1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "adventureland-treehouse-astronomy-loft-moon-craters-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "family_treehouse",
+    "display": {
+      "entryTitle": "Astronomy Loft Moon Craters Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Adventureland Treehouse"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "The astronomy loft has a picture of the Moon at the back. Among the craters, three dark ones are grouped as a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The astronomy loft, the picture of the Moon at the back",
+      "exactSpot": "The crater field. Three dark craters, one large and two small."
+    },
+    "bestTip": "Scan the craters like a star chart. The dark trio stands out once you slow down.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8113,
+      "longitude": -117.9205
+    },
+    "sourceId": "TLC-DL-0047",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse5",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "adventureland-treehouse-music-room-lamp-scallop-shell-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "family_treehouse",
+    "display": {
+      "entryTitle": "Music Room Lamp Scallop Shell Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Adventureland Treehouse"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "The shell lamp in the mother's music room holds two Hidden Mickeys. The second is near the top of the shade, where a scallop shell forms the head and two smaller shells sit above it as ears.",
+    "whereToLook": {
+      "scene": "Mother's music room in the treehouse, the shell lamp",
+      "exactSpot": "Near the top of the lampshade. A scallop shell head with two small shell ears."
+    },
+    "bestTip": "Find the red shell Mickey in the middle first, then follow the shade upward.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8113,
+      "longitude": -117.9205
+    },
+    "sourceId": "TLC-DL-0045",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "adventureland-treehouse-music-room-organ-tambourines-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "family_treehouse",
+    "display": {
+      "entryTitle": "Music Room Organ Tambourines Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Adventureland Treehouse"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Walkway",
+    "description": "Above the pipe organ in the mother's music room, two tambourines and a fiddle hang on the wall. Together they are arranged as a head and two ears.",
+    "whereToLook": {
+      "scene": "Mother's music room, the wall above the pipe organ",
+      "exactSpot": "The instruments over the organ. Two tambourines and a fiddle grouped as a Mickey head."
+    },
+    "bestTip": "Look up over the organ, not down at the keys.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8113,
+      "longitude": -117.9205
+    },
+    "sourceId": "TLC-DL-0048",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "adventureland-treehouse-stair-dragonfly-face-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "family_treehouse",
+    "display": {
+      "entryTitle": "Stair Dragonfly Face Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Adventureland Treehouse"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Walkway",
+    "description": "On the climb up the treehouse stairs a huge dragonfly perches on your right. Look at its face. The two eyes and the nose sit together as a classic Mickey.",
+    "whereToLook": {
+      "scene": "The stairs up into the treehouse, on your right",
+      "exactSpot": "The giant dragonfly's face. Two eyes and the nose make the three circles."
+    },
+    "bestTip": "It is at eye level on the stairs, so stop a step early instead of walking past it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8113,
+      "longitude": -117.9205
+    },
+    "sourceId": "TLC-DL-0046",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "alien-spinner-mural-buttons-mickey",
     "parkId": "studios_park",
     "landId": "toy_blocks_area",
@@ -1154,6 +1354,47 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-pirates-caribbean-s-beak-barrel",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "bengal-barbecue-seating-area-wall-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "bengal_barbecue",
+    "display": {
+      "entryTitle": "Seating Area Wall Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Bengal Barbecue"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "A Hidden Mickey that once hung on a merchandise wall in the Adventureland Bazaar has moved next door. It now sits in the first seating area to the right of the Bengal Barbecue counter, worked into the wall decor.",
+    "whereToLook": {
+      "scene": "The first seating area to the right of the Bengal Barbecue counter",
+      "exactSpot": "The decorated wall of that seating area. Look for the three-circle shape among the props."
+    },
+    "bestTip": "Grab a skewer and sit on the right side. It gives you time to scan the wall.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "This piece has moved once already. If it is gone, check the Bazaar."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8115,
+      "longitude": -117.9202
+    },
+    "sourceId": "TLC-DL-0032",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Bengal-BBQ1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "big-blue-pool-green-fish-spots-mickey",
@@ -3750,6 +3991,166 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
+    "id": "enchanted-tiki-room-entrance-basket-anthurium-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "singing_birds_show",
+    "display": {
+      "entryTitle": "Entrance Flower Basket Anthurium Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Walt Disney's Enchanted Tiki Room"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The hanging baskets over the Tiki Room entrance are packed with artificial tropical flowers. Among them are anthuriums, the glossy flat blooms with a yellow spike in the middle. A real anthurium is heart shaped. These are cut with three lobes, a head and two ears.",
+    "whereToLook": {
+      "scene": "The flower baskets above the entrance to the Enchanted Tiki Room",
+      "exactSpot": "The red and pink anthurium blooms. Each flat petal has three lobes like Mickey's head."
+    },
+    "bestTip": "Pull up a photo of a real anthurium and the extra lobes jump right out.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8118,
+      "longitude": -117.9198
+    },
+    "sourceId": "TLC-DL-0029",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Tiki-Room2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "enchanted-tiki-room-exit-left-shield-lower-flower-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "singing_birds_show",
+    "display": {
+      "entryTitle": "Exit Left Shield Lower Flower Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Walt Disney's Enchanted Tiki Room"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "The same left shield above the Tiki Room exit hides a second blue flower Mickey below the first, closer to the shield's bottom edge.",
+    "whereToLook": {
+      "scene": "Leaving the Enchanted Tiki Room, the four shields overhead",
+      "exactSpot": "The left shield, lower section. The lower of the two blue flower Mickeys."
+    },
+    "bestTip": "Find the upper one, then drop your eyes toward the bottom edge.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8118,
+      "longitude": -117.9198
+    },
+    "sourceId": "TLC-DL-0031",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Tiki-Room4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "enchanted-tiki-room-exit-left-shield-upper-flower-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "singing_birds_show",
+    "display": {
+      "entryTitle": "Exit Left Shield Upper Flower Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Walt Disney's Enchanted Tiki Room"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "Four shields hang above you on the way out of the Tiki Room. The leftmost shield carries two Hidden Mickeys near its bottom edge, both made of blue flowers in the painted design. This is the upper one of the pair.",
+    "whereToLook": {
+      "scene": "Leaving the Enchanted Tiki Room, the four shields overhead",
+      "exactSpot": "The left shield, lower section. The upper of the two blue flower Mickeys."
+    },
+    "bestTip": "Pause under the shields while the crowd files out. Both Mickeys share the same shield.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8118,
+      "longitude": -117.9198
+    },
+    "sourceId": "TLC-DL-0030",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Tiki-Room3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "enchanted-tiki-room-tangaroa-menehune-chest-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "singing_birds_show",
+    "display": {
+      "entryTitle": "Tangaroa Menehune Chest Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Walt Disney's Enchanted Tiki Room"
+    },
+    "entryType": "FIND",
+    "locationType": "Pre-show",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "Tangaroa, the tree god in the Tiki Room's garden, sprouts little menehune figures from his branches when he comes to life. The third figure from the left has a Mickey painted on its chest. When Tangaroa settles back to rest the figures tuck away and the Mickey goes with them.",
+    "whereToLook": {
+      "scene": "The Tiki Room pre-show garden, Tangaroa the tree god",
+      "exactSpot": "Third menehune from the left as the figures emerge from his limbs. The Mickey is on its chest."
+    },
+    "bestTip": "Wait for Tangaroa's turn in the pre-show. It only shows while he is animated.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8118,
+      "longitude": -117.9198
+    },
+    "sourceId": "TLC-DL-0028",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Tiki-Room5",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "entrance-gates-grillwork-mickeys",
     "parkId": "studios_park",
     "landId": "park_entrance_area",
@@ -3944,7 +4345,9 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -117.9205
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z",
+    "sourceId": "TLC-DL-0044",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse1"
   },
   {
     "id": "family-treehouse-trunk-moss-mickey",
@@ -7970,6 +8373,290 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "indiana-jones-adventure-film-room-eeyore-parking-sign",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "temple_of_forbidden_eye",
+    "display": {
+      "entryTitle": "Film Room Eeyore Parking Sign",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Indiana Jones Adventure"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "Indiana Jones Adventure was built over part of the old Disneyland parking lot, and the Eeyore section sign survived. It hangs in the rafters of the film room, in the dark above the queue. Step into the film room, turn right, and at the first switchback to the left put your back to the wall and shine a light straight up. The sign rests on the bamboo slats above you.",
+    "whereToLook": {
+      "scene": "The film room in the queue, the first left switchback after you enter",
+      "exactSpot": "Straight up, on the bamboo slats overhead. A parking lot sign reading Eeyore."
+    },
+    "bestTip": "A phone light is enough. Expect a few gasps when the people around you see it.",
+    "funFacts": [
+      "The attraction opened in 1995 on land that had been the parking lot's Eeyore section."
+    ],
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dark",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.811,
+      "longitude": -117.9207
+    },
+    "sourceId": "TLC-DL-0038",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "indiana-jones-adventure-film-room-exit-wall-cracks-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "temple_of_forbidden_eye",
+    "display": {
+      "entryTitle": "Film Room Exit Wall Cracks Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Indiana Jones Adventure"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "As you leave the film room toward the archaeologist's office, glance back over your left shoulder at the far wall. Between the lights, cracks in the plaster form a big Mickey head. The left ear is incomplete, and fans argue about whether it was planned.",
+    "whereToLook": {
+      "scene": "Leaving the film room toward the office, the far wall behind you",
+      "exactSpot": "Between the wall lights. Cracks shaped as a large head and ears, the left ear only partly there."
+    },
+    "bestTip": "Turn around before the office doorway. It is behind you, not ahead.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.811,
+      "longitude": -117.9207
+    },
+    "sourceId": "TLC-DL-0040",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones6",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "indiana-jones-adventure-mummy-room-skeleton-mickey-ears",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "temple_of_forbidden_eye",
+    "display": {
+      "entryTitle": "Mummy Room Skeleton Mickey Ears",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Indiana Jones Adventure"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "After the Gates of Doom the jeep swings into the mummy chamber. On the left, as the skeletons pop out, the one farthest to the left wears a Mickey Mouse ears hat. Cast members call him Bones. He is the fifth skull from the end, so crane your neck back toward the entrance side of the room as soon as you are in.",
+    "whereToLook": {
+      "scene": "The mummy chamber after the Gates of Doom, the left wall",
+      "exactSpot": "The skeleton farthest left as you enter, fifth skull from the end. He is wearing Mickey ears."
+    },
+    "bestTip": "Look left and back the instant the jeep enters the room.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.811,
+      "longitude": -117.9207
+    },
+    "sourceId": "TLC-DL-0043",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones5",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "indiana-jones-adventure-office-life-magazine-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "temple_of_forbidden_eye",
+    "display": {
+      "entryTitle": "Office Desk Life Magazine Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Indiana Jones Adventure"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the archaeologist's office along the queue, an old copy of Life magazine is tucked under the desk blotter. Only part of the cover shows, but Mickey Mouse is clearly on it.",
+    "whereToLook": {
+      "scene": "The archaeological office in the queue, the desk",
+      "exactSpot": "Under the desk blotter. A Life magazine with Mickey on the cover."
+    },
+    "bestTip": "Give the desk a long look. The magazine is only peeking out.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.811,
+      "longitude": -117.9207
+    },
+    "sourceId": "TLC-DL-0041",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "indiana-jones-adventure-office-life-magazine-minnie",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "temple_of_forbidden_eye",
+    "display": {
+      "entryTitle": "Office Desk Life Magazine Minnie",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Indiana Jones Adventure"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The same Life magazine under the desk blotter in the archaeologist's office puts Minnie on the cover beside Mickey. She counts as her own Hidden Surprise.",
+    "whereToLook": {
+      "scene": "The archaeological office in the queue, the desk",
+      "exactSpot": "Under the desk blotter. Minnie on the Life cover next to Mickey."
+    },
+    "bestTip": "Once you have found Mickey on the cover, look for his partner.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.811,
+      "longitude": -117.9207
+    },
+    "sourceId": "TLC-DL-0042",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "indiana-jones-adventure-queue-column-mara-initials-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "temple_of_forbidden_eye",
+    "display": {
+      "entryTitle": "Queue Column Mara Letter Initials",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Indiana Jones Adventure"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "The queue walls are covered in Maraglyphics, the temple's invented alphabet. After the room with the obelisk you pass through a doorway and the line makes a U-turn near two drinking fountains. On a plain column on the left, about waist high, Mickey's initials are pressed into the stone in Mara letters, far fainter than the carvings around them.",
+    "whereToLook": {
+      "scene": "Past the obelisk room, the U-turn by the two drinking fountains",
+      "exactSpot": "The plain column on the left wall, about three feet off the floor. A faint impression spelling M M in Mara letters."
+    },
+    "bestTip": "A translation of the Mara alphabet is easy to find online. Learn M before you get in line.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Left",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.811,
+      "longitude": -117.9207
+    },
+    "sourceId": "TLC-DL-0039",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "indiana-jones-adventure-queue-tent-walt-statue",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "temple_of_forbidden_eye",
+    "display": {
+      "entryTitle": "Queue Tent Walt Statue",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Indiana Jones Adventure"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "Out in the overflow queue, a supply tent near the rope bridge holds a small stone figure about three feet tall, seated like a Buddha. Look at the face. It has Walt Disney's mustache and smile. The figure stands just left of the tent entrance, facing the temple, with the tent's radio playing nearby.",
+    "whereToLook": {
+      "scene": "The outdoor overflow queue, the supply tent near the rope bridge",
+      "exactSpot": "Just left of the tent entrance, on the corner deepest into the queue. A seated stone figure with a mustache."
+    },
+    "bestTip": "You only walk past it when the line stretches outside, so a long wait is the price of admission.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "accessNotes": "Only reachable when the outdoor overflow queue is open.",
+    "coordinates": {
+      "latitude": 33.811,
+      "longitude": -117.9207
+    },
+    "sourceId": "TLC-DL-0037",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "italy-neptune-fountain-ornament-mickey",
     "parkId": "showcase_park",
     "landId": "italy_pavilion",
@@ -8285,6 +8972,86 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0024",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "jungle-cruise-lost-expedition-wed-crate",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "jungle_boat_ride",
+    "display": {
+      "entryTitle": "Lost Expedition WED Crate",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Jungle Cruise"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "At the Lost Expedition camp, where the gorillas have taken over, one crate behind the apes is stenciled WED Expedition. The letters are Walt's initials, Walter Elias Disney, and the name of the design company that grew into Imagineering.",
+    "whereToLook": {
+      "scene": "The Lost Expedition camp scene with the gorillas",
+      "exactSpot": "A crate behind the gorillas, stenciled WED Expedition."
+    },
+    "bestTip": "The skipper's gorilla jokes pull your eye to the apes. Look past them at the cargo.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8114,
+      "longitude": -117.9201
+    },
+    "sourceId": "TLC-DL-0033",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Jungle-Cruise1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "jungle-cruise-safari-camp-beach-pots-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "jungle_boat_ride",
+    "display": {
+      "entryTitle": "Safari Camp Beach Pots Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Adventureland",
+      "attractionName": "Jungle Cruise"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "At the safari camp the apes have overrun, three cooking pots sit on the sand near the water's edge, one large and two small, set out as Mickey's head. The camp passes on the right side of the boat.",
+    "whereToLook": {
+      "scene": "The overrun safari camp, on the right side of the boat",
+      "exactSpot": "On the beach close to the water. Three pots, one big and two small."
+    },
+    "bestTip": "Look low along the shoreline instead of up at the apes.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8114,
+      "longitude": -117.9201
+    },
+    "sourceId": "TLC-DL-0034",
+    "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Jungle-Cruise2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "jungle-outpost-entrance-stone-seating-mickey",

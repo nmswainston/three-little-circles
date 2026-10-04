@@ -1,0 +1,40 @@
+{
+  "id": "adventureland-treehouse-astronomy-loft-moon-craters-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "family_treehouse",
+  "display": {
+    "entryTitle": "Astronomy Loft Moon Craters Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Adventureland",
+    "attractionName": "Adventureland Treehouse"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "The astronomy loft has a picture of the Moon at the back. Among the craters, three dark ones are grouped as a Hidden Mickey.",
+  "whereToLook": {
+    "scene": "The astronomy loft, the picture of the Moon at the back",
+    "exactSpot": "The crater field. Three dark craters, one large and two small."
+  },
+  "bestTip": "Scan the craters like a star chart. The dark trio stands out once you slow down.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8113,
+    "longitude": -117.9205
+  },
+  "sourceId": "TLC-DL-0047",
+  "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse5",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

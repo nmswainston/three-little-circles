@@ -1,0 +1,40 @@
+{
+  "id": "indiana-jones-adventure-queue-column-mara-initials-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "temple_of_forbidden_eye",
+  "display": {
+    "entryTitle": "Queue Column Mara Letter Initials",
+    "parkName": "Disneyland Park",
+    "landName": "Adventureland",
+    "attractionName": "Indiana Jones Adventure"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "The queue walls are covered in Maraglyphics, the temple's invented alphabet. After the room with the obelisk you pass through a doorway and the line makes a U-turn near two drinking fountains. On a plain column on the left, about waist high, Mickey's initials are pressed into the stone in Mara letters, far fainter than the carvings around them.",
+  "whereToLook": {
+    "scene": "Past the obelisk room, the U-turn by the two drinking fountains",
+    "exactSpot": "The plain column on the left wall, about three feet off the floor. A faint impression spelling M M in Mara letters."
+  },
+  "bestTip": "A translation of the Mara alphabet is easy to find online. Learn M before you get in line.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Left",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.811,
+    "longitude": -117.9207
+  },
+  "sourceId": "TLC-DL-0039",
+  "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

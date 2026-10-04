@@ -1,0 +1,40 @@
+{
+  "id": "indiana-jones-adventure-mummy-room-skeleton-mickey-ears",
+  "parkId": "california_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "temple_of_forbidden_eye",
+  "display": {
+    "entryTitle": "Mummy Room Skeleton Mickey Ears",
+    "parkName": "Disneyland Park",
+    "landName": "Adventureland",
+    "attractionName": "Indiana Jones Adventure"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "After the Gates of Doom the jeep swings into the mummy chamber. On the left, as the skeletons pop out, the one farthest to the left wears a Mickey Mouse ears hat. Cast members call him Bones. He is the fifth skull from the end, so crane your neck back toward the entrance side of the room as soon as you are in.",
+  "whereToLook": {
+    "scene": "The mummy chamber after the Gates of Doom, the left wall",
+    "exactSpot": "The skeleton farthest left as you enter, fifth skull from the end. He is wearing Mickey ears."
+  },
+  "bestTip": "Look left and back the instant the jeep enters the room.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dark",
+    "angle": "Left",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.811,
+    "longitude": -117.9207
+  },
+  "sourceId": "TLC-DL-0043",
+  "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones5",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

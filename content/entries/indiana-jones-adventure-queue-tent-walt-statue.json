@@ -1,0 +1,41 @@
+{
+  "id": "indiana-jones-adventure-queue-tent-walt-statue",
+  "parkId": "california_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "temple_of_forbidden_eye",
+  "display": {
+    "entryTitle": "Queue Tent Walt Statue",
+    "parkName": "Disneyland Park",
+    "landName": "Adventureland",
+    "attractionName": "Indiana Jones Adventure"
+  },
+  "entryType": "FACT",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "Out in the overflow queue, a supply tent near the rope bridge holds a small stone figure about three feet tall, seated like a Buddha. Look at the face. It has Walt Disney's mustache and smile. The figure stands just left of the tent entrance, facing the temple, with the tent's radio playing nearby.",
+  "whereToLook": {
+    "scene": "The outdoor overflow queue, the supply tent near the rope bridge",
+    "exactSpot": "Just left of the tent entrance, on the corner deepest into the queue. A seated stone figure with a mustache."
+  },
+  "bestTip": "You only walk past it when the line stretches outside, so a long wait is the price of admission.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "accessNotes": "Only reachable when the outdoor overflow queue is open.",
+  "coordinates": {
+    "latitude": 33.811,
+    "longitude": -117.9207
+  },
+  "sourceId": "TLC-DL-0037",
+  "sourceUrl": "https://hiddenmickeywiki.com/Adventureland",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

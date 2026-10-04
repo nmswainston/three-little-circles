@@ -1,0 +1,40 @@
+{
+  "id": "enchanted-tiki-room-entrance-basket-anthurium-mickeys",
+  "parkId": "california_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "singing_birds_show",
+  "display": {
+    "entryTitle": "Entrance Flower Basket Anthurium Mickeys",
+    "parkName": "Disneyland Park",
+    "landName": "Adventureland",
+    "attractionName": "Walt Disney's Enchanted Tiki Room"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "The hanging baskets over the Tiki Room entrance are packed with artificial tropical flowers. Among them are anthuriums, the glossy flat blooms with a yellow spike in the middle. A real anthurium is heart shaped. These are cut with three lobes, a head and two ears.",
+  "whereToLook": {
+    "scene": "The flower baskets above the entrance to the Enchanted Tiki Room",
+    "exactSpot": "The red and pink anthurium blooms. Each flat petal has three lobes like Mickey's head."
+  },
+  "bestTip": "Pull up a photo of a real anthurium and the extra lobes jump right out.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8118,
+    "longitude": -117.9198
+  },
+  "sourceId": "TLC-DL-0029",
+  "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Tiki-Room2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "adventureland-treehouse-music-room-organ-tambourines-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "family_treehouse",
+  "display": {
+    "entryTitle": "Music Room Organ Tambourines Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Adventureland",
+    "attractionName": "Adventureland Treehouse"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Walkway",
+  "description": "Above the pipe organ in the mother's music room, two tambourines and a fiddle hang on the wall. Together they are arranged as a head and two ears.",
+  "whereToLook": {
+    "scene": "Mother's music room, the wall above the pipe organ",
+    "exactSpot": "The instruments over the organ. Two tambourines and a fiddle grouped as a Mickey head."
+  },
+  "bestTip": "Look up over the organ, not down at the keys.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8113,
+    "longitude": -117.9205
+  },
+  "sourceId": "TLC-DL-0048",
+  "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
