@@ -1,0 +1,40 @@
+{
+  "id": "adventureland-treehouse-music-room-lamp-scallop-shell-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "family_treehouse",
+  "display": {
+    "entryTitle": "Music Room Lamp Scallop Shell Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Adventureland",
+    "attractionName": "Adventureland Treehouse"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "The shell lamp in the mother's music room holds two Hidden Mickeys. The second is near the top of the shade, where a scallop shell forms the head and two smaller shells sit above it as ears.",
+  "whereToLook": {
+    "scene": "Mother's music room in the treehouse, the shell lamp",
+    "exactSpot": "Near the top of the lampshade. A scallop shell head with two small shell ears."
+  },
+  "bestTip": "Find the red shell Mickey in the middle first, then follow the shade upward.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8113,
+    "longitude": -117.9205
+  },
+  "sourceId": "TLC-DL-0045",
+  "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse4",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

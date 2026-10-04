@@ -1,0 +1,40 @@
+{
+  "id": "enchanted-tiki-room-tangaroa-menehune-chest-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "singing_birds_show",
+  "display": {
+    "entryTitle": "Tangaroa Menehune Chest Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Adventureland",
+    "attractionName": "Walt Disney's Enchanted Tiki Room"
+  },
+  "entryType": "FIND",
+  "locationType": "Pre-show",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "Tangaroa, the tree god in the Tiki Room's garden, sprouts little menehune figures from his branches when he comes to life. The third figure from the left has a Mickey painted on its chest. When Tangaroa settles back to rest the figures tuck away and the Mickey goes with them.",
+  "whereToLook": {
+    "scene": "The Tiki Room pre-show garden, Tangaroa the tree god",
+    "exactSpot": "Third menehune from the left as the figures emerge from his limbs. The Mickey is on its chest."
+  },
+  "bestTip": "Wait for Tangaroa's turn in the pre-show. It only shows while he is animated.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8118,
+    "longitude": -117.9198
+  },
+  "sourceId": "TLC-DL-0028",
+  "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Tiki-Room5",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

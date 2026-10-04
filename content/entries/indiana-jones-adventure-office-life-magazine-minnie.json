@@ -1,0 +1,40 @@
+{
+  "id": "indiana-jones-adventure-office-life-magazine-minnie",
+  "parkId": "california_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "temple_of_forbidden_eye",
+  "display": {
+    "entryTitle": "Office Desk Life Magazine Minnie",
+    "parkName": "Disneyland Park",
+    "landName": "Adventureland",
+    "attractionName": "Indiana Jones Adventure"
+  },
+  "entryType": "FACT",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "The same Life magazine under the desk blotter in the archaeologist's office puts Minnie on the cover beside Mickey. She counts as her own Hidden Surprise.",
+  "whereToLook": {
+    "scene": "The archaeological office in the queue, the desk",
+    "exactSpot": "Under the desk blotter. Minnie on the Life cover next to Mickey."
+  },
+  "bestTip": "Once you have found Mickey on the cover, look for his partner.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.811,
+    "longitude": -117.9207
+  },
+  "sourceId": "TLC-DL-0042",
+  "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones4",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
