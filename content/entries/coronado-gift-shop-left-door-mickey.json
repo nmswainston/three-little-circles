@@ -13,7 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Entrance",
-  "description": "The left entrance door of the resort gift shop has a classic Hidden Mickey worked into its design.",
+  "description": "The left entrance door of the resort gift shop carries a classic Hidden Mickey in its decoration and hardware, part of the door itself.",
   "whereToLook": {
     "scene": "Left entrance door of the gift shop",
     "exactSpot": "Look at the door's decoration and hardware for three circles."
@@ -36,5 +36,5 @@
   "sourceId": "TLC-RS-0087",
   "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-springs-resorts/2026/08/01/disneys-coronado-springs-resort-hidden-mickey",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

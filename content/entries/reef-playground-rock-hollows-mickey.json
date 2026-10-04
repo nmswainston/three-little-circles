@@ -13,7 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Medium",
   "areaContext": "Outdoor Display",
-  "description": "On the rock surface of the reef playground, three circular hollows form a classic Hidden Mickey.",
+  "description": "On the sculpted rock of the reef playground, three round hollows sit together as a classic Hidden Mickey, a head and two ears set into the rock face.",
   "whereToLook": {
     "scene": "Rock surfaces of the playground",
     "exactSpot": "Look at the sculpted rock for three round hollows together."
@@ -37,5 +37,5 @@
   "sourceId": "TLC-RS-0038",
   "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

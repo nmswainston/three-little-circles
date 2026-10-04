@@ -13,7 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Shop",
-  "description": "In the tile work on the floor at the shop's south doorway, the pattern forms a Hidden Mickey underfoot.",
+  "description": "At the shop's south doorway, the floor tile pattern forms a classic Hidden Mickey underfoot, three circles set into the tilework right where you step through the door.",
   "whereToLook": {
     "scene": "The south doorway of Cristal d'Orleans, the floor",
     "exactSpot": "The floor tiles in the doorway. Look down for the three-circle shape in the pattern."

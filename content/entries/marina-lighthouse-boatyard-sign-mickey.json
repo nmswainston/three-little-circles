@@ -13,7 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Medium",
   "areaContext": "Outdoor Display",
-  "description": "The boatyard sign on the marina lighthouse conceals a classic Hidden Mickey in its design.",
+  "description": "The boatyard sign on the marina lighthouse works a classic Hidden Mickey into its design, three circles that take a close read of the lettering and ornament to find.",
   "whereToLook": {
     "scene": "Sign on the marina lighthouse",
     "exactSpot": "Read the boatyard sign closely for three circles."
@@ -32,5 +32,5 @@
   "sourceId": "TLC-RS-0083",
   "sourceUrl": "https://tinkandtoni.com/2021/06/13/hidden-mickeys-at-caribbean-beach-and-beach-club/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

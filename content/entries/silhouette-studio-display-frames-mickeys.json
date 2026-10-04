@@ -13,7 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Easy",
   "areaContext": "Shop",
-  "description": "The frames the Silhouette Studio sells and displays are worked with Mickey heads, about eight to a frame.",
+  "description": "The frames the Silhouette Studio displays and sells carry Mickey heads around their borders, about eight to a frame. Every frame shares the design, so any one on the wall shows it, though as merchandise the stock changes.",
   "whereToLook": {
     "scene": "The frames on display inside the Silhouette Studio",
     "exactSpot": "The border of any frame. Count the three-circle shapes around it."

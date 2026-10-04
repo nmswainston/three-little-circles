@@ -1697,7 +1697,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Hard",
     "areaContext": "Lobby",
-    "description": "Above the villas lobby fireplace, a red ornament hides Mickey's profile in its decoration.",
+    "description": "Above the fireplace in the villas lobby, a red ornament hides Mickey's profile in its decoration: a side view of a face with one round ear. The profile reads from across the room rather than up close.",
     "whereToLook": {
       "scene": "Red ornament above the fireplace",
       "exactSpot": "Look at the decoration for a side view of a face with a round ear."
@@ -1720,7 +1720,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0057",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "boulder-ridge-lobby-flower-painting-field-rocks-mickey",
@@ -1777,7 +1777,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "The frame of the same flower painting carries a classic Hidden Mickey in its ornament, lower right.",
+    "description": "The flower painting on the right side of the villas lobby holds three finds, and this one is in the frame rather than the picture. The ornament at the lower right corner forms a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "Flower painting on the right side of the villas lobby",
       "exactSpot": "Lower right corner of the frame."
@@ -1800,7 +1800,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0054",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "boulder-ridge-lobby-flower-painting-river-rocks-mickey",
@@ -2054,7 +2054,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Walkway",
-    "description": "In the corridor behind the cafe, a picture of a sandcastle hides a full Mickey figure in the artwork.",
+    "description": "The corridor behind the cafe is lined with artwork, and one picture of a sandcastle hides a full Mickey figure in its scene, not just the three circles.",
     "whereToLook": {
       "scene": "Corridor behind the cafe, with artwork along its walls",
       "exactSpot": "The sandcastle picture. Look for a full figure, not just circles."
@@ -2077,7 +2077,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0065",
     "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-city-scene-great-movie-ride-marquee",
@@ -2377,7 +2377,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Entrance",
-    "description": "Just inside the front doors of the ceremonial house, the stone floor pattern forms a classic Hidden Mickey.",
+    "description": "Just inside the front doors of the ceremonial house, three stones in the floor are set as a head and two ears, a classic Hidden Mickey underfoot in the entryway.",
     "whereToLook": {
       "scene": "Floor just inside the front doors",
       "exactSpot": "Look down as you enter. Three stones set as head and ears."
@@ -2400,7 +2400,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0027",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "ceremonial-house-net-knot-mickey",
@@ -2457,7 +2457,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "In the stone wall behind the registration desk, three stones sit together as a classic Hidden Mickey.",
+    "description": "In the stone wall behind the registration desk, one large rounded stone with two smaller ones above it makes a classic Hidden Mickey. The desk itself is about the right distance from the wall to see it.",
     "whereToLook": {
       "scene": "Stone wall behind the registration desk",
       "exactSpot": "Scan the wall for one large rounded stone with two smaller ones above it."
@@ -2480,7 +2480,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0031",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "ceremonial-house-stairway-tubes-mickey",
@@ -2617,7 +2617,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "Inside City Hall, a bookshelf stands against the wall, and one book spine carries a Mickey.",
+    "description": "Inside City Hall, home to Guest Relations, a bookshelf stands against the wall, and one of the spines carries the three-circle shape.",
     "whereToLook": {
       "scene": "Inside City Hall, the bookshelf",
       "exactSpot": "Read the spines. One of them has the three-circle shape."
@@ -2969,7 +2969,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Hard",
     "areaContext": "Entrance",
-    "description": "On the curving mural to the right, a butterfly's body conceals Mickey's face.",
+    "description": "On the curving mural to the right of the station entrance, one butterfly's body is Mickey's face. The face sits in the body between the wings, not in the wing markings, among the many other creatures on the mural.",
     "whereToLook": {
       "scene": "Curving mural on the right at the station entrance",
       "exactSpot": "The butterfly. Look at its body between the wings, not the wing pattern."
@@ -2992,7 +2992,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0018",
     "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-entrance-mural-butterfly-wing-mickey",
@@ -3009,7 +3009,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Entrance",
-    "description": "In the upper right of the entrance mural, a butterfly's wing markings form a classic Hidden Mickey.",
+    "description": "High in the upper right of the animal mural at the station entrance, a butterfly carries a classic Hidden Mickey in the spots on its wings, three of them set as a head and two ears.",
     "whereToLook": {
       "scene": "Upper right of the animal mural at the station entrance",
       "exactSpot": "The butterfly high on the right. Look at the spots on its wings."
@@ -3032,7 +3032,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0026",
     "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-entrance-mural-opossum-eye-mickey",
@@ -3130,7 +3130,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Hard",
     "areaContext": "Lobby",
-    "description": "On the low mural before the theater, a silver frog looks out at you. A Mickey profile fills its left pupil.",
+    "description": "The low mural just before the theater has a silver frog looking out at you, and a Mickey profile fills the pupil of its left eye. The whole mural sits well below eye level.",
     "whereToLook": {
       "scene": "Low mural just before the theater",
       "exactSpot": "The silver frog. Look into its left eye."
@@ -3153,7 +3153,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0019",
     "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-rainforest-panel-leaf-hole-mickey",
@@ -3369,7 +3369,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Entrance",
-    "description": "The left entrance door of the resort gift shop has a classic Hidden Mickey worked into its design.",
+    "description": "The left entrance door of the resort gift shop carries a classic Hidden Mickey in its decoration and hardware, part of the door itself.",
     "whereToLook": {
       "scene": "Left entrance door of the gift shop",
       "exactSpot": "Look at the door's decoration and hardware for three circles."
@@ -3392,7 +3392,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0087",
     "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-springs-resorts/2026/08/01/disneys-coronado-springs-resort-hidden-mickey",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "cosmic-coaster-city-model-domes-mickey",
@@ -3568,7 +3568,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Easy",
     "areaContext": "Shop",
-    "description": "During the holidays, the decoration to the left of the storefront hangs ornaments grouped as Hidden Mickeys.",
+    "description": "During the holiday season, the decoration to the left of the Cristal d'Orleans storefront hangs its ornaments in groups of three, one large and two small, so each cluster reads as a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "The holiday decoration left of the Cristal d'Orleans storefront",
       "exactSpot": "The ornaments. Groups of three, one large and two small."
@@ -3608,7 +3608,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
-    "description": "In the tile work on the floor at the shop's south doorway, the pattern forms a Hidden Mickey underfoot.",
+    "description": "At the shop's south doorway, the floor tile pattern forms a classic Hidden Mickey underfoot, three circles set into the tilework right where you step through the door.",
     "whereToLook": {
       "scene": "The south doorway of Cristal d'Orleans, the floor",
       "exactSpot": "The floor tiles in the doorway. Look down for the three-circle shape in the pattern."
@@ -4931,7 +4931,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
-    "description": "As your ship enters the ride, more alphabet blocks sit on the floor, and seen straight on they spell P PAN.",
+    "description": "In the first moments after your ship enters the building, more alphabet blocks sit on the floor, and read face-on as you glide past they spell P PAN. They are in view for only a second.",
     "whereToLook": {
       "scene": "The first moments after the ship enters the building",
       "exactSpot": "Blocks on the floor, read face-on as you glide past."
@@ -6846,7 +6846,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "The lobby carpet's red and gold motifs include one arranged as a classic Hidden Mickey.",
+    "description": "The carpet in the grand lobby repeats a red and gold pattern, and within each repeat the motifs line up as a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "Carpet in the grand lobby",
       "exactSpot": "Read the red and gold pattern for three circles together."
@@ -6869,7 +6869,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0074",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "grand-lobby-marble-floor-corner-panel-mickey",
@@ -6886,7 +6886,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "In a green corner panel of the marble lobby floor, orange marble outlines a classic Hidden Mickey.",
+    "description": "In a green corner panel of the marble floor in the grand lobby, orange marble outlines a classic Hidden Mickey. The panel is easiest to pick out from the upper balcony, with the whole floor in view.",
     "whereToLook": {
       "scene": "Marble floor of the grand lobby",
       "exactSpot": "A green panel in a corner of the floor. Look for orange marble in a three-circle outline."
@@ -6909,7 +6909,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0069",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "grand-lobby-marble-floor-dog",
@@ -6926,7 +6926,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "The loyal yellow dog is also in the marble floor inlay.",
+    "description": "The character inlay in the marble floor of the grand lobby includes the loyal yellow dog, shown in profile with his long nose and floppy ears. He is the third of the four characters hidden in the inlay.",
     "whereToLook": {
       "scene": "Character inlay in the marble lobby floor",
       "exactSpot": "Look for the long nose and floppy ears in profile."
@@ -6949,7 +6949,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0072",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "grand-lobby-marble-floor-duck",
@@ -6966,7 +6966,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "The sailor-suited duck completes the set of characters in the marble floor inlay.",
+    "description": "The sailor-suited duck is the last of the four characters in the marble floor inlay of the grand lobby. His bill and his cap give him away.",
     "whereToLook": {
       "scene": "Character inlay in the marble lobby floor",
       "exactSpot": "Look for the bill and the cap."
@@ -6989,7 +6989,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0073",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "grand-lobby-marble-floor-goof",
@@ -7006,7 +7006,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "In the same marble floor inlay, the tall goof appears among the characters.",
+    "description": "The tall goof is the second of the four characters in the marble floor inlay of the grand lobby. His hat and long ears are what to pick out.",
     "whereToLook": {
       "scene": "Character inlay in the marble lobby floor",
       "exactSpot": "Look for the hat and the long ears."
@@ -7029,7 +7029,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0071",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "grand-lobby-marble-floor-minnie",
@@ -7046,7 +7046,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "The marble floor of the grand lobby has a character design inlaid in it. Minnie is one of the characters.",
+    "description": "The marble floor of the grand lobby has a character design inlaid in it, four characters in all, and Minnie is one of them. Her bow is what sets her apart from the other three.",
     "whereToLook": {
       "scene": "Character inlay in the marble lobby floor",
       "exactSpot": "Find the inlay and look for the bow."
@@ -7069,7 +7069,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0070",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "grand-lobby-wallpaper-repeating-mickey",
@@ -7086,7 +7086,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "The wallpaper pattern in the grand lobby repeats a classic Hidden Mickey within its decoration.",
+    "description": "The wallpaper in the grand lobby repeats a classic Hidden Mickey inside its decoration, so every repeat of the pattern carries one. The walls near the elevators are the easiest to get close to.",
     "whereToLook": {
       "scene": "Wallpaper in the grand lobby",
       "exactSpot": "Look closely at one repeat of the wallpaper pattern."
@@ -7109,7 +7109,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0075",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "great-hall-lobby-column-base-logs-mickey",
@@ -10110,7 +10110,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Easy",
     "areaContext": "Shop",
-    "description": "The tiles on the coffee bar counter beside the register include a classic Hidden Mickey design.",
+    "description": "The tilework on the front of the coffee bar counter, beside the register, includes a classic Hidden Mickey in its pattern, on the face of the counter where you stand to order.",
     "whereToLook": {
       "scene": "Coffee bar counter beside the register",
       "exactSpot": "The tilework on the counter front. Look for three circles in the pattern."
@@ -10133,7 +10133,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0032",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "legacy-photo-panels-boy-band-portraits",
@@ -10424,7 +10424,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Easy",
     "areaContext": "Shop",
-    "description": "The sign attached to the gift shop's banner carries a raised classic Hidden Mickey as decoration.",
+    "description": "The sign on the gift shop's banner carries a raised classic Hidden Mickey as its ornament, in plain view from the lobby floor below.",
     "whereToLook": {
       "scene": "Sign on the shop's banner",
       "exactSpot": "Look at the raised ornament on the sign."
@@ -10447,7 +10447,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0077",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "lodge-entrance-pavement-lizard-mickey",
@@ -11111,7 +11111,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Medium",
     "areaContext": "Walkway",
-    "description": "The fruit cart at Center Street has a Mickey worked into its frame, underneath the cart.",
+    "description": "The fruit cart at Center Street, off the east side of Main Street, carries a Mickey in the metal frame underneath the cart rather than anywhere in its signage.",
     "whereToLook": {
       "scene": "The fruit cart at Center Street, off the east side of Main Street",
       "exactSpot": "Underneath the cart, in the metal frame."
@@ -11433,7 +11433,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Medium",
     "areaContext": "Outdoor Display",
-    "description": "The boatyard sign on the marina lighthouse conceals a classic Hidden Mickey in its design.",
+    "description": "The boatyard sign on the marina lighthouse works a classic Hidden Mickey into its design, three circles that take a close read of the lettering and ornament to find.",
     "whereToLook": {
       "scene": "Sign on the marina lighthouse",
       "exactSpot": "Read the boatyard sign closely for three circles."
@@ -11452,7 +11452,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0083",
     "sourceUrl": "https://tinkandtoni.com/2021/06/13/hidden-mickeys-at-caribbean-beach-and-beach-club/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "mark-twain-dock-painted-sign-steamboat-willie",
@@ -11913,7 +11913,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Medium",
     "areaContext": "Entrance",
-    "description": "The sign for the undersea stage show has a small Mickey motif worked into its design.",
+    "description": "The attraction sign at the theater entrance works a small Mickey into its decoration, three circles tucked among the waves and shells of the design.",
     "whereToLook": {
       "scene": "Attraction sign at the theater entrance",
       "exactSpot": "In the decorative details of the sign. Look for three circles among the waves and shells."
@@ -11936,7 +11936,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0012",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-little-mermaid",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "mexico-pyramid-boat-finale-barge-drums-mickey",
@@ -13235,7 +13235,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "The column to the right of the counter carries a second, separate classic Hidden Mickey in its detailing.",
+    "description": "At the counter inside the studio, the column on the right carries a classic Hidden Mickey in its decoration. It is a second, separate find from the one on the left column, not a mirror of it.",
     "whereToLook": {
       "scene": "Counter area inside the studio",
       "exactSpot": "The column on the right of the counter. Look at its decoration."
@@ -13258,7 +13258,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DS-0007",
     "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "pieces-of-eight-exit-corridor-antique-lock-mickey",
@@ -14883,7 +14883,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Hard",
     "areaContext": "Shop",
-    "description": "The brown hood's pinstriping conceals a very small Hidden Mickey right in the middle of the design.",
+    "description": "Among the custom hoods on display inside the shop, the brown one is finished in pinstripe, and dead center in the design the stripes draw a tiny classic Hidden Mickey. It is the smallest of the hood Mickeys.",
     "whereToLook": {
       "scene": "The custom hoods on display inside the shop, the brown pinstriped one",
       "exactSpot": "Dead center of the hood. The shape is tiny and drawn in pinstripe."
@@ -14923,7 +14923,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
-    "description": "The hood with the intricate geometric paint job hides a Mickey near its upper right corner.",
+    "description": "The geometric hood on display inside the shop builds a classic Hidden Mickey out of its own pattern. It sits near the upper right corner, away from the center of the design where the eye lands first.",
     "whereToLook": {
       "scene": "The custom hoods on display inside the shop, the geometric one",
       "exactSpot": "Upper right corner of the hood. The three-circle shape is built from the geometry."
@@ -14963,7 +14963,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
-    "description": "One displayed hood is painted with a lace pattern, and a classic Hidden Mickey is woven into the lacework.",
+    "description": "One of the custom hoods inside the shop is painted to look like lace. The pattern repeats across the hood, and at one point the repeat breaks so that three circles sit together as a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "The custom hoods on display inside the shop, the lace-patterned one",
       "exactSpot": "Follow the lace pattern for a spot where three circles sit together."
@@ -15123,7 +15123,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
-    "description": "On the white hood with flames, a Hidden Mickey sits just inside the orange stripe that edges the design.",
+    "description": "On the white hood with the flame paint job, an orange stripe edges the design, and a classic Hidden Mickey sits just inside it, three circles right beside the line.",
     "whereToLook": {
       "scene": "The custom hoods on display inside the shop, the white one with flames",
       "exactSpot": "Just inside the orange stripe. Trace the stripe and the three circles are right beside it."
@@ -15284,7 +15284,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Medium",
     "areaContext": "Outdoor Display",
-    "description": "On the rock surface of the reef playground, three circular hollows form a classic Hidden Mickey.",
+    "description": "On the sculpted rock of the reef playground, three round hollows sit together as a classic Hidden Mickey, a head and two ears set into the rock face.",
     "whereToLook": {
       "scene": "Rock surfaces of the playground",
       "exactSpot": "Look at the sculpted rock for three round hollows together."
@@ -15308,7 +15308,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0038",
     "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "restaurant-stairway-waterfall-rockwork-mickey",
@@ -15605,7 +15605,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
-    "description": "Low on the left wall of the queue, three plates hang together. They form a tilted classic Hidden Mickey.",
+    "description": "Low on the left wall of the queue, below the props at eye level, three plates hang together: one large and two small, tilted sideways. Together they make a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "Left wall of the queue, low",
       "exactSpot": "Three plates on the lower left wall. One large, two small, tilted.",
@@ -15629,7 +15629,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0029",
     "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "riviera-grand-villa-arch-artwork-mickey",
@@ -15687,7 +15687,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Walkway",
-    "description": "The guest corridor carpet hides Minnie in its scrollwork. The bow is what gives her away.",
+    "description": "The carpet in the guest room corridors hides Minnie in its scrollwork: the three-circle shape with a bow on top. She sits near the Mickey in the same carpet.",
     "whereToLook": {
       "scene": "Carpet in the guest room corridors",
       "exactSpot": "Look for the three-circle shape with a bow on top."
@@ -15710,7 +15710,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0044",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "riviera-lobby-balcony-railing-scrolls-mickey",
@@ -15807,7 +15807,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Walkway",
-    "description": "In the carpet just past the lobby lounge, the scrollwork outlines a classic Hidden Mickey.",
+    "description": "In the carpet just past the lobby lounge, the scrollwork outlines three circles together as a classic Hidden Mickey, once in every repeat of the pattern.",
     "whereToLook": {
       "scene": "Carpet past the lobby lounge",
       "exactSpot": "Look down at the scrollwork pattern for three circles together."
@@ -15830,7 +15830,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0043",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "riviera-mural-teddy-bear-mickey",
@@ -15888,7 +15888,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Walkway",
-    "description": "The carpet by the west elevators has a circular pattern, and the sailor-suited duck is hidden inside it.",
+    "description": "The carpet at the west elevators has a circular motif, and the sailor-suited duck hides inside it, one of two characters in this carpet. His bill and cap are the giveaway.",
     "whereToLook": {
       "scene": "Carpet at the west elevators",
       "exactSpot": "The circular motif. Look for a bill and cap in the pattern."
@@ -15911,7 +15911,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0045",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "riviera-west-elevator-carpet-goof",
@@ -15928,7 +15928,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Walkway",
-    "description": "In the same circular carpet pattern by the west elevators, the tall goof's hat and floppy ears appear.",
+    "description": "In the same circular carpet pattern at the west elevators, the tall goof appears with his hat and long ears, in the same repeat as the duck.",
     "whereToLook": {
       "scene": "Carpet at the west elevators",
       "exactSpot": "The circular motif. Look for a tall hat and long ears."
@@ -15951,7 +15951,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0046",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-riviera-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "roaring-fork-fishing-display-nut-caps-mickey",
@@ -16369,7 +16369,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "A painted cow in the dining room has a spot on its side that resembles a classic Hidden Mickey.",
+    "description": "A painted cow in the dining room wears a spot on its side that reads as a classic Hidden Mickey. The dining room is table service, so a reservation is what gets you in front of it.",
     "whereToLook": {
       "scene": "Cow illustration in the dining room",
       "exactSpot": "The cow's side. Look at the spots for one shaped like three circles."
@@ -16393,7 +16393,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0008",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-roundup-rodeo-bbq-cow",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "rodeo-barbecue-mobile-circles-mickey",
@@ -16531,7 +16531,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Medium",
     "areaContext": "Entrance",
-    "description": "The painted pub sign hanging outside has a classic Hidden Mickey worked into its decoration.",
+    "description": "The painted pub sign hanging at the entrance works a classic Hidden Mickey into the decoration around the rose and the crown. Both faces of the sign are painted, including the one toward the water.",
     "whereToLook": {
       "scene": "Hanging pub sign at the entrance",
       "exactSpot": "In the painted decoration around the rose and the crown."
@@ -16554,7 +16554,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-EP-0027",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-rose-crown-pub",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "rotating-garden-restaurant-mural-fern-face-mickey",
@@ -17093,7 +17093,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Easy",
     "areaContext": "Shop",
-    "description": "The frames the Silhouette Studio sells and displays are worked with Mickey heads, about eight to a frame.",
+    "description": "The frames the Silhouette Studio displays and sells carry Mickey heads around their borders, about eight to a frame. Every frame shares the design, so any one on the wall shows it, though as merchandise the stock changes.",
     "whereToLook": {
       "scene": "The frames on display inside the Silhouette Studio",
       "exactSpot": "The border of any frame. Count the three-circle shapes around it."
@@ -22498,7 +22498,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "In the villas' resort studios, the air vent grille is cut with a classic Hidden Mickey in its pattern.",
+    "description": "In the villas' resort studios, the air vent grille is cut with a classic Hidden Mickey in its pattern, three circles among the cutouts. The same grille hides a second surprise beside it.",
     "whereToLook": {
       "scene": "Air vent in the resort studio",
       "exactSpot": "The grille. Look at the cutout pattern for three circles."
@@ -22522,7 +22522,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0078",
     "sourceUrl": "https://www.disneyfoodblog.com/2022/03/09/photos-go-inside-the-new-rooms-coming-to-disneys-grand-floridian-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "villas-resort-studio-air-vent-umbrellas",
@@ -22580,7 +22580,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Medium",
     "areaContext": "Outdoor Display",
-    "description": "The volcano that anchors the main pool has a classic Hidden Mickey carved into its side.",
+    "description": "The volcano that anchors the main pool has a classic Hidden Mickey carved into the rock on its side, on the face turned away from the slide where fewer people look.",
     "whereToLook": {
       "scene": "Volcano at the main pool",
       "exactSpot": "The side of the volcano. Walk around it and look at the carved rock."
@@ -22604,7 +22604,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0093",
     "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2025/02/12/polynesian-village-resort-pool-hidden-mickey",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "water-journey-rock-wall-mickey",
@@ -23104,7 +23104,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "The transportation sign in the lobby shows a bus. Mickey sits in the driver's seat beside the lettering.",
+    "description": "The transportation sign in the lobby shows a bus, and Mickey sits in its driver's seat beside the lettering, on the same sign guests read for bus times.",
     "whereToLook": {
       "scene": "Transportation sign in the lobby",
       "exactSpot": "The bus on the sign. Look at the driver's seat."
@@ -23127,7 +23127,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0050",
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "winged-flight-lab-specimen-containers-mickey",

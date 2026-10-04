@@ -13,7 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
-  "description": "In a green corner panel of the marble lobby floor, orange marble outlines a classic Hidden Mickey.",
+  "description": "In a green corner panel of the marble floor in the grand lobby, orange marble outlines a classic Hidden Mickey. The panel is easiest to pick out from the upper balcony, with the whole floor in view.",
   "whereToLook": {
     "scene": "Marble floor of the grand lobby",
     "exactSpot": "A green panel in a corner of the floor. Look for orange marble in a three-circle outline."
@@ -36,5 +36,5 @@
   "sourceId": "TLC-RS-0069",
   "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

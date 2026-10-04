@@ -13,7 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Shop",
-  "description": "One displayed hood is painted with a lace pattern, and a classic Hidden Mickey is woven into the lacework.",
+  "description": "One of the custom hoods inside the shop is painted to look like lace. The pattern repeats across the hood, and at one point the repeat breaks so that three circles sit together as a classic Hidden Mickey.",
   "whereToLook": {
     "scene": "The custom hoods on display inside the shop, the lace-patterned one",
     "exactSpot": "Follow the lace pattern for a spot where three circles sit together."
