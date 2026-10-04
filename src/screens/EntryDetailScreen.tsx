@@ -8,7 +8,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { RootStackParamList, RootTabParamList } from "../navigation/types";
 import { getEntryById, getRelatedEntries } from "../data/query";
 import { HiddenMickeyEntry } from "../data/types";
-import { getConfirmation } from "../data/confirmations";
+import { getConfirmation, isConfirmed } from "../data/confirmations";
 import { getEntryImageSource } from "../data/images";
 import { labelOrFallback } from "../data/labels";
 import { openDirections } from "../lib/maps";
@@ -16,6 +16,7 @@ import { entryShareText, shareText } from "../lib/share";
 import { notify } from "../lib/notify";
 import { useFoundStore } from "../store/useFoundStore";
 import { useSettingsStore } from "../store/useSettingsStore";
+import { useConfirmationsStore } from "../store/useConfirmationsStore";
 import { Theme, useParkPalette, useStyles, useTheme } from "../theme/ThemeProvider";
 import { spacing, radii, text } from "../theme/tokens";
 import Sunburst from "../components/ui/Sunburst";
@@ -54,11 +55,14 @@ const VERIFICATION_LABEL: Record<NonNullable<HiddenMickeyEntry["verification"]>,
 /** Chip text for a status worth warning about. Current needs no chip. */
 const STATUS_LABEL: Record<NonNullable<HiddenMickeyEntry["status"]>, string | null> = {
   Current: null,
-  Unverified: "Unconfirmed",
+  Unverified: "Not confirmed yet",
   Seasonal: "Seasonal",
   Variable: "Props move",
   Removed: "Removed",
 };
+
+/** Turns the caveat into an ask: the two taps on "Still there?" are how an unconfirmed find gets confirmed. */
+const UNCONFIRMED_NOTE = "No one has confirmed this one yet. Found it? Tap 'Saw it today' below so others know.";
 
 function formatMonthYear(iso: string): string | null {
   const date = new Date(iso);
@@ -93,6 +97,10 @@ export default function EntryDetailScreen() {
   // find already marked has nothing left to protect, so it shows in full.
   const hintMode = useSettingsStore((s) => s.hintMode);
   const [revealed, setRevealed] = useState(0);
+
+  // This device's own "Still there?" report, so the ask below goes away once
+  // the guest has answered it.
+  const myReport = useConfirmationsStore((s) => s.reported[entryId]);
 
   const backButton = (
     <Pressable
@@ -159,7 +167,12 @@ export default function EntryDetailScreen() {
   ]
     .filter(Boolean)
     .join(" · ");
-  const statusLabel = entry.status ? STATUS_LABEL[entry.status] : null;
+  // A "Still there?" report outranks the content, so an unconfirmed find
+  // guests have since seen drops its caveat here, matching the checkmark on
+  // its row. The other statuses describe the find itself and always show.
+  const confirmed = isConfirmed(entry);
+  const statusLabel = entry.status && (entry.status !== "Unverified" || !confirmed) ? STATUS_LABEL[entry.status] : null;
+  const inviteReport = entry.status === "Unverified" && !confirmed && !myReport;
 
   return (
     <View style={styles.screen}>
@@ -197,6 +210,13 @@ export default function EntryDetailScreen() {
         </View>
 
         <View style={styles.body}>
+          {inviteReport && (
+            <View style={styles.unconfirmed}>
+              <Ionicons name="alert-circle-outline" size={18} color={t.colors.tipText} accessibilityElementsHidden importantForAccessibility="no" />
+              <Text style={styles.unconfirmedText}>{UNCONFIRMED_NOTE}</Text>
+            </View>
+          )}
+
           {entry.coordinates && (
             <View style={styles.mapRow}>
               <Pressable
@@ -541,6 +561,17 @@ const createStyles = (t: Theme) =>
     },
     provenanceText: {
       ...text.meta,
+      color: t.colors.textSecondary,
+    },
+    unconfirmed: {
+      flexDirection: "row",
+      alignItems: "flex-start",
+      gap: spacing.sm,
+      paddingHorizontal: spacing.xs,
+    },
+    unconfirmedText: {
+      ...text.bodySmall,
+      flex: 1,
       color: t.colors.textSecondary,
     },
     access: {
