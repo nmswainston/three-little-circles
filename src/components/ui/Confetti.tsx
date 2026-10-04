@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useRef } from 'react';
 import { View, Animated, Easing, StyleSheet, Platform } from 'react-native';
+import { useReducedMotion } from '../../lib/useReducedMotion';
 
 const PIECE_COUNT = 26;
 
@@ -12,6 +13,7 @@ interface ConfettiProps {
  * on mount; give it a fresh key to fire again.
  */
 export default function Confetti({ colors }: ConfettiProps) {
+  const reduceMotion = useReducedMotion();
   const progress = useRef(Array.from({ length: PIECE_COUNT }, () => new Animated.Value(0))).current;
 
   const pieces = useMemo(
@@ -31,6 +33,7 @@ export default function Confetti({ colors }: ConfettiProps) {
   );
 
   useEffect(() => {
+    if (reduceMotion) return;
     Animated.stagger(
       12,
       progress.map((value, i) =>
@@ -42,7 +45,10 @@ export default function Confetti({ colors }: ConfettiProps) {
         })
       )
     ).start();
-  }, [pieces, progress]);
+  }, [pieces, progress, reduceMotion]);
+
+  // No burst at all, rather than a still pile of pieces.
+  if (reduceMotion) return null;
 
   return (
     <View style={styles.layer} accessibilityElementsHidden importantForAccessibility="no-hide-descendants">
