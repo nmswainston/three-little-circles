@@ -23,6 +23,8 @@ import BadgeSummaryCard from "../components/BadgeSummaryCard";
 import NearYouCard from "../components/NearYouCard";
 import { findNearYou } from "../lib/nearYou";
 import { useDeviceLocation } from "../lib/useDeviceLocation";
+import { describeLastViewed } from "../lib/lastViewed";
+import { useRecentStore } from "../store/useRecentStore";
 
 type NavigationProp = CompositeNavigationProp<
   NativeStackNavigationProp<RootStackParamList>,
@@ -49,6 +51,8 @@ export default function ParksScreen() {
   const found = useFoundStore((s) => s.found);
 
   const location = useDeviceLocation();
+  const lastEntryId = useRecentStore((s) => s.lastEntryId);
+  const lastViewed = useMemo(() => describeLastViewed(lastEntryId), [lastEntryId]);
   const nearYou = useMemo(
     () => (location.position ? findNearYou(getAllEntries(), location.position, found) : undefined),
     [location.position, found]
@@ -139,8 +143,10 @@ export default function ParksScreen() {
           <NearYouCard
             here={nearYou}
             canAsk={location.status === "ask"}
+            lastViewed={lastViewed}
             onAsk={() => location.request().catch(() => {})}
             onShowNearby={() => navigation.navigate("MapTab", { screen: "Map", params: { locate: true } })}
+            onContinue={() => lastViewed && navigation.navigate("EntryDetail", { entryId: lastViewed.entryId })}
           />
         )}
 
