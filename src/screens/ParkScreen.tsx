@@ -1,5 +1,17 @@
-import React, { useCallback, useMemo, useRef, useState } from "react";
-import { SectionList, SectionListData, SectionListRenderItem, StyleSheet, View, Text, TextInput, Pressable } from "react-native";
+import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import {
+  Animated,
+  NativeScrollEvent,
+  NativeSyntheticEvent,
+  SectionList,
+  SectionListData,
+  SectionListRenderItem,
+  StyleSheet,
+  View,
+  Text,
+  TextInput,
+  Pressable,
+} from "react-native";
 import { useRoute, RouteProp, useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
@@ -21,6 +33,7 @@ import { labelOrFallback } from "../data/labels";
 import { Difficulty } from "../data/types";
 import { parkShareText, shareText } from "../lib/share";
 import { notify } from "../lib/notify";
+import { useReducedMotion } from "../lib/useReducedMotion";
 import { useFoundStore } from "../store/useFoundStore";
 import { useSettingsStore } from "../store/useSettingsStore";
 import { Theme, useParkPalette, useStyles, useTheme } from "../theme/ThemeProvider";
@@ -48,6 +61,9 @@ type AttractionItem = AttractionGroup & { landId: string };
 type LandSection = LandGroup & { data: AttractionItem[] };
 const attractionKey = (item: AttractionItem) => `${item.landId}:${item.attractionId}`;
 type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
+
+/** Height of the bar that stays at the top, below the status bar. */
+const TOP_BAR_HEIGHT = 52;
 
 /** Space a land header takes, so a jump lands the first attraction just under it. */
 const LAND_HEADER_OFFSET = 44;
@@ -224,38 +240,85 @@ export default function ParkScreen() {
     [styles, palette, navigation]
   );
 
+  // The back and share buttons live in a bar that stays put. Once the big
+  // header has scrolled up under it, the bar also shows the park name and a
+  // thin progress line, so the list gets the screen without losing the way back.
+  const reduceMotion = useReducedMotion();
+  const [compact, setCompact] = useState(false);
+  const headerHeight = useRef(160);
+  const compactFade = useRef(new Animated.Value(0)).current;
+  const onScroll = useCallback((e: NativeSyntheticEvent<NativeScrollEvent>) => {
+    const next = e.nativeEvent.contentOffset.y > headerHeight.current - 24;
+    setCompact((prev) => (prev === next ? prev : next));
+  }, []);
+  useEffect(() => {
+    if (!compact) return;
+    compactFade.setValue(reduceMotion ? 1 : 0);
+    if (!reduceMotion) Animated.timing(compactFade, { toValue: 1, duration: 160, useNativeDriver: true }).start();
+  }, [compact, compactFade, reduceMotion]);
+
+  const topBar = (
+    <View style={[styles.topBar, { backgroundColor: headerBg, paddingTop: insets.top }]}>
+      <Sunburst
+        color={t.dark ? palette.accent : t.colors.textOnAccent}
+        opacity={t.dark ? 0.08 : 0.14}
+        center={{ x: 195, y: -190 + insets.top }}
+      />
+      <View style={styles.topBarRow}>
+        <Pressable
+          onPress={() => navigation.goBack()}
+          accessibilityRole="button"
+          accessibilityLabel="Back"
+          hitSlop={8}
+          style={styles.backButton}
+        >
+          <Ionicons name="arrow-back" size={24} color={headerText} />
+        </Pressable>
+        {compact ? (
+          <Animated.View style={[styles.compactTitleWrap, { opacity: compactFade }]}>
+            <Text style={[styles.compactTitle, { color: headerText }]} numberOfLines={1} accessibilityRole="header">
+              {parkName}
+            </Text>
+            {hasFinds && (
+              <Text style={[styles.compactCount, { color: headerText }]}>{`${foundCount}/${parkEntries.length}`}</Text>
+            )}
+          </Animated.View>
+        ) : (
+          <View style={styles.compactTitleWrap} />
+        )}
+        <Pressable
+          onPress={() => handleShare().catch(() => {})}
+          accessibilityRole="button"
+          accessibilityLabel="Share park progress"
+          hitSlop={8}
+          style={styles.shareButton}
+        >
+          <Ionicons name="share-outline" size={22} color={headerText} />
+        </Pressable>
+      </View>
+      {compact && hasFinds && (
+        <Animated.View style={[styles.compactTrack, { backgroundColor: track, opacity: compactFade }]}>
+          <View style={[styles.fill, { width: `${pct}%` }]} />
+        </Animated.View>
+      )}
+    </View>
+  );
+
   const header = (
     <>
-      <View style={[styles.header, { backgroundColor: headerBg, paddingTop: insets.top + spacing.sm }]}>
+      <View
+        style={[styles.header, { backgroundColor: headerBg, paddingTop: spacing.sm }]}
+        onLayout={(e) => {
+          headerHeight.current = e.nativeEvent.layout.height;
+        }}
+      >
         <Sunburst
           color={t.dark ? palette.accent : t.colors.textOnAccent}
           opacity={t.dark ? 0.08 : 0.14}
-          center={{ x: 195, y: -190 + insets.top }}
+          center={{ x: 195, y: -190 - TOP_BAR_HEIGHT }}
         />
-        <View style={styles.headerRow}>
-          <Pressable
-            onPress={() => navigation.goBack()}
-            accessibilityRole="button"
-            accessibilityLabel="Back"
-            hitSlop={8}
-            style={styles.backButton}
-          >
-            <Ionicons name="arrow-back" size={24} color={headerText} />
-          </Pressable>
-          <View style={styles.headerActions}>
-            <Pressable
-              onPress={() => handleShare().catch(() => {})}
-              accessibilityRole="button"
-              accessibilityLabel="Share park progress"
-              hitSlop={8}
-              style={styles.shareButton}
-            >
-              <Ionicons name="share-outline" size={22} color={headerText} />
-            </Pressable>
-            <View style={[styles.headerDisc, { backgroundColor: headerDisc }]}>
-              <Ionicons name={PARK_ICONS[parkKey] as IconName} size={22} color={headerText} accessibilityElementsHidden importantForAccessibility="no" />
-            </View>
-          </View>
+        <View style={[styles.headerDisc, { backgroundColor: headerDisc }]}>
+          <Ionicons name={PARK_ICONS[parkKey] as IconName} size={22} color={headerText} accessibilityElementsHidden importantForAccessibility="no" />
         </View>
         {destination?.region && (
           <Text style={[styles.eyebrow, { color: headerMuted }]}>{destination.region}</Text>
@@ -504,6 +567,7 @@ export default function ParkScreen() {
 
   return (
     <View style={styles.screen}>
+      {topBar}
       <SectionList
         ref={listRef}
         sections={sections}
@@ -513,6 +577,8 @@ export default function ParkScreen() {
         ListHeaderComponent={header}
         ListFooterComponent={footer}
         stickySectionHeadersEnabled
+        onScroll={onScroll}
+        scrollEventThrottle={16}
         onScrollToIndexFailed={onScrollToIndexFailed}
         contentContainerStyle={styles.scroll}
         showsVerticalScrollIndicator={false}
@@ -540,10 +606,39 @@ const createStyles = (t: Theme) =>
       borderBottomLeftRadius: radii.xl,
       borderBottomRightRadius: radii.xl,
     },
-    headerRow: {
+    topBar: {
+      position: "relative",
+      overflow: "hidden",
+      paddingHorizontal: spacing.lg,
+    },
+    topBarRow: {
       flexDirection: "row",
       alignItems: "center",
       justifyContent: "space-between",
+      height: TOP_BAR_HEIGHT,
+    },
+    compactTitleWrap: {
+      flex: 1,
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: spacing.sm,
+      paddingHorizontal: spacing.sm,
+    },
+    compactTitle: {
+      ...text.cardTitle,
+      flexShrink: 1,
+    },
+    compactCount: {
+      ...text.meta,
+      fontVariant: ["tabular-nums"],
+    },
+    compactTrack: {
+      position: "absolute",
+      left: 0,
+      right: 0,
+      bottom: 0,
+      height: 3,
     },
     backButton: {
       width: 44,
@@ -552,11 +647,6 @@ const createStyles = (t: Theme) =>
       alignItems: "center",
       justifyContent: "center",
     },
-    headerActions: {
-      flexDirection: "row",
-      alignItems: "center",
-      gap: spacing.xs,
-    },
     shareButton: {
       width: 44,
       height: 44,
@@ -564,19 +654,25 @@ const createStyles = (t: Theme) =>
       justifyContent: "center",
     },
     headerDisc: {
+      position: "absolute",
+      top: spacing.sm,
+      right: spacing.lg,
       width: 44,
       height: 44,
       borderRadius: 22,
       alignItems: "center",
       justifyContent: "center",
     },
+    // The park icon sits in the top right, so the two lines beside it leave room.
     eyebrow: {
       ...text.eyebrow,
-      marginTop: spacing.sm + 4,
+      marginTop: spacing.sm,
+      marginRight: 56,
     },
     title: {
       ...text.display,
       marginTop: spacing.xs,
+      marginRight: 56,
     },
     progressRow: {
       flexDirection: "row",

@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
+import { SectionList } from 'react-native';
 import { fireEvent, render, screen } from '@testing-library/react-native';
 import ParkScreen from '../src/screens/ParkScreen';
 import { getAllEntries, getParksSummary, groupByLand } from '../src/data/query';
@@ -158,6 +159,27 @@ describe('ParkScreen', () => {
     expect(screen.getByText('Nothing here yet')).toBeTruthy();
     fireEvent.press(screen.getByText('Clear filters'));
     expect(screen.getAllByText(title).length).toBeGreaterThan(0);
+  });
+
+  it('shows the park name and count in the top bar once the header has scrolled away', () => {
+    render(<ParkScreen />);
+    expect(screen.getAllByText(parkName)).toHaveLength(1);
+    expect(screen.queryByText(`0/${entries.length}`)).toBeNull();
+
+    fireEvent.scroll(screen.UNSAFE_getByType(SectionList), { nativeEvent: { contentOffset: { y: 500 } } });
+    expect(screen.getAllByText(parkName)).toHaveLength(2);
+    expect(screen.getByText(`0/${entries.length}`)).toBeTruthy();
+
+    fireEvent.scroll(screen.UNSAFE_getByType(SectionList), { nativeEvent: { contentOffset: { y: 0 } } });
+    expect(screen.getAllByText(parkName)).toHaveLength(1);
+  });
+
+  it('keeps Back and Share in the bar while scrolled', () => {
+    render(<ParkScreen />);
+    fireEvent.scroll(screen.UNSAFE_getByType(SectionList), { nativeEvent: { contentOffset: { y: 500 } } });
+    fireEvent.press(screen.getByLabelText('Back'));
+    expect(mockGoBack).toHaveBeenCalledTimes(1);
+    expect(screen.getByLabelText('Share park progress')).toBeTruthy();
   });
 
   it('keeps the suggestion card at the end and the back button at the top', () => {
