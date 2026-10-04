@@ -1,4 +1,5 @@
 import React from 'react';
+import { StyleSheet } from 'react-native';
 import { fireEvent, render, screen } from '@testing-library/react-native';
 import ParkScreen from '../src/screens/ParkScreen';
 import { getAllEntries, getParksSummary, groupByLand } from '../src/data/query';
@@ -38,6 +39,12 @@ beforeEach(() => {
 });
 
 describe('ParkScreen', () => {
+  it('lets the search field shrink so its clear button stays beside it', () => {
+    render(<ParkScreen />);
+    const field = screen.getByLabelText('Search this park');
+    expect(StyleSheet.flatten(field.props.style)).toMatchObject({ flex: 1, minWidth: 0 });
+  });
+
   it('shows the park, its first land, attraction, and find', () => {
     render(<ParkScreen />);
     expect(screen.getByText(parkName)).toBeTruthy();
