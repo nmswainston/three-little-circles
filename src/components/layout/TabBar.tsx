@@ -93,7 +93,7 @@ const createStyles = (t: Theme) =>
     item: {
       alignItems: 'center',
       gap: spacing.xs,
-      width: 72,
+      minWidth: 72,
       minHeight: 44,
     },
     pill: {

@@ -7,6 +7,7 @@ import { Theme, useStyles, useTheme } from '../theme/ThemeProvider';
 import { spacing, radii, text, shadows } from '../theme/tokens';
 import Badge from './ui/Badge';
 import Confetti from './ui/Confetti';
+import { useReducedMotion } from '../lib/useReducedMotion';
 
 const HIDDEN_Y = -180;
 const SHOW_MS = 4200;
@@ -26,14 +27,20 @@ export default function AchievementToast() {
   const current = pending[0];
   const achievement = useMemo(() => (current ? getAchievement(current) : undefined), [current]);
   const translateY = useRef(new Animated.Value(HIDDEN_Y)).current;
+  const reduceMotion = useReducedMotion();
 
   const hide = useCallback(() => {
+    // With reduced motion the toast appears and goes without sliding.
+    if (reduceMotion) {
+      dismissPending();
+      return;
+    }
     Animated.timing(translateY, {
       toValue: HIDDEN_Y,
       duration: 220,
       useNativeDriver: Platform.OS !== 'web',
     }).start(() => dismissPending());
-  }, [translateY, dismissPending]);
+  }, [translateY, dismissPending, reduceMotion]);
 
   useEffect(() => {
     if (!current) return;
@@ -42,16 +49,20 @@ export default function AchievementToast() {
     }
     const earned = getAchievement(current);
     if (earned) AccessibilityInfo.announceForAccessibility(`Badge unlocked: ${earned.title}`);
-    translateY.setValue(HIDDEN_Y);
-    Animated.spring(translateY, {
-      toValue: 0,
-      friction: 7,
-      tension: 60,
-      useNativeDriver: Platform.OS !== 'web',
-    }).start();
+    if (reduceMotion) {
+      translateY.setValue(0);
+    } else {
+      translateY.setValue(HIDDEN_Y);
+      Animated.spring(translateY, {
+        toValue: 0,
+        friction: 7,
+        tension: 60,
+        useNativeDriver: Platform.OS !== 'web',
+      }).start();
+    }
     const timer = setTimeout(hide, SHOW_MS);
     return () => clearTimeout(timer);
-  }, [current, translateY, hide]);
+  }, [current, translateY, hide, reduceMotion]);
 
   if (!achievement) return null;
 

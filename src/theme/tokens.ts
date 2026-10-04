@@ -29,7 +29,7 @@ export const radii = {
 // Typography - comfortable for outdoor readability
 export const typography = {
   sizes: {
-    xs: 11,
+    xs: 12,
     sm: 13,
     base: 15, // Slightly larger for outdoor readability
     md: 17,
@@ -136,7 +136,7 @@ export const text = StyleSheet.create({
     fontFamily: typography.fonts.bodyExtrabold,
     fontWeight: 'normal',
     fontSize: typography.sizes.xs,
-    lineHeight: 14,
+    lineHeight: 16,
     letterSpacing: 0.6,
     textTransform: 'uppercase',
   },

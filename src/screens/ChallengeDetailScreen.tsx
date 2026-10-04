@@ -17,6 +17,7 @@ import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
 import { spacing, radii, text } from "../theme/tokens";
 import Sunburst from "../components/ui/Sunburst";
 import ProgressRing from "../components/ui/ProgressRing";
+import { MAX_SCALE, useScaledSize } from "../lib/useScaledSize";
 import Badge from "../components/ui/Badge";
 import EmptyState from "../components/ui/EmptyState";
 import EntryRow from "../components/EntryRow";
@@ -41,6 +42,7 @@ export default function ChallengeDetailScreen() {
   const navigation = useNavigation<NavigationProp>();
   const t = useTheme();
   const styles = useStyles(createStyles);
+  const ringSize = useScaledSize(76);
   const insets = useSafeAreaInsets();
 
   const challenge = getChallenge(route.params.challengeId);
@@ -133,11 +135,15 @@ export default function ChallengeDetailScreen() {
               .filter(Boolean)
               .join(", ")}
           >
-            <View style={styles.ringWrap}>
-              <ProgressRing progress={done ? 1 : progress.fraction} size={76} strokeWidth={8} color={palette.accent} />
+            <View style={[styles.ringWrap, { width: ringSize, height: ringSize }]}>
+              <ProgressRing progress={done ? 1 : progress.fraction} size={ringSize} strokeWidth={8} color={palette.accent} />
               <View style={styles.ringCenter}>
-                <Text style={styles.ringCount}>{progress.current}</Text>
-                <Text style={styles.ringOf}>of {progress.goal}</Text>
+                <Text style={styles.ringCount} maxFontSizeMultiplier={MAX_SCALE}>
+                  {progress.current}
+                </Text>
+                <Text style={styles.ringOf} maxFontSizeMultiplier={MAX_SCALE}>
+                  of {progress.goal}
+                </Text>
               </View>
             </View>
             <View style={styles.summaryText}>
@@ -289,8 +295,6 @@ const createStyles = (t: Theme) =>
       padding: spacing.md,
     },
     ringWrap: {
-      width: 76,
-      height: 76,
       alignItems: "center",
       justifyContent: "center",
     },

@@ -27,6 +27,7 @@ import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
 import { spacing, radii, text } from "../theme/tokens";
 import PageHeader from "../components/layout/PageHeader";
 import ProgressRing from "../components/ui/ProgressRing";
+import { MAX_SCALE, useScaledSize } from "../lib/useScaledSize";
 import Chip from "../components/ui/Chip";
 import Badge from "../components/ui/Badge";
 import AchievementSheet from "../components/AchievementSheet";
@@ -51,6 +52,7 @@ type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 export default function ProfileScreen() {
   const t = useTheme();
   const styles = useStyles(createStyles);
+  const ringSize = useScaledSize(100);
   const navigation = useNavigation<NavigationProp>();
 
   const found = useFoundStore((s) => s.found);
@@ -189,11 +191,15 @@ export default function ProfileScreen() {
               .filter(Boolean)
               .join(", ")}
           >
-            <View style={styles.ringWrap}>
-              <ProgressRing progress={progress} size={100} strokeWidth={10} />
+            <View style={[styles.ringWrap, { width: ringSize, height: ringSize }]}>
+              <ProgressRing progress={progress} size={ringSize} strokeWidth={10} />
               <View style={styles.ringCenter}>
-                <Text style={styles.ringPct}>{Math.round(progress * 100)}%</Text>
-                <Text style={styles.ringLabel}>complete</Text>
+                <Text style={styles.ringPct} maxFontSizeMultiplier={MAX_SCALE}>
+                  {Math.round(progress * 100)}%
+                </Text>
+                <Text style={styles.ringLabel} maxFontSizeMultiplier={MAX_SCALE}>
+                  complete
+                </Text>
               </View>
             </View>
             <View style={styles.heroText}>
@@ -490,8 +496,6 @@ const createStyles = (t: Theme) =>
       padding: spacing.md,
     },
     ringWrap: {
-      width: 100,
-      height: 100,
       alignItems: "center",
       justifyContent: "center",
     },

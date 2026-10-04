@@ -3,6 +3,7 @@ import { Pressable, Animated, Text, StyleSheet, Platform } from 'react-native';
 import * as Haptics from 'expo-haptics';
 import { Ionicons } from '@expo/vector-icons';
 import { Theme, useStyles, useTheme } from '../../theme/ThemeProvider';
+import { useReducedMotion } from '../../lib/useReducedMotion';
 import { spacing, radii, text } from '../../theme/tokens';
 
 interface FoundButtonProps {
@@ -18,8 +19,10 @@ export default function FoundButton({ found, onToggle }: FoundButtonProps) {
   const t = useTheme();
   const styles = useStyles(createStyles);
   const scale = useRef(new Animated.Value(1)).current;
+  const reduceMotion = useReducedMotion();
 
   const pop = () => {
+    if (reduceMotion) return;
     scale.setValue(1);
     Animated.sequence([
       Animated.timing(scale, { toValue: 1.05, duration: 90, useNativeDriver: Platform.OS !== 'web' }),
