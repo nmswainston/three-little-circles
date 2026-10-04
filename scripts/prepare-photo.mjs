@@ -30,7 +30,7 @@ const buildScript = join(here, "build-entries.mjs");
 /** Same limit as build-entries.mjs. */
 const MAX_BYTES = 300 * 1024;
 const MAX_SIDE = 1200;
-/** Below this the detail itself starts to go; better to ask for a tighter crop. */
+/** Shrinking stops here: below this the detail itself starts to go, so ask for a tighter crop instead. */
 const MIN_SIDE = 600;
 const QUALITIES = [82, 76, 70, 64, 58, 52];
 /** Keys that come after "image" in an entry, so a new image lands in the usual place. */
@@ -81,7 +81,8 @@ function isHeif(buffer) {
 /**
  * Re-encodes the photo until it fits: first by stepping the JPEG quality down,
  * then, if that is not enough, by shrinking the long side and trying again.
- * Returns undefined when even MIN_SIDE at the lowest quality is too big.
+ * A photo that is already small is tried at its own size; the floor only
+ * stops the shrinking. Returns undefined when nothing fits.
  */
 async function encode(input) {
   const meta = await sharp(input, { failOn: "error" }).metadata();
@@ -91,7 +92,7 @@ async function encode(input) {
   const source = { width, height };
 
   let side = Math.min(MAX_SIDE, Math.max(width, height));
-  while (side >= MIN_SIDE) {
+  for (;;) {
     for (const quality of QUALITIES) {
       // rotate() with no argument applies the EXIF orientation to the pixels.
       // With no withMetadata(), the output carries no EXIF, GPS, or maker
@@ -106,9 +107,10 @@ async function encode(input) {
         return { buffer, quality, width: out.width, height: out.height, source };
       }
     }
-    side = Math.round(side * 0.85);
+    const smaller = Math.round(side * 0.85);
+    if (smaller < MIN_SIDE) return undefined;
+    side = smaller;
   }
-  return undefined;
 }
 
 /** The entry with "image" set, in place if it had one, else before the trailing keys. */
@@ -172,7 +174,7 @@ async function main() {
   }
   if (!result) {
     die(
-      `Couldn't get the photo under ${MAX_BYTES / 1024} KB even at ${MIN_SIDE} px on the long side. ` +
+      `Couldn't get the photo under ${MAX_BYTES / 1024} KB without shrinking it below ${MIN_SIDE} px on the long side. ` +
         "Crop it to the detail itself and try again."
     );
   }

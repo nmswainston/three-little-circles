@@ -109,6 +109,22 @@ describe('prepare-photo', () => {
     expect(result.stdout).toContain('metadata stripped');
   });
 
+  it('keeps a photo that is already small at its own size', () => {
+    const small = join(root, 'small.jpg');
+    sharpEval(
+      `await sharp({ create: { width: 400, height: 300, channels: 3, background: { r: 200, g: 180, b: 120 } } })
+         .jpeg({ quality: 90 }).toFile(p.out);
+       console.log("{}");`,
+      { out: small }
+    );
+    const result = run('sample-find', small, '--alt', 'A small test card');
+    expect(result.stderr).toBe('');
+    expect(result.status).toBe(0);
+    const out = inspect(output());
+    expect([out.width, out.height]).toEqual([400, 300]);
+    expect(readEntry().image.file).toBe('sample-find.jpg');
+  });
+
   it('writes nothing on a dry run', () => {
     const result = run('sample-find', photo, '--alt', 'Three circles on a wall', '--dry-run');
     expect(result.status).toBe(0);
