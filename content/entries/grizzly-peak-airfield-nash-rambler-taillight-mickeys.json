@@ -1,0 +1,40 @@
+{
+  "id": "grizzly-peak-airfield-nash-rambler-taillight-mickeys",
+  "parkId": "california_pier_park",
+  "landId": "grizzly_peak_area",
+  "attractionId": "grizzly_peak_airfield",
+  "display": {
+    "entryTitle": "Nash Rambler Taillight Mickeys",
+    "parkName": "Disney California Adventure",
+    "landName": "Grizzly Peak",
+    "attractionName": "Grizzly Peak Airfield"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Outdoor Display",
+  "description": "A vintage Nash Rambler is parked across the walkway from Soarin'. Its taillights are Mickeys.",
+  "whereToLook": {
+    "scene": "The Nash Rambler parked across from the Soarin' entrance",
+    "exactSpot": "The taillights. Each one is a Mickey head."
+  },
+  "bestTip": "Walk around to the back bumper.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8081,
+    "longitude": -117.9207
+  },
+  "sourceId": "TLC-CA-0056",
+  "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Grizzly-Peak1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

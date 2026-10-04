@@ -1,0 +1,40 @@
+{
+  "id": "soarin-preshow-aviator-shorts-mickey",
+  "parkId": "california_pier_park",
+  "landId": "grizzly_peak_area",
+  "attractionId": "soarin_around_the_world",
+  "display": {
+    "entryTitle": "Pre-show Aviator Shorts Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Grizzly Peak",
+    "attractionName": "Soarin' Around the World"
+  },
+  "entryType": "FIND",
+  "locationType": "Pre-show",
+  "difficulty": "Easy",
+  "areaContext": "Queue",
+  "description": "In the pre-show safety video, a little aviator is the example passenger. Look at his shorts. Mickey is right there on them.",
+  "whereToLook": {
+    "scene": "The pre-show video, the little aviator used as the example",
+    "exactSpot": "His shorts. A Mickey on the fabric."
+  },
+  "bestTip": "Most people watch the host. Watch the kid.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8082,
+    "longitude": -117.921
+  },
+  "sourceId": "TLC-CA-0057",
+  "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-6",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

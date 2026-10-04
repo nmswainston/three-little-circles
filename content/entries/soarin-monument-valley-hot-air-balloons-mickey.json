@@ -1,0 +1,40 @@
+{
+  "id": "soarin-monument-valley-hot-air-balloons-mickey",
+  "parkId": "california_pier_park",
+  "landId": "grizzly_peak_area",
+  "attractionId": "soarin_around_the_world",
+  "display": {
+    "entryTitle": "Monument Valley Hot Air Balloons Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Grizzly Peak",
+    "attractionName": "Soarin' Around the World"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Flying over Monument Valley in Soarin' Around the World, three hot air balloons drift into line and form a Hidden Mickey for a moment.",
+  "whereToLook": {
+    "scene": "The Monument Valley segment of Soarin' Around the World",
+    "exactSpot": "The hot air balloons. Three of them line up as a head and ears."
+  },
+  "bestTip": "Watch the balloons as a group rather than following one.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8082,
+    "longitude": -117.921
+  },
+  "sourceId": "TLC-CA-0059",
+  "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

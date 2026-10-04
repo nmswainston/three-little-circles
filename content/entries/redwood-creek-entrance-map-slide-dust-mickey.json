@@ -1,0 +1,40 @@
+{
+  "id": "redwood-creek-entrance-map-slide-dust-mickey",
+  "parkId": "california_pier_park",
+  "landId": "grizzly_peak_area",
+  "attractionId": "redwood_creek_challenge_trail",
+  "display": {
+    "entryTitle": "Entrance Map Slide Dust Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Grizzly Peak",
+    "attractionName": "Redwood Creek Challenge Trail"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "On the same Redwood Creek entrance map, the dust cloud at the bottom of the Hoot 'n' Holler slides is drawn as a Mickey.",
+  "whereToLook": {
+    "scene": "The trail map at the Redwood Creek Challenge Trail entrance, left side",
+    "exactSpot": "The dust at the bottom of the Hoot 'n' Holler slides."
+  },
+  "bestTip": "Second of three on the map.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8072,
+    "longitude": -117.9205
+  },
+  "sourceId": "TLC-CA-0065",
+  "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Redwood-Creek2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

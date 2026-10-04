@@ -1,0 +1,41 @@
+{
+  "id": "soarin-over-california-finale-fireworks-mickey",
+  "parkId": "california_pier_park",
+  "landId": "grizzly_peak_area",
+  "attractionId": "soarin_around_the_world",
+  "display": {
+    "entryTitle": "Over California Finale Fireworks Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Grizzly Peak",
+    "attractionName": "Soarin' Around the World"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Soarin' Over California ends over Disneyland at night with the holiday parade on Main Street. When the castle fireworks start, one large burst with two small ones beside it, a little left of center, forms one of the cleanest firework Mickeys anywhere.",
+  "whereToLook": {
+    "scene": "The Disneyland finale of Soarin' Over California, the castle fireworks",
+    "exactSpot": "Slightly left of center. One large burst with two small ones."
+  },
+  "bestTip": "Eyes on the castle the moment the parade passes.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Flashing",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Seasonal",
+  "accessNotes": "Only when Soarin' Over California is running in place of Around the World.",
+  "coordinates": {
+    "latitude": 33.8082,
+    "longitude": -117.921
+  },
+  "sourceId": "TLC-CA-0063",
+  "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-5",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

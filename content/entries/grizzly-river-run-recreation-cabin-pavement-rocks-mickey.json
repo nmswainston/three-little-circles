@@ -1,0 +1,40 @@
+{
+  "id": "grizzly-river-run-recreation-cabin-pavement-rocks-mickey",
+  "parkId": "california_pier_park",
+  "landId": "grizzly_peak_area",
+  "attractionId": "river_rapids_raft_ride",
+  "display": {
+    "entryTitle": "Recreation Area Cabin Pavement Rocks Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Grizzly Peak",
+    "attractionName": "Grizzly River Run"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "By the Grizzly Peak Recreation Area cabin, look to the right of the fence. Rocks set into the pavement form a Mickey. Another report puts it just right of the rock wall behind Big Al, which may be the same spot.",
+  "whereToLook": {
+    "scene": "The Grizzly Peak Recreation Area cabin, the pavement right of the fence",
+    "exactSpot": "Rocks in the pavement. Three set as a head and ears."
+  },
+  "bestTip": "Look down along the fence line, then check right of the rock wall behind Big Al.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8068,
+    "longitude": -117.9199
+  },
+  "sourceId": "TLC-CA-0067",
+  "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#GRR-1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
