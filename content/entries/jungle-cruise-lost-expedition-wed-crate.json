@@ -1,0 +1,40 @@
+{
+  "id": "jungle-cruise-lost-expedition-wed-crate",
+  "parkId": "california_kingdom_park",
+  "landId": "jungle_outpost_area",
+  "attractionId": "jungle_boat_ride",
+  "display": {
+    "entryTitle": "Lost Expedition WED Crate",
+    "parkName": "Disneyland Park",
+    "landName": "Adventureland",
+    "attractionName": "Jungle Cruise"
+  },
+  "entryType": "FACT",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "At the Lost Expedition camp, where the gorillas have taken over, one crate behind the apes is stenciled WED Expedition. The letters are Walt's initials, Walter Elias Disney, and the name of the design company that grew into Imagineering.",
+  "whereToLook": {
+    "scene": "The Lost Expedition camp scene with the gorillas",
+    "exactSpot": "A crate behind the gorillas, stenciled WED Expedition."
+  },
+  "bestTip": "The skipper's gorilla jokes pull your eye to the apes. Look past them at the cargo.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8114,
+    "longitude": -117.9201
+  },
+  "sourceId": "TLC-DL-0033",
+  "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Jungle-Cruise1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
