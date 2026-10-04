@@ -1,0 +1,40 @@
+{
+  "id": "redwood-creek-entrance-map-camp-circle-stumps-mickey",
+  "parkId": "california_pier_park",
+  "landId": "grizzly_peak_area",
+  "attractionId": "redwood_creek_challenge_trail",
+  "display": {
+    "entryTitle": "Entrance Map Camp Circle Stumps Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Grizzly Peak",
+    "attractionName": "Redwood Creek Challenge Trail"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "The map of the play area at the Redwood Creek entrance hides three Mickeys on its left side. The first is three stumps in the Ahwahnee Camp Circle. The map was redrawn after Up came out, and all three survived.",
+  "whereToLook": {
+    "scene": "The trail map at the Redwood Creek Challenge Trail entrance, left side",
+    "exactSpot": "The Ahwahnee Camp Circle. Three stumps as a head and ears."
+  },
+  "bestTip": "Three Mickeys on one map. Start with the camp circle.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8072,
+    "longitude": -117.9205
+  },
+  "sourceId": "TLC-CA-0064",
+  "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Redwood-Creek1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

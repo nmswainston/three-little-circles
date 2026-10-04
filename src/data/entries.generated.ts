@@ -8153,6 +8153,86 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
+    "id": "grizzly-peak-airfield-nash-rambler-taillight-mickeys",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "grizzly_peak_airfield",
+    "display": {
+      "entryTitle": "Nash Rambler Taillight Mickeys",
+      "parkName": "Disney California Adventure",
+      "landName": "Grizzly Peak",
+      "attractionName": "Grizzly Peak Airfield"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Outdoor Display",
+    "description": "A vintage Nash Rambler is parked across the walkway from Soarin'. Its taillights are Mickeys.",
+    "whereToLook": {
+      "scene": "The Nash Rambler parked across from the Soarin' entrance",
+      "exactSpot": "The taillights. Each one is a Mickey head."
+    },
+    "bestTip": "Walk around to the back bumper.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8081,
+      "longitude": -117.9207
+    },
+    "sourceId": "TLC-CA-0056",
+    "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Grizzly-Peak1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "grizzly-river-run-recreation-cabin-pavement-rocks-mickey",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "river_rapids_raft_ride",
+    "display": {
+      "entryTitle": "Recreation Area Cabin Pavement Rocks Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Grizzly Peak",
+      "attractionName": "Grizzly River Run"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "By the Grizzly Peak Recreation Area cabin, look to the right of the fence. Rocks set into the pavement form a Mickey. Another report puts it just right of the rock wall behind Big Al, which may be the same spot.",
+    "whereToLook": {
+      "scene": "The Grizzly Peak Recreation Area cabin, the pavement right of the fence",
+      "exactSpot": "Rocks in the pavement. Three set as a head and ears."
+    },
+    "bestTip": "Look down along the fence line, then check right of the rock wall behind Big Al.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8068,
+      "longitude": -117.9199
+    },
+    "sourceId": "TLC-CA-0067",
+    "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#GRR-1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "harambe-market-pillar-mickeys",
     "parkId": "adventure_park",
     "landId": "savanna_village_area",
@@ -16194,6 +16274,126 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
+    "id": "redwood-creek-entrance-map-camp-circle-stumps-mickey",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "redwood_creek_challenge_trail",
+    "display": {
+      "entryTitle": "Entrance Map Camp Circle Stumps Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Grizzly Peak",
+      "attractionName": "Redwood Creek Challenge Trail"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The map of the play area at the Redwood Creek entrance hides three Mickeys on its left side. The first is three stumps in the Ahwahnee Camp Circle. The map was redrawn after Up came out, and all three survived.",
+    "whereToLook": {
+      "scene": "The trail map at the Redwood Creek Challenge Trail entrance, left side",
+      "exactSpot": "The Ahwahnee Camp Circle. Three stumps as a head and ears."
+    },
+    "bestTip": "Three Mickeys on one map. Start with the camp circle.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8072,
+      "longitude": -117.9205
+    },
+    "sourceId": "TLC-CA-0064",
+    "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Redwood-Creek1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "redwood-creek-entrance-map-hibernation-hollow-stones-mickey",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "redwood_creek_challenge_trail",
+    "display": {
+      "entryTitle": "Entrance Map Hibernation Hollow Stones Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Grizzly Peak",
+      "attractionName": "Redwood Creek Challenge Trail"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The third Mickey on the Redwood Creek entrance map is in the river stones at Hibernation Hollow.",
+    "whereToLook": {
+      "scene": "The trail map at the Redwood Creek Challenge Trail entrance, left side",
+      "exactSpot": "The river stones at Hibernation Hollow. Three stones grouped as a Mickey."
+    },
+    "bestTip": "Last of three on the map.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8072,
+      "longitude": -117.9205
+    },
+    "sourceId": "TLC-CA-0066",
+    "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Redwood-Creek3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "redwood-creek-entrance-map-slide-dust-mickey",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "redwood_creek_challenge_trail",
+    "display": {
+      "entryTitle": "Entrance Map Slide Dust Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Grizzly Peak",
+      "attractionName": "Redwood Creek Challenge Trail"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "On the same Redwood Creek entrance map, the dust cloud at the bottom of the Hoot 'n' Holler slides is drawn as a Mickey.",
+    "whereToLook": {
+      "scene": "The trail map at the Redwood Creek Challenge Trail entrance, left side",
+      "exactSpot": "The dust at the bottom of the Hoot 'n' Holler slides."
+    },
+    "bestTip": "Second of three on the map.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8072,
+      "longitude": -117.9205
+    },
+    "sourceId": "TLC-CA-0065",
+    "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Redwood-Creek2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "reef-playground-rock-hollows-mickey",
     "parkId": "resorts_bucket",
     "landId": "art_of_animation_resort",
@@ -19044,6 +19244,289 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "soarin-around-the-world-finale-fireworks-mickey",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "soarin_around_the_world",
+    "display": {
+      "entryTitle": "Around the World Finale Fireworks Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Grizzly Peak",
+      "attractionName": "Soarin' Around the World"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Soarin' Around the World ends over Disneyland. After the castle, Tinker Bell sets off the fireworks, and about halfway through, in the middle of the screen, one huge burst with two small ones beside it makes a Mickey. It is the same firework Mickey that closed Soarin' Over California.",
+    "whereToLook": {
+      "scene": "The Disneyland finale of Soarin' Around the World, the fireworks",
+      "exactSpot": "Center of the screen, about halfway through the fireworks. One large burst and two small."
+    },
+    "bestTip": "Keep your eyes center once Tinker Bell flies by.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Flashing",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8082,
+      "longitude": -117.921
+    },
+    "sourceId": "TLC-CA-0060",
+    "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "soarin-monument-valley-hot-air-balloons-mickey",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "soarin_around_the_world",
+    "display": {
+      "entryTitle": "Monument Valley Hot Air Balloons Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Grizzly Peak",
+      "attractionName": "Soarin' Around the World"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Flying over Monument Valley in Soarin' Around the World, three hot air balloons drift into line and form a Hidden Mickey for a moment.",
+    "whereToLook": {
+      "scene": "The Monument Valley segment of Soarin' Around the World",
+      "exactSpot": "The hot air balloons. Three of them line up as a head and ears."
+    },
+    "bestTip": "Watch the balloons as a group rather than following one.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8082,
+      "longitude": -117.921
+    },
+    "sourceId": "TLC-CA-0059",
+    "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "soarin-over-california-finale-fireworks-mickey",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "soarin_around_the_world",
+    "display": {
+      "entryTitle": "Over California Finale Fireworks Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Grizzly Peak",
+      "attractionName": "Soarin' Around the World"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Soarin' Over California ends over Disneyland at night with the holiday parade on Main Street. When the castle fireworks start, one large burst with two small ones beside it, a little left of center, forms one of the cleanest firework Mickeys anywhere.",
+    "whereToLook": {
+      "scene": "The Disneyland finale of Soarin' Over California, the castle fireworks",
+      "exactSpot": "Slightly left of center. One large burst with two small ones."
+    },
+    "bestTip": "Eyes on the castle the moment the parade passes.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Flashing",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Seasonal",
+    "accessNotes": "Only when Soarin' Over California is running in place of Around the World.",
+    "coordinates": {
+      "latitude": 33.8082,
+      "longitude": -117.921
+    },
+    "sourceId": "TLC-CA-0063",
+    "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-5",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "soarin-over-california-golf-ball-mickey",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "soarin_around_the_world",
+    "display": {
+      "entryTitle": "Over California Golf Ball Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Grizzly Peak",
+      "attractionName": "Soarin' Around the World"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Over Palm Springs in Soarin' Over California, a golf ball comes flying straight at you. There is a Mickey on the ball. It is gone in an instant, so it may take a second ride.",
+    "whereToLook": {
+      "scene": "Soarin' Over California, the Palm Springs golf course",
+      "exactSpot": "The golf ball hit toward the screen. A Mickey on its surface."
+    },
+    "bestTip": "Know it is coming. The ball is in frame for less than a second.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Seasonal",
+    "accessNotes": "Only when Soarin' Over California is running in place of Around the World.",
+    "coordinates": {
+      "latitude": 33.8082,
+      "longitude": -117.921
+    },
+    "sourceId": "TLC-CA-0062",
+    "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "soarin-over-california-golf-cart-mickey-balloon",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "soarin_around_the_world",
+    "display": {
+      "entryTitle": "Over California Golf Cart Mickey Balloon",
+      "parkName": "Disney California Adventure",
+      "landName": "Grizzly Peak",
+      "attractionName": "Soarin' Around the World"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In Soarin' Over California, which returns for limited runs, the flight toward the golf course passes a golf cart in the lower left. The man standing on the far side of the cart holds a small Mickey balloon.",
+    "whereToLook": {
+      "scene": "Soarin' Over California, approaching the golf course, lower left of the screen",
+      "exactSpot": "The man on the far side of the golf cart. A Mickey balloon in his hand."
+    },
+    "bestTip": "Look down and left before the golf ball comes at you.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Seasonal",
+    "accessNotes": "Only when Soarin' Over California is running in place of Around the World.",
+    "coordinates": {
+      "latitude": 33.8082,
+      "longitude": -117.921
+    },
+    "sourceId": "TLC-CA-0061",
+    "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-7",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "soarin-preshow-aviator-shirt-grumpy",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "soarin_around_the_world",
+    "display": {
+      "entryTitle": "Pre-show Aviator Shirt Grumpy",
+      "parkName": "Disney California Adventure",
+      "landName": "Grizzly Peak",
+      "attractionName": "Soarin' Around the World"
+    },
+    "entryType": "FACT",
+    "locationType": "Pre-show",
+    "difficulty": "Easy",
+    "areaContext": "Queue",
+    "description": "The same little aviator in the pre-show video wears Grumpy across his chest, looking exactly as pleased as usual.",
+    "whereToLook": {
+      "scene": "The pre-show video, the little aviator used as the example",
+      "exactSpot": "His shirt. Grumpy's face across the chest."
+    },
+    "bestTip": "Shorts for Mickey, shirt for Grumpy. Same kid.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8082,
+      "longitude": -117.921
+    },
+    "sourceId": "TLC-CA-0058",
+    "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "soarin-preshow-aviator-shorts-mickey",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "soarin_around_the_world",
+    "display": {
+      "entryTitle": "Pre-show Aviator Shorts Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Grizzly Peak",
+      "attractionName": "Soarin' Around the World"
+    },
+    "entryType": "FIND",
+    "locationType": "Pre-show",
+    "difficulty": "Easy",
+    "areaContext": "Queue",
+    "description": "In the pre-show safety video, a little aviator is the example passenger. Look at his shorts. Mickey is right there on them.",
+    "whereToLook": {
+      "scene": "The pre-show video, the little aviator used as the example",
+      "exactSpot": "His shorts. A Mickey on the fabric."
+    },
+    "bestTip": "Most people watch the host. Watch the kid.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8082,
+      "longitude": -117.921
+    },
+    "sourceId": "TLC-CA-0057",
+    "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-6",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "space-coaster-exit-diorama-robot-dog-tag",

@@ -1,0 +1,40 @@
+{
+  "id": "soarin-around-the-world-finale-fireworks-mickey",
+  "parkId": "california_pier_park",
+  "landId": "grizzly_peak_area",
+  "attractionId": "soarin_around_the_world",
+  "display": {
+    "entryTitle": "Around the World Finale Fireworks Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Grizzly Peak",
+    "attractionName": "Soarin' Around the World"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Soarin' Around the World ends over Disneyland. After the castle, Tinker Bell sets off the fireworks, and about halfway through, in the middle of the screen, one huge burst with two small ones beside it makes a Mickey. It is the same firework Mickey that closed Soarin' Over California.",
+  "whereToLook": {
+    "scene": "The Disneyland finale of Soarin' Around the World, the fireworks",
+    "exactSpot": "Center of the screen, about halfway through the fireworks. One large burst and two small."
+  },
+  "bestTip": "Keep your eyes center once Tinker Bell flies by.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Flashing",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8082,
+    "longitude": -117.921
+  },
+  "sourceId": "TLC-CA-0060",
+  "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
