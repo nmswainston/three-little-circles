@@ -2000,6 +2000,127 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "buena-vista-street-bridge-pavement-cracks-mickey",
+    "parkId": "california_pier_park",
+    "landId": "buena_vista_street_area",
+    "attractionId": "buena_vista_street_walkway",
+    "display": {
+      "entryTitle": "Bridge Pavement Cracks Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Buena Vista Street",
+      "attractionName": "Buena Vista Street"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Walking into the park, as you pass under the bridge, earthquake cracks run through the pavement on your left. The cracks are laid out as a Mickey head.",
+    "whereToLook": {
+      "scene": "Just inside the park entrance, passing under the bridge, the pavement on the left",
+      "exactSpot": "The cracks in the pavement. Three cracked circles as a head and ears."
+    },
+    "bestTip": "Look down before you look up at the street.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8083,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-CA-0028",
+    "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#BVS-General1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "buena-vista-street-elias-and-company-ad-open-mickey",
+    "parkId": "california_pier_park",
+    "landId": "buena_vista_street_area",
+    "attractionId": "buena_vista_street_walkway",
+    "display": {
+      "entryTitle": "Elias and Company Ad Tiny Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Buena Vista Street",
+      "attractionName": "Buena Vista Street"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "On the wall to the right of the Chamber of Commerce building, near Oswald's, a painted ad reads Elias and Company, Open 7 Days. Just right of the N in Open sits a very small Mickey. You need to get close to the wall to see it.",
+    "whereToLook": {
+      "scene": "The painted ad on the wall right of the Chamber of Commerce, near Oswald's",
+      "exactSpot": "Immediately right of the letter N in the word Open. A tiny Mickey."
+    },
+    "bestTip": "Walk right up to the wall. It does not read from the sidewalk.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8083,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-CA-0030",
+    "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#BVS-General3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "buena-vista-street-five-and-dime-jalopy-tire-tread-mickey",
+    "parkId": "california_pier_park",
+    "landId": "buena_vista_street_area",
+    "attractionId": "buena_vista_street_walkway",
+    "display": {
+      "entryTitle": "Five & Dime Jalopy Tire Tread Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Buena Vista Street",
+      "attractionName": "Buena Vista Street"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "When the Five & Dime jazz band pulls up on Buena Vista Street for a set, check the tires on their jalopy. The tread pattern is Mickey Mouse.",
+    "whereToLook": {
+      "scene": "The Five & Dime band's jalopy, parked on Buena Vista Street during a set",
+      "exactSpot": "The tire tread. Mickey shapes molded into the rubber."
+    },
+    "bestTip": "Only when the band is performing. Check the show schedule.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "accessNotes": "The jalopy is only on the street during Five & Dime performances.",
+    "coordinates": {
+      "latitude": 33.8083,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-CA-0029",
+    "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#BVS-General2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "buzz-astro-blasters-briefing-room-sector-1-planet-mickey",
     "parkId": "california_kingdom_park",
     "landId": "future_city_area",
@@ -2278,6 +2399,87 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "carthay-circle-dining-room-ceiling-bridge-stones-mickey",
+    "parkId": "california_pier_park",
+    "landId": "buena_vista_street_area",
+    "attractionId": "carthay_circle_restaurant",
+    "display": {
+      "entryTitle": "Dining Room Ceiling Bridge Stones Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Buena Vista Street",
+      "attractionName": "Carthay Circle Restaurant"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the second floor dining room, four chandeliers hang from a painted ceiling. One side of the painting shows a bridge, and under the bridge three stones are grouped as a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The second floor dining room, the painted ceiling around the chandeliers",
+      "exactSpot": "The painted bridge. The stones beneath it form a head and ears."
+    },
+    "bestTip": "Ask for a table under the painted side of the ceiling, or look up on the way to the restroom.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "The dining room is upstairs and reservations are usually needed.",
+    "coordinates": {
+      "latitude": 33.8073,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-CA-0039",
+    "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Carthay-Circle2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "carthay-circle-terrazzo-floor-tiny-mickey",
+    "parkId": "california_pier_park",
+    "landId": "buena_vista_street_area",
+    "attractionId": "carthay_circle_restaurant",
+    "display": {
+      "entryTitle": "Terrazzo Floor Tiny Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Buena Vista Street",
+      "attractionName": "Carthay Circle Restaurant"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Entrance",
+    "description": "One of the toughest finds in the resort is set into the white terrazzo floor at Carthay Circle. It is tiny. Find the 1901 button on the wall to the right of the entrance door and look at the floor directly beneath it.",
+    "whereToLook": {
+      "scene": "The Carthay Circle entrance, the terrazzo floor to the right of the door",
+      "exactSpot": "On the floor below the 1901 button on the wall. A very small Mickey in the terrazzo."
+    },
+    "bestTip": "Find the button first. Without it you will search the whole floor.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8073,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-CA-0038",
+    "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Carthay-Circle1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-city-scene-great-movie-ride-marquee",
@@ -2839,6 +3041,46 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-DL-0003",
     "sourceUrl": "https://hiddenmickeywiki.com/Town_Square#City-Hall1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "clarabelles-milk-bottles-cow-spot-mickeys",
+    "parkId": "california_pier_park",
+    "landId": "buena_vista_street_area",
+    "attractionId": "clarabelles_ice_cream",
+    "display": {
+      "entryTitle": "Milk Bottles Cow Spot Mickeys",
+      "parkName": "Disney California Adventure",
+      "landName": "Buena Vista Street",
+      "attractionName": "Clarabelle's Hand-Scooped Ice Cream"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Shop",
+    "description": "Behind the counter, Clarabelle's Dairy milk bottles are on display. Their cow spot pattern includes classic Mickeys, but they are tiny and easy to miss.",
+    "whereToLook": {
+      "scene": "The milk bottles displayed behind the counter at Clarabelle's",
+      "exactSpot": "The cow spots on the bottles. Three spots grouped as a head and ears."
+    },
+    "bestTip": "Order something, then study the bottles while you wait.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8081,
+      "longitude": -117.9191
+    },
+    "sourceId": "TLC-CA-0033",
+    "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Clarabelles-1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
@@ -4150,6 +4392,86 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0040",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "elias-and-co-grand-room-balcony-railing-mickey",
+    "parkId": "california_pier_park",
+    "landId": "buena_vista_street_area",
+    "attractionId": "elias_and_co",
+    "display": {
+      "entryTitle": "Grand Room Balcony Railing Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Buena Vista Street",
+      "attractionName": "Elias & Co."
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "In the grand room of Elias & Co., mannequins in 1920s dress pose on a railed balcony overhead. The railing's design works in a Mickey head, a little odd in shape but with the ears right where they should be.",
+    "whereToLook": {
+      "scene": "The grand room of Elias & Co., the mannequin balcony above",
+      "exactSpot": "The balcony railing. A Mickey head worked into the design."
+    },
+    "bestTip": "Look up at the railing, not at the mannequins.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.808,
+      "longitude": -117.9186
+    },
+    "sourceId": "TLC-CA-0034",
+    "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Elias-1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "elias-and-co-jewelry-room-art-deco-motif-mickey",
+    "parkId": "california_pier_park",
+    "landId": "buena_vista_street_area",
+    "attractionId": "elias_and_co",
+    "display": {
+      "entryTitle": "Jewelry Room Art Deco Motif Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Buena Vista Street",
+      "attractionName": "Elias & Co."
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "The last room of Elias & Co., the one whose doors open toward Hollywood Land, was the jewelry department and still sells jewelry. The art deco motif that circles the room hides a classic Mickey pattern.",
+    "whereToLook": {
+      "scene": "The last room of Elias & Co., with doors to Hollywood Land",
+      "exactSpot": "The art deco band running around the room. Look for the three-circle repeat."
+    },
+    "bestTip": "Follow the trim around the room at eye level and above.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.808,
+      "longitude": -117.9186
+    },
+    "sourceId": "TLC-CA-0035",
+    "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Elias-2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "emporium-exit-clock-mickey",
@@ -9620,6 +9942,87 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "julius-katz-window-television-test-pattern-mickey",
+    "parkId": "california_pier_park",
+    "landId": "buena_vista_street_area",
+    "attractionId": "julius_katz_and_sons",
+    "display": {
+      "entryTitle": "Window Television Test Pattern Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Buena Vista Street",
+      "attractionName": "Julius Katz & Sons"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Outdoor Display",
+    "description": "One of the Julius Katz & Sons window displays holds a 1930s black-and-white television. The test pattern on its screen has Mickey ears at the center.",
+    "whereToLook": {
+      "scene": "The Julius Katz & Sons display window with the vintage television",
+      "exactSpot": "The center of the test pattern on the screen."
+    },
+    "bestTip": "It is a window display, so no need to go inside.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8083,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-CA-0036",
+    "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Julius-1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "julius-katz-window-vintage-locks-mickey",
+    "parkId": "california_pier_park",
+    "landId": "buena_vista_street_area",
+    "attractionId": "julius_katz_and_sons",
+    "display": {
+      "entryTitle": "Window Vintage Locks Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Buena Vista Street",
+      "attractionName": "Julius Katz & Sons"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "The 1930s padlocks in the Julius Katz & Sons window were clearly picked for their shape. Each one is a classic Mickey. They used to sit on a bookshelf and now live in a box on the floor of the display, so expect them to move.",
+    "whereToLook": {
+      "scene": "The Julius Katz & Sons display window, the box of old locks",
+      "exactSpot": "The padlocks. Each body and shackle makes a Mickey head."
+    },
+    "bestTip": "The display gets rearranged. Scan the whole window for the locks.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "The display changes over time."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 33.8083,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-CA-0037",
+    "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Julius-2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "jungle-boat-dock-rope-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "jungle_outpost_area",
@@ -13302,6 +13705,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
+    "id": "oswalds-wall-double-bell-alarm-mickey",
+    "parkId": "california_pier_park",
+    "landId": "buena_vista_street_area",
+    "attractionId": "oswalds",
+    "display": {
+      "entryTitle": "Wall Double Bell Alarm Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Buena Vista Street",
+      "attractionName": "Oswald's"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "A vintage fire alarm with two bells hangs on a wall inside Oswald's. The round body with a bell on each side reads as a Mickey head, and the prop was chosen for exactly that reason.",
+    "whereToLook": {
+      "scene": "Inside Oswald's, the vintage alarm on the wall",
+      "exactSpot": "The double bell alarm. Body for the head, bells for the ears."
+    },
+    "bestTip": "Look above the merchandise at the wall fixtures.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8089,
+      "longitude": -117.9195
+    },
+    "sourceId": "TLC-CA-0031",
+    "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Oswalds-1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "partners-statue-dumbo-on-ball-mickey",
     "parkId": "california_kingdom_park",
     "landId": "main_street_area",
@@ -15427,6 +15870,46 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-CA-0026",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-8",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "red-car-trolley-entrance-station-pillar-stone-mickey",
+    "parkId": "california_pier_park",
+    "landId": "buena_vista_street_area",
+    "attractionId": "red_car_trolley",
+    "display": {
+      "entryTitle": "Entrance Station Pillar Stone Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Buena Vista Street",
+      "attractionName": "Red Car Trolley"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "At the trolley station near the park entrance, look at the support pillar closest to Buena Vista Street. Under a row of four red bricks, a round stone forms the head, and two stones to its right are shaped to fit against it as ears.",
+    "whereToLook": {
+      "scene": "The Red Car Trolley station nearest the park entrance, the pillar closest to the street",
+      "exactSpot": "Below four red bricks. A round stone with two fitted stones to its right."
+    },
+    "bestTip": "Use the four red bricks as the landmark and look directly beneath them.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8088,
+      "longitude": -117.9192
+    },
+    "sourceId": "TLC-CA-0032",
+    "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Redcar-Trolley1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },

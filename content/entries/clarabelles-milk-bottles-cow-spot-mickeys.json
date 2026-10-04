@@ -1,0 +1,40 @@
+{
+  "id": "clarabelles-milk-bottles-cow-spot-mickeys",
+  "parkId": "california_pier_park",
+  "landId": "buena_vista_street_area",
+  "attractionId": "clarabelles_ice_cream",
+  "display": {
+    "entryTitle": "Milk Bottles Cow Spot Mickeys",
+    "parkName": "Disney California Adventure",
+    "landName": "Buena Vista Street",
+    "attractionName": "Clarabelle's Hand-Scooped Ice Cream"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Shop",
+  "description": "Behind the counter, Clarabelle's Dairy milk bottles are on display. Their cow spot pattern includes classic Mickeys, but they are tiny and easy to miss.",
+  "whereToLook": {
+    "scene": "The milk bottles displayed behind the counter at Clarabelle's",
+    "exactSpot": "The cow spots on the bottles. Three spots grouped as a head and ears."
+  },
+  "bestTip": "Order something, then study the bottles while you wait.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8081,
+    "longitude": -117.9191
+  },
+  "sourceId": "TLC-CA-0033",
+  "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Clarabelles-1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

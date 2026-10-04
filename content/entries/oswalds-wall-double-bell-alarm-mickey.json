@@ -1,0 +1,40 @@
+{
+  "id": "oswalds-wall-double-bell-alarm-mickey",
+  "parkId": "california_pier_park",
+  "landId": "buena_vista_street_area",
+  "attractionId": "oswalds",
+  "display": {
+    "entryTitle": "Wall Double Bell Alarm Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Buena Vista Street",
+    "attractionName": "Oswald's"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Shop",
+  "description": "A vintage fire alarm with two bells hangs on a wall inside Oswald's. The round body with a bell on each side reads as a Mickey head, and the prop was chosen for exactly that reason.",
+  "whereToLook": {
+    "scene": "Inside Oswald's, the vintage alarm on the wall",
+    "exactSpot": "The double bell alarm. Body for the head, bells for the ears."
+  },
+  "bestTip": "Look above the merchandise at the wall fixtures.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8089,
+    "longitude": -117.9195
+  },
+  "sourceId": "TLC-CA-0031",
+  "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Oswalds-1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

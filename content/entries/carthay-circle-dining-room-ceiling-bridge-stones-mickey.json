@@ -1,0 +1,41 @@
+{
+  "id": "carthay-circle-dining-room-ceiling-bridge-stones-mickey",
+  "parkId": "california_pier_park",
+  "landId": "buena_vista_street_area",
+  "attractionId": "carthay_circle_restaurant",
+  "display": {
+    "entryTitle": "Dining Room Ceiling Bridge Stones Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Buena Vista Street",
+    "attractionName": "Carthay Circle Restaurant"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In the second floor dining room, four chandeliers hang from a painted ceiling. One side of the painting shows a bridge, and under the bridge three stones are grouped as a Hidden Mickey.",
+  "whereToLook": {
+    "scene": "The second floor dining room, the painted ceiling around the chandeliers",
+    "exactSpot": "The painted bridge. The stones beneath it form a head and ears."
+  },
+  "bestTip": "Ask for a table under the painted side of the ceiling, or look up on the way to the restroom.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "The dining room is upstairs and reservations are usually needed.",
+  "coordinates": {
+    "latitude": 33.8073,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-CA-0039",
+  "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Carthay-Circle2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

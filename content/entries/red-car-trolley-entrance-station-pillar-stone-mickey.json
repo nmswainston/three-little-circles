@@ -1,0 +1,40 @@
+{
+  "id": "red-car-trolley-entrance-station-pillar-stone-mickey",
+  "parkId": "california_pier_park",
+  "landId": "buena_vista_street_area",
+  "attractionId": "red_car_trolley",
+  "display": {
+    "entryTitle": "Entrance Station Pillar Stone Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Buena Vista Street",
+    "attractionName": "Red Car Trolley"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Loading",
+  "description": "At the trolley station near the park entrance, look at the support pillar closest to Buena Vista Street. Under a row of four red bricks, a round stone forms the head, and two stones to its right are shaped to fit against it as ears.",
+  "whereToLook": {
+    "scene": "The Red Car Trolley station nearest the park entrance, the pillar closest to the street",
+    "exactSpot": "Below four red bricks. A round stone with two fitted stones to its right."
+  },
+  "bestTip": "Use the four red bricks as the landmark and look directly beneath them.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8088,
+    "longitude": -117.9192
+  },
+  "sourceId": "TLC-CA-0032",
+  "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Redcar-Trolley1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

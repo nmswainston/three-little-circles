@@ -1,0 +1,40 @@
+{
+  "id": "buena-vista-street-elias-and-company-ad-open-mickey",
+  "parkId": "california_pier_park",
+  "landId": "buena_vista_street_area",
+  "attractionId": "buena_vista_street_walkway",
+  "display": {
+    "entryTitle": "Elias and Company Ad Tiny Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Buena Vista Street",
+    "attractionName": "Buena Vista Street"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "On the wall to the right of the Chamber of Commerce building, near Oswald's, a painted ad reads Elias and Company, Open 7 Days. Just right of the N in Open sits a very small Mickey. You need to get close to the wall to see it.",
+  "whereToLook": {
+    "scene": "The painted ad on the wall right of the Chamber of Commerce, near Oswald's",
+    "exactSpot": "Immediately right of the letter N in the word Open. A tiny Mickey."
+  },
+  "bestTip": "Walk right up to the wall. It does not read from the sidewalk.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8083,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-CA-0030",
+  "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#BVS-General3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
