@@ -14,6 +14,7 @@ import { labelOrFallback } from "../data/labels";
 import { openDirections } from "../lib/maps";
 import { entryShareText, shareText } from "../lib/share";
 import { notify } from "../lib/notify";
+import { isSupabaseConfigured } from "../lib/supabase";
 import { useFoundStore } from "../store/useFoundStore";
 import { useSettingsStore } from "../store/useSettingsStore";
 import { useConfirmationsStore } from "../store/useConfirmationsStore";
@@ -172,7 +173,9 @@ export default function EntryDetailScreen() {
   // its row. The other statuses describe the find itself and always show.
   const confirmed = isConfirmed(entry);
   const statusLabel = entry.status && (entry.status !== "Unverified" || !confirmed) ? STATUS_LABEL[entry.status] : null;
-  const inviteReport = entry.status === "Unverified" && !confirmed && !myReport;
+  // The ask only makes sense where a report can actually be sent. A build
+  // without the reporting backend still shows the chip, since the fact holds.
+  const inviteReport = isSupabaseConfigured && entry.status === "Unverified" && !confirmed && !myReport;
 
   return (
     <View style={styles.screen}>
