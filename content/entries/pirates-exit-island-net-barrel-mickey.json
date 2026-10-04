@@ -1,0 +1,40 @@
+{
+  "id": "pirates-exit-island-net-barrel-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "french_quarter_area",
+  "attractionId": "pirates_of_the_caribbean",
+  "display": {
+    "entryTitle": "Exit Island Net Barrel Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "New Orleans Square",
+    "attractionName": "Pirates of the Caribbean"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "At the end of the ride, as you pass the small island on your right, a barrel sits under a net. A Hidden Mickey is right at the top of the barrel.",
+  "whereToLook": {
+    "scene": "The little island on the right at the end of the ride",
+    "exactSpot": "The netted barrel. The three-circle shape is at the top of it."
+  },
+  "bestTip": "Last chance of the ride. Look right as you round the island.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Right",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8114,
+    "longitude": -117.9208
+  },
+  "sourceId": "TLC-DL-0071",
+  "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pirates-5",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

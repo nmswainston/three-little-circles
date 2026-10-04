@@ -1,0 +1,40 @@
+{
+  "id": "mascarade-dorleans-counter-mirror-scrollwork-mickeys",
+  "parkId": "california_kingdom_park",
+  "landId": "french_quarter_area",
+  "attractionId": "mascarade_dorleans",
+  "display": {
+    "entryTitle": "Counter Mirror Scrollwork Mickeys",
+    "parkName": "Disneyland Park",
+    "landName": "New Orleans Square",
+    "attractionName": "La Mascarade d'Orleans"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "Behind the cashier's counter, the wall is mirrored with frosted panels on top. Below the frosting, carved wooden scrollwork is set against the glass, and each wooden piece holds two Hidden Mickeys, one at the left end and one at the right.",
+  "whereToLook": {
+    "scene": "The mirrored wall behind the register at La Mascarade d'Orleans",
+    "exactSpot": "The wooden scrollwork below the frosted section. Three circles at each end of every piece."
+  },
+  "bestTip": "Look while someone else is paying; the register area is the only vantage.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8117,
+    "longitude": -117.9211
+  },
+  "sourceId": "TLC-DL-0054",
+  "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Mascarade-d'Orleans1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

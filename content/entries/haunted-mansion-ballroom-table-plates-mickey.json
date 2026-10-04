@@ -1,0 +1,41 @@
+{
+  "id": "haunted-mansion-ballroom-table-plates-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "french_quarter_area",
+  "attractionId": "haunted_mansion",
+  "display": {
+    "entryTitle": "Ballroom Table Plates Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "New Orleans Square",
+    "attractionName": "Haunted Mansion"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Easy",
+  "areaContext": "Ride",
+  "description": "On the ballroom's long dining table, one place setting has a dinner plate with two saucers above it arranged as Mickey's head. It is the second setting from the right, nearest your side. Cast members rearrange the table, so some days there is more than one.",
+  "whereToLook": {
+    "scene": "The ballroom scene, the long dining table",
+    "exactSpot": "Second place setting from the right, nearest the Doom Buggies. A dinner plate with two saucers as ears."
+  },
+  "bestTip": "This is the famous one. Look for extras; the table changes.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "Cast members reset the table, so the count varies."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "coordinates": {
+    "latitude": 33.8118,
+    "longitude": -117.9224
+  },
+  "sourceId": "TLC-DL-0058",
+  "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

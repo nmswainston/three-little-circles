@@ -1197,6 +1197,47 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "blue-bayou-stained-glass-urn-window-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "blue_bayou_restaurant",
+    "display": {
+      "entryTitle": "Stained Glass Urn Window Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Blue Bayou Restaurant"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Above the restaurant doors are stained glass windows showing an urn. At the top center of the window, small round pieces of glass form a Hidden Mickey, the one grouping where the head is larger than the ears. It is far easier to read from inside with daylight coming through.",
+    "whereToLook": {
+      "scene": "The stained glass windows above the Blue Bayou's doors",
+      "exactSpot": "The top center of the urn window. Three round pieces of glass, the middle one larger."
+    },
+    "bestTip": "Look at it from inside the restaurant during the day, when the light is behind it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Best seen from inside, which means a reservation or a polite word with the host.",
+    "coordinates": {
+      "latitude": 33.8113,
+      "longitude": -117.921
+    },
+    "sourceId": "TLC-DL-0051",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Blue-Bayou1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "boardwalk-lobby-carousel-horse-neck-mickey",
     "parkId": "resorts_bucket",
     "landId": "boardwalk_resort",
@@ -3188,6 +3229,86 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
+    "id": "cristal-dorleans-holiday-ornament-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "cristal_dorleans",
+    "display": {
+      "entryTitle": "Holiday Decoration Ornament Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Cristal d'Orleans"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "During the holidays, the decoration to the left of the storefront hangs ornaments grouped as Hidden Mickeys.",
+    "whereToLook": {
+      "scene": "The holiday decoration left of the Cristal d'Orleans storefront",
+      "exactSpot": "The ornaments. Groups of three, one large and two small."
+    },
+    "bestTip": "Holiday season only.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Seasonal",
+    "coordinates": {
+      "latitude": 33.8118,
+      "longitude": -117.9212
+    },
+    "sourceId": "TLC-DL-0053",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Cristal-d'Orleans2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "cristal-dorleans-south-door-floor-tile-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "cristal_dorleans",
+    "display": {
+      "entryTitle": "South Doorway Floor Tile Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Cristal d'Orleans"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "In the tile work on the floor at the shop's south doorway, the pattern forms a Hidden Mickey underfoot.",
+    "whereToLook": {
+      "scene": "The south doorway of Cristal d'Orleans, the floor",
+      "exactSpot": "The floor tiles in the doorway. Look down for the three-circle shape in the pattern."
+    },
+    "bestTip": "Step to the side of the door so you are not standing on it while you look.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8118,
+      "longitude": -117.9212
+    },
+    "sourceId": "TLC-DL-0052",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Cristal-d'Orleans1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "critter-carousel-armadillo-spots-mickey",
     "parkId": "california_pier_park",
     "landId": "boardwalk_pier_area",
@@ -3517,7 +3638,7 @@ export const entries: HiddenMickeyEntry[] = [
       "landName": "Main Street, U.S.A.",
       "attractionName": "Emporium"
     },
-    "entryType": "FACT",
+    "entryType": "FIND",
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
@@ -6614,6 +6735,327 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "haunted-mansion-ballroom-table-plates-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "haunted_mansion",
+    "display": {
+      "entryTitle": "Ballroom Table Plates Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Haunted Mansion"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Easy",
+    "areaContext": "Ride",
+    "description": "On the ballroom's long dining table, one place setting has a dinner plate with two saucers above it arranged as Mickey's head. It is the second setting from the right, nearest your side. Cast members rearrange the table, so some days there is more than one.",
+    "whereToLook": {
+      "scene": "The ballroom scene, the long dining table",
+      "exactSpot": "Second place setting from the right, nearest the Doom Buggies. A dinner plate with two saucers as ears."
+    },
+    "bestTip": "This is the famous one. Look for extras; the table changes.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Cast members reset the table, so the count varies."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 33.8118,
+      "longitude": -117.9224
+    },
+    "sourceId": "TLC-DL-0058",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "haunted-mansion-blue-chair-back-donald-duck",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "haunted_mansion",
+    "display": {
+      "entryTitle": "Blue Chair Back Donald Duck",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Haunted Mansion"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Right after the endless hallway, a big blue lounge chair sits in the scene. The abstract pattern on its backrest forms Donald Duck's face and sailor hat, a design so loose you have to squint to pull it out.",
+    "whereToLook": {
+      "scene": "The scene right after the endless hallway, the large blue chair",
+      "exactSpot": "The backrest. The swirls make a duck's bill, eyes, and cap."
+    },
+    "bestTip": "Soften your focus. It reads better out of the corner of your eye than straight on.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8118,
+      "longitude": -117.9224
+    },
+    "sourceId": "TLC-DL-0057",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "haunted-mansion-busts-fencing-orange-jewel-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "haunted_mansion",
+    "display": {
+      "entryTitle": "Busts Hallway Fencing Jewel Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Haunted Mansion"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Just after the marble busts whose eyes follow you, wrought iron fencing runs along the left. About four feet up in the ironwork is a Hidden Mickey with an orange jewel for its head.",
+    "whereToLook": {
+      "scene": "Right after the following-eyes busts, the iron fencing on the left",
+      "exactSpot": "About four feet off the ground in the fencing. An orange jewel head with two iron ears."
+    },
+    "bestTip": "Turn left as soon as the busts are behind you.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8118,
+      "longitude": -117.9224
+    },
+    "sourceId": "TLC-DL-0056",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion7",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "haunted-mansion-graveyard-bird-shadow-pluto",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "haunted_mansion",
+    "display": {
+      "entryTitle": "Graveyard Bird Shadow Pluto",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Haunted Mansion"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Right before you leave the graveyard, a bird bends over, and as it does its shadow throws the spitting image of Pluto on the surface behind it.",
+    "whereToLook": {
+      "scene": "The end of the graveyard scene, just before the exit",
+      "exactSpot": "The bird near the exit. Watch its shadow as it bends."
+    },
+    "bestTip": "Watch the shadow, not the bird.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8118,
+      "longitude": -117.9224
+    },
+    "sourceId": "TLC-DL-0059",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "haunted-mansion-holiday-ballroom-snowdrift-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "haunted_mansion",
+    "display": {
+      "entryTitle": "Holiday Ballroom Snowdrift Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Haunted Mansion"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "During the holiday overlay, snow drifts into the ballroom through an open door at the back. Next to that door, on the right side of the room near the fireplace, one drift is shaped as a classic Mickey.",
+    "whereToLook": {
+      "scene": "The ballroom during Haunted Mansion Holiday, the open door at the back right",
+      "exactSpot": "The snowdrift beside the open door, near the fireplace."
+    },
+    "bestTip": "Look past the party to the back wall on the right.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Seasonal",
+    "coordinates": {
+      "latitude": 33.8118,
+      "longitude": -117.9224
+    },
+    "sourceId": "TLC-DL-0063",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion5",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "haunted-mansion-holiday-portrait-hall-pumpkins-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "haunted_mansion",
+    "display": {
+      "entryTitle": "Holiday Portrait Hall Pumpkins Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Haunted Mansion"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the holiday overlay's portrait hallway, the center portrait shows Jack Skellington, and just to his right three pumpkins are stacked as a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The portrait hallway during Haunted Mansion Holiday, the center portrait",
+      "exactSpot": "Just to the right of Jack in the center portrait. Three pumpkins, one large and two small."
+    },
+    "bestTip": "Keep your eyes on the center portrait as the buggy passes.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Seasonal",
+    "coordinates": {
+      "latitude": 33.8118,
+      "longitude": -117.9224
+    },
+    "sourceId": "TLC-DL-0062",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion6",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "haunted-mansion-holiday-stretching-room-ceiling-glass-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "haunted_mansion",
+    "display": {
+      "entryTitle": "Holiday Stretching Room Ceiling Glass Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Haunted Mansion"
+    },
+    "entryType": "FIND",
+    "locationType": "Pre-show",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "Also during the holiday overlay, the stained glass set into the stretching room's ceiling hides a Mickey overhead. It is separate from the one in the Christmas tree.",
+    "whereToLook": {
+      "scene": "The stretching room during Haunted Mansion Holiday, the stained glass in the ceiling",
+      "exactSpot": "Look straight up at the ceiling glass for the three-circle shape."
+    },
+    "bestTip": "Up is where the show wants you to look anyway, so this one is easy to time.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Seasonal",
+    "coordinates": {
+      "latitude": 33.8118,
+      "longitude": -117.9224
+    },
+    "sourceId": "TLC-DL-0061",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "haunted-mansion-holiday-stretching-room-tree-ornaments-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "haunted_mansion",
+    "display": {
+      "entryTitle": "Holiday Stretching Room Tree Ornaments Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Haunted Mansion"
+    },
+    "entryType": "FIND",
+    "locationType": "Pre-show",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "During the holiday overlay, the stretching room gets a stained glass Christmas tree. Three round red ornaments on it form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The stretching room during Haunted Mansion Holiday, the stained glass Christmas tree",
+      "exactSpot": "Three round red ornaments grouped as a head and ears."
+    },
+    "bestTip": "Look before the room starts stretching; once the show begins everyone looks up.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Seasonal",
+    "coordinates": {
+      "latitude": 33.8118,
+      "longitude": -117.9224
+    },
+    "sourceId": "TLC-DL-0060",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "high-street-shops-ironwork-silhouette-mickey",
     "parkId": "showcase_park",
     "landId": "united_kingdom_pavilion",
@@ -9682,6 +10124,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "mascarade-dorleans-counter-mirror-scrollwork-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "mascarade_dorleans",
+    "display": {
+      "entryTitle": "Counter Mirror Scrollwork Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "La Mascarade d'Orleans"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "Behind the cashier's counter, the wall is mirrored with frosted panels on top. Below the frosting, carved wooden scrollwork is set against the glass, and each wooden piece holds two Hidden Mickeys, one at the left end and one at the right.",
+    "whereToLook": {
+      "scene": "The mirrored wall behind the register at La Mascarade d'Orleans",
+      "exactSpot": "The wooden scrollwork below the frosted section. Three circles at each end of every piece."
+    },
+    "bestTip": "Look while someone else is paying; the register area is the only vantage.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8117,
+      "longitude": -117.9211
+    },
+    "sourceId": "TLC-DL-0054",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Mascarade-d'Orleans1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "maters-junkyard-queue-blue-hood-mickey",
     "parkId": "california_pier_park",
     "landId": "radiator_springs_area",
@@ -10519,6 +11001,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
+    "id": "new-orleans-square-balcony-walt-and-roy-initials",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "new_orleans_square_streets",
+    "display": {
+      "entryTitle": "River Balcony Walt and Roy Initials",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "New Orleans Square Streets"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "A large balcony faces the Rivers of America, and its wrought iron railing works in the letters W and R. They stand for Walt and Roy Disney, the brothers who built the place.",
+    "whereToLook": {
+      "scene": "The large balcony overlooking the Rivers of America",
+      "exactSpot": "The ironwork of the railing. Read it for a W and an R."
+    },
+    "bestTip": "Stand across on the riverfront walkway and look back at the balcony.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.812,
+      "longitude": -117.9218
+    },
+    "sourceId": "TLC-DL-0050",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Orleans-General1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "opera-house-balcony-ironwork-mickey",
     "parkId": "california_kingdom_park",
     "landId": "main_street_area",
@@ -10757,6 +11279,46 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "pieces-of-eight-exit-corridor-antique-lock-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "pieces_of_eight",
+    "display": {
+      "entryTitle": "Exit Corridor Antique Lock Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Pieces of Eight"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "Leaving Pirates of the Caribbean, the corridor runs toward the Pieces of Eight shop. At the end of the corridor on the right, a sealed shop door wears an antique lock shaped like a Mickey head.",
+    "whereToLook": {
+      "scene": "The exit corridor from Pirates of the Caribbean, at its end on the right",
+      "exactSpot": "The old lock on the sealed door. The lock body and shackle make the three circles."
+    },
+    "bestTip": "Slow down at the end of the corridor; most people are already looking into the shop.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8116,
+      "longitude": -117.921
+    },
+    "sourceId": "TLC-DL-0055",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pieces-OfEight1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "pinocchio-toy-shop-ship-case-mickey",
@@ -11152,6 +11714,127 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "pirates-barrel-cats-shadow-pluto-or-goofy",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "pirates_of_the_caribbean",
+    "display": {
+      "entryTitle": "Barrel Cats Shadow Pluto or Goofy",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Pirates of the Caribbean"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Midway through the ride, on the right, two black cats stand with arched backs on a pair of barrels, across from the singing pirates and the donkey braying through the Dutch door. A spotlight throws their shadows into a dog's silhouette with long droopy ears. Half the reports say Pluto, half say Goofy.",
+    "whereToLook": {
+      "scene": "The two barrels on the right, across from the singing pirates and the braying donkey",
+      "exactSpot": "The shadow the spotlit cats cast on the wall behind the barrels."
+    },
+    "bestTip": "Decide for yourself: four legs makes it Pluto, upright makes it Goofy.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8114,
+      "longitude": -117.9208
+    },
+    "sourceId": "TLC-DL-0068",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "pirates-bedroom-harpsichord-chair-back-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "pirates_of_the_caribbean",
+    "display": {
+      "entryTitle": "Bedroom Chair Back Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Pirates of the Caribbean"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "After the storm room, a bedroom on the left holds a skeleton in a bed with a harpsichord beside it. Between the bed and the harpsichord, a chair sits at a table, and a detailed Hidden Mickey is carved into the very top of the chair's back. The scene's lighting has been dimmed, which makes it a hunt.",
+    "whereToLook": {
+      "scene": "The bedroom scene on the left after the storm room, between the bed and the harpsichord",
+      "exactSpot": "The chair at the table. The Mickey is at the top of its backrest."
+    },
+    "bestTip": "Lock onto the harpsichord as you enter the scene, then track left to the chair.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Lighting here was reduced; it is harder than it used to be."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8114,
+      "longitude": -117.9208
+    },
+    "sourceId": "TLC-DL-0064",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pirates-3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "pirates-captains-quarters-goofy-rock",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "pirates_of_the_caribbean",
+    "display": {
+      "entryTitle": "Goofy Rock",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Pirates of the Caribbean"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "After the first drop, near the standing skeleton pirate with a bird on his head, a big rock juts out over the water. Look up and it is unmistakably Goofy's head in profile. Cast members call it the Goofy Rock.",
+    "whereToLook": {
+      "scene": "The caverns after the first drop, around the standing skeleton with the bird",
+      "exactSpot": "The large rock overhanging the water above you. Goofy's muzzle and ears in stone."
+    },
+    "bestTip": "Look up and keep looking; it takes a moment for the profile to click.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8114,
+      "longitude": -117.9208
+    },
+    "sourceId": "TLC-DL-0065",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "pirates-exit-bells-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "pirate_port_area",
@@ -11191,6 +11874,211 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  },
+  {
+    "id": "pirates-exit-island-net-barrel-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "pirates_of_the_caribbean",
+    "display": {
+      "entryTitle": "Exit Island Net Barrel Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Pirates of the Caribbean"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "At the end of the ride, as you pass the small island on your right, a barrel sits under a net. A Hidden Mickey is right at the top of the barrel.",
+    "whereToLook": {
+      "scene": "The little island on the right at the end of the ride",
+      "exactSpot": "The netted barrel. The three-circle shape is at the top of it."
+    },
+    "bestTip": "Last chance of the ride. Look right as you round the island.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8114,
+      "longitude": -117.9208
+    },
+    "sourceId": "TLC-DL-0071",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pirates-5",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "pirates-final-ramp-gold-breastplate-crest-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "pirates_of_the_caribbean",
+    "display": {
+      "entryTitle": "Gold Breastplate Crest Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Pirates of the Caribbean"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Right before the final ramp up to the exit, after the burning town, a pirate lies on a cannon on the left. Behind him hang two breastplates, silver on the left and gold on the right, flanked by helmets. The crest on the gold one has a Mickey head dead center. The scene has been dimmed, so it takes effort now.",
+    "whereToLook": {
+      "scene": "Just before the final uphill ramp, the pirate lying on a cannon on the left",
+      "exactSpot": "The gold breastplate behind him. The Mickey is in the middle of its crest."
+    },
+    "bestTip": "Know where to look before you get there; you have one slow pass in low light.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Lighting here was reduced."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8114,
+      "longitude": -117.9208
+    },
+    "sourceId": "TLC-DL-0069",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pirates-4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "pirates-fort-wall-cannonball-holes-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "pirates_of_the_caribbean",
+    "display": {
+      "entryTitle": "Fort Wall Cannonball Holes Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Pirates of the Caribbean"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the battle scene where the ship bombards the fort, cannonballs have punched holes in the damaged wall on your right. Up near the cannon, one large hole with two smaller holes above it reads as a Mickey, but only at a slight angle, best just after you pass the ship and make the right turn.",
+    "whereToLook": {
+      "scene": "The fort wall on the right during the ship-versus-fort battle",
+      "exactSpot": "Up by the fort's cannon. A large hole with two smaller holes above it."
+    },
+    "bestTip": "Do not look straight on. Catch it at an angle as the boat turns right past the ship.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Far",
+      "notes": "Angle-dependent."
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8114,
+      "longitude": -117.9208
+    },
+    "sourceId": "TLC-DL-0066",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pirates-2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "pirates-jail-scene-sid-caesar-pirate",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "pirates_of_the_caribbean",
+    "display": {
+      "entryTitle": "Jail Scene Sid Caesar Pirate",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Pirates of the Caribbean"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the jail scene near the end, the prisoner closest to the dog with the keys is a likeness of comedian Sid Caesar. He was a friend of Walt's and of the ride's Imagineers, and they modeled a pirate on him as an inside joke.",
+    "whereToLook": {
+      "scene": "The jail scene, the prisoners coaxing the dog with the keys",
+      "exactSpot": "The pirate nearest the dog. Compare the face to Sid Caesar's."
+    },
+    "bestTip": "He is the one leaning closest to the bars.",
+    "funFacts": [
+      "Sid Caesar's resemblance was noted in park guidebooks as far back as the 1990s. He and Walt Disney were friends."
+    ],
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8114,
+      "longitude": -117.9208
+    },
+    "sourceId": "TLC-DL-0070",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "pirates-sitting-pirate-cat-shadows-goofy",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "pirates_of_the_caribbean",
+    "display": {
+      "entryTitle": "Sitting Pirate Cat Shadows Goofy",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Pirates of the Caribbean"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Two cats mew at a seated pirate, and as you float past, their shadows merge on the wall. It was first reported as a Mickey; later visits settled on Goofy's head.",
+    "whereToLook": {
+      "scene": "The seated pirate with the two cats",
+      "exactSpot": "The cats' shadows on the wall behind them, merging as you pass."
+    },
+    "bestTip": "Watch the wall, not the cats, and keep watching as the angle changes.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8114,
+      "longitude": -117.9208
+    },
+    "sourceId": "TLC-DL-0067",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "pixie-hollow-path-bonsai-mickey",
@@ -13608,6 +14496,46 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-CA-0001",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#CL-General1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "royal-courtyard-iron-gate-corner-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "royal_courtyard",
+    "display": {
+      "entryTitle": "Iron Gate Corner Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "New Orleans Square",
+      "attractionName": "Royal Courtyard"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "The black wrought iron gate into the Royal Courtyard carries a Hidden Mickey in each corner of the design on its lower half, four in all. The courtyard hosts character greetings now, so the gate is often open and easy to study.",
+    "whereToLook": {
+      "scene": "The wrought iron gate at the Royal Courtyard",
+      "exactSpot": "The corners of the pattern on the lower half of the gate. Each corner holds a three-circle shape."
+    },
+    "bestTip": "Find one corner and the other three follow.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8116,
+      "longitude": -117.9213
+    },
+    "sourceId": "TLC-DL-0049",
+    "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#New-Orleans1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },

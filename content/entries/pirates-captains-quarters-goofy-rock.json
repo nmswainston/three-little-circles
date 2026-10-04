@@ -1,0 +1,40 @@
+{
+  "id": "pirates-captains-quarters-goofy-rock",
+  "parkId": "california_kingdom_park",
+  "landId": "french_quarter_area",
+  "attractionId": "pirates_of_the_caribbean",
+  "display": {
+    "entryTitle": "Goofy Rock",
+    "parkName": "Disneyland Park",
+    "landName": "New Orleans Square",
+    "attractionName": "Pirates of the Caribbean"
+  },
+  "entryType": "FACT",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "After the first drop, near the standing skeleton pirate with a bird on his head, a big rock juts out over the water. Look up and it is unmistakably Goofy's head in profile. Cast members call it the Goofy Rock.",
+  "whereToLook": {
+    "scene": "The caverns after the first drop, around the standing skeleton with the bird",
+    "exactSpot": "The large rock overhanging the water above you. Goofy's muzzle and ears in stone."
+  },
+  "bestTip": "Look up and keep looking; it takes a moment for the profile to click.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dark",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8114,
+    "longitude": -117.9208
+  },
+  "sourceId": "TLC-DL-0065",
+  "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

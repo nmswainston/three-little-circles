@@ -1,0 +1,41 @@
+{
+  "id": "pirates-fort-wall-cannonball-holes-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "french_quarter_area",
+  "attractionId": "pirates_of_the_caribbean",
+  "display": {
+    "entryTitle": "Fort Wall Cannonball Holes Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "New Orleans Square",
+    "attractionName": "Pirates of the Caribbean"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the battle scene where the ship bombards the fort, cannonballs have punched holes in the damaged wall on your right. Up near the cannon, one large hole with two smaller holes above it reads as a Mickey, but only at a slight angle, best just after you pass the ship and make the right turn.",
+  "whereToLook": {
+    "scene": "The fort wall on the right during the ship-versus-fort battle",
+    "exactSpot": "Up by the fort's cannon. A large hole with two smaller holes above it."
+  },
+  "bestTip": "Do not look straight on. Catch it at an angle as the boat turns right past the ship.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dark",
+    "angle": "Right",
+    "crowding": "Medium",
+    "distance": "Far",
+    "notes": "Angle-dependent."
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8114,
+    "longitude": -117.9208
+  },
+  "sourceId": "TLC-DL-0066",
+  "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pirates-2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

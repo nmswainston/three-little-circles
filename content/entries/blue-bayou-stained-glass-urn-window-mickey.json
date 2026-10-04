@@ -1,0 +1,41 @@
+{
+  "id": "blue-bayou-stained-glass-urn-window-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "french_quarter_area",
+  "attractionId": "blue_bayou_restaurant",
+  "display": {
+    "entryTitle": "Stained Glass Urn Window Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "New Orleans Square",
+    "attractionName": "Blue Bayou Restaurant"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "Above the restaurant doors are stained glass windows showing an urn. At the top center of the window, small round pieces of glass form a Hidden Mickey, the one grouping where the head is larger than the ears. It is far easier to read from inside with daylight coming through.",
+  "whereToLook": {
+    "scene": "The stained glass windows above the Blue Bayou's doors",
+    "exactSpot": "The top center of the urn window. Three round pieces of glass, the middle one larger."
+  },
+  "bestTip": "Look at it from inside the restaurant during the day, when the light is behind it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Best seen from inside, which means a reservation or a polite word with the host.",
+  "coordinates": {
+    "latitude": 33.8113,
+    "longitude": -117.921
+  },
+  "sourceId": "TLC-DL-0051",
+  "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Blue-Bayou1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
