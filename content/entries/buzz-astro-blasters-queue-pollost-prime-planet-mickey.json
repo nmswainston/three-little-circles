@@ -1,0 +1,40 @@
+{
+  "id": "buzz-astro-blasters-queue-pollost-prime-planet-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "galactic_blaster_ride",
+  "display": {
+    "entryTitle": "Queue Pollost Prime Planet Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Tomorrowland",
+    "attractionName": "Buzz Lightyear Astro Blasters"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "The planet Pollost Prime appears in the queue right after you pass the cast member and turn left. One of its continents is shaped as a Mickey profile. The same planet shows up twice more, on the Sector 1 map in the briefing room and across from the photo kiosks at the exit.",
+  "whereToLook": {
+    "scene": "The queue, just after the cast member position, after the left turn",
+    "exactSpot": "The planet mural. A continent shaped as a side-view Mickey."
+  },
+  "bestTip": "This is the first of three. Learn the shape here and spot it twice more.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8119,
+    "longitude": -117.9179
+  },
+  "sourceId": "TLC-DL-0218",
+  "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland#Astro-Blasters1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

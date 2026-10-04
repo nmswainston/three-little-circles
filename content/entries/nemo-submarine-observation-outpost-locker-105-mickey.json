@@ -1,0 +1,41 @@
+{
+  "id": "nemo-submarine-observation-outpost-locker-105-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "nemo_submarine_voyage",
+  "display": {
+    "entryTitle": "Observation Outpost Locker 105 Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Tomorrowland",
+    "attractionName": "Finding Nemo Submarine Voyage"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "Guests who cannot take the spiral stairs into a submarine watch the voyage from the Observation Outpost instead. Inside the outpost is a bank of storage lockers, and locker 105 holds a Hidden Mickey.",
+  "whereToLook": {
+    "scene": "The Observation Outpost, the accessible alternative to the submarines",
+    "exactSpot": "Inside locker number 105."
+  },
+  "bestTip": "Ask a cast member about the Observation Outpost. It is a different room from the sub dock.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Only in the Observation Outpost, the accessible experience, not on the submarines.",
+  "coordinates": {
+    "latitude": 33.8126,
+    "longitude": -117.9173
+  },
+  "sourceId": "TLC-DL-0215",
+  "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland#Nemo-Submarine1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
