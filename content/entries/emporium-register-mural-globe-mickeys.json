@@ -1,0 +1,41 @@
+{
+  "id": "emporium-register-mural-globe-mickeys",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "emporium_shop",
+  "display": {
+    "entryTitle": "Register Mural Globe Mickeys",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Emporium"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "Behind the cash register between the exits hangs a mural with a globe, and the globe holds two Hidden Mickeys: a Sorcerer's Apprentice figure and a classic three-circle shape turned upside down.",
+  "whereToLook": {
+    "scene": "Inside the Emporium, the mural behind the register between the exits",
+    "exactSpot": "The globe in the mural. One Mickey is the Sorcerer's Apprentice; the other is an inverted classic shape.",
+    "orientation": "Upside-down"
+  },
+  "bestTip": "Stand in the checkout line and study the globe while you wait.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8105,
+    "longitude": -117.9196
+  },
+  "sourceId": "TLC-DL-0013",
+  "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Emporium1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

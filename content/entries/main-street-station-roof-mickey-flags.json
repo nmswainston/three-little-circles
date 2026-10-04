@@ -1,0 +1,41 @@
+{
+  "id": "main-street-station-roof-mickey-flags",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "main_street_station",
+  "display": {
+    "entryTitle": "Station Roof Mickey Flags",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Main Street Station"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Entrance",
+  "description": "Flags with Mickey's face fly on both sides of the train station roof. Coming through the left tunnel into the park, look up and to your right as you exit. In still air they hang closed and the face disappears.",
+  "whereToLook": {
+    "scene": "The train station roof as you come through the entrance tunnels",
+    "exactSpot": "The flags at either end of the station roof. Mickey's face shows when the wind catches them."
+  },
+  "bestTip": "Look up the moment you clear the tunnel, before Main Street pulls your eyes forward.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Far",
+    "notes": "Only readable when the wind unfurls the flags."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8095,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-DL-0005",
+  "sourceUrl": "https://hiddenmickeywiki.com/Town_Square#DL-RR1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

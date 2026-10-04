@@ -1,0 +1,41 @@
+{
+  "id": "magic-shop-counter-rope-trick-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "magic_shop",
+  "display": {
+    "entryTitle": "Counter Rope Trick Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Main Street Magic Shop"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Shop",
+  "description": "At the front counter of the magic shop, a rope trick for sale is displayed tied into the shape of a Hidden Mickey.",
+  "whereToLook": {
+    "scene": "The front counter of the Main Street Magic Shop",
+    "exactSpot": "The rope trick on the counter, looped into three circles."
+  },
+  "bestTip": "Ask for a demonstration and you will see it up close.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "Merchandise, so the display changes."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "coordinates": {
+    "latitude": 33.8106,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-DL-0023",
+  "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Magic2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

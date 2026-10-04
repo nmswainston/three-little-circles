@@ -1,0 +1,41 @@
+{
+  "id": "silhouette-studio-display-frames-mickeys",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "silhouette_studio",
+  "display": {
+    "entryTitle": "Display Frame Mickeys",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Silhouette Studio"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Shop",
+  "description": "The frames the Silhouette Studio sells and displays are worked with Mickey heads, about eight to a frame.",
+  "whereToLook": {
+    "scene": "The frames on display inside the Silhouette Studio",
+    "exactSpot": "The border of any frame. Count the three-circle shapes around it."
+  },
+  "bestTip": "Any frame on the wall will do; they share the design.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "Merchandise, so the stock changes."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "coordinates": {
+    "latitude": 33.8109,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-DL-0021",
+  "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Silhouette1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

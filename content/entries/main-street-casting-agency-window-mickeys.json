@@ -1,0 +1,40 @@
+{
+  "id": "main-street-casting-agency-window-mickeys",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "main_street_walkway",
+  "display": {
+    "entryTitle": "Casting Agency Window Mickeys",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Main Street Walkway"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "Among the fictitious businesses lettered on Main Street's doors and windows is the Disneyland Casting Agency. Its window carries two Mickeys, one at the top and one at the bottom. It is at ground level to the left of the Main Street Cinema, not up with the famous second-floor windows.",
+  "whereToLook": {
+    "scene": "The ground-floor window to the left of the Main Street Cinema",
+    "exactSpot": "The Disneyland Casting Agency lettering. One Mickey at the top of the window, another at the bottom."
+  },
+  "bestTip": "Everyone reads the upstairs windows. This one is at eye level.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8108,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-DL-0008",
+  "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-General1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

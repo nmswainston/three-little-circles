@@ -1,0 +1,41 @@
+{
+  "id": "main-street-cart-corner-stickers-mickeys",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "main_street_walkway",
+  "display": {
+    "entryTitle": "Food Cart Corner Mickeys",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Main Street Walkway"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "The bicycle-style food and drink carts along the street carry a small Mickey sticker in each of their four corners. The sticker design has changed over the years, but it is still there and still small.",
+  "whereToLook": {
+    "scene": "Any of the pedal food and beverage carts on Main Street",
+    "exactSpot": "The four corners of the cart body. Look for a small Mickey symbol in each."
+  },
+  "bestTip": "Check while you wait for your popcorn. Nobody minds.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "Carts move around the land."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "coordinates": {
+    "latitude": 33.8108,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-DL-0009",
+  "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-General2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

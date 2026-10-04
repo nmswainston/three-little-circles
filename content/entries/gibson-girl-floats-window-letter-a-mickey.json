@@ -1,0 +1,40 @@
+{
+  "id": "gibson-girl-floats-window-letter-a-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "gibson_girl_ice_cream",
+  "display": {
+    "entryTitle": "Floats Sign Letter A Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Gibson Girl Ice Cream Parlor"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "The window lettering at the ice cream parlor reads Ice Cream Floats. Inside the A of Floats, a small painted Mickey hides in the glass.",
+  "whereToLook": {
+    "scene": "The front window of the Gibson Girl Ice Cream Parlor",
+    "exactSpot": "The letter A in Floats. The Mickey is painted inside it."
+  },
+  "bestTip": "Read the window before you read the menu.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8111,
+    "longitude": -117.9187
+  },
+  "sourceId": "TLC-DL-0018",
+  "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#Gibson-Girl1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
