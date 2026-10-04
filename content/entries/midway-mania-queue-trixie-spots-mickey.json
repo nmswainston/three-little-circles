@@ -1,0 +1,40 @@
+{
+  "id": "midway-mania-queue-trixie-spots-mickey",
+  "parkId": "california_pier_park",
+  "landId": "boardwalk_pier_area",
+  "attractionId": "midway_shooter",
+  "display": {
+    "entryTitle": "Queue Trixie Spots Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Pixar Pier",
+    "attractionName": "Toy Story Midway Mania!"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "In the queue, Trixie the triceratops stands near a poster for Dino Darts. The spots by her left eye and upper horn form a Mickey tilted to the right.",
+  "whereToLook": {
+    "scene": "The queue, Trixie near the Dino Darts poster",
+    "exactSpot": "Spots near Trixie's left eye and upper horn. A right-tilted Mickey."
+  },
+  "bestTip": "Tilt your head right to make it sit upright.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8057,
+    "longitude": -117.9203
+  },
+  "sourceId": "TLC-CA-0073",
+  "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#Midway-Mania2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

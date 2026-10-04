@@ -1,0 +1,40 @@
+{
+  "id": "midway-mania-practice-round-pie-whipped-cream-mickey",
+  "parkId": "california_pier_park",
+  "landId": "boardwalk_pier_area",
+  "attractionId": "midway_shooter",
+  "display": {
+    "entryTitle": "Practice Round Pie Whipped Cream Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Pixar Pier",
+    "attractionName": "Toy Story Midway Mania!"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "During the practice round, when you are throwing pies at the characters, look to the sides of the screen. A pie there carries three dollops of whipped cream arranged as a Mickey.",
+  "whereToLook": {
+    "scene": "The practice round at the start of the ride, the edges of the screen",
+    "exactSpot": "A pie near the right or left edge. Three dollops of whipped cream."
+  },
+  "bestTip": "Ignore the targets for a second and scan the pies on the sides.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8057,
+    "longitude": -117.9203
+  },
+  "sourceId": "TLC-CA-0075",
+  "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#Midway-Mania6",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
