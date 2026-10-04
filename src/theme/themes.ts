@@ -52,6 +52,8 @@ export type ThemeColors = {
   border: string;
   borderLight: string;
   borderStrong: string;
+  /** Edge of an interactive control that has no fill of its own. 3:1 against the surface it sits on. */
+  controlBorder: string;
   track: string;
 
   success: string;
@@ -100,6 +102,7 @@ export const day: Theme = {
     border: 'rgba(31,42,68,0.10)',
     borderLight: 'rgba(31,42,68,0.06)',
     borderStrong: 'rgba(31,42,68,0.15)',
+    controlBorder: '#858A99',
     track: '#F1E3C4',
 
     success: '#2E7D4F',
@@ -115,16 +118,16 @@ export const day: Theme = {
   },
   parks: {
     kingdom: { accent: '#2F5BEA', onAccent: '#FFFFFF', tint: '#E8EEFF', text: '#2446B8' },
-    studios: { accent: '#E63946', onAccent: '#FFFFFF', tint: '#FDE6E8', text: '#C2262E' },
+    studios: { accent: '#CF333F', onAccent: '#FFFFFF', tint: '#FDE6E8', text: '#C2262E' },
     showcase: { accent: '#7A4DD8', onAccent: '#FFFFFF', tint: '#EFE8FB', text: '#5E37B3' },
     adventure: { accent: '#2E7D4F', onAccent: '#FFFFFF', tint: '#E4F2EA', text: '#25663F' },
-    springs: { accent: '#158C7E', onAccent: '#FFFFFF', tint: '#E0F4F1', text: '#116F64' },
-    resorts: { accent: '#C2661A', onAccent: '#FFFFFF', tint: '#FBEADC', text: '#9E5215' },
+    springs: { accent: '#137D70', onAccent: '#FFFFFF', tint: '#E0F4F1', text: '#116F64' },
+    resorts: { accent: '#AB5A17', onAccent: '#FFFFFF', tint: '#FBEADC', text: '#9E5215' },
   },
   difficulty: {
     Easy: { bg: '#2E7D4F', text: '#FFFFFF' },
     Medium: { bg: '#F4B942', text: '#1F2A44' },
-    Hard: { bg: '#E63946', text: '#FFFFFF' },
+    Hard: { bg: '#CF333F', text: '#FFFFFF' },
   },
 };
 
@@ -155,6 +158,7 @@ export const night: Theme = {
     border: 'rgba(245,243,231,0.12)',
     borderLight: 'rgba(245,243,231,0.06)',
     borderStrong: 'rgba(245,243,231,0.20)',
+    controlBorder: '#6F7A95',
     track: '#24407A',
 
     success: '#4CC07A',

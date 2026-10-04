@@ -62,7 +62,7 @@ const createStyles = (t: Theme) => StyleSheet.create({
   button: {
     backgroundColor: t.colors.card,
     borderWidth: 1,
-    borderColor: t.colors.border,
+    borderColor: t.colors.controlBorder,
     paddingHorizontal: spacing.xl,
     paddingVertical: spacing.md,
     borderRadius: radii.md,

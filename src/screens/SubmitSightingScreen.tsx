@@ -453,7 +453,7 @@ const createStyles = (t: Theme) =>
       backgroundColor: t.colors.surface,
       borderRadius: radii.md,
       borderWidth: 1,
-      borderColor: t.colors.border,
+      borderColor: t.colors.controlBorder,
     },
     multiline: {
       minHeight: 132,
@@ -537,7 +537,7 @@ const createStyles = (t: Theme) =>
       borderRadius: radii.full,
       backgroundColor: t.colors.surface,
       borderWidth: 1,
-      borderColor: t.colors.borderStrong,
+      borderColor: t.colors.controlBorder,
     },
     secondaryButtonText: {
       ...text.chip,
