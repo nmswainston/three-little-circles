@@ -1,0 +1,40 @@
+{
+  "id": "julius-katz-window-television-test-pattern-mickey",
+  "parkId": "california_pier_park",
+  "landId": "buena_vista_street_area",
+  "attractionId": "julius_katz_and_sons",
+  "display": {
+    "entryTitle": "Window Television Test Pattern Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Buena Vista Street",
+    "attractionName": "Julius Katz & Sons"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Outdoor Display",
+  "description": "One of the Julius Katz & Sons window displays holds a 1930s black-and-white television. The test pattern on its screen has Mickey ears at the center.",
+  "whereToLook": {
+    "scene": "The Julius Katz & Sons display window with the vintage television",
+    "exactSpot": "The center of the test pattern on the screen."
+  },
+  "bestTip": "It is a window display, so no need to go inside.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8083,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-CA-0036",
+  "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Julius-1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

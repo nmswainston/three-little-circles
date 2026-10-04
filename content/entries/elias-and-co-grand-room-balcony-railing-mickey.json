@@ -1,0 +1,40 @@
+{
+  "id": "elias-and-co-grand-room-balcony-railing-mickey",
+  "parkId": "california_pier_park",
+  "landId": "buena_vista_street_area",
+  "attractionId": "elias_and_co",
+  "display": {
+    "entryTitle": "Grand Room Balcony Railing Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Buena Vista Street",
+    "attractionName": "Elias & Co."
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "In the grand room of Elias & Co., mannequins in 1920s dress pose on a railed balcony overhead. The railing's design works in a Mickey head, a little odd in shape but with the ears right where they should be.",
+  "whereToLook": {
+    "scene": "The grand room of Elias & Co., the mannequin balcony above",
+    "exactSpot": "The balcony railing. A Mickey head worked into the design."
+  },
+  "bestTip": "Look up at the railing, not at the mannequins.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.808,
+    "longitude": -117.9186
+  },
+  "sourceId": "TLC-CA-0034",
+  "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Elias-1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

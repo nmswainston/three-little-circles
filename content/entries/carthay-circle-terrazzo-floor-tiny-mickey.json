@@ -1,0 +1,40 @@
+{
+  "id": "carthay-circle-terrazzo-floor-tiny-mickey",
+  "parkId": "california_pier_park",
+  "landId": "buena_vista_street_area",
+  "attractionId": "carthay_circle_restaurant",
+  "display": {
+    "entryTitle": "Terrazzo Floor Tiny Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Buena Vista Street",
+    "attractionName": "Carthay Circle Restaurant"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Entrance",
+  "description": "One of the toughest finds in the resort is set into the white terrazzo floor at Carthay Circle. It is tiny. Find the 1901 button on the wall to the right of the entrance door and look at the floor directly beneath it.",
+  "whereToLook": {
+    "scene": "The Carthay Circle entrance, the terrazzo floor to the right of the door",
+    "exactSpot": "On the floor below the 1901 button on the wall. A very small Mickey in the terrazzo."
+  },
+  "bestTip": "Find the button first. Without it you will search the whole floor.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8073,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-CA-0038",
+  "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Carthay-Circle1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

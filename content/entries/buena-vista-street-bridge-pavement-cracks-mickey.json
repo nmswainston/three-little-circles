@@ -1,0 +1,40 @@
+{
+  "id": "buena-vista-street-bridge-pavement-cracks-mickey",
+  "parkId": "california_pier_park",
+  "landId": "buena_vista_street_area",
+  "attractionId": "buena_vista_street_walkway",
+  "display": {
+    "entryTitle": "Bridge Pavement Cracks Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Buena Vista Street",
+    "attractionName": "Buena Vista Street"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "Walking into the park, as you pass under the bridge, earthquake cracks run through the pavement on your left. The cracks are laid out as a Mickey head.",
+  "whereToLook": {
+    "scene": "Just inside the park entrance, passing under the bridge, the pavement on the left",
+    "exactSpot": "The cracks in the pavement. Three cracked circles as a head and ears."
+  },
+  "bestTip": "Look down before you look up at the street.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8083,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-CA-0028",
+  "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#BVS-General1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

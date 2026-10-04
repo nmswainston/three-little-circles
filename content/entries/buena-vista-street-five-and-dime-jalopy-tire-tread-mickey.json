@@ -1,0 +1,41 @@
+{
+  "id": "buena-vista-street-five-and-dime-jalopy-tire-tread-mickey",
+  "parkId": "california_pier_park",
+  "landId": "buena_vista_street_area",
+  "attractionId": "buena_vista_street_walkway",
+  "display": {
+    "entryTitle": "Five & Dime Jalopy Tire Tread Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Buena Vista Street",
+    "attractionName": "Buena Vista Street"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "When the Five & Dime jazz band pulls up on Buena Vista Street for a set, check the tires on their jalopy. The tread pattern is Mickey Mouse.",
+  "whereToLook": {
+    "scene": "The Five & Dime band's jalopy, parked on Buena Vista Street during a set",
+    "exactSpot": "The tire tread. Mickey shapes molded into the rubber."
+  },
+  "bestTip": "Only when the band is performing. Check the show schedule.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "accessNotes": "The jalopy is only on the street during Five & Dime performances.",
+  "coordinates": {
+    "latitude": 33.8083,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-CA-0029",
+  "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#BVS-General2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

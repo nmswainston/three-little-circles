@@ -1,0 +1,41 @@
+{
+  "id": "julius-katz-window-vintage-locks-mickey",
+  "parkId": "california_pier_park",
+  "landId": "buena_vista_street_area",
+  "attractionId": "julius_katz_and_sons",
+  "display": {
+    "entryTitle": "Window Vintage Locks Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Buena Vista Street",
+    "attractionName": "Julius Katz & Sons"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "The 1930s padlocks in the Julius Katz & Sons window were clearly picked for their shape. Each one is a classic Mickey. They used to sit on a bookshelf and now live in a box on the floor of the display, so expect them to move.",
+  "whereToLook": {
+    "scene": "The Julius Katz & Sons display window, the box of old locks",
+    "exactSpot": "The padlocks. Each body and shackle makes a Mickey head."
+  },
+  "bestTip": "The display gets rearranged. Scan the whole window for the locks.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "The display changes over time."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "coordinates": {
+    "latitude": 33.8083,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-CA-0037",
+  "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Julius-2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
