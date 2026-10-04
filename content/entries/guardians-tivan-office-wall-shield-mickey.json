@@ -1,0 +1,41 @@
+{
+  "id": "guardians-tivan-office-wall-shield-mickey",
+  "parkId": "california_pier_park",
+  "landId": "hero_campus_area",
+  "attractionId": "fortress_drop_tower",
+  "display": {
+    "entryTitle": "Tivan Office Wall Shield Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Avengers Campus",
+    "attractionName": "Guardians of the Galaxy: Mission Breakout!"
+  },
+  "entryType": "FIND",
+  "locationType": "Pre-show",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "In Tivan's office, while Rocket gives his instructions, a shield on the wall behind him is a Hidden Mickey. It hangs to the left as you look at him. Each of the offices is dressed differently, and this one is the office with the TV screen on the right as you enter.",
+  "whereToLook": {
+    "scene": "Tivan's office pre-show, the one with the TV screen on the right as you enter",
+    "exactSpot": "The wall behind Rocket, to the left. A Mickey-shaped shield."
+  },
+  "bestTip": "If your office has the screen on the left, you have the other one. Look for the vase instead.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Only in the office with the screen on the right. The two pre-show rooms differ.",
+  "coordinates": {
+    "latitude": 33.8066,
+    "longitude": -117.9169
+  },
+  "sourceId": "TLC-CA-0054",
+  "sourceUrl": "https://hiddenmickeywiki.com/Avengers_Campus#Tower-Terror1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

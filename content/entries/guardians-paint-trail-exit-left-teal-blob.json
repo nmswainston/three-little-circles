@@ -1,0 +1,40 @@
+{
+  "id": "guardians-paint-trail-exit-left-teal-blob",
+  "parkId": "california_pier_park",
+  "landId": "hero_campus_area",
+  "attractionId": "fortress_drop_tower",
+  "display": {
+    "entryTitle": "Paint Trail Exit Left Teal Blob",
+    "parkName": "Disney California Adventure",
+    "landName": "Avengers Campus",
+    "attractionName": "Guardians of the Galaxy: Mission Breakout!"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "Leaving the gift shop, look to the left of the walkway for the light pole beside the queue area. About nine feet before you reach the pole, a teal and yellowish blue Mickey sits in the paint.",
+  "whereToLook": {
+    "scene": "Outside the gift shop exit, left of the walkway, approaching the light pole by the queue",
+    "exactSpot": "About nine feet short of the pole. A teal and yellow-blue blob."
+  },
+  "bestTip": "Pace it out from the pole back toward the shop.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8066,
+    "longitude": -117.9169
+  },
+  "sourceId": "TLC-CA-0051",
+  "sourceUrl": "https://hiddenmickeywiki.com/Avengers_Campus#Tower-Terror4",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

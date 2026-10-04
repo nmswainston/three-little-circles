@@ -1,0 +1,41 @@
+{
+  "id": "guardians-tivan-office-display-cage-vase-mickey",
+  "parkId": "california_pier_park",
+  "landId": "hero_campus_area",
+  "attractionId": "fortress_drop_tower",
+  "display": {
+    "entryTitle": "Tivan Office Display Cage Vase Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Avengers Campus",
+    "attractionName": "Guardians of the Galaxy: Mission Breakout!"
+  },
+  "entryType": "FIND",
+  "locationType": "Pre-show",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "In the other Tivan's office, the one with the TV screen on the left as you enter, a display cage stands against the left wall. On the third shelf, a small black and white Mickey face peers out from behind a green vase on the left side.",
+  "whereToLook": {
+    "scene": "Tivan's office pre-show, the one with the TV screen on the left as you enter, the display cage on the left wall",
+    "exactSpot": "Third shelf, left side, behind the green vase. A small black and white Mickey face."
+  },
+  "bestTip": "Get close to the cage before the show starts.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Only in the office with the screen on the left. The two pre-show rooms differ.",
+  "coordinates": {
+    "latitude": 33.8066,
+    "longitude": -117.9169
+  },
+  "sourceId": "TLC-CA-0055",
+  "sourceUrl": "https://hiddenmickeywiki.com/Avengers_Campus#Tower-Terror7",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

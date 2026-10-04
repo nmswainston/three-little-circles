@@ -1,0 +1,40 @@
+{
+  "id": "guardians-paint-trail-mickey-and-sun-blob",
+  "parkId": "california_pier_park",
+  "landId": "hero_campus_area",
+  "attractionId": "fortress_drop_tower",
+  "display": {
+    "entryTitle": "Paint Trail Mickey and Sun Blob",
+    "parkName": "Disney California Adventure",
+    "landName": "Avengers Campus",
+    "attractionName": "Guardians of the Galaxy: Mission Breakout!"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "Of the paint Rocket spilled around the attraction, this blob is the one fans call Mickey and Sun. It sits on the right side of the building as you face it, in the pavement close to a lamppost.",
+  "whereToLook": {
+    "scene": "The right side of the attraction as you face it, the pavement near a lamppost",
+    "exactSpot": "A Mickey blob beside a sun-shaped splash, close to the lamppost."
+  },
+  "bestTip": "Find the lamppost on the right, then look at your feet.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8066,
+    "longitude": -117.9169
+  },
+  "sourceId": "TLC-CA-0049",
+  "sourceUrl": "https://hiddenmickeywiki.com/Avengers_Campus#Tower-Terror2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

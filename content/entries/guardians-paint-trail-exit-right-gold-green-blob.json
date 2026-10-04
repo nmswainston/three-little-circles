@@ -1,0 +1,40 @@
+{
+  "id": "guardians-paint-trail-exit-right-gold-green-blob",
+  "parkId": "california_pier_park",
+  "landId": "hero_campus_area",
+  "attractionId": "fortress_drop_tower",
+  "display": {
+    "entryTitle": "Paint Trail Exit Right Gold Green Blob",
+    "parkName": "Disney California Adventure",
+    "landName": "Avengers Campus",
+    "attractionName": "Guardians of the Galaxy: Mission Breakout!"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "In the same block of textured concrete right of the exit walkway, a second Mickey sits in the right corner, closer to the light pole on the right. This one is gold and green.",
+  "whereToLook": {
+    "scene": "Outside the gift shop exit, right of the walkway, the first block of textured concrete",
+    "exactSpot": "Right corner of that block, nearer the right-hand light pole. Gold and green."
+  },
+  "bestTip": "Same slab as the teal and orange one. Check the opposite corner.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8066,
+    "longitude": -117.9169
+  },
+  "sourceId": "TLC-CA-0053",
+  "sourceUrl": "https://hiddenmickeywiki.com/Avengers_Campus#Tower-Terror6",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
