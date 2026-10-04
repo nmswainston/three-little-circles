@@ -1,0 +1,43 @@
+{
+  "id": "winnie-the-pooh-mounted-heads-melvin-buff-max",
+  "parkId": "california_kingdom_park",
+  "landId": "bayou_country_area",
+  "attractionId": "honey_pot_ride",
+  "display": {
+    "entryTitle": "Mounted Heads Melvin, Buff, and Max",
+    "parkName": "Disneyland Park",
+    "landName": "Bayou Country",
+    "attractionName": "The Many Adventures of Winnie the Pooh"
+  },
+  "entryType": "FACT",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "The ride was built where the Country Bear Jamboree used to play, and three of its stars never left. Melvin the moose, Buff the buffalo, and Max the stag hang mounted on a wall about two thirds of the way through, behind you, so you have to turn around to see them.",
+  "whereToLook": {
+    "scene": "About two thirds of the way through the ride, the wall behind the honey pot",
+    "exactSpot": "Mounted high on the wall behind you. A moose, a buffalo, and a stag."
+  },
+  "bestTip": "Turn around in the Heffalumps and Woozles dream. They are watching you leave.",
+  "funFacts": [
+    "Melvin, Buff, and Max hosted the Country Bear Jamboree from the wall of the old theater."
+  ],
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dark",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.812,
+    "longitude": -117.9234
+  },
+  "sourceId": "TLC-DL-0081",
+  "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Winnie-4",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

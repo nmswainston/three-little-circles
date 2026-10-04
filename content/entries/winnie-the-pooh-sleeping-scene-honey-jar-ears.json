@@ -1,0 +1,40 @@
+{
+  "id": "winnie-the-pooh-sleeping-scene-honey-jar-ears",
+  "parkId": "california_kingdom_park",
+  "landId": "bayou_country_area",
+  "attractionId": "honey_pot_ride",
+  "display": {
+    "entryTitle": "Sleeping Scene Honey Jar Ears",
+    "parkName": "Disneyland Park",
+    "landName": "Bayou Country",
+    "attractionName": "The Many Adventures of Winnie the Pooh"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the scene where Pooh is asleep, a bookcase stands behind him. On the second shelf from the top, a honey jar wears a pair of Mickey ears.",
+  "whereToLook": {
+    "scene": "The scene with Pooh sleeping, the bookcase behind him",
+    "exactSpot": "Second shelf from the top. A honey jar with Mickey ears."
+  },
+  "bestTip": "Scan the shelves while Pooh snores.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dark",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.812,
+    "longitude": -117.9234
+  },
+  "sourceId": "TLC-DL-0079",
+  "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Winnie-2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
