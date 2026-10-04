@@ -1,0 +1,40 @@
+{
+  "id": "ramones-shop-geometric-hood-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "ramones_house_of_body_art",
+  "display": {
+    "entryTitle": "Geometric Hood Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Ramone's House of Body Art"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "The hood with the intricate geometric paint job hides a Mickey near its upper right corner.",
+  "whereToLook": {
+    "scene": "The custom hoods on display inside the shop, the geometric one",
+    "exactSpot": "Upper right corner of the hood. The three-circle shape is built from the geometry."
+  },
+  "bestTip": "Skip the center of the design and go straight to the corner.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8056,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-CA-0021",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

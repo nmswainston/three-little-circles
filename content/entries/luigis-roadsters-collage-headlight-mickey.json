@@ -1,0 +1,41 @@
+{
+  "id": "luigis-roadsters-collage-headlight-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "luigis_rollickin_roadsters",
+  "display": {
+    "entryTitle": "Travel Collage Headlight Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Luigi's Rollickin' Roadsters"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "In the first travel collage on the left, which is also the fourth from the right, a red car sits above a Buckingham Palace sign. One of its headlights is a sideways Hidden Mickey.",
+  "whereToLook": {
+    "scene": "The travel collages on the queue wall, the first one from the left",
+    "exactSpot": "Find the Buckingham Palace sign. The red car above it has a sideways three-circle headlight, just to the right of the invitation card.",
+    "orientation": "Sideways"
+  },
+  "bestTip": "Use the palace sign as your anchor rather than hunting the whole wall.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8052,
+    "longitude": -117.918
+  },
+  "sourceId": "TLC-CA-0010",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Luigis-Roadsters2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "radiator-springs-racers-lizzie-tiara-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "radiator_springs_racers",
+  "display": {
+    "entryTitle": "Wedding Photo Tiara Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Radiator Springs Racers"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "Inside Stanley's Cap 'N' Tap, part of the standby queue, a framed wedding photo shows Lizzie with Stanley, the old two-cylinder car who founded the town. A classic Hidden Mickey is worked into Lizzie's tiara.",
+  "whereToLook": {
+    "scene": "Stanley's Cap 'N' Tap in the standby queue, the framed wedding photograph",
+    "exactSpot": "Lizzie's tiara in the photo. Three small circles sit in the design."
+  },
+  "bestTip": "Standby only. The single-rider line skips this room.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Standby queue only. Lightning Lane and single rider bypass the room.",
+  "coordinates": {
+    "latitude": 33.8057,
+    "longitude": -117.9185
+  },
+  "sourceId": "TLC-CA-0015",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#RS-Racers2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

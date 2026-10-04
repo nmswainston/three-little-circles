@@ -1,0 +1,40 @@
+{
+  "id": "radiator-springs-racers-red-tool-chest-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "radiator_springs_racers",
+  "display": {
+    "entryTitle": "Tire Shop Red Tool Chest Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Radiator Springs Racers"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "If your car is sent through Guido's Casa Della Tires for new tires, watch the shop as you leave for the race. A large red tool chest behind a rack of tires carries a pinstriped Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Inside Casa Della Tires on the ride, after the tire change, heading out to the race",
+    "exactSpot": "The big red tool chest behind the tire rack. The three-circle shape is in the pinstriping."
+  },
+  "bestTip": "Only half the cars go to the tire shop; the other half go to Ramone's. Ride twice to see both.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Right",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8057,
+    "longitude": -117.9185
+  },
+  "sourceId": "TLC-CA-0016",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#RS-Racers3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

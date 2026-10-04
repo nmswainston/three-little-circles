@@ -1,0 +1,40 @@
+{
+  "id": "ramones-shop-orange-flame-hood-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "ramones_house_of_body_art",
+  "display": {
+    "entryTitle": "Orange Flame Hood Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Ramone's House of Body Art"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Shop",
+  "description": "The orange flame hood holds the hardest Mickey in the shop. It is buried in the flames and takes patience to pick out.",
+  "whereToLook": {
+    "scene": "The custom hoods on display inside the shop, the orange flame one",
+    "exactSpot": "Within the flame pattern. Look for three rounded flame tips grouped as a head and ears."
+  },
+  "bestTip": "Save this one for last, after the other hoods have trained your eye.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8056,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-CA-0025",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-7",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

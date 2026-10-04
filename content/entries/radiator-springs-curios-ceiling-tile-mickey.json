@@ -1,0 +1,40 @@
+{
+  "id": "radiator-springs-curios-ceiling-tile-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "radiator_springs_curios",
+  "display": {
+    "entryTitle": "Ceiling Tile Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Radiator Springs Curios"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "The shop's pressed ceiling tiles carry a repeating pattern, and a classic Hidden Mickey is worked into it overhead.",
+  "whereToLook": {
+    "scene": "Inside the shop, the ceiling",
+    "exactSpot": "Scan the pressed-tin tiles for a three-circle shape breaking the repeat."
+  },
+  "bestTip": "Stand in the middle of the shop and turn slowly. The pattern makes it easy to miss until it jumps out.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8059,
+    "longitude": -117.9193
+  },
+  "sourceId": "TLC-CA-0008",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Radiator-Curios3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ramones-shop-brown-pinstripe-hood-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "ramones_house_of_body_art",
+  "display": {
+    "entryTitle": "Brown Pinstripe Hood Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Ramone's House of Body Art"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Shop",
+  "description": "The brown hood's pinstriping conceals a very small Hidden Mickey right in the middle of the design.",
+  "whereToLook": {
+    "scene": "The custom hoods on display inside the shop, the brown pinstriped one",
+    "exactSpot": "Dead center of the hood. The shape is tiny and drawn in pinstripe."
+  },
+  "bestTip": "Get close. This is the smallest of the hood Mickeys.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8056,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-CA-0023",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-5",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

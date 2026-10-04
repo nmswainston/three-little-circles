@@ -1,0 +1,40 @@
+{
+  "id": "ramones-shop-lace-hood-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "ramones_house_of_body_art",
+  "display": {
+    "entryTitle": "Lace Pattern Hood Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Ramone's House of Body Art"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "One displayed hood is painted with a lace pattern, and a classic Hidden Mickey is woven into the lacework.",
+  "whereToLook": {
+    "scene": "The custom hoods on display inside the shop, the lace-patterned one",
+    "exactSpot": "Follow the lace pattern for a spot where three circles sit together."
+  },
+  "bestTip": "Lace repeats. Look for the place where the repeat breaks.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8056,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-CA-0020",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

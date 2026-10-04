@@ -1,0 +1,40 @@
+{
+  "id": "radiator-springs-racers-luigi-window-mickeys",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "radiator_springs_racers",
+  "display": {
+    "entryTitle": "Luigi's Window Mickeys",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Radiator Springs Racers"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the tire shop scene, the window behind Luigi is painted with images, and several of them include Hidden Mickeys. Nobody has settled on a count, only that there are a lot.",
+  "whereToLook": {
+    "scene": "Inside Casa Della Tires on the ride, the window behind Luigi",
+    "exactSpot": "The painted window behind Luigi. Scan the images for three-circle shapes; expect more than one."
+  },
+  "bestTip": "Look past Luigi at the glass rather than at him. He is designed to pull your eye.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8057,
+    "longitude": -117.9185
+  },
+  "sourceId": "TLC-CA-0017",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#RS-Racers5",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

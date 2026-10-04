@@ -1,0 +1,40 @@
+{
+  "id": "maters-junkyard-queue-blue-hood-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "maters_junkyard_jamboree",
+  "display": {
+    "entryTitle": "Queue Blue Hood Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Mater's Junkyard Jamboree"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "Near the end of the queue, a blue car hood hangs on the wall to the right. Its painted design hides a classic Hidden Mickey near the bottom edge.",
+  "whereToLook": {
+    "scene": "The last stretch of the queue before loading, the wall on the right",
+    "exactSpot": "The blue hood on the wall. Read the design near the bottom for three circles."
+  },
+  "bestTip": "This is a late-queue find, so save your attention for the final turns.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8049,
+    "longitude": -117.9178
+  },
+  "sourceId": "TLC-CA-0003",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Maters-Junkyard2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "luigis-roadsters-collage-paris-emblem-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "luigis_rollickin_roadsters",
+  "display": {
+    "entryTitle": "Travel Collage Paris Emblem Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Luigi's Rollickin' Roadsters"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "In the same first collage on the left, near its upper left corner, a green and blue emblem sits above two silver gears with red decals. Just above the word PARIS, the emblem holds an upside-down Hidden Mickey.",
+  "whereToLook": {
+    "scene": "The travel collages on the queue wall, the first one from the left, upper left corner",
+    "exactSpot": "Find the word PARIS. The green and blue emblem directly above it is an inverted three-circle shape.",
+    "orientation": "Upside-down"
+  },
+  "bestTip": "Look for the two silver gears first, then up.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8052,
+    "longitude": -117.918
+  },
+  "sourceId": "TLC-CA-0011",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Luigis-Roadsters5",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

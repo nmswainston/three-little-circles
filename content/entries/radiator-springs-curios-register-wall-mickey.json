@@ -1,0 +1,40 @@
+{
+  "id": "radiator-springs-curios-register-wall-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "radiator_springs_curios",
+  "display": {
+    "entryTitle": "Register Wall Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Radiator Springs Curios"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Shop",
+  "description": "Inside the curio shop, the wall to the right of the cash register carries one of the plainest Hidden Mickeys in the land. It is right there once you look past the merchandise.",
+  "whereToLook": {
+    "scene": "Inside the shop, the cash register",
+    "exactSpot": "The wall immediately to the right of the register. The classic shape is at eye level."
+  },
+  "bestTip": "Look while you wait in the checkout line. It is a good first find for kids.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8059,
+    "longitude": -117.9193
+  },
+  "sourceId": "TLC-CA-0007",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Radiator-Curios2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

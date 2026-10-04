@@ -3088,6 +3088,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
+    "id": "cozy-cone-office-shelf-mickey-figurine",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "cozy_cone_motel",
+    "display": {
+      "entryTitle": "Office Shelf Mickey Figurine",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Cozy Cone Motel"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "The motel office is dressed as Sally's front desk, and among the knickknacks on a low shelf of the counter sits a small Mickey figurine. It is a full figure rather than three circles, and easy once you look down.",
+    "whereToLook": {
+      "scene": "Inside the motel office, the front counter",
+      "exactSpot": "A lower shelf of the counter. Look for a small Mickey Mouse figurine among the props."
+    },
+    "bestTip": "Crouch. Everything at eye level is a decoy.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.806,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-CA-0005",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Cozy-Cone1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "critter-carousel-armadillo-spots-mickey",
     "parkId": "california_pier_park",
     "landId": "boardwalk_pier_area",
@@ -7856,6 +7896,211 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "luigis-roadsters-collage-antenna-topper-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "luigis_rollickin_roadsters",
+    "display": {
+      "entryTitle": "Travel Collage Antenna Topper Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Luigi's Rollickin' Roadsters"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "The queue walls are covered in travel collages from Luigi's trips. In the third collage from the right, a tiny red Lightning McQueen wears a Mickey-ears antenna topper on his roof, tucked below a white slip of paper marked #121.",
+    "whereToLook": {
+      "scene": "The travel collages on the queue wall, the third one counting from the right",
+      "exactSpot": "Find the white paper reading #121. Just below it, a small red McQueen has Mickey ears on his roof."
+    },
+    "bestTip": "Count collages from the right-hand end. The topper is small, so get close.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8052,
+      "longitude": -117.918
+    },
+    "sourceId": "TLC-CA-0009",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Luigis-Roadsters1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "luigis-roadsters-collage-headlight-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "luigis_rollickin_roadsters",
+    "display": {
+      "entryTitle": "Travel Collage Headlight Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Luigi's Rollickin' Roadsters"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the first travel collage on the left, which is also the fourth from the right, a red car sits above a Buckingham Palace sign. One of its headlights is a sideways Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The travel collages on the queue wall, the first one from the left",
+      "exactSpot": "Find the Buckingham Palace sign. The red car above it has a sideways three-circle headlight, just to the right of the invitation card.",
+      "orientation": "Sideways"
+    },
+    "bestTip": "Use the palace sign as your anchor rather than hunting the whole wall.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8052,
+      "longitude": -117.918
+    },
+    "sourceId": "TLC-CA-0010",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Luigis-Roadsters2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "luigis-roadsters-collage-paris-emblem-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "luigis_rollickin_roadsters",
+    "display": {
+      "entryTitle": "Travel Collage Paris Emblem Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Luigi's Rollickin' Roadsters"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the same first collage on the left, near its upper left corner, a green and blue emblem sits above two silver gears with red decals. Just above the word PARIS, the emblem holds an upside-down Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The travel collages on the queue wall, the first one from the left, upper left corner",
+      "exactSpot": "Find the word PARIS. The green and blue emblem directly above it is an inverted three-circle shape.",
+      "orientation": "Upside-down"
+    },
+    "bestTip": "Look for the two silver gears first, then up.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8052,
+      "longitude": -117.918
+    },
+    "sourceId": "TLC-CA-0011",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Luigis-Roadsters5",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "luigis-roadsters-topolino-photo-below-horn",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "luigis_rollickin_roadsters",
+    "display": {
+      "entryTitle": "Uncle Topolino Photo, Below the Horn",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Luigi's Rollickin' Roadsters"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "Inside Casa Della Tires, Luigi and Guido keep family photos, and two show Luigi's Uncle Topolino, a red and black sedan. Topolino means little mouse in Italian and has been Mickey's name in Italian comics since 1932, which makes these photos Hidden Mickeys by another name. The first hangs below and to the left of the horn.",
+    "whereToLook": {
+      "scene": "The keepsake wall inside Casa Della Tires, around the mounted horn",
+      "exactSpot": "The framed photo of the red and black sedan below and to the left of the horn."
+    },
+    "bestTip": "There are two Topolino photos. Find the horn and both are within arm's reach of it.",
+    "funFacts": [
+      "Topolino has been the Italian name for Mickey Mouse since the comic Topolino launched in 1932. Luigi's uncle is a nod the Italian-speaking guests catch first."
+    ],
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8052,
+      "longitude": -117.918
+    },
+    "sourceId": "TLC-CA-0012",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Luigis-Roadsters3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "luigis-roadsters-topolino-photo-right-of-horn",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "luigis_rollickin_roadsters",
+    "display": {
+      "entryTitle": "Uncle Topolino Photo, Right of the Horn",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Luigi's Rollickin' Roadsters"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The second photo of Luigi's Uncle Topolino, the red and black sedan whose name is Italian for little mouse, hangs to the right of the mounted horn in Casa Della Tires.",
+    "whereToLook": {
+      "scene": "The keepsake wall inside Casa Della Tires, around the mounted horn",
+      "exactSpot": "The framed photo of the red and black sedan to the right of the horn."
+    },
+    "bestTip": "Spot the first one below the horn, then look right.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8052,
+      "longitude": -117.918
+    },
+    "sourceId": "TLC-CA-0013",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Luigis-Roadsters4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "lunch-box-counter-mom-note",
     "parkId": "studios_park",
     "landId": "toy_blocks_area",
@@ -8206,6 +8451,127 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-morocco-pavillion",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "maters-junkyard-queue-blue-hood-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "maters_junkyard_jamboree",
+    "display": {
+      "entryTitle": "Queue Blue Hood Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Mater's Junkyard Jamboree"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "Near the end of the queue, a blue car hood hangs on the wall to the right. Its painted design hides a classic Hidden Mickey near the bottom edge.",
+    "whereToLook": {
+      "scene": "The last stretch of the queue before loading, the wall on the right",
+      "exactSpot": "The blue hood on the wall. Read the design near the bottom for three circles."
+    },
+    "bestTip": "This is a late-queue find, so save your attention for the final turns.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8049,
+      "longitude": -117.9178
+    },
+    "sourceId": "TLC-CA-0003",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Maters-Junkyard2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "maters-junkyard-rafters-hubcaps-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "maters_junkyard_jamboree",
+    "display": {
+      "entryTitle": "Rafters Hubcaps Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Mater's Junkyard Jamboree"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The junkyard queue is hung with spare parts, and three hubcaps up in the rafters are mounted together as a classic Hidden Mickey, one large with two smaller ones above it as ears.",
+    "whereToLook": {
+      "scene": "The covered queue, the rafters overhead on the right side",
+      "exactSpot": "Look up and to the right as the line snakes under the roof. Three hubcaps are grouped as a head and two ears."
+    },
+    "bestTip": "Look up around every turn. The queue is full of hubcaps, but only one trio is arranged this way.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8049,
+      "longitude": -117.9178
+    },
+    "sourceId": "TLC-CA-0002",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Maters-Junkyard1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "maters-junkyard-ride-barrels-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "maters_junkyard_jamboree",
+    "display": {
+      "entryTitle": "Ride Barrels Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Mater's Junkyard Jamboree"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the middle of the ride, three barrels standing together are reported to form a Hidden Mickey when seen from above. From a spinning trailer at ground level the arrangement is hard to read, so treat this one as a bonus.",
+    "whereToLook": {
+      "scene": "The cluster of barrels in the center of the ride area",
+      "exactSpot": "Three barrels grouped as a head and two ears. The grouping shows best looking down on it, which the ride does not let you do."
+    },
+    "bestTip": "Try from the exit bridge or any raised vantage rather than from your seat.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Reports disagree on which barrel is the head. The shape depends on a high viewpoint."
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8049,
+      "longitude": -117.9178
+    },
+    "sourceId": "TLC-CA-0004",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Maters-Junkyard3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "memento-mori-wallpaper-beetle-mickey",
@@ -9515,6 +9881,329 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "radiator-springs-curios-ceiling-tile-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "radiator_springs_curios",
+    "display": {
+      "entryTitle": "Ceiling Tile Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Radiator Springs Curios"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "The shop's pressed ceiling tiles carry a repeating pattern, and a classic Hidden Mickey is worked into it overhead.",
+    "whereToLook": {
+      "scene": "Inside the shop, the ceiling",
+      "exactSpot": "Scan the pressed-tin tiles for a three-circle shape breaking the repeat."
+    },
+    "bestTip": "Stand in the middle of the shop and turn slowly. The pattern makes it easy to miss until it jumps out.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8059,
+      "longitude": -117.9193
+    },
+    "sourceId": "TLC-CA-0008",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Radiator-Curios3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "radiator-springs-curios-pump-sign-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "radiator_springs_curios",
+    "display": {
+      "entryTitle": "Porch Pump Sign Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Radiator Springs Curios"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Shop",
+    "description": "On the porch of the curio shop, at the far left just below the big window, a sign reads PUMP. A classic Hidden Mickey sits in its upper right corner. A sales cart often parks in front of it.",
+    "whereToLook": {
+      "scene": "The shop porch, far left end, below the large window",
+      "exactSpot": "The PUMP sign. The three-circle shape is in its upper right corner."
+    },
+    "bestTip": "If a cart is parked in front, ask the cast member working it. They are used to the question.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Often blocked by a merchandise or pin-trading cart. Ask the cast member before stepping behind it.",
+    "coordinates": {
+      "latitude": 33.8059,
+      "longitude": -117.9193
+    },
+    "sourceId": "TLC-CA-0006",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Radiator-Curios4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "radiator-springs-curios-register-wall-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "radiator_springs_curios",
+    "display": {
+      "entryTitle": "Register Wall Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Radiator Springs Curios"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "Inside the curio shop, the wall to the right of the cash register carries one of the plainest Hidden Mickeys in the land. It is right there once you look past the merchandise.",
+    "whereToLook": {
+      "scene": "Inside the shop, the cash register",
+      "exactSpot": "The wall immediately to the right of the register. The classic shape is at eye level."
+    },
+    "bestTip": "Look while you wait in the checkout line. It is a good first find for kids.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8059,
+      "longitude": -117.9193
+    },
+    "sourceId": "TLC-CA-0007",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Radiator-Curios2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "radiator-springs-racers-barrel-cactus-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "radiator_springs_racers",
+    "display": {
+      "entryTitle": "Barrel Cactus Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Radiator Springs Racers"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "Outside the queue, across from Flo's V8 Cafe, a barrel cactus has grown into the outline of a Mickey head. It sits under the roadside sign that reads Long Trip? One sip and watch those miles melt away.",
+    "whereToLook": {
+      "scene": "The landscaping to the right of the path outside the queue, across from Flo's V8 Cafe",
+      "exactSpot": "Directly under the Long Trip? sign. The barrel cactus is a round head with two smaller lobes as ears."
+    },
+    "bestTip": "Use the sign, not the cafe, as your marker. The cactus is at knee height.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "Living plant. It will change shape over the years."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8057,
+      "longitude": -117.9185
+    },
+    "sourceId": "TLC-CA-0014",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#RS-Racers1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "radiator-springs-racers-lizzie-tiara-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "radiator_springs_racers",
+    "display": {
+      "entryTitle": "Wedding Photo Tiara Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Radiator Springs Racers"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "Inside Stanley's Cap 'N' Tap, part of the standby queue, a framed wedding photo shows Lizzie with Stanley, the old two-cylinder car who founded the town. A classic Hidden Mickey is worked into Lizzie's tiara.",
+    "whereToLook": {
+      "scene": "Stanley's Cap 'N' Tap in the standby queue, the framed wedding photograph",
+      "exactSpot": "Lizzie's tiara in the photo. Three small circles sit in the design."
+    },
+    "bestTip": "Standby only. The single-rider line skips this room.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Standby queue only. Lightning Lane and single rider bypass the room.",
+    "coordinates": {
+      "latitude": 33.8057,
+      "longitude": -117.9185
+    },
+    "sourceId": "TLC-CA-0015",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#RS-Racers2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "radiator-springs-racers-luigi-window-mickeys",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "radiator_springs_racers",
+    "display": {
+      "entryTitle": "Luigi's Window Mickeys",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Radiator Springs Racers"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the tire shop scene, the window behind Luigi is painted with images, and several of them include Hidden Mickeys. Nobody has settled on a count, only that there are a lot.",
+    "whereToLook": {
+      "scene": "Inside Casa Della Tires on the ride, the window behind Luigi",
+      "exactSpot": "The painted window behind Luigi. Scan the images for three-circle shapes; expect more than one."
+    },
+    "bestTip": "Look past Luigi at the glass rather than at him. He is designed to pull your eye.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8057,
+      "longitude": -117.9185
+    },
+    "sourceId": "TLC-CA-0017",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#RS-Racers5",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "radiator-springs-racers-ramones-fuse-box-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "radiator_springs_racers",
+    "display": {
+      "entryTitle": "Paint Shop Fuse Box Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Radiator Springs Racers"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "If your car is sent to Ramone's House of Body Art for a paint job, look at the shop's right rear wall. A fuse box there carries a pinstriped Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Inside Ramone's on the ride, during the paint job",
+      "exactSpot": "The fuse box on the right rear wall. The three-circle shape is pinstriped onto it."
+    },
+    "bestTip": "Only half the cars get the paint job. If you went to the tire shop instead, ride again.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8057,
+      "longitude": -117.9185
+    },
+    "sourceId": "TLC-CA-0018",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#RS-Racers4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "radiator-springs-racers-red-tool-chest-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "radiator_springs_racers",
+    "display": {
+      "entryTitle": "Tire Shop Red Tool Chest Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Radiator Springs Racers"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "If your car is sent through Guido's Casa Della Tires for new tires, watch the shop as you leave for the race. A large red tool chest behind a rack of tires carries a pinstriped Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Inside Casa Della Tires on the ride, after the tire change, heading out to the race",
+      "exactSpot": "The big red tool chest behind the tire rack. The three-circle shape is in the pinstriping."
+    },
+    "bestTip": "Only half the cars go to the tire shop; the other half go to Ramone's. Ride twice to see both.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8057,
+      "longitude": -117.9185
+    },
+    "sourceId": "TLC-CA-0016",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#RS-Racers3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "railroad-display-room-backyard-railway-equipment",
     "parkId": "resorts_bucket",
     "landId": "wilderness_lodge_resort",
@@ -9553,6 +10242,367 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://disneyparksblog.com/wdw/5-hidden-details-at-disneys-wilderness-lodge/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "ramones-shop-blue-orange-flame-hood-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "ramones_house_of_body_art",
+    "display": {
+      "entryTitle": "Blue and Orange Flame Hood Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Ramone's House of Body Art"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Shop",
+    "description": "A blue hood with orange flames hides a Hidden Mickey inside the flames themselves. The licks of fire disguise it well.",
+    "whereToLook": {
+      "scene": "The custom hoods on display inside the shop, the blue one with orange flames",
+      "exactSpot": "Inside the orange flames. Look for three rounded tips that sit together as a head and ears."
+    },
+    "bestTip": "Step back a pace. The flames resolve into shapes better at a short distance.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8056,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-CA-0022",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "ramones-shop-brown-pinstripe-hood-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "ramones_house_of_body_art",
+    "display": {
+      "entryTitle": "Brown Pinstripe Hood Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Ramone's House of Body Art"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Shop",
+    "description": "The brown hood's pinstriping conceals a very small Hidden Mickey right in the middle of the design.",
+    "whereToLook": {
+      "scene": "The custom hoods on display inside the shop, the brown pinstriped one",
+      "exactSpot": "Dead center of the hood. The shape is tiny and drawn in pinstripe."
+    },
+    "bestTip": "Get close. This is the smallest of the hood Mickeys.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8056,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-CA-0023",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-5",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "ramones-shop-geometric-hood-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "ramones_house_of_body_art",
+    "display": {
+      "entryTitle": "Geometric Hood Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Ramone's House of Body Art"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "The hood with the intricate geometric paint job hides a Mickey near its upper right corner.",
+    "whereToLook": {
+      "scene": "The custom hoods on display inside the shop, the geometric one",
+      "exactSpot": "Upper right corner of the hood. The three-circle shape is built from the geometry."
+    },
+    "bestTip": "Skip the center of the design and go straight to the corner.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8056,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-CA-0021",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "ramones-shop-lace-hood-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "ramones_house_of_body_art",
+    "display": {
+      "entryTitle": "Lace Pattern Hood Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Ramone's House of Body Art"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "One displayed hood is painted with a lace pattern, and a classic Hidden Mickey is woven into the lacework.",
+    "whereToLook": {
+      "scene": "The custom hoods on display inside the shop, the lace-patterned one",
+      "exactSpot": "Follow the lace pattern for a spot where three circles sit together."
+    },
+    "bestTip": "Lace repeats. Look for the place where the repeat breaks.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8056,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-CA-0020",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "ramones-shop-left-room-wall-decal-mickeys",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "ramones_house_of_body_art",
+    "display": {
+      "entryTitle": "Left Room Wall Decal Mickeys",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Ramone's House of Body Art"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "Entering from the town center, the room on your left has four matching decals on its wooden walls, and each has a Mickey in the middle of the design.",
+    "whereToLook": {
+      "scene": "Inside the shop, the room to the left as you enter from the town center",
+      "exactSpot": "The four identical wall decals. The classic shape is at the center of each."
+    },
+    "bestTip": "Find one and you have found all four. They are the same decal.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8056,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-CA-0027",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-9",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "ramones-shop-orange-flame-hood-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "ramones_house_of_body_art",
+    "display": {
+      "entryTitle": "Orange Flame Hood Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Ramone's House of Body Art"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Shop",
+    "description": "The orange flame hood holds the hardest Mickey in the shop. It is buried in the flames and takes patience to pick out.",
+    "whereToLook": {
+      "scene": "The custom hoods on display inside the shop, the orange flame one",
+      "exactSpot": "Within the flame pattern. Look for three rounded flame tips grouped as a head and ears."
+    },
+    "bestTip": "Save this one for last, after the other hoods have trained your eye.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8056,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-CA-0025",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-7",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "ramones-shop-register-hood-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "ramones_house_of_body_art",
+    "display": {
+      "entryTitle": "Register Hood Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Ramone's House of Body Art"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "Ramone's shop displays custom-painted car hoods as art, and each design hides a Mickey. The hood mounted behind the cash register has a classic Hidden Mickey painted into it.",
+    "whereToLook": {
+      "scene": "Inside the shop, the hood displayed behind the cash register",
+      "exactSpot": "Read the paint job for a three-circle shape."
+    },
+    "bestTip": "Start here. It is the easiest of the hoods, and it teaches your eye what to look for on the rest.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8056,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-CA-0019",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "ramones-shop-white-flame-hood-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "ramones_house_of_body_art",
+    "display": {
+      "entryTitle": "White Flame Hood Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Ramone's House of Body Art"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "On the white hood with flames, a Hidden Mickey sits just inside the orange stripe that edges the design.",
+    "whereToLook": {
+      "scene": "The custom hoods on display inside the shop, the white one with flames",
+      "exactSpot": "Just inside the orange stripe. Trace the stripe and the three circles are right beside it."
+    },
+    "bestTip": "Use the stripe as a guide rail and follow it around.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8056,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-CA-0024",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-6",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "ramones-shop-yellow-display-splatter-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "ramones_house_of_body_art",
+    "display": {
+      "entryTitle": "Yellow Display Paint Splatter Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Ramone's House of Body Art"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "The sales displays in Ramone's are splattered with paint, and several hide Mickeys in the splatter. The confirmed one is on a yellow display near the entrance closest to the town center.",
+    "whereToLook": {
+      "scene": "The merchandise displays inside the shop, near the door that faces the town center",
+      "exactSpot": "The yellow display. In the paint splatter, three drops sit together as a classic shape."
+    },
+    "bestTip": "Enter from the town center side and check the first yellow fixture you reach.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "Other splatter Mickeys are reported on other displays but not yet confirmed."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8056,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-CA-0026",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-8",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "reef-playground-rock-hollows-mickey",
@@ -10801,6 +11851,47 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0033",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "route-66-power-line-twist-mickey",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "route_66_street",
+    "display": {
+      "entryTitle": "Power Line Twist Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Cars Land",
+      "attractionName": "Route 66"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "The overhead power lines along the main street are dressed like a real desert town's, sagging wire and all. To the right of the Stanley statue, one wire carries a deliberate twist that loops into a classic Hidden Mickey against the sky.",
+    "whereToLook": {
+      "scene": "The statue of Stanley at the town end of the street, and the power lines overhead to its right",
+      "exactSpot": "Follow the wire to the right of the statue. One twist in the line is shaped as a round head with two ears."
+    },
+    "bestTip": "Stand back across the street. Up close, the wire reads as a tangle; from a distance the shape sits clean against the sky.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far",
+      "notes": "Best against a clear sky. At night the lines disappear."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8062,
+      "longitude": -117.9191
+    },
+    "sourceId": "TLC-CA-0001",
+    "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#CL-General1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "saratoga-lobby-horse-roses-mickey",

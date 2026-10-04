@@ -1,0 +1,41 @@
+{
+  "id": "maters-junkyard-ride-barrels-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "maters_junkyard_jamboree",
+  "display": {
+    "entryTitle": "Ride Barrels Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Mater's Junkyard Jamboree"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the middle of the ride, three barrels standing together are reported to form a Hidden Mickey when seen from above. From a spinning trailer at ground level the arrangement is hard to read, so treat this one as a bonus.",
+  "whereToLook": {
+    "scene": "The cluster of barrels in the center of the ride area",
+    "exactSpot": "Three barrels grouped as a head and two ears. The grouping shows best looking down on it, which the ride does not let you do."
+  },
+  "bestTip": "Try from the exit bridge or any raised vantage rather than from your seat.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "Reports disagree on which barrel is the head. The shape depends on a high viewpoint."
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8049,
+    "longitude": -117.9178
+  },
+  "sourceId": "TLC-CA-0004",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Maters-Junkyard3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

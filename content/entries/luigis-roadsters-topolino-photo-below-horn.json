@@ -1,0 +1,43 @@
+{
+  "id": "luigis-roadsters-topolino-photo-below-horn",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "luigis_rollickin_roadsters",
+  "display": {
+    "entryTitle": "Uncle Topolino Photo, Below the Horn",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Luigi's Rollickin' Roadsters"
+  },
+  "entryType": "FACT",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "Inside Casa Della Tires, Luigi and Guido keep family photos, and two show Luigi's Uncle Topolino, a red and black sedan. Topolino means little mouse in Italian and has been Mickey's name in Italian comics since 1932, which makes these photos Hidden Mickeys by another name. The first hangs below and to the left of the horn.",
+  "whereToLook": {
+    "scene": "The keepsake wall inside Casa Della Tires, around the mounted horn",
+    "exactSpot": "The framed photo of the red and black sedan below and to the left of the horn."
+  },
+  "bestTip": "There are two Topolino photos. Find the horn and both are within arm's reach of it.",
+  "funFacts": [
+    "Topolino has been the Italian name for Mickey Mouse since the comic Topolino launched in 1932. Luigi's uncle is a nod the Italian-speaking guests catch first."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8052,
+    "longitude": -117.918
+  },
+  "sourceId": "TLC-CA-0012",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Luigis-Roadsters3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

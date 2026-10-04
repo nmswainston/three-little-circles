@@ -1,0 +1,40 @@
+{
+  "id": "luigis-roadsters-topolino-photo-right-of-horn",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "luigis_rollickin_roadsters",
+  "display": {
+    "entryTitle": "Uncle Topolino Photo, Right of the Horn",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Luigi's Rollickin' Roadsters"
+  },
+  "entryType": "FACT",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "The second photo of Luigi's Uncle Topolino, the red and black sedan whose name is Italian for little mouse, hangs to the right of the mounted horn in Casa Della Tires.",
+  "whereToLook": {
+    "scene": "The keepsake wall inside Casa Della Tires, around the mounted horn",
+    "exactSpot": "The framed photo of the red and black sedan to the right of the horn."
+  },
+  "bestTip": "Spot the first one below the horn, then look right.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8052,
+    "longitude": -117.918
+  },
+  "sourceId": "TLC-CA-0013",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Luigis-Roadsters4",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
