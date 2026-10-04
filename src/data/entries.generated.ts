@@ -712,13 +712,13 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Variable",
     "coordinates": {
       "latitude": 28.3491,
       "longitude": -81.545
     },
     "sourceId": "TLC-RS-0010",
     "sourceUrl": "https://hiddenmickeyguy.com/817-2/",
-    "status": "Variable",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
@@ -728,10 +728,10 @@ export const entries: HiddenMickeyEntry[] = [
     "landId": "toy_blocks_area",
     "attractionId": "backyard_coaster",
     "display": {
+      "entryTitle": "Queue Cloud Mickey",
       "parkName": "Disney's Hollywood Studios",
       "landName": "Toy Story Land",
-      "attractionName": "Slinky Dog Dash",
-      "entryTitle": "Queue Cloud Mickey"
+      "attractionName": "Slinky Dog Dash"
     },
     "entryType": "FIND",
     "locationType": "Queue",
@@ -1186,11 +1186,11 @@ export const entries: HiddenMickeyEntry[] = [
     "confidence": "Strong",
     "verification": "Community",
     "status": "Unverified",
+    "accessNotes": "Pool and recreation areas are for registered resort guests.",
     "coordinates": {
       "latitude": 28.350288,
       "longitude": -81.547687
     },
-    "accessNotes": "Pool and recreation areas are for registered resort guests.",
     "sourceId": "TLC-RS-0039",
     "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
@@ -1588,11 +1588,11 @@ export const entries: HiddenMickeyEntry[] = [
     "confidence": "Strong",
     "verification": "Community",
     "status": "Unverified",
+    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
     "coordinates": {
       "latitude": 28.408254,
       "longitude": -81.571554
     },
-    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
     "sourceId": "TLC-RS-0088",
     "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2026/04/26/boulder-ridge-villas-hidden-mickey-painting",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
@@ -1664,12 +1664,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3713,
       "longitude": -81.5517
     },
     "sourceId": "TLC-EP-0001",
-    "status": "Unverified",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-canada-totem-pole",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
@@ -1867,12 +1867,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3563,
       "longitude": -81.5604
     },
     "sourceId": "TLC-HS-0047",
-    "status": "Unverified",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-hollywood-studios-mickey-minnies-runaway-railway-classic-hidden-mickey-and-chinese-hidden-mickey-on-chandelier/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
@@ -1909,12 +1909,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3563,
       "longitude": -81.5604
     },
     "sourceId": "TLC-HS-0003",
-    "status": "Unverified",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-mickey-minnie-s-runaway-railway",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
@@ -2028,12 +2028,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4215,
       "longitude": -81.5809
     },
     "sourceId": "TLC-MK-0005",
-    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
@@ -2581,12 +2581,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4201,
       "longitude": -81.5815
     },
     "sourceId": "TLC-MK-0001",
-    "status": "Unverified",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
@@ -3019,12 +3019,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Current",
     "coordinates": {
       "latitude": 28.4148,
       "longitude": -81.5746
     },
     "sourceId": "TLC-RS-0001",
-    "status": "Current",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-contemporary-resort-hidden-mickey-on-monorail-beam/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
@@ -3141,12 +3141,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3755,
       "longitude": -81.5469
     },
     "sourceId": "TLC-EP-0041",
-    "status": "Unverified",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-epcot-guardians-of-the-galaxy-cosmic-rewind-standby-queue-city-display-hidden-mickey-in-water/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
@@ -3577,12 +3577,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4186,
       "longitude": -81.5797
     },
     "sourceId": "TLC-MK-0040",
-    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
@@ -4205,6 +4205,9 @@ export const entries: HiddenMickeyEntry[] = [
       "exactSpot": "Find the pole at the shop with a thick blue stripe at the bottom. Take about three steps toward the ride and look down at the cement for the charm."
     },
     "bestTip": "Look down, not around. The walkway itself is where to search.",
+    "funFacts": [
+      "Cast Members like to call this the tiniest Hidden Mickey in all the parks."
+    ],
     "viewing": {
       "motion": "Still",
       "lighting": "Bright",
@@ -4220,9 +4223,6 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4183,
       "longitude": -81.5836
     },
-    "funFacts": [
-      "Cast Members like to call this the tiniest Hidden Mickey in all the parks."
-    ],
     "sourceId": "TLC-MK-0025",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
@@ -4859,13 +4859,13 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Variable",
     "coordinates": {
       "latitude": 28.3699,
       "longitude": -81.5521
     },
     "sourceId": "TLC-EP-0040",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-epcot-france-hidden-mickey-rope-on-ledge-near-bridge/",
-    "status": "Variable",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
@@ -4974,12 +4974,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3684,
       "longitude": -81.5528
     },
     "sourceId": "TLC-EP-0003",
-    "status": "Unverified",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-italy-pavillion-enoteca-castello-wine",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
@@ -5015,11 +5015,11 @@ export const entries: HiddenMickeyEntry[] = [
     "confidence": "Strong",
     "verification": "Documented",
     "status": "Current",
+    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
     "coordinates": {
       "latitude": 28.380582,
       "longitude": -81.536772
     },
-    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
     "sourceId": "TLC-RS-0061",
     "sourceUrl": "https://disneyparksblog.com/wdw/new-rooms-at-port-orleans-french-quarter/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
@@ -5258,12 +5258,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4185,
       "longitude": -81.5795
     },
     "sourceId": "TLC-MK-0035",
-    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
@@ -5456,12 +5456,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3753,
       "longitude": -81.5494
     },
     "sourceId": "TLC-EP-0032",
-    "status": "Unverified",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-paint-marks",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
@@ -5813,12 +5813,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.363501,
       "longitude": -81.571682
     },
     "sourceId": "TLC-RS-0003",
-    "status": "Unverified",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-coronado-springs-resort-gran-destino-tower-top-floor-hidden-mickey-above-elevator-doors/",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
@@ -6253,13 +6253,13 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "In-person",
+    "status": "Variable",
     "coordinates": {
       "latitude": 28.3737,
       "longitude": -81.5527
     },
     "sourceId": "TLC-EP-0021",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-lettuce",
-    "status": "Variable",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
@@ -6411,13 +6411,13 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "In-person",
+    "status": "Variable",
     "coordinates": {
       "latitude": 28.3737,
       "longitude": -81.5527
     },
     "sourceId": "TLC-EP-0018",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-hose",
-    "status": "Variable",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
@@ -6452,12 +6452,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3737,
       "longitude": -81.5502
     },
     "sourceId": "TLC-EP-0042",
-    "status": "Unverified",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-epcot-world-celebration-meet-mickey-friends-mural-flower-hidden-mickey/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
@@ -6607,12 +6607,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Variable",
     "coordinates": {
       "latitude": 28.4201,
       "longitude": -81.583
     },
     "sourceId": "TLC-MK-0041",
-    "status": "Variable",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
@@ -7126,12 +7126,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3712,
       "longitude": -81.5177
     },
     "sourceId": "TLC-DS-0001",
-    "status": "Unverified",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disney-springs-chef-art-smiths-homecomin-restaurant-wall-painting-hidden-mickey-inside-entrance/",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
@@ -7643,12 +7643,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.36,
       "longitude": -81.5599
     },
     "sourceId": "TLC-HS-0038",
-    "status": "Unverified",
     "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
@@ -7725,12 +7725,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Obvious",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.36,
       "longitude": -81.5599
     },
     "sourceId": "TLC-HS-0014",
-    "status": "Unverified",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-twilight-zone-doll",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
@@ -8159,12 +8159,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4179,
       "longitude": -81.5835
     },
     "sourceId": "TLC-MK-0023",
-    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
@@ -10113,11 +10113,11 @@ export const entries: HiddenMickeyEntry[] = [
     "confidence": "Interpretive",
     "verification": "Community",
     "status": "Unverified",
+    "accessNotes": "The restaurant has had long closures. Check that it is open and ask before entering the anteroom if you are not dining.",
     "coordinates": {
       "latitude": 28.367721,
       "longitude": -81.55208
     },
-    "accessNotes": "The restaurant has had long closures. Check that it is open and ask before entering the anteroom if you are not dining.",
     "sourceId": "TLC-EP-0006",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-morocco-pavillion",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
@@ -10395,12 +10395,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4199,
       "longitude": -81.5831
     },
     "sourceId": "TLC-MK-0046",
-    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
@@ -10473,12 +10473,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3708,
       "longitude": -81.5468
     },
     "sourceId": "TLC-EP-0005",
-    "status": "Unverified",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-mexico-congo-drums",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
@@ -10870,12 +10870,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4206,
       "longitude": -81.5801
     },
     "sourceId": "TLC-MK-0013",
-    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
@@ -10950,12 +10950,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3676,
       "longitude": -81.5518
     },
     "sourceId": "TLC-EP-0007",
-    "status": "Unverified",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-morocco-plates",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
@@ -11703,11 +11703,11 @@ export const entries: HiddenMickeyEntry[] = [
     "confidence": "Interpretive",
     "verification": "Community",
     "status": "Unverified",
+    "accessNotes": "Pool and recreation areas are for registered resort guests.",
     "coordinates": {
       "latitude": 28.362511,
       "longitude": -81.542523
     },
-    "accessNotes": "Pool and recreation areas are for registered resort guests.",
     "sourceId": "TLC-RS-0082",
     "sourceUrl": "https://www.disneycaribbeanbeach.com/content/caribbean-beach-resort-hidden-mickeys/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
@@ -11866,12 +11866,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4181,
       "longitude": -81.5843
     },
     "sourceId": "TLC-MK-0028",
-    "status": "Unverified",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
@@ -12233,12 +12233,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4053,
       "longitude": -81.5855
     },
     "sourceId": "TLC-RS-0006",
-    "status": "Unverified",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-polynesian-village-resort-nail-hidden-mickey-on-post-near-kona-island-coffee-and-sushi-bar/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
@@ -12315,12 +12315,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4056,
       "longitude": -81.5854
     },
     "sourceId": "TLC-RS-0009",
-    "status": "Unverified",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-polynesian-village-resort-kona-cafe-orange-mural-hidden-mickey/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
@@ -12356,13 +12356,13 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Variable",
     "coordinates": {
       "latitude": 28.4137,
       "longitude": -81.535
     },
     "sourceId": "TLC-RS-0005",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-port-orleans-riverside-resort-ol-man-island-muddy-rivers-pool-bar-hidden-mickey/",
-    "status": "Variable",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
@@ -13240,11 +13240,11 @@ export const entries: HiddenMickeyEntry[] = [
     "confidence": "Strong",
     "verification": "Community",
     "status": "Unverified",
+    "accessNotes": "Pool and recreation areas are for registered resort guests.",
     "coordinates": {
       "latitude": 28.350328,
       "longitude": -81.546773
     },
-    "accessNotes": "Pool and recreation areas are for registered resort guests.",
     "sourceId": "TLC-RS-0038",
     "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
@@ -13442,11 +13442,11 @@ export const entries: HiddenMickeyEntry[] = [
     "confidence": "Interpretive",
     "verification": "Community",
     "status": "Unverified",
+    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
     "coordinates": {
       "latitude": 28.365735,
       "longitude": -81.54219
     },
-    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
     "sourceId": "TLC-RS-0092",
     "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2026/02/01/disney-riviera-resort-hidden-mickeys",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
@@ -13643,12 +13643,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3633,
       "longitude": -81.5459
     },
     "sourceId": "TLC-RS-0004",
-    "status": "Unverified",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-riviera-resort-michael-darlings-teddy-bear-hidden-mickey/",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
@@ -14369,12 +14369,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Obvious",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4188,
       "longitude": -81.58
     },
     "sourceId": "TLC-MK-0032",
-    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
@@ -14410,12 +14410,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Obvious",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4188,
       "longitude": -81.58
     },
     "sourceId": "TLC-MK-0034",
-    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
@@ -14688,12 +14688,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.36,
       "longitude": -81.5925
     },
     "sourceId": "TLC-AK-0001",
-    "status": "Unverified",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-animal-kindgom-kilimanjaro-safari-ride",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
@@ -14929,12 +14929,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4204,
       "longitude": -81.5827
     },
     "sourceId": "TLC-MK-0010",
-    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
@@ -15006,11 +15006,11 @@ export const entries: HiddenMickeyEntry[] = [
     "confidence": "Strong",
     "verification": "Community",
     "status": "Unverified",
+    "accessNotes": "Pool and recreation areas are for registered resort guests.",
     "coordinates": {
       "latitude": 28.350963,
       "longitude": -81.544313
     },
-    "accessNotes": "Pool and recreation areas are for registered resort guests.",
     "sourceId": "TLC-RS-0016",
     "sourceUrl": "https://hiddenmickeyguy.com/disneys-pop-century-resort-hidden-mickey/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
@@ -15570,12 +15570,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Interpretive",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3592,
       "longitude": -81.5872
     },
     "sourceId": "TLC-AK-0002",
-    "status": "Unverified",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-animal-kingdom-climbing-gear",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
@@ -16057,12 +16057,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3578,
       "longitude": -81.5612
     },
     "sourceId": "TLC-HS-0011",
-    "status": "Unverified",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-star-tours-r2d2",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
@@ -16494,12 +16494,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Current",
     "coordinates": {
       "latitude": 28.409495,
       "longitude": -81.572404
     },
     "sourceId": "TLC-RS-0002",
-    "status": "Current",
     "sourceUrl": "https://hiddenmickeyguy.com/1047-2/",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
@@ -17089,12 +17089,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Seasonal",
     "coordinates": {
       "latitude": 28.4219,
       "longitude": -81.5793
     },
     "sourceId": "TLC-MK-0019",
-    "status": "Seasonal",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
@@ -17166,12 +17166,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4219,
       "longitude": -81.5793
     },
     "sourceId": "TLC-MK-0017",
-    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
@@ -17367,11 +17367,11 @@ export const entries: HiddenMickeyEntry[] = [
     "confidence": "Strong",
     "verification": "Community",
     "status": "Unverified",
+    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
     "coordinates": {
       "latitude": 28.409273,
       "longitude": -81.587323
     },
-    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
     "sourceId": "TLC-RS-0078",
     "sourceUrl": "https://www.disneyfoodblog.com/2022/03/09/photos-go-inside-the-new-rooms-coming-to-disneys-grand-floridian-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
@@ -17408,11 +17408,11 @@ export const entries: HiddenMickeyEntry[] = [
     "confidence": "Strong",
     "verification": "Community",
     "status": "Unverified",
+    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
     "coordinates": {
       "latitude": 28.409273,
       "longitude": -81.587323
     },
-    "accessNotes": "Inside a guest room or villa. You need to be staying in that room type, or ask a friendly cast member.",
     "sourceId": "TLC-RS-0079",
     "sourceUrl": "https://www.disneyfoodblog.com/2022/03/09/photos-go-inside-the-new-rooms-coming-to-disneys-grand-floridian-resort/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
@@ -17449,11 +17449,11 @@ export const entries: HiddenMickeyEntry[] = [
     "confidence": "Interpretive",
     "verification": "Community",
     "status": "Unverified",
+    "accessNotes": "Pool and recreation areas are for registered resort guests.",
     "coordinates": {
       "latitude": 28.406363,
       "longitude": -81.584905
     },
-    "accessNotes": "Pool and recreation areas are for registered resort guests.",
     "sourceId": "TLC-RS-0093",
     "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2025/02/12/polynesian-village-resort-pool-hidden-mickey",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
@@ -17570,11 +17570,11 @@ export const entries: HiddenMickeyEntry[] = [
     "confidence": "Obvious",
     "verification": "Documented",
     "status": "Unverified",
+    "accessNotes": "The pavilion is used for weddings. Visit between events or ask at the resort about viewing times.",
     "coordinates": {
       "latitude": 28.408431,
       "longitude": -81.58668
     },
-    "accessNotes": "The pavilion is used for weddings. Visit between events or ask at the resort about viewing times.",
     "sourceId": "TLC-RS-0080",
     "sourceUrl": "https://disneyparksblog.com/weddings/5-little-known-facts-about-disneys-iconic-wedding-pavilion/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
@@ -17611,11 +17611,11 @@ export const entries: HiddenMickeyEntry[] = [
     "confidence": "Strong",
     "verification": "Documented",
     "status": "Unverified",
+    "accessNotes": "The pavilion is used for weddings. Visit between events or ask at the resort about viewing times.",
     "coordinates": {
       "latitude": 28.408431,
       "longitude": -81.58668
     },
-    "accessNotes": "The pavilion is used for weddings. Visit between events or ask at the resort about viewing times.",
     "sourceId": "TLC-RS-0081",
     "sourceUrl": "https://disneyparksblog.com/weddings/5-little-known-facts-about-disneys-iconic-wedding-pavilion/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
@@ -17813,12 +17813,12 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.42,
       "longitude": -81.5856
     },
     "sourceId": "TLC-MK-0049",
-    "status": "Unverified",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },

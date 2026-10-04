@@ -19,6 +19,9 @@
     "exactSpot": "Find the pole at the shop with a thick blue stripe at the bottom. Take about three steps toward the ride and look down at the cement for the charm."
   },
   "bestTip": "Look down, not around. The walkway itself is where to search.",
+  "funFacts": [
+    "Cast Members like to call this the tiniest Hidden Mickey in all the parks."
+  ],
   "viewing": {
     "motion": "Still",
     "lighting": "Bright",
@@ -34,9 +37,6 @@
     "latitude": 28.4183,
     "longitude": -81.5836
   },
-  "funFacts": [
-    "Cast Members like to call this the tiniest Hidden Mickey in all the parks."
-  ],
   "sourceId": "TLC-MK-0025",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
   "updatedAtISO": "2026-09-29T00:00:00.000Z"

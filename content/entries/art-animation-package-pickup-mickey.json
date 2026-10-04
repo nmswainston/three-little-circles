@@ -30,13 +30,13 @@
   },
   "confidence": "Strong",
   "verification": "Community",
+  "status": "Variable",
   "coordinates": {
     "latitude": 28.3491,
     "longitude": -81.545
   },
   "sourceId": "TLC-RS-0010",
   "sourceUrl": "https://hiddenmickeyguy.com/817-2/",
-  "status": "Variable",
   "createdAtISO": "2026-01-12T00:00:00.000Z",
   "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

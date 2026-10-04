@@ -4,10 +4,10 @@
   "landId": "toy_blocks_area",
   "attractionId": "backyard_coaster",
   "display": {
+    "entryTitle": "Queue Cloud Mickey",
     "parkName": "Disney's Hollywood Studios",
     "landName": "Toy Story Land",
-    "attractionName": "Slinky Dog Dash",
-    "entryTitle": "Queue Cloud Mickey"
+    "attractionName": "Slinky Dog Dash"
   },
   "entryType": "FIND",
   "locationType": "Queue",

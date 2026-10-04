@@ -28,12 +28,12 @@
   },
   "confidence": "Strong",
   "verification": "Community",
+  "status": "Variable",
   "coordinates": {
     "latitude": 28.4201,
     "longitude": -81.583
   },
   "sourceId": "TLC-MK-0041",
-  "status": "Variable",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
   "updatedAtISO": "2026-09-29T00:00:00.000Z"
 }

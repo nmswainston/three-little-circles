@@ -84,10 +84,10 @@ for (const row of rows) {
     landId: `TODO-${slugify(row.land_name || "land")}`,
     attractionId: slugify(row.attraction_name),
     display: {
+      entryTitle: row.title,
       parkName: row.park_name,
       landName: row.land_name || "TODO",
       attractionName: row.attraction_name,
-      entryTitle: row.title,
     },
     entryType: "FIND",
     locationType: row.location_type,

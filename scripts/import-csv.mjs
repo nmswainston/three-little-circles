@@ -313,10 +313,10 @@ for (let r = 1; r < rows.length; r++) {
     landId,
     attractionId,
     display: {
+      entryTitle: title,
       parkName: destination.name,
       ...(resolvedLandName ? { landName: resolvedLandName } : {}),
       attractionName,
-      entryTitle: title,
     },
     entryType,
     locationType,

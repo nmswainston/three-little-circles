@@ -29,11 +29,11 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
+  "accessNotes": "Pool and recreation areas are for registered resort guests.",
   "coordinates": {
     "latitude": 28.350288,
     "longitude": -81.547687
   },
-  "accessNotes": "Pool and recreation areas are for registered resort guests.",
   "sourceId": "TLC-RS-0039",
   "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
