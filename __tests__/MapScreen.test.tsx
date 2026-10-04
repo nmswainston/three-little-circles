@@ -8,7 +8,7 @@ import { challengeEntries, getChallenge } from '../src/data/challenges';
 
 const mockNavigate = jest.fn();
 const mockSetParams = jest.fn();
-let mockRouteParams: { focusEntryId?: string; challengeId?: string } = {};
+let mockRouteParams: { focusEntryId?: string; challengeId?: string; locate?: boolean } = {};
 jest.mock('@react-navigation/native', () => ({
   useNavigation: () => ({ navigate: mockNavigate, setParams: mockSetParams }),
   useRoute: () => ({ params: mockRouteParams }),
@@ -87,6 +87,17 @@ describe('MapScreen', () => {
     const cards = cardLabels();
     expect(cards[0].startsWith(`${title(sorted[0].item)}, Right here, `)).toBe(true);
     if (sorted.length > 1) expect(cards[1].startsWith(title(sorted[1].item))).toBe(true);
+  });
+});
+
+describe('MapScreen opened to find you', () => {
+  it('locates the guest without a tap and clears the flag', async () => {
+    mockRouteParams = { locate: true };
+    mockSetParams.mockClear();
+    render(<MapScreen />);
+    expect(await screen.findByText('Closest to you')).toBeTruthy();
+    expect(mockSetParams).toHaveBeenCalledWith({ locate: undefined });
+    mockRouteParams = {};
   });
 });
 

@@ -1,9 +1,10 @@
 import React, { useCallback, useMemo, useState } from "react";
 import { FlatList, ListRenderItem, StyleSheet, View, Text, TextInput, Pressable } from "react-native";
-import { useNavigation } from "@react-navigation/native";
+import { CompositeNavigationProp, useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
+import { BottomTabNavigationProp } from "@react-navigation/bottom-tabs";
 import { Ionicons } from "@expo/vector-icons";
-import { RootStackParamList } from "../navigation/types";
+import { RootStackParamList, RootTabParamList } from "../navigation/types";
 import { getAllEntries, searchEntries } from "../data/query";
 import { DestinationSummary, getDestinationSummaries, Region, REGIONS } from "../data/destinations";
 import { HiddenMickeyEntry } from "../data/types";
@@ -19,8 +20,14 @@ import EntryCard from "../components/EntryCard";
 import EmptyState from "../components/ui/EmptyState";
 import Disclaimer from "../components/Disclaimer";
 import BadgeSummaryCard from "../components/BadgeSummaryCard";
+import NearYouCard from "../components/NearYouCard";
+import { findNearYou } from "../lib/nearYou";
+import { useDeviceLocation } from "../lib/useDeviceLocation";
 
-type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
+type NavigationProp = CompositeNavigationProp<
+  NativeStackNavigationProp<RootStackParamList>,
+  BottomTabNavigationProp<RootTabParamList>
+>;
 
 const DEFAULT_REGION: Region = "Florida";
 
@@ -40,6 +47,12 @@ export default function ParksScreen() {
   const t = useTheme();
   const styles = useStyles(createStyles);
   const found = useFoundStore((s) => s.found);
+
+  const location = useDeviceLocation();
+  const nearYou = useMemo(
+    () => (location.position ? findNearYou(getAllEntries(), location.position, found) : undefined),
+    [location.position, found]
+  );
 
   const [query, setQuery] = useState("");
   const [region, setRegion] = useState<Region | undefined>(DEFAULT_REGION);
@@ -122,6 +135,15 @@ export default function ParksScreen() {
     <>
       <PageHeader title="Parks" subtitle="Pick a destination. The magic hides in plain sight." brand />
       <View style={styles.body}>
+        {!searching && (
+          <NearYouCard
+            here={nearYou}
+            canAsk={location.status === "ask"}
+            onAsk={() => location.request().catch(() => {})}
+            onShowNearby={() => navigation.navigate("MapTab", { screen: "Map", params: { locate: true } })}
+          />
+        )}
+
         {!searching && (
           <BadgeSummaryCard
             onOpen={() => navigation.navigate("Badges")}
