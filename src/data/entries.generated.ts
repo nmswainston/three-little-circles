@@ -12383,6 +12383,7 @@ export const entries: HiddenMickeyEntry[] = [
     "entryType": "FACT",
     "locationType": "Indoor",
     "difficulty": "Medium",
+    "areaContext": "Lobby",
     "description": "The holes punched in the player piano's paper roll are mostly classic Mickeys, but on the left side of the roll one hole is shaped like Goofy. You can only see it by looking in from the left edge of the glass toward the middle, which is why most visitors only ever notice the Mickeys. Donald has his own hole on the right side.",
     "whereToLook": {
       "scene": "The player piano, viewed through the glass from the left side",
@@ -12407,11 +12408,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 33.8155,
       "longitude": -117.9194
     },
-    "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z",
-    "areaContext": "Lobby",
     "sourceId": "TLC-DL-0202",
-    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House3"
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House3",
+    "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "new-orleans-square-balcony-walt-and-roy-initials",
