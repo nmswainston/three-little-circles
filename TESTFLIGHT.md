@@ -66,9 +66,12 @@ Review. Paste the review notes below when it asks.
 
 **Decide before the App Store listing, not before TestFlight**
 
-- iPad. `supportsTablet` is on, so a store submission will require 13-inch
-  iPad screenshots. Either take them or switch it off until the layout is
-  more than phone-shaped. TestFlight does not care either way.
+- iPad. `supportsTablet` is off for 1.0, so the store listing needs iPhone
+  screenshots only, and an iPad installs the app in iPhone compatibility
+  mode. Apple lets an update add iPad support later but never remove it, so
+  this is the reversible choice. Turn it back on in `app.config.js` once the
+  layout is more than phone-shaped and 13-inch iPad screenshots exist.
+  TestFlight does not care either way.
 - Home screen name. "Three Little Circles" is longer than iOS shows under an
   icon, so it will be cut short on the home screen. A shorter
   `CFBundleDisplayName` is a branding call, not a technical one.
@@ -174,7 +177,8 @@ want eyes on:
 - About two thirds of the entries were researched from published sources and
   have not yet been checked in person. They carry an "Unconfirmed" chip. If you
   find one, "Saw it today" is the fastest way to tell me.
-- It runs on iPad, but the layout is still phone-shaped.
+- On an iPad it runs as a phone-sized window (iPhone compatibility mode). A
+  real iPad layout comes later.
 
 Tell me what is confusing before you tell me what is broken. Confusing is the
 harder problem.

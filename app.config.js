@@ -67,7 +67,10 @@ export default {
       ],
     ],
     ios: {
-      supportsTablet: true,
+      // iPhone-only for 1.0. The layout is phone-shaped, and Apple lets an
+      // update add iPad support later but never remove it. Turn this on once
+      // a wide layout exists and 13-inch iPad screenshots are ready.
+      supportsTablet: false,
       bundleIdentifier: 'com.nmswainston.threelittlecircles',
       infoPlist: {
         ITSAppUsesNonExemptEncryption: false,
