@@ -1,0 +1,40 @@
+{
+  "id": "disney-animation-exit-wall-mosaic-circles-mickey",
+  "parkId": "california_pier_park",
+  "landId": "hollywood_land_area",
+  "attractionId": "disney_animation_building",
+  "display": {
+    "entryTitle": "Exit Wall Mosaic Circles Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Hollywood Land",
+    "attractionName": "Disney Animation"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "The mosaic lettering on the exit walls mixes large and small round tiles, and one grouping forms a Mickey. The head tile is a different color from the other large circles, which is what tips it from accident to intention.",
+  "whereToLook": {
+    "scene": "The exit walls of the Animation building, the mosaic lettering",
+    "exactSpot": "A large round tile in an odd color with two small round tiles above it."
+  },
+  "bestTip": "Look for the one big circle that does not match its neighbors.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8078,
+    "longitude": -117.9177
+  },
+  "sourceId": "TLC-CA-0043",
+  "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Disney-Animation3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "monsters-inc-camera-monster-television-dial-mickey",
+  "parkId": "california_pier_park",
+  "landId": "hollywood_land_area",
+  "attractionId": "monsters_inc_ride",
+  "display": {
+    "entryTitle": "Camera Monster Television Dial Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Hollywood Land",
+    "attractionName": "Monsters, Inc. Mike & Sulley to the Rescue!"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "Near the very end of the ride, a skinny orange monster films you with a camera. Just left of him is a television set. Below its screen is a control panel, and the dial on that panel is shaped like Mickey's head.",
+  "whereToLook": {
+    "scene": "Near the end of the ride, the skinny orange monster with the camera, the TV to his left",
+    "exactSpot": "The panel below the TV screen. The dial is a Mickey head."
+  },
+  "bestTip": "Watch the TV, not the camera.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Left",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8085,
+    "longitude": -117.9165
+  },
+  "sourceId": "TLC-CA-0047",
+  "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Monsters-Inc1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

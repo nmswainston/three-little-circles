@@ -1,0 +1,40 @@
+{
+  "id": "disney-animation-entrance-mosaic-once-upon-a-time-m-mickey",
+  "parkId": "california_pier_park",
+  "landId": "hollywood_land_area",
+  "attractionId": "disney_animation_building",
+  "display": {
+    "entryTitle": "Entrance Mosaic Letter M Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Hollywood Land",
+    "attractionName": "Disney Animation"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "Walking into the building, lettering in small mosaic tiles runs along the wall. In the M of Once Upon A Time, three round tiles at the lower right of the letter form a Mickey.",
+  "whereToLook": {
+    "scene": "The entrance hallway mosaic lettering, the words Once Upon A Time",
+    "exactSpot": "The letter M, lower right part of the letter. Three round tiles."
+  },
+  "bestTip": "Read the wall slowly. The round tiles stand out from the square ones.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8078,
+    "longitude": -117.9177
+  },
+  "sourceId": "TLC-CA-0041",
+  "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Disney-Animation2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

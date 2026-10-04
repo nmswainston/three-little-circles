@@ -1,0 +1,40 @@
+{
+  "id": "schmoozies-fairfax-market-mosaic-eat-red-jewel-mickey",
+  "parkId": "california_pier_park",
+  "landId": "hollywood_land_area",
+  "attractionId": "schmoozies",
+  "display": {
+    "entryTitle": "Fairfax Market Mosaic Red Jewel Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Hollywood Land",
+    "attractionName": "Schmoozies!"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "The mosaic mural near Fairfax Market includes the word EAT. Close to it, a red jewel with two buttons above it makes a Mickey.",
+  "whereToLook": {
+    "scene": "The mosaic mural near Fairfax Market, around the word EAT",
+    "exactSpot": "A red jewel head with two button ears."
+  },
+  "bestTip": "Find EAT first, then look for the one red stone.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8081,
+    "longitude": -117.917
+  },
+  "sourceId": "TLC-CA-0045",
+  "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Schmoozies-2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

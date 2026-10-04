@@ -1,0 +1,40 @@
+{
+  "id": "schmoozies-rear-wall-mosaic-statue-of-liberty-minnie",
+  "parkId": "california_pier_park",
+  "landId": "hollywood_land_area",
+  "attractionId": "schmoozies",
+  "display": {
+    "entryTitle": "Rear Wall Mosaic Statue of Liberty Minnie",
+    "parkName": "Disney California Adventure",
+    "landName": "Hollywood Land",
+    "attractionName": "Schmoozies!"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Shop",
+  "description": "On the wall behind the front counter, a mosaic puts Minnie Mouse in the middle dressed as the Statue of Liberty, torch and all.",
+  "whereToLook": {
+    "scene": "The mosaic on the rear wall behind the Schmoozies! counter",
+    "exactSpot": "The center of the mosaic. Minnie as Lady Liberty."
+  },
+  "bestTip": "Look past the blender while you order.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8081,
+    "longitude": -117.917
+  },
+  "sourceId": "TLC-CA-0046",
+  "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Schmoozies-1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

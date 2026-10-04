@@ -1,0 +1,40 @@
+{
+  "id": "disney-animation-turtle-talk-lobby-whale-shark-mural-mickey",
+  "parkId": "california_pier_park",
+  "landId": "hollywood_land_area",
+  "attractionId": "disney_animation_building",
+  "display": {
+    "entryTitle": "Turtle Talk Lobby Whale Shark Mural Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Hollywood Land",
+    "attractionName": "Disney Animation"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In the lobby outside the Turtle Talk with Crush theater, the mural was redone after Finding Dory. On the whale shark picture, a Hidden Mickey sits just below Destiny's right fin.",
+  "whereToLook": {
+    "scene": "The Turtle Talk with Crush lobby, the whale shark picture in the mural",
+    "exactSpot": "Just below Destiny's right fin."
+  },
+  "bestTip": "Find Destiny, then drop your eyes under the fin.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8078,
+    "longitude": -117.9177
+  },
+  "sourceId": "TLC-CA-0042",
+  "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Turtle-Talk1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
