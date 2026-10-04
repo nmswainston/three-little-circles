@@ -59,7 +59,9 @@ export function firstOutOfOrder(obj, order) {
  * listed in `nested` are ordered the same way; values are never changed.
  */
 export function orderKeys(obj, order, nested = {}) {
-  const out = {};
+  // A null prototype, so a stray "__proto__" key is copied like any other
+  // instead of reaching the setter and vanishing before the build can name it.
+  const out = Object.create(null);
   for (const key of order) {
     if (!Object.hasOwn(obj, key)) continue;
     const value = obj[key];

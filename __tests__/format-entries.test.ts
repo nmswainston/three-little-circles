@@ -137,6 +137,15 @@ describe('format-entries', () => {
     expect(keys.slice(0, -1)).toEqual(Object.keys(canonical));
   });
 
+  it('keeps even a "__proto__" key, which a plain object would swallow', () => {
+    // Built as text: an object literal with __proto__ would set the prototype instead.
+    writeFileSync(entryPath(), json(scrambled).replace(/\n}\n$/, ',\n  "__proto__": "red"\n}\n'));
+    expect(run(formatScript).status).toBe(0);
+    const keys = Object.keys(JSON.parse(readFileSync(entryPath(), 'utf8')));
+    expect(keys[keys.length - 1]).toBe('__proto__');
+    expect(keys.slice(0, -1)).toEqual(Object.keys(canonical));
+  });
+
   it('rejects a file that is not JSON instead of writing over it', () => {
     writeFileSync(factPath(), '{ not json\n');
     const result = run(formatScript);
