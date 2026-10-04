@@ -17193,6 +17193,2571 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
+    "id": "toontown-railway-accessible-boarding-floor-paint-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Accessible Boarding Floor Paint Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "The loading area floor is splattered with blobs of cartoon paint. In the accessible boarding area, one grouping is a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The accessible boarding area at the load platform",
+      "exactSpot": "The paint blobs on the floor. Three in a Mickey grouping."
+    },
+    "bestTip": "Look down while you wait for the vehicle.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Only in the accessible boarding area.",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0153",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway8",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-band-concert-drum-dirt-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Band Concert Drum Dirt Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "A big bass drum from The Band Concert sits in the queue, and the smudge of dirt on its head is a Mickey. Up close it dissolves into noise. Step back to the far left of the queue and it snaps into shape.",
+    "whereToLook": {
+      "scene": "The Band Concert bass drum in the queue",
+      "exactSpot": "The dirt mark on the drum head. Read it from a distance."
+    },
+    "bestTip": "Back up to the far left of the queue. Closer is worse.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Far",
+      "notes": "Distance is the trick here."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0138",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway52",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-cactus-room-blue-cactus-stitch",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Cactus Room Blue Cactus Stitch",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Entering the cactus room, look straight ahead for a lone blue cactus with a stitch on its right side. That is Experiment 626, Stitch himself, hiding out on the railway.",
+    "whereToLook": {
+      "scene": "The cactus room, straight ahead as you enter",
+      "exactSpot": "The single blue cactus with a stitch mark on its right side."
+    },
+    "bestTip": "Blue is the giveaway in a room full of green.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0162",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway49",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-cactus-room-mickey-cacti",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Cactus Room Mickey Cacti",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Easy",
+    "areaContext": "Ride",
+    "description": "In the first room after the train splits up, the cactus on the wall to the right of the exit is a dead ringer for Mickey. The room is full of Mickey-shaped cacti, and they all count together as one find.",
+    "whereToLook": {
+      "scene": "The first room after the train breaks apart, the wall right of the exit",
+      "exactSpot": "The cactus right of the exit, and any of its lookalikes around the room."
+    },
+    "bestTip": "Cacti are always a little suspect. These are not subtle.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0163",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway13",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-carnival-frontier-toss-targets-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Carnival Frontier Toss Targets Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Heading for the carnival room exit, look left for the Frontier Toss game, to the left of the Bounce Haus. Three of its targets form a Mickey.",
+    "whereToLook": {
+      "scene": "The carnival room near the exit, the Frontier Toss booth on the left",
+      "exactSpot": "Three targets on the Frontier Toss game, grouped as a head and ears."
+    },
+    "bestTip": "The Bounce Haus is the landmark. Frontier Toss is just left of it.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0168",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway15",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-carnival-mirror-maze-mm-letters",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Carnival Mirror Maze MM Letters",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "As you enter the carnival room, the Mirror Maze attraction is on the right, and the letters MM sit above its doors. Mickey Mouse, or Mickey and Minnie. Either way they are initials hiding in plain sight.",
+    "whereToLook": {
+      "scene": "Entering the carnival room, the Mirror Maze on the right",
+      "exactSpot": "Above the Mirror Maze doors. The letters MM."
+    },
+    "bestTip": "Look right as you come in, before the balloons grab you.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0164",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway39",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-carnival-popcorn-box-kernel-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Carnival Popcorn Box Kernel Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "A popcorn box in the carnival room has one Mickey kernel in its top left, just before the tornado kicks off. Unlike the El CapiTOON logo, this Mickey sits up near the top of the box. You only get the angle if your car enters the carnival from the far left side.",
+    "whereToLook": {
+      "scene": "The carnival room, the popcorn box, just before the tornado",
+      "exactSpot": "Top left of the popcorn box. One kernel Mickey near the top."
+    },
+    "bestTip": "Cars entering from the far left have the view. Others will miss it.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Depends on which side your car enters the carnival room.",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0167",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway56",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-carnival-sold-out-sign-yellow-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Carnival Sold Out Sign Yellow Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Entering the carnival room, balloons float ahead of you beside a Sold Out sign. Just above the sign, a small yellow Mickey hides among the signage, sometimes half covered by orange lights.",
+    "whereToLook": {
+      "scene": "Entering the carnival room, the balloons and the Sold Out sign ahead",
+      "exactSpot": "Just above the Sold Out sign. A small yellow Mickey, sometimes behind the orange lights."
+    },
+    "bestTip": "It is partly obscured most of the time. Look for the yellow.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0165",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway47",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-carnival-ticket-booth-rolls-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Carnival Ticket Booth Rolls Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the carnival room, the ticket booth to the left of Donald's hot dog stand has three rolls of tickets stacked as a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The carnival room, the ticket booth left of Donald's hot dog booth",
+      "exactSpot": "Three rolls of tickets grouped as a head and ears."
+    },
+    "bestTip": "Find Donald's hot dogs first, then look one booth to the left.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0166",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway14",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-cashier-popcorn-bowl-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Cashier Popcorn Bowl Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "The popcorn display at the snack bar cashier is full of Mickeys, both sculpted three-dimensional heads and flat classic groupings of kernels. There are too many to count, so the whole bowl is one find.",
+    "whereToLook": {
+      "scene": "The popcorn display at the snack bar cashier",
+      "exactSpot": "Anywhere in the popcorn. Look for round kernel groupings with two smaller ones on top."
+    },
+    "bestTip": "Find one and your eye will start pulling out the rest.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0147",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway24",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-city-clothesline-mickey-shirt",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "City Clothesline Mickey Shirt",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Above Donald's delivery truck on the left side of the city scene, an open window has a clothesline strung from it, and a Mickey Mouse shirt is hanging on the line. The scene is dim, so it reads better on a night ride when your eyes are already adjusted.",
+    "whereToLook": {
+      "scene": "The city scene, above Donald's delivery truck on the left",
+      "exactSpot": "The open window with the clothesline. A Mickey shirt on the line."
+    },
+    "bestTip": "Ride after dark. The scene is easier when your eyes are not fighting daylight.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0175",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway43",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-city-ice-cream-scoops-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "City Ice Cream Scoops Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the same city scene, an ice cream shop sits to the right of Pete, and its scoops are stacked as a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The city scene with Pete's jackhammer, the ice cream shop to his right",
+      "exactSpot": "The ice cream sign or display. Scoops as a head and ears."
+    },
+    "bestTip": "Pete is the pivot: billboard to his left, ice cream to his right.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0174",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway21",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-city-laundry-soap-billboard-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "City Laundry Soap Billboard Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the city scene where Pete runs the jackhammer, a laundry soap billboard tops the building to his left. There is a Hidden Mickey in the billboard art.",
+    "whereToLook": {
+      "scene": "The city scene with Pete's jackhammer, the building to his left",
+      "exactSpot": "The laundry soap billboard on the rooftop."
+    },
+    "bestTip": "Look up and left of Pete.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0173",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway20",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-control-panel-scrollwork-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Control Panel Scrollwork Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Loading",
+    "description": "The cast member control panels at the load station carry a decorative plaque with ornate scrollwork, and two Mickeys are tucked into the flourishes at either end of it.",
+    "whereToLook": {
+      "scene": "The cast member control panel at the load station",
+      "exactSpot": "The decorative plaque above the vehicle controls. One Mickey in the scrollwork at each end."
+    },
+    "bestTip": "You can only see it from the platform while the panel is in view. Do not lean over it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0156",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway11",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-daisy-studio-ballet-poster-frame-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Daisy Studio Ballet Poster Frame Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Daisy's studio is hung with posters for ballet productions. The one on the wall behind you while you waltz advertises Ro-Mallard and Juli-Egg, and the top of its frame is a Mickey.",
+    "whereToLook": {
+      "scene": "Daisy's dance studio, the wall behind you during the waltz",
+      "exactSpot": "The Ro-Mallard and Juli-Egg poster. The top of the frame."
+    },
+    "bestTip": "Turn around while the car waltzes. The poster is behind you.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Flashing",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0177",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway46",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-daisy-studio-disco-ball-light-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Daisy Studio Disco Ball Light Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "During the conga in Daisy's studio, a disco ball spins on the right. Mixed into the white spots of light it throws are several Mickey heads, and they fly past fast.",
+    "whereToLook": {
+      "scene": "Daisy's dance studio during the conga, the disco ball on the right",
+      "exactSpot": "The reflected light spots sweeping the room. Some are Mickey shaped."
+    },
+    "bestTip": "Watch the walls and floor, not the ball.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Flashing",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0179",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway18",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-daisy-studio-lower-wall-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Daisy Studio Lower Wall Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Inside Daisy's dance studio, the design along the lower walls repeats several Mickeys. They sit just above the floorboards toward the front of the studio, below the mirror, turned ninety degrees.",
+    "whereToLook": {
+      "scene": "Daisy's dance studio, the lower walls toward the front below the mirror",
+      "exactSpot": "Just above the floorboards. Sideways Mickeys in the wall pattern."
+    },
+    "bestTip": "Look low and tilt your head; they are on their side.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Flashing",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0176",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway28",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-daisy-studio-mirror-flower-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Daisy Studio Mirror Flower Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "When Daisy's studio switches from the waltz to the conga, the flowers along the right side of the big mirror light up, and one of them has a Mickey at its center.",
+    "whereToLook": {
+      "scene": "Daisy's dance studio during the conga, the right side of the mirror",
+      "exactSpot": "Among the flowers on the right of the mirror. A Mickey in the middle of one."
+    },
+    "bestTip": "Wait for the conga. The flowers do not read during the waltz.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Flashing",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0178",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway17",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-dresser-mirror-lonesome-ghost",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Dresser Mirror Lonesome Ghost",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "Past the Sorcerer's Apprentice, the queue reaches a dresser with a mirror. Wait by it long enough and the Lonesome Ghost from the 1937 short appears in the glass. On a good day he even sets the plane going.",
+    "whereToLook": {
+      "scene": "The dresser with the mirror, just past the Sorcerer's Apprentice",
+      "exactSpot": "In the mirror. A ghost fades in if you linger."
+    },
+    "bestTip": "Let the line move around you for a minute. The effect is on a timer.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "The ghost only appears periodically."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0140",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway37",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-el-capitoon-popcorn-logo-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "El CapiTOON Popcorn Logo Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "The El CapiTOON Theater's logo is a popcorn box drawn like a strip of film with the letters E and C out front. On the left side of the box, three kernels are stacked as a Mickey. The logo repeats around the attraction, on the trash cans at the entrance and again inside the theater, and all of them count as the one find.",
+    "whereToLook": {
+      "scene": "The El CapiTOON logo, starting with the trash cans at the entrance",
+      "exactSpot": "The left side of the popcorn box in the logo. Three kernels as a head and ears."
+    },
+    "bestTip": "Learn it on the trash cans outside, then spot it again inside.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0132",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway42",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-electrified-potato-cord-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Electrified Potato Cord Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Behind and to the right of the electrified potato prop, a yellow electrical cord is looped into a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The electrified potato in the snack bar area",
+      "exactSpot": "Behind it and to the right. A yellow cord looped in three circles."
+    },
+    "bestTip": "Follow the cord away from the potato.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0145",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway40",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-exit-fishing-hole-sign-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Exit Fishing Hole Sign Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Right before the car enters the unload room, during the fireworks, a multi-directional signpost stands on the right. On the arm that reads Fishing Hole, the letter O has been swapped for a Mickey.",
+    "whereToLook": {
+      "scene": "Just before the unload room during the fireworks, the signpost on the right",
+      "exactSpot": "The Fishing Hole arm of the sign. The O is a Mickey."
+    },
+    "bestTip": "Last chance of the ride. Look right as the fireworks wind down.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0195",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway50",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-factory-back-wall-lollipop-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Factory Back Wall Lollipop Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Toward the back wall on the right side of the factory, a yellow Mickey head rotates on a pole like a lollipop.",
+    "whereToLook": {
+      "scene": "The factory room, the right side toward the back wall",
+      "exactSpot": "A yellow Mickey head spinning on a pole."
+    },
+    "bestTip": "Scan the back wall for anything spinning and yellow.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0186",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway31",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-factory-bellows-panel-yellow-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Factory Bellows Panel Yellow Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the factory room, a yellow Mickey on a red background sits on the right-hand panel just left of the bellows.",
+    "whereToLook": {
+      "scene": "The factory room, the panel on the right just left of the bellows",
+      "exactSpot": "A yellow Mickey on red."
+    },
+    "bestTip": "The bellows is the landmark. Look one panel left.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0181",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway23",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-factory-black-box-yellow-circles-inverted-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Factory Black Box Yellow Circles Inverted Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "On the right side of the factory, the black box with the long belt has three yellow circles near its bottom right that swing together for a moment into a Mickey. There are two sets. This is the upside-down one on top.",
+    "whereToLook": {
+      "scene": "The factory room, the black box with the long belt on the right",
+      "exactSpot": "Bottom right of the box. The upper set of three yellow circles, upside down."
+    },
+    "bestTip": "They only line up briefly. Keep watching the corner.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0183",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway54",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-factory-black-box-yellow-circles-upright-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Factory Black Box Yellow Circles Upright Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Just below the inverted set on the same black box, a second trio of yellow circles comes together right side up.",
+    "whereToLook": {
+      "scene": "The factory room, the black box with the long belt on the right",
+      "exactSpot": "Bottom right of the box. The lower set of three yellow circles, right side up."
+    },
+    "bestTip": "Catch the upper set first; this one is directly beneath it.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0184",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway55",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-factory-entrance-banner-mickey-ears-bite",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Factory Entrance Banner Mickey Ears Bite",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Just before the factory room, a string of triangular pennants hangs over the track. One pennant has a chunk missing, and the missing piece is shaped like Mickey ears.",
+    "whereToLook": {
+      "scene": "The string of pennants over the track right before the factory room",
+      "exactSpot": "The pennant with a piece missing. The gap is Mickey ears."
+    },
+    "bestTip": "Look up as the factory comes into view.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0180",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway61",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-factory-final-left-panel-rotating-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Factory Final Left Panel Rotating Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "On the final panel on the left before the front of the Smasher, another Mickey head rotates.",
+    "whereToLook": {
+      "scene": "The factory room, the last panel on the left before the Smasher's front",
+      "exactSpot": "On the panel. A rotating Mickey head."
+    },
+    "bestTip": "Count panels on the left; it is the last one before the Smasher.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0189",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway33",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-factory-flywheels-belts-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Factory Flywheels and Belts Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "On top of the tall panel between the furnace and the Smasher, three flywheels joined by belts form a Mickey.",
+    "whereToLook": {
+      "scene": "The factory room, the top of the tall panel between the furnace and the Smasher",
+      "exactSpot": "Three flywheels connected by belts. One large and two small."
+    },
+    "bestTip": "Look to the top of the tall panel, above the moving parts.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0187",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway35",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-factory-gear-boxes-mickey-head-shadow",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Factory Gear Boxes Mickey Head Shadow",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Below the black box with the long belt, two large gear boxes sit on the right side of the factory. At their base, a Mickey head throws a shadow of mouse ears. The head is partly tucked away, so the left side of the vehicle has the better look.",
+    "whereToLook": {
+      "scene": "The factory room, the two large gear boxes below the black box on the right",
+      "exactSpot": "The bottom of the gear boxes. A Mickey head and its ear shadow."
+    },
+    "bestTip": "Sit on the left side of the vehicle for this one.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0185",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway53",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-factory-grey-panel-spinner-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Factory Grey Panel Spinner Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Near the center right of the factory room, a grey panel feeds a long belt off to the right. Just above the panel, a spinner is shaped as a Mickey head.",
+    "whereToLook": {
+      "scene": "The factory room, the grey panel with the long belt at center right",
+      "exactSpot": "Just above the panel. A spinning Mickey head."
+    },
+    "bestTip": "Follow the long belt back to its panel, then look up.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0182",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway30",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-factory-smasher-sign-wheel-center-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Factory Smasher Sign Wheel Center Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "A wheel turns on the front left panel of the factory, just left of the sign reading The Smasher. There is a Mickey at the hub of the wheel.",
+    "whereToLook": {
+      "scene": "The factory room, the front left panel beside the Smasher sign",
+      "exactSpot": "The center of the rotating wheel."
+    },
+    "bestTip": "Find the sign, then the wheel to its left, then the hub.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0190",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway34",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-factory-tall-panel-rotating-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Factory Tall Panel Rotating Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "The same tall panel between the furnace and the Smasher has a rotating Mickey head on its face.",
+    "whereToLook": {
+      "scene": "The factory room, the tall panel between the furnace and the Smasher",
+      "exactSpot": "On the panel. A rotating Mickey head."
+    },
+    "bestTip": "Flywheels on top, rotating head on the face.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0188",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway32",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-finale-fireworks-wall-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Finale Fireworks Wall Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "After the ukulele scene, fireworks burst against the wall, and one burst is a Mickey. It is quick, and if you are not watching the sky you will miss it.",
+    "whereToLook": {
+      "scene": "After the ukulele scene, the fireworks on the wall",
+      "exactSpot": "Among the firework bursts. One opens as a head and ears."
+    },
+    "bestTip": "Eyes up the moment the ukulele scene ends.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Flashing",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0193",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway63",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-first-turn-paint-cans-inverted-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "First Turn Paint Cans Inverted Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "After the first left turn, while the train is still in one piece, a stack of paint cans holds an upside-down Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Right after the first left turn, before the train breaks apart",
+      "exactSpot": "The paint cans. Three cans grouped as an inverted head and ears."
+    },
+    "bestTip": "Upside down is the clue. Tilt your head.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0161",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway12",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-lane-2-floor-paint-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Lane 2 Floor Paint Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "Among the paint splatters on the loading platform floor, lane 2 has its own Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Lane 2 at the load platform",
+      "exactSpot": "The paint blobs on the floor of lane 2."
+    },
+    "bestTip": "Ask for lane 2 if the cast member is flexible.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0154",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway9",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-lane-7-floor-paint-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Lane 7 Floor Paint Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "Lane 7 at the load platform has a Hidden Mickey in the floor paint blobs as well.",
+    "whereToLook": {
+      "scene": "Lane 7 at the load platform",
+      "exactSpot": "The paint blobs on the floor of lane 7."
+    },
+    "bestTip": "Each lane is a fresh chance. This is the lane 7 one.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0155",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway10",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-last-room-low-blue-wall-mickey-letters",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Last Room Low Blue Wall Mickey Letters",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the last room, a low blue wall on the left, right down at floor level, spells out M-I-C-K-E-Y in letters. It is across from where Mickey plays the ukulele, and only the left side of the vehicle has the view.",
+    "whereToLook": {
+      "scene": "The last room, the low blue wall on the left across from the ukulele",
+      "exactSpot": "Down at floor level on the blue wall. The letters of Mickey's name."
+    },
+    "bestTip": "Sit on the left and look down.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Visible from the left side of the vehicle.",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0194",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway57",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-loading-rafter-back-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Loading Rafter Back Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Loading",
+    "description": "From lanes 1 through 4, look to your upper left. On the back of the rafter carrying Minnie's name, across from the Mickey rafter, is a Mickey head.",
+    "whereToLook": {
+      "scene": "Lanes 1 through 4 at the load platform, the rafters to the upper left",
+      "exactSpot": "The back side of the Minnie rafter, facing the Mickey rafter."
+    },
+    "bestTip": "Only lanes 1 through 4 have the angle.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0159",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway26",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-loading-rafters-mickey-name",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Loading Rafters Mickey Name",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "Look up in the loading area and Mickey's name is written on the rafters overhead.",
+    "whereToLook": {
+      "scene": "The loading area, the rafters overhead",
+      "exactSpot": "Up in the rafters. The name Mickey."
+    },
+    "bestTip": "Look up as soon as you reach the platform. Minnie's name is up there too.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0157",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway25",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-loading-rafters-minnie-name",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Loading Rafters Minnie Name",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "Minnie gets equal billing in the loading area rafters, with her name written up high across from Mickey's.",
+    "whereToLook": {
+      "scene": "The loading area, the rafters overhead",
+      "exactSpot": "Up in the rafters. The name Minnie."
+    },
+    "bestTip": "Find Mickey's name, then look for its partner.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0158",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway38",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-meeska-mooska-poster-cape-button-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Meeska Mooska Poster Cape Button Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The Meeska Mooska poster shows Minnie in a cape riding a vacuum cleaner. The buttons down the middle of her cape are two Hidden Mickeys.",
+    "whereToLook": {
+      "scene": "The Meeska Mooska movie poster in the queue",
+      "exactSpot": "The buttons in the middle of Minnie's cape. Two three-circle shapes."
+    },
+    "bestTip": "Look at the cape clasp first, then the sashes for the companion find.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0134",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway59",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-meeska-mooska-poster-cape-sash-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Meeska Mooska Poster Cape Sash Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "On the same Meeska Mooska poster, the sashes of Minnie's cape are patterned with several small Mickeys. They count together as one find.",
+    "whereToLook": {
+      "scene": "The Meeska Mooska movie poster in the queue",
+      "exactSpot": "The sashes on Minnie's cape. A repeating Mickey pattern."
+    },
+    "bestTip": "Separate from the cape buttons, which are their own find.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0135",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway60",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-octopus-plug-pipes-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Octopus Plug Pipes Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "After the water scene, when the octopus yanks the plug, your car turns right. In the pipes on the right as you swing back left, three pipe ends form a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Right after the octopus pulls the plug, the pipes on the right",
+      "exactSpot": "The pipes on the right side as the car turns back left."
+    },
+    "bestTip": "The turn is quick. Have your eyes on the right wall before the plug comes out.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0172",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway19",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-park-restored-potted-plants-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Park Restored Potted Plants Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Once Mickey and Minnie shut down the Smasher, the factory turns back into Runnamuck Park. Potted plants appear on the left and right above where the Smasher sign was, and the plants are trimmed into Mickeys.",
+    "whereToLook": {
+      "scene": "The factory after it turns back into the park, above where the Smasher sign was",
+      "exactSpot": "The potted plants on the left and right. Mickey shapes in the foliage."
+    },
+    "bestTip": "The transformation is the cue. Look where the sign used to be.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0191",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway62",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-plane-room-electrical-cord-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Plane Room Electrical Cord Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the queue room with the airplane, a book called How To Fly sits on a shelf. Behind it, an electrical cord is coiled into a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The queue room with the airplane, the shelf with the How To Fly book",
+      "exactSpot": "Behind the book. A coiled cord in three loops."
+    },
+    "bestTip": "Read the book spines; the title points you to the cord.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0137",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway45",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-plane-room-horseshoe-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Plane Room Horseshoe Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the room with the plane, a horseshoe-shaped decoration hangs below the Sorcerer's Apprentice display, and it is shaped as a Mickey head.",
+    "whereToLook": {
+      "scene": "The queue room with the airplane, below the Sorcerer's Apprentice",
+      "exactSpot": "The horseshoe decoration under the Sorcerer's Apprentice. A head with two ears."
+    },
+    "bestTip": "Look below the hat and broom, not at them.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0139",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-plutos-christmas-tree-easel-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Pluto's Christmas Tree Easel Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the queue room dressed for Christmas, a poster for Pluto's Christmas Tree sits on an easel. The easel itself carries a small Mickey, off to the side of the poster everyone is looking at.",
+    "whereToLook": {
+      "scene": "The Christmas-decorated queue room, the Pluto's Christmas Tree poster",
+      "exactSpot": "On the easel holding the poster, not on the poster."
+    },
+    "bestTip": "Mickey and Pluto on the poster are the decoys. Check the wood.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0141",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway48",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-popcorn-machine-kernel-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Popcorn Machine Kernel Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "To the right of the register, the popcorn machine is also loaded with Mickey kernels, sculpted heads and classic three-circle clusters alike. The machine counts as one find separate from the cashier bowl.",
+    "whereToLook": {
+      "scene": "The popcorn machine to the right of the snack bar register",
+      "exactSpot": "Inside the machine. Kernel clusters shaped as heads and ears."
+    },
+    "bestTip": "Press close to the glass; the sculpted ones are small.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0148",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway16",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-popcorn-machine-mickey-and-minnie-pair",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Popcorn Machine Mickey and Minnie Pair",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the upper left of the popcorn machine, two sculpted kernels face each other: a Mickey and a Minnie, complete with her bow.",
+    "whereToLook": {
+      "scene": "The popcorn machine to the right of the register, upper left corner",
+      "exactSpot": "Two popcorn pieces facing each other. One has a bow."
+    },
+    "bestTip": "Check the top left before the rest of the machine distracts you.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0149",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway36",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-potatoland-poster-pink-paint-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Potatoland Poster Pink Paint Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The Potatoland poster hides a Mickey in pink paint at its lower right. There are two copies of the poster, one in the standby line in the theater lobby and one in the Lightning Lane, and both have it.",
+    "whereToLook": {
+      "scene": "The Potatoland movie poster in the theater lobby",
+      "exactSpot": "Lower right corner of the poster. Pink paint in three circles."
+    },
+    "bestTip": "Either queue works; the poster is in both.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0143",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-runnamuck-park-lamppost-paint-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Runnamuck Park Lamppost Paint Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the opening Runnamuck Park scene, a black lamppost stands on the left. About halfway up the post, red paint blotches form a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The Runnamuck Park scene at the start of the ride, the black lamppost on the left",
+      "exactSpot": "Halfway up the post. Red paint blotches in three circles."
+    },
+    "bestTip": "It is the first scene, so be looking left before the train rolls.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0160",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway44",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-snack-bar-bbq-sauce-spill-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Snack Bar BBQ Sauce Spill Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Four big sauce bottles line the snack bar. The first is barbecue sauce with a large spill beneath it, and just below that spill is a much smaller one shaped as a Mickey.",
+    "whereToLook": {
+      "scene": "The four large sauce bottles in the snack bar, the barbecue bottle",
+      "exactSpot": "Below the big spill, a small three-circle spill."
+    },
+    "bestTip": "The big spill is the decoy. Look under it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0151",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway51",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-snack-bar-beer-stein-tendrils-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Snack Bar Beer Stein Tendrils Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Just past the yellow sarcophagus in the snack bar, a beer stein is decorated with curling tendrils, and three of them form a Mickey.",
+    "whereToLook": {
+      "scene": "The snack bar, just past the yellow sarcophagus",
+      "exactSpot": "The beer stein. Tendrils curling into a head and ears."
+    },
+    "bestTip": "The sarcophagus Mickey and this one are a few steps apart.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0144",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-snack-bar-condiment-containers-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Snack Bar Condiment Containers Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "As the line passes the first row of condiments in the snack bar, three containers are set out as a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The first row of condiments in the snack bar",
+      "exactSpot": "Three condiment containers grouped as a head and ears."
+    },
+    "bestTip": "Count the containers as you pass; the odd trio is the one.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0150",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway6",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-snack-bar-register-steamboat-willie-date",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Snack Bar Register Steamboat Willie Date",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The snack bar's two cash registers show the amounts 11.18 and 19.28. Put them together and you get November 18, 1928, the day Steamboat Willie premiered and Mickey's official birthday.",
+    "whereToLook": {
+      "scene": "The snack bar's two cash registers",
+      "exactSpot": "The amounts on the register displays: 11.18 and 19.28."
+    },
+    "bestTip": "Read both registers; the date is split between them.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0146",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway5",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-snack-bar-sarcophagus-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Snack Bar Sarcophagus Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Entering the snack bar, a big yellow sarcophagus stands on the right of the queue. On its back, about knee height, is a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The snack bar entrance, the yellow sarcophagus on the right",
+      "exactSpot": "The back of the sarcophagus, around knee height."
+    },
+    "bestTip": "Walk around it as the line bends; the front has nothing.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0142",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-theater-back-wall-film-reels-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Theater Back Wall Film Reels Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Pre-show",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "When you enter the theater for the cartoon, turn around. On the back wall above the doors, a large film reel with two smaller reels above it makes the least hidden Mickey in the building. It stops being hidden at all at the end of the ride, when you walk straight toward it on the way to the shop.",
+    "whereToLook": {
+      "scene": "The theater where the cartoon plays, the wall behind you",
+      "exactSpot": "Above the doors. One big film reel and two small ones."
+    },
+    "bestTip": "Everyone faces the screen. Face the other way for a second.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0152",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway7",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-theater-door-portholes-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Theater Door Portholes Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Queue",
+    "description": "The padded red theater doors throughout the queue each pair two round porthole windows with a round steel push plate below, and the three circles make a Mickey face across the double doors.",
+    "whereToLook": {
+      "scene": "Any of the padded red double doors along the queue",
+      "exactSpot": "Two porthole windows up top and the round push plate at the handles. Head and ears."
+    },
+    "bestTip": "Step back a few feet; up close it is just a door.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0136",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway64",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-ukulele-pond-lily-pads-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Ukulele Pond Lily Pads Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Approaching the park scene where Mickey plays the ukulele, a pond on the right is dotted with lily pads, and three of them float together as a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Approaching the ukulele scene, the pond on the right",
+      "exactSpot": "Three lily pads grouped as a head and ears."
+    },
+    "bestTip": "Look at the water before you look at Mickey.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0192",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway22",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-von-drake-poster-test-tube-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Von Drake Poster Test Tube Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The first movie poster in the queue advertises The Absent Minded Professor, starring Ludwig Von Drake mid-experiment. Near the top of his test tube is a small Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The first movie poster in the queue, Professor Von Drake",
+      "exactSpot": "Near the top of the test tube in his hand."
+    },
+    "bestTip": "The posters are the queue's main decoration, so take them one at a time.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0133",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway58",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-waterfall-bottom-clam-pearls-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Waterfall Bottom Clam Pearls Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "At the bottom of the waterfall, the large clam in the middle, tilted a little to the right, opens to show three pearls arranged as a Mickey.",
+    "whereToLook": {
+      "scene": "The bottom of the waterfall, the large clam in the middle",
+      "exactSpot": "Inside the clam when it opens. Three pearls, one large and two small."
+    },
+    "bestTip": "Watch the clam, not the splash.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0171",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway29",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-waterfall-short-tree-coconuts-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Waterfall Short Tree Coconuts Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "The second coconut Mickey before the waterfall is in the shorter palm to the left of Mickey and Minnie, also leaning over the river.",
+    "whereToLook": {
+      "scene": "Before the waterfall drop, where Mickey and Minnie land in the bushes",
+      "exactSpot": "The shorter palm to the left of Mickey and Minnie. Three coconuts."
+    },
+    "bestTip": "Two trees, two Mickeys. This is the left, shorter one.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0170",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway41",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-railway-waterfall-tall-tree-coconuts-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "display": {
+      "entryTitle": "Waterfall Tall Tree Coconuts Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey & Minnie's Runaway Railway"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Before the drop over the waterfall, look left. Where Mickey and Minnie land in the bushes, a tall palm leans over the river to their right, and three of its coconuts are a Mickey. There are two coconut Mickeys here; this is the one in the tall tree.",
+    "whereToLook": {
+      "scene": "Before the waterfall drop, where Mickey and Minnie land in the bushes",
+      "exactSpot": "The tall palm to the right of Mickey and Minnie. Three coconuts."
+    },
+    "bestTip": "Above and right of the landing spot. Look before the drop.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8149,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0169",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway27",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "tortuga-tavern-window-candles-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "pirate_port_area",

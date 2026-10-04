@@ -1,0 +1,40 @@
+{
+  "id": "toontown-railway-von-drake-poster-test-tube-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "cartoon_town_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Von Drake Poster Test Tube Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Mickey's Toontown",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "The first movie poster in the queue advertises The Absent Minded Professor, starring Ludwig Von Drake mid-experiment. Near the top of his test tube is a small Hidden Mickey.",
+  "whereToLook": {
+    "scene": "The first movie poster in the queue, Professor Von Drake",
+    "exactSpot": "Near the top of the test tube in his hand."
+  },
+  "bestTip": "The posters are the queue's main decoration, so take them one at a time.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8149,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-DL-0133",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway58",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
