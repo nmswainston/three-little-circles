@@ -13,7 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
-  "description": "In the stone wall behind the registration desk, three stones sit together as a classic Hidden Mickey.",
+  "description": "In the stone wall behind the registration desk, one large rounded stone with two smaller ones above it makes a classic Hidden Mickey. The desk itself is about the right distance from the wall to see it.",
   "whereToLook": {
     "scene": "Stone wall behind the registration desk",
     "exactSpot": "Scan the wall for one large rounded stone with two smaller ones above it."
@@ -36,5 +36,5 @@
   "sourceId": "TLC-RS-0031",
   "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

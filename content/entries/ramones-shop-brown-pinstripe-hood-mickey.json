@@ -13,7 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Hard",
   "areaContext": "Shop",
-  "description": "The brown hood's pinstriping conceals a very small Hidden Mickey right in the middle of the design.",
+  "description": "Among the custom hoods on display inside the shop, the brown one is finished in pinstripe, and dead center in the design the stripes draw a tiny classic Hidden Mickey. It is the smallest of the hood Mickeys.",
   "whereToLook": {
     "scene": "The custom hoods on display inside the shop, the brown pinstriped one",
     "exactSpot": "Dead center of the hood. The shape is tiny and drawn in pinstripe."

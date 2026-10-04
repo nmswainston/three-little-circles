@@ -13,7 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
-  "description": "The column to the right of the counter carries a second, separate classic Hidden Mickey in its detailing.",
+  "description": "At the counter inside the studio, the column on the right carries a classic Hidden Mickey in its decoration. It is a second, separate find from the one on the left column, not a mirror of it.",
   "whereToLook": {
     "scene": "Counter area inside the studio",
     "exactSpot": "The column on the right of the counter. Look at its decoration."
@@ -36,5 +36,5 @@
   "sourceId": "TLC-DS-0007",
   "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

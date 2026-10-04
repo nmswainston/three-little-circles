@@ -13,7 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Hard",
   "areaContext": "Lobby",
-  "description": "Above the villas lobby fireplace, a red ornament hides Mickey's profile in its decoration.",
+  "description": "Above the fireplace in the villas lobby, a red ornament hides Mickey's profile in its decoration: a side view of a face with one round ear. The profile reads from across the room rather than up close.",
   "whereToLook": {
     "scene": "Red ornament above the fireplace",
     "exactSpot": "Look at the decoration for a side view of a face with a round ear."
@@ -36,5 +36,5 @@
   "sourceId": "TLC-RS-0057",
   "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-wilderness-lodge/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

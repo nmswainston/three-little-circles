@@ -13,7 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Medium",
   "areaContext": "Walkway",
-  "description": "The fruit cart at Center Street has a Mickey worked into its frame, underneath the cart.",
+  "description": "The fruit cart at Center Street, off the east side of Main Street, carries a Mickey in the metal frame underneath the cart rather than anywhere in its signage.",
   "whereToLook": {
     "scene": "The fruit cart at Center Street, off the east side of Main Street",
     "exactSpot": "Underneath the cart, in the metal frame."

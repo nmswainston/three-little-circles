@@ -13,7 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
-  "description": "In the villas' resort studios, the air vent grille is cut with a classic Hidden Mickey in its pattern.",
+  "description": "In the villas' resort studios, the air vent grille is cut with a classic Hidden Mickey in its pattern, three circles among the cutouts. The same grille hides a second surprise beside it.",
   "whereToLook": {
     "scene": "Air vent in the resort studio",
     "exactSpot": "The grille. Look at the cutout pattern for three circles."
@@ -37,5 +37,5 @@
   "sourceId": "TLC-RS-0078",
   "sourceUrl": "https://www.disneyfoodblog.com/2022/03/09/photos-go-inside-the-new-rooms-coming-to-disneys-grand-floridian-resort/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

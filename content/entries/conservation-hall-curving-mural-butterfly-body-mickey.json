@@ -13,7 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Hard",
   "areaContext": "Entrance",
-  "description": "On the curving mural to the right, a butterfly's body conceals Mickey's face.",
+  "description": "On the curving mural to the right of the station entrance, one butterfly's body is Mickey's face. The face sits in the body between the wings, not in the wing markings, among the many other creatures on the mural.",
   "whereToLook": {
     "scene": "Curving mural on the right at the station entrance",
     "exactSpot": "The butterfly. Look at its body between the wings, not the wing pattern."
@@ -36,5 +36,5 @@
   "sourceId": "TLC-AK-0018",
   "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

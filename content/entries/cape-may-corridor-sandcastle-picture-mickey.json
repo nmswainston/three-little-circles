@@ -13,7 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Walkway",
-  "description": "In the corridor behind the cafe, a picture of a sandcastle hides a full Mickey figure in the artwork.",
+  "description": "The corridor behind the cafe is lined with artwork, and one picture of a sandcastle hides a full Mickey figure in its scene, not just the three circles.",
   "whereToLook": {
     "scene": "Corridor behind the cafe, with artwork along its walls",
     "exactSpot": "The sandcastle picture. Look for a full figure, not just circles."
@@ -36,5 +36,5 @@
   "sourceId": "TLC-RS-0065",
   "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

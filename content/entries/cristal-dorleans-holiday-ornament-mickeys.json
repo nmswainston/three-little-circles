@@ -13,7 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Easy",
   "areaContext": "Shop",
-  "description": "During the holidays, the decoration to the left of the storefront hangs ornaments grouped as Hidden Mickeys.",
+  "description": "During the holiday season, the decoration to the left of the Cristal d'Orleans storefront hangs its ornaments in groups of three, one large and two small, so each cluster reads as a classic Hidden Mickey.",
   "whereToLook": {
     "scene": "The holiday decoration left of the Cristal d'Orleans storefront",
     "exactSpot": "The ornaments. Groups of three, one large and two small."

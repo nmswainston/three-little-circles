@@ -13,7 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Shop",
-  "description": "The hood with the intricate geometric paint job hides a Mickey near its upper right corner.",
+  "description": "The geometric hood on display inside the shop builds a classic Hidden Mickey out of its own pattern. It sits near the upper right corner, away from the center of the design where the eye lands first.",
   "whereToLook": {
     "scene": "The custom hoods on display inside the shop, the geometric one",
     "exactSpot": "Upper right corner of the hood. The three-circle shape is built from the geometry."

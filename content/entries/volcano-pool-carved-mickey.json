@@ -13,7 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Medium",
   "areaContext": "Outdoor Display",
-  "description": "The volcano that anchors the main pool has a classic Hidden Mickey carved into its side.",
+  "description": "The volcano that anchors the main pool has a classic Hidden Mickey carved into the rock on its side, on the face turned away from the slide where fewer people look.",
   "whereToLook": {
     "scene": "Volcano at the main pool",
     "exactSpot": "The side of the volcano. Walk around it and look at the carved rock."
@@ -37,5 +37,5 @@
   "sourceId": "TLC-RS-0093",
   "sourceUrl": "https://findmickeys.com/hidden-mickeys/walt-disney-world-resort/disney-resorts/2025/02/12/polynesian-village-resort-pool-hidden-mickey",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

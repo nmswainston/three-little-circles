@@ -13,7 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
-  "description": "The loyal yellow dog is also in the marble floor inlay.",
+  "description": "The character inlay in the marble floor of the grand lobby includes the loyal yellow dog, shown in profile with his long nose and floppy ears. He is the third of the four characters hidden in the inlay.",
   "whereToLook": {
     "scene": "Character inlay in the marble lobby floor",
     "exactSpot": "Look for the long nose and floppy ears in profile."
@@ -36,5 +36,5 @@
   "sourceId": "TLC-RS-0072",
   "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

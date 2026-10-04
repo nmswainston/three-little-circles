@@ -13,7 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
-  "description": "As your ship enters the ride, more alphabet blocks sit on the floor, and seen straight on they spell P PAN.",
+  "description": "In the first moments after your ship enters the building, more alphabet blocks sit on the floor, and read face-on as you glide past they spell P PAN. They are in view for only a second.",
   "whereToLook": {
     "scene": "The first moments after the ship enters the building",
     "exactSpot": "Blocks on the floor, read face-on as you glide past."

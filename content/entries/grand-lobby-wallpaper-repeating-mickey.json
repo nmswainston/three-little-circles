@@ -13,7 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
-  "description": "The wallpaper pattern in the grand lobby repeats a classic Hidden Mickey within its decoration.",
+  "description": "The wallpaper in the grand lobby repeats a classic Hidden Mickey inside its decoration, so every repeat of the pattern carries one. The walls near the elevators are the easiest to get close to.",
   "whereToLook": {
     "scene": "Wallpaper in the grand lobby",
     "exactSpot": "Look closely at one repeat of the wallpaper pattern."
@@ -36,5 +36,5 @@
   "sourceId": "TLC-RS-0075",
   "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

@@ -13,7 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
-  "description": "Inside City Hall, a bookshelf stands against the wall, and one book spine carries a Mickey.",
+  "description": "Inside City Hall, home to Guest Relations, a bookshelf stands against the wall, and one of the spines carries the three-circle shape.",
   "whereToLook": {
     "scene": "Inside City Hall, the bookshelf",
     "exactSpot": "Read the spines. One of them has the three-circle shape."
