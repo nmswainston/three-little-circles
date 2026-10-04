@@ -216,7 +216,7 @@ const createStyles = (t: Theme) =>
       backgroundColor: t.colors.surface,
       borderRadius: radii.full,
       borderWidth: 1,
-      borderColor: t.colors.border,
+      borderColor: t.colors.controlBorder,
     },
     searchInput: {
       flex: 1,

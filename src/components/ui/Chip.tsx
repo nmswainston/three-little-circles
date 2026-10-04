@@ -50,7 +50,7 @@ const createStyles = (t: Theme) =>
       borderRadius: radii.full,
       backgroundColor: t.colors.surface,
       borderWidth: 1,
-      borderColor: t.colors.borderStrong,
+      borderColor: t.colors.controlBorder,
     },
     chipSelected: {
       backgroundColor: t.colors.ink,

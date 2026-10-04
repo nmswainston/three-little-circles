@@ -341,7 +341,7 @@ const createStyles = (t: Theme) =>
       borderRadius: radii.full,
       backgroundColor: t.colors.surface,
       borderWidth: 1,
-      borderColor: t.colors.borderStrong,
+      borderColor: t.colors.controlBorder,
       paddingHorizontal: spacing.lg,
     },
     secondaryButtonText: {

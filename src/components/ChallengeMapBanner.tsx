@@ -95,7 +95,7 @@ const createStyles = (t: Theme) =>
       paddingHorizontal: spacing.md - 2,
       borderRadius: radii.full,
       borderWidth: 1,
-      borderColor: t.colors.borderStrong,
+      borderColor: t.colors.controlBorder,
       alignItems: 'center',
       justifyContent: 'center',
     },

@@ -181,7 +181,7 @@ const createStyles = (t: Theme) =>
     buttonSecondary: {
       backgroundColor: t.colors.surface,
       borderWidth: 1,
-      borderColor: t.colors.borderStrong,
+      borderColor: t.colors.controlBorder,
     },
     buttonSecondaryText: {
       ...text.chip,
