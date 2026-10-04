@@ -1,0 +1,40 @@
+{
+  "id": "gadgetcoaster-queue-past-bridges-rock-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "cartoon_town_area",
+  "attractionId": "gadget_coaster",
+  "display": {
+    "entryTitle": "Queue Past the Bridges Rock Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Mickey's Toontown",
+    "attractionName": "Chip 'n' Dale's GADGETcoaster"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "Once you are past the three bridges in the queue, look to the stone wall on the lower left as you face the loading dock. Above a courtesy light, three stones make a Mickey. There are more on this wall, including one about twenty feet further along on the left.",
+  "whereToLook": {
+    "scene": "Past the three bridges, facing the loading dock, the stone wall on the lower left",
+    "exactSpot": "Above a courtesy light. Three stones as a head and ears."
+  },
+  "bestTip": "Keep scanning left after you find the first one.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Left",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.816,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-DL-0211",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Gadget-Coaster2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "gadgetcoaster-queue-last-turn-rock-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "cartoon_town_area",
+  "attractionId": "gadget_coaster",
+  "display": {
+    "entryTitle": "Queue Last U-Turn Rock Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Mickey's Toontown",
+    "attractionName": "Chip 'n' Dale's GADGETcoaster"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "On the last right U-turn before boarding, look to your left. About four feet left of the second courtesy light, three rocks form a Mickey.",
+  "whereToLook": {
+    "scene": "The last right U-turn before boarding, the wall on your left",
+    "exactSpot": "About four feet to the left of the second courtesy light. Three rocks."
+  },
+  "bestTip": "Count courtesy lights from the start of the turn.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Left",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.816,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-DL-0212",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Gadget-Coaster3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
