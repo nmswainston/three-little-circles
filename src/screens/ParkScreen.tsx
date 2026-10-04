@@ -1,5 +1,5 @@
 import React, { useCallback, useMemo, useRef, useState } from "react";
-import { SectionList, SectionListData, SectionListRenderItem, StyleSheet, View, Text, Pressable } from "react-native";
+import { SectionList, SectionListData, SectionListRenderItem, StyleSheet, View, Text, TextInput, Pressable } from "react-native";
 import { useRoute, RouteProp, useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
@@ -18,6 +18,7 @@ import { isConfirmed } from "../data/confirmations";
 import { getDestination } from "../data/destinations";
 import { getFactsForPark } from "../data/facts";
 import { labelOrFallback } from "../data/labels";
+import { Difficulty } from "../data/types";
 import { parkShareText, shareText } from "../lib/share";
 import { notify } from "../lib/notify";
 import { useFoundStore } from "../store/useFoundStore";
@@ -26,7 +27,8 @@ import { Theme, useParkPalette, useStyles, useTheme } from "../theme/ThemeProvid
 import { parkKeyFor, PARK_ICONS } from "../theme/parks";
 import { spacing, radii, text } from "../theme/tokens";
 import Sunburst from "../components/ui/Sunburst";
-import SegmentedControl, { SegmentedControlOption } from "../components/ui/SegmentedControl";
+import { SegmentedControlOption } from "../components/ui/SegmentedControl";
+import ParkFilterSheet, { DIFFICULTIES } from "../components/ParkFilterSheet";
 import EmptyState from "../components/ui/EmptyState";
 import EntryRow from "../components/EntryRow";
 import Chip from "../components/ui/Chip";
@@ -67,6 +69,9 @@ export default function ParkScreen() {
     labelOrFallback(getParksSummary().find((p) => p.parkId === parkId)?.parkName, "Park");
 
   const [filter, setFilter] = useState<SegmentedControlOption>("All");
+  const [difficulties, setDifficulties] = useState<Difficulty[]>(DIFFICULTIES);
+  const [query, setQuery] = useState("");
+  const [sheetOpen, setSheetOpen] = useState(false);
   const found = useFoundStore((s) => s.found);
   const hideFound = useSettingsStore((s) => s.hideFound);
   const setHideFound = useSettingsStore((s) => s.setHideFound);
@@ -81,7 +86,20 @@ export default function ParkScreen() {
   // The type filter narrows first; hunting mode then drops what's already
   // found, and "Confirmed only" what nobody has checked, so an attraction
   // with nothing left to show disappears entirely.
-  const typed = useMemo(() => parkEntries.filter((e) => matchesEntryType(e, filter)), [parkEntries, filter]);
+  const trimmedQuery = query.trim().toLowerCase();
+  const typed = useMemo(
+    () =>
+      parkEntries.filter(
+        (e) =>
+          matchesEntryType(e, filter) &&
+          difficulties.includes(e.difficulty) &&
+          (!trimmedQuery ||
+            [e.display?.entryTitle, e.display?.attractionName, e.display?.landName].some((v) =>
+              v?.toLowerCase().includes(trimmedQuery)
+            ))
+      ),
+    [parkEntries, filter, difficulties, trimmedQuery]
+  );
   const visible = useMemo(
     () => typed.filter((e) => (!hideFound || !(e.id in found)) && (!confirmedOnly || isConfirmed(e))),
     [typed, hideFound, confirmedOnly, found]
@@ -99,6 +117,15 @@ export default function ParkScreen() {
     }
     return progress;
   }, [parkEntries, found]);
+  const difficultyFiltered = difficulties.length < DIFFICULTIES.length;
+  const activeCount =
+    (filter !== "All" ? 1 : 0) + (difficultyFiltered ? 1 : 0) + (hideFound ? 1 : 0) + (confirmedOnly ? 1 : 0);
+  const resetFilters = () => {
+    setFilter("All");
+    setDifficulties(DIFFICULTIES);
+    setHideFound(false);
+    setConfirmedOnly(false);
+  };
   const allFoundHere = hideFound && typed.length > 0 && typed.every((e) => e.id in found);
   // Within each attraction, the finds most likely to be there come first.
   const sections = useMemo<LandSection[]>(
@@ -256,7 +283,90 @@ export default function ParkScreen() {
 
       <View style={styles.body}>
         {hasFinds && (
-          <SegmentedControl options={["All", "FIND", "FACT"]} selectedValue={filter} onValueChange={setFilter} />
+          <View style={styles.tools}>
+            <View style={styles.search}>
+              <Ionicons name="search" size={18} color={t.colors.textMuted} accessibilityElementsHidden importantForAccessibility="no" />
+              <TextInput
+                value={query}
+                onChangeText={setQuery}
+                placeholder="Search this park"
+                placeholderTextColor={t.colors.textMuted}
+                style={styles.searchInput}
+                returnKeyType="search"
+                autoCorrect={false}
+                accessibilityLabel="Search this park"
+              />
+              {query.length > 0 && (
+                <Pressable onPress={() => setQuery("")} hitSlop={8} accessibilityRole="button" accessibilityLabel="Clear search">
+                  <Ionicons name="close-circle" size={18} color={t.colors.textMuted} />
+                </Pressable>
+              )}
+            </View>
+            <Pressable
+              onPress={() => setSheetOpen(true)}
+              accessibilityRole="button"
+              accessibilityLabel={activeCount > 0 ? `Filter, ${activeCount} on` : "Filter"}
+              style={[styles.filterButton, activeCount > 0 && styles.filterButtonOn]}
+            >
+              <Ionicons name="options-outline" size={18} color={activeCount > 0 ? t.colors.onInk : t.colors.text} />
+              <Text style={[styles.filterLabel, activeCount > 0 && { color: t.colors.onInk }]}>Filter</Text>
+              {activeCount > 0 && (
+                <View style={styles.filterCount}>
+                  <Text style={styles.filterCountText}>{activeCount}</Text>
+                </View>
+              )}
+            </Pressable>
+          </View>
+        )}
+
+        {activeCount > 0 && (
+          <View style={styles.tags}>
+            {filter !== "All" && (
+              <Pressable
+                onPress={() => setFilter("All")}
+                accessibilityRole="button"
+                accessibilityLabel={`Remove filter: ${filter === "FIND" ? "Finds" : "Surprises"} only`}
+                style={styles.tag}
+              >
+                <Text style={styles.tagText}>{filter === "FIND" ? "Finds only" : "Surprises only"}</Text>
+                <Ionicons name="close" size={14} color={t.colors.text} />
+              </Pressable>
+            )}
+            {difficultyFiltered && (
+              <Pressable
+                onPress={() => setDifficulties(DIFFICULTIES)}
+                accessibilityRole="button"
+                accessibilityLabel={`Remove filter: ${difficulties.join(", ")} only`}
+                style={styles.tag}
+              >
+                <Text style={styles.tagText}>{difficulties.join(" + ")}</Text>
+                <Ionicons name="close" size={14} color={t.colors.text} />
+              </Pressable>
+            )}
+            {hideFound && (
+              <Pressable
+                onPress={() => setHideFound(false)}
+                accessibilityRole="button"
+                accessibilityLabel="Remove filter: Hide found"
+                style={styles.tag}
+              >
+                <Text style={styles.tagText}>Hide found</Text>
+                <Ionicons name="close" size={14} color={t.colors.text} />
+              </Pressable>
+            )}
+            {confirmedOnly && (
+              <Pressable
+                onPress={() => setConfirmedOnly(false)}
+                accessibilityRole="button"
+                accessibilityLabel="Remove filter: Confirmed only"
+                style={styles.tag}
+              >
+                <Text style={styles.tagText}>Confirmed only</Text>
+                <Ionicons name="close" size={14} color={t.colors.text} />
+              </Pressable>
+            )}
+            {hiddenCount > 0 && <Text style={styles.huntMeta}>{hiddenCount} hidden</Text>}
+          </View>
         )}
 
         {hasFinds && sections.length > 1 && (
@@ -269,24 +379,6 @@ export default function ParkScreen() {
               />
             ))}
           </FadingScrollRow>
-        )}
-
-        {hasFinds && (
-          <View style={styles.huntRow}>
-            <Chip
-              label="Hide found"
-              icon={hideFound ? "eye-off" : "eye-off-outline"}
-              selected={hideFound}
-              onPress={() => setHideFound(!hideFound)}
-            />
-            <Chip
-              label="Confirmed only"
-              icon={confirmedOnly ? "shield-checkmark" : "shield-checkmark-outline"}
-              selected={confirmedOnly}
-              onPress={() => setConfirmedOnly(!confirmedOnly)}
-            />
-            {hiddenCount > 0 && <Text style={styles.huntMeta}>{hiddenCount} hidden</Text>}
-          </View>
         )}
 
         {groups.length === 0 &&
@@ -310,10 +402,41 @@ export default function ParkScreen() {
               onAction={() => setConfirmedOnly(false)}
             />
           ) : (
-            <EmptyState title="Nothing here yet" message="No entries match this filter." />
+            <EmptyState
+              title="Nothing here yet"
+              message="No entries match this search or filter."
+              actionLabel={activeCount > 0 || trimmedQuery ? "Clear filters" : undefined}
+              onAction={
+                activeCount > 0 || trimmedQuery
+                  ? () => {
+                      resetFilters();
+                      setQuery("");
+                    }
+                  : undefined
+              }
+            />
           ))}
       </View>
     </>
+  );
+
+  const filterSheet = (
+    <ParkFilterSheet
+      visible={sheetOpen}
+      onClose={() => setSheetOpen(false)}
+      type={filter}
+      onTypeChange={setFilter}
+      difficulties={difficulties}
+      onDifficultiesChange={setDifficulties}
+      hideFound={hideFound}
+      onHideFoundChange={setHideFound}
+      confirmedOnly={confirmedOnly}
+      onConfirmedOnlyChange={setConfirmedOnly}
+      resultCount={visible.length}
+      foundCount={foundCount}
+      canReset={activeCount > 0}
+      onReset={resetFilters}
+    />
   );
 
   const footer = (
@@ -395,6 +518,7 @@ export default function ParkScreen() {
         showsVerticalScrollIndicator={false}
         initialNumToRender={8}
       />
+      {filterSheet}
     </View>
   );
 }
@@ -486,11 +610,83 @@ const createStyles = (t: Theme) =>
       gap: spacing.sm,
       paddingHorizontal: spacing.lg,
     },
-    huntRow: {
+    tools: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.sm,
+    },
+    search: {
+      flex: 1,
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.sm,
+      minHeight: 44,
+      paddingHorizontal: spacing.md - 2,
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.full,
+      borderWidth: 1,
+      borderColor: t.colors.border,
+    },
+    searchInput: {
+      flex: 1,
+      ...text.body,
+      lineHeight: 20,
+      color: t.colors.text,
+      paddingVertical: 0,
+    },
+    filterButton: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.xs + 2,
+      minHeight: 44,
+      paddingHorizontal: spacing.md - 2,
+      borderRadius: radii.full,
+      backgroundColor: t.colors.surface,
+      borderWidth: 1,
+      borderColor: t.colors.borderStrong,
+    },
+    filterButtonOn: {
+      backgroundColor: t.colors.ink,
+      borderColor: t.colors.ink,
+    },
+    filterLabel: {
+      ...text.chip,
+      fontSize: 14,
+      color: t.colors.text,
+    },
+    filterCount: {
+      minWidth: 20,
+      height: 20,
+      borderRadius: 10,
+      paddingHorizontal: 5,
+      alignItems: "center",
+      justifyContent: "center",
+      backgroundColor: t.colors.primary,
+    },
+    filterCountText: {
+      ...text.chip,
+      fontSize: 12,
+      lineHeight: 16,
+      color: t.colors.onPrimary,
+    },
+    tags: {
       flexDirection: "row",
       flexWrap: "wrap",
       alignItems: "center",
-      gap: spacing.md - 4,
+      gap: spacing.sm,
+    },
+    tag: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.xs,
+      minHeight: 32,
+      paddingHorizontal: spacing.sm + 4,
+      borderRadius: radii.full,
+      backgroundColor: t.colors.primaryLight,
+    },
+    tagText: {
+      ...text.meta,
+      color: t.colors.text,
     },
     huntMeta: {
       ...text.meta,
