@@ -22,6 +22,11 @@ jest.mock('@react-navigation/native', () => ({
 }));
 let mockEntryId = '';
 
+// Tests run without the reporting backend configured. The screen reads the
+// flag at render time, so a test can flip it on the mocked module.
+jest.mock('../src/lib/supabase', () => ({ ...jest.requireActual('../src/lib/supabase'), isSupabaseConfigured: true }));
+const reports = jest.requireMock('../src/lib/supabase') as { isSupabaseConfigured: boolean };
+
 beforeAll(async () => {
   await useFoundStore.persist.rehydrate();
   await useSettingsStore.persist.rehydrate();
@@ -30,6 +35,7 @@ beforeAll(async () => {
 
 beforeEach(() => {
   mockEntryId = entry.id;
+  reports.isSupabaseConfigured = true;
   useFoundStore.setState({ found: {} });
   useConfirmationsStore.setState({ reported: {} });
   useSettingsStore.getState().setHintMode(true);
@@ -138,6 +144,14 @@ describe('EntryDetailScreen unconfirmed finds', () => {
   it('drops the ask once this device has reported, but keeps the label', () => {
     mockEntryId = unconfirmed.id;
     useConfirmationsStore.setState({ reported: { [unconfirmed.id]: { status: 'seen', at: Date.now() } } });
+    render(<EntryDetailScreen />);
+    expect(screen.getByText('Not confirmed yet')).toBeTruthy();
+    expect(screen.queryByText(UNCONFIRMED_NOTE)).toBeNull();
+  });
+
+  it('keeps the label but drops the ask in a build where reports cannot be sent', () => {
+    reports.isSupabaseConfigured = false;
+    mockEntryId = unconfirmed.id;
     render(<EntryDetailScreen />);
     expect(screen.getByText('Not confirmed yet')).toBeTruthy();
     expect(screen.queryByText(UNCONFIRMED_NOTE)).toBeNull();
