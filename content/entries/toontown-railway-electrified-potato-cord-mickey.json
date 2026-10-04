@@ -1,0 +1,40 @@
+{
+  "id": "toontown-railway-electrified-potato-cord-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "cartoon_town_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Electrified Potato Cord Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Mickey's Toontown",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "Behind and to the right of the electrified potato prop, a yellow electrical cord is looped into a Hidden Mickey.",
+  "whereToLook": {
+    "scene": "The electrified potato in the snack bar area",
+    "exactSpot": "Behind it and to the right. A yellow cord looped in three circles."
+  },
+  "bestTip": "Follow the cord away from the potato.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Right",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8149,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-DL-0145",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway40",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

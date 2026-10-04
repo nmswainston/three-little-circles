@@ -1,0 +1,41 @@
+{
+  "id": "toontown-railway-accessible-boarding-floor-paint-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "cartoon_town_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Accessible Boarding Floor Paint Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Mickey's Toontown",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Loading",
+  "description": "The loading area floor is splattered with blobs of cartoon paint. In the accessible boarding area, one grouping is a Hidden Mickey.",
+  "whereToLook": {
+    "scene": "The accessible boarding area at the load platform",
+    "exactSpot": "The paint blobs on the floor. Three in a Mickey grouping."
+  },
+  "bestTip": "Look down while you wait for the vehicle.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Only in the accessible boarding area.",
+  "coordinates": {
+    "latitude": 33.8149,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-DL-0153",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway8",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
