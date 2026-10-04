@@ -1,0 +1,42 @@
+{
+  "id": "mark-twain-river-boulders-reflection-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "mark_twain_riverboat",
+  "display": {
+    "entryTitle": "River Boulders Reflection Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Frontierland",
+    "attractionName": "Mark Twain Riverboat"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "On the back side of the Rivers of America, near the Native American chief but on the far side of the boat, three boulders sit half out of the water between the boat and the shore, where the canoes pass. Each boulder and its reflection complete a circle, and the three together make a Mickey. It is visible for only a moment from the second or third deck.",
+  "whereToLook": {
+    "scene": "The back side of the river near the chief, the water on the opposite side of the boat",
+    "exactSpot": "Three half-submerged boulders between the boat and the shore. Rock plus reflection makes each circle."
+  },
+  "bestTip": "Ride the upper decks and stand on the side away from the chief.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "Needs calm water for the reflections."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Also visible from the Sailing Ship Columbia's deck.",
+  "coordinates": {
+    "latitude": 33.8121,
+    "longitude": -117.9207
+  },
+  "sourceId": "TLC-DL-0088",
+  "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Mark-Twain2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

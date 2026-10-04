@@ -1,0 +1,40 @@
+{
+  "id": "shootin-exposition-target-cactus-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "frontierland_shootin_exposition",
+  "display": {
+    "entryTitle": "Target Cactus Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Frontierland",
+    "attractionName": "Frontierland Shootin' Exposition"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Outdoor Display",
+  "description": "The shooting gallery's desert scene is dotted with fake cacti. Most are just cacti, but two are shaped as Mickeys, and this one wears a target.",
+  "whereToLook": {
+    "scene": "The Frontierland Shootin' Exposition scenery",
+    "exactSpot": "The cactus with a target on it. Three pads as a head and ears."
+  },
+  "bestTip": "You can look without paying. The targets are lit from the walkway.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8121,
+    "longitude": -117.9201
+  },
+  "sourceId": "TLC-DL-0084",
+  "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Shooting-Exposition1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

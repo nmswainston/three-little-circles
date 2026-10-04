@@ -1,0 +1,40 @@
+{
+  "id": "mark-twain-roof-grillwork-front-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "mark_twain_riverboat",
+  "display": {
+    "entryTitle": "Roof Grillwork Front Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Frontierland",
+    "attractionName": "Mark Twain Riverboat"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Dock",
+  "description": "The iron grillwork crowning the Mark Twain's top deck has a Hidden Mickey dead center at the front, easy to pick out from the riverbank. A matching one sits on the other end of the ironwork.",
+  "whereToLook": {
+    "scene": "The Mark Twain's top deck ironwork, viewed from the riverbank or the dock",
+    "exactSpot": "Front and center of the roof grillwork. A second one on the far end."
+  },
+  "bestTip": "Easiest from the bank as the boat comes in.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8121,
+    "longitude": -117.9207
+  },
+  "sourceId": "TLC-DL-0089",
+  "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Mark-Twain3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

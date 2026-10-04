@@ -1,0 +1,40 @@
+{
+  "id": "pioneer-mercantile-wall-lamp-river-rock-mickeys",
+  "parkId": "california_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "pioneer_mercantile",
+  "display": {
+    "entryTitle": "Wall Lamp River Rock Mickeys",
+    "parkName": "Disneyland Park",
+    "landName": "Frontierland",
+    "attractionName": "Pioneer Mercantile"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Shop",
+  "description": "Inside Pioneer Mercantile, between Frontierland and Adventureland, the rustic wall lamps are built from river rocks, and the rocks are set as Hidden Mickeys.",
+  "whereToLook": {
+    "scene": "Pioneer Mercantile, the wall lamps",
+    "exactSpot": "The river rock bases of the lamps. Three rocks as a head and ears."
+  },
+  "bestTip": "Look at the fixtures, not the merchandise.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8119,
+    "longitude": -117.9202
+  },
+  "sourceId": "TLC-DL-0093",
+  "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Pioneer-Mercantile1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "golden-horseshoe-stage-vent-grate-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "golden_horseshoe",
+  "display": {
+    "entryTitle": "Stage Vent Grate Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Frontierland",
+    "attractionName": "The Golden Horseshoe"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "Under the Golden Horseshoe's stage are vents. In the middle grate, down toward its lower right corner, the pattern hides a Mickey.",
+  "whereToLook": {
+    "scene": "The vents under the Golden Horseshoe stage",
+    "exactSpot": "The center grate, lower right corner."
+  },
+  "bestTip": "Grab a front table between shows and look low.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8122,
+    "longitude": -117.9203
+  },
+  "sourceId": "TLC-DL-0092",
+  "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Golden-Horseshoe1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
