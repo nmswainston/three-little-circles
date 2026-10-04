@@ -1,0 +1,40 @@
+{
+  "id": "fantasy-faire-clopins-music-box-window-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "fantasy_faire",
+  "display": {
+    "entryTitle": "Clopin's Music Box Window Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Fantasy Faire"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Outdoor Display",
+  "description": "Clopin's Music Box is the crank-turned diorama in the faire's courtyard. Down on its far left side, where two little windows sit side by side near the bottom, the right-hand window holds a very small classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Clopin's Music Box in the Fantasy Faire courtyard, the far left side of the box",
+    "exactSpot": "Low on the far left, two windows sit side by side. The Mickey is in the right one of the pair."
+  },
+  "bestTip": "Crouch to window level. It is tiny, so lean in rather than scanning from standing height.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.812,
+    "longitude": -117.9196
+  },
+  "sourceId": "TLC-DL-0095",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Fantasy-Faire1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

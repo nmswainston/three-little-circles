@@ -1,0 +1,40 @@
+{
+  "id": "matterhorn-exit-electrical-box-nemo",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "matterhorn_bobsleds",
+  "display": {
+    "entryTitle": "Exit Electrical Box Nemo",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Matterhorn Bobsleds"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "Leaving the ride on the Tomorrowland side, a wooden electrical box about three or four feet tall stands at the entrance to a small alcove on the far left. A Nemo is painted on its side, faded by sun and rain but still there.",
+  "whereToLook": {
+    "scene": "The Tomorrowland-side exit, the alcove entrance at the far left",
+    "exactSpot": "The wooden electrical box at the alcove entrance. The clownfish is on its side."
+  },
+  "bestTip": "Take the left exit. The other side misses it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8125,
+    "longitude": -117.9178
+  },
+  "sourceId": "TLC-DL-0123",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Matterhorn-1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

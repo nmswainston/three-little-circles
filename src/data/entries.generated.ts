@@ -3325,6 +3325,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "dumbo-queue-stork-baby-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "dumbo_flying_elephant",
+    "display": {
+      "entryTitle": "Queue Stork Baby Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Dumbo the Flying Elephant"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The decorations above the queue include a medallion of a stork carrying a baby in a purple blanket. The baby's head, body, and feet, all purple, line up as a Hidden Mickey, the body in the sack as the head and the feet and head as ears.",
+    "whereToLook": {
+      "scene": "The decorative medallions above the queue",
+      "exactSpot": "The stork-and-baby medallion. The purple baby reads as three circles."
+    },
+    "bestTip": "The wait gives you plenty of time. Look up at the medallions one by one.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8139,
+      "longitude": -117.9195
+    },
+    "sourceId": "TLC-DL-0121",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Dumbo-1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "elevated-tram-belt-buckle-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "future_city_area",
@@ -3636,6 +3676,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "fantasy-faire-clopins-music-box-window-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "fantasy_faire",
+    "display": {
+      "entryTitle": "Clopin's Music Box Window Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Fantasy Faire"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Outdoor Display",
+    "description": "Clopin's Music Box is the crank-turned diorama in the faire's courtyard. Down on its far left side, where two little windows sit side by side near the bottom, the right-hand window holds a very small classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Clopin's Music Box in the Fantasy Faire courtyard, the far left side of the box",
+      "exactSpot": "Low on the far left, two windows sit side by side. The Mickey is in the right one of the pair."
+    },
+    "bestTip": "Crouch to window level. It is tiny, so lean in rather than scanning from standing height.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.812,
+      "longitude": -117.9196
+    },
+    "sourceId": "TLC-DL-0095",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Fantasy-Faire1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "fitness-center-elevator-wood-panel-mickey",
     "parkId": "resorts_bucket",
     "landId": "animal_kingdom_lodge_resort",
@@ -3837,6 +3917,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "flying-pirate-ship-big-ben-window-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "flying_pirate_ship_ride",
+    "display": {
+      "entryTitle": "Big Ben Window Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Peter Pan's Flight"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Flying over London, wait until you have circled around to the back of Big Ben. In the tower's lit windows, a full-body Mickey silhouette stands out clearly.",
+    "whereToLook": {
+      "scene": "The London flyover, the back side of Big Ben",
+      "exactSpot": "The windows of the clock tower once you are on its far side. A whole Mickey figure, not just a head."
+    },
+    "bestTip": "Do not look as you first approach the tower. The silhouette is on the side you reach second.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8131,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0108",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan6",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "flying-pirate-ship-cannonballs-mickey",
     "parkId": "california_kingdom_park",
     "landId": "storybook_village_area",
@@ -3867,12 +3987,55 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 33.8131,
       "longitude": -117.9188
     },
+    "sourceId": "TLC-DL-0109",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan7",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "flying-pirate-ship-entry-p-pan-blocks",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "flying_pirate_ship_ride",
+    "display": {
+      "entryTitle": "Entry P PAN Blocks",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Peter Pan's Flight"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "As your ship enters the ride, more alphabet blocks sit on the floor, and seen straight on they spell P PAN.",
+    "whereToLook": {
+      "scene": "The first moments after the ship enters the building",
+      "exactSpot": "Blocks on the floor, read face-on as you glide past."
+    },
+    "bestTip": "Sit forward and look down early. They are gone in a second.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8131,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0106",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "flying-pirate-ship-mermaid-lagoon-flowers-mickey",
@@ -3914,6 +4077,86 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
+    "id": "flying-pirate-ship-nursery-disney-blocks",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "flying_pirate_ship_ride",
+    "display": {
+      "entryTitle": "Nursery DISNEY Blocks",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Peter Pan's Flight"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the Darling children's bedroom, alphabet blocks are stacked on the floor in two groups, one by Wendy's bed and one by the window where you leave the room. They spell DISNEY, with an upside-down 5 standing in for the S.",
+    "whereToLook": {
+      "scene": "The nursery at the start of the ride",
+      "exactSpot": "The blocks on the floor by Wendy's bed and by the exit window. Read them as you pass."
+    },
+    "bestTip": "You get one pass. Look at the floor, not the children.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8131,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0105",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "flying-pirate-ship-nursery-peter-pan-blocks",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "flying_pirate_ship_ride",
+    "display": {
+      "entryTitle": "Nursery PETER PAN Blocks",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Peter Pan's Flight"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "As the ship lifts off in the nursery and makes its hard left turn, look straight down. Blocks that look scattered at random spell PETER PAN when seen from above, along the left wall as you entered.",
+    "whereToLook": {
+      "scene": "The nursery, during the hard left turn right after liftoff",
+      "exactSpot": "Straight down from the right side of the ship. The full PETER PAN runs along the wall on the left as you entered."
+    },
+    "bestTip": "Riders on the right side get the view. The letters are strewn, so take in the whole line.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8131,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0107",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "flying-pirate-ship-queue-handrail-post-mickey",
     "parkId": "california_kingdom_park",
     "landId": "storybook_village_area",
@@ -3944,12 +4187,95 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 33.8131,
       "longitude": -117.9188
     },
+    "sourceId": "TLC-DL-0103",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan4",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "flying-pirate-ship-queue-nana-carving",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "flying_pirate_ship_ride",
+    "display": {
+      "entryTitle": "Queue Post Nana Carving",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Peter Pan's Flight"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "About two thirds of the way through the queue, a small wooden Nana, the Darlings' nursemaid dog, is mounted on one of the wooden pillars. She has company: pan pipes, an umbrella, and a teddy bear are carved onto other posts.",
+    "whereToLook": {
+      "scene": "The covered queue, the wooden pillars about two thirds of the way in",
+      "exactSpot": "A small carved dog mounted on a pillar at eye level."
+    },
+    "bestTip": "Once you spot Nana, check the other posts for the pipes, umbrella, and bear.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8131,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0102",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan5",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "flying-pirate-ship-queue-peters-shadow",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "flying_pirate_ship_ride",
+    "display": {
+      "entryTitle": "Queue Post Peter's Shadow",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Peter Pan's Flight"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "Just before the queue turns right into its last row of switchbacks, Peter Pan's runaway shadow clings to one of the wooden posts on the left, about six feet up.",
+    "whereToLook": {
+      "scene": "The queue, just before the right turn into the final switchbacks",
+      "exactSpot": "A wooden post on the left side, about six feet off the ground. The dark silhouette is Peter's shadow."
+    },
+    "bestTip": "It is above eye level. Look up at the posts rather than along them.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8131,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0104",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan8",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "flying-pirate-ship-queue-tree-bark-mickey",
@@ -7464,6 +7790,126 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "king-arthur-carrousel-jingles-front-gems-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "king_arthur_carrousel",
+    "display": {
+      "entryTitle": "Jingles Front Gems Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "King Arthur Carrousel"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Jingles carries a second gem Mickey on her front. It was once two gold gems and one blue; after repainting it is two yellow and one red, still in the same formation.",
+    "whereToLook": {
+      "scene": "Jingles, the bell-covered horse on the carrousel, her chest and front",
+      "exactSpot": "Three gems on the front of the horse: two yellow as ears and one red as the head."
+    },
+    "bestTip": "Find the rear gems first, then check the front as she passes.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8129,
+      "longitude": -117.9189
+    },
+    "sourceId": "TLC-DL-0115",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Carrousel-2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "king-arthur-carrousel-jingles-head-flowers-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "king_arthur_carrousel",
+    "display": {
+      "entryTitle": "Jingles Head Flowers Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "King Arthur Carrousel"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Three flowers on Jingles's head are reported as a Hidden Mickey. The center bloom is bigger than the other two, but not by much, so opinions are split on whether it counts.",
+    "whereToLook": {
+      "scene": "Jingles, the bell-covered horse on the carrousel, the top of her head",
+      "exactSpot": "The three flowers on her head. One larger bloom with two smaller ones above it."
+    },
+    "bestTip": "Judge for yourself. The gems on her body are the sure things; this one is a bonus.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8129,
+      "longitude": -117.9189
+    },
+    "sourceId": "TLC-DL-0116",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Carrousel-3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "king-arthur-carrousel-jingles-rear-gems-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "king_arthur_carrousel",
+    "display": {
+      "entryTitle": "Jingles Rear Gems Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "King Arthur Carrousel"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Ride",
+    "description": "Jingles is the lead horse, the one covered in bells. On each of her hindquarters, three gems are set in a perfect Mickey formation. The horse has been repainted over thirty years, but the gems have held their shape.",
+    "whereToLook": {
+      "scene": "Jingles, the bell-covered horse on the carrousel",
+      "exactSpot": "The hindquarter on either side. Three gems, one large and two small, in the classic arrangement."
+    },
+    "bestTip": "You can see this from the fence. Wait for Jingles to come round.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8129,
+      "longitude": -117.9189
+    },
+    "sourceId": "TLC-DL-0114",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Carrousel-1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "kona-island-counter-tile-mickey",
     "parkId": "resorts_bucket",
     "landId": "polynesian_village_resort",
@@ -8141,6 +8587,47 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "mad-hatter-counter-mirror-cheshire-cat",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "mad_hatter_shop",
+    "display": {
+      "entryTitle": "Counter Mirror Cheshire Cat",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Mad Hatter"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "In the mirror above the checkout counter of the hat shop, the Cheshire Cat fades into view, grins, and fades away again.",
+    "whereToLook": {
+      "scene": "Inside the Mad Hatter shop, the mirror above the checkout counter",
+      "exactSpot": "Watch the mirror for a few seconds. The cat appears and disappears on a loop."
+    },
+    "bestTip": "Stand to the side of the register so you are not in the way, and give it a minute.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium",
+      "notes": "On a loop; wait for the cycle."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8128,
+      "longitude": -117.9186
+    },
+    "sourceId": "TLC-DL-0117",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Mad-Hatter1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "magic-shop-ceiling-card-mickey",
     "parkId": "california_kingdom_park",
     "landId": "main_street_area",
@@ -8570,6 +9057,86 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-CA-0004",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Maters-Junkyard3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "matterhorn-exit-electrical-box-nemo",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "matterhorn_bobsleds",
+    "display": {
+      "entryTitle": "Exit Electrical Box Nemo",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Matterhorn Bobsleds"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "Leaving the ride on the Tomorrowland side, a wooden electrical box about three or four feet tall stands at the entrance to a small alcove on the far left. A Nemo is painted on its side, faded by sun and rain but still there.",
+    "whereToLook": {
+      "scene": "The Tomorrowland-side exit, the alcove entrance at the far left",
+      "exactSpot": "The wooden electrical box at the alcove entrance. The clownfish is on its side."
+    },
+    "bestTip": "Take the left exit. The other side misses it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8125,
+      "longitude": -117.9178
+    },
+    "sourceId": "TLC-DL-0123",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Matterhorn-1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "matterhorn-queue-key-crest-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "matterhorn_bobsleds",
+    "display": {
+      "entryTitle": "Queue Key Crest Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Matterhorn Bobsleds"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "A red and white crest with a key on it hangs in two places, one at the main entrance and one in the Fantasyland-side queue. Only the queue crest has the Hidden Mickey: a tiny shape in black paint at the base of the key's stem, on the red triangle at the bottom of a white pole.",
+    "whereToLook": {
+      "scene": "The Fantasyland-side queue, the red and white key crest",
+      "exactSpot": "The base of the key's stem. A tiny black Mickey sits on the red triangle at the bottom of the white pole."
+    },
+    "bestTip": "Ignore the key's round head, which looks like a Mickey but is not the one. Go to the stem's base.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8125,
+      "longitude": -117.9178
+    },
+    "sourceId": "TLC-DL-0122",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Matterhorn-1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
@@ -9286,6 +9853,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "pinocchio-toy-shop-ship-case-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "pinocchio_daring_journey",
+    "display": {
+      "entryTitle": "Toy Shop Ship Case Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Pinocchio's Daring Journey"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In Geppetto's workshop, on the right, a long model ship sits in a big wooden display case. The framing along the top of the case is shaped into a Hidden Mickey. It sits in a dark corner, which is why it goes unseen.",
+    "whereToLook": {
+      "scene": "Geppetto's workshop scene near the end of the ride, the right side",
+      "exactSpot": "The wooden case holding the long ship. Look at the top of the case's frame."
+    },
+    "bestTip": "It comes at the very end. Keep looking right until the ride stops.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8134,
+      "longitude": -117.9192
+    },
+    "sourceId": "TLC-DL-0101",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Pinocchio-1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "pirate-boat-queue-gun-cabinet-locks-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "pirate_port_area",
@@ -9677,6 +10284,87 @@ export const entries: HiddenMickeyEntry[] = [
     "status": "Unverified",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  },
+  {
+    "id": "pixie-hollow-path-bonsai-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "pixie_hollow",
+    "display": {
+      "entryTitle": "Pathway Bonsai Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Pixie Hollow"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "The path toward the Pixie Hollow entrance is lined with bonsai trees on the left. One is trained into three balls of foliage, and from the right spot on the path the three read as a Mickey head.",
+    "whereToLook": {
+      "scene": "The approach path to Pixie Hollow, the bonsai trees on the left",
+      "exactSpot": "The tree pruned into three round masses. Step along the path until the two smaller balls sit above the larger one."
+    },
+    "bestTip": "Living trees drift. If it does not line up today, the gardeners will get it back.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Depends on your angle and on pruning."
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8125,
+      "longitude": -117.917
+    },
+    "sourceId": "TLC-DL-0097",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Pixie-Hollow2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "pixie-hollow-welcome-signpost-bark-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "pixie_hollow",
+    "display": {
+      "entryTitle": "Welcome Signpost Bark Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Pixie Hollow"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the meet-and-greet queue, near the base of the signpost that reads Faeries Welcome, a classic Hidden Mickey is carved into the bark of the post.",
+    "whereToLook": {
+      "scene": "The Pixie Hollow queue, the wooden signpost reading Faeries Welcome",
+      "exactSpot": "Near the base of the signpost. The three-circle shape is cut into the bark."
+    },
+    "bestTip": "Look while the line is stopped beside the sign; it is at shin height.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8125,
+      "longitude": -117.917
+    },
+    "sourceId": "TLC-DL-0096",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Pixie-Hollow1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "polynesian-coffee-bar-post-nails-mickey",
@@ -10601,6 +11289,86 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-CA-0026",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-8",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "red-rose-taverne-antlers-mirror-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "red_rose_taverne",
+    "display": {
+      "entryTitle": "Antlers and Mirror Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Red Rose Taverne"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the front right section of the restaurant, near the exit, an arrangement of antlers and a mirror on the wall comes together as a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Inside the restaurant, the front right dining section near the exit",
+      "exactSpot": "The wall display of antlers around a mirror. The mirror and the antler mounts make the three circles."
+    },
+    "bestTip": "Look on your way out rather than while hunting for a table.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8136,
+      "longitude": -117.9191
+    },
+    "sourceId": "TLC-DL-0118",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Red-Rose1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "red-rose-taverne-wall-mrs-potts-and-chip",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "red_rose_taverne",
+    "display": {
+      "entryTitle": "Wall Shelf Mrs. Potts and Chip",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Red Rose Taverne"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "On the left side of the restaurant, up along the wall, the enchanted teapot and her son sit on a shelf, with Chip to the right of Mrs. Potts.",
+    "whereToLook": {
+      "scene": "Inside the restaurant, the left side, high on the wall",
+      "exactSpot": "Look up along the left wall for a teapot and a small teacup on a shelf."
+    },
+    "bestTip": "Eye level is all merchandise and menus. The props are above it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8136,
+      "longitude": -117.9191
+    },
+    "sourceId": "TLC-DL-0119",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Red-Rose2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
@@ -12408,6 +13176,247 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "small-world-boarding-towers-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "its_a_small_world",
+    "display": {
+      "entryTitle": "Boarding Towers Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "it's a small world"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Loading",
+    "description": "The three round towers where the ride operators sit form a giant Hidden Mickey when seen from above: the large captain's tower is the head and the two smaller towers to its left are the ears, about fifteen feet across in all. A former operator confirmed the layout.",
+    "whereToLook": {
+      "scene": "The boarding area, the three round operator towers",
+      "exactSpot": "From a high vantage, the large tower plus the two smaller towers to its left make the shape. From the queue you can trace it but not see it whole."
+    },
+    "bestTip": "The hills to the right of the attraction give the view, but you need a cast member's permission to stand there. Otherwise, count the towers from the line and picture it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "The clear view is from the hills to the right of the ride, which are off limits without a cast member's say-so.",
+    "coordinates": {
+      "latitude": 33.8146,
+      "longitude": -117.918
+    },
+    "sourceId": "TLC-DL-0124",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World6",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "small-world-entry-white-balloon-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "its_a_small_world",
+    "display": {
+      "entryTitle": "Entry White Balloon Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "it's a small world"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Easy",
+    "areaContext": "Ride",
+    "description": "Just before the first big room, several balloons hang on your right, and one of the white ones carries a Mickey head. It is almost too plain to count, except that the ringing bells on the left are there to pull your eyes away from it.",
+    "whereToLook": {
+      "scene": "The entry corridor before the first big room, the balloons on the right",
+      "exactSpot": "The white balloon with the Mickey head on it."
+    },
+    "bestTip": "Resist the bells on the left. Look right.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8146,
+      "longitude": -117.918
+    },
+    "sourceId": "TLC-DL-0127",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "small-world-holiday-clock-face-santa-hat-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "its_a_small_world",
+    "display": {
+      "entryTitle": "Holiday Clock Face Santa Hat Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "it's a small world"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "During the holiday overlay, the big clock face wears a Santa hat, and a Hidden Mickey sits on the hat, to the left and just above the middle.",
+    "whereToLook": {
+      "scene": "The facade clock during the holiday season",
+      "exactSpot": "The Santa hat on the clock face, left of center and a little above the middle."
+    },
+    "bestTip": "Get close to the clock. From across the mall it is too small to read.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Seasonal",
+    "coordinates": {
+      "latitude": 33.8146,
+      "longitude": -117.918
+    },
+    "sourceId": "TLC-DL-0125",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "small-world-holiday-england-cinderella-skirt-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "its_a_small_world",
+    "display": {
+      "entryTitle": "Holiday England Cinderella Skirt Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "it's a small world"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the England scene, a Cinderella doll on the left of the boat has a Mickey on her skirt. The thread spools near her are green and red, which marks this as part of the holiday overlay.",
+    "whereToLook": {
+      "scene": "The England scene, left side of the boat",
+      "exactSpot": "The Cinderella doll. The three-circle shape is on her skirt."
+    },
+    "bestTip": "Holiday season only. Look left as England begins.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Seasonal",
+    "coordinates": {
+      "latitude": 33.8146,
+      "longitude": -117.918
+    },
+    "sourceId": "TLC-DL-0128",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World7",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "small-world-holiday-peace-room-holly-berries-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "its_a_small_world",
+    "display": {
+      "entryTitle": "Holiday Peace Room Holly Berries Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "it's a small world"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Easy",
+    "areaContext": "Ride",
+    "description": "In the Peace on Earth room of the holiday overlay, as you leave, look up and to your left. Three holly berries form an obvious Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The Peace on Earth finale room, on the way out",
+      "exactSpot": "Up and to the left as you exit the room. Three holly berries together."
+    },
+    "bestTip": "Save a glance for the exit; most riders are still looking at the finale.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Seasonal",
+    "coordinates": {
+      "latitude": 33.8146,
+      "longitude": -117.918
+    },
+    "sourceId": "TLC-DL-0129",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "small-world-holiday-topiary-bear-muzzle-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "its_a_small_world",
+    "display": {
+      "entryTitle": "Holiday Topiary Bear Muzzle Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "it's a small world"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "During the holidays, the topiary bear outside the ride building has its muzzle lit as a Hidden Mickey. It is on the right of the boat just after you pass under the pedestrian bridge, before you enter the building.",
+    "whereToLook": {
+      "scene": "The outdoor stretch of the ride, just past the pedestrian bridge, right side",
+      "exactSpot": "The topiary bear. Its lit muzzle is the three-circle shape."
+    },
+    "bestTip": "Ride after dark during the holiday season so the lights are on.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Seasonal",
+    "coordinates": {
+      "latitude": 33.8146,
+      "longitude": -117.918
+    },
+    "sourceId": "TLC-DL-0126",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "smugglers-freighter-cockpit-miniature-ship",
     "parkId": "studios_park",
     "landId": "smugglers_outpost_area",
@@ -12486,6 +13495,127 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-millennium-falcon-smugglers-run",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "snow-white-mine-tinker-bell-on-wall",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "snow_white_enchanted_wish",
+    "display": {
+      "entryTitle": "Mine Scene Tinker Bell",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Snow White's Enchanted Wish"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the mine, as you approach the mine car heaped with jewels on the left, a Tinker Bell hides on the wall behind the car, to the left of the red jewel a dwarf is holding up.",
+    "whereToLook": {
+      "scene": "The mine scene, the jewel-filled mine car on the left",
+      "exactSpot": "The wall behind the mine car, left of the dwarf holding up the red jewel."
+    },
+    "bestTip": "Find the red jewel first, then look left of it into the wall.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.813,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-DL-0100",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "snow-white-staircase-turtle-shell-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "snow_white_enchanted_wish",
+    "display": {
+      "entryTitle": "Staircase Turtle Shell Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Snow White's Enchanted Wish"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the second room, Snow White climbs the stairs with a turtle following her. The turtle's shell is patterned with one large circle ringed by smaller ones, and the two at the top sit on the big one as ears.",
+    "whereToLook": {
+      "scene": "Second room of the ride, the staircase scene with the turtle",
+      "exactSpot": "The turtle's shell. The large center circle plus the two small circles at its top form the shape."
+    },
+    "bestTip": "Watch the turtle, not Snow White. A cast member tipped this one the same way.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.813,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-DL-0098",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Snow-White1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "snow-white-turret-wicked-queen-curtains",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "snow_white_enchanted_wish",
+    "display": {
+      "entryTitle": "Turret Wicked Queen",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Snow White's Enchanted Wish"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "Above the attraction, in the turret window, the Wicked Queen parts the curtains about every twenty seconds, looks down at the crowd for fifteen, and draws them closed again. Almost nobody notices unless they know to look up and wait.",
+    "whereToLook": {
+      "scene": "The turret on top of the Snow White attraction, seen from the Peter Pan's Flight queue",
+      "exactSpot": "The turret window. Wait for the curtains to open."
+    },
+    "bestTip": "The Peter Pan queue is the best vantage, and the effect is easier to see at night.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far",
+      "notes": "On a timer: roughly every twenty seconds."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.813,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-DL-0099",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Snow-White2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "snowy-mountain-approach-climbing-gear-mickey",
@@ -13201,6 +14331,47 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0008",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "storybook-land-wendy-boat-rear-post-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "storybook_land_canal_boats",
+    "display": {
+      "entryTitle": "Wendy Boat Rear Post Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Storybook Land Canal Boats"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Dock",
+    "description": "Each canal boat is named for a Disney heroine. On the boat named Wendy, a Hidden Mickey sits on the upper back of the rear post.",
+    "whereToLook": {
+      "scene": "The canal boats at the dock, the one named Wendy",
+      "exactSpot": "The rear post of the boat. The three-circle shape is on its upper back face."
+    },
+    "bestTip": "You cannot choose your boat, so check the name as you board and look at the stern post if it is Wendy.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Only on the Wendy boat."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8137,
+      "longitude": -117.9182
+    },
+    "sourceId": "TLC-DL-0120",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Storybook-Boats1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "studios-plaza-layout-mickey-face",
@@ -14471,6 +15642,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "wild-motorcar-loading-rafters-berries-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "wild_motorcar_ride",
+    "display": {
+      "entryTitle": "Loading Rafters Berries Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Mr. Toad's Wild Ride"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "Right after the turnstile, before you board, berries are painted on the rafters overhead. Some grow in threes, and two of those clusters, one to the left and one to the right, are classic Hidden Mickeys.",
+    "whereToLook": {
+      "scene": "The rafters above the boarding area, just past the turnstile",
+      "exactSpot": "Look up at the painted berries. Two groups of three, one on each side, form the shape."
+    },
+    "bestTip": "Look up while you wait for your car rather than once you are in it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8133,
+      "longitude": -117.9187
+    },
+    "sourceId": "TLC-DL-0110",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Mr-Toad1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "wild-motorcar-sherlock-holmes-window",
     "parkId": "california_kingdom_park",
     "landId": "storybook_village_area",
@@ -14502,12 +15713,15 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Obvious",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 33.8133,
       "longitude": -117.9187
     },
+    "sourceId": "TLC-DL-0111",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "wild-west-mine-coaster-exit-fairy-likeness",
@@ -14937,12 +16151,55 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 33.8132,
       "longitude": -117.9184
     },
+    "sourceId": "TLC-DL-0112",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Alice-Wonderland2",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "wonderland-caterpillar-rose-painting-drops-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "wonderland_caterpillar_ride",
+    "display": {
+      "entryTitle": "Rose Painting Paint Drops Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Fantasyland",
+      "attractionName": "Alice in Wonderland"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Easy",
+    "areaContext": "Ride",
+    "description": "Where the cards are painting the roses red, three drops of paint on the floor by the card's feet, on your left, form a classic Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The scene with the playing cards painting the roses red",
+      "exactSpot": "By the card's feet on your left. Three paint drops on the floor."
+    },
+    "bestTip": "Sit on the left side of the caterpillar and it is plain to see.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8132,
+      "longitude": -117.9184
+    },
+    "sourceId": "TLC-DL-0113",
+    "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Alice-Wonderland1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "yacht-lobby-globe-mickey",

@@ -1,0 +1,41 @@
+{
+  "id": "pixie-hollow-path-bonsai-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "pixie_hollow",
+  "display": {
+    "entryTitle": "Pathway Bonsai Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Pixie Hollow"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "The path toward the Pixie Hollow entrance is lined with bonsai trees on the left. One is trained into three balls of foliage, and from the right spot on the path the three read as a Mickey head.",
+  "whereToLook": {
+    "scene": "The approach path to Pixie Hollow, the bonsai trees on the left",
+    "exactSpot": "The tree pruned into three round masses. Step along the path until the two smaller balls sit above the larger one."
+  },
+  "bestTip": "Living trees drift. If it does not line up today, the gardeners will get it back.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "Depends on your angle and on pruning."
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8125,
+    "longitude": -117.917
+  },
+  "sourceId": "TLC-DL-0097",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Pixie-Hollow2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

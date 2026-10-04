@@ -1,0 +1,40 @@
+{
+  "id": "flying-pirate-ship-big-ben-window-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "flying_pirate_ship_ride",
+  "display": {
+    "entryTitle": "Big Ben Window Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Peter Pan's Flight"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Flying over London, wait until you have circled around to the back of Big Ben. In the tower's lit windows, a full-body Mickey silhouette stands out clearly.",
+  "whereToLook": {
+    "scene": "The London flyover, the back side of Big Ben",
+    "exactSpot": "The windows of the clock tower once you are on its far side. A whole Mickey figure, not just a head."
+  },
+  "bestTip": "Do not look as you first approach the tower. The silhouette is on the side you reach second.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dark",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8131,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-DL-0108",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan6",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

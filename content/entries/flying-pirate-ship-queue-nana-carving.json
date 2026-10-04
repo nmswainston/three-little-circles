@@ -1,0 +1,40 @@
+{
+  "id": "flying-pirate-ship-queue-nana-carving",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "flying_pirate_ship_ride",
+  "display": {
+    "entryTitle": "Queue Post Nana Carving",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Peter Pan's Flight"
+  },
+  "entryType": "FACT",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "About two thirds of the way through the queue, a small wooden Nana, the Darlings' nursemaid dog, is mounted on one of the wooden pillars. She has company: pan pipes, an umbrella, and a teddy bear are carved onto other posts.",
+  "whereToLook": {
+    "scene": "The covered queue, the wooden pillars about two thirds of the way in",
+    "exactSpot": "A small carved dog mounted on a pillar at eye level."
+  },
+  "bestTip": "Once you spot Nana, check the other posts for the pipes, umbrella, and bear.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8131,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-DL-0102",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan5",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

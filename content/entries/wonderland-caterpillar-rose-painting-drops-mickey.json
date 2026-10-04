@@ -1,0 +1,40 @@
+{
+  "id": "wonderland-caterpillar-rose-painting-drops-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "wonderland_caterpillar_ride",
+  "display": {
+    "entryTitle": "Rose Painting Paint Drops Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Alice in Wonderland"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Easy",
+  "areaContext": "Ride",
+  "description": "Where the cards are painting the roses red, three drops of paint on the floor by the card's feet, on your left, form a classic Hidden Mickey.",
+  "whereToLook": {
+    "scene": "The scene with the playing cards painting the roses red",
+    "exactSpot": "By the card's feet on your left. Three paint drops on the floor."
+  },
+  "bestTip": "Sit on the left side of the caterpillar and it is plain to see.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8132,
+    "longitude": -117.9184
+  },
+  "sourceId": "TLC-DL-0113",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Alice-Wonderland1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

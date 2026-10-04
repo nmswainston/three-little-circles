@@ -1,0 +1,40 @@
+{
+  "id": "pinocchio-toy-shop-ship-case-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "pinocchio_daring_journey",
+  "display": {
+    "entryTitle": "Toy Shop Ship Case Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Pinocchio's Daring Journey"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In Geppetto's workshop, on the right, a long model ship sits in a big wooden display case. The framing along the top of the case is shaped into a Hidden Mickey. It sits in a dark corner, which is why it goes unseen.",
+  "whereToLook": {
+    "scene": "Geppetto's workshop scene near the end of the ride, the right side",
+    "exactSpot": "The wooden case holding the long ship. Look at the top of the case's frame."
+  },
+  "bestTip": "It comes at the very end. Keep looking right until the ride stops.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dark",
+    "angle": "Right",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8134,
+    "longitude": -117.9192
+  },
+  "sourceId": "TLC-DL-0101",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Pinocchio-1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

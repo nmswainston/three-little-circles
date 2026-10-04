@@ -1,0 +1,41 @@
+{
+  "id": "mad-hatter-counter-mirror-cheshire-cat",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "mad_hatter_shop",
+  "display": {
+    "entryTitle": "Counter Mirror Cheshire Cat",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Mad Hatter"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Shop",
+  "description": "In the mirror above the checkout counter of the hat shop, the Cheshire Cat fades into view, grins, and fades away again.",
+  "whereToLook": {
+    "scene": "Inside the Mad Hatter shop, the mirror above the checkout counter",
+    "exactSpot": "Watch the mirror for a few seconds. The cat appears and disappears on a loop."
+  },
+  "bestTip": "Stand to the side of the register so you are not in the way, and give it a minute.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium",
+    "notes": "On a loop; wait for the cycle."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8128,
+    "longitude": -117.9186
+  },
+  "sourceId": "TLC-DL-0117",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Mad-Hatter1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

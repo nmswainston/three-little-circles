@@ -1,0 +1,40 @@
+{
+  "id": "dumbo-queue-stork-baby-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "dumbo_flying_elephant",
+  "display": {
+    "entryTitle": "Queue Stork Baby Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Dumbo the Flying Elephant"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "The decorations above the queue include a medallion of a stork carrying a baby in a purple blanket. The baby's head, body, and feet, all purple, line up as a Hidden Mickey, the body in the sack as the head and the feet and head as ears.",
+  "whereToLook": {
+    "scene": "The decorative medallions above the queue",
+    "exactSpot": "The stork-and-baby medallion. The purple baby reads as three circles."
+  },
+  "bestTip": "The wait gives you plenty of time. Look up at the medallions one by one.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8139,
+    "longitude": -117.9195
+  },
+  "sourceId": "TLC-DL-0121",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Dumbo-1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "red-rose-taverne-antlers-mirror-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "red_rose_taverne",
+  "display": {
+    "entryTitle": "Antlers and Mirror Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Red Rose Taverne"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In the front right section of the restaurant, near the exit, an arrangement of antlers and a mirror on the wall comes together as a Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Inside the restaurant, the front right dining section near the exit",
+    "exactSpot": "The wall display of antlers around a mirror. The mirror and the antler mounts make the three circles."
+  },
+  "bestTip": "Look on your way out rather than while hunting for a table.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8136,
+    "longitude": -117.9191
+  },
+  "sourceId": "TLC-DL-0118",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Red-Rose1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

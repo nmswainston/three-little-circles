@@ -1,0 +1,40 @@
+{
+  "id": "small-world-entry-white-balloon-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "its_a_small_world",
+  "display": {
+    "entryTitle": "Entry White Balloon Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "it's a small world"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Easy",
+  "areaContext": "Ride",
+  "description": "Just before the first big room, several balloons hang on your right, and one of the white ones carries a Mickey head. It is almost too plain to count, except that the ringing bells on the left are there to pull your eyes away from it.",
+  "whereToLook": {
+    "scene": "The entry corridor before the first big room, the balloons on the right",
+    "exactSpot": "The white balloon with the Mickey head on it."
+  },
+  "bestTip": "Resist the bells on the left. Look right.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Right",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8146,
+    "longitude": -117.918
+  },
+  "sourceId": "TLC-DL-0127",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World4",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

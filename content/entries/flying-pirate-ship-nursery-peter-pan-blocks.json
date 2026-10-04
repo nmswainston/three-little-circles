@@ -1,0 +1,40 @@
+{
+  "id": "flying-pirate-ship-nursery-peter-pan-blocks",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "flying_pirate_ship_ride",
+  "display": {
+    "entryTitle": "Nursery PETER PAN Blocks",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Peter Pan's Flight"
+  },
+  "entryType": "FACT",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "As the ship lifts off in the nursery and makes its hard left turn, look straight down. Blocks that look scattered at random spell PETER PAN when seen from above, along the left wall as you entered.",
+  "whereToLook": {
+    "scene": "The nursery, during the hard left turn right after liftoff",
+    "exactSpot": "Straight down from the right side of the ship. The full PETER PAN runs along the wall on the left as you entered."
+  },
+  "bestTip": "Riders on the right side get the view. The letters are strewn, so take in the whole line.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8131,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-DL-0107",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -29,10 +29,13 @@
   },
   "confidence": "Strong",
   "verification": "Community",
+  "status": "Unverified",
   "coordinates": {
     "latitude": 33.8131,
     "longitude": -117.9188
   },
+  "sourceId": "TLC-DL-0109",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan7",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

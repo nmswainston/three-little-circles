@@ -1,0 +1,41 @@
+{
+  "id": "small-world-boarding-towers-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "its_a_small_world",
+  "display": {
+    "entryTitle": "Boarding Towers Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "it's a small world"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Loading",
+  "description": "The three round towers where the ride operators sit form a giant Hidden Mickey when seen from above: the large captain's tower is the head and the two smaller towers to its left are the ears, about fifteen feet across in all. A former operator confirmed the layout.",
+  "whereToLook": {
+    "scene": "The boarding area, the three round operator towers",
+    "exactSpot": "From a high vantage, the large tower plus the two smaller towers to its left make the shape. From the queue you can trace it but not see it whole."
+  },
+  "bestTip": "The hills to the right of the attraction give the view, but you need a cast member's permission to stand there. Otherwise, count the towers from the line and picture it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "The clear view is from the hills to the right of the ride, which are off limits without a cast member's say-so.",
+  "coordinates": {
+    "latitude": 33.8146,
+    "longitude": -117.918
+  },
+  "sourceId": "TLC-DL-0124",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World6",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

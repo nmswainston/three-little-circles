@@ -1,0 +1,40 @@
+{
+  "id": "small-world-holiday-clock-face-santa-hat-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "its_a_small_world",
+  "display": {
+    "entryTitle": "Holiday Clock Face Santa Hat Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "it's a small world"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "During the holiday overlay, the big clock face wears a Santa hat, and a Hidden Mickey sits on the hat, to the left and just above the middle.",
+  "whereToLook": {
+    "scene": "The facade clock during the holiday season",
+    "exactSpot": "The Santa hat on the clock face, left of center and a little above the middle."
+  },
+  "bestTip": "Get close to the clock. From across the mall it is too small to read.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Seasonal",
+  "coordinates": {
+    "latitude": 33.8146,
+    "longitude": -117.918
+  },
+  "sourceId": "TLC-DL-0125",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

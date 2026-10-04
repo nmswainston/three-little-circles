@@ -1,0 +1,40 @@
+{
+  "id": "matterhorn-queue-key-crest-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "storybook_village_area",
+  "attractionId": "matterhorn_bobsleds",
+  "display": {
+    "entryTitle": "Queue Key Crest Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Fantasyland",
+    "attractionName": "Matterhorn Bobsleds"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "A red and white crest with a key on it hangs in two places, one at the main entrance and one in the Fantasyland-side queue. Only the queue crest has the Hidden Mickey: a tiny shape in black paint at the base of the key's stem, on the red triangle at the bottom of a white pole.",
+  "whereToLook": {
+    "scene": "The Fantasyland-side queue, the red and white key crest",
+    "exactSpot": "The base of the key's stem. A tiny black Mickey sits on the red triangle at the bottom of the white pole."
+  },
+  "bestTip": "Ignore the key's round head, which looks like a Mickey but is not the one. Go to the stem's base.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8125,
+    "longitude": -117.9178
+  },
+  "sourceId": "TLC-DL-0122",
+  "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Matterhorn-1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
