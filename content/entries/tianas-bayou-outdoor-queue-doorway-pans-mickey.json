@@ -1,0 +1,40 @@
+{
+  "id": "tianas-bayou-outdoor-queue-doorway-pans-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "bayou_country_area",
+  "attractionId": "bayou_log_flume",
+  "display": {
+    "entryTitle": "Outdoor Queue Doorway Pans Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Bayou Country",
+    "attractionName": "Tiana's Bayou Adventure"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "In the outdoor queue before you enter the building, three pans hang above a doorway, and they are arranged as a Hidden Mickey. A cast member pointed this one out to the person who reported it.",
+  "whereToLook": {
+    "scene": "The outdoor portion of the queue, before the building",
+    "exactSpot": "Above a doorway. Three hanging pans, one large and two small."
+  },
+  "bestTip": "Look up at the kitchenware as the line passes the doorways.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8124,
+    "longitude": -117.9226
+  },
+  "sourceId": "TLC-DL-0074",
+  "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Tianas-Adventure1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

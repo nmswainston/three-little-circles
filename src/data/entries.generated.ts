@@ -14146,6 +14146,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
+    "id": "pooh-corner-wall-pictures-country-bears-and-pooh",
+    "parkId": "california_kingdom_park",
+    "landId": "bayou_country_area",
+    "attractionId": "pooh_corner",
+    "display": {
+      "entryTitle": "Wall Pictures Country Bears with Pooh",
+      "parkName": "Disneyland Park",
+      "landName": "Bayou Country",
+      "attractionName": "Pooh Corner"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "The pictures on the walls of Pooh Corner feature the cast of the old Country Bear Jamboree, which used to play next door. In one, Pooh sits on Gomer's piano. In another, he waves to Teddy Barra.",
+    "whereToLook": {
+      "scene": "The framed pictures on the walls of Pooh Corner",
+      "exactSpot": "The picture with Pooh on a piano, and the one with Pooh waving at a bear in a chair."
+    },
+    "bestTip": "Look above the candy, not at it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8121,
+      "longitude": -117.9231
+    },
+    "sourceId": "TLC-DL-0076",
+    "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "port-orleans-pool-bar-barrel-mickey",
     "parkId": "resorts_bucket",
     "landId": "port_orleans_riverside_resort",
@@ -18364,6 +18404,126 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0051",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "tianas-bayou-mountain-face-drop-rocks-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "bayou_country_area",
+    "attractionId": "bayou_log_flume",
+    "display": {
+      "entryTitle": "Mountain Face Drop Rocks Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Bayou Country",
+      "attractionName": "Tiana's Bayou Adventure"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "Face the mountain from the walkway and look to the left of the big drop. Just below and left of the opening where the logs come out, three rocks stacked in a rounded, three-dimensional grouping make a Mickey.",
+    "whereToLook": {
+      "scene": "The front of the mountain, to the left of the final drop",
+      "exactSpot": "Lower left of the drop opening. Three rounded rocks."
+    },
+    "bestTip": "Stand where you would watch the splash. The rocks are easier to read from a distance.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8124,
+      "longitude": -117.9226
+    },
+    "sourceId": "TLC-DL-0073",
+    "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Tianas-Adventure3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "tianas-bayou-outdoor-queue-doorway-pans-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "bayou_country_area",
+    "attractionId": "bayou_log_flume",
+    "display": {
+      "entryTitle": "Outdoor Queue Doorway Pans Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Bayou Country",
+      "attractionName": "Tiana's Bayou Adventure"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the outdoor queue before you enter the building, three pans hang above a doorway, and they are arranged as a Hidden Mickey. A cast member pointed this one out to the person who reported it.",
+    "whereToLook": {
+      "scene": "The outdoor portion of the queue, before the building",
+      "exactSpot": "Above a doorway. Three hanging pans, one large and two small."
+    },
+    "bestTip": "Look up at the kitchenware as the line passes the doorways.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8124,
+      "longitude": -117.9226
+    },
+    "sourceId": "TLC-DL-0074",
+    "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Tianas-Adventure1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "tianas-bayou-outdoor-track-pumpkin-eggplant-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "bayou_country_area",
+    "attractionId": "bayou_log_flume",
+    "display": {
+      "entryTitle": "Outdoor Track Pumpkin and Eggplants Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Bayou Country",
+      "attractionName": "Tiana's Bayou Adventure"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Riding the outdoor stretch before the first drop, look to the right of the track for the produce. A green pumpkin forms the head and two eggplants beside it are the ears.",
+    "whereToLook": {
+      "scene": "The outdoor section of the ride before the first drop, the right side",
+      "exactSpot": "Among the produce on the right. One green pumpkin with two eggplants as ears."
+    },
+    "bestTip": "It reads as three green pumpkins at a glance. The ears are eggplants.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8124,
+      "longitude": -117.9226
+    },
+    "sourceId": "TLC-DL-0075",
+    "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Tianas-Adventure2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "tom-sawyer-island-shore-stump-pooh-profile",
@@ -22728,6 +22888,209 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "winnie-the-pooh-entrance-pole-wood-knot-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "bayou_country_area",
+    "attractionId": "honey_pot_ride",
+    "display": {
+      "entryTitle": "Entrance Pole Wood Knot Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Bayou Country",
+      "attractionName": "The Many Adventures of Winnie the Pooh"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Right after the honey pot pushes through the swinging entrance doors, a round pole passes on your right. About halfway up, a knot in the faux wood grain is a small Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Just inside the swinging entrance doors, the round pole on the right",
+      "exactSpot": "Halfway up the pole. A knot in the wood grain shaped as three circles."
+    },
+    "bestTip": "It is small. Look at the pole, not past it.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.812,
+      "longitude": -117.9234
+    },
+    "sourceId": "TLC-DL-0077",
+    "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Winnie-1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "winnie-the-pooh-exit-door-honey-drops-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "bayou_country_area",
+    "attractionId": "honey_pot_ride",
+    "display": {
+      "entryTitle": "Exit Door Honey Drops Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Bayou Country",
+      "attractionName": "The Many Adventures of Winnie the Pooh"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Easy",
+    "areaContext": "Exit",
+    "description": "At the end of the birthday scene, the final door swings open to let you back outside. It is painted with Pooh surrounded by honey bubbles, and in the bottom right corner three bubbles form a perfect Mickey, right beside a Heffalump snout.",
+    "whereToLook": {
+      "scene": "The last door of the ride, painted with Pooh and honey bubbles",
+      "exactSpot": "Bottom right corner of the door. Three honey drops, one large and two small, next to the Heffalump snout."
+    },
+    "bestTip": "Watch the door before it opens, not the daylight behind it.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.812,
+      "longitude": -117.9234
+    },
+    "sourceId": "TLC-DL-0080",
+    "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Winnie-3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "winnie-the-pooh-first-scene-gopher-burrow-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "bayou_country_area",
+    "attractionId": "honey_pot_ride",
+    "display": {
+      "entryTitle": "First Scene Gopher Burrow Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Bayou Country",
+      "attractionName": "The Many Adventures of Winnie the Pooh"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the first scene after you enter, look through the painted bushes toward Gopher's burrow. A Hidden Mickey sits on the front of the burrow, facing the entrance tunnel.",
+    "whereToLook": {
+      "scene": "The first scene, Gopher's burrow behind the painted bushes",
+      "exactSpot": "The front face of the burrow, the side toward the entrance."
+    },
+    "bestTip": "Look back toward the burrow as you leave the tunnel.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.812,
+      "longitude": -117.9234
+    },
+    "sourceId": "TLC-DL-0078",
+    "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Winnie-5",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "winnie-the-pooh-mounted-heads-melvin-buff-max",
+    "parkId": "california_kingdom_park",
+    "landId": "bayou_country_area",
+    "attractionId": "honey_pot_ride",
+    "display": {
+      "entryTitle": "Mounted Heads Melvin, Buff, and Max",
+      "parkName": "Disneyland Park",
+      "landName": "Bayou Country",
+      "attractionName": "The Many Adventures of Winnie the Pooh"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "The ride was built where the Country Bear Jamboree used to play, and three of its stars never left. Melvin the moose, Buff the buffalo, and Max the stag hang mounted on a wall about two thirds of the way through, behind you, so you have to turn around to see them.",
+    "whereToLook": {
+      "scene": "About two thirds of the way through the ride, the wall behind the honey pot",
+      "exactSpot": "Mounted high on the wall behind you. A moose, a buffalo, and a stag."
+    },
+    "bestTip": "Turn around in the Heffalumps and Woozles dream. They are watching you leave.",
+    "funFacts": [
+      "Melvin, Buff, and Max hosted the Country Bear Jamboree from the wall of the old theater."
+    ],
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.812,
+      "longitude": -117.9234
+    },
+    "sourceId": "TLC-DL-0081",
+    "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Winnie-4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "winnie-the-pooh-sleeping-scene-honey-jar-ears",
+    "parkId": "california_kingdom_park",
+    "landId": "bayou_country_area",
+    "attractionId": "honey_pot_ride",
+    "display": {
+      "entryTitle": "Sleeping Scene Honey Jar Ears",
+      "parkName": "Disneyland Park",
+      "landName": "Bayou Country",
+      "attractionName": "The Many Adventures of Winnie the Pooh"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the scene where Pooh is asleep, a bookcase stands behind him. On the second shelf from the top, a honey jar wears a pair of Mickey ears.",
+    "whereToLook": {
+      "scene": "The scene with Pooh sleeping, the bookcase behind him",
+      "exactSpot": "Second shelf from the top. A honey jar with Mickey ears."
+    },
+    "bestTip": "Scan the shelves while Pooh snores.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.812,
+      "longitude": -117.9234
+    },
+    "sourceId": "TLC-DL-0079",
+    "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Winnie-2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "wonderland-caterpillar-purple-mushroom-mickeys",

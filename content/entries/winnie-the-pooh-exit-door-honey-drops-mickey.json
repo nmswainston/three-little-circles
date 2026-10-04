@@ -1,0 +1,40 @@
+{
+  "id": "winnie-the-pooh-exit-door-honey-drops-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "bayou_country_area",
+  "attractionId": "honey_pot_ride",
+  "display": {
+    "entryTitle": "Exit Door Honey Drops Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Bayou Country",
+    "attractionName": "The Many Adventures of Winnie the Pooh"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Easy",
+  "areaContext": "Exit",
+  "description": "At the end of the birthday scene, the final door swings open to let you back outside. It is painted with Pooh surrounded by honey bubbles, and in the bottom right corner three bubbles form a perfect Mickey, right beside a Heffalump snout.",
+  "whereToLook": {
+    "scene": "The last door of the ride, painted with Pooh and honey bubbles",
+    "exactSpot": "Bottom right corner of the door. Three honey drops, one large and two small, next to the Heffalump snout."
+  },
+  "bestTip": "Watch the door before it opens, not the daylight behind it.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.812,
+    "longitude": -117.9234
+  },
+  "sourceId": "TLC-DL-0080",
+  "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Winnie-3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
