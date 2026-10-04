@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
 import { SectionList } from 'react-native';
-import { fireEvent, render, screen } from '@testing-library/react-native';
+import { act, fireEvent, render, screen } from '@testing-library/react-native';
 import ParkScreen from '../src/screens/ParkScreen';
 import { getAllEntries, getParksSummary, groupByLand } from '../src/data/query';
 import { isConfirmed } from '../src/data/confirmations';
@@ -172,6 +172,33 @@ describe('ParkScreen', () => {
 
     fireEvent.scroll(screen.UNSAFE_getByType(SectionList), { nativeEvent: { contentOffset: { y: 0 } } });
     expect(screen.getAllByText(parkName)).toHaveLength(1);
+  });
+
+  it('highlights the chip for the land at the top of the list', () => {
+    const second = groups[1];
+    if (!second) return;
+    render(<ParkScreen />);
+    const chip = (name: string) => screen.getAllByRole('button', { name })[0];
+    expect(chip(second.landName).props.accessibilityState.selected).toBe(false);
+
+    const list = screen.UNSAFE_getByType(SectionList);
+    act(() => {
+      list.props.viewabilityConfigCallbackPairs[0].onViewableItemsChanged({
+        viewableItems: [{ section: { landId: second.landId } }],
+      });
+    });
+    expect(chip(second.landName).props.accessibilityState.selected).toBe(true);
+    expect(chip(firstLand.landName).props.accessibilityState.selected).toBe(false);
+  });
+
+  it('pins the land chips under the top bar once scrolled', () => {
+    if (groups.length < 2) return;
+    render(<ParkScreen />);
+    expect(screen.getAllByRole('button', { name: firstLand.landName })).toHaveLength(1);
+    fireEvent.scroll(screen.UNSAFE_getByType(SectionList), { nativeEvent: { contentOffset: { y: 500 } } });
+    expect(screen.getAllByRole('button', { name: firstLand.landName })).toHaveLength(2);
+    fireEvent.scroll(screen.UNSAFE_getByType(SectionList), { nativeEvent: { contentOffset: { y: 0 } } });
+    expect(screen.getAllByRole('button', { name: firstLand.landName })).toHaveLength(1);
   });
 
   it('keeps Back and Share in the bar while scrolled', () => {

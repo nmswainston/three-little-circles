@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { ScrollView, StyleProp, StyleSheet, View, ViewStyle, NativeSyntheticEvent, NativeScrollEvent } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useTheme } from '../../theme/ThemeProvider';
@@ -11,18 +11,31 @@ interface FadingScrollRowProps {
   contentContainerStyle?: StyleProp<ViewStyle>;
   /** Six-digit hex the edges fade into. Defaults to the screen background. */
   fadeColor?: string;
+  /** Scrolls the row to this offset whenever it changes, for keeping a chosen chip in view. */
+  scrollToX?: number;
 }
 
 /**
  * A horizontal chip row that fades out at whichever edge still has more to
  * scroll, so a chip cut off at the screen edge reads as "keep swiping".
  */
-export default function FadingScrollRow({ children, style, contentContainerStyle, fadeColor }: FadingScrollRowProps) {
+export default function FadingScrollRow({
+  children,
+  style,
+  contentContainerStyle,
+  fadeColor,
+  scrollToX,
+}: FadingScrollRowProps) {
   const t = useTheme();
   const color = fadeColor ?? t.colors.background;
   const [width, setWidth] = useState(0);
   const [contentWidth, setContentWidth] = useState(0);
   const [offset, setOffset] = useState(0);
+  const scrollRef = useRef<ScrollView>(null);
+
+  useEffect(() => {
+    if (scrollToX !== undefined) scrollRef.current?.scrollTo({ x: scrollToX, animated: true });
+  }, [scrollToX]);
 
   const onScroll = (e: NativeSyntheticEvent<NativeScrollEvent>) => setOffset(e.nativeEvent.contentOffset.x);
   const showStart = offset > 4;
@@ -31,6 +44,7 @@ export default function FadingScrollRow({ children, style, contentContainerStyle
   return (
     <View style={[styles.wrap, style]}>
       <ScrollView
+        ref={scrollRef}
         horizontal
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={contentContainerStyle}
