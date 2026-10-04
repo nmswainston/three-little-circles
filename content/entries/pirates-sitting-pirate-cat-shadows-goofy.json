@@ -1,0 +1,40 @@
+{
+  "id": "pirates-sitting-pirate-cat-shadows-goofy",
+  "parkId": "california_kingdom_park",
+  "landId": "french_quarter_area",
+  "attractionId": "pirates_of_the_caribbean",
+  "display": {
+    "entryTitle": "Sitting Pirate Cat Shadows Goofy",
+    "parkName": "Disneyland Park",
+    "landName": "New Orleans Square",
+    "attractionName": "Pirates of the Caribbean"
+  },
+  "entryType": "FACT",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "Two cats mew at a seated pirate, and as you float past, their shadows merge on the wall. It was first reported as a Mickey; later visits settled on Goofy's head.",
+  "whereToLook": {
+    "scene": "The seated pirate with the two cats",
+    "exactSpot": "The cats' shadows on the wall behind them, merging as you pass."
+  },
+  "bestTip": "Watch the wall, not the cats, and keep watching as the angle changes.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dark",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8114,
+    "longitude": -117.9208
+  },
+  "sourceId": "TLC-DL-0067",
+  "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

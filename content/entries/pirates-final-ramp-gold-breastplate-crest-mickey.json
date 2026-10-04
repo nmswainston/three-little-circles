@@ -1,0 +1,41 @@
+{
+  "id": "pirates-final-ramp-gold-breastplate-crest-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "french_quarter_area",
+  "attractionId": "pirates_of_the_caribbean",
+  "display": {
+    "entryTitle": "Gold Breastplate Crest Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "New Orleans Square",
+    "attractionName": "Pirates of the Caribbean"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "Right before the final ramp up to the exit, after the burning town, a pirate lies on a cannon on the left. Behind him hang two breastplates, silver on the left and gold on the right, flanked by helmets. The crest on the gold one has a Mickey head dead center. The scene has been dimmed, so it takes effort now.",
+  "whereToLook": {
+    "scene": "Just before the final uphill ramp, the pirate lying on a cannon on the left",
+    "exactSpot": "The gold breastplate behind him. The Mickey is in the middle of its crest."
+  },
+  "bestTip": "Know where to look before you get there; you have one slow pass in low light.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dark",
+    "angle": "Left",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "Lighting here was reduced."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8114,
+    "longitude": -117.9208
+  },
+  "sourceId": "TLC-DL-0069",
+  "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pirates-4",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

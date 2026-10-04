@@ -1,0 +1,40 @@
+{
+  "id": "pieces-of-eight-exit-corridor-antique-lock-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "french_quarter_area",
+  "attractionId": "pieces_of_eight",
+  "display": {
+    "entryTitle": "Exit Corridor Antique Lock Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "New Orleans Square",
+    "attractionName": "Pieces of Eight"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "Leaving Pirates of the Caribbean, the corridor runs toward the Pieces of Eight shop. At the end of the corridor on the right, a sealed shop door wears an antique lock shaped like a Mickey head.",
+  "whereToLook": {
+    "scene": "The exit corridor from Pirates of the Caribbean, at its end on the right",
+    "exactSpot": "The old lock on the sealed door. The lock body and shackle make the three circles."
+  },
+  "bestTip": "Slow down at the end of the corridor; most people are already looking into the shop.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8116,
+    "longitude": -117.921
+  },
+  "sourceId": "TLC-DL-0055",
+  "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pieces-OfEight1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

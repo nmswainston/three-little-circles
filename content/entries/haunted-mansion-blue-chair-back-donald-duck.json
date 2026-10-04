@@ -1,0 +1,40 @@
+{
+  "id": "haunted-mansion-blue-chair-back-donald-duck",
+  "parkId": "california_kingdom_park",
+  "landId": "french_quarter_area",
+  "attractionId": "haunted_mansion",
+  "display": {
+    "entryTitle": "Blue Chair Back Donald Duck",
+    "parkName": "Disneyland Park",
+    "landName": "New Orleans Square",
+    "attractionName": "Haunted Mansion"
+  },
+  "entryType": "FACT",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "Right after the endless hallway, a big blue lounge chair sits in the scene. The abstract pattern on its backrest forms Donald Duck's face and sailor hat, a design so loose you have to squint to pull it out.",
+  "whereToLook": {
+    "scene": "The scene right after the endless hallway, the large blue chair",
+    "exactSpot": "The backrest. The swirls make a duck's bill, eyes, and cap."
+  },
+  "bestTip": "Soften your focus. It reads better out of the corner of your eye than straight on.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dark",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8118,
+    "longitude": -117.9224
+  },
+  "sourceId": "TLC-DL-0057",
+  "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

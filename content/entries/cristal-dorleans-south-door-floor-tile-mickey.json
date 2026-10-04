@@ -1,0 +1,40 @@
+{
+  "id": "cristal-dorleans-south-door-floor-tile-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "french_quarter_area",
+  "attractionId": "cristal_dorleans",
+  "display": {
+    "entryTitle": "South Doorway Floor Tile Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "New Orleans Square",
+    "attractionName": "Cristal d'Orleans"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "In the tile work on the floor at the shop's south doorway, the pattern forms a Hidden Mickey underfoot.",
+  "whereToLook": {
+    "scene": "The south doorway of Cristal d'Orleans, the floor",
+    "exactSpot": "The floor tiles in the doorway. Look down for the three-circle shape in the pattern."
+  },
+  "bestTip": "Step to the side of the door so you are not standing on it while you look.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8118,
+    "longitude": -117.9212
+  },
+  "sourceId": "TLC-DL-0052",
+  "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Cristal-d'Orleans1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

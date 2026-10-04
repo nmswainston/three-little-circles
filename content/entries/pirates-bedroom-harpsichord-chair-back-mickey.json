@@ -1,0 +1,41 @@
+{
+  "id": "pirates-bedroom-harpsichord-chair-back-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "french_quarter_area",
+  "attractionId": "pirates_of_the_caribbean",
+  "display": {
+    "entryTitle": "Bedroom Chair Back Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "New Orleans Square",
+    "attractionName": "Pirates of the Caribbean"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "After the storm room, a bedroom on the left holds a skeleton in a bed with a harpsichord beside it. Between the bed and the harpsichord, a chair sits at a table, and a detailed Hidden Mickey is carved into the very top of the chair's back. The scene's lighting has been dimmed, which makes it a hunt.",
+  "whereToLook": {
+    "scene": "The bedroom scene on the left after the storm room, between the bed and the harpsichord",
+    "exactSpot": "The chair at the table. The Mickey is at the top of its backrest."
+  },
+  "bestTip": "Lock onto the harpsichord as you enter the scene, then track left to the chair.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dark",
+    "angle": "Left",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "Lighting here was reduced; it is harder than it used to be."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8114,
+    "longitude": -117.9208
+  },
+  "sourceId": "TLC-DL-0064",
+  "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pirates-3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

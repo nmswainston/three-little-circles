@@ -1,0 +1,40 @@
+{
+  "id": "haunted-mansion-busts-fencing-orange-jewel-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "french_quarter_area",
+  "attractionId": "haunted_mansion",
+  "display": {
+    "entryTitle": "Busts Hallway Fencing Jewel Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "New Orleans Square",
+    "attractionName": "Haunted Mansion"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Just after the marble busts whose eyes follow you, wrought iron fencing runs along the left. About four feet up in the ironwork is a Hidden Mickey with an orange jewel for its head.",
+  "whereToLook": {
+    "scene": "Right after the following-eyes busts, the iron fencing on the left",
+    "exactSpot": "About four feet off the ground in the fencing. An orange jewel head with two iron ears."
+  },
+  "bestTip": "Turn left as soon as the busts are behind you.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dark",
+    "angle": "Left",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8118,
+    "longitude": -117.9224
+  },
+  "sourceId": "TLC-DL-0056",
+  "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion7",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

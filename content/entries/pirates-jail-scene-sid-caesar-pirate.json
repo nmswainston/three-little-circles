@@ -1,0 +1,43 @@
+{
+  "id": "pirates-jail-scene-sid-caesar-pirate",
+  "parkId": "california_kingdom_park",
+  "landId": "french_quarter_area",
+  "attractionId": "pirates_of_the_caribbean",
+  "display": {
+    "entryTitle": "Jail Scene Sid Caesar Pirate",
+    "parkName": "Disneyland Park",
+    "landName": "New Orleans Square",
+    "attractionName": "Pirates of the Caribbean"
+  },
+  "entryType": "FACT",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the jail scene near the end, the prisoner closest to the dog with the keys is a likeness of comedian Sid Caesar. He was a friend of Walt's and of the ride's Imagineers, and they modeled a pirate on him as an inside joke.",
+  "whereToLook": {
+    "scene": "The jail scene, the prisoners coaxing the dog with the keys",
+    "exactSpot": "The pirate nearest the dog. Compare the face to Sid Caesar's."
+  },
+  "bestTip": "He is the one leaning closest to the bars.",
+  "funFacts": [
+    "Sid Caesar's resemblance was noted in park guidebooks as far back as the 1990s. He and Walt Disney were friends."
+  ],
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8114,
+    "longitude": -117.9208
+  },
+  "sourceId": "TLC-DL-0070",
+  "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
