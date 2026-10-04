@@ -10,6 +10,10 @@ One optional photo per entry, referenced from the entry's `image` field:
 }
 ```
 
+The easy way in is `npm run content:photo -- <entry-id> photo.jpg --alt "..."`,
+which resizes, re-encodes, strips metadata, names the file, and fills the
+entry's `image` field. See [content/README.md](../README.md#adding-a-photo).
+
 Rules, enforced by `npm run content:build`:
 
 - The file lives in this folder and its name matches the `file` value.
