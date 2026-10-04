@@ -1,0 +1,40 @@
+{
+  "id": "ramones-shop-blue-orange-flame-hood-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "ramones_house_of_body_art",
+  "display": {
+    "entryTitle": "Blue and Orange Flame Hood Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Ramone's House of Body Art"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Shop",
+  "description": "A blue hood with orange flames hides a Hidden Mickey inside the flames themselves. The licks of fire disguise it well.",
+  "whereToLook": {
+    "scene": "The custom hoods on display inside the shop, the blue one with orange flames",
+    "exactSpot": "Inside the orange flames. Look for three rounded tips that sit together as a head and ears."
+  },
+  "bestTip": "Step back a pace. The flames resolve into shapes better at a short distance.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8056,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-CA-0022",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-4",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

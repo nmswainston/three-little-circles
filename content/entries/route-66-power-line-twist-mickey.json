@@ -1,0 +1,41 @@
+{
+  "id": "route-66-power-line-twist-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "route_66_street",
+  "display": {
+    "entryTitle": "Power Line Twist Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Route 66"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "The overhead power lines along the main street are dressed like a real desert town's, sagging wire and all. To the right of the Stanley statue, one wire carries a deliberate twist that loops into a classic Hidden Mickey against the sky.",
+  "whereToLook": {
+    "scene": "The statue of Stanley at the town end of the street, and the power lines overhead to its right",
+    "exactSpot": "Follow the wire to the right of the statue. One twist in the line is shaped as a round head with two ears."
+  },
+  "bestTip": "Stand back across the street. Up close, the wire reads as a tangle; from a distance the shape sits clean against the sky.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Far",
+    "notes": "Best against a clear sky. At night the lines disappear."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8062,
+    "longitude": -117.9191
+  },
+  "sourceId": "TLC-CA-0001",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#CL-General1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

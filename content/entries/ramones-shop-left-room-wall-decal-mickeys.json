@@ -1,0 +1,40 @@
+{
+  "id": "ramones-shop-left-room-wall-decal-mickeys",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "ramones_house_of_body_art",
+  "display": {
+    "entryTitle": "Left Room Wall Decal Mickeys",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Ramone's House of Body Art"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Shop",
+  "description": "Entering from the town center, the room on your left has four matching decals on its wooden walls, and each has a Mickey in the middle of the design.",
+  "whereToLook": {
+    "scene": "Inside the shop, the room to the left as you enter from the town center",
+    "exactSpot": "The four identical wall decals. The classic shape is at the center of each."
+  },
+  "bestTip": "Find one and you have found all four. They are the same decal.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8056,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-CA-0027",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-9",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

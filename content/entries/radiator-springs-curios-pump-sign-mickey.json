@@ -1,0 +1,41 @@
+{
+  "id": "radiator-springs-curios-pump-sign-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "radiator_springs_curios",
+  "display": {
+    "entryTitle": "Porch Pump Sign Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Radiator Springs Curios"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Shop",
+  "description": "On the porch of the curio shop, at the far left just below the big window, a sign reads PUMP. A classic Hidden Mickey sits in its upper right corner. A sales cart often parks in front of it.",
+  "whereToLook": {
+    "scene": "The shop porch, far left end, below the large window",
+    "exactSpot": "The PUMP sign. The three-circle shape is in its upper right corner."
+  },
+  "bestTip": "If a cart is parked in front, ask the cast member working it. They are used to the question.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Often blocked by a merchandise or pin-trading cart. Ask the cast member before stepping behind it.",
+  "coordinates": {
+    "latitude": 33.8059,
+    "longitude": -117.9193
+  },
+  "sourceId": "TLC-CA-0006",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Radiator-Curios4",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

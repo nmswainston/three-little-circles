@@ -1,0 +1,41 @@
+{
+  "id": "radiator-springs-racers-barrel-cactus-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "radiator_springs_racers",
+  "display": {
+    "entryTitle": "Barrel Cactus Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Radiator Springs Racers"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "Outside the queue, across from Flo's V8 Cafe, a barrel cactus has grown into the outline of a Mickey head. It sits under the roadside sign that reads Long Trip? One sip and watch those miles melt away.",
+  "whereToLook": {
+    "scene": "The landscaping to the right of the path outside the queue, across from Flo's V8 Cafe",
+    "exactSpot": "Directly under the Long Trip? sign. The barrel cactus is a round head with two smaller lobes as ears."
+  },
+  "bestTip": "Use the sign, not the cafe, as your marker. The cactus is at knee height.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "Living plant. It will change shape over the years."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8057,
+    "longitude": -117.9185
+  },
+  "sourceId": "TLC-CA-0014",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#RS-Racers1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

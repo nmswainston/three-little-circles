@@ -1,0 +1,40 @@
+{
+  "id": "luigis-roadsters-collage-antenna-topper-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "luigis_rollickin_roadsters",
+  "display": {
+    "entryTitle": "Travel Collage Antenna Topper Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Luigi's Rollickin' Roadsters"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "The queue walls are covered in travel collages from Luigi's trips. In the third collage from the right, a tiny red Lightning McQueen wears a Mickey-ears antenna topper on his roof, tucked below a white slip of paper marked #121.",
+  "whereToLook": {
+    "scene": "The travel collages on the queue wall, the third one counting from the right",
+    "exactSpot": "Find the white paper reading #121. Just below it, a small red McQueen has Mickey ears on his roof."
+  },
+  "bestTip": "Count collages from the right-hand end. The topper is small, so get close.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8052,
+    "longitude": -117.918
+  },
+  "sourceId": "TLC-CA-0009",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Luigis-Roadsters1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

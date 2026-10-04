@@ -1,0 +1,40 @@
+{
+  "id": "ramones-shop-register-hood-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "ramones_house_of_body_art",
+  "display": {
+    "entryTitle": "Register Hood Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Ramone's House of Body Art"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "Ramone's shop displays custom-painted car hoods as art, and each design hides a Mickey. The hood mounted behind the cash register has a classic Hidden Mickey painted into it.",
+  "whereToLook": {
+    "scene": "Inside the shop, the hood displayed behind the cash register",
+    "exactSpot": "Read the paint job for a three-circle shape."
+  },
+  "bestTip": "Start here. It is the easiest of the hoods, and it teaches your eye what to look for on the rest.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8056,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-CA-0019",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

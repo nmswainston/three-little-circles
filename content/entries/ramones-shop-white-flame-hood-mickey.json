@@ -1,0 +1,40 @@
+{
+  "id": "ramones-shop-white-flame-hood-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "ramones_house_of_body_art",
+  "display": {
+    "entryTitle": "White Flame Hood Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Ramone's House of Body Art"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "On the white hood with flames, a Hidden Mickey sits just inside the orange stripe that edges the design.",
+  "whereToLook": {
+    "scene": "The custom hoods on display inside the shop, the white one with flames",
+    "exactSpot": "Just inside the orange stripe. Trace the stripe and the three circles are right beside it."
+  },
+  "bestTip": "Use the stripe as a guide rail and follow it around.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8056,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-CA-0024",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-6",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

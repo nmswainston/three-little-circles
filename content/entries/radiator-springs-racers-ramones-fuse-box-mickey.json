@@ -1,0 +1,40 @@
+{
+  "id": "radiator-springs-racers-ramones-fuse-box-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "radiator_springs_racers",
+  "display": {
+    "entryTitle": "Paint Shop Fuse Box Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Radiator Springs Racers"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "If your car is sent to Ramone's House of Body Art for a paint job, look at the shop's right rear wall. A fuse box there carries a pinstriped Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Inside Ramone's on the ride, during the paint job",
+    "exactSpot": "The fuse box on the right rear wall. The three-circle shape is pinstriped onto it."
+  },
+  "bestTip": "Only half the cars get the paint job. If you went to the tire shop instead, ride again.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Right",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8057,
+    "longitude": -117.9185
+  },
+  "sourceId": "TLC-CA-0018",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#RS-Racers4",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

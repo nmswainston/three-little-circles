@@ -1,0 +1,40 @@
+{
+  "id": "cozy-cone-office-shelf-mickey-figurine",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "cozy_cone_motel",
+  "display": {
+    "entryTitle": "Office Shelf Mickey Figurine",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Cozy Cone Motel"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "The motel office is dressed as Sally's front desk, and among the knickknacks on a low shelf of the counter sits a small Mickey figurine. It is a full figure rather than three circles, and easy once you look down.",
+  "whereToLook": {
+    "scene": "Inside the motel office, the front counter",
+    "exactSpot": "A lower shelf of the counter. Look for a small Mickey Mouse figurine among the props."
+  },
+  "bestTip": "Crouch. Everything at eye level is a decoy.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.806,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-CA-0005",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Cozy-Cone1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

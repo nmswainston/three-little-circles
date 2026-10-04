@@ -1,0 +1,41 @@
+{
+  "id": "ramones-shop-yellow-display-splatter-mickey",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "ramones_house_of_body_art",
+  "display": {
+    "entryTitle": "Yellow Display Paint Splatter Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Ramone's House of Body Art"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "The sales displays in Ramone's are splattered with paint, and several hide Mickeys in the splatter. The confirmed one is on a yellow display near the entrance closest to the town center.",
+  "whereToLook": {
+    "scene": "The merchandise displays inside the shop, near the door that faces the town center",
+    "exactSpot": "The yellow display. In the paint splatter, three drops sit together as a classic shape."
+  },
+  "bestTip": "Enter from the town center side and check the first yellow fixture you reach.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "Other splatter Mickeys are reported on other displays but not yet confirmed."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8056,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-CA-0026",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-8",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
