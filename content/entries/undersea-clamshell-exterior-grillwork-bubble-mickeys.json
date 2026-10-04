@@ -1,0 +1,40 @@
+{
+  "id": "undersea-clamshell-exterior-grillwork-bubble-mickeys",
+  "parkId": "california_pier_park",
+  "landId": "boardwalk_gardens_area",
+  "attractionId": "undersea_clamshell_ride",
+  "display": {
+    "entryTitle": "Exterior Grillwork Bubble Mickeys",
+    "parkName": "Disney California Adventure",
+    "landName": "Paradise Gardens Park",
+    "attractionName": "The Little Mermaid: Ariel's Undersea Adventure"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Entrance",
+  "description": "The iron grillwork on the outside of the attraction is worked into bubbles, and some of the bubble clusters are Mickeys.",
+  "whereToLook": {
+    "scene": "The iron grillwork on the exterior of the building",
+    "exactSpot": "The bubble clusters in the ironwork. Groups of three, one large and two small."
+  },
+  "bestTip": "Look at the railings and grilles while you wait, not the marquee.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8063,
+    "longitude": -117.9215
+  },
+  "sourceId": "TLC-CA-0068",
+  "sourceUrl": "https://hiddenmickeywiki.com/Paradise_Gardens_Park#Ariels-Adventure3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

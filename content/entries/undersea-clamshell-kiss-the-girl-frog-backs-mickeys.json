@@ -1,0 +1,40 @@
+{
+  "id": "undersea-clamshell-kiss-the-girl-frog-backs-mickeys",
+  "parkId": "california_pier_park",
+  "landId": "boardwalk_gardens_area",
+  "attractionId": "undersea_clamshell_ride",
+  "display": {
+    "entryTitle": "Kiss the Girl Frog Backs Mickeys",
+    "parkName": "Disney California Adventure",
+    "landName": "Paradise Gardens Park",
+    "attractionName": "The Little Mermaid: Ariel's Undersea Adventure"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the Kiss the Girl scene, look at the backs of the frogs. Each one carries two Hidden Mickeys in its markings.",
+  "whereToLook": {
+    "scene": "The Kiss the Girl scene, the frogs",
+    "exactSpot": "The frogs' backs. Two Mickeys per frog."
+  },
+  "bestTip": "Pick one frog and study it rather than scanning the whole lagoon.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8063,
+    "longitude": -117.9215
+  },
+  "sourceId": "TLC-CA-0070",
+  "sourceUrl": "https://hiddenmickeywiki.com/Paradise_Gardens_Park#Ariels-Adventure2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
