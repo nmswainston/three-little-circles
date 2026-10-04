@@ -4195,6 +4195,166 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "disney-animation-entrance-mosaic-once-upon-a-time-m-mickey",
+    "parkId": "california_pier_park",
+    "landId": "hollywood_land_area",
+    "attractionId": "disney_animation_building",
+    "display": {
+      "entryTitle": "Entrance Mosaic Letter M Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Hollywood Land",
+      "attractionName": "Disney Animation"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Walking into the building, lettering in small mosaic tiles runs along the wall. In the M of Once Upon A Time, three round tiles at the lower right of the letter form a Mickey.",
+    "whereToLook": {
+      "scene": "The entrance hallway mosaic lettering, the words Once Upon A Time",
+      "exactSpot": "The letter M, lower right part of the letter. Three round tiles."
+    },
+    "bestTip": "Read the wall slowly. The round tiles stand out from the square ones.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8078,
+      "longitude": -117.9177
+    },
+    "sourceId": "TLC-CA-0041",
+    "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Disney-Animation2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "disney-animation-exit-wall-mosaic-circles-mickey",
+    "parkId": "california_pier_park",
+    "landId": "hollywood_land_area",
+    "attractionId": "disney_animation_building",
+    "display": {
+      "entryTitle": "Exit Wall Mosaic Circles Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Hollywood Land",
+      "attractionName": "Disney Animation"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "The mosaic lettering on the exit walls mixes large and small round tiles, and one grouping forms a Mickey. The head tile is a different color from the other large circles, which is what tips it from accident to intention.",
+    "whereToLook": {
+      "scene": "The exit walls of the Animation building, the mosaic lettering",
+      "exactSpot": "A large round tile in an odd color with two small round tiles above it."
+    },
+    "bestTip": "Look for the one big circle that does not match its neighbors.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8078,
+      "longitude": -117.9177
+    },
+    "sourceId": "TLC-CA-0043",
+    "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Disney-Animation3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "disney-animation-sign-antenna-top-mickey",
+    "parkId": "california_pier_park",
+    "landId": "hollywood_land_area",
+    "attractionId": "disney_animation_building",
+    "display": {
+      "entryTitle": "Sign Antenna Top Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Hollywood Land",
+      "attractionName": "Disney Animation"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "An antenna rises from the top of the Disney Animation sign, and a Mickey sits at its very tip. It is easiest to read from halfway between the building and the Hyperion Theater, where the angle puts it against the sky.",
+    "whereToLook": {
+      "scene": "The Disney Animation building sign, the antenna on top",
+      "exactSpot": "The tip of the antenna. A Mickey silhouette against the sky."
+    },
+    "bestTip": "Back up toward the Hyperion until the antenna clears the roofline.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8078,
+      "longitude": -117.9177
+    },
+    "sourceId": "TLC-CA-0040",
+    "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Disney-Animation1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "disney-animation-turtle-talk-lobby-whale-shark-mural-mickey",
+    "parkId": "california_pier_park",
+    "landId": "hollywood_land_area",
+    "attractionId": "disney_animation_building",
+    "display": {
+      "entryTitle": "Turtle Talk Lobby Whale Shark Mural Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Hollywood Land",
+      "attractionName": "Disney Animation"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the lobby outside the Turtle Talk with Crush theater, the mural was redone after Finding Dory. On the whale shark picture, a Hidden Mickey sits just below Destiny's right fin.",
+    "whereToLook": {
+      "scene": "The Turtle Talk with Crush lobby, the whale shark picture in the mural",
+      "exactSpot": "Just below Destiny's right fin."
+    },
+    "bestTip": "Find Destiny, then drop your eyes under the fin.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8078,
+      "longitude": -117.9177
+    },
+    "sourceId": "TLC-CA-0042",
+    "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Turtle-Talk1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "disneystyle-pavement-dark-stones-mickey",
     "parkId": "springs_bucket",
     "landId": "west_side",
@@ -13458,6 +13618,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
+    "id": "monsters-inc-camera-monster-television-dial-mickey",
+    "parkId": "california_pier_park",
+    "landId": "hollywood_land_area",
+    "attractionId": "monsters_inc_ride",
+    "display": {
+      "entryTitle": "Camera Monster Television Dial Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Hollywood Land",
+      "attractionName": "Monsters, Inc. Mike & Sulley to the Rescue!"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "Near the very end of the ride, a skinny orange monster films you with a camera. Just left of him is a television set. Below its screen is a control panel, and the dial on that panel is shaped like Mickey's head.",
+    "whereToLook": {
+      "scene": "Near the end of the ride, the skinny orange monster with the camera, the TV to his left",
+      "exactSpot": "The panel below the TV screen. The dial is a Mickey head."
+    },
+    "bestTip": "Watch the TV, not the camera.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8085,
+      "longitude": -117.9165
+    },
+    "sourceId": "TLC-CA-0047",
+    "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Monsters-Inc1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "morocco-bazaar-door-plates-mickey",
     "parkId": "showcase_park",
     "landId": "morocco_pavilion",
@@ -17761,6 +17961,126 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-kusafiri-coffee-shop-bakery",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "schmoozies-fairfax-market-mosaic-eat-red-jewel-mickey",
+    "parkId": "california_pier_park",
+    "landId": "hollywood_land_area",
+    "attractionId": "schmoozies",
+    "display": {
+      "entryTitle": "Fairfax Market Mosaic Red Jewel Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Hollywood Land",
+      "attractionName": "Schmoozies!"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "The mosaic mural near Fairfax Market includes the word EAT. Close to it, a red jewel with two buttons above it makes a Mickey.",
+    "whereToLook": {
+      "scene": "The mosaic mural near Fairfax Market, around the word EAT",
+      "exactSpot": "A red jewel head with two button ears."
+    },
+    "bestTip": "Find EAT first, then look for the one red stone.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8081,
+      "longitude": -117.917
+    },
+    "sourceId": "TLC-CA-0045",
+    "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Schmoozies-2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "schmoozies-left-front-mural-small-mickey",
+    "parkId": "california_pier_park",
+    "landId": "hollywood_land_area",
+    "attractionId": "schmoozies",
+    "display": {
+      "entryTitle": "Left Front Mural Small Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Hollywood Land",
+      "attractionName": "Schmoozies!"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "Two murals flank the left side of the Schmoozies! front. In the left one, a small Mickey hides in the lower center.",
+    "whereToLook": {
+      "scene": "The two murals on the left side of the Schmoozies! storefront",
+      "exactSpot": "The left mural, lower center. A small Mickey."
+    },
+    "bestTip": "Crouch a little. It is below eye level.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8081,
+      "longitude": -117.917
+    },
+    "sourceId": "TLC-CA-0044",
+    "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Schmoozies-3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "schmoozies-rear-wall-mosaic-statue-of-liberty-minnie",
+    "parkId": "california_pier_park",
+    "landId": "hollywood_land_area",
+    "attractionId": "schmoozies",
+    "display": {
+      "entryTitle": "Rear Wall Mosaic Statue of Liberty Minnie",
+      "parkName": "Disney California Adventure",
+      "landName": "Hollywood Land",
+      "attractionName": "Schmoozies!"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "On the wall behind the front counter, a mosaic puts Minnie Mouse in the middle dressed as the Statue of Liberty, torch and all.",
+    "whereToLook": {
+      "scene": "The mosaic on the rear wall behind the Schmoozies! counter",
+      "exactSpot": "The center of the mosaic. Minnie as Lady Liberty."
+    },
+    "bestTip": "Look past the blender while you order.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8081,
+      "longitude": -117.917
+    },
+    "sourceId": "TLC-CA-0046",
+    "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Schmoozies-1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "shootin-exposition-target-cactus-mickey",

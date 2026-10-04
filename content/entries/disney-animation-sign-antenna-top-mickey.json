@@ -1,0 +1,40 @@
+{
+  "id": "disney-animation-sign-antenna-top-mickey",
+  "parkId": "california_pier_park",
+  "landId": "hollywood_land_area",
+  "attractionId": "disney_animation_building",
+  "display": {
+    "entryTitle": "Sign Antenna Top Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Hollywood Land",
+    "attractionName": "Disney Animation"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "An antenna rises from the top of the Disney Animation sign, and a Mickey sits at its very tip. It is easiest to read from halfway between the building and the Hyperion Theater, where the angle puts it against the sky.",
+  "whereToLook": {
+    "scene": "The Disney Animation building sign, the antenna on top",
+    "exactSpot": "The tip of the antenna. A Mickey silhouette against the sky."
+  },
+  "bestTip": "Back up toward the Hyperion until the antenna clears the roofline.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8078,
+    "longitude": -117.9177
+  },
+  "sourceId": "TLC-CA-0040",
+  "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Disney-Animation1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "schmoozies-left-front-mural-small-mickey",
+  "parkId": "california_pier_park",
+  "landId": "hollywood_land_area",
+  "attractionId": "schmoozies",
+  "display": {
+    "entryTitle": "Left Front Mural Small Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Hollywood Land",
+    "attractionName": "Schmoozies!"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "Two murals flank the left side of the Schmoozies! front. In the left one, a small Mickey hides in the lower center.",
+  "whereToLook": {
+    "scene": "The two murals on the left side of the Schmoozies! storefront",
+    "exactSpot": "The left mural, lower center. A small Mickey."
+  },
+  "bestTip": "Crouch a little. It is below eye level.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8081,
+    "longitude": -117.917
+  },
+  "sourceId": "TLC-CA-0044",
+  "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Schmoozies-3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
