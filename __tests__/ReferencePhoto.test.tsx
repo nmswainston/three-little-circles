@@ -28,8 +28,10 @@ describe('ReferencePhoto', () => {
     expect(screen.queryByRole('button', { name: 'Close' })).toBeNull();
 
     fireEvent.press(screen.getByLabelText(`${image.alt}. Tap to enlarge.`));
-    expect(screen.getByRole('button', { name: 'Close' })).toBeTruthy();
-    expect(screen.getByLabelText(image.alt)).toBeTruthy();
+    // One Close button and the photo itself: the backdrop is a tap target,
+    // not a third element that would swallow both for a screen reader.
+    expect(screen.getAllByRole('button', { name: 'Close' })).toHaveLength(1);
+    expect(screen.getByRole('image', { name: image.alt })).toBeTruthy();
 
     fireEvent.press(screen.getByRole('button', { name: 'Close' }));
     expect(screen.queryByRole('button', { name: 'Close' })).toBeNull();

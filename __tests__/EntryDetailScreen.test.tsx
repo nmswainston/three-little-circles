@@ -2,6 +2,7 @@ import React from 'react';
 import { fireEvent, render, screen } from '@testing-library/react-native';
 import EntryDetailScreen from '../src/screens/EntryDetailScreen';
 import { getAllEntries } from '../src/data/query';
+import { labelOrFallback } from '../src/data/labels';
 import { useFoundStore } from '../src/store/useFoundStore';
 import { useSettingsStore } from '../src/store/useSettingsStore';
 
@@ -73,5 +74,39 @@ describe('EntryDetailScreen hints', () => {
     expect(screen.getByText('0 of 1 hint')).toBeTruthy();
     fireEvent.press(screen.getByRole('button', { name: 'Show the first hint' }));
     expect(screen.getByText(tipless.whereToLook.exactSpot)).toBeTruthy();
+  });
+});
+
+const VIEWING_KEYS = ['motion', 'lighting', 'angle', 'crowding', 'distance'] as const;
+
+describe('EntryDetailScreen accessibility', () => {
+  it('marks the title as a header', () => {
+    render(<EntryDetailScreen />);
+    expect(screen.getByRole('header', { name: labelOrFallback(entry.display?.entryTitle, 'Hidden Find') })).toBeTruthy();
+  });
+
+  it('labels the map buttons when the find has a pin', () => {
+    const pinned = getAllEntries().find((e) => e.coordinates)!;
+    mockEntryId = pinned.id;
+    render(<EntryDetailScreen />);
+    expect(screen.getByRole('button', { name: 'See on map' })).toBeTruthy();
+    expect(screen.getByRole('button', { name: 'Get directions' })).toBeTruthy();
+  });
+
+  it('reads each viewing condition as one labelled tile under a header', () => {
+    const detailed = getAllEntries().find((e) => e.viewing && VIEWING_KEYS.some((k) => e.viewing?.[k]))!;
+    const key = VIEWING_KEYS.find((k) => detailed.viewing?.[k])!;
+    mockEntryId = detailed.id;
+    render(<EntryDetailScreen />);
+    expect(screen.getByRole('header', { name: 'Viewing conditions' })).toBeTruthy();
+    expect(screen.getByLabelText(`${key[0].toUpperCase()}${key.slice(1)}: ${detailed.viewing![key]}`)).toBeTruthy();
+  });
+
+  it('says what the key icon means on an access note', () => {
+    const gated = getAllEntries().find((e) => e.accessNotes);
+    if (!gated) return;
+    mockEntryId = gated.id;
+    render(<EntryDetailScreen />);
+    expect(screen.getByLabelText(`Access note: ${gated.accessNotes}`)).toBeTruthy();
   });
 });

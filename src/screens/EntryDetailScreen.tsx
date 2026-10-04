@@ -179,7 +179,9 @@ export default function EntryDetailScreen() {
             </Pressable>
           </View>
           {eyebrow.length > 0 && <Text style={[styles.eyebrow, { color: palette.text }]}>{eyebrow}</Text>}
-          <Text style={styles.title}>{title}</Text>
+          <Text style={styles.title} accessibilityRole="header">
+            {title}
+          </Text>
           <View style={styles.chips}>
             <DifficultyChip level={entry.difficulty} />
             <OutlineChip label={entry.locationType} />
@@ -200,6 +202,7 @@ export default function EntryDetailScreen() {
               <Pressable
                 onPress={() => navigation.navigate("MapTab", { screen: "Map", params: { focusEntryId: entry.id } })}
                 accessibilityRole="button"
+                accessibilityLabel="See on map"
                 style={({ pressed }) => [styles.mapButton, pressed && styles.pressed]}
               >
                 <Ionicons name="location" size={18} color={t.colors.onInk} />
@@ -208,6 +211,7 @@ export default function EntryDetailScreen() {
               <Pressable
                 onPress={() => openDirections(entry.coordinates!, title).catch(() => {})}
                 accessibilityRole="button"
+                accessibilityLabel="Get directions"
                 style={({ pressed }) => [styles.mapButtonSecondary, pressed && styles.pressed]}
               >
                 <Ionicons name="navigate-outline" size={18} color={t.colors.text} />
@@ -217,8 +221,10 @@ export default function EntryDetailScreen() {
           )}
 
           {entry.accessNotes && (
-            <View style={styles.access}>
-              <Ionicons name="key-outline" size={18} color={t.colors.textSecondary} />
+            // The key icon carries the meaning for sighted guests; the label
+            // says it in words.
+            <View style={styles.access} accessible accessibilityLabel={`Access note: ${entry.accessNotes}`}>
+              <Ionicons name="key-outline" size={18} color={t.colors.textSecondary} accessibilityElementsHidden importantForAccessibility="no" />
               <Text style={styles.accessText}>{entry.accessNotes}</Text>
             </View>
           )}
@@ -241,13 +247,15 @@ export default function EntryDetailScreen() {
           />
 
           <FoundButton found={found} onToggle={() => toggleFound(entryId)} />
-          <Text style={styles.helper}>
+          <Text style={styles.helper} accessibilityLiveRegion="polite">
             {found ? "Nice catch. This counts toward your progress." : "Spotted it? Mark it to add it to your progress."}
           </Text>
 
           {entry.funFacts && entry.funFacts.length > 0 && !spoilersHidden && (
             <View style={styles.card}>
-              <Text style={styles.cardTitle}>Fun facts</Text>
+              <Text style={styles.cardTitle} accessibilityRole="header">
+                Fun facts
+              </Text>
               {entry.funFacts.map((fact, index) => (
                 <View key={index} style={styles.fact}>
                   <View style={[styles.factDot, { backgroundColor: palette.accent }]} />
@@ -259,12 +267,20 @@ export default function EntryDetailScreen() {
 
           {(viewing.length > 0 || entry.viewing?.notes) && (
             <View style={styles.card}>
-              <Text style={styles.cardTitle}>Viewing conditions</Text>
+              <Text style={styles.cardTitle} accessibilityRole="header">
+                Viewing conditions
+              </Text>
               {viewing.length > 0 && (
                 <View style={styles.grid}>
                   {viewing.map((item) => (
-                    <View key={item.key} style={styles.tile}>
-                      <Ionicons name={VIEWING_ICONS[item.key]} size={20} color={palette.text} />
+                    // One stop per tile: "Lighting: dim", not an icon, a label, and a value.
+                    <View
+                      key={item.key}
+                      style={styles.tile}
+                      accessible
+                      accessibilityLabel={`${item.key[0].toUpperCase()}${item.key.slice(1)}: ${item.value}`}
+                    >
+                      <Ionicons name={VIEWING_ICONS[item.key]} size={20} color={palette.text} accessibilityElementsHidden importantForAccessibility="no" />
                       <View style={styles.tileText}>
                         <Text style={styles.tileLabel}>{item.key}</Text>
                         <Text style={styles.tileValue}>{item.value}</Text>
@@ -279,7 +295,7 @@ export default function EntryDetailScreen() {
 
           {provenance.length > 0 && (
             <View style={styles.provenance}>
-              <Ionicons name="checkmark" size={18} color={t.colors.success} />
+              <Ionicons name="checkmark" size={18} color={t.colors.success} accessibilityElementsHidden importantForAccessibility="no" />
               <Text style={styles.provenanceText}>{provenance}</Text>
             </View>
           )}
@@ -289,7 +305,7 @@ export default function EntryDetailScreen() {
           {related.length > 0 && (
             <View style={styles.relatedCard}>
               <View style={styles.relatedHeader}>
-                <Text style={styles.relatedTitle} numberOfLines={2}>
+                <Text style={styles.relatedTitle} numberOfLines={2} accessibilityRole="header">
                   More at {labelOrFallback(entry.display?.attractionName, "this attraction")}
                 </Text>
                 <Text style={styles.relatedMeta}>
@@ -325,7 +341,7 @@ function StatusChip({ label }: { label: string }) {
   const styles = useStyles(createStyles);
   return (
     <View style={[styles.outlineChip, styles.statusChip]}>
-      <Ionicons name="alert-circle-outline" size={14} color={t.colors.tipText} />
+      <Ionicons name="alert-circle-outline" size={14} color={t.colors.tipText} accessibilityElementsHidden importantForAccessibility="no" />
       <Text style={[styles.outlineChipText, { color: t.colors.tipText }]}>{label}</Text>
     </View>
   );
@@ -383,7 +399,7 @@ const createStyles = (t: Theme) =>
       marginTop: spacing.md - 4,
     },
     outlineChip: {
-      height: 28,
+      minHeight: 28,
       paddingHorizontal: spacing.md - 4,
       borderRadius: radii.full,
       backgroundColor: t.colors.surface,
@@ -429,7 +445,7 @@ const createStyles = (t: Theme) =>
       alignItems: "center",
       justifyContent: "center",
       gap: spacing.sm - 2,
-      height: 44,
+      minHeight: 44,
       borderRadius: radii.full,
       backgroundColor: t.colors.ink,
     },
@@ -444,7 +460,7 @@ const createStyles = (t: Theme) =>
       alignItems: "center",
       justifyContent: "center",
       gap: spacing.sm - 2,
-      height: 44,
+      minHeight: 44,
       borderRadius: radii.full,
       backgroundColor: t.colors.surface,
       borderWidth: 1,
