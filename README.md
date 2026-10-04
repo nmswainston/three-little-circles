@@ -298,7 +298,6 @@ someone submits a sighting or taps "Still there?".
 - Verify map coordinates on site. The current ones were placed by hand and are approximate to the building.
 - Sync found progress across devices
 - Push notifications
-- Replace the web console-warning suppression in `App.tsx` with real fixes
 
 ---
 
