@@ -6,6 +6,7 @@ import { labelOrFallback } from '../src/data/labels';
 import { useFoundStore } from '../src/store/useFoundStore';
 import { useSettingsStore } from '../src/store/useSettingsStore';
 import { useConfirmationsStore } from '../src/store/useConfirmationsStore';
+import { useRecentStore } from '../src/store/useRecentStore';
 import * as confirmations from '../src/data/confirmations';
 
 // A find with a scene, a tip, an exact spot, and no orientation, so the
@@ -88,6 +89,14 @@ describe('EntryDetailScreen hints', () => {
 });
 
 const VIEWING_KEYS = ['motion', 'lighting', 'angle', 'crowding', 'distance'] as const;
+
+describe('EntryDetailScreen last viewed', () => {
+  it('remembers the find it shows, for the Parks home to pick up from', () => {
+    useRecentStore.setState({ lastEntryId: undefined });
+    render(<EntryDetailScreen />);
+    expect(useRecentStore.getState().lastEntryId).toBe(entry.id);
+  });
+});
 
 describe('EntryDetailScreen accessibility', () => {
   it('marks the title as a header', () => {

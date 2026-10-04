@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { ScrollView, StyleSheet, View, Text, Pressable } from "react-native";
 import { useRoute, RouteProp, useNavigation, CompositeNavigationProp } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
@@ -18,6 +18,7 @@ import { isSupabaseConfigured } from "../lib/supabase";
 import { useFoundStore } from "../store/useFoundStore";
 import { useSettingsStore } from "../store/useSettingsStore";
 import { useConfirmationsStore } from "../store/useConfirmationsStore";
+import { useRecentStore } from "../store/useRecentStore";
 import { Theme, useParkPalette, useStyles, useTheme } from "../theme/ThemeProvider";
 import { spacing, radii, text } from "../theme/tokens";
 import Sunburst from "../components/ui/Sunburst";
@@ -102,6 +103,12 @@ export default function EntryDetailScreen() {
   // This device's own "Still there?" report, so the ask below goes away once
   // the guest has answered it.
   const myReport = useConfirmationsStore((s) => s.reported[entryId]);
+  const setLastEntry = useRecentStore((s) => s.setLastEntry);
+  // Remember where the guest looked last, for the Parks home to pick up from.
+  const entryExists = !!entry;
+  useEffect(() => {
+    if (entryExists) setLastEntry(entryId);
+  }, [entryExists, entryId, setLastEntry]);
 
   const backButton = (
     <Pressable
