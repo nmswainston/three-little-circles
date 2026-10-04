@@ -1,0 +1,40 @@
+{
+  "id": "buzz-astro-blasters-first-turn-floor-tile-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "galactic_blaster_ride",
+  "display": {
+    "entryTitle": "First Turn Floor Tile Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Tomorrowland",
+    "attractionName": "Buzz Lightyear Astro Blasters"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Just after the vehicle starts moving it swings left, then makes its first right turn. On that right turn, a floor tile to your left carries a classic three-circle Mickey. The driver's seat has the better angle.",
+  "whereToLook": {
+    "scene": "The first right turn after the vehicle leaves the station",
+    "exactSpot": "A tile on the floor to your left. Classic three circles."
+  },
+  "bestTip": "Look down and left before you start shooting.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dark",
+    "angle": "Left",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8119,
+    "longitude": -117.9179
+  },
+  "sourceId": "TLC-DL-0221",
+  "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland#Astro-Blasters4",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -923,6 +923,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
+    "id": "astro-orbitor-taurus-tail-symbol-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "astro_orbitor",
+    "display": {
+      "entryTitle": "Taurus Tail Symbol Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Tomorrowland",
+      "attractionName": "Astro Orbitor"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "Every rocket on the Astro Orbitor wears a different zodiac symbol on its tail. The Taurus rocket's bull symbol is drawn so that it reads as a Mickey head.",
+    "whereToLook": {
+      "scene": "The Astro Orbitor rockets, the symbols on their tails",
+      "exactSpot": "The Taurus rocket. Its bull symbol is shaped as a Mickey head."
+    },
+    "bestTip": "Check the tails from the ground while they spin; Taurus is the one with the horns that look like ears.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8121,
+      "longitude": -117.918
+    },
+    "sourceId": "TLC-DL-0216",
+    "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland#Astro-Orbiter1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "backyard-coaster-queue-cloud-mickey",
     "parkId": "studios_park",
     "landId": "toy_blocks_area",
@@ -1958,6 +1998,166 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-dalmatian",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "buzz-astro-blasters-briefing-room-sector-1-planet-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "galactic_blaster_ride",
+    "display": {
+      "entryTitle": "Briefing Room Sector 1 Planet Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Tomorrowland",
+      "attractionName": "Buzz Lightyear Astro Blasters"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the room where the big Buzz Lightyear figure gives the mission briefing, the Sector 1 map on the wall to his right shows the same Mickey-profile planet, about two thirds of the way up the wall.",
+    "whereToLook": {
+      "scene": "The mission briefing room with the large Buzz figure",
+      "exactSpot": "The wall to the right of Buzz, about two thirds of the way up. The planet on the Sector 1 map."
+    },
+    "bestTip": "Everyone watches Buzz. Look right.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8119,
+      "longitude": -117.9179
+    },
+    "sourceId": "TLC-DL-0219",
+    "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland#Astro-Blasters2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "buzz-astro-blasters-exit-ska-densii-planet-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "galactic_blaster_ride",
+    "display": {
+      "entryTitle": "Exit Ska Densii Planet Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Tomorrowland",
+      "attractionName": "Buzz Lightyear Astro Blasters"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "The third appearance of the Mickey-profile planet, labeled Ska Densii, is on the exit wall across from the photo kiosks and the top ten scoreboard.",
+    "whereToLook": {
+      "scene": "The exit hallway, across from the photo kiosks and the scoreboard",
+      "exactSpot": "The planet on the wall opposite the kiosks. A continent in Mickey's profile."
+    },
+    "bestTip": "Turn your back on your score for a second.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8119,
+      "longitude": -117.9179
+    },
+    "sourceId": "TLC-DL-0220",
+    "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland#Astro-Blasters3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "buzz-astro-blasters-first-turn-floor-tile-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "galactic_blaster_ride",
+    "display": {
+      "entryTitle": "First Turn Floor Tile Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Tomorrowland",
+      "attractionName": "Buzz Lightyear Astro Blasters"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Just after the vehicle starts moving it swings left, then makes its first right turn. On that right turn, a floor tile to your left carries a classic three-circle Mickey. The driver's seat has the better angle.",
+    "whereToLook": {
+      "scene": "The first right turn after the vehicle leaves the station",
+      "exactSpot": "A tile on the floor to your left. Classic three circles."
+    },
+    "bestTip": "Look down and left before you start shooting.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dark",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8119,
+      "longitude": -117.9179
+    },
+    "sourceId": "TLC-DL-0221",
+    "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland#Astro-Blasters4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "buzz-astro-blasters-queue-pollost-prime-planet-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "galactic_blaster_ride",
+    "display": {
+      "entryTitle": "Queue Pollost Prime Planet Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Tomorrowland",
+      "attractionName": "Buzz Lightyear Astro Blasters"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The planet Pollost Prime appears in the queue right after you pass the cast member and turn left. One of its continents is shaped as a Mickey profile. The same planet shows up twice more, on the Sector 1 map in the briefing room and across from the photo kiosks at the exit.",
+    "whereToLook": {
+      "scene": "The queue, just after the cast member position, after the left turn",
+      "exactSpot": "The planet mural. A continent shaped as a side-view Mickey."
+    },
+    "bestTip": "This is the first of three. Learn the shape here and spot it twice more.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8119,
+      "longitude": -117.9179
+    },
+    "sourceId": "TLC-DL-0218",
+    "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland#Astro-Blasters1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "canada-totem-pole-mickey",
@@ -12941,6 +13141,47 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
+    "id": "nemo-submarine-observation-outpost-locker-105-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "nemo_submarine_voyage",
+    "display": {
+      "entryTitle": "Observation Outpost Locker 105 Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Tomorrowland",
+      "attractionName": "Finding Nemo Submarine Voyage"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "Guests who cannot take the spiral stairs into a submarine watch the voyage from the Observation Outpost instead. Inside the outpost is a bank of storage lockers, and locker 105 holds a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The Observation Outpost, the accessible alternative to the submarines",
+      "exactSpot": "Inside locker number 105."
+    },
+    "bestTip": "Ask a cast member about the Observation Outpost. It is a different room from the sub dock.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Only in the Observation Outpost, the accessible experience, not on the submarines.",
+    "coordinates": {
+      "latitude": 33.8126,
+      "longitude": -117.9173
+    },
+    "sourceId": "TLC-DL-0215",
+    "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland#Nemo-Submarine1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "new-orleans-square-balcony-walt-and-roy-initials",
     "parkId": "california_kingdom_park",
     "landId": "french_quarter_area",
@@ -18248,6 +18489,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
+    "id": "space-mountain-rocket-seat-speakers-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "space_coaster",
+    "display": {
+      "entryTitle": "Rocket Seat Speakers Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Tomorrowland",
+      "attractionName": "Space Mountain"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "Once you are seated in your rocket, the speakers set between the seats form a perfect Hidden Mickey. You cannot see it facing forward. Turn and look back at the seat behind you before launch.",
+    "whereToLook": {
+      "scene": "Inside the rocket, the speaker housing between the seats",
+      "exactSpot": "The speakers behind your head. Look backward at the row behind you."
+    },
+    "bestTip": "Check during the load, before the lap bar check ends the twisting around.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8113,
+      "longitude": -117.9173
+    },
+    "sourceId": "TLC-DL-0222",
+    "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland#Space-Mountain1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "space-panel-star-mickey",
     "parkId": "studios_park",
     "landId": "toy_blocks_area",
@@ -18406,6 +18687,47 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-star-tours-r2d2",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  },
+  {
+    "id": "star-tours-luggage-belt-character-cameos",
+    "parkId": "california_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "star_flight_simulator",
+    "display": {
+      "entryTitle": "Luggage Belt Character Cameos",
+      "parkName": "Disneyland Park",
+      "landName": "Tomorrowland",
+      "attractionName": "Star Tours: The Adventures Continue"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The luggage scanner in the queue shows more than a Mickey. Keep watching the belt and you will catch Goofy, a Mr. Incredible shirt, Madame Leota, the Sorcerer's Apprentice hat, Buzz Lightyear, and Aladdin's lamp passing through.",
+    "whereToLook": {
+      "scene": "The luggage scanner screen in the queue",
+      "exactSpot": "The X-ray view of the bags on the belt. Watch several bags go by."
+    },
+    "bestTip": "The loop is long. Let a few people pass you if the line is moving.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium",
+      "notes": "The screen loops, so the cameos come around in turn."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8118,
+      "longitude": -117.9176
+    },
+    "sourceId": "TLC-DL-0217",
+    "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "steakhouse-entrance-cow-photo-mickey",

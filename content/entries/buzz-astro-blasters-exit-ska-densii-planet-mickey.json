@@ -1,0 +1,40 @@
+{
+  "id": "buzz-astro-blasters-exit-ska-densii-planet-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "galactic_blaster_ride",
+  "display": {
+    "entryTitle": "Exit Ska Densii Planet Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Tomorrowland",
+    "attractionName": "Buzz Lightyear Astro Blasters"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "The third appearance of the Mickey-profile planet, labeled Ska Densii, is on the exit wall across from the photo kiosks and the top ten scoreboard.",
+  "whereToLook": {
+    "scene": "The exit hallway, across from the photo kiosks and the scoreboard",
+    "exactSpot": "The planet on the wall opposite the kiosks. A continent in Mickey's profile."
+  },
+  "bestTip": "Turn your back on your score for a second.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8119,
+    "longitude": -117.9179
+  },
+  "sourceId": "TLC-DL-0220",
+  "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland#Astro-Blasters3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

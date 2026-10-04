@@ -1,0 +1,40 @@
+{
+  "id": "astro-orbitor-taurus-tail-symbol-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "astro_orbitor",
+  "display": {
+    "entryTitle": "Taurus Tail Symbol Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Tomorrowland",
+    "attractionName": "Astro Orbitor"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Loading",
+  "description": "Every rocket on the Astro Orbitor wears a different zodiac symbol on its tail. The Taurus rocket's bull symbol is drawn so that it reads as a Mickey head.",
+  "whereToLook": {
+    "scene": "The Astro Orbitor rockets, the symbols on their tails",
+    "exactSpot": "The Taurus rocket. Its bull symbol is shaped as a Mickey head."
+  },
+  "bestTip": "Check the tails from the ground while they spin; Taurus is the one with the horns that look like ears.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8121,
+    "longitude": -117.918
+  },
+  "sourceId": "TLC-DL-0216",
+  "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland#Astro-Orbiter1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
