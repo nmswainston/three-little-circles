@@ -3638,7 +3638,7 @@ export const entries: HiddenMickeyEntry[] = [
       "landName": "Main Street, U.S.A.",
       "attractionName": "Emporium"
     },
-    "entryType": "FACT",
+    "entryType": "FIND",
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
