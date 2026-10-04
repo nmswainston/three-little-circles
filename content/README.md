@@ -12,6 +12,14 @@ and writes `src/data/entries.generated.ts`, which is what the app imports.
 4. Run `npm run content:build`. It fails with a readable message if anything is off.
 5. Commit both the new JSON file and the regenerated `entries.generated.ts`.
 
+Keys go in the order the [field reference](#field-reference) lists them, so a
+diff shows what changed rather than what moved. Add a field wherever you like
+and run `npm run content:format` before committing: it rewrites every entry,
+fact, and challenge as two-space JSON in that order, nested objects included,
+and never touches a value. The build fails on a file that is out of order and
+names the key. `npm run content:format -- --check` lists such files without
+writing anything.
+
 `npm start`, `npm run ios`, `npm run android`, and `npm run web` all run the build
 automatically first, so a stale generated file will not sneak into a dev session.
 
@@ -72,13 +80,15 @@ What the importer does for you:
 
 ## Field reference
 
+Fields are listed in the order they go in the file.
+
 | Field | Required | Values |
 | --- | --- | --- |
 | `id` | yes | kebab-case slug, unique across all entries |
 | `parkId` | yes | stable id for the destination bucket, for example `studios_park` or `resorts_bucket` |
 | `landId` | yes | stable id for the land or resort within the park |
 | `attractionId` | yes | stable id for the attraction or specific spot |
-| `display` | no | human-readable names: `parkName`, `landName`, `attractionName`, `entryTitle` |
+| `display` | no | human-readable names: `entryTitle`, `parkName`, `landName`, `attractionName` |
 | `entryType` | yes | `FIND` for a Hidden Mickey, `FACT` for a Hidden Surprise such as an easter egg or movie reference |
 | `locationType` | yes | `Queue`, `Ride`, `Pre-show`, `Outdoor`, `Indoor` |
 | `difficulty` | yes | `Easy`, `Medium`, `Hard` |

@@ -25,6 +25,17 @@ import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from "
 import { createRequire } from "node:module";
 import { join, dirname, basename, extname } from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  CHALLENGE_KEYS,
+  COORDINATE_KEYS,
+  DISPLAY_KEYS,
+  ENTRY_KEYS,
+  FACT_KEYS,
+  IMAGE_KEYS,
+  VIEWING_KEYS,
+  WHERE_TO_LOOK_KEYS,
+  firstOutOfOrder,
+} from "./lib/content-schema.mjs";
 
 const root = process.env.TLC_CONTENT_ROOT || join(dirname(fileURLToPath(import.meta.url)), "..");
 const contentDir = join(root, "content", "entries");
@@ -52,17 +63,7 @@ const ENUMS = {
   ],
 };
 
-const TOP_LEVEL_KEYS = new Set([
-  "id", "parkId", "landId", "attractionId", "display", "entryType",
-  "locationType", "difficulty", "areaContext", "description", "whereToLook",
-  "bestTip", "funFacts", "viewing", "confidence", "verification", "verifiedAtISO",
-  "status", "accessNotes", "coordinates", "image", "sourceId", "sourceUrl",
-  "createdAtISO", "updatedAtISO",
-]);
 const SOURCE_ID_PATTERN = /^[A-Z]{2,5}-[A-Z]{2,4}-\d{4}$/;
-const DISPLAY_KEYS = new Set(["parkName", "landName", "attractionName", "entryTitle"]);
-const VIEWING_KEYS = new Set(["motion", "lighting", "angle", "crowding", "distance", "notes"]);
-const IMAGE_KEYS = new Set(["file", "alt", "credit"]);
 const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp"]);
 const IMAGE_FILE_PATTERN = /^[a-z0-9]+(-[a-z0-9]+)*\.[a-z]+$/;
 // Every photo ships inside the app, so keep each one small. About 1200 px on
@@ -93,9 +94,17 @@ function checkOptionalString(file, field, value) {
   }
 }
 
-function checkKeys(file, label, obj, allowed) {
+// The key lists in scripts/lib/content-schema.mjs say both what an object may
+// hold and the order it is written in. Order is a convention, not a schema,
+// but it keeps diffs honest, so a file that breaks it fails here with the fix.
+function checkKeys(file, label, obj, order) {
+  const allowed = new Set(order);
   for (const key of Object.keys(obj)) {
     if (!allowed.has(key)) fail(file, `unknown key "${key}" in ${label}`);
+  }
+  const misplaced = firstOutOfOrder(obj, order);
+  if (misplaced) {
+    fail(file, `"${misplaced.key}" belongs before "${misplaced.before}" in ${label}. Run \`npm run content:format\` to put the keys in order.`);
   }
 }
 
@@ -104,7 +113,7 @@ function validateEntry(file, e) {
     fail(file, "must be a JSON object");
     return;
   }
-  checkKeys(file, "entry", e, TOP_LEVEL_KEYS);
+  checkKeys(file, "entry", e, ENTRY_KEYS);
 
   for (const field of ["id", "parkId", "landId", "attractionId", "description"]) {
     if (!isNonEmptyString(e[field])) fail(file, `missing required string "${field}"`);
@@ -134,7 +143,7 @@ function validateEntry(file, e) {
   if (typeof e.whereToLook !== "object" || e.whereToLook === null) {
     fail(file, `missing required object "whereToLook"`);
   } else {
-    checkKeys(file, "whereToLook", e.whereToLook, new Set(["scene", "exactSpot", "orientation"]));
+    checkKeys(file, "whereToLook", e.whereToLook, WHERE_TO_LOOK_KEYS);
     if (!isNonEmptyString(e.whereToLook.scene)) fail(file, `"whereToLook.scene" is required`);
     if (!isNonEmptyString(e.whereToLook.exactSpot)) fail(file, `"whereToLook.exactSpot" is required`);
     checkEnum(file, "whereToLook.orientation", e.whereToLook.orientation, ENUMS.orientation);
@@ -170,7 +179,7 @@ function validateEntry(file, e) {
     if (typeof c !== "object" || c === null) {
       fail(file, `"coordinates" must be an object`);
     } else {
-      checkKeys(file, "coordinates", c, new Set(["latitude", "longitude"]));
+      checkKeys(file, "coordinates", c, COORDINATE_KEYS);
       if (typeof c.latitude !== "number" || c.latitude < -90 || c.latitude > 90) {
         fail(file, `"coordinates.latitude" must be a number between -90 and 90`);
       }
@@ -455,8 +464,6 @@ function render(entries) {
 // A fact targets one parkId or a whole region, both taken from destinations.json.
 // ---------------------------------------------------------------------------
 
-const FACT_KEYS = new Set(["id", "parkId", "region", "title", "body", "createdAtISO", "updatedAtISO"]);
-
 function loadDestinations() {
   const list = JSON.parse(readFileSync(destinationsFile, "utf8"));
   return {
@@ -544,9 +551,6 @@ function renderFacts(facts) {
 // here, not silently in the app.
 // ---------------------------------------------------------------------------
 
-const CHALLENGE_KEYS = new Set([
-  "id", "title", "blurb", "parkId", "icon", "goal", "count", "targets", "createdAtISO", "updatedAtISO",
-]);
 const CHALLENGE_GOALS = ["all", "each", "any"];
 const TARGET_KINDS = ["attraction", "land", "park", "entry"];
 

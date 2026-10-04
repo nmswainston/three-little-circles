@@ -35,6 +35,16 @@ const valid = {
   targets: [{ attraction: 'studios_park/sunset_area/tower_ride' }],
 };
 
+// Real files keep their keys in the documented order and the build checks it,
+// so a fixture made with a spread (which appends the new key) is written in
+// that order too. A key the schema does not know stays last, for the build to
+// report.
+const CHALLENGE_KEY_ORDER = ['id', 'title', 'blurb', 'parkId', 'icon', 'goal', 'count', 'targets', 'createdAtISO', 'updatedAtISO'];
+const inOrder = (c: Record<string, unknown>) =>
+  Object.fromEntries(
+    [...CHALLENGE_KEY_ORDER.filter((k) => k in c), ...Object.keys(c).filter((k) => !CHALLENGE_KEY_ORDER.includes(k))].map((k) => [k, c[k]])
+  );
+
 // Builds a throwaway project root with three entries and the given
 // challenges, then runs the content build against it.
 function build(challenges: Record<string, unknown>[], fileNames?: string[]) {
@@ -45,7 +55,7 @@ function build(challenges: Record<string, unknown>[], fileNames?: string[]) {
   for (const e of ENTRIES) writeFileSync(join(root, 'content', 'entries', `${e.id}.json`), JSON.stringify(e));
   challenges.forEach((c, i) => {
     const name = fileNames?.[i] ?? `${c.id}.json`;
-    writeFileSync(join(root, 'content', 'challenges', name), JSON.stringify(c));
+    writeFileSync(join(root, 'content', 'challenges', name), JSON.stringify(inOrder(c)));
   });
   const run = spawnSync(process.execPath, [script], {
     encoding: 'utf8',

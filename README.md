@@ -119,6 +119,8 @@ See [content/README.md](content/README.md). The short version:
 3. Run `npm run content:build` and commit both files.
 4. Got a photo? `npm run content:photo -- <id> photo.jpg --alt "What it shows"`
    resizes it, strips the metadata, and wires it into the entry.
+5. `npm run content:format` puts the keys of every content file in the
+   documented order. The build fails on a file that is out of order.
 
 Park facts and challenges work the same way, starting from
 `content/TEMPLATE.fact.json` and `content/TEMPLATE.challenge.json`.

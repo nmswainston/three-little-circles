@@ -4,10 +4,10 @@
   "landId": "toy_blocks_area",
   "attractionId": "slinky_dog_dash",
   "display": {
+    "entryTitle": "Short Title For The Find",
     "parkName": "Disney's Hollywood Studios",
     "landName": "Toy Story Land",
-    "attractionName": "Slinky Dog Dash",
-    "entryTitle": "Short Title For The Find"
+    "attractionName": "Slinky Dog Dash"
   },
   "entryType": "FIND",
   "locationType": "Queue",
