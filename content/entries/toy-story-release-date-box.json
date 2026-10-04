@@ -17,6 +17,7 @@
     "scene": "Large toy box with a painted Tyrannosaurus Rex",
     "exactSpot": "Price label on the upper left of the front of the box, visible from the right side of the loading dock or shortly after launch"
   },
+  "bestTip": "Stand on the right side of the loading area, or glance left just after launch, and read the numbers on the box's price label.",
   "funFacts": [
     "The numbers 11, 22, and 19.95 reference November 22, 1995, the release date of the first Toy Story film.",
     "This detail is a hidden tribute rather than a Hidden Mickey, blending naturally into the toy-themed scenery."
@@ -29,6 +30,7 @@
   },
   "confidence": "Obvious",
   "verification": "Community",
+  "status": "Unverified",
   "coordinates": {
     "latitude": 28.3563,
     "longitude": -81.5628
