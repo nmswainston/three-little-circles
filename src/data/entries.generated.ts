@@ -5510,6 +5510,166 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
+    "id": "gadgetcoaster-queue-first-turn-rock-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "gadget_coaster",
+    "display": {
+      "entryTitle": "Queue First U-Turn Rock Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Chip 'n' Dale's GADGETcoaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "The coaster's queue walls are built from rock, and several Mickeys are set into them. The first comes at the first left U-turn in line. Halfway through the turn, on your right, three rocks form a Mickey directly between two courtesy lights, almost at the top of the wall.",
+    "whereToLook": {
+      "scene": "The first left U-turn in the queue, the wall on your right",
+      "exactSpot": "Between two courtesy lights, near the top of the wall. Three rocks."
+    },
+    "bestTip": "Use the lights as bookends and look up.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.816,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0210",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Gadget-Coaster1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "gadgetcoaster-queue-last-turn-rock-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "gadget_coaster",
+    "display": {
+      "entryTitle": "Queue Last U-Turn Rock Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Chip 'n' Dale's GADGETcoaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "On the last right U-turn before boarding, look to your left. About four feet left of the second courtesy light, three rocks form a Mickey.",
+    "whereToLook": {
+      "scene": "The last right U-turn before boarding, the wall on your left",
+      "exactSpot": "About four feet to the left of the second courtesy light. Three rocks."
+    },
+    "bestTip": "Count courtesy lights from the start of the turn.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Left",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.816,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0212",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Gadget-Coaster3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "gadgetcoaster-queue-past-bridges-rock-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "gadget_coaster",
+    "display": {
+      "entryTitle": "Queue Past the Bridges Rock Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Chip 'n' Dale's GADGETcoaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "Once you are past the three bridges in the queue, look to the stone wall on the lower left as you face the loading dock. Above a courtesy light, three stones make a Mickey. There are more on this wall, including one about twenty feet further along on the left.",
+    "whereToLook": {
+      "scene": "Past the three bridges, facing the loading dock, the stone wall on the lower left",
+      "exactSpot": "Above a courtesy light. Three stones as a head and ears."
+    },
+    "bestTip": "Keep scanning left after you find the first one.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Left",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.816,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0211",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Gadget-Coaster2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "gadgetcoaster-queue-third-light-low-rock-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "gadget_coaster",
+    "display": {
+      "entryTitle": "Queue Third Light Low Rock Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Chip 'n' Dale's GADGETcoaster"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "Right beside the last U-turn Mickey is a fourth one, about two feet left of the third courtesy light and only a foot off the ground.",
+    "whereToLook": {
+      "scene": "The last right U-turn before boarding, the wall on your left",
+      "exactSpot": "Two feet left of the third courtesy light, a foot off the ground. Three rocks."
+    },
+    "bestTip": "Low. Look down near your feet.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.816,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0213",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Gadget-Coaster4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "galactic-blaster-exit-mural-alien-spacecraft",
     "parkId": "magic_kingdom_park",
     "landId": "future_city_area",
@@ -6184,6 +6344,46 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-na-vi-river-journey",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "good-boy-grocers-produce-basket-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "good_boy_grocers",
+    "display": {
+      "entryTitle": "Produce Basket Apples and Beets Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Good Boy! Grocers"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Outdoor Display",
+    "description": "Out on the street in front of Good Boy! Grocers, a basket of fruit and vegetables has apples and beets arranged as a Mickey.",
+    "whereToLook": {
+      "scene": "The produce basket outside Good Boy! Grocers",
+      "exactSpot": "The apples and beets in the basket. One large and two small, head and ears."
+    },
+    "bestTip": "It is at kid height, which is why kids find it first.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8152,
+      "longitude": -117.9192
+    },
+    "sourceId": "TLC-DL-0196",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Goodboy-Grocers1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "gran-destino-elevator-wall-mickey",
@@ -11328,6 +11528,368 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "mickeys-house-living-room-surrealist-painting-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "mouse_house",
+    "display": {
+      "entryTitle": "Living Room Surrealist Painting Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey's House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "An odd surrealist painting hangs in Mickey's living room, and its floating subject is Mickey himself, drifting through a dreamscape.",
+    "whereToLook": {
+      "scene": "Mickey's living room, the surrealist painting on the wall",
+      "exactSpot": "The figure floating in the painting."
+    },
+    "bestTip": "The frame is easy to walk past as set dressing. Stop and look at the subject.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8155,
+      "longitude": -117.9194
+    },
+    "sourceId": "TLC-DL-0200",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House7",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "mickeys-house-mouse-odyssey-publisher-mark-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "mouse_house",
+    "display": {
+      "entryTitle": "2001 A Mouse Odyssey Publisher Mark",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey's House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the room before the living room, where the radio is, a green bookshelf holds a book titled 2001 A Mouse Odyssey. Its publisher's mark is two Mickey heads.",
+    "whereToLook": {
+      "scene": "The room with the radio, before the living room, the green bookshelf",
+      "exactSpot": "The spine of 2001 A Mouse Odyssey. Two Mickey heads in the publisher's mark."
+    },
+    "bestTip": "Read the spines. Mickey's library is full of puns and the marks are the payoff.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8155,
+      "longitude": -117.9194
+    },
+    "sourceId": "TLC-DL-0197",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "mickeys-house-movie-barn-mirror-sorcerer-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "mouse_house",
+    "display": {
+      "entryTitle": "Movie Barn Mirror Sorcerer Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey's House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Near the entrance to Mickey's Movie Barn hangs a mirror with a trick. Wait a few seconds and Sorcerer Mickey's head fades into the glass, then fades out again. He cycles roughly every ten seconds.",
+    "whereToLook": {
+      "scene": "The mirror near the entrance to Mickey's Movie Barn",
+      "exactSpot": "In the mirror. Sorcerer Mickey appears and disappears."
+    },
+    "bestTip": "Stand still for ten seconds. Most people walk past between appearances.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "The effect is on a loop."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 33.8155,
+      "longitude": -117.9194
+    },
+    "sourceId": "TLC-DL-0207",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House6",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "mickeys-house-my-fair-mouse-publisher-mark-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "mouse_house",
+    "display": {
+      "entryTitle": "My Fair Mouse Publisher Mark",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey's House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "On the living room bookshelf, the book My Fair Mouse carries a Mickey as its publisher's mark on the binding.",
+    "whereToLook": {
+      "scene": "The living room bookshelf",
+      "exactSpot": "The spine of My Fair Mouse. The publisher's mark is a Mickey."
+    },
+    "bestTip": "Scan for the musical title.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8155,
+      "longitude": -117.9194
+    },
+    "sourceId": "TLC-DL-0199",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "mickeys-house-my-life-with-walt-publisher-mark-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "mouse_house",
+    "display": {
+      "entryTitle": "My Life With Walt Publisher Mark",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey's House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Entering the piano room, look right at the big bookcase. The book titled My Life With Walt has a Hidden Mickey for its publisher's mark.",
+    "whereToLook": {
+      "scene": "The piano room, the big bookcase on the right as you enter",
+      "exactSpot": "The spine of My Life With Walt. The publisher's mark."
+    },
+    "bestTip": "The title is the best in-joke in the house. The mark is the bonus.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8155,
+      "longitude": -117.9194
+    },
+    "sourceId": "TLC-DL-0206",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House9",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "mickeys-house-piano-room-thin-green-book-spine-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "mouse_house",
+    "display": {
+      "entryTitle": "Piano Room Thin Green Book Spine Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey's House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the piano room, the bookcase on the right holds Pluto's Republic. Just left of it is a thin green book with a yellow Mickey at the top of its spine.",
+    "whereToLook": {
+      "scene": "The piano room, the bookcase on the right",
+      "exactSpot": "The thin green book immediately left of Pluto's Republic. Yellow Mickey at the top of the spine."
+    },
+    "bestTip": "Find Pluto's Republic first, then slide one book left.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8155,
+      "longitude": -117.9194
+    },
+    "sourceId": "TLC-DL-0201",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House10",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "mickeys-house-player-piano-roll-donald-hole",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "mouse_house",
+    "display": {
+      "entryTitle": "Player Piano Roll Donald Hole",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey's House"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The holes punched in the player piano's paper roll are mostly Mickeys, but on the right side of the roll one hole is shaped like Donald Duck. You can only see it by looking in from the right edge of the glass toward the middle, and the roll keeps turning, so it comes and goes.",
+    "whereToLook": {
+      "scene": "The player piano, viewed through the glass from the right side",
+      "exactSpot": "The right side of the paper roll. A Donald-shaped hole."
+    },
+    "bestTip": "Look through the right side of the glass at an angle toward the center post. Give it a minute.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Angled",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "The roll moves, so the hole is only in view part of the time."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8155,
+      "longitude": -117.9194
+    },
+    "sourceId": "TLC-DL-0203",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "mickeys-house-see-you-next-squeak-publisher-mark-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "mouse_house",
+    "display": {
+      "entryTitle": "See You Next Squeak Publisher Mark",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey's House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "On the green bookshelf to the left as you enter the house, an orange book titled See You Next Squeak has a Mickey publisher's mark at the bottom of its spine.",
+    "whereToLook": {
+      "scene": "The green bookshelf on the left just inside the entrance",
+      "exactSpot": "The bottom of the orange See You Next Squeak spine."
+    },
+    "bestTip": "Orange spine, left shelf, first room.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8155,
+      "longitude": -117.9194
+    },
+    "sourceId": "TLC-DL-0198",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House8",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "mickeys-house-ten-years-bookcase-red-book-yellow-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "mouse_house",
+    "display": {
+      "entryTitle": "Red Book Yellow Spine Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey's House"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Just past the piano, the bookcase that holds Ten Years Before The Mouse has a red book at its far left with a large yellow classic Mickey on the spine. It is bigger than the yellow Mickey on the thin green book nearby.",
+    "whereToLook": {
+      "scene": "The bookcase just past the piano, the one with Ten Years Before The Mouse",
+      "exactSpot": "The far left of that bookcase. A red book with a yellow Mickey on the spine."
+    },
+    "bestTip": "Two yellow spine Mickeys live in this room. This is the larger one.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8155,
+      "longitude": -117.9194
+    },
+    "sourceId": "TLC-DL-0205",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House11",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "midway-shooter-circus-sign-exclamation-mickey",
     "parkId": "studios_park",
     "landId": "toy_blocks_area",
@@ -11686,6 +12248,86 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
+    "id": "minnies-house-pink-book-publisher-mark-minnie",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "minnie_house",
+    "display": {
+      "entryTitle": "Pink Book Publisher Mark Minnie",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Minnie's House"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In Minnie's living room, the third book from the left on the shelf is pink, and its publisher's mark looks like a Mickey at first. Look again: it is a circle with a cross beneath it, the symbol for female, with ears added. A female mouse. That makes it a Hidden Minnie.",
+    "whereToLook": {
+      "scene": "Minnie's living room bookshelf, third book from the left",
+      "exactSpot": "The publisher's mark on the pink book. Ears on a female symbol."
+    },
+    "bestTip": "Look for the little cross under the circle.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8154,
+      "longitude": -117.9197
+    },
+    "sourceId": "TLC-DL-0209",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "minnies-house-wishing-well-wall-inverted-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "minnie_house",
+    "display": {
+      "entryTitle": "Wishing Well Wall Inverted Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Minnie's House"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "Behind Minnie's House, on the right side as you face her doorway, an upside-down Mickey sits on the wall. The way to see it is through Minnie's wishing well.",
+    "whereToLook": {
+      "scene": "Minnie's wishing well behind the house, right side as you face the door",
+      "exactSpot": "Look through the well at the wall behind it. An inverted Mickey."
+    },
+    "bestTip": "Use the well as a frame.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8154,
+      "longitude": -117.9197
+    },
+    "sourceId": "TLC-DL-0208",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Minnies-House1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "morocco-bazaar-door-plates-mickey",
     "parkId": "showcase_park",
     "landId": "morocco_pavilion",
@@ -11733,31 +12375,32 @@ export const entries: HiddenMickeyEntry[] = [
     "landId": "cartoon_town_area",
     "attractionId": "mouse_house",
     "display": {
-      "entryTitle": "Player Piano Roll Mickeys",
+      "entryTitle": "Player Piano Roll Goofy Hole",
       "parkName": "Disneyland Park",
       "landName": "Mickey's Toontown",
       "attractionName": "Mickey's House"
     },
-    "entryType": "FIND",
+    "entryType": "FACT",
     "locationType": "Indoor",
     "difficulty": "Medium",
-    "description": "Most of the holes punched in the paper roll of the player piano inside the house are classic three-circle Mickeys. Two holes are different: one is shaped like Goofy and another like Donald Duck. You can only see them by looking in toward the middle of the roll from the sides of the glass, which is why most visitors only ever notice the Mickeys.",
+    "description": "The holes punched in the player piano's paper roll are mostly classic Mickeys, but on the left side of the roll one hole is shaped like Goofy. You can only see it by looking in from the left edge of the glass toward the middle, which is why most visitors only ever notice the Mickeys. Donald has his own hole on the right side.",
     "whereToLook": {
-      "scene": "Player piano inside the house, viewed through the glass",
-      "exactSpot": "Holes in the paper roll. From the left side of the glass, look in toward the center green post for the Goofy hole. From the right side, look toward the post for the Donald hole."
+      "scene": "The player piano, viewed through the glass from the left side",
+      "exactSpot": "The left side of the paper roll. A Goofy-shaped hole, seen by looking in toward the center green post."
     },
-    "bestTip": "Look through the side glass at an angle toward the middle, not straight on, and try both sides.",
+    "bestTip": "Look through the left side of the glass at an angle toward the middle, not straight on.",
     "funFacts": [
-      "The roll keeps moving, so the Goofy and Donald holes come into view only at times. Give it a minute."
+      "The roll keeps moving, so the Goofy hole comes into view only at times. Give it a minute."
     ],
     "viewing": {
       "motion": "Moving",
       "lighting": "Mixed",
       "angle": "Angled",
       "crowding": "High",
-      "distance": "Close"
+      "distance": "Close",
+      "notes": "The roll moves, so the hole is only in view part of the time."
     },
-    "confidence": "Obvious",
+    "confidence": "Strong",
     "verification": "Community",
     "status": "Unverified",
     "coordinates": {
@@ -11765,7 +12408,10 @@ export const entries: HiddenMickeyEntry[] = [
       "longitude": -117.9194
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z",
+    "areaContext": "Lobby",
+    "sourceId": "TLC-DL-0202",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House3"
   },
   {
     "id": "new-orleans-square-balcony-walt-and-roy-initials",
@@ -14984,6 +15630,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "roger-rabbit-queue-hubcap-stamp-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "roger_rabbit_car_toon_spin",
+    "display": {
+      "entryTitle": "Queue Hubcap Stamp Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Roger Rabbit's Car Toon Spin"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Loading",
+    "description": "As the queue makes its last turn before you board Benny the Cab, a caged-off area on the left is piled with junk. A pair of hubcaps sits on top of some barrels, and one of them has a Mickey stamped in its center.",
+    "whereToLook": {
+      "scene": "The last turn in the queue before boarding, the caged area on the left",
+      "exactSpot": "The hubcaps on top of the barrels. A Mickey stamped in the center of one."
+    },
+    "bestTip": "Look while the group ahead of you boards.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Left",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.815,
+      "longitude": -117.9195
+    },
+    "sourceId": "TLC-DL-0214",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Roger-Rabbit1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "rooftop-restaurant-entry-sign-mickey",
     "parkId": "resorts_bucket",
     "landId": "riviera_resort",
@@ -17191,6 +17877,88 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0051",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-backstage-corner-stone-wall-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "toontown_streets",
+    "display": {
+      "entryTitle": "Backstage Corner Stone Wall Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey's Toontown Streets"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "Across from Minnie's House there is a backstage entrance. Peek around its corner from the guest side and, about seven feet up, three stones in the wall form a Mickey face. Foliage has grown in front of it, so it takes some looking. Very few people know it is there.",
+    "whereToLook": {
+      "scene": "The backstage entrance across from Minnie's House, around the corner",
+      "exactSpot": "About seven feet up the stone wall just around the corner. Three stones as a face."
+    },
+    "bestTip": "Look from the guest side only. Do not step past the gate.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Low",
+      "distance": "Medium",
+      "notes": "Plants partly block the view."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Visible from the guest walkway. The area past the gate is backstage and off limits.",
+    "coordinates": {
+      "latitude": 33.8152,
+      "longitude": -117.9196
+    },
+    "sourceId": "TLC-DL-0131",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Toontown-General2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "toontown-gym-sign-punching-bag-horace-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "toontown_streets",
+    "display": {
+      "entryTitle": "Gym Sign Punching Bag Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Mickey's Toontown",
+      "attractionName": "Mickey's Toontown Streets"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "Next to the Fireworks Building, a gym sign shaped like a punching bag shows Horace Horsecollar hoisting a barbell inside a big orange circle. The two black weights on the barbell sit above the orange circle like ears, and the whole thing reads as a Mickey.",
+    "whereToLook": {
+      "scene": "The gym sign next to the Fireworks Building",
+      "exactSpot": "The punching bag sign. Orange circle for the head, barbell weights for the ears."
+    },
+    "bestTip": "Step back across the street so the sign reads as one shape.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8152,
+      "longitude": -117.9196
+    },
+    "sourceId": "TLC-DL-0130",
+    "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Toontown-General1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-accessible-boarding-floor-paint-mickey",

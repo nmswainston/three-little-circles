@@ -1,0 +1,40 @@
+{
+  "id": "good-boy-grocers-produce-basket-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "cartoon_town_area",
+  "attractionId": "good_boy_grocers",
+  "display": {
+    "entryTitle": "Produce Basket Apples and Beets Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Mickey's Toontown",
+    "attractionName": "Good Boy! Grocers"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Outdoor Display",
+  "description": "Out on the street in front of Good Boy! Grocers, a basket of fruit and vegetables has apples and beets arranged as a Mickey.",
+  "whereToLook": {
+    "scene": "The produce basket outside Good Boy! Grocers",
+    "exactSpot": "The apples and beets in the basket. One large and two small, head and ears."
+  },
+  "bestTip": "It is at kid height, which is why kids find it first.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8152,
+    "longitude": -117.9192
+  },
+  "sourceId": "TLC-DL-0196",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Goodboy-Grocers1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

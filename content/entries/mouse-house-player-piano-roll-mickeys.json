@@ -4,31 +4,32 @@
   "landId": "cartoon_town_area",
   "attractionId": "mouse_house",
   "display": {
-    "entryTitle": "Player Piano Roll Mickeys",
+    "entryTitle": "Player Piano Roll Goofy Hole",
     "parkName": "Disneyland Park",
     "landName": "Mickey's Toontown",
     "attractionName": "Mickey's House"
   },
-  "entryType": "FIND",
+  "entryType": "FACT",
   "locationType": "Indoor",
   "difficulty": "Medium",
-  "description": "Most of the holes punched in the paper roll of the player piano inside the house are classic three-circle Mickeys. Two holes are different: one is shaped like Goofy and another like Donald Duck. You can only see them by looking in toward the middle of the roll from the sides of the glass, which is why most visitors only ever notice the Mickeys.",
+  "description": "The holes punched in the player piano's paper roll are mostly classic Mickeys, but on the left side of the roll one hole is shaped like Goofy. You can only see it by looking in from the left edge of the glass toward the middle, which is why most visitors only ever notice the Mickeys. Donald has his own hole on the right side.",
   "whereToLook": {
-    "scene": "Player piano inside the house, viewed through the glass",
-    "exactSpot": "Holes in the paper roll. From the left side of the glass, look in toward the center green post for the Goofy hole. From the right side, look toward the post for the Donald hole."
+    "scene": "The player piano, viewed through the glass from the left side",
+    "exactSpot": "The left side of the paper roll. A Goofy-shaped hole, seen by looking in toward the center green post."
   },
-  "bestTip": "Look through the side glass at an angle toward the middle, not straight on, and try both sides.",
+  "bestTip": "Look through the left side of the glass at an angle toward the middle, not straight on.",
   "funFacts": [
-    "The roll keeps moving, so the Goofy and Donald holes come into view only at times. Give it a minute."
+    "The roll keeps moving, so the Goofy hole comes into view only at times. Give it a minute."
   ],
   "viewing": {
     "motion": "Moving",
     "lighting": "Mixed",
     "angle": "Angled",
     "crowding": "High",
-    "distance": "Close"
+    "distance": "Close",
+    "notes": "The roll moves, so the hole is only in view part of the time."
   },
-  "confidence": "Obvious",
+  "confidence": "Strong",
   "verification": "Community",
   "status": "Unverified",
   "coordinates": {
@@ -36,5 +37,8 @@
     "longitude": -117.9194
   },
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z",
+  "areaContext": "Lobby",
+  "sourceId": "TLC-DL-0202",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House3"
 }
