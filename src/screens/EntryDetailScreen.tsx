@@ -237,8 +237,7 @@ export default function EntryDetailScreen() {
                 accessibilityLabel="Get directions"
                 style={({ pressed }) => [styles.mapButtonSecondary, pressed && styles.pressed]}
               >
-                <Ionicons name="navigate-outline" size={18} color={t.colors.text} />
-                <Text style={styles.mapButtonSecondaryText}>Directions</Text>
+                <Ionicons name="navigate-outline" size={20} color={t.colors.text} />
               </Pressable>
             </View>
           )}
@@ -266,7 +265,7 @@ export default function EntryDetailScreen() {
             onRevealAll={() => setRevealed(steps.length)}
             accent={palette.accent}
             onAccent={palette.onAccent}
-            note="The full note opens after the last hint. Hints can be turned off on Profile."
+            note="One hint at a time. You can turn hints off on Profile."
           />
 
           <FoundButton found={found} onToggle={() => toggleFound(entryId)} />
@@ -477,22 +476,17 @@ const createStyles = (t: Theme) =>
       fontSize: 15,
       color: t.colors.onInk,
     },
+    // Directions is a side trip from finding the thing, so it is an icon
+    // beside See on map instead of a second full-width button.
     mapButtonSecondary: {
-      flex: 1,
-      flexDirection: "row",
+      width: 44,
+      height: 44,
       alignItems: "center",
       justifyContent: "center",
-      gap: spacing.sm - 2,
-      minHeight: 44,
       borderRadius: radii.full,
       backgroundColor: t.colors.surface,
       borderWidth: 1,
       borderColor: t.colors.borderStrong,
-    },
-    mapButtonSecondaryText: {
-      ...text.chip,
-      fontSize: 15,
-      color: t.colors.text,
     },
     pressed: {
       opacity: 0.85,
