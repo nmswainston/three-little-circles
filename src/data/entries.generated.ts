@@ -4110,8 +4110,10 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 33.8045,
       "longitude": -117.9212
     },
+    "sourceId": "TLC-CA-0071",
+    "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#Jessies-Carousel1",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "critter-popout-sideways-mickey",
@@ -10346,6 +10348,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "jack-jacks-cookie-num-nums-mural-mickey-cookie",
+    "parkId": "california_pier_park",
+    "landId": "boardwalk_pier_area",
+    "attractionId": "jack_jacks_cookie_num_nums",
+    "display": {
+      "entryTitle": "Back Mural Mickey Cookie",
+      "parkName": "Disney California Adventure",
+      "landName": "Pixar Pier",
+      "attractionName": "Jack-Jack's Cookie Num Nums"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Outdoor Display",
+    "description": "The mural at the back of Jack-Jack's Cookie Num Nums shows Jack-Jack holding a cookie, and the cookie is a Mickey.",
+    "whereToLook": {
+      "scene": "The mural at the back of the Jack-Jack's Cookie Num Nums stand",
+      "exactSpot": "The cookie in Jack-Jack's hand."
+    },
+    "bestTip": "Look past the menu board at the painted wall.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8052,
+      "longitude": -117.9207
+    },
+    "sourceId": "TLC-CA-0072",
+    "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#JackJack-1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "japan-gallery-fridge-container-mickey",
     "parkId": "showcase_park",
     "landId": "japan_pavilion",
@@ -13538,6 +13580,207 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-DL-0205",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House11",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "midway-mania-dino-darts-volcano-balloon-mickey",
+    "parkId": "california_pier_park",
+    "landId": "boardwalk_pier_area",
+    "attractionId": "midway_shooter",
+    "display": {
+      "entryTitle": "Dino Darts Volcano Balloon Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Pixar Pier",
+      "attractionName": "Toy Story Midway Mania!"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "In the Dino Darts game, a 3D Mickey hides behind one of the balloons at the base of the volcano. Pop the middle 100-point balloon on the second tier and there he is.",
+    "whereToLook": {
+      "scene": "The Dino Darts game, the balloons at the base of the volcano",
+      "exactSpot": "Behind the middle 100-point balloon on the second tier. Pop it to reveal the Mickey."
+    },
+    "bestTip": "Aim for that one balloon first, before the screen gets busy.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "You have to pop the balloon yourself."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8057,
+      "longitude": -117.9203
+    },
+    "sourceId": "TLC-CA-0076",
+    "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#Midway-Mania3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "midway-mania-exit-rug-game-box-ovals-mickey",
+    "parkId": "california_pier_park",
+    "landId": "boardwalk_pier_area",
+    "attractionId": "midway_shooter",
+    "display": {
+      "entryTitle": "Exit Rug Game Box Ovals Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Pixar Pier",
+      "attractionName": "Toy Story Midway Mania!"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "On the way out, a Toy Story Midway board game sits on a rug. On the left side of the game box, three ovals make a Mickey.",
+    "whereToLook": {
+      "scene": "The exit, the board game on the rug",
+      "exactSpot": "The left side of the game box. Three ovals."
+    },
+    "bestTip": "Slow down at the rug; the box art is the find.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8057,
+      "longitude": -117.9203
+    },
+    "sourceId": "TLC-CA-0077",
+    "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#Midway-Mania5",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "midway-mania-loading-zone-signs-mickey",
+    "parkId": "california_pier_park",
+    "landId": "boardwalk_pier_area",
+    "attractionId": "midway_shooter",
+    "display": {
+      "entryTitle": "Loading Zone Signs Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Pixar Pier",
+      "attractionName": "Toy Story Midway Mania!"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Easy",
+    "areaContext": "Loading",
+    "description": "The signs in the loading zone are drawn with three circles arranged as a Mickey head. Cast members confirm it was on purpose.",
+    "whereToLook": {
+      "scene": "The loading zone, the signs over the boarding positions",
+      "exactSpot": "The three circles on the signs. Head and ears."
+    },
+    "bestTip": "Look up while the cast member sorts your group.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8057,
+      "longitude": -117.9203
+    },
+    "sourceId": "TLC-CA-0074",
+    "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#Midway-Mania1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "midway-mania-practice-round-pie-whipped-cream-mickey",
+    "parkId": "california_pier_park",
+    "landId": "boardwalk_pier_area",
+    "attractionId": "midway_shooter",
+    "display": {
+      "entryTitle": "Practice Round Pie Whipped Cream Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Pixar Pier",
+      "attractionName": "Toy Story Midway Mania!"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "During the practice round, when you are throwing pies at the characters, look to the sides of the screen. A pie there carries three dollops of whipped cream arranged as a Mickey.",
+    "whereToLook": {
+      "scene": "The practice round at the start of the ride, the edges of the screen",
+      "exactSpot": "A pie near the right or left edge. Three dollops of whipped cream."
+    },
+    "bestTip": "Ignore the targets for a second and scan the pies on the sides.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8057,
+      "longitude": -117.9203
+    },
+    "sourceId": "TLC-CA-0075",
+    "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#Midway-Mania6",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "midway-mania-queue-trixie-spots-mickey",
+    "parkId": "california_pier_park",
+    "landId": "boardwalk_pier_area",
+    "attractionId": "midway_shooter",
+    "display": {
+      "entryTitle": "Queue Trixie Spots Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Pixar Pier",
+      "attractionName": "Toy Story Midway Mania!"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In the queue, Trixie the triceratops stands near a poster for Dino Darts. The spots by her left eye and upper horn form a Mickey tilted to the right.",
+    "whereToLook": {
+      "scene": "The queue, Trixie near the Dino Darts poster",
+      "exactSpot": "Spots near Trixie's left eye and upper horn. A right-tilted Mickey."
+    },
+    "bestTip": "Tilt your head right to make it sit upright.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8057,
+      "longitude": -117.9203
+    },
+    "sourceId": "TLC-CA-0073",
+    "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#Midway-Mania2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
