@@ -23104,7 +23104,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
-    "description": "The transportation sign in the lobby shows a bus, and Mickey sits in its driver's seat beside the lettering, on the same sign guests read for bus times.",
+    "description": "The transportation sign in the lobby shows a bus, and Mickey sits in its driver's seat beside the lettering, part of the sign's own artwork.",
     "whereToLook": {
       "scene": "Transportation sign in the lobby",
       "exactSpot": "The bus on the sign. Look at the driver's seat."
