@@ -1,0 +1,41 @@
+{
+  "id": "emporium-toy-room-train-water-tower-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "emporium_shop",
+  "display": {
+    "entryTitle": "Toy Room Train Water Tower Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Emporium"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Shop",
+  "description": "In the toy section at the back, a model train circles a track near the ceiling. In one corner stands a water tower. Every third lap the train stops at the tower and a small Mickey head lights up.",
+  "whereToLook": {
+    "scene": "The toy room at the back of the Emporium, the model train near the ceiling",
+    "exactSpot": "The water tower in one corner of the track. Watch for the train to stop there; the Mickey lights when it does."
+  },
+  "bestTip": "Count laps. It only happens every third time around, so give it a few minutes.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium",
+    "notes": "Timed: the light comes on every third lap."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8105,
+    "longitude": -117.9196
+  },
+  "sourceId": "TLC-DL-0015",
+  "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Emporium4",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

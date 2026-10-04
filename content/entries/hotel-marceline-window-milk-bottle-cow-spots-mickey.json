@@ -1,0 +1,40 @@
+{
+  "id": "hotel-marceline-window-milk-bottle-cow-spots-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "hotel_marceline_window",
+  "display": {
+    "entryTitle": "Milk Bottle Cow Spots Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Hotel Marceline Window"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "Turn right at the Market House and walk toward the lockers; just before them is a window for Hotel Marceline. Shelves inside hold a cow, milk bottles, and odds and ends. The cows printed on the milk bottles have spots, and one set of spots is a Mickey.",
+  "whereToLook": {
+    "scene": "The Hotel Marceline display window, down the side street past the Market House, before the lockers",
+    "exactSpot": "The milk bottles on the shelf. Look at the spots on the printed cows."
+  },
+  "bestTip": "Press close to the glass. The spots are small and the bottles are a foot or two back.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8109,
+    "longitude": -117.9185
+  },
+  "sourceId": "TLC-DL-0012",
+  "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-General5",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

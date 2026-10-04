@@ -1,0 +1,40 @@
+{
+  "id": "penny-arcade-pinocchio-game-panel-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "penny_arcade",
+  "display": {
+    "entryTitle": "Pinocchio Game Panel Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Penny Arcade"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "A quarter lets you pull Pinocchio's strings on a themed arcade game worked by four buttons. On the control panel, under the title and between the buttons, sits a decorative Mickey.",
+  "whereToLook": {
+    "scene": "The Pinocchio marionette game in the Penny Arcade",
+    "exactSpot": "The control panel, below the title and between the four buttons."
+  },
+  "bestTip": "You do not need to play. The panel is visible from standing height.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.811,
+    "longitude": -117.9187
+  },
+  "sourceId": "TLC-DL-0020",
+  "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Arcade2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "main-street-recycle-can-arrows-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "main_street_walkway",
+  "display": {
+    "entryTitle": "Recycle Can Arrows Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Main Street Walkway"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "The green recycling cans along Main Street each hide a Mickey inside the recycling arrows. The painted flourishes draw the eye, and the Mickey is small enough to overlook even when you are looking at the can.",
+  "whereToLook": {
+    "scene": "Any green recycling can on Main Street",
+    "exactSpot": "Inside the recycling arrows symbol. A small three-circle shape sits within."
+  },
+  "bestTip": "Ignore the scrollwork and go straight to the arrows.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8108,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-DL-0011",
+  "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-General4",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

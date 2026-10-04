@@ -2222,6 +2222,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "city-hall-bookshelf-spine-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "city_hall",
+    "display": {
+      "entryTitle": "Bookshelf Spine Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "City Hall"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Inside City Hall, a bookshelf stands against the wall, and one book spine carries a Mickey.",
+    "whereToLook": {
+      "scene": "Inside City Hall, the bookshelf",
+      "exactSpot": "Read the spines. One of them has the three-circle shape."
+    },
+    "bestTip": "Guest Relations is busy; step to the side of the queue to study the shelf.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8101,
+      "longitude": -117.9195
+    },
+    "sourceId": "TLC-DL-0003",
+    "sourceUrl": "https://hiddenmickeywiki.com/Town_Square#City-Hall1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "clownfish-corridor-carpet-bubbles-mickey",
     "parkId": "resorts_bucket",
     "landId": "art_of_animation_resort",
@@ -3404,6 +3444,169 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
+    "id": "emporium-exit-clock-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "emporium_shop",
+    "display": {
+      "entryTitle": "Exit Clock Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Emporium"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "Above one of the Emporium's entrances a large clock is built in the shape of a Mickey head, hung upside down so the ears point to the floor.",
+    "whereToLook": {
+      "scene": "Inside the Emporium, above one of the street entrances",
+      "exactSpot": "The big clock over the doorway. The clock face and two round ears, inverted.",
+      "orientation": "Upside-down"
+    },
+    "bestTip": "Look back at the doors from inside the store rather than up as you walk in.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8105,
+      "longitude": -117.9196
+    },
+    "sourceId": "TLC-DL-0014",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Emporium2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "emporium-register-mural-back-globe-walt-and-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "emporium_shop",
+    "display": {
+      "entryTitle": "Register Mural Walt and Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Emporium"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "The same register mural has a second globe in the background, and in it Mickey stands holding hands with Walt Disney.",
+    "whereToLook": {
+      "scene": "Inside the Emporium, the mural behind the register between the exits, the globe in the background",
+      "exactSpot": "The rear globe. Walt and Mickey are hand in hand."
+    },
+    "bestTip": "Find the front globe's Mickeys first, then look past them to the back.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8105,
+      "longitude": -117.9196
+    },
+    "sourceId": "TLC-DL-0016",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Emporium1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "emporium-register-mural-globe-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "emporium_shop",
+    "display": {
+      "entryTitle": "Register Mural Globe Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Emporium"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "Behind the cash register between the exits hangs a mural with a globe, and the globe holds two Hidden Mickeys: a Sorcerer's Apprentice figure and a classic three-circle shape turned upside down.",
+    "whereToLook": {
+      "scene": "Inside the Emporium, the mural behind the register between the exits",
+      "exactSpot": "The globe in the mural. One Mickey is the Sorcerer's Apprentice; the other is an inverted classic shape.",
+      "orientation": "Upside-down"
+    },
+    "bestTip": "Stand in the checkout line and study the globe while you wait.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8105,
+      "longitude": -117.9196
+    },
+    "sourceId": "TLC-DL-0013",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Emporium1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "emporium-toy-room-train-water-tower-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "emporium_shop",
+    "display": {
+      "entryTitle": "Toy Room Train Water Tower Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Emporium"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Shop",
+    "description": "In the toy section at the back, a model train circles a track near the ceiling. In one corner stands a water tower. Every third lap the train stops at the tower and a small Mickey head lights up.",
+    "whereToLook": {
+      "scene": "The toy room at the back of the Emporium, the model train near the ceiling",
+      "exactSpot": "The water tower in one corner of the track. Watch for the train to stop there; the Mickey lights when it does."
+    },
+    "bestTip": "Count laps. It only happens every third time around, so give it a few minutes.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium",
+      "notes": "Timed: the light comes on every third lap."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8105,
+      "longitude": -117.9196
+    },
+    "sourceId": "TLC-DL-0015",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Emporium4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "entrance-gates-grillwork-mickeys",
     "parkId": "studios_park",
     "landId": "park_entrance_area",
@@ -4436,6 +4639,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "fortuosity-shop-carved-woodwork-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "fortuosity_shop",
+    "display": {
+      "entryTitle": "Carved Woodwork Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Fortuosity Shop"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "The woodwork in the Fortuosity Shop is hand carved, and a Mickey is cut into it. Cast members at the register know it is there.",
+    "whereToLook": {
+      "scene": "Inside the Fortuosity Shop, the carved wood trim and fixtures",
+      "exactSpot": "Scan the carving for a three-circle shape worked into the pattern."
+    },
+    "bestTip": "If you strike out, the register staff have pointed guests to it before.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8112,
+      "longitude": -117.9193
+    },
+    "sourceId": "TLC-DL-0017",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Fortuosity1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "france-bridge-ledge-rope-mickey",
     "parkId": "showcase_park",
     "landId": "france_pavilion",
@@ -5150,6 +5393,46 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-EP-0047",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-volkskunst-shop",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "gibson-girl-floats-window-letter-a-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "gibson_girl_ice_cream",
+    "display": {
+      "entryTitle": "Floats Sign Letter A Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Gibson Girl Ice Cream Parlor"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "The window lettering at the ice cream parlor reads Ice Cream Floats. Inside the A of Floats, a small painted Mickey hides in the glass.",
+    "whereToLook": {
+      "scene": "The front window of the Gibson Girl Ice Cream Parlor",
+      "exactSpot": "The letter A in Floats. The Mickey is painted inside it."
+    },
+    "bestTip": "Read the window before you read the menu.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8111,
+      "longitude": -117.9187
+    },
+    "sourceId": "TLC-DL-0018",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#Gibson-Girl1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
@@ -6805,6 +7088,46 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "hotel-marceline-window-milk-bottle-cow-spots-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "hotel_marceline_window",
+    "display": {
+      "entryTitle": "Milk Bottle Cow Spots Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Hotel Marceline Window"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "Turn right at the Market House and walk toward the lockers; just before them is a window for Hotel Marceline. Shelves inside hold a cow, milk bottles, and odds and ends. The cows printed on the milk bottles have spots, and one set of spots is a Mickey.",
+    "whereToLook": {
+      "scene": "The Hotel Marceline display window, down the side street past the Market House, before the lockers",
+      "exactSpot": "The milk bottles on the shelf. Look at the spots on the printed cows."
+    },
+    "bestTip": "Press close to the glass. The spots are small and the bottles are a foot or two back.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8109,
+      "longitude": -117.9185
+    },
+    "sourceId": "TLC-DL-0012",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-General5",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "hotel-tower-lobby-balcony-mickeys",
@@ -8628,6 +8951,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
+    "id": "mad-hatter-main-street-gibson-window-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "mad_hatter_main_street",
+    "display": {
+      "entryTitle": "Busy Hands Window Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Mad Hatter (Main Street)"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Shop",
+    "description": "Above the Mad Hatter shop, to the left of the Opera House, a second-floor window honors sculptor Blaine Gibson. Under the words Busy Hands, two hands hold a blue carving, and a Mickey sits on the right side of the carving. A canopy hides it unless you stand near the storefront.",
+    "whereToLook": {
+      "scene": "The upper-floor window above the Mad Hatter shop, left of the Opera House",
+      "exactSpot": "Under Busy Hands, the blue carving in the hands. The Mickey is on its right side."
+    },
+    "bestTip": "Get close to the front of the shop and look straight up; from the street the canopy blocks it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8102,
+      "longitude": -117.9185
+    },
+    "sourceId": "TLC-DL-0004",
+    "sourceUrl": "https://hiddenmickeywiki.com/Town_Square#Mad-Hatter1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "magic-shop-ceiling-card-mickey",
     "parkId": "california_kingdom_park",
     "landId": "main_street_area",
@@ -8664,6 +9027,88 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "magic-shop-counter-rope-trick-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "magic_shop",
+    "display": {
+      "entryTitle": "Counter Rope Trick Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Main Street Magic Shop"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "At the front counter of the magic shop, a rope trick for sale is displayed tied into the shape of a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The front counter of the Main Street Magic Shop",
+      "exactSpot": "The rope trick on the counter, looped into three circles."
+    },
+    "bestTip": "Ask for a demonstration and you will see it up close.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "Merchandise, so the display changes."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 33.8106,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0023",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Magic2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "magic-shop-window-case-ace-of-clubs-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "magic_shop",
+    "display": {
+      "entryTitle": "Window Case Ace of Clubs Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Main Street Magic Shop"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "In the shop's right-hand window display, now themed to Alice in Wonderland, an Ace of Clubs has had its club replaced by a Mickey head. It used to sit in a Houdini display in the left case. A second doctored ace is pinned to the ceiling inside.",
+    "whereToLook": {
+      "scene": "The display cases in the shop's front windows, the right one as you face the store",
+      "exactSpot": "The playing cards in the case. The Ace of Clubs with a Mickey in place of the club."
+    },
+    "bestTip": "If it is not in the right case, check the left. The displays get re-dressed.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "Display cases change theme from time to time."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8106,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0024",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Magic3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "main-street-candy-shop-chocolate-wall-mickey",
@@ -8705,6 +9150,248 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "main-street-cart-corner-stickers-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "main_street_walkway",
+    "display": {
+      "entryTitle": "Food Cart Corner Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Main Street Walkway"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "The bicycle-style food and drink carts along the street carry a small Mickey sticker in each of their four corners. The sticker design has changed over the years, but it is still there and still small.",
+    "whereToLook": {
+      "scene": "Any of the pedal food and beverage carts on Main Street",
+      "exactSpot": "The four corners of the cart body. Look for a small Mickey symbol in each."
+    },
+    "bestTip": "Check while you wait for your popcorn. Nobody minds.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "Carts move around the land."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 33.8108,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-DL-0009",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-General2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "main-street-casting-agency-window-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "main_street_walkway",
+    "display": {
+      "entryTitle": "Casting Agency Window Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Main Street Walkway"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "Among the fictitious businesses lettered on Main Street's doors and windows is the Disneyland Casting Agency. Its window carries two Mickeys, one at the top and one at the bottom. It is at ground level to the left of the Main Street Cinema, not up with the famous second-floor windows.",
+    "whereToLook": {
+      "scene": "The ground-floor window to the left of the Main Street Cinema",
+      "exactSpot": "The Disneyland Casting Agency lettering. One Mickey at the top of the window, another at the bottom."
+    },
+    "bestTip": "Everyone reads the upstairs windows. This one is at eye level.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8108,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-DL-0008",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-General1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "main-street-center-street-fruit-cart-frame-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "main_street_walkway",
+    "display": {
+      "entryTitle": "Center Street Fruit Cart Frame Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Main Street Walkway"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "The fruit cart at Center Street has a Mickey worked into its frame, underneath the cart.",
+    "whereToLook": {
+      "scene": "The fruit cart at Center Street, off the east side of Main Street",
+      "exactSpot": "Underneath the cart, in the metal frame."
+    },
+    "bestTip": "Bend down as if checking a wheel. It is in the framing, not the signage.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8108,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-DL-0010",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-General3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "main-street-cinema-stair-lights-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "main_street_cinema",
+    "display": {
+      "entryTitle": "Entry Stair Lights Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Main Street Cinema"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "Walking into the Main Street Cinema, look down at the lights set into the steps. All six on the entry stairway are shaped like Mickey.",
+    "whereToLook": {
+      "scene": "The entrance steps of the Main Street Cinema",
+      "exactSpot": "The step lights. Each is a Mickey head."
+    },
+    "bestTip": "Look down before you look at the screens.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8108,
+      "longitude": -117.9187
+    },
+    "sourceId": "TLC-DL-0022",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Cinema1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "main-street-recycle-can-arrows-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "main_street_walkway",
+    "display": {
+      "entryTitle": "Recycle Can Arrows Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Main Street Walkway"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "The green recycling cans along Main Street each hide a Mickey inside the recycling arrows. The painted flourishes draw the eye, and the Mickey is small enough to overlook even when you are looking at the can.",
+    "whereToLook": {
+      "scene": "Any green recycling can on Main Street",
+      "exactSpot": "Inside the recycling arrows symbol. A small three-circle shape sits within."
+    },
+    "bestTip": "Ignore the scrollwork and go straight to the arrows.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8108,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-DL-0011",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-General4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "main-street-station-roof-mickey-flags",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "main_street_station",
+    "display": {
+      "entryTitle": "Station Roof Mickey Flags",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Main Street Station"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "Flags with Mickey's face fly on both sides of the train station roof. Coming through the left tunnel into the park, look up and to your right as you exit. In still air they hang closed and the face disappears.",
+    "whereToLook": {
+      "scene": "The train station roof as you come through the entrance tunnels",
+      "exactSpot": "The flags at either end of the station roof. Mickey's face shows when the wind catches them."
+    },
+    "bestTip": "Look up the moment you clear the tunnel, before Main Street pulls your eyes forward.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far",
+      "notes": "Only readable when the wind unfurls the flags."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8095,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-DL-0005",
+    "sourceUrl": "https://hiddenmickeywiki.com/Town_Square#DL-RR1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "main-street-vehicles-key-chain-mickeys",
     "parkId": "california_kingdom_park",
     "landId": "main_street_area",
@@ -8734,12 +9421,15 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Obvious",
     "verification": "Community",
+    "status": "Variable",
     "coordinates": {
       "latitude": 33.8113,
       "longitude": -117.919
     },
+    "sourceId": "TLC-DL-0002",
+    "sourceUrl": "https://hiddenmickeywiki.com/Town_Square#MS-Vehicles1",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "mara-cafe-rear-mural-monkey-face-mickey",
@@ -9773,6 +10463,166 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
+    "id": "opera-house-balcony-ironwork-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "opera_house_lincoln",
+    "display": {
+      "entryTitle": "Balcony Ironwork Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Great Moments with Mr. Lincoln"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "On the face of the Opera House, the iron grillwork on the balconies to the left and right works a large circle with two smaller circles above it into the pattern. Stand in front of the Lincoln show entrance and look up and right at the window painted with the Main Street Electrical Parade; the grille is right in front of it.",
+    "whereToLook": {
+      "scene": "The Opera House facade, the balcony ironwork left and right",
+      "exactSpot": "In the grillwork in front of the painted parade window. One large circle with two smaller ones set as ears."
+    },
+    "bestTip": "Both sides of the facade have the grille, so whichever side is less crowded works.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8101,
+      "longitude": -117.9186
+    },
+    "sourceId": "TLC-DL-0006",
+    "sourceUrl": "https://hiddenmickeywiki.com/Town_Square#Mr-Lincoln1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "partners-statue-dumbo-on-ball-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "partners_statue",
+    "display": {
+      "entryTitle": "Dumbo on a Ball Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Partners Statue"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "Around the statue of Walt and Mickey stand smaller character statues, including Dumbo perched on a ball. Seen from behind, the ball is the head and Dumbo's two back legs are the ears.",
+    "whereToLook": {
+      "scene": "The small character statues ringing the Partners statue in the hub",
+      "exactSpot": "The Dumbo statue. Stand behind it so the ball and his back legs line up as a Mickey."
+    },
+    "bestTip": "Walk around to the back. From the front it is just an elephant.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.812,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-DL-0025",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Partners1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "penny-arcade-orchestrion-sign-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "penny_arcade",
+    "display": {
+      "entryTitle": "Orchestrion Sign Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Penny Arcade"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Shop",
+    "description": "The Welte Orchestrion at the back of the Penny Arcade has a small sign at its lower right telling you when the next tune plays. At the top center of that sign is a very tiny Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The Welte Orchestrion at the back of the Penny Arcade",
+      "exactSpot": "The small sign at the lower right of the machine. The Mickey is at the sign's top center."
+    },
+    "bestTip": "Lean in without touching the glass. It is as small as they come.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.811,
+      "longitude": -117.9187
+    },
+    "sourceId": "TLC-DL-0019",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Arcade1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "penny-arcade-pinocchio-game-panel-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "penny_arcade",
+    "display": {
+      "entryTitle": "Pinocchio Game Panel Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Penny Arcade"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "A quarter lets you pull Pinocchio's strings on a themed arcade game worked by four buttons. On the control panel, under the title and between the buttons, sits a decorative Mickey.",
+    "whereToLook": {
+      "scene": "The Pinocchio marionette game in the Penny Arcade",
+      "exactSpot": "The control panel, below the title and between the four buttons."
+    },
+    "bestTip": "You do not need to play. The panel is visible from standing height.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.811,
+      "longitude": -117.9187
+    },
+    "sourceId": "TLC-DL-0020",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Arcade2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "photopass-studio-left-column-mickey",
     "parkId": "springs_bucket",
     "landId": "marketplace",
@@ -10363,6 +11213,47 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-DL-0096",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Pixie-Hollow1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "plaza-inn-entrance-flower-painting-roses-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "plaza_inn",
+    "display": {
+      "entryTitle": "Entrance Flower Painting Roses Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Plaza Inn"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "To the right of the Plaza Inn's main entrance hangs a painting of flowers. Three roses in it form a Mickey lying on its side, with the ears off to the right.",
+    "whereToLook": {
+      "scene": "Just inside the Plaza Inn's main entrance, the flower painting on the right",
+      "exactSpot": "Three roses in the painting arranged as a head with two ears pointing right.",
+      "orientation": "Sideways"
+    },
+    "bestTip": "Tilt your head to the right and the shape jumps out.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8121,
+      "longitude": -117.9183
+    },
+    "sourceId": "TLC-DL-0026",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#Plaza-Inn1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
@@ -12900,6 +13791,47 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "silhouette-studio-display-frames-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "silhouette_studio",
+    "display": {
+      "entryTitle": "Display Frame Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Silhouette Studio"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "The frames the Silhouette Studio sells and displays are worked with Mickey heads, about eight to a frame.",
+    "whereToLook": {
+      "scene": "The frames on display inside the Silhouette Studio",
+      "exactSpot": "The border of any frame. Count the three-circle shapes around it."
+    },
+    "bestTip": "Any frame on the wall will do; they share the design.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Merchandise, so the stock changes."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 33.8109,
+      "longitude": -117.9188
+    },
+    "sourceId": "TLC-DL-0021",
+    "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Silhouette1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "singing-birds-show-exit-perch-carving-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "jungle_outpost_area",
@@ -14574,6 +15506,47 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://hiddenmickeyguy.com/1047-2/",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  },
+  {
+    "id": "tour-gardens-roof-mickey-flag",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "tour_gardens",
+    "display": {
+      "entryTitle": "Roof Mickey Flag",
+      "parkName": "Disneyland Park",
+      "landName": "Main Street, U.S.A.",
+      "attractionName": "Tour Gardens"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Outdoor Display",
+    "description": "A flag with Mickey's face flies above the Tour Gardens, matching the ones over the train station. When the air is still it hangs furled, and the face is hidden until a breeze opens it.",
+    "whereToLook": {
+      "scene": "The roofline above the Tour Gardens in Town Square",
+      "exactSpot": "The flag on the roof. Wait for wind and Mickey's face shows."
+    },
+    "bestTip": "A still morning hides it. Check again when the flags are moving.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Far",
+      "notes": "Only readable when the wind unfurls the flag."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8097,
+      "longitude": -117.9187
+    },
+    "sourceId": "TLC-DL-0001",
+    "sourceUrl": "https://hiddenmickeywiki.com/Town_Square#Tour-Gardens1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "tower-plaza-flagpole-pavement-holes-mickey",

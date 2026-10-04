@@ -1,0 +1,40 @@
+{
+  "id": "partners-statue-dumbo-on-ball-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "partners_statue",
+  "display": {
+    "entryTitle": "Dumbo on a Ball Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Partners Statue"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "Around the statue of Walt and Mickey stand smaller character statues, including Dumbo perched on a ball. Seen from behind, the ball is the head and Dumbo's two back legs are the ears.",
+  "whereToLook": {
+    "scene": "The small character statues ringing the Partners statue in the hub",
+    "exactSpot": "The Dumbo statue. Stand behind it so the ball and his back legs line up as a Mickey."
+  },
+  "bestTip": "Walk around to the back. From the front it is just an elephant.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.812,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-DL-0025",
+  "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Partners1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

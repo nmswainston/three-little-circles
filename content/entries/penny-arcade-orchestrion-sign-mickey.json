@@ -1,0 +1,40 @@
+{
+  "id": "penny-arcade-orchestrion-sign-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "penny_arcade",
+  "display": {
+    "entryTitle": "Orchestrion Sign Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Penny Arcade"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Shop",
+  "description": "The Welte Orchestrion at the back of the Penny Arcade has a small sign at its lower right telling you when the next tune plays. At the top center of that sign is a very tiny Hidden Mickey.",
+  "whereToLook": {
+    "scene": "The Welte Orchestrion at the back of the Penny Arcade",
+    "exactSpot": "The small sign at the lower right of the machine. The Mickey is at the sign's top center."
+  },
+  "bestTip": "Lean in without touching the glass. It is as small as they come.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.811,
+    "longitude": -117.9187
+  },
+  "sourceId": "TLC-DL-0019",
+  "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Arcade1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

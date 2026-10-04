@@ -1,0 +1,41 @@
+{
+  "id": "emporium-exit-clock-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "emporium_shop",
+  "display": {
+    "entryTitle": "Exit Clock Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Emporium"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Shop",
+  "description": "Above one of the Emporium's entrances a large clock is built in the shape of a Mickey head, hung upside down so the ears point to the floor.",
+  "whereToLook": {
+    "scene": "Inside the Emporium, above one of the street entrances",
+    "exactSpot": "The big clock over the doorway. The clock face and two round ears, inverted.",
+    "orientation": "Upside-down"
+  },
+  "bestTip": "Look back at the doors from inside the store rather than up as you walk in.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8105,
+    "longitude": -117.9196
+  },
+  "sourceId": "TLC-DL-0014",
+  "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Emporium2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

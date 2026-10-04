@@ -1,0 +1,40 @@
+{
+  "id": "mad-hatter-main-street-gibson-window-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "mad_hatter_main_street",
+  "display": {
+    "entryTitle": "Busy Hands Window Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Mad Hatter (Main Street)"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Shop",
+  "description": "Above the Mad Hatter shop, to the left of the Opera House, a second-floor window honors sculptor Blaine Gibson. Under the words Busy Hands, two hands hold a blue carving, and a Mickey sits on the right side of the carving. A canopy hides it unless you stand near the storefront.",
+  "whereToLook": {
+    "scene": "The upper-floor window above the Mad Hatter shop, left of the Opera House",
+    "exactSpot": "Under Busy Hands, the blue carving in the hands. The Mickey is on its right side."
+  },
+  "bestTip": "Get close to the front of the shop and look straight up; from the street the canopy blocks it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8102,
+    "longitude": -117.9185
+  },
+  "sourceId": "TLC-DL-0004",
+  "sourceUrl": "https://hiddenmickeywiki.com/Town_Square#Mad-Hatter1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

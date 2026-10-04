@@ -1,0 +1,40 @@
+{
+  "id": "emporium-register-mural-back-globe-walt-and-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "emporium_shop",
+  "display": {
+    "entryTitle": "Register Mural Walt and Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Emporium"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "The same register mural has a second globe in the background, and in it Mickey stands holding hands with Walt Disney.",
+  "whereToLook": {
+    "scene": "Inside the Emporium, the mural behind the register between the exits, the globe in the background",
+    "exactSpot": "The rear globe. Walt and Mickey are hand in hand."
+  },
+  "bestTip": "Find the front globe's Mickeys first, then look past them to the back.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8105,
+    "longitude": -117.9196
+  },
+  "sourceId": "TLC-DL-0016",
+  "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Emporium1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

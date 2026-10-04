@@ -1,0 +1,41 @@
+{
+  "id": "plaza-inn-entrance-flower-painting-roses-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "plaza_inn",
+  "display": {
+    "entryTitle": "Entrance Flower Painting Roses Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Plaza Inn"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "To the right of the Plaza Inn's main entrance hangs a painting of flowers. Three roses in it form a Mickey lying on its side, with the ears off to the right.",
+  "whereToLook": {
+    "scene": "Just inside the Plaza Inn's main entrance, the flower painting on the right",
+    "exactSpot": "Three roses in the painting arranged as a head with two ears pointing right.",
+    "orientation": "Sideways"
+  },
+  "bestTip": "Tilt your head to the right and the shape jumps out.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8121,
+    "longitude": -117.9183
+  },
+  "sourceId": "TLC-DL-0026",
+  "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#Plaza-Inn1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "fortuosity-shop-carved-woodwork-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "fortuosity_shop",
+  "display": {
+    "entryTitle": "Carved Woodwork Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Fortuosity Shop"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "The woodwork in the Fortuosity Shop is hand carved, and a Mickey is cut into it. Cast members at the register know it is there.",
+  "whereToLook": {
+    "scene": "Inside the Fortuosity Shop, the carved wood trim and fixtures",
+    "exactSpot": "Scan the carving for a three-circle shape worked into the pattern."
+  },
+  "bestTip": "If you strike out, the register staff have pointed guests to it before.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8112,
+    "longitude": -117.9193
+  },
+  "sourceId": "TLC-DL-0017",
+  "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Fortuosity1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

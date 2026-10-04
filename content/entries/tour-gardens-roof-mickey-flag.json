@@ -1,0 +1,41 @@
+{
+  "id": "tour-gardens-roof-mickey-flag",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "tour_gardens",
+  "display": {
+    "entryTitle": "Roof Mickey Flag",
+    "parkName": "Disneyland Park",
+    "landName": "Main Street, U.S.A.",
+    "attractionName": "Tour Gardens"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Outdoor Display",
+  "description": "A flag with Mickey's face flies above the Tour Gardens, matching the ones over the train station. When the air is still it hangs furled, and the face is hidden until a breeze opens it.",
+  "whereToLook": {
+    "scene": "The roofline above the Tour Gardens in Town Square",
+    "exactSpot": "The flag on the roof. Wait for wind and Mickey's face shows."
+  },
+  "bestTip": "A still morning hides it. Check again when the flags are moving.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Far",
+    "notes": "Only readable when the wind unfurls the flag."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8097,
+    "longitude": -117.9187
+  },
+  "sourceId": "TLC-DL-0001",
+  "sourceUrl": "https://hiddenmickeywiki.com/Town_Square#Tour-Gardens1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
