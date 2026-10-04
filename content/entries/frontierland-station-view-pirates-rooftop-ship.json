@@ -1,0 +1,40 @@
+{
+  "id": "frontierland-station-view-pirates-rooftop-ship",
+  "parkId": "california_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "frontierland_streets",
+  "display": {
+    "entryTitle": "Station View Pirates Rooftop Ship",
+    "parkName": "Disneyland Park",
+    "landName": "Frontierland",
+    "attractionName": "Frontierland Streets"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "Stand on the stairway of the railroad station and look right, toward Pirates of the Caribbean. On the roof of the Pirates show building sits a pirate ship, invisible from the ground and only meant to be seen from up here.",
+  "whereToLook": {
+    "scene": "The stairway of the New Orleans Square railroad station, looking right toward Pirates",
+    "exactSpot": "The roof of the Pirates of the Caribbean building. A ship."
+  },
+  "bestTip": "Climb the station stairs even if you are not riding the train.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8119,
+    "longitude": -117.92
+  },
+  "sourceId": "TLC-DL-0083",
+  "sourceUrl": "https://hiddenmickeywiki.com/Frontierland",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

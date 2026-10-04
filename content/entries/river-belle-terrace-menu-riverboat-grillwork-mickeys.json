@@ -1,0 +1,40 @@
+{
+  "id": "river-belle-terrace-menu-riverboat-grillwork-mickeys",
+  "parkId": "california_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "river_belle_terrace",
+  "display": {
+    "entryTitle": "Menu Riverboat Grillwork Mickeys",
+    "parkName": "Disneyland Park",
+    "landName": "Frontierland",
+    "attractionName": "River Belle Terrace"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "The River Belle Terrace menus picture the Mark Twain, and the drawing copies the real boat's secret: Hidden Mickeys in the grillwork between the smokestacks.",
+  "whereToLook": {
+    "scene": "The River Belle Terrace menu",
+    "exactSpot": "The riverboat illustration. The grillwork between the smokestacks."
+  },
+  "bestTip": "Menus change. Check the current one before you count on it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "coordinates": {
+    "latitude": 33.8118,
+    "longitude": -117.9205
+  },
+  "sourceId": "TLC-DL-0091",
+  "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#River-Belle1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "tom-sawyer-island-shore-stump-pooh-profile",
+  "parkId": "california_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "tom_sawyer_island",
+  "display": {
+    "entryTitle": "Shoreline Stump Pooh Profile",
+    "parkName": "Disneyland Park",
+    "landName": "Frontierland",
+    "attractionName": "Pirate's Lair on Tom Sawyer Island"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Outdoor Display",
+  "description": "A tree stump in the water along the Tom Sawyer Island shore, on the side facing the Fantasmic! viewing area, is Winnie the Pooh in profile. The lower half of the stump makes his snout and mouth. It reads from the Frontierland walkway and from the canoes.",
+  "whereToLook": {
+    "scene": "The Tom Sawyer Island shoreline facing the Rivers of America walkway",
+    "exactSpot": "A stump standing in the water. Pooh's profile from the side."
+  },
+  "bestTip": "Ask whoever is with you who they see. If they say Pooh unprompted, you have it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8125,
+    "longitude": -117.922
+  },
+  "sourceId": "TLC-DL-0090",
+  "sourceUrl": "https://hiddenmickeywiki.com/Frontierland",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

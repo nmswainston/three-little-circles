@@ -1,0 +1,41 @@
+{
+  "id": "big-thunder-exit-cactus-garden-prickly-pear-mickeys",
+  "parkId": "california_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "wild_west_mine_coaster",
+  "display": {
+    "entryTitle": "Exit Cactus Garden Prickly Pear Mickeys",
+    "parkName": "Disneyland Park",
+    "landName": "Frontierland",
+    "attractionName": "Big Thunder Mountain Railroad"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Exit",
+  "description": "Leaving Big Thunder, turn right toward Fantasyland. A small cactus garden on the right holds several prickly pears whose pads grow as Mickey heads. They only stay that way because somebody keeps trimming the new pads off, and now and then eyes and a nose appear too.",
+  "whereToLook": {
+    "scene": "The cactus garden on the right as you leave Big Thunder toward Fantasyland",
+    "exactSpot": "The prickly pear cacti. Pads grouped as heads and ears."
+  },
+  "bestTip": "They change with the gardening. Some visits have more than others.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "Depends on recent trimming."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "coordinates": {
+    "latitude": 33.8127,
+    "longitude": -117.9209
+  },
+  "sourceId": "TLC-DL-0086",
+  "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Thunder-Mountain2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

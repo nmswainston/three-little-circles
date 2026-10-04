@@ -1,0 +1,40 @@
+{
+  "id": "frontierland-entrance-cannon-tongue-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "frontierland_streets",
+  "display": {
+    "entryTitle": "Entrance Cannon Tongue Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Frontierland",
+    "attractionName": "Frontierland Streets"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "Coming into Frontierland from the hub, a cannon sits off to your right. Walk around behind it and look at the end of the tongue, the long arm that trails behind the barrel. The hole at its tip and the two bolts beside it make a Hidden Mickey.",
+  "whereToLook": {
+    "scene": "The cannon just inside the Frontierland entrance, on the right from the hub",
+    "exactSpot": "The end of the cannon's tongue, behind the barrel. A hole and two bolts."
+  },
+  "bestTip": "Nobody looks at the back of a cannon. That is the whole trick.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8119,
+    "longitude": -117.92
+  },
+  "sourceId": "TLC-DL-0082",
+  "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Frontierland-General2",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
