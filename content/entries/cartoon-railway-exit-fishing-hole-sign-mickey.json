@@ -1,0 +1,40 @@
+{
+  "id": "cartoon-railway-exit-fishing-hole-sign-mickey",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Exit Fishing Hole Sign Mickey",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Right before the car enters the unload room, during the fireworks, a multi-directional signpost stands on the right. On the arm that reads Fishing Hole, the letter O has been swapped for a Mickey.",
+  "whereToLook": {
+    "scene": "Just before the unload room during the fireworks, the signpost on the right",
+    "exactSpot": "The Fishing Hole arm of the sign. The O is a Mickey."
+  },
+  "bestTip": "Last chance of the ride. Look right as the fireworks wind down.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Right",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "sourceId": "TLC-HS-0088",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway50",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

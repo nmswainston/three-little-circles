@@ -1,0 +1,40 @@
+{
+  "id": "cartoon-railway-park-restored-potted-plants-mickeys",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Park Restored Potted Plants Mickeys",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Once Mickey and Minnie shut down the Smasher, the factory turns back into Runnamuck Park. Potted plants appear on the left and right above where the Smasher sign was, and the plants are trimmed into Mickeys.",
+  "whereToLook": {
+    "scene": "The factory after it turns back into the park, above where the Smasher sign was",
+    "exactSpot": "The potted plants on the left and right. Mickey shapes in the foliage."
+  },
+  "bestTip": "The transformation is the cue. Look where the sign used to be.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "sourceId": "TLC-HS-0084",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway62",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

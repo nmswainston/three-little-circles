@@ -1,0 +1,40 @@
+{
+  "id": "cartoon-railway-factory-entrance-banner-mickey-ears-bite",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Factory Entrance Banner Mickey Ears Bite",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Just before the factory room, a string of triangular pennants hangs over the track. One pennant has a chunk missing, and the missing piece is shaped like Mickey ears.",
+  "whereToLook": {
+    "scene": "The string of pennants over the track right before the factory room",
+    "exactSpot": "The pennant with a piece missing. The gap is Mickey ears."
+  },
+  "bestTip": "Look up as the factory comes into view.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "sourceId": "TLC-HS-0073",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway61",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

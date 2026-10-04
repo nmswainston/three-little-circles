@@ -1,0 +1,40 @@
+{
+  "id": "cartoon-railway-carnival-frontier-toss-targets-mickey",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Carnival Frontier Toss Targets Mickey",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Heading for the carnival room exit, look left for the Frontier Toss game, to the left of the Bounce Haus. Three of its targets form a Mickey.",
+  "whereToLook": {
+    "scene": "The carnival room near the exit, the Frontier Toss booth on the left",
+    "exactSpot": "Three targets on the Frontier Toss game, grouped as a head and ears."
+  },
+  "bestTip": "The Bounce Haus is the landmark. Frontier Toss is just left of it.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Left",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "sourceId": "TLC-HS-0061",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway15",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "cartoon-railway-cactus-room-blue-cactus-stitch",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Cactus Room Blue Cactus Stitch",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FACT",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Entering the cactus room, look straight ahead for a lone blue cactus with a stitch on its right side. That is Experiment 626, Stitch himself, hiding out on the railway.",
+  "whereToLook": {
+    "scene": "The cactus room, straight ahead as you enter",
+    "exactSpot": "The single blue cactus with a stitch mark on its right side."
+  },
+  "bestTip": "Blue is the giveaway in a room full of green.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "sourceId": "TLC-HS-0055",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway49",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "cartoon-railway-city-ice-cream-scoops-mickey",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "City Ice Cream Scoops Mickey",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the same city scene, an ice cream shop sits to the right of Pete, and its scoops are stacked as a Hidden Mickey.",
+  "whereToLook": {
+    "scene": "The city scene with Pete's jackhammer, the ice cream shop to his right",
+    "exactSpot": "The ice cream sign or display. Scoops as a head and ears."
+  },
+  "bestTip": "Pete is the pivot: billboard to his left, ice cream to his right.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Right",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "sourceId": "TLC-HS-0067",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway21",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

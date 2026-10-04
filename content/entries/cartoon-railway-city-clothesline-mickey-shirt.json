@@ -1,0 +1,40 @@
+{
+  "id": "cartoon-railway-city-clothesline-mickey-shirt",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "City Clothesline Mickey Shirt",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "Above Donald's delivery truck on the left side of the city scene, an open window has a clothesline strung from it, and a Mickey Mouse shirt is hanging on the line. The scene is dim, so it reads better on a night ride when your eyes are already adjusted.",
+  "whereToLook": {
+    "scene": "The city scene, above Donald's delivery truck on the left",
+    "exactSpot": "The open window with the clothesline. A Mickey shirt on the line."
+  },
+  "bestTip": "Ride after dark. The scene is easier when your eyes are not fighting daylight.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dark",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "sourceId": "TLC-HS-0068",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway43",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
