@@ -24299,6 +24299,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-22T00:00:00.000Z"
   },
   {
+    "id": "undersea-clamshell-entry-shell-right-mickey",
+    "parkId": "california_pier_park",
+    "landId": "boardwalk_gardens_area",
+    "attractionId": "undersea_clamshell_ride",
+    "display": {
+      "entryTitle": "Entry Shell Right Side Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Paradise Gardens Park",
+      "attractionName": "The Little Mermaid: Ariel's Undersea Adventure"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Right after boarding, as the clamshell enters the ride, look to the right of the shell for a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "Just after boarding, entering the ride",
+      "exactSpot": "To the right of the shell as you enter."
+    },
+    "bestTip": "Look right the moment you leave the loading area.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Right",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8063,
+      "longitude": -117.9215
+    },
+    "sourceId": "TLC-CA-0069",
+    "sourceUrl": "https://hiddenmickeywiki.com/Paradise_Gardens_Park#Ariels-Adventure1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "undersea-clamshell-exit-rockwork-steamboat-figure",
     "parkId": "magic_kingdom_park",
     "landId": "storybook_forest_area",
@@ -24339,6 +24379,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "undersea-clamshell-exterior-grillwork-bubble-mickeys",
+    "parkId": "california_pier_park",
+    "landId": "boardwalk_gardens_area",
+    "attractionId": "undersea_clamshell_ride",
+    "display": {
+      "entryTitle": "Exterior Grillwork Bubble Mickeys",
+      "parkName": "Disney California Adventure",
+      "landName": "Paradise Gardens Park",
+      "attractionName": "The Little Mermaid: Ariel's Undersea Adventure"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "The iron grillwork on the outside of the attraction is worked into bubbles, and some of the bubble clusters are Mickeys.",
+    "whereToLook": {
+      "scene": "The iron grillwork on the exterior of the building",
+      "exactSpot": "The bubble clusters in the ironwork. Groups of three, one large and two small."
+    },
+    "bestTip": "Look at the railings and grilles while you wait, not the marquee.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8063,
+      "longitude": -117.9215
+    },
+    "sourceId": "TLC-CA-0068",
+    "sourceUrl": "https://hiddenmickeywiki.com/Paradise_Gardens_Park#Ariels-Adventure3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "undersea-clamshell-kiss-scene-frog-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "storybook_forest_area",
@@ -24377,6 +24457,46 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-little-mermaid-frog-hidden-mickeys",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "undersea-clamshell-kiss-the-girl-frog-backs-mickeys",
+    "parkId": "california_pier_park",
+    "landId": "boardwalk_gardens_area",
+    "attractionId": "undersea_clamshell_ride",
+    "display": {
+      "entryTitle": "Kiss the Girl Frog Backs Mickeys",
+      "parkName": "Disney California Adventure",
+      "landName": "Paradise Gardens Park",
+      "attractionName": "The Little Mermaid: Ariel's Undersea Adventure"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the Kiss the Girl scene, look at the backs of the frogs. Each one carries two Hidden Mickeys in its markings.",
+    "whereToLook": {
+      "scene": "The Kiss the Girl scene, the frogs",
+      "exactSpot": "The frogs' backs. Two Mickeys per frog."
+    },
+    "bestTip": "Pick one frog and study it rather than scanning the whole lagoon.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8063,
+      "longitude": -117.9215
+    },
+    "sourceId": "TLC-CA-0070",
+    "sourceUrl": "https://hiddenmickeywiki.com/Paradise_Gardens_Park#Ariels-Adventure2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "undersea-clamshell-queue-birthday-shadow-mickey",

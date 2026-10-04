@@ -1,0 +1,40 @@
+{
+  "id": "undersea-clamshell-entry-shell-right-mickey",
+  "parkId": "california_pier_park",
+  "landId": "boardwalk_gardens_area",
+  "attractionId": "undersea_clamshell_ride",
+  "display": {
+    "entryTitle": "Entry Shell Right Side Mickey",
+    "parkName": "Disney California Adventure",
+    "landName": "Paradise Gardens Park",
+    "attractionName": "The Little Mermaid: Ariel's Undersea Adventure"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Right after boarding, as the clamshell enters the ride, look to the right of the shell for a Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Just after boarding, entering the ride",
+    "exactSpot": "To the right of the shell as you enter."
+  },
+  "bestTip": "Look right the moment you leave the loading area.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Right",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8063,
+    "longitude": -117.9215
+  },
+  "sourceId": "TLC-CA-0069",
+  "sourceUrl": "https://hiddenmickeywiki.com/Paradise_Gardens_Park#Ariels-Adventure1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
