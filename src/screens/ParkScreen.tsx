@@ -629,6 +629,9 @@ const createStyles = (t: Theme) =>
     },
     searchInput: {
       flex: 1,
+      // On web an input refuses to shrink below its own default width, which
+      // pushed the clear button out of the field and under the Filter button.
+      minWidth: 0,
       ...text.body,
       lineHeight: 20,
       color: t.colors.text,
