@@ -5,6 +5,8 @@ import { getAllEntries } from '../src/data/query';
 import { labelOrFallback } from '../src/data/labels';
 import { useFoundStore } from '../src/store/useFoundStore';
 import { useSettingsStore } from '../src/store/useSettingsStore';
+import { useConfirmationsStore } from '../src/store/useConfirmationsStore';
+import * as confirmations from '../src/data/confirmations';
 
 // A find with a scene, a tip, an exact spot, and no orientation, so the
 // ladder is the free scene plus two hints: the tip, then the exact spot.
@@ -23,11 +25,13 @@ let mockEntryId = '';
 beforeAll(async () => {
   await useFoundStore.persist.rehydrate();
   await useSettingsStore.persist.rehydrate();
+  await useConfirmationsStore.persist.rehydrate();
 });
 
 beforeEach(() => {
   mockEntryId = entry.id;
   useFoundStore.setState({ found: {} });
+  useConfirmationsStore.setState({ reported: {} });
   useSettingsStore.getState().setHintMode(true);
 });
 
@@ -108,5 +112,46 @@ describe('EntryDetailScreen accessibility', () => {
     mockEntryId = gated.id;
     render(<EntryDetailScreen />);
     expect(screen.getByLabelText(`Access note: ${gated.accessNotes}`)).toBeTruthy();
+  });
+});
+
+const UNCONFIRMED_NOTE = "No one has confirmed this one yet. Found it? Tap 'Saw it today' below so others know.";
+
+describe('EntryDetailScreen unconfirmed finds', () => {
+  const unconfirmed = getAllEntries().find((e) => e.status === 'Unverified')!;
+  const current = getAllEntries().find((e) => e.status === 'Current')!;
+
+  it('labels an unconfirmed find and asks the guest to report it', () => {
+    mockEntryId = unconfirmed.id;
+    render(<EntryDetailScreen />);
+    expect(screen.getByText('Not confirmed yet')).toBeTruthy();
+    expect(screen.getByText(UNCONFIRMED_NOTE)).toBeTruthy();
+  });
+
+  it('shows neither on a confirmed find', () => {
+    mockEntryId = current.id;
+    render(<EntryDetailScreen />);
+    expect(screen.queryByText('Not confirmed yet')).toBeNull();
+    expect(screen.queryByText(UNCONFIRMED_NOTE)).toBeNull();
+  });
+
+  it('drops the ask once this device has reported, but keeps the label', () => {
+    mockEntryId = unconfirmed.id;
+    useConfirmationsStore.setState({ reported: { [unconfirmed.id]: { status: 'seen', at: Date.now() } } });
+    render(<EntryDetailScreen />);
+    expect(screen.getByText('Not confirmed yet')).toBeTruthy();
+    expect(screen.queryByText(UNCONFIRMED_NOTE)).toBeNull();
+  });
+
+  it('drops both once guest reports confirm the find', () => {
+    const spy = jest.spyOn(confirmations, 'isConfirmed').mockReturnValue(true);
+    try {
+      mockEntryId = unconfirmed.id;
+      render(<EntryDetailScreen />);
+      expect(screen.queryByText('Not confirmed yet')).toBeNull();
+      expect(screen.queryByText(UNCONFIRMED_NOTE)).toBeNull();
+    } finally {
+      spy.mockRestore();
+    }
   });
 });
