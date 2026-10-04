@@ -1,0 +1,40 @@
+{
+  "id": "toontown-railway-theater-door-portholes-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "cartoon_town_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Theater Door Portholes Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Mickey's Toontown",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Easy",
+  "areaContext": "Queue",
+  "description": "The padded red theater doors throughout the queue each pair two round porthole windows with a round steel push plate below, and the three circles make a Mickey face across the double doors.",
+  "whereToLook": {
+    "scene": "Any of the padded red double doors along the queue",
+    "exactSpot": "Two porthole windows up top and the round push plate at the handles. Head and ears."
+  },
+  "bestTip": "Step back a few feet; up close it is just a door.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8149,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-DL-0136",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway64",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

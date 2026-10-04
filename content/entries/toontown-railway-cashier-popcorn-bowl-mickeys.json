@@ -1,0 +1,40 @@
+{
+  "id": "toontown-railway-cashier-popcorn-bowl-mickeys",
+  "parkId": "california_kingdom_park",
+  "landId": "cartoon_town_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Cashier Popcorn Bowl Mickeys",
+    "parkName": "Disneyland Park",
+    "landName": "Mickey's Toontown",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "The popcorn display at the snack bar cashier is full of Mickeys, both sculpted three-dimensional heads and flat classic groupings of kernels. There are too many to count, so the whole bowl is one find.",
+  "whereToLook": {
+    "scene": "The popcorn display at the snack bar cashier",
+    "exactSpot": "Anywhere in the popcorn. Look for round kernel groupings with two smaller ones on top."
+  },
+  "bestTip": "Find one and your eye will start pulling out the rest.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8149,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-DL-0147",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway24",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

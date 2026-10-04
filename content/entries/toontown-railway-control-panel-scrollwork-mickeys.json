@@ -1,0 +1,40 @@
+{
+  "id": "toontown-railway-control-panel-scrollwork-mickeys",
+  "parkId": "california_kingdom_park",
+  "landId": "cartoon_town_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Control Panel Scrollwork Mickeys",
+    "parkName": "Disneyland Park",
+    "landName": "Mickey's Toontown",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Loading",
+  "description": "The cast member control panels at the load station carry a decorative plaque with ornate scrollwork, and two Mickeys are tucked into the flourishes at either end of it.",
+  "whereToLook": {
+    "scene": "The cast member control panel at the load station",
+    "exactSpot": "The decorative plaque above the vehicle controls. One Mickey in the scrollwork at each end."
+  },
+  "bestTip": "You can only see it from the platform while the panel is in view. Do not lean over it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8149,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-DL-0156",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway11",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

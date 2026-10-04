@@ -1,0 +1,40 @@
+{
+  "id": "toontown-railway-snack-bar-bbq-sauce-spill-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "cartoon_town_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Snack Bar BBQ Sauce Spill Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Mickey's Toontown",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "Four big sauce bottles line the snack bar. The first is barbecue sauce with a large spill beneath it, and just below that spill is a much smaller one shaped as a Mickey.",
+  "whereToLook": {
+    "scene": "The four large sauce bottles in the snack bar, the barbecue bottle",
+    "exactSpot": "Below the big spill, a small three-circle spill."
+  },
+  "bestTip": "The big spill is the decoy. Look under it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8149,
+    "longitude": -117.9188
+  },
+  "sourceId": "TLC-DL-0151",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway51",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
