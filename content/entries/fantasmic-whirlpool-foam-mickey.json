@@ -1,0 +1,41 @@
+{
+  "id": "fantasmic-whirlpool-foam-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "fantasmic",
+  "display": {
+    "entryTitle": "Whirlpool Foam Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Frontierland",
+    "attractionName": "Fantasmic!"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Outdoor Display",
+  "description": "During Fantasmic!, as Sorcerer Mickey is swept down the river toward the whirlpool and just before the pirate ship sails in, the foam on the water screen gathers into a Mickey head for a second or two. The footage comes straight from Fantasia, and the shape is in the film too.",
+  "whereToLook": {
+    "scene": "Fantasmic!, the whirlpool sequence on the water screens, right before the pirate ship",
+    "exactSpot": "The foam just ahead of Mickey as he nears the whirlpool."
+  },
+  "bestTip": "Watch the foam, not Mickey. It takes most people two shows.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Flashing",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Seasonal",
+  "accessNotes": "Only during Fantasmic! performances.",
+  "coordinates": {
+    "latitude": 33.8121,
+    "longitude": -117.9212
+  },
+  "sourceId": "TLC-DL-0094",
+  "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Fantasmic-1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

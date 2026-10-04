@@ -1438,6 +1438,90 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "big-thunder-exit-cactus-garden-prickly-pear-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "wild_west_mine_coaster",
+    "display": {
+      "entryTitle": "Exit Cactus Garden Prickly Pear Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Frontierland",
+      "attractionName": "Big Thunder Mountain Railroad"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Exit",
+    "description": "Leaving Big Thunder, turn right toward Fantasyland. A small cactus garden on the right holds several prickly pears whose pads grow as Mickey heads. They only stay that way because somebody keeps trimming the new pads off, and now and then eyes and a nose appear too.",
+    "whereToLook": {
+      "scene": "The cactus garden on the right as you leave Big Thunder toward Fantasyland",
+      "exactSpot": "The prickly pear cacti. Pads grouped as heads and ears."
+    },
+    "bestTip": "They change with the gardening. Some visits have more than others.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Depends on recent trimming."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 33.8127,
+      "longitude": -117.9209
+    },
+    "sourceId": "TLC-DL-0086",
+    "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Thunder-Mountain2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "big-thunder-second-lift-rusted-gears-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "wild_west_mine_coaster",
+    "display": {
+      "entryTitle": "Second Lift Rusted Gears Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Frontierland",
+      "attractionName": "Big Thunder Mountain Railroad"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "Going up the lift hill that ends with the goat, look left right at the bottom. Three big rusted gears lean against the rock, two small ones overlapping a large one, upside down but unmistakably a Mickey. Park lore says the attraction was built without Hidden Mickeys and that cast members, tired of being asked where it was, made this one themselves.",
+    "whereToLook": {
+      "scene": "The start of the lift hill with the goat at the top, the left side",
+      "exactSpot": "Three rusted gears on the left at the base of the lift. Inverted head and ears."
+    },
+    "bestTip": "Look left the moment the chain catches. It is behind you fast.",
+    "funFacts": [
+      "The story goes that cast members built this one after years of guests asking where the ride's Hidden Mickey was."
+    ],
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Left",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8127,
+      "longitude": -117.9209
+    },
+    "sourceId": "TLC-DL-0085",
+    "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Thunder-Mountain1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "blue-bayou-stained-glass-urn-window-mickey",
     "parkId": "california_kingdom_park",
     "landId": "french_quarter_area",
@@ -4428,6 +4512,47 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "fantasmic-whirlpool-foam-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "fantasmic",
+    "display": {
+      "entryTitle": "Whirlpool Foam Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Frontierland",
+      "attractionName": "Fantasmic!"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Outdoor Display",
+    "description": "During Fantasmic!, as Sorcerer Mickey is swept down the river toward the whirlpool and just before the pirate ship sails in, the foam on the water screen gathers into a Mickey head for a second or two. The footage comes straight from Fantasia, and the shape is in the film too.",
+    "whereToLook": {
+      "scene": "Fantasmic!, the whirlpool sequence on the water screens, right before the pirate ship",
+      "exactSpot": "The foam just ahead of Mickey as he nears the whirlpool."
+    },
+    "bestTip": "Watch the foam, not Mickey. It takes most people two shows.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Flashing",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Seasonal",
+    "accessNotes": "Only during Fantasmic! performances.",
+    "coordinates": {
+      "latitude": 33.8121,
+      "longitude": -117.9212
+    },
+    "sourceId": "TLC-DL-0094",
+    "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Fantasmic-1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "fantasy-faire-clopins-music-box-window-mickey",
     "parkId": "california_kingdom_park",
     "landId": "storybook_village_area",
@@ -5510,6 +5635,86 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
+    "id": "frontierland-entrance-cannon-tongue-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "frontierland_streets",
+    "display": {
+      "entryTitle": "Entrance Cannon Tongue Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Frontierland",
+      "attractionName": "Frontierland Streets"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Coming into Frontierland from the hub, a cannon sits off to your right. Walk around behind it and look at the end of the tongue, the long arm that trails behind the barrel. The hole at its tip and the two bolts beside it make a Hidden Mickey.",
+    "whereToLook": {
+      "scene": "The cannon just inside the Frontierland entrance, on the right from the hub",
+      "exactSpot": "The end of the cannon's tongue, behind the barrel. A hole and two bolts."
+    },
+    "bestTip": "Nobody looks at the back of a cannon. That is the whole trick.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8119,
+      "longitude": -117.92
+    },
+    "sourceId": "TLC-DL-0082",
+    "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Frontierland-General2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "frontierland-station-view-pirates-rooftop-ship",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "frontierland_streets",
+    "display": {
+      "entryTitle": "Station View Pirates Rooftop Ship",
+      "parkName": "Disneyland Park",
+      "landName": "Frontierland",
+      "attractionName": "Frontierland Streets"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "Stand on the stairway of the railroad station and look right, toward Pirates of the Caribbean. On the roof of the Pirates show building sits a pirate ship, invisible from the ground and only meant to be seen from up here.",
+    "whereToLook": {
+      "scene": "The stairway of the New Orleans Square railroad station, looking right toward Pirates",
+      "exactSpot": "The roof of the Pirates of the Caribbean building. A ship."
+    },
+    "bestTip": "Climb the station stairs even if you are not riding the train.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8119,
+      "longitude": -117.92
+    },
+    "sourceId": "TLC-DL-0083",
+    "sourceUrl": "https://hiddenmickeywiki.com/Frontierland",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "gadgetcoaster-queue-first-turn-rock-mickey",
     "parkId": "california_kingdom_park",
     "landId": "cartoon_town_area",
@@ -6344,6 +6549,46 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-na-vi-river-journey",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "golden-horseshoe-stage-vent-grate-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "golden_horseshoe",
+    "display": {
+      "entryTitle": "Stage Vent Grate Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Frontierland",
+      "attractionName": "The Golden Horseshoe"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Under the Golden Horseshoe's stage are vents. In the middle grate, down toward its lower right corner, the pattern hides a Mickey.",
+    "whereToLook": {
+      "scene": "The vents under the Golden Horseshoe stage",
+      "exactSpot": "The center grate, lower right corner."
+    },
+    "bestTip": "Grab a front table between shows and look low.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8122,
+      "longitude": -117.9203
+    },
+    "sourceId": "TLC-DL-0092",
+    "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Golden-Horseshoe1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "good-boy-grocers-produce-basket-mickey",
@@ -11050,6 +11295,128 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "mark-twain-dock-painted-sign-steamboat-willie",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "mark_twain_riverboat",
+    "display": {
+      "entryTitle": "Dock Painted Sign Steamboat Willie",
+      "parkName": "Disneyland Park",
+      "landName": "Frontierland",
+      "attractionName": "Mark Twain Riverboat"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Dock",
+    "description": "Between Big Thunder and the Rivers of America, near the Mark Twain's loading dock and the stroller parking, a large painted sign shows a riverboat scene. Among the passengers stands Steamboat Willie himself. The walkway no longer runs right up to it, so bring a zoom lens.",
+    "whereToLook": {
+      "scene": "The large painted sign near the Mark Twain dock, by the stroller parking",
+      "exactSpot": "Among the painted passengers. Mickey in his Steamboat Willie look."
+    },
+    "bestTip": "Use your phone camera's zoom. It is a long look from the walkway.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8121,
+      "longitude": -117.9207
+    },
+    "sourceId": "TLC-DL-0087",
+    "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Mark-Twain1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "mark-twain-river-boulders-reflection-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "mark_twain_riverboat",
+    "display": {
+      "entryTitle": "River Boulders Reflection Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Frontierland",
+      "attractionName": "Mark Twain Riverboat"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Hard",
+    "areaContext": "Ride",
+    "description": "On the back side of the Rivers of America, near the Native American chief but on the far side of the boat, three boulders sit half out of the water between the boat and the shore, where the canoes pass. Each boulder and its reflection complete a circle, and the three together make a Mickey. It is visible for only a moment from the second or third deck.",
+    "whereToLook": {
+      "scene": "The back side of the river near the chief, the water on the opposite side of the boat",
+      "exactSpot": "Three half-submerged boulders between the boat and the shore. Rock plus reflection makes each circle."
+    },
+    "bestTip": "Ride the upper decks and stand on the side away from the chief.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Needs calm water for the reflections."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Also visible from the Sailing Ship Columbia's deck.",
+    "coordinates": {
+      "latitude": 33.8121,
+      "longitude": -117.9207
+    },
+    "sourceId": "TLC-DL-0088",
+    "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Mark-Twain2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "mark-twain-roof-grillwork-front-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "mark_twain_riverboat",
+    "display": {
+      "entryTitle": "Roof Grillwork Front Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Frontierland",
+      "attractionName": "Mark Twain Riverboat"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Dock",
+    "description": "The iron grillwork crowning the Mark Twain's top deck has a Hidden Mickey dead center at the front, easy to pick out from the riverbank. A matching one sits on the other end of the ironwork.",
+    "whereToLook": {
+      "scene": "The Mark Twain's top deck ironwork, viewed from the riverbank or the dock",
+      "exactSpot": "Front and center of the roof grillwork. A second one on the far end."
+    },
+    "bestTip": "Easiest from the bank as the boat comes in.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8121,
+      "longitude": -117.9207
+    },
+    "sourceId": "TLC-DL-0089",
+    "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Mark-Twain3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "marrakesh-restaurant-anteroom-painting-mickey",
     "parkId": "showcase_park",
     "landId": "morocco_pavilion",
@@ -12770,6 +13137,46 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-DL-0101",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Pinocchio-1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "pioneer-mercantile-wall-lamp-river-rock-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "pioneer_mercantile",
+    "display": {
+      "entryTitle": "Wall Lamp River Rock Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Frontierland",
+      "attractionName": "Pioneer Mercantile"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "Inside Pioneer Mercantile, between Frontierland and Adventureland, the rustic wall lamps are built from river rocks, and the rocks are set as Hidden Mickeys.",
+    "whereToLook": {
+      "scene": "Pioneer Mercantile, the wall lamps",
+      "exactSpot": "The river rock bases of the lamps. Three rocks as a head and ears."
+    },
+    "bestTip": "Look at the fixtures, not the merchandise.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8119,
+      "longitude": -117.9202
+    },
+    "sourceId": "TLC-DL-0093",
+    "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Pioneer-Mercantile1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
@@ -14704,6 +15111,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "river-belle-terrace-menu-riverboat-grillwork-mickeys",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "river_belle_terrace",
+    "display": {
+      "entryTitle": "Menu Riverboat Grillwork Mickeys",
+      "parkName": "Disneyland Park",
+      "landName": "Frontierland",
+      "attractionName": "River Belle Terrace"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The River Belle Terrace menus picture the Mark Twain, and the drawing copies the real boat's secret: Hidden Mickeys in the grillwork between the smokestacks.",
+    "whereToLook": {
+      "scene": "The River Belle Terrace menu",
+      "exactSpot": "The riverboat illustration. The grillwork between the smokestacks."
+    },
+    "bestTip": "Menus change. Check the current one before you count on it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 33.8118,
+      "longitude": -117.9205
+    },
+    "sourceId": "TLC-DL-0091",
+    "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#River-Belle1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "river-rapids-dock-wheels-mickey",
     "parkId": "adventure_park",
     "landId": "asia_village_area",
@@ -16230,6 +16677,46 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-kusafiri-coffee-shop-bakery",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "shootin-exposition-target-cactus-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "frontierland_shootin_exposition",
+    "display": {
+      "entryTitle": "Target Cactus Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Frontierland",
+      "attractionName": "Frontierland Shootin' Exposition"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Outdoor Display",
+    "description": "The shooting gallery's desert scene is dotted with fake cacti. Most are just cacti, but two are shaped as Mickeys, and this one wears a target.",
+    "whereToLook": {
+      "scene": "The Frontierland Shootin' Exposition scenery",
+      "exactSpot": "The cactus with a target on it. Three pads as a head and ears."
+    },
+    "bestTip": "You can look without paying. The targets are lit from the walkway.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8121,
+      "longitude": -117.9201
+    },
+    "sourceId": "TLC-DL-0084",
+    "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Shooting-Exposition1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "silhouette-studio-display-frames-mickeys",
@@ -17877,6 +18364,46 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0051",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "tom-sawyer-island-shore-stump-pooh-profile",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "tom_sawyer_island",
+    "display": {
+      "entryTitle": "Shoreline Stump Pooh Profile",
+      "parkName": "Disneyland Park",
+      "landName": "Frontierland",
+      "attractionName": "Pirate's Lair on Tom Sawyer Island"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Outdoor Display",
+    "description": "A tree stump in the water along the Tom Sawyer Island shore, on the side facing the Fantasmic! viewing area, is Winnie the Pooh in profile. The lower half of the stump makes his snout and mouth. It reads from the Frontierland walkway and from the canoes.",
+    "whereToLook": {
+      "scene": "The Tom Sawyer Island shoreline facing the Rivers of America walkway",
+      "exactSpot": "A stump standing in the water. Pooh's profile from the side."
+    },
+    "bestTip": "Ask whoever is with you who they see. If they say Pooh unprompted, you have it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8125,
+      "longitude": -117.922
+    },
+    "sourceId": "TLC-DL-0090",
+    "sourceUrl": "https://hiddenmickeywiki.com/Frontierland",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "toontown-backstage-corner-stone-wall-mickey",

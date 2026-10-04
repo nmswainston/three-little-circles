@@ -1,0 +1,40 @@
+{
+  "id": "mark-twain-dock-painted-sign-steamboat-willie",
+  "parkId": "california_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "mark_twain_riverboat",
+  "display": {
+    "entryTitle": "Dock Painted Sign Steamboat Willie",
+    "parkName": "Disneyland Park",
+    "landName": "Frontierland",
+    "attractionName": "Mark Twain Riverboat"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Dock",
+  "description": "Between Big Thunder and the Rivers of America, near the Mark Twain's loading dock and the stroller parking, a large painted sign shows a riverboat scene. Among the passengers stands Steamboat Willie himself. The walkway no longer runs right up to it, so bring a zoom lens.",
+  "whereToLook": {
+    "scene": "The large painted sign near the Mark Twain dock, by the stroller parking",
+    "exactSpot": "Among the painted passengers. Mickey in his Steamboat Willie look."
+  },
+  "bestTip": "Use your phone camera's zoom. It is a long look from the walkway.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8121,
+    "longitude": -117.9207
+  },
+  "sourceId": "TLC-DL-0087",
+  "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Mark-Twain1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
