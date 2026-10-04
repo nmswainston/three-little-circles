@@ -168,15 +168,10 @@ export default function BadgeSummaryCard({
         .join('. ')}
       style={({ pressed }) => [styles.card, t.dark && styles.cardNight, pressed && styles.pressed]}
     >
-      <View style={styles.topRow}>
-        <Text style={styles.eyebrow}>{challengeId ? 'Challenge' : 'Your badges'}</Text>
-        <Text style={styles.tally}>{tally}</Text>
-        <Ionicons name="chevron-forward" size={18} color={night.colors.text} />
-      </View>
       <View style={styles.mainRow}>
-        <View style={[styles.ring, { borderColor: accent }]}>
-          <View style={[styles.disc, styles.discSmall, { backgroundColor: `${accent}33` }]}>
-            <Ionicons name={icon} size={20} color={accent} />
+        <View style={[styles.ring, styles.ringSmall, { borderColor: accent }]}>
+          <View style={[styles.disc, styles.discTiny, { backgroundColor: `${accent}33` }]}>
+            <Ionicons name={icon} size={16} color={accent} />
           </View>
         </View>
         <View style={styles.textCol}>
@@ -193,10 +188,11 @@ export default function BadgeSummaryCard({
           {state.kind === 'next' && (
             <ProgressBar progress={state.progress.fraction} color={accent} trackColor={TRACK_ON_NAVY} />
           )}
-          <Text style={styles.detail} numberOfLines={2}>
+          <Text style={styles.detail} numberOfLines={1}>
             {detail}
           </Text>
         </View>
+        <Ionicons name="chevron-forward" size={18} color={night.colors.text} />
       </View>
     </Pressable>
   );
@@ -210,7 +206,8 @@ const createStyles = (t: Theme) =>
       gap: spacing.md - 4,
       backgroundColor: t.dark ? t.colors.surface : t.colors.ink,
       borderRadius: radii.lg,
-      padding: spacing.md,
+      paddingVertical: spacing.md - 4,
+      paddingHorizontal: spacing.md,
     },
     cardNight: {
       borderWidth: 1,
@@ -267,6 +264,17 @@ const createStyles = (t: Theme) =>
       width: 40,
       height: 40,
       borderRadius: 20,
+    },
+    // The resting card is a strip, so the ring is smaller than the earned card's disc.
+    ringSmall: {
+      width: 44,
+      height: 44,
+      borderRadius: 22,
+    },
+    discTiny: {
+      width: 32,
+      height: 32,
+      borderRadius: 16,
     },
     textCol: {
       flex: 1,
