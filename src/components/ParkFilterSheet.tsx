@@ -58,7 +58,7 @@ export default function ParkFilterSheet({
     onDifficultiesChange(on ? difficulties.filter((d) => d !== level) : DIFFICULTIES.filter((d) => d === level || difficulties.includes(d)));
   };
 
-  const trackColor = { false: t.colors.borderStrong, true: t.colors.success };
+  const trackColor = { false: t.colors.controlBorder, true: t.colors.success };
 
   return (
     <Modal transparent visible={visible} animationType="slide" onRequestClose={onClose}>

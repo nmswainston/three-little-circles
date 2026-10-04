@@ -625,7 +625,7 @@ const createStyles = (t: Theme) =>
       backgroundColor: t.colors.surface,
       borderRadius: radii.full,
       borderWidth: 1,
-      borderColor: t.colors.border,
+      borderColor: t.colors.controlBorder,
     },
     searchInput: {
       flex: 1,
@@ -643,7 +643,7 @@ const createStyles = (t: Theme) =>
       borderRadius: radii.full,
       backgroundColor: t.colors.surface,
       borderWidth: 1,
-      borderColor: t.colors.borderStrong,
+      borderColor: t.colors.controlBorder,
     },
     filterButtonOn: {
       backgroundColor: t.colors.ink,
