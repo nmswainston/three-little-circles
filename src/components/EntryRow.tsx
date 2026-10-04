@@ -7,16 +7,19 @@ import { isConfirmed } from '../data/confirmations';
 import { useFoundStore } from '../store/useFoundStore';
 import { Theme, useStyles, useTheme } from '../theme/ThemeProvider';
 import { spacing, radii, text } from '../theme/tokens';
-import DifficultyChip from './ui/DifficultyChip';
 
 interface EntryRowProps {
   entry: HiddenMickeyEntry;
   onPress: () => void;
 }
 
+/** Most finds are indoors, so the row only names the other settings. */
+const DEFAULT_LOCATION = 'Indoor';
+
 /**
  * Compact entry row for grouped lists: title, a shield when the find is
- * confirmed, location type, difficulty, and either a found check or a chevron.
+ * confirmed, difficulty as a coloured dot and word, the setting when it is
+ * out of the ordinary, and either a found check or a chevron.
  */
 export default function EntryRow({ entry, onPress }: EntryRowProps) {
   const t = useTheme();
@@ -53,8 +56,9 @@ export default function EntryRow({ entry, onPress }: EntryRowProps) {
               importantForAccessibility="no"
             />
           )}
-          <Text style={styles.meta}>{entry.locationType}</Text>
-          <DifficultyChip level={entry.difficulty} size="small" />
+          <View style={[styles.levelDot, { backgroundColor: t.difficulty[entry.difficulty].bg }]} />
+          <Text style={styles.level}>{entry.difficulty}</Text>
+          {entry.locationType !== DEFAULT_LOCATION && <Text style={styles.meta}>{`· ${entry.locationType}`}</Text>}
           {entry.entryType === 'FACT' && (
             <View style={styles.factChip}>
               <Text style={styles.factText}>Hidden Surprise</Text>
@@ -98,6 +102,17 @@ const createStyles = (t: Theme) =>
       flexDirection: 'row',
       alignItems: 'center',
       gap: spacing.sm - 2,
+    },
+    levelDot: {
+      width: 8,
+      height: 8,
+      borderRadius: 4,
+    },
+    level: {
+      ...text.bodySmall,
+      lineHeight: 18,
+      fontFamily: text.chip.fontFamily,
+      color: t.colors.textSecondary,
     },
     meta: {
       ...text.bodySmall,
