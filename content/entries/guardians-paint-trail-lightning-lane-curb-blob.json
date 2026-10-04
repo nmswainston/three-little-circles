@@ -1,0 +1,40 @@
+{
+  "id": "guardians-paint-trail-lightning-lane-curb-blob",
+  "parkId": "california_pier_park",
+  "landId": "hero_campus_area",
+  "attractionId": "fortress_drop_tower",
+  "display": {
+    "entryTitle": "Paint Trail Lightning Lane Curb Blob",
+    "parkName": "Disney California Adventure",
+    "landName": "Avengers Campus",
+    "attractionName": "Guardians of the Galaxy: Mission Breakout!"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "In front of the Lightning Lane entrance on the right side of the attraction, right where the road meets the curb, an orange and red Mickey hides in the paint blobs.",
+  "whereToLook": {
+    "scene": "In front of the Lightning Lane entrance, where the road meets the curb",
+    "exactSpot": "An orange and red blob at the curb line."
+  },
+  "bestTip": "Look at the curb edge, not the middle of the walkway.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8066,
+    "longitude": -117.9169
+  },
+  "sourceId": "TLC-CA-0050",
+  "sourceUrl": "https://hiddenmickeywiki.com/Avengers_Campus#Tower-Terror3",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

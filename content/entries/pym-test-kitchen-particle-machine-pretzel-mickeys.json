@@ -1,0 +1,40 @@
+{
+  "id": "pym-test-kitchen-particle-machine-pretzel-mickeys",
+  "parkId": "california_pier_park",
+  "landId": "hero_campus_area",
+  "attractionId": "pym_test_kitchen",
+  "display": {
+    "entryTitle": "Pym Particle Machine Pretzel Mickeys",
+    "parkName": "Disney California Adventure",
+    "landName": "Avengers Campus",
+    "attractionName": "Pym Test Kitchen"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "Inside the main building, head to the back left and watch the Pym Particle machine. Small pretzels feed in from the left side, and as they get closer to the machine they turn into Mickeys.",
+  "whereToLook": {
+    "scene": "The back left of the main Pym Test Kitchen building, the Pym Particle machine",
+    "exactSpot": "The small pretzels entering the machine from the left. They become Mickey shapes as they approach."
+  },
+  "bestTip": "Follow the conveyor from the left toward the machine.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8072,
+    "longitude": -117.9172
+  },
+  "sourceId": "TLC-CA-0048",
+  "sourceUrl": "https://hiddenmickeywiki.com/Avengers_Campus#Pym-Kitchen1",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

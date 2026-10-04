@@ -8233,6 +8233,288 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
+    "id": "guardians-paint-trail-exit-left-teal-blob",
+    "parkId": "california_pier_park",
+    "landId": "hero_campus_area",
+    "attractionId": "fortress_drop_tower",
+    "display": {
+      "entryTitle": "Paint Trail Exit Left Teal Blob",
+      "parkName": "Disney California Adventure",
+      "landName": "Avengers Campus",
+      "attractionName": "Guardians of the Galaxy: Mission Breakout!"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "Leaving the gift shop, look to the left of the walkway for the light pole beside the queue area. About nine feet before you reach the pole, a teal and yellowish blue Mickey sits in the paint.",
+    "whereToLook": {
+      "scene": "Outside the gift shop exit, left of the walkway, approaching the light pole by the queue",
+      "exactSpot": "About nine feet short of the pole. A teal and yellow-blue blob."
+    },
+    "bestTip": "Pace it out from the pole back toward the shop.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8066,
+      "longitude": -117.9169
+    },
+    "sourceId": "TLC-CA-0051",
+    "sourceUrl": "https://hiddenmickeywiki.com/Avengers_Campus#Tower-Terror4",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "guardians-paint-trail-exit-right-gold-green-blob",
+    "parkId": "california_pier_park",
+    "landId": "hero_campus_area",
+    "attractionId": "fortress_drop_tower",
+    "display": {
+      "entryTitle": "Paint Trail Exit Right Gold Green Blob",
+      "parkName": "Disney California Adventure",
+      "landName": "Avengers Campus",
+      "attractionName": "Guardians of the Galaxy: Mission Breakout!"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "In the same block of textured concrete right of the exit walkway, a second Mickey sits in the right corner, closer to the light pole on the right. This one is gold and green.",
+    "whereToLook": {
+      "scene": "Outside the gift shop exit, right of the walkway, the first block of textured concrete",
+      "exactSpot": "Right corner of that block, nearer the right-hand light pole. Gold and green."
+    },
+    "bestTip": "Same slab as the teal and orange one. Check the opposite corner.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8066,
+      "longitude": -117.9169
+    },
+    "sourceId": "TLC-CA-0053",
+    "sourceUrl": "https://hiddenmickeywiki.com/Avengers_Campus#Tower-Terror6",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "guardians-paint-trail-exit-right-teal-orange-blob",
+    "parkId": "california_pier_park",
+    "landId": "hero_campus_area",
+    "attractionId": "fortress_drop_tower",
+    "display": {
+      "entryTitle": "Paint Trail Exit Right Teal Orange Blob",
+      "parkName": "Disney California Adventure",
+      "landName": "Avengers Campus",
+      "attractionName": "Guardians of the Galaxy: Mission Breakout!"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Exit",
+    "description": "Leaving the gift shop, look to the right of the walkway where the first stretch of textured concrete begins. In its lower left corner, about five feet from the light pole, a teal and orange Mickey hides in the paint.",
+    "whereToLook": {
+      "scene": "Outside the gift shop exit, right of the walkway, the first block of textured concrete",
+      "exactSpot": "Lower left corner of that block, about five feet from the light pole. Teal and orange."
+    },
+    "bestTip": "The textured concrete is the landmark. Start at its near left corner.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8066,
+      "longitude": -117.9169
+    },
+    "sourceId": "TLC-CA-0052",
+    "sourceUrl": "https://hiddenmickeywiki.com/Avengers_Campus#Tower-Terror5",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "guardians-paint-trail-lightning-lane-curb-blob",
+    "parkId": "california_pier_park",
+    "landId": "hero_campus_area",
+    "attractionId": "fortress_drop_tower",
+    "display": {
+      "entryTitle": "Paint Trail Lightning Lane Curb Blob",
+      "parkName": "Disney California Adventure",
+      "landName": "Avengers Campus",
+      "attractionName": "Guardians of the Galaxy: Mission Breakout!"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "In front of the Lightning Lane entrance on the right side of the attraction, right where the road meets the curb, an orange and red Mickey hides in the paint blobs.",
+    "whereToLook": {
+      "scene": "In front of the Lightning Lane entrance, where the road meets the curb",
+      "exactSpot": "An orange and red blob at the curb line."
+    },
+    "bestTip": "Look at the curb edge, not the middle of the walkway.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8066,
+      "longitude": -117.9169
+    },
+    "sourceId": "TLC-CA-0050",
+    "sourceUrl": "https://hiddenmickeywiki.com/Avengers_Campus#Tower-Terror3",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "guardians-paint-trail-mickey-and-sun-blob",
+    "parkId": "california_pier_park",
+    "landId": "hero_campus_area",
+    "attractionId": "fortress_drop_tower",
+    "display": {
+      "entryTitle": "Paint Trail Mickey and Sun Blob",
+      "parkName": "Disney California Adventure",
+      "landName": "Avengers Campus",
+      "attractionName": "Guardians of the Galaxy: Mission Breakout!"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "Of the paint Rocket spilled around the attraction, this blob is the one fans call Mickey and Sun. It sits on the right side of the building as you face it, in the pavement close to a lamppost.",
+    "whereToLook": {
+      "scene": "The right side of the attraction as you face it, the pavement near a lamppost",
+      "exactSpot": "A Mickey blob beside a sun-shaped splash, close to the lamppost."
+    },
+    "bestTip": "Find the lamppost on the right, then look at your feet.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8066,
+      "longitude": -117.9169
+    },
+    "sourceId": "TLC-CA-0049",
+    "sourceUrl": "https://hiddenmickeywiki.com/Avengers_Campus#Tower-Terror2",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "guardians-tivan-office-display-cage-vase-mickey",
+    "parkId": "california_pier_park",
+    "landId": "hero_campus_area",
+    "attractionId": "fortress_drop_tower",
+    "display": {
+      "entryTitle": "Tivan Office Display Cage Vase Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Avengers Campus",
+      "attractionName": "Guardians of the Galaxy: Mission Breakout!"
+    },
+    "entryType": "FIND",
+    "locationType": "Pre-show",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "In the other Tivan's office, the one with the TV screen on the left as you enter, a display cage stands against the left wall. On the third shelf, a small black and white Mickey face peers out from behind a green vase on the left side.",
+    "whereToLook": {
+      "scene": "Tivan's office pre-show, the one with the TV screen on the left as you enter, the display cage on the left wall",
+      "exactSpot": "Third shelf, left side, behind the green vase. A small black and white Mickey face."
+    },
+    "bestTip": "Get close to the cage before the show starts.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Only in the office with the screen on the left. The two pre-show rooms differ.",
+    "coordinates": {
+      "latitude": 33.8066,
+      "longitude": -117.9169
+    },
+    "sourceId": "TLC-CA-0055",
+    "sourceUrl": "https://hiddenmickeywiki.com/Avengers_Campus#Tower-Terror7",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "guardians-tivan-office-wall-shield-mickey",
+    "parkId": "california_pier_park",
+    "landId": "hero_campus_area",
+    "attractionId": "fortress_drop_tower",
+    "display": {
+      "entryTitle": "Tivan Office Wall Shield Mickey",
+      "parkName": "Disney California Adventure",
+      "landName": "Avengers Campus",
+      "attractionName": "Guardians of the Galaxy: Mission Breakout!"
+    },
+    "entryType": "FIND",
+    "locationType": "Pre-show",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "In Tivan's office, while Rocket gives his instructions, a shield on the wall behind him is a Hidden Mickey. It hangs to the left as you look at him. Each of the offices is dressed differently, and this one is the office with the TV screen on the right as you enter.",
+    "whereToLook": {
+      "scene": "Tivan's office pre-show, the one with the TV screen on the right as you enter",
+      "exactSpot": "The wall behind Rocket, to the left. A Mickey-shaped shield."
+    },
+    "bestTip": "If your office has the screen on the left, you have the other one. Look for the vase instead.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Only in the office with the screen on the right. The two pre-show rooms differ.",
+    "coordinates": {
+      "latitude": 33.8066,
+      "longitude": -117.9169
+    },
+    "sourceId": "TLC-CA-0054",
+    "sourceUrl": "https://hiddenmickeywiki.com/Avengers_Campus#Tower-Terror1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "harambe-market-pillar-mickeys",
     "parkId": "adventure_park",
     "landId": "savanna_village_area",
@@ -15428,6 +15710,46 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0047",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "pym-test-kitchen-particle-machine-pretzel-mickeys",
+    "parkId": "california_pier_park",
+    "landId": "hero_campus_area",
+    "attractionId": "pym_test_kitchen",
+    "display": {
+      "entryTitle": "Pym Particle Machine Pretzel Mickeys",
+      "parkName": "Disney California Adventure",
+      "landName": "Avengers Campus",
+      "attractionName": "Pym Test Kitchen"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Inside the main building, head to the back left and watch the Pym Particle machine. Small pretzels feed in from the left side, and as they get closer to the machine they turn into Mickeys.",
+    "whereToLook": {
+      "scene": "The back left of the main Pym Test Kitchen building, the Pym Particle machine",
+      "exactSpot": "The small pretzels entering the machine from the left. They become Mickey shapes as they approach."
+    },
+    "bestTip": "Follow the conveyor from the left toward the machine.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8072,
+      "longitude": -117.9172
+    },
+    "sourceId": "TLC-CA-0048",
+    "sourceUrl": "https://hiddenmickeywiki.com/Avengers_Campus#Pym-Kitchen1",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "radiator-springs-curios-ceiling-tile-mickey",

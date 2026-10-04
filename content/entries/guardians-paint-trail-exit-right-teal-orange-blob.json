@@ -1,0 +1,40 @@
+{
+  "id": "guardians-paint-trail-exit-right-teal-orange-blob",
+  "parkId": "california_pier_park",
+  "landId": "hero_campus_area",
+  "attractionId": "fortress_drop_tower",
+  "display": {
+    "entryTitle": "Paint Trail Exit Right Teal Orange Blob",
+    "parkName": "Disney California Adventure",
+    "landName": "Avengers Campus",
+    "attractionName": "Guardians of the Galaxy: Mission Breakout!"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Exit",
+  "description": "Leaving the gift shop, look to the right of the walkway where the first stretch of textured concrete begins. In its lower left corner, about five feet from the light pole, a teal and orange Mickey hides in the paint.",
+  "whereToLook": {
+    "scene": "Outside the gift shop exit, right of the walkway, the first block of textured concrete",
+    "exactSpot": "Lower left corner of that block, about five feet from the light pole. Teal and orange."
+  },
+  "bestTip": "The textured concrete is the landmark. Start at its near left corner.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8066,
+    "longitude": -117.9169
+  },
+  "sourceId": "TLC-CA-0052",
+  "sourceUrl": "https://hiddenmickeywiki.com/Avengers_Campus#Tower-Terror5",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
