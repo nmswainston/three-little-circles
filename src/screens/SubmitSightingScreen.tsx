@@ -20,9 +20,11 @@ import * as ImagePicker from "expo-image-picker";
 import * as Haptics from "expo-haptics";
 import { RootStackParamList } from "../navigation/types";
 import { getDestinationSummaries } from "../data/destinations";
+import { getEntryById } from "../data/query";
+import { labelOrFallback } from "../data/labels";
 import { Difficulty, LocationType } from "../data/types";
 import { useSettingsStore } from "../store/useSettingsStore";
-import { submitSighting, validateSighting, LIMITS, SightingInput } from "../lib/submissions";
+import { submitSighting, validateSighting, photoSightingInput, LIMITS, SightingInput } from "../lib/submissions";
 import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
 import { spacing, radii, text } from "../theme/tokens";
 import Sunburst from "../components/ui/Sunburst";
@@ -48,6 +50,13 @@ export default function SubmitSightingScreen() {
     return counts;
   }, [destinations]);
 
+  // A photo of a find already in the guide: the entry fills in the where and
+  // the what, so the form shrinks to the photo, a note, and a credit.
+  const forEntry = route.params?.forEntryId ? getEntryById(route.params.forEntryId) : undefined;
+  const photoMode = forEntry !== undefined;
+  const forTitle = forEntry ? labelOrFallback(forEntry.display?.entryTitle, "this find") : "";
+  const forPlace = forEntry ? [forEntry.display?.parkName, forEntry.display?.attractionName].filter(Boolean).join(" · ") : "";
+
   const [parkId, setParkId] = useState<string | undefined>(route.params?.parkId ?? destinations[0]?.parkId);
   const [attraction, setAttraction] = useState("");
   const [land, setLand] = useState("");
@@ -56,6 +65,7 @@ export default function SubmitSightingScreen() {
   const [difficulty, setDifficulty] = useState<Difficulty>("Medium");
   const [locationType, setLocationType] = useState<LocationType>("Queue");
   const [photo, setPhoto] = useState<{ uri: string; mimeType?: string } | undefined>();
+  const [note, setNote] = useState("");
   const [contactName, setContactName] = useState("");
   const [creditOk, setCreditOk] = useState(false);
   const [website, setWebsite] = useState(""); // honeypot: people never see it, bots fill it
@@ -95,6 +105,7 @@ export default function SubmitSightingScreen() {
   };
 
   const buildInput = (): SightingInput | undefined => {
+    if (forEntry) return photoSightingInput(forEntry, { note, photo, contactName, creditOk });
     if (!destination) return undefined;
     return {
       parkId: destination.parkId,
@@ -146,6 +157,7 @@ export default function SubmitSightingScreen() {
     setTitle("");
     setWhereToLook("");
     setPhoto(undefined);
+    setNote("");
     setError(undefined);
     setDone(false);
   };
@@ -167,10 +179,12 @@ export default function SubmitSightingScreen() {
           </Pressable>
           <Text style={styles.eyebrow}>Community</Text>
           <Text style={styles.title} accessibilityRole="header">
-            Suggest a find
+            {photoMode ? "Send a photo" : "Suggest a find"}
           </Text>
           <Text style={styles.subtitle}>
-            Spotted a Hidden Mickey we don't have? Tell us where to look. A person checks every suggestion before it goes live.
+            {photoMode
+              ? `Help the next guest spot ${forTitle}. A person reviews every photo before it is shown, and any photo we use is resized and stripped of location data first.`
+              : "Spotted a Hidden Mickey we don't have? Tell us where to look. A person checks every suggestion before it goes live."}
           </Text>
         </View>
 
@@ -184,12 +198,16 @@ export default function SubmitSightingScreen() {
                 Thanks, we'll take a look
               </Text>
               <Text style={styles.successBody}>
-                Suggestions are reviewed by a person before they're added, so it can take a little while to show up in the app.
+                {photoMode
+                  ? "Photos are reviewed by a person before they're shown, so it can take a little while to appear."
+                  : "Suggestions are reviewed by a person before they're added, so it can take a little while to show up in the app."}
               </Text>
               <View style={styles.successButtons}>
-                <Pressable onPress={reset} accessibilityRole="button" style={styles.secondaryButton}>
-                  <Text style={styles.secondaryButtonText}>Suggest another</Text>
-                </Pressable>
+                {!photoMode && (
+                  <Pressable onPress={reset} accessibilityRole="button" style={styles.secondaryButton}>
+                    <Text style={styles.secondaryButtonText}>Suggest another</Text>
+                  </Pressable>
+                )}
                 <Pressable onPress={() => navigation.goBack()} accessibilityRole="button" style={styles.primaryButton}>
                   <Text style={styles.primaryButtonText}>Done</Text>
                 </Pressable>
@@ -198,89 +216,102 @@ export default function SubmitSightingScreen() {
           </View>
         ) : (
           <View style={styles.body}>
-            <Field label="Park or resort">
-              <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.chipScroll} contentContainerStyle={styles.chipRow}>
-                {destinations.map((d) => (
-                  <Chip
-                    key={d.parkId}
-                    label={(nameCounts.get(d.name) ?? 0) > 1 ? `${d.name} (${d.region})` : d.name}
-                    selected={d.parkId === parkId}
-                    onPress={() => setParkId(d.parkId)}
-                  />
-                ))}
-              </ScrollView>
-            </Field>
+            {photoMode && (
+              <Field label="Find">
+                <View style={styles.findCard}>
+                  <Text style={styles.findTitle}>{forTitle}</Text>
+                  {forPlace.length > 0 && <Text style={styles.findMeta}>{forPlace}</Text>}
+                </View>
+              </Field>
+            )}
 
-            <Field label="Attraction, shop, or spot">
-              <TextInput
-                value={attraction}
-                onChangeText={setAttraction}
-                placeholder="Backyard Coaster"
-                placeholderTextColor={t.colors.textMuted}
-                style={styles.input}
-                maxLength={LIMITS.attraction.max}
-                autoCapitalize="words"
-                accessibilityLabel="Attraction, shop, or spot"
-              />
-            </Field>
+            {!photoMode && (
+              <>
+              <Field label="Park or resort">
+                <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.chipScroll} contentContainerStyle={styles.chipRow}>
+                  {destinations.map((d) => (
+                    <Chip
+                      key={d.parkId}
+                      label={(nameCounts.get(d.name) ?? 0) > 1 ? `${d.name} (${d.region})` : d.name}
+                      selected={d.parkId === parkId}
+                      onPress={() => setParkId(d.parkId)}
+                    />
+                  ))}
+                </ScrollView>
+              </Field>
 
-            <Field label="Land or area" hint="Optional">
-              <TextInput
-                value={land}
-                onChangeText={setLand}
-                placeholder="Toy Story Land"
-                placeholderTextColor={t.colors.textMuted}
-                style={styles.input}
-                maxLength={LIMITS.land.max}
-                autoCapitalize="words"
-                accessibilityLabel="Land or area"
-              />
-            </Field>
+              <Field label="Attraction, shop, or spot">
+                <TextInput
+                  value={attraction}
+                  onChangeText={setAttraction}
+                  placeholder="Backyard Coaster"
+                  placeholderTextColor={t.colors.textMuted}
+                  style={styles.input}
+                  maxLength={LIMITS.attraction.max}
+                  autoCapitalize="words"
+                  accessibilityLabel="Attraction, shop, or spot"
+                />
+              </Field>
 
-            <Field label="Short title">
-              <TextInput
-                value={title}
-                onChangeText={setTitle}
-                placeholder="Queue Cloud Mickey"
-                placeholderTextColor={t.colors.textMuted}
-                style={styles.input}
-                maxLength={LIMITS.title.max}
-                autoCapitalize="words"
-                accessibilityLabel="Short title"
-              />
-            </Field>
+              <Field label="Land or area" hint="Optional">
+                <TextInput
+                  value={land}
+                  onChangeText={setLand}
+                  placeholder="Toy Story Land"
+                  placeholderTextColor={t.colors.textMuted}
+                  style={styles.input}
+                  maxLength={LIMITS.land.max}
+                  autoCapitalize="words"
+                  accessibilityLabel="Land or area"
+                />
+              </Field>
 
-            <Field label="Where to look" hint={`${whereToLook.trim().length} / ${LIMITS.whereToLook.max}`}>
-              <TextInput
-                value={whereToLook}
-                onChangeText={setWhereToLook}
-                placeholder="Which scene or prop, then the exact spot within it. What angle or timing helps?"
-                placeholderTextColor={t.colors.textMuted}
-                style={[styles.input, styles.multiline]}
-                multiline
-                textAlignVertical="top"
-                maxLength={LIMITS.whereToLook.max}
-                accessibilityLabel="Where to look"
-              />
-            </Field>
+              <Field label="Short title">
+                <TextInput
+                  value={title}
+                  onChangeText={setTitle}
+                  placeholder="Queue Cloud Mickey"
+                  placeholderTextColor={t.colors.textMuted}
+                  style={styles.input}
+                  maxLength={LIMITS.title.max}
+                  autoCapitalize="words"
+                  accessibilityLabel="Short title"
+                />
+              </Field>
 
-            <Field label="How hard is it to spot?">
-              <View style={styles.wrapRow}>
-                {DIFFICULTIES.map((level) => (
-                  <Chip key={level} label={level} selected={difficulty === level} onPress={() => setDifficulty(level)} />
-                ))}
-              </View>
-            </Field>
+              <Field label="Where to look" hint={`${whereToLook.trim().length} / ${LIMITS.whereToLook.max}`}>
+                <TextInput
+                  value={whereToLook}
+                  onChangeText={setWhereToLook}
+                  placeholder="Which scene or prop, then the exact spot within it. What angle or timing helps?"
+                  placeholderTextColor={t.colors.textMuted}
+                  style={[styles.input, styles.multiline]}
+                  multiline
+                  textAlignVertical="top"
+                  maxLength={LIMITS.whereToLook.max}
+                  accessibilityLabel="Where to look"
+                />
+              </Field>
 
-            <Field label="Where is it?">
-              <View style={styles.wrapRow}>
-                {LOCATION_TYPES.map((type) => (
-                  <Chip key={type} label={type} selected={locationType === type} onPress={() => setLocationType(type)} />
-                ))}
-              </View>
-            </Field>
+              <Field label="How hard is it to spot?">
+                <View style={styles.wrapRow}>
+                  {DIFFICULTIES.map((level) => (
+                    <Chip key={level} label={level} selected={difficulty === level} onPress={() => setDifficulty(level)} />
+                  ))}
+                </View>
+              </Field>
 
-            <Field label="Photo" hint="Optional. Only reviewers see it.">
+              <Field label="Where is it?">
+                <View style={styles.wrapRow}>
+                  {LOCATION_TYPES.map((type) => (
+                    <Chip key={type} label={type} selected={locationType === type} onPress={() => setLocationType(type)} />
+                  ))}
+                </View>
+              </Field>
+              </>
+            )}
+
+            <Field label="Photo" hint={photoMode ? "Required. Reviewed before it's shown." : "Optional. Only reviewers see it."}>
               {photo ? (
                 <View style={styles.photoRow}>
                   <Image source={{ uri: photo.uri }} style={styles.thumbnail} accessibilityLabel="Attached photo" />
@@ -303,6 +334,22 @@ export default function SubmitSightingScreen() {
                 </View>
               )}
             </Field>
+
+            {photoMode && (
+              <Field label="Note" hint="Optional">
+                <TextInput
+                  value={note}
+                  onChangeText={setNote}
+                  placeholder="Anything that helps, like the angle or the time of day."
+                  placeholderTextColor={t.colors.textMuted}
+                  style={[styles.input, styles.multiline, styles.noteInput]}
+                  multiline
+                  textAlignVertical="top"
+                  maxLength={LIMITS.whereToLook.max}
+                  accessibilityLabel="Note"
+                />
+              </Field>
+            )}
 
             <Field label="Credit" hint="Optional">
               <TextInput
@@ -348,14 +395,14 @@ export default function SubmitSightingScreen() {
               onPress={handleSubmit}
               disabled={submitting}
               accessibilityRole="button"
-              accessibilityLabel="Send suggestion"
+              accessibilityLabel={photoMode ? "Send photo" : "Send suggestion"}
               accessibilityState={{ busy: submitting }}
               style={({ pressed }) => [styles.primaryButton, styles.submit, (pressed || submitting) && styles.pressed]}
             >
               {submitting ? (
                 <ActivityIndicator color={t.colors.onInk} />
               ) : (
-                <Text style={styles.primaryButtonText}>Send suggestion</Text>
+                <Text style={styles.primaryButtonText}>{photoMode ? "Send photo" : "Send suggestion"}</Text>
               )}
             </Pressable>
             <Text style={styles.footnote}>
@@ -458,6 +505,25 @@ const createStyles = (t: Theme) =>
     multiline: {
       minHeight: 132,
       lineHeight: 22,
+    },
+    noteInput: {
+      minHeight: 96,
+    },
+    findCard: {
+      gap: 2,
+      padding: spacing.md - 2,
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.md,
+      borderWidth: 1,
+      borderColor: t.colors.controlBorder,
+    },
+    findTitle: {
+      ...text.itemTitle,
+      color: t.colors.text,
+    },
+    findMeta: {
+      ...text.bodySmall,
+      color: t.colors.textSecondary,
     },
     chipScroll: {
       marginHorizontal: -spacing.lg,

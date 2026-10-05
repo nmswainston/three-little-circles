@@ -3,14 +3,19 @@ import Constants from 'expo-constants';
 import * as Crypto from 'expo-crypto';
 import { File } from 'expo-file-system';
 import { supabase, isSupabaseConfigured } from './supabase';
-import { Difficulty, LocationType } from '../data/types';
+import { Difficulty, HiddenMickeyEntry, LocationType } from '../data/types';
+import { getDestination } from '../data/destinations';
+import { labelOrFallback } from '../data/labels';
 
 /**
- * Sending a suggested find to the review queue.
+ * Sending a suggested find, or a photo of one already in the guide, to the
+ * review queue.
  *
  * The app only ever inserts a pending row and uploads a photo; the policies in
  * supabase/schema.sql refuse anything else from the anon key.
  */
+export type SightingPhoto = { uri: string; mimeType?: string };
+
 export type SightingInput = {
   parkId: string;
   parkName: string;
@@ -21,9 +26,11 @@ export type SightingInput = {
   whereToLook: string;
   difficulty: Difficulty;
   locationType: LocationType;
-  photo?: { uri: string; mimeType?: string };
+  photo?: SightingPhoto;
   contactName?: string;
   creditOk: boolean;
+  /** A photo of a find already in the guide: that entry's id. The photo is then required. */
+  forEntryId?: string;
 };
 
 export type SubmitResult = { ok: true } | { ok: false; message: string };
@@ -37,11 +44,50 @@ export const LIMITS = {
 } as const;
 
 const BUCKET = 'submission-photos';
-const NETWORK_MESSAGE = "Couldn't send your suggestion. Check your connection and try again.";
+
+/** Stands in for the note when a photo arrives without one, since the queue wants a where-to-look. */
+export const PHOTO_ONLY_NOTE = 'Photo only. The sender left no note.';
+/** Carries a note too short for the queue's minimum, so "Look up" still gets through. */
+const SHORT_NOTE_PREFIX = 'Photo. Note from the sender: ';
+
+function photoNote(note: string | undefined): string {
+  const trimmed = (note ?? '').trim();
+  if (trimmed.length === 0) return PHOTO_ONLY_NOTE;
+  const text = trimmed.length >= LIMITS.whereToLook.min ? trimmed : `${SHORT_NOTE_PREFIX}${trimmed}`;
+  return text.slice(0, LIMITS.whereToLook.max);
+}
+
+/**
+ * The input for a photo of a find already in the guide. The entry supplies
+ * everything the queue needs to file it; the sender adds the photo, an
+ * optional note, and an optional credit.
+ */
+export function photoSightingInput(
+  entry: HiddenMickeyEntry,
+  fields: { note?: string; photo?: SightingPhoto; contactName?: string; creditOk: boolean }
+): SightingInput {
+  const destination = getDestination(entry.parkId);
+  return {
+    parkId: entry.parkId,
+    parkName: labelOrFallback(entry.display?.parkName, destination?.name ?? entry.parkId),
+    region: destination?.region,
+    landName: entry.display?.landName,
+    attractionName: labelOrFallback(entry.display?.attractionName, entry.attractionId).slice(0, LIMITS.attraction.max),
+    title: labelOrFallback(entry.display?.entryTitle, entry.id).slice(0, LIMITS.title.max),
+    whereToLook: photoNote(fields.note),
+    difficulty: entry.difficulty,
+    locationType: entry.locationType,
+    photo: fields.photo,
+    contactName: fields.contactName,
+    creditOk: fields.creditOk,
+    forEntryId: entry.id,
+  };
+}
 
 /** Returns human-readable problems, empty when the input is acceptable. */
 export function validateSighting(input: SightingInput): string[] {
   const problems: string[] = [];
+  if (input.forEntryId && !input.photo) problems.push('Add a photo of the find.');
   const title = input.title.trim();
   const where = input.whereToLook.trim();
   const attraction = input.attractionName.trim();
@@ -83,11 +129,13 @@ async function readPhoto(uri: string, mimeType?: string): Promise<{ body: ArrayB
 }
 
 export async function submitSighting(input: SightingInput, deviceId: string): Promise<SubmitResult> {
+  const photoOnly = Boolean(input.forEntryId);
   if (!isSupabaseConfigured) {
-    return { ok: false, message: "Suggestions aren't set up in this build yet." };
+    return { ok: false, message: photoOnly ? "Photos aren't set up in this build yet." : "Suggestions aren't set up in this build yet." };
   }
   const problems = validateSighting(input);
   if (problems.length > 0) return { ok: false, message: problems[0] };
+  const networkMessage = `Couldn't send your ${photoOnly ? 'photo' : 'suggestion'}. Check your connection and try again.`;
 
   try {
     let photoPath: string | null = null;
@@ -96,7 +144,12 @@ export async function submitSighting(input: SightingInput, deviceId: string): Pr
       photoPath = `${deviceId}/${Crypto.randomUUID()}.${ext}`;
       const { error } = await supabase.storage.from(BUCKET).upload(photoPath, body, { contentType, upsert: false });
       if (error) {
-        return { ok: false, message: "The photo didn't upload. Try a different photo, or send without one." };
+        return {
+          ok: false,
+          message: photoOnly
+            ? "The photo didn't upload. Try a different photo."
+            : "The photo didn't upload. Try a different photo, or send without one.",
+        };
       }
     }
 
@@ -112,6 +165,7 @@ export async function submitSighting(input: SightingInput, deviceId: string): Pr
       difficulty: input.difficulty,
       location_type: input.locationType,
       photo_path: photoPath,
+      for_entry_id: input.forEntryId ?? null,
       contact_name: input.creditOk && contact ? contact : null,
       credit_ok: input.creditOk && contact.length > 0,
       device_id: deviceId,
@@ -123,10 +177,10 @@ export async function submitSighting(input: SightingInput, deviceId: string): Pr
     if (error) {
       // P0001 is the rate-limit trigger; its message is written for people.
       if (error.code === 'P0001') return { ok: false, message: error.message };
-      return { ok: false, message: NETWORK_MESSAGE };
+      return { ok: false, message: networkMessage };
     }
     return { ok: true };
   } catch {
-    return { ok: false, message: NETWORK_MESSAGE };
+    return { ok: false, message: networkMessage };
   }
 }

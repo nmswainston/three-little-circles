@@ -36,6 +36,7 @@ function MapStackNavigator() {
     <MapStack.Navigator initialRouteName="Map" screenOptions={{ headerShown: false }}>
       <MapStack.Screen name="Map" component={MapScreen} options={{ title: 'Map' }} />
       <MapStack.Screen name="EntryDetail" component={EntryDetailScreen} options={{ title: 'Hidden find' }} />
+      <MapStack.Screen name="SubmitSighting" component={SubmitSightingScreen} options={{ title: 'Suggest a find' }} />
     </MapStack.Navigator>
   );
 }

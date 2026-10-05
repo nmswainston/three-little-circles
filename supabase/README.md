@@ -1,10 +1,11 @@
 # Community sightings
 
-Users can suggest a Hidden Mickey from inside the app. Suggestions land in a
-private Supabase table as "pending", you review them, and a script turns the
-approved ones into draft content files that go through the normal content
-pipeline. Nothing a user submits is ever shown in the app until you have
-approved it, rewritten it if needed, and shipped it as content.
+Users can suggest a Hidden Mickey from inside the app, or send a photo of one
+already in the guide. Both land in the same private Supabase table as
+"pending", you review them, and a script turns approved suggestions into draft
+content files and approved photos into files ready for `npm run content:photo`.
+Nothing a user submits is ever shown in the app until you have approved it,
+rewritten or processed it, and shipped it as content.
 
 ## One-time setup
 
@@ -21,6 +22,9 @@ approved it, rewritten it if needed, and shipped it as content.
 
    The anon key is safe to ship in the app: the policies in `schema.sql` let it
    insert a pending submission and upload a photo, and nothing else.
+
+   If the project was set up before photos of existing finds existed, run
+   `schema.sql` again. It adds the `for_entry_id` column and is safe to re-run.
 
 4. Turn on anonymous sign-ins under **Authentication > Sign In / Providers >
    Anonymous**. "Still there?" reports use them so every report is tied to an
@@ -52,6 +56,11 @@ In the Supabase dashboard, open **Table Editor > submissions** and filter
 text, plus `photo_path` if the person attached a photo. Open **Storage >
 submission-photos** to view it.
 
+A photo of a find already in the guide has `for_entry_id` set to that entry.
+Its title and attraction repeat the entry's, and `where_to_look` holds the
+sender's note, or "Photo only" when they left none. Approve it when the photo
+clearly shows the find and nothing it should not, such as other guests' faces.
+
 Set `status` to `approved` or `rejected`. `reviewer_notes` is for you. The SQL
 at the bottom of `schema.sql` does the same thing from the SQL editor if you
 prefer.
@@ -79,8 +88,17 @@ From there:
    inside it.
 4. Run `npm run content:build` and commit.
 
+Approved photos of existing finds take a shorter path. The script downloads
+each one to `content/inbox/photos/` and prints the `npm run content:photo`
+command for it, with the entry id filled in and the credit if the sender
+opted in. Replace the `--alt` placeholder with what the photo shows and run
+it. That resizes the photo, strips its metadata, writes it to
+`content/images/`, and fills the entry's `image` field. Commit the entry and
+the image together.
+
 `content/inbox/` is ignored by Git on purpose: drafts contain the submitter's
-raw text and, if they opted in, their name.
+raw text and, if they opted in, their name, and the photos are untouched
+originals.
 
 ## Abuse and privacy
 
@@ -89,7 +107,9 @@ raw text and, if they opted in, their name.
 - The form has a hidden field that bots tend to fill in; anything with that
   field set is dropped on the device before it is sent.
 - Photos go to a private bucket that only your dashboard login and the service
-  role key can read. They are never published.
+  role key can read. A photo of a suggested find is never published. A photo
+  of an existing find is published only after you have approved it and run it
+  through `content:photo`, which strips every scrap of metadata first.
 - Names are optional and only stored when the person ticks the credit box.
 
 ## Still there? reports

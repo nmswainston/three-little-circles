@@ -170,6 +170,8 @@ want eyes on:
 - "Still there?" on each entry. Tap "Saw it today" or "Couldn't find it". Those
   reports drive the "Last seen" line other people see.
 - "Suggest a find" if you spot something that is not listed.
+- "Got a photo of this one?" on an entry you found. It goes to a review queue,
+  never straight into the app.
 
 **Rough edges I already know about**
 

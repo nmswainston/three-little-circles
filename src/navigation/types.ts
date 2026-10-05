@@ -8,7 +8,8 @@ export type RootStackParamList = {
   Parks: undefined;
   Park: { parkId: string };
   EntryDetail: { entryId: string };
-  SubmitSighting: { parkId?: string } | undefined;
+  /** parkId preselects the park for a new find. forEntryId sends a photo of a find already in the guide instead. */
+  SubmitSighting: { parkId?: string; forEntryId?: string } | undefined;
   /**
    * focusEntryId zooms to that entry's pin and opens its label. challengeId
    * shows only that challenge's finds until the guest picks a park or clears it.
