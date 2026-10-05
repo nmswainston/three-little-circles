@@ -43,6 +43,28 @@ the result without writing anything. HEIC files need exporting as JPEG first;
 sharing from an iPhone with AirDrop or Mail does that. The rules the photo has
 to meet are in [content/images/README.md](images/README.md).
 
+## Checking finds in the park
+
+The verification kit turns every entry into a walking checklist you can use
+on your phone or print:
+
+```bash
+npm run content:kit
+```
+
+It writes `kit/index.html` (all parks in one page, pick the park at the top)
+and one `kit/<parkId>.csv` per park. Lands come in the order you walk them
+from the gate, attractions in a nearest-first path through each land, and
+finds within an attraction from entrance to exit. Each find shows its sheet
+id, status, scene, exact spot, and tip, with Found, Not found, and Changed
+buttons, a photo checkbox, and a notes line.
+
+Results stay in that browser. Tap **Copy results** to get them as CSV with
+the columns `find_id, entry_id, park, land, attraction, title, app_status,
+outcome, photo_taken, notes, checked_at`, then paste them into the
+spreadsheet's Onsite Verification tab and update the entries by hand. The
+`kit/` folder is ignored by git; regenerate it whenever entries change.
+
 ## Importing from a spreadsheet
 
 For many finds at once, keep them in a spreadsheet and import the CSV export:

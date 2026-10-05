@@ -45,3 +45,6 @@ yarn-error.*
 
 # drafts imported from community submissions (raw submitter text, review before publishing)
 content/inbox/
+
+# park verification kit, regenerate with npm run content:kit
+kit/
