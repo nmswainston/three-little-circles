@@ -96,10 +96,10 @@ established and which still need a second pair of eyes.
 
 What you get:
 
-- 350 entries, 284 Hidden Mickeys and 66 other hidden details, across Magic
-  Kingdom, EPCOT, Disney's Hollywood Studios, Disney's Animal Kingdom, Disney
-  Springs, the Walt Disney World resorts, Disneyland Park, and Disney
-  California Adventure.
+- More than 600 Hidden Mickeys and other hidden details across Magic Kingdom,
+  EPCOT, Disney's Hollywood Studios, Disney's Animal Kingdom, Disney Springs,
+  the Walt Disney World resorts, Disneyland Park, and Disney California
+  Adventure.
 - Hints one step at a time, if you would rather hunt than be told.
 - A park map with the finds closest to where you are standing.
 - Progress for every park, and badges to earn along the way.
@@ -113,7 +113,8 @@ Three Little Circles is an independent fan project. It is not affiliated with,
 endorsed by, or sponsored by The Walt Disney Company or any other theme park
 operator. Park and attraction names are used only to say where each find is.
 
-*(Update the counts for each release. `npm run content:check` prints them.)*
+*(The count is rounded down so it stays true between releases. Raise it when
+`npm run content:check` reports the next hundred.)*
 
 **Graphics**
 
@@ -204,5 +205,6 @@ management.
 *Play Console: the release's "Release notes" box. 500 characters per
 language. Rewrite for each release.*
 
-First release. A field guide to 350 Hidden Mickeys and other hidden details,
-with step-by-step hints, a park map, badges, and "Still there?" reports.
+First release. A field guide to more than 600 Hidden Mickeys and other hidden
+details, with step-by-step hints, a park map, badges, and "Still there?"
+reports.
