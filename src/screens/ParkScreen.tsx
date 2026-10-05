@@ -65,8 +65,8 @@ type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 /** Height of the bar that stays at the top, below the status bar. */
 const TOP_BAR_HEIGHT = 52;
 
-/** Space a land header takes, so a jump lands the first attraction just under it. */
-const LAND_HEADER_OFFSET = 44;
+/** Height of the pinned land strip, so a jump lands the first attraction just under it. */
+const LAND_HEADER_OFFSET = 52;
 
 export default function ParkScreen() {
   const route = useRoute<ParkRouteProp>();
@@ -154,6 +154,18 @@ export default function ParkScreen() {
   );
 
   const listRef = useRef<SectionList<AttractionItem, LandSection>>(null);
+  // The land at the top of the list, so its chip can be highlighted.
+  const [currentLandId, setCurrentLandId] = useState<string | undefined>();
+  const chipX = useRef<Record<string, number>>({});
+  const viewabilityPairs = useRef([
+    {
+      viewabilityConfig: { itemVisiblePercentThreshold: 50 },
+      onViewableItemsChanged: ({ viewableItems }: { viewableItems: Array<{ section?: { landId?: string } }> }) => {
+        setCurrentLandId(viewableItems[0]?.section?.landId);
+      },
+    },
+  ]).current;
+
   const pendingJump = useRef<number | null>(null);
   const jumpToLand = useCallback((sectionIndex: number) => {
     pendingJump.current = sectionIndex;
@@ -304,6 +316,25 @@ export default function ParkScreen() {
     </View>
   );
 
+  // Keeps the highlighted chip in view when the strip is wider than the screen.
+  const chipFocusX =
+    currentLandId !== undefined && chipX.current[currentLandId] !== undefined
+      ? Math.max(0, chipX.current[currentLandId] - spacing.lg)
+      : undefined;
+  const jumpChips = sections.map((land, index) => (
+    <View
+      key={land.landId}
+      onLayout={(e) => {
+        chipX.current[land.landId] = e.nativeEvent.layout.x;
+      }}
+    >
+      <Chip label={land.landName} selected={land.landId === currentLandId} onPress={() => jumpToLand(index)} />
+    </View>
+  ));
+  // Once the big header is gone, the strip stays under the top bar. It takes
+  // the place of the sticky land header, whose name it highlights.
+  const showPinnedStrip = compact && hasFinds && sections.length > 1;
+
   const header = (
     <>
       <View
@@ -433,14 +464,8 @@ export default function ParkScreen() {
         )}
 
         {hasFinds && sections.length > 1 && (
-          <FadingScrollRow contentContainerStyle={styles.jumpRow} style={styles.jump}>
-            {sections.map((land, index) => (
-              <Chip
-                key={land.landId}
-                label={land.landName}
-                onPress={() => jumpToLand(index)}
-              />
-            ))}
+          <FadingScrollRow contentContainerStyle={styles.jumpRow} style={styles.jump} scrollToX={chipFocusX}>
+            {jumpChips}
           </FadingScrollRow>
         )}
 
@@ -568,6 +593,13 @@ export default function ParkScreen() {
   return (
     <View style={styles.screen}>
       {topBar}
+      {showPinnedStrip && (
+        <View style={[styles.pinnedStrip, { top: insets.top + TOP_BAR_HEIGHT }]}>
+          <FadingScrollRow contentContainerStyle={styles.jumpRow} scrollToX={chipFocusX}>
+            {jumpChips}
+          </FadingScrollRow>
+        </View>
+      )}
       <SectionList
         ref={listRef}
         sections={sections}
@@ -576,7 +608,8 @@ export default function ParkScreen() {
         renderSectionHeader={renderSectionHeader}
         ListHeaderComponent={header}
         ListFooterComponent={footer}
-        stickySectionHeadersEnabled
+        stickySectionHeadersEnabled={!showPinnedStrip}
+        viewabilityConfigCallbackPairs={viewabilityPairs}
         onScroll={onScroll}
         scrollEventThrottle={16}
         onScrollToIndexFailed={onScrollToIndexFailed}
@@ -698,6 +731,17 @@ const createStyles = (t: Theme) =>
       paddingHorizontal: spacing.lg,
       paddingTop: spacing.md - 4,
       gap: spacing.md - 4,
+    },
+    // Over the top of the list, so the list does not move when it appears.
+    pinnedStrip: {
+      position: "absolute",
+      left: 0,
+      right: 0,
+      zIndex: 2,
+      paddingVertical: spacing.sm,
+      backgroundColor: t.colors.background,
+      borderBottomWidth: StyleSheet.hairlineWidth,
+      borderBottomColor: t.colors.border,
     },
     jump: {
       marginHorizontal: -spacing.lg,
