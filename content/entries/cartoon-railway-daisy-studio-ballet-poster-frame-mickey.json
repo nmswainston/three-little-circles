@@ -1,0 +1,40 @@
+{
+  "id": "cartoon-railway-daisy-studio-ballet-poster-frame-mickey",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Daisy Studio Ballet Poster Frame Mickey",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "Daisy's studio is hung with posters for ballet productions. The one on the wall behind you while you waltz advertises Ro-Mallard and Juli-Egg, and the top of its frame is a Mickey.",
+  "whereToLook": {
+    "scene": "Daisy's dance studio, the wall behind you during the waltz",
+    "exactSpot": "The Ro-Mallard and Juli-Egg poster. The top of the frame."
+  },
+  "bestTip": "Turn around while the car waltzes. The poster is behind you.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Flashing",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "sourceId": "TLC-HS-0070",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway46",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

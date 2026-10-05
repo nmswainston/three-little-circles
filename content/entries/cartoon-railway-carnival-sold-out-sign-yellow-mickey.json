@@ -1,0 +1,40 @@
+{
+  "id": "cartoon-railway-carnival-sold-out-sign-yellow-mickey",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Carnival Sold Out Sign Yellow Mickey",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "Entering the carnival room, balloons float ahead of you beside a Sold Out sign. Just above the sign, a small yellow Mickey hides among the signage, sometimes half covered by orange lights.",
+  "whereToLook": {
+    "scene": "Entering the carnival room, the balloons and the Sold Out sign ahead",
+    "exactSpot": "Just above the Sold Out sign. A small yellow Mickey, sometimes behind the orange lights."
+  },
+  "bestTip": "It is partly obscured most of the time. Look for the yellow.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "sourceId": "TLC-HS-0058",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway47",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

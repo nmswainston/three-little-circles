@@ -1,0 +1,40 @@
+{
+  "id": "cartoon-railway-runnamuck-park-lamppost-paint-mickey",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Runnamuck Park Lamppost Paint Mickey",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the opening Runnamuck Park scene, a black lamppost stands on the left. About halfway up the post, red paint blotches form a Hidden Mickey.",
+  "whereToLook": {
+    "scene": "The Runnamuck Park scene at the start of the ride, the black lamppost on the left",
+    "exactSpot": "Halfway up the post. Red paint blotches in three circles."
+  },
+  "bestTip": "It is the first scene, so be looking left before the train rolls.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Left",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "sourceId": "TLC-HS-0053",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway44",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

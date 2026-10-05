@@ -1,0 +1,40 @@
+{
+  "id": "cartoon-railway-factory-bellows-panel-yellow-mickey",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Factory Bellows Panel Yellow Mickey",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the factory room, a yellow Mickey on a red background sits on the right-hand panel just left of the bellows.",
+  "whereToLook": {
+    "scene": "The factory room, the panel on the right just left of the bellows",
+    "exactSpot": "A yellow Mickey on red."
+  },
+  "bestTip": "The bellows is the landmark. Look one panel left.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Right",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "sourceId": "TLC-HS-0074",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway23",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

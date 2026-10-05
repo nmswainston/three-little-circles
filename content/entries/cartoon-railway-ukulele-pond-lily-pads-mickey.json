@@ -1,0 +1,40 @@
+{
+  "id": "cartoon-railway-ukulele-pond-lily-pads-mickey",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Ukulele Pond Lily Pads Mickey",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Approaching the park scene where Mickey plays the ukulele, a pond on the right is dotted with lily pads, and three of them float together as a Hidden Mickey.",
+  "whereToLook": {
+    "scene": "Approaching the ukulele scene, the pond on the right",
+    "exactSpot": "Three lily pads grouped as a head and ears."
+  },
+  "bestTip": "Look at the water before you look at Mickey.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Right",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "sourceId": "TLC-HS-0085",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway22",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

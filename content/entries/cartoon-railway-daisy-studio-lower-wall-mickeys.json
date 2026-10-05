@@ -1,0 +1,40 @@
+{
+  "id": "cartoon-railway-daisy-studio-lower-wall-mickeys",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Daisy Studio Lower Wall Mickeys",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "Inside Daisy's dance studio, the design along the lower walls repeats several Mickeys. They sit just above the floorboards toward the front of the studio, below the mirror, turned ninety degrees.",
+  "whereToLook": {
+    "scene": "Daisy's dance studio, the lower walls toward the front below the mirror",
+    "exactSpot": "Just above the floorboards. Sideways Mickeys in the wall pattern."
+  },
+  "bestTip": "Look low and tilt your head; they are on their side.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Flashing",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "sourceId": "TLC-HS-0069",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway28",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

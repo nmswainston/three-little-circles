@@ -1,0 +1,40 @@
+{
+  "id": "cartoon-railway-factory-black-box-yellow-circles-inverted-mickey",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Factory Black Box Yellow Circles Inverted Mickey",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "On the right side of the factory, the black box with the long belt has three yellow circles near its bottom right that swing together for a moment into a Mickey. There are two sets. This is the upside-down one on top.",
+  "whereToLook": {
+    "scene": "The factory room, the black box with the long belt on the right",
+    "exactSpot": "Bottom right of the box. The upper set of three yellow circles, upside down."
+  },
+  "bestTip": "They only line up briefly. Keep watching the corner.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Right",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "sourceId": "TLC-HS-0076",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway54",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "cartoon-railway-last-room-low-blue-wall-mickey-letters",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Last Room Low Blue Wall Mickey Letters",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Hard",
+  "areaContext": "Ride",
+  "description": "In the last room, a low blue wall on the left, right down at floor level, spells out M-I-C-K-E-Y in letters. It is across from where Mickey plays the ukulele, and only the left side of the vehicle has the view.",
+  "whereToLook": {
+    "scene": "The last room, the low blue wall on the left across from the ukulele",
+    "exactSpot": "Down at floor level on the blue wall. The letters of Mickey's name."
+  },
+  "bestTip": "Sit on the left and look down.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Left",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Visible from the left side of the vehicle.",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "sourceId": "TLC-HS-0087",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway57",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

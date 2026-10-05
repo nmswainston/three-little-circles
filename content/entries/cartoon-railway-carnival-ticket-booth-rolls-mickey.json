@@ -1,0 +1,40 @@
+{
+  "id": "cartoon-railway-carnival-ticket-booth-rolls-mickey",
+  "parkId": "studios_park",
+  "landId": "boulevard_area",
+  "attractionId": "cartoon_railway",
+  "display": {
+    "entryTitle": "Carnival Ticket Booth Rolls Mickey",
+    "parkName": "Disney's Hollywood Studios",
+    "landName": "Hollywood Boulevard",
+    "attractionName": "Mickey & Minnie's Runaway Railway"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the carnival room, the ticket booth to the left of Donald's hot dog stand has three rolls of tickets stacked as a Hidden Mickey.",
+  "whereToLook": {
+    "scene": "The carnival room, the ticket booth left of Donald's hot dog booth",
+    "exactSpot": "Three rolls of tickets grouped as a head and ears."
+  },
+  "bestTip": "Find Donald's hot dogs first, then look one booth to the left.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Left",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.3563,
+    "longitude": -81.5604
+  },
+  "sourceId": "TLC-HS-0059",
+  "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway14",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
