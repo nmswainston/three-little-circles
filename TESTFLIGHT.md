@@ -122,12 +122,13 @@ that is well established and one that is a lead.
 Tap Found to mark something off. Progress and badges are worked out from your
 finds and stay on your phone. There is no account and no sign-in.
 
-This build covers 350 entries, 284 Hidden Mickeys and 66 other hidden details,
-across Magic Kingdom, EPCOT, Disney's Hollywood Studios, Disney's Animal
-Kingdom, Disney Springs, the Walt Disney World resorts, Disneyland Park, and
-Disney California Adventure, plus 19 pieces of park history and trivia.
-(Update these numbers for each build; `npm run content:check` prints the
-current ones.)
+This build covers 681 entries, 572 Hidden Mickeys and 109 other hidden
+details, across Magic Kingdom, EPCOT, Disney's Hollywood Studios, Disney's
+Animal Kingdom, Disney Springs, the Walt Disney World resorts, Disneyland Park,
+and Disney California Adventure, plus 19 pieces of park history and trivia.
+(Update these numbers for each build. `npm run content:check` prints the entry
+and fact totals; the Hidden Mickey count is the number of entries whose
+`entryType` is `FIND`, and the rest are `FACT`.)
 
 An independent fan project. Not affiliated with, endorsed by, or sponsored by
 any theme park company.
@@ -174,9 +175,9 @@ want eyes on:
 
 - Map pins were placed by hand from satellite view. They are accurate to the
   building, not to the spot.
-- About two thirds of the entries were researched from published sources and
-  have not yet been checked in person. They carry an "Unconfirmed" chip. If you
-  find one, "Saw it today" is the fastest way to tell me.
+- Most entries, about nine in ten, were researched from published sources and
+  have not yet been checked in person. They carry a "Not confirmed yet" chip.
+  If you find one, "Saw it today" is the fastest way to tell me.
 - On an iPad it runs as a phone-sized window (iPhone compatibility mode). A
   real iPad layout comes later.
 
