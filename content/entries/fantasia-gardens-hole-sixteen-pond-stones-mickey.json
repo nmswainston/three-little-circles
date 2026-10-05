@@ -1,0 +1,42 @@
+{
+  "id": "fantasia-gardens-hole-sixteen-pond-stones-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "fantasia_gardens_mini_golf",
+  "attractionId": "fantasia_gardens_course",
+  "display": {
+    "entryTitle": "Hole 16 Pond Stones Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Fantasia Gardens and Fairways Miniature Golf",
+    "attractionName": "Fantasia Gardens Course"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "At hole 16 on the Gardens course, look into the pond. Near the middle, a flat brown rock holds a few small stones set as a Mickey lying on its side.",
+  "whereToLook": {
+    "scene": "Hole 16 on the Gardens course, the pond",
+    "exactSpot": "A flat brown rock near the center of the pond. Small stones on top, a sideways Mickey."
+  },
+  "bestTip": "Putt first, then take a lap around the pond edge. The rock is easy to miss from the tee.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Low",
+    "distance": "Medium",
+    "notes": "Loose stones. The arrangement depends on who last tidied the pond."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "accessNotes": "Miniature golf is a separate paid admission.",
+  "coordinates": {
+    "latitude": 28.3655,
+    "longitude": -81.5492
+  },
+  "sourceId": "TLC-OT-0003",
+  "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-fantasia-gardens-miniature-golf-course-gardens-course-16th-hole-hidden-mickey-rocks-in-pond/",
+  "createdAtISO": "2026-10-05T00:00:00.000Z",
+  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+}

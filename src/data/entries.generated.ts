@@ -885,6 +885,47 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "aquarium-upper-corridor-fourth-window-stones-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "aquarium_pavilion",
+    "display": {
+      "entryTitle": "Upper Corridor Fourth Window Stones Mickey",
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "The Seas with Nemo & Friends"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "On the upper level of the pavilion, walk the row of aquarium windows on the right side. In the fourth window, stones on the tank floor are set as a Mickey.",
+    "whereToLook": {
+      "scene": "The upper level, the corridor of aquarium windows on the right",
+      "exactSpot": "The fourth window. Stones on the floor of the tank."
+    },
+    "bestTip": "Count windows from the start of the corridor and look down into the tank, not at the fish.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Aquarists move tank decor, so the stones can shift or vanish."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 28.375,
+      "longitude": -81.5518
+    },
+    "sourceId": "TLC-EP-0044",
+    "sourceUrl": "https://www.celebrationspress.com/issues/Celebrations-Issue-1-DV46852.pdf",
+    "createdAtISO": "2026-10-05T00:00:00.000Z",
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  },
+  {
     "id": "art-animation-package-pickup-mickey",
     "parkId": "resorts_bucket",
     "landId": "art_of_animation_resort",
@@ -5050,6 +5091,88 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "conservation-hall-reptile-room-window-ledge-containers-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Reptile Room Window Ledge Containers Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
+      "attractionName": "Conservation Station"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the reptile room, go to the window farthest to the left. Three containers on the ledge sit together as a Mickey.",
+    "whereToLook": {
+      "scene": "The reptile room, the far left window",
+      "exactSpot": "The window ledge. Three containers, one larger and two smaller."
+    },
+    "bestTip": "Start at the left end of the room and work right. The containers are at ledge height, not on the floor.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "The containers are props the keepers can move."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 28.365314,
+      "longitude": -81.588384
+    },
+    "sourceId": "TLC-AK-0024",
+    "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+    "createdAtISO": "2026-10-05T00:00:00.000Z",
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  },
+  {
+    "id": "conservation-hall-tracking-center-second-window-plate-dots-mickey",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "display": {
+      "entryTitle": "Tracking Center Second Window Plate Dots Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Rafiki's Planet Watch",
+      "attractionName": "Conservation Station"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "In the Wildlife Tracking Center, look through the second window into the lab. On a laboratory plate inside, dots are laid out as a Mickey.",
+    "whereToLook": {
+      "scene": "The Wildlife Tracking Center, the second window",
+      "exactSpot": "A laboratory plate inside the window. Dots in a Mickey pattern."
+    },
+    "bestTip": "Press close to the glass and scan the benches rather than the people.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Lab props are working equipment and get moved."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 28.365314,
+      "longitude": -81.588384
+    },
+    "sourceId": "TLC-AK-0023",
+    "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+    "createdAtISO": "2026-10-05T00:00:00.000Z",
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  },
+  {
     "id": "conservation-hall-willow-tree-indentation-mickey",
     "parkId": "adventure_park",
     "landId": "conservation_outpost_area",
@@ -6455,6 +6578,47 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "espn-track-and-field-discus-platform-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "espn_wide_world_of_sports",
+    "attractionId": "track_and_field_complex",
+    "display": {
+      "entryTitle": "Discus Platform Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "ESPN Wide World of Sports Complex",
+      "attractionName": "Track and Field Complex"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "Beyond the multipurpose fields, the discus throwing platform is poured as Mickey's head and ears. It is a ground-level shape, so look for the outline rather than a picture.",
+    "whereToLook": {
+      "scene": "The track and field area past the multipurpose fields, the discus launch platform",
+      "exactSpot": "The base of the throwing platform. Head and ears in the concrete."
+    },
+    "bestTip": "Find the discus cage first. The platform is at its mouth.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "The complex is open during ticketed events. Look from the spectator areas and stay off the field of play.",
+    "coordinates": {
+      "latitude": 28.3372,
+      "longitude": -81.5565
+    },
+    "sourceId": "TLC-OT-0002",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-espn-wide-world-of-sports-complex-discus-throwing-launch-pad-hidden-mickey/",
+    "createdAtISO": "2026-10-05T00:00:00.000Z",
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  },
+  {
     "id": "exposition-park-planters-overhead-mickey",
     "parkId": "springs_bucket",
     "landId": "west_side",
@@ -6612,6 +6776,48 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0030",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "fantasia-gardens-hole-sixteen-pond-stones-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "fantasia_gardens_mini_golf",
+    "attractionId": "fantasia_gardens_course",
+    "display": {
+      "entryTitle": "Hole 16 Pond Stones Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Fantasia Gardens and Fairways Miniature Golf",
+      "attractionName": "Fantasia Gardens Course"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "At hole 16 on the Gardens course, look into the pond. Near the middle, a flat brown rock holds a few small stones set as a Mickey lying on its side.",
+    "whereToLook": {
+      "scene": "Hole 16 on the Gardens course, the pond",
+      "exactSpot": "A flat brown rock near the center of the pond. Small stones on top, a sideways Mickey."
+    },
+    "bestTip": "Putt first, then take a lap around the pond edge. The rock is easy to miss from the tee.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Medium",
+      "notes": "Loose stones. The arrangement depends on who last tidied the pond."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "accessNotes": "Miniature golf is a separate paid admission.",
+    "coordinates": {
+      "latitude": 28.3655,
+      "longitude": -81.5492
+    },
+    "sourceId": "TLC-OT-0003",
+    "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-fantasia-gardens-miniature-golf-course-gardens-course-16th-hole-hidden-mickey-rocks-in-pond/",
+    "createdAtISO": "2026-10-05T00:00:00.000Z",
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "fantasmic-whirlpool-foam-mickey",
@@ -8942,6 +9148,47 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
+    "id": "grand-lobby-luggage-cart-cutout-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "grand_lobby",
+    "display": {
+      "entryTitle": "Luggage Cart Cutout Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Grand Floridian Resort",
+      "attractionName": "Grand Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Watch the luggage carts that bell services wheel through the lobby. A Mickey-shaped cutout is worked into the cart's frame.",
+    "whereToLook": {
+      "scene": "The grand lobby, the luggage carts in use",
+      "exactSpot": "The frame of a cart. A Mickey cutout in the metalwork."
+    },
+    "bestTip": "Wait near the bell services stand and a cart will come to you.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "The carts roll with the bellhops, so you may need to wait for one to pass. Check that the current carts still carry the cutout."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 28.411279,
+      "longitude": -81.587713
+    },
+    "sourceId": "TLC-RS-0076",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+    "createdAtISO": "2026-10-05T00:00:00.000Z",
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  },
+  {
     "id": "grand-lobby-marble-floor-corner-panel-mickey",
     "parkId": "resorts_bucket",
     "landId": "grand_floridian_resort",
@@ -9422,6 +9669,47 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-EP-0056",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  },
+  {
+    "id": "greenhouse-boat-pest-management-lab-tubes-mickey",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "greenhouse_boat_ride",
+    "display": {
+      "entryTitle": "Pest Management Lab Tubes Mickey",
+      "parkName": "EPCOT",
+      "landName": "World Nature",
+      "attractionName": "Living with the Land"
+    },
+    "entryType": "FIND",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "In the greenhouses the boat passes a display about Integrated Pest Management, the method the gardens use instead of heavy pesticides. Among the lab glassware, tubes are grouped so they read as Mickey's head and ears.",
+    "whereToLook": {
+      "scene": "The greenhouse section, the Integrated Pest Management display",
+      "exactSpot": "The laboratory tubes in the display. A grouping of three."
+    },
+    "bestTip": "When you reach the lab display, look at the glassware instead of the plants.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "The lab props are rearranged from time to time."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 28.3737,
+      "longitude": -81.5527
+    },
+    "sourceId": "TLC-EP-0035",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-test-tubes",
+    "createdAtISO": "2026-10-05T00:00:00.000Z",
     "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
@@ -10177,6 +10465,47 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-haunted-mansion-bathtub-headstone",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "haunted-manor-wait-sign-thirteen-minutes",
+    "parkId": "magic_kingdom_park",
+    "landId": "colonial_square_area",
+    "attractionId": "haunted_manor_ride",
+    "display": {
+      "entryTitle": "Thirteen Minute Wait Sign",
+      "parkName": "Magic Kingdom",
+      "landName": "Liberty Square",
+      "attractionName": "The Haunted Mansion"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "When the line is short, the posted standby wait at the Mansion sometimes reads 13 minutes instead of the usual 5 or 10. Thirteen is the house's favorite unlucky number, and the sign is in on the joke.",
+    "whereToLook": {
+      "scene": "The standby wait time sign at the attraction entrance",
+      "exactSpot": "The posted number. Look for 13 minutes."
+    },
+    "bestTip": "Check the sign first thing in the morning or late at night, when the real wait is close to nothing.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Only shows up when the wait is genuinely low."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 28.4201,
+      "longitude": -81.583
+    },
+    "sourceId": "TLC-MK-0090",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-haunted-mansion-13-minutes-wait-time",
+    "createdAtISO": "2026-10-05T00:00:00.000Z",
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "haunted-mansion-ballroom-table-plates-mickey",
@@ -12702,6 +13031,47 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
+    "id": "lake-buena-vista-golf-turf-club-bunker-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "walt_disney_world_golf",
+    "attractionId": "lake_buena_vista_golf_course",
+    "display": {
+      "entryTitle": "Turf Club Bunker Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Walt Disney World Golf",
+      "attractionName": "Disney's Lake Buena Vista Golf Course"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "Behind The Turf Club Bar and Grill at Saratoga Springs, near the sign pointing toward the driving range, a sand bunker on the Lake Buena Vista course is shaped as Mickey's head and ears.",
+    "whereToLook": {
+      "scene": "Behind The Turf Club Bar and Grill, near the driving range direction sign",
+      "exactSpot": "The sand bunker. Head and ears in the outline."
+    },
+    "bestTip": "The shape reads best from a little distance, so step back toward the restaurant before you judge it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "The course itself is for golfers with a tee time. The view from behind the Turf Club is on Saratoga Springs resort grounds.",
+    "coordinates": {
+      "latitude": 28.3759,
+      "longitude": -81.5226
+    },
+    "sourceId": "TLC-OT-0001",
+    "sourceUrl": "https://hiddenmickeyguy.com/746-2/",
+    "createdAtISO": "2026-10-05T00:00:00.000Z",
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  },
+  {
     "id": "legacy-photo-panels-boy-band-portraits",
     "parkId": "showcase_park",
     "landId": "celebration_area",
@@ -13544,6 +13914,50 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Magic3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "magnolia-golf-hole-six-bunker-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "walt_disney_world_golf",
+    "attractionId": "magnolia_golf_course",
+    "display": {
+      "entryTitle": "Hole 6 Bunker Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Walt Disney World Golf",
+      "attractionName": "Disney's Magnolia Golf Course"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Outdoor Display",
+    "description": "The sixth hole on the Magnolia has the resort's most famous bunker: a full Mickey head with ears cut into the sand. Disney's own golf materials show it off, so this one is as official as a Hidden Mickey gets.",
+    "whereToLook": {
+      "scene": "Hole 6 on the Magnolia course",
+      "exactSpot": "The signature sand bunker. Head and ears."
+    },
+    "bestTip": "Play the hole and look at the bunker from the fairway. From the tee it is just a patch of sand.",
+    "funFacts": [
+      "The Magnolia hosted a PGA Tour stop for decades, which makes this bunker one of the most televised Hidden Mickeys anywhere."
+    ],
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Far"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Golfers only. Book a tee time to see it from the course.",
+    "coordinates": {
+      "latitude": 28.4075,
+      "longitude": -81.5905
+    },
+    "sourceId": "TLC-OT-0005",
+    "sourceUrl": "https://www.golfwdw.com/images/documents/Walt-Disney-World-Golf_Learn-More-Golf--FootGolf-Events_December-2024-Walt-Disney-World-Golf-Learn-More-Golf--FootGolf-Events_December-2024-WDWG-December-2024-Event-Catalog_COMPRESSED.pdf",
+    "createdAtISO": "2026-10-05T00:00:00.000Z",
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "main-street-candy-shop-chocolate-wall-mickey",
@@ -15626,6 +16040,88 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Minnies-House1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "mitsukoshi-garden-path-juniper-rocks-mickey",
+    "parkId": "showcase_park",
+    "landId": "japan_pavilion",
+    "attractionId": "mitsukoshi_department_store",
+    "display": {
+      "entryTitle": "Garden Path Juniper Rocks Mickey",
+      "parkName": "EPCOT",
+      "landName": "Japan Pavilion",
+      "attractionName": "Mitsukoshi Department Store"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "Outside Mitsukoshi, follow the garden path to its far right end. Near a juniper, small rocks on the ground are arranged as a Mickey.",
+    "whereToLook": {
+      "scene": "The garden path outside the store, the far right end",
+      "exactSpot": "On the ground near the juniper. Three small rocks."
+    },
+    "bestTip": "Walk the path all the way to the right before you start looking down.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close",
+      "notes": "Loose rocks, so the arrangement depends on the gardeners."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 28.3672,
+      "longitude": -81.5504
+    },
+    "sourceId": "TLC-EP-0045",
+    "sourceUrl": "https://www.celebrationspress.com/issues/Celebrations-Issue-1-DV46852.pdf",
+    "createdAtISO": "2026-10-05T00:00:00.000Z",
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  },
+  {
+    "id": "moana-mercantile-upper-shelf-rope-glass-spheres-mickey",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "moana_mercantile",
+    "display": {
+      "entryTitle": "Upper Shelf Rope Glass Spheres Mickey",
+      "parkName": "Walt Disney World Resorts",
+      "landName": "Polynesian Village Resort",
+      "attractionName": "Moana Mercantile"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "Glass spheres wrapped in rope netting decorate the upper shelves of the shop. Three of them are set together as a Mickey.",
+    "whereToLook": {
+      "scene": "Inside the shop, the upper shelf decor",
+      "exactSpot": "The rope-bound glass spheres. A grouping of three."
+    },
+    "bestTip": "Look above the merchandise. The spheres are decoration, not for sale.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Shop decor gets rearranged."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 28.4055,
+      "longitude": -81.5854
+    },
+    "sourceId": "TLC-RS-0033",
+    "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+    "createdAtISO": "2026-10-05T00:00:00.000Z",
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "monsters-inc-camera-monster-television-dial-mickey",
@@ -26689,6 +27185,47 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
+    "id": "wild-west-mine-coaster-queue-workbench-paint-cans-mickey",
+    "parkId": "magic_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "wild_west_mine_coaster",
+    "display": {
+      "entryTitle": "Queue Workbench Paint Cans Mickey",
+      "parkName": "Magic Kingdom",
+      "landName": "Frontierland",
+      "attractionName": "Big Thunder Mountain Railroad"
+    },
+    "entryType": "FIND",
+    "locationType": "Queue",
+    "difficulty": "Hard",
+    "areaContext": "Queue",
+    "description": "The queue is dressed with mining gear, and on one workbench shelf three paint containers are said to sit in a Mickey arrangement. The report is thin and the props are easy to nudge, so treat this one as a maybe until you see it yourself.",
+    "whereToLook": {
+      "scene": "The queue, the workbench dressed with mining equipment",
+      "exactSpot": "The shelf of the workbench. Three paint containers, one large and two small."
+    },
+    "bestTip": "Scan every shelf of tools as you pass. The cans are among the gear, not on the floor.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "Props in this queue shift over time."
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 28.42,
+      "longitude": -81.5856
+    },
+    "sourceId": "TLC-MK-0068",
+    "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-big-thunder-paint-can",
+    "createdAtISO": "2026-10-05T00:00:00.000Z",
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  },
+  {
     "id": "wilderness-lobby-fireplace-canyon-strata",
     "parkId": "resorts_bucket",
     "landId": "wilderness_lodge_resort",
@@ -27291,5 +27828,46 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://www.wftv.com/news/searching-hidden-mickeys-wdw-epcot-resorts/156945880/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "zuris-sweets-shop-high-shelf-striped-mickey-figurine",
+    "parkId": "adventure_park",
+    "landId": "savanna_village_area",
+    "attractionId": "zuris_sweets_shop",
+    "display": {
+      "entryTitle": "High Shelf Striped Mickey Figurine",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Africa",
+      "attractionName": "Zuri's Sweets Shop"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Shop",
+    "description": "Inside the sweets shop, look up to the high shelf on the right, across from the door you came in. Among the decorative props stands a small Mickey figurine painted in stripes.",
+    "whereToLook": {
+      "scene": "Inside the shop, the high shelf on the right opposite the entrance",
+      "exactSpot": "Among the props on the shelf. A small striped Mickey figurine."
+    },
+    "bestTip": "Stand just inside the door and look up and to the right before the candy distracts you.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium",
+      "notes": "Shop decor gets rearranged."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 28.3588,
+      "longitude": -81.5917
+    },
+    "sourceId": "TLC-AK-0025",
+    "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
+    "createdAtISO": "2026-10-05T00:00:00.000Z",
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   }
 ];

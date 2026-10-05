@@ -1,0 +1,41 @@
+{
+  "id": "lake-buena-vista-golf-turf-club-bunker-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "walt_disney_world_golf",
+  "attractionId": "lake_buena_vista_golf_course",
+  "display": {
+    "entryTitle": "Turf Club Bunker Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Walt Disney World Golf",
+    "attractionName": "Disney's Lake Buena Vista Golf Course"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "Behind The Turf Club Bar and Grill at Saratoga Springs, near the sign pointing toward the driving range, a sand bunker on the Lake Buena Vista course is shaped as Mickey's head and ears.",
+  "whereToLook": {
+    "scene": "Behind The Turf Club Bar and Grill, near the driving range direction sign",
+    "exactSpot": "The sand bunker. Head and ears in the outline."
+  },
+  "bestTip": "The shape reads best from a little distance, so step back toward the restaurant before you judge it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "The course itself is for golfers with a tee time. The view from behind the Turf Club is on Saratoga Springs resort grounds.",
+  "coordinates": {
+    "latitude": 28.3759,
+    "longitude": -81.5226
+  },
+  "sourceId": "TLC-OT-0001",
+  "sourceUrl": "https://hiddenmickeyguy.com/746-2/",
+  "createdAtISO": "2026-10-05T00:00:00.000Z",
+  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+}

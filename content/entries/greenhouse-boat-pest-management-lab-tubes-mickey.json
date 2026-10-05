@@ -1,0 +1,41 @@
+{
+  "id": "greenhouse-boat-pest-management-lab-tubes-mickey",
+  "parkId": "showcase_park",
+  "landId": "nature_area",
+  "attractionId": "greenhouse_boat_ride",
+  "display": {
+    "entryTitle": "Pest Management Lab Tubes Mickey",
+    "parkName": "EPCOT",
+    "landName": "World Nature",
+    "attractionName": "Living with the Land"
+  },
+  "entryType": "FIND",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "In the greenhouses the boat passes a display about Integrated Pest Management, the method the gardens use instead of heavy pesticides. Among the lab glassware, tubes are grouped so they read as Mickey's head and ears.",
+  "whereToLook": {
+    "scene": "The greenhouse section, the Integrated Pest Management display",
+    "exactSpot": "The laboratory tubes in the display. A grouping of three."
+  },
+  "bestTip": "When you reach the lab display, look at the glassware instead of the plants.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "The lab props are rearranged from time to time."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "coordinates": {
+    "latitude": 28.3737,
+    "longitude": -81.5527
+  },
+  "sourceId": "TLC-EP-0035",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-test-tubes",
+  "createdAtISO": "2026-10-05T00:00:00.000Z",
+  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+}

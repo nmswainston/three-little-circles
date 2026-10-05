@@ -1,0 +1,41 @@
+{
+  "id": "moana-mercantile-upper-shelf-rope-glass-spheres-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "polynesian_village_resort",
+  "attractionId": "moana_mercantile",
+  "display": {
+    "entryTitle": "Upper Shelf Rope Glass Spheres Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Polynesian Village Resort",
+    "attractionName": "Moana Mercantile"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "Glass spheres wrapped in rope netting decorate the upper shelves of the shop. Three of them are set together as a Mickey.",
+  "whereToLook": {
+    "scene": "Inside the shop, the upper shelf decor",
+    "exactSpot": "The rope-bound glass spheres. A grouping of three."
+  },
+  "bestTip": "Look above the merchandise. The spheres are decoration, not for sale.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "Shop decor gets rearranged."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "coordinates": {
+    "latitude": 28.4055,
+    "longitude": -81.5854
+  },
+  "sourceId": "TLC-RS-0033",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-polynesian-village-resort/",
+  "createdAtISO": "2026-10-05T00:00:00.000Z",
+  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+}
