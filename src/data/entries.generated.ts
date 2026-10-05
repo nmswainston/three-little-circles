@@ -238,8 +238,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3568,
       "longitude": -81.562
     },
+    "sourceId": "TLC-HS-0089",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "all-star-music-lobby-mural-grilling-bear",
@@ -315,8 +316,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3663,
       "longitude": -81.5498
     },
+    "sourceId": "TLC-EP-0048",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "american-pavilion-lobby-picture-frame-mickey",
@@ -392,8 +394,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3663,
       "longitude": -81.5498
     },
+    "sourceId": "TLC-EP-0049",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "american-pavilion-westward-painting-mickey",
@@ -837,8 +840,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.375,
       "longitude": -81.5518
     },
+    "sourceId": "TLC-EP-0050",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "aquarium-starfish-display-mickey",
@@ -4561,8 +4565,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4201,
       "longitude": -81.5815
     },
+    "sourceId": "TLC-MK-0099",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "concert-hall-show-city-buildings-mickey",
@@ -4639,8 +4644,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4201,
       "longitude": -81.5815
     },
+    "sourceId": "TLC-MK-0100",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "concert-hall-show-entrance-hall-music-pattern-mickey",
@@ -5119,8 +5125,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3635,
       "longitude": -81.5899
     },
+    "sourceId": "TLC-AK-0037",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "contemporary-monorail-beam-mickey",
@@ -5239,8 +5246,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3755,
       "longitude": -81.5469
     },
+    "sourceId": "TLC-EP-0051",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "cosmic-coaster-city-model-water-mickey",
@@ -5318,8 +5326,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3573,
       "longitude": -81.5591
     },
+    "sourceId": "TLC-HS-0090",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "cozy-cone-office-shelf-mickey-figurine",
@@ -5520,8 +5529,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3553,
       "longitude": -81.5613
     },
+    "sourceId": "TLC-HS-0091",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-16T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "crystal-arts-shop-paving-stone-mickey",
@@ -6359,8 +6369,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3578,
       "longitude": -81.5586
     },
+    "sourceId": "TLC-HS-0092",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "enzos-hideaway-booth-poster-mickey",
@@ -6559,8 +6570,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4182,
       "longitude": -81.5832
     },
+    "sourceId": "TLC-MK-0101",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "family-treehouse-trunk-profile-mickey",
@@ -6799,8 +6811,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3566,
       "longitude": -81.5915
     },
+    "sourceId": "TLC-AK-0038",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "flying-carpets-pavement-charm-mickey",
@@ -7402,8 +7415,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 33.8066,
       "longitude": -117.9169
     },
+    "sourceId": "TLC-CA-0078",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "fortuosity-shop-carved-woodwork-mickey",
@@ -7521,8 +7535,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3681,
       "longitude": -81.5535
     },
+    "sourceId": "TLC-EP-0052",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "france-monsieur-paul-marquee-mickey",
@@ -7559,8 +7574,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.368,
       "longitude": -81.5533
     },
+    "sourceId": "TLC-EP-0053",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "france-wine-shop-columns-mickey",
@@ -8481,8 +8497,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.368,
       "longitude": -81.5469
     },
+    "sourceId": "TLC-EP-0054",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "germany-volkskunst-painted-flower-mickey",
@@ -8640,8 +8657,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3737,
       "longitude": -81.5527
     },
+    "sourceId": "TLC-EP-0055",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "glowing-river-light-fixture-mickey",
@@ -8679,8 +8697,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3553,
       "longitude": -81.5918
     },
+    "sourceId": "TLC-AK-0039",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "glowing-river-shaman-cloak-mickeys",
@@ -8717,8 +8736,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3553,
       "longitude": -81.5918
     },
+    "sourceId": "TLC-AK-0040",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "glowing-river-shaman-garment-pattern-mickey",
@@ -9277,8 +9297,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3579,
       "longitude": -81.5906
     },
+    "sourceId": "TLC-AK-0041",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "greenhouse-boat-lettuce-planks-mickey",
@@ -9399,8 +9420,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3737,
       "longitude": -81.5527
     },
+    "sourceId": "TLC-EP-0056",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "greenhouse-boat-shrimp-trap-mickey",
@@ -9437,8 +9459,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3737,
       "longitude": -81.5527
     },
+    "sourceId": "TLC-EP-0057",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "greenhouse-boat-water-hose-mickey",
@@ -9916,8 +9939,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3592,
       "longitude": -81.5912
     },
+    "sourceId": "TLC-AK-0042",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "harbour-house-restaurant-navigation-charts-mickey",
@@ -10631,8 +10655,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4201,
       "longitude": -81.5807
     },
+    "sourceId": "TLC-MK-0102",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "honey-pot-queue-tree-pebbles-mickey",
@@ -10671,8 +10696,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4201,
       "longitude": -81.5807
     },
+    "sourceId": "TLC-MK-0103",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "honey-pot-ride-entrance-sign-profile-mickey",
@@ -11109,8 +11135,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.36,
       "longitude": -81.5599
     },
+    "sourceId": "TLC-HS-0093",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "hotel-tower-preshow-mickey-doll",
@@ -11309,8 +11336,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3708,
       "longitude": -81.5462
     },
+    "sourceId": "TLC-EP-0058",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "imagination-dragon-bathroom-commode-mickey",
@@ -11346,8 +11374,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3728,
       "longitude": -81.5525
     },
+    "sourceId": "TLC-EP-0059",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "imagination-dragon-sight-room-illustration-mickey",
@@ -11789,8 +11818,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3672,
       "longitude": -81.5504
     },
+    "sourceId": "TLC-EP-0060",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "japan-gallery-fridge-magnets-mickey",
@@ -11828,8 +11858,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3672,
       "longitude": -81.5504
     },
+    "sourceId": "TLC-EP-0061",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "japan-koi-pond-rockwork-mickey",
@@ -12384,8 +12415,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3598,
       "longitude": -81.5892
     },
+    "sourceId": "TLC-AK-0043",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "jungle-palace-second-arch-cloud-mickey",
@@ -12425,8 +12457,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3598,
       "longitude": -81.5892
     },
+    "sourceId": "TLC-AK-0044",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "jungle-palace-second-arch-mountain-rock-mickey",
@@ -12740,8 +12773,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4189,
       "longitude": -81.5826
     },
+    "sourceId": "TLC-MK-0104",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "lion-celebration-show-warthog-platform-mickey",
@@ -12819,8 +12853,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3679,
       "longitude": -81.5529
     },
+    "sourceId": "TLC-EP-0062",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "little-chef-exit-wall-design-mickey",
@@ -13424,8 +13459,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 33.8106,
       "longitude": -117.9188
     },
+    "sourceId": "TLC-DL-0232",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "magic-shop-counter-rope-trick-mickey",
@@ -14544,8 +14580,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3708,
       "longitude": -81.5468
     },
+    "sourceId": "TLC-EP-0063",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "mexico-pyramid-plaza-volcano-landscape-mickey",
@@ -15186,8 +15223,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3553,
       "longitude": -81.5613
     },
+    "sourceId": "TLC-HS-0094",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "midway-shooter-exit-purple-bull-patch-mickey",
@@ -15386,8 +15424,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4206,
       "longitude": -81.5801
     },
+    "sourceId": "TLC-MK-0105",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "mine-train-lift-hill-rabbit-carving",
@@ -16270,8 +16309,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4181,
       "longitude": -81.5843
     },
+    "sourceId": "TLC-MK-0106",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "pirate-boat-ride-final-scene-lantern-wire-mickey",
@@ -18602,8 +18642,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3594,
       "longitude": -81.5882
     },
+    "sourceId": "TLC-AK-0045",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "river-rapids-queue-hanging-boots-mickey",
@@ -20050,8 +20091,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.36,
       "longitude": -81.5925
     },
+    "sourceId": "TLC-AK-0046",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "savanna-safari-queue-driver-board-mickey",
@@ -20447,8 +20489,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4204,
       "longitude": -81.5827
     },
+    "sourceId": "TLC-MK-0107",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "sixties-courtyard-wall-mickey",
@@ -21132,8 +21175,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3589,
       "longitude": -81.587
     },
+    "sourceId": "TLC-AK-0047",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "snowy-mountain-yeti-museum-lantern-dents-mickey",
@@ -21573,8 +21617,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3739,
       "longitude": -81.5467
     },
+    "sourceId": "TLC-EP-0064",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "space-mission-shop-mural-ground-mickey",
@@ -21616,8 +21661,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3742,
       "longitude": -81.5471
     },
+    "sourceId": "TLC-EP-0065",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "space-mission-shop-mural-moon-mickey",
@@ -21659,8 +21705,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3742,
       "longitude": -81.5471
     },
+    "sourceId": "TLC-EP-0066",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "space-mission-shop-mural-thrusters-mickey",
@@ -21702,8 +21749,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3742,
       "longitude": -81.5471
     },
+    "sourceId": "TLC-EP-0067",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "space-mountain-rocket-seat-speakers-mickey",
@@ -21782,8 +21830,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3568,
       "longitude": -81.562
     },
+    "sourceId": "TLC-HS-0095",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-16T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "splitsville-upstairs-mural-bowling-shapes-mickey",
@@ -22217,8 +22266,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3563,
       "longitude": -81.56
     },
+    "sourceId": "TLC-HS-0096",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "stunt-plane-coaster-billboard-mickey",
@@ -25146,8 +25196,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.418,
       "longitude": -81.584
     },
+    "sourceId": "TLC-MK-0108",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "totem-window-spider-mickey",
@@ -25507,8 +25558,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3563,
       "longitude": -81.5628
     },
+    "sourceId": "TLC-HS-0097",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-16T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "trails-end-restaurant-frying-pans-mickey",
@@ -25585,8 +25637,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3579,
       "longitude": -81.5906
     },
+    "sourceId": "TLC-AK-0048",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "tune-in-lounge-table-top-mickeys",
@@ -25622,8 +25675,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3573,
       "longitude": -81.5606
     },
+    "sourceId": "TLC-HS-0098",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "undersea-clamshell-dock-mural-rock-mickey",
@@ -25661,8 +25715,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 33.8063,
       "longitude": -117.9215
     },
+    "sourceId": "TLC-CA-0079",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "undersea-clamshell-entry-shell-right-mickey",
@@ -25940,8 +25995,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.4219,
       "longitude": -81.5793
     },
+    "sourceId": "TLC-MK-0109",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-23T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "undersea-clamshell-song-scene-coral-mickey",
@@ -26057,8 +26113,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3553,
       "longitude": -81.5613
     },
+    "sourceId": "TLC-HS-0099",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-16T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "vero-beach-lobby-display-mickey-30th",
@@ -26099,8 +26156,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 27.6832,
       "longitude": -80.362
     },
+    "sourceId": "TLC-RS-0094",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "village-haus-restaurant-mural-mickey",
@@ -26302,8 +26360,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3745,
       "longitude": -81.5502
     },
+    "sourceId": "TLC-EP-0068",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "water-journey-vase-holes-mickey",
@@ -26342,8 +26401,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3745,
       "longitude": -81.5502
     },
+    "sourceId": "TLC-EP-0069",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-22T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "wedding-pavilion-castle-window",
@@ -26905,8 +26965,9 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 28.3549,
       "longitude": -81.5928
     },
+    "sourceId": "TLC-AK-0049",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "winnie-the-pooh-entrance-pole-wood-knot-mickey",
