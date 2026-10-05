@@ -6,6 +6,8 @@
 -- What it sets up:
 --   * public.submissions   one row per suggested find, status pending until you review it
 --   * a private storage bucket for optional photos
+--   * a photo of a find already in the guide goes through the same table,
+--     with for_entry_id set to that entry
 --   * row-level security so the app can only INSERT a pending row and
 --     upload a photo. It cannot read, update, or delete anything.
 --   * a per-device rate limit of 5 submissions per hour
@@ -35,6 +37,10 @@ create table if not exists public.submissions (
   difficulty      text not null check (difficulty in ('Easy', 'Medium', 'Hard')),
   location_type   text not null check (location_type in ('Queue', 'Ride', 'Pre-show', 'Outdoor', 'Indoor')),
   photo_path      text,
+  -- set when the photo is of a find already in the guide: that entry's id.
+  -- The title and attraction then repeat the entry's, and where_to_look holds
+  -- the sender's note, or a stock line when they left none.
+  for_entry_id    text,
 
   -- who (optional)
   contact_name    text,
@@ -62,6 +68,26 @@ create table if not exists public.submissions (
 
 create index if not exists submissions_status_created_idx on public.submissions (status, created_at desc);
 create index if not exists submissions_device_created_idx on public.submissions (device_id, created_at desc);
+
+-- ---------------------------------------------------------------------------
+-- Photos of finds already in the guide
+--
+-- "Send a photo" on an entry lands here with for_entry_id set. A project set
+-- up before the column existed gets it from this block; like everything else
+-- in this file it is safe to run again.
+-- ---------------------------------------------------------------------------
+alter table public.submissions add column if not exists for_entry_id text;
+
+alter table public.submissions drop constraint if exists submissions_for_entry_length;
+alter table public.submissions add constraint submissions_for_entry_length
+  check (for_entry_id is null or char_length(for_entry_id) between 1 and 120);
+
+-- A photo submission without a photo is nothing to review.
+alter table public.submissions drop constraint if exists submissions_photo_for_entry;
+alter table public.submissions add constraint submissions_photo_for_entry
+  check (for_entry_id is null or photo_path is not null);
+
+create index if not exists submissions_for_entry_idx on public.submissions (for_entry_id) where for_entry_id is not null;
 
 -- ---------------------------------------------------------------------------
 -- Rate limit: at most 5 submissions per device per hour
@@ -144,6 +170,10 @@ create policy "anon can upload submission photos"
 -- Pending queue, oldest first:
 --   select id, created_at, park_name, attraction_name, title, left(where_to_look, 80) as where_to_look, photo_path
 --   from public.submissions where status = 'pending' order by created_at;
+--
+-- Pending photos of finds already in the guide:
+--   select id, created_at, for_entry_id, left(where_to_look, 80) as note, photo_path, contact_name
+--   from public.submissions where status = 'pending' and for_entry_id is not null order by created_at;
 --
 -- Approve one:
 --   update public.submissions set status = 'approved', reviewed_at = now() where id = '<id>';

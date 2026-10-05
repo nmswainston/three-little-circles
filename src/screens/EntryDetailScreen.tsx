@@ -354,6 +354,22 @@ export default function EntryDetailScreen() {
 
           <StillThereCard entryId={entry.id} summary={getConfirmation(entry.id)} />
 
+          {isSupabaseConfigured && (
+            <Pressable
+              onPress={() => navigation.navigate("SubmitSighting", { forEntryId: entry.id })}
+              accessibilityRole="button"
+              accessibilityLabel="Send a photo of this find"
+              style={({ pressed }) => [styles.photoAsk, pressed && styles.pressed]}
+            >
+              <Ionicons name="camera-outline" size={22} color={t.colors.text} />
+              <View style={styles.photoAskText}>
+                <Text style={styles.photoAskTitle}>Got a photo of this one?</Text>
+                <Text style={styles.photoAskMeta}>Send it in. A person checks it before it's shown.</Text>
+              </View>
+              <Ionicons name="chevron-forward" size={20} color={t.colors.textMuted} />
+            </Pressable>
+          )}
+
           {related.length > 0 && (
             <View style={styles.relatedCard}>
               <View style={styles.relatedHeader}>
@@ -520,6 +536,30 @@ const createStyles = (t: Theme) =>
     },
     pressed: {
       opacity: 0.85,
+    },
+    // Same shape as the invites on the Parks home: a quiet row, not a card.
+    photoAsk: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.md - 4,
+      minHeight: 64,
+      padding: spacing.md - 2,
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.lg,
+      borderWidth: 1,
+      borderColor: t.colors.controlBorder,
+    },
+    photoAskText: {
+      flex: 1,
+      gap: 1,
+    },
+    photoAskTitle: {
+      ...text.itemTitle,
+      color: t.colors.text,
+    },
+    photoAskMeta: {
+      ...text.bodySmall,
+      color: t.colors.textSecondary,
     },
     card: {
       gap: spacing.md - 2,

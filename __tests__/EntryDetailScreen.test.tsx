@@ -19,8 +19,9 @@ const entry = getAllEntries().find(
 // A find with no tip, whose ladder is the scene plus the exact spot alone.
 const tipless = getAllEntries().find((e) => !e.bestTip && !e.whereToLook.orientation);
 
+const mockNavigate = jest.fn();
 jest.mock('@react-navigation/native', () => ({
-  useNavigation: () => ({ navigate: jest.fn(), goBack: jest.fn() }),
+  useNavigation: () => ({ navigate: mockNavigate, goBack: jest.fn(), push: jest.fn() }),
   useRoute: () => ({ params: { entryId: mockEntryId } }),
 }));
 let mockEntryId = '';
@@ -38,6 +39,7 @@ beforeAll(async () => {
 
 beforeEach(() => {
   mockEntryId = entry.id;
+  mockNavigate.mockClear();
   reports.isSupabaseConfigured = true;
   useFoundStore.setState({ found: {} });
   useConfirmationsStore.setState({ reported: {} });
@@ -229,5 +231,19 @@ describe('EntryDetailScreen provenance row', () => {
     } finally {
       spy.mockRestore();
     }
+  });
+});
+
+describe('EntryDetailScreen photo ask', () => {
+  it('offers to send a photo and opens the form for this find', () => {
+    render(<EntryDetailScreen />);
+    fireEvent.press(screen.getByRole('button', { name: 'Send a photo of this find' }));
+    expect(mockNavigate).toHaveBeenCalledWith('SubmitSighting', { forEntryId: entry.id });
+  });
+
+  it('hides the ask in a build where nothing can be sent', () => {
+    reports.isSupabaseConfigured = false;
+    render(<EntryDetailScreen />);
+    expect(screen.queryByRole('button', { name: 'Send a photo of this find' })).toBeNull();
   });
 });

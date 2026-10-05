@@ -55,15 +55,31 @@ const anon = createClient(url, anonKey, { auth: { persistSession: false, autoRef
 
 // The anon key has no select policy, so a successful call returns no rows.
 // A missing table comes back as an error instead.
+let submissionsOk = false;
 {
   const { error } = await anon.from("submissions").select("id", { head: true, count: "exact" });
-  if (!error) ok("submissions table exists and answers the anon key");
+  if (!error) {
+    submissionsOk = true;
+    ok("submissions table exists and answers the anon key");
+  }
   else if (/does not exist|schema cache|PGRST205|42P01/i.test(`${error.code} ${error.message}`)) {
     bad("submissions table not found. Run supabase/schema.sql in the SQL Editor.");
   } else if (/Invalid API key|JWT/i.test(error.message)) {
     bad(`the anon key was rejected: ${error.message}`);
   } else {
     bad(`unexpected error from the submissions table: ${error.message}`);
+  }
+}
+
+// Photos of finds already in the guide need a column that arrived after the
+// first schema. An older project gets it by running schema.sql again.
+if (submissionsOk) {
+  const { error } = await anon.from("submissions").select("for_entry_id", { head: true, count: "exact" });
+  if (!error) ok("submissions table has the for_entry_id column (photos of existing finds)");
+  else if (/for_entry_id|42703|column/i.test(`${error.code} ${error.message}`)) {
+    bad("submissions table has no for_entry_id column. Run supabase/schema.sql again; it adds the column and is safe to re-run.");
+  } else {
+    bad(`unexpected error checking the for_entry_id column: ${error.message}`);
   }
 }
 
