@@ -54,6 +54,22 @@ const VERIFICATION_LABEL: Record<NonNullable<HiddenMickeyEntry["verification"]>,
   Unknown: null,
 };
 
+/**
+ * The icon beside the provenance line says how the sighting was verified, so a
+ * community report never borrows the checkmark an in-person or photo
+ * confirmation earns. Documented gets a neutral page, Unknown a question mark.
+ */
+const PROVENANCE_ICON: Record<
+  NonNullable<HiddenMickeyEntry["verification"]>,
+  { name: keyof typeof Ionicons.glyphMap; tone: "success" | "text" | "textMuted" }
+> = {
+  "In-person": { name: "checkmark-circle", tone: "success" },
+  Photo: { name: "checkmark-circle", tone: "success" },
+  Documented: { name: "document-text-outline", tone: "text" },
+  Community: { name: "people-outline", tone: "textMuted" },
+  Unknown: { name: "help-circle-outline", tone: "textMuted" },
+};
+
 /** Chip text for a status worth warning about. Current needs no chip. */
 const STATUS_LABEL: Record<NonNullable<HiddenMickeyEntry["status"]>, string | null> = {
   Current: null,
@@ -175,6 +191,7 @@ export default function EntryDetailScreen() {
   ]
     .filter(Boolean)
     .join(" · ");
+  const provenanceIcon = PROVENANCE_ICON[entry.verification ?? "Unknown"];
   // A "Still there?" report outranks the content, so an unconfirmed find
   // guests have since seen drops its caveat here, matching the checkmark on
   // its row. The other statuses describe the find itself and always show.
@@ -323,8 +340,14 @@ export default function EntryDetailScreen() {
           )}
 
           {provenance.length > 0 && (
-            <View style={styles.provenance}>
-              <Ionicons name="checkmark" size={18} color={t.colors.success} accessibilityElementsHidden importantForAccessibility="no" />
+            <View style={styles.provenance} testID="provenance">
+              <Ionicons
+                name={provenanceIcon.name}
+                size={18}
+                color={t.colors[provenanceIcon.tone]}
+                accessibilityElementsHidden
+                importantForAccessibility="no"
+              />
               <Text style={styles.provenanceText}>{provenance}</Text>
             </View>
           )}

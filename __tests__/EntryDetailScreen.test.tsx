@@ -1,7 +1,9 @@
 import React from 'react';
-import { fireEvent, render, screen } from '@testing-library/react-native';
+import { fireEvent, render, screen, within } from '@testing-library/react-native';
 import EntryDetailScreen from '../src/screens/EntryDetailScreen';
 import { getAllEntries } from '../src/data/query';
+import * as query from '../src/data/query';
+import type { HiddenMickeyEntry } from '../src/data/types';
 import { labelOrFallback } from '../src/data/labels';
 import { useFoundStore } from '../src/store/useFoundStore';
 import { useSettingsStore } from '../src/store/useSettingsStore';
@@ -173,6 +175,57 @@ describe('EntryDetailScreen unconfirmed finds', () => {
       render(<EntryDetailScreen />);
       expect(screen.queryByText('Not confirmed yet')).toBeNull();
       expect(screen.queryByText(UNCONFIRMED_NOTE)).toBeNull();
+    } finally {
+      spy.mockRestore();
+    }
+  });
+});
+
+describe('EntryDetailScreen provenance row', () => {
+  const byVerification = (verification: HiddenMickeyEntry['verification']) =>
+    getAllEntries().find((e) => e.verification === verification)!;
+  // The icon mock renders the glyph name as text. The icon is hidden from
+  // assistive tech on purpose, since the words beside it already say the same.
+  const icon = (name: string) => within(screen.getByTestId('provenance')).queryByText(name, { includeHiddenElements: true });
+
+  it('gives an in-person confirmation the checkmark', () => {
+    mockEntryId = byVerification('In-person').id;
+    render(<EntryDetailScreen />);
+    expect(screen.getByText(/Confirmed in person/)).toBeTruthy();
+    expect(icon('checkmark-circle')).toBeTruthy();
+  });
+
+  it('gives a photo confirmation the checkmark', () => {
+    mockEntryId = byVerification('Photo').id;
+    render(<EntryDetailScreen />);
+    expect(screen.getByText(/Confirmed by photo/)).toBeTruthy();
+    expect(icon('checkmark-circle')).toBeTruthy();
+  });
+
+  it('marks a community report with people, never a checkmark', () => {
+    mockEntryId = byVerification('Community').id;
+    render(<EntryDetailScreen />);
+    expect(screen.getByText(/Community reported/)).toBeTruthy();
+    expect(icon('people-outline')).toBeTruthy();
+    expect(icon('checkmark-circle')).toBeNull();
+    expect(icon('checkmark')).toBeNull();
+  });
+
+  it('marks official documentation with a page, not a checkmark', () => {
+    mockEntryId = byVerification('Documented').id;
+    render(<EntryDetailScreen />);
+    expect(screen.getByText(/Officially documented/)).toBeTruthy();
+    expect(icon('document-text-outline')).toBeTruthy();
+    expect(icon('checkmark-circle')).toBeNull();
+  });
+
+  it('shows a question mark when the verification is unknown', () => {
+    const spy = jest.spyOn(query, 'getEntryById').mockReturnValue({ ...entry, verification: 'Unknown' });
+    try {
+      render(<EntryDetailScreen />);
+      expect(screen.getByText(`${entry.confidence} sighting`)).toBeTruthy();
+      expect(icon('help-circle-outline')).toBeTruthy();
+      expect(icon('checkmark-circle')).toBeNull();
     } finally {
       spy.mockRestore();
     }
