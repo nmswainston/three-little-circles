@@ -1,0 +1,44 @@
+{
+  "id": "magnolia-golf-hole-six-bunker-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "walt_disney_world_golf",
+  "attractionId": "magnolia_golf_course",
+  "display": {
+    "entryTitle": "Hole 6 Bunker Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Walt Disney World Golf",
+    "attractionName": "Disney's Magnolia Golf Course"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Outdoor Display",
+  "description": "The sixth hole on the Magnolia has the resort's most famous bunker: a full Mickey head with ears cut into the sand. Disney's own golf materials show it off, so this one is as official as a Hidden Mickey gets.",
+  "whereToLook": {
+    "scene": "Hole 6 on the Magnolia course",
+    "exactSpot": "The signature sand bunker. Head and ears."
+  },
+  "bestTip": "Play the hole and look at the bunker from the fairway. From the tee it is just a patch of sand.",
+  "funFacts": [
+    "The Magnolia hosted a PGA Tour stop for decades, which makes this bunker one of the most televised Hidden Mickeys anywhere."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Far"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Golfers only. Book a tee time to see it from the course.",
+  "coordinates": {
+    "latitude": 28.4075,
+    "longitude": -81.5905
+  },
+  "sourceId": "TLC-OT-0005",
+  "sourceUrl": "https://www.golfwdw.com/images/documents/Walt-Disney-World-Golf_Learn-More-Golf--FootGolf-Events_December-2024-Walt-Disney-World-Golf-Learn-More-Golf--FootGolf-Events_December-2024-WDWG-December-2024-Event-Catalog_COMPRESSED.pdf",
+  "createdAtISO": "2026-10-05T00:00:00.000Z",
+  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+}

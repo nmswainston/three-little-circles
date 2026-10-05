@@ -1,0 +1,41 @@
+{
+  "id": "conservation-hall-tracking-center-second-window-plate-dots-mickey",
+  "parkId": "adventure_park",
+  "landId": "conservation_outpost_area",
+  "attractionId": "conservation_exhibit_hall",
+  "display": {
+    "entryTitle": "Tracking Center Second Window Plate Dots Mickey",
+    "parkName": "Disney's Animal Kingdom",
+    "landName": "Rafiki's Planet Watch",
+    "attractionName": "Conservation Station"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In the Wildlife Tracking Center, look through the second window into the lab. On a laboratory plate inside, dots are laid out as a Mickey.",
+  "whereToLook": {
+    "scene": "The Wildlife Tracking Center, the second window",
+    "exactSpot": "A laboratory plate inside the window. Dots in a Mickey pattern."
+  },
+  "bestTip": "Press close to the glass and scan the benches rather than the people.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "Lab props are working equipment and get moved."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "coordinates": {
+    "latitude": 28.365314,
+    "longitude": -81.588384
+  },
+  "sourceId": "TLC-AK-0023",
+  "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+  "createdAtISO": "2026-10-05T00:00:00.000Z",
+  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+}

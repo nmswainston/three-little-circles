@@ -1,0 +1,41 @@
+{
+  "id": "conservation-hall-reptile-room-window-ledge-containers-mickey",
+  "parkId": "adventure_park",
+  "landId": "conservation_outpost_area",
+  "attractionId": "conservation_exhibit_hall",
+  "display": {
+    "entryTitle": "Reptile Room Window Ledge Containers Mickey",
+    "parkName": "Disney's Animal Kingdom",
+    "landName": "Rafiki's Planet Watch",
+    "attractionName": "Conservation Station"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "In the reptile room, go to the window farthest to the left. Three containers on the ledge sit together as a Mickey.",
+  "whereToLook": {
+    "scene": "The reptile room, the far left window",
+    "exactSpot": "The window ledge. Three containers, one larger and two smaller."
+  },
+  "bestTip": "Start at the left end of the room and work right. The containers are at ledge height, not on the floor.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close",
+    "notes": "The containers are props the keepers can move."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "coordinates": {
+    "latitude": 28.365314,
+    "longitude": -81.588384
+  },
+  "sourceId": "TLC-AK-0024",
+  "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
+  "createdAtISO": "2026-10-05T00:00:00.000Z",
+  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+}

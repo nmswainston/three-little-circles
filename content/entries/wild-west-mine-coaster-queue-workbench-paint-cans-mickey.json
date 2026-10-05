@@ -1,0 +1,41 @@
+{
+  "id": "wild-west-mine-coaster-queue-workbench-paint-cans-mickey",
+  "parkId": "magic_kingdom_park",
+  "landId": "frontier_area",
+  "attractionId": "wild_west_mine_coaster",
+  "display": {
+    "entryTitle": "Queue Workbench Paint Cans Mickey",
+    "parkName": "Magic Kingdom",
+    "landName": "Frontierland",
+    "attractionName": "Big Thunder Mountain Railroad"
+  },
+  "entryType": "FIND",
+  "locationType": "Queue",
+  "difficulty": "Hard",
+  "areaContext": "Queue",
+  "description": "The queue is dressed with mining gear, and on one workbench shelf three paint containers are said to sit in a Mickey arrangement. The report is thin and the props are easy to nudge, so treat this one as a maybe until you see it yourself.",
+  "whereToLook": {
+    "scene": "The queue, the workbench dressed with mining equipment",
+    "exactSpot": "The shelf of the workbench. Three paint containers, one large and two small."
+  },
+  "bestTip": "Scan every shelf of tools as you pass. The cans are among the gear, not on the floor.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "Props in this queue shift over time."
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 28.42,
+    "longitude": -81.5856
+  },
+  "sourceId": "TLC-MK-0068",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-big-thunder-paint-can",
+  "createdAtISO": "2026-10-05T00:00:00.000Z",
+  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+}

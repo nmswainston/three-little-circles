@@ -1,0 +1,41 @@
+{
+  "id": "espn-track-and-field-discus-platform-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "espn_wide_world_of_sports",
+  "attractionId": "track_and_field_complex",
+  "display": {
+    "entryTitle": "Discus Platform Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "ESPN Wide World of Sports Complex",
+    "attractionName": "Track and Field Complex"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "Beyond the multipurpose fields, the discus throwing platform is poured as Mickey's head and ears. It is a ground-level shape, so look for the outline rather than a picture.",
+  "whereToLook": {
+    "scene": "The track and field area past the multipurpose fields, the discus launch platform",
+    "exactSpot": "The base of the throwing platform. Head and ears in the concrete."
+  },
+  "bestTip": "Find the discus cage first. The platform is at its mouth.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "The complex is open during ticketed events. Look from the spectator areas and stay off the field of play.",
+  "coordinates": {
+    "latitude": 28.3372,
+    "longitude": -81.5565
+  },
+  "sourceId": "TLC-OT-0002",
+  "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-espn-wide-world-of-sports-complex-discus-throwing-launch-pad-hidden-mickey/",
+  "createdAtISO": "2026-10-05T00:00:00.000Z",
+  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+}

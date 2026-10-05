@@ -1,0 +1,41 @@
+{
+  "id": "grand-lobby-luggage-cart-cutout-mickey",
+  "parkId": "resorts_bucket",
+  "landId": "grand_floridian_resort",
+  "attractionId": "grand_lobby",
+  "display": {
+    "entryTitle": "Luggage Cart Cutout Mickey",
+    "parkName": "Walt Disney World Resorts",
+    "landName": "Grand Floridian Resort",
+    "attractionName": "Grand Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "Watch the luggage carts that bell services wheel through the lobby. A Mickey-shaped cutout is worked into the cart's frame.",
+  "whereToLook": {
+    "scene": "The grand lobby, the luggage carts in use",
+    "exactSpot": "The frame of a cart. A Mickey cutout in the metalwork."
+  },
+  "bestTip": "Wait near the bell services stand and a cart will come to you.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "The carts roll with the bellhops, so you may need to wait for one to pass. Check that the current carts still carry the cutout."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "coordinates": {
+    "latitude": 28.411279,
+    "longitude": -81.587713
+  },
+  "sourceId": "TLC-RS-0076",
+  "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-grand-floridian-resort/",
+  "createdAtISO": "2026-10-05T00:00:00.000Z",
+  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+}

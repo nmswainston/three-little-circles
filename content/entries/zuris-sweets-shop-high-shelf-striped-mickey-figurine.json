@@ -1,0 +1,41 @@
+{
+  "id": "zuris-sweets-shop-high-shelf-striped-mickey-figurine",
+  "parkId": "adventure_park",
+  "landId": "savanna_village_area",
+  "attractionId": "zuris_sweets_shop",
+  "display": {
+    "entryTitle": "High Shelf Striped Mickey Figurine",
+    "parkName": "Disney's Animal Kingdom",
+    "landName": "Africa",
+    "attractionName": "Zuri's Sweets Shop"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Shop",
+  "description": "Inside the sweets shop, look up to the high shelf on the right, across from the door you came in. Among the decorative props stands a small Mickey figurine painted in stripes.",
+  "whereToLook": {
+    "scene": "Inside the shop, the high shelf on the right opposite the entrance",
+    "exactSpot": "Among the props on the shelf. A small striped Mickey figurine."
+  },
+  "bestTip": "Stand just inside the door and look up and to the right before the candy distracts you.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium",
+    "notes": "Shop decor gets rearranged."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "coordinates": {
+    "latitude": 28.3588,
+    "longitude": -81.5917
+  },
+  "sourceId": "TLC-AK-0025",
+  "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
+  "createdAtISO": "2026-10-05T00:00:00.000Z",
+  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+}

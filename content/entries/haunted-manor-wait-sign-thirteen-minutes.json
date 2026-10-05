@@ -1,0 +1,41 @@
+{
+  "id": "haunted-manor-wait-sign-thirteen-minutes",
+  "parkId": "magic_kingdom_park",
+  "landId": "colonial_square_area",
+  "attractionId": "haunted_manor_ride",
+  "display": {
+    "entryTitle": "Thirteen Minute Wait Sign",
+    "parkName": "Magic Kingdom",
+    "landName": "Liberty Square",
+    "attractionName": "The Haunted Mansion"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Entrance",
+  "description": "When the line is short, the posted standby wait at the Mansion sometimes reads 13 minutes instead of the usual 5 or 10. Thirteen is the house's favorite unlucky number, and the sign is in on the joke.",
+  "whereToLook": {
+    "scene": "The standby wait time sign at the attraction entrance",
+    "exactSpot": "The posted number. Look for 13 minutes."
+  },
+  "bestTip": "Check the sign first thing in the morning or late at night, when the real wait is close to nothing.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "Only shows up when the wait is genuinely low."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Variable",
+  "coordinates": {
+    "latitude": 28.4201,
+    "longitude": -81.583
+  },
+  "sourceId": "TLC-MK-0090",
+  "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-haunted-mansion-13-minutes-wait-time",
+  "createdAtISO": "2026-10-05T00:00:00.000Z",
+  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+}
