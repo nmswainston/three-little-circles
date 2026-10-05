@@ -65,6 +65,8 @@ type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 /** Height of the bar that stays at the top, below the status bar. */
 const TOP_BAR_HEIGHT = 52;
 
+/** A row counts as the one at the top of the list once half of it is on screen. */
+const VIEWABILITY_CONFIG = { itemVisiblePercentThreshold: 50 };
 /** Height of the pinned land strip, so a jump lands the first attraction just under it. */
 const LAND_HEADER_OFFSET = 52;
 
@@ -154,17 +156,19 @@ export default function ParkScreen() {
   );
 
   const listRef = useRef<SectionList<AttractionItem, LandSection>>(null);
-  // The land at the top of the list, so its chip can be highlighted.
+  // The land at the top of the list, so its chip can be highlighted. This has
+  // to be the onViewableItemsChanged prop, not viewabilityConfigCallbackPairs:
+  // SectionList attaches each token's section only on the former, so a pair
+  // never sees a landId and the highlight never lights up. The list also
+  // refuses a callback that changes between renders, hence the empty deps.
   const [currentLandId, setCurrentLandId] = useState<string | undefined>();
   const chipX = useRef<Record<string, number>>({});
-  const viewabilityPairs = useRef([
-    {
-      viewabilityConfig: { itemVisiblePercentThreshold: 50 },
-      onViewableItemsChanged: ({ viewableItems }: { viewableItems: Array<{ section?: { landId?: string } }> }) => {
-        setCurrentLandId(viewableItems[0]?.section?.landId);
-      },
+  const onViewableItemsChanged = useCallback(
+    ({ viewableItems }: { viewableItems: Array<{ section?: { landId?: string } }> }) => {
+      setCurrentLandId(viewableItems[0]?.section?.landId);
     },
-  ]).current;
+    []
+  );
 
   const pendingJump = useRef<number | null>(null);
   const jumpToLand = useCallback((sectionIndex: number) => {
@@ -609,7 +613,8 @@ export default function ParkScreen() {
         ListHeaderComponent={header}
         ListFooterComponent={footer}
         stickySectionHeadersEnabled={!showPinnedStrip}
-        viewabilityConfigCallbackPairs={viewabilityPairs}
+        viewabilityConfig={VIEWABILITY_CONFIG}
+        onViewableItemsChanged={onViewableItemsChanged}
         onScroll={onScroll}
         scrollEventThrottle={16}
         onScrollToIndexFailed={onScrollToIndexFailed}
