@@ -181,10 +181,14 @@ describe('ParkScreen', () => {
     const chip = (name: string) => screen.getAllByRole('button', { name })[0];
     expect(chip(second.landName).props.accessibilityState.selected).toBe(false);
 
+    // Through the prop SectionList converts, so each token carries its section.
+    // The callback-pairs prop passes raw tokens through with no section at all.
     const list = screen.UNSAFE_getByType(SectionList);
+    expect(list.props.viewabilityConfigCallbackPairs).toBeUndefined();
     act(() => {
-      list.props.viewabilityConfigCallbackPairs[0].onViewableItemsChanged({
+      list.props.onViewableItemsChanged({
         viewableItems: [{ section: { landId: second.landId } }],
+        changed: [],
       });
     });
     expect(chip(second.landName).props.accessibilityState.selected).toBe(true);
