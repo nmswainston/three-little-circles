@@ -1,4 +1,5 @@
 import React, { useCallback, useMemo, useState } from "react";
+import StatusBarScrim, { useScrolledPast } from "../components/layout/StatusBarScrim";
 import { FlatList, ListRenderItem, StyleSheet, View, Text, TextInput, Pressable } from "react-native";
 import { CompositeNavigationProp, useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
@@ -48,6 +49,7 @@ export default function ParksScreen() {
   const navigation = useNavigation<NavigationProp>();
   const t = useTheme();
   const styles = useStyles(createStyles);
+  const { scrolled, onScroll } = useScrolledPast();
   const found = useFoundStore((s) => s.found);
 
   const location = useDeviceLocation();
@@ -190,7 +192,10 @@ export default function ParksScreen() {
 
   return (
     <View style={styles.screen}>
+      <StatusBarScrim visible={scrolled} />
       <FlatList
+        onScroll={onScroll}
+        scrollEventThrottle={16}
         data={rows}
         keyExtractor={rowKey}
         renderItem={renderRow}

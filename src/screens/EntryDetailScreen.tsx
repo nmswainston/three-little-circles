@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
+import StatusBarScrim, { useScrolledPast } from "../components/layout/StatusBarScrim";
 import { ScrollView, StyleSheet, View, Text, Pressable } from "react-native";
 import { useRoute, RouteProp, useNavigation, CompositeNavigationProp } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
@@ -96,6 +97,7 @@ export default function EntryDetailScreen() {
   const entry = getEntryById(entryId);
   const t = useTheme();
   const styles = useStyles(createStyles);
+  const { scrolled, onScroll } = useScrolledPast();
   const insets = useSafeAreaInsets();
   const palette = useParkPalette(entry?.parkId);
 
@@ -203,7 +205,13 @@ export default function EntryDetailScreen() {
 
   return (
     <View style={styles.screen}>
-      <ScrollView contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
+      <StatusBarScrim visible={scrolled} />
+      <ScrollView
+        contentContainerStyle={styles.scroll}
+        showsVerticalScrollIndicator={false}
+        onScroll={onScroll}
+        scrollEventThrottle={16}
+      >
         <View style={[styles.header, { paddingTop: insets.top + spacing.sm }]}>
           <Sunburst color={palette.accent} opacity={t.dark ? 0.16 : 0.22} center={{ x: 195, y: -200 + insets.top }} />
           <View style={styles.headerRow}>

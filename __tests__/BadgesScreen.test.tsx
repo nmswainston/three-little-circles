@@ -1,4 +1,5 @@
 import React from 'react';
+import { ScrollView } from 'react-native';
 import { fireEvent, render, screen } from '@testing-library/react-native';
 import BadgesScreen from '../src/screens/BadgesScreen';
 import { computeUnlocked, useAchievementsStore, visibleBadges } from '../src/store/useAchievementsStore';
@@ -145,5 +146,30 @@ describe('BadgesScreen challenges tab', () => {
     render(<BadgesScreen />);
     expect(screen.getByText('In progress')).toBeTruthy();
     expect(screen.getByText(walts.title)).toBeTruthy();
+  });
+});
+
+describe('BadgesScreen pinned tabs', () => {
+  const scrollTo = (y: number) =>
+    fireEvent.scroll(screen.UNSAFE_getByType(ScrollView), { nativeEvent: { contentOffset: { y } } });
+
+  it('keeps the Badges and Challenges switch at the top once the page has scrolled past it', () => {
+    render(<BadgesScreen />);
+    // Layout does not run in tests, so say where the switch sits on the page.
+    fireEvent(screen.getByRole('tab', { name: 'Challenges' }), 'layout', { nativeEvent: { layout: { x: 0, y: 200, width: 360, height: 50 } } });
+    expect(screen.getAllByRole('tab', { name: 'Challenges' })).toHaveLength(1);
+
+    scrollTo(100);
+    expect(screen.getAllByRole('tab', { name: 'Challenges' })).toHaveLength(1);
+
+    scrollTo(400);
+    expect(screen.getAllByRole('tab', { name: 'Challenges' })).toHaveLength(2);
+
+    // The pinned copy changes the tab like the one in the page.
+    fireEvent.press(screen.getAllByRole('tab', { name: 'Challenges' })[0]);
+    expect(screen.getByText('Not started')).toBeTruthy();
+
+    scrollTo(0);
+    expect(screen.getAllByRole('tab', { name: 'Challenges' })).toHaveLength(1);
   });
 });

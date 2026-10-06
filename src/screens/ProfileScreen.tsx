@@ -1,4 +1,5 @@
 import React, { ReactNode, useEffect, useMemo, useState } from "react";
+import StatusBarScrim, { useScrolledPast } from "../components/layout/StatusBarScrim";
 import { ScrollView, StyleSheet, View, Text, Pressable, Switch, Linking } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
@@ -52,6 +53,7 @@ type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 export default function ProfileScreen() {
   const t = useTheme();
   const styles = useStyles(createStyles);
+  const { scrolled, onScroll } = useScrolledPast();
   const ringSize = useScaledSize(100);
   const navigation = useNavigation<NavigationProp>();
 
@@ -176,7 +178,13 @@ export default function ProfileScreen() {
 
   return (
     <View style={styles.screen}>
-      <ScrollView contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
+      <StatusBarScrim visible={scrolled} />
+      <ScrollView
+        contentContainerStyle={styles.scroll}
+        showsVerticalScrollIndicator={false}
+        onScroll={onScroll}
+        scrollEventThrottle={16}
+      >
         <PageHeader title="Profile" subtitle="What you've noticed." />
 
         <View style={styles.body}>
