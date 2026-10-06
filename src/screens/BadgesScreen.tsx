@@ -1,4 +1,5 @@
 import React, { ReactNode, useMemo, useState } from "react";
+import StatusBarScrim, { useScrolledPast } from "../components/layout/StatusBarScrim";
 import { ScrollView, StyleSheet, View, Text, Pressable } from "react-native";
 import { RouteProp, useNavigation, useRoute } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
@@ -46,6 +47,7 @@ type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 export default function BadgesScreen() {
   const t = useTheme();
   const styles = useStyles(createStyles);
+  const { scrolled, onScroll } = useScrolledPast();
   const navigation = useNavigation<NavigationProp>();
   const route = useRoute<RouteProp<RootStackParamList, "Badges">>();
   const insets = useSafeAreaInsets();
@@ -100,7 +102,13 @@ export default function BadgesScreen() {
 
   return (
     <View style={styles.screen}>
-      <ScrollView contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
+      <StatusBarScrim visible={scrolled} />
+      <ScrollView
+        contentContainerStyle={styles.scroll}
+        showsVerticalScrollIndicator={false}
+        onScroll={onScroll}
+        scrollEventThrottle={16}
+      >
         <View style={[styles.header, { paddingTop: insets.top + spacing.sm }]}>
           <Sunburst center={{ x: 195, y: -200 + insets.top }} />
           <Pressable

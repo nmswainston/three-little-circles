@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from "react";
+import StatusBarScrim, { useScrolledPast } from "../components/layout/StatusBarScrim";
 import { ScrollView, StyleSheet, View, Text, Pressable } from "react-native";
 import { CompositeNavigationProp, RouteProp, useNavigation, useRoute } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
@@ -42,6 +43,7 @@ export default function ChallengeDetailScreen() {
   const navigation = useNavigation<NavigationProp>();
   const t = useTheme();
   const styles = useStyles(createStyles);
+  const { scrolled, onScroll } = useScrolledPast();
   const ringSize = useScaledSize(76);
   const insets = useSafeAreaInsets();
 
@@ -98,7 +100,13 @@ export default function ChallengeDetailScreen() {
 
   return (
     <View style={styles.screen}>
-      <ScrollView contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
+      <StatusBarScrim visible={scrolled} />
+      <ScrollView
+        contentContainerStyle={styles.scroll}
+        showsVerticalScrollIndicator={false}
+        onScroll={onScroll}
+        scrollEventThrottle={16}
+      >
         <View style={[styles.header, { backgroundColor: headerBg, paddingTop: insets.top + spacing.sm }]}>
           <Sunburst
             color={t.dark ? palette.accent : palette.onAccent}

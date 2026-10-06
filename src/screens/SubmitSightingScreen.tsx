@@ -1,4 +1,5 @@
 import React, { ReactNode, useMemo, useState } from "react";
+import StatusBarScrim, { useScrolledPast } from "../components/layout/StatusBarScrim";
 import {
   ScrollView,
   StyleSheet,
@@ -40,6 +41,7 @@ export default function SubmitSightingScreen() {
   const navigation = useNavigation();
   const t = useTheme();
   const styles = useStyles(createStyles);
+  const { scrolled, onScroll } = useScrolledPast();
   const insets = useSafeAreaInsets();
   const deviceId = useSettingsStore((s) => s.deviceId);
 
@@ -166,11 +168,14 @@ export default function SubmitSightingScreen() {
     // "padding" on both platforms: with edge-to-edge on Android the window no
     // longer resizes for the keyboard, so the view has to make room itself.
     <KeyboardAvoidingView style={styles.screen} behavior="padding">
+      <StatusBarScrim visible={scrolled} />
       <ScrollView
         contentContainerStyle={styles.scroll}
         keyboardShouldPersistTaps="handled"
         keyboardDismissMode="on-drag"
         showsVerticalScrollIndicator={false}
+        onScroll={onScroll}
+        scrollEventThrottle={16}
       >
         <View style={[styles.header, { paddingTop: insets.top + spacing.sm }]}>
           <Sunburst center={{ x: 195, y: -200 + insets.top }} />

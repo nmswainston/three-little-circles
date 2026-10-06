@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from "react";
+import StatusBarScrim, { useScrolledPast } from "../components/layout/StatusBarScrim";
 import { ScrollView, StyleSheet, View, Text, TextInput, Pressable, Platform, KeyboardAvoidingView } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
@@ -23,6 +24,7 @@ export default function ImportProgressScreen() {
   const navigation = useNavigation();
   const t = useTheme();
   const styles = useStyles(createStyles);
+  const { scrolled, onScroll } = useScrolledPast();
   const insets = useSafeAreaInsets();
   const found = useFoundStore((s) => s.found);
 
@@ -74,11 +76,14 @@ export default function ImportProgressScreen() {
 
   return (
     <KeyboardAvoidingView style={styles.screen} behavior="padding">
+      <StatusBarScrim visible={scrolled} />
       <ScrollView
         contentContainerStyle={styles.scroll}
         keyboardShouldPersistTaps="handled"
         keyboardDismissMode="on-drag"
         showsVerticalScrollIndicator={false}
+        onScroll={onScroll}
+        scrollEventThrottle={16}
       >
         <View style={[styles.header, { paddingTop: insets.top + spacing.sm }]}>
           <Sunburst center={{ x: 195, y: -200 + insets.top }} />
