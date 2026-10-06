@@ -126,9 +126,8 @@ This build covers 681 entries, 572 Hidden Mickeys and 109 other hidden
 details, across Magic Kingdom, EPCOT, Disney's Hollywood Studios, Disney's
 Animal Kingdom, Disney Springs, the Walt Disney World resorts, Disneyland Park,
 and Disney California Adventure, plus 19 pieces of park history and trivia.
-(Update these numbers for each build. `npm run content:check` prints the entry
-and fact totals; the Hidden Mickey count is the number of entries whose
-`entryType` is `FIND`, and the rest are `FACT`.)
+(Update these numbers for each build. `npm run content:check` prints them in
+this form.)
 
 An independent fan project. Not affiliated with, endorsed by, or sponsored by
 any theme park company.
