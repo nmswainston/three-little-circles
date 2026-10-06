@@ -8,6 +8,7 @@ import { isConfirmed } from '../src/data/confirmations';
 import { getDestination } from '../src/data/destinations';
 import { useFoundStore } from '../src/store/useFoundStore';
 import { useSettingsStore } from '../src/store/useSettingsStore';
+import { MAX_SCALE } from '../src/lib/useScaledSize';
 
 const mockNavigate = jest.fn();
 const mockGoBack = jest.fn();
@@ -193,6 +194,22 @@ describe('ParkScreen', () => {
     });
     expect(chip(second.landName).props.accessibilityState.selected).toBe(true);
     expect(chip(firstLand.landName).props.accessibilityState.selected).toBe(false);
+  });
+
+  it('caps text scaling in the top bar and the land strip, which are fixed height', () => {
+    if (groups.length < 2) return;
+    render(<ParkScreen />);
+    fireEvent.scroll(screen.UNSAFE_getByType(SectionList), { nativeEvent: { contentOffset: { y: 500 } } });
+    const capped = (nodes: ReturnType<typeof screen.getAllByText>) =>
+      nodes.filter((node) => node.props.maxFontSizeMultiplier === MAX_SCALE).length;
+    // The compact title and count in the bar.
+    expect(capped(screen.getAllByText(parkName))).toBe(1);
+    expect(capped(screen.getAllByText(`0/${entries.length}`))).toBe(1);
+    // The land chips, in the list strip and the pinned copy alike.
+    expect(capped(screen.getAllByText(firstLand.landName))).toBeGreaterThanOrEqual(2);
+    // The big header title is in flow and keeps scaling.
+    const header = screen.getAllByText(parkName).find((node) => node.props.maxFontSizeMultiplier === undefined);
+    expect(header).toBeTruthy();
   });
 
   it('pins the land chips under the top bar once scrolled', () => {
