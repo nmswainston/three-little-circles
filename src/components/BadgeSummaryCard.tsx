@@ -188,8 +188,8 @@ export default function BadgeSummaryCard({
           {state.kind === 'next' && (
             <ProgressBar progress={state.progress.fraction} color={accent} trackColor={TRACK_ON_NAVY} />
           )}
-          {/* Two lines: the hint for the first badge already overruns one on a 390pt phone. */}
-          <Text style={styles.detail} numberOfLines={2}>
+          {/* Three lines: the first-badge hint runs past two on a 320pt phone or with large text. */}
+          <Text style={styles.detail} numberOfLines={3}>
             {detail}
           </Text>
         </View>
