@@ -723,6 +723,14 @@ const outputs = [
   { path: imagesOutFile, label: "src/data/images.generated.ts", content: renderImages(entries) },
 ];
 const photoCount = entries.filter((e) => e.image).length;
+// The summary is written to be pasted into the store and TestFlight notes,
+// which split the entries into Hidden Mickeys (FIND) and the rest (FACT).
+const findCount = entries.filter((e) => e.entryType === "FIND").length;
+const count = (n, word, plural = `${word}s`) => `${n} ${n === 1 ? word : plural}`;
+const summary =
+  `Validated ${count(entries.length, "entry", "entries")} ` +
+  `(${count(findCount, "Hidden Mickey")} and ${count(entries.length - findCount, "other hidden detail")}), ` +
+  `${count(facts.length, "fact")}, ${count(challenges.length, "challenge")}, and ${count(photoCount, "photo")}`;
 // Git may check the generated file out with CRLF line endings on Windows;
 // compare content, not line terminators.
 const normalize = (s) => s.replace(/\r\n/g, "\n");
@@ -734,12 +742,8 @@ if (checkOnly) {
       process.exit(1);
     }
   }
-  console.log(
-    `Validated ${entries.length} entries, ${facts.length} facts, ${challenges.length} challenges, and ${photoCount} photos; generated files are up to date.`
-  );
+  console.log(`${summary}; generated files are up to date.`);
 } else {
   for (const { path, content } of outputs) writeFileSync(path, content);
-  console.log(
-    `Validated ${entries.length} entries, ${facts.length} facts, ${challenges.length} challenges, and ${photoCount} photos and wrote the generated files.`
-  );
+  console.log(`${summary} and wrote the generated files.`);
 }

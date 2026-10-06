@@ -61,7 +61,7 @@ describe('image validation in the content build', () => {
     const run = build(withImage('sample-find.jpg', { credit: 'Nick S.' }), { 'sample-find.jpg': JPEG });
     expect(run.stderr).toBe('');
     expect(run.status).toBe(0);
-    expect(run.stdout).toContain('1 photos');
+    expect(run.stdout).toContain('1 photo and wrote');
     expect(run.images).toContain('"sample-find": require("../../content/images/sample-find.jpg"),');
   });
 
