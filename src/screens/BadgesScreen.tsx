@@ -1,6 +1,6 @@
-import React, { ReactNode, useMemo, useState } from "react";
+import React, { ReactNode, useMemo, useRef, useState } from "react";
 import StatusBarScrim, { useScrolledPast } from "../components/layout/StatusBarScrim";
-import { ScrollView, StyleSheet, View, Text, Pressable } from "react-native";
+import { NativeScrollEvent, NativeSyntheticEvent, ScrollView, StyleSheet, View, Text, Pressable } from "react-native";
 import { RouteProp, useNavigation, useRoute } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { RootStackParamList } from "../navigation/types";
@@ -48,6 +48,15 @@ export default function BadgesScreen() {
   const t = useTheme();
   const styles = useStyles(createStyles);
   const { scrolled, onScroll } = useScrolledPast();
+  // The Badges | Challenges switch stays under the status bar once the page
+  // has scrolled past it, so a guest can change tabs from anywhere in a long list.
+  const tabsTop = useRef(Number.POSITIVE_INFINITY);
+  const [tabsPinned, setTabsPinned] = useState(false);
+  const handleScroll = (e: NativeSyntheticEvent<NativeScrollEvent>) => {
+    onScroll(e);
+    const pinned = e.nativeEvent.contentOffset.y >= tabsTop.current - insets.top;
+    setTabsPinned((prev) => (prev === pinned ? prev : pinned));
+  };
   const navigation = useNavigation<NavigationProp>();
   const route = useRoute<RouteProp<RootStackParamList, "Badges">>();
   const insets = useSafeAreaInsets();
@@ -97,16 +106,40 @@ export default function BadgesScreen() {
     else setSelected(achievement);
   };
 
+  const tabSwitch = (
+    <View style={styles.tabs} accessibilityRole="tablist">
+      {(["badges", "challenges"] as const).map((value) => {
+        const selectedTab = tab === value;
+        return (
+          <Pressable
+            key={value}
+            onPress={() => setTab(value)}
+            accessibilityRole="tab"
+            accessibilityState={{ selected: selectedTab }}
+            style={[styles.tab, selectedTab && styles.tabSelected]}
+          >
+            <Text style={[styles.tabLabel, selectedTab && styles.tabLabelSelected]}>
+              {value === "badges" ? "Badges" : "Challenges"}
+            </Text>
+          </Pressable>
+        );
+      })}
+    </View>
+  );
+
   const share = total > 0 ? earned.length / total : 0;
   const tierGroups = [...new Set(earned.map((a) => a.tier?.group).filter((g): g is string => !!g))];
 
   return (
     <View style={styles.screen}>
       <StatusBarScrim visible={scrolled} />
+      {tabsPinned && (
+        <View style={[styles.pinnedTabs, { paddingTop: insets.top }]}>{tabSwitch}</View>
+      )}
       <ScrollView
         contentContainerStyle={styles.scroll}
         showsVerticalScrollIndicator={false}
-        onScroll={onScroll}
+        onScroll={handleScroll}
         scrollEventThrottle={16}
       >
         <View style={[styles.header, { paddingTop: insets.top + spacing.sm }]}>
@@ -125,23 +158,8 @@ export default function BadgesScreen() {
           </Text>
         </View>
 
-        <View style={styles.tabs} accessibilityRole="tablist">
-          {(["badges", "challenges"] as const).map((value) => {
-            const selectedTab = tab === value;
-            return (
-              <Pressable
-                key={value}
-                onPress={() => setTab(value)}
-                accessibilityRole="tab"
-                accessibilityState={{ selected: selectedTab }}
-                style={[styles.tab, selectedTab && styles.tabSelected]}
-              >
-                <Text style={[styles.tabLabel, selectedTab && styles.tabLabelSelected]}>
-                  {value === "badges" ? "Badges" : "Challenges"}
-                </Text>
-              </Pressable>
-            );
-          })}
+        <View onLayout={(e) => (tabsTop.current = e.nativeEvent.layout.y)}>
+          {tabSwitch}
         </View>
 
         {tab === "challenges" ? (
@@ -426,6 +444,18 @@ const createStyles = (t: Theme) =>
       paddingHorizontal: spacing.lg,
       paddingTop: spacing.sm,
       gap: spacing.lg,
+    },
+    // Over the top of the page, above the status bar strip, so nothing moves when it appears.
+    pinnedTabs: {
+      position: "absolute",
+      top: 0,
+      left: 0,
+      right: 0,
+      zIndex: 11,
+      paddingBottom: spacing.sm,
+      backgroundColor: t.colors.background,
+      borderBottomWidth: StyleSheet.hairlineWidth,
+      borderBottomColor: t.colors.border,
     },
     tabs: {
       flexDirection: "row",
