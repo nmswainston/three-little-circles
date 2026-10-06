@@ -24,6 +24,9 @@ export default function Chip({ label, icon, selected = false, onPress, maxFontSi
       accessibilityRole="button"
       accessibilityLabel={label}
       accessibilityState={{ selected }}
+      // React Native Web ignores accessibilityState, so the web build needs the
+      // aria attribute as well for the selected chip to be announced.
+      aria-selected={selected}
       style={({ pressed }) => [styles.chip, selected && styles.chipSelected, pressed && styles.pressed]}
     >
       {icon && (
