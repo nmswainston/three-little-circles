@@ -10,10 +10,12 @@ interface ChipProps {
   icon?: keyof typeof Ionicons.glyphMap;
   selected?: boolean;
   onPress?: () => void;
+  /** Caps text scaling, for a chip that lives in a strip of fixed height. */
+  maxFontSizeMultiplier?: number;
 }
 
 /** A pill-shaped filter chip. Selected chips fill with the theme's ink color. */
-export default function Chip({ label, icon, selected = false, onPress }: ChipProps) {
+export default function Chip({ label, icon, selected = false, onPress, maxFontSizeMultiplier }: ChipProps) {
   const t = useTheme();
   const styles = useStyles(createStyles);
   return (
@@ -33,7 +35,9 @@ export default function Chip({ label, icon, selected = false, onPress }: ChipPro
           importantForAccessibility="no"
         />
       )}
-      <Text style={[styles.label, selected && styles.labelSelected]}>{label}</Text>
+      <Text style={[styles.label, selected && styles.labelSelected]} maxFontSizeMultiplier={maxFontSizeMultiplier}>
+        {label}
+      </Text>
     </Pressable>
   );
 }

@@ -32,6 +32,7 @@ import { getFactsForPark } from "../data/facts";
 import { labelOrFallback } from "../data/labels";
 import { Difficulty } from "../data/types";
 import { parkShareText, shareText } from "../lib/share";
+import { MAX_SCALE } from "../lib/useScaledSize";
 import { notify } from "../lib/notify";
 import { useReducedMotion } from "../lib/useReducedMotion";
 import { useFoundStore } from "../store/useFoundStore";
@@ -62,7 +63,11 @@ type LandSection = LandGroup & { data: AttractionItem[] };
 const attractionKey = (item: AttractionItem) => `${item.landId}:${item.attractionId}`;
 type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 
-/** Height of the bar that stays at the top, below the status bar. */
+/**
+ * Height of the bar that stays at the top, below the status bar. The bar and
+ * the pinned land strip are fixed height, so their text stops scaling at
+ * MAX_SCALE, as the progress rings do. Everything in the list keeps scaling.
+ */
 const TOP_BAR_HEIGHT = 52;
 
 /** A row counts as the one at the top of the list once half of it is on screen. */
@@ -292,11 +297,18 @@ export default function ParkScreen() {
         </Pressable>
         {compact ? (
           <Animated.View style={[styles.compactTitleWrap, { opacity: compactFade }]}>
-            <Text style={[styles.compactTitle, { color: headerText }]} numberOfLines={1} accessibilityRole="header">
+            <Text
+              style={[styles.compactTitle, { color: headerText }]}
+              numberOfLines={1}
+              maxFontSizeMultiplier={MAX_SCALE}
+              accessibilityRole="header"
+            >
               {parkName}
             </Text>
             {hasFinds && (
-              <Text style={[styles.compactCount, { color: headerText }]}>{`${foundCount}/${parkEntries.length}`}</Text>
+              <Text style={[styles.compactCount, { color: headerText }]} maxFontSizeMultiplier={MAX_SCALE}>
+                {`${foundCount}/${parkEntries.length}`}
+              </Text>
             )}
           </Animated.View>
         ) : (
@@ -332,7 +344,12 @@ export default function ParkScreen() {
         chipX.current[land.landId] = e.nativeEvent.layout.x;
       }}
     >
-      <Chip label={land.landName} selected={land.landId === currentLandId} onPress={() => jumpToLand(index)} />
+      <Chip
+        label={land.landName}
+        selected={land.landId === currentLandId}
+        onPress={() => jumpToLand(index)}
+        maxFontSizeMultiplier={MAX_SCALE}
+      />
     </View>
   ));
   // Once the big header is gone, the strip stays under the top bar. It takes
