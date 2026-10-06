@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pressable, Text, StyleSheet } from 'react-native';
+import { Pressable, PressableProps, Text, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { Theme, useStyles, useTheme } from '../../theme/ThemeProvider';
 import { spacing, radii, text } from '../../theme/tokens';
@@ -18,8 +18,14 @@ interface ChipProps {
 export default function Chip({ label, icon, selected = false, onPress, maxFontSizeMultiplier }: ChipProps) {
   const t = useTheme();
   const styles = useStyles(createStyles);
+  // A chip is a toggle button, which announces its state with aria-pressed.
+  // React Native Web ignores accessibilityState and turns this attribute into
+  // the DOM one; native has no pressed state, reads the accessibility state
+  // below, and drops the attribute. It is not in React Native's prop types.
+  const webPressed = { 'aria-pressed': selected } as unknown as Partial<PressableProps>;
   return (
     <Pressable
+      {...webPressed}
       onPress={onPress}
       accessibilityRole="button"
       accessibilityLabel={label}
