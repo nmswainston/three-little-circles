@@ -1,0 +1,41 @@
+{
+  "id": "fantasy-tower-carpet-mickeys-sleeping-beauty-pavilion",
+  "parkId": "california_resorts_bucket",
+  "landId": "disneyland_hotel",
+  "attractionId": "fantasy_tower_lobby",
+  "display": {
+    "entryTitle": "Carpet Mickeys Near Sleeping Beauty Pavilion",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Disneyland Hotel",
+    "attractionName": "Fantasy Tower Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Walkway",
+  "description": "Hidden Mickeys are woven into the carpet around the hotel. One easy place to catch the pattern is the carpet near the Sleeping Beauty Pavilion.",
+  "whereToLook": {
+    "scene": "The carpet near the Sleeping Beauty Pavilion",
+    "exactSpot": "The repeating pattern in the carpet. Three-circle Mickeys in the weave."
+  },
+  "bestTip": "Look down while you walk the convention corridor.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Low",
+    "distance": "Close",
+    "notes": "Carpet gets replaced during refurbishments."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8098,
+    "longitude": -117.9236
+  },
+  "sourceId": "TLC-DR-0008",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

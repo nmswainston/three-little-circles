@@ -1,0 +1,43 @@
+{
+  "id": "villas-lobby-mural-sorcerer-mickey-mountain",
+  "parkId": "california_resorts_bucket",
+  "landId": "disneyland_hotel",
+  "attractionId": "villas_at_disneyland_hotel",
+  "display": {
+    "entryTitle": "Villas Lobby Mural Sorcerer Mickey",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Disneyland Hotel",
+    "attractionName": "The Villas at Disneyland Hotel"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "The Villas tower greets you with a mural by Encanto production designer Lorelay Bové. Sorcerer Mickey stands on a mountain in the Fantasia section high in the frame, with Star from Wish and Anna and Elsa on the hill above him, and several classic Hidden Mickeys are scattered through the painting.",
+  "whereToLook": {
+    "scene": "The entrance lobby of The Villas at Disneyland Hotel, the animation mural",
+    "exactSpot": "The mountain high in the frame. Sorcerer Mickey stands on it. Then hunt the rest of the mural for three-circle Mickeys."
+  },
+  "bestTip": "Find the Fantasia mountain first. It anchors the whole composition.",
+  "funFacts": [
+    "Disney Parks Blog says Bové hid several Hidden Mickeys in the mural but never said where. Tell us what you find."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8108,
+    "longitude": -117.9245
+  },
+  "sourceId": "TLC-DR-0019",
+  "sourceUrl": "https://disneyparksblog.com/dlr/disney-animation-inspired-mural-will-wow-you-in-the-villas-at-disneyland-hotel/",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

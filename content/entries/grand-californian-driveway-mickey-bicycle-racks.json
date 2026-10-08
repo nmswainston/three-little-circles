@@ -1,0 +1,41 @@
+{
+  "id": "grand-californian-driveway-mickey-bicycle-racks",
+  "parkId": "california_resorts_bucket",
+  "landId": "grand_californian_hotel",
+  "attractionId": "grand_californian_entrance",
+  "display": {
+    "entryTitle": "Driveway Mickey Bicycle Racks",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Grand Californian Hotel",
+    "attractionName": "Main Entrance and Walkways"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Entrance",
+  "description": "Facing the hotel entrance, a cast member driveway runs off to the right. The bicycle racks along it are shaped like Mickeys.",
+  "whereToLook": {
+    "scene": "The cast member driveway to the right of the main entrance",
+    "exactSpot": "The bicycle racks."
+  },
+  "bestTip": "Look from the sidewalk. No need to walk down the driveway.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Medium"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Cast member area. View it from the public sidewalk.",
+  "coordinates": {
+    "latitude": 33.808,
+    "longitude": -117.9238
+  },
+  "sourceId": "TLC-DR-0038",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

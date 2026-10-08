@@ -1,0 +1,40 @@
+{
+  "id": "goofys-kitchen-escalator-splash-mountain-painting-balloons",
+  "parkId": "california_resorts_bucket",
+  "landId": "disneyland_hotel",
+  "attractionId": "goofys_kitchen",
+  "display": {
+    "entryTitle": "Escalator Splash Mountain Painting Balloons",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Disneyland Hotel",
+    "attractionName": "Goofy's Kitchen"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "Near the escalator from Goofy's Kitchen, a painting of Splash Mountain holds three finds: a red Mickey balloon, a small black and white Mickey balloon, and a kid in Mickey ears.",
+  "whereToLook": {
+    "scene": "Near the escalator from Goofy's Kitchen, the Splash Mountain painting",
+    "exactSpot": "The red Mickey balloon, the small black and white Mickey balloon, and the child wearing ears."
+  },
+  "bestTip": "Start with the red balloon. The black and white one is smaller and harder.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8101,
+    "longitude": -117.9241
+  },
+  "sourceId": "TLC-DR-0016",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

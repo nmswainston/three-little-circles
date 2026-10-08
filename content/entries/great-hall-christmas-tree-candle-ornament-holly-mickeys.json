@@ -1,0 +1,41 @@
+{
+  "id": "great-hall-christmas-tree-candle-ornament-holly-mickeys",
+  "parkId": "california_resorts_bucket",
+  "landId": "grand_californian_hotel",
+  "attractionId": "great_hall_lobby",
+  "display": {
+    "entryTitle": "Christmas Tree Candle Ornament Holly Mickeys",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Grand Californian Hotel",
+    "attractionName": "Great Hall Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "During the holidays, the lobby tree hangs with lantern-style ornaments. The red candle ornament carries three Mickeys made of holly berries, two on the right and one on the lower left. The same ornament hangs along the balconies, so there are dozens of them.",
+  "whereToLook": {
+    "scene": "The holiday tree in the Great Hall, the red candle lantern ornaments",
+    "exactSpot": "On the ornament: two holly-berry Mickeys on the right, one at the lower left."
+  },
+  "bestTip": "The balcony ornaments are at eye level from the upper floors.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Seasonal",
+  "accessNotes": "Holiday season only, roughly mid November through early January.",
+  "coordinates": {
+    "latitude": 33.8075,
+    "longitude": -117.9231
+  },
+  "sourceId": "TLC-DR-0029",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand-Californian2",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

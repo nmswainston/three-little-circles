@@ -1,0 +1,40 @@
+{
+  "id": "registration-desk-right-fabric-mural-maroon-line-mickeys",
+  "parkId": "california_resorts_bucket",
+  "landId": "grand_californian_hotel",
+  "attractionId": "registration_desk",
+  "display": {
+    "entryTitle": "Behind the Counter Right Fabric Mural Mickeys",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Grand Californian Hotel",
+    "attractionName": "Registration Desk"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "Behind the registration counter at the far right hangs a fabric mural with maroon lines running across it. One Mickey sits just below the second maroon line from the top, and another just above the fifth.",
+  "whereToLook": {
+    "scene": "Behind the registration counter, far right, the fabric mural",
+    "exactSpot": "Below the second maroon line from the top, and above the fifth maroon line from the top."
+  },
+  "bestTip": "Count the maroon lines from the top. Two and five.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8075,
+    "longitude": -117.9233
+  },
+  "sourceId": "TLC-DR-0035",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

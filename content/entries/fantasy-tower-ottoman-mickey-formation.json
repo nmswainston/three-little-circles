@@ -1,0 +1,41 @@
+{
+  "id": "fantasy-tower-ottoman-mickey-formation",
+  "parkId": "california_resorts_bucket",
+  "landId": "disneyland_hotel",
+  "attractionId": "fantasy_tower_lobby",
+  "display": {
+    "entryTitle": "Lounge Ottoman Mickey Formation",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Disneyland Hotel",
+    "attractionName": "Fantasy Tower Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "In the Frontier, Fantasy, and Adventure Tower lounges, the round ottomans are sometimes pushed together as a Mickey: one big, two small.",
+  "whereToLook": {
+    "scene": "The tower lobbies and lounges, the round ottomans",
+    "exactSpot": "Any cluster of three ottomans, one large and two small."
+  },
+  "bestTip": "Housekeeping resets them, so mornings are your best shot. If they are scattered, nobody will mind if you fix it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium",
+    "notes": "Furniture moves all day."
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Variable",
+  "coordinates": {
+    "latitude": 33.8098,
+    "longitude": -117.9236
+  },
+  "sourceId": "TLC-DR-0010",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "goofys-kitchen-staircase-ceiling-mickey-bolts",
+  "parkId": "california_resorts_bucket",
+  "landId": "disneyland_hotel",
+  "attractionId": "goofys_kitchen",
+  "display": {
+    "entryTitle": "Staircase Ceiling Mickey With Mickey Bolts",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Disneyland Hotel",
+    "attractionName": "Goofy's Kitchen"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Walkway",
+  "description": "At the top of a staircase near the Goofy's Kitchen entrance, a large Mickey on a blue background is fixed to the ceiling, and the small bolts holding it are Mickeys too.",
+  "whereToLook": {
+    "scene": "The top of the staircase near the entrance to Goofy's Kitchen, the ceiling",
+    "exactSpot": "The big Mickey on blue overhead. Then the small bolts around it."
+  },
+  "bestTip": "The big one is the easy part. Count the bolts for the bonus.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8101,
+    "longitude": -117.9241
+  },
+  "sourceId": "TLC-DR-0014",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

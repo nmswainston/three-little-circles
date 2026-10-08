@@ -1,0 +1,40 @@
+{
+  "id": "registration-desk-left-mural-tree-trunk-mickey",
+  "parkId": "california_resorts_bucket",
+  "landId": "grand_californian_hotel",
+  "attractionId": "registration_desk",
+  "display": {
+    "entryTitle": "Behind the Counter Left Mural Tree Mickey",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Grand Californian Hotel",
+    "attractionName": "Registration Desk"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Lobby",
+  "description": "Behind the registration counter at the far left, a mural of trees covers the wall. In the leftmost tree, a Mickey hides in the branches just above the trunk.",
+  "whereToLook": {
+    "scene": "Behind the registration counter, far left, the tree mural",
+    "exactSpot": "The leftmost tree. In the branches just above the trunk."
+  },
+  "bestTip": "You cannot get close, so pick the leftmost tree and work up from the trunk.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8075,
+    "longitude": -117.9233
+  },
+  "sourceId": "TLC-DR-0034",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

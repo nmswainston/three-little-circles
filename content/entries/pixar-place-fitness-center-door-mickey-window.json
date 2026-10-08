@@ -1,0 +1,40 @@
+{
+  "id": "pixar-place-fitness-center-door-mickey-window",
+  "parkId": "california_resorts_bucket",
+  "landId": "pixar_place_hotel",
+  "attractionId": "pixar_place_fitness_center",
+  "display": {
+    "entryTitle": "Fitness Center Door Mickey Window",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Pixar Place Hotel",
+    "attractionName": "Fitness Center"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Entrance",
+  "description": "The door to the fitness center has a window cut in the shape of a Mickey head.",
+  "whereToLook": {
+    "scene": "The fitness center door",
+    "exactSpot": "The window in the door."
+  },
+  "bestTip": "You do not need to work out. The window is on the hallway side.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8062,
+    "longitude": -117.9258
+  },
+  "sourceId": "TLC-DR-0044",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Pixar_Place_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

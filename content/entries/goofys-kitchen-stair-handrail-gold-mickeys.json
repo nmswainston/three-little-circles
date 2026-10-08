@@ -1,0 +1,40 @@
+{
+  "id": "goofys-kitchen-stair-handrail-gold-mickeys",
+  "parkId": "california_resorts_bucket",
+  "landId": "disneyland_hotel",
+  "attractionId": "goofys_kitchen",
+  "display": {
+    "entryTitle": "Stair Handrail Gold Mickeys",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Disneyland Hotel",
+    "attractionName": "Goofy's Kitchen"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Walkway",
+  "description": "The handrails on the stairs near Goofy's Kitchen end in gold-plated Mickeys.",
+  "whereToLook": {
+    "scene": "The stairs near Goofy's Kitchen",
+    "exactSpot": "The ends of the handrails. Gold Mickeys."
+  },
+  "bestTip": "Put your hand on the rail and look at where it ends.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8101,
+    "longitude": -117.9241
+  },
+  "sourceId": "TLC-DR-0013",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "goofys-kitchen-ceiling-umbrella-mickeys",
+  "parkId": "california_resorts_bucket",
+  "landId": "disneyland_hotel",
+  "attractionId": "goofys_kitchen",
+  "display": {
+    "entryTitle": "Ceiling Umbrella Mickeys",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Disneyland Hotel",
+    "attractionName": "Goofy's Kitchen"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "To the right of Goofy's Kitchen and the old Steakhouse 55 space, umbrellas hang from the ceiling. Look up and you will find Mickeys on them.",
+  "whereToLook": {
+    "scene": "Outside Goofy's Kitchen, to the right, the umbrellas hanging from the ceiling",
+    "exactSpot": "The umbrellas overhead. Mickeys in the canopies."
+  },
+  "bestTip": "Look up before you check in for your reservation.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8101,
+    "longitude": -117.9241
+  },
+  "sourceId": "TLC-DR-0012",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}
