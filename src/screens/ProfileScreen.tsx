@@ -38,6 +38,7 @@ import { challengeAchievementId } from "../data/achievements";
 import { challengeStatus, getChallenges } from "../data/challenges";
 import { useChallengeProgress } from "../store/useChallengeProgress";
 import Disclaimer from "../components/Disclaimer";
+import { formatBuildInfo, readBuildInfo } from "../lib/buildInfo";
 
 const RECENT_BADGES = 3;
 const PROFILE_CHALLENGES = 3;
@@ -69,6 +70,7 @@ export default function ProfileScreen() {
   const setOnboarded = useSettingsStore((s) => s.setOnboarded);
 
   const achievements = useMemo(() => getAchievements(), []);
+  const buildLine = useMemo(() => formatBuildInfo(readBuildInfo()), []);
   const badgeProgress = useBadgeProgress();
   const unseen = useMemo(() => new Set(unlocked.filter((id) => !seen.includes(id))), [unlocked, seen]);
   const [selected, setSelected] = useState<Achievement | undefined>();
@@ -454,6 +456,11 @@ export default function ProfileScreen() {
                 <Text style={styles.resetText}>Reset found progress</Text>
               </Pressable>
             )}
+            {buildLine ? (
+              <Text style={styles.buildLine} selectable accessibilityLabel={`App ${buildLine}`}>
+                {buildLine}
+              </Text>
+            ) : null}
           </Section>
         </View>
       </ScrollView>
@@ -695,6 +702,12 @@ const createStyles = (t: Theme) =>
     caption: {
       ...text.bodySmall,
       color: t.colors.textMuted,
+    },
+    buildLine: {
+      ...text.bodySmall,
+      color: t.colors.textMuted,
+      textAlign: "center",
+      marginTop: spacing.sm,
     },
     aboutCard: {
       backgroundColor: t.colors.surface,
