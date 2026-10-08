@@ -84,6 +84,12 @@ describe('last viewed', () => {
     expect(onContinue).toHaveBeenCalled();
   });
 
+  it('shows the find and its attraction on separate lines so neither is cut off', () => {
+    render(<NearYouCard canAsk={false} lastViewed={last} onAsk={jest.fn()} onShowNearby={jest.fn()} onContinue={jest.fn()} />);
+    expect(screen.getByText(last.title)).toBeTruthy();
+    expect(screen.getByText(last.attractionName)).toBeTruthy();
+  });
+
   it('sits above the invitation to turn location on', () => {
     render(<NearYouCard canAsk lastViewed={last} onAsk={jest.fn()} onShowNearby={jest.fn()} onContinue={jest.fn()} />);
     expect(screen.getByText('Continue where you left off')).toBeTruthy();

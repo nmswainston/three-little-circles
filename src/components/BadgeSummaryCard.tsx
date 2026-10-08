@@ -175,18 +175,19 @@ export default function BadgeSummaryCard({
           </View>
         </View>
         <View style={styles.textCol}>
-          <View style={styles.titleRow}>
-            <Text style={styles.title} numberOfLines={2}>
-              {title}
-            </Text>
-            {state.kind === 'next' && (
+          <Text style={styles.title} numberOfLines={2}>
+            {title}
+          </Text>
+          {state.kind === 'next' && (
+            // The count sits beside the bar so the title keeps the full width.
+            <View style={styles.barRow}>
+              <View style={styles.barFill}>
+                <ProgressBar progress={state.progress.fraction} color={accent} trackColor={TRACK_ON_NAVY} />
+              </View>
               <Text style={[styles.count, { color: accent }]}>
                 {state.progress.current} / {state.progress.goal}
               </Text>
-            )}
-          </View>
-          {state.kind === 'next' && (
-            <ProgressBar progress={state.progress.fraction} color={accent} trackColor={TRACK_ON_NAVY} />
+            </View>
           )}
           {/* Three lines: the first-badge hint runs past two on a 320pt phone or with large text. */}
           <Text style={styles.detail} numberOfLines={3}>
@@ -281,14 +282,16 @@ const createStyles = (t: Theme) =>
       flex: 1,
       gap: spacing.xs + 2,
     },
-    titleRow: {
+    barRow: {
       flexDirection: 'row',
-      alignItems: 'baseline',
+      alignItems: 'center',
       gap: spacing.sm,
+    },
+    barFill: {
+      flex: 1,
     },
     title: {
       ...text.cardTitle,
-      flex: 1,
       color: night.colors.text,
     },
     earnedTitle: {
