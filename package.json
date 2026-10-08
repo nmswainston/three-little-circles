@@ -23,7 +23,8 @@
     "supabase:check": "node scripts/check-supabase.mjs",
     "content:import-csv": "node scripts/import-csv.mjs",
     "content:reconcile": "node scripts/reconcile-master.mjs",
-    "content:kit": "node scripts/build-verification-kit.mjs"
+    "content:kit": "node scripts/build-verification-kit.mjs",
+    "eas-build-post-install": "node scripts/write-build-commit.mjs"
   },
   "dependencies": {
     "@expo-google-fonts/lilita-one": "^0.4.1",

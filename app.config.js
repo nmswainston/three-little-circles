@@ -1,18 +1,3 @@
-import { execSync } from 'node:child_process';
-
-// The short commit this build was made from, shown on the Profile screen so a
-// phone can say which build it is running. EAS provides the hash on its
-// builders; a local run asks git.
-function gitCommit() {
-  const fromEas = process.env.EAS_BUILD_GIT_COMMIT_HASH;
-  if (fromEas) return fromEas.slice(0, 7);
-  try {
-    return execSync('git rev-parse --short=7 HEAD', { stdio: ['ignore', 'pipe', 'ignore'] }).toString().trim();
-  } catch {
-    return undefined;
-  }
-}
-
 export default {
   expo: {
     name: 'Three Little Circles',
@@ -111,7 +96,6 @@ export default {
     extra: {
       SUPABASE_URL: process.env.SUPABASE_URL,
       SUPABASE_ANON_KEY: process.env.SUPABASE_ANON_KEY,
-      gitCommit: gitCommit(),
       eas: {
         projectId: '114958f9-aa23-493a-ac7e-72772c555b21',
       },
