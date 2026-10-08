@@ -222,6 +222,27 @@ describe('ParkScreen', () => {
     expect(screen.getAllByRole('button', { name: firstLand.landName })).toHaveLength(1);
   });
 
+  it('jumps to a land from the chips in the header', () => {
+    const second = groups[1];
+    if (!second) return;
+    const scrollToLocation = jest.spyOn(SectionList.prototype, 'scrollToLocation').mockImplementation(() => {});
+    try {
+      render(<ParkScreen />);
+      fireEvent.press(screen.getAllByRole('button', { name: second.landName })[0]);
+      expect(scrollToLocation).toHaveBeenCalledWith(expect.objectContaining({ sectionIndex: 1, itemIndex: 0 }));
+    } finally {
+      scrollToLocation.mockRestore();
+    }
+  });
+
+  it('never toggles sticky land headers, which would rebuild the list under a jump', () => {
+    render(<ParkScreen />);
+    const list = () => screen.UNSAFE_getByType(SectionList);
+    expect(list().props.stickySectionHeadersEnabled).toBe(false);
+    fireEvent.scroll(list(), { nativeEvent: { contentOffset: { y: 500 } } });
+    expect(list().props.stickySectionHeadersEnabled).toBe(false);
+  });
+
   it('keeps Back and Share in the bar while scrolled', () => {
     render(<ParkScreen />);
     fireEvent.scroll(screen.UNSAFE_getByType(SectionList), { nativeEvent: { contentOffset: { y: 500 } } });
