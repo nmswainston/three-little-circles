@@ -48,8 +48,11 @@ export default function NearYouCard({ here, canAsk, lastViewed, onAsk, onShowNea
             </View>
             <View style={styles.inviteText}>
               <Text style={styles.inviteTitle}>Continue where you left off</Text>
+              <Text style={styles.lastFind} numberOfLines={2}>
+                {lastViewed.title}
+              </Text>
               <Text style={styles.inviteMeta} numberOfLines={1}>
-                {`${lastViewed.title} · ${lastViewed.attractionName}`}
+                {lastViewed.attractionName}
               </Text>
             </View>
             <Ionicons name="chevron-forward" size={20} color={t.colors.textMuted} />
@@ -204,6 +207,10 @@ const createStyles = (t: Theme) =>
     },
     inviteTitle: {
       ...text.itemTitle,
+      color: t.colors.text,
+    },
+    lastFind: {
+      ...text.bodySmall,
       color: t.colors.text,
     },
     inviteMeta: {
