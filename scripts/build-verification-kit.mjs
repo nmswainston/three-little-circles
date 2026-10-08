@@ -110,8 +110,17 @@ for (const d of destinations) {
     outLands.push({ id: land.id, name: land.name, attractions });
   }
   const label = d.region === "Florida" ? d.name : `${d.name} (${d.region})`;
-  parks.push({ id: d.parkId, name: label, lands: outLands, count: outLands.reduce((s, l) => s + l.attractions.reduce((t, a) => t + a.entries.length, 0), 0) });
+  const countOf = (ls) => ls.reduce((s, l) => s + l.attractions.reduce((t, a) => t + a.entries.length, 0), 0);
+  if (d.parkKey === "resorts") {
+    // Each resort is its own trip, so each gets its own pick in the list,
+    // grouped under the destination. The land heading would repeat the pick's
+    // name, so those sections leave it out.
+    parks.push({ id: d.parkId, name: label, group: true, sections: outLands.map((l) => ({ id: `${d.parkId}-${l.id}`, name: l.name, parkName: label, lands: [l], count: countOf([l]), solo: true })) });
+  } else {
+    parks.push({ id: d.parkId, name: label, sections: [{ id: d.parkId, name: label, parkName: label, lands: outLands, count: countOf(outLands) }] });
+  }
 }
+const sections = parks.flatMap((p) => p.sections);
 
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const csvCell = (v) => { const s = String(v ?? ""); return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
@@ -140,14 +149,20 @@ function entryHtml(e, n) {
 
 function parkHtml(p) {
   let n = 0;
-  return `<section class="park" id="${esc(p.id)}" data-park="${esc(p.id)}" hidden>
-${p.lands.map((l) => `<h2 class="land">${esc(l.name)}</h2>
+  return `<section class="park" id="${esc(p.id)}" data-park="${esc(p.id)}" data-park-name="${esc(p.parkName)}" hidden>
+${p.lands.map((l) => `${p.solo ? `<h2 class="land solo">${esc(l.name)}</h2>` : `<h2 class="land">${esc(l.name)}</h2>`}
 ${l.attractions.map((a) => `<article class="attr"><h3>${esc(a.name)} <small>${a.entries.length}</small></h3><ol class="list">${a.entries.map((e) => entryHtml(e, ++n)).join("\n")}</ol></article>`).join("\n")}`).join("\n")}
 </section>`;
 }
 
+function optionsHtml() {
+  return parks.map((p) => p.group
+    ? `<optgroup label="${esc(p.name)}">${p.sections.map((s) => `<option value="${esc(s.id)}">${esc(s.name)} (${s.count})</option>`).join("")}</optgroup>`
+    : p.sections.map((s) => `<option value="${esc(s.id)}">${esc(s.name)} (${s.count})</option>`).join("")).join("");
+}
+
 const built = new Date().toISOString().slice(0, 10);
-const total = parks.reduce((s, p) => s + p.count, 0);
+const total = sections.reduce((s, p) => s + p.count, 0);
 
 const style = `
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -173,14 +188,15 @@ const style = `
 body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 var(--body); }
 .wrap { max-width: 760px; margin: 0 auto; padding-block: 0 48px; padding-inline: 16px; }
 .bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--panel); border-bottom: 1px solid var(--line); }
-.bar .wrap { padding-block: 10px 8px; display: grid; gap: 8px; }
+.bar .wrap { padding-block: 10px 8px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; }
+.bar .wrap > * { min-width: 0; }
 .title { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
 .title h1 { font: 26px/1 var(--display); margin: 0; letter-spacing: 0.01em; }
 .title h1 b { color: var(--accent); font-weight: inherit; }
 .title .sub { color: var(--muted); font-size: 13px; }
 .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
 select, .btn, .note { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; min-height: 36px; }
-select { flex: 1 1 200px; min-width: 0; }
+select { flex: 1 1 200px; min-width: 0; max-width: 100%; }
 .btn { cursor: pointer; }
 .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 700; }
 .btn.danger { color: var(--bad); }
@@ -191,6 +207,7 @@ select { flex: 1 1 200px; min-width: 0; }
 .track { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; }
 .track i { display: block; height: 100%; width: 0; background: var(--ok); transition: width 0.2s; }
 .land { font: 22px/1.1 var(--display); margin: 28px 0 6px; padding-top: 10px; border-top: 2px solid var(--accent); color: var(--ink); text-wrap: balance; }
+.land.solo { margin-top: 16px; }
 .attr h3 { font: 700 16px/1.3 var(--body); margin: 18px 0 8px; display: flex; gap: 8px; align-items: baseline; }
 .attr h3 small { color: var(--muted); font-weight: 600; font-size: 12px; }
 .list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
@@ -251,7 +268,7 @@ const body = `
 <header class="bar"><div class="wrap">
   <div class="title"><h1>Three Little <b>Circles</b> Field Kit</h1><span class="sub">${total} finds · built ${built}</span></div>
   <div class="row">
-    <select id="park" aria-label="Park">${parks.map((p) => `<option value="${esc(p.id)}">${esc(p.name)} (${p.count})</option>`).join("")}</select>
+    <select id="park" aria-label="Park or resort">${optionsHtml()}</select>
     <button type="button" class="btn primary" id="copy">Copy results</button>
     <button type="button" class="btn danger" id="reset">Reset park</button>
   </div>
@@ -265,7 +282,7 @@ const body = `
   <div class="sheet" id="sheet"><textarea id="csv" readonly aria-label="Results as CSV"></textarea><span class="meta">Copied to the clipboard when that works. Otherwise select the text above. Paste into the Onsite Verification tab.</span></div>
 </div></header>
 <main class="wrap">
-${parks.map(parkHtml).join("\n")}
+${sections.map(parkHtml).join("\n")}
 <p class="empty" id="empty" hidden>Everything here is checked. Nice work.</p>
 <p class="foot">Results live only in this browser. Copy them out before you clear site data or switch phones. Order is a walking order from the gate; within an attraction, entrance to exit.</p>
 </main>
@@ -357,7 +374,7 @@ ${parks.map(parkHtml).join("\n")}
   document.getElementById("copy").addEventListener("click", function () {
     var rows = [["find_id", "entry_id", "park", "land", "attraction", "title", "app_status", "outcome", "photo_taken", "notes", "checked_at"]];
     document.querySelectorAll(".park").forEach(function (sec) {
-      var park = parkSel.querySelector('option[value="' + sec.dataset.park + '"]').textContent.replace(/ \\(\\d+\\)$/, "");
+      var park = sec.dataset.parkName;
       sec.querySelectorAll(".e").forEach(function (li) {
         var s = state[li.dataset.id]; if (!s || (!s.o && !s.p && !s.n)) return;
         rows.push([li.dataset.src, li.dataset.id, park, li.dataset.land, li.dataset.attraction, li.dataset.title, li.dataset.status, OUT[s.o] || "", s.p ? "yes" : "", s.n || "", s.t || ""]);
@@ -397,7 +414,7 @@ writeFileSync(join(outDir, "index.html"), `<!doctype html>
 </html>
 `);
 
-for (const p of parks) {
+for (const p of sections) {
   const rows = [["order", "find_id", "entry_id", "land", "attraction", "title", "status", "confidence", "scene", "exact_spot", "orientation", "tip", "access", "found", "photo", "notes"]];
   let n = 0;
   for (const l of p.lands) for (const a of l.attractions) for (const e of a.entries) {
@@ -406,5 +423,8 @@ for (const p of parks) {
   writeFileSync(join(outDir, `${p.id}.csv`), rows.map((r) => r.map(csvCell).join(",")).join("\n") + "\n");
 }
 
-console.log(`Wrote kit/index.html, kit/artifact.html, and ${parks.length} CSV files for ${total} entries.`);
-for (const p of parks) console.log(`  ${p.name}: ${p.count} finds across ${p.lands.length} lands`);
+console.log(`Wrote kit/index.html, kit/artifact.html, and ${sections.length} CSV files for ${total} entries.`);
+for (const p of parks) {
+  if (p.group) console.log(`  ${p.name}: ${p.sections.length} resorts, ${p.sections.reduce((s, x) => s + x.count, 0)} finds`);
+  else console.log(`  ${p.name}: ${p.sections[0].count} finds across ${p.sections[0].lands.length} lands`);
+}
