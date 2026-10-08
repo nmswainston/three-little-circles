@@ -1,4 +1,5 @@
 import Constants from "expo-constants";
+import { BUILD_COMMIT } from "./buildCommit";
 
 export type BuildInfo = {
   /** The app's marketing version, for example 1.0.0. */
@@ -26,7 +27,6 @@ export function formatBuildInfo({ version, build, commit, updateId }: BuildInfo)
 export function readBuildInfo(): BuildInfo {
   const config = Constants.expoConfig;
   const build = config?.android?.versionCode ?? config?.ios?.buildNumber;
-  const commit = config?.extra?.gitCommit;
 
   let updateId: string | undefined;
   try {
@@ -41,7 +41,7 @@ export function readBuildInfo(): BuildInfo {
   return {
     version: config?.version,
     build: build === undefined ? undefined : String(build),
-    commit: typeof commit === "string" ? commit : undefined,
+    commit: BUILD_COMMIT,
     updateId,
   };
 }
