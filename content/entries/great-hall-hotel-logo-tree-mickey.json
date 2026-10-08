@@ -1,0 +1,40 @@
+{
+  "id": "great-hall-hotel-logo-tree-mickey",
+  "parkId": "california_resorts_bucket",
+  "landId": "grand_californian_hotel",
+  "attractionId": "great_hall_lobby",
+  "display": {
+    "entryTitle": "Hotel Logo Tree Mickey",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Grand Californian Hotel",
+    "attractionName": "Great Hall Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "The Grand Californian logo has a Hidden Mickey inside its evergreen tree, right above the A in GRAND. Once you know it, you will see it on pens, lamp panels, planters, and an upstairs window on the Downtown Disney walkway.",
+  "whereToLook": {
+    "scene": "Anywhere the hotel logo appears: lobby signage, pens, the lamps and planters on the walkway to California Adventure",
+    "exactSpot": "Inside the tree of the logo, just above the A in GRAND."
+  },
+  "bestTip": "Grab a hotel pen at the front desk. It is the smallest version in the building.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8075,
+    "longitude": -117.9231
+  },
+  "sourceId": "TLC-DR-0030",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand-Californian3",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

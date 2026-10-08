@@ -48,6 +48,12 @@
     "parkKey": "adventure"
   },
   {
+    "parkId": "california_resorts_bucket",
+    "name": "Disneyland Resort Hotels",
+    "region": "California",
+    "parkKey": "resorts"
+  },
+  {
     "parkId": "paris_kingdom_park",
     "name": "Disneyland Park",
     "region": "Paris",

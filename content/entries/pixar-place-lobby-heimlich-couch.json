@@ -1,0 +1,40 @@
+{
+  "id": "pixar-place-lobby-heimlich-couch",
+  "parkId": "california_resorts_bucket",
+  "landId": "pixar_place_hotel",
+  "attractionId": "pixar_place_lobby",
+  "display": {
+    "entryTitle": "Lobby Heimlich Couch",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Pixar Place Hotel",
+    "attractionName": "Lobby"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "One of the lobby couches is Heimlich from A Bug's Life: green and segmented, with spots and little brown feet.",
+  "whereToLook": {
+    "scene": "The lobby seating",
+    "exactSpot": "The green spotted couch with brown feet."
+  },
+  "bestTip": "It is more comfortable than it looks.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8064,
+    "longitude": -117.9256
+  },
+  "sourceId": "TLC-DR-0041",
+  "sourceUrl": "https://samsdisneydiary.com/2024/02/perfectly-pixar-details-to-find-at-the-pixar-place-hotel/",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "registration-desk-conductor-mickey-dancing-bears",
+  "parkId": "california_resorts_bucket",
+  "landId": "grand_californian_hotel",
+  "attractionId": "registration_desk",
+  "display": {
+    "entryTitle": "Front Desk Conductor Mickey by the Dancing Bears",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Grand Californian Hotel",
+    "attractionName": "Registration Desk"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "On the front desk, near a group of dancing bears, a side-view Mickey conducts the band. He stands to the right of the white bear. Immediately to his left, next to a flat dark writing surface, is Tinker Bell.",
+  "whereToLook": {
+    "scene": "The front desk, the carved dancing bears",
+    "exactSpot": "To the right of the white bear. A profile Mickey conducting. Tinker Bell is just left of him by the dark writing surface."
+  },
+  "bestTip": "Find the white bear first. Everything else is within a hand's width.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8075,
+    "longitude": -117.9233
+  },
+  "sourceId": "TLC-DR-0032",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

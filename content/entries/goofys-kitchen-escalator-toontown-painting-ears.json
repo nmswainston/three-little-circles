@@ -1,0 +1,40 @@
+{
+  "id": "goofys-kitchen-escalator-toontown-painting-ears",
+  "parkId": "california_resorts_bucket",
+  "landId": "disneyland_hotel",
+  "attractionId": "goofys_kitchen",
+  "display": {
+    "entryTitle": "Escalator Toontown Painting Mickey Ears",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Disneyland Hotel",
+    "attractionName": "Goofy's Kitchen"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "Riding the escalator up from Goofy's Kitchen you pass a painting of Toontown. A woman in a red dress walks with two kids, and both kids wear Mickey ears.",
+  "whereToLook": {
+    "scene": "The escalator up from Goofy's Kitchen, the Toontown painting",
+    "exactSpot": "The woman in the red dress. The two children with her wear Mickey ears."
+  },
+  "bestTip": "Look at the people, not the buildings.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8101,
+    "longitude": -117.9241
+  },
+  "sourceId": "TLC-DR-0015",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

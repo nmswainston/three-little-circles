@@ -1,0 +1,40 @@
+{
+  "id": "great-hall-exit-doors-rock-pile-cracked-mickey",
+  "parkId": "california_resorts_bucket",
+  "landId": "grand_californian_hotel",
+  "attractionId": "great_hall_lobby",
+  "display": {
+    "entryTitle": "Exit Doors Rock Pile Cracked Mickey",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Grand Californian Hotel",
+    "attractionName": "Great Hall Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Exit",
+  "description": "At the exit doors behind and near the fireplace, the wall is a pile of round rocks. Count to the second row from the top and four rows in from the far edge: three rocks make a Mickey, and the head rock is cracked.",
+  "whereToLook": {
+    "scene": "The exit doors near the rear of the fireplace, the rock wall",
+    "exactSpot": "Second row from the top, four rows back from the far edge of the wall. The head rock has a crack."
+  },
+  "bestTip": "Count rows from the top, then from the far edge. The crack is the confirmation.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8075,
+    "longitude": -117.9231
+  },
+  "sourceId": "TLC-DR-0023",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

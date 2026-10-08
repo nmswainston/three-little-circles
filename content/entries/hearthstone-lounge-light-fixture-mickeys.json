@@ -1,0 +1,40 @@
+{
+  "id": "hearthstone-lounge-light-fixture-mickeys",
+  "parkId": "california_resorts_bucket",
+  "landId": "grand_californian_hotel",
+  "attractionId": "hearthstone_lounge",
+  "display": {
+    "entryTitle": "Light Fixture Mickeys",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Grand Californian Hotel",
+    "attractionName": "Hearthstone Lounge"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "The lights in Hearthstone Lounge, both the ones hanging from the ceiling and the ones on the walls, are ringed with Mickeys around the outside.",
+  "whereToLook": {
+    "scene": "Hearthstone Lounge, the ceiling and wall light fixtures",
+    "exactSpot": "The outer edge of each fixture. A ring of Mickeys."
+  },
+  "bestTip": "Order a drink and look up.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8073,
+    "longitude": -117.9228
+  },
+  "sourceId": "TLC-DR-0036",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "goofys-kitchen-escalator-space-mountain-painting-fireworks-mickey",
+  "parkId": "california_resorts_bucket",
+  "landId": "disneyland_hotel",
+  "attractionId": "goofys_kitchen",
+  "display": {
+    "entryTitle": "Escalator Space Mountain Painting Fireworks Mickey",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Disneyland Hotel",
+    "attractionName": "Goofy's Kitchen"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "Near the same escalator, a painting of Space Mountain has fireworks in its sky. In the upper left, the bursts form a Mickey.",
+  "whereToLook": {
+    "scene": "Near the escalator from Goofy's Kitchen, the Space Mountain painting",
+    "exactSpot": "The upper left of the sky. Fireworks arranged as a Mickey."
+  },
+  "bestTip": "Look at the sky corner, not the mountain.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8101,
+    "longitude": -117.9241
+  },
+  "sourceId": "TLC-DR-0017",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

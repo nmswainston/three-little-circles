@@ -1,0 +1,40 @@
+{
+  "id": "registration-desk-tree-raised-brown-green-mickey",
+  "parkId": "california_resorts_bucket",
+  "landId": "grand_californian_hotel",
+  "attractionId": "registration_desk",
+  "display": {
+    "entryTitle": "Front Desk Tree Raised Mickey",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Grand Californian Hotel",
+    "attractionName": "Registration Desk"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "To the right of the conductor Mickey on the front desk, a tree is carved into the counter. A raised brown and green Mickey sits on the lower middle of its trunk.",
+  "whereToLook": {
+    "scene": "The front desk, the tree to the right of the dancing bears",
+    "exactSpot": "The lower middle part of the tree. A raised brown and green Mickey."
+  },
+  "bestTip": "Run your eye down the trunk from the branches.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8075,
+    "longitude": -117.9233
+  },
+  "sourceId": "TLC-DR-0033",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

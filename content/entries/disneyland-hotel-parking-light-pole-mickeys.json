@@ -1,0 +1,40 @@
+{
+  "id": "disneyland-hotel-parking-light-pole-mickeys",
+  "parkId": "california_resorts_bucket",
+  "landId": "disneyland_hotel",
+  "attractionId": "disneyland_hotel_grounds",
+  "display": {
+    "entryTitle": "Parking Lot Light Pole Mickeys",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Disneyland Hotel",
+    "attractionName": "Hotel Grounds and Parking"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Outdoor Display",
+  "description": "The light poles in the hotel parking lot are topped with Mickeys.",
+  "whereToLook": {
+    "scene": "The hotel parking lot, the light poles",
+    "exactSpot": "The top of each pole."
+  },
+  "bestTip": "Look up as you walk in from the car.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Low",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.811,
+    "longitude": -117.9255
+  },
+  "sourceId": "TLC-DR-0020",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "great-hall-concierge-counter-silhouette-mickey",
+  "parkId": "california_resorts_bucket",
+  "landId": "grand_californian_hotel",
+  "attractionId": "great_hall_lobby",
+  "display": {
+    "entryTitle": "Concierge Counter Silhouette Mickey",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Grand Californian Hotel",
+    "attractionName": "Great Hall Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "A silhouette-style Mickey is hidden in the woodwork of the concierge counter.",
+  "whereToLook": {
+    "scene": "The Great Hall lobby, the concierge counter",
+    "exactSpot": "The front of the counter. A Mickey outline in silhouette."
+  },
+  "bestTip": "Look at the counter's face while someone else asks the questions.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8075,
+    "longitude": -117.9231
+  },
+  "sourceId": "TLC-DR-0024",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

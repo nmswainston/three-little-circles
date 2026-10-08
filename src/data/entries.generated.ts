@@ -5856,6 +5856,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
+    "id": "disneyland-hotel-parking-light-pole-mickeys",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "disneyland_hotel_grounds",
+    "display": {
+      "entryTitle": "Parking Lot Light Pole Mickeys",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Hotel Grounds and Parking"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Outdoor Display",
+    "description": "The light poles in the hotel parking lot are topped with Mickeys.",
+    "whereToLook": {
+      "scene": "The hotel parking lot, the light poles",
+      "exactSpot": "The top of each pole."
+    },
+    "bestTip": "Look up as you walk in from the car.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Low",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.811,
+      "longitude": -117.9255
+    },
+    "sourceId": "TLC-DR-0020",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
     "id": "disneystyle-pavement-dark-stones-mickey",
     "parkId": "springs_bucket",
     "landId": "west_side",
@@ -6899,6 +6939,450 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Fantasy-Faire1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "fantasy-tower-bell-cart-mickey-heads",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "fantasy_tower_lobby",
+    "display": {
+      "entryTitle": "Bell Services Cart Mickey Heads",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Fantasy Tower Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "The carts bell services wheels through the lobby carry a Mickey head in their frames.",
+    "whereToLook": {
+      "scene": "The main lobby, the bell services luggage carts",
+      "exactSpot": "The metalwork of the cart. A Mickey head shape."
+    },
+    "bestTip": "Stand near the bell desk and let a cart come to you.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Carts move with the bellhops."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 33.8098,
+      "longitude": -117.9236
+    },
+    "sourceId": "TLC-DR-0011",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "fantasy-tower-carpet-mickeys-sleeping-beauty-pavilion",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "fantasy_tower_lobby",
+    "display": {
+      "entryTitle": "Carpet Mickeys Near Sleeping Beauty Pavilion",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Fantasy Tower Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Walkway",
+    "description": "Hidden Mickeys are woven into the carpet around the hotel. One easy place to catch the pattern is the carpet near the Sleeping Beauty Pavilion.",
+    "whereToLook": {
+      "scene": "The carpet near the Sleeping Beauty Pavilion",
+      "exactSpot": "The repeating pattern in the carpet. Three-circle Mickeys in the weave."
+    },
+    "bestTip": "Look down while you walk the convention corridor.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Low",
+      "distance": "Close",
+      "notes": "Carpet gets replaced during refurbishments."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8098,
+      "longitude": -117.9236
+    },
+    "sourceId": "TLC-DR-0008",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "fantasy-tower-elevator-mirror-stars-white-mickey",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "fantasy_tower_lobby",
+    "display": {
+      "entryTitle": "Elevator Mirror Stars White Mickey",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Fantasy Tower Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "On the left wall by the lobby elevators, a panel of mirrored glass is scattered with stars. One small white Mickey hides among them near the elevator doors.",
+    "whereToLook": {
+      "scene": "The main lobby elevators, the mirrored glass on the left wall",
+      "exactSpot": "Among the stars near the elevator doors. A small white Mickey."
+    },
+    "bestTip": "Get close. It is the size of one of the stars.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8098,
+      "longitude": -117.9236
+    },
+    "sourceId": "TLC-DR-0003",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "fantasy-tower-elevator-wall-walt-train-mickey-doll",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "fantasy_tower_lobby",
+    "display": {
+      "entryTitle": "Elevator Wall Photo of Walt With Mickey Doll",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Fantasy Tower Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "Across from the main lobby elevators, a wall of photographs tells the hotel's story. In one of them Walt leans out of a train holding a big Mickey doll.",
+    "whereToLook": {
+      "scene": "The main lobby, the photo wall across from the elevators",
+      "exactSpot": "The photo of Walt leaning out of a train. The Mickey doll in his arms."
+    },
+    "bestTip": "Wait for the elevator with your back to the doors and read the wall.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8098,
+      "longitude": -117.9236
+    },
+    "sourceId": "TLC-DR-0002",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "fantasy-tower-hallway-telephone-mickeys",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "fantasy_tower_lobby",
+    "display": {
+      "entryTitle": "Upper Floor Hallway Telephone Mickeys",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Fantasy Tower Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "On the upper floors, the house telephones in the hallways near the central lobby carry a Mickey above the touch-tone buttons.",
+    "whereToLook": {
+      "scene": "Upper floor hallways near the central lobby, the house telephones",
+      "exactSpot": "Above the keypad on the phone."
+    },
+    "bestTip": "Check the phone on your own floor before heading down.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Guest floors. You need a room key for the elevators.",
+    "coordinates": {
+      "latitude": 33.8098,
+      "longitude": -117.9236
+    },
+    "sourceId": "TLC-DR-0009",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "fantasy-tower-jungle-temple-painting-jeep-mickey",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "fantasy_tower_lobby",
+    "display": {
+      "entryTitle": "Jungle Temple Painting Jeep Mickey",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Fantasy Tower Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "Across from the Sleeping Beauty Pavilion hangs a painting of a jungle temple. A jeep sits in the lower middle of the scene, and a Mickey rides on its roof.",
+    "whereToLook": {
+      "scene": "Across from the Sleeping Beauty Pavilion, the jungle temple painting",
+      "exactSpot": "The jeep in the lower middle of the painting. The Mickey on its roof."
+    },
+    "bestTip": "Look low in the painting, not at the temple.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8098,
+      "longitude": -117.9236
+    },
+    "sourceId": "TLC-DR-0007",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "fantasy-tower-lobby-big-thunder-model-gears-mickey",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "fantasy_tower_lobby",
+    "display": {
+      "entryTitle": "Lobby Big Thunder Model Gears Mickey",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Fantasy Tower Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "The lobby holds a scale model of Big Thunder Mountain Railroad. Tucked into it is a tiny gears Mickey, a copy of the one on the real ride.",
+    "whereToLook": {
+      "scene": "The main lobby, the Big Thunder Mountain Railroad model",
+      "exactSpot": "A small arrangement of gears in the model. Three gears make the head and ears."
+    },
+    "bestTip": "Walk the model slowly and look at the machinery rather than the trains.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8098,
+      "longitude": -117.9236
+    },
+    "sourceId": "TLC-DR-0004",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "fantasy-tower-ottoman-mickey-formation",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "fantasy_tower_lobby",
+    "display": {
+      "entryTitle": "Lounge Ottoman Mickey Formation",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Fantasy Tower Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "In the Frontier, Fantasy, and Adventure Tower lounges, the round ottomans are sometimes pushed together as a Mickey: one big, two small.",
+    "whereToLook": {
+      "scene": "The tower lobbies and lounges, the round ottomans",
+      "exactSpot": "Any cluster of three ottomans, one large and two small."
+    },
+    "bestTip": "Housekeeping resets them, so mornings are your best shot. If they are scattered, nobody will mind if you fix it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium",
+      "notes": "Furniture moves all day."
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Variable",
+    "coordinates": {
+      "latitude": 33.8098,
+      "longitude": -117.9236
+    },
+    "sourceId": "TLC-DR-0010",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "fantasy-tower-registration-counter-bubble-mickeys",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "fantasy_tower_lobby",
+    "display": {
+      "entryTitle": "Registration Counter Bubble Mickeys",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Fantasy Tower Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The front of the registration counter is faced with blue panels full of bubbles. Every so often three bubbles line up as a Mickey.",
+    "whereToLook": {
+      "scene": "The main lobby, the front of the registration counter",
+      "exactSpot": "The blue bubble panels. Look for groups of three bubbles at intervals along the counter."
+    },
+    "bestTip": "Check in, then step back and scan the panels left to right at knee height.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8098,
+      "longitude": -117.9236
+    },
+    "sourceId": "TLC-DR-0001",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "fantasy-tower-stairwell-frontierland-painting-ears",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "fantasy_tower_lobby",
+    "display": {
+      "entryTitle": "Stairwell Frontierland Painting Mickey Ears",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Fantasy Tower Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "A painting of Frontierland hangs in the stairwell. A child riding in a train car wears Mickey ears, and so does a man in the stagecoach at the top of the picture.",
+    "whereToLook": {
+      "scene": "The stairwell off the lobby, the Frontierland painting",
+      "exactSpot": "The child in the train car and the man in the stagecoach at the top. Both wear Mickey ears."
+    },
+    "bestTip": "Take the stairs instead of the elevator once.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8098,
+      "longitude": -117.9236
+    },
+    "sourceId": "TLC-DR-0006",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "fantasy-tower-steamboat-painting-dress-mickeys",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "fantasy_tower_lobby",
+    "display": {
+      "entryTitle": "Steamboat Landing Painting Dress Mickeys",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Fantasy Tower Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "In the hallway to the left of the lobby, a painting of a steamboat landing hangs on the right wall next to the stairwell. A woman with two children stands in it, and her dress is patterned with Mickeys.",
+    "whereToLook": {
+      "scene": "The hallway left of the lobby, the right wall beside the stairwell, the steamboat landing painting",
+      "exactSpot": "The woman with two children. The pattern on her dress."
+    },
+    "bestTip": "Find the steamboat first, then the family on the landing.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8098,
+      "longitude": -117.9236
+    },
+    "sourceId": "TLC-DR-0005",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
   },
   {
     "id": "fitness-center-elevator-wood-panel-mickey",
@@ -9067,6 +9551,246 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
+    "id": "goofys-kitchen-ceiling-umbrella-mickeys",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "goofys_kitchen",
+    "display": {
+      "entryTitle": "Ceiling Umbrella Mickeys",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Goofy's Kitchen"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "To the right of Goofy's Kitchen and the old Steakhouse 55 space, umbrellas hang from the ceiling. Look up and you will find Mickeys on them.",
+    "whereToLook": {
+      "scene": "Outside Goofy's Kitchen, to the right, the umbrellas hanging from the ceiling",
+      "exactSpot": "The umbrellas overhead. Mickeys in the canopies."
+    },
+    "bestTip": "Look up before you check in for your reservation.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8101,
+      "longitude": -117.9241
+    },
+    "sourceId": "TLC-DR-0012",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "goofys-kitchen-escalator-space-mountain-painting-fireworks-mickey",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "goofys_kitchen",
+    "display": {
+      "entryTitle": "Escalator Space Mountain Painting Fireworks Mickey",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Goofy's Kitchen"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "Near the same escalator, a painting of Space Mountain has fireworks in its sky. In the upper left, the bursts form a Mickey.",
+    "whereToLook": {
+      "scene": "Near the escalator from Goofy's Kitchen, the Space Mountain painting",
+      "exactSpot": "The upper left of the sky. Fireworks arranged as a Mickey."
+    },
+    "bestTip": "Look at the sky corner, not the mountain.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8101,
+      "longitude": -117.9241
+    },
+    "sourceId": "TLC-DR-0017",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "goofys-kitchen-escalator-splash-mountain-painting-balloons",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "goofys_kitchen",
+    "display": {
+      "entryTitle": "Escalator Splash Mountain Painting Balloons",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Goofy's Kitchen"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "Near the escalator from Goofy's Kitchen, a painting of Splash Mountain holds three finds: a red Mickey balloon, a small black and white Mickey balloon, and a kid in Mickey ears.",
+    "whereToLook": {
+      "scene": "Near the escalator from Goofy's Kitchen, the Splash Mountain painting",
+      "exactSpot": "The red Mickey balloon, the small black and white Mickey balloon, and the child wearing ears."
+    },
+    "bestTip": "Start with the red balloon. The black and white one is smaller and harder.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8101,
+      "longitude": -117.9241
+    },
+    "sourceId": "TLC-DR-0016",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "goofys-kitchen-escalator-toontown-painting-ears",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "goofys_kitchen",
+    "display": {
+      "entryTitle": "Escalator Toontown Painting Mickey Ears",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Goofy's Kitchen"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "Riding the escalator up from Goofy's Kitchen you pass a painting of Toontown. A woman in a red dress walks with two kids, and both kids wear Mickey ears.",
+    "whereToLook": {
+      "scene": "The escalator up from Goofy's Kitchen, the Toontown painting",
+      "exactSpot": "The woman in the red dress. The two children with her wear Mickey ears."
+    },
+    "bestTip": "Look at the people, not the buildings.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8101,
+      "longitude": -117.9241
+    },
+    "sourceId": "TLC-DR-0015",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "goofys-kitchen-stair-handrail-gold-mickeys",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "goofys_kitchen",
+    "display": {
+      "entryTitle": "Stair Handrail Gold Mickeys",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Goofy's Kitchen"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Walkway",
+    "description": "The handrails on the stairs near Goofy's Kitchen end in gold-plated Mickeys.",
+    "whereToLook": {
+      "scene": "The stairs near Goofy's Kitchen",
+      "exactSpot": "The ends of the handrails. Gold Mickeys."
+    },
+    "bestTip": "Put your hand on the rail and look at where it ends.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8101,
+      "longitude": -117.9241
+    },
+    "sourceId": "TLC-DR-0013",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "goofys-kitchen-staircase-ceiling-mickey-bolts",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "goofys_kitchen",
+    "display": {
+      "entryTitle": "Staircase Ceiling Mickey With Mickey Bolts",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "Goofy's Kitchen"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Walkway",
+    "description": "At the top of a staircase near the Goofy's Kitchen entrance, a large Mickey on a blue background is fixed to the ceiling, and the small bolts holding it are Mickeys too.",
+    "whereToLook": {
+      "scene": "The top of the staircase near the entrance to Goofy's Kitchen, the ceiling",
+      "exactSpot": "The big Mickey on blue overhead. Then the small bolts around it."
+    },
+    "bestTip": "The big one is the easy part. Count the bolts for the bonus.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8101,
+      "longitude": -117.9241
+    },
+    "sourceId": "TLC-DR-0014",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Disneyland_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
     "id": "gran-destino-elevator-wall-mickey",
     "parkId": "resorts_bucket",
     "landId": "coronado_springs_gran_destino",
@@ -9106,6 +9830,87 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-coronado-springs-resort-gran-destino-tower-top-floor-hidden-mickey-above-elevator-doors/",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "grand-californian-driveway-mickey-bicycle-racks",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "grand_californian_entrance",
+    "display": {
+      "entryTitle": "Driveway Mickey Bicycle Racks",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Main Entrance and Walkways"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "Facing the hotel entrance, a cast member driveway runs off to the right. The bicycle racks along it are shaped like Mickeys.",
+    "whereToLook": {
+      "scene": "The cast member driveway to the right of the main entrance",
+      "exactSpot": "The bicycle racks."
+    },
+    "bestTip": "Look from the sidewalk. No need to walk down the driveway.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Cast member area. View it from the public sidewalk.",
+    "coordinates": {
+      "latitude": 33.808,
+      "longitude": -117.9238
+    },
+    "sourceId": "TLC-DR-0038",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "grand-californian-entrance-pillar-panel-tree-mickeys",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "grand_californian_entrance",
+    "display": {
+      "entryTitle": "Entrance Pillar Panel Tree Mickeys",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Main Entrance and Walkways"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Outside the main entrance stands a pillar faced with decorative panels. On the rear panel a Mickey peeks out from behind the left side of a tree, with two more in the same panel: one in the upper right tree and one in a tree just above the trunk. Every panel on the pillar has Mickeys of some kind.",
+    "whereToLook": {
+      "scene": "Outside the main entrance, the panelled pillar, the rear panel",
+      "exactSpot": "Left side of a tree (peeking out), the upper right tree, and the tree just above the trunk."
+    },
+    "bestTip": "Walk all the way around the pillar. The rear panel is the one with three.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.808,
+      "longitude": -117.9238
+    },
+    "sourceId": "TLC-DR-0037",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
   },
   {
     "id": "grand-lobby-carpet-red-gold-mickey",
@@ -9429,6 +10234,287 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
+    "id": "great-hall-christmas-tree-candle-ornament-holly-mickeys",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Christmas Tree Candle Ornament Holly Mickeys",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "During the holidays, the lobby tree hangs with lantern-style ornaments. The red candle ornament carries three Mickeys made of holly berries, two on the right and one on the lower left. The same ornament hangs along the balconies, so there are dozens of them.",
+    "whereToLook": {
+      "scene": "The holiday tree in the Great Hall, the red candle lantern ornaments",
+      "exactSpot": "On the ornament: two holly-berry Mickeys on the right, one at the lower left."
+    },
+    "bestTip": "The balcony ornaments are at eye level from the upper floors.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Seasonal",
+    "accessNotes": "Holiday season only, roughly mid November through early January.",
+    "coordinates": {
+      "latitude": 33.8075,
+      "longitude": -117.9231
+    },
+    "sourceId": "TLC-DR-0029",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand-Californian2",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "great-hall-concierge-counter-silhouette-mickey",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Concierge Counter Silhouette Mickey",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "A silhouette-style Mickey is hidden in the woodwork of the concierge counter.",
+    "whereToLook": {
+      "scene": "The Great Hall lobby, the concierge counter",
+      "exactSpot": "The front of the counter. A Mickey outline in silhouette."
+    },
+    "bestTip": "Look at the counter's face while someone else asks the questions.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8075,
+      "longitude": -117.9231
+    },
+    "sourceId": "TLC-DR-0024",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "great-hall-exit-doors-rock-pile-cracked-mickey",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Exit Doors Rock Pile Cracked Mickey",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Exit",
+    "description": "At the exit doors behind and near the fireplace, the wall is a pile of round rocks. Count to the second row from the top and four rows in from the far edge: three rocks make a Mickey, and the head rock is cracked.",
+    "whereToLook": {
+      "scene": "The exit doors near the rear of the fireplace, the rock wall",
+      "exactSpot": "Second row from the top, four rows back from the far edge of the wall. The head rock has a crack."
+    },
+    "bestTip": "Count rows from the top, then from the far edge. The crack is the confirmation.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8075,
+      "longitude": -117.9231
+    },
+    "sourceId": "TLC-DR-0023",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "great-hall-fireplace-stonework-mickey",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Fireplace Stonework Mickey",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The big lobby fireplace is built of stacked stone, and three stones on its lower left side sit together as a Mickey.",
+    "whereToLook": {
+      "scene": "The Great Hall lobby, the fireplace",
+      "exactSpot": "The lower left side of the fireplace stonework."
+    },
+    "bestTip": "Crouch by the left side of the hearth and read the stones like a puzzle.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8075,
+      "longitude": -117.9231
+    },
+    "sourceId": "TLC-DR-0022",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "great-hall-grandfather-clock-face-mickey",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Grandfather Clock Face Mickey",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "A grandfather clock stands in the lobby, and the face has a Mickey head on it. Up close it is obvious. From across the room, nobody notices.",
+    "whereToLook": {
+      "scene": "The Great Hall lobby, the grandfather clock",
+      "exactSpot": "The clock face."
+    },
+    "bestTip": "Walk right up to it. It does not read from a distance.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8075,
+      "longitude": -117.9231
+    },
+    "sourceId": "TLC-DR-0021",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand-Californian1",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "great-hall-hotel-logo-tree-mickey",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Hotel Logo Tree Mickey",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "The Grand Californian logo has a Hidden Mickey inside its evergreen tree, right above the A in GRAND. Once you know it, you will see it on pens, lamp panels, planters, and an upstairs window on the Downtown Disney walkway.",
+    "whereToLook": {
+      "scene": "Anywhere the hotel logo appears: lobby signage, pens, the lamps and planters on the walkway to California Adventure",
+      "exactSpot": "Inside the tree of the logo, just above the A in GRAND."
+    },
+    "bestTip": "Grab a hotel pen at the front desk. It is the smallest version in the building.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8075,
+      "longitude": -117.9231
+    },
+    "sourceId": "TLC-DR-0030",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand-Californian3",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "great-hall-left-hallway-coastline-paintings-corner-mickeys",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Left Hallway Coastline Paintings Corner Mickeys",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "In the hallway to the left of the main entrance, paintings of rocky coastlines hang on the wall. Mickeys hide in the corners of the paintings.",
+    "whereToLook": {
+      "scene": "The hallway left of the main entrance, the rocky coastline paintings",
+      "exactSpot": "The corners of the paintings."
+    },
+    "bestTip": "Check all four corners of each painting, not the waves.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8075,
+      "longitude": -117.9231
+    },
+    "sourceId": "TLC-DR-0026",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
     "id": "great-hall-lobby-column-base-logs-mickey",
     "parkId": "resorts_bucket",
     "landId": "animal_kingdom_lodge_resort",
@@ -9508,6 +10594,126 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "great-hall-pool-map-childrens-pools-mickey",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Pool Map Children's Pools Mickey",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Walkway",
+    "description": "Entering the main lobby, a walkway on the left displays a map of the pool area. On it, the children's pools are drawn in the shape of a Mickey, which is also the shape they are in real life.",
+    "whereToLook": {
+      "scene": "The walkway on the left as you enter the main lobby, the pool area map",
+      "exactSpot": "The children's pools on the map. One big circle, two small ones."
+    },
+    "bestTip": "The map is the easy version. The pool itself proves it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8075,
+      "longitude": -117.9231
+    },
+    "sourceId": "TLC-DR-0027",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "great-hall-rear-left-desk-mickey-hole",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Rear Left Desk Mickey Hole",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "A desk stands in the rear left of the lobby. In the middle of its front is a hole cut as a Mickey.",
+    "whereToLook": {
+      "scene": "The rear left of the Great Hall lobby, the desk",
+      "exactSpot": "The middle of the desk's front. A Mickey-shaped hole."
+    },
+    "bestTip": "Walk toward the back left corner and look at the desk from the front.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8075,
+      "longitude": -117.9231
+    },
+    "sourceId": "TLC-DR-0025",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "great-hall-rugs-holly-berry-mickeys",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "great_hall_lobby",
+    "display": {
+      "entryTitle": "Rugs Holly Berry Mickeys",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Great Hall Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "The rugs in the hotel are patterned with holly, and the berries cluster as Hidden Mickeys.",
+    "whereToLook": {
+      "scene": "The rugs in the lobby and corridors",
+      "exactSpot": "The holly berries in the rug pattern. Groups of three."
+    },
+    "bestTip": "Look down in the Great Hall first; the rugs there are the biggest.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8075,
+      "longitude": -117.9231
+    },
+    "sourceId": "TLC-DR-0028",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
   },
   {
     "id": "great-tree-trunk-moss-mickey",
@@ -10827,6 +12033,87 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "hearthstone-lounge-light-fixture-mickeys",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "hearthstone_lounge",
+    "display": {
+      "entryTitle": "Light Fixture Mickeys",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Hearthstone Lounge"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "The lights in Hearthstone Lounge, both the ones hanging from the ceiling and the ones on the walls, are ringed with Mickeys around the outside.",
+    "whereToLook": {
+      "scene": "Hearthstone Lounge, the ceiling and wall light fixtures",
+      "exactSpot": "The outer edge of each fixture. A ring of Mickeys."
+    },
+    "bestTip": "Order a drink and look up.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8073,
+      "longitude": -117.9228
+    },
+    "sourceId": "TLC-DR-0036",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "high-key-club-mural-three-mickeys",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "high_key_club",
+    "display": {
+      "entryTitle": "Lounge Mural Three Mickeys",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "High Key Club"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The High Key Club's wall-length mural traces Disneyland's musical history, and three Hidden Mickeys are worked into it. Look around the Dapper Dans, the Tiki bird, and the Pearly Band from Mary Poppins.",
+    "whereToLook": {
+      "scene": "The High Key Club lounge in the Adventure Tower, the mural over the seating",
+      "exactSpot": "Near the Dapper Dans, near the Tiki bird, and near the Pearly Band. One Mickey by each."
+    },
+    "bestTip": "Ask the lounge host for the key to the mural's timeline. It helps you find the three groups fast.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "accessNotes": "Concierge-level guests only. The lounge opened in July 2025.",
+    "coordinates": {
+      "latitude": 33.8094,
+      "longitude": -117.9228
+    },
+    "sourceId": "TLC-DR-0018",
+    "sourceUrl": "https://mickeyblog.com/2025/07/15/photos-come-with-us-to-the-high-key-club-at-disneyland-hotel/",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
   },
   {
     "id": "high-street-shops-ironwork-silhouette-mickey",
@@ -17492,6 +18779,246 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
+    "id": "pixar-place-check-in-parking-green-pole-mickey",
+    "parkId": "california_resorts_bucket",
+    "landId": "pixar_place_hotel",
+    "attractionId": "pixar_place_entrance",
+    "display": {
+      "entryTitle": "Check-in Parking Green Pole Mickey",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Pixar Place Hotel",
+      "attractionName": "Entrance and Check-in Parking"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "By the check-in parking spaces stands a green pole with a Mickey on top.",
+    "whereToLook": {
+      "scene": "The check-in parking spaces outside the entrance",
+      "exactSpot": "The top of the green pole."
+    },
+    "bestTip": "Look up while you unload the car.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Low",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8066,
+      "longitude": -117.926
+    },
+    "sourceId": "TLC-DR-0043",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Pixar_Place_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "pixar-place-entrance-sliding-doors-ember-and-wade",
+    "parkId": "california_resorts_bucket",
+    "landId": "pixar_place_hotel",
+    "attractionId": "pixar_place_entrance",
+    "display": {
+      "entryTitle": "Entrance Sliding Doors Ember and Wade",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Pixar Place Hotel",
+      "attractionName": "Entrance and Check-in Parking"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "Ember and Wade from Elemental are printed on the glass of the entrance sliding doors. When the doors open, the two panels overlap and the colors merge.",
+    "whereToLook": {
+      "scene": "The hotel entrance, the sliding glass doors",
+      "exactSpot": "The two door panels. Watch them as they slide open."
+    },
+    "bestTip": "Stand still and let someone else trigger the doors.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8066,
+      "longitude": -117.926
+    },
+    "sourceId": "TLC-DR-0042",
+    "sourceUrl": "https://samsdisneydiary.com/2024/02/perfectly-pixar-details-to-find-at-the-pixar-place-hotel/",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "pixar-place-fitness-center-door-mickey-window",
+    "parkId": "california_resorts_bucket",
+    "landId": "pixar_place_hotel",
+    "attractionId": "pixar_place_fitness_center",
+    "display": {
+      "entryTitle": "Fitness Center Door Mickey Window",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Pixar Place Hotel",
+      "attractionName": "Fitness Center"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "The door to the fitness center has a window cut in the shape of a Mickey head.",
+    "whereToLook": {
+      "scene": "The fitness center door",
+      "exactSpot": "The window in the door."
+    },
+    "bestTip": "You do not need to work out. The window is on the hallway side.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8062,
+      "longitude": -117.9258
+    },
+    "sourceId": "TLC-DR-0044",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Pixar_Place_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "pixar-place-lobby-ceiling-light-mickeys",
+    "parkId": "california_resorts_bucket",
+    "landId": "pixar_place_hotel",
+    "attractionId": "pixar_place_lobby",
+    "display": {
+      "entryTitle": "Lobby Ceiling Light Mickeys",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Pixar Place Hotel",
+      "attractionName": "Lobby"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "Look up in the lobby. The ceiling lights are shaped as Hidden Mickeys.",
+    "whereToLook": {
+      "scene": "The lobby, the ceiling lights",
+      "exactSpot": "The light fixtures overhead."
+    },
+    "bestTip": "Stand in the middle of the lobby and tilt your head back.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8064,
+      "longitude": -117.9256
+    },
+    "sourceId": "TLC-DR-0039",
+    "sourceUrl": "https://www.undercovertourist.com/blog/pixar-place-hotel/",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "pixar-place-lobby-floor-character-medallions",
+    "parkId": "california_resorts_bucket",
+    "landId": "pixar_place_hotel",
+    "attractionId": "pixar_place_lobby",
+    "display": {
+      "entryTitle": "Lobby Floor Pixar Character Medallions",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Pixar Place Hotel",
+      "attractionName": "Lobby"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "Sixteen metal medallions shaped like Pixar characters are set into the floors and the elevator cabs. Bing Bong is one of them, inlaid in the gray lobby floor. You have to ride each elevator to collect them all.",
+    "whereToLook": {
+      "scene": "The lobby floor and the elevator cab floors",
+      "exactSpot": "Metal medallions set into the floor. Bing Bong is in the gray lobby floor."
+    },
+    "bestTip": "Make it a game: one medallion per elevator ride.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8064,
+      "longitude": -117.9256
+    },
+    "sourceId": "TLC-DR-0040",
+    "sourceUrl": "https://samsdisneydiary.com/2024/02/perfectly-pixar-details-to-find-at-the-pixar-place-hotel/",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "pixar-place-lobby-heimlich-couch",
+    "parkId": "california_resorts_bucket",
+    "landId": "pixar_place_hotel",
+    "attractionId": "pixar_place_lobby",
+    "display": {
+      "entryTitle": "Lobby Heimlich Couch",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Pixar Place Hotel",
+      "attractionName": "Lobby"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "One of the lobby couches is Heimlich from A Bug's Life: green and segmented, with spots and little brown feet.",
+    "whereToLook": {
+      "scene": "The lobby seating",
+      "exactSpot": "The green spotted couch with brown feet."
+    },
+    "bestTip": "It is more comfortable than it looks.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8064,
+      "longitude": -117.9256
+    },
+    "sourceId": "TLC-DR-0041",
+    "sourceUrl": "https://samsdisneydiary.com/2024/02/perfectly-pixar-details-to-find-at-the-pixar-place-hotel/",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
     "id": "pixie-hollow-path-bonsai-mickey",
     "parkId": "california_kingdom_park",
     "landId": "storybook_village_area",
@@ -18900,6 +20427,206 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://bepreparedvacations.com/disneys-art-of-animation-hidden-mickeys/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "registration-desk-ceramic-trees-branch-mickeys",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "registration_desk",
+    "display": {
+      "entryTitle": "Far Left Desk Ceramic Trees Branch Mickeys",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Registration Desk"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "The far left registration desk has a ceramic green tree on each side of its front. Mickeys hide in the branches, and one more sits in a yellow tree near the right-hand green one.",
+    "whereToLook": {
+      "scene": "The far left registration desk, the ceramic trees on the front",
+      "exactSpot": "The branches of both green trees, plus the yellow tree beside the right green one."
+    },
+    "bestTip": "Go to the left end of the counter even if you are not checking in.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8075,
+      "longitude": -117.9233
+    },
+    "sourceId": "TLC-DR-0031",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "registration-desk-conductor-mickey-dancing-bears",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "registration_desk",
+    "display": {
+      "entryTitle": "Front Desk Conductor Mickey by the Dancing Bears",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Registration Desk"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "On the front desk, near a group of dancing bears, a side-view Mickey conducts the band. He stands to the right of the white bear. Immediately to his left, next to a flat dark writing surface, is Tinker Bell.",
+    "whereToLook": {
+      "scene": "The front desk, the carved dancing bears",
+      "exactSpot": "To the right of the white bear. A profile Mickey conducting. Tinker Bell is just left of him by the dark writing surface."
+    },
+    "bestTip": "Find the white bear first. Everything else is within a hand's width.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8075,
+      "longitude": -117.9233
+    },
+    "sourceId": "TLC-DR-0032",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "registration-desk-left-mural-tree-trunk-mickey",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "registration_desk",
+    "display": {
+      "entryTitle": "Behind the Counter Left Mural Tree Mickey",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Registration Desk"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "Behind the registration counter at the far left, a mural of trees covers the wall. In the leftmost tree, a Mickey hides in the branches just above the trunk.",
+    "whereToLook": {
+      "scene": "Behind the registration counter, far left, the tree mural",
+      "exactSpot": "The leftmost tree. In the branches just above the trunk."
+    },
+    "bestTip": "You cannot get close, so pick the leftmost tree and work up from the trunk.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8075,
+      "longitude": -117.9233
+    },
+    "sourceId": "TLC-DR-0034",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "registration-desk-right-fabric-mural-maroon-line-mickeys",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "registration_desk",
+    "display": {
+      "entryTitle": "Behind the Counter Right Fabric Mural Mickeys",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Registration Desk"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Lobby",
+    "description": "Behind the registration counter at the far right hangs a fabric mural with maroon lines running across it. One Mickey sits just below the second maroon line from the top, and another just above the fifth.",
+    "whereToLook": {
+      "scene": "Behind the registration counter, far right, the fabric mural",
+      "exactSpot": "Below the second maroon line from the top, and above the fifth maroon line from the top."
+    },
+    "bestTip": "Count the maroon lines from the top. Two and five.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Far"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8075,
+      "longitude": -117.9233
+    },
+    "sourceId": "TLC-DR-0035",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "registration-desk-tree-raised-brown-green-mickey",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "registration_desk",
+    "display": {
+      "entryTitle": "Front Desk Tree Raised Mickey",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Grand Californian Hotel",
+      "attractionName": "Registration Desk"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Lobby",
+    "description": "To the right of the conductor Mickey on the front desk, a tree is carved into the counter. A raised brown and green Mickey sits on the lower middle of its trunk.",
+    "whereToLook": {
+      "scene": "The front desk, the tree to the right of the dancing bears",
+      "exactSpot": "The lower middle part of the tree. A raised brown and green Mickey."
+    },
+    "bestTip": "Run your eye down the trunk from the branches.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8075,
+      "longitude": -117.9233
+    },
+    "sourceId": "TLC-DR-0033",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
   },
   {
     "id": "restaurant-stairway-waterfall-rockwork-mickey",
@@ -26695,6 +28422,49 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-pinocchio-village-haus",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "villas-lobby-mural-sorcerer-mickey-mountain",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "villas_at_disneyland_hotel",
+    "display": {
+      "entryTitle": "Villas Lobby Mural Sorcerer Mickey",
+      "parkName": "Disneyland Resort Hotels",
+      "landName": "Disneyland Hotel",
+      "attractionName": "The Villas at Disneyland Hotel"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "The Villas tower greets you with a mural by Encanto production designer Lorelay Bové. Sorcerer Mickey stands on a mountain in the Fantasia section high in the frame, with Star from Wish and Anna and Elsa on the hill above him, and several classic Hidden Mickeys are scattered through the painting.",
+    "whereToLook": {
+      "scene": "The entrance lobby of The Villas at Disneyland Hotel, the animation mural",
+      "exactSpot": "The mountain high in the frame. Sorcerer Mickey stands on it. Then hunt the rest of the mural for three-circle Mickeys."
+    },
+    "bestTip": "Find the Fantasia mountain first. It anchors the whole composition.",
+    "funFacts": [
+      "Disney Parks Blog says Bové hid several Hidden Mickeys in the mural but never said where. Tell us what you find."
+    ],
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8108,
+      "longitude": -117.9245
+    },
+    "sourceId": "TLC-DR-0019",
+    "sourceUrl": "https://disneyparksblog.com/dlr/disney-animation-inspired-mural-will-wow-you-in-the-villas-at-disneyland-hotel/",
+    "createdAtISO": "2026-10-08T00:00:00.000Z",
+    "updatedAtISO": "2026-10-08T00:00:00.000Z"
   },
   {
     "id": "villas-resort-studio-air-vent-grille-mickey",

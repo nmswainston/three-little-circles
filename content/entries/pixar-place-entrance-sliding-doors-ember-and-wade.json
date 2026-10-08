@@ -1,0 +1,40 @@
+{
+  "id": "pixar-place-entrance-sliding-doors-ember-and-wade",
+  "parkId": "california_resorts_bucket",
+  "landId": "pixar_place_hotel",
+  "attractionId": "pixar_place_entrance",
+  "display": {
+    "entryTitle": "Entrance Sliding Doors Ember and Wade",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Pixar Place Hotel",
+    "attractionName": "Entrance and Check-in Parking"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Entrance",
+  "description": "Ember and Wade from Elemental are printed on the glass of the entrance sliding doors. When the doors open, the two panels overlap and the colors merge.",
+  "whereToLook": {
+    "scene": "The hotel entrance, the sliding glass doors",
+    "exactSpot": "The two door panels. Watch them as they slide open."
+  },
+  "bestTip": "Stand still and let someone else trigger the doors.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8066,
+    "longitude": -117.926
+  },
+  "sourceId": "TLC-DR-0042",
+  "sourceUrl": "https://samsdisneydiary.com/2024/02/perfectly-pixar-details-to-find-at-the-pixar-place-hotel/",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

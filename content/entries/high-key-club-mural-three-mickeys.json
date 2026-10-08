@@ -1,0 +1,41 @@
+{
+  "id": "high-key-club-mural-three-mickeys",
+  "parkId": "california_resorts_bucket",
+  "landId": "disneyland_hotel",
+  "attractionId": "high_key_club",
+  "display": {
+    "entryTitle": "Lounge Mural Three Mickeys",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Disneyland Hotel",
+    "attractionName": "High Key Club"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The High Key Club's wall-length mural traces Disneyland's musical history, and three Hidden Mickeys are worked into it. Look around the Dapper Dans, the Tiki bird, and the Pearly Band from Mary Poppins.",
+  "whereToLook": {
+    "scene": "The High Key Club lounge in the Adventure Tower, the mural over the seating",
+    "exactSpot": "Near the Dapper Dans, near the Tiki bird, and near the Pearly Band. One Mickey by each."
+  },
+  "bestTip": "Ask the lounge host for the key to the mural's timeline. It helps you find the three groups fast.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "accessNotes": "Concierge-level guests only. The lounge opened in July 2025.",
+  "coordinates": {
+    "latitude": 33.8094,
+    "longitude": -117.9228
+  },
+  "sourceId": "TLC-DR-0018",
+  "sourceUrl": "https://mickeyblog.com/2025/07/15/photos-come-with-us-to-the-high-key-club-at-disneyland-hotel/",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

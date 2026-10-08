@@ -1,0 +1,40 @@
+{
+  "id": "great-hall-pool-map-childrens-pools-mickey",
+  "parkId": "california_resorts_bucket",
+  "landId": "grand_californian_hotel",
+  "attractionId": "great_hall_lobby",
+  "display": {
+    "entryTitle": "Pool Map Children's Pools Mickey",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Grand Californian Hotel",
+    "attractionName": "Great Hall Lobby"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Walkway",
+  "description": "Entering the main lobby, a walkway on the left displays a map of the pool area. On it, the children's pools are drawn in the shape of a Mickey, which is also the shape they are in real life.",
+  "whereToLook": {
+    "scene": "The walkway on the left as you enter the main lobby, the pool area map",
+    "exactSpot": "The children's pools on the map. One big circle, two small ones."
+  },
+  "bestTip": "The map is the easy version. The pool itself proves it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8075,
+    "longitude": -117.9231
+  },
+  "sourceId": "TLC-DR-0027",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

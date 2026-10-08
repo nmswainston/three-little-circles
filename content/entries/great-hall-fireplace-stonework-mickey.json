@@ -1,0 +1,40 @@
+{
+  "id": "great-hall-fireplace-stonework-mickey",
+  "parkId": "california_resorts_bucket",
+  "landId": "grand_californian_hotel",
+  "attractionId": "great_hall_lobby",
+  "display": {
+    "entryTitle": "Fireplace Stonework Mickey",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Grand Californian Hotel",
+    "attractionName": "Great Hall Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The big lobby fireplace is built of stacked stone, and three stones on its lower left side sit together as a Mickey.",
+  "whereToLook": {
+    "scene": "The Great Hall lobby, the fireplace",
+    "exactSpot": "The lower left side of the fireplace stonework."
+  },
+  "bestTip": "Crouch by the left side of the hearth and read the stones like a puzzle.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8075,
+    "longitude": -117.9231
+  },
+  "sourceId": "TLC-DR-0022",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

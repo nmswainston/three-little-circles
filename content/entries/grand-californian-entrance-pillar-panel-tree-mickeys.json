@@ -1,0 +1,40 @@
+{
+  "id": "grand-californian-entrance-pillar-panel-tree-mickeys",
+  "parkId": "california_resorts_bucket",
+  "landId": "grand_californian_hotel",
+  "attractionId": "grand_californian_entrance",
+  "display": {
+    "entryTitle": "Entrance Pillar Panel Tree Mickeys",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Grand Californian Hotel",
+    "attractionName": "Main Entrance and Walkways"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "Outside the main entrance stands a pillar faced with decorative panels. On the rear panel a Mickey peeks out from behind the left side of a tree, with two more in the same panel: one in the upper right tree and one in a tree just above the trunk. Every panel on the pillar has Mickeys of some kind.",
+  "whereToLook": {
+    "scene": "Outside the main entrance, the panelled pillar, the rear panel",
+    "exactSpot": "Left side of a tree (peeking out), the upper right tree, and the tree just above the trunk."
+  },
+  "bestTip": "Walk all the way around the pillar. The rear panel is the one with three.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.808,
+    "longitude": -117.9238
+  },
+  "sourceId": "TLC-DR-0037",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

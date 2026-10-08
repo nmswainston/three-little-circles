@@ -1,0 +1,40 @@
+{
+  "id": "pixar-place-lobby-ceiling-light-mickeys",
+  "parkId": "california_resorts_bucket",
+  "landId": "pixar_place_hotel",
+  "attractionId": "pixar_place_lobby",
+  "display": {
+    "entryTitle": "Lobby Ceiling Light Mickeys",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Pixar Place Hotel",
+    "attractionName": "Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "Look up in the lobby. The ceiling lights are shaped as Hidden Mickeys.",
+  "whereToLook": {
+    "scene": "The lobby, the ceiling lights",
+    "exactSpot": "The light fixtures overhead."
+  },
+  "bestTip": "Stand in the middle of the lobby and tilt your head back.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "Medium",
+    "distance": "Far"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8064,
+    "longitude": -117.9256
+  },
+  "sourceId": "TLC-DR-0039",
+  "sourceUrl": "https://www.undercovertourist.com/blog/pixar-place-hotel/",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "pixar-place-lobby-floor-character-medallions",
+  "parkId": "california_resorts_bucket",
+  "landId": "pixar_place_hotel",
+  "attractionId": "pixar_place_lobby",
+  "display": {
+    "entryTitle": "Lobby Floor Pixar Character Medallions",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Pixar Place Hotel",
+    "attractionName": "Lobby"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "Sixteen metal medallions shaped like Pixar characters are set into the floors and the elevator cabs. Bing Bong is one of them, inlaid in the gray lobby floor. You have to ride each elevator to collect them all.",
+  "whereToLook": {
+    "scene": "The lobby floor and the elevator cab floors",
+    "exactSpot": "Metal medallions set into the floor. Bing Bong is in the gray lobby floor."
+  },
+  "bestTip": "Make it a game: one medallion per elevator ride.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8064,
+    "longitude": -117.9256
+  },
+  "sourceId": "TLC-DR-0040",
+  "sourceUrl": "https://samsdisneydiary.com/2024/02/perfectly-pixar-details-to-find-at-the-pixar-place-hotel/",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

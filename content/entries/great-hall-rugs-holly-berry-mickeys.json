@@ -1,0 +1,40 @@
+{
+  "id": "great-hall-rugs-holly-berry-mickeys",
+  "parkId": "california_resorts_bucket",
+  "landId": "grand_californian_hotel",
+  "attractionId": "great_hall_lobby",
+  "display": {
+    "entryTitle": "Rugs Holly Berry Mickeys",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Grand Californian Hotel",
+    "attractionName": "Great Hall Lobby"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "The rugs in the hotel are patterned with holly, and the berries cluster as Hidden Mickeys.",
+  "whereToLook": {
+    "scene": "The rugs in the lobby and corridors",
+    "exactSpot": "The holly berries in the rug pattern. Groups of three."
+  },
+  "bestTip": "Look down in the Great Hall first; the rugs there are the biggest.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8075,
+    "longitude": -117.9231
+  },
+  "sourceId": "TLC-DR-0028",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "registration-desk-ceramic-trees-branch-mickeys",
+  "parkId": "california_resorts_bucket",
+  "landId": "grand_californian_hotel",
+  "attractionId": "registration_desk",
+  "display": {
+    "entryTitle": "Far Left Desk Ceramic Trees Branch Mickeys",
+    "parkName": "Disneyland Resort Hotels",
+    "landName": "Grand Californian Hotel",
+    "attractionName": "Registration Desk"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "The far left registration desk has a ceramic green tree on each side of its front. Mickeys hide in the branches, and one more sits in a yellow tree near the right-hand green one.",
+  "whereToLook": {
+    "scene": "The far left registration desk, the ceramic trees on the front",
+    "exactSpot": "The branches of both green trees, plus the yellow tree beside the right green one."
+  },
+  "bestTip": "Go to the left end of the counter even if you are not checking in.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8075,
+    "longitude": -117.9233
+  },
+  "sourceId": "TLC-DR-0031",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Grand_Californian_Hotel",
+  "createdAtISO": "2026-10-08T00:00:00.000Z",
+  "updatedAtISO": "2026-10-08T00:00:00.000Z"
+}
