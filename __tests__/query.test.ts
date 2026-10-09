@@ -10,7 +10,9 @@ import {
   getRelatedEntries,
   groupByLand,
   matchesEntryType,
+  walkOrder,
 } from '../src/data/query';
+import type { HiddenMickeyEntry } from '../src/data/types';
 
 describe('bundled content', () => {
   const entries = getAllEntries();
@@ -99,7 +101,7 @@ describe('groupByLand', () => {
     }
   });
 
-  it('keeps every entry once, in content order within each attraction, and returns nothing for an empty list', () => {
+  it('keeps every entry once, in walk order within each attraction, and returns nothing for an empty list', () => {
     const park = entries[0].parkId;
     const list = entries.filter((e) => e.parkId === park);
     const grouped = groupByLand(list);
@@ -111,7 +113,7 @@ describe('groupByLand', () => {
     for (const land of grouped) {
       for (const attraction of land.attractions) {
         expect(attraction.entries).toEqual(
-          list.filter((e) => e.landId === land.landId && e.attractionId === attraction.attractionId)
+          walkOrder(list.filter((e) => e.landId === land.landId && e.attractionId === attraction.attractionId))
         );
       }
     }
@@ -133,6 +135,45 @@ describe('groupByLand', () => {
 
     const landStillHasEntries = remaining.some((e) => e.landId === target.landId);
     expect(grouped.some((l) => l.landId === target.landId)).toBe(landStillHasEntries);
+  });
+});
+
+describe('walkOrder', () => {
+  const base = getAllEntries()[0];
+  const make = (id: string, patch: Partial<HiddenMickeyEntry>): HiddenMickeyEntry => ({ ...base, id, ...patch });
+
+  it('walks entrance, queue, ride, exit, shop, whatever order the content came in', () => {
+    const list = [
+      make('shop', { areaContext: 'Shop', locationType: 'Indoor' }),
+      make('exit', { areaContext: 'Exit', locationType: 'Indoor' }),
+      make('ride', { areaContext: 'Ride', locationType: 'Ride' }),
+      make('queue', { areaContext: 'Queue', locationType: 'Queue' }),
+      make('entrance', { areaContext: 'Entrance', locationType: 'Outdoor' }),
+    ];
+    expect(walkOrder(list).map((e) => e.id)).toEqual(['entrance', 'queue', 'ride', 'exit', 'shop']);
+  });
+
+  it('puts the lobby before the queue, and slots an entry with no area context by its location type', () => {
+    const list = [
+      make('ride', { areaContext: 'Ride', locationType: 'Ride' }),
+      make('boiler', { areaContext: 'Queue', locationType: 'Queue' }),
+      make('library', { areaContext: undefined, locationType: 'Pre-show' }),
+      make('balcony', { areaContext: 'Lobby', locationType: 'Queue' }),
+      make('outside', { areaContext: undefined, locationType: 'Outdoor' }),
+    ];
+    // The lobby is the first room of the wait, and a pre-show with no area
+    // named belongs there too, ahead of the deeper queue rooms.
+    expect(walkOrder(list).map((e) => e.id)).toEqual(['outside', 'balcony', 'library', 'boiler', 'ride']);
+  });
+
+  it('puts confirmed finds first within a spot and keeps content order for the rest', () => {
+    const list = [
+      make('b', { areaContext: 'Ride', locationType: 'Ride', status: 'Unverified' }),
+      make('a', { areaContext: 'Ride', locationType: 'Ride', status: 'Unverified' }),
+      make('c', { areaContext: 'Ride', locationType: 'Ride', status: 'Current' }),
+    ];
+    expect(walkOrder(list).map((e) => e.id)).toEqual(['c', 'b', 'a']);
+    expect(walkOrder([])).toEqual([]);
   });
 });
 

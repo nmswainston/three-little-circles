@@ -35,9 +35,11 @@ const LAND_ORDER = {
   springs_bucket: ["marketplace", "the_landing", "homecomin_restaurant", "west_side"],
 };
 
-/** The order you meet these parts of an attraction. */
-const AREA_ORDER = ["Entrance", "Queue", "Lobby", "Loading", "Ride", "Dock", "Post-show", "Exit", "Walkway", "Outdoor Display", "Shop"];
+/** The order you meet these parts of an attraction. Mirrors walkOrder in src/data/query.ts. */
+const AREA_ORDER = ["Entrance", "Lobby", "Queue", "Loading", "Dock", "Ride", "Post-show", "Exit", "Walkway", "Outdoor Display", "Shop"];
 const LOCATION_ORDER = ["Outdoor", "Queue", "Pre-show", "Ride", "Indoor"];
+/** Where an entry with no area context slots in, by location type. */
+const LOCATION_AREA = { Outdoor: "Entrance", Queue: "Queue", "Pre-show": "Lobby", Ride: "Ride", Indoor: "Lobby" };
 
 const entries = readdirSync(entriesDir)
   .filter((f) => f.endsWith(".json"))
@@ -82,9 +84,10 @@ function walk(items, start) {
   return out;
 }
 function orderEntries(list) {
+  const area = (e) => AREA_ORDER.indexOf(e.areaContext ?? LOCATION_AREA[e.locationType]);
   return list.slice().sort((a, b) => {
-    const ia = AREA_ORDER.indexOf(a.areaContext ?? ""), ib = AREA_ORDER.indexOf(b.areaContext ?? "");
-    if (ia !== ib) return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+    const ia = area(a), ib = area(b);
+    if (ia !== ib) return ia - ib;
     const la = LOCATION_ORDER.indexOf(a.locationType), lb = LOCATION_ORDER.indexOf(b.locationType);
     if (la !== lb) return la - lb;
     return a.display.entryTitle.localeCompare(b.display.entryTitle);
