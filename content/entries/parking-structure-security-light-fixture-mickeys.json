@@ -1,0 +1,40 @@
+{
+  "id": "parking-structure-security-light-fixture-mickeys",
+  "parkId": "california_downtown_bucket",
+  "landId": "mickey_and_friends_parking",
+  "attractionId": "parking_structure",
+  "display": {
+    "entryTitle": "Security Light Fixture Mickeys",
+    "parkName": "Downtown Disney District",
+    "landName": "Mickey & Friends Parking Structure",
+    "attractionName": "Parking Structure"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "Inside the structure next to Security, the light fixtures hanging from the ceiling carry Mickeys.",
+  "whereToLook": {
+    "scene": "Inside the parking structure beside the Security office, the hanging light fixtures",
+    "exactSpot": "The fixtures overhead."
+  },
+  "bestTip": "Look up while you wait for your bag check.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8135,
+    "longitude": -117.925
+  },
+  "sourceId": "TLC-DR-0061",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Mickey_and_Friends_Parking_Structure",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

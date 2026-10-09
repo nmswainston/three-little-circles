@@ -1,0 +1,40 @@
+{
+  "id": "parking-structure-level-6-u-turn-sign-mickey",
+  "parkId": "california_downtown_bucket",
+  "landId": "mickey_and_friends_parking",
+  "attractionId": "parking_structure",
+  "display": {
+    "entryTitle": "Level 6 Ramp U-Turn Sign Mickey",
+    "parkName": "Downtown Disney District",
+    "landName": "Mickey & Friends Parking Structure",
+    "attractionName": "Parking Structure"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Walkway",
+  "description": "At the top of the entrance ramp that leads to level 6, the U-turn signs carry a Hidden Mickey at the top of the sign.",
+  "whereToLook": {
+    "scene": "The top of the entrance ramp to level 6, the U-turn signs",
+    "exactSpot": "The top of the sign."
+  },
+  "bestTip": "Catch it from the passenger seat as you climb the ramp.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Mixed",
+    "angle": "Above",
+    "crowding": "Low",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8135,
+    "longitude": -117.925
+  },
+  "sourceId": "TLC-DR-0058",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Parking-3",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

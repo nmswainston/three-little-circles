@@ -1,0 +1,40 @@
+{
+  "id": "esplanade-address-1313",
+  "parkId": "california_downtown_bucket",
+  "landId": "esplanade",
+  "attractionId": "esplanade_plaza",
+  "display": {
+    "entryTitle": "The Address Is 1313",
+    "parkName": "Downtown Disney District",
+    "landName": "Esplanade",
+    "attractionName": "Esplanade"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Walkway",
+  "description": "The resort's address is 1313 Disneyland Drive, and before the road was renamed it was 1313 South Harbor Boulevard. M is the thirteenth letter of the alphabet, so 1313 reads as M M. The City of Anaheim says it is a coincidence. Nobody at the parks believes them.",
+  "whereToLook": {
+    "scene": "Any address sign for the resort",
+    "exactSpot": "The number 1313. Thirteen is M, so it spells Mickey Mouse."
+  },
+  "bestTip": "Check the number on the parking structure signs or the resort's mail.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Low",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8096,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-DR-0055",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Resort-General1",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

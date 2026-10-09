@@ -5979,6 +5979,87 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "district-fountain-lip-round-tiles-mickey",
+    "parkId": "california_downtown_bucket",
+    "landId": "downtown_disney_district",
+    "attractionId": "district_fountain",
+    "display": {
+      "entryTitle": "Fountain Lip Round Tiles Mickey",
+      "parkName": "Downtown Disney District",
+      "landName": "Downtown Disney District",
+      "attractionName": "Fountain Nearest the Parks"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "On the fountain closest to the parks, a small Mickey hides just below the lip where the water spills over. Every tile is square except a few round ones, and those are it. A stone planter now sits where the bench meets the fence, so you have to stand all the way to the right to see it.",
+    "whereToLook": {
+      "scene": "The fountain nearest the park entrances, just below the lip the water flows over",
+      "exactSpot": "A few round tiles among the square ones, under the lip. Stand at the far right to see them."
+    },
+    "bestTip": "Go to the far right end of the fountain and look under the edge where the water pours.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close",
+      "notes": "A planter blocks the easy view."
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8097,
+      "longitude": -117.9198
+    },
+    "sourceId": "TLC-DR-0050",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Downtown-Disney2",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "district-kiosk-eave-braces-mickey",
+    "parkId": "california_downtown_bucket",
+    "landId": "downtown_disney_district",
+    "attractionId": "district_kiosks",
+    "display": {
+      "entryTitle": "Kiosk Eave Braces Mickey",
+      "parkName": "Downtown Disney District",
+      "landName": "Downtown Disney District",
+      "attractionName": "Food Kiosks"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Walkway",
+    "description": "Several of the food kiosks along the district have Mickey-shaped braces under their eaves. The churro kiosk and the Kayla's Cakes kiosk both have them.",
+    "whereToLook": {
+      "scene": "The food kiosks along the walkway, the braces under the roof eaves",
+      "exactSpot": "The supports between the roof and the posts. Each brace is a Mickey."
+    },
+    "bestTip": "Stand in line for a churro and look up at the roof.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8093,
+      "longitude": -117.9222
+    },
+    "sourceId": "TLC-DR-0049",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Downtown-Disney3",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
     "id": "docking-bay-7-droid-ramp-blaster-shots-mickey",
     "parkId": "california_kingdom_park",
     "landId": "batuu_area",
@@ -6659,6 +6740,166 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://disneytips.com/can-you-find-these-hidden-mickeys-in-disney-springs-sm1/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "esplanade-address-1313",
+    "parkId": "california_downtown_bucket",
+    "landId": "esplanade",
+    "attractionId": "esplanade_plaza",
+    "display": {
+      "entryTitle": "The Address Is 1313",
+      "parkName": "Downtown Disney District",
+      "landName": "Esplanade",
+      "attractionName": "Esplanade"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Walkway",
+    "description": "The resort's address is 1313 Disneyland Drive, and before the road was renamed it was 1313 South Harbor Boulevard. M is the thirteenth letter of the alphabet, so 1313 reads as M M. The City of Anaheim says it is a coincidence. Nobody at the parks believes them.",
+    "whereToLook": {
+      "scene": "Any address sign for the resort",
+      "exactSpot": "The number 1313. Thirteen is M, so it spells Mickey Mouse."
+    },
+    "bestTip": "Check the number on the parking structure signs or the resort's mail.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Low",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8096,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-DR-0055",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Resort-General1",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "esplanade-signpole-base-indentations-mickey",
+    "parkId": "california_downtown_bucket",
+    "landId": "esplanade",
+    "attractionId": "esplanade_plaza",
+    "display": {
+      "entryTitle": "Signpole Base Indentations Mickey",
+      "parkName": "Downtown Disney District",
+      "landName": "Esplanade",
+      "attractionName": "Esplanade"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "The direction signposts in the Esplanade have Mickey ears on top, which is plain decor. The find is lower down: the wrapping around the base of each pole is indented with Mickey shapes.",
+    "whereToLook": {
+      "scene": "The direction signposts in the Esplanade, the base of the pole",
+      "exactSpot": "The indentations in the wrap at the bottom of the pole."
+    },
+    "bestTip": "Everyone looks at the ears on top. Look at the bottom.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8096,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-DR-0054",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Esplanade-3",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "esplanade-tree-cage-rivet-mickeys",
+    "parkId": "california_downtown_bucket",
+    "landId": "esplanade",
+    "attractionId": "esplanade_plaza",
+    "display": {
+      "entryTitle": "Tree Cage Rivet Mickeys",
+      "parkName": "Downtown Disney District",
+      "landName": "Esplanade",
+      "attractionName": "Esplanade"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "Between the two park entrances, near the ticket booths, the trees are wrapped in iron cages. The round pieces bolt to vertical strips, and every other bolt head is a Mickey.",
+    "whereToLook": {
+      "scene": "The Esplanade between the park gates, the iron cages around the tree trunks",
+      "exactSpot": "The bolt heads on the vertical strips. Every other one is a Mickey."
+    },
+    "bestTip": "Pick one tree and run a finger down the strip. The Mickeys alternate with plain bolts.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8096,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-DR-0052",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Esplanade-1",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "esplanade-wedding-brick-bell-clapper-mickey",
+    "parkId": "california_downtown_bucket",
+    "landId": "esplanade",
+    "attractionId": "esplanade_plaza",
+    "display": {
+      "entryTitle": "Wedding Brick Bell Clapper Mickey",
+      "parkName": "Downtown Disney District",
+      "landName": "Esplanade",
+      "attractionName": "Esplanade"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "Among the personalized bricks set into the Esplanade, the wedding bricks carry a pair of bells. The clapper inside the bell is a tiny Mickey.",
+    "whereToLook": {
+      "scene": "The personalized bricks underfoot in the Esplanade, the ones with wedding bells",
+      "exactSpot": "Inside the bell. The clapper is a Mickey."
+    },
+    "bestTip": "Find any brick with bells on it and get your eyes a foot off the ground.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Below",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8096,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-DR-0053",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Esplanade-2",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "espn-track-and-field-discus-platform-mickey",
@@ -14522,6 +14763,86 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "lego-store-castle-mural-mickeys",
+    "parkId": "california_downtown_bucket",
+    "landId": "downtown_disney_district",
+    "attractionId": "lego_store",
+    "display": {
+      "entryTitle": "Castle Mural Mickeys",
+      "parkName": "Downtown Disney District",
+      "landName": "Downtown Disney District",
+      "attractionName": "The LEGO Store"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "Off to the left, the castle mural with Mickey and the whole gang above the displays hides two more Hidden Mickeys in its brickwork.",
+    "whereToLook": {
+      "scene": "Inside the LEGO Store, the castle mural to the left, above the displays",
+      "exactSpot": "Two three-circle Mickeys in the mural, apart from the Mickey character himself."
+    },
+    "bestTip": "Ignore the Mickey you can see. Hunt the ones built out of bricks.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.809,
+      "longitude": -117.9215
+    },
+    "sourceId": "TLC-DR-0048",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Downtown-Disney5",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "lego-store-sorcerers-apprentice-mural-mickeys",
+    "parkId": "california_downtown_bucket",
+    "landId": "downtown_disney_district",
+    "attractionId": "lego_store",
+    "display": {
+      "entryTitle": "Sorcerer's Apprentice Mural Mickeys",
+      "parkName": "Downtown Disney District",
+      "landName": "Downtown Disney District",
+      "attractionName": "The LEGO Store"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Shop",
+    "description": "The murals above the sales displays each carry two Hidden Mickeys. This is the Sorcerer's Apprentice mural, and its two are about as easy as Hidden Mickeys get, which makes it a good first hunt for a kid.",
+    "whereToLook": {
+      "scene": "Inside the LEGO Store, the Sorcerer's Apprentice mural above the displays",
+      "exactSpot": "Two three-circle Mickeys worked into the brickwork of the mural."
+    },
+    "bestTip": "Start a first-timer here. Both are big enough to spot from the aisle.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Obvious",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.809,
+      "longitude": -117.9215
+    },
+    "sourceId": "TLC-DR-0047",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Downtown-Disney4",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
     "id": "liberty-tree-tavern-farmhouse-painting-clouds-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "colonial_square_area",
@@ -15374,6 +15695,46 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
+    "id": "main-entrance-turnstile-wood-oval-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "park_entrance_area",
+    "attractionId": "main_entrance_turnstiles",
+    "display": {
+      "entryTitle": "Turnstile Wood Oval Mickey",
+      "parkName": "Disneyland Park",
+      "landName": "Park Entrance",
+      "attractionName": "Main Entrance"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "Above the entry and exit turnstiles, the decorative woodwork forms a Mickey. The head is more oval than round, but the shape is there, and you can see it both coming in and going out.",
+    "whereToLook": {
+      "scene": "The woodwork above the entry and exit turnstiles",
+      "exactSpot": "The wood formations over the gates. An oval head with two round ears."
+    },
+    "bestTip": "Look up as you scan your ticket, or on the way out when nobody is pushing.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8104,
+      "longitude": -117.919
+    },
+    "sourceId": "TLC-DR-0062",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Entry-Exit1",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
     "id": "main-street-candy-shop-chocolate-wall-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "main_street_area",
@@ -15773,6 +16134,46 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://bepreparedvacations.com/hidden-mickeys-at-disneys-animal-kingdom-lodge/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "marcelines-sign-m-and-c-mickey",
+    "parkId": "california_downtown_bucket",
+    "landId": "downtown_disney_district",
+    "attractionId": "marcelines_confectionery",
+    "display": {
+      "entryTitle": "Sign Letters Mickey",
+      "parkName": "Downtown Disney District",
+      "landName": "Downtown Disney District",
+      "attractionName": "Marceline's Confectionery"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "The shop's sign is set in a curly script, and the capital M and C of Marceline's Confectionery are drawn so they form Mickey's head. It has been that way since the shop opened in 2001.",
+    "whereToLook": {
+      "scene": "The Marceline's Confectionery sign over the entrance",
+      "exactSpot": "The capital M and the capital C. Together they make the head and ears."
+    },
+    "bestTip": "Read the sign as a shape, not as words.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8094,
+      "longitude": -117.9212
+    },
+    "sourceId": "TLC-DR-0051",
+    "sourceUrl": "https://mickeyvisit.com/hidden-mickeys-disneyland/",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "maria-enzos-propeller-display-mickey",
@@ -17864,6 +18265,246 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Oswalds-1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "parking-structure-level-2-pole-ground-mickey",
+    "parkId": "california_downtown_bucket",
+    "landId": "mickey_and_friends_parking",
+    "attractionId": "parking_structure",
+    "display": {
+      "entryTitle": "Level 2 Pole Ground Mickey",
+      "parkName": "Downtown Disney District",
+      "landName": "Mickey & Friends Parking Structure",
+      "attractionName": "Parking Structure"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "On level 2, the Daisy level, a Hidden Mickey sits in the ground next to a pole between stalls 3A and 3B. It has been reported since 2000, which makes it one of the oldest finds at the resort.",
+    "whereToLook": {
+      "scene": "Level 2 of the parking structure, between stalls 3A and 3B",
+      "exactSpot": "The ground beside the pole."
+    },
+    "bestTip": "Find the pole first. The Mickey is at its foot.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8135,
+      "longitude": -117.925
+    },
+    "sourceId": "TLC-DR-0057",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Parking-2",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "parking-structure-level-2a-concrete-swirl-mickey",
+    "parkId": "california_downtown_bucket",
+    "landId": "mickey_and_friends_parking",
+    "attractionId": "parking_structure",
+    "display": {
+      "entryTitle": "Level 2 Stall 2A Concrete Swirl Mickey",
+      "parkName": "Downtown Disney District",
+      "landName": "Mickey & Friends Parking Structure",
+      "attractionName": "Parking Structure"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "On the second level, between stall 2A and the walkway, the swirls in the concrete floor form a big Mickey with a head almost two feet across. It sits just outside the stall, so a parked car does not cover it, and thousands of people walk over it without looking down.",
+    "whereToLook": {
+      "scene": "Level 2 of the parking structure, between stall 2A and the walkway",
+      "exactSpot": "The concrete floor. A Mickey of swirls with a head nearly two feet wide."
+    },
+    "bestTip": "Look down on your way to the escalators, not at the cars.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Below",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8135,
+      "longitude": -117.925
+    },
+    "sourceId": "TLC-DR-0056",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Parking-1",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "parking-structure-level-6-u-turn-sign-mickey",
+    "parkId": "california_downtown_bucket",
+    "landId": "mickey_and_friends_parking",
+    "attractionId": "parking_structure",
+    "display": {
+      "entryTitle": "Level 6 Ramp U-Turn Sign Mickey",
+      "parkName": "Downtown Disney District",
+      "landName": "Mickey & Friends Parking Structure",
+      "attractionName": "Parking Structure"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Easy",
+    "areaContext": "Walkway",
+    "description": "At the top of the entrance ramp that leads to level 6, the U-turn signs carry a Hidden Mickey at the top of the sign.",
+    "whereToLook": {
+      "scene": "The top of the entrance ramp to level 6, the U-turn signs",
+      "exactSpot": "The top of the sign."
+    },
+    "bestTip": "Catch it from the passenger seat as you climb the ramp.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "Low",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8135,
+      "longitude": -117.925
+    },
+    "sourceId": "TLC-DR-0058",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Parking-3",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "parking-structure-recycle-can-logo-mickey",
+    "parkId": "california_downtown_bucket",
+    "landId": "mickey_and_friends_parking",
+    "attractionId": "parking_structure",
+    "display": {
+      "entryTitle": "Recycle Can Logo Mickey",
+      "parkName": "Downtown Disney District",
+      "landName": "Mickey & Friends Parking Structure",
+      "attractionName": "Parking Structure"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Walkway",
+    "description": "The trash cans in the structure carry recycle logos like the ones on Main Street, and a small Mickey hides in the logo. It is hard to see, and the wiki debated whether it counts before ruling that it does.",
+    "whereToLook": {
+      "scene": "The trash cans in the parking structure, the recycle logo",
+      "exactSpot": "A small Mickey inside the recycle logo."
+    },
+    "bestTip": "Get close to one can. The Mickey is small enough to miss from standing height.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8135,
+      "longitude": -117.925
+    },
+    "sourceId": "TLC-DR-0059",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Parking-4",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "parking-structure-security-light-fixture-mickeys",
+    "parkId": "california_downtown_bucket",
+    "landId": "mickey_and_friends_parking",
+    "attractionId": "parking_structure",
+    "display": {
+      "entryTitle": "Security Light Fixture Mickeys",
+      "parkName": "Downtown Disney District",
+      "landName": "Mickey & Friends Parking Structure",
+      "attractionName": "Parking Structure"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "Inside the structure next to Security, the light fixtures hanging from the ceiling carry Mickeys.",
+    "whereToLook": {
+      "scene": "Inside the parking structure beside the Security office, the hanging light fixtures",
+      "exactSpot": "The fixtures overhead."
+    },
+    "bestTip": "Look up while you wait for your bag check.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Above",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8135,
+      "longitude": -117.925
+    },
+    "sourceId": "TLC-DR-0061",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Mickey_and_Friends_Parking_Structure",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "parking-structure-tram-walkway-sign-mickey",
+    "parkId": "california_downtown_bucket",
+    "landId": "mickey_and_friends_parking",
+    "attractionId": "parking_structure",
+    "display": {
+      "entryTitle": "Tram Stop Walkway Sign Mickey",
+      "parkName": "Downtown Disney District",
+      "landName": "Mickey & Friends Parking Structure",
+      "attractionName": "Parking Structure"
+    },
+    "entryType": "FIND",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Walkway",
+    "description": "On the walkway near the tram stop, the sign that points the way to the parking structure carries a Mickey.",
+    "whereToLook": {
+      "scene": "The walkway near the tram stop, the sign pointing to the parking structure",
+      "exactSpot": "On the sign itself."
+    },
+    "bestTip": "Read the sign on your way back to the car, when you are not in a hurry.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8135,
+      "longitude": -117.925
+    },
+    "sourceId": "TLC-DR-0060",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Mickey_and_Friends_Parking_Structure",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "partners-statue-dumbo-on-ball-mickey",
@@ -24271,6 +24912,86 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0095",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
     "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  },
+  {
+    "id": "splitsville-golden-lanes-mural-orange-mickey",
+    "parkId": "california_downtown_bucket",
+    "landId": "downtown_disney_district",
+    "attractionId": "splitsville",
+    "display": {
+      "entryTitle": "Golden Lanes Mural Orange Mickey",
+      "parkName": "Downtown Disney District",
+      "landName": "Downtown Disney District",
+      "attractionName": "Splitsville Luxury Lanes"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "To the right of the lanes hangs a mural titled Welcome To Golden Lanes. One of the oranges painted in it has three finger holes, like a bowling ball, and the holes make a Mickey.",
+    "whereToLook": {
+      "scene": "Inside Splitsville, the Welcome To Golden Lanes mural to the right of the lanes",
+      "exactSpot": "The orange with three holes in it. The holes are the Mickey."
+    },
+    "bestTip": "Look for the one orange that thinks it is a bowling ball.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8097,
+      "longitude": -117.9237
+    },
+    "sourceId": "TLC-DR-0045",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Downtown-Disney6",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "splitsville-greetings-mural-bowling-ball-mickey",
+    "parkId": "california_downtown_bucket",
+    "landId": "downtown_disney_district",
+    "attractionId": "splitsville",
+    "display": {
+      "entryTitle": "Greetings Mural Bowling Ball Mickey",
+      "parkName": "Downtown Disney District",
+      "landName": "Downtown Disney District",
+      "attractionName": "Splitsville Luxury Lanes"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Lobby",
+    "description": "On the upper level, a mural reads Greetings From Splitsville. The finger holes in the bowling ball on it are arranged as a Mickey.",
+    "whereToLook": {
+      "scene": "The upper level of Splitsville, the Greetings From Splitsville mural",
+      "exactSpot": "The bowling ball in the mural. Its finger holes."
+    },
+    "bestTip": "Head upstairs even if you are not bowling.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "coordinates": {
+      "latitude": 33.8097,
+      "longitude": -117.9237
+    },
+    "sourceId": "TLC-DR-0046",
+    "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Downtown-Disney7",
+    "createdAtISO": "2026-10-10T00:00:00.000Z",
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "splitsville-upstairs-mural-bowling-shapes-mickey",

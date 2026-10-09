@@ -54,6 +54,12 @@
     "parkKey": "resorts"
   },
   {
+    "parkId": "california_downtown_bucket",
+    "name": "Downtown Disney District",
+    "region": "California",
+    "parkKey": "springs"
+  },
+  {
     "parkId": "paris_kingdom_park",
     "name": "Disneyland Park",
     "region": "Paris",

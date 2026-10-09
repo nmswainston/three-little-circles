@@ -1,0 +1,40 @@
+{
+  "id": "esplanade-tree-cage-rivet-mickeys",
+  "parkId": "california_downtown_bucket",
+  "landId": "esplanade",
+  "attractionId": "esplanade_plaza",
+  "display": {
+    "entryTitle": "Tree Cage Rivet Mickeys",
+    "parkName": "Downtown Disney District",
+    "landName": "Esplanade",
+    "attractionName": "Esplanade"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "Between the two park entrances, near the ticket booths, the trees are wrapped in iron cages. The round pieces bolt to vertical strips, and every other bolt head is a Mickey.",
+  "whereToLook": {
+    "scene": "The Esplanade between the park gates, the iron cages around the tree trunks",
+    "exactSpot": "The bolt heads on the vertical strips. Every other one is a Mickey."
+  },
+  "bestTip": "Pick one tree and run a finger down the strip. The Mickeys alternate with plain bolts.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8096,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-DR-0052",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Esplanade-1",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

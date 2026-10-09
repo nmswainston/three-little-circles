@@ -1,0 +1,40 @@
+{
+  "id": "marcelines-sign-m-and-c-mickey",
+  "parkId": "california_downtown_bucket",
+  "landId": "downtown_disney_district",
+  "attractionId": "marcelines_confectionery",
+  "display": {
+    "entryTitle": "Sign Letters Mickey",
+    "parkName": "Downtown Disney District",
+    "landName": "Downtown Disney District",
+    "attractionName": "Marceline's Confectionery"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "The shop's sign is set in a curly script, and the capital M and C of Marceline's Confectionery are drawn so they form Mickey's head. It has been that way since the shop opened in 2001.",
+  "whereToLook": {
+    "scene": "The Marceline's Confectionery sign over the entrance",
+    "exactSpot": "The capital M and the capital C. Together they make the head and ears."
+  },
+  "bestTip": "Read the sign as a shape, not as words.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8094,
+    "longitude": -117.9212
+  },
+  "sourceId": "TLC-DR-0051",
+  "sourceUrl": "https://mickeyvisit.com/hidden-mickeys-disneyland/",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

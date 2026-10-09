@@ -1,0 +1,40 @@
+{
+  "id": "esplanade-wedding-brick-bell-clapper-mickey",
+  "parkId": "california_downtown_bucket",
+  "landId": "esplanade",
+  "attractionId": "esplanade_plaza",
+  "display": {
+    "entryTitle": "Wedding Brick Bell Clapper Mickey",
+    "parkName": "Downtown Disney District",
+    "landName": "Esplanade",
+    "attractionName": "Esplanade"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "Among the personalized bricks set into the Esplanade, the wedding bricks carry a pair of bells. The clapper inside the bell is a tiny Mickey.",
+  "whereToLook": {
+    "scene": "The personalized bricks underfoot in the Esplanade, the ones with wedding bells",
+    "exactSpot": "Inside the bell. The clapper is a Mickey."
+  },
+  "bestTip": "Find any brick with bells on it and get your eyes a foot off the ground.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8096,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-DR-0053",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Esplanade-2",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

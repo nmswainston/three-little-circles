@@ -1,0 +1,40 @@
+{
+  "id": "parking-structure-level-2a-concrete-swirl-mickey",
+  "parkId": "california_downtown_bucket",
+  "landId": "mickey_and_friends_parking",
+  "attractionId": "parking_structure",
+  "display": {
+    "entryTitle": "Level 2 Stall 2A Concrete Swirl Mickey",
+    "parkName": "Downtown Disney District",
+    "landName": "Mickey & Friends Parking Structure",
+    "attractionName": "Parking Structure"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "On the second level, between stall 2A and the walkway, the swirls in the concrete floor form a big Mickey with a head almost two feet across. It sits just outside the stall, so a parked car does not cover it, and thousands of people walk over it without looking down.",
+  "whereToLook": {
+    "scene": "Level 2 of the parking structure, between stall 2A and the walkway",
+    "exactSpot": "The concrete floor. A Mickey of swirls with a head nearly two feet wide."
+  },
+  "bestTip": "Look down on your way to the escalators, not at the cars.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8135,
+    "longitude": -117.925
+  },
+  "sourceId": "TLC-DR-0056",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Parking-1",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}
