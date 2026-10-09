@@ -27,8 +27,9 @@
     "distance": "Medium"
   },
   "confidence": "Strong",
-  "verification": "Community",
-  "status": "Unverified",
+  "verification": "In-person",
+  "verifiedAtISO": "2026-10-08T00:00:00.000Z",
+  "status": "Current",
   "coordinates": {
     "latitude": 33.8082,
     "longitude": -117.921

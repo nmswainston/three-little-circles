@@ -17566,8 +17566,9 @@ export const entries: HiddenMickeyEntry[] = [
       "distance": "Close"
     },
     "confidence": "Strong",
-    "verification": "Community",
-    "status": "Unverified",
+    "verification": "In-person",
+    "verifiedAtISO": "2026-10-08T00:00:00.000Z",
+    "status": "Current",
     "coordinates": {
       "latitude": 33.8085,
       "longitude": -117.9165
@@ -17575,7 +17576,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0047",
     "sourceUrl": "https://hiddenmickeywiki.com/Hollywood_Land#Monsters-Inc1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
     "id": "morocco-bazaar-door-plates-mickey",
@@ -23887,8 +23888,9 @@ export const entries: HiddenMickeyEntry[] = [
       "distance": "Medium"
     },
     "confidence": "Strong",
-    "verification": "Community",
-    "status": "Unverified",
+    "verification": "In-person",
+    "verifiedAtISO": "2026-10-08T00:00:00.000Z",
+    "status": "Current",
     "coordinates": {
       "latitude": 33.8082,
       "longitude": -117.921
@@ -23927,8 +23929,9 @@ export const entries: HiddenMickeyEntry[] = [
       "distance": "Medium"
     },
     "confidence": "Strong",
-    "verification": "Community",
-    "status": "Unverified",
+    "verification": "In-person",
+    "verifiedAtISO": "2026-10-08T00:00:00.000Z",
+    "status": "Current",
     "coordinates": {
       "latitude": 33.8082,
       "longitude": -117.921
