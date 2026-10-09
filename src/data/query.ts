@@ -126,13 +126,76 @@ export function getEntriesByAttraction(
   attractionId: AttractionId,
   entryTypeFilter?: SegmentedControlOption
 ): HiddenMickeyEntry[] {
-  return entries.filter(
-    (entry) =>
-      entry.parkId === parkId &&
-      entry.landId === landId &&
-      entry.attractionId === attractionId &&
-      matchesEntryType(entry, entryTypeFilter)
+  return walkOrder(
+    entries.filter(
+      (entry) =>
+        entry.parkId === parkId &&
+        entry.landId === landId &&
+        entry.attractionId === attractionId &&
+        matchesEntryType(entry, entryTypeFilter)
+    )
   );
+}
+
+/**
+ * The parts of an attraction in the order a guest meets them: the way in,
+ * the lobby (on a ride, the first room of the wait), the queue, boarding,
+ * the ride, and the way out. Shops and displays come last because they are
+ * usually what you pass on the way to the next thing.
+ */
+const WALK_AREA_ORDER: Record<NonNullable<HiddenMickeyEntry["areaContext"]>, number> = {
+  Entrance: 0,
+  Lobby: 1,
+  Queue: 2,
+  Loading: 3,
+  Dock: 4,
+  Ride: 5,
+  "Post-show": 6,
+  Exit: 7,
+  Walkway: 8,
+  "Outdoor Display": 9,
+  Shop: 10,
+};
+
+/**
+ * Where an entry without an area context slots into that walk. A pre-show
+ * with no area named sits with the lobby, since the rides that leave it
+ * unset hold their pre-show in the first room.
+ */
+const WALK_LOCATION_AREA: Record<HiddenMickeyEntry["locationType"], number> = {
+  Outdoor: WALK_AREA_ORDER.Entrance,
+  Queue: WALK_AREA_ORDER.Queue,
+  "Pre-show": WALK_AREA_ORDER.Lobby,
+  Ride: WALK_AREA_ORDER.Ride,
+  Indoor: WALK_AREA_ORDER.Lobby,
+};
+
+/** Within one area, the pre-show comes before the ride and outdoor finds before indoor ones. */
+const WALK_LOCATION_ORDER: Record<HiddenMickeyEntry["locationType"], number> = {
+  Outdoor: 0,
+  Queue: 1,
+  "Pre-show": 2,
+  Ride: 3,
+  Indoor: 4,
+};
+
+function walkRank(entry: HiddenMickeyEntry): number {
+  const area = entry.areaContext ? WALK_AREA_ORDER[entry.areaContext] : WALK_LOCATION_AREA[entry.locationType];
+  // Three digits: area, then location type, then confirmed finds ahead of
+  // unconfirmed ones in the same spot. Content order breaks the last tie.
+  return area * 100 + WALK_LOCATION_ORDER[entry.locationType] * 10 + (isConfirmed(entry) ? 0 : 1);
+}
+
+/**
+ * The same list in the order you would meet the finds on a visit: entrance,
+ * queue, boarding, ride, exit, then the shop. Confirmed finds lead within a
+ * spot. The sort is stable, so ties keep their content order.
+ */
+export function walkOrder<T extends HiddenMickeyEntry>(list: T[]): T[] {
+  return list
+    .map((entry, index) => ({ entry, index, rank: walkRank(entry) }))
+    .sort((a, b) => a.rank - b.rank || a.index - b.index)
+    .map((item) => item.entry);
 }
 
 export type AttractionGroup = AttractionSummary & { entries: HiddenMickeyEntry[] };
@@ -140,9 +203,10 @@ export type LandGroup = LandSummary & { attractions: AttractionGroup[] };
 
 /**
  * Groups a flat list of entries into lands, then attractions, in the order
- * they first appear. Counts describe the list given, so a filtered list
- * yields filtered counts and any land or attraction with nothing left simply
- * isn't returned. Pass one park's entries; lands are keyed within a park.
+ * they first appear, with each attraction's finds in walk order. Counts
+ * describe the list given, so a filtered list yields filtered counts and any
+ * land or attraction with nothing left simply isn't returned. Pass one
+ * park's entries; lands are keyed within a park.
  */
 export function groupByLand(list: HiddenMickeyEntry[]): LandGroup[] {
   const lands = new Map<string, LandGroup>();
@@ -175,6 +239,9 @@ export function groupByLand(list: HiddenMickeyEntry[]): LandGroup[] {
     attraction.entries.push(entry);
   }
 
+  for (const land of lands.values()) {
+    for (const attraction of land.attractions) attraction.entries = walkOrder(attraction.entries);
+  }
   return Array.from(lands.values());
 }
 
@@ -189,14 +256,16 @@ export function confirmedFirst<T extends HiddenMickeyEntry>(list: T[]): T[] {
   return confirmed.concat(rest);
 }
 
-/** The other entries at the same attraction as this one, in content order. */
+/** The other entries at the same attraction as this one, in walk order. */
 export function getRelatedEntries(entry: HiddenMickeyEntry): HiddenMickeyEntry[] {
-  return entries.filter(
-    (other) =>
-      other.id !== entry.id &&
-      other.parkId === entry.parkId &&
-      other.landId === entry.landId &&
-      other.attractionId === entry.attractionId
+  return walkOrder(
+    entries.filter(
+      (other) =>
+        other.id !== entry.id &&
+        other.parkId === entry.parkId &&
+        other.landId === entry.landId &&
+        other.attractionId === entry.attractionId
+    )
   );
 }
 

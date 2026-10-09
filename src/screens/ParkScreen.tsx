@@ -20,7 +20,6 @@ import { RootStackParamList } from "../navigation/types";
 import {
   AttractionGroup,
   LandGroup,
-  confirmedFirst,
   getAllEntries,
   getParksSummary,
   groupByLand,
@@ -150,12 +149,13 @@ export default function ParkScreen() {
     setConfirmedOnly(false);
   };
   const allFoundHere = hideFound && typed.length > 0 && typed.every((e) => e.id in found);
-  // Within each attraction, the finds most likely to be there come first.
+  // Within each attraction, the finds come in walk order: entrance, queue,
+  // ride, exit, shop. Grouping already sorts them, so the rows are used as is.
   const sections = useMemo<LandSection[]>(
     () =>
       groups.map((land) => ({
         ...land,
-        data: land.attractions.map((a) => ({ ...a, entries: confirmedFirst(a.entries), landId: land.landId })),
+        data: land.attractions.map((a) => ({ ...a, landId: land.landId })),
       })),
     [groups]
   );
