@@ -1,0 +1,10 @@
+{
+  "id": "hs-tower-random-drops",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "hotel_drop_tower",
+  "title": "The drops are shuffled",
+  "body": "Since 2002 the ride has picked its sequence of rises and falls at random, so two trips are rarely the same. The story stays fixed: five guests stepped into the elevator on Halloween night in 1939, and the hotel has been waiting ever since.",
+  "createdAtISO": "2026-10-09T00:00:00.000Z",
+  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+}

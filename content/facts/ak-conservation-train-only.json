@@ -1,0 +1,10 @@
+{
+  "id": "ak-conservation-train-only",
+  "parkId": "adventure_park",
+  "landId": "conservation_outpost_area",
+  "attractionId": "conservation_exhibit_hall",
+  "title": "You can only get here by train",
+  "body": "Rafiki's Planet Watch sits outside the main park loop, and the only way in is the Wildlife Express train from Africa. The ride passes the backstage barns where the savanna animals spend the night.",
+  "createdAtISO": "2026-10-09T00:00:00.000Z",
+  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+}

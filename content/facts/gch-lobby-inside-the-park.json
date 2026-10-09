@@ -1,0 +1,10 @@
+{
+  "id": "gch-lobby-inside-the-park",
+  "parkId": "california_resorts_bucket",
+  "landId": "grand_californian_hotel",
+  "attractionId": "great_hall_lobby",
+  "title": "A hotel with its own park gate",
+  "body": "The Grand Californian opened January 2, 2001, a month before the park next door, and has its own entrance straight into Disney California Adventure. It is the only hotel at the resort inside the park's fence.",
+  "createdAtISO": "2026-10-09T00:00:00.000Z",
+  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "mk-mansion-the-ceiling-rises",
+  "parkId": "magic_kingdom_park",
+  "landId": "colonial_square_area",
+  "attractionId": "haunted_manor_ride",
+  "title": "Here the room does not sink",
+  "body": "In California the stretching room is an elevator going down. In Florida the ride building sits at ground level, so the room stays put and the ceiling rises instead. Same effect, opposite trick.",
+  "createdAtISO": "2026-10-09T00:00:00.000Z",
+  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+}

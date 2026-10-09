@@ -472,7 +472,7 @@ function loadDestinations() {
   };
 }
 
-function validateFact(file, f, destinations) {
+function validateFact(file, f, destinations, attractionKeys) {
   if (typeof f !== "object" || f === null || Array.isArray(f)) {
     fail(file, "must be a JSON object");
     return;
@@ -499,6 +499,23 @@ function validateFact(file, f, destinations) {
     fail(file, `"region" "${f.region}" is not listed in content/destinations.json`);
   }
 
+  // A fact about one attraction names the park, land, and attraction of
+  // entries that already exist, so it has somewhere to show.
+  const hasLand = f.landId !== undefined;
+  const hasAttraction = f.attractionId !== undefined;
+  if (hasLand !== hasAttraction) {
+    fail(file, `set "landId" and "attractionId" together or not at all`);
+  } else if (hasAttraction) {
+    if (!hasPark) fail(file, `an attraction fact needs "parkId", not "region"`);
+    for (const field of ["landId", "attractionId"]) {
+      if (!isNonEmptyString(f[field])) fail(file, `"${field}" must be a non-empty string`);
+    }
+    const key = `${f.parkId}/${f.landId}/${f.attractionId}`;
+    if (hasPark && isNonEmptyString(f.landId) && isNonEmptyString(f.attractionId) && !attractionKeys.has(key)) {
+      fail(file, `no entry has parkId/landId/attractionId "${key}"`);
+    }
+  }
+
   for (const field of ["createdAtISO", "updatedAtISO"]) {
     if (f[field] !== undefined && Number.isNaN(Date.parse(f[field]))) {
       fail(file, `"${field}" must be an ISO 8601 date string`);
@@ -506,10 +523,11 @@ function validateFact(file, f, destinations) {
   }
 }
 
-function loadFacts() {
+function loadFacts(entries) {
   // The facts folder is optional so a content set without any still builds.
   if (!existsSync(factsDir)) return [];
   const destinations = loadDestinations();
+  const attractionKeys = new Set(entries.map((e) => `${e.parkId}/${e.landId}/${e.attractionId}`));
   const files = readdirSync(factsDir).filter((f) => f.endsWith(".json")).sort();
   const facts = [];
   const seenIds = new Map();
@@ -522,7 +540,7 @@ function loadFacts() {
       fail(rel, `invalid JSON (${err.message})`);
       continue;
     }
-    validateFact(rel, parsed, destinations);
+    validateFact(rel, parsed, destinations, attractionKeys);
     if (parsed && typeof parsed.id === "string") {
       if (seenIds.has(parsed.id)) fail(rel, `duplicate id "${parsed.id}" (also in ${seenIds.get(parsed.id)})`);
       seenIds.set(parsed.id, rel);
@@ -706,7 +724,7 @@ function renderChallenges(challenges) {
 }
 
 const entries = loadEntries();
-const facts = loadFacts();
+const facts = loadFacts(entries);
 const challenges = loadChallenges(entries);
 const orphans = unusedImages(entries);
 for (const name of orphans) console.log(`note: content/images/${name} is not referenced by any entry yet`);

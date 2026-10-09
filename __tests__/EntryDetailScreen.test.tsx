@@ -2,6 +2,7 @@ import React from 'react';
 import { fireEvent, render, screen, within } from '@testing-library/react-native';
 import EntryDetailScreen from '../src/screens/EntryDetailScreen';
 import { getAllEntries } from '../src/data/query';
+import { getFactsForAttraction } from '../src/data/facts';
 import * as query from '../src/data/query';
 import type { HiddenMickeyEntry } from '../src/data/types';
 import { labelOrFallback } from '../src/data/labels';
@@ -99,6 +100,28 @@ describe('EntryDetailScreen last viewed', () => {
     useRecentStore.setState({ lastEntryId: undefined });
     render(<EntryDetailScreen />);
     expect(useRecentStore.getState().lastEntryId).toBe(entry.id);
+  });
+});
+
+describe('EntryDetailScreen attraction facts', () => {
+  const withFacts = getAllEntries().find((e) => getFactsForAttraction(e.parkId, e.landId, e.attractionId).length > 0)!;
+  const withoutFacts = getAllEntries().find((e) => getFactsForAttraction(e.parkId, e.landId, e.attractionId).length === 0)!;
+
+  it('shows the history of the attraction under its own header, even with hints on', () => {
+    mockEntryId = withFacts.id;
+    render(<EntryDetailScreen />);
+    const name = labelOrFallback(withFacts.display?.attractionName, 'this attraction');
+    expect(screen.getByRole('header', { name: `About ${name}` })).toBeTruthy();
+    for (const fact of getFactsForAttraction(withFacts.parkId, withFacts.landId, withFacts.attractionId)) {
+      expect(screen.getByText(fact.title)).toBeTruthy();
+      expect(screen.getByText(fact.body)).toBeTruthy();
+    }
+  });
+
+  it('shows no About card at an attraction with no facts', () => {
+    mockEntryId = withoutFacts.id;
+    render(<EntryDetailScreen />);
+    expect(screen.queryByRole('header', { name: /^About / })).toBeNull();
   });
 });
 

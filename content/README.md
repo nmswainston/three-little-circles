@@ -162,14 +162,18 @@ Each fact is one JSON file under `content/facts/`. Copy
 | `id` | yes | kebab-case slug, unique across all facts, must match the file name |
 | `parkId` | one of | a `parkId` from `destinations.json`; the fact shows on that Park screen |
 | `region` | one of | a region from `destinations.json`; the fact shows on every theme park in that region, after the park's own facts. Catch-all areas with a `_bucket` id, such as the resorts and the shopping district, show only their own facts |
+| `landId`, `attractionId` | together | with `parkId`, the ids of an attraction that already has entries. The fact then shows on every find at that attraction, in an "About" card under the find's own fun facts, and stays off the Park screen |
 | `title` | yes | a few words |
 | `body` | yes | two to four sentences |
 | `createdAtISO`, `updatedAtISO` | no | ISO 8601 timestamps |
 
 Set exactly one of `parkId` or `region`. Use `region` for resort-wide history
 such as how the Florida land was assembled, and `parkId` for anything specific
-to one park. Facts are shown in id order, so a numeric or alphabetical prefix
-controls the order within a park if you need one.
+to one park. Add `landId` and `attractionId` for the history of one ride,
+show, or shop: when it opened, what it replaced, how it was built. Keep it to
+the attraction itself; anything you find inside it is an entry. Facts are
+shown in id order, so a numeric or alphabetical prefix controls the order
+within a park or attraction if you need one.
 
 ## Challenges
 

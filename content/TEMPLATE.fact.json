@@ -2,7 +2,7 @@
   "id": "park-short-title",
   "parkId": "studios_park",
   "title": "Short title for the fact",
-  "body": "Two to four sentences. History or trivia about the park or area itself, not a find inside it. Use the app's generic park names and keep it something a guest could repeat to the person next to them in line.",
+  "body": "Two to four sentences. History or trivia about the park or area itself, not a find inside it. Use the app's generic park names and keep it something a guest could repeat to the person next to them in line. For the history of one ride, add landId and attractionId from an entry at that attraction, and the fact shows on every find there instead of on the Park screen.",
   "createdAtISO": "2026-09-23T00:00:00.000Z",
   "updatedAtISO": "2026-09-23T00:00:00.000Z"
 }

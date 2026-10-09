@@ -33,7 +33,7 @@ export const ENTRY_NESTED = {
   image: IMAGE_KEYS,
 };
 
-export const FACT_KEYS = ["id", "parkId", "region", "title", "body", "createdAtISO", "updatedAtISO"];
+export const FACT_KEYS = ["id", "parkId", "region", "landId", "attractionId", "title", "body", "createdAtISO", "updatedAtISO"];
 
 /** Each target is a one-key object, so targets need no order of their own. */
 export const CHALLENGE_KEYS = [

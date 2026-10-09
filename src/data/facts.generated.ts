@@ -20,6 +20,36 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
+    "id": "ak-conservation-the-real-hospital",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "title": "The animal hospital is real",
+    "body": "Conservation Station is the park's working veterinary center. The windows look into real exam rooms, and on a good morning you can watch a procedure on one of the park's animals while a vet explains it.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "ak-conservation-train-only",
+    "parkId": "adventure_park",
+    "landId": "conservation_outpost_area",
+    "attractionId": "conservation_exhibit_hall",
+    "title": "You can only get here by train",
+    "body": "Rafiki's Planet Watch sits outside the main park loop, and the only way in is the Wildlife Express train from Africa. The ride passes the backstage barns where the savanna animals spend the night.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "ak-jungle-trek-anandapur",
+    "parkId": "adventure_park",
+    "landId": "asia_village_area",
+    "attractionId": "jungle_palace_trail",
+    "title": "A hunting lodge gone back to the jungle",
+    "body": "The trail opened in 1999 with the rest of Asia. Its story is a maharajah's hunting palace in the made-up kingdom of Anandapur, left to the forest and reclaimed by the animals that were once hunted there, which is why tigers now lounge on the palace ruins.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
     "id": "california-kingdom-park-black-sunday",
     "parkId": "california_kingdom_park",
     "title": "Black Sunday",
@@ -42,6 +72,316 @@ export const facts: ParkFact[] = [
     "body": "This park opened in February 2001 on land that had been the original park's main parking lot since 1955. The boardwalk area is modeled on the seaside amusement piers of early-1900s California, which is roughly the kind of place Walt was trying to improve on when he built the park next door.",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "dca-guardians-it-was-the-tower",
+    "parkId": "california_pier_park",
+    "landId": "hero_campus_area",
+    "attractionId": "fortress_drop_tower",
+    "title": "It used to be the Tower of Terror",
+    "body": "This is the park's old Twilight Zone Tower of Terror, which ran from 2004 to the start of 2017. The hotel became the Collector's fortress in a few months of work, and the new ride opened May 27, 2017 with the same elevators doing new tricks.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dca-guardians-six-songs",
+    "parkId": "california_pier_park",
+    "landId": "hero_campus_area",
+    "attractionId": "fortress_drop_tower",
+    "title": "Six songs, six rides",
+    "body": "The ride picks one of six songs from Star-Lord's tape, and each has its own pattern of drops timed to the music. Ride it six times and you may still not hear them all, which is the point.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dca-luigis-replaced-the-tires",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "luigis_rollickin_roadsters",
+    "title": "The tires did not work out",
+    "body": "Luigi's Flying Tires, a floating bumper-car ride on a cushion of air, opened with Cars Land in 2012 and closed in 2015 after years of slow loading and sore ankles. The dancing roadsters took its place on March 7, 2016, using the same trackless cars as the Runaway Railway.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dca-midway-mania-opened-2008",
+    "parkId": "california_pier_park",
+    "landId": "boardwalk_pier_area",
+    "attractionId": "midway_shooter",
+    "title": "Open since 2008",
+    "body": "Toy Story Midway Mania opened here June 17, 2008, a few weeks after its Florida twin. When Paradise Pier became Pixar Pier in 2018 the ride stayed exactly where it was and got a new entrance to match.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dca-midway-mania-string-cannons",
+    "parkId": "california_pier_park",
+    "landId": "boardwalk_pier_area",
+    "attractionId": "midway_shooter",
+    "title": "The cannons pull a string",
+    "body": "Every game on the ride fires from the same cannon, and the pull cord is a real spring-loaded string. Nothing on screen is scored by the screen itself; the cannon tracks exactly where you aimed.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dca-ramones-cars-land-2012",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "ramones_house_of_body_art",
+    "title": "Cars Land opened in 2012",
+    "body": "The land opened June 15, 2012, built on what had been the park's parking lot. The 125-foot Cadillac Range behind the street is a nod to Cadillac Ranch in Amarillo, with its peaks shaped like tail fins.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dca-ramones-the-u-drop-inn",
+    "parkId": "california_pier_park",
+    "landId": "radiator_springs_area",
+    "attractionId": "ramones_house_of_body_art",
+    "title": "Copied from a real Route 66 landmark",
+    "body": "Ramone's shop in the film was drawn from the U-Drop Inn in Shamrock, Texas, a 1936 Art Deco gas station and cafe on Route 66. The Cars Land version is a close copy of the real building, right down to the green tile and the spire.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dca-soarin-erector-set",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "soarin_around_the_world",
+    "title": "The ride was worked out with a toy",
+    "body": "Imagineer Mark Sumner figured out how to lift three rows of seats into the air by building a working model from an Erector set at his kitchen table. The real version lifts 87 riders into an 80-foot dome of screen.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dca-soarin-opened-with-the-park",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "soarin_around_the_world",
+    "title": "It opened with the park in 2001",
+    "body": "Soarin' Over California was the park's opening-day headliner on February 8, 2001, and the one ride from that day that was an instant hit. The film has been swapped several times since, which is why some finds here only appear when a particular version is playing.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-indy-opened-1995",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "temple_of_forbidden_eye",
+    "title": "Opened in 1995",
+    "body": "The Temple of the Forbidden Eye opened March 3, 1995, in a show building tucked behind Adventureland and the Jungle Cruise. The queue through the temple is one of the longest walks at the park, which is why so many finds hide along it.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-indy-the-truck-is-the-trick",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "temple_of_forbidden_eye",
+    "title": "The truck is the trick",
+    "body": "The troop transports ride on a motion base that tilts and bounces on top of a moving platform, so the same track feels like a different road every time. Imagineering built the system for this ride and used it again for DINOSAUR in Florida.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-mansion-empty-for-years",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "haunted_mansion",
+    "title": "The house stood empty for six years",
+    "body": "The mansion's exterior was finished in 1963 and sat with nothing inside while Walt and his team argued over whether it should be scary or funny. It finally opened August 9, 1969, after his death, with both ideas in it: the first half is Claude Coats's eerie house, the second half is Marc Davis's comedy.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-mansion-holiday-overlay",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "haunted_mansion",
+    "title": "Jack Skellington moves in every fall",
+    "body": "Since 2001 the mansion has been redressed each holiday season as Haunted Mansion Holiday, with Jack Skellington and the Nightmare Before Christmas crew taking over from late September into early January. The gingerbread house in the ballroom is new every year.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-mansion-why-the-room-stretches",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "haunted_mansion",
+    "title": "The stretching room is an elevator",
+    "body": "The house you see from outside is too small to hold the ride. The real show building sits outside the park's railroad berm, so the stretching room is an elevator that lowers you under the tracks, and the hallway of portraits walks you across to the other side.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-mickeys-house-rebuilt-2023",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "mouse_house",
+    "title": "The whole land was rebuilt for 2023",
+    "body": "Toontown closed for most of 2022 and reopened March 8, 2023 with more grass, more shade, and the new Runaway Railway next door. The house got a refresh in the same project, so some older finds inside moved or disappeared.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-mickeys-house-toontown-opened-1993",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "mouse_house",
+    "title": "Toontown opened in 1993",
+    "body": "Mickey's Toontown opened January 24, 1993 as the neighborhood where the cartoon characters live. Mickey's House was built as his actual home, with the mailbox, the garden, and a path out back to the Movie Barn where he still meets guests.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-peter-pan-opening-day-flyer",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "flying_pirate_ship_ride",
+    "title": "Flying since opening day",
+    "body": "Peter Pan's Flight opened with the park on July 17, 1955. The ships hang from a rail in the ceiling, so you fly over London and Never Land instead of rolling past them, an idea the ride has never needed to change.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-peter-pan-rebuilt-twice",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "flying_pirate_ship_ride",
+    "title": "Rebuilt in 1983 and polished in 2015",
+    "body": "The ride was rebuilt when Fantasyland was remade in 1983, and got new scenes, lighting, and the pixie-dust effects in a 2015 refurbishment. The London flyover is still the moment that stops first-timers cold.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-pirates-almost-a-wax-museum",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "pirates_of_the_caribbean",
+    "title": "It was almost a walk-through",
+    "body": "The first plan was a wax-museum style walk-through in a basement under New Orleans Square. After the boat ride at it's a small world proved how many people a flume could carry, the pirates were rebuilt as a boat ride, and the drop down into the caverns is what gets you under the railroad.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-pirates-dinner-inside",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "pirates_of_the_caribbean",
+    "title": "There is a restaurant inside the ride",
+    "body": "The Blue Bayou's tables sit inside the show building, on the bayou your boat drifts through at the start. The permanent dusk and the fireflies are the ride's set, seen from the other side.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-pirates-walts-last-ride",
+    "parkId": "california_kingdom_park",
+    "landId": "french_quarter_area",
+    "attractionId": "pirates_of_the_caribbean",
+    "title": "The last ride Walt worked on",
+    "body": "Pirates opened March 18, 1967, three months after Walt Disney died. It was the last attraction he personally oversaw, and the one he had been closest to finishing.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-railway-mickeys-first-ride",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "title": "Mickey waited 95 years for a ride",
+    "body": "For all the parks built around him, Mickey never had a ride of his own until this one. The Florida version opened first in 2020, and this one followed on January 27, 2023, behind the El CapiTOON Theater marquee at the end of Toontown's main street.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-railway-no-track",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "title": "There is no track",
+    "body": "The trains have no rail under them. Each car follows a path buried in the floor and steers itself, which is why your train can split from the others, spin, and regroup in a way a track could never allow.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-railway-perfect-picnic",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "cartoon_railway",
+    "title": "It starts with a brand new cartoon",
+    "body": "The pre-show is a short made just for the ride, in the flat, bright style of the recent Mickey Mouse shorts. The plot of the ride is what happens when you step through the screen into that cartoon and Goofy's train goes off the rails.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-small-world-the-clock",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "its_a_small_world",
+    "title": "The clock puts on a show every 15 minutes",
+    "body": "The facade clock opens every quarter hour as a parade of toy figures marches out and the time is announced. Since 2009, Disney characters dressed for their home countries have hidden among the dolls inside.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-small-world-worlds-fair",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "its_a_small_world",
+    "title": "Built for the 1964 World's Fair",
+    "body": "The ride was made for the 1964 New York World's Fair and shipped west when the fair closed, opening here May 28, 1966 with its own new building. Mary Blair's designs and the Sherman Brothers' song, written so it could be sung as a round in many languages, came with it.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-treehouse-three-names",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "family_treehouse",
+    "title": "One tree, three families",
+    "body": "The tree went up in 1962 as the Swiss Family Treehouse, became Tarzan's Treehouse in 1999, and reopened in November 2023 as the Adventureland Treehouse with the Robinson family back in residence. The concrete tree has its own made-up species name: Disneyodendron semperflorens grandis, the large ever-blooming Disney tree.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dlh-lobby-monorail-stop",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "fantasy_tower_lobby",
+    "title": "The monorail used to stop here",
+    "body": "Walt extended the monorail across the street to the hotel in 1961, the first time it carried guests somewhere useful. The station is still a short walk from the lobby, now shared with Downtown Disney.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dlh-lobby-walt-could-not-afford-it",
+    "parkId": "california_resorts_bucket",
+    "landId": "disneyland_hotel",
+    "attractionId": "fantasy_tower_lobby",
+    "title": "Walt could not afford his own hotel",
+    "body": "Disneyland used up everything Walt had, so the hotel across the street was built and run by his friend Jack Wrather, a Texas oilman and television producer. It opened in October 1955, three months after the park. Disney finally bought it back in 1988.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "ep-land-listen-to-the-land",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "greenhouse_boat_ride",
+    "title": "It opened as Listen to the Land",
+    "body": "The boat ride opened with the park on October 1, 1982 as Listen to the Land, and took its current name in 1993. The greenhouses it floats through are the same ones from day one, replanted constantly.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "ep-land-you-can-eat-the-ride",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "greenhouse_boat_ride",
+    "title": "You can eat the ride",
+    "body": "The greenhouses are a working farm. Lettuce, tomatoes, cucumbers, and more are harvested and served in the park's restaurants, and a walking tour called Behind the Seeds takes you onto the floor the boats glide past.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
     "id": "florida-land-bought-under-fake-names",
@@ -68,12 +408,162 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
+    "id": "gch-lobby-arts-and-crafts",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "great_hall_lobby",
+    "title": "Built like a 1900s national park lodge",
+    "body": "The design is American Arts and Crafts, the style of the great national park lodges of the early 1900s. The Great Hall's six-story timber ceiling, the stained glass, and the big stone hearth are all nods to that era, which is also why the finds here hide in woodwork and tile.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "gch-lobby-inside-the-park",
+    "parkId": "california_resorts_bucket",
+    "landId": "grand_californian_hotel",
+    "attractionId": "great_hall_lobby",
+    "title": "A hotel with its own park gate",
+    "body": "The Grand Californian opened January 2, 2001, a month before the park next door, and has its own entrance straight into Disney California Adventure. It is the only hotel at the resort inside the park's fence.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "gf-lobby-victorian-by-design",
+    "parkId": "resorts_bucket",
+    "landId": "grand_floridian_resort",
+    "attractionId": "grand_lobby",
+    "title": "A Victorian beach hotel on a lagoon",
+    "body": "The Grand Floridian opened in 1988, styled after the grand Florida beach hotels of the 1880s. The five-story lobby, the birdcage elevator, and the live band on the landing were all designed to feel like the hotel had been standing there for a century, even though the Magic Kingdom next door is older.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
     "id": "hong-kong-built-with-feng-shui-in-mind",
     "region": "Hong Kong",
     "title": "Built with feng shui in mind",
     "body": "The Hong Kong park, which opened on September 12, 2005, was laid out with a feng shui consultant's advice. The main entrance was rotated about twelve degrees, the walkway from the train station has a bend in it so good fortune does not flow straight out to sea, and the resort hotels skip the number four on their floors.",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "hs-animation-gallery-a-working-studio",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "animation_gallery",
+    "title": "Real animators worked here",
+    "body": "Animation Courtyard was a working Disney animation studio from the park's opening in 1989 until 2004. Artists behind the glass drew parts of Beauty and the Beast and The Lion King, and the Florida team made Mulan, Lilo and Stitch, and Brother Bear almost entirely here.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "hs-midway-mania-string-cannons",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "midway_shooter",
+    "title": "The cannons pull a string",
+    "body": "Every game on the ride fires from the same cannon, and the pull cord is a real spring-loaded string. Nothing on screen is scored by the screen itself; the cannon tracks exactly where you aimed.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "hs-midway-mania-third-track",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "midway_shooter",
+    "title": "A third track was added in 2016",
+    "body": "Toy Story Mania opened May 31, 2008, and its lines were long enough that a whole third track was built onto the back of the building in 2016. Toy Story Land grew up around the entrance two years later.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "hs-railway-mickeys-first-ride",
+    "parkId": "studios_park",
+    "landId": "boulevard_area",
+    "attractionId": "cartoon_railway",
+    "title": "Mickey's first ride, in a famous building",
+    "body": "This was the first ride ever built around Mickey himself. It opened March 4, 2020 inside the park's replica of Hollywood's Chinese Theatre, where The Great Movie Ride had run from the park's opening day in 1989 until 2017.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "hs-railway-no-track",
+    "parkId": "studios_park",
+    "landId": "boulevard_area",
+    "attractionId": "cartoon_railway",
+    "title": "There is no track",
+    "body": "The trains have no rail under them. Each car follows a path buried in the floor and steers itself, which is why your train can split from the others, spin, and regroup in a way a track could never allow.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "hs-railway-perfect-picnic",
+    "parkId": "studios_park",
+    "landId": "boulevard_area",
+    "attractionId": "cartoon_railway",
+    "title": "It starts with a brand new cartoon",
+    "body": "The pre-show is a short made just for the ride, in the flat, bright style of the recent Mickey Mouse shorts. The plot of the ride is what happens when you step through the screen into that cartoon and Goofy's train goes off the rails.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "hs-rock-coaster-the-muppets-take-over",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "title": "The Muppets took over in 2026",
+    "body": "After more than 25 years of Aerosmith, the coaster reopened May 26, 2026 as Rock 'n' Roller Coaster Starring The Muppets, with Dr. Teeth and the Electric Mayhem running the show. The track and the launch are unchanged.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "hs-rock-coaster-zero-to-57",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "rock_show_coaster",
+    "title": "Zero to 57 in under three seconds",
+    "body": "The launch takes the limo from a standstill to 57 miles an hour in 2.8 seconds, and the ride that follows was Disney's first coaster with inversions. It opened July 29, 1999 with Aerosmith as the headliners.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "hs-slinky-andys-kit",
+    "parkId": "studios_park",
+    "landId": "toy_blocks_area",
+    "attractionId": "backyard_coaster",
+    "title": "Andy built it from a kit",
+    "body": "The story is that Andy assembled a Dash and Dodge Mega Coaster Kit in his backyard and put Slinky on it. Toy Story Land opened June 30, 2018, and the coaster was its headliner, with a second launch halfway through the ride.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "hs-tower-faster-than-falling",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "title": "It pulls you down faster than you would fall",
+    "body": "The elevator does not simply drop. Cables haul the car downward, so for a moment you fall faster than gravity alone would take you, which is what lifts you off the seat. The car also leaves its shaft and glides forward through the hotel before the drops begin, a trick this version alone has.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "hs-tower-one-foot-short",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "title": "One foot short of a warning light",
+    "body": "The tower stands 199 feet. At 200 feet, federal rules would have required a flashing red aircraft beacon on the roof, which would have ruined the look of an abandoned 1930s hotel. It opened July 22, 1994.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "hs-tower-random-drops",
+    "parkId": "studios_park",
+    "landId": "sunset_area",
+    "attractionId": "hotel_drop_tower",
+    "title": "The drops are shuffled",
+    "body": "Since 2002 the ride has picked its sequence of rises and falls at random, so two trips are rarely the same. The story stays fixed: five guests stepped into the elevator on Halloween night in 1939, and the hotel has been waiting ever since.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
     "id": "kingdom-park-names-in-the-windows",
@@ -92,12 +582,72 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
+    "id": "mk-buzz-you-are-a-toy",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "galactic_blaster_ride",
+    "title": "You are toy-sized",
+    "body": "The ride opened November 3, 1998 in the building that had held If You Had Wings and Delta Dreamflight. The story shrinks you to the size of a toy, which is why Buzz at the start is as tall as a man: he is a toy at his real scale, and you are a toy at yours.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "mk-mansion-interactive-queue",
+    "parkId": "magic_kingdom_park",
+    "landId": "colonial_square_area",
+    "attractionId": "haunted_manor_ride",
+    "title": "The graveyard queue came forty years later",
+    "body": "The crypts, the organ, the sea captain's tomb, and the rest of the interactive queue were added in 2011. Before that the wait was a plain switchback along the house, which is why the older finds are all inside.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "mk-mansion-opening-day",
+    "parkId": "magic_kingdom_park",
+    "landId": "colonial_square_area",
+    "attractionId": "haunted_manor_ride",
+    "title": "Open since the park's first day",
+    "body": "The mansion opened with the park on October 1, 1971, in a Dutch Gothic style chosen to fit Liberty Square instead of the Southern plantation look of the California original. The show building behind it is far larger than the house suggests.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "mk-mansion-the-ceiling-rises",
+    "parkId": "magic_kingdom_park",
+    "landId": "colonial_square_area",
+    "attractionId": "haunted_manor_ride",
+    "title": "Here the room does not sink",
+    "body": "In California the stretching room is an elevator going down. In Florida the ride building sits at ground level, so the room stays put and the ceiling rises instead. Same effect, opposite trick.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "mk-philharmagic-widest-screen",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "concert_hall_show",
+    "title": "One of the widest screens anywhere",
+    "body": "The show opened October 8, 2003 on a screen 150 feet wide, built so the audience sits inside the picture rather than in front of it. Donald chasing the sorcerer's hat through the films has been the plot ever since, with a Coco scene added in 2021.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
     "id": "paris-real-castles-everywhere",
     "region": "Paris",
     "title": "Real castles everywhere",
     "body": "Europe is full of real medieval castles, so the designers made the Paris castle deliberately fantastical. The square-trimmed trees around it come from a French illuminated manuscript, and there is a dragon living in a cave underneath. The resort opened on April 12, 1992.",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "poly-ceremonial-house-opening-day-resort",
+    "parkId": "resorts_bucket",
+    "landId": "polynesian_village_resort",
+    "attractionId": "great_ceremonial_house",
+    "title": "Open since the resort's first day",
+    "body": "The Polynesian opened October 1, 1971, the same day as the Magic Kingdom, one of the two original hotels. The Great Ceremonial House is its heart, modeled on a Tahitian royal assembly lodge, and the monorail stops right at its door.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
     "id": "resorts-rooms-slid-in-like-drawers",
@@ -154,5 +704,15 @@ export const facts: ParkFact[] = [
     "body": "The Tokyo park opened on April 15, 1983, the first outside the United States. It is owned and run by a Japanese company under license rather than by the American one, which is part of why its parks can differ from the others in surprising ways.",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "wl-boulder-ridge-a-railroad-hotel",
+    "parkId": "resorts_bucket",
+    "landId": "wilderness_lodge_resort",
+    "attractionId": "boulder_ridge_villas_lobby",
+    "title": "Built like a railroad hotel",
+    "body": "The villas opened in 2000 as the first Disney Vacation Club wing at Wilderness Lodge, styled as a turn-of-the-century hotel built by a logging railroad. They were renamed Boulder Ridge in 2017. The lobby's railroad room honors Walt's own backyard railway, the Carolwood Pacific.",
+    "createdAtISO": "2026-10-09T00:00:00.000Z",
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
   }
 ];
