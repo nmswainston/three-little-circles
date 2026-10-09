@@ -7,13 +7,13 @@
     "entryTitle": "Finale Fireworks Mickey",
     "parkName": "EPCOT",
     "landName": "World Nature",
-    "attractionName": "Soarin' Around the World"
+    "attractionName": "Soarin' Across America"
   },
   "entryType": "FIND",
   "locationType": "Ride",
   "difficulty": "Easy",
   "areaContext": "Ride",
-  "description": "In the finale, the fireworks burst into a classic three-circle Hidden Mickey. It is one of the better-known moments on the ride, but it still catches first-time riders who are watching the ground below.",
+  "description": "Soarin' Around the World ended over EPCOT with fireworks, and three bursts in that finale made a classic Mickey. The film stopped playing on May 13, 2026, when Soarin' Across America took over for a limited run, so this one is on the shelf until Around the World comes back.",
   "whereToLook": {
     "scene": "Finale fireworks at the end of the flight",
     "exactSpot": "In the fireworks bursts. Three bursts form the classic shape."
@@ -27,7 +27,8 @@
   },
   "confidence": "Obvious",
   "verification": "Community",
-  "status": "Unverified",
+  "status": "Removed",
+  "accessNotes": "Only when Soarin' Around the World is showing. Soarin' Across America replaced it in 2026 for what Disney calls a limited run.",
   "coordinates": {
     "latitude": 28.3737,
     "longitude": -81.5527
@@ -35,5 +36,5 @@
   "sourceId": "TLC-EP-0028",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-soarin-fireworks",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  "updatedAtISO": "2026-10-09T00:00:00.000Z"
 }
