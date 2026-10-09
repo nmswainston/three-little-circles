@@ -7,7 +7,7 @@
     "entryTitle": "Over California Golf Cart Mickey Balloon",
     "parkName": "Disney California Adventure",
     "landName": "Grizzly Peak",
-    "attractionName": "Soarin' Around the World"
+    "attractionName": "Soarin' Across America"
   },
   "entryType": "FIND",
   "locationType": "Ride",
@@ -29,7 +29,7 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Seasonal",
-  "accessNotes": "Only when Soarin' Over California is running in place of Around the World.",
+  "accessNotes": "Only when Soarin' Over California is running. Its 25th anniversary encore ended July 1, 2026, when Soarin' Across America took over.",
   "coordinates": {
     "latitude": 33.8082,
     "longitude": -117.921
@@ -37,5 +37,5 @@
   "sourceId": "TLC-CA-0061",
   "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-7",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-09T00:00:00.000Z"
 }
