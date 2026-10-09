@@ -7,15 +7,15 @@
     "entryTitle": "Pre-show Aviator Shorts Mickey",
     "parkName": "Disney California Adventure",
     "landName": "Grizzly Peak",
-    "attractionName": "Soarin' Around the World"
+    "attractionName": "Soarin' Across America"
   },
   "entryType": "FIND",
   "locationType": "Pre-show",
   "difficulty": "Easy",
   "areaContext": "Queue",
-  "description": "In the pre-show safety video, a little aviator is the example passenger. Look at his shorts. Mickey is right there on them.",
+  "description": "The pre-show now opens with a new Captain Patrick introduction, then hands off to the classic safety video, where a little aviator is the example passenger. Look at his shorts. Mickey is right there on them.",
   "whereToLook": {
-    "scene": "The pre-show video, the little aviator used as the example",
+    "scene": "The pre-show, the classic safety video after the new introduction, the little aviator used as the example",
     "exactSpot": "His shorts. A Mickey on the fabric."
   },
   "bestTip": "Most people watch the host. Watch the kid.",
@@ -36,5 +36,5 @@
   "sourceId": "TLC-CA-0057",
   "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-6",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-09T00:00:00.000Z"
 }
