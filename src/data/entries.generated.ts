@@ -21449,7 +21449,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Alley Balcony Chairs",
       "parkName": "Disney's Hollywood Studios",
       "landName": "Sunset Boulevard",
-      "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+      "attractionName": "Rock 'n' Roller Coaster Starring The Muppets"
     },
     "entryType": "FACT",
     "locationType": "Queue",
@@ -21478,7 +21478,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0025",
     "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
     "id": "rock-show-coaster-alley-mona-lisa",
@@ -21489,7 +21489,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Alley Mona Lisa",
       "parkName": "Disney's Hollywood Studios",
       "landName": "Sunset Boulevard",
-      "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+      "attractionName": "Rock 'n' Roller Coaster Starring The Muppets"
     },
     "entryType": "FACT",
     "locationType": "Queue",
@@ -21518,7 +21518,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0027",
     "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
     "id": "rock-show-coaster-alley-pizza-boxes",
@@ -21529,7 +21529,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Alley Pizza Boxes",
       "parkName": "Disney's Hollywood Studios",
       "landName": "Sunset Boulevard",
-      "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+      "attractionName": "Rock 'n' Roller Coaster Starring The Muppets"
     },
     "entryType": "FACT",
     "locationType": "Queue",
@@ -21558,7 +21558,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0026",
     "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
     "id": "rock-show-coaster-exit-creator-portrait",
@@ -21569,7 +21569,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Exit Creator Portrait",
       "parkName": "Disney's Hollywood Studios",
       "landName": "Sunset Boulevard",
-      "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+      "attractionName": "Rock 'n' Roller Coaster Starring The Muppets"
     },
     "entryType": "FACT",
     "locationType": "Indoor",
@@ -21598,7 +21598,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0029",
     "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
     "id": "rock-show-coaster-gallery-frog-banjo",
@@ -21609,7 +21609,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Instrument Gallery Frog Banjo",
       "parkName": "Disney's Hollywood Studios",
       "landName": "Sunset Boulevard",
-      "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+      "attractionName": "Rock 'n' Roller Coaster Starring The Muppets"
     },
     "entryType": "FACT",
     "locationType": "Queue",
@@ -21638,7 +21638,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0022",
     "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
     "id": "rock-show-coaster-gallery-lead-guitar",
@@ -21649,7 +21649,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Instrument Gallery Lead Guitar",
       "parkName": "Disney's Hollywood Studios",
       "landName": "Sunset Boulevard",
-      "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+      "attractionName": "Rock 'n' Roller Coaster Starring The Muppets"
     },
     "entryType": "FACT",
     "locationType": "Queue",
@@ -21678,7 +21678,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0023",
     "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
     "id": "rock-show-coaster-gallery-rhythm-guitar",
@@ -21689,7 +21689,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Instrument Gallery Rhythm Guitar",
       "parkName": "Disney's Hollywood Studios",
       "landName": "Sunset Boulevard",
-      "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+      "attractionName": "Rock 'n' Roller Coaster Starring The Muppets"
     },
     "entryType": "FACT",
     "locationType": "Queue",
@@ -21718,7 +21718,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0024",
     "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
     "id": "rock-show-coaster-squeakeasy-sign-year",
@@ -21729,7 +21729,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Squeakeasy Sign Year",
       "parkName": "Disney's Hollywood Studios",
       "landName": "Sunset Boulevard",
-      "attractionName": "Rock 'n' Roller Coaster Starring Aerosmith"
+      "attractionName": "Rock 'n' Roller Coaster Starring The Muppets"
     },
     "entryType": "FACT",
     "locationType": "Queue",
@@ -21758,7 +21758,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0028",
     "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
     "id": "rodeo-barbecue-corn-kernels-mickey",
