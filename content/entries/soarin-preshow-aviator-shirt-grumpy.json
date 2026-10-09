@@ -7,7 +7,7 @@
     "entryTitle": "Pre-show Aviator Shirt Grumpy",
     "parkName": "Disney California Adventure",
     "landName": "Grizzly Peak",
-    "attractionName": "Soarin' Across America"
+    "attractionName": "Soarin' Around the World"
   },
   "entryType": "FACT",
   "locationType": "Pre-show",
@@ -15,7 +15,7 @@
   "areaContext": "Queue",
   "description": "The same little aviator in the pre-show video wears Grumpy across his chest, looking exactly as pleased as usual.",
   "whereToLook": {
-    "scene": "The pre-show, the classic safety video after the new introduction, the little aviator used as the example",
+    "scene": "The pre-show video, the little aviator used as the example",
     "exactSpot": "His shirt. Grumpy's face across the chest."
   },
   "bestTip": "Shorts for Mickey, shirt for Grumpy. Same kid.",
@@ -36,5 +36,5 @@
   "sourceId": "TLC-CA-0058",
   "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

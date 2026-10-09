@@ -7,13 +7,13 @@
     "entryTitle": "Monument Valley Hot Air Balloons Mickey",
     "parkName": "Disney California Adventure",
     "landName": "Grizzly Peak",
-    "attractionName": "Soarin' Across America"
+    "attractionName": "Soarin' Around the World"
   },
   "entryType": "FIND",
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
-  "description": "Flying over Monument Valley in Soarin' Around the World, three hot air balloons drifted into line and formed a Hidden Mickey for a moment. Around the World is not showing at Disney California Adventure right now: Soarin' Across America took over on July 2, 2026, after the Soarin' Over California encore.",
+  "description": "Flying over Monument Valley in Soarin' Around the World, three hot air balloons drift into line and form a Hidden Mickey for a moment.",
   "whereToLook": {
     "scene": "The Monument Valley segment of Soarin' Around the World",
     "exactSpot": "The hot air balloons. Three of them line up as a head and ears."
@@ -28,8 +28,7 @@
   },
   "confidence": "Strong",
   "verification": "Community",
-  "status": "Removed",
-  "accessNotes": "Only when Soarin' Around the World is showing. Soarin' Across America replaced it in 2026 for what Disney calls a limited run.",
+  "status": "Unverified",
   "coordinates": {
     "latitude": 33.8082,
     "longitude": -117.921
@@ -37,5 +36,5 @@
   "sourceId": "TLC-CA-0059",
   "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

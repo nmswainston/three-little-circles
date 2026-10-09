@@ -7,7 +7,7 @@
     "entryTitle": "Over California Golf Ball Mickey",
     "parkName": "Disney California Adventure",
     "landName": "Grizzly Peak",
-    "attractionName": "Soarin' Across America"
+    "attractionName": "Soarin' Around the World"
   },
   "entryType": "FIND",
   "locationType": "Ride",
@@ -29,7 +29,7 @@
   "confidence": "Strong",
   "verification": "Community",
   "status": "Seasonal",
-  "accessNotes": "Only when Soarin' Over California is running. Its 25th anniversary encore ended July 1, 2026, when Soarin' Across America took over.",
+  "accessNotes": "Only when Soarin' Over California is running in place of Around the World.",
   "coordinates": {
     "latitude": 33.8082,
     "longitude": -117.921
@@ -37,5 +37,5 @@
   "sourceId": "TLC-CA-0062",
   "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-4",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }

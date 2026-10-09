@@ -9274,88 +9274,6 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
-    "id": "gliding-flight-across-america-finale-fireworks-mickey",
-    "parkId": "showcase_park",
-    "landId": "nature_area",
-    "attractionId": "gliding_flight_theater",
-    "display": {
-      "entryTitle": "Across America Finale Fireworks Mickey",
-      "parkName": "EPCOT",
-      "landName": "World Nature",
-      "attractionName": "Soarin' Across America"
-    },
-    "entryType": "FIND",
-    "locationType": "Ride",
-    "difficulty": "Easy",
-    "areaContext": "Ride",
-    "description": "Soarin' Across America ends with a Fourth of July night over EPCOT. Spaceship Earth is lit as an American flag, and the fireworks launched beyond the park burst into an eagle, a flag, and a classic Hidden Mickey.",
-    "whereToLook": {
-      "scene": "The EPCOT finale of Soarin' Across America, the fireworks over Spaceship Earth",
-      "exactSpot": "The sky beyond the park. One of the bursts is a Mickey, alongside an eagle and a flag."
-    },
-    "bestTip": "Once Spaceship Earth turns into a flag, look up and wait for the bursts.",
-    "viewing": {
-      "motion": "Moving",
-      "lighting": "Dim",
-      "angle": "Straight-on",
-      "crowding": "Medium",
-      "distance": "Far"
-    },
-    "confidence": "Strong",
-    "verification": "Community",
-    "status": "Seasonal",
-    "accessNotes": "Only while Soarin' Across America is showing. Disney calls it a limited run; it opened May 26, 2026 at EPCOT and July 2, 2026 at Disney California Adventure.",
-    "coordinates": {
-      "latitude": 28.3737,
-      "longitude": -81.5527
-    },
-    "sourceId": "TLC-EP-0070",
-    "sourceUrl": "https://www.disneytouristblog.com/soarin-across-america-ride-review-good-bad-ugly-usa-250th-anniversary/",
-    "createdAtISO": "2026-10-09T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
-  },
-  {
-    "id": "gliding-flight-across-america-los-angeles-sorcerer-hat",
-    "parkId": "showcase_park",
-    "landId": "nature_area",
-    "attractionId": "gliding_flight_theater",
-    "display": {
-      "entryTitle": "Los Angeles Scene Sorcerer Hat",
-      "parkName": "EPCOT",
-      "landName": "World Nature",
-      "attractionName": "Soarin' Across America"
-    },
-    "entryType": "FACT",
-    "locationType": "Ride",
-    "difficulty": "Medium",
-    "areaContext": "Ride",
-    "description": "The Los Angeles scene crosses Griffith Observatory and the Hollywood sign, and the Walt Disney Studios lot in Burbank passes below. The Sorcerer Mickey hat on the Animation Building is a real sculpture on the real lot.",
-    "whereToLook": {
-      "scene": "The Los Angeles scene, after the Hollywood sign",
-      "exactSpot": "The studio lot below. The blue Sorcerer hat on top of the Animation Building."
-    },
-    "bestTip": "After the Hollywood sign, look down rather than ahead.",
-    "viewing": {
-      "motion": "Moving",
-      "lighting": "Bright",
-      "angle": "Below",
-      "crowding": "Medium",
-      "distance": "Far"
-    },
-    "confidence": "Strong",
-    "verification": "Community",
-    "status": "Seasonal",
-    "accessNotes": "Only while Soarin' Across America is showing. Disney calls it a limited run; it opened May 26, 2026 at EPCOT and July 2, 2026 at Disney California Adventure.",
-    "coordinates": {
-      "latitude": 28.3737,
-      "longitude": -81.5527
-    },
-    "sourceId": "TLC-EP-0071",
-    "sourceUrl": "https://www.disneytouristblog.com/soarin-across-america-ride-review-good-bad-ugly-usa-250th-anniversary/",
-    "createdAtISO": "2026-10-09T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
-  },
-  {
     "id": "gliding-flight-finale-fireworks-mickey",
     "parkId": "showcase_park",
     "landId": "nature_area",
@@ -9364,13 +9282,13 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Finale Fireworks Mickey",
       "parkName": "EPCOT",
       "landName": "World Nature",
-      "attractionName": "Soarin' Across America"
+      "attractionName": "Soarin' Around the World"
     },
     "entryType": "FIND",
     "locationType": "Ride",
     "difficulty": "Easy",
     "areaContext": "Ride",
-    "description": "Soarin' Around the World ended over EPCOT with fireworks, and three bursts in that finale made a classic Mickey. The film stopped playing on May 13, 2026, when Soarin' Across America took over for a limited run, so this one is on the shelf until Around the World comes back.",
+    "description": "In the finale, the fireworks burst into a classic three-circle Hidden Mickey. It is one of the better-known moments on the ride, but it still catches first-time riders who are watching the ground below.",
     "whereToLook": {
       "scene": "Finale fireworks at the end of the flight",
       "exactSpot": "In the fireworks bursts. Three bursts form the classic shape."
@@ -9384,8 +9302,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Obvious",
     "verification": "Community",
-    "status": "Removed",
-    "accessNotes": "Only when Soarin' Around the World is showing. Soarin' Across America replaced it in 2026 for what Disney calls a limited run.",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3737,
       "longitude": -81.5527
@@ -9393,7 +9310,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-EP-0028",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-soarin-fireworks",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-09-24T00:43:41.918Z"
   },
   {
     "id": "gliding-flight-hot-air-balloons-mickey",
@@ -9404,13 +9321,13 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Hot Air Balloons Mickey",
       "parkName": "EPCOT",
       "landName": "World Nature",
-      "attractionName": "Soarin' Across America"
+      "attractionName": "Soarin' Around the World"
     },
     "entryType": "FIND",
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
-    "description": "In Soarin' Around the World, three hot air balloons lined up for a beat as a classic Mickey when the balloon scene filled the screen. The film stopped playing on May 13, 2026, when Soarin' Across America took over for a limited run, so this one waits for Around the World to return.",
+    "description": "When the hot air balloons fill the screen, three of them line up for a moment as a classic three-circle Hidden Mickey. It lasts only a beat before the balloons drift apart.",
     "whereToLook": {
       "scene": "The hot air balloon scene",
       "exactSpot": "Three balloons briefly form the classic shape as they come on screen."
@@ -9425,15 +9342,14 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
-    "status": "Removed",
-    "accessNotes": "Only when Soarin' Around the World is showing. Soarin' Across America replaced it in 2026 for what Disney calls a limited run.",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.3737,
       "longitude": -81.5527
     },
     "sourceId": "TLC-EP-0055",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-05T00:00:00.000Z"
   },
   {
     "id": "glowing-river-light-fixture-mickey",
@@ -23528,47 +23444,6 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
-    "id": "soarin-across-america-los-angeles-sorcerer-hat",
-    "parkId": "california_pier_park",
-    "landId": "grizzly_peak_area",
-    "attractionId": "soarin_around_the_world",
-    "display": {
-      "entryTitle": "Los Angeles Scene Sorcerer Hat",
-      "parkName": "Disney California Adventure",
-      "landName": "Grizzly Peak",
-      "attractionName": "Soarin' Across America"
-    },
-    "entryType": "FACT",
-    "locationType": "Ride",
-    "difficulty": "Medium",
-    "areaContext": "Ride",
-    "description": "The Los Angeles scene crosses Griffith Observatory and the Hollywood sign, and the Walt Disney Studios lot in Burbank passes below. The Sorcerer Mickey hat on the Animation Building is a real sculpture on the real lot. The scene is the same in both parks; only the finale differs.",
-    "whereToLook": {
-      "scene": "The Los Angeles scene, after the Hollywood sign",
-      "exactSpot": "The studio lot below. The blue Sorcerer hat on top of the Animation Building."
-    },
-    "bestTip": "After the Hollywood sign, look down rather than ahead.",
-    "viewing": {
-      "motion": "Moving",
-      "lighting": "Bright",
-      "angle": "Below",
-      "crowding": "Medium",
-      "distance": "Far"
-    },
-    "confidence": "Strong",
-    "verification": "Community",
-    "status": "Seasonal",
-    "accessNotes": "Only while Soarin' Across America is showing. Disney calls it a limited run; it opened May 26, 2026 at EPCOT and July 2, 2026 at Disney California Adventure.",
-    "coordinates": {
-      "latitude": 33.8082,
-      "longitude": -117.921
-    },
-    "sourceId": "TLC-CA-0080",
-    "sourceUrl": "https://www.disneytouristblog.com/soarin-across-america-ride-review-good-bad-ugly-usa-250th-anniversary/",
-    "createdAtISO": "2026-10-09T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
-  },
-  {
     "id": "soarin-around-the-world-finale-fireworks-mickey",
     "parkId": "california_pier_park",
     "landId": "grizzly_peak_area",
@@ -23577,13 +23452,13 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Around the World Finale Fireworks Mickey",
       "parkName": "Disney California Adventure",
       "landName": "Grizzly Peak",
-      "attractionName": "Soarin' Across America"
+      "attractionName": "Soarin' Around the World"
     },
     "entryType": "FIND",
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
-    "description": "Soarin' Around the World ended over Disneyland. After the castle, Tinker Bell set off the fireworks, and about halfway through, in the middle of the screen, one huge burst with two small ones beside it made a Mickey. Around the World is not showing at Disney California Adventure right now: the park ran its Soarin' Over California encore through July 1, 2026, and Soarin' Across America took over the next day.",
+    "description": "Soarin' Around the World ends over Disneyland. After the castle, Tinker Bell sets off the fireworks, and about halfway through, in the middle of the screen, one huge burst with two small ones beside it makes a Mickey. It is the same firework Mickey that closed Soarin' Over California.",
     "whereToLook": {
       "scene": "The Disneyland finale of Soarin' Around the World, the fireworks",
       "exactSpot": "Center of the screen, about halfway through the fireworks. One large burst and two small."
@@ -23598,8 +23473,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
-    "status": "Removed",
-    "accessNotes": "Only when Soarin' Around the World is showing. Soarin' Across America replaced it in 2026 for what Disney calls a limited run.",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 33.8082,
       "longitude": -117.921
@@ -23607,7 +23481,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0060",
     "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "soarin-monument-valley-hot-air-balloons-mickey",
@@ -23618,13 +23492,13 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Monument Valley Hot Air Balloons Mickey",
       "parkName": "Disney California Adventure",
       "landName": "Grizzly Peak",
-      "attractionName": "Soarin' Across America"
+      "attractionName": "Soarin' Around the World"
     },
     "entryType": "FIND",
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
-    "description": "Flying over Monument Valley in Soarin' Around the World, three hot air balloons drifted into line and formed a Hidden Mickey for a moment. Around the World is not showing at Disney California Adventure right now: Soarin' Across America took over on July 2, 2026, after the Soarin' Over California encore.",
+    "description": "Flying over Monument Valley in Soarin' Around the World, three hot air balloons drift into line and form a Hidden Mickey for a moment.",
     "whereToLook": {
       "scene": "The Monument Valley segment of Soarin' Around the World",
       "exactSpot": "The hot air balloons. Three of them line up as a head and ears."
@@ -23639,8 +23513,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
-    "status": "Removed",
-    "accessNotes": "Only when Soarin' Around the World is showing. Soarin' Across America replaced it in 2026 for what Disney calls a limited run.",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 33.8082,
       "longitude": -117.921
@@ -23648,7 +23521,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0059",
     "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "soarin-over-california-finale-fireworks-mickey",
@@ -23659,7 +23532,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Over California Finale Fireworks Mickey",
       "parkName": "Disney California Adventure",
       "landName": "Grizzly Peak",
-      "attractionName": "Soarin' Across America"
+      "attractionName": "Soarin' Around the World"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -23681,7 +23554,7 @@ export const entries: HiddenMickeyEntry[] = [
     "confidence": "Strong",
     "verification": "Community",
     "status": "Seasonal",
-    "accessNotes": "Only when Soarin' Over California is running. Its 25th anniversary encore ended July 1, 2026, when Soarin' Across America took over.",
+    "accessNotes": "Only when Soarin' Over California is running in place of Around the World.",
     "coordinates": {
       "latitude": 33.8082,
       "longitude": -117.921
@@ -23689,7 +23562,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0063",
     "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-5",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "soarin-over-california-golf-ball-mickey",
@@ -23700,7 +23573,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Over California Golf Ball Mickey",
       "parkName": "Disney California Adventure",
       "landName": "Grizzly Peak",
-      "attractionName": "Soarin' Across America"
+      "attractionName": "Soarin' Around the World"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -23722,7 +23595,7 @@ export const entries: HiddenMickeyEntry[] = [
     "confidence": "Strong",
     "verification": "Community",
     "status": "Seasonal",
-    "accessNotes": "Only when Soarin' Over California is running. Its 25th anniversary encore ended July 1, 2026, when Soarin' Across America took over.",
+    "accessNotes": "Only when Soarin' Over California is running in place of Around the World.",
     "coordinates": {
       "latitude": 33.8082,
       "longitude": -117.921
@@ -23730,7 +23603,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0062",
     "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-4",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "soarin-over-california-golf-cart-mickey-balloon",
@@ -23741,7 +23614,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Over California Golf Cart Mickey Balloon",
       "parkName": "Disney California Adventure",
       "landName": "Grizzly Peak",
-      "attractionName": "Soarin' Across America"
+      "attractionName": "Soarin' Around the World"
     },
     "entryType": "FIND",
     "locationType": "Ride",
@@ -23763,7 +23636,7 @@ export const entries: HiddenMickeyEntry[] = [
     "confidence": "Strong",
     "verification": "Community",
     "status": "Seasonal",
-    "accessNotes": "Only when Soarin' Over California is running. Its 25th anniversary encore ended July 1, 2026, when Soarin' Across America took over.",
+    "accessNotes": "Only when Soarin' Over California is running in place of Around the World.",
     "coordinates": {
       "latitude": 33.8082,
       "longitude": -117.921
@@ -23771,7 +23644,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0061",
     "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-7",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "soarin-preshow-aviator-shirt-grumpy",
@@ -23782,7 +23655,7 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Pre-show Aviator Shirt Grumpy",
       "parkName": "Disney California Adventure",
       "landName": "Grizzly Peak",
-      "attractionName": "Soarin' Across America"
+      "attractionName": "Soarin' Around the World"
     },
     "entryType": "FACT",
     "locationType": "Pre-show",
@@ -23790,7 +23663,7 @@ export const entries: HiddenMickeyEntry[] = [
     "areaContext": "Queue",
     "description": "The same little aviator in the pre-show video wears Grumpy across his chest, looking exactly as pleased as usual.",
     "whereToLook": {
-      "scene": "The pre-show, the classic safety video after the new introduction, the little aviator used as the example",
+      "scene": "The pre-show video, the little aviator used as the example",
       "exactSpot": "His shirt. Grumpy's face across the chest."
     },
     "bestTip": "Shorts for Mickey, shirt for Grumpy. Same kid.",
@@ -23811,7 +23684,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0058",
     "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "soarin-preshow-aviator-shorts-mickey",
@@ -23822,15 +23695,15 @@ export const entries: HiddenMickeyEntry[] = [
       "entryTitle": "Pre-show Aviator Shorts Mickey",
       "parkName": "Disney California Adventure",
       "landName": "Grizzly Peak",
-      "attractionName": "Soarin' Across America"
+      "attractionName": "Soarin' Around the World"
     },
     "entryType": "FIND",
     "locationType": "Pre-show",
     "difficulty": "Easy",
     "areaContext": "Queue",
-    "description": "The pre-show now opens with a new Captain Patrick introduction, then hands off to the classic safety video, where a little aviator is the example passenger. Look at his shorts. Mickey is right there on them.",
+    "description": "In the pre-show safety video, a little aviator is the example passenger. Look at his shorts. Mickey is right there on them.",
     "whereToLook": {
-      "scene": "The pre-show, the classic safety video after the new introduction, the little aviator used as the example",
+      "scene": "The pre-show video, the little aviator used as the example",
       "exactSpot": "His shorts. A Mickey on the fabric."
     },
     "bestTip": "Most people watch the host. Watch the kid.",
@@ -23851,7 +23724,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0057",
     "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-6",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "space-coaster-exit-diorama-robot-dog-tag",

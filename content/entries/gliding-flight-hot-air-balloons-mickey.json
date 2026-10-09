@@ -7,13 +7,13 @@
     "entryTitle": "Hot Air Balloons Mickey",
     "parkName": "EPCOT",
     "landName": "World Nature",
-    "attractionName": "Soarin' Across America"
+    "attractionName": "Soarin' Around the World"
   },
   "entryType": "FIND",
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
-  "description": "In Soarin' Around the World, three hot air balloons lined up for a beat as a classic Mickey when the balloon scene filled the screen. The film stopped playing on May 13, 2026, when Soarin' Across America took over for a limited run, so this one waits for Around the World to return.",
+  "description": "When the hot air balloons fill the screen, three of them line up for a moment as a classic three-circle Hidden Mickey. It lasts only a beat before the balloons drift apart.",
   "whereToLook": {
     "scene": "The hot air balloon scene",
     "exactSpot": "Three balloons briefly form the classic shape as they come on screen."
@@ -28,13 +28,12 @@
   },
   "confidence": "Strong",
   "verification": "Community",
-  "status": "Removed",
-  "accessNotes": "Only when Soarin' Around the World is showing. Soarin' Across America replaced it in 2026 for what Disney calls a limited run.",
+  "status": "Unverified",
   "coordinates": {
     "latitude": 28.3737,
     "longitude": -81.5527
   },
   "sourceId": "TLC-EP-0055",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  "updatedAtISO": "2026-10-05T00:00:00.000Z"
 }

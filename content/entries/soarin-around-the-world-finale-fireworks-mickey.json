@@ -7,13 +7,13 @@
     "entryTitle": "Around the World Finale Fireworks Mickey",
     "parkName": "Disney California Adventure",
     "landName": "Grizzly Peak",
-    "attractionName": "Soarin' Across America"
+    "attractionName": "Soarin' Around the World"
   },
   "entryType": "FIND",
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
-  "description": "Soarin' Around the World ended over Disneyland. After the castle, Tinker Bell set off the fireworks, and about halfway through, in the middle of the screen, one huge burst with two small ones beside it made a Mickey. Around the World is not showing at Disney California Adventure right now: the park ran its Soarin' Over California encore through July 1, 2026, and Soarin' Across America took over the next day.",
+  "description": "Soarin' Around the World ends over Disneyland. After the castle, Tinker Bell sets off the fireworks, and about halfway through, in the middle of the screen, one huge burst with two small ones beside it makes a Mickey. It is the same firework Mickey that closed Soarin' Over California.",
   "whereToLook": {
     "scene": "The Disneyland finale of Soarin' Around the World, the fireworks",
     "exactSpot": "Center of the screen, about halfway through the fireworks. One large burst and two small."
@@ -28,8 +28,7 @@
   },
   "confidence": "Strong",
   "verification": "Community",
-  "status": "Removed",
-  "accessNotes": "Only when Soarin' Around the World is showing. Soarin' Across America replaced it in 2026 for what Disney calls a limited run.",
+  "status": "Unverified",
   "coordinates": {
     "latitude": 33.8082,
     "longitude": -117.921
@@ -37,5 +36,5 @@
   "sourceId": "TLC-CA-0060",
   "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-3",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
 }
