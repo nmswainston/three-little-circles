@@ -1,0 +1,43 @@
+{
+  "id": "cozy-cone-office-cones-buzz-and-rex",
+  "parkId": "california_pier_park",
+  "landId": "radiator_springs_area",
+  "attractionId": "cozy_cone_motel",
+  "display": {
+    "entryTitle": "Office Cones Buzz and Rex",
+    "parkName": "Disney California Adventure",
+    "landName": "Cars Land",
+    "attractionName": "Cozy Cone Motel"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Lobby",
+  "description": "On a shelf of the desk in the motel office sits a row of little orange traffic cones. Three of them have toys hiding underneath, the way the gang crossed the road in Toy Story 2. Buzz Lightyear is under the front cone and Rex is under the back one. Nobody has settled who is in the middle; the candidates are Slinky Dog, Mr. Potato Head, and Hamm.",
+  "whereToLook": {
+    "scene": "The Cozy Cone Motel office, the desk",
+    "exactSpot": "The row of small orange cones on the desk shelf. Look at the feet showing under the front and back cones."
+  },
+  "bestTip": "Crouch to shelf height. The feet give them away before anything else does.",
+  "funFacts": [
+    "A Cars Land cast member pointed this one out unprompted in October 2026, so it is one the crew knows about."
+  ],
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Below",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.806,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-CA-0081",
+  "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Cozy-Cone2",
+  "createdAtISO": "2026-10-09T00:00:00.000Z",
+  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+}
