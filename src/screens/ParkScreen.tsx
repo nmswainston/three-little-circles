@@ -352,8 +352,8 @@ export default function ParkScreen() {
       />
     </View>
   ));
-  // Once the big header is gone, the strip stays under the top bar. It takes
-  // the place of the sticky land header, whose name it highlights.
+  // Once the big header is gone, the strip stays under the top bar and names
+  // the land at the top of the list, so the list itself needs no sticky headers.
   const showPinnedStrip = compact && hasFinds && sections.length > 1;
 
   const header = (
@@ -629,7 +629,12 @@ export default function ParkScreen() {
         renderSectionHeader={renderSectionHeader}
         ListHeaderComponent={header}
         ListFooterComponent={footer}
-        stickySectionHeadersEnabled={!showPinnedStrip}
+        // Never sticky. The big header plus the search row are taller than the
+        // point where the pinned strip takes over, so a land header could not
+        // reach the top before the strip appears anyway. Toggling this with
+        // the strip rewraps every land header cell mid-scroll, and on Android
+        // that rebuild cancels a jump started from the top of the list.
+        stickySectionHeadersEnabled={false}
         viewabilityConfig={VIEWABILITY_CONFIG}
         onViewableItemsChanged={onViewableItemsChanged}
         onScroll={onScroll}
