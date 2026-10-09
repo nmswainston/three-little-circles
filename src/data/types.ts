@@ -133,6 +133,14 @@ export type ParkFact = {
   /** Show on every Park screen in this region. Used for resort-wide history. */
   region?: string;
 
+  /**
+   * Set together with `attractionId` and `parkId` for a fact about one
+   * attraction. These show on every find at that attraction, under the
+   * find's own fun facts, and stay off the Park screen.
+   */
+  landId?: LandId;
+  attractionId?: AttractionId;
+
   title: string;
   body: string;
 

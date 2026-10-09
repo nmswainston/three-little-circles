@@ -1,0 +1,10 @@
+{
+  "id": "dl-railway-no-track",
+  "parkId": "california_kingdom_park",
+  "landId": "cartoon_town_area",
+  "attractionId": "cartoon_railway",
+  "title": "There is no track",
+  "body": "The trains have no rail under them. Each car follows a path buried in the floor and steers itself, which is why your train can split from the others, spin, and regroup in a way a track could never allow.",
+  "createdAtISO": "2026-10-09T00:00:00.000Z",
+  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+}

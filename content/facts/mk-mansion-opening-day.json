@@ -1,0 +1,10 @@
+{
+  "id": "mk-mansion-opening-day",
+  "parkId": "magic_kingdom_park",
+  "landId": "colonial_square_area",
+  "attractionId": "haunted_manor_ride",
+  "title": "Open since the park's first day",
+  "body": "The mansion opened with the park on October 1, 1971, in a Dutch Gothic style chosen to fit Liberty Square instead of the Southern plantation look of the California original. The show building behind it is far larger than the house suggests.",
+  "createdAtISO": "2026-10-09T00:00:00.000Z",
+  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+}

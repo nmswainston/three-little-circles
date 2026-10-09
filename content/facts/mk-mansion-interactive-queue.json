@@ -1,0 +1,10 @@
+{
+  "id": "mk-mansion-interactive-queue",
+  "parkId": "magic_kingdom_park",
+  "landId": "colonial_square_area",
+  "attractionId": "haunted_manor_ride",
+  "title": "The graveyard queue came forty years later",
+  "body": "The crypts, the organ, the sea captain's tomb, and the rest of the interactive queue were added in 2011. Before that the wait was a plain switchback along the house, which is why the older finds are all inside.",
+  "createdAtISO": "2026-10-09T00:00:00.000Z",
+  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+}

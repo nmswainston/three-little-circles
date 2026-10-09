@@ -1,9 +1,12 @@
-import { getAllFacts, getFactCountsByPark, getFactsForPark } from '../src/data/facts';
+import { getAllFacts, getFactCountsByPark, getFactsForAttraction, getFactsForPark } from '../src/data/facts';
 import { DESTINATIONS, REGIONS, isThemePark } from '../src/data/destinations';
+import { getAllEntries } from '../src/data/query';
 
 describe('park facts', () => {
   const facts = getAllFacts();
   const parkIds = new Set(DESTINATIONS.map((d) => d.parkId));
+  const attractionFacts = facts.filter((f) => f.attractionId !== undefined);
+  const parkFacts = facts.filter((f) => f.attractionId === undefined);
 
   it('has at least one fact', () => {
     expect(facts.length).toBeGreaterThan(0);
@@ -56,12 +59,36 @@ describe('park facts', () => {
     }
   });
 
-  it('every fact shows on at least one park screen', () => {
+  it('every park or region fact shows on at least one park screen, and no attraction fact does', () => {
     const shown = new Set<string>();
     for (const destination of DESTINATIONS) {
       for (const fact of getFactsForPark(destination.parkId)) shown.add(fact.id);
     }
-    expect(shown.size).toBe(facts.length);
+    expect(shown.size).toBe(parkFacts.length);
+    for (const fact of attractionFacts) expect(shown.has(fact.id)).toBe(false);
+  });
+
+  it('ties every attraction fact to an attraction that has finds, and shows it there', () => {
+    expect(attractionFacts.length).toBeGreaterThan(0);
+    const keys = new Set(getAllEntries().map((e) => `${e.parkId}/${e.landId}/${e.attractionId}`));
+    for (const fact of attractionFacts) {
+      expect(fact.parkId).toBeDefined();
+      expect(fact.landId).toBeDefined();
+      expect(keys.has(`${fact.parkId}/${fact.landId}/${fact.attractionId}`)).toBe(true);
+      expect(getFactsForAttraction(fact.parkId!, fact.landId!, fact.attractionId!)).toContainEqual(fact);
+    }
+  });
+
+  it('returns only the facts for the attraction asked about', () => {
+    const sample = attractionFacts[0];
+    const result = getFactsForAttraction(sample.parkId!, sample.landId!, sample.attractionId!);
+    expect(result.length).toBeGreaterThan(0);
+    for (const fact of result) {
+      expect(fact.parkId).toBe(sample.parkId);
+      expect(fact.landId).toBe(sample.landId);
+      expect(fact.attractionId).toBe(sample.attractionId);
+    }
+    expect(getFactsForAttraction('does-not-exist', 'nope', 'nothing')).toEqual([]);
   });
 
   it('counts facts for every listed destination', () => {

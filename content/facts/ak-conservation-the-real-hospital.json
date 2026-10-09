@@ -1,0 +1,10 @@
+{
+  "id": "ak-conservation-the-real-hospital",
+  "parkId": "adventure_park",
+  "landId": "conservation_outpost_area",
+  "attractionId": "conservation_exhibit_hall",
+  "title": "The animal hospital is real",
+  "body": "Conservation Station is the park's working veterinary center. The windows look into real exam rooms, and on a good morning you can watch a procedure on one of the park's animals while a vet explains it.",
+  "createdAtISO": "2026-10-09T00:00:00.000Z",
+  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+}

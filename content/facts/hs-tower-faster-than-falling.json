@@ -1,0 +1,10 @@
+{
+  "id": "hs-tower-faster-than-falling",
+  "parkId": "studios_park",
+  "landId": "sunset_area",
+  "attractionId": "hotel_drop_tower",
+  "title": "It pulls you down faster than you would fall",
+  "body": "The elevator does not simply drop. Cables haul the car downward, so for a moment you fall faster than gravity alone would take you, which is what lifts you off the seat. The car also leaves its shaft and glides forward through the hotel before the drops begin, a trick this version alone has.",
+  "createdAtISO": "2026-10-09T00:00:00.000Z",
+  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+}

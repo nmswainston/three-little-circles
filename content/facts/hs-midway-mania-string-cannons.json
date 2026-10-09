@@ -1,0 +1,10 @@
+{
+  "id": "hs-midway-mania-string-cannons",
+  "parkId": "studios_park",
+  "landId": "toy_blocks_area",
+  "attractionId": "midway_shooter",
+  "title": "The cannons pull a string",
+  "body": "Every game on the ride fires from the same cannon, and the pull cord is a real spring-loaded string. Nothing on screen is scored by the screen itself; the cannon tracks exactly where you aimed.",
+  "createdAtISO": "2026-10-09T00:00:00.000Z",
+  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+}

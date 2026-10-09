@@ -8,6 +8,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { RootStackParamList, RootTabParamList } from "../navigation/types";
 import { getEntryById, getRelatedEntries } from "../data/query";
+import { getFactsForAttraction } from "../data/facts";
 import { HiddenMickeyEntry } from "../data/types";
 import { getConfirmation, isConfirmed } from "../data/confirmations";
 import { getEntryImageSource } from "../data/images";
@@ -111,6 +112,12 @@ export default function EntryDetailScreen() {
   // doesn't mean a trip back to the park screen between finds.
   const related = useMemo(() => (entry ? getRelatedEntries(entry) : []), [entry]);
   const foundHere = related.filter((e) => e.id in foundMap).length + (found ? 1 : 0);
+  // History of the attraction itself, shared by every find there. Not a
+  // spoiler, so it shows whatever the hint mode is doing.
+  const attractionFacts = useMemo(
+    () => (entry ? getFactsForAttraction(entry.parkId, entry.landId, entry.attractionId) : []),
+    [entry]
+  );
 
   // Hint mode keeps the answer under wraps: where-to-look opens one step per
   // tap, and the description, tip, and fun facts wait for the last step. A
@@ -314,6 +321,23 @@ export default function EntryDetailScreen() {
                 <View key={index} style={styles.fact}>
                   <View style={[styles.factDot, { backgroundColor: palette.accent }]} />
                   <Text style={styles.factText}>{fact}</Text>
+                </View>
+              ))}
+            </View>
+          )}
+
+          {attractionFacts.length > 0 && (
+            <View style={styles.card}>
+              <Text style={styles.cardTitle} accessibilityRole="header">
+                About {labelOrFallback(entry.display?.attractionName, "this attraction")}
+              </Text>
+              {attractionFacts.map((fact) => (
+                <View key={fact.id} style={styles.fact}>
+                  <View style={[styles.factDot, { backgroundColor: palette.accent }]} />
+                  <View style={styles.factBody}>
+                    <Text style={styles.factTitle}>{fact.title}</Text>
+                    <Text style={styles.factText}>{fact.body}</Text>
+                  </View>
                 </View>
               ))}
             </View>
@@ -594,6 +618,14 @@ const createStyles = (t: Theme) =>
       flex: 1,
       ...text.body,
       lineHeight: 22,
+      color: t.colors.text,
+    },
+    factBody: {
+      flex: 1,
+      gap: 2,
+    },
+    factTitle: {
+      ...text.cardTitle,
       color: t.colors.text,
     },
     grid: {

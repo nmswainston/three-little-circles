@@ -1,0 +1,10 @@
+{
+  "id": "dlh-lobby-monorail-stop",
+  "parkId": "california_resorts_bucket",
+  "landId": "disneyland_hotel",
+  "attractionId": "fantasy_tower_lobby",
+  "title": "The monorail used to stop here",
+  "body": "Walt extended the monorail across the street to the hotel in 1961, the first time it carried guests somewhere useful. The station is still a short walk from the lobby, now shared with Downtown Disney.",
+  "createdAtISO": "2026-10-09T00:00:00.000Z",
+  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+}
