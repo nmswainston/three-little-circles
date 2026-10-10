@@ -5,6 +5,13 @@
  */
 import type { ConfirmationSummary } from "./confirmations";
 
-export const CONFIRMATIONS_PULLED_AT_ISO: string | undefined = undefined;
+export const CONFIRMATIONS_PULLED_AT_ISO: string | undefined = "2026-10-10T20:40:42.492Z";
 
-export const confirmations: Record<string, ConfirmationSummary> = {};
+export const confirmations: Record<string, ConfirmationSummary> = {
+  "midway-mania-loading-zone-signs-mickey": { seen: 0, missing: 1, lastMissingISO: "2026-10-09T01:26:32.136Z" },
+  "rise-of-the-resistance-finn-panel-grey-buttons-mickey": { seen: 1, missing: 0, lastSeenISO: "2026-10-09T19:59:03.902Z" },
+  "rise-of-the-resistance-transport-ship-28": { seen: 1, missing: 0, lastSeenISO: "2026-10-09T19:59:13.107Z" },
+  "soarin-around-the-world-finale-fireworks-mickey": { seen: 0, missing: 1, lastMissingISO: "2026-10-09T00:40:16.688Z" },
+  "soarin-monument-valley-hot-air-balloons-mickey": { seen: 0, missing: 1, lastMissingISO: "2026-10-09T00:40:24.445Z" },
+  "wild-motorcar-loading-rafters-berries-mickeys": { seen: 1, missing: 0, lastSeenISO: "2026-10-10T01:13:56.494Z" },
+};
