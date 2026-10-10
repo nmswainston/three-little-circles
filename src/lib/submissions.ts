@@ -128,6 +128,50 @@ async function readPhoto(uri: string, mimeType?: string): Promise<{ body: ArrayB
   return { body, contentType, ext };
 }
 
+type ErrorLike = { code?: string; message?: string; status?: number; statusCode?: string | number } | null | undefined;
+
+function errorText(error: ErrorLike): string {
+  return `${error?.code ?? ''} ${error?.status ?? ''} ${error?.statusCode ?? ''} ${error?.message ?? ''}`;
+}
+
+/** Why the storage upload was refused, in words the sender can act on. */
+export function uploadFailureMessage(error: ErrorLike, photoOnly: boolean): string {
+  const text = errorText(error);
+  if (/\b413\b|maximum allowed size|too large|payload/i.test(text)) return 'That photo is too large to send. Try a smaller one.';
+  if (/\b40[13]\b|row-level security|not allowed|unauthorized|bucket not found/i.test(text)) {
+    return 'Photo uploads are not enabled for this project yet.';
+  }
+  return photoOnly ? "The photo didn't upload. Try a different photo." : "The photo didn't upload. Try a different photo, or send without one.";
+}
+
+/** Why the row was refused. The schema cases are the owner's to fix, so they say so instead of blaming the connection. */
+export function insertFailureMessage(error: ErrorLike, photoOnly: boolean): string {
+  const text = errorText(error);
+  const what = photoOnly ? 'photo' : 'suggestion';
+  // P0001 is the rate-limit trigger; its message is written for people.
+  if (error?.code === 'P0001' && error.message) return error.message;
+  // PGRST204 / 42703: a column this build sends that the project's table lacks.
+  if (/PGRST204|\b42703\b|column .* does not exist|schema cache/i.test(text)) {
+    return photoOnly
+      ? 'This project cannot take photos of existing finds yet. Its database needs the latest schema.'
+      : 'This project cannot take suggestions yet. Its database needs the latest schema.';
+  }
+  if (/\b42501\b|row-level security/i.test(text)) return `This project does not accept ${what}s yet.`;
+  const code = error?.code ? ` (${error.code})` : '';
+  return `Couldn't send your ${what}. Check your connection and try again.${code}`;
+}
+
+/** Why the whole attempt threw. A failed read of the photo is not a connection problem. */
+export function thrownFailureMessage(error: unknown, photoOnly: boolean): string {
+  const what = photoOnly ? 'photo' : 'suggestion';
+  const message = error instanceof Error ? error.message : String(error ?? '');
+  if (/network|timed? ?out|connection|fetch/i.test(message)) {
+    return `Couldn't send your ${what}. Check your connection and try again.`;
+  }
+  if (photoOnly || /file|uri|read|image/i.test(message)) return "Couldn't read that photo. Pick it again and retry.";
+  return `Couldn't send your ${what}. Check your connection and try again.`;
+}
+
 export async function submitSighting(input: SightingInput, deviceId: string): Promise<SubmitResult> {
   const photoOnly = Boolean(input.forEntryId);
   if (!isSupabaseConfigured) {
@@ -135,7 +179,6 @@ export async function submitSighting(input: SightingInput, deviceId: string): Pr
   }
   const problems = validateSighting(input);
   if (problems.length > 0) return { ok: false, message: problems[0] };
-  const networkMessage = `Couldn't send your ${photoOnly ? 'photo' : 'suggestion'}. Check your connection and try again.`;
 
   try {
     let photoPath: string | null = null;
@@ -143,14 +186,7 @@ export async function submitSighting(input: SightingInput, deviceId: string): Pr
       const { body, contentType, ext } = await readPhoto(input.photo.uri, input.photo.mimeType);
       photoPath = `${deviceId}/${Crypto.randomUUID()}.${ext}`;
       const { error } = await supabase.storage.from(BUCKET).upload(photoPath, body, { contentType, upsert: false });
-      if (error) {
-        return {
-          ok: false,
-          message: photoOnly
-            ? "The photo didn't upload. Try a different photo."
-            : "The photo didn't upload. Try a different photo, or send without one.",
-        };
-      }
+      if (error) return { ok: false, message: uploadFailureMessage(error, photoOnly) };
     }
 
     const contact = (input.contactName ?? '').trim();
@@ -174,13 +210,9 @@ export async function submitSighting(input: SightingInput, deviceId: string): Pr
       status: 'pending',
     });
 
-    if (error) {
-      // P0001 is the rate-limit trigger; its message is written for people.
-      if (error.code === 'P0001') return { ok: false, message: error.message };
-      return { ok: false, message: networkMessage };
-    }
+    if (error) return { ok: false, message: insertFailureMessage(error, photoOnly) };
     return { ok: true };
-  } catch {
-    return { ok: false, message: networkMessage };
+  } catch (error) {
+    return { ok: false, message: thrownFailureMessage(error, photoOnly) };
   }
 }

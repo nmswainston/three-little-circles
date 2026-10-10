@@ -1,5 +1,14 @@
 import { getAllEntries } from '../src/data/query';
-import { photoSightingInput, validateSighting, submitSighting, PHOTO_ONLY_NOTE, SightingInput } from '../src/lib/submissions';
+import {
+  photoSightingInput,
+  validateSighting,
+  submitSighting,
+  insertFailureMessage,
+  thrownFailureMessage,
+  uploadFailureMessage,
+  PHOTO_ONLY_NOTE,
+  SightingInput,
+} from '../src/lib/submissions';
 
 // The client is replaced wholesale: these tests are about what the app sends,
 // not about Supabase. The mocks are reached lazily so the factory can run
@@ -66,6 +75,47 @@ describe('photoSightingInput', () => {
   });
 });
 
+describe('failure messages', () => {
+  it('names a photo that is too large', () => {
+    expect(uploadFailureMessage({ statusCode: '413', message: 'The object exceeded the maximum allowed size' }, true)).toBe(
+      'That photo is too large to send. Try a smaller one.'
+    );
+  });
+
+  it('names a bucket that refuses uploads', () => {
+    expect(uploadFailureMessage({ statusCode: '403', message: 'new row violates row-level security policy' }, true)).toBe(
+      'Photo uploads are not enabled for this project yet.'
+    );
+  });
+
+  it('keeps the plain upload message for anything else', () => {
+    expect(uploadFailureMessage({ message: 'nope' }, false)).toBe("The photo didn't upload. Try a different photo, or send without one.");
+  });
+
+  it('points at the schema when the table lacks a column this build sends', () => {
+    expect(insertFailureMessage({ code: 'PGRST204', message: "Could not find the 'for_entry_id' column of 'submissions' in the schema cache" }, true)).toBe(
+      'This project cannot take photos of existing finds yet. Its database needs the latest schema.'
+    );
+    expect(insertFailureMessage({ code: '42703', message: 'column "for_entry_id" does not exist' }, false)).toBe(
+      'This project cannot take suggestions yet. Its database needs the latest schema.'
+    );
+  });
+
+  it('passes the rate-limit message through and tags unknown codes', () => {
+    expect(insertFailureMessage({ code: 'P0001', message: 'Too many submissions from this device. Please try again in an hour.' }, true)).toBe(
+      'Too many submissions from this device. Please try again in an hour.'
+    );
+    expect(insertFailureMessage({ code: 'PGRST301', message: 'JWT expired' }, true)).toBe("Couldn't send your photo. Check your connection and try again. (PGRST301)");
+    expect(insertFailureMessage({ message: 'odd' }, false)).toBe("Couldn't send your suggestion. Check your connection and try again.");
+  });
+
+  it('tells a failed photo read apart from a dropped connection', () => {
+    expect(thrownFailureMessage(new TypeError('Network request failed'), true)).toBe("Couldn't send your photo. Check your connection and try again.");
+    expect(thrownFailureMessage(new Error('Unable to read file'), true)).toBe("Couldn't read that photo. Pick it again and retry.");
+    expect(thrownFailureMessage(new Error('something odd'), false)).toBe("Couldn't send your suggestion. Check your connection and try again.");
+  });
+});
+
 describe('submitSighting', () => {
   beforeEach(() => {
     mockUpload.mockClear();
@@ -102,5 +152,11 @@ describe('submitSighting', () => {
     const result = await submitSighting(photoSightingInput(entry, { photo, creditOk: false }), 'device-12345678');
     expect(result).toEqual({ ok: false, message: "The photo didn't upload. Try a different photo." });
     expect(mockInsert).not.toHaveBeenCalled();
+  });
+
+  it('says the database is behind instead of blaming the connection', async () => {
+    mockInsert.mockResolvedValueOnce({ error: { code: 'PGRST204', message: "Could not find the 'for_entry_id' column" } });
+    const result = await submitSighting(photoSightingInput(entry, { photo, creditOk: false }), 'device-12345678');
+    expect(result).toEqual({ ok: false, message: 'This project cannot take photos of existing finds yet. Its database needs the latest schema.' });
   });
 });
