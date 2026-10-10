@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "In the Kiss the Girl scene, look at the backs of the frogs. Each one carries two Hidden Mickeys in its markings.",
   "whereToLook": {
     "scene": "The Kiss the Girl scene, the frogs",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-CA-0070",
   "sourceUrl": "https://hiddenmickeywiki.com/Paradise_Gardens_Park#Ariels-Adventure2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

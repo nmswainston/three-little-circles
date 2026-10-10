@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 13,
   "description": "Daisy's studio is hung with posters for ballet productions. The one on the wall behind you while you waltz advertises Ro-Mallard and Juli-Egg, and the top of its frame is a Mickey.",
   "whereToLook": {
     "scene": "Daisy's dance studio, the wall behind you during the waltz",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0177",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway46",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

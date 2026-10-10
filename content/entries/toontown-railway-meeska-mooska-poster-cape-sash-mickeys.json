@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 3,
   "description": "On the same Meeska Mooska poster, the sashes of Minnie's cape are patterned with several small Mickeys. They count together as one find.",
   "whereToLook": {
     "scene": "The Meeska Mooska movie poster in the queue",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0135",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway60",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Easy",
   "areaContext": "Ride",
+  "sceneOrder": 9,
   "description": "Soarin' Across America ends over Disneyland, down Main Street and across Sleeping Beauty Castle, and the fireworks finale survived the new film. One huge burst with two small ones beside it makes the same Mickey that closed Soarin' Over California and Soarin' Around the World.",
   "whereToLook": {
     "scene": "The Disneyland finale of Soarin' Across America, the castle fireworks",
@@ -38,5 +39,5 @@
   "sourceId": "TLC-CA-0082",
   "sourceUrl": "https://www.disneytouristblog.com/soarin-across-america-ride-review-good-bad-ugly-usa-250th-anniversary/",
   "createdAtISO": "2026-10-09T00:00:00.000Z",
-  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

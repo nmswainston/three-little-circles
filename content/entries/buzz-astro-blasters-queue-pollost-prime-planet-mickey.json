@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 1,
   "description": "The planet Pollost Prime appears in the queue right after you pass the cast member and turn left. One of its continents is shaped as a Mickey profile. The same planet shows up twice more, on the Sector 1 map in the briefing room and across from the photo kiosks at the exit.",
   "whereToLook": {
     "scene": "The queue, just after the cast member position, after the left turn",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0218",
   "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland#Astro-Blasters1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

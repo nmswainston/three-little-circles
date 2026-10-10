@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Hard",
   "areaContext": "Queue",
+  "sceneOrder": 2,
   "description": "The queue walls are covered in Maraglyphics, the temple's invented alphabet. After the room with the obelisk you pass through a doorway and the line makes a U-turn near two drinking fountains. On a plain column on the left, about waist high, Mickey's initials are pressed into the stone in Mara letters, far fainter than the carvings around them.",
   "whereToLook": {
     "scene": "Past the obelisk room, the U-turn by the two drinking fountains",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0039",
   "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

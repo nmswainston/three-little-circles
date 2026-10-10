@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 7,
   "description": "In the queue room with the airplane, a book called How To Fly sits on a shelf. Behind it, an electrical cord is coiled into a Hidden Mickey.",
   "whereToLook": {
     "scene": "The queue room with the airplane, the shelf with the How To Fly book",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0137",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway45",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

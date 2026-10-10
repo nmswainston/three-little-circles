@@ -127,6 +127,9 @@ function validateEntry(file, e) {
   checkEnum(file, "locationType", e.locationType, ENUMS.locationType, false);
   checkEnum(file, "difficulty", e.difficulty, ENUMS.difficulty, false);
   checkEnum(file, "areaContext", e.areaContext, ENUMS.areaContext);
+  if (e.sceneOrder !== undefined && (!Number.isInteger(e.sceneOrder) || e.sceneOrder < 1)) {
+    fail(file, `"sceneOrder" must be a whole number of 1 or more (got ${JSON.stringify(e.sceneOrder)})`);
+  }
   checkEnum(file, "confidence", e.confidence, ENUMS.confidence);
   checkEnum(file, "verification", e.verification, ENUMS.verification);
   checkEnum(file, "status", e.status, ENUMS.status);

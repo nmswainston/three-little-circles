@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 5,
   "description": "An upside-down classic three-circle Hidden Mickey is stacked out of cannonballs on the deck of the pirate ship where the sword fight is happening. The cannonballs sit against a red post behind the first mate, and with the fight drawing your eye, the stack looks like ordinary deck clutter.",
   "whereToLook": {
     "scene": "Pirate ship scene where the sword fight is taking place, as you fly over the deck",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-DL-0109",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan7",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

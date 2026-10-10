@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Shop",
+  "sceneOrder": 4,
   "description": "Ramone's shop displays custom-painted car hoods as art, and each design hides a Mickey. The hood mounted behind the cash register has a classic Hidden Mickey painted into it.",
   "whereToLook": {
     "scene": "Inside the shop, the hood displayed behind the cash register",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-CA-0019",
   "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

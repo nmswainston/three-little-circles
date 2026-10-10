@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Easy",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "Just before the first big room, several balloons hang on your right, and one of the white ones carries a Mickey head. It is almost too plain to count, except that the ringing bells on the left are there to pull your eyes away from it.",
   "whereToLook": {
     "scene": "The entry corridor before the first big room, the balloons on the right",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0127",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World4",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

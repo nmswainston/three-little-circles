@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 5,
   "description": "Two cats mew at a seated pirate, and as you float past, their shadows merge on the wall. It was first reported as a Mickey; later visits settled on Goofy's head.",
   "whereToLook": {
     "scene": "The seated pirate with the two cats",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0067",
   "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 27,
   "description": "Toward the back wall on the right side of the factory, a yellow Mickey head rotates on a pole like a lollipop.",
   "whereToLook": {
     "scene": "The factory room, the right side toward the back wall",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0186",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway31",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

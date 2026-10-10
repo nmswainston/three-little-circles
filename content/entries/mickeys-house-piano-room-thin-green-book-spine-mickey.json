@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 6,
   "description": "In the piano room, the bookcase on the right holds Pluto's Republic. Just left of it is a thin green book with a yellow Mickey at the top of its spine.",
   "whereToLook": {
     "scene": "The piano room, the bookcase on the right",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0201",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House10",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

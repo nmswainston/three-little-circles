@@ -80,6 +80,9 @@ function orderEntries(list) {
     if (ia !== ib) return ia - ib;
     const la = LOCATION_ORDER.indexOf(a.locationType), lb = LOCATION_ORDER.indexOf(b.locationType);
     if (la !== lb) return la - lb;
+    // Scene order within the area, numbered finds first; the rest by title.
+    const sa = a.sceneOrder ?? Infinity, sb = b.sceneOrder ?? Infinity;
+    if (sa !== sb) return sa < sb ? -1 : 1;
     return a.display.entryTitle.localeCompare(b.display.entryTitle);
   });
 }

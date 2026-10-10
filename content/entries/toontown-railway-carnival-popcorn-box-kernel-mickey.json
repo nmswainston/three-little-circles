@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 8,
   "description": "A popcorn box in the carnival room has one Mickey kernel in its top left, just before the tornado kicks off. Unlike the El CapiTOON logo, this Mickey sits up near the top of the box. You only get the angle if your car enters the carnival from the far left side.",
   "whereToLook": {
     "scene": "The carnival room, the popcorn box, just before the tornado",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-DL-0167",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway56",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

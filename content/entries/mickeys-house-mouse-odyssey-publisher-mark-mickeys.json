@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 2,
   "description": "In the room before the living room, where the radio is, a green bookshelf holds a book titled 2001 A Mouse Odyssey. Its publisher's mark is two Mickey heads.",
   "whereToLook": {
     "scene": "The room with the radio, before the living room, the green bookshelf",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0197",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

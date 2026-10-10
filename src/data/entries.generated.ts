@@ -58,6 +58,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Medium",
     "areaContext": "Walkway",
+    "sceneOrder": 4,
     "description": "The astronomy loft has a picture of the Moon at the back. Among the craters, three dark ones are grouped as a Hidden Mickey.",
     "whereToLook": {
       "scene": "The astronomy loft, the picture of the Moon at the back",
@@ -81,7 +82,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0047",
     "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse5",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "adventureland-treehouse-music-room-lamp-scallop-shell-mickey",
@@ -98,6 +99,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Medium",
     "areaContext": "Walkway",
+    "sceneOrder": 2,
     "description": "The shell lamp in the mother's music room holds two Hidden Mickeys. The second is near the top of the shade, where a scallop shell forms the head and two smaller shells sit above it as ears.",
     "whereToLook": {
       "scene": "Mother's music room in the treehouse, the shell lamp",
@@ -121,7 +123,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0045",
     "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse4",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "adventureland-treehouse-music-room-organ-tambourines-mickey",
@@ -138,6 +140,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Easy",
     "areaContext": "Walkway",
+    "sceneOrder": 3,
     "description": "Above the pipe organ in the mother's music room, two tambourines and a fiddle hang on the wall. Together they are arranged as a head and two ears.",
     "whereToLook": {
       "scene": "Mother's music room, the wall above the pipe organ",
@@ -161,7 +164,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0048",
     "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "adventureland-treehouse-stair-dragonfly-face-mickey",
@@ -178,6 +181,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Easy",
     "areaContext": "Walkway",
+    "sceneOrder": 1,
     "description": "On the climb up the treehouse stairs a huge dragonfly perches on your right. Look at its face. The two eyes and the nose sit together as a classic Mickey.",
     "whereToLook": {
       "scene": "The stairs up into the treehouse, on your right",
@@ -201,7 +205,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0046",
     "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "alien-spinner-mural-buttons-mickey",
@@ -2180,6 +2184,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 2,
     "description": "In the room where the big Buzz Lightyear figure gives the mission briefing, the Sector 1 map on the wall to his right shows the same Mickey-profile planet, about two thirds of the way up the wall.",
     "whereToLook": {
       "scene": "The mission briefing room with the large Buzz figure",
@@ -2203,7 +2208,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0219",
     "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland#Astro-Blasters2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "buzz-astro-blasters-exit-ska-densii-planet-mickey",
@@ -2300,6 +2305,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "The planet Pollost Prime appears in the queue right after you pass the cast member and turn left. One of its continents is shaped as a Mickey profile. The same planet shows up twice more, on the Sector 1 map in the briefing room and across from the photo kiosks at the exit.",
     "whereToLook": {
       "scene": "The queue, just after the cast member position, after the left turn",
@@ -2323,7 +2329,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0218",
     "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland#Astro-Blasters1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "canada-totem-pole-mickey",
@@ -6233,6 +6239,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
+    "sceneOrder": 1,
     "description": "In the grand room of Elias & Co., mannequins in 1920s dress pose on a railed balcony overhead. The railing's design works in a Mickey head, a little odd in shape but with the ears right where they should be.",
     "whereToLook": {
       "scene": "The grand room of Elias & Co., the mannequin balcony above",
@@ -6256,7 +6263,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0034",
     "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Elias-1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "elias-and-co-jewelry-room-art-deco-motif-mickey",
@@ -6273,6 +6280,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
+    "sceneOrder": 2,
     "description": "The last room of Elias & Co., the one whose doors open toward Hollywood Land, was the jewelry department and still sells jewelry. The art deco motif that circles the room hides a classic Mickey pattern.",
     "whereToLook": {
       "scene": "The last room of Elias & Co., with doors to Hollywood Land",
@@ -6296,7 +6304,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0035",
     "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Elias-2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "emporium-exit-clock-mickey",
@@ -6997,6 +7005,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Medium",
     "areaContext": "Walkway",
+    "sceneOrder": 2,
     "description": "In the mother's music room of the treehouse, a lamp sits on a shelf next to a book about the family. In the middle of the lampshade, a round red seashell forms the head of a classic Hidden Mickey with two smaller orange shells for ears, tilted to the right. It reads as beach decoration unless you know to look.",
     "whereToLook": {
       "scene": "Mother's music room in the treehouse, the shelf with the lamp next to the family's storybook",
@@ -7020,7 +7029,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0044",
     "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse1",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "family-treehouse-trunk-moss-mickey",
@@ -7887,6 +7896,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 4,
     "description": "Flying over London, wait until you have circled around to the back of Big Ben. In the tower's lit windows, a full-body Mickey silhouette stands out clearly.",
     "whereToLook": {
       "scene": "The London flyover, the back side of Big Ben",
@@ -7910,7 +7920,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0108",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan6",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "flying-pirate-ship-cannonballs-mickey",
@@ -7927,6 +7937,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 5,
     "description": "An upside-down classic three-circle Hidden Mickey is stacked out of cannonballs on the deck of the pirate ship where the sword fight is happening. The cannonballs sit against a red post behind the first mate, and with the fight drawing your eye, the stack looks like ordinary deck clutter.",
     "whereToLook": {
       "scene": "Pirate ship scene where the sword fight is taking place, as you fly over the deck",
@@ -7951,7 +7962,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0109",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan7",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "flying-pirate-ship-entry-p-pan-blocks",
@@ -7968,6 +7979,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "In the first moments after your ship enters the building, more alphabet blocks sit on the floor, and read face-on as you glide past they spell P PAN. They are in view for only a second.",
     "whereToLook": {
       "scene": "The first moments after the ship enters the building",
@@ -7991,7 +8003,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0106",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "flying-pirate-ship-mermaid-lagoon-flowers-mickey",
@@ -8047,6 +8059,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "In the Darling children's bedroom, alphabet blocks are stacked on the floor in two groups, one by Wendy's bed and one by the window where you leave the room. They spell DISNEY, with an upside-down 5 standing in for the S.",
     "whereToLook": {
       "scene": "The nursery at the start of the ride",
@@ -8070,7 +8083,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0105",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "flying-pirate-ship-nursery-peter-pan-blocks",
@@ -8087,6 +8100,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 3,
     "description": "As the ship lifts off in the nursery and makes its hard left turn, look straight down. Blocks that look scattered at random spell PETER PAN when seen from above, along the left wall as you entered.",
     "whereToLook": {
       "scene": "The nursery, during the hard left turn right after liftoff",
@@ -8110,7 +8124,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0107",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "flying-pirate-ship-queue-handrail-post-mickey",
@@ -8127,6 +8141,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 3,
     "description": "An upright classic three-circle Hidden Mickey is worked into one of the handrail posts along the part of the entrance queue that runs beside the loading area. It faces you at about waist height, but with the loading dock in view, almost everyone is watching the ships instead of the railing.",
     "whereToLook": {
       "scene": "Entrance queue where it runs alongside the loading dock area, the handrail on your right",
@@ -8151,7 +8166,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0103",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan4",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "flying-pirate-ship-queue-nana-carving",
@@ -8168,6 +8183,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "About two thirds of the way through the queue, a small wooden Nana, the Darlings' nursemaid dog, is mounted on one of the wooden pillars. She has company: pan pipes, an umbrella, and a teddy bear are carved onto other posts.",
     "whereToLook": {
       "scene": "The covered queue, the wooden pillars about two thirds of the way in",
@@ -8191,7 +8207,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0102",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan5",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "flying-pirate-ship-queue-peters-shadow",
@@ -8208,6 +8224,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 2,
     "description": "Just before the queue turns right into its last row of switchbacks, Peter Pan's runaway shadow clings to one of the wooden posts on the left, about six feet up.",
     "whereToLook": {
       "scene": "The queue, just before the right turn into the final switchbacks",
@@ -8231,7 +8248,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0104",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan8",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "flying-pirate-ship-queue-tree-bark-mickey",
@@ -8809,6 +8826,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "The coaster's queue walls are built from rock, and several Mickeys are set into them. The first comes at the first left U-turn in line. Halfway through the turn, on your right, three rocks form a Mickey directly between two courtesy lights, almost at the top of the wall.",
     "whereToLook": {
       "scene": "The first left U-turn in the queue, the wall on your right",
@@ -8832,7 +8850,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0210",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Gadget-Coaster1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "gadgetcoaster-queue-last-turn-rock-mickey",
@@ -8849,6 +8867,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 3,
     "description": "On the last right U-turn before boarding, look to your left. About four feet left of the second courtesy light, three rocks form a Mickey.",
     "whereToLook": {
       "scene": "The last right U-turn before boarding, the wall on your left",
@@ -8872,7 +8891,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0212",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Gadget-Coaster3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "gadgetcoaster-queue-past-bridges-rock-mickey",
@@ -8889,6 +8908,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 2,
     "description": "Once you are past the three bridges in the queue, look to the stone wall on the lower left as you face the loading dock. Above a courtesy light, three stones make a Mickey. There are more on this wall, including one about twenty feet further along on the left.",
     "whereToLook": {
       "scene": "Past the three bridges, facing the loading dock, the stone wall on the lower left",
@@ -8912,7 +8932,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0211",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Gadget-Coaster2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "gadgetcoaster-queue-third-light-low-rock-mickey",
@@ -8929,6 +8949,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 4,
     "description": "Right beside the last U-turn Mickey is a fourth one, about two feet left of the third courtesy light and only a foot off the ground.",
     "whereToLook": {
       "scene": "The last right U-turn before boarding, the wall on your left",
@@ -8952,7 +8973,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0213",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Gadget-Coaster4",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "galactic-blaster-exit-mural-alien-spacecraft",
@@ -12096,6 +12117,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Easy",
     "areaContext": "Ride",
+    "sceneOrder": 4,
     "description": "On the ballroom's long dining table, one place setting has a dinner plate with two saucers above it arranged as Mickey's head. It is the second setting from the right, nearest your side. Cast members rearrange the table, so some days there is more than one.",
     "whereToLook": {
       "scene": "The ballroom scene, the long dining table",
@@ -12120,7 +12142,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0058",
     "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "haunted-mansion-blue-chair-back-donald-duck",
@@ -12137,6 +12159,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 3,
     "description": "Right after the endless hallway, a big blue lounge chair sits in the scene. The abstract pattern on its backrest forms Donald Duck's face and sailor hat, a design so loose you have to squint to pull it out.",
     "whereToLook": {
       "scene": "The scene right after the endless hallway, the large blue chair",
@@ -12160,7 +12183,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0057",
     "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "haunted-mansion-busts-fencing-orange-jewel-mickey",
@@ -12177,6 +12200,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "Just after the marble busts whose eyes follow you, wrought iron fencing runs along the left. About four feet up in the ironwork is a Hidden Mickey with an orange jewel for its head.",
     "whereToLook": {
       "scene": "Right after the following-eyes busts, the iron fencing on the left",
@@ -12200,7 +12224,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0056",
     "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion7",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "haunted-mansion-graveyard-bird-shadow-pluto",
@@ -12217,6 +12241,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 6,
     "description": "Right before you leave the graveyard, a bird bends over, and as it does its shadow throws the spitting image of Pluto on the surface behind it.",
     "whereToLook": {
       "scene": "The end of the graveyard scene, just before the exit",
@@ -12240,7 +12265,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0059",
     "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "haunted-mansion-holiday-ballroom-snowdrift-mickey",
@@ -12257,6 +12282,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 5,
     "description": "During the holiday overlay, snow drifts into the ballroom through an open door at the back. Next to that door, on the right side of the room near the fireplace, one drift is shaped as a classic Mickey.",
     "whereToLook": {
       "scene": "The ballroom during Haunted Mansion Holiday, the open door at the back right",
@@ -12280,7 +12306,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0063",
     "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion5",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "haunted-mansion-holiday-portrait-hall-pumpkins-mickey",
@@ -12297,6 +12323,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "In the holiday overlay's portrait hallway, the center portrait shows Jack Skellington, and just to his right three pumpkins are stacked as a Hidden Mickey.",
     "whereToLook": {
       "scene": "The portrait hallway during Haunted Mansion Holiday, the center portrait",
@@ -12320,7 +12347,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0062",
     "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion6",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "haunted-mansion-holiday-stretching-room-ceiling-glass-mickey",
@@ -13417,6 +13444,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Hard",
     "areaContext": "Queue",
+    "sceneOrder": 3,
     "description": "Indiana Jones Adventure was built over part of the old Disneyland parking lot, and the Eeyore section sign survived. It hangs in the rafters of the film room, in the dark above the queue. Step into the film room, turn right, and at the first switchback to the left put your back to the wall and shine a light straight up. The sign rests on the bamboo slats above you.",
     "whereToLook": {
       "scene": "The film room in the queue, the first left switchback after you enter",
@@ -13443,7 +13471,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0038",
     "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "indiana-jones-adventure-film-room-exit-wall-cracks-mickey",
@@ -13460,6 +13488,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 4,
     "description": "As you leave the film room toward the archaeologist's office, glance back over your left shoulder at the far wall. Between the lights, cracks in the plaster form a big Mickey head. The left ear is incomplete, and fans argue about whether it was planned.",
     "whereToLook": {
       "scene": "Leaving the film room toward the office, the far wall behind you",
@@ -13483,7 +13512,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0040",
     "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones6",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "indiana-jones-adventure-mummy-room-skeleton-mickey-ears",
@@ -13540,6 +13569,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 5,
     "description": "In the archaeologist's office along the queue, an old copy of Life magazine is tucked under the desk blotter. Only part of the cover shows, but Mickey Mouse is clearly on it.",
     "whereToLook": {
       "scene": "The archaeological office in the queue, the desk",
@@ -13563,7 +13593,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0041",
     "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "indiana-jones-adventure-office-life-magazine-minnie",
@@ -13580,6 +13610,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 6,
     "description": "The same Life magazine under the desk blotter in the archaeologist's office puts Minnie on the cover beside Mickey. She counts as her own Hidden Surprise.",
     "whereToLook": {
       "scene": "The archaeological office in the queue, the desk",
@@ -13603,7 +13634,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0042",
     "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones4",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "indiana-jones-adventure-queue-column-mara-initials-mickey",
@@ -13620,6 +13651,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Hard",
     "areaContext": "Queue",
+    "sceneOrder": 2,
     "description": "The queue walls are covered in Maraglyphics, the temple's invented alphabet. After the room with the obelisk you pass through a doorway and the line makes a U-turn near two drinking fountains. On a plain column on the left, about waist high, Mickey's initials are pressed into the stone in Mara letters, far fainter than the carvings around them.",
     "whereToLook": {
       "scene": "Past the obelisk room, the U-turn by the two drinking fountains",
@@ -13643,7 +13675,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0039",
     "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "indiana-jones-adventure-queue-tent-walt-statue",
@@ -13660,6 +13692,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "Out in the overflow queue, a supply tent near the rope bridge holds a small stone figure about three feet tall, seated like a Buddha. Look at the face. It has Walt Disney's mustache and smile. The figure stands just left of the tent entrance, facing the temple, with the tent's radio playing nearby.",
     "whereToLook": {
       "scene": "The outdoor overflow queue, the supply tent near the rope bridge",
@@ -13684,7 +13717,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0037",
     "sourceUrl": "https://hiddenmickeywiki.com/Adventureland",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "italy-neptune-fountain-ornament-mickey",
@@ -16267,6 +16300,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Hard",
     "areaContext": "Dock",
+    "sceneOrder": 1,
     "description": "Between Big Thunder and the Rivers of America, near the Mark Twain's loading dock and the stroller parking, a large painted sign shows a riverboat scene. Among the passengers stands Steamboat Willie himself. The walkway no longer runs right up to it, so bring a zoom lens.",
     "whereToLook": {
       "scene": "The large painted sign near the Mark Twain dock, by the stroller parking",
@@ -16290,7 +16324,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0087",
     "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Mark-Twain1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "mark-twain-river-boulders-reflection-mickey",
@@ -16349,6 +16383,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Medium",
     "areaContext": "Dock",
+    "sceneOrder": 2,
     "description": "The iron grillwork crowning the Mark Twain's top deck has a Hidden Mickey dead center at the front, easy to pick out from the riverbank. A matching one sits on the other end of the ironwork.",
     "whereToLook": {
       "scene": "The Mark Twain's top deck ironwork, viewed from the riverbank or the dock",
@@ -16372,7 +16407,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0089",
     "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Mark-Twain3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "marrakesh-restaurant-anteroom-painting-mickey",
@@ -16470,6 +16505,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 2,
     "description": "Near the end of the queue, a blue car hood hangs on the wall to the right. Its painted design hides a classic Hidden Mickey near the bottom edge.",
     "whereToLook": {
       "scene": "The last stretch of the queue before loading, the wall on the right",
@@ -16493,7 +16529,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0003",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Maters-Junkyard2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "maters-junkyard-rafters-hubcaps-mickey",
@@ -16510,6 +16546,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "The junkyard queue is hung with spare parts, and three hubcaps up in the rafters are mounted together as a classic Hidden Mickey, one large with two smaller ones above it as ears.",
     "whereToLook": {
       "scene": "The covered queue, the rafters overhead on the right side",
@@ -16533,7 +16570,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0002",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Maters-Junkyard1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "maters-junkyard-ride-barrels-mickey",
@@ -16868,6 +16905,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Easy",
     "areaContext": "Lobby",
+    "sceneOrder": 3,
     "description": "An odd surrealist painting hangs in Mickey's living room, and its floating subject is Mickey himself, drifting through a dreamscape.",
     "whereToLook": {
       "scene": "Mickey's living room, the surrealist painting on the wall",
@@ -16891,7 +16929,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0200",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House7",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "mickeys-house-mouse-odyssey-publisher-mark-mickeys",
@@ -16908,6 +16946,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 2,
     "description": "In the room before the living room, where the radio is, a green bookshelf holds a book titled 2001 A Mouse Odyssey. Its publisher's mark is two Mickey heads.",
     "whereToLook": {
       "scene": "The room with the radio, before the living room, the green bookshelf",
@@ -16931,7 +16970,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0197",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "mickeys-house-movie-barn-mirror-sorcerer-mickey",
@@ -16948,6 +16987,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 10,
     "description": "Near the entrance to Mickey's Movie Barn hangs a mirror with a trick. Wait a few seconds and Sorcerer Mickey's head fades into the glass, then fades out again. He cycles roughly every ten seconds.",
     "whereToLook": {
       "scene": "The mirror near the entrance to Mickey's Movie Barn",
@@ -16972,7 +17012,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0207",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House6",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "mickeys-house-my-fair-mouse-publisher-mark-mickey",
@@ -16989,6 +17029,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 4,
     "description": "On the living room bookshelf, the book My Fair Mouse carries a Mickey as its publisher's mark on the binding.",
     "whereToLook": {
       "scene": "The living room bookshelf",
@@ -17012,7 +17053,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0199",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "mickeys-house-my-life-with-walt-publisher-mark-mickey",
@@ -17029,6 +17070,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 5,
     "description": "Entering the piano room, look right at the big bookcase. The book titled My Life With Walt has a Hidden Mickey for its publisher's mark.",
     "whereToLook": {
       "scene": "The piano room, the big bookcase on the right as you enter",
@@ -17052,7 +17094,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0206",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House9",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "mickeys-house-piano-room-thin-green-book-spine-mickey",
@@ -17069,6 +17111,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 6,
     "description": "In the piano room, the bookcase on the right holds Pluto's Republic. Just left of it is a thin green book with a yellow Mickey at the top of its spine.",
     "whereToLook": {
       "scene": "The piano room, the bookcase on the right",
@@ -17092,7 +17135,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0201",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House10",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "mickeys-house-player-piano-roll-donald-hole",
@@ -17109,6 +17152,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 8,
     "description": "The holes punched in the player piano's paper roll are mostly Mickeys, but on the right side of the roll one hole is shaped like Donald Duck. You can only see it by looking in from the right edge of the glass toward the middle, and the roll keeps turning, so it comes and goes.",
     "whereToLook": {
       "scene": "The player piano, viewed through the glass from the right side",
@@ -17133,7 +17177,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0203",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House4",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "mickeys-house-see-you-next-squeak-publisher-mark-mickey",
@@ -17150,6 +17194,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 1,
     "description": "On the green bookshelf to the left as you enter the house, an orange book titled See You Next Squeak has a Mickey publisher's mark at the bottom of its spine.",
     "whereToLook": {
       "scene": "The green bookshelf on the left just inside the entrance",
@@ -17173,7 +17218,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0198",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House8",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "mickeys-house-ten-years-bookcase-red-book-yellow-mickey",
@@ -17190,6 +17235,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 7,
     "description": "Just past the piano, the bookcase that holds Ten Years Before The Mouse has a red book at its far left with a large yellow classic Mickey on the spine. It is bigger than the yellow Mickey on the thin green book nearby.",
     "whereToLook": {
       "scene": "The bookcase just past the piano, the one with Ten Years Before The Mouse",
@@ -17213,7 +17259,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0205",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House11",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "midway-mania-dino-darts-volcano-balloon-mickey",
@@ -17230,6 +17276,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "In the Dino Darts game, a 3D Mickey hides behind one of the balloons at the base of the volcano. Pop the middle 100-point balloon on the second tier and there he is.",
     "whereToLook": {
       "scene": "The Dino Darts game, the balloons at the base of the volcano",
@@ -17254,7 +17301,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0076",
     "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#Midway-Mania3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "midway-mania-exit-rug-game-box-ovals-mickey",
@@ -17351,6 +17398,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "During the practice round, when you are throwing pies at the characters, look to the sides of the screen. A pie there carries three dollops of whipped cream arranged as a Mickey.",
     "whereToLook": {
       "scene": "The practice round at the start of the ride, the edges of the screen",
@@ -17374,7 +17422,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0075",
     "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#Midway-Mania6",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "midway-mania-queue-trixie-spots-mickey",
@@ -18036,6 +18084,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 9,
     "description": "The holes punched in the player piano's paper roll are mostly classic Mickeys, but on the left side of the roll one hole is shaped like Goofy. You can only see it by looking in from the left edge of the glass toward the middle, which is why most visitors only ever notice the Mickeys. Donald has his own hole on the right side.",
     "whereToLook": {
       "scene": "The player piano, viewed through the glass from the left side",
@@ -18063,7 +18112,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0202",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House3",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "nemo-submarine-observation-outpost-locker-105-mickey",
@@ -18561,6 +18610,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Hard",
     "areaContext": "Shop",
+    "sceneOrder": 2,
     "description": "The Welte Orchestrion at the back of the Penny Arcade has a small sign at its lower right telling you when the next tune plays. At the top center of that sign is a very tiny Hidden Mickey.",
     "whereToLook": {
       "scene": "The Welte Orchestrion at the back of the Penny Arcade",
@@ -18584,7 +18634,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0019",
     "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Arcade1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "penny-arcade-pinocchio-game-panel-mickey",
@@ -18601,6 +18651,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
+    "sceneOrder": 1,
     "description": "A quarter lets you pull Pinocchio's strings on a themed arcade game worked by four buttons. On the control panel, under the title and between the buttons, sits a decorative Mickey.",
     "whereToLook": {
       "scene": "The Pinocchio marionette game in the Penny Arcade",
@@ -18624,7 +18675,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0020",
     "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Arcade2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "photopass-studio-left-column-mickey",
@@ -19195,6 +19246,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 4,
     "description": "Midway through the ride, on the right, two black cats stand with arched backs on a pair of barrels, across from the singing pirates and the donkey braying through the Dutch door. A spotlight throws their shadows into a dog's silhouette with long droopy ears. Half the reports say Pluto, half say Goofy.",
     "whereToLook": {
       "scene": "The two barrels on the right, across from the singing pirates and the braying donkey",
@@ -19218,7 +19270,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0068",
     "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "pirates-bedroom-harpsichord-chair-back-mickey",
@@ -19235,6 +19287,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "After the storm room, a bedroom on the left holds a skeleton in a bed with a harpsichord beside it. Between the bed and the harpsichord, a chair sits at a table, and a detailed Hidden Mickey is carved into the very top of the chair's back. The scene's lighting has been dimmed, which makes it a hunt.",
     "whereToLook": {
       "scene": "The bedroom scene on the left after the storm room, between the bed and the harpsichord",
@@ -19259,7 +19312,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0064",
     "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pirates-3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "pirates-captains-quarters-goofy-rock",
@@ -19276,6 +19329,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "After the first drop, near the standing skeleton pirate with a bird on his head, a big rock juts out over the water. Look up and it is unmistakably Goofy's head in profile. Cast members call it the Goofy Rock.",
     "whereToLook": {
       "scene": "The caverns after the first drop, around the standing skeleton with the bird",
@@ -19299,7 +19353,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0065",
     "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "pirates-exit-bells-mickey",
@@ -19357,6 +19411,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 8,
     "description": "At the end of the ride, as you pass the small island on your right, a barrel sits under a net. A Hidden Mickey is right at the top of the barrel.",
     "whereToLook": {
       "scene": "The little island on the right at the end of the ride",
@@ -19380,7 +19435,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0071",
     "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pirates-5",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "pirates-final-ramp-gold-breastplate-crest-mickey",
@@ -19397,6 +19452,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 7,
     "description": "Right before the final ramp up to the exit, after the burning town, a pirate lies on a cannon on the left. Behind him hang two breastplates, silver on the left and gold on the right, flanked by helmets. The crest on the gold one has a Mickey head dead center. The scene has been dimmed, so it takes effort now.",
     "whereToLook": {
       "scene": "Just before the final uphill ramp, the pirate lying on a cannon on the left",
@@ -19421,7 +19477,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0069",
     "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pirates-4",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "pirates-fort-wall-cannonball-holes-mickey",
@@ -19438,6 +19494,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 3,
     "description": "In the battle scene where the ship bombards the fort, cannonballs have punched holes in the damaged wall on your right. Up near the cannon, one large hole with two smaller holes above it reads as a Mickey, but only at a slight angle, best just after you pass the ship and make the right turn.",
     "whereToLook": {
       "scene": "The fort wall on the right during the ship-versus-fort battle",
@@ -19462,7 +19519,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0066",
     "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pirates-2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "pirates-jail-scene-sid-caesar-pirate",
@@ -19479,6 +19536,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 6,
     "description": "In the jail scene near the end, the prisoner closest to the dog with the keys is a likeness of comedian Sid Caesar. He was a friend of Walt's and of the ride's Imagineers, and they modeled a pirate on him as an inside joke.",
     "whereToLook": {
       "scene": "The jail scene, the prisoners coaxing the dog with the keys",
@@ -19505,7 +19563,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0070",
     "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "pirates-sitting-pirate-cat-shadows-goofy",
@@ -19522,6 +19580,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 5,
     "description": "Two cats mew at a seated pirate, and as you float past, their shadows merge on the wall. It was first reported as a Mickey; later visits settled on Goofy's head.",
     "whereToLook": {
       "scene": "The seated pirate with the two cats",
@@ -19545,7 +19604,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0067",
     "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "pixar-place-check-in-parking-green-pole-mickey",
@@ -19801,7 +19860,7 @@ export const entries: HiddenMickeyEntry[] = [
     "entryType": "FIND",
     "locationType": "Outdoor",
     "difficulty": "Hard",
-    "areaContext": "Walkway",
+    "areaContext": "Entrance",
     "description": "The path toward the Pixie Hollow entrance is lined with bonsai trees on the left. One is trained into three balls of foliage, and from the right spot on the path the three read as a Mickey head.",
     "whereToLook": {
       "scene": "The approach path to Pixie Hollow, the bonsai trees on the left",
@@ -19826,7 +19885,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0097",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Pixie-Hollow2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "pixie-hollow-welcome-signpost-bark-mickey",
@@ -20410,6 +20469,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "In the tire shop scene, the window behind Luigi is painted with images, and several of them include Hidden Mickeys. Nobody has settled on a count, only that there are a lot.",
     "whereToLook": {
       "scene": "Inside Casa Della Tires on the ride, the window behind Luigi",
@@ -20433,7 +20493,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0017",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#RS-Racers5",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "radiator-springs-racers-ramones-fuse-box-mickey",
@@ -20450,6 +20510,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "If your car is sent to Ramone's House of Body Art for a paint job, look at the shop's right rear wall. A fuse box there carries a pinstriped Hidden Mickey.",
     "whereToLook": {
       "scene": "Inside Ramone's on the ride, during the paint job",
@@ -20473,7 +20534,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0018",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#RS-Racers4",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "radiator-springs-racers-red-tool-chest-mickey",
@@ -20490,6 +20551,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "If your car is sent through Guido's Casa Della Tires for new tires, watch the shop as you leave for the race. A large red tool chest behind a rack of tires carries a pinstriped Hidden Mickey.",
     "whereToLook": {
       "scene": "Inside Casa Della Tires on the ride, after the tire change, heading out to the race",
@@ -20513,7 +20575,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0016",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#RS-Racers3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "railroad-display-room-backyard-railway-equipment",
@@ -20570,6 +20632,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Hard",
     "areaContext": "Shop",
+    "sceneOrder": 3,
     "description": "A blue hood with orange flames hides a Hidden Mickey inside the flames themselves. The licks of fire disguise it well.",
     "whereToLook": {
       "scene": "The custom hoods on display inside the shop, the blue one with orange flames",
@@ -20593,7 +20656,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0022",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-4",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "ramones-shop-brown-pinstripe-hood-mickey",
@@ -20610,6 +20673,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Hard",
     "areaContext": "Shop",
+    "sceneOrder": 3,
     "description": "Among the custom hoods on display inside the shop, the brown one is finished in pinstripe, and dead center in the design the stripes draw a tiny classic Hidden Mickey. It is the smallest of the hood Mickeys.",
     "whereToLook": {
       "scene": "The custom hoods on display inside the shop, the brown pinstriped one",
@@ -20633,7 +20697,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0023",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-5",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "ramones-shop-geometric-hood-mickey",
@@ -20650,6 +20714,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
+    "sceneOrder": 3,
     "description": "The geometric hood on display inside the shop builds a classic Hidden Mickey out of its own pattern. It sits near the upper right corner, away from the center of the design where the eye lands first.",
     "whereToLook": {
       "scene": "The custom hoods on display inside the shop, the geometric one",
@@ -20673,7 +20738,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0021",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "ramones-shop-lace-hood-mickey",
@@ -20690,6 +20755,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
+    "sceneOrder": 3,
     "description": "One of the custom hoods inside the shop is painted to look like lace. The pattern repeats across the hood, and at one point the repeat breaks so that three circles sit together as a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "The custom hoods on display inside the shop, the lace-patterned one",
@@ -20713,7 +20779,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0020",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "ramones-shop-left-room-wall-decal-mickeys",
@@ -20730,6 +20796,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Easy",
     "areaContext": "Shop",
+    "sceneOrder": 2,
     "description": "Entering from the town center, the room on your left has four matching decals on its wooden walls, and each has a Mickey in the middle of the design.",
     "whereToLook": {
       "scene": "Inside the shop, the room to the left as you enter from the town center",
@@ -20753,7 +20820,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0027",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-9",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "ramones-shop-orange-flame-hood-mickey",
@@ -20770,6 +20837,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Hard",
     "areaContext": "Shop",
+    "sceneOrder": 3,
     "description": "The orange flame hood holds the hardest Mickey in the shop. It is buried in the flames and takes patience to pick out.",
     "whereToLook": {
       "scene": "The custom hoods on display inside the shop, the orange flame one",
@@ -20793,7 +20861,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0025",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-7",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "ramones-shop-register-hood-mickey",
@@ -20810,6 +20878,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
+    "sceneOrder": 4,
     "description": "Ramone's shop displays custom-painted car hoods as art, and each design hides a Mickey. The hood mounted behind the cash register has a classic Hidden Mickey painted into it.",
     "whereToLook": {
       "scene": "Inside the shop, the hood displayed behind the cash register",
@@ -20833,7 +20902,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0019",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "ramones-shop-white-flame-hood-mickey",
@@ -20850,6 +20919,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
+    "sceneOrder": 3,
     "description": "On the white hood with the flame paint job, an orange stripe edges the design, and a classic Hidden Mickey sits just inside it, three circles right beside the line.",
     "whereToLook": {
       "scene": "The custom hoods on display inside the shop, the white one with flames",
@@ -20873,7 +20943,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0024",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-6",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "ramones-shop-yellow-display-splatter-mickey",
@@ -20890,6 +20960,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
+    "sceneOrder": 1,
     "description": "The sales displays in Ramone's are splattered with paint, and several hide Mickeys in the splatter. The confirmed one is on a yellow display near the entrance closest to the town center.",
     "whereToLook": {
       "scene": "The merchandise displays inside the shop, near the door that faces the town center",
@@ -20914,7 +20985,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0026",
     "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-8",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "red-car-trolley-entrance-station-pillar-stone-mickey",
@@ -23662,6 +23733,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Easy",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "Just before the first big room, several balloons hang on your right, and one of the white ones carries a Mickey head. It is almost too plain to count, except that the ringing bells on the left are there to pull your eyes away from it.",
     "whereToLook": {
       "scene": "The entry corridor before the first big room, the balloons on the right",
@@ -23685,7 +23757,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0127",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World4",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "small-world-holiday-clock-face-santa-hat-mickey",
@@ -23742,6 +23814,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "In the England scene, a Cinderella doll on the left of the boat has a Mickey on her skirt. The thread spools near her are green and red, which marks this as part of the holiday overlay.",
     "whereToLook": {
       "scene": "The England scene, left side of the boat",
@@ -23765,7 +23838,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0128",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World7",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "small-world-holiday-peace-room-holly-berries-mickey",
@@ -23782,6 +23855,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Easy",
     "areaContext": "Ride",
+    "sceneOrder": 3,
     "description": "In the Peace on Earth room of the holiday overlay, as you leave, look up and to your left. Three holly berries form an obvious Hidden Mickey.",
     "whereToLook": {
       "scene": "The Peace on Earth finale room, on the way out",
@@ -23805,7 +23879,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0129",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "small-world-holiday-topiary-bear-muzzle-mickey",
@@ -23822,6 +23896,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 4,
     "description": "During the holidays, the topiary bear outside the ride building has its muzzle lit as a Hidden Mickey. It is on the right of the boat just after you pass under the pedestrian bridge, before you enter the building.",
     "whereToLook": {
       "scene": "The outdoor stretch of the ride, just past the pedestrian bridge, right side",
@@ -23845,7 +23920,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0126",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "smugglers-freighter-cockpit-miniature-ship",
@@ -23982,6 +24057,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "In the mine, as you approach the mine car heaped with jewels on the left, a Tinker Bell hides on the wall behind the car, to the left of the red jewel a dwarf is holding up.",
     "whereToLook": {
       "scene": "The mine scene, the jewel-filled mine car on the left",
@@ -24005,7 +24081,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0100",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "snow-white-staircase-turtle-shell-mickey",
@@ -24022,6 +24098,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "In the second room, Snow White climbs the stairs with a turtle following her. The turtle's shell is patterned with one large circle ringed by smaller ones, and the two at the top sit on the big one as ears.",
     "whereToLook": {
       "scene": "Second room of the ride, the staircase scene with the turtle",
@@ -24045,7 +24122,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0098",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Snow-White1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "snow-white-turret-wicked-queen-curtains",
@@ -24227,6 +24304,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Easy",
     "areaContext": "Ride",
+    "sceneOrder": 9,
     "description": "Soarin' Across America ends over Disneyland, down Main Street and across Sleeping Beauty Castle, and the fireworks finale survived the new film. One huge burst with two small ones beside it makes the same Mickey that closed Soarin' Over California and Soarin' Around the World.",
     "whereToLook": {
       "scene": "The Disneyland finale of Soarin' Across America, the castle fireworks",
@@ -24252,7 +24330,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0082",
     "sourceUrl": "https://www.disneytouristblog.com/soarin-across-america-ride-review-good-bad-ugly-usa-250th-anniversary/",
     "createdAtISO": "2026-10-09T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "soarin-across-america-los-angeles-sorcerer-hat",
@@ -24269,6 +24347,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 4,
     "description": "The Los Angeles scene crosses Griffith Observatory and the Hollywood sign, and the Walt Disney Studios lot in Burbank passes below. The Sorcerer Mickey hat on the Animation Building is a real sculpture on the real lot. The scene is the same in both parks; only the finale differs.",
     "whereToLook": {
       "scene": "The Los Angeles scene, after the Hollywood sign",
@@ -24293,7 +24372,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0080",
     "sourceUrl": "https://www.disneytouristblog.com/soarin-across-america-ride-review-good-bad-ugly-usa-250th-anniversary/",
     "createdAtISO": "2026-10-09T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "soarin-around-the-world-finale-fireworks-mickey",
@@ -24310,6 +24389,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 9,
     "description": "Soarin' Around the World ended over Disneyland. After the castle, Tinker Bell set off the fireworks, and about halfway through, in the middle of the screen, one huge burst with two small ones beside it made a Mickey. Around the World is not showing at Disney California Adventure right now: the park ran its Soarin' Over California encore through July 1, 2026, and Soarin' Across America took over the next day.",
     "whereToLook": {
       "scene": "The Disneyland finale of Soarin' Around the World, the fireworks",
@@ -24334,7 +24414,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0060",
     "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "soarin-monument-valley-hot-air-balloons-mickey",
@@ -24351,6 +24431,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 3,
     "description": "Flying over Monument Valley in Soarin' Around the World, three hot air balloons drifted into line and formed a Hidden Mickey for a moment. Around the World is not showing at Disney California Adventure right now: Soarin' Across America took over on July 2, 2026, after the Soarin' Over California encore.",
     "whereToLook": {
       "scene": "The Monument Valley segment of Soarin' Around the World",
@@ -24375,7 +24456,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0059",
     "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "soarin-over-california-finale-fireworks-mickey",
@@ -24392,6 +24473,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 9,
     "description": "Soarin' Over California ends over Disneyland at night with the holiday parade on Main Street. When the castle fireworks start, one large burst with two small ones beside it, a little left of center, forms one of the cleanest firework Mickeys anywhere.",
     "whereToLook": {
       "scene": "The Disneyland finale of Soarin' Over California, the castle fireworks",
@@ -24416,7 +24498,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0063",
     "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-5",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "soarin-over-california-golf-ball-mickey",
@@ -24433,6 +24515,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "Over Palm Springs in Soarin' Over California, a golf ball comes flying straight at you. There is a Mickey on the ball. It is gone in an instant, so it may take a second ride.",
     "whereToLook": {
       "scene": "Soarin' Over California, the Palm Springs golf course",
@@ -24457,7 +24540,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0062",
     "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-4",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "soarin-over-california-golf-cart-mickey-balloon",
@@ -24474,6 +24557,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "In Soarin' Over California, which returns for limited runs, the flight toward the golf course passes a golf cart in the lower left. The man standing on the far side of the cart holds a small Mickey balloon.",
     "whereToLook": {
       "scene": "Soarin' Over California, approaching the golf course, lower left of the screen",
@@ -24498,7 +24582,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0061",
     "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-7",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "soarin-preshow-aviator-shirt-grumpy",
@@ -24515,6 +24599,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Pre-show",
     "difficulty": "Easy",
     "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "The same little aviator in the pre-show video wears Grumpy across his chest, looking exactly as pleased as usual.",
     "whereToLook": {
       "scene": "The pre-show, the classic safety video after the new introduction, the little aviator used as the example",
@@ -24539,7 +24624,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0058",
     "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "soarin-preshow-aviator-shorts-mickey",
@@ -24556,6 +24641,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Pre-show",
     "difficulty": "Easy",
     "areaContext": "Queue",
+    "sceneOrder": 2,
     "description": "The pre-show now opens with a new Captain Patrick introduction, then hands off to the classic safety video, where a little aviator is the example passenger. Look at his shorts. Mickey is right there on them.",
     "whereToLook": {
       "scene": "The pre-show, the classic safety video after the new introduction, the little aviator used as the example",
@@ -24580,7 +24666,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0057",
     "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-6",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "space-coaster-exit-diorama-robot-dog-tag",
@@ -25770,6 +25856,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Loading",
+    "sceneOrder": 7,
     "description": "The loading area floor is splattered with blobs of cartoon paint. In the accessible boarding area, one grouping is a Hidden Mickey.",
     "whereToLook": {
       "scene": "The accessible boarding area at the load platform",
@@ -25794,7 +25881,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0153",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway8",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-band-concert-drum-dirt-mickey",
@@ -25811,6 +25898,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Hard",
     "areaContext": "Queue",
+    "sceneOrder": 4,
     "description": "A big bass drum from The Band Concert sits in the queue, and the smudge of dirt on its head is a Mickey. Up close it dissolves into noise. Step back to the far left of the queue and it snaps into shape.",
     "whereToLook": {
       "scene": "The Band Concert bass drum in the queue",
@@ -25835,7 +25923,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0138",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway52",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-cactus-room-blue-cactus-stitch",
@@ -25852,6 +25940,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 4,
     "description": "Entering the cactus room, look straight ahead for a lone blue cactus with a stitch on its right side. That is Experiment 626, Stitch himself, hiding out on the railway.",
     "whereToLook": {
       "scene": "The cactus room, straight ahead as you enter",
@@ -25875,7 +25964,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0162",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway49",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-cactus-room-mickey-cacti",
@@ -25892,6 +25981,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Easy",
     "areaContext": "Ride",
+    "sceneOrder": 3,
     "description": "In the first room after the train splits up, the cactus on the wall to the right of the exit is a dead ringer for Mickey. The room is full of Mickey-shaped cacti, and they all count together as one find.",
     "whereToLook": {
       "scene": "The first room after the train breaks apart, the wall right of the exit",
@@ -25915,7 +26005,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0163",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway13",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-carnival-frontier-toss-targets-mickey",
@@ -25932,6 +26022,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 9,
     "description": "Heading for the carnival room exit, look left for the Frontier Toss game, to the left of the Bounce Haus. Three of its targets form a Mickey.",
     "whereToLook": {
       "scene": "The carnival room near the exit, the Frontier Toss booth on the left",
@@ -25955,7 +26046,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0168",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway15",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-carnival-mirror-maze-mm-letters",
@@ -25972,6 +26063,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 6,
     "description": "As you enter the carnival room, the Mirror Maze attraction is on the right, and the letters MM sit above its doors. Mickey Mouse, or Mickey and Minnie. Either way they are initials hiding in plain sight.",
     "whereToLook": {
       "scene": "Entering the carnival room, the Mirror Maze on the right",
@@ -25995,7 +26087,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0164",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway39",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-carnival-popcorn-box-kernel-mickey",
@@ -26012,6 +26104,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 8,
     "description": "A popcorn box in the carnival room has one Mickey kernel in its top left, just before the tornado kicks off. Unlike the El CapiTOON logo, this Mickey sits up near the top of the box. You only get the angle if your car enters the carnival from the far left side.",
     "whereToLook": {
       "scene": "The carnival room, the popcorn box, just before the tornado",
@@ -26036,7 +26129,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0167",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway56",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-carnival-sold-out-sign-yellow-mickey",
@@ -26053,6 +26146,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 5,
     "description": "Entering the carnival room, balloons float ahead of you beside a Sold Out sign. Just above the sign, a small yellow Mickey hides among the signage, sometimes half covered by orange lights.",
     "whereToLook": {
       "scene": "Entering the carnival room, the balloons and the Sold Out sign ahead",
@@ -26076,7 +26170,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0165",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway47",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-carnival-ticket-booth-rolls-mickey",
@@ -26093,6 +26187,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 7,
     "description": "In the carnival room, the ticket booth to the left of Donald's hot dog stand has three rolls of tickets stacked as a Hidden Mickey.",
     "whereToLook": {
       "scene": "The carnival room, the ticket booth left of Donald's hot dog booth",
@@ -26116,7 +26211,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0166",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway14",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-cashier-popcorn-bowl-mickeys",
@@ -26133,6 +26228,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Easy",
     "areaContext": "Lobby",
+    "sceneOrder": 8,
     "description": "The popcorn display at the snack bar cashier is full of Mickeys, both sculpted three-dimensional heads and flat classic groupings of kernels. There are too many to count, so the whole bowl is one find.",
     "whereToLook": {
       "scene": "The popcorn display at the snack bar cashier",
@@ -26156,7 +26252,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0147",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway24",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-city-clothesline-mickey-shirt",
@@ -26173,6 +26269,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 12,
     "description": "Above Donald's delivery truck on the left side of the city scene, an open window has a clothesline strung from it, and a Mickey Mouse shirt is hanging on the line. The scene is dim, so it reads better on a night ride when your eyes are already adjusted.",
     "whereToLook": {
       "scene": "The city scene, above Donald's delivery truck on the left",
@@ -26196,7 +26293,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0175",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway43",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-city-ice-cream-scoops-mickey",
@@ -26213,6 +26310,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 11,
     "description": "In the same city scene, an ice cream shop sits to the right of Pete, and its scoops are stacked as a Hidden Mickey.",
     "whereToLook": {
       "scene": "The city scene with Pete's jackhammer, the ice cream shop to his right",
@@ -26236,7 +26334,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0174",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway21",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-city-laundry-soap-billboard-mickey",
@@ -26253,6 +26351,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 10,
     "description": "In the city scene where Pete runs the jackhammer, a laundry soap billboard tops the building to his left. There is a Hidden Mickey in the billboard art.",
     "whereToLook": {
       "scene": "The city scene with Pete's jackhammer, the building to his left",
@@ -26276,7 +26375,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0173",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway20",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-control-panel-scrollwork-mickeys",
@@ -26293,6 +26392,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Hard",
     "areaContext": "Loading",
+    "sceneOrder": 4,
     "description": "The cast member control panels at the load station carry a decorative plaque with ornate scrollwork, and two Mickeys are tucked into the flourishes at either end of it.",
     "whereToLook": {
       "scene": "The cast member control panel at the load station",
@@ -26316,7 +26416,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0156",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway11",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-daisy-studio-ballet-poster-frame-mickey",
@@ -26333,6 +26433,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 13,
     "description": "Daisy's studio is hung with posters for ballet productions. The one on the wall behind you while you waltz advertises Ro-Mallard and Juli-Egg, and the top of its frame is a Mickey.",
     "whereToLook": {
       "scene": "Daisy's dance studio, the wall behind you during the waltz",
@@ -26356,7 +26457,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0177",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway46",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-daisy-studio-disco-ball-light-mickeys",
@@ -26373,6 +26474,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 16,
     "description": "During the conga in Daisy's studio, a disco ball spins on the right. Mixed into the white spots of light it throws are several Mickey heads, and they fly past fast.",
     "whereToLook": {
       "scene": "Daisy's dance studio during the conga, the disco ball on the right",
@@ -26396,7 +26498,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0179",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway18",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-daisy-studio-lower-wall-mickeys",
@@ -26413,6 +26515,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 14,
     "description": "Inside Daisy's dance studio, the design along the lower walls repeats several Mickeys. They sit just above the floorboards toward the front of the studio, below the mirror, turned ninety degrees.",
     "whereToLook": {
       "scene": "Daisy's dance studio, the lower walls toward the front below the mirror",
@@ -26436,7 +26539,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0176",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway28",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-daisy-studio-mirror-flower-mickey",
@@ -26453,6 +26556,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 15,
     "description": "When Daisy's studio switches from the waltz to the conga, the flowers along the right side of the big mirror light up, and one of them has a Mickey at its center.",
     "whereToLook": {
       "scene": "Daisy's dance studio during the conga, the right side of the mirror",
@@ -26476,7 +26580,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0178",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway17",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-dresser-mirror-lonesome-ghost",
@@ -26493,6 +26597,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Hard",
     "areaContext": "Queue",
+    "sceneOrder": 8,
     "description": "Past the Sorcerer's Apprentice, the queue reaches a dresser with a mirror. Wait by it long enough and the Lonesome Ghost from the 1937 short appears in the glass. On a good day he even sets the plane going.",
     "whereToLook": {
       "scene": "The dresser with the mirror, just past the Sorcerer's Apprentice",
@@ -26517,7 +26622,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0140",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway37",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-el-capitoon-popcorn-logo-mickey",
@@ -26534,6 +26639,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Easy",
     "areaContext": "Entrance",
+    "sceneOrder": 1,
     "description": "The El CapiTOON Theater's logo is a popcorn box drawn like a strip of film with the letters E and C out front. On the left side of the box, three kernels are stacked as a Mickey. The logo repeats around the attraction, on the trash cans at the entrance and again inside the theater, and all of them count as the one find.",
     "whereToLook": {
       "scene": "The El CapiTOON logo, starting with the trash cans at the entrance",
@@ -26557,7 +26663,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0132",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway42",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-electrified-potato-cord-mickey",
@@ -26574,6 +26680,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 6,
     "description": "Behind and to the right of the electrified potato prop, a yellow electrical cord is looped into a Hidden Mickey.",
     "whereToLook": {
       "scene": "The electrified potato in the snack bar area",
@@ -26597,7 +26704,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0145",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway40",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-exit-fishing-hole-sign-mickey",
@@ -26614,6 +26721,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 36,
     "description": "Right before the car enters the unload room, during the fireworks, a multi-directional signpost stands on the right. On the arm that reads Fishing Hole, the letter O has been swapped for a Mickey.",
     "whereToLook": {
       "scene": "Just before the unload room during the fireworks, the signpost on the right",
@@ -26637,7 +26745,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0195",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway50",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-factory-back-wall-lollipop-mickey",
@@ -26654,6 +26762,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 27,
     "description": "Toward the back wall on the right side of the factory, a yellow Mickey head rotates on a pole like a lollipop.",
     "whereToLook": {
       "scene": "The factory room, the right side toward the back wall",
@@ -26677,7 +26786,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0186",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway31",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-factory-bellows-panel-yellow-mickey",
@@ -26694,6 +26803,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 26,
     "description": "In the factory room, a yellow Mickey on a red background sits on the right-hand panel just left of the bellows.",
     "whereToLook": {
       "scene": "The factory room, the panel on the right just left of the bellows",
@@ -26717,7 +26827,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0181",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway23",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-factory-black-box-yellow-circles-inverted-mickey",
@@ -26734,6 +26844,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 23,
     "description": "On the right side of the factory, the black box with the long belt has three yellow circles near its bottom right that swing together for a moment into a Mickey. There are two sets. This is the upside-down one on top.",
     "whereToLook": {
       "scene": "The factory room, the black box with the long belt on the right",
@@ -26757,7 +26868,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0183",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway54",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-factory-black-box-yellow-circles-upright-mickey",
@@ -26774,6 +26885,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 24,
     "description": "Just below the inverted set on the same black box, a second trio of yellow circles comes together right side up.",
     "whereToLook": {
       "scene": "The factory room, the black box with the long belt on the right",
@@ -26797,7 +26909,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0184",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway55",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-factory-entrance-banner-mickey-ears-bite",
@@ -26814,6 +26926,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 21,
     "description": "Just before the factory room, a string of triangular pennants hangs over the track. One pennant has a chunk missing, and the missing piece is shaped like Mickey ears.",
     "whereToLook": {
       "scene": "The string of pennants over the track right before the factory room",
@@ -26837,7 +26950,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0180",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway61",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-factory-final-left-panel-rotating-mickey",
@@ -26854,6 +26967,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 30,
     "description": "On the final panel on the left before the front of the Smasher, another Mickey head rotates.",
     "whereToLook": {
       "scene": "The factory room, the last panel on the left before the Smasher's front",
@@ -26877,7 +26991,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0189",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway33",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-factory-flywheels-belts-mickey",
@@ -26894,6 +27008,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 29,
     "description": "On top of the tall panel between the furnace and the Smasher, three flywheels joined by belts form a Mickey.",
     "whereToLook": {
       "scene": "The factory room, the top of the tall panel between the furnace and the Smasher",
@@ -26917,7 +27032,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0187",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway35",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-factory-gear-boxes-mickey-head-shadow",
@@ -26934,6 +27049,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 25,
     "description": "Below the black box with the long belt, two large gear boxes sit on the right side of the factory. At their base, a Mickey head throws a shadow of mouse ears. The head is partly tucked away, so the left side of the vehicle has the better look.",
     "whereToLook": {
       "scene": "The factory room, the two large gear boxes below the black box on the right",
@@ -26957,7 +27073,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0185",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway53",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-factory-grey-panel-spinner-mickey",
@@ -26974,6 +27090,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 22,
     "description": "Near the center right of the factory room, a grey panel feeds a long belt off to the right. Just above the panel, a spinner is shaped as a Mickey head.",
     "whereToLook": {
       "scene": "The factory room, the grey panel with the long belt at center right",
@@ -26997,7 +27114,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0182",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway30",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-factory-smasher-sign-wheel-center-mickey",
@@ -27014,6 +27131,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 31,
     "description": "A wheel turns on the front left panel of the factory, just left of the sign reading The Smasher. There is a Mickey at the hub of the wheel.",
     "whereToLook": {
       "scene": "The factory room, the front left panel beside the Smasher sign",
@@ -27037,7 +27155,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0190",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway34",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-factory-tall-panel-rotating-mickey",
@@ -27054,6 +27172,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 28,
     "description": "The same tall panel between the furnace and the Smasher has a rotating Mickey head on its face.",
     "whereToLook": {
       "scene": "The factory room, the tall panel between the furnace and the Smasher",
@@ -27077,7 +27196,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0188",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway32",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-finale-fireworks-wall-mickey",
@@ -27094,6 +27213,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 35,
     "description": "After the ukulele scene, fireworks burst against the wall, and one burst is a Mickey. It is quick, and if you are not watching the sky you will miss it.",
     "whereToLook": {
       "scene": "After the ukulele scene, the fireworks on the wall",
@@ -27117,7 +27237,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0193",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway63",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-first-turn-paint-cans-inverted-mickey",
@@ -27134,6 +27254,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "After the first left turn, while the train is still in one piece, a stack of paint cans holds an upside-down Hidden Mickey.",
     "whereToLook": {
       "scene": "Right after the first left turn, before the train breaks apart",
@@ -27157,7 +27278,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0161",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway12",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-lane-2-floor-paint-mickey",
@@ -27174,6 +27295,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Loading",
+    "sceneOrder": 5,
     "description": "Among the paint splatters on the loading platform floor, lane 2 has its own Hidden Mickey.",
     "whereToLook": {
       "scene": "Lane 2 at the load platform",
@@ -27197,7 +27319,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0154",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway9",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-lane-7-floor-paint-mickey",
@@ -27214,6 +27336,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Loading",
+    "sceneOrder": 6,
     "description": "Lane 7 at the load platform has a Hidden Mickey in the floor paint blobs as well.",
     "whereToLook": {
       "scene": "Lane 7 at the load platform",
@@ -27237,7 +27360,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0155",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway10",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-last-room-low-blue-wall-mickey-letters",
@@ -27254,6 +27377,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 34,
     "description": "In the last room, a low blue wall on the left, right down at floor level, spells out M-I-C-K-E-Y in letters. It is across from where Mickey plays the ukulele, and only the left side of the vehicle has the view.",
     "whereToLook": {
       "scene": "The last room, the low blue wall on the left across from the ukulele",
@@ -27278,7 +27402,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0194",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway57",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-loading-rafter-back-mickey",
@@ -27295,6 +27419,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Hard",
     "areaContext": "Loading",
+    "sceneOrder": 3,
     "description": "From lanes 1 through 4, look to your upper left. On the back of the rafter carrying Minnie's name, across from the Mickey rafter, is a Mickey head.",
     "whereToLook": {
       "scene": "Lanes 1 through 4 at the load platform, the rafters to the upper left",
@@ -27318,7 +27443,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0159",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway26",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-loading-rafters-mickey-name",
@@ -27335,6 +27460,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Loading",
+    "sceneOrder": 1,
     "description": "Look up in the loading area and Mickey's name is written on the rafters overhead.",
     "whereToLook": {
       "scene": "The loading area, the rafters overhead",
@@ -27358,7 +27484,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0157",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway25",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-loading-rafters-minnie-name",
@@ -27375,6 +27501,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Loading",
+    "sceneOrder": 2,
     "description": "Minnie gets equal billing in the loading area rafters, with her name written up high across from Mickey's.",
     "whereToLook": {
       "scene": "The loading area, the rafters overhead",
@@ -27398,7 +27525,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0158",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway38",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-meeska-mooska-poster-cape-button-mickeys",
@@ -27415,6 +27542,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 2,
     "description": "The Meeska Mooska poster shows Minnie in a cape riding a vacuum cleaner. The buttons down the middle of her cape are two Hidden Mickeys.",
     "whereToLook": {
       "scene": "The Meeska Mooska movie poster in the queue",
@@ -27438,7 +27566,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0134",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway59",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-meeska-mooska-poster-cape-sash-mickeys",
@@ -27455,6 +27583,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 3,
     "description": "On the same Meeska Mooska poster, the sashes of Minnie's cape are patterned with several small Mickeys. They count together as one find.",
     "whereToLook": {
       "scene": "The Meeska Mooska movie poster in the queue",
@@ -27478,7 +27607,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0135",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway60",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-octopus-plug-pipes-mickey",
@@ -27495,6 +27624,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 20,
     "description": "After the water scene, when the octopus yanks the plug, your car turns right. In the pipes on the right as you swing back left, three pipe ends form a Hidden Mickey.",
     "whereToLook": {
       "scene": "Right after the octopus pulls the plug, the pipes on the right",
@@ -27518,7 +27648,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0172",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway19",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-park-restored-potted-plants-mickeys",
@@ -27535,6 +27665,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 32,
     "description": "Once Mickey and Minnie shut down the Smasher, the factory turns back into Runnamuck Park. Potted plants appear on the left and right above where the Smasher sign was, and the plants are trimmed into Mickeys.",
     "whereToLook": {
       "scene": "The factory after it turns back into the park, above where the Smasher sign was",
@@ -27558,7 +27689,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0191",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway62",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-plane-room-electrical-cord-mickey",
@@ -27575,6 +27706,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 7,
     "description": "In the queue room with the airplane, a book called How To Fly sits on a shelf. Behind it, an electrical cord is coiled into a Hidden Mickey.",
     "whereToLook": {
       "scene": "The queue room with the airplane, the shelf with the How To Fly book",
@@ -27598,7 +27730,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0137",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway45",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-plane-room-horseshoe-mickey",
@@ -27615,6 +27747,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 6,
     "description": "In the room with the plane, a horseshoe-shaped decoration hangs below the Sorcerer's Apprentice display, and it is shaped as a Mickey head.",
     "whereToLook": {
       "scene": "The queue room with the airplane, below the Sorcerer's Apprentice",
@@ -27638,7 +27771,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0139",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-plutos-christmas-tree-easel-mickey",
@@ -27655,6 +27788,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 9,
     "description": "In the queue room dressed for Christmas, a poster for Pluto's Christmas Tree sits on an easel. The easel itself carries a small Mickey, off to the side of the poster everyone is looking at.",
     "whereToLook": {
       "scene": "The Christmas-decorated queue room, the Pluto's Christmas Tree poster",
@@ -27678,7 +27812,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0141",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway48",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-popcorn-machine-kernel-mickeys",
@@ -27695,6 +27829,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Easy",
     "areaContext": "Lobby",
+    "sceneOrder": 9,
     "description": "To the right of the register, the popcorn machine is also loaded with Mickey kernels, sculpted heads and classic three-circle clusters alike. The machine counts as one find separate from the cashier bowl.",
     "whereToLook": {
       "scene": "The popcorn machine to the right of the snack bar register",
@@ -27718,7 +27853,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0148",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway16",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-popcorn-machine-mickey-and-minnie-pair",
@@ -27735,6 +27870,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 10,
     "description": "In the upper left of the popcorn machine, two sculpted kernels face each other: a Mickey and a Minnie, complete with her bow.",
     "whereToLook": {
       "scene": "The popcorn machine to the right of the register, upper left corner",
@@ -27758,7 +27894,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0149",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway36",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-potatoland-poster-pink-paint-mickey",
@@ -27775,6 +27911,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 1,
     "description": "The Potatoland poster hides a Mickey in pink paint at its lower right. There are two copies of the poster, one in the standby line in the theater lobby and one in the Lightning Lane, and both have it.",
     "whereToLook": {
       "scene": "The Potatoland movie poster in the theater lobby",
@@ -27798,7 +27935,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0143",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-runnamuck-park-lamppost-paint-mickey",
@@ -27815,6 +27952,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "In the opening Runnamuck Park scene, a black lamppost stands on the left. About halfway up the post, red paint blotches form a Hidden Mickey.",
     "whereToLook": {
       "scene": "The Runnamuck Park scene at the start of the ride, the black lamppost on the left",
@@ -27838,7 +27976,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0160",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway44",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-snack-bar-bbq-sauce-spill-mickey",
@@ -27855,6 +27993,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 5,
     "description": "Four big sauce bottles line the snack bar. The first is barbecue sauce with a large spill beneath it, and just below that spill is a much smaller one shaped as a Mickey.",
     "whereToLook": {
       "scene": "The four large sauce bottles in the snack bar, the barbecue bottle",
@@ -27878,7 +28017,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0151",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway51",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-snack-bar-beer-stein-tendrils-mickey",
@@ -27895,6 +28034,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 3,
     "description": "Just past the yellow sarcophagus in the snack bar, a beer stein is decorated with curling tendrils, and three of them form a Mickey.",
     "whereToLook": {
       "scene": "The snack bar, just past the yellow sarcophagus",
@@ -27918,7 +28058,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0144",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway4",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-snack-bar-condiment-containers-mickey",
@@ -27935,6 +28075,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Easy",
     "areaContext": "Lobby",
+    "sceneOrder": 4,
     "description": "As the line passes the first row of condiments in the snack bar, three containers are set out as a Hidden Mickey.",
     "whereToLook": {
       "scene": "The first row of condiments in the snack bar",
@@ -27958,7 +28099,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0150",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway6",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-snack-bar-register-steamboat-willie-date",
@@ -27975,6 +28116,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 7,
     "description": "The snack bar's two cash registers show the amounts 11.18 and 19.28. Put them together and you get November 18, 1928, the day Steamboat Willie premiered and Mickey's official birthday.",
     "whereToLook": {
       "scene": "The snack bar's two cash registers",
@@ -27998,7 +28140,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0146",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway5",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-snack-bar-sarcophagus-mickey",
@@ -28015,6 +28157,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 2,
     "description": "Entering the snack bar, a big yellow sarcophagus stands on the right of the queue. On its back, about knee height, is a Hidden Mickey.",
     "whereToLook": {
       "scene": "The snack bar entrance, the yellow sarcophagus on the right",
@@ -28038,7 +28181,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0142",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-theater-back-wall-film-reels-mickey",
@@ -28055,6 +28198,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Pre-show",
     "difficulty": "Easy",
     "areaContext": "Lobby",
+    "sceneOrder": 11,
     "description": "When you enter the theater for the cartoon, turn around. On the back wall above the doors, a large film reel with two smaller reels above it makes the least hidden Mickey in the building. It stops being hidden at all at the end of the ride, when you walk straight toward it on the way to the shop.",
     "whereToLook": {
       "scene": "The theater where the cartoon plays, the wall behind you",
@@ -28078,7 +28222,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0152",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway7",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-theater-door-portholes-mickey",
@@ -28095,6 +28239,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Easy",
     "areaContext": "Queue",
+    "sceneOrder": 5,
     "description": "The padded red theater doors throughout the queue each pair two round porthole windows with a round steel push plate below, and the three circles make a Mickey face across the double doors.",
     "whereToLook": {
       "scene": "Any of the padded red double doors along the queue",
@@ -28118,7 +28263,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0136",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway64",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-ukulele-pond-lily-pads-mickey",
@@ -28135,6 +28280,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 33,
     "description": "Approaching the park scene where Mickey plays the ukulele, a pond on the right is dotted with lily pads, and three of them float together as a Hidden Mickey.",
     "whereToLook": {
       "scene": "Approaching the ukulele scene, the pond on the right",
@@ -28158,7 +28304,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0192",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway22",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-von-drake-poster-test-tube-mickey",
@@ -28175,6 +28321,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "The first movie poster in the queue advertises The Absent Minded Professor, starring Ludwig Von Drake mid-experiment. Near the top of his test tube is a small Hidden Mickey.",
     "whereToLook": {
       "scene": "The first movie poster in the queue, Professor Von Drake",
@@ -28198,7 +28345,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0133",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway58",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-waterfall-bottom-clam-pearls-mickey",
@@ -28215,6 +28362,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 19,
     "description": "At the bottom of the waterfall, the large clam in the middle, tilted a little to the right, opens to show three pearls arranged as a Mickey.",
     "whereToLook": {
       "scene": "The bottom of the waterfall, the large clam in the middle",
@@ -28238,7 +28386,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0171",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway29",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-waterfall-short-tree-coconuts-mickey",
@@ -28255,6 +28403,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 17,
     "description": "The second coconut Mickey before the waterfall is in the shorter palm to the left of Mickey and Minnie, also leaning over the river.",
     "whereToLook": {
       "scene": "Before the waterfall drop, where Mickey and Minnie land in the bushes",
@@ -28278,7 +28427,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0170",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway41",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "toontown-railway-waterfall-tall-tree-coconuts-mickey",
@@ -28295,6 +28444,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 18,
     "description": "Before the drop over the waterfall, look left. Where Mickey and Minnie land in the bushes, a tall palm leans over the river to their right, and three of its coconuts are a Mickey. There are two coconut Mickeys here; this is the one in the tall tree.",
     "whereToLook": {
       "scene": "Before the waterfall drop, where Mickey and Minnie land in the bushes",
@@ -28318,7 +28468,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0169",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway27",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "tortuga-tavern-window-candles-mickey",
@@ -28893,6 +29043,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "Right after boarding, as the clamshell enters the ride, look to the right of the shell for a Hidden Mickey.",
     "whereToLook": {
       "scene": "Just after boarding, entering the ride",
@@ -28916,7 +29067,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0069",
     "sourceUrl": "https://hiddenmickeywiki.com/Paradise_Gardens_Park#Ariels-Adventure1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "undersea-clamshell-exit-rockwork-steamboat-figure",
@@ -29053,6 +29204,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "In the Kiss the Girl scene, look at the backs of the frogs. Each one carries two Hidden Mickeys in its markings.",
     "whereToLook": {
       "scene": "The Kiss the Girl scene, the frogs",
@@ -29076,7 +29228,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-CA-0070",
     "sourceUrl": "https://hiddenmickeywiki.com/Paradise_Gardens_Park#Ariels-Adventure2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "undersea-clamshell-queue-birthday-shadow-mickey",
@@ -30227,6 +30379,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "Right after the honey pot pushes through the swinging entrance doors, a round pole passes on your right. About halfway up, a knot in the faux wood grain is a small Hidden Mickey.",
     "whereToLook": {
       "scene": "Just inside the swinging entrance doors, the round pole on the right",
@@ -30250,7 +30403,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0077",
     "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Winnie-1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "winnie-the-pooh-exit-door-honey-drops-mickey",
@@ -30307,6 +30460,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "In the first scene after you enter, look through the painted bushes toward Gopher's burrow. A Hidden Mickey sits on the front of the burrow, facing the entrance tunnel.",
     "whereToLook": {
       "scene": "The first scene, Gopher's burrow behind the painted bushes",
@@ -30330,7 +30484,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0078",
     "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Winnie-5",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "winnie-the-pooh-mounted-heads-melvin-buff-max",
@@ -30347,6 +30501,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 4,
     "description": "The ride was built where the Country Bear Jamboree used to play, and three of its stars never left. Melvin the moose, Buff the buffalo, and Max the stag hang mounted on a wall about two thirds of the way through, behind you, so you have to turn around to see them.",
     "whereToLook": {
       "scene": "About two thirds of the way through the ride, the wall behind the honey pot",
@@ -30373,7 +30528,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0081",
     "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Winnie-4",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "winnie-the-pooh-sleeping-scene-honey-jar-ears",
@@ -30390,6 +30545,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 3,
     "description": "In the scene where Pooh is asleep, a bookcase stands behind him. On the second shelf from the top, a honey jar wears a pair of Mickey ears.",
     "whereToLook": {
       "scene": "The scene with Pooh sleeping, the bookcase behind him",
@@ -30413,7 +30569,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0079",
     "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Winnie-2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "wonderland-caterpillar-purple-mushroom-mickeys",
@@ -30430,6 +30586,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "Two small purple mushrooms in the scene after the White Rabbit's house each carry three white spots on their caps that form a classic three-circle Hidden Mickey. The first sits in the background and the second comes later and closer to your caterpillar, and each is next to an orange mushroom.",
     "whereToLook": {
       "scene": "Just after you pass the White Rabbit's house, looking to your left",
@@ -30453,7 +30610,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0112",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Alice-Wonderland2",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "wonderland-caterpillar-rose-painting-drops-mickey",
@@ -30470,6 +30627,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Easy",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "Where the cards are painting the roses red, three drops of paint on the floor by the card's feet, on your left, form a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "The scene with the playing cards painting the roses red",
@@ -30493,7 +30651,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0113",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Alice-Wonderland1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "yacht-lobby-globe-mickey",

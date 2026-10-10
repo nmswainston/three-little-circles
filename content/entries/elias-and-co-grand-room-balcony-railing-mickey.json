@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Shop",
+  "sceneOrder": 1,
   "description": "In the grand room of Elias & Co., mannequins in 1920s dress pose on a railed balcony overhead. The railing's design works in a Mickey head, a little odd in shape but with the ears right where they should be.",
   "whereToLook": {
     "scene": "The grand room of Elias & Co., the mannequin balcony above",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-CA-0034",
   "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Elias-1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

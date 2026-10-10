@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 6,
   "description": "Behind and to the right of the electrified potato prop, a yellow electrical cord is looped into a Hidden Mickey.",
   "whereToLook": {
     "scene": "The electrified potato in the snack bar area",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0145",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway40",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 2,
   "description": "Once you are past the three bridges in the queue, look to the stone wall on the lower left as you face the loading dock. Above a courtesy light, three stones make a Mickey. There are more on this wall, including one about twenty feet further along on the left.",
   "whereToLook": {
     "scene": "Past the three bridges, facing the loading dock, the stone wall on the lower left",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0211",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Gadget-Coaster2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

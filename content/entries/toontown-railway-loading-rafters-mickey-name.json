@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Loading",
+  "sceneOrder": 1,
   "description": "Look up in the loading area and Mickey's name is written on the rafters overhead.",
   "whereToLook": {
     "scene": "The loading area, the rafters overhead",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0157",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway25",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

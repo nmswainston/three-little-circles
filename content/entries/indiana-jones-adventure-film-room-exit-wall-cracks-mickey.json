@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 4,
   "description": "As you leave the film room toward the archaeologist's office, glance back over your left shoulder at the far wall. Between the lights, cracks in the plaster form a big Mickey head. The left ear is incomplete, and fans argue about whether it was planned.",
   "whereToLook": {
     "scene": "Leaving the film room toward the office, the far wall behind you",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0040",
   "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones6",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

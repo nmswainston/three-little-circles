@@ -12,7 +12,7 @@
   "entryType": "FIND",
   "locationType": "Outdoor",
   "difficulty": "Hard",
-  "areaContext": "Walkway",
+  "areaContext": "Entrance",
   "description": "The path toward the Pixie Hollow entrance is lined with bonsai trees on the left. One is trained into three balls of foliage, and from the right spot on the path the three read as a Mickey head.",
   "whereToLook": {
     "scene": "The approach path to Pixie Hollow, the bonsai trees on the left",
@@ -37,5 +37,5 @@
   "sourceId": "TLC-DL-0097",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Pixie-Hollow2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

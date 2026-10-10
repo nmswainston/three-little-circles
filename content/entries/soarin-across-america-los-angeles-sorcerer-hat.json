@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 4,
   "description": "The Los Angeles scene crosses Griffith Observatory and the Hollywood sign, and the Walt Disney Studios lot in Burbank passes below. The Sorcerer Mickey hat on the Animation Building is a real sculpture on the real lot. The scene is the same in both parks; only the finale differs.",
   "whereToLook": {
     "scene": "The Los Angeles scene, after the Hollywood sign",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-CA-0080",
   "sourceUrl": "https://www.disneytouristblog.com/soarin-across-america-ride-review-good-bad-ugly-usa-250th-anniversary/",
   "createdAtISO": "2026-10-09T00:00:00.000Z",
-  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

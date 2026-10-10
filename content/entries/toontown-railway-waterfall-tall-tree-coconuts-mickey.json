@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 18,
   "description": "Before the drop over the waterfall, look left. Where Mickey and Minnie land in the bushes, a tall palm leans over the river to their right, and three of its coconuts are a Mickey. There are two coconut Mickeys here; this is the one in the tall tree.",
   "whereToLook": {
     "scene": "Before the waterfall drop, where Mickey and Minnie land in the bushes",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0169",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway27",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

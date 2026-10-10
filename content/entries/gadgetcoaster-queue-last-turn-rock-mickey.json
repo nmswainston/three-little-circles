@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 3,
   "description": "On the last right U-turn before boarding, look to your left. About four feet left of the second courtesy light, three rocks form a Mickey.",
   "whereToLook": {
     "scene": "The last right U-turn before boarding, the wall on your left",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0212",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Gadget-Coaster3",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

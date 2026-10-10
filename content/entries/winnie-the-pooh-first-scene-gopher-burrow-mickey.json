@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "In the first scene after you enter, look through the painted bushes toward Gopher's burrow. A Hidden Mickey sits on the front of the burrow, facing the entrance tunnel.",
   "whereToLook": {
     "scene": "The first scene, Gopher's burrow behind the painted bushes",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0078",
   "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Winnie-5",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

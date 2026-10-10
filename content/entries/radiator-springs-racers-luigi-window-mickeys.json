@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "In the tire shop scene, the window behind Luigi is painted with images, and several of them include Hidden Mickeys. Nobody has settled on a count, only that there are a lot.",
   "whereToLook": {
     "scene": "Inside Casa Della Tires on the ride, the window behind Luigi",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-CA-0017",
   "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#RS-Racers5",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

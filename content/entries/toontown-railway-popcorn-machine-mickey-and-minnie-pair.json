@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 10,
   "description": "In the upper left of the popcorn machine, two sculpted kernels face each other: a Mickey and a Minnie, complete with her bow.",
   "whereToLook": {
     "scene": "The popcorn machine to the right of the register, upper left corner",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0149",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway36",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

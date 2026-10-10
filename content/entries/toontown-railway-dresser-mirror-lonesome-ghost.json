@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Hard",
   "areaContext": "Queue",
+  "sceneOrder": 8,
   "description": "Past the Sorcerer's Apprentice, the queue reaches a dresser with a mirror. Wait by it long enough and the Lonesome Ghost from the 1937 short appears in the glass. On a good day he even sets the plane going.",
   "whereToLook": {
     "scene": "The dresser with the mirror, just past the Sorcerer's Apprentice",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-DL-0140",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway37",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

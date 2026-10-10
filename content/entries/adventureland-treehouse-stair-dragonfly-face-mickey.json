@@ -13,6 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Easy",
   "areaContext": "Walkway",
+  "sceneOrder": 1,
   "description": "On the climb up the treehouse stairs a huge dragonfly perches on your right. Look at its face. The two eyes and the nose sit together as a classic Mickey.",
   "whereToLook": {
     "scene": "The stairs up into the treehouse, on your right",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0046",
   "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 1,
   "description": "Out in the overflow queue, a supply tent near the rope bridge holds a small stone figure about three feet tall, seated like a Buddha. Look at the face. It has Walt Disney's mustache and smile. The figure stands just left of the tent entrance, facing the temple, with the tent's radio playing nearby.",
   "whereToLook": {
     "scene": "The outdoor overflow queue, the supply tent near the rope bridge",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-DL-0037",
   "sourceUrl": "https://hiddenmickeywiki.com/Adventureland",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

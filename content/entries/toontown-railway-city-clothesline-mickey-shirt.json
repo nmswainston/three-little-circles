@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 12,
   "description": "Above Donald's delivery truck on the left side of the city scene, an open window has a clothesline strung from it, and a Mickey Mouse shirt is hanging on the line. The scene is dim, so it reads better on a night ride when your eyes are already adjusted.",
   "whereToLook": {
     "scene": "The city scene, above Donald's delivery truck on the left",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0175",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway43",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

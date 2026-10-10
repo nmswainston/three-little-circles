@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 24,
   "description": "Just below the inverted set on the same black box, a second trio of yellow circles comes together right side up.",
   "whereToLook": {
     "scene": "The factory room, the black box with the long belt on the right",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0184",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway55",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

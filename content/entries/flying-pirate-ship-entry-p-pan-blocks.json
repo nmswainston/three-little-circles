@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "In the first moments after your ship enters the building, more alphabet blocks sit on the floor, and read face-on as you glide past they spell P PAN. They are in view for only a second.",
   "whereToLook": {
     "scene": "The first moments after the ship enters the building",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0106",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

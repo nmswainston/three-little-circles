@@ -13,6 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Easy",
   "areaContext": "Walkway",
+  "sceneOrder": 3,
   "description": "Above the pipe organ in the mother's music room, two tambourines and a fiddle hang on the wall. Together they are arranged as a head and two ears.",
   "whereToLook": {
     "scene": "Mother's music room, the wall above the pipe organ",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0048",
   "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse3",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

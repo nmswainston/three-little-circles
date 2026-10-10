@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 6,
   "description": "Right before you leave the graveyard, a bird bends over, and as it does its shadow throws the spitting image of Pluto on the surface behind it.",
   "whereToLook": {
     "scene": "The end of the graveyard scene, just before the exit",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0059",
   "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

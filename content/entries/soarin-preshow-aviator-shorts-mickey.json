@@ -13,6 +13,7 @@
   "locationType": "Pre-show",
   "difficulty": "Easy",
   "areaContext": "Queue",
+  "sceneOrder": 2,
   "description": "The pre-show now opens with a new Captain Patrick introduction, then hands off to the classic safety video, where a little aviator is the example passenger. Look at his shorts. Mickey is right there on them.",
   "whereToLook": {
     "scene": "The pre-show, the classic safety video after the new introduction, the little aviator used as the example",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-CA-0057",
   "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-6",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

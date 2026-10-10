@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 9,
   "description": "In the queue room dressed for Christmas, a poster for Pluto's Christmas Tree sits on an easel. The easel itself carries a small Mickey, off to the side of the poster everyone is looking at.",
   "whereToLook": {
     "scene": "The Christmas-decorated queue room, the Pluto's Christmas Tree poster",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0141",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway48",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

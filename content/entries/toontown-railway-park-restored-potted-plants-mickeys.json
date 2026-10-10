@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 32,
   "description": "Once Mickey and Minnie shut down the Smasher, the factory turns back into Runnamuck Park. Potted plants appear on the left and right above where the Smasher sign was, and the plants are trimmed into Mickeys.",
   "whereToLook": {
     "scene": "The factory after it turns back into the park, above where the Smasher sign was",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0191",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway62",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

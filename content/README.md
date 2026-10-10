@@ -115,6 +115,7 @@ Fields are listed in the order they go in the file.
 | `locationType` | yes | `Queue`, `Ride`, `Pre-show`, `Outdoor`, `Indoor` |
 | `difficulty` | yes | `Easy`, `Medium`, `Hard` |
 | `areaContext` | no | `Entrance`, `Queue`, `Loading`, `Ride`, `Dock`, `Post-show`, `Exit`, `Lobby`, `Walkway`, `Outdoor Display`, `Shop` |
+| `sceneOrder` | no | a whole number from 1: where the find falls within its area, counting from the start of the ride, queue, or walk. Numbered finds list first in that order; the rest follow in content order. Two finds in the same scene can share a number. |
 | `description` | yes | free text |
 | `whereToLook` | yes | `scene` and `exactSpot` required, `orientation` optional: `Upright`, `Upside-down`, `Sideways` |
 | `bestTip` | no | free text |

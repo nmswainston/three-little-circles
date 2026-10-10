@@ -13,6 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Medium",
   "areaContext": "Walkway",
+  "sceneOrder": 2,
   "description": "The shell lamp in the mother's music room holds two Hidden Mickeys. The second is near the top of the shade, where a scallop shell forms the head and two smaller shells sit above it as ears.",
   "whereToLook": {
     "scene": "Mother's music room in the treehouse, the shell lamp",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0045",
   "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse4",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 21,
   "description": "Just before the factory room, a string of triangular pennants hangs over the track. One pennant has a chunk missing, and the missing piece is shaped like Mickey ears.",
   "whereToLook": {
     "scene": "The string of pennants over the track right before the factory room",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0180",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway61",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

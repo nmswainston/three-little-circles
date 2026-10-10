@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "After the storm room, a bedroom on the left holds a skeleton in a bed with a harpsichord beside it. Between the bed and the harpsichord, a chair sits at a table, and a detailed Hidden Mickey is carved into the very top of the chair's back. The scene's lighting has been dimmed, which makes it a hunt.",
   "whereToLook": {
     "scene": "The bedroom scene on the left after the storm room, between the bed and the harpsichord",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-DL-0064",
   "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pirates-3",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

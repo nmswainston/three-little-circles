@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Easy",
   "areaContext": "Queue",
+  "sceneOrder": 5,
   "description": "The padded red theater doors throughout the queue each pair two round porthole windows with a round steel push plate below, and the three circles make a Mickey face across the double doors.",
   "whereToLook": {
     "scene": "Any of the padded red double doors along the queue",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0136",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway64",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

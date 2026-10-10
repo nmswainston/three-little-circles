@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "In the Dino Darts game, a 3D Mickey hides behind one of the balloons at the base of the volcano. Pop the middle 100-point balloon on the second tier and there he is.",
   "whereToLook": {
     "scene": "The Dino Darts game, the balloons at the base of the volcano",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-CA-0076",
   "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#Midway-Mania3",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

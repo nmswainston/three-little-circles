@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Shop",
+  "sceneOrder": 1,
   "description": "The sales displays in Ramone's are splattered with paint, and several hide Mickeys in the splatter. The confirmed one is on a yellow display near the entrance closest to the town center.",
   "whereToLook": {
     "scene": "The merchandise displays inside the shop, near the door that faces the town center",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-CA-0026",
   "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-8",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 5,
   "description": "Four big sauce bottles line the snack bar. The first is barbecue sauce with a large spill beneath it, and just below that spill is a much smaller one shaped as a Mickey.",
   "whereToLook": {
     "scene": "The four large sauce bottles in the snack bar, the barbecue bottle",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0151",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway51",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

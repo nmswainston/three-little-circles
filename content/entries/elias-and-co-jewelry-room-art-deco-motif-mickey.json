@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Shop",
+  "sceneOrder": 2,
   "description": "The last room of Elias & Co., the one whose doors open toward Hollywood Land, was the jewelry department and still sells jewelry. The art deco motif that circles the room hides a classic Mickey pattern.",
   "whereToLook": {
     "scene": "The last room of Elias & Co., with doors to Hollywood Land",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-CA-0035",
   "sourceUrl": "https://hiddenmickeywiki.com/Buena_Vista_Street#Elias-2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

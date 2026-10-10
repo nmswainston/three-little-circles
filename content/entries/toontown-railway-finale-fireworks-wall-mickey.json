@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 35,
   "description": "After the ukulele scene, fireworks burst against the wall, and one burst is a Mickey. It is quick, and if you are not watching the sky you will miss it.",
   "whereToLook": {
     "scene": "After the ukulele scene, the fireworks on the wall",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0193",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway63",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

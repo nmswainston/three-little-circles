@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Loading",
+  "sceneOrder": 5,
   "description": "Among the paint splatters on the loading platform floor, lane 2 has its own Hidden Mickey.",
   "whereToLook": {
     "scene": "Lane 2 at the load platform",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0154",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway9",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

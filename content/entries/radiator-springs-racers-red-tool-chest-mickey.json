@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "If your car is sent through Guido's Casa Della Tires for new tires, watch the shop as you leave for the race. A large red tool chest behind a rack of tires carries a pinstriped Hidden Mickey.",
   "whereToLook": {
     "scene": "Inside Casa Della Tires on the ride, after the tire change, heading out to the race",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-CA-0016",
   "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#RS-Racers3",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 8,
   "description": "At the end of the ride, as you pass the small island on your right, a barrel sits under a net. A Hidden Mickey is right at the top of the barrel.",
   "whereToLook": {
     "scene": "The little island on the right at the end of the ride",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0071",
   "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pirates-5",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

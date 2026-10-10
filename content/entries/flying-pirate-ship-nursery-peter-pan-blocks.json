@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 3,
   "description": "As the ship lifts off in the nursery and makes its hard left turn, look straight down. Blocks that look scattered at random spell PETER PAN when seen from above, along the left wall as you entered.",
   "whereToLook": {
     "scene": "The nursery, during the hard left turn right after liftoff",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0107",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan3",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

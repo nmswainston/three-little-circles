@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 7,
   "description": "Right before the final ramp up to the exit, after the burning town, a pirate lies on a cannon on the left. Behind him hang two breastplates, silver on the left and gold on the right, flanked by helmets. The crest on the gold one has a Mickey head dead center. The scene has been dimmed, so it takes effort now.",
   "whereToLook": {
     "scene": "Just before the final uphill ramp, the pirate lying on a cannon on the left",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-DL-0069",
   "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pirates-4",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

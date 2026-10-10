@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 1,
   "description": "On the green bookshelf to the left as you enter the house, an orange book titled See You Next Squeak has a Mickey publisher's mark at the bottom of its spine.",
   "whereToLook": {
     "scene": "The green bookshelf on the left just inside the entrance",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0198",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House8",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

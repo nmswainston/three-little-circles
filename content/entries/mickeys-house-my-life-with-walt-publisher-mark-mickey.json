@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 5,
   "description": "Entering the piano room, look right at the big bookcase. The book titled My Life With Walt has a Hidden Mickey for its publisher's mark.",
   "whereToLook": {
     "scene": "The piano room, the big bookcase on the right as you enter",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0206",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House9",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

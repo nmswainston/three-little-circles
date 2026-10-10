@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Hard",
   "areaContext": "Loading",
+  "sceneOrder": 3,
   "description": "From lanes 1 through 4, look to your upper left. On the back of the rafter carrying Minnie's name, across from the Mickey rafter, is a Mickey head.",
   "whereToLook": {
     "scene": "Lanes 1 through 4 at the load platform, the rafters to the upper left",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0159",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway26",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

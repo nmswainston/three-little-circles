@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Loading",
+  "sceneOrder": 6,
   "description": "Lane 7 at the load platform has a Hidden Mickey in the floor paint blobs as well.",
   "whereToLook": {
     "scene": "Lane 7 at the load platform",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0155",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway10",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

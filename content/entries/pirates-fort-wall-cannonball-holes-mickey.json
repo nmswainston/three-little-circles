@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 3,
   "description": "In the battle scene where the ship bombards the fort, cannonballs have punched holes in the damaged wall on your right. Up near the cannon, one large hole with two smaller holes above it reads as a Mickey, but only at a slight angle, best just after you pass the ship and make the right turn.",
   "whereToLook": {
     "scene": "The fort wall on the right during the ship-versus-fort battle",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-DL-0066",
   "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Pirates-2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

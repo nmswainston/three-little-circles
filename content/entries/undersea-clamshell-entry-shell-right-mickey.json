@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "Right after boarding, as the clamshell enters the ride, look to the right of the shell for a Hidden Mickey.",
   "whereToLook": {
     "scene": "Just after boarding, entering the ride",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-CA-0069",
   "sourceUrl": "https://hiddenmickeywiki.com/Paradise_Gardens_Park#Ariels-Adventure1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 8,
   "description": "The holes punched in the player piano's paper roll are mostly Mickeys, but on the right side of the roll one hole is shaped like Donald Duck. You can only see it by looking in from the right edge of the glass toward the middle, and the roll keeps turning, so it comes and goes.",
   "whereToLook": {
     "scene": "The player piano, viewed through the glass from the right side",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-DL-0203",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House4",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

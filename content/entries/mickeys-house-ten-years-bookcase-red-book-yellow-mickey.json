@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 7,
   "description": "Just past the piano, the bookcase that holds Ten Years Before The Mouse has a red book at its far left with a large yellow classic Mickey on the spine. It is bigger than the yellow Mickey on the thin green book nearby.",
   "whereToLook": {
     "scene": "The bookcase just past the piano, the one with Ten Years Before The Mouse",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0205",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House11",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

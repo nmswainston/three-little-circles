@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 19,
   "description": "At the bottom of the waterfall, the large clam in the middle, tilted a little to the right, opens to show three pearls arranged as a Mickey.",
   "whereToLook": {
     "scene": "The bottom of the waterfall, the large clam in the middle",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0171",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway29",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

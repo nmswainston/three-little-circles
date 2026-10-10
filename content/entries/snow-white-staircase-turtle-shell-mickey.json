@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "In the second room, Snow White climbs the stairs with a turtle following her. The turtle's shell is patterned with one large circle ringed by smaller ones, and the two at the top sit on the big one as ears.",
   "whereToLook": {
     "scene": "Second room of the ride, the staircase scene with the turtle",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0098",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Snow-White1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 4,
   "description": "During the holidays, the topiary bear outside the ride building has its muzzle lit as a Hidden Mickey. It is on the right of the boat just after you pass under the pedestrian bridge, before you enter the building.",
   "whereToLook": {
     "scene": "The outdoor stretch of the ride, just past the pedestrian bridge, right side",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0126",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }
