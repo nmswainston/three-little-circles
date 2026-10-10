@@ -1,0 +1,10 @@
+{
+  "id": "dl-rise-four-rides",
+  "parkId": "california_kingdom_park",
+  "landId": "batuu_area",
+  "attractionId": "rise_of_the_resistance",
+  "title": "It is four rides in one",
+  "body": "You walk through a Resistance base, ride a transport shuttle that is a motion simulator, get captured into a trackless vehicle, and finish with a drop. Start to finish it runs close to twenty minutes, the longest ride in the park.",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "mk-carousel-progress-longest-running",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "rotating_theater_show",
+  "title": "The longest-running stage show in America",
+  "body": "By number of performances it is the longest-running stage show in American history. The Sherman Brothers wrote There's a Great Big Beautiful Tomorrow for it, and Walt called it his favorite.",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

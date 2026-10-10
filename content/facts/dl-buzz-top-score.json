@@ -1,0 +1,10 @@
+{
+  "id": "dl-buzz-top-score",
+  "parkId": "california_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "galactic_blaster_ride",
+  "title": "The scoreboard tops out at 999,999",
+  "body": "The highest rank is Galactic Hero, and the counter stops at six nines. Small, far-away, and moving targets pay the most, so the regulars ignore the big easy ones.",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

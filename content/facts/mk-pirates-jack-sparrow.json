@@ -1,0 +1,10 @@
+{
+  "id": "mk-pirates-jack-sparrow",
+  "parkId": "magic_kingdom_park",
+  "landId": "pirate_port_area",
+  "attractionId": "pirate_boat_ride",
+  "title": "Jack Sparrow arrived in 2006",
+  "body": "The ride predates the films by three decades, and the films borrowed its scenes before the ride borrowed the films' characters back. Jack Sparrow, Barbossa, and Davy Jones were added in 2006.",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

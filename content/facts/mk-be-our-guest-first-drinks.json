@@ -1,0 +1,10 @@
+{
+  "id": "mk-be-our-guest-first-drinks",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "enchanted_castle_restaurant",
+  "title": "The first place in the park to pour a drink",
+  "body": "When it opened for dinner it became the first restaurant in the Magic Kingdom to serve wine and beer, ending a dry spell that had lasted since 1971.",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

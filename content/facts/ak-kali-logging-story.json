@@ -1,0 +1,10 @@
+{
+  "id": "ak-kali-logging-story",
+  "parkId": "adventure_park",
+  "landId": "asia_village_area",
+  "attractionId": "river_rapids_raft_ride",
+  "title": "The story is about logging",
+  "body": "The rafts opened in March 1999 as a protest against illegal logging on the fictional Chakranadi River. The burned hillside and the jack-knifed logging truck are the point of the ride, not just scenery.",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "mk-mine-train-sorting-gems",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "mine_train_coaster",
+  "title": "You can sort gems while you wait",
+  "body": "The queue has water tables where you steer floating jewels into matching bins and a set of barrels that play music when you touch them. On a busy day it is the best part of the wait.",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

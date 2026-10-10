@@ -1,0 +1,10 @@
+{
+  "id": "ep-cosmic-rewind-backwards-launch",
+  "parkId": "showcase_park",
+  "landId": "discovery_area",
+  "attractionId": "cosmic_coaster",
+  "title": "It launches you backwards",
+  "body": "Cosmic Rewind opened in May 2022 as Disney's first reverse-launch coaster. The cars also rotate, so the ride can turn you to face whatever it wants you to see next.",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}
