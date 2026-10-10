@@ -25,6 +25,8 @@ rewritten or processed it, and shipped it as content.
 
    If the project was set up before photos of existing finds existed, run
    `schema.sql` again. It adds the `for_entry_id` column and is safe to re-run.
+   Until you do, the app says "This project cannot take photos of existing
+   finds yet. Its database needs the latest schema." when someone sends one.
 
 4. Turn on anonymous sign-ins under **Authentication > Sign In / Providers >
    Anonymous**. "Still there?" reports use them so every report is tied to an
