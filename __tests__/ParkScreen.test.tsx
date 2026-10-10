@@ -88,7 +88,9 @@ describe('ParkScreen', () => {
   });
 
   it('hides unconfirmed finds with Confirmed only, and remembers the choice', () => {
-    const unconfirmed = entries.find((e) => !isConfirmed(e))!;
+    // The first unconfirmed find in list order, so it sits inside the part of
+    // the virtualized list that the first render draws.
+    const unconfirmed = groups.flatMap((l) => l.attractions.flatMap((a) => a.entries)).find((e) => !isConfirmed(e))!;
     const title = unconfirmed.display!.entryTitle!;
     const unconfirmedCount = entries.filter((e) => !isConfirmed(e)).length;
     render(<ParkScreen />);

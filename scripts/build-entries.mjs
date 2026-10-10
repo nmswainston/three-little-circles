@@ -467,9 +467,42 @@ function render(entries) {
 function loadDestinations() {
   const list = JSON.parse(readFileSync(destinationsFile, "utf8"));
   return {
+    list,
     parkIds: new Set(list.map((d) => d.parkId)),
     regions: new Set(list.map((d) => d.region)),
   };
+}
+
+// A destination's landOrder is the order the app and the kit list its lands,
+// clockwise from the gate. A land may be listed before its first entry
+// lands, so an id without entries is fine; a land with entries that is
+// missing from the order is worth a note, since it sorts after the listed ones.
+function validateLandOrder(entries) {
+  // A content set without a destinations file (the test fixtures) has no order to check.
+  if (!existsSync(destinationsFile)) return;
+  const destinations = loadDestinations();
+  const file = "content/destinations.json";
+  const landsByPark = new Map();
+  for (const e of entries) {
+    if (!landsByPark.has(e.parkId)) landsByPark.set(e.parkId, new Map());
+    landsByPark.get(e.parkId).set(e.landId, e.display?.landName ?? e.landId);
+  }
+  for (const d of destinations.list) {
+    if (d.landOrder === undefined) continue;
+    if (!Array.isArray(d.landOrder) || d.landOrder.some((l) => typeof l !== "string")) {
+      fail(file, `"landOrder" for ${d.parkId} must be an array of land ids`);
+      continue;
+    }
+    const lands = landsByPark.get(d.parkId) ?? new Map();
+    const seen = new Set();
+    for (const landId of d.landOrder) {
+      if (seen.has(landId)) fail(file, `"landOrder" for ${d.parkId} lists ${landId} twice`);
+      seen.add(landId);
+    }
+    for (const [landId, name] of lands) {
+      if (!seen.has(landId)) console.log(`note: ${d.parkId} land ${landId} (${name}) is not in its landOrder and will sort after the listed lands`);
+    }
+  }
 }
 
 function validateFact(file, f, destinations, attractionKeys) {
@@ -724,6 +757,7 @@ function renderChallenges(challenges) {
 }
 
 const entries = loadEntries();
+validateLandOrder(entries);
 const facts = loadFacts(entries);
 const challenges = loadChallenges(entries);
 const orphans = unusedImages(entries);

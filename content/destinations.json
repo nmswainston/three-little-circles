@@ -3,31 +3,81 @@
     "parkId": "magic_kingdom_park",
     "name": "Magic Kingdom",
     "region": "Florida",
-    "parkKey": "kingdom"
+    "parkKey": "kingdom",
+    "landOrder": [
+      "main_street_area",
+      "jungle_outpost_area",
+      "pirate_port_area",
+      "frontier_area",
+      "colonial_square_area",
+      "castle_courtyard_area",
+      "storybook_forest_area",
+      "circus_grounds_area",
+      "future_city_area"
+    ]
   },
   {
     "parkId": "studios_park",
     "name": "Disney's Hollywood Studios",
     "region": "Florida",
-    "parkKey": "studios"
+    "parkKey": "studios",
+    "landOrder": [
+      "park_entrance_area",
+      "boulevard_area",
+      "echo_lake_area",
+      "smugglers_outpost_area",
+      "toy_blocks_area",
+      "animation_courtyard_area",
+      "sunset_area"
+    ]
   },
   {
     "parkId": "showcase_park",
     "name": "EPCOT",
     "region": "Florida",
-    "parkKey": "showcase"
+    "parkKey": "showcase",
+    "landOrder": [
+      "celebration_area",
+      "discovery_area",
+      "nature_area",
+      "mexico_pavilion",
+      "norway_pavilion",
+      "china_pavilion",
+      "germany_pavilion",
+      "italy_pavilion",
+      "american_pavilion",
+      "japan_pavilion",
+      "morocco_pavilion",
+      "france_pavilion",
+      "united_kingdom_pavilion",
+      "canada_pavilion"
+    ]
   },
   {
     "parkId": "adventure_park",
     "name": "Disney's Animal Kingdom",
     "region": "Florida",
-    "parkKey": "adventure"
+    "parkKey": "adventure",
+    "landOrder": [
+      "great_tree_area",
+      "floating_mountains_area",
+      "savanna_village_area",
+      "conservation_outpost_area",
+      "asia_village_area",
+      "dinosaur_dig_area"
+    ]
   },
   {
     "parkId": "springs_bucket",
     "name": "Disney Springs",
     "region": "Florida",
-    "parkKey": "springs"
+    "parkKey": "springs",
+    "landOrder": [
+      "marketplace",
+      "the_landing",
+      "homecomin_restaurant",
+      "west_side"
+    ]
   },
   {
     "parkId": "resorts_bucket",
@@ -39,13 +89,34 @@
     "parkId": "california_kingdom_park",
     "name": "Disneyland Park",
     "region": "California",
-    "parkKey": "kingdom"
+    "parkKey": "kingdom",
+    "landOrder": [
+      "park_entrance_area",
+      "main_street_area",
+      "jungle_outpost_area",
+      "french_quarter_area",
+      "bayou_country_area",
+      "batuu_area",
+      "frontier_area",
+      "storybook_village_area",
+      "cartoon_town_area",
+      "future_city_area"
+    ]
   },
   {
     "parkId": "california_pier_park",
     "name": "Disney California Adventure",
     "region": "California",
-    "parkKey": "adventure"
+    "parkKey": "adventure",
+    "landOrder": [
+      "buena_vista_street_area",
+      "hollywood_land_area",
+      "hero_campus_area",
+      "radiator_springs_area",
+      "boardwalk_pier_area",
+      "boardwalk_gardens_area",
+      "grizzly_peak_area"
+    ]
   },
   {
     "parkId": "california_resorts_bucket",
@@ -57,7 +128,12 @@
     "parkId": "california_downtown_bucket",
     "name": "Downtown Disney District",
     "region": "California",
-    "parkKey": "springs"
+    "parkKey": "springs",
+    "landOrder": [
+      "downtown_disney_district",
+      "esplanade",
+      "mickey_and_friends_parking"
+    ]
   },
   {
     "parkId": "paris_kingdom_park",
