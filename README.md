@@ -210,6 +210,19 @@ Try it on `preview` first if you like; the same command with
 `--environment` loads the same EAS variables the build used, so the update
 keeps reports and suggestions switched on.
 
+The same two publishes exist as EAS workflows in `.eas/workflows/`, so they
+can run from the EAS dashboard or from anywhere with access to the project
+rather than from a checkout:
+
+```bash
+eas workflow:run publish-preview-update.yml
+eas workflow:run publish-production-update.yml
+```
+
+Each one fingerprints the commit first and publishes only if a build with
+that fingerprint exists for the profile, so a commit that changed native
+code is skipped rather than published to a runtime nobody has installed.
+
 `runtimeVersion` uses the fingerprint policy, so any change to native code or
 config (a new Expo package, a permission, a plugin) produces a new runtime
 version, and updates published afterwards only reach builds made afterwards.

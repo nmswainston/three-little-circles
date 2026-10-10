@@ -1,0 +1,32 @@
+name: Publish preview update
+
+# Publishes the JavaScript and content on the given git ref to the preview
+# channel, which internal test builds listen to. Run by hand:
+#   eas workflow:run publish-preview-update.yml
+# It only publishes when a preview build exists that can run the update, so a
+# change to native code never produces an update nobody receives.
+
+jobs:
+  fingerprint:
+    name: Fingerprint
+    type: fingerprint
+    environment: preview
+
+  find_android_build:
+    name: Find an Android preview build for this fingerprint
+    needs: [fingerprint]
+    type: get-build
+    params:
+      platform: android
+      profile: preview
+      fingerprint_hash: ${{ needs.fingerprint.outputs.android_fingerprint_hash }}
+
+  publish_android:
+    name: Publish Android preview update
+    needs: [find_android_build]
+    if: ${{ needs.find_android_build.outputs.build_id }}
+    type: update
+    environment: preview
+    params:
+      channel: preview
+      platform: android
