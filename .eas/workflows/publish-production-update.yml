@@ -1,0 +1,52 @@
+name: Publish production update
+
+# Publishes the JavaScript and content on the given git ref to the production
+# channel, which store builds listen to. Run by hand:
+#   eas workflow:run publish-production-update.yml
+# Each platform publishes only when a production build exists that can run
+# the update, so a change to native code never produces an update nobody
+# receives.
+
+jobs:
+  fingerprint:
+    name: Fingerprint
+    type: fingerprint
+    environment: production
+
+  find_android_build:
+    name: Find an Android production build for this fingerprint
+    needs: [fingerprint]
+    type: get-build
+    params:
+      platform: android
+      profile: production
+      fingerprint_hash: ${{ needs.fingerprint.outputs.android_fingerprint_hash }}
+
+  find_ios_build:
+    name: Find an iOS production build for this fingerprint
+    needs: [fingerprint]
+    type: get-build
+    params:
+      platform: ios
+      profile: production
+      fingerprint_hash: ${{ needs.fingerprint.outputs.ios_fingerprint_hash }}
+
+  publish_android:
+    name: Publish Android production update
+    needs: [find_android_build]
+    if: ${{ needs.find_android_build.outputs.build_id }}
+    type: update
+    environment: production
+    params:
+      channel: production
+      platform: android
+
+  publish_ios:
+    name: Publish iOS production update
+    needs: [find_ios_build]
+    if: ${{ needs.find_ios_build.outputs.build_id }}
+    type: update
+    environment: production
+    params:
+      channel: production
+      platform: ios
