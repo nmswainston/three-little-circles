@@ -27,8 +27,9 @@
     "distance": "Medium"
   },
   "confidence": "Strong",
-  "verification": "Community",
-  "status": "Unverified",
+  "verification": "In-person",
+  "verifiedAtISO": "2026-10-09T00:00:00.000Z",
+  "status": "Current",
   "coordinates": {
     "latitude": 33.8139,
     "longitude": -117.9226
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0231",
   "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Rise-Resistance2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }
