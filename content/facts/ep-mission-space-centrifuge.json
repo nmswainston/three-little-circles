@@ -1,0 +1,10 @@
+{
+  "id": "ep-mission-space-centrifuge",
+  "parkId": "showcase_park",
+  "landId": "discovery_area",
+  "attractionId": "space_mission_simulator",
+  "title": "It is a real centrifuge",
+  "body": "The Orange mission spins you to about two and a half times your weight, which is why the warning signs are serious. The Green mission, added in 2006, uses the same capsules without the spin.",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

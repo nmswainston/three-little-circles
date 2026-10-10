@@ -1,0 +1,10 @@
+{
+  "id": "mk-mermaid-omnimover-clamshells",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "undersea_clamshell_ride",
+  "title": "You ride an Omnimover",
+  "body": "The clamshells run on the same continuously moving ride system as the Haunted Mansion's Doom Buggies. That is why the shell turns you toward each scene and why the line almost never stops moving.",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "mk-be-our-guest-three-rooms",
+  "parkId": "magic_kingdom_park",
+  "landId": "storybook_forest_area",
+  "attractionId": "enchanted_castle_restaurant",
+  "title": "Three rooms, three moods",
+  "body": "The restaurant opened with New Fantasyland in December 2012. The Ballroom has snow falling outside its windows, the West Wing has the rose losing a petal and a portrait that changes when lightning strikes, and the Rose Gallery turns a music box slowly in the middle.",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}
