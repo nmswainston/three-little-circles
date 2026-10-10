@@ -1,0 +1,41 @@
+{
+  "id": "district-fountain-lip-round-tiles-mickey",
+  "parkId": "california_downtown_bucket",
+  "landId": "downtown_disney_district",
+  "attractionId": "district_fountain",
+  "display": {
+    "entryTitle": "Fountain Lip Round Tiles Mickey",
+    "parkName": "Downtown Disney District",
+    "landName": "Downtown Disney District",
+    "attractionName": "Fountain Nearest the Parks"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "On the fountain closest to the parks, a small Mickey hides just below the lip where the water spills over. Every tile is square except a few round ones, and those are it. A stone planter now sits where the bench meets the fence, so you have to stand all the way to the right to see it.",
+  "whereToLook": {
+    "scene": "The fountain nearest the park entrances, just below the lip the water flows over",
+    "exactSpot": "A few round tiles among the square ones, under the lip. Stand at the far right to see them."
+  },
+  "bestTip": "Go to the far right end of the fountain and look under the edge where the water pours.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close",
+    "notes": "A planter blocks the easy view."
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8097,
+    "longitude": -117.9198
+  },
+  "sourceId": "TLC-DR-0050",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Downtown-Disney2",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

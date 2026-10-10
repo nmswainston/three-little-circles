@@ -1,0 +1,40 @@
+{
+  "id": "parking-structure-tram-walkway-sign-mickey",
+  "parkId": "california_downtown_bucket",
+  "landId": "mickey_and_friends_parking",
+  "attractionId": "parking_structure",
+  "display": {
+    "entryTitle": "Tram Stop Walkway Sign Mickey",
+    "parkName": "Downtown Disney District",
+    "landName": "Mickey & Friends Parking Structure",
+    "attractionName": "Parking Structure"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "On the walkway near the tram stop, the sign that points the way to the parking structure carries a Mickey.",
+  "whereToLook": {
+    "scene": "The walkway near the tram stop, the sign pointing to the parking structure",
+    "exactSpot": "On the sign itself."
+  },
+  "bestTip": "Read the sign on your way back to the car, when you are not in a hurry.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8135,
+    "longitude": -117.925
+  },
+  "sourceId": "TLC-DR-0060",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Mickey_and_Friends_Parking_Structure",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

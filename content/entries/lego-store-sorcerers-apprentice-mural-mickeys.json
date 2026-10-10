@@ -1,0 +1,40 @@
+{
+  "id": "lego-store-sorcerers-apprentice-mural-mickeys",
+  "parkId": "california_downtown_bucket",
+  "landId": "downtown_disney_district",
+  "attractionId": "lego_store",
+  "display": {
+    "entryTitle": "Sorcerer's Apprentice Mural Mickeys",
+    "parkName": "Downtown Disney District",
+    "landName": "Downtown Disney District",
+    "attractionName": "The LEGO Store"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Shop",
+  "description": "The murals above the sales displays each carry two Hidden Mickeys. This is the Sorcerer's Apprentice mural, and its two are about as easy as Hidden Mickeys get, which makes it a good first hunt for a kid.",
+  "whereToLook": {
+    "scene": "Inside the LEGO Store, the Sorcerer's Apprentice mural above the displays",
+    "exactSpot": "Two three-circle Mickeys worked into the brickwork of the mural."
+  },
+  "bestTip": "Start a first-timer here. Both are big enough to spot from the aisle.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.809,
+    "longitude": -117.9215
+  },
+  "sourceId": "TLC-DR-0047",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Downtown-Disney4",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

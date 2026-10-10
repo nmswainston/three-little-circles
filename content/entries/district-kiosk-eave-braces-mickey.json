@@ -1,0 +1,40 @@
+{
+  "id": "district-kiosk-eave-braces-mickey",
+  "parkId": "california_downtown_bucket",
+  "landId": "downtown_disney_district",
+  "attractionId": "district_kiosks",
+  "display": {
+    "entryTitle": "Kiosk Eave Braces Mickey",
+    "parkName": "Downtown Disney District",
+    "landName": "Downtown Disney District",
+    "attractionName": "Food Kiosks"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Easy",
+  "areaContext": "Walkway",
+  "description": "Several of the food kiosks along the district have Mickey-shaped braces under their eaves. The churro kiosk and the Kayla's Cakes kiosk both have them.",
+  "whereToLook": {
+    "scene": "The food kiosks along the walkway, the braces under the roof eaves",
+    "exactSpot": "The supports between the roof and the posts. Each brace is a Mickey."
+  },
+  "bestTip": "Stand in line for a churro and look up at the roof.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8093,
+    "longitude": -117.9222
+  },
+  "sourceId": "TLC-DR-0049",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Downtown-Disney3",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

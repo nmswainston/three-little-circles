@@ -30,9 +30,10 @@ const LAND_ORDER = {
   showcase_park: ["celebration_area", "discovery_area", "nature_area", "mexico_pavilion", "norway_pavilion", "china_pavilion", "germany_pavilion", "italy_pavilion", "american_pavilion", "japan_pavilion", "morocco_pavilion", "france_pavilion", "united_kingdom_pavilion", "canada_pavilion"],
   studios_park: ["park_entrance_area", "boulevard_area", "echo_lake_area", "smugglers_outpost_area", "toy_blocks_area", "animation_courtyard_area", "sunset_area"],
   adventure_park: ["great_tree_area", "floating_mountains_area", "savanna_village_area", "conservation_outpost_area", "asia_village_area", "dinosaur_dig_area"],
-  california_kingdom_park: ["main_street_area", "jungle_outpost_area", "french_quarter_area", "bayou_country_area", "batuu_area", "frontier_area", "storybook_village_area", "cartoon_town_area", "future_city_area"],
+  california_kingdom_park: ["park_entrance_area", "main_street_area", "jungle_outpost_area", "french_quarter_area", "bayou_country_area", "batuu_area", "frontier_area", "storybook_village_area", "cartoon_town_area", "future_city_area"],
   california_pier_park: ["buena_vista_street_area", "hollywood_land_area", "hero_campus_area", "radiator_springs_area", "boardwalk_pier_area", "boardwalk_gardens_area", "grizzly_peak_area"],
   springs_bucket: ["marketplace", "the_landing", "homecomin_restaurant", "west_side"],
+  california_downtown_bucket: ["downtown_disney_district", "esplanade", "mickey_and_friends_parking"],
 };
 
 /** The order you meet these parts of an attraction. Mirrors walkOrder in src/data/query.ts. */

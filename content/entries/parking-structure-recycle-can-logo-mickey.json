@@ -1,0 +1,40 @@
+{
+  "id": "parking-structure-recycle-can-logo-mickey",
+  "parkId": "california_downtown_bucket",
+  "landId": "mickey_and_friends_parking",
+  "attractionId": "parking_structure",
+  "display": {
+    "entryTitle": "Recycle Can Logo Mickey",
+    "parkName": "Downtown Disney District",
+    "landName": "Mickey & Friends Parking Structure",
+    "attractionName": "Parking Structure"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Walkway",
+  "description": "The trash cans in the structure carry recycle logos like the ones on Main Street, and a small Mickey hides in the logo. It is hard to see, and the wiki debated whether it counts before ruling that it does.",
+  "whereToLook": {
+    "scene": "The trash cans in the parking structure, the recycle logo",
+    "exactSpot": "A small Mickey inside the recycle logo."
+  },
+  "bestTip": "Get close to one can. The Mickey is small enough to miss from standing height.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8135,
+    "longitude": -117.925
+  },
+  "sourceId": "TLC-DR-0059",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Parking-4",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

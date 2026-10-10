@@ -1,0 +1,40 @@
+{
+  "id": "main-entrance-turnstile-wood-oval-mickey",
+  "parkId": "california_kingdom_park",
+  "landId": "park_entrance_area",
+  "attractionId": "main_entrance_turnstiles",
+  "display": {
+    "entryTitle": "Turnstile Wood Oval Mickey",
+    "parkName": "Disneyland Park",
+    "landName": "Park Entrance",
+    "attractionName": "Main Entrance"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "Above the entry and exit turnstiles, the decorative woodwork forms a Mickey. The head is more oval than round, but the shape is there, and you can see it both coming in and going out.",
+  "whereToLook": {
+    "scene": "The woodwork above the entry and exit turnstiles",
+    "exactSpot": "The wood formations over the gates. An oval head with two round ears."
+  },
+  "bestTip": "Look up as you scan your ticket, or on the way out when nobody is pushing.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8104,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-DR-0062",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Entry-Exit1",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "esplanade-signpole-base-indentations-mickey",
+  "parkId": "california_downtown_bucket",
+  "landId": "esplanade",
+  "attractionId": "esplanade_plaza",
+  "display": {
+    "entryTitle": "Signpole Base Indentations Mickey",
+    "parkName": "Downtown Disney District",
+    "landName": "Esplanade",
+    "attractionName": "Esplanade"
+  },
+  "entryType": "FIND",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Walkway",
+  "description": "The direction signposts in the Esplanade have Mickey ears on top, which is plain decor. The find is lower down: the wrapping around the base of each pole is indented with Mickey shapes.",
+  "whereToLook": {
+    "scene": "The direction signposts in the Esplanade, the base of the pole",
+    "exactSpot": "The indentations in the wrap at the bottom of the pole."
+  },
+  "bestTip": "Everyone looks at the ears on top. Look at the bottom.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Below",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8096,
+    "longitude": -117.919
+  },
+  "sourceId": "TLC-DR-0054",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Esplanade-3",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

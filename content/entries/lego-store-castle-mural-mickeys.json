@@ -1,0 +1,40 @@
+{
+  "id": "lego-store-castle-mural-mickeys",
+  "parkId": "california_downtown_bucket",
+  "landId": "downtown_disney_district",
+  "attractionId": "lego_store",
+  "display": {
+    "entryTitle": "Castle Mural Mickeys",
+    "parkName": "Downtown Disney District",
+    "landName": "Downtown Disney District",
+    "attractionName": "The LEGO Store"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Shop",
+  "description": "Off to the left, the castle mural with Mickey and the whole gang above the displays hides two more Hidden Mickeys in its brickwork.",
+  "whereToLook": {
+    "scene": "Inside the LEGO Store, the castle mural to the left, above the displays",
+    "exactSpot": "Two three-circle Mickeys in the mural, apart from the Mickey character himself."
+  },
+  "bestTip": "Ignore the Mickey you can see. Hunt the ones built out of bricks.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Above",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Obvious",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.809,
+    "longitude": -117.9215
+  },
+  "sourceId": "TLC-DR-0048",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Downtown-Disney5",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

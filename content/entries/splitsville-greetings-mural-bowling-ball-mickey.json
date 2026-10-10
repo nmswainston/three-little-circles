@@ -1,0 +1,40 @@
+{
+  "id": "splitsville-greetings-mural-bowling-ball-mickey",
+  "parkId": "california_downtown_bucket",
+  "landId": "downtown_disney_district",
+  "attractionId": "splitsville",
+  "display": {
+    "entryTitle": "Greetings Mural Bowling Ball Mickey",
+    "parkName": "Downtown Disney District",
+    "landName": "Downtown Disney District",
+    "attractionName": "Splitsville Luxury Lanes"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "On the upper level, a mural reads Greetings From Splitsville. The finger holes in the bowling ball on it are arranged as a Mickey.",
+  "whereToLook": {
+    "scene": "The upper level of Splitsville, the Greetings From Splitsville mural",
+    "exactSpot": "The bowling ball in the mural. Its finger holes."
+  },
+  "bestTip": "Head upstairs even if you are not bowling.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8097,
+    "longitude": -117.9237
+  },
+  "sourceId": "TLC-DR-0046",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Downtown-Disney7",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}

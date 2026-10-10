@@ -1,0 +1,40 @@
+{
+  "id": "splitsville-golden-lanes-mural-orange-mickey",
+  "parkId": "california_downtown_bucket",
+  "landId": "downtown_disney_district",
+  "attractionId": "splitsville",
+  "display": {
+    "entryTitle": "Golden Lanes Mural Orange Mickey",
+    "parkName": "Downtown Disney District",
+    "landName": "Downtown Disney District",
+    "attractionName": "Splitsville Luxury Lanes"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Lobby",
+  "description": "To the right of the lanes hangs a mural titled Welcome To Golden Lanes. One of the oranges painted in it has three finger holes, like a bowling ball, and the holes make a Mickey.",
+  "whereToLook": {
+    "scene": "Inside Splitsville, the Welcome To Golden Lanes mural to the right of the lanes",
+    "exactSpot": "The orange with three holes in it. The holes are the Mickey."
+  },
+  "bestTip": "Look for the one orange that thinks it is a bowling ball.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "coordinates": {
+    "latitude": 33.8097,
+    "longitude": -117.9237
+  },
+  "sourceId": "TLC-DR-0045",
+  "sourceUrl": "https://hiddenmickeywiki.com/Disneyland_Resort#Downtown-Disney6",
+  "createdAtISO": "2026-10-10T00:00:00.000Z",
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+}
