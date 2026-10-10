@@ -2,6 +2,7 @@ import { entries } from "./entries";
 import { HiddenMickeyEntry, ParkId, LandId, AttractionId } from "./types";
 import { labelOrFallback } from "./labels";
 import { isConfirmed } from "./confirmations";
+import { DESTINATIONS, getLandRank } from "./destinations";
 import { SegmentedControlOption } from "../components/ui/SegmentedControl";
 
 export function getAllEntries(): HiddenMickeyEntry[] {
@@ -52,6 +53,33 @@ export type LandSummary = {
   count: number;
 };
 
+const DESTINATION_INDEX = new Map(DESTINATIONS.map((d, i) => [d.parkId, i]));
+
+/**
+ * Lands in the order you walk them: by park as the Parks screen lists them,
+ * then by the destination's landOrder (clockwise from the gate), then
+ * alphabetically for any land the destination does not list.
+ */
+export function orderLands<T extends { parkId?: ParkId; landId: LandId; landName: string }>(
+  parkId: ParkId,
+  lands: T[]
+): T[] {
+  return [...lands].sort((a, b) => {
+    const parkA = DESTINATION_INDEX.get(a.parkId ?? parkId) ?? Infinity;
+    const parkB = DESTINATION_INDEX.get(b.parkId ?? parkId) ?? Infinity;
+    if (parkA !== parkB) return parkA < parkB ? -1 : 1;
+    const rankA = getLandRank(a.parkId ?? parkId, a.landId);
+    const rankB = getLandRank(b.parkId ?? parkId, b.landId);
+    if (rankA !== rankB) return rankA < rankB ? -1 : 1;
+    return a.landName.localeCompare(b.landName);
+  });
+}
+
+/** Attractions have no walking order inside a land, so they go alphabetically. */
+export function orderAttractions<T extends { attractionName: string }>(attractions: T[]): T[] {
+  return [...attractions].sort((a, b) => a.attractionName.localeCompare(b.attractionName));
+}
+
 export function getLandsByPark(
   parkId: ParkId,
   entryTypeFilter?: SegmentedControlOption
@@ -70,11 +98,14 @@ export function getLandsByPark(
       }
     });
 
-  return Array.from(landMap.entries()).map(([landId, { count, landName }]) => ({
-    landId,
-    landName,
-    count,
-  }));
+  return orderLands(
+    parkId,
+    Array.from(landMap.entries()).map(([landId, { count, landName }]) => ({
+      landId,
+      landName,
+      count,
+    }))
+  );
 }
 
 export type AttractionSummary = {
@@ -111,12 +142,12 @@ export function getAttractionsByLand(
       }
     });
 
-  return Array.from(attractionMap.entries()).map(
-    ([attractionId, { count, attractionName }]) => ({
+  return orderAttractions(
+    Array.from(attractionMap.entries()).map(([attractionId, { count, attractionName }]) => ({
       attractionId,
       attractionName,
       count,
-    })
+    }))
   );
 }
 
@@ -209,13 +240,14 @@ export type LandGroup = LandSummary & { attractions: AttractionGroup[] };
  * park's entries; lands are keyed within a park.
  */
 export function groupByLand(list: HiddenMickeyEntry[]): LandGroup[] {
-  const lands = new Map<string, LandGroup>();
+  const lands = new Map<string, LandGroup & { parkId: ParkId }>();
 
   for (const entry of list) {
     const landKey = `${entry.parkId}/${entry.landId}`;
     let land = lands.get(landKey);
     if (!land) {
       land = {
+        parkId: entry.parkId,
         landId: entry.landId,
         landName: labelOrFallback(entry.display?.landName, "Land"),
         count: 0,
@@ -239,10 +271,17 @@ export function groupByLand(list: HiddenMickeyEntry[]): LandGroup[] {
     attraction.entries.push(entry);
   }
 
-  for (const land of lands.values()) {
-    for (const attraction of land.attractions) attraction.entries = walkOrder(attraction.entries);
-  }
-  return Array.from(lands.values());
+  // Lands in walking order, attractions by name, and each attraction's finds
+  // from entrance to exit. The list usually holds one park; when it holds
+  // several, parks keep the order of the Parks screen.
+  const firstPark = list[0]?.parkId ?? "";
+  return orderLands(firstPark, Array.from(lands.values())).map(({ parkId: _parkId, ...land }) => ({
+    ...land,
+    attractions: orderAttractions(land.attractions).map((attraction) => ({
+      ...attraction,
+      entries: walkOrder(attraction.entries),
+    })),
+  }));
 }
 
 /**

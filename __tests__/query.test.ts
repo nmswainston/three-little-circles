@@ -1,17 +1,6 @@
 import { isConfirmed } from '../src/data/confirmations';
-import {
-  confirmedFirst,
-  getAllEntries,
-  getEntryById,
-  getParksSummary,
-  getLandsByPark,
-  getAttractionsByLand,
-  getEntriesByAttraction,
-  getRelatedEntries,
-  groupByLand,
-  matchesEntryType,
-  walkOrder,
-} from '../src/data/query';
+import { confirmedFirst, getAllEntries, getEntryById, getParksSummary, getLandsByPark, getAttractionsByLand, getEntriesByAttraction, getRelatedEntries, groupByLand, matchesEntryType, walkOrder, orderLands, orderAttractions } from '../src/data/query';
+import { DESTINATIONS, getDestination, getLandRank } from '../src/data/destinations';
 import type { HiddenMickeyEntry } from '../src/data/types';
 
 describe('bundled content', () => {
@@ -213,5 +202,84 @@ describe('getRelatedEntries', () => {
 
   it('has at least one attraction with related entries in the shipped content', () => {
     expect(entries.some((e) => getRelatedEntries(e).length > 0)).toBe(true);
+  });
+});
+
+describe('land and attraction order', () => {
+  const entries = getAllEntries();
+  const alphabetical = (names: string[]) => [...names].sort((a, b) => a.localeCompare(b));
+
+  it('lists a park with a landOrder in that order, with every land of the park covered', () => {
+    const ordered = DESTINATIONS.filter((d) => d.landOrder !== undefined);
+    expect(ordered.length).toBeGreaterThan(0);
+    for (const destination of ordered) {
+      const lands = getLandsByPark(destination.parkId);
+      if (lands.length === 0) continue;
+      const ids = lands.map((l) => l.landId);
+      // Every land that has entries is in the order, so none fall back to alphabetical.
+      for (const id of ids) expect(destination.landOrder).toContain(id);
+      expect(ids).toEqual(destination.landOrder!.filter((id) => ids.includes(id)));
+      // The gate comes first.
+      expect(ids[0]).toBe(destination.landOrder![0]);
+    }
+  });
+
+  it('lists a park without a landOrder alphabetically', () => {
+    const plain = DESTINATIONS.filter((d) => d.landOrder === undefined && getLandsByPark(d.parkId).length > 1);
+    expect(plain.length).toBeGreaterThan(0);
+    for (const destination of plain) {
+      const names = getLandsByPark(destination.parkId).map((l) => l.landName);
+      expect(names).toEqual(alphabetical(names));
+    }
+  });
+
+  it('puts Main Street first at the castle parks', () => {
+    expect(getLandsByPark('magic_kingdom_park')[0].landName).toBe('Main Street, U.S.A.');
+    const disneyland = getLandsByPark('california_kingdom_park').map((l) => l.landName);
+    expect(disneyland.slice(0, 2)).toEqual(['Park Entrance', 'Main Street, U.S.A.']);
+  });
+
+  it('lists attractions within a land alphabetically', () => {
+    for (const park of getParksSummary()) {
+      for (const land of getLandsByPark(park.parkId)) {
+        const names = getAttractionsByLand(park.parkId, land.landId).map((a) => a.attractionName);
+        expect(names).toEqual(alphabetical(names));
+      }
+    }
+  });
+
+  it('ranks unlisted lands after listed ones and sorts them by name', () => {
+    expect(getLandRank('magic_kingdom_park', 'main_street_area')).toBe(0);
+    expect(getLandRank('magic_kingdom_park', 'not_a_land')).toBe(Infinity);
+    expect(getLandRank('resorts_bucket', 'riviera_resort')).toBe(Infinity);
+    const lands = [
+      { landId: 'zzz_area', landName: 'Zebra Crossing', count: 1 },
+      { landId: 'future_city_area', landName: 'Tomorrowland', count: 1 },
+      { landId: 'aaa_area', landName: 'Apple Orchard', count: 1 },
+      { landId: 'main_street_area', landName: 'Main Street, U.S.A.', count: 1 },
+    ];
+    expect(orderLands('magic_kingdom_park', lands).map((l) => l.landId)).toEqual([
+      'main_street_area',
+      'future_city_area',
+      'aaa_area',
+      'zzz_area',
+    ]);
+    expect(orderAttractions([{ attractionName: 'Space Mountain' }, { attractionName: 'Astro Orbiter' }]).map((a) => a.attractionName)).toEqual([
+      'Astro Orbiter',
+      'Space Mountain',
+    ]);
+  });
+
+  it('keeps parks in Parks-screen order when a list spans parks', () => {
+    // Magic Kingdom is listed before Disneyland Park in destinations.json, and
+    // the two share land ids such as main_street_area, so the grouped list
+    // must be one park's lands in walk order followed by the other's.
+    const mixed = entries.filter((e) => e.parkId === 'california_kingdom_park' || e.parkId === 'magic_kingdom_park');
+    const grouped = groupByLand(mixed).map((l) => `${l.landName}/${l.landId}`);
+    const expected = [
+      ...getLandsByPark('magic_kingdom_park').map((l) => `${l.landName}/${l.landId}`),
+      ...getLandsByPark('california_kingdom_park').map((l) => `${l.landName}/${l.landId}`),
+    ];
+    expect(grouped).toEqual(expected);
   });
 });

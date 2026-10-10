@@ -21,6 +21,12 @@ export type Destination = {
   name: string;
   region: Region;
   parkKey: ParkKey;
+  /**
+   * Land ids in the order you meet them walking the park, clockwise from the
+   * gate. Lands left out sort after these, alphabetically. Catch-all areas
+   * such as the resorts have no walking order and leave it out.
+   */
+  landOrder?: string[];
 };
 
 export const DESTINATIONS: Destination[] = destinationsJson as Destination[];
@@ -29,6 +35,16 @@ const BY_ID: Record<string, Destination> = Object.fromEntries(DESTINATIONS.map((
 
 export function getDestination(parkId: string): Destination | undefined {
   return BY_ID[parkId];
+}
+
+/**
+ * Where a land falls in its park's walking order: 0 for the land at the gate,
+ * and Infinity for a land the destination does not list, so unlisted lands
+ * sort after the listed ones.
+ */
+export function getLandRank(parkId: string, landId: string): number {
+  const index = BY_ID[parkId]?.landOrder?.indexOf(landId) ?? -1;
+  return index === -1 ? Infinity : index;
 }
 
 /**

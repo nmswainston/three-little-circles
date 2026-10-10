@@ -225,6 +225,18 @@ Like entries, challenges are written in the app's voice and only claim what
 the finds support. Check history in a blurb, such as which attractions Walt
 worked on, against a reliable source before it ships.
 
+## Destinations and land order
+
+`destinations.json` lists every park and catch-all area the app knows about,
+with its region and accent. A theme park row also carries `landOrder`: its
+land ids in the order you meet them walking the park, clockwise from the gate,
+with the entrance land first. The Park screen, the land chips, and the
+verification kit all list lands in that order, and attractions within a land
+alphabetically. A land with entries that is missing from `landOrder` sorts
+after the listed ones, and the build prints a note so it can be added. The
+resorts have no walking order and leave `landOrder` out, so they list
+alphabetically.
+
 ## Naming conventions
 
 The app is an unofficial fan project. Park, land, and attraction display names
