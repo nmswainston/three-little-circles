@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 6,
   "description": "As you enter the carnival room, the Mirror Maze attraction is on the right, and the letters MM sit above its doors. Mickey Mouse, or Mickey and Minnie. Either way they are initials hiding in plain sight.",
   "whereToLook": {
     "scene": "Entering the carnival room, the Mirror Maze on the right",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0057",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway39",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

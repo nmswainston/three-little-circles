@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Hard",
   "areaContext": "Queue",
+  "sceneOrder": 2,
   "description": "Once a year, around noon on Mickey's birthday, November 18, the sun lines up with the rockwork of the outdoor queue and casts a classic three-circle shadow. The rest of the year there is nothing to see, which makes this one of the rarest finds in any park.",
   "whereToLook": {
     "scene": "Outdoor rockwork of the standby queue",
@@ -36,5 +37,5 @@
   },
   "sourceId": "TLC-MK-0019",
   "createdAtISO": "2026-09-23T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "In the last section before the ride ends, a carousel on the right side holds a doll with a little black Mickey plush in her hand. The finale is packed with dolls, and the plush is small and dark, so it is easy to miss.",
   "whereToLook": {
     "scene": "Last section before the ride ends, the carousel on the right side",
@@ -34,5 +35,5 @@
   },
   "sourceId": "TLC-MK-0107",
   "createdAtISO": "2026-09-23T00:00:00.000Z",
-  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

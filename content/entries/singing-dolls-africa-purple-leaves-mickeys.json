@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Easy",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "In the Africa section of the boat ride, purple leaves hang from the ceiling near the giraffe, and several of them are cut as classic three-circle Hidden Mickeys. They are overhead, and with singing dolls at eye level on every side, few riders ever look up.",
   "whereToLook": {
     "scene": "Africa section of the ride, the giraffe and the purple leaves hanging from the ceiling near it",
@@ -34,5 +35,5 @@
   },
   "sourceId": "TLC-MK-0010",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

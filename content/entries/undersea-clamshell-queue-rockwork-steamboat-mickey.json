@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Hard",
   "areaContext": "Queue",
+  "sceneOrder": 1,
   "description": "A Mickey in his 1928 steamboat-era look is worked into the rockwork of the outdoor queue. It is a full figure rather than three circles, small and the same color as the rock, and almost nobody stumbles onto it by accident.",
   "whereToLook": {
     "scene": "Outdoor rockwork of the standby queue",
@@ -36,5 +37,5 @@
   },
   "sourceId": "TLC-MK-0109",
   "createdAtISO": "2026-09-23T00:00:00.000Z",
-  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

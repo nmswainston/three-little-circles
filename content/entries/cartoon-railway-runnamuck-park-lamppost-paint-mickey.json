@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "In the opening Runnamuck Park scene, a black lamppost stands on the left. About halfway up the post, red paint blotches form a Hidden Mickey.",
   "whereToLook": {
     "scene": "The Runnamuck Park scene at the start of the ride, the black lamppost on the left",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0053",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway44",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

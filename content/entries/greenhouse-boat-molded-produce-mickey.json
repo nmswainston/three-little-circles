@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 6,
   "description": "The growing houses are not only a science exhibit, they are a workshop. Among the rows the horticulture team sometimes raises pumpkins and cucumbers inside Mickey-shaped molds, so the fruit swells into a three-circle head as it grows. It is a living Hidden Mickey, which also means it is a seasonal one.",
   "whereToLook": {
     "scene": "The greenhouse portion of the boat ride, in the smaller display beds rather than the tall production rows",
@@ -40,5 +41,5 @@
   },
   "sourceId": "TLC-EP-0046",
   "createdAtISO": "2026-09-23T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

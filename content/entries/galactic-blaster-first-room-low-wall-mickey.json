@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "In the first target room, a green Mickey head with blue ears is painted low on the wall. You have to spin the vehicle backward and to the right to see it, which is why so few people do.",
   "whereToLook": {
     "scene": "First target room after loading",
@@ -35,5 +36,5 @@
   },
   "sourceId": "TLC-MK-0036",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

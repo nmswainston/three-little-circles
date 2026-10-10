@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 13,
   "description": "This ride took over the building that housed The Great Movie Ride from the park's opening day until 2017. In the big city scene, one of the painted theater fronts carries a marquee that reads The Great Movie Ride, a tip of the hat to the attraction that stood on this exact spot.",
   "whereToLook": {
     "scene": "The city scene, the painted building fronts along the street",
@@ -40,5 +41,5 @@
   "sourceId": "TLC-HS-0052",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-mickey-minnie-s-runaway-railway-easter",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

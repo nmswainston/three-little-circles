@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 1,
   "description": "Before the line goes indoors it winds past carved timber railings and painted window frames, all of it detailed to look like a mountain village that has stood for generations. A classic three-circle Mickey is cut into that woodwork. Because every board is already covered in carved pattern, the shape passes as one more piece of folk decoration.",
   "whereToLook": {
     "scene": "The outdoor stretch of queue before the entrance, the carved timber railings and window surrounds",
@@ -37,5 +38,5 @@
   },
   "sourceId": "TLC-AK-0047",
   "createdAtISO": "2026-09-23T00:00:00.000Z",
-  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

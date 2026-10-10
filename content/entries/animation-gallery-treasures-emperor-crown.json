@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Easy",
   "areaContext": "Lobby",
+  "sceneOrder": 3,
   "description": "A gold crown in the treasures exhibit belongs to the self-absorbed emperor who spent most of his movie as a llama.",
   "whereToLook": {
     "scene": "Display cases in the gallery's treasures exhibit",
@@ -32,5 +33,5 @@
   "sourceId": "TLC-HS-0036",
   "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

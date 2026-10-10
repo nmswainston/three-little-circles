@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Easy",
   "areaContext": "Lobby",
+  "sceneOrder": 1,
   "description": "To the right of the lanes hangs a mural titled Welcome To Golden Lanes. One of the oranges painted in it has three finger holes, like a bowling ball, and the holes make a Mickey.",
   "whereToLook": {
     "scene": "Inside Splitsville, the Welcome To Golden Lanes mural to the right of the lanes",

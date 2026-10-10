@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 37,
   "description": "Right before the car enters the unload room, during the fireworks, a multi-directional signpost stands on the right. On the arm that reads Fishing Hole, the letter O has been swapped for a Mickey.",
   "whereToLook": {
     "scene": "Just before the unload room during the fireworks, the signpost on the right",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0088",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway50",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

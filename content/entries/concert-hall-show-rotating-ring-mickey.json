@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "In the undersea sequence, jewelry tumbles toward the audience on the right side of the screen. A tiny black classic Hidden Mickey sits inside one of the rotating rings and shows only when the ring turns to face you.",
   "whereToLook": {
     "scene": "Undersea song sequence with jewels and treasure floating past",
@@ -35,5 +36,5 @@
   },
   "sourceId": "TLC-MK-0003",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

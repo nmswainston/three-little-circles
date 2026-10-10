@@ -13,6 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Easy",
   "areaContext": "Entrance",
+  "sceneOrder": 1,
   "description": "When the line is short, the posted standby wait at the Mansion sometimes reads 13 minutes instead of the usual 5 or 10. Thirteen is the house's favorite unlucky number, and the sign is in on the joke.",
   "whereToLook": {
     "scene": "The standby wait time sign at the attraction entrance",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-MK-0090",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-haunted-mansion-13-minutes-wait-time",
   "createdAtISO": "2026-10-05T00:00:00.000Z",
-  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

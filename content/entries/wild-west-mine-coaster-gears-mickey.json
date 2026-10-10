@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "As the train slows at the end of the ride, two sets of gears lie on the ground to your right. The second set is arranged as a classic three-circle Hidden Mickey. Riders are usually catching their breath and looking ahead to the station, so it slips by unnoticed.",
   "whereToLook": {
     "scene": "Final stretch of the ride as the train begins to slow, looking to your right",
@@ -35,5 +36,5 @@
   },
   "sourceId": "TLC-MK-0049",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

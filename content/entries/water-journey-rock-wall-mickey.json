@@ -13,6 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Medium",
   "areaContext": "Walkway",
+  "sceneOrder": 2,
   "description": "A classic three-circle Hidden Mickey is formed by three round depressions in a rock wall in the ocean section of the walk-through water trail. The wall stands behind a fence in front of the interactive wall of water that shoots into the air when you move, so most guests are busy with the water and never study the rock.",
   "whereToLook": {
     "scene": "Ocean exhibit area, the rock wall behind a fence in front of the interactive wall of water",
@@ -37,5 +38,5 @@
   },
   "sourceId": "TLC-EP-0068",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 6,
   "description": "In the Wildlife Tracking Center, look through the second window into the lab. On a laboratory plate inside, dots are laid out as a Mickey.",
   "whereToLook": {
     "scene": "The Wildlife Tracking Center, the second window",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-AK-0023",
   "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
   "createdAtISO": "2026-10-05T00:00:00.000Z",
-  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

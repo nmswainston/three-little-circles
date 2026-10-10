@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 18,
   "description": "The second coconut Mickey before the waterfall is in the shorter palm to the left of Mickey and Minnie, also leaning over the river.",
   "whereToLook": {
     "scene": "Before the waterfall drop, where Mickey and Minnie land in the bushes",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0063",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway41",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

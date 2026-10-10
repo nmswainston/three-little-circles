@@ -210,33 +210,33 @@ const WALK_LOCATION_ORDER: Record<HiddenMickeyEntry["locationType"], number> = {
   Indoor: 4,
 };
 
-function walkRank(entry: HiddenMickeyEntry): number {
-  const area = entry.areaContext ? WALK_AREA_ORDER[entry.areaContext] : WALK_LOCATION_AREA[entry.locationType];
-  // Area first, then location type within it. Scene order and confirmation
-  // break ties below, in walkOrder.
-  return area * 10 + WALK_LOCATION_ORDER[entry.locationType];
+function walkArea(entry: HiddenMickeyEntry): number {
+  return entry.areaContext ? WALK_AREA_ORDER[entry.areaContext] : WALK_LOCATION_AREA[entry.locationType];
 }
 
 /**
  * The same list in the order you would meet the finds on a visit: entrance,
  * queue, boarding, ride, exit, then the shop. Within an area, finds with a
  * sceneOrder come first in that order, so a ride's scenes run from the first
- * room to the last; finds without one follow, confirmed ones ahead of
- * unconfirmed. The sort is stable, so remaining ties keep their content order.
+ * room to the last. Finds without one follow, by location type (outdoor,
+ * queue, pre-show, ride, indoor) and then confirmed ahead of unconfirmed. The
+ * sort is stable, so remaining ties keep their content order.
  */
 export function walkOrder<T extends HiddenMickeyEntry>(list: T[]): T[] {
   return list
     .map((entry, index) => ({
       entry,
       index,
-      rank: walkRank(entry),
+      area: walkArea(entry),
       scene: entry.sceneOrder ?? Infinity,
+      location: WALK_LOCATION_ORDER[entry.locationType],
       unconfirmed: isConfirmed(entry) ? 0 : 1,
     }))
     .sort(
       (a, b) =>
-        a.rank - b.rank ||
+        a.area - b.area ||
         (a.scene === b.scene ? 0 : a.scene < b.scene ? -1 : 1) ||
+        a.location - b.location ||
         a.unconfirmed - b.unconfirmed ||
         a.index - b.index
     )

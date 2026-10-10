@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "In one of the first rooms of the ride, the wall is painted with pink flowers, and a tiny classic three-circle Mickey hides among them. A Cast Member once called it the smallest one in the park, and even if newer finds have taken that title, it is still easy to miss from a moving honey pot.",
   "whereToLook": {
     "scene": "One of the first rooms of the ride, the wall painted with pink flowers",
@@ -34,5 +35,5 @@
   },
   "sourceId": "TLC-MK-0102",
   "createdAtISO": "2026-09-23T00:00:00.000Z",
-  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

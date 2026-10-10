@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Hard",
   "areaContext": "Lobby",
+  "sceneOrder": 4,
   "description": "The low mural just before the theater has a silver frog looking out at you, and a Mickey profile fills the pupil of its left eye. The whole mural sits well below eye level.",
   "whereToLook": {
     "scene": "Low mural just before the theater",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-AK-0019",
   "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

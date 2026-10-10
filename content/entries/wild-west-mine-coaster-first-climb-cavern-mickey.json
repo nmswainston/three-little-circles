@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "Beside the first climb, the train passes through a cavern with dripping rockwork. A classic three-circle Hidden Mickey is reported in the scenery on the right.",
   "whereToLook": {
     "scene": "Cavern beside the first lift hill",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-MK-0069",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-big-thunder-mountain-railroad",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

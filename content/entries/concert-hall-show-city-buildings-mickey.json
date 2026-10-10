@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "During the magic carpet sequence, the city below sweeps past at the bottom left of the screen. For a moment three round rooftops line up into the classic three-circle shape before the camera moves on.",
   "whereToLook": {
     "scene": "Magic carpet flight over the city in the 3D show",
@@ -36,5 +37,5 @@
   },
   "sourceId": "TLC-MK-0002",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

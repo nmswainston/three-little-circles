@@ -497,6 +497,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 2,
     "description": "Also in the lost-and-found is a small pinned-on tail. It belongs to the gloomy donkey from the hundred-acre wood, who is forever losing it.",
     "whereToLook": {
       "scene": "Lost-and-found shelf at the gallery's reception desk",
@@ -516,7 +517,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0031",
     "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "animation-gallery-lost-and-found-hydra-vase",
@@ -533,6 +534,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 2,
     "description": "A vase on the lost-and-found shelf is painted with a many-headed hydra, straight out of the animated film about the Greek hero.",
     "whereToLook": {
       "scene": "Lost-and-found shelf at the gallery's reception desk",
@@ -552,7 +554,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0032",
     "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "animation-gallery-lost-and-found-map-sphere",
@@ -569,6 +571,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 2,
     "description": "The lost-and-found at the reception desk holds a golden sphere etched with a map. It is the treasure map from the animated space pirate adventure.",
     "whereToLook": {
       "scene": "Lost-and-found shelf at the gallery's reception desk",
@@ -588,7 +591,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0030",
     "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "animation-gallery-lost-and-found-sundrop-flower",
@@ -605,6 +608,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 2,
     "description": "A golden flower among the lost items is the magic sundrop flower that gave the long-haired princess her glowing hair.",
     "whereToLook": {
       "scene": "Lost-and-found shelf at the gallery's reception desk",
@@ -624,7 +628,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0033",
     "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "animation-gallery-reception-kitten-overhead",
@@ -641,6 +645,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 1,
     "description": "Above the reception desk, the woodcarver's black-and-white kitten from the puppet story watches everyone who comes in.",
     "whereToLook": {
       "scene": "The gallery's reception area, where guests come in",
@@ -660,7 +665,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0034",
     "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "animation-gallery-snowman-book-illusion-of-life",
@@ -677,6 +682,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 4,
     "description": "In the drawing area with the snowman, a book beneath him is the classic textbook on animation written by two of the studio's original nine master animators.",
     "whereToLook": {
       "scene": "Drawing area with the snowman figure",
@@ -696,7 +702,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0037",
     "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "animation-gallery-treasures-emperor-crown",
@@ -713,6 +719,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Easy",
     "areaContext": "Lobby",
+    "sceneOrder": 3,
     "description": "A gold crown in the treasures exhibit belongs to the self-absorbed emperor who spent most of his movie as a llama.",
     "whereToLook": {
       "scene": "Display cases in the gallery's treasures exhibit",
@@ -732,7 +739,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0036",
     "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "animation-gallery-treasures-rag-doll",
@@ -749,6 +756,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Easy",
     "areaContext": "Lobby",
+    "sceneOrder": 3,
     "description": "In the treasures exhibit, a lumpy homemade rag doll with button eyes sits among the artifacts. It is the doll the little Hawaiian girl made herself in the film about her alien pet.",
     "whereToLook": {
       "scene": "Display cases in the gallery's treasures exhibit",
@@ -768,7 +776,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0035",
     "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "aquarium-shark-photo-area-mickey",
@@ -1025,6 +1033,7 @@ export const entries: HiddenMickeyEntry[] = [
     "entryType": "FIND",
     "locationType": "Queue",
     "difficulty": "Medium",
+    "sceneOrder": 2,
     "description": "A classic three-circle Hidden Mickey is drawn into a hand-painted cloud mural in the loading-area queue. It sits in the upper right of the mural and is easy to miss because it reads as just another cloud.",
     "whereToLook": {
       "scene": "Large hand-drawn mural of backyard coaster plans",
@@ -1050,7 +1059,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-HS-0050",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "backyard-coaster-queue-coloring-book-plans",
@@ -1067,6 +1076,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Easy",
     "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "A coloring book in the queue has a drawing tucked inside it. It is the boy's own plan for the coaster you are about to ride, explaining how he built it from his toys.",
     "whereToLook": {
       "scene": "Oversized coloring book along the queue",
@@ -1090,7 +1100,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0020",
     "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "backyard-coaster-queue-dog-tag",
@@ -1107,6 +1117,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Easy",
     "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "A dog tag in the queue is engraved with the name of the boy's real dog, the dachshund who barrels through the second movie.",
     "whereToLook": {
       "scene": "Oversized props along the standby queue",
@@ -1130,7 +1141,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0019",
     "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "backyard-coaster-queue-penguin-box-mickey",
@@ -1227,6 +1238,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "In the mid-ride musical scene, a bobcat plays a wooden saxophone. The spots on his fur include a cluster that reads as a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "Mid-ride musical scene with the animal band",
@@ -1250,7 +1262,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0092",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-tiana-s-bayou-adventure-bobcat-hidden",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "bayou-log-flume-bongo-frog-thigh-mickey",
@@ -1267,6 +1279,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "Inside the mountain, a green and yellow frog plays the bongos on the left side of the flume. Raised spots on his upper left thigh form an upside-down classic Hidden Mickey.",
     "whereToLook": {
       "scene": "Musical scene inside the mountain",
@@ -1290,7 +1303,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0051",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "bayou-log-flume-fence-gumbo-foam-mickey",
@@ -1307,6 +1320,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "Shortly after leaving the station, the log passes a tall brown fence on the left painted with gumbo imagery. In the white foam of the painted pot, a classic Hidden Mickey hides.",
     "whereToLook": {
       "scene": "Outdoor stretch just after departure",
@@ -1329,7 +1343,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0052",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "bayou-log-flume-finale-beignets-mickey",
@@ -1346,6 +1360,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 3,
     "description": "In the finale party, the food display includes a plate of beignets. Three are arranged as a classic Hidden Mickey, dusted with sugar.",
     "whereToLook": {
       "scene": "Party finale after the big drop",
@@ -1368,7 +1383,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0053",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "beak-and-barrel-lounge-chalice-display",
@@ -2547,6 +2562,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 4,
     "description": "Entering the cactus room, look straight ahead for a lone blue cactus with a stitch on its right side. That is Experiment 626, Stitch himself, hiding out on the railway.",
     "whereToLook": {
       "scene": "The cactus room, straight ahead as you enter",
@@ -2570,7 +2586,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0055",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway49",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-cactus-room-mickey-cacti",
@@ -2587,6 +2603,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Easy",
     "areaContext": "Ride",
+    "sceneOrder": 3,
     "description": "In the first room after the train splits up, the cactus on the wall to the right of the exit is a dead ringer for Mickey. The room is full of Mickey-shaped cacti, and they all count together as one find.",
     "whereToLook": {
       "scene": "The first room after the train breaks apart, the wall right of the exit",
@@ -2610,7 +2627,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0056",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway13",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-carnival-frontier-toss-targets-mickey",
@@ -2627,6 +2644,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 9,
     "description": "Heading for the carnival room exit, look left for the Frontier Toss game, to the left of the Bounce Haus. Three of its targets form a Mickey.",
     "whereToLook": {
       "scene": "The carnival room near the exit, the Frontier Toss booth on the left",
@@ -2650,7 +2668,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0061",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway15",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-carnival-mirror-maze-mm-letters",
@@ -2667,6 +2685,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 6,
     "description": "As you enter the carnival room, the Mirror Maze attraction is on the right, and the letters MM sit above its doors. Mickey Mouse, or Mickey and Minnie. Either way they are initials hiding in plain sight.",
     "whereToLook": {
       "scene": "Entering the carnival room, the Mirror Maze on the right",
@@ -2690,7 +2709,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0057",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway39",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-carnival-popcorn-box-kernel-mickey",
@@ -2707,6 +2726,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 8,
     "description": "A popcorn box in the carnival room has one Mickey kernel in its top left, just before the tornado kicks off. This Mickey sits up near the top of the box. You only get the angle if your car enters the carnival from the far left side.",
     "whereToLook": {
       "scene": "The carnival room, the popcorn box, just before the tornado",
@@ -2731,7 +2751,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0060",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway56",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-carnival-sold-out-sign-yellow-mickey",
@@ -2748,6 +2768,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 5,
     "description": "Entering the carnival room, balloons float ahead of you beside a Sold Out sign. Just above the sign, a small yellow Mickey hides among the signage, sometimes half covered by orange lights.",
     "whereToLook": {
       "scene": "Entering the carnival room, the balloons and the Sold Out sign ahead",
@@ -2771,7 +2792,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0058",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway47",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-carnival-ticket-booth-rolls-mickey",
@@ -2788,6 +2809,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 7,
     "description": "In the carnival room, the ticket booth to the left of Donald's hot dog stand has three rolls of tickets stacked as a Hidden Mickey.",
     "whereToLook": {
       "scene": "The carnival room, the ticket booth left of Donald's hot dog booth",
@@ -2811,7 +2833,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0059",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway14",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-city-clothesline-mickey-shirt",
@@ -2828,6 +2850,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 12,
     "description": "Above Donald's delivery truck on the left side of the city scene, an open window has a clothesline strung from it, and a Mickey Mouse shirt is hanging on the line. The scene is dim, so it reads better on a night ride when your eyes are already adjusted.",
     "whereToLook": {
       "scene": "The city scene, above Donald's delivery truck on the left",
@@ -2851,7 +2874,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0068",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway43",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-city-ice-cream-scoops-mickey",
@@ -2868,6 +2891,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 11,
     "description": "In the same city scene, an ice cream shop sits to the right of Pete, and its scoops are stacked as a Hidden Mickey.",
     "whereToLook": {
       "scene": "The city scene with Pete's jackhammer, the ice cream shop to his right",
@@ -2891,7 +2915,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0067",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway21",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-city-laundry-soap-billboard-mickey",
@@ -2908,6 +2932,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 10,
     "description": "In the city scene where Pete runs the jackhammer, a laundry soap billboard tops the building to his left. There is a Hidden Mickey in the billboard art.",
     "whereToLook": {
       "scene": "The city scene with Pete's jackhammer, the building to his left",
@@ -2931,7 +2956,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0066",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway20",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-city-scene-great-movie-ride-marquee",
@@ -2948,6 +2973,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 13,
     "description": "This ride took over the building that housed The Great Movie Ride from the park's opening day until 2017. In the big city scene, one of the painted theater fronts carries a marquee that reads The Great Movie Ride, a tip of the hat to the attraction that stood on this exact spot.",
     "whereToLook": {
       "scene": "The city scene, the painted building fronts along the street",
@@ -2975,7 +3001,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0052",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-mickey-minnie-s-runaway-railway-easter",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-daisy-studio-ballet-poster-frame-mickey",
@@ -2992,6 +3018,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 14,
     "description": "Daisy's studio is hung with posters for ballet productions. The one on the wall behind you while you waltz advertises Ro-Mallard and Juli-Egg, and the top of its frame is a Mickey.",
     "whereToLook": {
       "scene": "Daisy's dance studio, the wall behind you during the waltz",
@@ -3015,7 +3042,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0070",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway46",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-daisy-studio-disco-ball-light-mickeys",
@@ -3032,6 +3059,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 17,
     "description": "During the conga in Daisy's studio, a disco ball spins on the right. Mixed into the white spots of light it throws are several Mickey heads, and they fly past fast.",
     "whereToLook": {
       "scene": "Daisy's dance studio during the conga, the disco ball on the right",
@@ -3055,7 +3083,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0072",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway18",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-daisy-studio-lower-wall-mickeys",
@@ -3072,6 +3100,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 15,
     "description": "Inside Daisy's dance studio, the design along the lower walls repeats several Mickeys. They sit just above the floorboards toward the front of the studio, below the mirror, turned ninety degrees.",
     "whereToLook": {
       "scene": "Daisy's dance studio, the lower walls toward the front below the mirror",
@@ -3095,7 +3124,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0069",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway28",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-dance-room-flower-mickey",
@@ -3112,6 +3141,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 16,
     "description": "A classic three-circle Hidden Mickey sits in the center of one of the large flowers that move and flash along the right side of the big mirror at the front of Daisy Duck's dance room. The flowers are in motion and the lights pulse, so the shape is only readable for a moment as your vehicle passes through.",
     "whereToLook": {
       "scene": "Daisy Duck's dance room, the large mirror at the front of the room",
@@ -3136,7 +3166,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0071",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway17",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-exit-fishing-hole-sign-mickey",
@@ -3153,6 +3183,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 37,
     "description": "Right before the car enters the unload room, during the fireworks, a multi-directional signpost stands on the right. On the arm that reads Fishing Hole, the letter O has been swapped for a Mickey.",
     "whereToLook": {
       "scene": "Just before the unload room during the fireworks, the signpost on the right",
@@ -3176,7 +3207,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0088",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway50",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-factory-back-wall-lollipop-mickey",
@@ -3193,6 +3224,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 28,
     "description": "Toward the back wall on the right side of the factory, a yellow Mickey head rotates on a pole like a lollipop.",
     "whereToLook": {
       "scene": "The factory room, the right side toward the back wall",
@@ -3216,7 +3248,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0079",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway31",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-factory-bellows-panel-yellow-mickey",
@@ -3233,6 +3265,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 27,
     "description": "In the factory room, a yellow Mickey on a red background sits on the right-hand panel just left of the bellows.",
     "whereToLook": {
       "scene": "The factory room, the panel on the right just left of the bellows",
@@ -3256,7 +3289,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0074",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway23",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-factory-black-box-yellow-circles-inverted-mickey",
@@ -3273,6 +3306,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 24,
     "description": "On the right side of the factory, the black box with the long belt has three yellow circles near its bottom right that swing together for a moment into a Mickey. There are two sets. This is the upside-down one on top.",
     "whereToLook": {
       "scene": "The factory room, the black box with the long belt on the right",
@@ -3296,7 +3330,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0076",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway54",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-factory-black-box-yellow-circles-upright-mickey",
@@ -3313,6 +3347,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 25,
     "description": "Just below the inverted set on the same black box, a second trio of yellow circles comes together right side up.",
     "whereToLook": {
       "scene": "The factory room, the black box with the long belt on the right",
@@ -3336,7 +3371,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0077",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway55",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-factory-entrance-banner-mickey-ears-bite",
@@ -3353,6 +3388,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 22,
     "description": "Just before the factory room, a string of triangular pennants hangs over the track. One pennant has a chunk missing, and the missing piece is shaped like Mickey ears.",
     "whereToLook": {
       "scene": "The string of pennants over the track right before the factory room",
@@ -3376,7 +3412,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0073",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway61",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-factory-final-left-panel-rotating-mickey",
@@ -3393,6 +3429,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 31,
     "description": "On the final panel on the left before the front of the Smasher, another Mickey head rotates.",
     "whereToLook": {
       "scene": "The factory room, the last panel on the left before the Smasher's front",
@@ -3416,7 +3453,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0082",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway33",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-factory-flywheels-belts-mickey",
@@ -3433,6 +3470,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 30,
     "description": "On top of the tall panel between the furnace and the Smasher, three flywheels joined by belts form a Mickey.",
     "whereToLook": {
       "scene": "The factory room, the top of the tall panel between the furnace and the Smasher",
@@ -3456,7 +3494,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0080",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway35",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-factory-gear-boxes-mickey-head-shadow",
@@ -3473,6 +3511,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 26,
     "description": "Below the black box with the long belt, two large gear boxes sit on the right side of the factory. At their base, a Mickey head throws a shadow of mouse ears. The head is partly tucked away, so the left side of the vehicle has the better look.",
     "whereToLook": {
       "scene": "The factory room, the two large gear boxes below the black box on the right",
@@ -3496,7 +3535,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0078",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway53",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-factory-grey-panel-spinner-mickey",
@@ -3513,6 +3552,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 23,
     "description": "Near the center right of the factory room, a grey panel feeds a long belt off to the right. Just above the panel, a spinner is shaped as a Mickey head.",
     "whereToLook": {
       "scene": "The factory room, the grey panel with the long belt at center right",
@@ -3536,7 +3576,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0075",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway30",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-factory-smasher-sign-wheel-center-mickey",
@@ -3553,6 +3593,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 32,
     "description": "A wheel turns on the front left panel of the factory, just left of the sign reading The Smasher. There is a Mickey at the hub of the wheel.",
     "whereToLook": {
       "scene": "The factory room, the front left panel beside the Smasher sign",
@@ -3576,7 +3617,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0083",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway34",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-factory-tall-panel-rotating-mickey",
@@ -3593,6 +3634,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 29,
     "description": "The same tall panel between the furnace and the Smasher has a rotating Mickey head on its face.",
     "whereToLook": {
       "scene": "The factory room, the tall panel between the furnace and the Smasher",
@@ -3616,7 +3658,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0081",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway32",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-finale-fireworks-wall-mickey",
@@ -3633,6 +3675,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 36,
     "description": "After the ukulele scene, fireworks burst against the wall, and one burst is a Mickey. It is quick, and if you are not watching the sky you will miss it.",
     "whereToLook": {
       "scene": "After the ukulele scene, the fireworks on the wall",
@@ -3656,7 +3699,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0086",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway63",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-first-turn-paint-cans-inverted-mickey",
@@ -3673,6 +3716,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "After the first left turn, while the train is still in one piece, a stack of paint cans holds an upside-down Hidden Mickey.",
     "whereToLook": {
       "scene": "Right after the first left turn, before the train breaks apart",
@@ -3696,7 +3740,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0054",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway12",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-last-room-low-blue-wall-mickey-letters",
@@ -3713,6 +3757,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 35,
     "description": "In the last room, a low blue wall on the left, right down at floor level, spells out M-I-C-K-E-Y in letters. It is across from where Mickey plays the ukulele, and only the left side of the vehicle has the view.",
     "whereToLook": {
       "scene": "The last room, the low blue wall on the left across from the ukulele",
@@ -3737,7 +3782,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0087",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway57",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-octopus-plug-pipes-mickey",
@@ -3754,6 +3799,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 21,
     "description": "After the water scene, when the octopus yanks the plug, your car turns right. In the pipes on the right as you swing back left, three pipe ends form a Hidden Mickey.",
     "whereToLook": {
       "scene": "Right after the octopus pulls the plug, the pipes on the right",
@@ -3777,7 +3823,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0065",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway19",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-park-restored-potted-plants-mickeys",
@@ -3794,6 +3840,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 33,
     "description": "Once Mickey and Minnie shut down the Smasher, the factory turns back into Runnamuck Park. Potted plants appear on the left and right above where the Smasher sign was, and the plants are trimmed into Mickeys.",
     "whereToLook": {
       "scene": "The factory after it turns back into the park, above where the Smasher sign was",
@@ -3817,7 +3864,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0084",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway62",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-preshow-chandelier-mickeys",
@@ -3916,6 +3963,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "In the opening Runnamuck Park scene, a black lamppost stands on the left. About halfway up the post, red paint blotches form a Hidden Mickey.",
     "whereToLook": {
       "scene": "The Runnamuck Park scene at the start of the ride, the black lamppost on the left",
@@ -3939,7 +3987,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0053",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway44",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-ukulele-pond-lily-pads-mickey",
@@ -3956,6 +4004,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 34,
     "description": "Approaching the park scene where Mickey plays the ukulele, a pond on the right is dotted with lily pads, and three of them float together as a Hidden Mickey.",
     "whereToLook": {
       "scene": "Approaching the ukulele scene, the pond on the right",
@@ -3979,7 +4028,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0085",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway22",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-waterfall-clam-pearls-mickey",
@@ -3996,6 +4045,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 20,
     "description": "A classic three-circle Hidden Mickey is formed by three blue pearls in an open clam just past the waterfall plunge. It sits behind you and to the left once the bubbles clear, so riders facing forward toward the next scene never see it.",
     "whereToLook": {
       "scene": "Just after your vehicle plunges over the waterfall",
@@ -4020,7 +4070,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0064",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway29",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-waterfall-short-tree-coconuts-mickey",
@@ -4037,6 +4087,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 18,
     "description": "The second coconut Mickey before the waterfall is in the shorter palm to the left of Mickey and Minnie, also leaning over the river.",
     "whereToLook": {
       "scene": "Before the waterfall drop, where Mickey and Minnie land in the bushes",
@@ -4060,7 +4111,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0063",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway41",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "cartoon-railway-waterfall-tall-tree-coconuts-mickey",
@@ -4077,6 +4128,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 19,
     "description": "Before the drop over the waterfall, look left. Where Mickey and Minnie land in the bushes, a tall palm leans over the river to their right, and three of its coconuts are a Mickey. There are two coconut Mickeys here; this is the one in the tall tree.",
     "whereToLook": {
       "scene": "Before the waterfall drop, where Mickey and Minnie land in the bushes",
@@ -4100,7 +4152,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0062",
     "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway27",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "castle-restaurant-ballroom-ceiling-minnie",
@@ -4631,6 +4683,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "During the magic carpet sequence, the city below sweeps past at the bottom left of the screen. For a moment three round rooftops line up into the classic three-circle shape before the camera moves on.",
     "whereToLook": {
       "scene": "Magic carpet flight over the city in the 3D show",
@@ -4654,7 +4707,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0002",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "concert-hall-show-curtain-french-horn-mickey",
@@ -4750,6 +4803,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 3,
     "description": "During the magic carpet sequence the film sweeps out over a night sky, and the moon that hangs in the upper right of the screen is not as plain as it looks. Three gray craters sit on its surface in the classic three-circle arrangement. The carpet and the song pull every eye to the center of the screen, which is exactly why the moon goes unnoticed.",
     "whereToLook": {
       "scene": "The flying carpet sequence over the night sky",
@@ -4774,7 +4828,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0001",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "concert-hall-show-rotating-ring-mickey",
@@ -4791,6 +4845,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "In the undersea sequence, jewelry tumbles toward the audience on the right side of the screen. A tiny black classic Hidden Mickey sits inside one of the rotating rings and shows only when the ring turns to face you.",
     "whereToLook": {
       "scene": "Undersea song sequence with jewels and treasure floating past",
@@ -4813,7 +4868,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0003",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-curving-mural-butterfly-body-mickey",
@@ -4830,6 +4885,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Hard",
     "areaContext": "Entrance",
+    "sceneOrder": 3,
     "description": "On the curving mural to the right of the station entrance, one butterfly's body is Mickey's face. The face sits in the body between the wings, not in the wing markings, among the many other creatures on the mural.",
     "whereToLook": {
       "scene": "Curving mural on the right at the station entrance",
@@ -4853,7 +4909,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0018",
     "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-entrance-mural-butterfly-wing-mickey",
@@ -4870,6 +4926,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Entrance",
+    "sceneOrder": 1,
     "description": "High in the upper right of the animal mural at the station entrance, a butterfly carries a classic Hidden Mickey in the spots on its wings, three of them set as a head and two ears.",
     "whereToLook": {
       "scene": "Upper right of the animal mural at the station entrance",
@@ -4893,7 +4950,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0026",
     "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-entrance-mural-opossum-eye-mickey",
@@ -4910,6 +4967,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Hard",
     "areaContext": "Entrance",
+    "sceneOrder": 2,
     "description": "The entrance mural is famous for hiding many Mickeys in its animals. On the right side, a Mickey profile hides in the pupil of the opossum's eye.",
     "whereToLook": {
       "scene": "Right side of the animal mural at the station entrance",
@@ -4934,7 +4992,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0017",
     "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-lizard-tree-mickey",
@@ -4951,6 +5009,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Hard",
     "areaContext": "Lobby",
+    "sceneOrder": 3,
     "description": "On the tree to the right of the willow, a lizard sits above the cockroach sign. A classic Hidden Mickey sits just above the lizard's front leg.",
     "whereToLook": {
       "scene": "Tree to the right of the willow",
@@ -4974,7 +5033,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0022",
     "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-low-mural-frog-pupil-mickey",
@@ -4991,6 +5050,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Hard",
     "areaContext": "Lobby",
+    "sceneOrder": 4,
     "description": "The low mural just before the theater has a silver frog looking out at you, and a Mickey profile fills the pupil of its left eye. The whole mural sits well below eye level.",
     "whereToLook": {
       "scene": "Low mural just before the theater",
@@ -5014,7 +5074,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0019",
     "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-rainforest-panel-leaf-hole-mickey",
@@ -5031,6 +5091,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Entrance",
+    "sceneOrder": 4,
     "description": "On the right panel at the rainforest entrance, a hole in a green leaf is cut in the outline of a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "Right panel at the entrance to the rainforest exhibit",
@@ -5054,7 +5115,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0027",
     "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-rainforest-tree-shadow-profile-mickey",
@@ -5071,6 +5132,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Hard",
     "areaContext": "Lobby",
+    "sceneOrder": 1,
     "description": "In the rainforest exhibit, the front of the tree carries a painted shadow about seven feet up that resembles Mickey's profile.",
     "whereToLook": {
       "scene": "Rainforest tree in the exhibit",
@@ -5094,7 +5156,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0020",
     "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-reptile-room-window-ledge-containers-mickey",
@@ -5111,6 +5173,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 5,
     "description": "In the reptile room, go to the window farthest to the left. Three containers on the ledge sit together as a Mickey.",
     "whereToLook": {
       "scene": "The reptile room, the far left window",
@@ -5135,7 +5198,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0024",
     "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
     "createdAtISO": "2026-10-05T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-tracking-center-second-window-plate-dots-mickey",
@@ -5152,6 +5215,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 6,
     "description": "In the Wildlife Tracking Center, look through the second window into the lab. On a laboratory plate inside, dots are laid out as a Mickey.",
     "whereToLook": {
       "scene": "The Wildlife Tracking Center, the second window",
@@ -5176,7 +5240,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0023",
     "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
     "createdAtISO": "2026-10-05T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "conservation-hall-willow-tree-indentation-mickey",
@@ -5193,6 +5257,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 2,
     "description": "The talking willow tree from the story of the Powhatan princess stands in the exhibit. Below her sign and to the right of her face, an indentation in the bark is shaped like a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "Grandmother willow tree in the exhibit",
@@ -5216,7 +5281,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0021",
     "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "conservation-outpost-leaf-wall-tiny-mickey",
@@ -7732,6 +7797,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Hard",
     "areaContext": "Walkway",
+    "sceneOrder": 1,
     "description": "On the path that leads over from the savanna village into the valley, a large rock sits on the left side of the walkway. Three weathered holes in its face line up as a Mickey head tipped over to the left. Whether the rockwork crew meant it is an open question, so treat this one as a bonus rather than a sure thing.",
     "whereToLook": {
       "scene": "The connecting path from the savanna village toward the valley entrance",
@@ -7755,7 +7821,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-AK-0036",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "floating-mountains-walkway-mushroom-mickey",
@@ -7772,6 +7838,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Hard",
     "areaContext": "Walkway",
+    "sceneOrder": 2,
     "description": "Three small round mushrooms grow as a classic three-circle Hidden Mickey on a dead tree along the first side path that branches off the main walkway into the valley. The tree rises above the fence on the right side of the path, and the mushrooms sit on the far side of it, so you have to walk past the tree and look back.",
     "whereToLook": {
       "scene": "First pathway that branches from the main walkway into the valley, a dead tree jutting above the fence on the right",
@@ -7796,7 +7863,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-AK-0038",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "flying-carpets-pavement-charm-mickey",
@@ -9029,6 +9096,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "In the first target room, a green Mickey head with blue ears is painted low on the wall. You have to spin the vehicle backward and to the right to see it, which is why so few people do.",
     "whereToLook": {
       "scene": "First target room after loading",
@@ -9051,7 +9119,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0036",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "galactic-blaster-late-battle-planet-landmass-mickey",
@@ -9068,6 +9136,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 3,
     "description": "In the space battle near the end of the ride, a planet drifts past with a continent shaped like a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "Space battle sequence near the end",
@@ -9091,7 +9160,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0072",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-buzz-lightyear-planet",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "galactic-blaster-planet-poster-mickey",
@@ -9151,6 +9220,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "In the battery room where the big villain waits, a tiny blue star high above his left shoulder is shaped like a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "Battery scene with the villain",
@@ -9173,7 +9243,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0037",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "galaxys-edge-frontierland-bridge-donald-rock",
@@ -9310,6 +9380,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "In the garage electronics scene, the desk is scattered with period clutter. An eraser on the desktop is reported to be shaped like a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "Garage electronics scene, full of period clutter",
@@ -9333,7 +9404,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-EP-0031",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-eraser",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "geosphere-entrance-mural-satellite-mickey",
@@ -9390,6 +9461,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "In the Renaissance scene, the artist's fruit study is arranged so that the grouping depicts a Mickey silhouette. It is a companion to the three paint marks on the same painter's table.",
     "whereToLook": {
       "scene": "Renaissance scene, the painter's studio",
@@ -9413,7 +9485,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-EP-0030",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-art",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "geosphere-renaissance-painter-table-mickey",
@@ -9430,6 +9502,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "In the Renaissance scene, the first painter on your left works at a table with three white circles on top of it. They form a classic three-circle Hidden Mickey. The scene is dim and the ride keeps a steady pace, so it takes a deliberate look.",
     "whereToLook": {
       "scene": "Renaissance scene, the first painter on your left",
@@ -9453,7 +9526,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-EP-0032",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-paint-marks",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "germany-armor-crown-mickey",
@@ -9593,6 +9666,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Easy",
     "areaContext": "Ride",
+    "sceneOrder": 9,
     "description": "Soarin' Across America ends with a Fourth of July night over EPCOT. Spaceship Earth is lit as an American flag, and the fireworks launched beyond the park burst into an eagle, a flag, and a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "The EPCOT finale of Soarin' Across America, the fireworks over Spaceship Earth",
@@ -9617,7 +9691,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-EP-0070",
     "sourceUrl": "https://www.disneytouristblog.com/soarin-across-america-ride-review-good-bad-ugly-usa-250th-anniversary/",
     "createdAtISO": "2026-10-09T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "gliding-flight-across-america-los-angeles-sorcerer-hat",
@@ -9634,6 +9708,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 4,
     "description": "The Los Angeles scene crosses Griffith Observatory and the Hollywood sign, and the Walt Disney Studios lot in Burbank passes below. The Sorcerer Mickey hat on the Animation Building is a real sculpture on the real lot.",
     "whereToLook": {
       "scene": "The Los Angeles scene, after the Hollywood sign",
@@ -9658,7 +9733,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-EP-0071",
     "sourceUrl": "https://www.disneytouristblog.com/soarin-across-america-ride-review-good-bad-ugly-usa-250th-anniversary/",
     "createdAtISO": "2026-10-09T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "gliding-flight-finale-fireworks-mickey",
@@ -9675,6 +9750,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Easy",
     "areaContext": "Ride",
+    "sceneOrder": 9,
     "description": "Soarin' Around the World ended over EPCOT with fireworks, and three bursts in that finale made a classic Mickey. The film stopped playing on May 13, 2026, when Soarin' Across America took over for a limited run, so this one is on the shelf until Around the World comes back.",
     "whereToLook": {
       "scene": "Finale fireworks at the end of the flight",
@@ -9698,7 +9774,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-EP-0028",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-soarin-fireworks",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "gliding-flight-hot-air-balloons-mickey",
@@ -9715,6 +9791,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 3,
     "description": "In Soarin' Around the World, three hot air balloons lined up for a beat as a classic Mickey when the balloon scene filled the screen. The film stopped playing on May 13, 2026, when Soarin' Across America took over for a limited run, so this one waits for Around the World to return.",
     "whereToLook": {
       "scene": "The hot air balloon scene",
@@ -9738,7 +9815,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-EP-0055",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "glowing-river-light-fixture-mickey",
@@ -11158,6 +11235,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 5,
     "description": "In the greenhouses, lettuce grows on horizontal planks. Most of it is red lettuce, but the green lettuce mixed in is planted as a classic three-circle Mickey. Crops rotate, so the pattern can grow out or be replanted, but it has been there recently.",
     "whereToLook": {
       "scene": "Greenhouse section, the horizontal planks of lettuce",
@@ -11182,7 +11260,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-EP-0021",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-lettuce",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "greenhouse-boat-molded-produce-mickey",
@@ -11199,6 +11277,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 6,
     "description": "The growing houses are not only a science exhibit, they are a workshop. Among the rows the horticulture team sometimes raises pumpkins and cucumbers inside Mickey-shaped molds, so the fruit swells into a three-circle head as it grows. It is a living Hidden Mickey, which also means it is a seasonal one.",
     "whereToLook": {
       "scene": "The greenhouse portion of the boat ride, in the smaller display beds rather than the tall production rows",
@@ -11226,7 +11305,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-EP-0046",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "greenhouse-boat-mural-bubbles-mickey",
@@ -11243,6 +11322,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "Three bubbles on the large mural in the early part of the boat ride come together as a classic three-circle Hidden Mickey. The mural is full of shapes and color, so the trio reads as more bubbles.",
     "whereToLook": {
       "scene": "The large mural early in the boat ride",
@@ -11264,7 +11344,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-EP-0056",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "greenhouse-boat-pest-management-lab-tubes-mickey",
@@ -11281,6 +11361,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 4,
     "description": "In the greenhouses the boat passes a display about Integrated Pest Management, the method the gardens use instead of heavy pesticides. Among the lab glassware, tubes are grouped so they read as Mickey's head and ears.",
     "whereToLook": {
       "scene": "The greenhouse section, the Integrated Pest Management display",
@@ -11305,7 +11386,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-EP-0035",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-test-tubes",
     "createdAtISO": "2026-10-05T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "greenhouse-boat-shrimp-trap-mickey",
@@ -11322,6 +11403,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "In the fish and shrimp tank section of the boat ride, one of the live shrimp tanks holds a small trap shaped like a classic three-circle Mickey. It looks like working equipment sitting in the water, so riders looking for fish pass right over it.",
     "whereToLook": {
       "scene": "Fish and shrimp tank area of the ride",
@@ -11344,7 +11426,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-EP-0057",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "greenhouse-boat-water-hose-mickey",
@@ -11361,6 +11443,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 3,
     "description": "In the fish and shrimp tank section of the boat ride, a garden hose lies on the ground coiled into a classic three-circle Hidden Mickey. It looks like working equipment, which is why most riders never give it a second look.",
     "whereToLook": {
       "scene": "Fish and shrimp tank area of the ride, the ground beside the tanks",
@@ -11383,7 +11466,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-EP-0018",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-hose",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "greeting-hall-mural-flowers-mickey",
@@ -11880,6 +11963,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "In the attic, the bride's former husbands appear in portraits with their hats displayed nearby. Three of the hats are set together as a classic three-circle Hidden Mickey.",
     "whereToLook": {
       "scene": "Attic scene with the bride and the portraits",
@@ -11902,7 +11986,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0044",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "haunted-manor-banquet-table-plates-mickey",
@@ -11919,6 +12003,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "A classic three-circle Hidden Mickey is set on the ghostly banquet table using a plate for the head and two saucers for the ears. It sits at the bottom left corner of the table, away from the dancing ghosts that pull every eye toward the middle of the ballroom.",
     "whereToLook": {
       "scene": "Ballroom scene with the ghostly banquet, viewed from the balcony as your carriage passes",
@@ -11941,7 +12026,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0041",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "haunted-manor-graveyard-shroud-folds-mickey",
@@ -11958,6 +12043,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 3,
     "description": "Near the end of the graveyard, a hooded figure stands by a crypt. The folds of its shroud fall into a classic three-circle Hidden Mickey.",
     "whereToLook": {
       "scene": "Graveyard scene, near the end",
@@ -11980,7 +12066,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0042",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "haunted-manor-hearse-hoofprints-mickey",
@@ -11997,6 +12083,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Medium",
     "areaContext": "Entrance",
+    "sceneOrder": 2,
     "description": "Outside the manor, a hearse waits with an invisible horse in the traces. On the ground nearby, the hoofprints are arranged into a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "Hearse outside the manor entrance",
@@ -12019,7 +12106,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0043",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "haunted-manor-queue-bathtub-memorial-mickey",
@@ -12076,6 +12163,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Easy",
     "areaContext": "Entrance",
+    "sceneOrder": 1,
     "description": "When the line is short, the posted standby wait at the Mansion sometimes reads 13 minutes instead of the usual 5 or 10. Thirteen is the house's favorite unlucky number, and the sign is in on the joke.",
     "whereToLook": {
       "scene": "The standby wait time sign at the attraction entrance",
@@ -12100,7 +12188,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0090",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-haunted-mansion-13-minutes-wait-time",
     "createdAtISO": "2026-10-05T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "haunted-mansion-ballroom-table-plates-mickey",
@@ -12606,6 +12694,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "Inside Owl's house, a framed picture shows Mr. Toad handing over the deed to Owl. It is a tribute to the ride that used to occupy this building, and a sweet one if you know the history.",
     "whereToLook": {
       "scene": "Owl's house scene, the pictures on the walls",
@@ -12630,7 +12719,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0016",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "honey-pot-pink-flowers-room-mickey",
@@ -12647,6 +12736,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "In one of the first rooms of the ride, the wall is painted with pink flowers, and a tiny classic three-circle Mickey hides among them. A Cast Member once called it the smallest one in the park, and even if newer finds have taken that title, it is still easy to miss from a moving honey pot.",
     "whereToLook": {
       "scene": "One of the first rooms of the ride, the wall painted with pink flowers",
@@ -12668,7 +12758,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0102",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "honey-pot-queue-tree-pebbles-mickey",
@@ -12805,6 +12895,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 5,
     "description": "A pair of broken eyeglasses sits among the props, a nod to the famous episode about a bookworm who finally gets all the time in the world to read, then breaks his glasses.",
     "whereToLook": {
       "scene": "Props in the hotel lobby and library",
@@ -12828,7 +12919,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0042",
     "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "hotel-drop-tower-inspection-certificate-name",
@@ -12885,6 +12976,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Pre-show",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 6,
     "description": "Among the props in the library is sheet music for a real 1932 song that asks, in its title, whether there is no Mickey Mouse. It is a period joke with a wink to the mouse that built the place.",
     "whereToLook": {
       "scene": "Library where the pre-show film plays",
@@ -12908,7 +13000,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0041",
     "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "hotel-drop-tower-lobby-directory-warning",
@@ -12925,6 +13017,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 1,
     "description": "The elevator directory in the hotel lobby lists the floors and their services. Read the first letters down the list and they spell out a warning about taking the stairs.",
     "whereToLook": {
       "scene": "Elevator directory board in the lobby",
@@ -12948,7 +13041,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0013",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-tower-terror-hidden-message",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "hotel-drop-tower-lobby-thirteen-diamond-plaque",
@@ -12965,6 +13058,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Easy",
     "areaContext": "Lobby",
+    "sceneOrder": 2,
     "description": "A hotel rating plaque in the lobby awards the place thirteen diamonds. Real ratings top out at five, so this one is a joke about the hotel's supernatural standards.",
     "whereToLook": {
       "scene": "Plaques on the lobby wall",
@@ -12988,7 +13082,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0044",
     "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "hotel-drop-tower-star-field-mickey",
@@ -13085,6 +13179,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 3,
     "description": "A few classic three-circle Hidden Mickeys are worked into the balcony that overlooks the hotel lobby along the queue. The lobby is dim and dressed with cobwebs and props, so the balcony's details get lost.",
     "whereToLook": {
       "scene": "Hotel lobby along the queue, the balcony overlooking it",
@@ -13108,7 +13203,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0038",
     "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "hotel-tower-lobby-coins-mickey",
@@ -13125,6 +13220,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Lobby",
+    "sceneOrder": 4,
     "description": "A classic three-circle Hidden Mickey is usually laid out with three coins in a wooden inbox tray on a counter in the dusty hotel lobby, just before the queue splits off toward the pre-show rooms. Cast Members arrange the coins by hand, so the shape is sometimes upside down and occasionally missing, and the low light hides it from anyone who does not glance left at the right moment.",
     "whereToLook": {
       "scene": "Hotel lobby along the standby queue, just before you are directed into the pre-show rooms",
@@ -13148,7 +13244,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-HS-0093",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "hotel-tower-preshow-mickey-doll",
@@ -13164,6 +13260,7 @@ export const entries: HiddenMickeyEntry[] = [
     "entryType": "FIND",
     "locationType": "Pre-show",
     "difficulty": "Easy",
+    "sceneOrder": 7,
     "description": "In the pre-show film that plays on the old television in the hotel library, a little girl among the guests stepping into the elevator on Halloween night in 1939 is holding a Mickey Mouse doll styled the way Mickey looked in that era. The doll is easy to see in the film, and the same girl and her doll flash past as ghostly visions moments after your own elevator starts to move.",
     "whereToLook": {
       "scene": "Pre-show library room where the film plays on the television, then again briefly on the ride",
@@ -13191,7 +13288,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0014",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-twilight-zone-doll",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "hunters-tavern-statue-rock-mickey",
@@ -13366,6 +13463,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "Inside the dragon's house near the end of the ride, the commode in his bathroom is shaped as a classic three-circle Hidden Mickey. The bathroom is a quick pass with plenty going on, and riders tend to look at the dragon rather than the fixtures.",
     "whereToLook": {
       "scene": "The dragon's house, the bathroom",
@@ -13387,7 +13485,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-EP-0059",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "imagination-dragon-sight-room-illustration-mickey",
@@ -13404,6 +13502,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "In the sight sequence, the wall is covered in optical-illusion drawings. A classic Hidden Mickey is reported among the visual-perception illustrations.",
     "whereToLook": {
       "scene": "Sight lab with the optical illusion drawings",
@@ -13427,7 +13526,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-EP-0019",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-imagination-ride",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "indiana-jones-adventure-film-room-eeyore-parking-sign",
@@ -14289,6 +14388,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Hard",
     "areaContext": "Walkway",
+    "sceneOrder": 6,
     "description": "Just past the short bridge hung with prayer flags, the wall on the left hides the lead designer's first name in its texture.",
     "whereToLook": {
       "scene": "Wall on the left past the short flagged bridge",
@@ -14312,7 +14412,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0035",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-maharajah-jungle-trek-three-hidden-joes/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "jungle-palace-deer-wall-designer-initials-first",
@@ -14329,6 +14429,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Hard",
     "areaContext": "Walkway",
+    "sceneOrder": 4,
     "description": "Along the semicircular wall by the deer enclosure, near its left end, the brick and plaster are worked into a pair of initials. They belong to the lead designer who shaped this park.",
     "whereToLook": {
       "scene": "Semicircular wall at the deer viewing area",
@@ -14352,7 +14453,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0033",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-maharajah-jungle-trek-three-hidden-joes/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "jungle-palace-deer-wall-designer-initials-second",
@@ -14369,6 +14470,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Hard",
     "areaContext": "Walkway",
+    "sceneOrder": 5,
     "description": "Farther along the same semicircular wall, a second pair of the lead designer's initials is worked into the brick and plaster.",
     "whereToLook": {
       "scene": "Semicircular wall at the deer viewing area",
@@ -14392,7 +14494,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0034",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-maharajah-jungle-trek-three-hidden-joes/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "jungle-palace-first-arch-leaves-mickey",
@@ -14409,6 +14511,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Medium",
     "areaContext": "Walkway",
+    "sceneOrder": 1,
     "description": "Inside the first archway near the tiger viewing area, a mural on the left contains three leaves that form a classic three-circle Hidden Mickey. The trail has more than ten Hidden Mickeys, and this is one of the two easiest to pin down.",
     "whereToLook": {
       "scene": "First archway near the tiger exhibit, the mural on the left",
@@ -14434,7 +14537,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-AK-0043",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "jungle-palace-second-arch-cloud-mickey",
@@ -14451,6 +14554,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Medium",
     "areaContext": "Walkway",
+    "sceneOrder": 2,
     "description": "In the mural past the second archway, a classic three-circle Hidden Mickey is painted into a cloud. Clouds are an easy place to hide the shape, and this one blends in until you look for it.",
     "whereToLook": {
       "scene": "Mural past the second archway on the trail",
@@ -14476,7 +14580,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-AK-0044",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "jungle-palace-second-arch-mountain-rock-mickey",
@@ -14493,6 +14597,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Hard",
     "areaContext": "Walkway",
+    "sceneOrder": 3,
     "description": "In the mural on the left past the second archway, a brown mountain is painted in the background. A rock shape in it is reported to suggest part of a classic Hidden Mickey, a separate find from the cloud on the same mural.",
     "whereToLook": {
       "scene": "Mural on the left past the second archway",
@@ -14516,7 +14621,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0032",
     "sourceUrl": "https://www.celebrationspress.com/issues/Celebrations-Issue-1-DV46852.pdf",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "kidani-village-sidewalk-concrete-mickey",
@@ -16788,6 +16893,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "At the end of the boat ride, a barge floats on your left, and the bongo drums on it carry a classic three-circle Hidden Mickey. The finale is bright and noisy, and the boat is already turning toward the dock.",
     "whereToLook": {
       "scene": "End of the boat ride, the barge on your left",
@@ -16810,7 +16916,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-EP-0005",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-mexico-congo-drums",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "mexico-pyramid-boat-finale-window-mickey",
@@ -16827,6 +16933,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "A little Mickey hides in one of the windows of the buildings in the final scene of the boat ride. The finale is busy with the fiesta barge on the left, and the buildings slide past on the way to the dock, so the window goes unnoticed.",
     "whereToLook": {
       "scene": "Final scene of the boat ride, the buildings along the shore as you approach the dock",
@@ -16848,7 +16955,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-EP-0063",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "mexico-pyramid-plaza-volcano-landscape-mickey",
@@ -17679,6 +17786,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "A tiny Mickey shouldering a pickaxe is worked into one of the wooden support beams near the top of the lift hill, just before the train leaves the indoor mine and rolls back out into daylight. He is small, he is on the right, and you get about two seconds of him while the chain is still clacking.",
     "whereToLook": {
       "scene": "Top of the lift hill, the last stretch of the indoor mine section before the train exits",
@@ -17703,7 +17811,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0105",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "mine-train-lift-hill-rabbit-carving",
@@ -17720,6 +17828,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "As the train climbs the first lift hill, a small carving of a lucky rabbit with long ears hides high on the left among the roof beams. He was Walt's cartoon star before the mouse, and he watches every train go up.",
     "whereToLook": {
       "scene": "First lift hill climb after leaving the mine",
@@ -17742,7 +17851,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0014",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "mine-train-loading-log-mickey",
@@ -18931,6 +19040,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "In the final scene, a lantern post stands on the left close to the boat. A small wire loop beneath the lantern reads, for a moment, as a classic three-circle Hidden Mickey.",
     "whereToLook": {
       "scene": "Final scene before the boat returns to the dock",
@@ -18953,7 +19063,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0027",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "pirate-boat-ride-jail-padlock-mickey",
@@ -18970,6 +19080,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "In the jail scene where prisoners coax a dog holding the keys, the padlock on the cell door is itself shaped like a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "Jail scene with the prisoners and the dog",
@@ -18992,7 +19103,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0026",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "pirate-exit-shop-coin-display-mickey",
@@ -19009,6 +19120,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
+    "sceneOrder": 1,
     "description": "On the right as you enter the exit shop from the ride, a display of pirate coins includes three arranged as a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "Coin display on the right as you enter the shop from the ride",
@@ -19032,7 +19144,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0082",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-pirates-caribbean-coins",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "pirate-exit-shop-map-landmass-dog",
@@ -19049,6 +19161,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
+    "sceneOrder": 2,
     "description": "The fourth character on the exit shop's pirate map is the loyal yellow dog, drawn as an island with a long nose and floppy ears.",
     "whereToLook": {
       "scene": "Small pirate map on the left wall of the exit shop",
@@ -19071,7 +19184,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0063",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "pirate-exit-shop-map-landmass-duck",
@@ -19088,6 +19201,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
+    "sceneOrder": 2,
     "description": "On the same small pirate map in the exit shop, one landmass is shaped like the famous duck in the sailor suit. Find the Mickey island first and the others are nearby.",
     "whereToLook": {
       "scene": "Small pirate map on the left wall of the exit shop",
@@ -19110,7 +19224,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0061",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "pirate-exit-shop-map-landmass-goof",
@@ -19127,6 +19241,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
+    "sceneOrder": 2,
     "description": "Another landmass on the exit shop's pirate map is shaped like the tall, good-natured goof with the floppy ears and hat.",
     "whereToLook": {
       "scene": "Small pirate map on the left wall of the exit shop",
@@ -19149,7 +19264,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0062",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "pirate-exit-shop-map-landmass-mickey",
@@ -19166,6 +19281,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Shop",
+    "sceneOrder": 2,
     "description": "A small pirate map hangs on the left wall of the exit shop. One of its landmasses is drawn in the classic three-circle shape. Three more islands nearby are shaped like his friends.",
     "whereToLook": {
       "scene": "Small pirate map on the left wall of the exit shop",
@@ -19188,7 +19304,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0029",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "pirate-ship-pool-helm-mickey",
@@ -23495,6 +23611,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Easy",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "In the Africa section of the boat ride, purple leaves hang from the ceiling near the giraffe, and several of them are cut as classic three-circle Hidden Mickeys. They are overhead, and with singing dolls at eye level on every side, few riders ever look up.",
     "whereToLook": {
       "scene": "Africa section of the ride, the giraffe and the purple leaves hanging from the ceiling near it",
@@ -23516,7 +23633,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0010",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "singing-dolls-finale-carousel-plush-mickey",
@@ -23533,6 +23650,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "In the last section before the ride ends, a carousel on the right side holds a doll with a little black Mickey plush in her hand. The finale is packed with dolls, and the plush is small and dark, so it is easy to miss.",
     "whereToLook": {
       "scene": "Last section before the ride ends, the carousel on the right side",
@@ -23554,7 +23672,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0107",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "sixties-courtyard-wall-mickey",
@@ -24222,6 +24340,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "Before the line goes indoors it winds past carved timber railings and painted window frames, all of it detailed to look like a mountain village that has stood for generations. A classic three-circle Mickey is cut into that woodwork. Because every board is already covered in carved pattern, the shape passes as one more piece of folk decoration.",
     "whereToLook": {
       "scene": "The outdoor stretch of queue before the entrance, the carved timber railings and window surrounds",
@@ -24246,7 +24365,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-AK-0047",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "snowy-mountain-yeti-museum-lantern-dents-mickey",
@@ -24263,6 +24382,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 2,
     "description": "In the yeti museum section of the queue, the second display holds a battered lantern. Three dents in its metal form a sideways classic Hidden Mickey.",
     "whereToLook": {
       "scene": "Yeti museum in the standby queue, second display",
@@ -24287,7 +24407,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0028",
     "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "soarin-across-america-finale-fireworks-mickey",
@@ -25014,6 +25134,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Easy",
     "areaContext": "Lobby",
+    "sceneOrder": 1,
     "description": "To the right of the lanes hangs a mural titled Welcome To Golden Lanes. One of the oranges painted in it has three finger holes, like a bowling ball, and the holes make a Mickey.",
     "whereToLook": {
       "scene": "Inside Splitsville, the Welcome To Golden Lanes mural to the right of the lanes",
@@ -25054,6 +25175,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Easy",
     "areaContext": "Lobby",
+    "sceneOrder": 2,
     "description": "On the upper level, a mural reads Greetings From Splitsville. The finger holes in the bowling ball on it are arranged as a Mickey.",
     "whereToLook": {
       "scene": "The upper level of Splitsville, the Greetings From Splitsville mural",
@@ -25134,6 +25256,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "In the outdoor queue, opposite the giant walker and beneath the furry forest creatures' platform, a white classic Hidden Mickey marks the trunk of a tree.",
     "whereToLook": {
       "scene": "Outdoor queue beneath the tree platform, across from the walker",
@@ -25157,7 +25280,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0015",
     "sourceUrl": "https://www.celebrationspress.com/issues/Celebrations-Issue-1-DV46852.pdf",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "star-flight-queue-window-droid-mickey",
@@ -25174,6 +25297,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 2,
     "description": "In the second room of the queue, droids pass by a window as people walk through. One of the droids has a pair of mouse ears. They come and go with the animation, so you can miss it if you only glance once.",
     "whereToLook": {
       "scene": "Second room you enter while waiting, the window that the droids pass by",
@@ -25197,7 +25321,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0011",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-star-tours-r2d2",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "star-tours-luggage-belt-character-cameos",
@@ -29164,6 +29288,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "In the romantic lagoon scene, frogs perch around the water. A classic three-circle pattern is reported on one of them.",
     "whereToLook": {
       "scene": "Lagoon scene with the singing frogs",
@@ -29187,7 +29312,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0091",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-little-mermaid-frog-hidden-mickeys",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "undersea-clamshell-kiss-the-girl-frog-backs-mickeys",
@@ -29245,6 +29370,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Hard",
     "areaContext": "Queue",
+    "sceneOrder": 2,
     "description": "Once a year, around noon on Mickey's birthday, November 18, the sun lines up with the rockwork of the outdoor queue and casts a classic three-circle shadow. The rest of the year there is nothing to see, which makes this one of the rarest finds in any park.",
     "whereToLook": {
       "scene": "Outdoor rockwork of the standby queue",
@@ -29268,7 +29394,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0019",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "undersea-clamshell-queue-rockwork-steamboat-mickey",
@@ -29285,6 +29411,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Hard",
     "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "A Mickey in his 1928 steamboat-era look is worked into the rockwork of the outdoor queue. It is a full figure rather than three circles, small and the same color as the rock, and almost nobody stumbles onto it by accident.",
     "whereToLook": {
       "scene": "Outdoor rockwork of the standby queue",
@@ -29308,7 +29435,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0109",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "undersea-clamshell-song-scene-coral-mickey",
@@ -29325,6 +29452,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "During the big under-the-sea song scene, several pieces of purple coral are arranged as a classic three-circle Hidden Mickey, with two on the floor and one on the wall. The scene is bright, busy, and spinning with dancing sea creatures, which is exactly why the coral goes unnoticed.",
     "whereToLook": {
       "scene": "The scene where the crab sings the under-the-sea song",
@@ -29346,7 +29474,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0017",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "undersea-puppet-show-reef-backdrop-mickey",
@@ -29692,6 +29820,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Medium",
     "areaContext": "Walkway",
+    "sceneOrder": 2,
     "description": "A classic three-circle Hidden Mickey is formed by three round depressions in a rock wall in the ocean section of the walk-through water trail. The wall stands behind a fence in front of the interactive wall of water that shoots into the air when you move, so most guests are busy with the water and never study the rock.",
     "whereToLook": {
       "scene": "Ocean exhibit area, the rock wall behind a fence in front of the interactive wall of water",
@@ -29716,7 +29845,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-EP-0068",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "water-journey-vase-holes-mickey",
@@ -29733,6 +29862,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Outdoor",
     "difficulty": "Hard",
     "areaContext": "Walkway",
+    "sceneOrder": 1,
     "description": "A tiny classic three-circle Hidden Mickey is made of three holes near the bottom of an orange vase in the land section of the walk-through water trail. The vase sits on a low rock wall, and because the shape is small and close to the ground, guests watching the water features walk right past it.",
     "whereToLook": {
       "scene": "Land exhibit area of the trail, just after you pass under the rock archway",
@@ -29757,7 +29887,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-EP-0069",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "wedding-pavilion-castle-window",
@@ -29978,6 +30108,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Hard",
     "areaContext": "Ride",
+    "sceneOrder": 1,
     "description": "Beside the first climb, the train passes through a cavern with dripping rockwork. A classic three-circle Hidden Mickey is reported in the scenery on the right.",
     "whereToLook": {
       "scene": "Cavern beside the first lift hill",
@@ -30001,7 +30132,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0069",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-big-thunder-mountain-railroad",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "wild-west-mine-coaster-gears-mickey",
@@ -30018,6 +30149,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Ride",
     "difficulty": "Medium",
     "areaContext": "Ride",
+    "sceneOrder": 2,
     "description": "As the train slows at the end of the ride, two sets of gears lie on the ground to your right. The second set is arranged as a classic three-circle Hidden Mickey. Riders are usually catching their breath and looking ahead to the station, so it slips by unnoticed.",
     "whereToLook": {
       "scene": "Final stretch of the ride as the train begins to slow, looking to your right",
@@ -30040,7 +30172,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-MK-0049",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-29T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "wild-west-mine-coaster-queue-workbench-paint-cans-mickey",
@@ -30258,6 +30390,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 2,
     "description": "In the indoor laboratory section of the queue, specimen displays line the walls. Three containers are set together as a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "Laboratory displays in the indoor queue",
@@ -30281,7 +30414,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0009",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-flight-passage-specimen-jars",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "winged-flight-queue-gravel-cluster-mickey",
@@ -30298,6 +30431,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Hard",
     "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "The outdoor queue winds over textured ground set with small stones. A cluster of three is reported to form a classic Hidden Mickey underfoot.",
     "whereToLook": {
       "scene": "Textured ground along the outdoor queue",
@@ -30321,7 +30455,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-AK-0003",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-avatar-flight-passage-gravel",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "winged-flight-queue-lab-drawing-mickey",
@@ -30338,6 +30472,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Hard",
     "areaContext": "Queue",
+    "sceneOrder": 3,
     "description": "A sideways classic three-circle Hidden Mickey hides among small black circles drawn on a researcher's note paper in the circular lab section of the standby queue. The two ear circles are lighter than the head circle, and the whole shape is turned to the right, so it reads like a doodle rather than a Mickey.",
     "whereToLook": {
       "scene": "Circular lab along the standby queue, near the end of your walk around it, the researcher's drawings on note paper",
@@ -30362,7 +30497,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-AK-0049",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "winnie-the-pooh-entrance-pole-wood-knot-mickey",

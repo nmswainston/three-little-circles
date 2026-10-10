@@ -13,6 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Hard",
   "areaContext": "Walkway",
+  "sceneOrder": 1,
   "description": "On the path that leads over from the savanna village into the valley, a large rock sits on the left side of the walkway. Three weathered holes in its face line up as a Mickey head tipped over to the left. Whether the rockwork crew meant it is an open question, so treat this one as a bonus rather than a sure thing.",
   "whereToLook": {
     "scene": "The connecting path from the savanna village toward the valley entrance",
@@ -36,5 +37,5 @@
   },
   "sourceId": "TLC-AK-0036",
   "createdAtISO": "2026-09-23T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

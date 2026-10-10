@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "In the romantic lagoon scene, frogs perch around the water. A classic three-circle pattern is reported on one of them.",
   "whereToLook": {
     "scene": "Lagoon scene with the singing frogs",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-MK-0091",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-little-mermaid-frog-hidden-mickeys",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

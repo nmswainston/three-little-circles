@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "In the sight sequence, the wall is covered in optical-illusion drawings. A classic Hidden Mickey is reported among the visual-perception illustrations.",
   "whereToLook": {
     "scene": "Sight lab with the optical illusion drawings",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-EP-0019",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-imagination-ride",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

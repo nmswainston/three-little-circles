@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 3,
   "description": "In the fish and shrimp tank section of the boat ride, a garden hose lies on the ground coiled into a classic three-circle Hidden Mickey. It looks like working equipment, which is why most riders never give it a second look.",
   "whereToLook": {
     "scene": "Fish and shrimp tank area of the ride, the ground beside the tanks",
@@ -35,5 +36,5 @@
   "sourceId": "TLC-EP-0018",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-hose",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

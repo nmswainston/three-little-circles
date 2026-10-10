@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "A tiny Mickey shouldering a pickaxe is worked into one of the wooden support beams near the top of the lift hill, just before the train leaves the indoor mine and rolls back out into daylight. He is small, he is on the right, and you get about two seconds of him while the chain is still clacking.",
   "whereToLook": {
     "scene": "Top of the lift hill, the last stretch of the indoor mine section before the train exits",
@@ -37,5 +38,5 @@
   },
   "sourceId": "TLC-MK-0105",
   "createdAtISO": "2026-09-23T00:00:00.000Z",
-  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 3,
   "description": "In the space battle near the end of the ride, a planet drifts past with a continent shaped like a classic Hidden Mickey.",
   "whereToLook": {
     "scene": "Space battle sequence near the end",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-MK-0072",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-buzz-lightyear-planet",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

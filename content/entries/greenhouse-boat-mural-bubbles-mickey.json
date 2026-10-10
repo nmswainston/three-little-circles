@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "Three bubbles on the large mural in the early part of the boat ride come together as a classic three-circle Hidden Mickey. The mural is full of shapes and color, so the trio reads as more bubbles.",
   "whereToLook": {
     "scene": "The large mural early in the boat ride",
@@ -34,5 +35,5 @@
   },
   "sourceId": "TLC-EP-0056",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

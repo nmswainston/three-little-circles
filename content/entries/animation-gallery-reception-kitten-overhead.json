@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 1,
   "description": "Above the reception desk, the woodcarver's black-and-white kitten from the puppet story watches everyone who comes in.",
   "whereToLook": {
     "scene": "The gallery's reception area, where guests come in",
@@ -32,5 +33,5 @@
   "sourceId": "TLC-HS-0034",
   "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

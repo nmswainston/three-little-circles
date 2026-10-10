@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 2,
   "description": "A vase on the lost-and-found shelf is painted with a many-headed hydra, straight out of the animated film about the Greek hero.",
   "whereToLook": {
     "scene": "Lost-and-found shelf at the gallery's reception desk",
@@ -32,5 +33,5 @@
   "sourceId": "TLC-HS-0032",
   "sourceUrl": "https://disneyparksblog.com/wdw/disney-animation-inspired-experience-coming-to-disneys-hollywood-studios/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

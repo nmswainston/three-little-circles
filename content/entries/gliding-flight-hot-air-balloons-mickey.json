@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 3,
   "description": "In Soarin' Around the World, three hot air balloons lined up for a beat as a classic Mickey when the balloon scene filled the screen. The film stopped playing on May 13, 2026, when Soarin' Across America took over for a limited run, so this one waits for Around the World to return.",
   "whereToLook": {
     "scene": "The hot air balloon scene",
@@ -36,5 +37,5 @@
   },
   "sourceId": "TLC-EP-0055",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Hard",
   "areaContext": "Walkway",
+  "sceneOrder": 6,
   "description": "Just past the short bridge hung with prayer flags, the wall on the left hides the lead designer's first name in its texture.",
   "whereToLook": {
     "scene": "Wall on the left past the short flagged bridge",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-AK-0035",
   "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-maharajah-jungle-trek-three-hidden-joes/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

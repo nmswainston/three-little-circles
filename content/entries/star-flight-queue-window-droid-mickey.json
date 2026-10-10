@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 2,
   "description": "In the second room of the queue, droids pass by a window as people walk through. One of the droids has a pair of mouse ears. They come and go with the animation, so you can miss it if you only glance once.",
   "whereToLook": {
     "scene": "Second room you enter while waiting, the window that the droids pass by",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0011",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-star-tours-r2d2",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

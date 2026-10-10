@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Easy",
   "areaContext": "Lobby",
+  "sceneOrder": 2,
   "description": "A hotel rating plaque in the lobby awards the place thirteen diamonds. Real ratings top out at five, so this one is a joke about the hotel's supernatural standards.",
   "whereToLook": {
     "scene": "Plaques on the lobby wall",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0044",
   "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

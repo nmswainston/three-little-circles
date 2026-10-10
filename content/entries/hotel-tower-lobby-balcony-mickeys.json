@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 3,
   "description": "A few classic three-circle Hidden Mickeys are worked into the balcony that overlooks the hotel lobby along the queue. The lobby is dim and dressed with cobwebs and props, so the balcony's details get lost.",
   "whereToLook": {
     "scene": "Hotel lobby along the queue, the balcony overlooking it",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0038",
   "sourceUrl": "https://www.wdwinfo.com/best-kept-secrets_mgm.htm",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }
