@@ -3,9 +3,11 @@ import {
   photoSightingInput,
   validateSighting,
   submitSighting,
+  shrinkPhoto,
   insertFailureMessage,
   thrownFailureMessage,
   uploadFailureMessage,
+  MAX_PHOTO_SIDE,
   PHOTO_ONLY_NOTE,
   SightingInput,
 } from '../src/lib/submissions';
@@ -30,6 +32,33 @@ jest.mock('expo-file-system', () => ({
   },
 }));
 jest.mock('expo-crypto', () => ({ randomUUID: () => 'photo-uuid' }));
+
+// The manipulator stands in for a phone camera: every photo starts out
+// 4000 by 3000 (or the other way round) until a resize is asked for.
+const mockResize = jest.fn();
+const mockSave = jest.fn(async (..._args: unknown[]) => ({ uri: 'file:///shrunk.jpg', width: 2048, height: 1536 }));
+let mockSource = { width: 4000, height: 3000 };
+let mockRenderFails = false;
+jest.mock('expo-image-manipulator', () => ({
+  SaveFormat: { JPEG: 'jpeg', PNG: 'png', WEBP: 'webp' },
+  ImageManipulator: {
+    manipulate: () => {
+      let resized = false;
+      return {
+        resize: (size: { width?: number; height?: number }) => {
+          mockResize(size);
+          resized = true;
+        },
+        renderAsync: async () => {
+          if (mockRenderFails) throw new Error('decode failed');
+          const { width, height } = mockSource;
+          const scale = resized ? 2048 / Math.max(width, height) : 1;
+          return { width: Math.round(width * scale), height: Math.round(height * scale), saveAsync: (...args: unknown[]) => mockSave(...args) };
+        },
+      };
+    },
+  },
+}));
 
 const entry = getAllEntries().find((e) => e.display?.entryTitle && e.display?.attractionName && e.display?.parkName)!;
 const photo = { uri: 'file:///photo.jpg', mimeType: 'image/jpeg' };
@@ -72,6 +101,40 @@ describe('photoSightingInput', () => {
   it('asks for the photo before anything else', () => {
     const input = photoSightingInput(entry, { creditOk: false });
     expect(validateSighting(input)[0]).toBe('Add a photo of the find.');
+  });
+});
+
+describe('shrinkPhoto', () => {
+  beforeEach(() => {
+    mockResize.mockClear();
+    mockSave.mockClear();
+    mockSource = { width: 4000, height: 3000 };
+    mockRenderFails = false;
+  });
+
+  it('caps the long side of a landscape photo and sends a JPEG', async () => {
+    const result = await shrinkPhoto({ uri: 'file:///big.heic', mimeType: 'image/heic' });
+    expect(mockResize).toHaveBeenCalledWith({ width: MAX_PHOTO_SIDE });
+    expect(mockSave).toHaveBeenCalledWith({ compress: 0.85, format: 'jpeg' });
+    expect(result).toEqual({ uri: 'file:///shrunk.jpg', mimeType: 'image/jpeg' });
+  });
+
+  it('caps the height of a portrait photo', async () => {
+    mockSource = { width: 3000, height: 4000 };
+    await shrinkPhoto(photo);
+    expect(mockResize).toHaveBeenCalledWith({ height: MAX_PHOTO_SIDE });
+  });
+
+  it('leaves a small photo at its size but still re-encodes it', async () => {
+    mockSource = { width: 1200, height: 900 };
+    await shrinkPhoto(photo);
+    expect(mockResize).not.toHaveBeenCalled();
+    expect(mockSave).toHaveBeenCalled();
+  });
+
+  it('falls back to the original when the manipulator fails', async () => {
+    mockRenderFails = true;
+    expect(await shrinkPhoto(photo)).toEqual(photo);
   });
 });
 
@@ -120,6 +183,8 @@ describe('submitSighting', () => {
   beforeEach(() => {
     mockUpload.mockClear();
     mockInsert.mockClear();
+    mockSource = { width: 4000, height: 3000 };
+    mockRenderFails = false;
   });
 
   it('uploads the photo and files the row against the entry', async () => {
@@ -152,6 +217,13 @@ describe('submitSighting', () => {
     const result = await submitSighting(photoSightingInput(entry, { photo, creditOk: false }), 'device-12345678');
     expect(result).toEqual({ ok: false, message: "The photo didn't upload. Try a different photo." });
     expect(mockInsert).not.toHaveBeenCalled();
+  });
+
+  it('sends the shrunk JPEG even when the picker handed over a HEIC', async () => {
+    const heic = { uri: 'file:///IMG_0001.heic', mimeType: 'image/heic' };
+    const result = await submitSighting(photoSightingInput(entry, { photo: heic, creditOk: false }), 'device-12345678');
+    expect(result).toEqual({ ok: true });
+    expect(mockUpload).toHaveBeenCalledWith('device-12345678/photo-uuid.jpg', expect.anything(), { contentType: 'image/jpeg', upsert: false });
   });
 
   it('says the database is behind instead of blaming the connection', async () => {

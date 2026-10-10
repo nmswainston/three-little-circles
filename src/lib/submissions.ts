@@ -2,6 +2,7 @@ import { Platform } from 'react-native';
 import Constants from 'expo-constants';
 import * as Crypto from 'expo-crypto';
 import { File } from 'expo-file-system';
+import { ImageManipulator, SaveFormat } from 'expo-image-manipulator';
 import { supabase, isSupabaseConfigured } from './supabase';
 import { Difficulty, HiddenMickeyEntry, LocationType } from '../data/types';
 import { getDestination } from '../data/destinations';
@@ -44,6 +45,9 @@ export const LIMITS = {
 } as const;
 
 const BUCKET = 'submission-photos';
+/** Longest side a photo is sent at. The bucket caps files at 5 MB and content:photo shrinks them further anyway. */
+export const MAX_PHOTO_SIDE = 2048;
+const PHOTO_QUALITY = 0.85;
 
 /** Stands in for the note when a photo arrives without one, since the queue wants a where-to-look. */
 export const PHOTO_ONLY_NOTE = 'Photo only. The sender left no note.';
@@ -117,6 +121,28 @@ function contentTypeFor(uri: string, mimeType?: string): string {
   return 'image/jpeg';
 }
 
+/**
+ * Re-encodes the photo as a JPEG no larger than MAX_PHOTO_SIDE on its long
+ * side. A phone camera photo can run well past the bucket's 5 MB limit, and
+ * park cell service is not the place to find that out. If anything goes
+ * wrong the original is sent as is.
+ */
+export async function shrinkPhoto(photo: SightingPhoto): Promise<SightingPhoto> {
+  try {
+    const context = ImageManipulator.manipulate(photo.uri);
+    let image = await context.renderAsync();
+    const longSide = Math.max(image.width, image.height);
+    if (longSide > MAX_PHOTO_SIDE) {
+      context.resize(image.width >= image.height ? { width: MAX_PHOTO_SIDE } : { height: MAX_PHOTO_SIDE });
+      image = await context.renderAsync();
+    }
+    const saved = await image.saveAsync({ compress: PHOTO_QUALITY, format: SaveFormat.JPEG });
+    return { uri: saved.uri, mimeType: 'image/jpeg' };
+  } catch {
+    return photo;
+  }
+}
+
 async function readPhoto(uri: string, mimeType?: string): Promise<{ body: ArrayBuffer | Blob; contentType: string; ext: string }> {
   const contentType = contentTypeFor(uri, mimeType);
   const ext = contentType === 'image/jpeg' ? 'jpg' : contentType.split('/')[1];
@@ -183,7 +209,8 @@ export async function submitSighting(input: SightingInput, deviceId: string): Pr
   try {
     let photoPath: string | null = null;
     if (input.photo) {
-      const { body, contentType, ext } = await readPhoto(input.photo.uri, input.photo.mimeType);
+      const photo = await shrinkPhoto(input.photo);
+      const { body, contentType, ext } = await readPhoto(photo.uri, photo.mimeType);
       photoPath = `${deviceId}/${Crypto.randomUUID()}.${ext}`;
       const { error } = await supabase.storage.from(BUCKET).upload(photoPath, body, { contentType, upsert: false });
       if (error) return { ok: false, message: uploadFailureMessage(error, photoOnly) };
