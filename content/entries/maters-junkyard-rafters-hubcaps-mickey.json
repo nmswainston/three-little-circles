@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 1,
   "description": "The junkyard queue is hung with spare parts, and three hubcaps up in the rafters are mounted together as a classic Hidden Mickey, one large with two smaller ones above it as ears.",
   "whereToLook": {
     "scene": "The covered queue, the rafters overhead on the right side",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-CA-0002",
   "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Maters-Junkyard1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

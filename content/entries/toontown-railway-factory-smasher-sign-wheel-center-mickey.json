@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 31,
   "description": "A wheel turns on the front left panel of the factory, just left of the sign reading The Smasher. There is a Mickey at the hub of the wheel.",
   "whereToLook": {
     "scene": "The factory room, the front left panel beside the Smasher sign",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0190",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway34",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "Just after the marble busts whose eyes follow you, wrought iron fencing runs along the left. About four feet up in the ironwork is a Hidden Mickey with an orange jewel for its head.",
   "whereToLook": {
     "scene": "Right after the following-eyes busts, the iron fencing on the left",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0056",
   "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion7",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

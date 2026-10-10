@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 3,
   "description": "In the scene where Pooh is asleep, a bookcase stands behind him. On the second shelf from the top, a honey jar wears a pair of Mickey ears.",
   "whereToLook": {
     "scene": "The scene with Pooh sleeping, the bookcase behind him",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0079",
   "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Winnie-2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

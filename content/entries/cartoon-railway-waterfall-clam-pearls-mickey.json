@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 20,
   "description": "A classic three-circle Hidden Mickey is formed by three blue pearls in an open clam just past the waterfall plunge. It sits behind you and to the left once the bubbles clear, so riders facing forward toward the next scene never see it.",
   "whereToLook": {
     "scene": "Just after your vehicle plunges over the waterfall",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-HS-0064",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway29",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

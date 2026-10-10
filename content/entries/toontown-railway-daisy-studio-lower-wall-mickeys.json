@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 14,
   "description": "Inside Daisy's dance studio, the design along the lower walls repeats several Mickeys. They sit just above the floorboards toward the front of the studio, below the mirror, turned ninety degrees.",
   "whereToLook": {
     "scene": "Daisy's dance studio, the lower walls toward the front below the mirror",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0176",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway28",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

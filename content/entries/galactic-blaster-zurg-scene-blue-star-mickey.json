@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "In the battery room where the big villain waits, a tiny blue star high above his left shoulder is shaped like a classic Hidden Mickey.",
   "whereToLook": {
     "scene": "Battery scene with the villain",
@@ -35,5 +36,5 @@
   },
   "sourceId": "TLC-MK-0037",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

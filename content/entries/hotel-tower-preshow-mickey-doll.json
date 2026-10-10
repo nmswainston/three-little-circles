@@ -12,6 +12,7 @@
   "entryType": "FIND",
   "locationType": "Pre-show",
   "difficulty": "Easy",
+  "sceneOrder": 7,
   "description": "In the pre-show film that plays on the old television in the hotel library, a little girl among the guests stepping into the elevator on Halloween night in 1939 is holding a Mickey Mouse doll styled the way Mickey looked in that era. The doll is easy to see in the film, and the same girl and her doll flash past as ghostly visions moments after your own elevator starts to move.",
   "whereToLook": {
     "scene": "Pre-show library room where the film plays on the television, then again briefly on the ride",
@@ -39,5 +40,5 @@
   "sourceId": "TLC-HS-0014",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-twilight-zone-doll",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

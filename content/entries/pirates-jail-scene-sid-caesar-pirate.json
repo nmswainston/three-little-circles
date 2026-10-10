@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 6,
   "description": "In the jail scene near the end, the prisoner closest to the dog with the keys is a likeness of comedian Sid Caesar. He was a friend of Walt's and of the ride's Imagineers, and they modeled a pirate on him as an inside joke.",
   "whereToLook": {
     "scene": "The jail scene, the prisoners coaxing the dog with the keys",
@@ -39,5 +40,5 @@
   "sourceId": "TLC-DL-0070",
   "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

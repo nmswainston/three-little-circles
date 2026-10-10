@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 2,
   "description": "Just before the queue turns right into its last row of switchbacks, Peter Pan's runaway shadow clings to one of the wooden posts on the left, about six feet up.",
   "whereToLook": {
     "scene": "The queue, just before the right turn into the final switchbacks",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0104",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan8",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Easy",
   "areaContext": "Ride",
+  "sceneOrder": 3,
   "description": "In the Peace on Earth room of the holiday overlay, as you leave, look up and to your left. Three holly berries form an obvious Hidden Mickey.",
   "whereToLook": {
     "scene": "The Peace on Earth finale room, on the way out",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0129",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World3",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

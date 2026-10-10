@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "During the practice round, when you are throwing pies at the characters, look to the sides of the screen. A pie there carries three dollops of whipped cream arranged as a Mickey.",
   "whereToLook": {
     "scene": "The practice round at the start of the ride, the edges of the screen",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-CA-0075",
   "sourceUrl": "https://hiddenmickeywiki.com/Pixar_Pier#Midway-Mania6",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

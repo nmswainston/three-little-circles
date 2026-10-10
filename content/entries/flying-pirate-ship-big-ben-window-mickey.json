@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 4,
   "description": "Flying over London, wait until you have circled around to the back of Big Ben. In the tower's lit windows, a full-body Mickey silhouette stands out clearly.",
   "whereToLook": {
     "scene": "The London flyover, the back side of Big Ben",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0108",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan6",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

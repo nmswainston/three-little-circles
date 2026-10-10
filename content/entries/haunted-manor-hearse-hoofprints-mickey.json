@@ -13,6 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Medium",
   "areaContext": "Entrance",
+  "sceneOrder": 2,
   "description": "Outside the manor, a hearse waits with an invisible horse in the traces. On the ground nearby, the hoofprints are arranged into a classic Hidden Mickey.",
   "whereToLook": {
     "scene": "Hearse outside the manor entrance",
@@ -35,5 +36,5 @@
   },
   "sourceId": "TLC-MK-0043",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

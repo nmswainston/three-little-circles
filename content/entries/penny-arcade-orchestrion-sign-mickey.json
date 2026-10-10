@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Hard",
   "areaContext": "Shop",
+  "sceneOrder": 2,
   "description": "The Welte Orchestrion at the back of the Penny Arcade has a small sign at its lower right telling you when the next tune plays. At the top center of that sign is a very tiny Hidden Mickey.",
   "whereToLook": {
     "scene": "The Welte Orchestrion at the back of the Penny Arcade",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0019",
   "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Arcade1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

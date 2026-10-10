@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Hard",
   "areaContext": "Queue",
+  "sceneOrder": 4,
   "description": "A big bass drum from The Band Concert sits in the queue, and the smudge of dirt on its head is a Mickey. Up close it dissolves into noise. Step back to the far left of the queue and it snaps into shape.",
   "whereToLook": {
     "scene": "The Band Concert bass drum in the queue",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-DL-0138",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway52",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

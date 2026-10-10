@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 4,
   "description": "Right beside the last U-turn Mickey is a fourth one, about two feet left of the third courtesy light and only a foot off the ground.",
   "whereToLook": {
     "scene": "The last right U-turn before boarding, the wall on your left",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0213",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Gadget-Coaster4",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

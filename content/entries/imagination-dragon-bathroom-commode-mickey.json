@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "Inside the dragon's house near the end of the ride, the commode in his bathroom is shaped as a classic three-circle Hidden Mickey. The bathroom is a quick pass with plenty going on, and riders tend to look at the dragon rather than the fixtures.",
   "whereToLook": {
     "scene": "The dragon's house, the bathroom",
@@ -34,5 +35,5 @@
   },
   "sourceId": "TLC-EP-0059",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

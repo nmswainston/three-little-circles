@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 20,
   "description": "After the water scene, when the octopus yanks the plug, your car turns right. In the pipes on the right as you swing back left, three pipe ends form a Hidden Mickey.",
   "whereToLook": {
     "scene": "Right after the octopus pulls the plug, the pipes on the right",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0172",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway19",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

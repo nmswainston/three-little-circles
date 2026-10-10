@@ -13,6 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Medium",
   "areaContext": "Walkway",
+  "sceneOrder": 2,
   "description": "In the mother's music room of the treehouse, a lamp sits on a shelf next to a book about the family. In the middle of the lampshade, a round red seashell forms the head of a classic Hidden Mickey with two smaller orange shells for ears, tilted to the right. It reads as beach decoration unless you know to look.",
   "whereToLook": {
     "scene": "Mother's music room in the treehouse, the shelf with the lamp next to the family's storybook",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0044",
   "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse1",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

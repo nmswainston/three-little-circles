@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "At the end of the boat ride, a barge floats on your left, and the bongo drums on it carry a classic three-circle Hidden Mickey. The finale is bright and noisy, and the boat is already turning toward the dock.",
   "whereToLook": {
     "scene": "End of the boat ride, the barge on your left",
@@ -35,5 +36,5 @@
   "sourceId": "TLC-EP-0005",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-epcot-mexico-congo-drums",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "In the mine, as you approach the mine car heaped with jewels on the left, a Tinker Bell hides on the wall behind the car, to the left of the red jewel a dwarf is holding up.",
   "whereToLook": {
     "scene": "The mine scene, the jewel-filled mine car on the left",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0100",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

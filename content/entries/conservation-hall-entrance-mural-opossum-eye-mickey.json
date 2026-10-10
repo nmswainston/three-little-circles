@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Hard",
   "areaContext": "Entrance",
+  "sceneOrder": 2,
   "description": "The entrance mural is famous for hiding many Mickeys in its animals. On the right side, a Mickey profile hides in the pupil of the opossum's eye.",
   "whereToLook": {
     "scene": "Right side of the animal mural at the station entrance",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-AK-0017",
   "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

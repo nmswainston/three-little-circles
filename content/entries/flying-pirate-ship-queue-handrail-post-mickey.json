@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 3,
   "description": "An upright classic three-circle Hidden Mickey is worked into one of the handrail posts along the part of the entrance queue that runs beside the loading area. It faces you at about waist height, but with the loading dock in view, almost everyone is watching the ships instead of the railing.",
   "whereToLook": {
     "scene": "Entrance queue where it runs alongside the loading dock area, the handrail on your right",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-DL-0103",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan4",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

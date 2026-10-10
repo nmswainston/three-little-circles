@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Shop",
+  "sceneOrder": 2,
   "description": "On the same small pirate map in the exit shop, one landmass is shaped like the famous duck in the sailor suit. Find the Mickey island first and the others are nearby.",
   "whereToLook": {
     "scene": "Small pirate map on the left wall of the exit shop",
@@ -35,5 +36,5 @@
   },
   "sourceId": "TLC-MK-0061",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

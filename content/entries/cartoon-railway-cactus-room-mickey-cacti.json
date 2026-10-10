@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Easy",
   "areaContext": "Ride",
+  "sceneOrder": 3,
   "description": "In the first room after the train splits up, the cactus on the wall to the right of the exit is a dead ringer for Mickey. The room is full of Mickey-shaped cacti, and they all count together as one find.",
   "whereToLook": {
     "scene": "The first room after the train breaks apart, the wall right of the exit",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0056",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway13",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

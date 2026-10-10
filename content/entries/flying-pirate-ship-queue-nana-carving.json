@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 1,
   "description": "About two thirds of the way through the queue, a small wooden Nana, the Darlings' nursemaid dog, is mounted on one of the wooden pillars. She has company: pan pipes, an umbrella, and a teddy bear are carved onto other posts.",
   "whereToLook": {
     "scene": "The covered queue, the wooden pillars about two thirds of the way in",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0102",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan5",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "Shortly after leaving the station, the log passes a tall brown fence on the left painted with gumbo imagery. In the white foam of the painted pot, a classic Hidden Mickey hides.",
   "whereToLook": {
     "scene": "Outdoor stretch just after departure",
@@ -35,5 +36,5 @@
   },
   "sourceId": "TLC-MK-0052",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

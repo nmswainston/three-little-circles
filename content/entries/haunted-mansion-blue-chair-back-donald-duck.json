@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 3,
   "description": "Right after the endless hallway, a big blue lounge chair sits in the scene. The abstract pattern on its backrest forms Donald Duck's face and sailor hat, a design so loose you have to squint to pull it out.",
   "whereToLook": {
     "scene": "The scene right after the endless hallway, the large blue chair",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0057",
   "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

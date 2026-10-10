@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 5,
   "description": "In the archaeologist's office along the queue, an old copy of Life magazine is tucked under the desk blotter. Only part of the cover shows, but Mickey Mouse is clearly on it.",
   "whereToLook": {
     "scene": "The archaeological office in the queue, the desk",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0041",
   "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones3",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

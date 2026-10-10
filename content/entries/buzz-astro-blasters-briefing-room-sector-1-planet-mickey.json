@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 2,
   "description": "In the room where the big Buzz Lightyear figure gives the mission briefing, the Sector 1 map on the wall to his right shows the same Mickey-profile planet, about two thirds of the way up the wall.",
   "whereToLook": {
     "scene": "The mission briefing room with the large Buzz figure",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0219",
   "sourceUrl": "https://hiddenmickeywiki.com/Tomorrowland#Astro-Blasters2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

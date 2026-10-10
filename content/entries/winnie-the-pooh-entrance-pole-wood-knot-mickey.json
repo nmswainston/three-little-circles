@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "Right after the honey pot pushes through the swinging entrance doors, a round pole passes on your right. About halfway up, a knot in the faux wood grain is a small Hidden Mickey.",
   "whereToLook": {
     "scene": "Just inside the swinging entrance doors, the round pole on the right",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0077",
   "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Winnie-1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

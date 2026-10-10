@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "In the England scene, a Cinderella doll on the left of the boat has a Mickey on her skirt. The thread spools near her are green and red, which marks this as part of the holiday overlay.",
   "whereToLook": {
     "scene": "The England scene, left side of the boat",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0128",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Small-World7",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

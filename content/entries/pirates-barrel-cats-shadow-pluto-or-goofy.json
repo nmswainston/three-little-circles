@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 4,
   "description": "Midway through the ride, on the right, two black cats stand with arched backs on a pair of barrels, across from the singing pirates and the donkey braying through the Dutch door. A spotlight throws their shadows into a dog's silhouette with long droopy ears. Half the reports say Pluto, half say Goofy.",
   "whereToLook": {
     "scene": "The two barrels on the right, across from the singing pirates and the braying donkey",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0068",
   "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

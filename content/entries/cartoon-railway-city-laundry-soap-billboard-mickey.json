@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 10,
   "description": "In the city scene where Pete runs the jackhammer, a laundry soap billboard tops the building to his left. There is a Hidden Mickey in the billboard art.",
   "whereToLook": {
     "scene": "The city scene with Pete's jackhammer, the building to his left",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0066",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway20",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

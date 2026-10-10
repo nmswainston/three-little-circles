@@ -13,6 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Medium",
   "areaContext": "Walkway",
+  "sceneOrder": 4,
   "description": "The astronomy loft has a picture of the Moon at the back. Among the craters, three dark ones are grouped as a Hidden Mickey.",
   "whereToLook": {
     "scene": "The astronomy loft, the picture of the Moon at the back",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0047",
   "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Adventureland-Treehouse5",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

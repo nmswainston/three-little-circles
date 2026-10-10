@@ -13,6 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Medium",
   "areaContext": "Walkway",
+  "sceneOrder": 2,
   "description": "In the mural past the second archway, a classic three-circle Hidden Mickey is painted into a cloud. Clouds are an easy place to hide the shape, and this one blends in until you look for it.",
   "whereToLook": {
     "scene": "Mural past the second archway on the trail",
@@ -38,5 +39,5 @@
   },
   "sourceId": "TLC-AK-0044",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

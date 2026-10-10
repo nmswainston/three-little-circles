@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Easy",
   "areaContext": "Shop",
+  "sceneOrder": 2,
   "description": "Entering from the town center, the room on your left has four matching decals on its wooden walls, and each has a Mickey in the middle of the design.",
   "whereToLook": {
     "scene": "Inside the shop, the room to the left as you enter from the town center",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-CA-0027",
   "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-9",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

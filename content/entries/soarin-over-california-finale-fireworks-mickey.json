@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 9,
   "description": "Soarin' Over California ends over Disneyland at night with the holiday parade on Main Street. When the castle fireworks start, one large burst with two small ones beside it, a little left of center, forms one of the cleanest firework Mickeys anywhere.",
   "whereToLook": {
     "scene": "The Disneyland finale of Soarin' Over California, the castle fireworks",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-CA-0063",
   "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-5",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 4,
   "description": "The ride was built where the Country Bear Jamboree used to play, and three of its stars never left. Melvin the moose, Buff the buffalo, and Max the stag hang mounted on a wall about two thirds of the way through, behind you, so you have to turn around to see them.",
   "whereToLook": {
     "scene": "About two thirds of the way through the ride, the wall behind the honey pot",
@@ -39,5 +40,5 @@
   "sourceId": "TLC-DL-0081",
   "sourceUrl": "https://hiddenmickeywiki.com/Bayou_Country#Winnie-4",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

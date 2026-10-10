@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 10,
   "description": "Near the entrance to Mickey's Movie Barn hangs a mirror with a trick. Wait a few seconds and Sorcerer Mickey's head fades into the glass, then fades out again. He cycles roughly every ten seconds.",
   "whereToLook": {
     "scene": "The mirror near the entrance to Mickey's Movie Barn",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-DL-0207",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House6",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

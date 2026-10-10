@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 2,
   "description": "The talking willow tree from the story of the Powhatan princess stands in the exhibit. Below her sign and to the right of her face, an indentation in the bark is shaped like a classic Hidden Mickey.",
   "whereToLook": {
     "scene": "Grandmother willow tree in the exhibit",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-AK-0021",
   "sourceUrl": "https://www.wftv.com/news/hidden-mickeys-disneys-animal-kingdom/165927023/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Easy",
   "areaContext": "Ride",
+  "sceneOrder": 9,
   "description": "Soarin' Across America ends with a Fourth of July night over EPCOT. Spaceship Earth is lit as an American flag, and the fireworks launched beyond the park burst into an eagle, a flag, and a classic Hidden Mickey.",
   "whereToLook": {
     "scene": "The EPCOT finale of Soarin' Across America, the fireworks over Spaceship Earth",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-EP-0070",
   "sourceUrl": "https://www.disneytouristblog.com/soarin-across-america-ride-review-good-bad-ugly-usa-250th-anniversary/",
   "createdAtISO": "2026-10-09T00:00:00.000Z",
-  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

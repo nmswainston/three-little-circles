@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Hard",
   "areaContext": "Shop",
+  "sceneOrder": 3,
   "description": "A blue hood with orange flames hides a Hidden Mickey inside the flames themselves. The licks of fire disguise it well.",
   "whereToLook": {
     "scene": "The custom hoods on display inside the shop, the blue one with orange flames",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-CA-0022",
   "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-4",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "If your car is sent to Ramone's House of Body Art for a paint job, look at the shop's right rear wall. A fuse box there carries a pinstriped Hidden Mickey.",
   "whereToLook": {
     "scene": "Inside Ramone's on the ride, during the paint job",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-CA-0018",
   "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#RS-Racers4",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

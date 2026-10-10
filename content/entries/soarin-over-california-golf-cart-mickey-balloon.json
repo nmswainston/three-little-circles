@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "In Soarin' Over California, which returns for limited runs, the flight toward the golf course passes a golf cart in the lower left. The man standing on the far side of the cart holds a small Mickey balloon.",
   "whereToLook": {
     "scene": "Soarin' Over California, approaching the golf course, lower left of the screen",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-CA-0061",
   "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-7",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

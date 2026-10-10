@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Easy",
   "areaContext": "Entrance",
+  "sceneOrder": 1,
   "description": "The El CapiTOON Theater's logo is a popcorn box drawn like a strip of film with the letters E and C out front. On the left side of the box, three kernels are stacked as a Mickey. The logo repeats around the attraction, on the trash cans at the entrance and again inside the theater, and all of them count as the one find.",
   "whereToLook": {
     "scene": "The El CapiTOON logo, starting with the trash cans at the entrance",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0132",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway42",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

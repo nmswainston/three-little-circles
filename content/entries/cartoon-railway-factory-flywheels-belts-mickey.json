@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 30,
   "description": "On top of the tall panel between the furnace and the Smasher, three flywheels joined by belts form a Mickey.",
   "whereToLook": {
     "scene": "The factory room, the top of the tall panel between the furnace and the Smasher",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0080",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway35",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "After the first drop, near the standing skeleton pirate with a bird on his head, a big rock juts out over the water. Look up and it is unmistakably Goofy's head in profile. Cast members call it the Goofy Rock.",
   "whereToLook": {
     "scene": "The caverns after the first drop, around the standing skeleton with the bird",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0065",
   "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

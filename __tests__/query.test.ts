@@ -283,3 +283,49 @@ describe('land and attraction order', () => {
     expect(grouped).toEqual(expected);
   });
 });
+
+describe('scene order within an area', () => {
+  const entries = getAllEntries();
+  const base = entries.find((e) => e.areaContext === 'Ride' && e.locationType === 'Ride')!;
+  const make = (id: string, sceneOrder?: number, areaContext = base.areaContext): HiddenMickeyEntry => ({
+    ...base,
+    id,
+    areaContext,
+    sceneOrder,
+  });
+
+  it('runs numbered finds first in number order, then the rest in content order', () => {
+    const list = [make('d'), make('c', 3), make('a', 1), make('e'), make('b', 2)];
+    expect(walkOrder(list).map((e) => e.id)).toEqual(['a', 'b', 'c', 'd', 'e']);
+  });
+
+  it('never lets a scene number pull a find out of its area', () => {
+    const list = [make('ride-1', 1), make('queue-9', 9, 'Queue'), make('exit-1', 1, 'Exit')];
+    expect(walkOrder(list).map((e) => e.id)).toEqual(['queue-9', 'ride-1', 'exit-1']);
+  });
+
+  it('keeps content order for finds that share a scene number', () => {
+    const list = [make('second', 2), make('first-a', 1), make('first-b', 1)];
+    expect(walkOrder(list).map((e) => e.id)).toEqual(['first-a', 'first-b', 'second']);
+  });
+
+  it('tells the Runaway Railway story from the park to the fireworks', () => {
+    const ride = getEntriesByAttraction('california_kingdom_park', 'cartoon_town_area', 'cartoon_railway').filter(
+      (e) => e.areaContext === 'Ride'
+    );
+    const titles = ride.map((e) => e.display!.entryTitle!);
+    expect(titles[0]).toBe('Runnamuck Park Lamppost Paint Mickey');
+    expect(titles[titles.length - 1]).toBe('Exit Fishing Hole Sign Mickey');
+    expect(titles.indexOf('Waterfall Bottom Clam Pearls Mickey')).toBeLessThan(titles.indexOf('Factory Entrance Banner Mickey Ears Bite'));
+    expect(titles.indexOf('Factory Smasher Sign Wheel Center Mickey')).toBeLessThan(titles.indexOf('Finale Fireworks Wall Mickey'));
+  });
+
+  it('only ever carries whole numbers from 1 in shipped content', () => {
+    for (const entry of entries) {
+      if (entry.sceneOrder === undefined) continue;
+      expect(Number.isInteger(entry.sceneOrder)).toBe(true);
+      expect(entry.sceneOrder).toBeGreaterThanOrEqual(1);
+    }
+    expect(entries.some((e) => e.sceneOrder !== undefined)).toBe(true);
+  });
+});

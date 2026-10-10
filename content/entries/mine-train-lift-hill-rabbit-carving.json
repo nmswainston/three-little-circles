@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "As the train climbs the first lift hill, a small carving of a lucky rabbit with long ears hides high on the left among the roof beams. He was Walt's cartoon star before the mouse, and he watches every train go up.",
   "whereToLook": {
     "scene": "First lift hill climb after leaving the mine",
@@ -35,5 +36,5 @@
   },
   "sourceId": "TLC-MK-0014",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

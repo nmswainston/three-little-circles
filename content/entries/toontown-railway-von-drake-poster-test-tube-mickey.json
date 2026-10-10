@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 1,
   "description": "The first movie poster in the queue advertises The Absent Minded Professor, starring Ludwig Von Drake mid-experiment. Near the top of his test tube is a small Hidden Mickey.",
   "whereToLook": {
     "scene": "The first movie poster in the queue, Professor Von Drake",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0133",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway58",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

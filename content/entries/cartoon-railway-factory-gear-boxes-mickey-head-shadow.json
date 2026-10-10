@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 26,
   "description": "Below the black box with the long belt, two large gear boxes sit on the right side of the factory. At their base, a Mickey head throws a shadow of mouse ears. The head is partly tucked away, so the left side of the vehicle has the better look.",
   "whereToLook": {
     "scene": "The factory room, the two large gear boxes below the black box on the right",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0078",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway53",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

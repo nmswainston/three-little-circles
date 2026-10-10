@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "In the jail scene where prisoners coax a dog holding the keys, the padlock on the cell door is itself shaped like a classic Hidden Mickey.",
   "whereToLook": {
     "scene": "Jail scene with the prisoners and the dog",
@@ -35,5 +36,5 @@
   },
   "sourceId": "TLC-MK-0026",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "A classic three-circle Hidden Mickey is set on the ghostly banquet table using a plate for the head and two saucers for the ears. It sits at the bottom left corner of the table, away from the dancing ghosts that pull every eye toward the middle of the ballroom.",
   "whereToLook": {
     "scene": "Ballroom scene with the ghostly banquet, viewed from the balcony as your carriage passes",
@@ -35,5 +36,5 @@
   },
   "sourceId": "TLC-MK-0041",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

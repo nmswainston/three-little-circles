@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Hard",
   "areaContext": "Queue",
+  "sceneOrder": 3,
   "description": "Indiana Jones Adventure was built over part of the old Disneyland parking lot, and the Eeyore section sign survived. It hangs in the rafters of the film room, in the dark above the queue. Step into the film room, turn right, and at the first switchback to the left put your back to the wall and shine a light straight up. The sign rests on the bamboo slats above you.",
   "whereToLook": {
     "scene": "The film room in the queue, the first left switchback after you enter",
@@ -39,5 +40,5 @@
   "sourceId": "TLC-DL-0038",
   "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

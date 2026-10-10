@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 1,
   "description": "The coaster's queue walls are built from rock, and several Mickeys are set into them. The first comes at the first left U-turn in line. Halfway through the turn, on your right, three rocks form a Mickey directly between two courtesy lights, almost at the top of the wall.",
   "whereToLook": {
     "scene": "The first left U-turn in the queue, the wall on your right",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0210",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Gadget-Coaster1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

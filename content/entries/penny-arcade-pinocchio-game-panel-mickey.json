@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Shop",
+  "sceneOrder": 1,
   "description": "A quarter lets you pull Pinocchio's strings on a themed arcade game worked by four buttons. On the control panel, under the title and between the buttons, sits a decorative Mickey.",
   "whereToLook": {
     "scene": "The Pinocchio marionette game in the Penny Arcade",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0020",
   "sourceUrl": "https://hiddenmickeywiki.com/Main_Street_USA#MS-Arcade2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

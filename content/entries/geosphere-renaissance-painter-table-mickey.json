@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "In the Renaissance scene, the first painter on your left works at a table with three white circles on top of it. They form a classic three-circle Hidden Mickey. The scene is dim and the ride keeps a steady pace, so it takes a deliberate look.",
   "whereToLook": {
     "scene": "Renaissance scene, the first painter on your left",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-EP-0032",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-paint-marks",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

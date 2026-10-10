@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Loading",
+  "sceneOrder": 7,
   "description": "The loading area floor is splattered with blobs of cartoon paint. In the accessible boarding area, one grouping is a Hidden Mickey.",
   "whereToLook": {
     "scene": "The accessible boarding area at the load platform",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-DL-0153",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway8",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

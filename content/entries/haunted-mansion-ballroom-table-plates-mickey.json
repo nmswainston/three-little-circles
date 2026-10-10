@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Easy",
   "areaContext": "Ride",
+  "sceneOrder": 4,
   "description": "On the ballroom's long dining table, one place setting has a dinner plate with two saucers above it arranged as Mickey's head. It is the second setting from the right, nearest your side. Cast members rearrange the table, so some days there is more than one.",
   "whereToLook": {
     "scene": "The ballroom scene, the long dining table",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-DL-0058",
   "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

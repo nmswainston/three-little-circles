@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 4,
   "description": "In the greenhouses the boat passes a display about Integrated Pest Management, the method the gardens use instead of heavy pesticides. Among the lab glassware, tubes are grouped so they read as Mickey's head and ears.",
   "whereToLook": {
     "scene": "The greenhouse section, the Integrated Pest Management display",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-EP-0035",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-test-tubes",
   "createdAtISO": "2026-10-05T00:00:00.000Z",
-  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

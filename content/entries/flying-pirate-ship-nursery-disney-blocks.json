@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "In the Darling children's bedroom, alphabet blocks are stacked on the floor in two groups, one by Wendy's bed and one by the window where you leave the room. They spell DISNEY, with an upside-down 5 standing in for the S.",
   "whereToLook": {
     "scene": "The nursery at the start of the ride",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0105",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Peter-Pan1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

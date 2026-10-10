@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "Inside Owl's house, a framed picture shows Mr. Toad handing over the deed to Owl. It is a tribute to the ride that used to occupy this building, and a sweet one if you know the history.",
   "whereToLook": {
     "scene": "Owl's house scene, the pictures on the walls",
@@ -37,5 +38,5 @@
   },
   "sourceId": "TLC-MK-0016",
   "createdAtISO": "2026-09-23T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:43:41.918Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

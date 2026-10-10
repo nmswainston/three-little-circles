@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "Over Palm Springs in Soarin' Over California, a golf ball comes flying straight at you. There is a Mickey on the ball. It is gone in an instant, so it may take a second ride.",
   "whereToLook": {
     "scene": "Soarin' Over California, the Palm Springs golf course",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-CA-0062",
   "sourceUrl": "https://hiddenmickeywiki.com/Grizzly_Peak#Soarin-4",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

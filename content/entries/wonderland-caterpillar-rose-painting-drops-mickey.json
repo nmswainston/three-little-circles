@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Easy",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "Where the cards are painting the roses red, three drops of paint on the floor by the card's feet, on your left, form a classic Hidden Mickey.",
   "whereToLook": {
     "scene": "The scene with the playing cards painting the roses red",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0113",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Alice-Wonderland1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

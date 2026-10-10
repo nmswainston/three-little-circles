@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 5,
   "description": "During the holiday overlay, snow drifts into the ballroom through an open door at the back. Next to that door, on the right side of the room near the fireplace, one drift is shaped as a classic Mickey.",
   "whereToLook": {
     "scene": "The ballroom during Haunted Mansion Holiday, the open door at the back right",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0063",
   "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion5",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

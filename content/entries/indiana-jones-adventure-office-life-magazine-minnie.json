@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 6,
   "description": "The same Life magazine under the desk blotter in the archaeologist's office puts Minnie on the cover beside Mickey. She counts as her own Hidden Surprise.",
   "whereToLook": {
     "scene": "The archaeological office in the queue, the desk",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0042",
   "sourceUrl": "https://hiddenmickeywiki.com/Adventureland#Indy-Jones4",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

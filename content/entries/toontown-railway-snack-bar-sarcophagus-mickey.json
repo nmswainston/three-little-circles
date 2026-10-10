@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 2,
   "description": "Entering the snack bar, a big yellow sarcophagus stands on the right of the queue. On its back, about knee height, is a Hidden Mickey.",
   "whereToLook": {
     "scene": "The snack bar entrance, the yellow sarcophagus on the right",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0142",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway3",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

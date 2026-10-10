@@ -11,7 +11,7 @@
 
 export const ENTRY_KEYS = [
   "id", "parkId", "landId", "attractionId", "display", "entryType",
-  "locationType", "difficulty", "areaContext", "description", "whereToLook",
+  "locationType", "difficulty", "areaContext", "sceneOrder", "description", "whereToLook",
   "bestTip", "funFacts", "viewing", "confidence", "verification", "verifiedAtISO",
   "status", "accessNotes", "coordinates", "image", "sourceId", "sourceUrl",
   "createdAtISO", "updatedAtISO",

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "In the holiday overlay's portrait hallway, the center portrait shows Jack Skellington, and just to his right three pumpkins are stacked as a Hidden Mickey.",
   "whereToLook": {
     "scene": "The portrait hallway during Haunted Mansion Holiday, the center portrait",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0062",
   "sourceUrl": "https://hiddenmickeywiki.com/New_Orleans_Square#Haunted-Mansion6",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

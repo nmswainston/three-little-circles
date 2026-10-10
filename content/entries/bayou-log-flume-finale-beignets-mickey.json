@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 3,
   "description": "In the finale party, the food display includes a plate of beignets. Three are arranged as a classic Hidden Mickey, dusted with sugar.",
   "whereToLook": {
     "scene": "Party finale after the big drop",
@@ -35,5 +36,5 @@
   },
   "sourceId": "TLC-MK-0053",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

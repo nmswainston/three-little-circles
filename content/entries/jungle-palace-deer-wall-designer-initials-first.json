@@ -13,6 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Hard",
   "areaContext": "Walkway",
+  "sceneOrder": 4,
   "description": "Along the semicircular wall by the deer enclosure, near its left end, the brick and plaster are worked into a pair of initials. They belong to the lead designer who shaped this park.",
   "whereToLook": {
     "scene": "Semicircular wall at the deer viewing area",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-AK-0033",
   "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-animal-kingdom-maharajah-jungle-trek-three-hidden-joes/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

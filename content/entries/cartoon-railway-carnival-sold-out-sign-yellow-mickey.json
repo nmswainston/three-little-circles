@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 5,
   "description": "Entering the carnival room, balloons float ahead of you beside a Sold Out sign. Just above the sign, a small yellow Mickey hides among the signage, sometimes half covered by orange lights.",
   "whereToLook": {
     "scene": "Entering the carnival room, the balloons and the Sold Out sign ahead",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0058",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway47",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

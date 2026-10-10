@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Hard",
   "areaContext": "Queue",
+  "sceneOrder": 1,
   "description": "The outdoor queue winds over textured ground set with small stones. A cluster of three is reported to form a classic Hidden Mickey underfoot.",
   "whereToLook": {
     "scene": "Textured ground along the outdoor queue",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-AK-0003",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-avatar-flight-passage-gravel",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

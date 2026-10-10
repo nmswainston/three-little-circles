@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 3,
   "description": "Near the end of the graveyard, a hooded figure stands by a crypt. The folds of its shroud fall into a classic three-circle Hidden Mickey.",
   "whereToLook": {
     "scene": "Graveyard scene, near the end",
@@ -35,5 +36,5 @@
   },
   "sourceId": "TLC-MK-0042",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

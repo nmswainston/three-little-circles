@@ -12,6 +12,7 @@
   "entryType": "FIND",
   "locationType": "Queue",
   "difficulty": "Medium",
+  "sceneOrder": 2,
   "description": "A classic three-circle Hidden Mickey is drawn into a hand-painted cloud mural in the loading-area queue. It sits in the upper right of the mural and is easy to miss because it reads as just another cloud.",
   "whereToLook": {
     "scene": "Large hand-drawn mural of backyard coaster plans",
@@ -37,5 +38,5 @@
   },
   "sourceId": "TLC-HS-0050",
   "createdAtISO": "2026-01-12T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Lobby",
+  "sceneOrder": 1,
   "description": "The Potatoland poster hides a Mickey in pink paint at its lower right. There are two copies of the poster, one in the standby line in the theater lobby and one in the Lightning Lane, and both have it.",
   "whereToLook": {
     "scene": "The Potatoland movie poster in the theater lobby",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0143",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

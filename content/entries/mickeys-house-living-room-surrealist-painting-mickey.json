@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Easy",
   "areaContext": "Lobby",
+  "sceneOrder": 3,
   "description": "An odd surrealist painting hangs in Mickey's living room, and its floating subject is Mickey himself, drifting through a dreamscape.",
   "whereToLook": {
     "scene": "Mickey's living room, the surrealist painting on the wall",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0200",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Mickeys-House7",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "Two small purple mushrooms in the scene after the White Rabbit's house each carry three white spots on their caps that form a classic three-circle Hidden Mickey. The first sits in the background and the second comes later and closer to your caterpillar, and each is next to an orange mushroom.",
   "whereToLook": {
     "scene": "Just after you pass the White Rabbit's house, looking to your left",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0112",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Alice-Wonderland2",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

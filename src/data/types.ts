@@ -101,6 +101,12 @@ export type HiddenMickeyEntry = {
   verifiedAtISO?: string;
   status?: EntryStatus;
   areaContext?: AreaContext;
+  /**
+   * Where the find falls within its area, counting from 1 at the start of the
+   * ride, queue, or walk. Finds without one sort after the numbered ones in
+   * the same area, in content order. Ties share a scene.
+   */
+  sceneOrder?: number;
 
   /** Anything a guest needs before they can get to the spot, such as resort or dining access. */
   accessNotes?: string;

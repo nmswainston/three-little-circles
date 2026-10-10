@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Entrance",
+  "sceneOrder": 4,
   "description": "On the right panel at the rainforest entrance, a hole in a green leaf is cut in the outline of a classic Hidden Mickey.",
   "whereToLook": {
     "scene": "Right panel at the entrance to the rainforest exhibit",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-AK-0027",
   "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

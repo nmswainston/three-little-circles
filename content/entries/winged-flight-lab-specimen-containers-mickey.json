@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 2,
   "description": "In the indoor laboratory section of the queue, specimen displays line the walls. Three containers are set together as a classic Hidden Mickey.",
   "whereToLook": {
     "scene": "Laboratory displays in the indoor queue",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-AK-0009",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/ak-flight-passage-specimen-jars",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

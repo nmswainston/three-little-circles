@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Hard",
   "areaContext": "Loading",
+  "sceneOrder": 4,
   "description": "The cast member control panels at the load station carry a decorative plaque with ornate scrollwork, and two Mickeys are tucked into the flourishes at either end of it.",
   "whereToLook": {
     "scene": "The cast member control panel at the load station",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0156",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway11",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

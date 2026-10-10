@@ -13,6 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Medium",
   "areaContext": "Dock",
+  "sceneOrder": 2,
   "description": "The iron grillwork crowning the Mark Twain's top deck has a Hidden Mickey dead center at the front, easy to pick out from the riverbank. A matching one sits on the other end of the ironwork.",
   "whereToLook": {
     "scene": "The Mark Twain's top deck ironwork, viewed from the riverbank or the dock",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0089",
   "sourceUrl": "https://hiddenmickeywiki.com/Frontierland#Mark-Twain3",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

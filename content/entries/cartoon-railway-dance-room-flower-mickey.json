@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 16,
   "description": "A classic three-circle Hidden Mickey sits in the center of one of the large flowers that move and flash along the right side of the big mirror at the front of Daisy Duck's dance room. The flowers are in motion and the lights pulse, so the shape is only readable for a moment as your vehicle passes through.",
   "whereToLook": {
     "scene": "Daisy Duck's dance room, the large mirror at the front of the room",
@@ -37,5 +38,5 @@
   "sourceId": "TLC-HS-0071",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway17",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

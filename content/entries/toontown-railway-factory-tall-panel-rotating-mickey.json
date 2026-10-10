@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 28,
   "description": "The same tall panel between the furnace and the Smasher has a rotating Mickey head on its face.",
   "whereToLook": {
     "scene": "The factory room, the tall panel between the furnace and the Smasher",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0188",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway32",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

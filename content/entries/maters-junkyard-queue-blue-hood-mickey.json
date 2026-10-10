@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 2,
   "description": "Near the end of the queue, a blue car hood hangs on the wall to the right. Its painted design hides a classic Hidden Mickey near the bottom edge.",
   "whereToLook": {
     "scene": "The last stretch of the queue before loading, the wall on the right",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-CA-0003",
   "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Maters-Junkyard2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

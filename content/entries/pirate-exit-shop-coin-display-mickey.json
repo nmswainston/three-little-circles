@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Shop",
+  "sceneOrder": 1,
   "description": "On the right as you enter the exit shop from the ride, a display of pirate coins includes three arranged as a classic Hidden Mickey.",
   "whereToLook": {
     "scene": "Coin display on the right as you enter the shop from the ride",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-MK-0082",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-pirates-caribbean-coins",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

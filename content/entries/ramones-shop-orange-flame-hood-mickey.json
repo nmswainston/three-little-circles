@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Hard",
   "areaContext": "Shop",
+  "sceneOrder": 3,
   "description": "The orange flame hood holds the hardest Mickey in the shop. It is buried in the flames and takes patience to pick out.",
   "whereToLook": {
     "scene": "The custom hoods on display inside the shop, the orange flame one",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-CA-0025",
   "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-7",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

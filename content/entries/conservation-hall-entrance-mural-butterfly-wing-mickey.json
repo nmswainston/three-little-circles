@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Entrance",
+  "sceneOrder": 1,
   "description": "High in the upper right of the animal mural at the station entrance, a butterfly carries a classic Hidden Mickey in the spots on its wings, three of them set as a head and two ears.",
   "whereToLook": {
     "scene": "Upper right of the animal mural at the station entrance",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-AK-0026",
   "sourceUrl": "https://www.celebrationspress.com/wp-content/uploads/2017/06/Celebrations-Issue-54DV62917.pdf",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

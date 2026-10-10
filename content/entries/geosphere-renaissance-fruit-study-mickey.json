@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 1,
   "description": "In the Renaissance scene, the artist's fruit study is arranged so that the grouping depicts a Mickey silhouette. It is a companion to the three paint marks on the same painter's table.",
   "whereToLook": {
     "scene": "Renaissance scene, the painter's studio",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-EP-0030",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/epcot-spaceship-earth-art",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

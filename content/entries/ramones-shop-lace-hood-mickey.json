@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Shop",
+  "sceneOrder": 3,
   "description": "One of the custom hoods inside the shop is painted to look like lace. The pattern repeats across the hood, and at one point the repeat breaks so that three circles sit together as a classic Hidden Mickey.",
   "whereToLook": {
     "scene": "The custom hoods on display inside the shop, the lace-patterned one",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-CA-0020",
   "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-2",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "In the final scene, a lantern post stands on the left close to the boat. A small wire loop beneath the lantern reads, for a moment, as a classic three-circle Hidden Mickey.",
   "whereToLook": {
     "scene": "Final scene before the boat returns to the dock",
@@ -35,5 +36,5 @@
   },
   "sourceId": "TLC-MK-0027",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

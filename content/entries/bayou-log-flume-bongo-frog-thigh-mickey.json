@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "Inside the mountain, a green and yellow frog plays the bongos on the left side of the flume. Raised spots on his upper left thigh form an upside-down classic Hidden Mickey.",
   "whereToLook": {
     "scene": "Musical scene inside the mountain",
@@ -36,5 +37,5 @@
   },
   "sourceId": "TLC-MK-0051",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

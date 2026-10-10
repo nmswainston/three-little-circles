@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Shop",
+  "sceneOrder": 2,
   "description": "Another landmass on the exit shop's pirate map is shaped like the tall, good-natured goof with the floppy ears and hat.",
   "whereToLook": {
     "scene": "Small pirate map on the left wall of the exit shop",
@@ -35,5 +36,5 @@
   },
   "sourceId": "TLC-MK-0062",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

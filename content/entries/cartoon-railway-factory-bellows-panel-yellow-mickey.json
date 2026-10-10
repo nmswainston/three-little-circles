@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Medium",
   "areaContext": "Ride",
+  "sceneOrder": 27,
   "description": "In the factory room, a yellow Mickey on a red background sits on the right-hand panel just left of the bellows.",
   "whereToLook": {
     "scene": "The factory room, the panel on the right just left of the bellows",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0074",
   "sourceUrl": "https://hiddenmickeywiki.com/Mickeys_Toon_Town#Runaway-Railway23",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

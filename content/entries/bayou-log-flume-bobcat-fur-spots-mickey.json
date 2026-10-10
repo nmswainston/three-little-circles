@@ -13,6 +13,7 @@
   "locationType": "Ride",
   "difficulty": "Hard",
   "areaContext": "Ride",
+  "sceneOrder": 2,
   "description": "In the mid-ride musical scene, a bobcat plays a wooden saxophone. The spots on his fur include a cluster that reads as a classic Hidden Mickey.",
   "whereToLook": {
     "scene": "Mid-ride musical scene with the animal band",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-MK-0092",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/mk-tiana-s-bayou-adventure-bobcat-hidden",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

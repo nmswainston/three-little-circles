@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Shop",
+  "sceneOrder": 3,
   "description": "The geometric hood on display inside the shop builds a classic Hidden Mickey out of its own pattern. It sits near the upper right corner, away from the center of the design where the eye lands first.",
   "whereToLook": {
     "scene": "The custom hoods on display inside the shop, the geometric one",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-CA-0021",
   "sourceUrl": "https://hiddenmickeywiki.com/Cars_Land#Ramones-3",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

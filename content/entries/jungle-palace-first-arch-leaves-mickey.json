@@ -13,6 +13,7 @@
   "locationType": "Outdoor",
   "difficulty": "Medium",
   "areaContext": "Walkway",
+  "sceneOrder": 1,
   "description": "Inside the first archway near the tiger viewing area, a mural on the left contains three leaves that form a classic three-circle Hidden Mickey. The trail has more than ten Hidden Mickeys, and this is one of the two easiest to pin down.",
   "whereToLook": {
     "scene": "First archway near the tiger exhibit, the mural on the left",
@@ -38,5 +39,5 @@
   },
   "sourceId": "TLC-AK-0043",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }
