@@ -27,8 +27,9 @@
     "distance": "Medium"
   },
   "confidence": "Strong",
-  "verification": "Community",
-  "status": "Unverified",
+  "verification": "In-person",
+  "verifiedAtISO": "2026-10-10T00:00:00.000Z",
+  "status": "Current",
   "coordinates": {
     "latitude": 33.8133,
     "longitude": -117.9187
@@ -36,5 +37,5 @@
   "sourceId": "TLC-DL-0110",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Mr-Toad1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  "updatedAtISO": "2026-10-10T00:00:00.000Z"
 }

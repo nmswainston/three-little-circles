@@ -21653,8 +21653,9 @@ export const entries: HiddenMickeyEntry[] = [
       "distance": "Medium"
     },
     "confidence": "Strong",
-    "verification": "Community",
-    "status": "Unverified",
+    "verification": "In-person",
+    "verifiedAtISO": "2026-10-09T00:00:00.000Z",
+    "status": "Current",
     "coordinates": {
       "latitude": 33.8139,
       "longitude": -117.9226
@@ -21662,7 +21663,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0231",
     "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Rise-Resistance2",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "rise-of-the-resistance-standby-barrel-tubes-mickey",
@@ -21733,8 +21734,9 @@ export const entries: HiddenMickeyEntry[] = [
       "distance": "Medium"
     },
     "confidence": "Strong",
-    "verification": "Community",
-    "status": "Unverified",
+    "verification": "In-person",
+    "verifiedAtISO": "2026-10-09T00:00:00.000Z",
+    "status": "Current",
     "coordinates": {
       "latitude": 33.8139,
       "longitude": -117.9226
@@ -21742,7 +21744,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0230",
     "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Rise-Resistance3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "river-belle-terrace-menu-riverboat-grillwork-mickeys",
@@ -30000,8 +30002,9 @@ export const entries: HiddenMickeyEntry[] = [
       "distance": "Medium"
     },
     "confidence": "Strong",
-    "verification": "Community",
-    "status": "Unverified",
+    "verification": "In-person",
+    "verifiedAtISO": "2026-10-10T00:00:00.000Z",
+    "status": "Current",
     "coordinates": {
       "latitude": 33.8133,
       "longitude": -117.9187
@@ -30009,7 +30012,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-DL-0110",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Mr-Toad1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+    "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
     "id": "wild-motorcar-sherlock-holmes-window",
