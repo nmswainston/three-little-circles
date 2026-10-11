@@ -34,8 +34,13 @@
     "latitude": 33.8139,
     "longitude": -117.9226
   },
+  "image": {
+    "file": "rise-of-the-resistance-transport-ship-28.jpg",
+    "alt": "The hull of the Resistance transport ship with a large 28 painted in white on a blue panel, Aurebesh lettering beneath it, and the rock ceiling of the hangar above.",
+    "credit": "YouJabroni"
+  },
   "sourceId": "TLC-DL-0230",
   "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Rise-Resistance3",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  "updatedAtISO": "2026-10-11T00:00:00.000Z"
 }

@@ -21741,10 +21741,15 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 33.8139,
       "longitude": -117.9226
     },
+    "image": {
+      "file": "rise-of-the-resistance-transport-ship-28.jpg",
+      "alt": "The hull of the Resistance transport ship with a large 28 painted in white on a blue panel, Aurebesh lettering beneath it, and the rock ceiling of the hangar above.",
+      "credit": "YouJabroni"
+    },
     "sourceId": "TLC-DL-0230",
     "sourceUrl": "https://hiddenmickeywiki.com/Galaxys_Edge#Rise-Resistance3",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-10T00:00:00.000Z"
+    "updatedAtISO": "2026-10-11T00:00:00.000Z"
   },
   {
     "id": "river-belle-terrace-menu-riverboat-grillwork-mickeys",
@@ -30009,10 +30014,15 @@ export const entries: HiddenMickeyEntry[] = [
       "latitude": 33.8133,
       "longitude": -117.9187
     },
+    "image": {
+      "file": "wild-motorcar-loading-rafters-berries-mickeys.jpg",
+      "alt": "Looking up at the carved wooden rafters above the loading area, where a vine of painted leaves and berries runs along a beam. Mr. Toad's crowned head sits below the arch.",
+      "credit": "YouJabroni"
+    },
     "sourceId": "TLC-DL-0110",
     "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Mr-Toad1",
     "createdAtISO": "2026-10-04T00:00:00.000Z",
-    "updatedAtISO": "2026-10-10T00:00:00.000Z"
+    "updatedAtISO": "2026-10-11T00:00:00.000Z"
   },
   {
     "id": "wild-motorcar-sherlock-holmes-window",
