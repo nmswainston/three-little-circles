@@ -34,8 +34,13 @@
     "latitude": 33.8133,
     "longitude": -117.9187
   },
+  "image": {
+    "file": "wild-motorcar-loading-rafters-berries-mickeys.jpg",
+    "alt": "Looking up at the carved wooden rafters above the loading area, where a vine of painted leaves and berries runs along a beam. Mr. Toad's crowned head sits below the arch.",
+    "credit": "YouJabroni"
+  },
   "sourceId": "TLC-DL-0110",
   "sourceUrl": "https://hiddenmickeywiki.com/Fantasyland#Mr-Toad1",
   "createdAtISO": "2026-10-04T00:00:00.000Z",
-  "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  "updatedAtISO": "2026-10-11T00:00:00.000Z"
 }
