@@ -96,10 +96,11 @@ established and which still need a second pair of eyes.
 
 What you get:
 
-- More than 600 Hidden Mickeys and other hidden details across Magic Kingdom,
+- More than 700 Hidden Mickeys and other hidden details across Magic Kingdom,
   EPCOT, Disney's Hollywood Studios, Disney's Animal Kingdom, Disney Springs,
-  the Walt Disney World resorts, Disneyland Park, and Disney California
-  Adventure.
+  the Walt Disney World resorts, Disneyland Park, Disney California Adventure,
+  the Disneyland Resort hotels, and Downtown Disney.
+- Facts about the parks and their attractions, shown alongside the finds.
 - Hints one step at a time, if you would rather hunt than be told.
 - A park map with the finds closest to where you are standing.
 - Progress for every park, and badges to earn along the way.
@@ -205,6 +206,6 @@ management.
 *Play Console: the release's "Release notes" box. 500 characters per
 language. Rewrite for each release.*
 
-First release. A field guide to more than 600 Hidden Mickeys and other hidden
+First release. A field guide to more than 700 Hidden Mickeys and other hidden
 details, with step-by-step hints, a park map, badges, and "Still there?"
 reports.
