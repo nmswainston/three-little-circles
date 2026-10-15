@@ -122,10 +122,11 @@ that is well established and one that is a lead.
 Tap Found to mark something off. Progress and badges are worked out from your
 finds and stay on your phone. There is no account and no sign-in.
 
-This build covers 681 entries, 572 Hidden Mickeys and 109 other hidden
+This build covers 762 entries, 643 Hidden Mickeys and 119 other hidden
 details, across Magic Kingdom, EPCOT, Disney's Hollywood Studios, Disney's
 Animal Kingdom, Disney Springs, the Walt Disney World resorts, Disneyland Park,
-and Disney California Adventure, plus 19 pieces of park history and trivia.
+Disney California Adventure, the Disneyland Resort hotels, and Downtown Disney,
+plus 229 facts about the parks and their attractions.
 (Update these numbers for each build. `npm run content:check` prints them in
 this form.)
 
@@ -139,8 +140,10 @@ any theme park company.
 *App Store Connect: TestFlight > build > What to Test.
 Per-build notes. Rewrite this for each build you push.*
 
-First build, so anything you notice is fair game. These are the parts I most
-want eyes on:
+First build, so anything you notice is fair game. When you report something,
+copy the line at the bottom of Profile that names the version, build, and
+commit, so I know what you were running. These are the parts I most want eyes
+on:
 
 **From the couch**
 
@@ -150,6 +153,16 @@ want eyes on:
   directions one step at a time instead of all at once. Does that feel like a
   hunt, or just feel slow?
 - Browse a park and try "Hide found" to clear out what you already have.
+- The land chips at the top of a park. Tap one and the list should jump to that
+  land. Lands are listed in the order you would walk them, and the finds on a
+  ride in the order you pass them.
+- "Did you know?" at the bottom of a park, and the "About" card on a find's
+  page. Both are facts about the place the find is in. Do they earn their
+  spot, or get in the way of the directions?
+- Two Disneyland Park entries carry a photo so far: Transport Ship Number 28 in
+  Rise of the Resistance, and the loading rafters in Mr. Toad's Wild Ride. With
+  hints on, the photo sits blurred behind "Reveal photo". Does the blur hide
+  enough?
 - Badges on Profile. Five are new: Eagle Eye (5 Hard finds), Queue Master (3
   finds in queues), Surprise Spotter (any Hidden Surprise rather than a Mickey),
   Hot Streak (3 finds in one day), and Coast to Coast (finds in two regions).
@@ -170,7 +183,8 @@ want eyes on:
   reports drive the "Last seen" line other people see.
 - "Suggest a find" if you spot something that is not listed.
 - "Got a photo of this one?" on an entry you found. It goes to a review queue,
-  never straight into the app.
+  never straight into the app. The phone shrinks the photo before sending, so
+  it should go in a few seconds on park cell service.
 
 **Rough edges I already know about**
 
