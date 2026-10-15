@@ -1,0 +1,10 @@
+{
+  "id": "hs-star-tours-random-trips",
+  "parkId": "studios_park",
+  "landId": "echo_lake_area",
+  "attractionId": "star_flight_simulator",
+  "title": "The trip is shuffled every time",
+  "body": "The current version breaks the flight into segments that are picked at random, so the planet, the chase, and the holographic message change from ride to ride. New destinations have been added with almost every film since 2011.",
+  "createdAtISO": "2026-10-15T00:00:00.000Z",
+  "updatedAtISO": "2026-10-15T00:00:00.000Z"
+}

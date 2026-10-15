@@ -1,0 +1,10 @@
+{
+  "id": "mk-castle-suite-inside",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "storybook_castle",
+  "title": "There is a bedroom inside",
+  "body": "A room built as Walt's apartment was never finished, and in 2007 it became the Cinderella Castle Suite, a hotel room guests can win but not book. In 1996 the whole castle was dressed as a pink birthday cake for the park's twenty-fifth, which nobody wants to see again.",
+  "createdAtISO": "2026-10-15T00:00:00.000Z",
+  "updatedAtISO": "2026-10-15T00:00:00.000Z"
+}

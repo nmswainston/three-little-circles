@@ -1,0 +1,10 @@
+{
+  "id": "dl-star-tours-first-star-wars-ride",
+  "parkId": "california_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "star_flight_simulator",
+  "title": "The first Star Wars ride",
+  "body": "Star Tours opened in January 1987 as the first ride Disney built with George Lucas, whose company wrote the story. The cabins were military flight simulators, the kind used to train pilots, fitted with a screen and seats.",
+  "createdAtISO": "2026-10-15T00:00:00.000Z",
+  "updatedAtISO": "2026-10-15T00:00:00.000Z"
+}

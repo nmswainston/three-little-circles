@@ -1,0 +1,10 @@
+{
+  "id": "mk-castle-no-bricks",
+  "parkId": "magic_kingdom_park",
+  "landId": "castle_courtyard_area",
+  "attractionId": "storybook_castle",
+  "title": "There is not a single brick in it",
+  "body": "Cinderella Castle rises 189 feet on a steel frame wrapped in concrete and fiberglass, with the stone painted on. The towers shrink and the windows get smaller the higher they go so the whole thing looks taller than it is.",
+  "createdAtISO": "2026-10-15T00:00:00.000Z",
+  "updatedAtISO": "2026-10-15T00:00:00.000Z"
+}

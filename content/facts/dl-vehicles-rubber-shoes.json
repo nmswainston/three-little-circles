@@ -1,0 +1,10 @@
+{
+  "id": "dl-vehicles-rubber-shoes",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "main_street_vehicles",
+  "title": "The horses wear rubber shoes",
+  "body": "The streetcar horses are draft breeds shod with polyurethane pads so they do not slip on the pavement, and they work short shifts before heading back to the ranch in the backstage area. Each one has a nameplate on its harness.",
+  "createdAtISO": "2026-10-15T00:00:00.000Z",
+  "updatedAtISO": "2026-10-15T00:00:00.000Z"
+}

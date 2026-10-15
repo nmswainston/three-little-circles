@@ -20,6 +20,16 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
   },
   {
+    "id": "ak-bug-inside-the-trunk",
+    "parkId": "adventure_park",
+    "landId": "great_tree_area",
+    "attractionId": "tree_theater_show",
+    "title": "A theater inside the trunk",
+    "body": "It's Tough to be a Bug! opened with the park in April 1998 in a 430-seat theater carved into the base of the Tree of Life, with seats that poked and sprayed to match the 3D film. The show closed in March 2025 and the theater reopened later that year with a Zootopia show.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
     "id": "ak-conservation-the-real-hospital",
     "parkId": "adventure_park",
     "landId": "conservation_outpost_area",
@@ -100,6 +110,26 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
+    "id": "ak-lion-king-moved-for-pandora",
+    "parkId": "adventure_park",
+    "landId": "savanna_village_area",
+    "attractionId": "lion_celebration_show",
+    "title": "It moved across the park to make room for Pandora",
+    "body": "Festival of the Lion King opened with the park in 1998 in Camp Minnie-Mickey, and when that land was cleared for Pandora the show moved to a new Harambe Theatre in Africa in 2014. The floats and the giant puppets came along.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "ak-lion-king-parade-floats",
+    "parkId": "adventure_park",
+    "landId": "savanna_village_area",
+    "attractionId": "lion_celebration_show",
+    "title": "The floats are from a Disneyland parade",
+    "body": "The Simba, Pumbaa, and elephant floats that roll in at the start were built for The Lion King Celebration, a parade that ran at Disneyland from 1994 to 1997. They were refurbished and shipped to Florida for the show.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
     "id": "ak-navi-shaman-of-songs",
     "parkId": "adventure_park",
     "landId": "floating_mountains_area",
@@ -108,6 +138,26 @@ export const facts: ParkFact[] = [
     "body": "The figure at the end, a Na'vi shaman singing over the river, was one of the most complex Audio-Animatronics figures Disney had built when the ride opened in May 2017. The glow all around you is a mix of blacklight paint and projection.",
     "createdAtISO": "2026-10-10T00:00:00.000Z",
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "ak-nemo-frozen-songwriters",
+    "parkId": "adventure_park",
+    "landId": "dinosaur_dig_area",
+    "attractionId": "undersea_puppet_show",
+    "title": "The songs are by the team that wrote Frozen",
+    "body": "Finding Nemo: The Musical opened in January 2007 with new songs by Robert Lopez and Kristen Anderson-Lopez, six years before they wrote Let It Go. It returned in June 2022 as The Big Blue... and Beyond!, a shorter version with the same puppets.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "ak-nemo-michael-curry-puppets",
+    "parkId": "adventure_park",
+    "landId": "dinosaur_dig_area",
+    "attractionId": "undersea_puppet_show",
+    "title": "The puppets came from the Lion King's designer",
+    "body": "The fish are worn or carried by actors who sing in plain view, a style built by Michael Curry, who designed the puppets for The Lion King on Broadway. Nemo himself is a small puppet on a rod, and the whale is a fabric head the size of a car.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
   },
   {
     "id": "ak-safaris-bigger-than-magic-kingdom",
@@ -128,6 +178,26 @@ export const facts: ParkFact[] = [
     "body": "The ride opened with the park in 1998 with a chase after poachers and a baby elephant named Little Red. That story was dropped in 2007, and the trip is now a plain game drive through the Harambe Wildlife Reserve.",
     "createdAtISO": "2026-10-10T00:00:00.000Z",
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "ak-tree-325-animals",
+    "parkId": "adventure_park",
+    "landId": "great_tree_area",
+    "attractionId": "great_tree",
+    "title": "325 animals in the bark",
+    "body": "Ten artists spent eighteen months carving 325 animals into the trunk and roots of the Tree of Life before the park opened in 1998. A chimpanzee near the queue entrance was added at Jane Goodall's request, in honor of David Greybeard, the first chimp she studied.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "ak-tree-awakenings",
+    "parkId": "adventure_park",
+    "landId": "great_tree_area",
+    "attractionId": "great_tree",
+    "title": "The tree wakes up after dark",
+    "body": "Since 2016 the trunk has been lit with projections after sunset, with animals moving across the bark between the carvings. The 103,000 leaves are artificial and were made to flutter in the wind.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
   },
   {
     "id": "california-kingdom-park-black-sunday",
@@ -152,6 +222,16 @@ export const facts: ParkFact[] = [
     "body": "This park opened in February 2001 on land that had been the original park's main parking lot since 1955. The boardwalk area is modeled on the seaside amusement piers of early-1900s California, which is roughly the kind of place Walt was trying to improve on when he built the park next door.",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "dca-airfield-condor-flats",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "grizzly_peak_airfield",
+    "title": "It was Condor Flats until 2015",
+    "body": "The area around Soarin' opened in 2001 as Condor Flats, a desert test strip for jet pilots. In 2015 it became Grizzly Peak Airfield, a 1940s high-country airstrip, with the hangar, the Smokejumpers Grill, and the fire-watch theme folded in to match the mountain next door.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
   },
   {
     "id": "dca-animation-opening-day-building",
@@ -182,6 +262,36 @@ export const facts: ParkFact[] = [
     "body": "The building copies the Carthay Circle Theatre in Los Angeles, where Snow White and the Seven Dwarfs premiered in December 1937. It opened with the rebuilt Buena Vista Street in June 2012 and anchors the street the way the castle does at Disneyland.",
     "createdAtISO": "2026-10-10T00:00:00.000Z",
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "dca-critter-tritons-old-spot",
+    "parkId": "california_pier_park",
+    "landId": "boardwalk_pier_area",
+    "attractionId": "critter_carousel",
+    "title": "It replaced King Triton's seahorses",
+    "body": "The carousel opened in April 2019 with Pixar Pier in the frame that had carried King Triton's Carousel since 2001. The critters are the animals from Woody's Roundup, the show inside Toy Story 2, which is why armadillos, skunks, and rattlesnakes are available to ride.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dca-grizzly-river-bear-shaped-peak",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "river_rapids_raft_ride",
+    "title": "The mountain is a bear",
+    "body": "Grizzly Peak was built with the park in 2001 and stands 110 feet tall, with the summit carved into the head of a grizzly looking out over the park. The final drop into the geyser was billed at opening as the tallest of any raft ride.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dca-grizzly-river-raft-spin",
+    "parkId": "california_pier_park",
+    "landId": "grizzly_peak_area",
+    "attractionId": "river_rapids_raft_ride",
+    "title": "The rafts spin on the way down",
+    "body": "The circular rafts are free to rotate, so who gets soaked on the big drop depends on where the raft is pointing when it tips. The eight seats face inward, and nobody gets to choose.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
   },
   {
     "id": "dca-guardians-it-was-the-tower",
@@ -254,6 +364,26 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
+    "id": "dca-monsters-roz-talks-back",
+    "parkId": "california_pier_park",
+    "landId": "hollywood_land_area",
+    "attractionId": "monsters_inc_ride",
+    "title": "Roz talks to you on the way out",
+    "body": "At the end of the ride Roz comments on riders as the cars pass, and she is not a recording. A cast member watching on camera supplies her lines live, so what she says about your hat is about your hat.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dca-monsters-superstar-limo",
+    "parkId": "california_pier_park",
+    "landId": "hollywood_land_area",
+    "attractionId": "monsters_inc_ride",
+    "title": "It took over from the park's least loved ride",
+    "body": "The building opened in 2001 with Superstar Limo, a dark ride about riding through Hollywood that closed after a year. Monsters, Inc. opened in the same space in January 2006 with the limo's track kept underneath.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
     "id": "dca-racers-random-winner",
     "parkId": "california_pier_park",
     "landId": "radiator_springs_area",
@@ -324,6 +454,56 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
+    "id": "dca-trolley-pacific-electric",
+    "parkId": "california_pier_park",
+    "landId": "buena_vista_street_area",
+    "attractionId": "red_car_trolley",
+    "title": "Modeled on the Red Cars that once ran all over Los Angeles",
+    "body": "The trolleys opened in June 2012 with Buena Vista Street, built to look like the Pacific Electric Red Cars that carried Angelenos until 1961. Car 717 is numbered for July 17, the day Disneyland opened in 1955.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-alice-outside-on-a-leaf",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "wonderland_caterpillar_ride",
+    "title": "The caterpillars ride outside on a leaf",
+    "body": "The ride opened in June 1958 and is one of the few dark rides with a stretch outdoors: the caterpillars climb up and roll back down along a track shaped like a vine, out in the open above the Mad Tea Party. The 1984 rebuild moved the entrance and added the second floor.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-alice-projection-refresh",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "wonderland_caterpillar_ride",
+    "title": "The 2014 refresh added projections",
+    "body": "Most of what moves in the Tulgey Wood and the flowers' faces now comes from projectors tucked into the scenery, added in 2014. The painted sets underneath are largely what Claude Coats's crew built in 1958.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-astro-moved-to-the-front",
+    "parkId": "california_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "astro_orbitor",
+    "title": "It used to sit on top of the PeopleMover",
+    "body": "The Rocket Jets spun above the PeopleMover platform from 1967 to 1997, reached by an elevator in the middle of the land. The 1998 Tomorrowland makeover brought the ride down to ground level at the entrance and renamed it Astro Orbitor.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-astro-paris-design",
+    "parkId": "california_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "astro_orbitor",
+    "title": "The design came from Paris",
+    "body": "The bronze planets and rings copy the Orbitron that opened at Disneyland Paris in 1992, styled after an old astronomer's model of the solar system. A lever in each rocket controls how high you fly, the same as on Dumbo.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
     "id": "dl-buzz-removable-blasters",
     "parkId": "california_kingdom_park",
     "landId": "future_city_area",
@@ -364,6 +544,76 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
+    "id": "dl-cinema-six-screens-of-mickey",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "main_street_cinema",
+    "title": "Six screens, all Mickey, all day",
+    "body": "The cinema opened with the park in 1955 and today runs six classic Mickey Mouse shorts at once on a ring of screens, including Steamboat Willie from 1928. The ticket seller in the booth outside is a mannequin named Tilly, from Marceline, Missouri, Walt's hometown.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-dumbo-smithsonian",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "dumbo_flying_elephant",
+    "title": "One of the originals is in the Smithsonian",
+    "body": "The ride was moved twice, in 1983 and 1990, and the fleet grew from ten elephants to sixteen. One of the original 1955 Dumbos was donated to the Smithsonian's National Museum of American History for the park's fiftieth birthday.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-dumbo-too-heavy-to-fly",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "dumbo_flying_elephant",
+    "title": "The elephants were too heavy to fly on opening day",
+    "body": "Dumbo was planned for July 1955 but the fiberglass elephants came in too heavy for the arms, so the ride opened a month late in August. Walt had first asked for pink elephants from the film's dream scene and changed his mind when nobody wanted to put their kids on a nightmare.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-falcon-full-size-ship",
+    "parkId": "california_kingdom_park",
+    "landId": "batuu_area",
+    "attractionId": "millennium_falcon_smugglers_run",
+    "title": "The first full-size Falcon ever built",
+    "body": "The ship parked outside the ride is a complete Millennium Falcon, more than a hundred feet across, built for Galaxy's Edge in 2019. Earlier films only built pieces of it, so this was the first time anyone could walk all the way around one.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-falcon-six-jobs",
+    "parkId": "california_kingdom_park",
+    "landId": "batuu_area",
+    "attractionId": "millennium_falcon_smugglers_run",
+    "title": "Six jobs, and the ship remembers how you did",
+    "body": "Each cockpit seats two pilots, two gunners, and two flight engineers, and the ship takes damage when the pilots fly badly. Hondo Ohnaka runs the operation and grades the crew on the way out.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-fantasmic-dragon-fire",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "fantasmic",
+    "title": "The dragon really did catch fire",
+    "body": "The 45-foot Maleficent dragon added in 2009 burned during a show in April 2023 and the park pulled the production for a year. It came back in May 2024 with the dragon's finale redone with projections and flame effects that stay away from the figure.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-fantasmic-river-as-a-stage",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "fantasmic",
+    "title": "The first show to use the river as a stage",
+    "body": "Fantasmic! premiered in May 1992 with the audience on the New Orleans Square shore and the action on Tom Sawyer Island, the river, and screens of mist sprayed up from the water. Both other versions, in Florida and Tokyo, copied the idea.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
     "id": "dl-gadget-built-from-junk",
     "parkId": "california_kingdom_park",
     "landId": "cartoon_town_area",
@@ -384,6 +634,26 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
+    "id": "dl-horseshoe-record-run",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "golden_horseshoe",
+    "title": "The longest-running stage show in history",
+    "body": "The Golden Horseshoe Revue played from the park's opening in 1955 until 1986, more than 47,000 performances, which Guinness listed as the most of any stage show. Walt threw his and Lillian's thirtieth anniversary party here four days before the park opened.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-horseshoe-walts-box",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "golden_horseshoe",
+    "title": "Walt kept a box seat",
+    "body": "The private box to the left of the stage was Walt's, and he watched the Revue from it often enough that the cast knew to play to it. The saloon serves food between shows, and the balcony is the best place to eat it.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
     "id": "dl-indy-opened-1995",
     "parkId": "california_kingdom_park",
     "landId": "jungle_outpost_area",
@@ -402,6 +672,46 @@ export const facts: ParkFact[] = [
     "body": "The troop transports ride on a motion base that tilts and bounces on top of a moving platform, so the same track feels like a different road every time. Imagineering built the system for this ride and used it again for DINOSAUR in Florida.",
     "createdAtISO": "2026-10-09T00:00:00.000Z",
     "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-jungle-upside-down-orange-trees",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "jungle_boat_ride",
+    "title": "Some of the jungle is upside-down orange trees",
+    "body": "The ride opened with the park in July 1955 on land that had been an orange grove. Landscaper Bill Evans replanted some of the grove's trees upside down so the roots would read as tangled jungle.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-jungle-walt-wanted-real-animals",
+    "parkId": "california_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "jungle_boat_ride",
+    "title": "Walt wanted live animals",
+    "body": "The original plan called for real jungle animals until the keepers pointed out they would sleep through the day and hide from the boats. The mechanical hippos and elephants were the fallback, and the jokes came a few years later when the straight nature narration got stale.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-lincoln-the-lumber-mill",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "opera_house_lincoln",
+    "title": "The Opera House was the park's lumber mill",
+    "body": "During construction in 1955 the Opera House building held the saws that cut the wood for the rest of Disneyland. It opened as a show space only later, and today the lobby holds the model of Walt's planned Disneyland and the bench from Griffith Park where he dreamed it up.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-lincoln-worlds-fair-first",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "opera_house_lincoln",
+    "title": "The first human Audio-Animatronics figure",
+    "body": "Mr. Lincoln debuted at the 1964 New York World's Fair in the State of Illinois pavilion, the first time Disney had built a lifelike human figure that could stand and speak. He moved into the Opera House for the park's tenth birthday in July 1965.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
   },
   {
     "id": "dl-mansion-empty-for-years",
@@ -454,6 +764,26 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
+    "id": "dl-matterhorn-basketball-hoop",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "matterhorn_bobsleds",
+    "title": "There is a basketball hoop inside",
+    "body": "Climbers who scale the outside of the mountain for shows have a break room partway up, and it has a basketball hoop. The Skyway gondolas passed straight through the mountain until that ride closed in 1994.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-matterhorn-first-tubular-steel",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "matterhorn_bobsleds",
+    "title": "The first tubular steel coaster anywhere",
+    "body": "The Matterhorn opened in June 1959 on the pile of dirt left from digging the castle moat. Its track was the first to use tubular steel rails with polyurethane wheels, the system almost every steel coaster since has copied, and the mountain is a one-hundredth scale model of the real peak.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
     "id": "dl-mickeys-house-rebuilt-2023",
     "parkId": "california_kingdom_park",
     "landId": "cartoon_town_area",
@@ -474,6 +804,26 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
+    "id": "dl-partners-mickeys-birthday-present",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "partners_statue",
+    "title": "A birthday present for Mickey",
+    "body": "Partners was unveiled in November 1993 for Mickey's sixty-fifth birthday, sculpted by Blaine Gibson, who had spent decades making faces for the park's Audio-Animatronics figures. Florida got a copy in front of Cinderella Castle two years later.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-partners-smoke-tree-ranch",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "partners_statue",
+    "title": "Walt's tie has a secret on it",
+    "body": "The tie on the statue carries the initials STR, for Smoke Tree Ranch, the Palm Springs community where Walt kept a weekend house. He wore that tie pin in life, and the sculptor put it on the bronze.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
     "id": "dl-peter-pan-opening-day-flyer",
     "parkId": "california_kingdom_park",
     "landId": "storybook_village_area",
@@ -492,6 +842,16 @@ export const facts: ParkFact[] = [
     "body": "The ride was rebuilt when Fantasyland was remade in 1983, and got new scenes, lighting, and the pixie-dust effects in a 2015 refurbishment. The London flyover is still the moment that stops first-timers cold.",
     "createdAtISO": "2026-10-09T00:00:00.000Z",
     "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-pinocchio-the-new-one-of-1983",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "pinocchio_daring_journey",
+    "title": "The one all-new dark ride of 1983",
+    "body": "When Fantasyland was rebuilt in 1983 the other dark rides were redone, but Pinocchio was built from scratch in the space the old Fantasyland Theatre left behind. The Blue Fairy who fades away at the end is a reflection trick, the same Pepper's ghost illusion that fills the Haunted Mansion ballroom.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
   },
   {
     "id": "dl-pirates-almost-a-wax-museum",
@@ -584,6 +944,26 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
+    "id": "dl-roger-a-year-late",
+    "parkId": "california_kingdom_park",
+    "landId": "cartoon_town_area",
+    "attractionId": "roger_rabbit_car_toon_spin",
+    "title": "It opened a year after the rest of Toontown",
+    "body": "Mickey's Toontown opened in January 1993, but its only real ride was not ready until January 1994. The cabs spin with a wheel you turn yourself, one of the few dark rides where you control the view.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-shootin-repainted-every-night",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "frontierland_shootin_exposition",
+    "title": "The targets had to be repainted every night",
+    "body": "The gallery opened in 1957 with rifles that fired real lead pellets, so the backdrop was touched up with fresh paint each night after close. The 1985 rebuild switched to infrared beams, which is why the targets react and nothing gets dented.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
     "id": "dl-small-world-the-clock",
     "parkId": "california_kingdom_park",
     "landId": "storybook_village_area",
@@ -622,6 +1002,106 @@ export const facts: ParkFact[] = [
     "body": "When the ride opened in 1955 you were meant to be Snow White, so she never appeared, and guests kept asking where she was. The 1983 rebuild put her in, and the 2021 update added the happy ending and the new name.",
     "createdAtISO": "2026-10-10T00:00:00.000Z",
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "dl-space-astronauts-at-the-opening",
+    "parkId": "california_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "space_coaster",
+    "title": "Real astronauts opened it",
+    "body": "Disneyland's Space Mountain opened in May 1977, two years after Florida's, with several of the original Mercury astronauts on hand for the ceremony. It runs a single track, where the Florida ride has two side by side.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-space-new-track-same-shell",
+    "parkId": "california_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "space_coaster",
+    "title": "The whole track was replaced in 2005",
+    "body": "The ride closed in 2003 and reopened for the park's fiftieth in 2005 with an entirely new track laid inside the same building. That is when the onboard speakers arrived, with a score written by Michael Giacchino that is timed to every dip.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-star-tours-first-star-wars-ride",
+    "parkId": "california_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "star_flight_simulator",
+    "title": "The first Star Wars ride",
+    "body": "Star Tours opened in January 1987 as the first ride Disney built with George Lucas, whose company wrote the story. The cabins were military flight simulators, the kind used to train pilots, fitted with a screen and seats.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-star-tours-random-trips",
+    "parkId": "california_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "star_flight_simulator",
+    "title": "No two trips are the same",
+    "body": "The 2011 remake added 3D and broke the trip into pieces that get shuffled, with a new chase, a new transmission, and a new destination each time. New planets keep getting added as films come out, so regulars still see something they have not.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-station-lilly-belle",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "main_street_station",
+    "title": "The Lilly Belle is a parlor car",
+    "body": "The red Victorian car at the end of one train is the Lilly Belle, named for Walt's wife and restored in the mid-1970s as a private parlor. It carries a handful of guests at a time by invitation from the station.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-station-two-built-three-bought",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "main_street_station",
+    "title": "Two engines were built for the park, three are older than it",
+    "body": "The C.K. Holliday and E.P. Ripley were built at the studio for opening day in 1955. The other three, the Fred Gurley, Ernest S. Marsh, and Ward Kimball, were working locomotives built between 1894 and 1925 and restored for Disneyland.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-storybook-living-bonsai",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "storybook_land_canal_boats",
+    "title": "The trees are real and kept small on purpose",
+    "body": "The tiny forests are live trees trained and trimmed like bonsai so they stay in scale with the houses. Some have been in the ground since the 1950s, and the gardeners prune them by hand several times a week.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-storybook-the-mud-bank-ride",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "storybook_land_canal_boats",
+    "title": "It opened with nothing to look at",
+    "body": "The canals opened in 1955 as Canal Boats of the World, with bare dirt banks because the miniatures were not finished. Guests called it the mud bank ride. Storybook Land, with its villages at one inch to the foot, opened the following June.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-subs-eighth-largest-fleet",
+    "parkId": "california_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "nemo_submarine_voyage",
+    "title": "The eighth largest submarine fleet in the world",
+    "body": "The subs opened in June 1959 alongside the Matterhorn and the Monorail, and Disney liked to say its eight boats made the eighth largest submarine fleet on the planet. The original ride closed in 1998 and sat empty until Nemo brought it back in 2007.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-subs-never-dive",
+    "parkId": "california_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "nemo_submarine_voyage",
+    "title": "The subs never go under",
+    "body": "The hulls float the whole way around; the dive is bubbles blown past the portholes while the view changes. The 2007 reopening also swapped the diesel engines for electric motors, which is why the lagoon no longer smells like a bus depot.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
   },
   {
     "id": "dl-thunder-bryce-canyon",
@@ -674,6 +1154,36 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
+    "id": "dl-toad-opening-day-original",
+    "parkId": "california_kingdom_park",
+    "landId": "storybook_village_area",
+    "attractionId": "wild_motorcar_ride",
+    "title": "An opening-day ride that still ends in the wrong place",
+    "body": "Mr. Toad's Wild Ride opened with the park in July 1955 and was rebuilt in 1983, but the ending never changed: the car is hit by a train and lands in a hot, red room full of devils. Florida had its own copy until 1998, which is why Toad keeps showing up in the Pooh ride there.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-tom-sawyer-pirates-lair",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "tom_sawyer_island",
+    "title": "The pirates moved in during 2007",
+    "body": "The island became Pirate's Lair in 2007, tied to the Pirates of the Caribbean films, with a wrecked ship, a treasure cave, and bones in the water. The rafts are still the only way over, and they have been running since 1956.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-tom-sawyer-walt-drew-it-himself",
+    "parkId": "california_kingdom_park",
+    "landId": "frontier_area",
+    "attractionId": "tom_sawyer_island",
+    "title": "Walt laid it out himself",
+    "body": "Walt was unhappy with the designers' plans for the island, took them home, and came back the next morning with his own layout drawn overnight. The island opened in June 1956 and is the one attraction in the park he personally designed.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
     "id": "dl-treehouse-three-names",
     "parkId": "california_kingdom_park",
     "landId": "jungle_outpost_area",
@@ -682,6 +1192,26 @@ export const facts: ParkFact[] = [
     "body": "The tree went up in 1962 as the Swiss Family Treehouse, became Tarzan's Treehouse in 1999, and reopened in November 2023 as the Adventureland Treehouse with the Robinson family back in residence. The concrete tree has its own made-up species name: Disneyodendron semperflorens grandis, the large ever-blooming Disney tree.",
     "createdAtISO": "2026-10-09T00:00:00.000Z",
     "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "dl-vehicles-rubber-shoes",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "main_street_vehicles",
+    "title": "The horses wear rubber shoes",
+    "body": "The streetcar horses are draft breeds shod with polyurethane pads so they do not slip on the pavement, and they work short shifts before heading back to the ranch in the backstage area. Each one has a nameplate on its harness.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "dl-vehicles-walts-fire-engine",
+    "parkId": "california_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "main_street_vehicles",
+    "title": "Walt rode the fire engine in parades",
+    "body": "The fire engine was built for the park in 1958 and became Walt's ride of choice for parades and visiting dignitaries. The horse-drawn streetcars, the horseless carriage, and the omnibus make up the rest of the fleet, and all of it has been running since the 1950s.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
   },
   {
     "id": "dlh-lobby-monorail-stop",
@@ -724,6 +1254,36 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
+    "id": "ep-figment-dreamfinder",
+    "parkId": "showcase_park",
+    "landId": "celebration_area",
+    "attractionId": "imagination_dragon_ride",
+    "title": "Figment used to have a boss",
+    "body": "The original Journey Into Imagination opened in March 1983 with Dreamfinder, a red-bearded man in a flying machine who built Figment from bits of ideas. The 1999 remake dropped both of them and guests complained until Figment came back in 2002.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "ep-figment-eric-idle",
+    "parkId": "showcase_park",
+    "landId": "celebration_area",
+    "attractionId": "imagination_dragon_ride",
+    "title": "Dr. Channing is a Python",
+    "body": "The host of the current version is Dr. Nigel Channing, played by Eric Idle of Monty Python, who also starred in the 3D film next door. The skunk smell in the smell lab is real and is sprayed on purpose.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "ep-france-film-original-1982",
+    "parkId": "showcase_park",
+    "landId": "france_pavilion",
+    "attractionId": "pavilion_film",
+    "title": "Running almost unchanged since 1982",
+    "body": "Impressions de France opened with the pavilion in 1982, an eighteen-minute tour of the countryside on five screens that wrap two hundred degrees around the room, set to French classical music. It is one of the few opening-day films still showing in the park.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
     "id": "ep-frozen-maelstrom-bones",
     "parkId": "showcase_park",
     "landId": "norway_pavilion",
@@ -742,6 +1302,46 @@ export const facts: ParkFact[] = [
     "body": "Elsa, Anna, and Olaf have sculpted heads with their features projected onto them, which is how Elsa's expressions keep up with Let It Go. The story is set after the film, at a Summer Snow Day Elsa throws for Arendelle.",
     "createdAtISO": "2026-10-10T00:00:00.000Z",
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "ep-garden-grill-grown-downstairs",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "rotating_garden_restaurant",
+    "title": "Some of the food grew downstairs",
+    "body": "Vegetables on the plates come from the greenhouses the boat ride passes through, picked that morning. The restaurant opened with the pavilion in 1982 as The Good Turn and has changed names twice since.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "ep-garden-grill-slow-spin",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "rotating_garden_restaurant",
+    "title": "The room turns while you eat",
+    "body": "Garden Grill is built on a turntable that makes a full rotation over the course of a meal, carrying the booths past the farmhouse, desert, and prairie scenes of Living with the Land below. The outer booths get the view, so ask for one.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "ep-gran-fiesta-rio-del-tiempo",
+    "parkId": "showcase_park",
+    "landId": "mexico_pavilion",
+    "attractionId": "pyramid_boat_ride",
+    "title": "It opened as the River of Time",
+    "body": "The boats opened with the park in 1982 as El Rio del Tiempo, a slow trip through Mexico's history with film and dolls. The 2007 remake made it a chase after Donald through the same canals with The Three Caballeros.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "ep-gran-fiesta-secondhand-caballeros",
+    "parkId": "showcase_park",
+    "landId": "mexico_pavilion",
+    "attractionId": "pyramid_boat_ride",
+    "title": "The Caballeros came from Tokyo",
+    "body": "The Donald, José, and Panchito figures at the end were built for the Mickey Mouse Revue, a show that opened with Magic Kingdom in 1971 and later moved to Tokyo Disneyland. When Tokyo retired it in 2009 the three were restored and installed here in 2015.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
   },
   {
     "id": "ep-land-listen-to-the-land",
@@ -782,6 +1382,16 @@ export const facts: ParkFact[] = [
     "body": "The pavilion opened in August 2003 on the site of Horizons, the ride that imagined the 21st century. Gary Sinise briefed the crews for the first fourteen years; Gina Torres took over with the 2017 update.",
     "createdAtISO": "2026-10-10T00:00:00.000Z",
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "ep-moana-first-moana",
+    "parkId": "showcase_park",
+    "landId": "nature_area",
+    "attractionId": "water_journey_trail",
+    "title": "The first Moana attraction anywhere",
+    "body": "Journey of Water opened in October 2023 as the first attraction based on the film, a walking trail where the water reacts when you touch it. It sits in the new World Nature neighborhood on land that had been walkways and the back of the old Innoventions.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
   },
   {
     "id": "ep-remy-from-paris",
@@ -946,6 +1556,36 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
+    "id": "hs-falcon-six-jobs",
+    "parkId": "studios_park",
+    "landId": "smugglers_outpost_area",
+    "attractionId": "smugglers_freighter_ride",
+    "title": "The ship takes damage when you fly badly",
+    "body": "Each cockpit carries two pilots, two gunners, and two engineers, and the cabin shakes harder and the lights flicker when the pilots keep hitting things. Hondo Ohnaka grades the crew on the way out and docks your pay for the dents.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "hs-falcon-three-months-later",
+    "parkId": "studios_park",
+    "landId": "smugglers_outpost_area",
+    "attractionId": "smugglers_freighter_ride",
+    "title": "Florida got its Falcon three months after California",
+    "body": "Galaxy's Edge opened here in August 2019, three months behind Disneyland, with the same full-size ship parked outside. The Florida land is a mirror image of the California one, which trips up guests who have been to both.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "hs-mermaid-puppets-and-lasers",
+    "parkId": "studios_park",
+    "landId": "animation_courtyard_area",
+    "attractionId": "mermaid_stage_show",
+    "title": "Puppets under black light, and rain on the audience",
+    "body": "Voyage of The Little Mermaid opened in January 1992 and ran the film's story in fifteen minutes with black-light puppets for the Under the Sea number, lasers for the storm, and a mist that fell on the seats. It closed in March 2020, and in 2024 Disney announced the theater would reopen with a new stage musical of the same story.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
     "id": "hs-midway-mania-string-cannons",
     "parkId": "studios_park",
     "landId": "toy_blocks_area",
@@ -1026,6 +1666,26 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-10-09T00:00:00.000Z"
   },
   {
+    "id": "hs-star-tours-ewok-village",
+    "parkId": "studios_park",
+    "landId": "echo_lake_area",
+    "attractionId": "star_flight_simulator",
+    "title": "You board from an Ewok village",
+    "body": "Florida's Star Tours opened in December 1989 with the queue wound through an Endor forest, a walker on the loading dock, and an AT-AT out front. The 2011 remake rebuilt the ride but kept the forest.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "hs-star-tours-random-trips",
+    "parkId": "studios_park",
+    "landId": "echo_lake_area",
+    "attractionId": "star_flight_simulator",
+    "title": "The trip is shuffled every time",
+    "body": "The current version breaks the flight into segments that are picked at random, so the planet, the chase, and the holographic message change from ride to ride. New destinations have been added with almost every film since 2011.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
     "id": "hs-tower-faster-than-falling",
     "parkId": "studios_park",
     "landId": "sunset_area",
@@ -1070,6 +1730,16 @@ export const facts: ParkFact[] = [
     "body": "The whole park sits on top of a network of service corridors. Florida's water table is too high to dig a basement, so the corridors were built at ground level and the earth dug out for the lagoon in front of the park was piled on top of them. Deliveries, trash, and cast members move underneath, which is why a costumed character from one land never has to walk through another to get to work.",
     "createdAtISO": "2026-09-23T00:00:00.000Z",
     "updatedAtISO": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "mk-barnstormer-goofys-farm",
+    "parkId": "magic_kingdom_park",
+    "landId": "circus_grounds_area",
+    "attractionId": "stunt_plane_coaster",
+    "title": "It was Goofy's farm first",
+    "body": "The coaster opened in 1996 as The Barnstormer at Goofy's Wiseacre Farm, with the plane crashing through a barn. The 2012 rebuild for New Fantasyland made Goofy the Great Goofini, a circus stunt pilot, and the barn became a billboard.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
   },
   {
     "id": "mk-be-our-guest-first-drinks",
@@ -1120,6 +1790,36 @@ export const facts: ParkFact[] = [
     "body": "Walt built the show for General Electric at the 1964 New York World's Fair, then moved it to Disneyland in 1967 and to Florida in 1975. The audience rotates from act to act while the family and their kitchen stay put.",
     "createdAtISO": "2026-10-10T00:00:00.000Z",
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "mk-carpets-spitting-camel",
+    "parkId": "magic_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "flying_carpets_spinner",
+    "title": "Watch out for the camel",
+    "body": "The carpets opened in May 2001 in the plaza outside the Tiki Room, and two golden camels at the edge spit water at riders who fly past. The front seat lever changes height while the back seat lever tips the carpet forward and back.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-castle-no-bricks",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "storybook_castle",
+    "title": "There is not a single brick in it",
+    "body": "Cinderella Castle rises 189 feet on a steel frame wrapped in concrete and fiberglass, with the stone painted on. The towers shrink and the windows get smaller the higher they go so the whole thing looks taller than it is.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-castle-suite-inside",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "storybook_castle",
+    "title": "There is a bedroom inside",
+    "body": "A room built as Walt's apartment was never finished, and in 2007 it became the Cinderella Castle Suite, a hotel room guests can win but not book. In 1996 the whole castle was dressed as a pink birthday cake for the park's twenty-fifth, which nobody wants to see again.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
   },
   {
     "id": "mk-jungle-alberta-falls",
@@ -1212,6 +1912,46 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
+    "id": "mk-peoplemover-motors-in-the-track",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "elevated_tram_ride",
+    "title": "The cars have no motors",
+    "body": "The PeopleMover opened in July 1975 and runs on linear induction motors buried in the track, which push the trains along with magnets. Nothing on the cars themselves drives, which is why the ride is so quiet and why it almost never breaks.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-peoplemover-progress-city",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "elevated_tram_ride",
+    "title": "You pass Walt's model city",
+    "body": "Partway around, the train rolls past a lit model of Progress City, the community Walt planned to build in Florida. It was made for the Carousel of Progress at Disneyland in 1967 and is the only piece of his original EPCOT idea still on display.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-peter-pan-hanging-from-the-ceiling",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "flying_pirate_ship_ride",
+    "title": "The ships hang from the ceiling",
+    "body": "Peter Pan's Flight was one of the first dark rides to hang its vehicles from an overhead rail so riders look down on the scenery, an idea from the 1955 Disneyland original. The Florida copy opened with the park in October 1971.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-peter-pan-the-nursery-queue",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "flying_pirate_ship_ride",
+    "title": "You wait in the Darlings' nursery",
+    "body": "The 2015 queue extension walks you through the Darling house, where Tinker Bell's shadow flits across the walls and a bell rings when she passes. It was built to make one of the park's longest lines feel shorter.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
     "id": "mk-philharmagic-widest-screen",
     "parkId": "magic_kingdom_park",
     "landId": "castle_courtyard_area",
@@ -1262,6 +2002,86 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
+    "id": "mk-presidents-new-figure-each-term",
+    "parkId": "magic_kingdom_park",
+    "landId": "colonial_square_area",
+    "attractionId": "presidents_hall_show",
+    "title": "A new president joins after each inauguration",
+    "body": "The show closes for a few months after every inauguration to add the new president, who records their own lines. The figures move on their own schedule, so the ones in the back shift and nod even while someone else speaks.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-presidents-walts-idea",
+    "parkId": "magic_kingdom_park",
+    "landId": "colonial_square_area",
+    "attractionId": "presidents_hall_show",
+    "title": "Walt planned it for Disneyland",
+    "body": "The show grew from One Nation Under God, a Disneyland idea Walt never built because the figures were beyond what could be made in the 1950s. It opened with Magic Kingdom in October 1971 with every president on stage at once.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-railroad-closed-for-tron",
+    "parkId": "magic_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "steam_train_station",
+    "title": "It stopped for four years for a coaster",
+    "body": "The loop closed in December 2018 so the Tron coaster could be built across its path, and the trains did not run again until December 2022. The full circuit is about a mile and a half with stops on Main Street, in Frontierland, and in Fantasyland.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-railroad-found-in-mexico",
+    "parkId": "magic_kingdom_park",
+    "landId": "main_street_area",
+    "attractionId": "steam_train_station",
+    "title": "The engines were found hauling sugar cane in Mexico",
+    "body": "The four locomotives were built in Philadelphia between 1916 and 1928 and were working on a sugar plantation in the Yucatán when Disney bought them in 1969. They were rebuilt in Tampa and named for Walt, Roy, Lilly Belle, and Roger Broggie, the man who built the studio's trains.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-small-world-one-song-on-purpose",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "singing_dolls_boat_ride",
+    "title": "One song because anthems clashed",
+    "body": "The first plan had each country's dolls singing their national anthem, and the overlap was noise. Walt asked the Sherman Brothers for one simple song that could be sung as a round in every language, and they wrote the one everyone now knows.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-small-world-unicef-pavilion",
+    "parkId": "magic_kingdom_park",
+    "landId": "castle_courtyard_area",
+    "attractionId": "singing_dolls_boat_ride",
+    "title": "Built for UNICEF at the World's Fair",
+    "body": "The ride was made for the 1964 New York World's Fair in the Pepsi pavilion, as a tribute to UNICEF, then moved to Disneyland in 1966. Magic Kingdom's version opened with the park in 1971 and lives inside a show building, which is why there is no clock face out front.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-space-almost-as-tall-as-the-castle",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "space_coaster",
+    "title": "The cone is almost as tall as Cinderella Castle",
+    "body": "The building stands 183 feet, six feet shy of the castle, and the track inside only reaches about 90 feet. Most of the height is there so the ride can be seen from across the park and for the air conditioning the mountain needs.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-space-the-first-one",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "space_coaster",
+    "title": "The original Space Mountain",
+    "body": "The ride opened in January 1975, the first indoor roller coaster in the dark and the first Space Mountain, with RCA as sponsor and astronaut Gordon Cooper advising on how the trip should feel. The two tracks are named Alpha and Omega.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
     "id": "mk-thunder-monument-valley",
     "parkId": "magic_kingdom_park",
     "landId": "frontier_area",
@@ -1302,6 +2122,26 @@ export const facts: ParkFact[] = [
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
   },
   {
+    "id": "mk-tiki-fire-and-the-old-show",
+    "parkId": "magic_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "singing_birds_show",
+    "title": "A fire brought the original show back",
+    "body": "From 1998 the room ran Under New Management, with Iago and Zazu taking over from the original birds. A fire in the attic in January 2011 damaged the Iago figure, and when the room reopened that August the 1963 show was back.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-tiki-tropical-serenade",
+    "parkId": "magic_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "singing_birds_show",
+    "title": "It opened as Tropical Serenade",
+    "body": "The Florida Tiki Room opened in October 1971 under the name Tropical Serenade, sponsored by Florida Citrus Growers, with the same show as California. The sunken entrance and the fountain out front were built to fit the swampier Adventureland here.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
     "id": "mk-town-square-talking-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "main_street_area",
@@ -1310,6 +2150,26 @@ export const facts: ParkFact[] = [
     "body": "The theater became Mickey's meet-and-greet in 2011, and from 2013 to 2018 the Mickey here could speak and blink, the first Disney park character who did. Before that the building was an exhibition hall, and in 1971 the Gulf Hospitality House.",
     "createdAtISO": "2026-10-10T00:00:00.000Z",
     "updatedAtISO": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "mk-treehouse-concrete-tree",
+    "parkId": "magic_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "family_treehouse",
+    "title": "The tree is concrete, and the leaves are vinyl",
+    "body": "The treehouse opened with the park in 1971 and its tree is a steel frame covered in concrete, sixty feet tall with about 300,000 plastic leaves wired onto 1,400 branches. Imagineers named the species Disneyodendron eximus, which roughly means out-of-the-ordinary Disney tree.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-treehouse-long-climb",
+    "parkId": "magic_kingdom_park",
+    "landId": "jungle_outpost_area",
+    "attractionId": "family_treehouse",
+    "title": "It is a long climb for one family",
+    "body": "The path climbs through the family's rooms from the kitchen to the bedrooms, past a water wheel that lifts bamboo buckets to the top. Disneyland's tree got the same treatment in 1962 and was later handed to Tarzan and then Adventureland's hunters.",
+    "createdAtISO": "2026-10-15T00:00:00.000Z",
+    "updatedAtISO": "2026-10-15T00:00:00.000Z"
   },
   {
     "id": "paris-real-castles-everywhere",
