@@ -1,0 +1,10 @@
+{
+  "id": "mk-space-the-first-one",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "space_coaster",
+  "title": "The original Space Mountain",
+  "body": "The ride opened in January 1975, the first indoor roller coaster in the dark and the first Space Mountain, with RCA as sponsor and astronaut Gordon Cooper advising on how the trip should feel. The two tracks are named Alpha and Omega.",
+  "createdAtISO": "2026-10-15T00:00:00.000Z",
+  "updatedAtISO": "2026-10-15T00:00:00.000Z"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "mk-presidents-new-figure-each-term",
+  "parkId": "magic_kingdom_park",
+  "landId": "colonial_square_area",
+  "attractionId": "presidents_hall_show",
+  "title": "A new president joins after each inauguration",
+  "body": "The show closes for a few months after every inauguration to add the new president, who records their own lines. The figures move on their own schedule, so the ones in the back shift and nod even while someone else speaks.",
+  "createdAtISO": "2026-10-15T00:00:00.000Z",
+  "updatedAtISO": "2026-10-15T00:00:00.000Z"
+}

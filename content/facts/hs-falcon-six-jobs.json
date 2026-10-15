@@ -1,0 +1,10 @@
+{
+  "id": "hs-falcon-six-jobs",
+  "parkId": "studios_park",
+  "landId": "smugglers_outpost_area",
+  "attractionId": "smugglers_freighter_ride",
+  "title": "The ship takes damage when you fly badly",
+  "body": "Each cockpit carries two pilots, two gunners, and two engineers, and the cabin shakes harder and the lights flicker when the pilots keep hitting things. Hondo Ohnaka grades the crew on the way out and docks your pay for the dents.",
+  "createdAtISO": "2026-10-15T00:00:00.000Z",
+  "updatedAtISO": "2026-10-15T00:00:00.000Z"
+}

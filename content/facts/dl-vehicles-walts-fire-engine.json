@@ -1,0 +1,10 @@
+{
+  "id": "dl-vehicles-walts-fire-engine",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "main_street_vehicles",
+  "title": "Walt rode the fire engine in parades",
+  "body": "The fire engine was built for the park in 1958 and became Walt's ride of choice for parades and visiting dignitaries. The horse-drawn streetcars, the horseless carriage, and the omnibus make up the rest of the fleet, and all of it has been running since the 1950s.",
+  "createdAtISO": "2026-10-15T00:00:00.000Z",
+  "updatedAtISO": "2026-10-15T00:00:00.000Z"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "mk-peoplemover-motors-in-the-track",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "elevated_tram_ride",
+  "title": "The cars have no motors",
+  "body": "The PeopleMover opened in July 1975 and runs on linear induction motors buried in the track, which push the trains along with magnets. Nothing on the cars themselves drives, which is why the ride is so quiet and why it almost never breaks.",
+  "createdAtISO": "2026-10-15T00:00:00.000Z",
+  "updatedAtISO": "2026-10-15T00:00:00.000Z"
+}

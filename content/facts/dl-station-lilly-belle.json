@@ -1,0 +1,10 @@
+{
+  "id": "dl-station-lilly-belle",
+  "parkId": "california_kingdom_park",
+  "landId": "main_street_area",
+  "attractionId": "main_street_station",
+  "title": "The Lilly Belle is a parlor car",
+  "body": "The red Victorian car at the end of one train is the Lilly Belle, named for Walt's wife and restored in the mid-1970s as a private parlor. It carries a handful of guests at a time by invitation from the station.",
+  "createdAtISO": "2026-10-15T00:00:00.000Z",
+  "updatedAtISO": "2026-10-15T00:00:00.000Z"
+}

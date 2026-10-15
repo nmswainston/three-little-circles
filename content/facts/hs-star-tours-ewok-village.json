@@ -1,0 +1,10 @@
+{
+  "id": "hs-star-tours-ewok-village",
+  "parkId": "studios_park",
+  "landId": "echo_lake_area",
+  "attractionId": "star_flight_simulator",
+  "title": "You board from an Ewok village",
+  "body": "Florida's Star Tours opened in December 1989 with the queue wound through an Endor forest, a walker on the loading dock, and an AT-AT out front. The 2011 remake rebuilt the ride but kept the forest.",
+  "createdAtISO": "2026-10-15T00:00:00.000Z",
+  "updatedAtISO": "2026-10-15T00:00:00.000Z"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "mk-peoplemover-progress-city",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "elevated_tram_ride",
+  "title": "You pass Walt's model city",
+  "body": "Partway around, the train rolls past a lit model of Progress City, the community Walt planned to build in Florida. It was made for the Carousel of Progress at Disneyland in 1967 and is the only piece of his original EPCOT idea still on display.",
+  "createdAtISO": "2026-10-15T00:00:00.000Z",
+  "updatedAtISO": "2026-10-15T00:00:00.000Z"
+}
