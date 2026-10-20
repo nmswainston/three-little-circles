@@ -5741,6 +5741,8 @@ export const entries: HiddenMickeyEntry[] = [
     "entryType": "FIND",
     "locationType": "Queue",
     "difficulty": "Hard",
+    "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "A classic three-circle Hidden Mickey appears sideways on a dark red fireball element behind one of the Critter Pop-Out animal cutouts in the entrance queue. The beaver figure partially blocks the shape, making this one especially easy to overlook.",
     "whereToLook": {
       "scene": "Standing Critter Pop-Out display board along the right side of the entrance queue",
@@ -5768,7 +5770,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-HS-0091",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-20T00:00:00.000Z"
   },
   {
     "id": "crystal-arts-shop-paving-stone-mickey",
@@ -17586,6 +17588,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Easy",
     "areaContext": "Queue",
+    "sceneOrder": 3,
     "description": "The dot under the exclamation mark on the pink Circus Fun! sign is a classic three-circle Hidden Mickey. It is right where the punctuation belongs, so the eye reads it as a period and moves on.",
     "whereToLook": {
       "scene": "Pink sign reading Circus Fun! in the queue",
@@ -17609,7 +17612,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-HS-0094",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-20T00:00:00.000Z"
   },
   {
     "id": "midway-shooter-exit-purple-bull-patch-mickey",
@@ -17626,6 +17629,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Exit",
+    "sceneOrder": 2,
     "description": "On the exit route past the giant playing cards, a purple bull cutout stands against the wall. A patch on the bull's side forms a classic Hidden Mickey.",
     "whereToLook": {
       "scene": "Exit route beyond the large playing cards",
@@ -17649,7 +17653,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0006",
     "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-rodeo-bull",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-20T00:00:00.000Z"
   },
   {
     "id": "midway-shooter-exit-tin-toy-book",
@@ -17666,6 +17670,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Indoor",
     "difficulty": "Medium",
     "areaContext": "Exit",
+    "sceneOrder": 1,
     "description": "Past the glasses return, a book on display is titled for the tin toy short that won the animation studio its first Academy Award and led directly to the toy movies.",
     "whereToLook": {
       "scene": "Exit route beyond the 3D glasses return",
@@ -17689,7 +17694,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0018",
     "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-20T00:00:00.000Z"
   },
   {
     "id": "midway-shooter-loading-box-barcode-date",
@@ -17746,6 +17751,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 3,
     "description": "A giant stereoscopic viewer reel in the queue shows pictures of the original California park's early future-themed land, as it looked decades ago.",
     "whereToLook": {
       "scene": "Oversized toys along the queue",
@@ -17769,7 +17775,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0016",
     "sourceUrl": "https://disneyparksblog.com/wdw/hidden-details-and-easter-eggs-in-toy-story-land-at-disneys-hollywood-studios/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:00:00.000Z"
+    "updatedAtISO": "2026-10-20T00:00:00.000Z"
   },
   {
     "id": "mine-train-lift-hill-pickaxe-mickey",
@@ -22290,6 +22296,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Easy",
     "areaContext": "Queue",
+    "sceneOrder": 2,
     "description": "In the alley section of the queue, two chairs sit on a balcony overlooking the street. They are for the two grumpy old critics who heckled the park's former 3D show from a box just like it.",
     "whereToLook": {
       "scene": "Alley section of the queue",
@@ -22313,7 +22320,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0025",
     "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-20T00:00:00.000Z"
   },
   {
     "id": "rock-show-coaster-alley-mona-lisa",
@@ -22330,6 +22337,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 2,
     "description": "A Mona Lisa hangs in the alley, a leftover from the Italian restaurant that once stood nearby and hung the same painting on its walls.",
     "whereToLook": {
       "scene": "Alley section of the queue",
@@ -22353,7 +22361,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0027",
     "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-20T00:00:00.000Z"
   },
   {
     "id": "rock-show-coaster-alley-pizza-boxes",
@@ -22370,6 +22378,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Easy",
     "areaContext": "Queue",
+    "sceneOrder": 2,
     "description": "Stacked pizza boxes in the alley carry the name of the rat's pizzeria that used to serve the park. The restaurant is gone, but the boxes made it into the queue.",
     "whereToLook": {
       "scene": "Alley section of the queue",
@@ -22393,7 +22402,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0026",
     "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-20T00:00:00.000Z"
   },
   {
     "id": "rock-show-coaster-exit-creator-portrait",
@@ -22450,6 +22459,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Easy",
     "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "The instrument gallery in the queue includes a banjo built to match the one the famous green frog plays. It is the first thing many fans look for.",
     "whereToLook": {
       "scene": "Instrument gallery along the queue",
@@ -22473,7 +22483,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0022",
     "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-20T00:00:00.000Z"
   },
   {
     "id": "rock-show-coaster-gallery-lead-guitar",
@@ -22490,6 +22500,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "The band's lead guitarist has his guitar in the gallery, built to match the instrument he plays in the show and a nod to the performer who originated the character.",
     "whereToLook": {
       "scene": "Instrument gallery along the queue",
@@ -22513,7 +22524,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0023",
     "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-20T00:00:00.000Z"
   },
   {
     "id": "rock-show-coaster-gallery-rhythm-guitar",
@@ -22530,6 +22541,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 1,
     "description": "The band's laid-back guitarist has her guitar in the gallery too, matching the one she plays and tipping its hat to the performer behind her.",
     "whereToLook": {
       "scene": "Instrument gallery along the queue",
@@ -22553,7 +22565,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0024",
     "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-20T00:00:00.000Z"
   },
   {
     "id": "rock-show-coaster-squeakeasy-sign-year",
@@ -22570,6 +22582,7 @@ export const entries: HiddenMickeyEntry[] = [
     "locationType": "Queue",
     "difficulty": "Medium",
     "areaContext": "Queue",
+    "sceneOrder": 2,
     "description": "The sign for the squeakeasy is dated 1936. That is the birth year of the man who created the whole troupe of felt performers.",
     "whereToLook": {
       "scene": "Squeakeasy sign along the queue",
@@ -22593,7 +22606,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0028",
     "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
-    "updatedAtISO": "2026-10-09T00:00:00.000Z"
+    "updatedAtISO": "2026-10-20T00:00:00.000Z"
   },
   {
     "id": "rodeo-barbecue-corn-kernels-mickey",
@@ -29537,6 +29550,8 @@ export const entries: HiddenMickeyEntry[] = [
     "entryType": "FIND",
     "locationType": "Queue",
     "difficulty": "Hard",
+    "areaContext": "Queue",
+    "sceneOrder": 2,
     "description": "A Hidden Mickey is tucked low on the wall just past the large U.S.A. map in the queue. It sits beneath a green dinosaur and a red fish, partially obscured by handrails on the left side, making it easy to miss unless you're looking near the floor.",
     "whereToLook": {
       "scene": "Wall display past the large U.S.A. map in the queue",
@@ -29561,7 +29576,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "sourceId": "TLC-HS-0099",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-10-05T00:00:00.000Z"
+    "updatedAtISO": "2026-10-20T00:00:00.000Z"
   },
   {
     "id": "vero-beach-lobby-display-mickey-30th",

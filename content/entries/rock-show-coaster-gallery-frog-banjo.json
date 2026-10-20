@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Easy",
   "areaContext": "Queue",
+  "sceneOrder": 1,
   "description": "The instrument gallery in the queue includes a banjo built to match the one the famous green frog plays. It is the first thing many fans look for.",
   "whereToLook": {
     "scene": "Instrument gallery along the queue",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0022",
   "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  "updatedAtISO": "2026-10-20T00:00:00.000Z"
 }

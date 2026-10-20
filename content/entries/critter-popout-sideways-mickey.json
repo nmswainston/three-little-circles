@@ -12,6 +12,8 @@
   "entryType": "FIND",
   "locationType": "Queue",
   "difficulty": "Hard",
+  "areaContext": "Queue",
+  "sceneOrder": 1,
   "description": "A classic three-circle Hidden Mickey appears sideways on a dark red fireball element behind one of the Critter Pop-Out animal cutouts in the entrance queue. The beaver figure partially blocks the shape, making this one especially easy to overlook.",
   "whereToLook": {
     "scene": "Standing Critter Pop-Out display board along the right side of the entrance queue",
@@ -39,5 +41,5 @@
   },
   "sourceId": "TLC-HS-0091",
   "createdAtISO": "2026-01-12T00:00:00.000Z",
-  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  "updatedAtISO": "2026-10-20T00:00:00.000Z"
 }

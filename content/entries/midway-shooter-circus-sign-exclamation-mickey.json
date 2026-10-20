@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Easy",
   "areaContext": "Queue",
+  "sceneOrder": 3,
   "description": "The dot under the exclamation mark on the pink Circus Fun! sign is a classic three-circle Hidden Mickey. It is right where the punctuation belongs, so the eye reads it as a period and moves on.",
   "whereToLook": {
     "scene": "Pink sign reading Circus Fun! in the queue",
@@ -36,5 +37,5 @@
   },
   "sourceId": "TLC-HS-0094",
   "createdAtISO": "2026-09-22T00:00:00.000Z",
-  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  "updatedAtISO": "2026-10-20T00:00:00.000Z"
 }
