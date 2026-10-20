@@ -155,3 +155,25 @@ content pull request of their own.
 Pull before each release, or whenever you want the freshness to move. Pass
 `--dry-run` to print the summary without writing. `npm run supabase:check`
 verifies the table exists and that the anon key cannot read it.
+
+## Keeping a free project awake
+
+Supabase pauses a free-tier project that shows low database activity over
+seven days. Its docs put the safe level at a few requests to the database
+each day, so a single daily ping is not enough. Paused, the project fails
+every "Still there?" report, suggestion, and photo until someone restores it
+from the dashboard, and `npm run content:import` and
+`npm run confirmations:pull` fail too. Real guests keep a project awake on
+their own. Before there are any, the
+[keep-alive workflow](../.github/workflows/keep-alive.yml) stands in for them
+with a small request every six hours.
+
+Set two repository secrets under **Settings > Secrets and variables >
+Actions**: `SUPABASE_URL` and `SUPABASE_ANON_KEY`, the same values as in
+`.env`. The job fails with a message naming them until both exist. It makes
+the same request as `npm run supabase:check`, a select on the submissions
+table with the anon key, and expects no rows back, so it also notices if the
+queue ever becomes readable.
+
+Upgrading to the Pro plan also stops the pausing. That makes sense once the
+app has steady users, not for a beta with a handful of testers.
