@@ -5353,7 +5353,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
-    "status": "Current",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.4148,
       "longitude": -81.5746
@@ -5361,7 +5361,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0001",
     "sourceUrl": "https://hiddenmickeyguy.com/walt-disney-world-disneys-contemporary-resort-hidden-mickey-on-monorail-beam/",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-10-20T00:00:00.000Z"
   },
   {
     "id": "coronado-gift-shop-left-door-mickey",
@@ -28684,7 +28684,7 @@ export const entries: HiddenMickeyEntry[] = [
     },
     "confidence": "Strong",
     "verification": "Community",
-    "status": "Current",
+    "status": "Unverified",
     "coordinates": {
       "latitude": 28.409495,
       "longitude": -81.572404
@@ -28692,7 +28692,7 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-RS-0002",
     "sourceUrl": "https://hiddenmickeyguy.com/1047-2/",
     "createdAtISO": "2026-01-12T00:00:00.000Z",
-    "updatedAtISO": "2026-09-24T00:43:41.918Z"
+    "updatedAtISO": "2026-10-20T00:00:00.000Z"
   },
   {
     "id": "tour-gardens-roof-mickey-flag",
