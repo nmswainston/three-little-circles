@@ -1,8 +1,10 @@
-# Sends one small request to the Supabase project every day so it is never
-# idle for a week. Supabase pauses a free-tier project after seven days with
-# no API traffic, and a paused project fails every "Still there?" report,
-# suggestion, and photo until someone restores it by hand. Steady traffic
-# from real guests makes this redundant; until then it stands in for them.
+# Sends a small request to the Supabase project every six hours so it never
+# looks idle. Supabase pauses a free-tier project that shows low database
+# activity over seven days, and its docs put the safe level at a few requests
+# to the database each day, so one a day is not enough. A paused project
+# fails every "Still there?" report, suggestion, and photo until someone
+# restores it by hand. Steady traffic from real guests makes this redundant;
+# until then it stands in for them.
 #
 # The request is the one `npm run supabase:check` makes: a select on the
 # submissions table with the anon key. Row-level security lets it through
@@ -18,7 +20,7 @@ name: Keep Supabase awake
 
 on:
   schedule:
-    - cron: "23 9 * * *"
+    - cron: "23 */6 * * *"
   workflow_dispatch:
 
 permissions:

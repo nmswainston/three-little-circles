@@ -158,13 +158,15 @@ verifies the table exists and that the anon key cannot read it.
 
 ## Keeping a free project awake
 
-Supabase pauses a free-tier project after seven days with no API traffic.
-Paused, it fails every "Still there?" report, suggestion, and photo until
-someone restores it from the dashboard, and `npm run content:import` and
+Supabase pauses a free-tier project that shows low database activity over
+seven days. Its docs put the safe level at a few requests to the database
+each day, so a single daily ping is not enough. Paused, the project fails
+every "Still there?" report, suggestion, and photo until someone restores it
+from the dashboard, and `npm run content:import` and
 `npm run confirmations:pull` fail too. Real guests keep a project awake on
 their own. Before there are any, the
 [keep-alive workflow](../.github/workflows/keep-alive.yml) stands in for them
-with one small request a day.
+with a small request every six hours.
 
 Set two repository secrets under **Settings > Secrets and variables >
 Actions**: `SUPABASE_URL` and `SUPABASE_ANON_KEY`, the same values as in
