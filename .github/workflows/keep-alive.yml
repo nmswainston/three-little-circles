@@ -1,0 +1,57 @@
+# Sends one small request to the Supabase project every day so it is never
+# idle for a week. Supabase pauses a free-tier project after seven days with
+# no API traffic, and a paused project fails every "Still there?" report,
+# suggestion, and photo until someone restores it by hand. Steady traffic
+# from real guests makes this redundant; until then it stands in for them.
+#
+# The request is the one `npm run supabase:check` makes: a select on the
+# submissions table with the anon key. Row-level security lets it through
+# with no rows, so the job also notices if the queue ever becomes readable.
+#
+# Needs two repository secrets (Settings > Secrets and variables > Actions):
+#   SUPABASE_URL        https://<project>.supabase.co
+#   SUPABASE_ANON_KEY   the anon public key, the same one the app ships
+#
+# GitHub switches scheduled workflows off after sixty days without a commit
+# to the repository. Turn it back on from the Actions tab if that happens.
+name: Keep Supabase awake
+
+on:
+  schedule:
+    - cron: "23 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ping:
+    name: Query the submissions table
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Select one row with the anon key
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_ANON_KEY" ]; then
+            echo "::error::Set the SUPABASE_URL and SUPABASE_ANON_KEY repository secrets. See supabase/README.md."
+            exit 1
+          fi
+          body=$(mktemp)
+          status=$(curl --silent --show-error --max-time 20 --retry 3 --retry-delay 10 \
+            --output "$body" --write-out '%{http_code}' \
+            --header "apikey: $SUPABASE_ANON_KEY" \
+            --header "Authorization: Bearer $SUPABASE_ANON_KEY" \
+            "${SUPABASE_URL%/}/rest/v1/submissions?select=id&limit=1")
+          if [ "$status" != "200" ]; then
+            echo "::error::Supabase answered HTTP $status instead of 200. If the project is paused, restore it from the dashboard."
+            cat "$body"
+            exit 1
+          fi
+          if [ "$(cat "$body")" != "[]" ]; then
+            echo "::error::The anon key read rows from submissions. Row-level security is off; run supabase/schema.sql again."
+            exit 1
+          fi
+          echo "Supabase answered 200 with no rows. The project is awake and the queue is private."
