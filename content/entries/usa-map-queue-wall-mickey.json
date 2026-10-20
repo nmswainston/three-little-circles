@@ -12,6 +12,8 @@
   "entryType": "FIND",
   "locationType": "Queue",
   "difficulty": "Hard",
+  "areaContext": "Queue",
+  "sceneOrder": 2,
   "description": "A Hidden Mickey is tucked low on the wall just past the large U.S.A. map in the queue. It sits beneath a green dinosaur and a red fish, partially obscured by handrails on the left side, making it easy to miss unless you're looking near the floor.",
   "whereToLook": {
     "scene": "Wall display past the large U.S.A. map in the queue",
@@ -36,5 +38,5 @@
   },
   "sourceId": "TLC-HS-0099",
   "createdAtISO": "2026-01-12T00:00:00.000Z",
-  "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  "updatedAtISO": "2026-10-20T00:00:00.000Z"
 }

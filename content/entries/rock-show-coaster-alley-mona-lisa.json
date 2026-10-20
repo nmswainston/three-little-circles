@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Medium",
   "areaContext": "Queue",
+  "sceneOrder": 2,
   "description": "A Mona Lisa hangs in the alley, a leftover from the Italian restaurant that once stood nearby and hung the same painting on its walls.",
   "whereToLook": {
     "scene": "Alley section of the queue",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0027",
   "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  "updatedAtISO": "2026-10-20T00:00:00.000Z"
 }

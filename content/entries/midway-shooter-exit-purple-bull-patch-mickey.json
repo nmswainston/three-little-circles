@@ -13,6 +13,7 @@
   "locationType": "Indoor",
   "difficulty": "Medium",
   "areaContext": "Exit",
+  "sceneOrder": 2,
   "description": "On the exit route past the giant playing cards, a purple bull cutout stands against the wall. A patch on the bull's side forms a classic Hidden Mickey.",
   "whereToLook": {
     "scene": "Exit route beyond the large playing cards",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0006",
   "sourceUrl": "https://ropedropplanner.com/wdw/hidden-mickeys/hs-rodeo-bull",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-09-24T00:00:00.000Z"
+  "updatedAtISO": "2026-10-20T00:00:00.000Z"
 }

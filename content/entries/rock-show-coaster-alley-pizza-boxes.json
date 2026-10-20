@@ -13,6 +13,7 @@
   "locationType": "Queue",
   "difficulty": "Easy",
   "areaContext": "Queue",
+  "sceneOrder": 2,
   "description": "Stacked pizza boxes in the alley carry the name of the rat's pizzeria that used to serve the park. The restaurant is gone, but the boxes made it into the queue.",
   "whereToLook": {
     "scene": "Alley section of the queue",
@@ -36,5 +37,5 @@
   "sourceId": "TLC-HS-0026",
   "sourceUrl": "https://disneyparksblog.com/wdw/muppet-easter-eggs-and-nods-at-rock-n-roller-coaster/",
   "createdAtISO": "2026-09-24T00:00:00.000Z",
-  "updatedAtISO": "2026-10-09T00:00:00.000Z"
+  "updatedAtISO": "2026-10-20T00:00:00.000Z"
 }
