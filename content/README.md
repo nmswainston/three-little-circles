@@ -43,6 +43,33 @@ the result without writing anything. HEIC files need exporting as JPEG first;
 sharing from an iPhone with AirDrop or Mail does that. The rules the photo has
 to meet are in [content/images/README.md](images/README.md).
 
+### Deciding what to photograph
+
+```bash
+npm run content:photo-list
+```
+
+lists every find that has no photo, ranked so the most useful shots come
+first, and writes it to `kit/photo-wishlist.md` (a checklist) and
+`kit/photo-wishlist.csv` (one row per find, with blank `photo_taken` and
+`notes` columns). The `kit/` folder is ignored by git; regenerate it whenever
+entries change. Pass `--top 40` to lengthen the "verify and shoot next" list.
+
+The ranking is, in order:
+
+1. **Readiness.** Finds already checked in person or by photo come first, since
+   they are known to be there. Then finds that appear in official park
+   material, then community reports, which need verifying while you are there.
+2. **Difficulty, hardest first.** A reference photo helps most on the finds
+   guests are least likely to spot unaided.
+3. **Walking order**, so ties read as a route: lands as listed in
+   `destinations.json`, attractions by name, finds from entrance to exit.
+
+Each find shows its scene, exact spot, tip, any access note, and the recorded
+viewing conditions (for example "Moving, Dim"), since a moving, dark ride scene
+is a poor candidate for a clear shot. Removed finds are left out. The page ends
+with the photo command and the rules about what to shoot.
+
 ## Checking finds in the park
 
 The verification kit turns every entry into a walking checklist you can use
