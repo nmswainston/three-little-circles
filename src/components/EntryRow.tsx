@@ -5,12 +5,15 @@ import { HiddenMickeyEntry } from '../data/types';
 import { labelOrFallback } from '../data/labels';
 import { isConfirmed } from '../data/confirmations';
 import { useFoundStore } from '../store/useFoundStore';
+import { useTodayStore } from '../store/useTodayStore';
 import { Theme, useStyles, useTheme } from '../theme/ThemeProvider';
 import { spacing, radii, text } from '../theme/tokens';
 
 interface EntryRowProps {
   entry: HiddenMickeyEntry;
   onPress: () => void;
+  /** Today's list already groups these rows, so its own screen leaves the bookmark off. */
+  hideListMark?: boolean;
 }
 
 /** Most finds are indoors, so the row only names the other settings. */
@@ -21,15 +24,17 @@ const DEFAULT_LOCATION = 'Indoor';
  * confirmed, difficulty as a coloured dot and word, the setting when it is
  * out of the ordinary, and either a found check or a chevron.
  */
-export default function EntryRow({ entry, onPress }: EntryRowProps) {
+export default function EntryRow({ entry, onPress, hideListMark = false }: EntryRowProps) {
   const t = useTheme();
   const styles = useStyles(createStyles);
   const found = useFoundStore((s) => entry.id in s.found);
+  const onToday = useTodayStore((s) => !hideListMark && s.ids.includes(entry.id));
   const title = labelOrFallback(entry.display?.entryTitle, 'Hidden Find');
   const confirmed = isConfirmed(entry);
   const label = [
     `${title}${found ? ', found' : ''}`,
     confirmed ? 'confirmed' : undefined,
+    onToday ? "on today's list" : undefined,
     entry.locationType,
     entry.difficulty,
     entry.entryType === 'FACT' ? 'Hidden Surprise' : undefined,
@@ -52,6 +57,15 @@ export default function EntryRow({ entry, onPress }: EntryRowProps) {
               name="shield-checkmark"
               size={14}
               color={t.colors.success}
+              accessibilityElementsHidden
+              importantForAccessibility="no"
+            />
+          )}
+          {onToday && (
+            <Ionicons
+              name="bookmark"
+              size={14}
+              color={t.colors.textSecondary}
               accessibilityElementsHidden
               importantForAccessibility="no"
             />
