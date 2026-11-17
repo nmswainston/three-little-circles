@@ -1,0 +1,35 @@
+{
+  "id": "pirate-boat-ride-skull-rock-illusion",
+  "parkId": "magic_kingdom_park",
+  "landId": "pirate_port_area",
+  "attractionId": "pirate_boat_ride",
+  "display": {
+    "entryTitle": "Skull Rock Illusion",
+    "parkName": "Magic Kingdom",
+    "landName": "Adventureland: Caribbean Plaza",
+    "attractionName": "Pirates of the Caribbean"
+  },
+  "entryType": "FACT",
+  "locationType": "Ride",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "A rock formation beside the boat path looks like a giant skull when you approach it head on. As the boat carries you past, it breaks apart into four ordinary-looking rocks.",
+  "whereToLook": {
+    "scene": "The boat path just before the beach skeletons",
+    "exactSpot": "The rock formation on the left side of the channel."
+  },
+  "bestTip": "Sit on the left and watch it as it comes toward you. The skull only shows from the front.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Left",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceUrl": "https://www.news4jax.com/theme-parks/2020/06/19/dont-miss-these-4-hidden-treasures-the-next-time-youre-on-pirates-of-the-caribbean-at-walt-disney-world/",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

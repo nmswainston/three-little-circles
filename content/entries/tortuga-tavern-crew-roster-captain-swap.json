@@ -1,0 +1,35 @@
+{
+  "id": "tortuga-tavern-crew-roster-captain-swap",
+  "parkId": "magic_kingdom_park",
+  "landId": "pirate_port_area",
+  "attractionId": "tortuga_tavern",
+  "display": {
+    "entryTitle": "Crew Roster Captain Swap",
+    "parkName": "Magic Kingdom",
+    "landName": "Adventureland: Caribbean Plaza",
+    "attractionName": "Tortuga Tavern"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Medium",
+  "areaContext": "Outdoor Display",
+  "description": "A crew roster book at the tavern shows that Captain Jack Sparrow has crossed out Hector Barbossa's name and written his own in as captain.",
+  "whereToLook": {
+    "scene": "The crew roster book at Tortuga Tavern",
+    "exactSpot": "The captain's line, where one name is struck through and another written over it."
+  },
+  "bestTip": "Read the struck-through line. The new name sits right beside it.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceUrl": "https://www.news4jax.com/theme-parks/2020/06/19/dont-miss-these-4-hidden-treasures-the-next-time-youre-on-pirates-of-the-caribbean-at-walt-disney-world/",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
