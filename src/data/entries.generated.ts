@@ -5696,6 +5696,114 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-24T00:00:00.000Z"
   },
   {
+    "id": "dinosaur-entrance-mural-bark-mickey",
+    "parkId": "adventure_park",
+    "landId": "dinosaur_dig_area",
+    "attractionId": "time_rover_dark_ride",
+    "display": {
+      "entryTitle": "Entrance Mural Bark Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "DinoLand U.S.A.",
+      "attractionName": "DINOSAUR"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Entrance",
+    "description": "In the mural of Cretaceous Florida wildlife by the entrance, the bark of a painted tree hides a classic three-circle Mickey. The whole wall is busy with animals and foliage, so the tree is easy to look past.",
+    "whereToLook": {
+      "scene": "Wall mural of Florida's Cretaceous-era wildlife at the building entrance",
+      "exactSpot": "The bark of the painted tree in the far left background.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Skip the dinosaurs in front and start at the left edge of the mural, then scan the trunk of the farthest tree.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceUrl": "https://orlandovillas.com/florida-guide/hidden-mickeys-animal-kingdom",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "dinosaur-entrance-mural-lilies-mickey",
+    "parkId": "adventure_park",
+    "landId": "dinosaur_dig_area",
+    "attractionId": "time_rover_dark_ride",
+    "display": {
+      "entryTitle": "Entrance Mural Water Lilies Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "DinoLand U.S.A.",
+      "attractionName": "DINOSAUR"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Entrance",
+    "description": "Below the Cretaceous wildlife mural at the entrance, three floating water lilies sit in the classic Mickey arrangement. They are at the bottom of the scene, so most people notice them only after they have looked at the mural above.",
+    "whereToLook": {
+      "scene": "Wall mural of Florida's Cretaceous-era wildlife at the building entrance",
+      "exactSpot": "The three floating water lilies beneath the mural.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Look low, below the animals, and step back far enough to see all three lilies together.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Mixed",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceUrl": "https://orlandovillas.com/florida-guide/hidden-mickeys-animal-kingdom",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "dinosaur-photo-pickup-carnotaurus-jaw-mickey",
+    "parkId": "adventure_park",
+    "landId": "dinosaur_dig_area",
+    "attractionId": "time_rover_dark_ride",
+    "display": {
+      "entryTitle": "Photo Pickup Carnotaurus Jaw Mickey",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "DinoLand U.S.A.",
+      "attractionName": "DINOSAUR"
+    },
+    "entryType": "FIND",
+    "locationType": "Indoor",
+    "difficulty": "Hard",
+    "areaContext": "Post-show",
+    "description": "In the Carnotaurus mural at the photo pickup area, a shadow under a fold in the dinosaur's lower jaw forms a Mickey. It is a dark shape on a dark patch, so it reads as shading until you know to look for it.",
+    "whereToLook": {
+      "scene": "Carnotaurus wall mural at the ride photo pickup area",
+      "exactSpot": "The shadow under a fold in the dinosaur's lower jaw.",
+      "orientation": "Upright"
+    },
+    "bestTip": "Wait for the pickup line to move, then look at the jaw from a few steps back instead of up close.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceUrl": "https://orlandovillas.com/florida-guide/hidden-mickeys-animal-kingdom",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "disney-animation-entrance-mosaic-once-upon-a-time-m-mickey",
     "parkId": "california_pier_park",
     "landId": "hollywood_land_area",
@@ -16888,6 +16996,76 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
   },
   {
+    "id": "pirate-boat-ride-queue-skeleton-chess-game",
+    "parkId": "magic_kingdom_park",
+    "landId": "pirate_port_area",
+    "attractionId": "pirate_boat_ride",
+    "display": {
+      "entryTitle": "Queue Skeleton Chess Game",
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland: Caribbean Plaza",
+      "attractionName": "Pirates of the Caribbean"
+    },
+    "entryType": "FACT",
+    "locationType": "Queue",
+    "difficulty": "Medium",
+    "areaContext": "Queue",
+    "description": "Two skeletons sit over a chess game in a dim corner of the dungeon queue. The pieces are set up as a no-win position, so the game can never finish.",
+    "whereToLook": {
+      "scene": "The dungeon section of the queue",
+      "exactSpot": "A small table where two skeletons play chess, lit only by a lantern."
+    },
+    "bestTip": "The corner is dark and the line moves, so look for the lantern glow and stop to read the board.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceUrl": "https://www.news4jax.com/theme-parks/2020/06/19/dont-miss-these-4-hidden-treasures-the-next-time-youre-on-pirates-of-the-caribbean-at-walt-disney-world/",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "pirate-boat-ride-skull-rock-illusion",
+    "parkId": "magic_kingdom_park",
+    "landId": "pirate_port_area",
+    "attractionId": "pirate_boat_ride",
+    "display": {
+      "entryTitle": "Skull Rock Illusion",
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland: Caribbean Plaza",
+      "attractionName": "Pirates of the Caribbean"
+    },
+    "entryType": "FACT",
+    "locationType": "Ride",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "A rock formation beside the boat path looks like a giant skull when you approach it head on. As the boat carries you past, it breaks apart into four ordinary-looking rocks.",
+    "whereToLook": {
+      "scene": "The boat path just before the beach skeletons",
+      "exactSpot": "The rock formation on the left side of the channel."
+    },
+    "bestTip": "Sit on the left and watch it as it comes toward you. The skull only shows from the front.",
+    "viewing": {
+      "motion": "Moving",
+      "lighting": "Dim",
+      "angle": "Left",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceUrl": "https://www.news4jax.com/theme-parks/2020/06/19/dont-miss-these-4-hidden-treasures-the-next-time-youre-on-pirates-of-the-caribbean-at-walt-disney-world/",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "pirate-exit-shop-coin-display-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "pirate_port_area",
@@ -20309,6 +20487,75 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-MK-0033",
     "createdAtISO": "2026-09-24T00:00:00.000Z",
     "updatedAtISO": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "rotating-theater-final-act-sorcerer-mickey-painting",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "rotating_theater_show",
+    "display": {
+      "entryTitle": "Final Act Sorcerer Mickey Painting",
+      "parkName": "Magic Kingdom",
+      "landName": "Tomorrowland",
+      "attractionName": "Walt Disney's Carousel of Progress"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Easy",
+    "areaContext": "Ride",
+    "description": "In the last scene, the Christmas celebration, an abstract painting of Sorcerer Mickey hangs near the dining room table. It is Mickey himself, not a hidden shape, so it counts as a nod to Disney animation rather than a Hidden Mickey. It is harder to spot than the Christmas-scene Mickeys around it.",
+    "whereToLook": {
+      "scene": "The final scene of the show, the Christmas celebration",
+      "exactSpot": "The abstract painting hanging near the dining room table, seen from the left side of the theater."
+    },
+    "bestTip": "Sit on the left side of the theater and look at the wall by the table.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Left",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceUrl": "https://www.disneydining.com/?p=126597",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "rotating-theater-third-act-sorcerer-hat",
+    "parkId": "magic_kingdom_park",
+    "landId": "future_city_area",
+    "attractionId": "rotating_theater_show",
+    "display": {
+      "entryTitle": "Third Act Sorcerer Hat",
+      "parkName": "Magic Kingdom",
+      "landName": "Tomorrowland",
+      "attractionName": "Walt Disney's Carousel of Progress"
+    },
+    "entryType": "FACT",
+    "locationType": "Indoor",
+    "difficulty": "Medium",
+    "areaContext": "Ride",
+    "description": "A Sorcerer Mickey hat sits in the 1940s scene next to the daughter as she works out in the shaking exercise machine. It is a character reference rather than a hidden shape.",
+    "whereToLook": {
+      "scene": "The third scene of the show, the 1940s home, with the daughter in the exercise machine",
+      "exactSpot": "The right side of the stage, beside the daughter in the exercise machine."
+    },
+    "bestTip": "Watch the right side of the stage while the daughter is on the machine.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "High",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "route-66-power-line-twist-mickey",
@@ -25658,6 +25905,41 @@ export const entries: HiddenMickeyEntry[] = [
     "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
+    "id": "tortuga-tavern-crew-roster-captain-swap",
+    "parkId": "magic_kingdom_park",
+    "landId": "pirate_port_area",
+    "attractionId": "tortuga_tavern",
+    "display": {
+      "entryTitle": "Crew Roster Captain Swap",
+      "parkName": "Magic Kingdom",
+      "landName": "Adventureland: Caribbean Plaza",
+      "attractionName": "Tortuga Tavern"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Medium",
+    "areaContext": "Outdoor Display",
+    "description": "A crew roster book at the tavern shows that Captain Jack Sparrow has crossed out Hector Barbossa's name and written his own in as captain.",
+    "whereToLook": {
+      "scene": "The crew roster book at Tortuga Tavern",
+      "exactSpot": "The captain's line, where one name is struck through and another written over it."
+    },
+    "bestTip": "Read the struck-through line. The new name sits right beside it.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Close"
+    },
+    "confidence": "Strong",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceUrl": "https://www.news4jax.com/theme-parks/2020/06/19/dont-miss-these-4-hidden-treasures-the-next-time-youre-on-pirates-of-the-caribbean-at-walt-disney-world/",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
+  },
+  {
     "id": "tortuga-tavern-window-candles-mickey",
     "parkId": "magic_kingdom_park",
     "landId": "pirate_port_area",
@@ -26174,6 +26456,41 @@ export const entries: HiddenMickeyEntry[] = [
     "sourceId": "TLC-HS-0098",
     "createdAtISO": "2026-09-22T00:00:00.000Z",
     "updatedAtISO": "2026-10-05T00:00:00.000Z"
+  },
+  {
+    "id": "tusker-house-courtyard-brickwork-baloo-simba-scar",
+    "parkId": "adventure_park",
+    "landId": "savanna_village_area",
+    "attractionId": "tusker_house_courtyard",
+    "display": {
+      "entryTitle": "Courtyard Brickwork Baloo, Simba and Scar",
+      "parkName": "Disney's Animal Kingdom",
+      "landName": "Africa",
+      "attractionName": "Tamu Tamu Courtyard"
+    },
+    "entryType": "FACT",
+    "locationType": "Outdoor",
+    "difficulty": "Hard",
+    "areaContext": "Outdoor Display",
+    "description": "The brick walls of the courtyard hide three character shapes. One reads as Baloo the bear, with his nose, head and back in profile. The other two are Simba and Scar in the moment from the film where the lions talk. Scar's jaw is the part people recognize first.",
+    "whereToLook": {
+      "scene": "Brick walls of the courtyard across from Tusker House",
+      "exactSpot": "The brick detailing behind the tables, where the bricks outline the bear and the two lions."
+    },
+    "bestTip": "Stand back from the tables so the brick pattern reads as a picture, and start by looking for Scar's jaw.",
+    "viewing": {
+      "motion": "Still",
+      "lighting": "Bright",
+      "angle": "Straight-on",
+      "crowding": "Medium",
+      "distance": "Medium"
+    },
+    "confidence": "Interpretive",
+    "verification": "Community",
+    "status": "Unverified",
+    "sourceUrl": "https://kennythepirate.com/2021/08/31/how-to-spot-animal-kingdoms-hidden-characters/",
+    "createdAtISO": "2026-10-04T00:00:00.000Z",
+    "updatedAtISO": "2026-10-04T00:00:00.000Z"
   },
   {
     "id": "undersea-clamshell-dock-mural-rock-mickey",

@@ -1,0 +1,35 @@
+{
+  "id": "pirate-boat-ride-queue-skeleton-chess-game",
+  "parkId": "magic_kingdom_park",
+  "landId": "pirate_port_area",
+  "attractionId": "pirate_boat_ride",
+  "display": {
+    "entryTitle": "Queue Skeleton Chess Game",
+    "parkName": "Magic Kingdom",
+    "landName": "Adventureland: Caribbean Plaza",
+    "attractionName": "Pirates of the Caribbean"
+  },
+  "entryType": "FACT",
+  "locationType": "Queue",
+  "difficulty": "Medium",
+  "areaContext": "Queue",
+  "description": "Two skeletons sit over a chess game in a dim corner of the dungeon queue. The pieces are set up as a no-win position, so the game can never finish.",
+  "whereToLook": {
+    "scene": "The dungeon section of the queue",
+    "exactSpot": "A small table where two skeletons play chess, lit only by a lantern."
+  },
+  "bestTip": "The corner is dark and the line moves, so look for the lantern glow and stop to read the board.",
+  "viewing": {
+    "motion": "Moving",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Close"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceUrl": "https://www.news4jax.com/theme-parks/2020/06/19/dont-miss-these-4-hidden-treasures-the-next-time-youre-on-pirates-of-the-caribbean-at-walt-disney-world/",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

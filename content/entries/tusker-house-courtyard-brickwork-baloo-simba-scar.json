@@ -1,0 +1,35 @@
+{
+  "id": "tusker-house-courtyard-brickwork-baloo-simba-scar",
+  "parkId": "adventure_park",
+  "landId": "savanna_village_area",
+  "attractionId": "tusker_house_courtyard",
+  "display": {
+    "entryTitle": "Courtyard Brickwork Baloo, Simba and Scar",
+    "parkName": "Disney's Animal Kingdom",
+    "landName": "Africa",
+    "attractionName": "Tamu Tamu Courtyard"
+  },
+  "entryType": "FACT",
+  "locationType": "Outdoor",
+  "difficulty": "Hard",
+  "areaContext": "Outdoor Display",
+  "description": "The brick walls of the courtyard hide three character shapes. One reads as Baloo the bear, with his nose, head and back in profile. The other two are Simba and Scar in the moment from the film where the lions talk. Scar's jaw is the part people recognize first.",
+  "whereToLook": {
+    "scene": "Brick walls of the courtyard across from Tusker House",
+    "exactSpot": "The brick detailing behind the tables, where the bricks outline the bear and the two lions."
+  },
+  "bestTip": "Stand back from the tables so the brick pattern reads as a picture, and start by looking for Scar's jaw.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceUrl": "https://kennythepirate.com/2021/08/31/how-to-spot-animal-kingdoms-hidden-characters/",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
