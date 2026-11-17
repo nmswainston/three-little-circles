@@ -1,5 +1,5 @@
 import React from 'react';
-import { fireEvent, render, screen } from '@testing-library/react-native';
+import { act, fireEvent, render, screen, waitFor } from '@testing-library/react-native';
 import MapScreen from '../src/screens/MapScreen';
 import { getAllEntries, getParksSummary } from '../src/data/query';
 import { sortByDistance, WALKING_RANGE_METERS } from '../src/lib/geo';
@@ -19,6 +19,16 @@ jest.mock('expo-location', () => ({
   Accuracy: { Balanced: 3 },
   requestForegroundPermissionsAsync: jest.fn(async () => ({ granted: true })),
   getCurrentPositionAsync: jest.fn(async () => ({ coords: { ...mockPosition } })),
+}));
+
+let mockNetwork = { isConnected: true, isInternetReachable: true };
+const mockNetworkListeners: Array<(state: typeof mockNetwork) => void> = [];
+jest.mock('expo-network', () => ({
+  getNetworkStateAsync: jest.fn(async () => mockNetwork),
+  addNetworkStateListener: jest.fn((listener: (state: typeof mockNetwork) => void) => {
+    mockNetworkListeners.push(listener);
+    return { remove: () => mockNetworkListeners.splice(mockNetworkListeners.indexOf(listener), 1) };
+  }),
 }));
 
 // The park with the most pins, selected through the picker if it is not the default.
@@ -59,6 +69,7 @@ beforeEach(() => {
   mockNavigate.mockClear();
   mockSetParams.mockClear();
   mockRouteParams = {};
+  mockNetwork = { isConnected: true, isInternetReachable: true };
   useFoundStore.setState({ found: {} });
   mockPosition.latitude = origin.latitude;
   mockPosition.longitude = origin.longitude;
@@ -124,5 +135,37 @@ describe('MapScreen for a challenge', () => {
     mockSetParams.mockClear();
     fireEvent.press(screen.getByText(parks[parks.length - 1].parkName));
     expect(mockSetParams).toHaveBeenCalledWith({ focusEntryId: undefined, challengeId: undefined });
+  });
+});
+
+describe('MapScreen without a connection', () => {
+  it('says nothing while online', async () => {
+    renderPark();
+    await screen.findByText(new RegExp(`^${pinned.length} pinned`));
+    expect(screen.queryByText(/You're offline/)).toBeNull();
+  });
+
+  it('explains what still works when the phone starts offline', async () => {
+    mockNetwork = { isConnected: false, isInternetReachable: false };
+    renderPark();
+    expect(await screen.findByText(/You're offline/)).toBeTruthy();
+    // The pins and the list are still there.
+    expect(screen.getAllByTestId('map-marker')).toHaveLength(pinned.length);
+  });
+
+  it('follows the connection going away and coming back', async () => {
+    renderPark();
+    await screen.findByText(new RegExp(`^${pinned.length} pinned`));
+    act(() => mockNetworkListeners.forEach((l) => l({ isConnected: false, isInternetReachable: false })));
+    expect(await screen.findByText(/You're offline/)).toBeTruthy();
+    act(() => mockNetworkListeners.forEach((l) => l({ isConnected: true, isInternetReachable: true })));
+    await waitFor(() => expect(screen.queryByText(/You're offline/)).toBeNull());
+  });
+
+  it('treats an unknown reachability as online', async () => {
+    mockNetwork = { isConnected: true, isInternetReachable: undefined as unknown as boolean };
+    renderPark();
+    await screen.findByText(new RegExp(`^${pinned.length} pinned`));
+    expect(screen.queryByText(/You're offline/)).toBeNull();
   });
 });
