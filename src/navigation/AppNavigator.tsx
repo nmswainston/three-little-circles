@@ -12,6 +12,7 @@ import ProfileScreen from '../screens/ProfileScreen';
 import ImportProgressScreen from '../screens/ImportProgressScreen';
 import BadgesScreen from '../screens/BadgesScreen';
 import ChallengeDetailScreen from '../screens/ChallengeDetailScreen';
+import TodayScreen from '../screens/TodayScreen';
 
 const Tab = createBottomTabNavigator<RootTabParamList>();
 const ParksStack = createNativeStackNavigator<RootStackParamList>();
@@ -25,6 +26,7 @@ function ParksStackNavigator() {
       <ParksStack.Screen name="Park" component={ParkScreen} options={{ title: 'Park' }} />
       <ParksStack.Screen name="EntryDetail" component={EntryDetailScreen} options={{ title: 'Hidden find' }} />
       <ParksStack.Screen name="SubmitSighting" component={SubmitSightingScreen} options={{ title: 'Suggest a find' }} />
+      <ParksStack.Screen name="Today" component={TodayScreen} options={{ title: "Today's list" }} />
       <ParksStack.Screen name="Badges" component={BadgesScreen} options={{ title: 'Badges' }} />
       <ParksStack.Screen name="ChallengeDetail" component={ChallengeDetailScreen} options={{ title: 'Challenge' }} />
     </ParksStack.Navigator>

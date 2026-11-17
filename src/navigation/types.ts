@@ -7,6 +7,8 @@ import { NavigatorScreenParams } from '@react-navigation/native';
 export type RootStackParamList = {
   Parks: undefined;
   Park: { parkId: string };
+  /** The finds a guest has picked to look for on this visit. */
+  Today: undefined;
   EntryDetail: { entryId: string };
   /** parkId preselects the park for a new find. forEntryId sends a photo of a find already in the guide instead. */
   SubmitSighting: { parkId?: string; forEntryId?: string } | undefined;
