@@ -6,10 +6,13 @@ import { ParkKey } from '../theme/themes';
 import { PARK_ICONS } from '../theme/parks';
 import { spacing, radii, text, shadows } from '../theme/tokens';
 import ProgressRing from './ui/ProgressRing';
+import { useParkLocked } from '../lib/useUnlock';
 
 type IconName = keyof typeof Ionicons.glyphMap;
 
 interface ParkCardProps {
+  /** Used to show a lock when this park is part of the one-time unlock. */
+  parkId?: string;
   name: string;
   parkKey: ParkKey;
   /** Entries documented. 0 with no facts renders the card as "Coming soon". */
@@ -21,12 +24,13 @@ interface ParkCardProps {
 }
 
 /** A destination row: accent disc with icon, name, counts, and a progress ring. */
-export default function ParkCard({ name, parkKey, count, found, factCount = 0, onPress }: ParkCardProps) {
+export default function ParkCard({ parkId, name, parkKey, count, found, factCount = 0, onPress }: ParkCardProps) {
   const t = useTheme();
   const styles = useStyles(createStyles);
   const palette = t.parks[parkKey];
   const hasFinds = count > 0;
   const comingSoon = !hasFinds && factCount === 0;
+  const locked = useParkLocked(parkId) && !comingSoon;
 
   const meta = comingSoon
     ? 'Coming soon'
@@ -39,7 +43,7 @@ export default function ParkCard({ name, parkKey, count, found, factCount = 0, o
       onPress={comingSoon ? undefined : onPress}
       disabled={comingSoon}
       accessibilityRole="button"
-      accessibilityLabel={`${name}, ${meta}`}
+      accessibilityLabel={`${name}, ${meta}${locked ? ', locked' : ''}`}
       style={({ pressed }) => [styles.card, pressed && styles.pressed]}
     >
       <View style={[styles.disc, { backgroundColor: palette.accent }, comingSoon && styles.discMuted]}>
@@ -51,7 +55,13 @@ export default function ParkCard({ name, parkKey, count, found, factCount = 0, o
         </Text>
         <Text style={[styles.meta, comingSoon && styles.metaMuted]}>{meta}</Text>
       </View>
-      {hasFinds && <ProgressRing progress={found / count} color={palette.accent} />}
+      {locked ? (
+        <View style={styles.lock} testID="park-card-lock">
+          <Ionicons name="lock-closed" size={18} color={t.colors.textSecondary} />
+        </View>
+      ) : (
+        hasFinds && <ProgressRing progress={found / count} color={palette.accent} />
+      )}
     </Pressable>
   );
 }
@@ -97,5 +107,11 @@ const createStyles = (t: Theme) =>
     },
     metaMuted: {
       color: t.colors.textMuted,
+    },
+    lock: {
+      width: 40,
+      height: 40,
+      alignItems: 'center',
+      justifyContent: 'center',
     },
   });

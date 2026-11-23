@@ -46,6 +46,8 @@ import EmptyState from "../components/ui/EmptyState";
 import EntryRow from "../components/EntryRow";
 import Chip from "../components/ui/Chip";
 import FadingScrollRow from "../components/ui/FadingScrollRow";
+import LockedPark from "../components/LockedPark";
+import { useParkLocked } from "../lib/useUnlock";
 
 type IconName = keyof typeof Ionicons.glyphMap;
 
@@ -74,7 +76,22 @@ const VIEWABILITY_CONFIG = { itemVisiblePercentThreshold: 50 };
 /** Height of the pinned land strip, so a jump lands the first attraction just under it. */
 const LAND_HEADER_OFFSET = 52;
 
+/** Gate first, so a locked park never mounts the list and its hooks. */
 export default function ParkScreen() {
+  const route = useRoute<ParkRouteProp>();
+  const navigation = useNavigation<NavigationProp>();
+  const { parkId } = route.params;
+  const locked = useParkLocked(parkId);
+  if (locked) {
+    const name =
+      getDestination(parkId)?.name ??
+      labelOrFallback(getParksSummary().find((p) => p.parkId === parkId)?.parkName, "Park");
+    return <LockedPark parkName={name} onBack={() => navigation.goBack()} />;
+  }
+  return <ParkContent />;
+}
+
+function ParkContent() {
   const route = useRoute<ParkRouteProp>();
   const navigation = useNavigation<NavigationProp>();
   const { parkId } = route.params;

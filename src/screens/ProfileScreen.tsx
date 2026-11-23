@@ -38,6 +38,8 @@ import { challengeAchievementId } from "../data/achievements";
 import { challengeStatus, getChallenges } from "../data/challenges";
 import { useChallengeProgress } from "../store/useChallengeProgress";
 import Disclaimer from "../components/Disclaimer";
+import UnlockCard from "../components/UnlockCard";
+import { isUnlockEnabled } from "../lib/unlock";
 import { formatBuildInfo, readBuildInfo } from "../lib/buildInfo";
 
 const RECENT_BADGES = 3;
@@ -407,6 +409,12 @@ export default function ProfileScreen() {
               </View>
             </View>
           </Section>
+
+          {isUnlockEnabled() && (
+            <Section title="Parks">
+              <UnlockCard />
+            </Section>
+          )}
 
           <Section title="Community">
             <View style={styles.aboutCard}>

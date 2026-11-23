@@ -27,6 +27,9 @@ import Sunburst from "../components/ui/Sunburst";
 import DifficultyChip from "../components/ui/DifficultyChip";
 import FoundButton from "../components/ui/FoundButton";
 import EmptyState from "../components/ui/EmptyState";
+import LockedPark from "../components/LockedPark";
+import { useParkLocked } from "../lib/useUnlock";
+import { getDestination } from "../data/destinations";
 import EntryRow from "../components/EntryRow";
 import WhereToLook, { LookStep } from "../components/WhereToLook";
 import StillThereCard from "../components/StillThereCard";
@@ -90,7 +93,24 @@ function formatMonthYear(iso: string): string | null {
   return date.toLocaleDateString(undefined, { month: "short", year: "numeric" });
 }
 
+/** A find in a locked park shows the unlock, wherever it was opened from. */
 export default function EntryDetailScreen() {
+  const route = useRoute<EntryDetailRouteProp>();
+  const navigation = useNavigation<NavigationProp>();
+  const entry = getEntryById(route.params.entryId);
+  const locked = useParkLocked(entry?.parkId);
+  if (entry && locked) {
+    return (
+      <LockedPark
+        parkName={getDestination(entry.parkId)?.name ?? "This park"}
+        onBack={() => navigation.goBack()}
+      />
+    );
+  }
+  return <EntryDetailContent />;
+}
+
+function EntryDetailContent() {
   const route = useRoute<EntryDetailRouteProp>();
   const navigation = useNavigation<NavigationProp>();
   const { entryId } = route.params;
