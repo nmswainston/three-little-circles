@@ -11,6 +11,7 @@ import { useSettingsStore } from "../store/useSettingsStore";
 import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
 import { spacing, radii, text, shadows } from "../theme/tokens";
 import DifficultyChip from "./ui/DifficultyChip";
+import { useParkLocked } from "../lib/useUnlock";
 
 type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 
@@ -31,7 +32,10 @@ export default function EntryCard({ entry, showLocation = false, trailingLabel }
   const hintMode = useSettingsStore((s) => s.hintMode);
   // The description gives the find away, so with hints on it stays hidden
   // here too until the entry is found, matching the detail screen.
-  const showDescription = Boolean(entry.description) && (found || !hintMode);
+  // A find in a locked park keeps its answer back until the unlock, wherever
+  // the card shows up (search, the map list), and says why.
+  const locked = useParkLocked(entry.parkId);
+  const showDescription = !locked && Boolean(entry.description) && (found || !hintMode);
   const title = labelOrFallback(entry.display?.entryTitle, "Hidden Find");
 
   const locationLine = [entry.display?.parkName, entry.display?.landName, entry.display?.attractionName]
@@ -40,6 +44,7 @@ export default function EntryCard({ entry, showLocation = false, trailingLabel }
   // Title and state first, then what the card shows: type, difficulty, and where.
   const label = [
     `${title}${found ? ", found" : ""}${trailingLabel ? `, ${trailingLabel}` : ""}`,
+    locked ? "part of the one-time unlock" : undefined,
     entry.locationType,
     entry.difficulty,
     entry.entryType === "FACT" ? "Hidden Surprise" : undefined,
@@ -74,6 +79,12 @@ export default function EntryCard({ entry, showLocation = false, trailingLabel }
           </View>
         )}
       </View>
+      {locked && (
+        <View style={styles.lockedRow} testID="entry-card-locked">
+          <Ionicons name="lock-closed" size={14} color={t.colors.textSecondary} />
+          <Text style={styles.lockedText}>Part of the one-time unlock</Text>
+        </View>
+      )}
       {showDescription && (
         <Text style={styles.description} numberOfLines={2}>
           {entry.description}
@@ -93,6 +104,15 @@ const createStyles = (t: Theme) =>
       borderWidth: 1,
       borderColor: t.colors.border,
       ...shadows.sm,
+    },
+    lockedRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.xs + 2,
+    },
+    lockedText: {
+      ...text.bodySmall,
+      color: t.colors.textSecondary,
     },
     cardFound: {
       borderColor: t.colors.success,
