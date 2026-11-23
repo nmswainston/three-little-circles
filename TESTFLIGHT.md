@@ -66,6 +66,14 @@ Review. Paste the review notes below when it asks.
 
 **Decide before the App Store listing, not before TestFlight**
 
+- Pricing is settled: free download, with a one-time in-app unlock after the
+  beta. Before the unlock ships, sign the Paid Apps agreement and fill in tax
+  and banking under Business in App Store Connect, apply for the App Store
+  Small Business Program (15% commission instead of 30%), create the
+  non-consumable in-app purchase, and add a "Restore purchases" button, which
+  App Review checks for. The App Privacy answers gain Purchases (Purchase
+  History) in that release.
+
 - iPad. `supportsTablet` is off for 1.0, so the store listing needs iPhone
   screenshots only, and an iPad installs the app in iPhone compatibility
   mode. Apple lets an update add iPad support later but never remove it, so

@@ -2,7 +2,7 @@ import React from 'react';
 import { fireEvent, render, screen } from '@testing-library/react-native';
 import ParksScreen from '../src/screens/ParksScreen';
 import { getAllEntries, searchEntries } from '../src/data/query';
-import { getDestinationSummaries } from '../src/data/destinations';
+import { getDestinationSummaries, REGIONS } from '../src/data/destinations';
 import { useFoundStore } from '../src/store/useFoundStore';
 import { computeUnlocked, getAchievement, getAchievements, useAchievementsStore } from '../src/store/useAchievementsStore';
 
@@ -112,6 +112,27 @@ describe('ParksScreen', () => {
     render(<ParksScreen />);
     fireEvent.press(screen.getByText('All'));
     expect(screen.getAllByText('Florida')).toHaveLength(2);
+  });
+
+  it('offers a chip only for regions that have a find', () => {
+    render(<ParksScreen />);
+    const summaries = getDestinationSummaries();
+    for (const r of REGIONS) {
+      const hasFinds = summaries.some((d) => d.region === r && d.count > 0);
+      if (hasFinds) expect(screen.getAllByText(r).length).toBeGreaterThan(0);
+      else expect(screen.queryByText(r)).toBeNull();
+    }
+  });
+
+  it('leaves regions with no finds out of the All view', () => {
+    render(<ParksScreen />);
+    fireEvent.press(screen.getByText('All'));
+    const summaries = getDestinationSummaries();
+    for (const r of REGIONS) {
+      if (!summaries.some((d) => d.region === r && d.count > 0)) {
+        expect(screen.queryByText(r)).toBeNull();
+      }
+    }
   });
 
   it('opens a park from its card', () => {
