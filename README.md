@@ -239,16 +239,35 @@ in-app purchase opens every other park, for good. No subscription.
 - **Free parks:** `FREE_PARK_IDS` in `src/lib/unlock.ts`. Resort hotels, Disney Springs and Downtown Disney are locked like any other destination; add their ids there to keep them free.
 - **What it locks:** a locked park and every find in it, wherever it's opened from (Parks, Map, search). Park cards show a lock.
 - **State:** `src/store/useUnlockStore.ts`, saved on the device so it works offline. A launch check with the store can turn it on, never off.
-- **Purchases:** go through a `PurchaseProvider` (`src/lib/unlock.ts`). Until one is plugged in, the buttons say purchases aren't available.
+- **Purchases:** RevenueCat (`react-native-purchases`), wired in `src/lib/revenuecat.ts`. It starts only with the gate on and a key for the platform; otherwise the buttons say purchases aren't available. Web has no purchases.
+- **Keys:** `EXPO_PUBLIC_REVENUECAT_IOS_KEY` and `EXPO_PUBLIC_REVENUECAT_ANDROID_KEY`. These are RevenueCat's public SDK keys, made to ship inside the app. While testing, both can be the project's Test Store key (`test_…`); swap in the `appl_` and `goog_` keys for store builds.
+- **RevenueCat setup it expects:** an entitlement with the identifier `all_parks`, and a current offering whose package (Lifetime if there is one, otherwise the first) holds the unlock product.
 
-To ship it:
+### Test it with RevenueCat's Test Store
 
-1. Create the product in both stores with the same id, for example `tlc_unlock_all`: a non-consumable in App Store Connect, a one-time product in Play Console. Apple needs the Paid Apps agreement, tax and banking first; Play needs a payments profile.
-2. Create a RevenueCat project, add both apps, attach the product to an entitlement called `all_parks`, and copy the public iOS and Android SDK keys.
-3. `npx expo install react-native-purchases` and add a small adapter that calls `setPurchaseProvider()` at startup: `purchase()` buys the offering's package, `restore()` calls `restorePurchases()`, and both return `unlocked` when `all_parks` is active.
-4. Put the SDK keys and `EXPO_PUBLIC_UNLOCK_ENABLED=true` in the EAS environment, then make a new native build. An over-the-air update can't add the purchase SDK.
-5. Update the privacy policy, App Privacy ("Purchases") and Play Data safety ("Purchase history"), and change the content rating answer about in-app purchases.
-6. Test with a sandbox account (TestFlight) and a license tester (Play internal track), including Restore purchases on a fresh install.
+No store accounts needed. Expo Go can't run the purchase SDK, so this needs a development build.
+
+1. In RevenueCat, open the project's Test Store and add a non-subscription product, for example `tlc_unlock_all`, with a price.
+2. Under Product catalog, create an entitlement with the identifier `all_parks` and attach the product.
+3. Under Offerings, make sure there's a current offering (the `default` one is fine) with a Lifetime package holding the product.
+4. Put these in `.env` (and in the EAS environment for the build profile you use):
+   ```
+   EXPO_PUBLIC_UNLOCK_ENABLED=true
+   EXPO_PUBLIC_REVENUECAT_IOS_KEY=<Test Store key>
+   EXPO_PUBLIC_REVENUECAT_ANDROID_KEY=<Test Store key>
+   ```
+5. Make a development build (`eas build --profile development`), install it, and run `npx expo start`.
+6. Open a locked park, buy the unlock (Test Store shows its own test purchase sheet), and check every park opens. Then delete and reinstall the app and use Restore purchases.
+
+Never ship a store build with the Test Store key: the stores reject it.
+
+### Ship it
+
+1. Create the product in both stores with the same id: a non-consumable in App Store Connect, a one-time product in Play Console. Apple needs the Paid Apps agreement, tax and banking first; Play needs a payments profile.
+2. In RevenueCat, add the App Store and Play Store apps, import the store products, attach them to `all_parks`, and add them to the offering's package.
+3. Put the `appl_` and `goog_` keys and `EXPO_PUBLIC_UNLOCK_ENABLED=true` in the EAS production environment, then make a new native build. An over-the-air update can't add the purchase SDK.
+4. Update the privacy policy, App Privacy ("Purchases") and Play Data safety ("Purchase history"), and change the content rating answer about in-app purchases.
+5. Test with a sandbox account (TestFlight) and a license tester (Play internal track), including Restore purchases on a fresh install.
 
 ## Data and Persistence
 
