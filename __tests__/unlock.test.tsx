@@ -4,7 +4,10 @@ import ParkScreen from '../src/screens/ParkScreen';
 import EntryDetailScreen from '../src/screens/EntryDetailScreen';
 import ParkCard from '../src/components/ParkCard';
 import UnlockCard from '../src/components/UnlockCard';
-import { getAllEntries } from '../src/data/query';
+import EntryCard from '../src/components/EntryCard';
+import MapScreen from '../src/screens/MapScreen';
+import { useSettingsStore } from '../src/store/useSettingsStore';
+import { getAllEntries, getParksSummary } from '../src/data/query';
 import { getDestination } from '../src/data/destinations';
 import {
   FREE_PARK_IDS,
@@ -19,7 +22,7 @@ import { useUnlockStore } from '../src/store/useUnlockStore';
 let mockParams: Record<string, string> = {};
 const mockGoBack = jest.fn();
 jest.mock('@react-navigation/native', () => ({
-  useNavigation: () => ({ navigate: jest.fn(), goBack: mockGoBack, push: jest.fn() }),
+  useNavigation: () => ({ navigate: jest.fn(), goBack: mockGoBack, push: jest.fn(), setParams: jest.fn() }),
   useRoute: () => ({ params: mockParams }),
 }));
 
@@ -109,6 +112,43 @@ describe('locked screens', () => {
     render(<ParkCard parkId={LOCKED_PARK} name="Studios" parkKey="studios" count={3} found={0} />);
     expect(screen.getByTestId('park-card-lock')).toBeTruthy();
     expect(screen.getByLabelText(/locked$/)).toBeTruthy();
+  });
+});
+
+describe('locked finds outside their park', () => {
+  const described = getAllEntries().find((e) => e.parkId === LOCKED_PARK && e.description)!;
+
+  it('keeps the answer off a locked find in search and map lists, even with hints off', () => {
+    useSettingsStore.setState({ hintMode: false });
+    render(<EntryCard entry={described} showLocation />);
+    expect(screen.getByTestId('entry-card-locked')).toBeTruthy();
+    expect(screen.queryByText(described.description!)).toBeNull();
+  });
+
+  it('shows the answer again once unlocked', () => {
+    useSettingsStore.setState({ hintMode: false });
+    useUnlockStore.setState({ unlocked: true });
+    render(<EntryCard entry={described} showLocation />);
+    expect(screen.queryByTestId('entry-card-locked')).toBeNull();
+    expect(screen.getByText(described.description!)).toBeTruthy();
+  });
+
+  it('pins no finds of a locked park on the map, and lists them as locked', () => {
+    mockParams = {};
+    render(<MapScreen />);
+    const lockedName = getParksSummary().find((p) => p.parkId === LOCKED_PARK)!.parkName;
+    fireEvent.press(screen.getByText(lockedName));
+    expect(screen.queryAllByTestId('map-marker')).toHaveLength(0);
+    expect(screen.getByText(/in locked parks/)).toBeTruthy();
+    expect(screen.getAllByTestId('entry-card-locked').length).toBeGreaterThan(0);
+  });
+
+  it('pins a free park as usual', () => {
+    mockParams = {};
+    render(<MapScreen />);
+    const freeName = getParksSummary().find((p) => p.parkId === FREE_PARK_IDS[0])!.parkName;
+    fireEvent.press(screen.getByText(freeName));
+    expect(screen.queryAllByTestId('map-marker').length).toBeGreaterThan(0);
   });
 });
 

@@ -21,6 +21,8 @@ import PageHeader from "../components/layout/PageHeader";
 import ParkPicker from "../components/ParkPicker";
 import EntryCard from "../components/EntryCard";
 import ChallengeMapBanner from "../components/ChallengeMapBanner";
+import { useUnlockStore } from "../store/useUnlockStore";
+import { isParkLocked } from "../lib/unlock";
 
 type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 
@@ -149,8 +151,17 @@ export default function MapScreen() {
       ),
     [selectedParkId, challengeIds]
   );
-  const pinned = useMemo(() => visible.filter((e) => e.coordinates), [visible]);
-  const unpinned = useMemo(() => visible.filter((e) => !e.coordinates), [visible]);
+  // A locked park's finds get no pin and no distance, since either one gives
+  // the spot away. They stay in the list under the map as locked cards.
+  const unlocked = useUnlockStore((s) => s.unlocked);
+  const lockedEntries = useMemo(() => visible.filter((e) => isParkLocked(e.parkId, unlocked)), [visible, unlocked]);
+  const open = useMemo(
+    () => (lockedEntries.length === 0 ? visible : visible.filter((e) => !isParkLocked(e.parkId, unlocked))),
+    [visible, lockedEntries, unlocked]
+  );
+  const pinned = useMemo(() => open.filter((e) => e.coordinates), [open]);
+  const unpinnedOnly = useMemo(() => open.filter((e) => !e.coordinates), [open]);
+  const unpinned = useMemo(() => [...unpinnedOnly, ...lockedEntries], [unpinnedOnly, lockedEntries]);
   // Once we know where you are, the list under the map is closest first.
   const nearby = useMemo(() => (position ? sortByDistance(pinned, position) : undefined), [pinned, position]);
   const withinWalk = nearby ? nearby.filter((n) => n.meters <= WALKING_RANGE_METERS).length : 0;
@@ -164,9 +175,10 @@ export default function MapScreen() {
         entry: item,
         trailingLabel: distanceLabel(meters, unitsForRegion(getDestination(item.parkId)?.region)),
       })),
-      ...unpinned.map((entry) => ({ entry, trailingLabel: "No pin yet" })),
+      ...unpinnedOnly.map((entry) => ({ entry, trailingLabel: "No pin yet" })),
+      ...lockedEntries.map((entry) => ({ entry, trailingLabel: "Locked" })),
     ];
-  }, [nearby, unpinned]);
+  }, [nearby, unpinnedOnly, lockedEntries]);
   const renderNearby = useCallback<ListRenderItem<NearbyRow>>(
     ({ item }) => <EntryCard entry={item.entry} showLocation trailingLabel={item.trailingLabel} />,
     []
@@ -293,7 +305,7 @@ export default function MapScreen() {
       ) : (
         <>
           <Text style={styles.summary}>
-            {pinned.length} pinned{unpinned.length > 0 ? `, ${unpinned.length} without a location yet` : ""}. Tap a pin, then its label, for details. Tap the locate button to sort by distance. Long-press the map to copy a spot's coordinates.
+            {pinned.length} pinned{unpinnedOnly.length > 0 ? `, ${unpinnedOnly.length} without a location yet` : ""}{lockedEntries.length > 0 ? `, ${lockedEntries.length} in locked parks` : ""}. Tap a pin, then its label, for details. Tap the locate button to sort by distance. Long-press the map to copy a spot's coordinates.
           </Text>
           {unpinned.length > 0 && (
             <FlatList
