@@ -66,21 +66,33 @@ export default function ParksScreen() {
   const destinations = useMemo(() => getDestinationSummaries(), []);
   const factCounts = useMemo(() => getFactCountsByPark(), []);
 
+  // A destination is worth listing once it has something to open: finds or
+  // facts. A region earns its chip only once it has a find, so the home
+  // screen never offers a region with nothing to hunt (a region-wide fact
+  // alone would otherwise open parks that read "No finds yet"). The chip
+  // appears on its own when the region's first find lands.
+  const hasContent = useCallback(
+    (d: DestinationSummary) => d.count > 0 || (factCounts.get(d.parkId) ?? 0) > 0,
+    [factCounts]
+  );
+  const regions = useMemo(
+    () => REGIONS.filter((r) => destinations.some((d) => d.region === r && d.count > 0)),
+    [destinations]
+  );
+
   // A chosen region shows everything it has, including parks marked "Coming
-  // soon". The All view shows only parks with something to open, finds or
-  // facts, grouped under region headings so the same park name in different
-  // places never reads as a duplicate.
+  // soon". The All view shows only parks with something to open, grouped
+  // under region headings so the same park name in different places never
+  // reads as a duplicate.
   const sections = useMemo(() => {
     if (region) {
       return [{ region, destinations: destinations.filter((d) => d.region === region) }];
     }
-    return REGIONS.map((r) => ({
+    return regions.map((r) => ({
       region: r,
-      destinations: destinations.filter(
-        (d) => d.region === r && (d.count > 0 || (factCounts.get(d.parkId) ?? 0) > 0)
-      ),
-    })).filter((s) => s.destinations.length > 0);
-  }, [destinations, factCounts, region]);
+      destinations: destinations.filter((d) => d.region === r && hasContent(d)),
+    }));
+  }, [destinations, hasContent, region, regions]);
 
   const foundByPark = useMemo(() => {
     const map = new Map<string, number>();
@@ -182,7 +194,7 @@ export default function ParksScreen() {
         {!searching && (
           <FadingScrollRow contentContainerStyle={styles.chips} style={styles.chipRow}>
             <Chip label="All" selected={region === undefined} onPress={() => setRegion(undefined)} />
-            {REGIONS.map((r) => (
+            {regions.map((r) => (
               <Chip key={r} label={r} selected={region === r} onPress={() => setRegion(r)} />
             ))}
           </FadingScrollRow>

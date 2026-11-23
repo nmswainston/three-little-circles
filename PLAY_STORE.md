@@ -34,6 +34,14 @@ checklist, then paste-ready text and answers for the Play Console forms.
    needs a registered business and a D-U-N-S number.
 2. Create the app in Play Console: name "Three Little Circles", app (not
    game), free. The package name is fixed by the first upload.
+
+   Pricing is settled: the app is a free download, and a one-time in-app
+   unlock comes after the beta. Free is the right choice on this form even
+   though the app will earn money, because Google Play never lets a free app
+   become paid; charging later has to happen inside the app. Before the unlock
+   ships, set up a payments profile in Play Console, create the one-time
+   product under Monetize, and update the content rating answer on purchases
+   (see App content below).
 3. EAS environment variables for `production`, as in
    [TESTFLIGHT.md](TESTFLIGHT.md). Android also needs
    `GOOGLE_MAPS_ANDROID_API_KEY` or the Map tab is a grey box.
@@ -154,7 +162,8 @@ login, no demo account needed.
 
 **Content rating:** fill in the questionnaire as a Reference, News, or
 Educational app. Answer no to violence, sexuality, language, controlled
-substances, gambling, and purchases. For "Can users interact or exchange
+substances, gambling, and purchases (switch purchases to yes in the release
+that adds the one-time unlock). For "Can users interact or exchange
 content?" answer no: suggestions go to a private review queue and nobody else
 sees them unless they are published as content. The app shares no location
 with other users. Expect Everyone or the local equivalent.
