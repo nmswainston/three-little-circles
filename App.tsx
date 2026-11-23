@@ -16,6 +16,7 @@ import AchievementToast from "./src/components/AchievementToast";
 import Onboarding from "./src/components/Onboarding";
 import { ThemeProvider, useTheme } from "./src/theme/ThemeProvider";
 import { releaseFocusFromHiddenScreens } from "./src/lib/webFocus";
+import { refreshUnlock } from "./src/lib/useUnlock";
 
 // Keep the native splash up until fonts are ready so the first frame uses them.
 SplashScreen.preventAutoHideAsync().catch(() => {});
@@ -54,6 +55,11 @@ function Root() {
 
   // Web only: keep focus out of screens the stack has hidden.
   useEffect(() => releaseFocusFromHiddenScreens(), []);
+
+  // Pick up an unlock bought on another device. Never takes one away offline.
+  useEffect(() => {
+    refreshUnlock();
+  }, []);
 
   const navigationTheme = useMemo(() => {
     const base = t.dark ? DarkTheme : DefaultTheme;

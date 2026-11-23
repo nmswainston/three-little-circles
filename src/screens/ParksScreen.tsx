@@ -133,6 +133,7 @@ export default function ParksScreen() {
           {item.destinations.map((d) => (
             <ParkCard
               key={d.parkId}
+              parkId={d.parkId}
               name={d.name}
               parkKey={d.parkKey}
               count={d.count}

@@ -230,6 +230,26 @@ When a change like that lands, ship it with `eas build` and a store release,
 not `eas update`. `eas update` prints the runtime version it targets; if it
 matches no build in the stores, nobody will receive it.
 
+## One-time unlock
+
+The app is free with two parks, Magic Kingdom and Disneyland Park. One
+in-app purchase opens every other park, for good. No subscription.
+
+- **Gate:** `EXPO_PUBLIC_UNLOCK_ENABLED=true` turns it on. Off, every park is open.
+- **Free parks:** `FREE_PARK_IDS` in `src/lib/unlock.ts`. Resort hotels, Disney Springs and Downtown Disney are locked like any other destination; add their ids there to keep them free.
+- **What it locks:** a locked park and every find in it, wherever it's opened from (Parks, Map, search). Park cards show a lock.
+- **State:** `src/store/useUnlockStore.ts`, saved on the device so it works offline. A launch check with the store can turn it on, never off.
+- **Purchases:** go through a `PurchaseProvider` (`src/lib/unlock.ts`). Until one is plugged in, the buttons say purchases aren't available.
+
+To ship it:
+
+1. Create the product in both stores with the same id, for example `tlc_unlock_all`: a non-consumable in App Store Connect, a one-time product in Play Console. Apple needs the Paid Apps agreement, tax and banking first; Play needs a payments profile.
+2. Create a RevenueCat project, add both apps, attach the product to an entitlement called `all_parks`, and copy the public iOS and Android SDK keys.
+3. `npx expo install react-native-purchases` and add a small adapter that calls `setPurchaseProvider()` at startup: `purchase()` buys the offering's package, `restore()` calls `restorePurchases()`, and both return `unlocked` when `all_parks` is active.
+4. Put the SDK keys and `EXPO_PUBLIC_UNLOCK_ENABLED=true` in the EAS environment, then make a new native build. An over-the-air update can't add the purchase SDK.
+5. Update the privacy policy, App Privacy ("Purchases") and Play Data safety ("Purchase history"), and change the content rating answer about in-app purchases.
+6. Test with a sandbox account (TestFlight) and a license tester (Play internal track), including Restore purchases on a fresh install.
+
 ## Data and Persistence
 
 Found marks are stored on the device under the key `tlc.found.v1`, badges under
