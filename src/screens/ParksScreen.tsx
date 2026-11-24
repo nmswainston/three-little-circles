@@ -22,6 +22,7 @@ import EmptyState from "../components/ui/EmptyState";
 import Disclaimer from "../components/Disclaimer";
 import BadgeSummaryCard from "../components/BadgeSummaryCard";
 import NearYouCard from "../components/NearYouCard";
+import TodayCard from "../components/TodayCard";
 import { findNearYou } from "../lib/nearYou";
 import { useDeviceLocation } from "../lib/useDeviceLocation";
 import { describeLastViewed } from "../lib/lastViewed";
@@ -164,6 +165,8 @@ export default function ParksScreen() {
             onContinue={() => lastViewed && navigation.navigate("EntryDetail", { entryId: lastViewed.entryId })}
           />
         )}
+
+        {!searching && <TodayCard onOpen={() => navigation.navigate("Today")} />}
 
         {!searching && (
           <BadgeSummaryCard

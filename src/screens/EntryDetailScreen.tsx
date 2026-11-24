@@ -19,6 +19,7 @@ import { notify } from "../lib/notify";
 import { isSupabaseConfigured } from "../lib/supabase";
 import { useFoundStore } from "../store/useFoundStore";
 import { useSettingsStore } from "../store/useSettingsStore";
+import { useTodayStore } from "../store/useTodayStore";
 import { useConfirmationsStore } from "../store/useConfirmationsStore";
 import { useRecentStore } from "../store/useRecentStore";
 import { Theme, useParkPalette, useStyles, useTheme } from "../theme/ThemeProvider";
@@ -126,6 +127,8 @@ function EntryDetailContent() {
   // stable, so selecting it would never re-render this screen on toggle.
   const foundMap = useFoundStore((s) => s.found);
   const toggleFound = useFoundStore((s) => s.toggleFound);
+  const onToday = useTodayStore((s) => s.ids.includes(entryId));
+  const toggleToday = useTodayStore((s) => s.toggle);
   const found = entryId in foundMap;
 
   // Other entries at the same attraction, so sweeping one queue or lobby
@@ -243,15 +246,28 @@ function EntryDetailContent() {
           <Sunburst color={palette.accent} opacity={t.dark ? 0.16 : 0.22} center={{ x: 195, y: -200 + insets.top }} />
           <View style={styles.headerRow}>
             {backButton}
-            <Pressable
-              onPress={() => handleShare().catch(() => {})}
-              accessibilityRole="button"
-              accessibilityLabel="Share this find"
-              hitSlop={8}
-              style={styles.shareButton}
-            >
-              <Ionicons name="share-outline" size={24} color={t.colors.text} />
-            </Pressable>
+            <View style={styles.headerActions}>
+              <Pressable
+                onPress={() => toggleToday(entryId)}
+                accessibilityRole="button"
+                accessibilityState={{ checked: onToday }}
+                accessibilityLabel={onToday ? "On today's list. Tap to remove." : "Add to today's list"}
+                hitSlop={4}
+                style={({ pressed }) => [styles.todayButton, onToday && styles.todayButtonOn, pressed && styles.pressed]}
+              >
+                <Ionicons name={onToday ? "bookmark" : "bookmark-outline"} size={18} color={t.colors.text} />
+                <Text style={styles.todayText}>{onToday ? "On today's list" : "Add to today's list"}</Text>
+              </Pressable>
+              <Pressable
+                onPress={() => handleShare().catch(() => {})}
+                accessibilityRole="button"
+                accessibilityLabel="Share this find"
+                hitSlop={8}
+                style={styles.shareButton}
+              >
+                <Ionicons name="share-outline" size={24} color={t.colors.text} />
+              </Pressable>
+            </View>
           </View>
           {eyebrow.length > 0 && <Text style={[styles.eyebrow, { color: palette.text }]}>{eyebrow}</Text>}
           <Text style={styles.title} accessibilityRole="header">
@@ -493,6 +509,30 @@ const createStyles = (t: Theme) =>
       marginLeft: -12,
       alignItems: "center",
       justifyContent: "center",
+    },
+    headerActions: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.sm,
+    },
+    todayButton: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.sm - 2,
+      minHeight: 44,
+      paddingHorizontal: spacing.md - 2,
+      borderRadius: radii.full,
+      backgroundColor: t.colors.surface,
+      borderWidth: 1,
+      borderColor: t.colors.controlBorder,
+    },
+    todayButtonOn: {
+      backgroundColor: t.colors.surfaceAlt,
+      borderColor: t.colors.text,
+    },
+    todayText: {
+      ...text.chip,
+      color: t.colors.text,
     },
     shareButton: {
       width: 44,
