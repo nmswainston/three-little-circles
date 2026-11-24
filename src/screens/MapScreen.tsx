@@ -12,6 +12,7 @@ import { challengeEntries, getChallenge, sharedParkId } from "../data/challenges
 import { labelOrFallback } from "../data/labels";
 import { Coordinates, HiddenMickeyEntry } from "../data/types";
 import { formatCoordinates } from "../lib/maps";
+import { useOffline } from "../lib/useOffline";
 import { distanceLabel, nearest, sortByDistance, unitsForRegion, WALKING_RANGE_METERS } from "../lib/geo";
 import { useFoundStore } from "../store/useFoundStore";
 import { useSettingsStore } from "../store/useSettingsStore";
@@ -56,6 +57,7 @@ export default function MapScreen() {
   const [locationGranted, setLocationGranted] = useState(false);
   const [locating, setLocating] = useState(false);
   const [position, setPosition] = useState<Coordinates | undefined>();
+  const offline = useOffline();
 
   const handleSelectPark = (parkId: string | undefined) => {
     setFocusId(undefined);
@@ -231,6 +233,14 @@ export default function MapScreen() {
           onClear={() => navigation.setParams({ challengeId: undefined })}
         />
       )}
+      {offline && (
+        <View style={styles.offlineNote} accessible accessibilityRole="alert" accessibilityLiveRegion="polite">
+          <Ionicons name="cloud-offline-outline" size={20} color={t.colors.textSecondary} />
+          <Text style={styles.offlineText}>
+            You're offline. Pins and the list still work, but the map background may not load. Your location does not need a signal.
+          </Text>
+        </View>
+      )}
       <View style={styles.mapContainer}>
         <MapView
           ref={mapRef}
@@ -340,6 +350,24 @@ const createStyles = (t: Theme) =>
     },
     map: {
       flex: 1,
+    },
+    offlineNote: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: spacing.sm,
+      marginHorizontal: spacing.lg,
+      marginBottom: spacing.sm,
+      paddingHorizontal: spacing.md - 2,
+      paddingVertical: spacing.sm,
+      backgroundColor: t.colors.surface,
+      borderRadius: radii.md,
+      borderWidth: 1,
+      borderColor: t.colors.controlBorder,
+    },
+    offlineText: {
+      flex: 1,
+      ...text.bodySmall,
+      color: t.colors.textSecondary,
     },
     controls: {
       position: "absolute",
