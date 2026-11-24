@@ -266,7 +266,7 @@ Never ship a store build with the Test Store key: the stores reject it.
 1. Create the product in both stores with the same id: a non-consumable in App Store Connect, a one-time product in Play Console. Apple needs the Paid Apps agreement, tax and banking first; Play needs a payments profile.
 2. In RevenueCat, add the App Store and Play Store apps, import the store products, attach them to `all_parks`, and add them to the offering's package.
 3. Put the `appl_` and `goog_` keys and `EXPO_PUBLIC_UNLOCK_ENABLED=true` in the EAS production environment, then make a new native build. An over-the-air update can't add the purchase SDK.
-4. Update the privacy policy, App Privacy ("Purchases") and Play Data safety ("Purchase history"), and change the content rating answer about in-app purchases.
+4. Check that the purchase section of `docs/privacy.html` still matches what the app sends, update App Privacy ("Purchases") and Play Data safety ("Purchase history"), and change the content rating answer about in-app purchases.
 5. Test with a sandbox account (TestFlight) and a license tester (Play internal track), including Restore purchases on a fresh install.
 
 ## Data and Persistence
