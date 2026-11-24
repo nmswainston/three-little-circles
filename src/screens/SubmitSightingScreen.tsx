@@ -1,4 +1,4 @@
-import React, { ReactNode, useMemo, useState } from "react";
+import React, { ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import StatusBarScrim, { useScrolledPast } from "../components/layout/StatusBarScrim";
 import {
   ScrollView,
@@ -25,6 +25,14 @@ import { getEntryById } from "../data/query";
 import { labelOrFallback } from "../data/labels";
 import { Difficulty, LocationType } from "../data/types";
 import { useSettingsStore } from "../store/useSettingsStore";
+import { useHydrated } from "../store/useHydrated";
+import {
+  NEW_FIND_DRAFT,
+  draftHasContent,
+  photoDraftKey,
+  readDraft,
+  useDraftStore,
+} from "../store/useDraftStore";
 import { submitSighting, validateSighting, photoSightingInput, LIMITS, SightingInput } from "../lib/submissions";
 import { Theme, useStyles, useTheme } from "../theme/ThemeProvider";
 import { spacing, radii, text } from "../theme/tokens";
@@ -74,6 +82,70 @@ export default function SubmitSightingScreen() {
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | undefined>();
   const [done, setDone] = useState(false);
+  const [restored, setRestored] = useState(false);
+
+  // Whatever has been typed is kept on the device, so losing signal or closing
+  // the app in a park does not cost the guest their suggestion.
+  const draftKey = forEntry ? photoDraftKey(forEntry.id) : NEW_FIND_DRAFT;
+  const draftsReady = useHydrated(useDraftStore);
+  const restoredOnce = useRef(false);
+
+  useEffect(() => {
+    if (!draftsReady || restoredOnce.current) return;
+    restoredOnce.current = true;
+    const draft = readDraft(draftKey);
+    if (!draft) return;
+    if (!forEntry) {
+      if (draft.parkId && destinations.some((d) => d.parkId === draft.parkId)) setParkId(draft.parkId);
+      setAttraction(draft.attraction);
+      setLand(draft.land);
+      setTitle(draft.title);
+      setWhereToLook(draft.whereToLook);
+      setDifficulty(draft.difficulty);
+      setLocationType(draft.locationType);
+    }
+    setNote(draft.note);
+    setContactName(draft.contactName);
+    setCreditOk(draft.creditOk);
+    setRestored(true);
+  }, [draftsReady, draftKey, forEntry, destinations]);
+
+  const latest = { parkId, attraction, land, title, whereToLook, difficulty, locationType, note, contactName, creditOk };
+  const latestRef = useRef(latest);
+  latestRef.current = latest;
+  const finished = useRef(false);
+  finished.current = done;
+
+  const persistDraft = () => {
+    // Wait until the saved draft has been put back, or an empty form would overwrite it.
+    if (!restoredOnce.current || finished.current) return;
+    const current = latestRef.current;
+    if (draftHasContent(current)) useDraftStore.getState().saveDraft(draftKey, current);
+    else useDraftStore.getState().clearDraft(draftKey);
+  };
+
+  const formKey = JSON.stringify(latest);
+  useEffect(() => {
+    if (!draftsReady) return;
+    const timer = setTimeout(persistDraft, 400);
+    return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [formKey, draftsReady]);
+
+  // Leaving the screen inside the delay above still saves what was typed.
+  useEffect(() => persistDraft, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  const discardDraft = () => {
+    useDraftStore.getState().clearDraft(draftKey);
+    setRestored(false);
+    if (!forEntry) {
+      setAttraction("");
+      setLand("");
+      setTitle("");
+      setWhereToLook("");
+    }
+    setNote("");
+  };
 
   const destination = destinations.find((d) => d.parkId === parkId);
 
@@ -147,6 +219,7 @@ export default function SubmitSightingScreen() {
     setSubmitting(false);
     if (result.ok) {
       if (Platform.OS !== "web") Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success).catch(() => {});
+      useDraftStore.getState().clearDraft(draftKey);
       setDone(true);
     } else {
       showError(result.message);
@@ -161,6 +234,7 @@ export default function SubmitSightingScreen() {
     setPhoto(undefined);
     setNote("");
     setError(undefined);
+    setRestored(false);
     setDone(false);
   };
 
@@ -221,6 +295,15 @@ export default function SubmitSightingScreen() {
           </View>
         ) : (
           <View style={styles.body}>
+            {restored && (
+              <View style={styles.draftNote}>
+                <Text style={styles.draftNoteText}>We kept what you typed last time.</Text>
+                <Pressable onPress={discardDraft} accessibilityRole="button" accessibilityLabel="Discard the saved draft" hitSlop={8} style={styles.draftDiscard}>
+                  <Text style={styles.secondaryButtonText}>Discard</Text>
+                </Pressable>
+              </View>
+            )}
+
             {photoMode && (
               <Field label="Find">
                 <View style={styles.findCard}>
@@ -566,6 +649,22 @@ const createStyles = (t: Theme) =>
       flex: 1,
       ...text.bodySmall,
       color: t.colors.text,
+    },
+    draftNote: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "space-between",
+      gap: spacing.md,
+    },
+    draftNoteText: {
+      flex: 1,
+      ...text.bodySmall,
+      color: t.colors.textSecondary,
+    },
+    draftDiscard: {
+      minHeight: 44,
+      justifyContent: "center",
+      paddingHorizontal: spacing.sm,
     },
     honeypot: {
       position: "absolute",
