@@ -17,6 +17,7 @@ import Onboarding from "./src/components/Onboarding";
 import { ThemeProvider, useTheme } from "./src/theme/ThemeProvider";
 import { releaseFocusFromHiddenScreens } from "./src/lib/webFocus";
 import { refreshUnlock } from "./src/lib/useUnlock";
+import { setupRevenueCat } from "./src/lib/revenuecat";
 
 // Keep the native splash up until fonts are ready so the first frame uses them.
 SplashScreen.preventAutoHideAsync().catch(() => {});
@@ -56,8 +57,10 @@ function Root() {
   // Web only: keep focus out of screens the stack has hidden.
   useEffect(() => releaseFocusFromHiddenScreens(), []);
 
-  // Pick up an unlock bought on another device. Never takes one away offline.
+  // Connect purchases (only with the unlock on and a key for this platform),
+  // then pick up an unlock bought on another device. Never takes one away offline.
   useEffect(() => {
+    setupRevenueCat();
     refreshUnlock();
   }, []);
 
