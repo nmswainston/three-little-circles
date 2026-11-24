@@ -1,0 +1,36 @@
+{
+  "id": "dinosaur-entrance-mural-bark-mickey",
+  "parkId": "adventure_park",
+  "landId": "dinosaur_dig_area",
+  "attractionId": "time_rover_dark_ride",
+  "display": {
+    "entryTitle": "Entrance Mural Bark Mickey",
+    "parkName": "Disney's Animal Kingdom",
+    "landName": "DinoLand U.S.A.",
+    "attractionName": "DINOSAUR"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Entrance",
+  "description": "In the mural of Cretaceous Florida wildlife by the entrance, the bark of a painted tree hides a classic three-circle Mickey. The whole wall is busy with animals and foliage, so the tree is easy to look past.",
+  "whereToLook": {
+    "scene": "Wall mural of Florida's Cretaceous-era wildlife at the building entrance",
+    "exactSpot": "The bark of the painted tree in the far left background.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Skip the dinosaurs in front and start at the left edge of the mural, then scan the trunk of the farthest tree.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceUrl": "https://orlandovillas.com/florida-guide/hidden-mickeys-animal-kingdom",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

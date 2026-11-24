@@ -1,0 +1,36 @@
+{
+  "id": "dinosaur-photo-pickup-carnotaurus-jaw-mickey",
+  "parkId": "adventure_park",
+  "landId": "dinosaur_dig_area",
+  "attractionId": "time_rover_dark_ride",
+  "display": {
+    "entryTitle": "Photo Pickup Carnotaurus Jaw Mickey",
+    "parkName": "Disney's Animal Kingdom",
+    "landName": "DinoLand U.S.A.",
+    "attractionName": "DINOSAUR"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Hard",
+  "areaContext": "Post-show",
+  "description": "In the Carnotaurus mural at the photo pickup area, a shadow under a fold in the dinosaur's lower jaw forms a Mickey. It is a dark shape on a dark patch, so it reads as shading until you know to look for it.",
+  "whereToLook": {
+    "scene": "Carnotaurus wall mural at the ride photo pickup area",
+    "exactSpot": "The shadow under a fold in the dinosaur's lower jaw.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Wait for the pickup line to move, then look at the jaw from a few steps back instead of up close.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Dim",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceUrl": "https://orlandovillas.com/florida-guide/hidden-mickeys-animal-kingdom",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

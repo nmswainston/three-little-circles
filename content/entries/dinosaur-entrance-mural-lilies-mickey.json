@@ -1,0 +1,36 @@
+{
+  "id": "dinosaur-entrance-mural-lilies-mickey",
+  "parkId": "adventure_park",
+  "landId": "dinosaur_dig_area",
+  "attractionId": "time_rover_dark_ride",
+  "display": {
+    "entryTitle": "Entrance Mural Water Lilies Mickey",
+    "parkName": "Disney's Animal Kingdom",
+    "landName": "DinoLand U.S.A.",
+    "attractionName": "DINOSAUR"
+  },
+  "entryType": "FIND",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Entrance",
+  "description": "Below the Cretaceous wildlife mural at the entrance, three floating water lilies sit in the classic Mickey arrangement. They are at the bottom of the scene, so most people notice them only after they have looked at the mural above.",
+  "whereToLook": {
+    "scene": "Wall mural of Florida's Cretaceous-era wildlife at the building entrance",
+    "exactSpot": "The three floating water lilies beneath the mural.",
+    "orientation": "Upright"
+  },
+  "bestTip": "Look low, below the animals, and step back far enough to see all three lilies together.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Mixed",
+    "angle": "Straight-on",
+    "crowding": "Medium",
+    "distance": "Medium"
+  },
+  "confidence": "Strong",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceUrl": "https://orlandovillas.com/florida-guide/hidden-mickeys-animal-kingdom",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

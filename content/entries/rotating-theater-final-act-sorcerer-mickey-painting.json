@@ -1,0 +1,35 @@
+{
+  "id": "rotating-theater-final-act-sorcerer-mickey-painting",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "rotating_theater_show",
+  "display": {
+    "entryTitle": "Final Act Sorcerer Mickey Painting",
+    "parkName": "Magic Kingdom",
+    "landName": "Tomorrowland",
+    "attractionName": "Walt Disney's Carousel of Progress"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Easy",
+  "areaContext": "Ride",
+  "description": "In the last scene, the Christmas celebration, an abstract painting of Sorcerer Mickey hangs near the dining room table. It is Mickey himself, not a hidden shape, so it counts as a nod to Disney animation rather than a Hidden Mickey. It is harder to spot than the Christmas-scene Mickeys around it.",
+  "whereToLook": {
+    "scene": "The final scene of the show, the Christmas celebration",
+    "exactSpot": "The abstract painting hanging near the dining room table, seen from the left side of the theater."
+  },
+  "bestTip": "Sit on the left side of the theater and look at the wall by the table.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Left",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "sourceUrl": "https://www.disneydining.com/?p=126597",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}

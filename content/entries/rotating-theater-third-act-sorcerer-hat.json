@@ -1,0 +1,34 @@
+{
+  "id": "rotating-theater-third-act-sorcerer-hat",
+  "parkId": "magic_kingdom_park",
+  "landId": "future_city_area",
+  "attractionId": "rotating_theater_show",
+  "display": {
+    "entryTitle": "Third Act Sorcerer Hat",
+    "parkName": "Magic Kingdom",
+    "landName": "Tomorrowland",
+    "attractionName": "Walt Disney's Carousel of Progress"
+  },
+  "entryType": "FACT",
+  "locationType": "Indoor",
+  "difficulty": "Medium",
+  "areaContext": "Ride",
+  "description": "A Sorcerer Mickey hat sits in the 1940s scene next to the daughter as she works out in the shaking exercise machine. It is a character reference rather than a hidden shape.",
+  "whereToLook": {
+    "scene": "The third scene of the show, the 1940s home, with the daughter in the exercise machine",
+    "exactSpot": "The right side of the stage, beside the daughter in the exercise machine."
+  },
+  "bestTip": "Watch the right side of the stage while the daughter is on the machine.",
+  "viewing": {
+    "motion": "Still",
+    "lighting": "Bright",
+    "angle": "Straight-on",
+    "crowding": "High",
+    "distance": "Medium"
+  },
+  "confidence": "Interpretive",
+  "verification": "Community",
+  "status": "Unverified",
+  "createdAtISO": "2026-10-04T00:00:00.000Z",
+  "updatedAtISO": "2026-10-04T00:00:00.000Z"
+}
