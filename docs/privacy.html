@@ -86,7 +86,7 @@
 <main>
   <p class="eyebrow">Three Little Circles</p>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated 29 September 2026</p>
+  <p class="updated">Last updated 24 November 2026</p>
   <div class="rule"></div>
 
   <div class="card">
@@ -99,7 +99,8 @@
       <li>No account, no sign-in, and no email address are required to use the app.</li>
       <li>Your progress, badges, and settings are stored only on your device.</li>
       <li>Your location is used on your phone to place you on the map. It is never sent anywhere.</li>
-      <li>Apart from a routine check for guide updates when the app opens, nothing leaves your device unless you choose to submit a sighting or report whether a find is still there.</li>
+      <li>Apart from a routine check for guide updates and a check for whether you own the one-time unlock, nothing leaves your device unless you choose to buy the unlock, submit a sighting, or report whether a find is still there.</li>
+      <li>Purchases are made through the App Store or Google Play. The app never sees your name, email, or payment details.</li>
       <li>There is no advertising, no analytics, and no third-party tracking of any kind.</li>
     </ul>
 
@@ -137,11 +138,21 @@
     <h2>Guide updates</h2>
     <p>When the app opens, it asks Expo, the company whose update service delivers new finds and fixes without a store update, whether a newer version of the guide is available, and downloads it if so. The request carries the app's version and platform, the release channel, and a random identifier the update service creates for the install so updates can be rolled out gradually. It carries none of your progress, location, or other personal information. As with any connection, the service sees your IP address.</p>
 
+    <h2>Buying the one-time unlock</h2>
+    <p>Magic Kingdom and Disneyland Park are free. The other parks open with a single purchase made through the App Store or Google Play. Apple or Google takes the payment and handles your payment details under their own privacy policies. The app never sees your name, email address, card, or billing address.</p>
+    <p>The app uses RevenueCat, a purchase management service, to confirm the purchase and to restore it on a new install. When the app opens, and when you buy or restore, it sends RevenueCat:</p>
+    <ul>
+      <li>An anonymous purchase identifier that RevenueCat creates for the install. It is not linked to your name, your email address, or the random identifier described above.</li>
+      <li>The store's record of the unlock, such as the product, the purchase date, and the transaction number.</li>
+      <li>The app version, your device's operating system and version, and your language and region. As with any connection, the service sees your IP address.</li>
+    </ul>
+    <p>RevenueCat uses this only to tell the app whether the unlock is yours. It is not used for advertising or tracking. The app also keeps a note on your device that you own the unlock, so the parks stay open when you are offline.</p>
+
     <h2>Where that data is held</h2>
-    <p>Submissions and reports are stored with Supabase, a hosted database and file storage provider, in a private queue that only the maintainer can read. They are used solely to review and improve the guide. They are never sold, rented, or shared for advertising, and they are not used to build a profile of you.</p>
+    <p>Submissions and reports are stored with Supabase, a hosted database and file storage provider, in a private queue that only the maintainer can read. They are used solely to review and improve the guide. They are never sold, rented, or shared for advertising, and they are not used to build a profile of you. Purchase records are held by RevenueCat and by Apple or Google, under the same limits.</p>
 
     <h2>How long it is kept</h2>
-    <p>A submission is kept while it is under review. If it is published, the field note that results from it becomes part of the content of the app. If it is rejected, it and any attached photo are deleted. Reports on whether finds are still there are kept in aggregate to judge how reliable an entry is.</p>
+    <p>A submission is kept while it is under review. If it is published, the field note that results from it becomes part of the content of the app. If it is rejected, it and any attached photo are deleted. Reports on whether finds are still there are kept in aggregate to judge how reliable an entry is. The record of a purchase is kept so it can be restored on a new install, and you can ask by email for it to be deleted.</p>
 
     <h2>Children</h2>
     <p>The app is not directed at children under 13 and does not knowingly collect personal information from them. Because it requires no account and asks for no personal details, there is normally nothing to collect.</p>
@@ -150,6 +161,7 @@
     <ul>
       <li>Reset your found progress from the Profile tab.</li>
       <li>Revoke location, photo, or camera access in your device settings at any time.</li>
+      <li>Use Restore purchases on the Profile tab to bring back the unlock after reinstalling or on a new phone.</li>
       <li>Delete the app to remove everything stored on your device.</li>
       <li>Email the address below to ask that a sighting you submitted be removed.</li>
     </ul>
